@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-ela-3-1",
+    "courseId": "course-ela-3",
+    "order": 1,
+    "title": "Opinion Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-3-1-3",
+    "unitId": "unit-ela-3-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Organizing an Opinion Paragraph",
+    "gradeLevel": "3",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have an opinion and reasons. Today let's put them together into an organized paragraph, with a clear beginning, middle, and end."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong opinion paragraph has three parts: an opening sentence (your opinion), the middle (your reasons, one at a time), and a closing sentence that wraps it up. Try this structure: 'Students should have a class pet. First, a pet teaches responsibility. Second, caring for a pet can reduce stress. For these reasons, our class should get a pet.' Notice how the closing sentence restates the opinion in a slightly new way."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Opening, reasons, closing — that's the shape of a real opinion paragraph. Tomorrow we'll learn strong linking words that make your writing flow even better."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-3-1-3",
+    "lessonId": "lesson-ela-3-1-3",
+    "objectives": [
+      "Organize an opinion statement, supporting reasons, and a closing sentence into a structured paragraph",
+      "Write a closing sentence that restates the opinion without simply repeating the exact same words"
+    ],
+    "materialsNeeded": ["Printed 'Organizing an Opinion Paragraph' worksheet", "Pencil"],
+    "facilitationScript": "1. Read the class-pet example paragraph together, identifying the opening, reasons, and closing.\n2. Discuss why a closing sentence matters, even though it 'repeats' the opinion.\n3. Using this week's opinion and reasons, build a full paragraph together orally.\n4. Move to the worksheet: write the full opinion paragraph using the structure.\n5. Close by reading the finished paragraph aloud together.",
+    "differentiationTips": [
+      "Struggling: provide sentence starters for each of the three parts (opening, reason 1, reason 2, closing)",
+      "Ready for more: add a third reason to strengthen the paragraph further",
+      "For a child who enjoys reading their work aloud, have them present their paragraph like a mini persuasive speech"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Open-ended writing — check for a clear opening (opinion), at least two organized reasons, and a closing sentence that returns to the opinion.",
+    "standardsRationale": "Organizing an opinion paragraph with a clear structure is a core Grade 3 opinion-writing standard (matching Common Core W.3.1a-d), the payoff for this week's opinion-and-reasons groundwork."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-3-1-3",
+    "lessonId": "lesson-ela-3-1-3",
+    "title": "Organizing an Opinion Paragraph",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a full opinion paragraph using your opinion and reasons from this week: opening, reasons, closing.",
+      "prompts": [
+        { "prompt": "Write your full opinion paragraph below.", "lines": 6 }
+      ]
+    }
+  }
+}

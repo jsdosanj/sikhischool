@@ -1,0 +1,73 @@
+{
+  "unit": {
+    "id": "unit-science-k-1",
+    "courseId": "course-science-k",
+    "order": 1,
+    "title": "Living Things and Their Needs",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-k-1-1",
+    "unitId": "unit-science-k-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Do Plants Need to Grow?",
+    "gradeLevel": "K",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Plants are alive, just like animals and people — and just like us, they need certain things to stay healthy and grow. Today we're investigating: what does a plant actually need?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Plants need three main things: sunlight, water, and soil (which gives them nutrients, a bit like food). If a plant doesn't get enough water, its leaves droop. If it doesn't get enough light, it grows pale and weak, reaching toward any light it can find. Look around your home or yard — can you find a plant? Check whether it looks healthy, and talk about whether it's getting what it needs."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You're a plant scientist now! This week, try watering a plant at home and watching where it's placed — is it getting enough sunlight? Keep checking on it and see what changes."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-k-1-1",
+    "lessonId": "lesson-science-k-1-1",
+    "objectives": [
+      "Name the three basic things plants need to grow: sunlight, water, and soil",
+      "Observe a real plant and describe whether it looks healthy"
+    ],
+    "materialsNeeded": [
+      "Printed 'What Do Plants Need to Grow?' worksheet",
+      "Pencil or crayon",
+      "A real plant to observe, indoors or outdoors (a houseplant, a yard plant, or a grocery-store herb works)"
+    ],
+    "facilitationScript": "1. Ask the child: what do you need to stay healthy and grow? (food, water, sleep) Then ask: do you think plants need things too?\n2. Introduce the three basics: sunlight, water, soil. Explain simply what each one does for a plant.\n3. Go find a real plant together, indoors or outside. Look closely: are the leaves green and perky, or droopy and pale?\n4. Talk through what the plant might be getting or missing based on what you see.\n5. Move to the worksheet: trace each vocabulary word (Sunlight, Water, Soil) and talk through what it does for the plant.\n6. Close by picking a plant at home to check on again in a few days.",
+    "differentiationTips": [
+      "Struggling: focus on just water and sunlight, skip soil/nutrients for now — the concept of soil as 'food' can be confusing at first",
+      "Ready for more: introduce the word 'nutrients' and ask what might happen if a plant got sunlight and water but no soil at all",
+      "For a child who enjoys hands-on activities, start a simple bean-in-a-cup growing experiment to observe over the following weeks"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary tracing and observation activity — there is no right/wrong answer beyond correct word tracing. Check that the child can name all three needs by the end.",
+    "standardsRationale": "Understanding what living things need to survive is a core Kindergarten life-science idea, and hands-on observation of a real plant builds the habit of scientific noticing before formal investigation skills are introduced in later grades."
+  },
+  "worksheet": {
+    "id": "worksheet-science-k-1-1",
+    "lessonId": "lesson-science-k-1-1",
+    "title": "What Do Plants Need to Grow?",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Sunlight", "label": "Helps the plant make its own food" },
+        { "trace": "Water", "label": "Keeps the plant from drying out" },
+        { "trace": "Soil", "label": "Holds the roots and gives nutrients" }
+      ]
+    }
+  }
+}

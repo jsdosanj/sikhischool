@@ -1,0 +1,72 @@
+{
+  "unit": {
+    "id": "unit-ela-k-1",
+    "courseId": "course-ela-k",
+    "order": 1,
+    "title": "Letters and Their Sounds",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-k-1-1",
+    "unitId": "unit-ela-k-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Meeting the Letter S",
+    "gradeLevel": "K",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Letters make sounds, and sounds build words! Today we're meeting one letter and its sound: S. The letter S makes a hissing sound, like air escaping from a balloon: sss."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Say 'sss' together and notice how your tongue sits just behind your teeth. Now try some words that start with that sound: sun, snake, sock, soap. Say each word slowly and stretch out the very first sound: sss-un, sss-nake, sss-ock, sss-oap. Can you think of one more word that starts with the S sound?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great listening! Every time you hear that hissing 'sss' sound at the start of a word, you'll know it probably starts with the letter S."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-k-1-1",
+    "lessonId": "lesson-ela-k-1-1",
+    "objectives": [
+      "Identify the letter S and produce its most common sound (/s/)",
+      "Recognize the /s/ sound at the beginning of familiar words"
+    ],
+    "materialsNeeded": [
+      "Printed 'Meeting the Letter S' worksheet",
+      "Pencil or crayon",
+      "Optional: a few small objects starting with S (sock, spoon, sticker) for a sorting game"
+    ],
+    "facilitationScript": "1. Show the letter S and model its sound: 'sss', like a snake or air escaping a balloon.\n2. Say the sound together five times, exaggerating the hiss.\n3. Say a list of words slowly, stretching the first sound: sun, snake, sock, soap. Ask the child to give a thumbs up when they hear the /s/ sound at the start.\n4. Play a quick sorting game if you have small objects handy: does this word start with /s/ or not?\n5. Move to the worksheet: trace the letter S, then practice writing it once more.\n6. Close by brainstorming one more S word together.",
+    "differentiationTips": [
+      "Struggling: focus only on hearing the sound (no writing yet) — clapping or tapping the table each time they hear /s/ at the start of a word",
+      "Ready for more: ask the child to think of an S word for each letter of a short list of categories (an animal, a food, a color-adjacent word)",
+      "For a child who already writes letters confidently, have them write a full row of S's from memory before tracing"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and sound-recognition activity — there is no right/wrong answer beyond correct letter formation and hearing the /s/ sound.",
+    "standardsRationale": "Letter-sound correspondence (phonemic awareness) is the foundational Kindergarten ELA skill every later decoding and reading-fluency skill builds on."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-k-1-1",
+    "lessonId": "lesson-ela-k-1-1",
+    "title": "Meeting the Letter S",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its sound out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "S", "label": "Capital S — say 'sss', like a snake" },
+        { "trace": "s", "label": "Lowercase s — same sound, smaller letter" }
+      ]
+    }
+  }
+}

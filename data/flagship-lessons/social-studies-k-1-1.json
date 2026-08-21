@@ -1,0 +1,73 @@
+{
+  "unit": {
+    "id": "unit-social-studies-k-1",
+    "courseId": "course-social-studies-k",
+    "order": 1,
+    "title": "Myself and My Community",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-k-1-1",
+    "unitId": "unit-social-studies-k-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Being a Helper in My Community",
+    "gradeLevel": "K",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "A community is any group of people who live, work, or spend time together — your family, your neighborhood, your school. Every community works better when people help each other. Today we're thinking about the helpers in our own community."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Think about people who help your community: a firefighter, a doctor, a teacher, a mail carrier, a crossing guard. But helpers aren't only grown-ups with jobs — you can be a helper too, by following rules that keep everyone safe (like waiting your turn) or by cooperating (working together instead of just by yourself). Talk with your grown-up about one helper you know, and one way you already help your own community."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Every community needs helpers, and you're already one of them. This week, look for one chance to be a helper — at home, at school, or in your neighborhood."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-k-1-1",
+    "lessonId": "lesson-social-studies-k-1-1",
+    "objectives": [
+      "Define 'community' in simple words as a group of people who live, work, or spend time together",
+      "Name at least one community helper and one way the child themself can help their own community"
+    ],
+    "materialsNeeded": [
+      "Printed 'Being a Helper in My Community' worksheet",
+      "Pencil or crayon",
+      "Optional: picture books or photos of community helpers (firefighters, doctors, mail carriers)"
+    ],
+    "facilitationScript": "1. Ask the child to name the people, places, and groups they belong to — family, neighborhood, school, faith community.\n2. Introduce the word 'community' as any group of people who live, work, or spend time together.\n3. Brainstorm community helpers together — jobs like firefighter, doctor, teacher, or mail carrier.\n4. Explain that being a helper isn't only a grown-up job: following rules and cooperating (working together) are ways anyone can help their community.\n5. Move to the worksheet: trace each vocabulary word (Community, Rule, Cooperate) and talk through what it means.\n6. Close by picking one specific way the child can be a helper this week.",
+    "differentiationTips": [
+      "Struggling: focus only on 'community helper' as a job title (firefighter, doctor) rather than the more abstract ideas of rules and cooperation",
+      "Ready for more: ask the child to compare their family community to their school community — what rules are the same, what's different?",
+      "For a child who loves stories, act out a short scenario where cooperating (vs. not cooperating) changes the outcome"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a vocabulary tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can name a helper and a way they help by the end.",
+    "standardsRationale": "Understanding community, rules, and cooperation is the foundational Kindergarten Social Studies civics concept — the starting point for the Skills/Civics/Economics/Geography/History strands built on in later grades."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-k-1-1",
+    "lessonId": "lesson-social-studies-k-1-1",
+    "title": "Being a Helper in My Community",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Community", "label": "A group of people who live, work, or spend time together" },
+        { "trace": "Rule", "label": "Something we agree to do to keep everyone safe" },
+        { "trace": "Cooperate", "label": "Working together instead of just by yourself" }
+      ]
+    }
+  }
+}

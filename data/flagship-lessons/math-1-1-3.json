@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-1-1",
+    "courseId": "course-math-1",
+    "order": 1,
+    "title": "Addition and Subtraction Within 20",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-1-1-3",
+    "unitId": "unit-math-1-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Fact Families: How Addition and Subtraction Connect",
+    "gradeLevel": "1",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned addition and subtraction as two separate skills this week. Today's big idea: they're actually connected! Three numbers can make a whole 'fact family' of related addition and subtraction facts."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Take the numbers 4, 5, and 9. They form a fact family with four related facts: 4 + 5 = 9, 5 + 4 = 9, 9 - 4 = 5, and 9 - 5 = 4. Notice how the same three numbers show up in every equation, just rearranged. If you know one fact in the family, you can figure out the other three! Try building the fact family for 6, 7, and 13."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Seeing addition and subtraction as connected, not separate, is a powerful way to understand numbers. Tomorrow we'll use this connection to solve word problems."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-1-1-3",
+    "lessonId": "lesson-math-1-1-3",
+    "objectives": [
+      "Given three related numbers, write all four facts in their fact family (two addition, two subtraction)",
+      "Explain that addition and subtraction are inverse (opposite) operations connected through the same three numbers"
+    ],
+    "materialsNeeded": ["Printed 'Fact Families' worksheet", "Pencil", "Optional: three index cards with numbers to physically rearrange into different equations"],
+    "facilitationScript": "1. Write 4, 5, 9 and ask the child what equations they can make with these three numbers.\n2. Guide them to all four: 4+5=9, 5+4=9, 9-4=5, 9-5=4.\n3. Point out the pattern: the biggest number is always alone on one side.\n4. Practice building the fact family for 6, 7, 13 together.\n5. Move to the worksheet: complete each fact family.\n6. Close by asking: if you know 8+6=14, what subtraction fact can you figure out without counting?",
+    "differentiationTips": [
+      "Struggling: focus on finding just the two addition facts first, then introduce the two subtraction facts as a second step",
+      "Ready for more: give only ONE fact from a family and ask the child to figure out the other three without being told the three numbers first",
+      "For a child who enjoys hands-on learning, use three number cards and physically rearrange them into each equation"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 4,5,9: 4+5=9, 5+4=9, 9-4=5, 9-5=4. 2. 6,7,13: 6+7=13, 7+6=13, 13-6=7, 13-7=6. 3. 8,9,17: 8+9=17, 9+8=17, 17-8=9, 17-9=8.",
+    "standardsRationale": "Understanding fact families (the relationship between addition and subtraction) is a core Grade 1 standard (Common Core 1.OA.4/1.OA.6) that deepens number sense beyond memorizing isolated facts."
+  },
+  "worksheet": {
+    "id": "worksheet-math-1-1-3",
+    "lessonId": "lesson-math-1-1-3",
+    "title": "Fact Families",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each set of three numbers, write all four facts in the fact family (two addition, two subtraction).",
+      "rows": [
+        { "problem": "4, 5, 9" },
+        { "problem": "6, 7, 13" },
+        { "problem": "8, 9, 17" }
+      ]
+    }
+  }
+}

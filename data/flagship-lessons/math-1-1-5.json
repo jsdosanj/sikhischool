@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-1-1",
+    "courseId": "course-math-1",
+    "order": 1,
+    "title": "Addition and Subtraction Within 20",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-1-1-5",
+    "unitId": "unit-math-1-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Addition and Subtraction Strategies",
+    "gradeLevel": "1",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned counting on, counting back, fact families, and how to solve word problems. Today is review day — no new strategies, just practice putting it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's mix it up: solve an addition problem with counting on, a subtraction problem with counting back, build a fact family, and solve a word problem. Which strategy felt easiest this week? Which one would you like more practice with?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've built a real toolkit of addition and subtraction strategies this week. Next week, we'll keep building on these same skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-1-1-5",
+    "lessonId": "lesson-math-1-1-5",
+    "objectives": [
+      "Demonstrate all four skills practiced this week — counting on, counting back, fact families, and word problems — in one cumulative activity",
+      "Self-identify which strategy feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil"],
+    "facilitationScript": "1. Walk through all four skills in sequence: an addition problem (counting on), a subtraction problem (counting back), a fact family, and a word problem.\n2. Ask which part felt easiest and which felt hardest — this guides next week's pacing.\n3. Move to the worksheet: complete the mixed review problems covering all four skills.\n4. Praise effort and progress across the whole week, not just today's performance.\n5. Close by previewing that next week continues building on these same skills.",
+    "differentiationTips": [
+      "Struggling: spend extra time on whichever single skill felt hardest, rather than requiring equal practice across all four",
+      "Ready for more: ask the child to create and solve their own word problem using a fact family from this week",
+      "For a child who enjoys games, turn this into a quick quiz-show format with the week's problems"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. 7+6=13 (counting on). 2. 12-5=7 (counting back). 3. Fact family for 3,8,11: 3+8=11, 8+3=11, 11-3=8, 11-8=3. 4. Word problem: 6+9=15.",
+    "standardsRationale": "A dedicated review day after a full week of related addition/subtraction strategies matches the platform's established pacing pattern (see every K-unit's Day 5 review lesson) — consolidation before adding more content is essential."
+  },
+  "worksheet": {
+    "id": "worksheet-math-1-1-5",
+    "lessonId": "lesson-math-1-1-5",
+    "title": "Review Day: Addition and Subtraction Strategies",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use this week's strategies to solve each mixed review problem.",
+      "rows": [
+        { "problem": "7 + 6 = ? (use counting on)" },
+        { "problem": "12 - 5 = ? (use counting back)" },
+        { "problem": "Write all four facts in the fact family for 3, 8, 11." },
+        { "problem": "A shop had 6 toys. It got 9 more. How many toys now?" }
+      ]
+    }
+  }
+}

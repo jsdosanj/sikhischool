@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-k-1",
+    "courseId": "course-punjabi-k",
+    "order": 1,
+    "title": "Meeting the Gurmukhi Alphabet",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-k-1-2",
+    "unitId": "unit-punjabi-k-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Two New Letters: ਸ and ਹ",
+    "gradeLevel": "K",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday we met three special letters that carry vowel sounds: ੳ, ਅ, ੲ. Today we meet the next two letters in the Gurmukhi alphabet: ਸ (sassa) and ਹ (haha)."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਸ (sassa) makes a hissing sound, like the English 's'. ਹ (haha) makes a breathy sound, like the English 'h'. Say each name slowly: sass-aa... ha-haa. Notice how ਸ has a curl at the top, and ਹ has a tall straight line with a loop at the bottom."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know five Gurmukhi letters: ੳ, ਅ, ੲ, ਸ, ਹ. Keep practicing their names — tomorrow we'll add three more!"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-k-1-2",
+    "lessonId": "lesson-punjabi-k-1-2",
+    "objectives": [
+      "Recognize and name the letters ਸ (sassa) and ਹ (haha)",
+      "Review the previous lesson's three vowel-bearer letters (ੳ, ਅ, ੲ) alongside the two new letters"
+    ],
+    "materialsNeeded": ["Printed 'Two New Letters' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Quickly review yesterday's three letters (ੳ, ਅ, ੲ) — can the child name all three?\n2. Introduce ਸ and ਹ one at a time, saying each name aloud together three times.\n3. Ask the child to describe each letter's shape in their own words.\n4. Trace each letter in the air before picking up a pencil.\n5. Move to the worksheet: trace each letter, then write it once more on the practice line.\n6. Close by saying all five letters learned so far, in order: ura, aira, iri, sassa, haha.",
+    "differentiationTips": [
+      "Struggling: review only the two new letters today, without requiring perfect recall of yesterday's three",
+      "Ready for more: ask the child to find a word starting with the 's' or 'h' sound in English, and compare the sounds",
+      "For a child who already recognizes the letters, have them write both from memory before tracing"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and recognition activity — check that each traced letter roughly matches the shape shown.",
+    "standardsRationale": "ਸ and ਹ are the next two letters in the traditional Painti Akhari sequence used by Gurmukhi primers, continuing directly from the vowel-bearer letters introduced in the previous lesson."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-k-1-2",
+    "lessonId": "lesson-punjabi-k-1-2",
+    "title": "Two New Letters: ਸ and ਹ",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its name out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਸ", "label": "Sassa — makes a hissing 's' sound" },
+        { "trace": "ਹ", "label": "Haha — makes a breathy 'h' sound" }
+      ]
+    }
+  }
+}

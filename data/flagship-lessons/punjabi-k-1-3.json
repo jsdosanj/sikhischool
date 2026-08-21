@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-k-1",
+    "courseId": "course-punjabi-k",
+    "order": 1,
+    "title": "Meeting the Gurmukhi Alphabet",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-k-1-3",
+    "unitId": "unit-punjabi-k-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Three New Letters: ਕ, ਖ, and ਗ",
+    "gradeLevel": "K",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know five letters so far! Today we start a new row of the Gurmukhi alphabet with three letters that sound related to each other: ਕ (kakka), ਖ (khakha), and ਗ (gagga)."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਕ (kakka) makes a 'k' sound, like in 'kite'. ਖ (khakha) makes a breathier 'kh' sound, pushed out with more air. ਗ (gagga) makes a 'g' sound, like in 'go'. Practice saying all three in a row: ka... kha... ga. Notice they all belong to the same family of sounds, made in the same part of your mouth."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know eight letters! Practice saying all of them in order: ura, aira, iri, sassa, haha, kakka, khakha, gagga."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-k-1-3",
+    "lessonId": "lesson-punjabi-k-1-3",
+    "objectives": [
+      "Recognize and name the letters ਕ (kakka), ਖ (khakha), and ਗ (gagga)",
+      "Notice that these three letters belong to a related sound family (all made in a similar part of the mouth)"
+    ],
+    "materialsNeeded": ["Printed 'Three New Letters' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review all five letters learned so far — can the child name them in order?\n2. Introduce ਕ, ਖ, ਗ one at a time, saying each name aloud together three times.\n3. Practice the sound family together: ka... kha... ga, noticing how similar they feel to say.\n4. Trace each letter in the air before picking up a pencil.\n5. Move to the worksheet: trace each letter, then write it once more on the practice line.\n6. Close by reciting all eight letters learned so far, in order.",
+    "differentiationTips": [
+      "Struggling: focus on just ਕ and ਗ (the two more distinct sounds) before adding ਖ's subtler breathy difference",
+      "Ready for more: ask the child to guess what sound might come next in this row of the alphabet (ਘ and ਙ)",
+      "For a child who enjoys patterns, point out that Gurmukhi organizes consonants into rows of related sounds, unlike the English alphabet"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and recognition activity — check that each traced letter roughly matches the shape shown.",
+    "standardsRationale": "ਕ, ਖ, ਗ begin the first full consonant row of the traditional Painti Akhari sequence, continuing the systematic letter-by-letter progression from the previous two lessons."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-k-1-3",
+    "lessonId": "lesson-punjabi-k-1-3",
+    "title": "Three New Letters: ਕ, ਖ, ਗ",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its name out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਕ", "label": "Kakka — makes a 'k' sound, like in 'kite'" },
+        { "trace": "ਖ", "label": "Khakha — a breathier 'kh' sound" },
+        { "trace": "ਗ", "label": "Gagga — makes a 'g' sound, like in 'go'" }
+      ]
+    }
+  }
+}

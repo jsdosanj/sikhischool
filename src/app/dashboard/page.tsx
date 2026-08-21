@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { getCurrentParent, getChildren } from "@/lib/session";
 import { getEarnedBadges } from "@/lib/badges";
 import AddChildForm from "./AddChildForm";
+import JoinClassroomForm from "./JoinClassroomForm";
 
 export const dynamic = "force-dynamic";
 
@@ -55,6 +56,16 @@ export default async function DashboardPage() {
         )}
         <AddChildForm />
       </section>
+
+      {children.length > 0 && (
+        <section className="mt-8">
+          <h2 className="text-lg font-semibold">Join a classroom</h2>
+          <p className="mt-2 text-sm text-[var(--foreground)]/70">
+            Got a join code from your child&apos;s teacher? Enter it here.
+          </p>
+          <JoinClassroomForm kids={children.map((c) => ({ id: c.id, displayName: c.displayName }))} />
+        </section>
+      )}
     </main>
   );
 }

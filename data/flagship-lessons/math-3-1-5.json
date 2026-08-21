@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-3-1",
+    "courseId": "course-math-3",
+    "order": 1,
+    "title": "Multiplication and Division Facts",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-3-1-5",
+    "unitId": "unit-math-3-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Multiplication and Division",
+    "gradeLevel": "3",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned multiplication as equal groups, arrays, skip counting, division as sharing, and fact families. Today is review day — no new strategies, just practice putting it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's mix it up: write a multiplication equation for equal groups, solve a fact using an array or skip counting, solve a division problem by sharing, and build a fact family. Which part felt easiest this week? Which would you like more practice with?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've built a real multiplication and division toolkit this week. Next week, we'll keep building on these same skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-3-1-5",
+    "lessonId": "lesson-math-3-1-5",
+    "objectives": [
+      "Demonstrate all four skills practiced this week — equal groups, arrays/skip counting, division as sharing, and fact families — in one cumulative activity",
+      "Self-identify which strategy feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil"],
+    "facilitationScript": "1. Walk through all four skills in sequence: equal groups, an array/skip-counting fact, a division-sharing problem, a fact family.\n2. Ask which part felt easiest and which felt hardest — this guides next week's pacing.\n3. Move to the worksheet: complete the mixed review problems.\n4. Praise effort and progress across the whole week, not just today's performance.\n5. Close by previewing that next week continues building on these same skills.",
+    "differentiationTips": [
+      "Struggling: spend extra time on whichever single skill felt hardest, rather than requiring equal practice across all four",
+      "Ready for more: create a new multiplication fact family and solve a related word problem",
+      "For a child who enjoys games, turn this into a quick quiz-show format with the week's problems"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. 5 groups of 4 = 5x4=20. 2. 6x7=42 (array or skip counting). 3. 24÷6=4 (sharing). 4. Fact family for 4,9,36: 4x9=36, 9x4=36, 36÷9=4, 36÷4=9.",
+    "standardsRationale": "A dedicated review day after a full week of related multiplication/division strategies matches the platform's established pacing pattern — consolidation before adding more content is essential."
+  },
+  "worksheet": {
+    "id": "worksheet-math-3-1-5",
+    "lessonId": "lesson-math-3-1-5",
+    "title": "Review Day: Multiplication and Division",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use this week's strategies to solve each mixed review problem.",
+      "rows": [
+        { "problem": "Write and solve the multiplication for 5 groups of 4." },
+        { "problem": "6 x 7 = ? (use an array or skip counting)" },
+        { "problem": "24 ÷ 6 = ? (use sharing)" },
+        { "problem": "Write all four facts in the fact family for 4, 9, 36." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-3-1",
+    "courseId": "course-math-3",
+    "order": 1,
+    "title": "Multiplication and Division Facts",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-3-1-2",
+    "unitId": "unit-math-3-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Multiplication Facts: Arrays and Skip Counting",
+    "gradeLevel": "3",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what multiplication means. Today let's practice two strategies that make multiplication facts easier to learn: arrays and skip counting."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "An array is a neat grid of rows and columns — like 3 rows of 5 dots each, which shows 3 x 5. Draw one and count the total. Skip counting means counting by a number repeatedly: for 6 x 4, skip count by 4 four times: 4, 8, 12, 16. That's 6 x 4 = wait, let's recount: counting by 4, four times gives 4x4=16, but we want 6 groups. Skip count by 4 SIX times instead: 4, 8, 12, 16, 20, 24. So 6 x 4 = 24."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Arrays let you SEE multiplication, and skip counting lets you build up to the answer step by step. Tomorrow we'll flip things around and learn about division."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-3-1-2",
+    "lessonId": "lesson-math-3-1-2",
+    "objectives": [
+      "Represent a multiplication fact as an array (rows x columns)",
+      "Use skip counting to find a multiplication fact's product"
+    ],
+    "materialsNeeded": ["Printed 'Arrays and Skip Counting' worksheet", "Pencil", "Optional: grid paper or small objects for building real arrays"],
+    "facilitationScript": "1. Draw a 3x5 array together (3 rows, 5 dots each) and count the total.\n2. Model skip counting by 4, six times, to solve 6x4.\n3. Practice both strategies with 2-3 more facts together.\n4. Move to the worksheet: solve each fact using either strategy.\n5. Close by asking which strategy (arrays or skip counting) felt more helpful, and why.",
+    "differentiationTips": [
+      "Struggling: focus on just one strategy (arrays, since they're more visual) until it feels solid before introducing skip counting",
+      "Ready for more: practice skip counting by 7s or 8s, which are often trickier than smaller numbers",
+      "For a visual learner, draw every array on grid paper for a clean, countable visual"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 3x5=15. 2. 6x4=24. 3. 7x3=21. 4. 4x8=32.",
+    "standardsRationale": "Arrays and skip counting are core Grade 3 multiplication-fluency strategies (matching Common Core 3.OA.3/3.OA.5) that build real understanding before facts are memorized."
+  },
+  "worksheet": {
+    "id": "worksheet-math-3-1-2",
+    "lessonId": "lesson-math-3-1-2",
+    "title": "Arrays and Skip Counting",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each multiplication fact using an array or skip counting.",
+      "rows": [
+        { "problem": "3 x 5 = ?" },
+        { "problem": "6 x 4 = ?" },
+        { "problem": "7 x 3 = ?" },
+        { "problem": "4 x 8 = ?" }
+      ]
+    }
+  }
+}

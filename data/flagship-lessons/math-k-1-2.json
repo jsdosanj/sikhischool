@@ -1,0 +1,77 @@
+{
+  "unit": {
+    "id": "unit-math-k-1",
+    "courseId": "course-math-k",
+    "order": 1,
+    "title": "Counting & Numbers to 20",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-k-1-2",
+    "unitId": "unit-math-k-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Writing Numbers 0-10",
+    "gradeLevel": "K",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you practiced counting objects out loud. Today we'll practice writing the numbers you counted — turning the number you say into a number you can write down."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Each number has its own shape. Some numbers, like 1 and 7, are made mostly of straight lines. Others, like 0, 6, and 8, are made mostly of curves. Practice writing 0 through 10, saying the number name out loud as you write each one. If a number comes out backwards or a little wobbly, that's completely normal at this age — the goal is recognizing and practicing the shape, not perfect handwriting."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just practiced writing all the numbers from 0 to 10! Tomorrow we'll use numbers to compare groups of things."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-k-1-2",
+    "lessonId": "lesson-math-k-1-2",
+    "objectives": [
+      "Write the numerals 0 through 10 with recognizable, if imperfect, formation",
+      "Say each number's name aloud while writing it, connecting the spoken number to its written form"
+    ],
+    "materialsNeeded": ["Printed 'Writing Numbers 0-10' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Show the child a number and ask them to say its name before writing it.\n2. Model writing 0-10 slowly, narrating the strokes ('down, then curve around' for a 6, for example).\n3. Let the child trace and then write each number on the worksheet, saying its name as they go.\n4. Don't correct minor reversals (like a backwards 3) directly — this is developmentally normal at this age; just keep modeling the correct form.\n5. Close by counting from 0 to 10 together while pointing at each written number.",
+    "differentiationTips": [
+      "Struggling: focus on just 0-5 today, saving 6-10 for extra practice on the review day",
+      "Ready for more: ask the child to write the numbers in a different order (e.g. counting backward from 10)",
+      "For a child who tires of tracing, turn number-writing into a game — write a number in the air, sand, or with a finger on a table"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a tracing and writing-practice activity — there is no right/wrong answer beyond recognizable number formation, not perfect handwriting.",
+    "standardsRationale": "Numeral writing paired with counting is a core Kindergarten number-sense skill — connecting the spoken number sequence (practiced in the previous lesson) to its written symbol is essential before comparing and combining numbers later this week."
+  },
+  "worksheet": {
+    "id": "worksheet-math-k-1-2",
+    "lessonId": "lesson-math-k-1-2",
+    "title": "Writing Numbers 0-10",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each number, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "0", "label": "Zero" },
+        { "trace": "1", "label": "One" },
+        { "trace": "2", "label": "Two" },
+        { "trace": "3", "label": "Three" },
+        { "trace": "4", "label": "Four" },
+        { "trace": "5", "label": "Five" },
+        { "trace": "6", "label": "Six" },
+        { "trace": "7", "label": "Seven" },
+        { "trace": "8", "label": "Eight" },
+        { "trace": "9", "label": "Nine" },
+        { "trace": "10", "label": "Ten" }
+      ]
+    }
+  }
+}

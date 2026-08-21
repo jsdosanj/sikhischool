@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-math-k-1",
+    "courseId": "course-math-k",
+    "order": 1,
+    "title": "Counting & Numbers to 20",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-k-1-4",
+    "unitId": "unit-math-k-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Putting Groups Together: Addition Within 5",
+    "gradeLevel": "K",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've counted, written numbers, and compared groups. Today we'll put two small groups together and count the total — your very first addition!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Gather some small objects. Make a group of 2 and a group of 1. Push them together into one group, and count the total: 1, 2, 3 — three altogether! That's addition: 2 and 1 makes 3. Try a few more with small numbers: 2 and 2, 3 and 1, 1 and 1. Always count the whole combined group at the end to find the total."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just did real addition, using objects you could touch and count! Tomorrow is review day, where we'll practice everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-k-1-4",
+    "lessonId": "lesson-math-k-1-4",
+    "objectives": [
+      "Combine two small groups of objects (totaling 5 or fewer) and count the total to find the sum",
+      "Understand addition informally as 'putting groups together,' before formal plus-sign notation"
+    ],
+    "materialsNeeded": ["Printed 'Putting Groups Together' worksheet", "Pencil or crayon", "Small objects for hands-on combining (blocks, buttons, coins)"],
+    "facilitationScript": "1. Make two small groups of objects (e.g. 2 and 1) and ask the child to guess the total before combining.\n2. Physically push the groups together and count the combined total out loud.\n3. Repeat with 2-3 more pairs, always counting the total after combining.\n4. Introduce that this is called addition — putting groups together to find how many altogether.\n5. Move to the worksheet: for each pair of small groups, write the total.\n6. Close by having the child make up their own addition pair using objects around the room.",
+    "differentiationTips": [
+      "Struggling: keep both starting groups at 1-2 objects so the total never exceeds 4, building confidence before larger sums",
+      "Ready for more: introduce the plus sign (+) and equals sign (=) as symbols for what they've been doing physically",
+      "For a child who enjoys stories, frame each addition as a small story ('2 ducks were swimming, 1 more duck joined — how many ducks now?')"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 3 (2 and 1). 2. 4 (2 and 2). 3. 4 (3 and 1). 4. 2 (1 and 1). 5. 5 (3 and 2).",
+    "standardsRationale": "Informal addition within 5, grounded in physically combining real objects, is a core Kindergarten operations-and-algebraic-thinking skill — it builds directly on this week's counting, numeral-writing, and comparing lessons, completing the arc from counting a single group to combining two groups."
+  },
+  "worksheet": {
+    "id": "worksheet-math-k-1-4",
+    "lessonId": "lesson-math-k-1-4",
+    "title": "Putting Groups Together",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Count each pair of groups together, then write the total.",
+      "rows": [
+        { "problem": "A group of 2 and a group of 1. How many altogether?" },
+        { "problem": "A group of 2 and a group of 2. How many altogether?" },
+        { "problem": "A group of 3 and a group of 1. How many altogether?" },
+        { "problem": "A group of 1 and a group of 1. How many altogether?" },
+        { "problem": "A group of 3 and a group of 2. How many altogether?" }
+      ]
+    }
+  }
+}

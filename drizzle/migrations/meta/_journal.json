@@ -8,6 +8,13 @@
       "when": 1787289485166,
       "tag": "0000_youthful_squirrel_girl",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787324513266,
+      "tag": "0001_happy_silhouette",
+      "breakpoints": true
     }
   ]
 }

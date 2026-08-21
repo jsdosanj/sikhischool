@@ -1,0 +1,11 @@
+# Copy to .dev.vars for local dev — never commit the real file (it's gitignored).
+
+# Resend (magic-link auth email, same account as sikhiuni's "login@dosanjhlabs.com" sender)
+RESEND_API_KEY=
+
+# NextAuth
+NEXTAUTH_SECRET=
+NEXTAUTH_URL=http://localhost:3000
+
+# HMAC secret for the sikhiuni graduation-transfer service-to-service call (Wave 2+)
+SIKHIUNI_TRANSFER_HMAC_SECRET=

@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* Placeholder palette only — the real design system (colors, type scale, the
+   3 age-banded shells) is Wave 1b work, not Wave 0 scaffolding. This just
+   proves the pipeline works and gives the portfolio's saffron/navy family a
+   starting point, consistent with sikhiuni's own token names. */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --color-saffron: #f4b21a;
+  --color-navy: #16335c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-saffron: var(--color-saffron);
+  --color-navy: var(--color-navy);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}

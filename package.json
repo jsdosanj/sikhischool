@@ -1,0 +1,41 @@
+{
+  "name": "sikhischool",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "cf:build": "opennextjs-cloudflare build",
+    "cf:preview": "opennextjs-cloudflare preview",
+    "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate:local": "wrangler d1 execute sikhischool --local --file=./drizzle/migrations/0000_breezy_the_fallen.sql"
+  },
+  "dependencies": {
+    "@auth/drizzle-adapter": "^1.11.3",
+    "drizzle-orm": "^0.45.2",
+    "next": "16.3.1",
+    "next-auth": "^4.24.15",
+    "nodemailer": "^7.0.13",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "resend": "^6.21.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260821.1",
+    "@opennextjs/cloudflare": "^1.20.2",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.10",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.12",
+    "typescript": "^5",
+    "wrangler": "^4.125.0"
+  }
+}

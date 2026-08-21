@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-4-1",
+    "courseId": "course-social-studies-4",
+    "order": 1,
+    "title": "Washington's Land and First Peoples",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-4-1-5",
+    "unitId": "unit-social-studies-4-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Washington's Land and First Peoples",
+    "gradeLevel": "4",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about Washington's first peoples and its land — its regions, mountains, and waterways. Let's review it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Washington has been home to many distinct Indigenous nations since long before statehood, with ongoing relationships to the land today (Day 1). It has four major geographic regions: the Pacific Coast, Puget Sound Lowlands, Cascade Mountains, and Columbia Plateau (Day 2). The Cascade Mountains create a rain shadow, making western Washington rainy and eastern Washington dry (Day 3). The Columbia River and Puget Sound are two of its most important waterways, central to life here for thousands of years (Day 4). On your map, point to each region and waterway as you name it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you now have a real foundation in Washington's geography and a respectful introduction to its first peoples, which future lessons will build on with more specific, in-depth history."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-4-1-5",
+    "lessonId": "lesson-social-studies-4-1-5",
+    "objectives": [
+      "Recall Washington's four geographic regions, the rain shadow effect, and its major waterways",
+      "Recall that Washington has been home to many distinct Indigenous nations since long before statehood"
+    ],
+    "materialsNeeded": ["The map from Day 2", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud, pointing to the map.\n2. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n3. Discuss any mismatches or uncertain answers together before finishing.\n4. Celebrate finishing the first full week of this unit — note that future lessons will go deeper into specific tribal nations and their histories, exactly as Day 1 promised.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets and map as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to explain in their own words why water and land geography would matter to any people living in a region, historically and today",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Washington has been home to many distinct Indigenous nations since long before statehood. 2. The four regions are the Pacific Coast, Puget Sound Lowlands, Cascade Mountains, and Columbia Plateau. 3. The rain shadow effect makes western Washington rainy and eastern Washington dry. 4. The Columbia River and Puget Sound are two of Washington's most important waterways.",
+    "standardsRationale": "Consolidates the week's WA Social Studies Geography and History strand content before the unit moves to more specific tribal-nation history, matching the 'consolidate before adding more' pacing established across this session and the content-sensitivity scoping set in Day 1."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-4-1-5",
+    "lessonId": "lesson-social-studies-4-1-5",
+    "title": "Washington's Land and First Peoples: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "How long have Indigenous nations called Washington home?" },
+        { "problem": "Name Washington's four major geographic regions." },
+        { "problem": "What effect do the Cascade Mountains have on the state's weather?" },
+        { "problem": "Name two of Washington's most important waterways." }
+      ]
+    }
+  }
+}

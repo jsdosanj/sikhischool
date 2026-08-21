@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-math-1-1",
+    "courseId": "course-math-1",
+    "order": 1,
+    "title": "Addition and Subtraction Within 20",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-1-1-2",
+    "unitId": "unit-math-1-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Subtracting Within 20: Counting Back",
+    "gradeLevel": "1",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned counting on for addition. Today we'll learn its partner strategy for subtraction: counting back."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "To count back, start at the bigger number and count down by the number you're subtracting. For 9 - 3: start at 9, then count back three: 8, 7, 6. So 9 - 3 = 6! Try it with 15 - 4: start at 15, count back four: 14, 13, 12, 11. So 15 - 4 = 11. Counting back works best when you're subtracting a small number — for bigger subtraction, other strategies work better, which you'll learn later."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Counting back is the subtraction partner to yesterday's counting on. Together, these two strategies will help you solve lots of addition and subtraction problems!"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-1-1-2",
+    "lessonId": "lesson-math-1-1-2",
+    "objectives": [
+      "Subtract a small number from a larger number within 20 using the counting-back strategy",
+      "Recognize counting back as the subtraction partner to yesterday's counting-on addition strategy"
+    ],
+    "materialsNeeded": ["Printed 'Subtracting Within 20: Counting Back' worksheet", "Pencil", "Optional: a number line or number chart 1-20 for visual support"],
+    "facilitationScript": "1. Review yesterday's counting-on strategy briefly.\n2. Introduce counting back: start at the bigger number, count down by the number being subtracted.\n3. Model 9 - 3 together, counting back on fingers or a number line: 8, 7, 6.\n4. Try 2-3 more examples together.\n5. Mention that counting back works best for subtracting small numbers (1, 2, or 3) — bigger subtraction gets tricky with this method, which is fine to notice now.\n6. Move to the worksheet: solve each problem using counting back.\n7. Close by comparing counting on and counting back — how are they opposite strategies?",
+    "differentiationTips": [
+      "Struggling: keep the number being subtracted very small (1 or 2) until counting back feels comfortable",
+      "Ready for more: try a subtraction problem where the number being subtracted is closer to the total, and discuss why counting back gets harder (too many steps)",
+      "For a child who already knows some subtraction facts by memory, ask them to double-check their memorized answer using counting back"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 9-3=6. 2. 15-4=11. 3. 7-2=5. 4. 10-3=7. 5. 13-2=11.",
+    "standardsRationale": "Counting back is a core Grade 1 subtraction strategy (matching the Common Core 1.OA.5 fluency-building progression), directly paired with yesterday's counting-on addition strategy — together they prepare students for understanding fact families."
+  },
+  "worksheet": {
+    "id": "worksheet-math-1-1-2",
+    "lessonId": "lesson-math-1-1-2",
+    "title": "Subtracting Within 20: Counting Back",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use counting back (start at the bigger number, then count down) to solve each problem.",
+      "rows": [
+        { "problem": "9 - 3 = ?" },
+        { "problem": "15 - 4 = ?" },
+        { "problem": "7 - 2 = ?" },
+        { "problem": "10 - 3 = ?" },
+        { "problem": "13 - 2 = ?" }
+      ]
+    }
+  }
+}

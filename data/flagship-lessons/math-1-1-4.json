@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-math-1-1",
+    "courseId": "course-math-1",
+    "order": 1,
+    "title": "Addition and Subtraction Within 20",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-1-1-4",
+    "unitId": "unit-math-1-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Solving Word Problems Within 20",
+    "gradeLevel": "1",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned counting on, counting back, and fact families this week. Today we'll use all of that to solve word problems — math hiding inside a story."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Try this: 'Amrit had 7 stickers. Her friend gave her 5 more. How many stickers does Amrit have now?' First, figure out: is this an addition or subtraction story? Since Amrit is getting MORE stickers, it's addition: 7 + 5 = 12. Now try: 'There were 14 birds on a fence. 6 flew away. How many birds are left?' Since birds are LEAVING, it's subtraction: 14 - 6 = 8."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "The key to word problems is figuring out the story first — is something being added or taken away? Once you know that, you can use this week's strategies to solve it."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-1-1-4",
+    "lessonId": "lesson-math-1-1-4",
+    "objectives": [
+      "Determine whether a word problem calls for addition or subtraction based on the story's action",
+      "Solve one- and two-step word problems within 20 using this week's counting-on/counting-back strategies"
+    ],
+    "materialsNeeded": ["Printed 'Solving Word Problems' worksheet", "Pencil"],
+    "facilitationScript": "1. Read the sticker word problem together and ask: is Amrit getting more or less? Confirm it's addition.\n2. Solve using counting on from earlier this week.\n3. Read the bird word problem and ask: are the birds increasing or decreasing? Confirm it's subtraction.\n4. Solve using counting back.\n5. Move to the worksheet: read each word problem, decide addition or subtraction, then solve.\n6. Close by having the child make up their own word problem for a partner to solve.",
+    "differentiationTips": [
+      "Struggling: act out each word problem physically with objects before writing any numbers",
+      "Ready for more: try a two-step word problem (e.g. 'had 5, got 4 more, then gave away 3 — how many now?')",
+      "For a child who enjoys stories, let them illustrate each word problem before solving it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 7+5=12 stickers. 2. 14-6=8 birds. 3. 9+6=15 apples. 4. 16-7=9 marbles. 5. 8+8=16 crayons.",
+    "standardsRationale": "Solving word problems within 20, using addition and subtraction, is the core Grade 1 application skill (Common Core 1.OA.1) that this whole week's strategies (counting on, counting back, fact families) have been building toward."
+  },
+  "worksheet": {
+    "id": "worksheet-math-1-1-4",
+    "lessonId": "lesson-math-1-1-4",
+    "title": "Solving Word Problems Within 20",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each word problem, decide if it's addition or subtraction, then solve.",
+      "rows": [
+        { "problem": "Amrit had 7 stickers. Her friend gave her 5 more. How many stickers now?" },
+        { "problem": "There were 14 birds on a fence. 6 flew away. How many birds are left?" },
+        { "problem": "There were 9 apples in a basket. Someone added 6 more. How many apples now?" },
+        { "problem": "Priya had 16 marbles. She gave 7 away. How many marbles are left?" },
+        { "problem": "There were 8 crayons in one box and 8 in another. How many crayons altogether?" }
+      ]
+    }
+  }
+}

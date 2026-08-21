@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-math-1-1",
+    "courseId": "course-math-1",
+    "order": 1,
+    "title": "Addition and Subtraction Within 20",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-1-1-1",
+    "unitId": "unit-math-1-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Adding Within 20: Counting On",
+    "gradeLevel": "1",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last year you added small groups together by counting everything from the start. This year we'll learn a faster way: counting on. It's a strategy real mathematicians use every day!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "To count on, start with the bigger number and count up by the smaller one. For 8 + 3: start at 8, then count up three more: 9, 10, 11. So 8 + 3 = 11! This is much faster than counting all 11 objects from scratch. Try it with 12 + 4: start at 12, count up four: 13, 14, 15, 16. So 12 + 4 = 16."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Counting on is a strategy you'll use constantly in math. Practice starting with the bigger number every time — it saves you counting steps!"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-1-1-1",
+    "lessonId": "lesson-math-1-1-1",
+    "objectives": [
+      "Add two numbers within 20 using the counting-on strategy",
+      "Recognize that starting from the larger number is more efficient than counting both groups from the start"
+    ],
+    "materialsNeeded": ["Printed 'Adding Within 20: Counting On' worksheet", "Pencil", "Optional: a number line or number chart 1-20 for visual support"],
+    "facilitationScript": "1. Review how addition worked last year (counting a whole combined group).\n2. Introduce counting on: start at the bigger number, count up by the smaller one.\n3. Model 8 + 3 together, counting on fingers or a number line: 9, 10, 11.\n4. Try 2-3 more examples together, always identifying the bigger number first.\n5. Move to the worksheet: solve each problem using counting on.\n6. Close by asking the child to explain the counting-on strategy in their own words.",
+    "differentiationTips": [
+      "Struggling: use a physical number line and have the child hop forward the smaller number of times",
+      "Ready for more: try counting-on problems where the numbers are close together (like 9+8) to build fluency with larger jumps",
+      "For a child who already knows some addition facts by memory, ask them to double-check their memorized answer using counting on"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 8+3=11. 2. 12+4=16. 3. 6+5=11. 4. 9+7=16. 5. 14+3=17.",
+    "standardsRationale": "Counting on is a core Grade 1 addition strategy (matching the Common Core 1.OA.5 fluency-building progression) that builds toward memorized addition facts and prepares students for subtraction-as-counting-back later this week."
+  },
+  "worksheet": {
+    "id": "worksheet-math-1-1-1",
+    "lessonId": "lesson-math-1-1-1",
+    "title": "Adding Within 20: Counting On",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use counting on (start at the bigger number, then count up) to solve each problem.",
+      "rows": [
+        { "problem": "8 + 3 = ?" },
+        { "problem": "12 + 4 = ?" },
+        { "problem": "6 + 5 = ?" },
+        { "problem": "9 + 7 = ?" },
+        { "problem": "14 + 3 = ?" }
+      ]
+    }
+  }
+}

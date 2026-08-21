@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-3-1",
+    "courseId": "course-science-3",
+    "order": 1,
+    "title": "Forces and Motion",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-3-1-1",
+    "unitId": "unit-science-3-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Are Forces? Push and Pull",
+    "gradeLevel": "3",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every time you open a door, kick a ball, or pull a wagon, you're using a force. This week we'll investigate forces — the pushes and pulls that make things move."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A force is simply a push or a pull. Pushing a door open, pulling a drawer out, kicking a ball — all forces. Look around your home and find three examples: one push, one pull, and one that could be either depending on how you do it (like opening a door — do you push it or pull it?). For each, notice: what moved, and which direction did the force go?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified real forces acting in your everyday life! Tomorrow we'll investigate what happens when forces work against each other."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-3-1-1",
+    "lessonId": "lesson-science-3-1-1",
+    "objectives": [
+      "Define a force as a push or a pull",
+      "Identify real examples of pushes and pulls in everyday actions"
+    ],
+    "materialsNeeded": ["Printed 'What Are Forces?' worksheet", "Pencil or crayon", "Optional: a ball, a drawer, or a door for hands-on force demonstrations"],
+    "facilitationScript": "1. Ask the child what they think a 'force' is in science.\n2. Introduce push and pull as the two basic kinds of force.\n3. Go on a 'force hunt' around the home, finding real push and pull examples.\n4. Discuss the door example — is opening it a push or a pull? (Depends on which side you're on!)\n5. Move to the worksheet: sort each action as a push or a pull.\n6. Close by finding one more force example together.",
+    "differentiationTips": [
+      "Struggling: focus on very clear-cut examples (kicking a ball = push, pulling a wagon = pull) before tackling ambiguous ones like doors",
+      "Ready for more: discuss whether gravity is a push or a pull (a pull, toward the Earth)",
+      "For a hands-on learner, physically push and pull real objects and describe what happens to their motion"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Kicking a ball = push. 2. Pulling a wagon = pull. 3. Pushing a swing = push. 4. Pulling a rope in tug-of-war = pull.",
+    "standardsRationale": "Understanding forces as pushes and pulls is the foundational Grade 3 standard (matching NGSS 3-PS2) that this week's investigation of balanced/unbalanced forces and motion patterns builds on."
+  },
+  "worksheet": {
+    "id": "worksheet-science-3-1-1",
+    "lessonId": "lesson-science-3-1-1",
+    "title": "What Are Forces?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each action, write whether it is a PUSH or a PULL.",
+      "rows": [
+        { "problem": "Kicking a ball" },
+        { "problem": "Pulling a wagon" },
+        { "problem": "Pushing a swing" },
+        { "problem": "Pulling a rope in tug-of-war" }
+      ]
+    }
+  }
+}

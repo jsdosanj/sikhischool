@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-4-1",
+    "courseId": "course-sikhi-4",
+    "order": 1,
+    "title": "Guru Nanak's Life and Teachings",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-4-1-4",
+    "unitId": "unit-sikhi-4-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Vand Chakko: Sharing with Others",
+    "gradeLevel": "4",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've practiced Naam Japo and reflected on Kirat Karo. Today, the third teaching: Vand Chakko, sharing what you have with others."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Vand Chakko means sharing what you have with others, especially those in need — it's about generosity as a genuine practice, not just an occasional nice gesture. You've already seen Vand Chakko in action at a huge scale: Langar, the free community kitchen you learned about in earlier grades, is Vand Chakko lived out for an entire community. But Vand Chakko also happens in small, everyday ways: sharing your snack with a friend, giving up your turn so someone else can go first, or donating toys or clothes you've outgrown. Think of one way you've practiced Vand Chakko recently, and one new way you could practice it this week."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected Vand Chakko to both a huge community practice (Langar) and small personal choices. Tomorrow we'll review all three teachings together, connecting them back to Guru Nanak's Udasis."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-4-1-4",
+    "lessonId": "lesson-sikhi-4-1-4",
+    "objectives": [
+      "Explain Vand Chakko as sharing what you have with others, especially those in need",
+      "Connect Vand Chakko to both a large-scale example (Langar) and small personal examples"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Kirat Karo reflection.\n2. Introduce Vand Chakko, explicitly connecting it back to Langar from earlier grades as the large-scale example.\n3. Brainstorm small, everyday examples of sharing together.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review, connecting all three teachings back to the Udasis.",
+    "differentiationTips": [
+      "Struggling: focus on just one small, concrete sharing example (like sharing a snack) rather than surveying many",
+      "Ready for more: ask them to explain why Vand Chakko matters even for someone who doesn't have very much to share themselves",
+      "Reconnecting to Langar (already known from earlier grades) is the single most effective anchor for this lesson — don't skip it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Vand Chakko means sharing what you have with others, especially those in need. 2. Langar is a large-scale example of Vand Chakko in practice. 3. Small examples include sharing a snack, giving up a turn, or donating outgrown items.",
+    "standardsRationale": "Deepens the third of the course's three named core teachings (Vand Chakko), completing the 'one deep day per concept' pattern and explicitly reinforcing prior-grade Langar/equality content before Day 5's synthesis."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-4-1-4",
+    "lessonId": "lesson-sikhi-4-1-4",
+    "title": "Vand Chakko: Sharing with Others",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What does Vand Chakko mean?" },
+        { "problem": "What large-scale practice is a real example of Vand Chakko?" },
+        { "problem": "Name one small, everyday way to practice Vand Chakko." }
+      ]
+    }
+  }
+}

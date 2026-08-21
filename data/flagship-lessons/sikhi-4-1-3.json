@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-4-1",
+    "courseId": "course-sikhi-4",
+    "order": 1,
+    "title": "Guru Nanak's Life and Teachings",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-4-1-3",
+    "unitId": "unit-sikhi-4-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Kirat Karo: Honest Living",
+    "gradeLevel": "4",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you practiced Naam Japo. Today, the second teaching: Kirat Karo, earning an honest living through your own effort."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Kirat Karo means earning what you have through honest work — doing your own fair share of effort rather than taking shortcuts, cheating, or relying on others unfairly. For a child, this could mean truly doing your own homework instead of copying, actually practicing an instrument instead of pretending you did, or doing a chore fully instead of rushing through it. Think of one task you did recently — did you put in honest, complete effort, or did you take a shortcut? Write about one way you can practice Kirat Karo this week."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected Kirat Karo to your own real life — honest effort in the things you do every day. Tomorrow we'll go deeper into the third teaching: Vand Chakko, sharing with others."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-4-1-3",
+    "lessonId": "lesson-sikhi-4-1-3",
+    "objectives": [
+      "Explain Kirat Karo as earning an honest living through your own honest effort",
+      "Identify a real, age-appropriate example of practicing (or failing to practice) Kirat Karo"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Naam Japo practice.\n2. Introduce Kirat Karo, using child-appropriate examples (homework, chores, practicing an instrument).\n3. Discuss honestly with the child a recent example of full effort vs. a shortcut, without shaming.\n4. Complete the worksheet, writing one concrete way to practice Kirat Karo this week.\n5. Preview tomorrow's topic: Vand Chakko.",
+    "differentiationTips": [
+      "Struggling: focus on just one clear example (like homework) rather than surveying multiple areas of life",
+      "Ready for more: ask them to explain why honest effort matters even when no one is watching or checking",
+      "Keep this a supportive, reflective conversation rather than a chance to scold about a specific past shortcut"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Kirat Karo means earning what you have through honest, complete effort. 2. Examples include doing your own homework and fully completing a chore rather than rushing. 3. Answers will vary for the child's own commitment this week.",
+    "standardsRationale": "Deepens the second of the course's three named core teachings (Kirat Karo), continuing the 'one deep day per concept' pattern from Day 2's Naam Japo lesson."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-4-1-3",
+    "lessonId": "lesson-sikhi-4-1-3",
+    "title": "Kirat Karo: Honest Living",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What does Kirat Karo mean?" },
+        { "problem": "Name one child-appropriate example of practicing Kirat Karo." },
+        { "problem": "What is one way you will practice Kirat Karo this week?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-sikhi-4-1",
+    "courseId": "course-sikhi-4",
+    "order": 1,
+    "title": "Guru Nanak's Life and Teachings",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-4-1-5",
+    "unitId": "unit-sikhi-4-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Guru Nanak's Life and Teachings",
+    "gradeLevel": "4",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you went deep into all three of Guru Nanak's core teachings. Let's connect them back to the Udasis and review everything together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Guru Nanak's Udasis were his journeys across many lands, teaching people of every background the same core message (Day 1). Naam Japo means remembering God through everyday mindfulness, like a quiet moment of gratitude (Day 2). Kirat Karo means earning what you have through honest, complete effort (Day 3). Vand Chakko means sharing what you have with others, from Langar's huge scale down to small everyday choices (Day 4). Notice: Guru Nanak taught this SAME message wherever he traveled — that's why these three ideas are so central to Sikhi today, no matter where a Sikh lives in the world."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you now understand all three of Guru Nanak's core teachings deeply, and how his Udasis carried this same universal message everywhere he went."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-4-1-5",
+    "lessonId": "lesson-sikhi-4-1-5",
+    "objectives": [
+      "Recall and explain Naam Japo, Kirat Karo, and Vand Chakko in their own words",
+      "Connect the three teachings back to Guru Nanak's Udasis as one consistent, universal message"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Discuss why the same message being taught everywhere (during the Udasis) makes it especially significant.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to explain in their own words why these three teachings work together as one whole way of living, not three separate rules",
+      "This is a good checkpoint to note which day's teaching needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. The Udasis were Guru Nanak's journeys, teaching the same message everywhere he went. 2. Naam Japo = remembering God through everyday mindfulness. 3. Kirat Karo = earning what you have through honest effort. 4. Vand Chakko = sharing what you have with others.",
+    "standardsRationale": "Consolidates the week's three core teachings and reconnects them to the Udasis before the unit moves to a new topic, matching the 'consolidate before adding more' pacing established across this session and directly fulfilling the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-4-1-5",
+    "lessonId": "lesson-sikhi-4-1-5",
+    "title": "Guru Nanak's Life and Teachings: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "What were the Udasis?" },
+        { "problem": "What does Naam Japo mean?" },
+        { "problem": "What does Kirat Karo mean?" },
+        { "problem": "What does Vand Chakko mean?" }
+      ]
+    }
+  }
+}

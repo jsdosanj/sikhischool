@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-4-1",
+    "courseId": "course-sikhi-4",
+    "order": 1,
+    "title": "Guru Nanak's Life and Teachings",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-4-1-2",
+    "unitId": "unit-sikhi-4-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Naam Japo: Remembering God",
+    "gradeLevel": "4",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned Guru Nanak's three core teachings together. Today, let's go deeper into the first one: Naam Japo."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Naam Japo means remembering and meditating on God's name — keeping God present in your mind and heart, not just during formal prayer but throughout everyday life. This doesn't have to mean anything complicated: it can be a quiet moment of gratitude in the morning, a calm breath before starting your day, or simply pausing to notice something beautiful and feeling thankful for it. Try this: take one quiet minute today, sit still, breathe calmly, and think of one thing you're grateful for. That quiet, mindful moment is a simple, real way to practice Naam Japo."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just practiced a real, simple form of Naam Japo. Tomorrow we'll go deeper into the second teaching: Kirat Karo, honest living."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-4-1-2",
+    "lessonId": "lesson-sikhi-4-1-2",
+    "objectives": [
+      "Explain Naam Japo as remembering and meditating on God's name in everyday life",
+      "Practice one simple, concrete form of Naam Japo (a quiet moment of gratitude)"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A quiet space for the 1-minute practice"],
+    "facilitationScript": "1. Review yesterday's overview of all three teachings.\n2. Introduce Naam Japo, explicitly connecting it to everyday mindfulness, not just formal prayer.\n3. Lead the child through the 1-minute quiet gratitude practice together.\n4. Discuss what they noticed or felt during the practice.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: Kirat Karo.",
+    "differentiationTips": [
+      "Struggling: keep the quiet practice very short (30 seconds) and build up gradually over future weeks",
+      "Ready for more: ask them to try the same quiet practice at a different time of day and compare how it felt",
+      "Keep this deliberately experiential and general rather than tied to a specific memorized prayer text, matching the same caution used in the K-Sikhi Simran lesson earlier this session"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Naam Japo means remembering and meditating on God's name. 2. It can be practiced through a quiet moment of gratitude, not only formal prayer. 3. Answers will vary for what the child felt grateful for during the practice.",
+    "standardsRationale": "Deepens the first of the course's three named core teachings (Naam Japo), matching the 'Day 1 overview, then one deep day per concept' pattern used for other multi-part Sikhi units this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-4-1-2",
+    "lessonId": "lesson-sikhi-4-1-2",
+    "title": "Naam Japo: Remembering God",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What does Naam Japo mean?" },
+        { "problem": "Name one simple, everyday way to practice Naam Japo." },
+        { "problem": "What did you feel grateful for during your 1-minute quiet practice?" }
+      ]
+    }
+  }
+}

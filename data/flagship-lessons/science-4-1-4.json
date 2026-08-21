@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-4-1",
+    "courseId": "course-science-4",
+    "order": 1,
+    "title": "Energy and How It Moves",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-4-1-4",
+    "unitId": "unit-science-4-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Devices That Convert Energy",
+    "gradeLevel": "4",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've studied energy transferring and colliding. Today: real devices engineers designed specifically to convert energy from one form into another, on purpose."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A flashlight converts stored chemical energy (from its battery) into light energy (and a little heat). A toaster converts electrical energy into heat energy. A wind-up toy converts the stored mechanical energy from winding its spring into motion energy as it moves. Each of these was designed by engineers on purpose, to convert one kind of energy into a kind that's useful for a specific job. Find one real device at home and identify: what kind of energy goes IN, and what kind of energy comes OUT."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified a real energy-converting device and traced its energy in-to-out. Tomorrow we'll review everything about energy from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-4-1-4",
+    "lessonId": "lesson-science-4-1-4",
+    "objectives": [
+      "Identify real devices that convert energy from one form to another",
+      "Trace a device's energy input and output"
+    ],
+    "materialsNeeded": ["A flashlight, wind-up toy, or other simple household device", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's energy concepts so far (transfer, speed, collisions).\n2. Introduce the flashlight/toaster/wind-up-toy examples, tracing energy in vs. out for each.\n3. Have the child find one more real device at home and trace its energy in/out.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: stick to the 3 given examples (flashlight/toaster/wind-up toy) rather than requiring them to find a new one independently",
+      "Ready for more: ask them to sketch a simple design idea for a device that converts one form of energy into another",
+      "If no simple mechanical devices are available at home, discuss examples vividly using pictures instead"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Flashlight: chemical energy in (battery) -> light energy out. 2. Toaster: electrical energy in -> heat energy out. 3. Wind-up toy: stored mechanical energy in (from winding) -> motion energy out.",
+    "standardsRationale": "Directly addresses NGSS 4-PS3-4: applying scientific ideas to identify (and, in a full engineering unit, design/test/refine) a device that converts energy from one form to another."
+  },
+  "worksheet": {
+    "id": "worksheet-science-4-1-4",
+    "lessonId": "lesson-science-4-1-4",
+    "title": "Energy In, Energy Out",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each device, write the energy that goes IN and the energy that comes OUT.",
+      "rows": [
+        { "problem": "Flashlight: energy in -> energy out?" },
+        { "problem": "Toaster: energy in -> energy out?" },
+        { "problem": "Wind-up toy: energy in -> energy out?" }
+      ]
+    }
+  }
+}

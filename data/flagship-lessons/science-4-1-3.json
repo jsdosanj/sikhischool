@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-4-1",
+    "courseId": "course-science-4",
+    "order": 1,
+    "title": "Energy and How It Moves",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-4-1-3",
+    "unitId": "unit-science-4-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "What Happens When Objects Collide?",
+    "gradeLevel": "4",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned faster objects have more energy. Today, what happens to that energy the moment two objects actually collide?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "When two objects collide, energy transfers between them — the moving object's energy causes a change in the object (or objects) it hits. Think through these predictions before testing them: if a marble rolls into a line of dominoes, what happens to the dominoes? If two balls of the same size collide head-on at the same speed, what happens to each one? If a fast-moving ball hits a much heavier, still object, does the heavy object move as far as a light object would? Test at least one of these predictions with real objects at home, and compare what actually happened to your prediction."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just predicted and tested what happens when moving objects collide — real evidence of energy transferring on impact. Tomorrow we'll look at devices that convert energy from one form into another."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-4-1-3",
+    "lessonId": "lesson-science-4-1-3",
+    "objectives": [
+      "Ask questions and make predictions about the effects of a collision between moving objects",
+      "Test a collision prediction against real evidence and compare"
+    ],
+    "materialsNeeded": ["A marble or ball", "Dominoes or small blocks", "A second ball of similar size (optional)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Day 2's speed-energy connection.\n2. Walk through the 3 collision scenarios as predictions before testing anything.\n3. Test at least one scenario for real, comparing the actual outcome to the prediction.\n4. Discuss why a heavier, still object moves less than a light one when hit with the same energy.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: energy-converting devices.",
+    "differentiationTips": [
+      "Struggling: focus on just the marble-and-dominoes scenario, the most visually clear collision example",
+      "Ready for more: test the heavy-vs-light object scenario and measure roughly how far each one moved",
+      "Encourage genuine prediction-then-test, not just testing directly — the prediction step is where the real thinking happens"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A marble hitting a line of dominoes causes them to fall in sequence — energy transfers from domino to domino. 2. Two equal balls colliding head-on at equal speed generally stop or bounce back, transferring energy between them. 3. A heavy, still object hit by a fast light object moves less far than a light, still object would, because more of its mass resists the same amount of energy.",
+    "standardsRationale": "Directly addresses NGSS 4-PS3-3: asking questions and predicting outcomes about changes in energy that occur when objects collide."
+  },
+  "worksheet": {
+    "id": "worksheet-science-4-1-3",
+    "lessonId": "lesson-science-4-1-3",
+    "title": "Predicting Collisions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each scenario, write your prediction, then what actually happened when you tested it.",
+      "rows": [
+        { "problem": "A marble rolls into a line of dominoes. Prediction, then result:" },
+        { "problem": "Two same-size balls collide head-on at the same speed. Prediction, then result:" },
+        { "problem": "A fast light ball hits a heavy, still object. Prediction, then result:" }
+      ]
+    }
+  }
+}

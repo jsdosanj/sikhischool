@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-3-1",
+    "courseId": "course-ela-3",
+    "order": 1,
+    "title": "Opinion Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-3-1-2",
+    "unitId": "unit-ela-3-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Giving Reasons to Support Your Opinion",
+    "gradeLevel": "3",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you wrote a clear opinion. Today let's make it convincing by adding real reasons — the 'why' behind your belief."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong opinion has at least two or three reasons backing it up. Take the opinion: 'Students should have a class pet.' Reasons might be: it teaches responsibility, it can reduce stress, and it helps students learn about animals. Notice each reason is a real, specific point — not just repeating the opinion in different words. Try writing two reasons for your own opinion from yesterday."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Reasons are what turn an opinion into an argument someone might actually agree with. Tomorrow we'll learn how to organize your opinion and reasons into a real paragraph."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-3-1-2",
+    "lessonId": "lesson-ela-3-1-2",
+    "objectives": [
+      "Write at least two specific, distinct reasons that support a given opinion",
+      "Distinguish a real reason from a restatement of the opinion itself"
+    ],
+    "materialsNeeded": ["Printed 'Giving Reasons' worksheet", "Pencil"],
+    "facilitationScript": "1. Present the class-pet opinion and brainstorm reasons together.\n2. Point out the difference between a real reason and just repeating the opinion.\n3. Practice writing 2-3 reasons for one more shared opinion.\n4. Move to the worksheet: write two reasons for the opinion statement from yesterday.\n5. Close by reading the opinion plus reasons together as a mini-argument.",
+    "differentiationTips": [
+      "Struggling: brainstorm reasons together out loud before asking the child to write them independently",
+      "Ready for more: ask the child to rank their reasons from strongest to weakest and explain why",
+      "For a child who enjoys debate, have them think of a counter-argument and then explain why their reason still holds up"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Open-ended — check that each reason is specific and distinct, not simply a restatement of the opinion.",
+    "standardsRationale": "Supporting an opinion with real reasons is a core Grade 3 opinion-writing standard (matching Common Core W.3.1b), directly building on yesterday's opinion-statement lesson."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-3-1-2",
+    "lessonId": "lesson-ela-3-1-2",
+    "title": "Giving Reasons",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write two specific reasons that support the opinion below.",
+      "prompts": [
+        { "prompt": "Opinion: Students should have a class pet. Reason 1:", "lines": 1 },
+        { "prompt": "Reason 2:", "lines": 1 },
+        { "prompt": "Now write two reasons for your own opinion from yesterday.", "lines": 2 }
+      ]
+    }
+  }
+}

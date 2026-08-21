@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-3-1",
+    "courseId": "course-ela-3",
+    "order": 1,
+    "title": "Opinion Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-3-1-1",
+    "unitId": "unit-ela-3-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is an Opinion? Stating It Clearly",
+    "gradeLevel": "3",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Do you think school should start later in the morning? That's an opinion — your own belief about something. This year, we'll learn to write strong, clear opinions and back them up with real reasons."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "An opinion is what you believe, not a fact everyone would agree is true. 'The sky is blue' is a fact. 'Blue is the best color' is an opinion. A strong opinion statement is clear and specific: instead of 'Recess is good,' try 'Recess should be longer because students need more time to play and recharge.' Practice turning a vague opinion into a clear, specific one."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "A clear opinion statement is the foundation of everything we'll write this week. Tomorrow we'll practice backing up your opinion with real reasons."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-3-1-1",
+    "lessonId": "lesson-ela-3-1-1",
+    "objectives": [
+      "Distinguish an opinion (a belief) from a fact (something verifiably true)",
+      "Write a clear, specific opinion statement rather than a vague one"
+    ],
+    "materialsNeeded": ["Printed 'What Is an Opinion?' worksheet", "Pencil"],
+    "facilitationScript": "1. Present a few statement pairs and ask the child to sort them into fact vs. opinion.\n2. Introduce the qualities of a strong opinion statement: clear and specific.\n3. Practice turning a vague opinion ('Recess is good') into a specific one together.\n4. Move to the worksheet: sort statements into facts/opinions, then write one specific opinion statement.\n5. Close by having the child share their opinion statement and explain why it's specific.",
+    "differentiationTips": [
+      "Struggling: provide a sentence starter ('___ should ___ because ___') to scaffold the opinion statement",
+      "Ready for more: ask the child to write two different opinions about the same topic, from different angles",
+      "For a child who enjoys debate, have them state an opinion and then briefly argue the opposite side too"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 'The sun rises in the east' = fact. 2. 'Summer is the best season' = opinion. 3. 'Dogs make better pets than cats' = opinion. 4. 'A triangle has three sides' = fact. Opinion statement: open-ended, check for clarity and specificity.",
+    "standardsRationale": "Writing a clear, specific opinion statement is the foundational Grade 3 opinion-writing standard (matching Common Core W.3.1a) that reasons, organization, and vocabulary this week all build on."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-3-1-1",
+    "lessonId": "lesson-ela-3-1-1",
+    "title": "What Is an Opinion?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Sort each statement as FACT or OPINION, then write your own clear, specific opinion statement.",
+      "prompts": [
+        { "prompt": "'The sun rises in the east.' Fact or opinion?", "lines": 1 },
+        { "prompt": "'Summer is the best season.' Fact or opinion?", "lines": 1 },
+        { "prompt": "Write your own clear, specific opinion statement about something you care about.", "lines": 2 }
+      ]
+    }
+  }
+}

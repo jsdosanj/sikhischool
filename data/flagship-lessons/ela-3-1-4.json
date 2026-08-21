@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-3-1",
+    "courseId": "course-ela-3",
+    "order": 1,
+    "title": "Opinion Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-3-1-4",
+    "unitId": "unit-ela-3-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Linking Words: Making Writing Flow",
+    "gradeLevel": "3",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You wrote a full opinion paragraph yesterday. Today let's learn special vocabulary — linking words — that make your reasons connect smoothly instead of feeling like a list."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Linking words include: because, for example, also, in addition, and for these reasons. Compare: 'Pets teach responsibility. Pets reduce stress.' versus 'Pets teach responsibility. In addition, they can reduce stress.' The second version flows better! Try rewriting two sentences from your own paragraph, adding a linking word to connect them."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Linking words are small changes that make a big difference in how smoothly your writing reads. Tomorrow is review day — we'll polish and finish a complete opinion paragraph."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-3-1-4",
+    "lessonId": "lesson-ela-3-1-4",
+    "objectives": [
+      "Recognize and use linking words (because, for example, also, in addition, for these reasons) to connect ideas",
+      "Revise a pair of choppy sentences by adding an appropriate linking word"
+    ],
+    "materialsNeeded": ["Printed 'Linking Words' worksheet", "Pencil"],
+    "facilitationScript": "1. Read the two pet-sentence examples aloud and discuss which flows better and why.\n2. Introduce the list of linking words together.\n3. Practice adding a linking word to 2-3 choppy sentence pairs.\n4. Move to the worksheet: revise sentences from their own paragraph using linking words.\n5. Close by reading the revised paragraph aloud, noticing the improved flow.",
+    "differentiationTips": [
+      "Struggling: provide a short list of 2-3 linking words to choose from, rather than the full list at once",
+      "Ready for more: challenge the child to use a different linking word for each reason in their paragraph",
+      "For a child who enjoys precision, discuss which linking word fits best in each specific spot and why"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Open-ended revision — check that the added linking word makes grammatical sense and genuinely improves the connection between the two sentences.",
+    "standardsRationale": "Using linking words is a core Grade 3 opinion-writing standard (matching Common Core W.3.1c) that makes reasons within a paragraph connect clearly, completing this week's opinion-writing toolkit."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-3-1-4",
+    "lessonId": "lesson-ela-3-1-4",
+    "title": "Linking Words",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Rewrite each sentence pair using a linking word to connect them smoothly.",
+      "prompts": [
+        { "prompt": "Pets teach responsibility. Pets reduce stress. (Rewrite with a linking word.)", "lines": 2 },
+        { "prompt": "Recess helps students focus. Recess is fun. (Rewrite with a linking word.)", "lines": 2 }
+      ]
+    }
+  }
+}

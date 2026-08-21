@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { eq, and } from "drizzle-orm";
 import { getDb } from "@/lib/db";
 import { getCurrentParent } from "@/lib/session";
+import { awardEligibleBadges } from "@/lib/badges";
 import { childProfiles, studentProgress, lessons } from "../../../../drizzle/schema";
 
 // Marks a lesson complete for one of the signed-in parent's children.
@@ -59,5 +60,7 @@ export async function POST(request: Request) {
     });
   }
 
-  return NextResponse.json({ ok: true });
+  const newlyEarnedBadges = await awardEligibleBadges(childProfileId);
+
+  return NextResponse.json({ ok: true, newlyEarnedBadges });
 }

@@ -1,5 +1,6 @@
 import { redirect } from "next/navigation";
 import { getCurrentParent, getChildren } from "@/lib/session";
+import { getEarnedBadges } from "@/lib/badges";
 import AddChildForm from "./AddChildForm";
 
 export const dynamic = "force-dynamic";
@@ -9,6 +10,7 @@ export default async function DashboardPage() {
   if (!parent) redirect("/login");
 
   const children = await getChildren(parent.id);
+  const badgesByChild = await Promise.all(children.map((c) => getEarnedBadges(c.id)));
 
   return (
     <main className="mx-auto max-w-2xl flex-1 p-8">
@@ -25,7 +27,7 @@ export default async function DashboardPage() {
           </p>
         ) : (
           <ul className="mt-3 flex flex-col gap-2">
-            {children.map((child) => (
+            {children.map((child, i) => (
               <li
                 key={child.id}
                 className="rounded-lg border border-[var(--foreground)]/15 p-3 text-sm"
@@ -34,6 +36,19 @@ export default async function DashboardPage() {
                 <span className="text-[var(--foreground)]/60">
                   &middot; {child.gradeLevel === "K" ? "Kindergarten" : `Grade ${child.gradeLevel}`}
                 </span>
+                {badgesByChild[i].length > 0 && (
+                  <div className="mt-2 flex flex-wrap gap-1.5">
+                    {badgesByChild[i].map((b) => (
+                      <span
+                        key={b.key}
+                        className="rounded-full bg-[var(--color-saffron)]/15 px-2 py-0.5 text-xs font-medium"
+                        title={`Chardi Kala Path · ${b.tier}`}
+                      >
+                        {b.title}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </li>
             ))}
           </ul>

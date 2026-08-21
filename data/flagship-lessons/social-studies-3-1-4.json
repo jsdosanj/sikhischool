@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-3-1",
+    "courseId": "course-social-studies-3",
+    "order": 1,
+    "title": "Communities Around the World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-3-1-4",
+    "unitId": "unit-social-studies-3-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Comparing Communities: My Home and a Punjab Village",
+    "gradeLevel": "3",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You now know the three-part community framework (people, environment, traditions) and real facts about Punjab's geography. Today, put them together to make a real comparison."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Many Punjab villages are farming communities — families often grow wheat or rice, live close to relatives, and gather for large community celebrations tied to the harvest season, like Vaisakhi in the spring. Compare that to your own community using the same three-part framework: How is the environment different (rivers and farmland vs. your own surroundings)? How might the way people work be different (farming vs. the jobs in your own community)? How are traditions similar or different (a harvest celebration vs. celebrations you take part in)? Remember: different does not mean better or worse — just genuinely different ways of living."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just made a real, respectful comparison between two communities using the same three-part framework all week. Tomorrow we'll review everything you've learned."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-3-1-4",
+    "lessonId": "lesson-social-studies-3-1-4",
+    "objectives": [
+      "Compare their own community to a Punjab farming community using the people/environment/traditions framework",
+      "Explain that cultural differences are not a ranking of better or worse"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the people/environment/traditions framework and Punjab's geography facts from earlier this week.\n2. Introduce Punjab villages as often farming-based communities, with Vaisakhi as one real, well-known spring harvest celebration.\n3. Guide the comparison for each of the three framework categories, out loud.\n4. Explicitly discuss: different does not mean better or worse.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: complete just one category (e.g. traditions) in depth rather than all three",
+      "Ready for more: research one more real fact about Punjab village life to add to the comparison",
+      "If the child has a personal/family connection to Punjab, invite them to share what they already know — treat their knowledge as valuable, not just this lesson's content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary, but should show a genuine comparison across all three categories (people/environment/traditions) using real facts from this week, without any value judgment of one community being better than the other.",
+    "standardsRationale": "Culminating C3 Framework Geography/Culture comparison activity, applying the whole week's framework to a real place rather than an abstract example — matches the course's own 'South Asia and Punjab' description."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-3-1-4",
+    "lessonId": "lesson-social-studies-3-1-4",
+    "title": "Comparing Two Communities",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Compare your own community to a Punjab farming community for each category.",
+      "prompts": [
+        { "prompt": "How is the environment (land, water) different or similar?", "lines": 3 },
+        { "prompt": "How might the work people do be different or similar?", "lines": 3 },
+        { "prompt": "How are the traditions/celebrations different or similar?", "lines": 3 }
+      ]
+    }
+  }
+}

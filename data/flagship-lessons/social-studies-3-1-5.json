@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-3-1",
+    "courseId": "course-social-studies-3",
+    "order": 1,
+    "title": "Communities Around the World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-3-1-5",
+    "unitId": "unit-social-studies-3-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Communities Around the World",
+    "gradeLevel": "3",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a real toolkit for understanding any community in the world — your own or one far away. Let's review it all."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: every community has people, environment, and traditions (Day 1). Culture includes language, food, clothing, art, and celebrations (Day 2). Punjab is a real South Asian region named for its five rivers, divided between India and Pakistan, and known as a farming 'breadbasket' (Day 3). You compared your own community to a Punjab farming community, finding real similarities and differences without ranking either as better (Day 4). Use this same three-part framework (people, environment, traditions) the next time you learn about any new place — it works for any community anywhere."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you now have a real framework for understanding communities and cultures anywhere in the world, and real knowledge of one specific place: Punjab."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-3-1-5",
+    "lessonId": "lesson-social-studies-3-1-5",
+    "objectives": [
+      "Recall the people/environment/traditions community framework and the culture vocabulary from the week",
+      "Recall real geographic facts about Punjab"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n3. Discuss any mismatches or uncertain answers together before finishing.\n4. Celebrate finishing the first full week of this unit — remind the child this same framework will return in future world-communities units.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to apply the framework to a third community (real or hypothetical) not covered this week",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. People, environment, and traditions. 2. Language, food, clothing, art/music, and celebrations. 3. 'Land of five rivers.' 4. A place that grows far more food than its own people need — a 'breadbasket.'",
+    "standardsRationale": "Consolidates the week's C3 Framework Geography and Culture content before the unit moves to a new topic, matching the 'consolidate before adding more' pacing established in every other unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-3-1-5",
+    "lessonId": "lesson-social-studies-3-1-5",
+    "title": "Communities Around the World: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "What three things does every community share?" },
+        { "problem": "Name three parts of culture." },
+        { "problem": "What does the name 'Punjab' mean?" },
+        { "problem": "What do we call a place that grows far more food than its people need?" }
+      ]
+    }
+  }
+}

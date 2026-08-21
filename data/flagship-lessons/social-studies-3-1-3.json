@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-3-1",
+    "courseId": "course-social-studies-3",
+    "order": 1,
+    "title": "Communities Around the World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-3-1-3",
+    "unitId": "unit-social-studies-3-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Exploring Punjab: Land of Five Rivers",
+    "gradeLevel": "3",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Today we travel (on the map!) to a real place: Punjab, a region in South Asia. Its name gives you a clue about its geography before you even learn anything else."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Punjab is a region in South Asia, on the continent of Asia. Its name comes from words meaning 'five rivers' — historically, five rivers (the Sutlej, Beas, Ravi, Chenab, and Jhelum) flow through the wider Punjab region. Today, Punjab is divided between two countries: India and Pakistan, each with a Punjab region of its own. All that water makes the land very fertile — Punjab grows huge amounts of wheat and rice, so much that it's often called a 'breadbasket,' a place that produces enough food to feed far more people than live there. Find Asia on a world map or globe, and if you can, locate India and Pakistan."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned real geography about Punjab: its name, its rivers, and why it's such an important farming region. Tomorrow we'll compare Punjab's community and culture to your own."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-3-1-3",
+    "lessonId": "lesson-social-studies-3-1-3",
+    "objectives": [
+      "Locate Punjab and South Asia on a map",
+      "Explain why Punjab is called 'land of five rivers' and why that makes it strong farmland"
+    ],
+    "materialsNeeded": ["A world map, atlas, or globe (a printed map image also works)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce Punjab's name meaning ('five rivers') as a geography clue.\n2. Locate Asia, then South Asia, then India and Pakistan on a map together.\n3. Discuss how the five rivers make the land fertile, and what 'breadbasket' means.\n4. Complete the worksheet.\n5. Preview tomorrow's comparison between the child's own community and a Punjab community.",
+    "differentiationTips": [
+      "Struggling: focus only on 'Punjab has lots of rivers, so its farms grow lots of food' without requiring the five rivers to be named individually",
+      "Ready for more: research one specific crop Punjab is known for growing and why the climate/rivers support it",
+      "Scoped deliberately to geography only this lesson — Punjab's history and the story of the Sikh Panth are covered in the Sikhi course, not duplicated here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Punjab means 'land of five rivers.' 2. Punjab is located in South Asia, divided between India and Pakistan. 3. Punjab is called a 'breadbasket' because its fertile, well-watered land produces huge amounts of wheat and rice.",
+    "standardsRationale": "Builds real geographic knowledge of South Asia/Punjab (C3 Framework Geography dimension) as a factual foundation before Day 4's cultural comparison — deliberately scoped to geography/agriculture, not history, which the Sikhi course covers separately."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-3-1-3",
+    "lessonId": "lesson-social-studies-3-1-3",
+    "title": "Exploring Punjab",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Punjab in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What does the name 'Punjab' mean?" },
+        { "problem": "What two countries is Punjab divided between today?" },
+        { "problem": "Why is Punjab often called a 'breadbasket'?" }
+      ]
+    }
+  }
+}

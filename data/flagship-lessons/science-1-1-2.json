@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-1-1",
+    "courseId": "course-science-1",
+    "order": 1,
+    "title": "Light and Sound",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-1-1-2",
+    "unitId": "unit-science-1-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "What Is Sound? How Is It Made?",
+    "gradeLevel": "1",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday we investigated light. Today let's investigate a different kind of energy: sound. Have you ever wondered what's actually happening when something makes a sound?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Sound happens when something vibrates — moves back and forth really fast. Try this: stretch a rubber band and pluck it. You can actually see it vibrating, and you hear the sound it makes. Now gently touch your throat while you hum — can you feel it vibrating? That's your vocal cords making sound! Try a few more things around your home: a drum, a table (tap it), a glass with water in it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Every sound you've ever heard was made by something vibrating. Tomorrow we'll explore how people use light and sound to send messages to each other."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-1-1-2",
+    "lessonId": "lesson-science-1-1-2",
+    "objectives": [
+      "Explain that sound is produced by vibrating matter",
+      "Observe and describe a real vibration (a rubber band, a drum, vocal cords) that produces sound"
+    ],
+    "materialsNeeded": ["Printed 'What Is Sound?' worksheet", "Pencil or crayon", "A rubber band and something to tap (a drum, table, or pot) for hands-on vibration demonstrations"],
+    "facilitationScript": "1. Ask the child what they think happens inside something that's making a sound.\n2. Demonstrate with a stretched rubber band — pluck it and watch/feel the vibration while it makes sound.\n3. Have the child touch their own throat while humming to feel their vocal cords vibrate.\n4. Try 2-3 more vibration examples together (tapping a table, a drum, a glass of water).\n5. Move to the worksheet: trace each vocabulary word and talk through its meaning.\n6. Close by finding one more vibrating, sound-making object together.",
+    "differentiationTips": [
+      "Struggling: focus on just the rubber band demonstration, since it's the most visually obvious vibration",
+      "Ready for more: discuss how a bigger or faster vibration might change the sound (louder, higher-pitched)",
+      "For a hands-on learner, turn this into a mini investigation — test several household objects and record which ones vibrate"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary tracing and observation activity — there is no right/wrong answer beyond correct word tracing. Check that the child can describe at least one real vibration they observed.",
+    "standardsRationale": "Understanding that sound is caused by vibrations is a core Grade 1 physical-science idea (matching the NGSS 1-PS4 Waves: Light and Sound standard), directly paired with yesterday's introduction to light."
+  },
+  "worksheet": {
+    "id": "worksheet-science-1-1-2",
+    "lessonId": "lesson-science-1-1-2",
+    "title": "What Is Sound?",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Sound", "label": "Made when something vibrates" },
+        { "trace": "Vibrate", "label": "Move back and forth really fast" }
+      ]
+    }
+  }
+}

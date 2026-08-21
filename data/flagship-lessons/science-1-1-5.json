@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-1-1",
+    "courseId": "course-science-1",
+    "order": 1,
+    "title": "Light and Sound",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-1-1-5",
+    "unitId": "unit-science-1-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Light and Sound",
+    "gradeLevel": "1",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you became a real light-and-sound scientist! You investigated light sources, vibrations, communication, and materials. Today is review day."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's put it all together: where does light come from? What makes sound? How do people use light and sound to send messages? What's the difference between transparent and opaque? Try answering each question from memory first, then check together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you built real scientific understanding of light and sound! Next week, we'll keep exploring more about our world."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-1-1-5",
+    "lessonId": "lesson-science-1-1-5",
+    "objectives": [
+      "Recall and explain, in simple words, all four concepts from this week (light sources, vibration/sound, light/sound communication, transparent/opaque)",
+      "Self-identify which concept feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Ask the four big review questions one at a time, letting the child answer from memory first.\n2. Check answers together against what was learned this week.\n3. Move to the worksheet: complete the mixed review questions covering all four days.\n4. Praise effort and progress across the whole week, not just today's recall.\n5. Close by previewing that next week continues exploring science together.",
+    "differentiationTips": [
+      "Struggling: focus review time on whichever single concept felt hardest, rather than requiring equal recall of all four",
+      "Ready for more: ask the child to design their own mini-investigation using light or sound, to try later this week",
+      "For a hands-on learner, repeat one of this week's demonstrations (the rubber band or flashlight) one more time as a hands-on review"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which of the four concepts the child recalled confidently vs. needed prompting for, to guide next week's pacing.",
+    "standardsRationale": "A dedicated review day after a full week of related NGSS light-and-sound concepts matches the platform's established pacing pattern — consolidation before adding more content is essential at this age."
+  },
+  "worksheet": {
+    "id": "worksheet-science-1-1-5",
+    "lessonId": "lesson-science-1-1-5",
+    "title": "Review Day: Light and Sound",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each review question in your own words.",
+      "rows": [
+        { "problem": "Where does light come from?" },
+        { "problem": "What makes a sound happen?" },
+        { "problem": "Name one way people use light or sound to send a message." },
+        { "problem": "What is the difference between transparent and opaque?" }
+      ]
+    }
+  }
+}

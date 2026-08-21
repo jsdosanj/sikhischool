@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-1-1",
+    "courseId": "course-science-1",
+    "order": 1,
+    "title": "Light and Sound",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-1-1-1",
+    "unitId": "unit-science-1-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is Light? Where Does It Come From?",
+    "gradeLevel": "1",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Look around you right now — you can see everything in the room because of light. But have you ever thought about where that light actually comes from?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Light always comes from a source — something that makes its own light. The sun is the biggest light source we know. Lamps, flashlights, and candles are light sources too. Here's an important idea: we can only see things when light from a source reaches our eyes, either directly or bouncing off an object. Walk around your home and find three different light sources. What do they have in common?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Every single thing you see today, you're seeing because of light traveling from a source to your eyes. Tomorrow we'll investigate a different kind of energy: sound."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-1-1-1",
+    "lessonId": "lesson-science-1-1-1",
+    "objectives": [
+      "Identify that light comes from a source (the sun, lamps, flashlights, etc.)",
+      "Explain that we can only see objects when light reaches our eyes, either directly from a source or reflected off the object"
+    ],
+    "materialsNeeded": ["Printed 'What Is Light?' worksheet", "Pencil or crayon", "A flashlight for a simple demonstration"],
+    "facilitationScript": "1. Ask the child how we're able to see things right now.\n2. Introduce that light comes from a source, and name a few together (sun, lamp, flashlight).\n3. Demonstrate with a flashlight: turn off the lights in a dark room/closet and show that nothing is visible until the flashlight (the light source) is turned on.\n4. Go on a 'light source hunt' around the home, finding three real examples.\n5. Move to the worksheet: trace each vocabulary word and talk through its meaning.\n6. Close by asking what would happen if there were no light sources at all.",
+    "differentiationTips": [
+      "Struggling: focus only on the sun and one indoor light source (a lamp) rather than a full hunt around the house",
+      "Ready for more: discuss the difference between something that MAKES light (a lamp) and something that just REFLECTS light (a mirror, the moon)",
+      "For a hands-on learner, do the flashlight-in-a-dark-room demonstration as the centerpiece of the lesson"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary tracing and observation activity — there is no right/wrong answer beyond correct word tracing. Check that the child can name at least two real light sources by the end.",
+    "standardsRationale": "Understanding that light comes from a source and that we see objects because light reaches our eyes is a core Grade 1 physical-science idea (matching the NGSS 1-PS4 Waves: Light and Sound standard)."
+  },
+  "worksheet": {
+    "id": "worksheet-science-1-1-1",
+    "lessonId": "lesson-science-1-1-1",
+    "title": "What Is Light?",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Light source", "label": "Something that makes its own light" },
+        { "trace": "Sun", "label": "The biggest light source we know" },
+        { "trace": "Flashlight", "label": "A light source you can carry and turn on" }
+      ]
+    }
+  }
+}

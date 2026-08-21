@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-1-1",
+    "courseId": "course-science-1",
+    "order": 1,
+    "title": "Light and Sound",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-1-1-4",
+    "unitId": "unit-science-1-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Investigating Materials: Which Ones Let Light Through?",
+    "gradeLevel": "1",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned that light travels from a source. Today let's investigate: does light travel through every material the same way?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Some materials let light pass straight through — like clear glass or clear plastic. These are called transparent. Some materials block light completely, like wood or a book — these are called opaque. Gather a flashlight and several materials from around your home (a piece of paper, a window, a book, a plastic cup). Shine the flashlight at each one and observe: does light pass through, or is it blocked?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just did a real science investigation, testing materials and recording what you observed! Tomorrow is review day — we'll bring together everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-1-1-4",
+    "lessonId": "lesson-science-1-1-4",
+    "objectives": [
+      "Define transparent (lets light pass through) and opaque (blocks light) using real examples",
+      "Test several real materials with a flashlight and record which are transparent and which are opaque"
+    ],
+    "materialsNeeded": ["Printed 'Investigating Materials' worksheet", "Pencil or crayon", "A flashlight and 4-5 household materials to test (paper, a book, a plastic cup, a window, fabric)"],
+    "facilitationScript": "1. Introduce the words transparent (lets light through) and opaque (blocks light) with a clear example of each (a window vs. a book).\n2. Gather several household materials together.\n3. Shine a flashlight at each material and observe together whether light passes through.\n4. Record each observation.\n5. Move to the worksheet: sort the tested materials into transparent and opaque.\n6. Close by asking if they can think of a material that's somewhere in between (translucent, like tissue paper) — this is optional bonus thinking, not required.",
+    "differentiationTips": [
+      "Struggling: test just 2-3 very clear-cut materials (a window and a book) before expanding the investigation",
+      "Ready for more: introduce translucent (lets SOME light through, like wax paper or a lampshade) as a third category",
+      "For a hands-on learner, let them lead the whole investigation, predicting each result before testing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Sample results (actual results will vary by materials tested): window/plastic cup = transparent; book/wood = opaque.",
+    "standardsRationale": "Testing how different materials interact with light through a real, hands-on investigation is a core Grade 1 physical-science practice — applying this week's light concepts through direct observation and evidence."
+  },
+  "worksheet": {
+    "id": "worksheet-science-1-1-4",
+    "lessonId": "lesson-science-1-1-4",
+    "title": "Investigating Materials",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each material, write TRANSPARENT (lets light through) or OPAQUE (blocks light), based on what you tested.",
+      "rows": [
+        { "problem": "A clear window" },
+        { "problem": "A book" },
+        { "problem": "A plastic cup" },
+        { "problem": "A piece of wood" }
+      ]
+    }
+  }
+}

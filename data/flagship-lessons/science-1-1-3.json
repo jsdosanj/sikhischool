@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-1-1",
+    "courseId": "course-science-1",
+    "order": 1,
+    "title": "Light and Sound",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-1-1-3",
+    "unitId": "unit-science-1-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Sending Messages with Light and Sound",
+    "gradeLevel": "1",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about light and sound separately. Did you know people use both of them to send messages, every single day?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Think about a traffic light — red, yellow, and green light signals tell drivers what to do without a single word. A doorbell uses sound to tell you someone is at the door. A fire alarm uses a loud sound (and often a flashing light too!) to warn people of danger. Can you think of one more way light or sound sends a message in your everyday life?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Light and sound aren't just things we notice — people use them on purpose to communicate important information. Tomorrow we'll investigate materials and how they interact with light."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-1-1-3",
+    "lessonId": "lesson-science-1-1-3",
+    "objectives": [
+      "Identify real examples of light and sound used to send information or signals (traffic lights, doorbells, alarms)",
+      "Explain in simple words why a signal (light or sound) can communicate a message without words"
+    ],
+    "materialsNeeded": ["Printed 'Sending Messages' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Ask the child if they've ever seen a traffic light and what each color means.\n2. Introduce the idea that light and sound can send messages without words.\n3. Discuss a doorbell (sound) and a fire alarm (sound plus often light) as more examples.\n4. Brainstorm one more real-life example together.\n5. Move to the worksheet: trace each example and talk through what message it sends.\n6. Close by asking why a flashing light or loud sound might work better than words in an emergency.",
+    "differentiationTips": [
+      "Struggling: focus on just the traffic light example, since it's likely the most familiar",
+      "Ready for more: discuss Morse code or another historical example of using light/sound patterns to send messages over distance",
+      "For a child who enjoys role play, act out being a crossing guard or traffic light using the three colors"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can explain what message each signal sends.",
+    "standardsRationale": "Recognizing that light and sound are used intentionally to communicate information is a core Grade 1 application of the NGSS 1-PS4 standard, connecting the abstract science of light/sound to real, familiar technology."
+  },
+  "worksheet": {
+    "id": "worksheet-science-1-1-3",
+    "lessonId": "lesson-science-1-1-3",
+    "title": "Sending Messages with Light and Sound",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Traffic light", "label": "Uses light colors to tell drivers what to do" },
+        { "trace": "Doorbell", "label": "Uses sound to say someone is at the door" },
+        { "trace": "Alarm", "label": "Uses a loud sound to warn of danger" }
+      ]
+    }
+  }
+}

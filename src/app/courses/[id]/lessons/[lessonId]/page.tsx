@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getLesson, getChildrenWithProgress } from "@/lib/lessons";
+import { getQuizQuestionsForClient } from "@/lib/quizzes";
 import { GRADE_BAND_ORDER } from "@/lib/courses";
 import { shellForGradeBand } from "@/design/tokens";
 import { GRADE_ORDER } from "@/lib/grades";
@@ -9,6 +10,7 @@ import Shell from "@/components/shells/Shell";
 import SunFriend from "@/components/shells/SunFriend";
 import WorksheetDownloadButton from "@/components/worksheets/WorksheetDownloadButton";
 import MarkCompleteWidget from "@/components/MarkCompleteWidget";
+import QuizWidget from "@/components/QuizWidget";
 
 // Server-rendered on demand — see src/app/courses/page.tsx for why.
 export const dynamic = "force-dynamic";
@@ -45,6 +47,7 @@ export default async function LessonDetailPage({
         lessonId,
       )
     : [];
+  const quiz = lesson.masteryQuizId ? await getQuizQuestionsForClient(lesson.masteryQuizId) : null;
 
   return (
     <Shell shell={shell}>
@@ -115,7 +118,16 @@ export default async function LessonDetailPage({
           </div>
         )}
 
-        {children.length > 0 && (
+        {children.length > 0 && quiz && (
+          <QuizWidget
+            quizId={quiz.id}
+            lessonId={lessonId}
+            kids={children.map((c) => ({ id: c.id, displayName: c.displayName }))}
+            questions={quiz.questions}
+          />
+        )}
+
+        {children.length > 0 && !quiz && (
           <MarkCompleteWidget
             lessonId={lessonId}
             kids={children.map((c) => ({ id: c.id, displayName: c.displayName }))}

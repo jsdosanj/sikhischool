@@ -1,0 +1,35 @@
+{
+  "lessonId": "lesson-math-k-1-1",
+  "quiz": {
+    "id": "quiz-math-k-1-1",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "If you count 5 objects one at a time, what number do you say last?",
+        "options": ["3", "5", "7", "10"],
+        "answer": 1
+      },
+      {
+        "q": "What number comes right after 12 when counting?",
+        "options": ["11", "13", "14", "10"],
+        "answer": 1
+      },
+      {
+        "q": "You count 8 blocks, touching each one exactly once. How many blocks are there?",
+        "options": ["8", "6", "10", "4"],
+        "answer": 0
+      },
+      {
+        "q": "What number comes right before 20 when counting?",
+        "options": ["18", "19", "21", "17"],
+        "answer": 1
+      },
+      {
+        "q": "If you touch each of 15 objects once while counting, what is the last number you say?",
+        "options": ["12", "15", "20", "10"],
+        "answer": 1
+      }
+    ]
+  }
+}

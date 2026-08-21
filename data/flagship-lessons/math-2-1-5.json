@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-2-1",
+    "courseId": "course-math-2",
+    "order": 1,
+    "title": "Place Value and Multi-Digit Addition/Subtraction",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-2-1-5",
+    "unitId": "unit-math-2-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Place Value, Addition, and Subtraction",
+    "gradeLevel": "2",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned place value, carrying, borrowing, and three-digit addition. Today is review day — no new strategies, just practice putting it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's mix it up: break apart a number by place value, add two numbers with carrying, subtract two numbers with borrowing, and add two three-digit numbers. Which part felt easiest this week? Which would you like more practice with?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've built a real toolkit for working with big numbers this week. Next week, we'll keep building on these same skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-2-1-5",
+    "lessonId": "lesson-math-2-1-5",
+    "objectives": [
+      "Demonstrate all four skills practiced this week — place value, carrying, borrowing, and three-digit addition — in one cumulative activity",
+      "Self-identify which strategy feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil"],
+    "facilitationScript": "1. Walk through all four skills in sequence: break apart a number, add with carrying, subtract with borrowing, add three-digit numbers.\n2. Ask which part felt easiest and which felt hardest — this guides next week's pacing.\n3. Move to the worksheet: complete the mixed review problems.\n4. Praise effort and progress across the whole week, not just today's performance.\n5. Close by previewing that next week continues building on these same skills.",
+    "differentiationTips": [
+      "Struggling: spend extra time on whichever single skill felt hardest, rather than requiring equal practice across all four",
+      "Ready for more: create a new three-digit addition or subtraction problem and solve it together",
+      "For a child who enjoys games, turn this into a quick quiz-show format with the week's problems"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. 428 = 4 hundreds, 2 tens, 8 ones. 2. 53+39=92 (with carrying). 3. 74-58=16 (with borrowing). 4. 312+256=568.",
+    "standardsRationale": "A dedicated review day after a full week of related place-value and computation strategies matches the platform's established pacing pattern — consolidation before adding more content is essential."
+  },
+  "worksheet": {
+    "id": "worksheet-math-2-1-5",
+    "lessonId": "lesson-math-2-1-5",
+    "title": "Review Day: Place Value, Addition, and Subtraction",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use this week's strategies to solve each mixed review problem.",
+      "rows": [
+        { "problem": "Break apart 428 into hundreds, tens, and ones." },
+        { "problem": "53 + 39 = ? (use carrying)" },
+        { "problem": "74 - 58 = ? (use borrowing)" },
+        { "problem": "312 + 256 = ?" }
+      ]
+    }
+  }
+}

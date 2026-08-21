@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-2-1",
+    "courseId": "course-math-2",
+    "order": 1,
+    "title": "Place Value and Multi-Digit Addition/Subtraction",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-2-1-3",
+    "unitId": "unit-math-2-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Subtracting Two-Digit Numbers with Regrouping",
+    "gradeLevel": "2",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you added with regrouping. Today we'll learn subtraction's version: regrouping by borrowing, for when the ones digit on top is smaller than the ones digit you're subtracting."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Try 62 - 38. Look at the ones: 2 - 8. You can't subtract 8 from 2! So we borrow: take 1 ten from the 6 (leaving 5 tens), and add 10 to the 2 (making it 12). Now: 12 - 8 = 4. Then subtract the tens: 5 - 3 = 2. Put it together: 24! So 62 - 38 = 24. Try 81 - 47 the same way."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Borrowing works exactly opposite to yesterday's carrying — you're trading 1 ten for 10 extra ones. Tomorrow we'll take on even bigger numbers: three-digit addition."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-2-1-3",
+    "lessonId": "lesson-math-2-1-3",
+    "objectives": [
+      "Subtract two-digit numbers using regrouping (borrowing) when the ones digit on top is smaller",
+      "Explain borrowing in terms of place value (1 ten becomes 10 ones)"
+    ],
+    "materialsNeeded": ["Printed 'Subtracting with Regrouping' worksheet", "Pencil", "Optional: base-ten blocks to physically demonstrate trading 1 ten for 10 ones"],
+    "facilitationScript": "1. Review yesterday's carrying (regrouping for addition) briefly.\n2. Model 62 - 38 step by step: try ones (2-8, too small), borrow (5 tens, 12 ones), subtract ones (12-8=4), subtract tens (5-3=2), combine to get 24.\n3. If available, use base-ten blocks to physically show trading 1 ten for 10 ones.\n4. Practice 81 - 47 together, with the child leading as much as possible.\n5. Move to the worksheet: solve each problem, borrowing when needed.\n6. Close by comparing carrying (addition) and borrowing (subtraction) — how are they opposite?",
+    "differentiationTips": [
+      "Struggling: use base-ten blocks or drawings for every problem until the borrowing process feels automatic",
+      "Ready for more: try a problem where borrowing is needed from the hundreds place too (e.g. 103 - 47)",
+      "For a child who already knows the standard algorithm, ask them to explain each step in place-value language, not just procedure"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. 62-38=24. 2. 81-47=34. 3. 53-26=27. 4. 90-56=34.",
+    "standardsRationale": "Subtracting two-digit numbers with regrouping is a core Grade 2 standard (matching Common Core 2.NBT.5), the subtraction counterpart to yesterday's addition-with-regrouping lesson."
+  },
+  "worksheet": {
+    "id": "worksheet-math-2-1-3",
+    "lessonId": "lesson-math-2-1-3",
+    "title": "Subtracting Two-Digit Numbers with Regrouping",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each subtraction problem, borrowing when needed.",
+      "rows": [
+        { "problem": "62 - 38 = ?" },
+        { "problem": "81 - 47 = ?" },
+        { "problem": "53 - 26 = ?" },
+        { "problem": "90 - 56 = ?" }
+      ]
+    }
+  }
+}

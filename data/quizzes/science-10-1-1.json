@@ -1,0 +1,14 @@
+{
+  "lessonId": "lesson-science-10-1-1",
+  "quiz": {
+    "id": "quiz-science-10-1-1",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      { "q": "Where are protons and neutrons located in an atom?", "options": ["Orbiting outside the nucleus", "In the nucleus", "Spread evenly throughout the atom", "Only in charged atoms"], "answer": 1 },
+      { "q": "What does the atomic number tell you?", "options": ["The number of neutrons", "The number of protons", "The total mass of the atom", "The number of electrons in an ion"], "answer": 1 },
+      { "q": "Carbon has atomic number 6 and mass number 12. How many neutrons does it have?", "options": ["6", "12", "18", "0"], "answer": 0 },
+      { "q": "In a neutral atom, the number of electrons equals the number of...", "options": ["Neutrons", "Protons", "Isotopes", "Mass number"], "answer": 1 }
+    ]
+  }
+}

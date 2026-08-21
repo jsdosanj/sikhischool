@@ -1,0 +1,15 @@
+{
+  "lessonId": "lesson-math-4-1-1",
+  "quiz": {
+    "id": "quiz-math-4-1-1",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      { "q": "What is 34 x 6?", "options": ["200", "204", "210", "184"], "answer": 1 },
+      { "q": "Break 27 into tens and ones to multiply by 5. What are the two parts?", "options": ["20 and 7", "2 and 7", "27 and 5", "20 and 70"], "answer": 0 },
+      { "q": "What is 48 x 3?", "options": ["144", "134", "154", "124"], "answer": 0 },
+      { "q": "In the area model for 56 x 4, what do you get when you multiply 50 x 4?", "options": ["200", "20", "500", "250"], "answer": 0 },
+      { "q": "What is 63 x 7?", "options": ["441", "431", "451", "401"], "answer": 0 }
+    ]
+  }
+}

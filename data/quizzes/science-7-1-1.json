@@ -1,0 +1,14 @@
+{
+  "lessonId": "lesson-science-7-1-1",
+  "quiz": {
+    "id": "quiz-science-7-1-1",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      { "q": "Which of these is a physical change?", "options": ["Wood burning", "Ice melting", "Iron rusting", "An egg cooking"], "answer": 1 },
+      { "q": "Which of these is NOT one of the four evidence clues for a chemical change?", "options": ["Color change", "Gas bubbles forming", "An object getting heavier by absorbing water", "Temperature change happening on its own"], "answer": 2 },
+      { "q": "Wood burning is a chemical change because it produces...", "options": ["The exact same wood, just smaller", "New substances like ash and smoke", "No new substances at all", "Only a change in shape"], "answer": 1 },
+      { "q": "Dissolving sugar in water is what kind of change?", "options": ["Chemical, because a new substance forms", "Physical, because the sugar is still sugar", "Chemical, because gas bubbles form", "Neither physical nor chemical"], "answer": 1 }
+    ]
+  }
+}

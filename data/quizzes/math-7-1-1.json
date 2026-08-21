@@ -1,0 +1,14 @@
+{
+  "lessonId": "lesson-math-7-1-1",
+  "quiz": {
+    "id": "quiz-math-7-1-1",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      { "q": "3 notebooks cost $6. What is the unit rate (cost per notebook)?", "options": ["$1", "$2", "$3", "$6"], "answer": 1 },
+      { "q": "Using a $2 per notebook unit rate, how much do 7 notebooks cost?", "options": ["$9", "$12", "$14", "$16"], "answer": 2 },
+      { "q": "A car travels 60 miles in 2 hours. What is its unit rate (miles per hour)?", "options": ["20 mph", "30 mph", "60 mph", "120 mph"], "answer": 1 },
+      { "q": "Which of these tells you a table represents a proportional relationship?", "options": ["The y-values are always bigger than the x-values", "Dividing y by x gives the same number every row", "The numbers increase from row to row", "The table has more than 3 rows"], "answer": 1 }
+    ]
+  }
+}

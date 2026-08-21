@@ -11,6 +11,7 @@ import SunFriend from "@/components/shells/SunFriend";
 import WorksheetDownloadButton from "@/components/worksheets/WorksheetDownloadButton";
 import MarkCompleteWidget from "@/components/MarkCompleteWidget";
 import QuizWidget from "@/components/QuizWidget";
+import LessonContentBlock from "@/components/LessonContentBlock";
 
 // Server-rendered on demand — see src/app/courses/page.tsx for why.
 export const dynamic = "force-dynamic";
@@ -33,7 +34,7 @@ export default async function LessonDetailPage({
   if (!result) notFound();
   const { lesson, guide, worksheet } = result;
 
-  const contentBlocks = lesson.contentBlocks as { type: string; ref?: string; text?: string }[];
+  const contentBlocks = lesson.contentBlocks as { type: string; ref?: string; text?: string; src?: string; caption?: string }[];
   const enrichmentLinks = lesson.enrichmentLinks as { label: string; url: string; source: string }[];
   const shell = shellForGradeBand(gradeBandForLevel(lesson.gradeLevel));
   const little = shell === "little-sparks";
@@ -87,9 +88,7 @@ export default async function LessonDetailPage({
           style={hasGurmukhi ? { fontFamily: "var(--font-gurmukhi), var(--shell-body-font)" } : undefined}
         >
           {contentBlocks.map((block, i) => (
-            <p key={i} className="leading-relaxed opacity-90">
-              {block.text}
-            </p>
+            <LessonContentBlock key={i} block={block} />
           ))}
         </section>
 

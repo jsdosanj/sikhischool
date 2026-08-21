@@ -64,6 +64,13 @@ export const courses = sqliteTable("courses", {
   description: text("description"),
   waStandardRefs: text("wa_standard_refs", { mode: "json" }).$type<string[]>().notNull().default([]),
   shellAssignment: text("shell_assignment").notNull(), // "little-sparks" | "rising-school" | "sikhi-school-studio"
+  // One representative hero image + intro video per subject (reused across
+  // that subject's grade levels — see scripts/seed-course-media.ts). Real,
+  // license-verified Wikimedia Commons images and YouTube videos, never
+  // fabricated URLs/IDs.
+  heroImageUrl: text("hero_image_url"),
+  heroImageAttribution: text("hero_image_attribution"), // required text for CC-BY/CC-BY-SA images
+  videoId: text("video_id"), // YouTube video ID, embedded via youtube-nocookie.com
 });
 
 export const units = sqliteTable("units", {
@@ -86,7 +93,12 @@ export const lessons = sqliteTable("lessons", {
   gradeLevel: text("grade_level").notNull(),
   subject: text("subject").notNull(),
   standardTags: text("standard_tags", { mode: "json" }).$type<{ code: string; version?: string; c3Dimension?: string }[]>().notNull().default([]),
-  contentBlocks: text("content_blocks", { mode: "json" }).$type<{ type: "video" | "text" | "interactive" | "image" | "audio"; ref: string }[]>().notNull().default([]),
+  // `ref` is a semantic label (e.g. "hook", "closing") for text blocks. For
+  // image/video blocks, `src` carries the real URL (image) or YouTube video
+  // ID (video), and `caption` an optional attribution/description — added
+  // for real media support without disturbing the many existing text-only
+  // blocks, which never set src/caption.
+  contentBlocks: text("content_blocks", { mode: "json" }).$type<{ type: "video" | "text" | "interactive" | "image" | "audio"; ref: string; text?: string; src?: string; caption?: string }[]>().notNull().default([]),
   activityRefs: text("activity_refs", { mode: "json" }).$type<{ type: "game" | "exercise"; componentKey: string; config?: Record<string, unknown> }[]>().notNull().default([]),
   masteryQuizId: text("mastery_quiz_id"),
   masteryPointsFamiliar: integer("mastery_points_familiar").notNull().default(50),

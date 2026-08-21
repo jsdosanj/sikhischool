@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-science-2-1",
+    "courseId": "course-science-2",
+    "order": 1,
+    "title": "Properties of Materials",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-2-1-2",
+    "unitId": "unit-science-2-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Classifying Materials: Sorting by Properties",
+    "gradeLevel": "2",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you described materials by their properties. Today let's use those properties to sort and classify a whole group of objects — a real science skill called classification."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Gather 6-8 small objects from around your home. Pick one property, like flexible vs. rigid, and sort every object into one of those two groups. Then try sorting the same objects using a different property, like hard vs. soft. Notice: the same object can be sorted differently depending on which property you're using!"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just did real scientific classification — sorting objects by chosen properties. Tomorrow we'll investigate why certain materials are chosen for certain jobs."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-2-1-2",
+    "lessonId": "lesson-science-2-1-2",
+    "objectives": [
+      "Sort a group of real objects into categories based on a chosen observable property",
+      "Recognize that the same set of objects can be classified differently depending on which property is used"
+    ],
+    "materialsNeeded": ["Printed 'Classifying Materials' worksheet", "Pencil or crayon", "6-8 household objects for a hands-on sorting activity"],
+    "facilitationScript": "1. Gather 6-8 real objects together.\n2. Choose one property (flexible/rigid) and sort all objects into two groups.\n3. Re-sort the same objects using a different property (hard/soft) and compare the new groupings.\n4. Discuss why the groupings changed.\n5. Move to the worksheet: sort the listed materials by the property given.\n6. Close by inventing one more sorting category together.",
+    "differentiationTips": [
+      "Struggling: sort using just one property at a time, without the added complexity of re-sorting by a second property",
+      "Ready for more: sort the same objects by three or more different properties and compare all the groupings",
+      "For a visual learner, use actual physical piles/groups on a table rather than writing the sorting on paper"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Sample answers will vary by the specific materials sorted — check that the classification is consistent with the chosen property and that the child can explain their reasoning.",
+    "standardsRationale": "Classifying materials by observable properties is a core Grade 2 physical-science practice, directly extending yesterday's property-description vocabulary into an actual scientific sorting investigation."
+  },
+  "worksheet": {
+    "id": "worksheet-science-2-1-2",
+    "lessonId": "lesson-science-2-1-2",
+    "title": "Classifying Materials",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Sort each material as FLEXIBLE (bends easily) or RIGID (stays stiff).",
+      "rows": [
+        { "problem": "A rubber band" },
+        { "problem": "A wooden ruler" },
+        { "problem": "A piece of paper" },
+        { "problem": "A metal spoon" },
+        { "problem": "A piece of string" }
+      ]
+    }
+  }
+}

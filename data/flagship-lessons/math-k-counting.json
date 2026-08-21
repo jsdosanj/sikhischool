@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-math-k-1",
+    "courseId": "course-math-k",
+    "order": 1,
+    "title": "Counting & Numbers to 20",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-k-1-1",
+    "unitId": "unit-math-k-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Counting to 20 with Objects",
+    "gradeLevel": "K",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Let's count! Look around your room — how many windows do you see? How many chairs? Today we'll practice counting real things, one at a time, all the way up to 20."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Gather 20 small objects — blocks, buttons, coins, or dried beans all work. Line them up in a row. Touch each object once as you say its number out loud: 1, 2, 3... Move slowly. If you lose count, start over from 1 — that's normal and okay! Once you can count to 10 without help, try counting all the way to 20."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-k-1-1",
+    "lessonId": "lesson-math-k-1-1",
+    "objectives": [
+      "Count a set of up to 20 objects, saying one number name for each object (one-to-one correspondence)",
+      "Recognize that the last number said tells how many objects are in the set (cardinality)"
+    ],
+    "materialsNeeded": [
+      "20 small objects per child (blocks, buttons, coins, or dried beans)",
+      "Counting to 20 worksheet (printed)",
+      "Pencil or crayon"
+    ],
+    "facilitationScript": "1. Sit with the child and place a small pile of objects between you.\n2. Model counting 5 objects first: move each one to a new pile as you say its number aloud, touching each object exactly once.\n3. Ask the child to try the same with 5 objects, then 10.\n4. Watch for two common mistakes: skipping an object (undercounting) and touching one object while saying two numbers (overcounting). Gently pause and recount together when this happens — don't rush to correct, let them try again.\n5. Once 10 is comfortable, extend to counting all 20 objects.\n6. Finish with the worksheet: the child counts each group of pictures and writes the matching number.",
+    "differentiationTips": [
+      "Struggling: stay at counting to 10 for now; use bigger, more spaced-out objects so touching one-at-a-time is easier",
+      "Ready for more: after counting 20 objects, ask 'what if we had one more? What number comes next?'",
+      "For a child who already writes numerals confidently, have them write the count themselves instead of circling it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Worksheet answers, top to bottom: 3, 7, 12, 20, 15, 9",
+    "standardsRationale": "Counting to 20 with one-to-one correspondence and cardinality is foundational Kindergarten number sense — the base every later Math course (place value, addition, subtraction) builds on."
+  },
+  "worksheet": {
+    "id": "worksheet-math-k-1-1",
+    "lessonId": "lesson-math-k-1-1",
+    "title": "Count and Write to 20",
+    "rows": [
+      { "count": 3, "label": "stars" },
+      { "count": 7, "label": "circles" },
+      { "count": 12, "label": "squares" },
+      { "count": 20, "label": "triangles" },
+      { "count": 15, "label": "hearts" },
+      { "count": 9, "label": "stars" }
+    ]
+  }
+}

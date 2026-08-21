@@ -1,0 +1,1 @@
+ALTER TABLE `worksheets` ADD `generation_data` text;

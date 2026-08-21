@@ -124,7 +124,8 @@ export const worksheets = sqliteTable("worksheets", {
   scriptureSectionId: text("scripture_section_id").references(() => scriptureSections.id),
   title: text("title").notNull(),
   pdfAssetRef: text("pdf_asset_ref"), // R2 key, if pre-rendered
-  generationTemplateKey: text("generation_template_key"), // react-pdf template, if generated on demand
+  generationTemplateKey: text("generation_template_key"), // which client-side react-pdf template renders this
+  generationData: text("generation_data", { mode: "json" }).$type<Record<string, unknown>>(), // that template's parameters
 });
 
 export const pacingGuides = sqliteTable("pacing_guides", {

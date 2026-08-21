@@ -1,3 +1,19 @@
+CREATE TABLE `accounts` (
+	`user_id` text NOT NULL,
+	`type` text NOT NULL,
+	`provider` text NOT NULL,
+	`provider_account_id` text NOT NULL,
+	`refresh_token` text,
+	`access_token` text,
+	`expires_at` integer,
+	`token_type` text,
+	`scope` text,
+	`id_token` text,
+	`session_state` text,
+	PRIMARY KEY(`provider`, `provider_account_id`),
+	FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON UPDATE no action ON DELETE cascade
+);
+--> statement-breakpoint
 CREATE TABLE `announcements` (
 	`id` text PRIMARY KEY NOT NULL,
 	`classroom_license_id` text,
@@ -131,8 +147,12 @@ CREATE TABLE `scripture_sections` (
 	`stage_id` text NOT NULL,
 	`order` integer NOT NULL,
 	`title` text NOT NULL,
-	`text_ref` text NOT NULL,
-	`audio_ref` text,
+	`gurmukhi_title` text,
+	`description` text,
+	`text_ref` text,
+	`external_reader` text,
+	`audio_tracks` text DEFAULT '[]' NOT NULL,
+	`audio_note` text,
 	`padched_larivaar_support` integer DEFAULT false NOT NULL,
 	`glossary_refs` text DEFAULT '[]' NOT NULL,
 	`mastery_quiz_id` text,
@@ -145,6 +165,13 @@ CREATE TABLE `scripture_stages` (
 	`title` text NOT NULL,
 	`description` text,
 	`recommended_grade_band` text
+);
+--> statement-breakpoint
+CREATE TABLE `sessions` (
+	`session_token` text PRIMARY KEY NOT NULL,
+	`user_id` text NOT NULL,
+	`expires` integer NOT NULL,
+	FOREIGN KEY (`user_id`) REFERENCES `users`(`id`) ON UPDATE no action ON DELETE cascade
 );
 --> statement-breakpoint
 CREATE TABLE `sikhi_school_teachers` (
@@ -213,6 +240,22 @@ CREATE TABLE `units` (
 	`badge_id` text,
 	FOREIGN KEY (`course_id`) REFERENCES `courses`(`id`) ON UPDATE no action ON DELETE no action,
 	FOREIGN KEY (`badge_id`) REFERENCES `badges`(`id`) ON UPDATE no action ON DELETE no action
+);
+--> statement-breakpoint
+CREATE TABLE `users` (
+	`id` text PRIMARY KEY NOT NULL,
+	`name` text,
+	`email` text NOT NULL,
+	`email_verified` integer,
+	`image` text
+);
+--> statement-breakpoint
+CREATE UNIQUE INDEX `users_email_unique` ON `users` (`email`);--> statement-breakpoint
+CREATE TABLE `verification_tokens` (
+	`identifier` text NOT NULL,
+	`token` text NOT NULL,
+	`expires` integer NOT NULL,
+	PRIMARY KEY(`identifier`, `token`)
 );
 --> statement-breakpoint
 CREATE TABLE `worksheets` (

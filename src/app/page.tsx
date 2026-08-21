@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="flex flex-1 flex-col items-center justify-center gap-4 p-8 text-center">
@@ -14,8 +16,14 @@ export default function Home() {
         <a className="underline" href="https://sikhi.io">
           sikhi.io
         </a>
-        . Under construction — Wave 0 scaffold.
+        . Under construction — Wave 1.
       </p>
+      <Link
+        href="/santhya-path"
+        className="mt-2 rounded bg-[var(--color-saffron)] px-4 py-2 text-sm font-semibold text-[#2a1c06] hover:brightness-105"
+      >
+        Explore Santhya Path &rarr;
+      </Link>
     </main>
   );
 }

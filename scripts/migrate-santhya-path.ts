@@ -138,6 +138,7 @@ function main() {
       order: 1,
       title: step.title,
       gurmukhiTitle: step.gurmukhi,
+      description: step.description,
       // NOT yet the actual vishraam-marked Gurbani text — that lives in sikh-archive's
       // GURBANI_DB (source="SG"/"V" above), a separate, larger corpus this script
       // deliberately doesn't pull in Wave 0. Wave 1a's reader-rebuild step sources it.

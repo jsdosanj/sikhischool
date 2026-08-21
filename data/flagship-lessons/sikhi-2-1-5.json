@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-sikhi-2-1",
+    "courseId": "course-sikhi-2",
+    "order": 1,
+    "title": "The Five Ks, Vaisakhi, and Service",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-2-1-5",
+    "unitId": "unit-sikhi-2-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: The Five Ks, Vaisakhi, and Service",
+    "gradeLevel": "2",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you explored the Five Ks, the story of Vaisakhi, langar as service, and how Vaisakhi is celebrated today. Today is review day."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's review: can you name the Five Ks? What happened on Vaisakhi in 1699? How is langar an act of service? How is Vaisakhi celebrated today? Try answering each question from memory first, then check together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you've connected history, identity, and service into one meaningful story! Next week, we'll keep exploring more about Sikhi together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-2-1-5",
+    "lessonId": "lesson-sikhi-2-1-5",
+    "objectives": [
+      "Recall and explain all four concepts from this week (the Five Ks, the Vaisakhi story, langar as service, modern Vaisakhi celebration)",
+      "Self-identify which concept feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Ask the four big review questions one at a time, letting the child answer from memory first.\n2. Check answers together against what was learned this week.\n3. Move to the worksheet: complete the mixed review questions.\n4. Praise effort and progress across the whole week, not just today's recall.\n5. Close by previewing that next week continues exploring Sikhi together.",
+    "differentiationTips": [
+      "Struggling: focus review time on whichever single concept felt hardest, rather than requiring equal recall of all four",
+      "Ready for more: ask the child to explain how all four of this week's topics connect into one story",
+      "For a child who enjoys drawing, have them illustrate a Nagar Kirtan or langar scene as a review activity"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which of the four concepts the child recalled confidently vs. needed prompting for, to guide next week's pacing.",
+    "standardsRationale": "A dedicated review day after a full week of connected Sikhi concepts matches the platform's established pacing pattern (see every prior K/Grade-1 unit's own Day 5 review lessons) — consolidation before adding more content is essential."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-2-1-5",
+    "lessonId": "lesson-sikhi-2-1-5",
+    "title": "Review Day: The Five Ks, Vaisakhi, and Service",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each review question in your own words.",
+      "rows": [
+        { "problem": "Name all Five Ks." },
+        { "problem": "What happened on Vaisakhi in 1699?" },
+        { "problem": "How is langar an act of service?" },
+        { "problem": "Name one way Vaisakhi is celebrated today." }
+      ]
+    }
+  }
+}

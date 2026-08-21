@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-sikhi-2-1",
+    "courseId": "course-sikhi-2",
+    "order": 1,
+    "title": "The Five Ks, Vaisakhi, and Service",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-2-1-1",
+    "unitId": "unit-sikhi-2-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "An Introduction to the Five Ks",
+    "gradeLevel": "2",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Some Sikhs wear five special items every day, all starting with the letter K. Today we'll meet all five for the first time: the Five Ks."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Kesh is uncut hair. Kangha is a small wooden comb. Kara is a steel bracelet. Kachera is a special undergarment. Kirpan is a small ceremonial sword. Each one is worn as a sign of faith and identity, all the time — not just on special occasions. Can you say all five names in a row?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just met the Five Ks for the first time! We'll learn more about what each one means in future lessons."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-2-1-1",
+    "lessonId": "lesson-sikhi-2-1-1",
+    "objectives": [
+      "Name all Five Ks (Kesh, Kangha, Kara, Kachera, Kirpan) in order",
+      "Recognize that the Five Ks are worn as signs of faith and identity, all the time"
+    ],
+    "materialsNeeded": ["Printed 'An Introduction to the Five Ks' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Introduce each of the Five Ks by name, one at a time, with a simple one-word description.\n2. Practice saying all five names in a row together.\n3. Emphasize that these are worn all the time, not just for special occasions.\n4. Move to the worksheet: trace each name and its simple description.\n5. Close by seeing if the child can recite all five from memory.",
+    "differentiationTips": [
+      "Struggling: focus on just two or three of the five names today, adding the rest in a later review",
+      "Ready for more: ask if they know anyone who wears one or more of the Five Ks, and what they've noticed",
+      "This is intentionally a simple, K-2-level introduction — a deeper exploration of each K's meaning comes in later grades"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and recognition activity — check that the child can name all five items, even if not yet explaining their deeper meaning.",
+    "standardsRationale": "A simple, name-level introduction to the Five Ks is the Grade 2 Sikhi course's stated starting point — an age-appropriate first exposure before the deeper meaning-focused treatment in later grades."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-2-1-1",
+    "lessonId": "lesson-sikhi-2-1-1",
+    "title": "An Introduction to the Five Ks",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Kesh", "label": "Uncut hair" },
+        { "trace": "Kangha", "label": "A small wooden comb" },
+        { "trace": "Kara", "label": "A steel bracelet" },
+        { "trace": "Kachera", "label": "A special undergarment" },
+        { "trace": "Kirpan", "label": "A small ceremonial sword" }
+      ]
+    }
+  }
+}

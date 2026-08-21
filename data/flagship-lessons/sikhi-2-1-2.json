@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-2-1",
+    "courseId": "course-sikhi-2",
+    "order": 1,
+    "title": "The Five Ks, Vaisakhi, and Service",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-2-1-2",
+    "unitId": "unit-sikhi-2-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Story of Vaisakhi",
+    "gradeLevel": "2",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you met the Five Ks. Today let's learn about the special day connected to them: Vaisakhi, one of the most important days in Sikh history."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Vaisakhi is celebrated every year in the spring. It had already been a harvest festival in Punjab, but it became extra special in Sikh history because of what happened on Vaisakhi in the year 1699: Guru Gobind Singh formed the Khalsa, a committed community of Sikhs, and gave them the Five Ks you learned about yesterday as their special, shared identity. That's why Vaisakhi and the Five Ks are connected!"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Now you know why Vaisakhi and the Five Ks go together — they both trace back to that important day in 1699. Tomorrow we'll connect langar to another idea: service."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-2-1-2",
+    "lessonId": "lesson-sikhi-2-1-2",
+    "objectives": [
+      "Explain that Vaisakhi is celebrated in spring and was originally a harvest festival in Punjab",
+      "Connect Vaisakhi to the founding of the Khalsa by Guru Gobind Singh in 1699, and the origin of the Five Ks"
+    ],
+    "materialsNeeded": ["Printed 'The Story of Vaisakhi' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review the Five Ks from yesterday.\n2. Introduce Vaisakhi as a spring festival, originally tied to the harvest in Punjab.\n3. Explain what happened on Vaisakhi in 1699 — Guru Gobind Singh formed the Khalsa and gave the Five Ks as a shared identity.\n4. Discuss why this connects yesterday's lesson to today's.\n5. Move to the worksheet: trace each vocabulary word and talk through its meaning.\n6. Close by asking the child to explain the Vaisakhi-Five Ks connection in their own words.",
+    "differentiationTips": [
+      "Struggling: focus on just the connection (Vaisakhi is when the Five Ks began) rather than the full historical detail",
+      "Ready for more: discuss why forming a shared, visible identity might have been meaningful for a community at that time",
+      "For a child who enjoys stories, retell the Vaisakhi story as a simple narrative, focusing on the moment of founding"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can explain the Vaisakhi-Khalsa-Five Ks connection in simple terms.",
+    "standardsRationale": "The story of Vaisakhi is the Grade 2 Sikhi course's stated focus, and connecting it directly to yesterday's Five Ks lesson builds a coherent, connected understanding rather than isolated facts."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-2-1-2",
+    "lessonId": "lesson-sikhi-2-1-2",
+    "title": "The Story of Vaisakhi",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Vaisakhi", "label": "A spring festival, extra special in Sikh history" },
+        { "trace": "Khalsa", "label": "The community Guru Gobind Singh formed in 1699" },
+        { "trace": "1699", "label": "The year the Khalsa was formed" }
+      ]
+    }
+  }
+}

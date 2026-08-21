@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-3-1",
+    "courseId": "course-sikhi-3",
+    "order": 1,
+    "title": "Visiting the Gurdwara",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-3-1-1",
+    "unitId": "unit-sikhi-3-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is a Gurdwara?",
+    "gradeLevel": "3",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week, we'll learn everything you need to know to visit a Gurdwara with confidence and respect — starting with what a Gurdwara actually is."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A Gurdwara is the Sikh place of worship — the word means 'doorway to the Guru.' At the center of every Gurdwara is the Guru Granth Sahib, the holy scripture that Sikhs treat as their living Guru, placed on a raised platform under a canopy. Gurdwaras are also community spaces: they hold Langar (the free community kitchen open to everyone, which you learned about in earlier grades), classes, and gatherings. Draw or describe a Gurdwara you've visited, or one you imagine, including where the Guru Granth Sahib would be placed."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know what a Gurdwara is and what's at its center. Tomorrow we'll learn the first two things everyone does before entering: removing shoes and covering the head."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-3-1-1",
+    "lessonId": "lesson-sikhi-3-1-1",
+    "objectives": [
+      "Define a Gurdwara as the Sikh place of worship",
+      "Identify the Guru Granth Sahib as the central focus of a Gurdwara"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon", "Optional: photos from a past Gurdwara visit"],
+    "facilitationScript": "1. Ask what the child already knows or remembers about visiting a Gurdwara.\n2. Introduce the meaning of 'Gurdwara' (doorway to the Guru).\n3. Explain the Guru Granth Sahib's central place and its role as the living Guru.\n4. Connect back to the child's existing knowledge of Langar from earlier grades.\n5. Complete the worksheet (draw or describe a Gurdwara).\n6. Preview this week's focus: everything needed to visit respectfully.",
+    "differentiationTips": [
+      "Struggling: if the child hasn't visited a Gurdwara, describe one vividly using photos or a video walkthrough rather than relying on memory",
+      "Ready for more: ask them to name one difference between a Gurdwara and other places of worship they know about",
+      "Keep description of the Guru Granth Sahib respectful and simple — full doctrinal depth on Gurbani is covered in Santhya Path, not duplicated here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A Gurdwara is the Sikh place of worship. 2. The Guru Granth Sahib is placed at the center, on a raised platform. 3. Gurdwaras also host Langar, classes, and community gatherings.",
+    "standardsRationale": "Establishes the foundational vocabulary (Gurdwara, Guru Granth Sahib) needed before the week's etiquette-focused lessons, matching the course's own 'Gurdwara etiquette' description."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-3-1-1",
+    "lessonId": "lesson-sikhi-3-1-1",
+    "title": "What Is a Gurdwara?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What is a Gurdwara?" },
+        { "problem": "What is placed at the center of a Gurdwara?" },
+        { "problem": "Name one other activity a Gurdwara hosts besides worship." }
+      ]
+    }
+  }
+}

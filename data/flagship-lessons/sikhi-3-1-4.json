@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-sikhi-3-1",
+    "courseId": "course-sikhi-3",
+    "order": 1,
+    "title": "Visiting the Gurdwara",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-3-1-4",
+    "unitId": "unit-sikhi-3-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Langar Etiquette: Eating Together",
+    "gradeLevel": "3",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned Langar means free community food, open to everyone. Today, the etiquette: exactly how to take part respectfully."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Before eating in Langar, everyone washes their hands. Everyone sits together on the floor in rows, called pangat — again, no chairs, no separate sections, everyone side by side regardless of who they are. Food is served by volunteers, and it's polite to take only what you'll actually eat, since wasting food isn't respectful of the effort that went into preparing it — if you want more, you can always ask for seconds. After eating, everyone helps clear their own spot. Practice these steps at your next meal at home: wash hands first, take a reasonable portion, and clear your own plate when done."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know how to take part in Langar respectfully. Tomorrow we'll review everything from this week — a complete walkthrough of a Gurdwara visit from start to finish."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-3-1-4",
+    "lessonId": "lesson-sikhi-3-1-4",
+    "objectives": [
+      "Describe correct Langar etiquette: washing hands, sitting in pangat, taking a reasonable portion, clearing your own spot",
+      "Explain why avoiding food waste is part of respectful Langar participation"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review what Langar is from earlier grades.\n2. Introduce today's etiquette: hand-washing, pangat (sitting together in rows), taking a reasonable portion, clearing your own spot.\n3. Discuss why avoiding food waste matters and that asking for seconds is always fine.\n4. Practice at the next home meal: wash hands, take a reasonable portion, clear your own plate.\n5. Complete the worksheet.\n6. Preview tomorrow's full-week review.",
+    "differentiationTips": [
+      "Struggling: focus on just one habit this week (e.g. clearing your own plate) and build the rest gradually",
+      "Ready for more: ask them to connect pangat (sitting together in rows) back to Day 3's floor-sitting equality lesson",
+      "Frame food-waste guidance positively (respect for effort, not a scolding rule) to keep the tone encouraging"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Wash your hands before eating. 2. Everyone sits together in rows, called pangat. 3. Take a reasonable portion and ask for seconds rather than taking more than you'll eat. 4. Clear your own spot after eating.",
+    "standardsRationale": "Completes the course's 'Gurdwara etiquette' description with concrete Langar behavior, reinforcing the equality theme (pangat mirrors Day 3's floor-sitting) established across this week and in earlier grades."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-3-1-4",
+    "lessonId": "lesson-sikhi-3-1-4",
+    "title": "Langar Etiquette",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What do you do before eating in Langar?" },
+        { "problem": "What is it called when everyone sits together in rows to eat?" },
+        { "problem": "Why should you take only what you'll actually eat?" },
+        { "problem": "What do you do with your own spot after eating?" }
+      ]
+    }
+  }
+}

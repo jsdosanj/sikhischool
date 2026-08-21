@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-1-1",
+    "courseId": "course-ela-1",
+    "order": 1,
+    "title": "Reading CVC Words and Simple Sentences",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-1-1-4",
+    "unitId": "unit-ela-1-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Reading Our First Full Sentence",
+    "gradeLevel": "1",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've read CVC words with short A, short I, and even a digraph. Today we'll put words together into something bigger: a full sentence."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read this sentence word by word, blending each one: 'The cat sat.' Now read it again, a little faster, like a real sentence. Notice: a sentence starts with a capital letter and ends with a period. Try one more: 'The fish can sit.' Read it slowly first, then try it smoothly, like you're really telling someone about the fish."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just read two whole sentences! Every sentence you'll ever read is built the same way — words you can blend, put together one after another."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-1-1-4",
+    "lessonId": "lesson-ela-1-1-4",
+    "objectives": [
+      "Read a simple decodable sentence word by word, then with increasing fluency",
+      "Recognize that a sentence starts with a capital letter and ends with a period"
+    ],
+    "materialsNeeded": ["Printed 'Reading Our First Sentence' worksheet", "Pencil"],
+    "facilitationScript": "1. Write or point to 'The cat sat.' and read it together word by word.\n2. Read it again a bit faster, encouraging natural sentence rhythm rather than robotic word-by-word reading.\n3. Point out the capital letter at the start and the period at the end.\n4. Repeat with 'The fish can sit.'\n5. Move to the worksheet: read and copy each sentence.\n6. Close by having the child read both sentences aloud one more time, as smoothly as they can.",
+    "differentiationTips": [
+      "Struggling: it's fine to keep reading word by word rather than pushing for fluent phrasing yet — accuracy comes first",
+      "Ready for more: ask the child to make up their own short sentence using this week's words (cat, sat, sit, fish, ship)",
+      "For a child who enjoys performing, have them 'read aloud' the sentence to a stuffed animal or family member"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a reading and copying-practice activity — check that the child can read both sentences accurately, at whatever pace feels comfortable.",
+    "standardsRationale": "Reading a full decodable sentence, built entirely from this week's known sounds and words, is the payoff moment that shows phonics skills translate into real reading — a core Grade 1 milestone."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-1-1-4",
+    "lessonId": "lesson-ela-1-1-4",
+    "title": "Reading Our First Sentence",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Read each sentence aloud, then copy it on the line below.",
+      "prompts": [
+        { "prompt": "The cat sat.", "lines": 2 },
+        { "prompt": "The fish can sit.", "lines": 2 }
+      ]
+    }
+  }
+}

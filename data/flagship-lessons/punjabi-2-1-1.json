@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-2-1",
+    "courseId": "course-punjabi-2",
+    "order": 1,
+    "title": "Verbs, Sentences, and Short Stories",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-2-1-1",
+    "unitId": "unit-punjabi-2-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Common Verbs: Action Words",
+    "gradeLevel": "2",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know letters, greetings, and simple words. This year, let's learn action words — verbs — the words that make sentences come alive!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਖਾਣਾ (khana) means to eat. ਪੀਣਾ (peena) means to drink. ਖੇਡਣਾ (khedna) means to play. ਸੌਣਾ (sauna) means to sleep. Practice saying each one, and act it out as you say it — pretend to eat, drink, play, and sleep! Which of these actions have you done already today?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know four real Punjabi verbs! Tomorrow we'll use them to build your very first Punjabi sentences."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-2-1-1",
+    "lessonId": "lesson-punjabi-2-1-1",
+    "objectives": [
+      "Recognize and use the verbs khana (to eat), peena (to drink), khedna (to play), and sauna (to sleep)",
+      "Act out or describe each verb to demonstrate understanding of its meaning"
+    ],
+    "materialsNeeded": ["Printed 'Common Verbs' worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce each verb one at a time, acting it out together (mime eating, drinking, playing, sleeping).\n2. Practice saying each word several times while acting it out.\n3. Ask the child which of these actions they've already done today.\n4. Move to the worksheet: trace each verb and talk through its meaning.\n5. Close by using each verb in a simple spoken sentence together (even in English, just naming the action).",
+    "differentiationTips": [
+      "Struggling: focus on just two verbs (khana and khedna) rather than all four at once",
+      "Ready for more: ask the child to think of one more action verb they already know",
+      "For a kinesthetic learner, make this a full physical game — call out a verb and have them act it out immediately"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and vocabulary-practice activity — there is no right/wrong answer beyond correct word tracing and understanding each verb's meaning.",
+    "standardsRationale": "Common verbs are the Grade 2 Punjabi course's stated starting point — action words are the essential building block for the sentence construction this week moves toward."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-2-1-1",
+    "lessonId": "lesson-punjabi-2-1-1",
+    "title": "Common Verbs: Action Words",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Khana", "label": "To eat" },
+        { "trace": "Peena", "label": "To drink" },
+        { "trace": "Khedna", "label": "To play" },
+        { "trace": "Sauna", "label": "To sleep" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-2-1",
+    "courseId": "course-punjabi-2",
+    "order": 1,
+    "title": "Verbs, Sentences, and Short Stories",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-2-1-4",
+    "unitId": "unit-punjabi-2-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Reading Our First Short Story",
+    "gradeLevel": "2",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built real sentences. Today let's put three of them together into your very first short story, written in Gurmukhi script."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read this short story, one sentence at a time: ਮੈਂ ਘਰ ਜਾਂਦਾ ਹਾਂ। ਮੈਂ ਪਾਣੀ ਪੀਂਦਾ ਹਾਂ। ਮੈਂ ਖੇਡਦਾ ਹਾਂ। (Main ghar jaanda haan. Main paani peenda haan. Main khedda haan. — I go home. I drink water. I play.) Notice every word in this story is one you already know! Practice reading it a few times, getting a little faster and more confident each time."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just read your very first Punjabi story, entirely in Gurmukhi script! Tomorrow is review day, where we'll bring together everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-2-1-4",
+    "lessonId": "lesson-punjabi-2-1-4",
+    "objectives": [
+      "Read a three-sentence story in Gurmukhi script, built entirely from this week's known vocabulary",
+      "Retell the story's meaning in their own words"
+    ],
+    "materialsNeeded": ["Printed 'Reading Our First Short Story' worksheet", "Pencil"],
+    "facilitationScript": "1. Read the three-sentence story together slowly, one sentence at a time.\n2. Ask the child to explain what each sentence means.\n3. Practice reading the whole story again, a bit faster and more confidently.\n4. Move to the worksheet: trace the story and practice reading it once more.\n5. Close by having the child 'read' the story aloud to a family member.",
+    "differentiationTips": [
+      "Struggling: focus on just one sentence at a time, reading it multiple times before moving to the next",
+      "Ready for more: ask the child to write their own fourth sentence to add to the story, using this week's vocabulary",
+      "For a child who enjoys performing, have them act out each sentence while reading it aloud"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reading-fluency activity — check that the child can read all three sentences and explain their meaning, at whatever pace feels comfortable.",
+    "standardsRationale": "Reading a short story built entirely from known vocabulary is the Grade 2 Punjabi course's stated goal (the course's stated 'reading short stories' focus), showing that this week's sentence-building skills translate into real reading."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-2-1-4",
+    "lessonId": "lesson-punjabi-2-1-4",
+    "title": "Reading Our First Short Story",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Read the story aloud, then copy each sentence on the lines below.",
+      "prompts": [
+        { "prompt": "ਮੈਂ ਘਰ ਜਾਂਦਾ ਹਾਂ। (I go home.)", "lines": 1 },
+        { "prompt": "ਮੈਂ ਪਾਣੀ ਪੀਂਦਾ ਹਾਂ। (I drink water.)", "lines": 1 },
+        { "prompt": "ਮੈਂ ਖੇਡਦਾ ਹਾਂ। (I play.)", "lines": 1 }
+      ]
+    }
+  }
+}

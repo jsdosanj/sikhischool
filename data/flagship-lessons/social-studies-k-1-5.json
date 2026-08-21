@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-k-1",
+    "courseId": "course-social-studies-k",
+    "order": 1,
+    "title": "Myself and My Community",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-k-1-5",
+    "unitId": "unit-social-studies-k-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Myself and My Community",
+    "gradeLevel": "K",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about being a helper, community helpers, rules, and the different communities you belong to. Today is review day — let's bring it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's review: what does it mean to be a helper? Can you name two community helper jobs? Why do rules exist? What are two communities you belong to? Try answering each question from memory first, then check together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you've built real understanding of community, helping, and rules! Next week, we'll keep learning more about the communities around us."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-k-1-5",
+    "lessonId": "lesson-social-studies-k-1-5",
+    "objectives": [
+      "Recall and explain all four concepts from this week (being a helper, community helpers, rules, belonging to multiple communities)",
+      "Self-identify which concept feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Ask the four big review questions one at a time, letting the child answer from memory first.\n2. Check answers together against what was learned this week.\n3. Move to the worksheet: complete the mixed review questions covering all four days.\n4. Praise effort and progress across the whole week, not just today's recall.\n5. Close by previewing that next week continues exploring community together.",
+    "differentiationTips": [
+      "Struggling: focus review time on whichever single concept felt hardest, rather than requiring equal recall of all four",
+      "Ready for more: ask the child to describe a brand-new community they could imagine joining, and what helpers/rules it might have",
+      "For a child who enjoys role play, act out being a community helper from this week's lessons"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which of the four concepts the child recalled confidently vs. needed prompting for, to guide next week's pacing.",
+    "standardsRationale": "A dedicated review day after a full week of related civics concepts matches the platform's established pacing pattern (see the Punjabi K, Sikhi K, Math K, ELA K, and Science K units' own Day 5 review lessons) — consolidation before adding more content is essential at this age."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-k-1-5",
+    "lessonId": "lesson-social-studies-k-1-5",
+    "title": "Review Day: Myself and My Community",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each review question in your own words.",
+      "rows": [
+        { "problem": "What does it mean to be a helper?" },
+        { "problem": "Name two community helper jobs." },
+        { "problem": "Why do rules exist?" },
+        { "problem": "Name two communities you belong to." }
+      ]
+    }
+  }
+}

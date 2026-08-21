@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-k-1",
+    "courseId": "course-science-k",
+    "order": 1,
+    "title": "Living Things and Their Needs",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-k-1-5",
+    "unitId": "unit-science-k-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Living Things and Their Needs",
+    "gradeLevel": "K",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you became a real living-things scientist! You learned what plants need, what animals need, how to sort living from non-living, and how plants and animals compare. Today is review day."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's put it all together: what do plants need? What do animals need? How do you know if something is alive? How are plants and animals alike and different? Try answering each question without looking back at your worksheets first, then check your answers together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you built real scientific understanding of living things! Next week, we'll keep exploring more about our world."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-k-1-5",
+    "lessonId": "lesson-science-k-1-5",
+    "objectives": [
+      "Recall and explain, in simple words, all four concepts from this week (plant needs, animal needs, living/non-living, plant-animal comparison)",
+      "Self-identify which concept feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Ask the four big review questions one at a time, letting the child answer from memory first.\n2. Check answers together against what was learned this week.\n3. Move to the worksheet: complete the mixed review questions covering all four days.\n4. Praise effort and progress across the whole week, not just today's recall.\n5. Close by previewing that next week continues exploring science together.",
+    "differentiationTips": [
+      "Struggling: focus review time on whichever single concept felt hardest, rather than requiring equal recall of all four",
+      "Ready for more: ask the child to teach the week's concepts back to a stuffed animal or family member, in their own words",
+      "For a child who enjoys nature, take a short walk and identify real living and non-living things together"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which of the four concepts the child recalled confidently vs. needed prompting for, to guide next week's pacing.",
+    "standardsRationale": "A dedicated review day after a full week of related life-science concepts matches the platform's established pacing pattern (see the Punjabi K, Sikhi K, Math K, and ELA K units' own Day 5 review lessons) — consolidation before adding more content is essential at this age."
+  },
+  "worksheet": {
+    "id": "worksheet-science-k-1-5",
+    "lessonId": "lesson-science-k-1-5",
+    "title": "Review Day: Living Things and Their Needs",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each review question in your own words.",
+      "rows": [
+        { "problem": "Name one thing plants need to grow." },
+        { "problem": "Name one thing animals need to survive." },
+        { "problem": "How can you tell if something is living?" },
+        { "problem": "Name one way plants and animals are different." }
+      ]
+    }
+  }
+}

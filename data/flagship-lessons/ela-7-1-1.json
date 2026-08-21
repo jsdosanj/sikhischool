@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-7-1",
+    "courseId": "course-ela-7",
+    "order": 1,
+    "title": "Analyzing an Author's Craft",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-7-1-1",
+    "unitId": "unit-ela-7-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Word Choice and Tone",
+    "gradeLevel": "7",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Authors don't just tell you what happened — they choose specific words to make you feel a certain way about it. That feeling is called tone, and word choice is the main tool authors use to create it."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Compare these two sentences describing the same event: 'The old house sat quietly at the end of the road' versus 'The decrepit house crouched menacingly at the end of the road.' Same basic fact, completely different tone — the first is calm and neutral, the second is unsettling and ominous. Notice which specific words did the work: decrepit, crouched, menacingly. As a reader, you can find an author's tone by asking: which words carry extra emotional weight, beyond their plain dictionary meaning?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Every strong writer chooses words deliberately, not accidentally. As both a reader and a writer, start noticing: what tone is this word choice creating, and is it the tone the author intended?"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-7-1-1",
+    "lessonId": "lesson-ela-7-1-1",
+    "objectives": [
+      "Define tone as the author's attitude toward a subject, created largely through word choice",
+      "Identify specific word choices that create a given tone, and revise a sentence to shift its tone"
+    ],
+    "materialsNeeded": ["Printed 'Word Choice and Tone' worksheet", "Pencil", "Optional: a short passage from a book the child is currently reading"],
+    "facilitationScript": "1. Read the two example sentences (calm house vs. menacing house) aloud, asking the child to describe the feeling each one gives.\n2. Underline the specific words responsible for the tone shift in each sentence.\n3. Try a few more quick tone-comparison pairs together, orally, before writing.\n4. If available, find a passage from the child's current book and identify one tone-creating word choice together.\n5. Move to the worksheet: rewrite each neutral sentence to create a new specified tone (e.g. 'make this sentence sound exciting' or 'make this sentence sound sad').\n6. Close by reading the rewritten sentences aloud and checking whether the new tone comes through clearly.",
+    "differentiationTips": [
+      "Struggling: provide a small word bank of tone-appropriate adjectives/verbs to choose from rather than a fully blank rewrite",
+      "Ready for more: ask the child to write the same event in three different tones (excited, worried, bored) and compare word choices across all three",
+      "For a child who enjoys reading widely, have them find and share one strong tone-creating sentence from their own book"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Open-ended rewriting — check that the child's word choices genuinely shift the tone toward the target (e.g. more vivid/emotionally loaded words for 'exciting,' softer/wistful words for 'sad'), not just a synonym swap with no tonal change.",
+    "standardsRationale": "Analyzing how word choice creates tone is a core Grade 7 author's-craft skill, building the close-reading habits research-paper analysis and literary interpretation depend on later in the course."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-7-1-1",
+    "lessonId": "lesson-ela-7-1-1",
+    "title": "Word Choice and Tone",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Rewrite each neutral sentence to create the tone shown in parentheses. Focus on your word choices.",
+      "prompts": [
+        { "prompt": "The dog walked across the yard. (Rewrite for an EXCITING tone.)", "lines": 2 },
+        { "prompt": "The dog walked across the yard. (Rewrite for a SAD tone.)", "lines": 2 },
+        { "prompt": "The dog walked across the yard. (Rewrite for a SCARY tone.)", "lines": 2 }
+      ]
+    }
+  }
+}

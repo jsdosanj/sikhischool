@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-7-1",
+    "courseId": "course-math-7",
+    "order": 1,
+    "title": "Proportional Relationships",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-7-1-1",
+    "unitId": "unit-math-7-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Understanding Proportional Relationships",
+    "gradeLevel": "7",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "If 3 notebooks cost $6, how much do 7 notebooks cost? Questions like this involve a proportional relationship — two quantities that always grow at the same constant rate."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A relationship is proportional when the ratio between the two quantities stays the same every time. For notebooks: $6 for 3 notebooks means $2 per notebook (the unit rate). Check: does $6/3 = $2, and does that same rate hold for any other pair in the relationship? If you buy 7 notebooks, multiply the unit rate by 7: $2 x 7 = $14. A quick way to spot a proportional relationship in a table is to check whether dividing y by x gives the same number every single row — if it does, and the relationship passes through (0,0), it's proportional."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Proportional relationships show up everywhere — recipes, speed, unit pricing, map scales. Once you find the unit rate, you can solve for any amount."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-7-1-1",
+    "lessonId": "lesson-math-7-1-1",
+    "objectives": [
+      "Identify whether a relationship between two quantities is proportional by checking for a constant ratio",
+      "Find the unit rate (constant of proportionality) and use it to solve for an unknown quantity"
+    ],
+    "materialsNeeded": ["Printed 'Understanding Proportional Relationships' worksheet", "Pencil", "Calculator (optional, for checking work)"],
+    "facilitationScript": "1. Pose the notebook problem (3 for $6, how much for 7?) and let the child attempt it before explaining.\n2. Introduce the unit rate concept: divide to find the cost of ONE item, then multiply back up.\n3. Show a table of paired values and demonstrate checking for a constant ratio (y/x) across every row.\n4. Contrast with a non-proportional example (e.g. a taxi fare with a flat starting fee plus a per-mile rate) to build the distinguishing skill.\n5. Move to the worksheet: solve each proportional-relationship problem, showing the unit rate used.\n6. Close by having the child explain, in their own words, how to tell if a relationship is proportional.",
+    "differentiationTips": [
+      "Struggling: stick to whole-number unit rates and simple contexts (recipes, unit pricing) before introducing tables with fractions",
+      "Ready for more: introduce the equation form y = kx and have the child write the equation for each worksheet problem",
+      "For a child who enjoys real-world application, have them find a real proportional relationship at home (a recipe, a gas mileage rate) and calculate its unit rate"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. $14 (unit rate $2/notebook x 7). 2. 150 miles (unit rate 30 mph x 5). 3. $16 (unit rate $2/lb x 8). 4. 5 cups (unit rate 1/6 cup per cookie x 30).",
+    "standardsRationale": "Proportional relationships are the central Grade 7 ratios-and-proportions strand, and the skill of testing for a constant ratio directly prepares students for linear equations and functions in Grade 8."
+  },
+  "worksheet": {
+    "id": "worksheet-math-7-1-1",
+    "lessonId": "lesson-math-7-1-1",
+    "title": "Understanding Proportional Relationships",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find the unit rate, then use it to solve each problem. Write your final answer in the box.",
+      "rows": [
+        { "problem": "3 notebooks cost $6. How much do 7 notebooks cost?" },
+        { "problem": "A car travels 60 miles in 2 hours. How far does it travel in 5 hours at the same speed?" },
+        { "problem": "5 pounds of apples cost $10. How much do 8 pounds cost?" },
+        { "problem": "A recipe uses 2 cups of flour for 12 cookies. How much flour is needed for 30 cookies?" }
+      ]
+    }
+  }
+}

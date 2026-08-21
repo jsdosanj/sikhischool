@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-sikhi-7-1",
+    "courseId": "course-sikhi-7",
+    "order": 1,
+    "title": "Sikh Identity and the Articles of Faith",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-7-1-1",
+    "unitId": "unit-sikhi-7-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The Five Kakars: Symbols of Sikh Identity",
+    "gradeLevel": "7",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "In 1699, Guru Gobind Singh formally established the Khalsa, giving initiated Sikhs a distinct, visible identity through five articles of faith known as the Five Kakars (or 'Five Ks'). Today we'll learn what each one is and what it represents."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Five Kakars are: Kesh (uncut hair, representing acceptance of God's creation as it naturally is), Kangha (a wooden comb, representing discipline and cleanliness), Kara (a steel bracelet, representing restraint and a reminder of one's commitment), Kachera (a specific cotton undergarment, representing self-control and readiness for action), and Kirpan (a ceremonial sword, representing the duty to defend justice and protect the vulnerable). Together, these five articles make a Sikh's commitment to their faith visible and constant, worn at all times rather than only during worship."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Each of the Five Kakars carries real meaning beyond its physical form. This week, talk with a family member about what visible identity and commitment mean to them."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-7-1-1",
+    "lessonId": "lesson-sikhi-7-1-1",
+    "objectives": [
+      "Name all Five Kakars and explain, in simple terms, what each one represents",
+      "Explain why the Five Kakars were established as a visible, constant identity rather than symbols worn only during worship"
+    ],
+    "materialsNeeded": ["Printed 'The Five Kakars' worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the founding of the Khalsa in 1699 as the context for the Five Kakars.\n2. Go through each of the Five Kakars one at a time, discussing both its physical form and its symbolic meaning.\n3. Discuss why the Gurus chose a visible, constant identity rather than a private one — what does that visibility represent?\n4. Move to the worksheet: trace each term and its meaning.\n5. Close by asking the child to explain, in their own words, why visible commitment matters to the person who wears it.",
+    "differentiationTips": [
+      "Struggling: focus on three Kakars per sitting rather than all five at once",
+      "Ready for more: research how a family member who wears the Five Kakars experiences and explains their meaning personally",
+      "This lesson is intentionally focused on identity/articles of faith — the course's 'historical persecution and resilience' strand is a separate lesson, not blended in here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a tracing and discussion activity — there is no right/wrong answer beyond correct tracing. Check that the child can name and explain the meaning of all five Kakars by the end.",
+    "standardsRationale": "The Five Kakars are the foundational, universally-taught content for Grade 7 Sikh-identity study, building directly on the Grade 4 introduction to Guru Nanak's core teachings."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-7-1-1",
+    "lessonId": "lesson-sikhi-7-1-1",
+    "title": "The Five Kakars",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Kesh", "label": "Uncut hair — acceptance of God's creation as it naturally is" },
+        { "trace": "Kangha", "label": "A wooden comb — discipline and cleanliness" },
+        { "trace": "Kara", "label": "A steel bracelet — restraint and a reminder of commitment" },
+        { "trace": "Kachera", "label": "A cotton undergarment — self-control and readiness" },
+        { "trace": "Kirpan", "label": "A ceremonial sword — the duty to defend justice" }
+      ]
+    }
+  }
+}

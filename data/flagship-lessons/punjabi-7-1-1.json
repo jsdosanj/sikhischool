@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-7-1",
+    "courseId": "course-punjabi-7",
+    "order": 1,
+    "title": "Formal Writing in Punjabi",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-7-1-1",
+    "unitId": "unit-punjabi-7-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Writing a Letter: Punjabi Letter-Writing Conventions",
+    "gradeLevel": "7",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਅੱਜ ਅਸੀਂ ਪੰਜਾਬੀ ਵਿੱਚ ਚਿੱਠੀ ਲਿਖਣਾ ਸਿੱਖਦੇ ਹਾਂ। (Today we learn to write a letter in Punjabi.) Punjabi letters follow their own conventions for greetings and closings — different from an English letter."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A Punjabi letter often opens with ਪਿਆਰੇ (pyaare, 'dear') for someone close, or a more formal greeting for someone you respect deeply. The body of the letter states its ਵਿਸ਼ਾ (visha, 'subject' or purpose) clearly, often within the first sentence. A common respectful closing is ਤੁਹਾਡਾ ਸਤਿਕਾਰ ਸਹਿਤ (tuhaada satikaar sahit, roughly 'with your respect'), followed by your name. Practice writing a short letter to a family member using this structure: greeting, clear subject, and a respectful closing."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've now practiced the real structure of a Punjabi letter — greeting, subject, closing. This is a skill you can use to write to family members near or far."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-7-1-1",
+    "lessonId": "lesson-punjabi-7-1-1",
+    "objectives": [
+      "Use appropriate Punjabi letter-writing conventions: a greeting, a clearly stated subject, and a respectful closing",
+      "Write a short, complete letter in Punjabi (or a Punjabi/English mix, if still building fluency) to a family member"
+    ],
+    "materialsNeeded": ["Printed 'Writing a Letter' worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the three parts of a Punjabi letter: greeting, subject, closing.\n2. Practice the key vocabulary aloud: pyaare, visha, tuhaada satikaar sahit.\n3. Model a short example letter together, pointing out each of the three parts.\n4. Move to the worksheet: write a letter to a family member using all three parts.\n5. Read the letter back together, checking that each part is present and clear.\n6. Close by discussing: who would the child like to actually send a letter like this to?",
+    "differentiationTips": [
+      "Struggling: provide sentence starters for each part (greeting, subject, closing) rather than a fully blank letter",
+      "Ready for more: challenge the child to write the entire letter in Gurmukhi script rather than English transliteration",
+      "For a child who enjoys writing, encourage them to actually send the letter to the family member they wrote to"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Open-ended writing — check that the letter includes a clear greeting, a clearly stated subject/purpose within the first sentence or two, and a respectful closing before the child's name.",
+    "standardsRationale": "Formal letter-writing conventions are the Grade 7 Punjabi course's core grammar-mastery and cultural-literacy skill, connecting language mechanics to a real, usable family-communication skill."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-7-1-1",
+    "lessonId": "lesson-punjabi-7-1-1",
+    "title": "Writing a Letter",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a short letter to a family member. Include a greeting, a clear subject, and a respectful closing.",
+      "prompts": [
+        { "prompt": "Pyaare... (Dear...)", "lines": 8 }
+      ]
+    }
+  }
+}

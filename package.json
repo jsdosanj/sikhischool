@@ -18,10 +18,13 @@
     "drizzle-orm": "^0.45.2",
     "next": "16.3.1",
     "next-auth": "^4.24.15",
-    "nodemailer": "^7.0.13",
+    "nodemailer": "^9.0.5",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "resend": "^6.21.0"
+  },
+  "overrides": {
+    "nodemailer": "^9.0.5"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260821.1",

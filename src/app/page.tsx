@@ -18,12 +18,20 @@ export default function Home() {
         </a>
         . Under construction — Wave 1.
       </p>
-      <Link
-        href="/santhya-path"
-        className="mt-2 rounded bg-[var(--color-saffron)] px-4 py-2 text-sm font-semibold text-[#2a1c06] hover:brightness-105"
-      >
-        Explore Santhya Path &rarr;
-      </Link>
+      <div className="mt-2 flex flex-wrap justify-center gap-3">
+        <Link
+          href="/courses"
+          className="rounded bg-[var(--color-saffron)] px-4 py-2 text-sm font-semibold text-[#2a1c06] hover:brightness-105"
+        >
+          Browse Courses &rarr;
+        </Link>
+        <Link
+          href="/santhya-path"
+          className="rounded border border-[var(--foreground)]/20 px-4 py-2 text-sm font-semibold hover:border-[var(--color-saffron)]"
+        >
+          Explore Santhya Path &rarr;
+        </Link>
+      </div>
     </main>
   );
 }

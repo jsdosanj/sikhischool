@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-k-1",
+    "courseId": "course-social-studies-k",
+    "order": 1,
+    "title": "Myself and My Community",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-k-1-4",
+    "unitId": "unit-social-studies-k-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "My Family and My School: Two Communities I Belong To",
+    "gradeLevel": "K",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned about helpers and rules. Did you know you actually belong to more than one community at the same time? Today let's think about two: your family and your school."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Your family is a community — the people you live with and who take care of you. Your school is a different community — your teacher, your classmates, everyone who learns and works there together. Both communities have helpers, and both have rules! Think about one helper and one rule from your family, and one helper and one rule from your school. How are the two communities alike? How are they different?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You belong to more than one community, and that's true for everyone. Tomorrow is review day — we'll bring together everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-k-1-4",
+    "lessonId": "lesson-social-studies-k-1-4",
+    "objectives": [
+      "Identify family and school as two distinct communities the child belongs to",
+      "Name at least one helper and one rule from each community, comparing the two"
+    ],
+    "materialsNeeded": ["Printed 'My Family and My School' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Ask the child to name people in their family and people at their school.\n2. Introduce that both groups are communities the child belongs to, at the same time.\n3. Ask for one helper and one rule from each community, discussing similarities and differences.\n4. Move to the worksheet: fill in one helper and one rule for each community.\n5. Close by naming one more community the child might belong to (a faith community, a sports team, a neighborhood).",
+    "differentiationTips": [
+      "Struggling: focus on just one community today (whichever feels more familiar) rather than comparing both at once",
+      "Ready for more: introduce a third community the child belongs to (Gurdwara/Sangat, a sports team, a neighborhood) and compare all three",
+      "For a child with a non-traditional family structure, keep the definition of 'family' open and led by the child's own description"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Open-ended — check that the child named a real helper and rule for both family and school, and can describe at least one similarity or difference between the two communities.",
+    "standardsRationale": "Recognizing that a person belongs to multiple, overlapping communities at once is a core Kindergarten civics concept — it sets up this week's review and previews the broader community study in the rest of the course."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-k-1-4",
+    "lessonId": "lesson-social-studies-k-1-4",
+    "title": "My Family and My School",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your answers for each prompt below.",
+      "prompts": [
+        { "prompt": "Name one helper in your family, and what they help with.", "lines": 2 },
+        { "prompt": "Name one rule you follow at home.", "lines": 2 },
+        { "prompt": "Name one helper at your school, and what they help with.", "lines": 2 },
+        { "prompt": "Name one rule you follow at school.", "lines": 2 }
+      ]
+    }
+  }
+}

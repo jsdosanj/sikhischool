@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-k-1",
+    "courseId": "course-social-studies-k",
+    "order": 1,
+    "title": "Myself and My Community",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-k-1-2",
+    "unitId": "unit-social-studies-k-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Community Helpers and Their Jobs",
+    "gradeLevel": "K",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday we talked about being a helper in our community. Today let's meet some community helpers whose whole job is helping others — and learn what they actually do."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A firefighter puts out fires and rescues people who are in danger. A doctor helps people who are sick or hurt feel better. A teacher helps children learn new things. A mail carrier delivers letters and packages to people's homes. Each helper has special training for their job, and their community depends on them. Which community helper would you like to learn more about?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Community helpers do important work every single day. Tomorrow we'll talk about another way communities take care of each other: rules."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-k-1-2",
+    "lessonId": "lesson-social-studies-k-1-2",
+    "objectives": [
+      "Name at least three community helper jobs and describe what each one does",
+      "Explain why communities depend on these helpers"
+    ],
+    "materialsNeeded": ["Printed 'Community Helpers' worksheet", "Pencil or crayon", "Optional: picture books or photos of community helpers"],
+    "facilitationScript": "1. Ask the child to name any community helpers they already know.\n2. Introduce firefighter, doctor, teacher, and mail carrier one at a time, discussing what each does.\n3. Talk about why each job matters — what would happen without that helper?\n4. Move to the worksheet: trace each helper's job title and talk through what they do.\n5. Close by asking which helper the child finds most interesting and why.",
+    "differentiationTips": [
+      "Struggling: focus on just two helpers the child already has some familiarity with, rather than all four at once",
+      "Ready for more: brainstorm additional community helpers not covered today (police officer, librarian, sanitation worker)",
+      "For a child who knows a community helper personally (a parent, relative, or family friend), invite them to share what that person's job is really like"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can describe what each helper does.",
+    "standardsRationale": "Learning about community helpers and their roles is a core Kindergarten civics concept, building directly on the previous lesson's introduction to being a helper."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-k-1-2",
+    "lessonId": "lesson-social-studies-k-1-2",
+    "title": "Community Helpers and Their Jobs",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Firefighter", "label": "Puts out fires and rescues people in danger" },
+        { "trace": "Doctor", "label": "Helps people who are sick or hurt" },
+        { "trace": "Teacher", "label": "Helps children learn new things" },
+        { "trace": "Mail Carrier", "label": "Delivers letters and packages" }
+      ]
+    }
+  }
+}

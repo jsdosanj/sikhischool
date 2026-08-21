@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-k-1",
+    "courseId": "course-social-studies-k",
+    "order": 1,
+    "title": "Myself and My Community",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-k-1-3",
+    "unitId": "unit-social-studies-k-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Following Rules Keeps Us Safe",
+    "gradeLevel": "K",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know some community helpers now. Today let's talk about another way communities take care of everyone: rules. Have you ever wondered why we have rules at all?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Rules exist to keep everyone safe and to make sure people treat each other fairly. Think about crossing the street — the rule is to look both ways and wait for a safe moment. That rule keeps you safe from cars. Think about taking turns on a playground — that rule makes sure everyone gets a fair chance to play. Can you think of a rule you follow at home or at school, and why it exists?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Rules aren't just about following orders — they're about keeping everyone safe and treating each other fairly. Tomorrow we'll think about the different communities you belong to."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-k-1-3",
+    "lessonId": "lesson-social-studies-k-1-3",
+    "objectives": [
+      "Explain in simple words why rules exist (to keep people safe and treat everyone fairly)",
+      "Name at least one real rule they follow and the reason behind it"
+    ],
+    "materialsNeeded": ["Printed 'Following Rules' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Ask the child to name a rule they follow at home or school.\n2. Introduce that rules exist for two big reasons: safety and fairness.\n3. Walk through the crossing-the-street example (safety) and the taking-turns example (fairness).\n4. Brainstorm 2-3 more rules together, sorting each into 'safety' or 'fairness.'\n5. Move to the worksheet: trace each rule and talk through why it exists.\n6. Close by picking one rule to be extra mindful of this week.",
+    "differentiationTips": [
+      "Struggling: focus on just one clear safety rule (like looking both ways) rather than sorting multiple rules into categories",
+      "Ready for more: ask what might happen if a rule like 'look both ways' didn't exist — connect the rule to a real consequence",
+      "For a child who resists rules, frame this positively as rules protecting them and their friends, not as restrictions"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can explain why at least one rule exists.",
+    "standardsRationale": "Understanding why rules exist (safety and fairness) is a core Kindergarten civics concept — the foundational idea behind community cooperation that later grades build into deeper study of laws and government."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-k-1-3",
+    "lessonId": "lesson-social-studies-k-1-3",
+    "title": "Following Rules Keeps Us Safe",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each rule, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Look both ways", "label": "Keeps you safe when crossing the street" },
+        { "trace": "Take turns", "label": "Makes sure everyone gets a fair chance" }
+      ]
+    }
+  }
+}

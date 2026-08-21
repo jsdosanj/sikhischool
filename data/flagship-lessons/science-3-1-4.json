@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-3-1",
+    "courseId": "course-science-3",
+    "order": 1,
+    "title": "Forces and Motion",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-3-1-4",
+    "unitId": "unit-science-3-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Magnets: Forces at a Distance",
+    "gradeLevel": "3",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every force we've studied this week needed direct contact — a hand pushing, a foot kicking. But a magnet can move a paperclip without ever touching it. That's a very different kind of force, and today we investigate it."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A magnet pulls certain metal objects (like paperclips, some nails, and refrigerator doors) toward it without touching them — this is a force acting at a distance. If you have a magnet at home, try this: bring it slowly toward a paperclip until the clip jumps toward it before contact — notice the gap. Two magnets can also push each other away (repel) or pull together (attract), depending on which ends face each other — this is why some magnets snap together strongly one way and push apart if you flip one around. Unlike a push or a pull from your hand, magnetic force gets weaker the farther apart the objects are, and stops working past a certain distance."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Magnetism is a real force, just like a push or a pull — it just doesn't need touching to work. Tomorrow we'll review everything we've learned about forces and motion this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-3-1-4",
+    "lessonId": "lesson-science-3-1-4",
+    "objectives": [
+      "Describe magnetism as a force that acts between two objects without them touching",
+      "Explain that magnets can both attract and repel depending on orientation"
+    ],
+    "materialsNeeded": ["A magnet (fridge magnet works)", "A paperclip or other small metal object", "A second magnet if available", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's forces so far (push/pull, balanced/unbalanced, patterns) — all needed contact.\n2. Introduce magnetism as a force that does NOT need contact.\n3. Demonstrate: move a magnet slowly toward a paperclip, pointing out the moment it jumps before touching.\n4. If a second magnet is available, demonstrate attract vs. repel by flipping one end.\n5. Discuss: does magnetism work from across the room? (No — it gets weaker with distance, and eventually stops working entirely.)\n6. Complete the worksheet.\n7. Close by asking the child to name where they've seen a magnet used in daily life (fridge, cabinet latch, some toys).",
+    "differentiationTips": [
+      "Struggling: focus only on the attract case (paperclip jumping) before introducing repel",
+      "Ready for more: discuss that Earth itself acts like a giant magnet, which is why compasses work (a preview, not a full lesson)",
+      "If no magnets are available at home, describe the paperclip demonstration vividly and focus discussion/worksheet on the concept"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A magnet moving a paperclip without touching it = force at a distance / non-contact force. 2. Two magnets snapping together = attract. 3. Two magnets pushing apart when flipped = repel. 4. Moving a magnet farther away makes the force weaker.",
+    "standardsRationale": "Directly addresses NGSS 3-PS2-3 and 3-PS2-4: asking questions to determine cause-and-effect relationships of electric or magnetic interactions between two objects not in contact with each other, and defining a design problem involving magnets."
+  },
+  "worksheet": {
+    "id": "worksheet-science-3-1-4",
+    "lessonId": "lesson-science-3-1-4",
+    "title": "Magnets: Forces Without Touching",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about magnets in one short sentence.",
+      "rows": [
+        { "problem": "What do we call a magnet moving a paperclip without touching it?" },
+        { "problem": "What do we call it when two magnets snap together?" },
+        { "problem": "What do we call it when two magnets push apart?" },
+        { "problem": "What happens to magnetic force as you move the magnet farther away?" }
+      ]
+    }
+  }
+}

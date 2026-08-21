@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-3-1",
+    "courseId": "course-science-3",
+    "order": 1,
+    "title": "Forces and Motion",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-3-1-5",
+    "unitId": "unit-science-3-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Forces and Motion Week 1",
+    "gradeLevel": "3",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you investigated forces from every angle: what they are, how they combine, how they create patterns, and how one special kind works without even touching. Let's put it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: A force is a push or a pull (Day 1). Forces can be balanced (no change in motion) or unbalanced (motion changes) (Day 2). Watching a pattern in an object's motion lets you predict what happens next (Day 3). Magnetism is a force that works without touching, and can attract or repel (Day 4). Walk back through your own home: find one push, one pull, one balanced-force example, one unbalanced-force example, one motion pattern, and — if you have a magnet — one magnetic attract-or-repel example. That's six real examples of everything you learned this week."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work investigating forces and motion this week! You've built a real foundation in physical science that scientists and engineers use every day."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-3-1-5",
+    "lessonId": "lesson-science-3-1-5",
+    "objectives": [
+      "Recall and correctly apply all four force concepts from the week: push/pull, balanced/unbalanced, motion patterns, and magnetism",
+      "Identify a real-life example of each concept"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil", "Optional: a magnet for the final example"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Send the child on the 'six examples' home scavenger hunt described in the lesson.\n3. Complete the cumulative review worksheet, which mixes all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of investigation — this pattern (5 days building to a review) is how every unit this year will work.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to explain WHY each example fits its category, not just to label it correctly",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Kicking a ball = push. 2. A book resting flat on a table = balanced. 3. A swing going back and forth = a repeating motion pattern used to predict what happens next. 4. A magnet pulling a paperclip without touching it = magnetism (attract).",
+    "standardsRationale": "Consolidates NGSS 3-PS2-1 through 3-PS2-4 (balanced/unbalanced forces, motion patterns, and non-contact magnetic/electric forces) before the unit moves on, matching the 'consolidate before adding more' pacing established in earlier units this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-3-1-5",
+    "lessonId": "lesson-science-3-1-5",
+    "title": "Forces and Motion: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "Kicking a ball is an example of a...?" },
+        { "problem": "A book resting flat and still on a table has what kind of forces acting on it?" },
+        { "problem": "A swing moving back and forth in the same path is an example of a...?" },
+        { "problem": "A magnet pulling a paperclip toward it without touching is called...?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-3-1",
+    "courseId": "course-science-3",
+    "order": 1,
+    "title": "Forces and Motion",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-3-1-2",
+    "unitId": "unit-science-3-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Balanced and Unbalanced Forces",
+    "gradeLevel": "3",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you found pushes and pulls all around you. But what happens when two forces act on the same object at the same time? Sometimes nothing moves at all — and sometimes something moves fast. Let's find out why."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "When forces on an object are balanced (equal in strength, opposite in direction), the object doesn't change its motion — like two evenly matched teams in tug-of-war, the rope stays still. When forces are unbalanced (one side is stronger), the object moves in the direction of the stronger force — the rope slides toward the stronger team. Try this: hold a book flat on your open hand. Gravity pulls it down; your hand pushes it up. Since the book stays still, are those forces balanced or unbalanced? Now tilt your hand — the book slides off. What changed?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Balanced forces keep things steady. Unbalanced forces cause a change in motion. Tomorrow we'll use this idea to predict how objects will move."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-3-1-2",
+    "lessonId": "lesson-science-3-1-2",
+    "objectives": [
+      "Distinguish balanced forces (no change in motion) from unbalanced forces (motion changes)",
+      "Explain a real, hands-on example of each using gravity and a supporting force"
+    ],
+    "materialsNeeded": ["A book or other flat object", "A table or open hand", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review push/pull from yesterday.\n2. Introduce the tug-of-war analogy for balanced vs. unbalanced forces.\n3. Do the book-on-hand demonstration: flat hand (balanced), then tilt (unbalanced) — narrate what's happening to the forces each time.\n4. Try 2-3 more examples together: a parked car (balanced — brakes push back against gravity/friction), a rolling ball slowing down (unbalanced — friction is stronger than the push that started it).\n5. Complete the worksheet, sorting scenarios as balanced or unbalanced.\n6. Close by asking the child to invent their own balanced-force example.",
+    "differentiationTips": [
+      "Struggling: stick to the single book-on-hand example repeated with variations before introducing new scenarios",
+      "Ready for more: introduce the term 'net force' informally — the 'leftover' force after balanced ones cancel out",
+      "Hands-on learners benefit most from physically doing the tilt demonstration multiple times, narrating aloud each time"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Book resting flat on a table = balanced. 2. Tilted book sliding off = unbalanced. 3. A parked car with the brake on = balanced. 4. A rolling ball slowing to a stop = unbalanced (friction).",
+    "standardsRationale": "Directly addresses NGSS 3-PS2-1: planning and reasoning about the effects of balanced and unbalanced forces on an object's motion, the core Grade 3 forces standard."
+  },
+  "worksheet": {
+    "id": "worksheet-science-3-1-2",
+    "lessonId": "lesson-science-3-1-2",
+    "title": "Balanced or Unbalanced?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each scenario, write BALANCED (motion stays the same) or UNBALANCED (motion changes).",
+      "rows": [
+        { "problem": "A book resting flat on a table" },
+        { "problem": "A tilted book sliding off a table" },
+        { "problem": "A parked car with the brake on" },
+        { "problem": "A rolling ball slowing down to a stop" }
+      ]
+    }
+  }
+}

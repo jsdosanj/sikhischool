@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-3-1",
+    "courseId": "course-science-3",
+    "order": 1,
+    "title": "Forces and Motion",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-3-1-3",
+    "unitId": "unit-science-3-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Predicting Motion Patterns",
+    "gradeLevel": "3",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Bounce a ball straight down and it comes straight back up, over and over. Swing on a swing and you go back and forth in the same path every time. Motion often follows a pattern — and once you know the pattern, you can predict what happens next."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Scientists look for patterns in motion to make predictions. Try this: bounce a ball straight down five times and watch closely. Does it bounce the same height each time, or a little lower? Now roll a toy car across the floor and let it stop on its own. Try it three times from the same starting push — does it stop in about the same place each time? A repeating pattern (like the swing's back-and-forth path) lets you predict future motion. An object slowing down due to friction is also a pattern — you can predict it will eventually stop."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "By watching a pattern carefully, you can predict what an object will do next — that's exactly what scientists do with real motion data. Tomorrow we'll investigate a force that works without even touching anything: magnetism."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-3-1-3",
+    "lessonId": "lesson-science-3-1-3",
+    "objectives": [
+      "Make observations of an object's motion to identify a repeating pattern",
+      "Use an observed pattern to predict future motion"
+    ],
+    "materialsNeeded": ["A bouncy ball", "A small toy car or ball that can roll", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask: have you ever noticed something move the same way over and over?\n2. Do the ball-bounce investigation together — bounce 5 times, discuss whether the height pattern is exactly the same or gradually shrinks (it shrinks — energy is lost each bounce, a good informal preview, no need to name 'energy' formally here).\n3. Do the rolling-car investigation 3 times from the same push, comparing stopping distance.\n4. Discuss the swing example as a clean back-and-forth pattern.\n5. Complete the worksheet: given a description of a pattern, predict what happens next.\n6. Close by asking the child to name one more repeating-motion pattern from daily life (a ceiling fan, a clock's second hand, footsteps).",
+    "differentiationTips": [
+      "Struggling: focus only on the swing example (simplest, most familiar pattern) before comparing it to the ball bounce",
+      "Ready for more: discuss why the ball bounces a little lower each time instead of exactly the same height every time",
+      "Hands-on learners should do all three investigations themselves, not just watch"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A swing goes back and forth — next it will swing forward again. 2. A ball bounced repeatedly gets a little lower each time — next bounce will be slightly lower than the last. 3. A car rolling and slowing down will eventually stop. 4. A clock's second hand moves in a repeating circle — it will keep going around.",
+    "standardsRationale": "Directly addresses NGSS 3-PS2-2: making observations and/or measurements of an object's motion to provide evidence that a pattern can be used to predict future motion."
+  },
+  "worksheet": {
+    "id": "worksheet-science-3-1-3",
+    "lessonId": "lesson-science-3-1-3",
+    "title": "What Happens Next?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each pattern. Write what will most likely happen next.",
+      "rows": [
+        { "problem": "A swing goes back and forth. It just swung backward. What happens next?" },
+        { "problem": "A ball is bounced and gets a little lower each bounce. What happens on the next bounce?" },
+        { "problem": "A toy car rolls and slows down a little more each second. What eventually happens?" },
+        { "problem": "A clock's second hand moves in a repeating circle. What will it keep doing?" }
+      ]
+    }
+  }
+}

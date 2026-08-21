@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-4-1",
+    "courseId": "course-ela-4",
+    "order": 1,
+    "title": "Writing Strong Paragraphs",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-4-1-4",
+    "unitId": "unit-ela-4-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing a Concluding Sentence",
+    "gradeLevel": "4",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Your paragraph has a strong start (topic sentence) and a strong middle (connected details). Today, the piece that wraps it all up: the concluding sentence."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A concluding sentence restates the paragraph's main idea in a NEW way — not by copying the topic sentence word for word, but by saying the same idea differently, often reflecting on why it matters. If your topic sentence was 'Recess is my favorite part of the school day because it gives me time to move and play with friends,' a concluding sentence might be: 'That's why I always look forward to recess more than any other part of the day.' Notice it repeats the main idea (recess being a favorite) but with completely different words. Write a concluding sentence for your own paragraph, restating your topic sentence's idea in new words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have all four pieces of a complete paragraph: topic sentence, supporting details, transitions, and a concluding sentence. Tomorrow you'll put them all together into one finished paragraph."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-4-1-4",
+    "lessonId": "lesson-ela-4-1-4",
+    "objectives": [
+      "Define a concluding sentence as a restatement of the main idea in new words",
+      "Write a concluding sentence that doesn't simply repeat the topic sentence verbatim"
+    ],
+    "materialsNeeded": ["Earlier worksheets from this week", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the topic sentence + details + transitions built so far this week.\n2. Introduce the concluding sentence using the recess example, emphasizing 'same idea, new words.'\n3. Have the child draft a concluding sentence, checking it isn't a word-for-word copy of the topic sentence.\n4. Complete the worksheet.\n5. Preview tomorrow: combining everything into one finished paragraph.",
+    "differentiationTips": [
+      "Struggling: allow a concluding sentence that's very close to the topic sentence at first, then ask 'can you say that a different way?' as a follow-up",
+      "Ready for more: challenge them to add a forward-looking or reflective phrase ('That's why...', 'I always...') rather than a flat restatement",
+      "This is a genuinely tricky skill for this age — patience and modeling matter more than getting it perfect on the first try"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's own topic sentence — check that the concluding sentence expresses the same core idea using clearly different wording, not a verbatim repeat.",
+    "standardsRationale": "Addresses Common Core Grade 4 Writing standard W.4.2e (provide a concluding statement related to the information presented), completing all four components of a well-structured informative paragraph before Day 5's synthesis."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-4-1-4",
+    "lessonId": "lesson-ela-4-1-4",
+    "title": "Writing a Concluding Sentence",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a concluding sentence that restates your topic sentence's main idea in new words.",
+      "prompts": [
+        { "prompt": "My topic sentence was:", "lines": 2 },
+        { "prompt": "My concluding sentence (same idea, new words):", "lines": 3 }
+      ]
+    }
+  }
+}

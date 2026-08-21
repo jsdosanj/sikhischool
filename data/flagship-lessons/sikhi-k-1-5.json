@@ -1,0 +1,79 @@
+{
+  "unit": {
+    "id": "unit-sikhi-k-1",
+    "courseId": "course-sikhi-k",
+    "order": 1,
+    "title": "Living Sikhi Values",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-k-1-5",
+    "unitId": "unit-sikhi-k-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Our First Sikhi Values",
+    "gradeLevel": "K",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned five real Sikhi values: Seva, Sangat, Langar, Simran, Chardi Kala, and Equality. Today is review day — no new ideas, just remembering and celebrating everything you've learned."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's go through each value together: Seva is helping without expecting anything back. Sangat is our community. Langar is the free kitchen where everyone eats as equals. Simran is a quiet, peaceful moment of remembrance. Chardi Kala is staying hopeful even when things are hard. Equality is treating everyone with the same respect. Which value do you remember most easily? Which one would you like to practice more this week?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you've built real understanding of some of the most important values in Sikhi. Next week, we'll keep exploring more about Sikhi together."
+      }
+    ],
+    "enrichmentLinks": [
+      {
+        "label": "Keep reading: start the Santhya Path with Stage 1",
+        "url": "/santhya-path/muharni-baal-updesh",
+        "source": "sikhischool"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-k-1-5",
+    "lessonId": "lesson-sikhi-k-1-5",
+    "objectives": [
+      "Recall and explain, in simple words, all five values learned this week (Seva, Sangat, Langar, Simran, Chardi Kala, Equality)",
+      "Identify one value they'd like to practice more, building early self-reflection habits"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Go through all the values learned this week together, one at a time, asking the child to explain each in their own words.\n2. Ask which value felt easiest to understand, and which one they'd like to practice more.\n3. Move to the worksheet: trace each value word once more, in order.\n4. Praise the child's effort across the whole week, not just today's recall.\n5. Close by previewing that next week continues exploring more about Sikhi.",
+    "differentiationTips": [
+      "Struggling: focus on just two or three of the five values today rather than requiring full recall of all five",
+      "Ready for more: ask the child to give a real example from their own week for each value, not just a definition",
+      "For a child who enjoys stories, ask them to imagine a short story where a character practices one of these values"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which values the child recalled confidently vs. needed prompting for, to guide future review.",
+    "standardsRationale": "A dedicated review day after introducing five real values in one week matches the platform's established pacing pattern (see the Punjabi K unit's own Day 5 review lesson) — consolidation before adding more content is essential at this age."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-k-1-5",
+    "lessonId": "lesson-sikhi-k-1-5",
+    "title": "Review Day: Our First Sikhi Values",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word one more time, saying it out loud as you go.",
+      "rows": [
+        { "trace": "Seva", "label": "Selfless service" },
+        { "trace": "Sangat", "label": "Community" },
+        { "trace": "Langar", "label": "The free community kitchen" },
+        { "trace": "Simran", "label": "Quiet remembrance" },
+        { "trace": "Chardi Kala", "label": "Staying hopeful" },
+        { "trace": "Equality", "label": "Same respect for everyone" }
+      ]
+    }
+  }
+}

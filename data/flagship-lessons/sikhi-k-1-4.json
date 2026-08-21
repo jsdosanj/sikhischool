@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-k-1",
+    "courseId": "course-sikhi-k",
+    "order": 1,
+    "title": "Living Sikhi Values",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-k-1-4",
+    "unitId": "unit-sikhi-k-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "We Are All Equal",
+    "gradeLevel": "K",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Remember Langar, the free kitchen we talked about? One reason Langar is so special is that everyone sits together as equals — no matter who they are. Today we'll talk about equality, one of the most important ideas in Sikhi."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Equality means that every single person deserves the same respect and kindness, no matter their background, how much money their family has, or anything else about them. At Langar, a business owner might sit right next to someone who has very little — everyone eats the same food, sitting at the same level. Can you think of a way you could treat everyone around you with that same equal respect, at school or at home?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Treating everyone as equal is a value you can practice every day, not just at the Gurdwara. This week, notice one chance to treat someone with that same equal respect and kindness."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-k-1-4",
+    "lessonId": "lesson-sikhi-k-1-4",
+    "objectives": [
+      "Explain in simple words what equality means (everyone deserves the same respect and kindness)",
+      "Connect equality back to Langar as a real, lived example, and identify a new way to practice it"
+    ],
+    "materialsNeeded": ["Printed 'We Are All Equal' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review what the child remembers about Langar from the first lesson this week.\n2. Introduce equality: everyone sitting together at Langar as one example of treating everyone the same, no matter their background.\n3. Discuss what equality could look like outside the Gurdwara — at school, with friends, at home.\n4. Move to the worksheet: trace the word and talk through its meaning again.\n5. Close by picking one specific way to practice equality this week.",
+    "differentiationTips": [
+      "Struggling: stick with the Langar example as the main anchor, rather than introducing many abstract scenarios",
+      "Ready for more: discuss a time they saw someone treated unfairly and what equality would have looked like instead",
+      "For a child who enjoys connecting ideas, ask how equality relates to Seva and Sangat, both learned earlier this week"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can explain equality in their own words and connect it back to Langar.",
+    "standardsRationale": "Equality is one of the foundational, universally-taught values of Sikhi — grounding it in the already-familiar example of Langar (from this week's first lesson) builds a concrete, connected understanding rather than an abstract, isolated concept."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-k-1-4",
+    "lessonId": "lesson-sikhi-k-1-4",
+    "title": "We Are All Equal",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace the word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Equality", "label": "Everyone deserves the same respect and kindness" }
+      ]
+    }
+  }
+}

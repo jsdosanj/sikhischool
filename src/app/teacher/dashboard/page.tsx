@@ -1,7 +1,8 @@
 import { redirect } from "next/navigation";
 import { getOrCreateCurrentTeacher } from "@/lib/session";
-import { getClassroomsForTeacher, getRoster } from "@/lib/classrooms";
+import { getClassroomsForTeacher, getRoster, getAnnouncementsForClassroom } from "@/lib/classrooms";
 import CreateClassroomForm from "./CreateClassroomForm";
+import AnnouncementForm from "./AnnouncementForm";
 
 export const dynamic = "force-dynamic";
 
@@ -10,7 +11,10 @@ export default async function TeacherDashboardPage() {
   if (!teacher) redirect("/login");
 
   const classrooms = await getClassroomsForTeacher(teacher.id);
-  const rosters = await Promise.all(classrooms.map((c) => getRoster(c.id)));
+  const [rosters, classroomAnnouncements] = await Promise.all([
+    Promise.all(classrooms.map((c) => getRoster(c.id))),
+    Promise.all(classrooms.map((c) => getAnnouncementsForClassroom(c.id))),
+  ]);
 
   return (
     <main className="mx-auto max-w-2xl flex-1 p-8">
@@ -42,23 +46,41 @@ export default async function TeacherDashboardPage() {
                 ) : (
                   <ul className="mt-2 flex flex-col gap-1 text-[var(--foreground)]/80">
                     {rosters[i].map((student) => (
-                      <li key={student.id}>
-                        {student.displayName} &middot;{" "}
-                        {student.gradeLevel === "K" ? "Kindergarten" : `Grade ${student.gradeLevel}`}
+                      <li key={student.id} className="flex flex-wrap items-baseline justify-between gap-x-3">
+                        <span>
+                          {student.displayName} &middot;{" "}
+                          {student.gradeLevel === "K" ? "Kindergarten" : `Grade ${student.gradeLevel}`}
+                        </span>
+                        <span className="text-xs text-[var(--foreground)]/60">
+                          {student.lessonsPassed} lesson{student.lessonsPassed === 1 ? "" : "s"} passed &middot;{" "}
+                          {student.badgesEarned} badge{student.badgesEarned === 1 ? "" : "s"}
+                        </span>
                       </li>
                     ))}
                   </ul>
                 )}
+
+                <div className="mt-3 border-t border-[var(--foreground)]/10 pt-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--foreground)]/60">
+                    Announcements
+                  </p>
+                  {classroomAnnouncements[i].length === 0 ? (
+                    <p className="mt-1 text-[var(--foreground)]/60">No announcements yet.</p>
+                  ) : (
+                    <ul className="mt-1 flex flex-col gap-1">
+                      {classroomAnnouncements[i].map((a) => (
+                        <li key={a.id}>{a.body}</li>
+                      ))}
+                    </ul>
+                  )}
+                  <AnnouncementForm classroomId={classroom.id} />
+                </div>
               </li>
             ))}
           </ul>
         )}
         <CreateClassroomForm />
       </section>
-
-      <p className="mt-8 rounded-lg border border-[var(--foreground)]/15 p-5 text-sm text-[var(--foreground)]/70">
-        The full gradebook is still being built — check back soon.
-      </p>
     </main>
   );
 }

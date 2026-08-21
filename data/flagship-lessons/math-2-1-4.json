@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-2-1",
+    "courseId": "course-math-2",
+    "order": 1,
+    "title": "Place Value and Multi-Digit Addition/Subtraction",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-2-1-4",
+    "unitId": "unit-math-2-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Adding Three-Digit Numbers",
+    "gradeLevel": "2",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've mastered two-digit addition and subtraction with regrouping. Today let's take on bigger numbers: adding all the way up to three digits!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Try 245 + 367. It works exactly like two-digit addition, just with one more place: start with ones (5+7=12, write 2, carry 1), then tens (4+6+1=11, write 1, carry 1), then hundreds (2+3+1=6). Put it together: 612! So 245 + 367 = 612. The pattern is the same — you just keep regrouping and moving one place to the left each time."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Three-digit addition uses the exact same strategy as two-digit addition — just one more step. Tomorrow is review day, where we'll bring together everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-2-1-4",
+    "lessonId": "lesson-math-2-1-4",
+    "objectives": [
+      "Add two three-digit numbers using regrouping across ones, tens, and hundreds places",
+      "Recognize that three-digit addition follows the exact same regrouping pattern as two-digit addition, extended one more place"
+    ],
+    "materialsNeeded": ["Printed 'Adding Three-Digit Numbers' worksheet", "Pencil"],
+    "facilitationScript": "1. Review the regrouping pattern from two-digit addition.\n2. Model 245 + 367 step by step: ones, then tens, then hundreds, regrouping as needed at each step.\n3. Emphasize that it's the same process, just one more column.\n4. Practice 158 + 276 together, with the child leading as much as possible.\n5. Move to the worksheet: solve each three-digit addition problem.\n6. Close by asking the child to explain why the process 'just keeps going' for even bigger numbers.",
+    "differentiationTips": [
+      "Struggling: go back to two-digit problems for a moment to rebuild confidence before returning to three digits",
+      "Ready for more: try adding three three-digit numbers together in one problem",
+      "For a child who enjoys big numbers, ask what a four-digit version of this process might look like"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. 245+367=612. 2. 158+276=434. 3. 329+184=513. 4. 456+237=693.",
+    "standardsRationale": "Adding within 1,000 using place-value strategies is a core Grade 2 standard (matching Common Core 2.NBT.7), the natural extension of this week's two-digit regrouping work."
+  },
+  "worksheet": {
+    "id": "worksheet-math-2-1-4",
+    "lessonId": "lesson-math-2-1-4",
+    "title": "Adding Three-Digit Numbers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each addition problem, regrouping as needed.",
+      "rows": [
+        { "problem": "245 + 367 = ?" },
+        { "problem": "158 + 276 = ?" },
+        { "problem": "329 + 184 = ?" },
+        { "problem": "456 + 237 = ?" }
+      ]
+    }
+  }
+}

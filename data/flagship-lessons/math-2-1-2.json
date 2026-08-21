@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-2-1",
+    "courseId": "course-math-2",
+    "order": 1,
+    "title": "Place Value and Multi-Digit Addition/Subtraction",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-2-1-2",
+    "unitId": "unit-math-2-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Adding Two-Digit Numbers with Regrouping",
+    "gradeLevel": "2",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned place value. Today we'll use it to add two-digit numbers, even when the ones add up to more than 9 — a strategy called regrouping."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Try 47 + 28. Add the ones first: 7 + 8 = 15. That's more than 9, so we regroup: write down the 5, and carry the extra 1 ten over to the tens column. Now add the tens: 4 + 2 + 1 (the one we carried) = 7. Put it together: 75! So 47 + 28 = 75. Try 36 + 49 the same way: ones first, regroup if needed, then tens."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Regrouping lets you add any two-digit numbers, even when the ones add up big. Tomorrow we'll learn the subtraction version of this same idea."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-2-1-2",
+    "lessonId": "lesson-math-2-1-2",
+    "objectives": [
+      "Add two two-digit numbers using regrouping (carrying) when the ones digit sum exceeds 9",
+      "Explain what regrouping means in terms of place value (10 ones become 1 ten)"
+    ],
+    "materialsNeeded": ["Printed 'Adding with Regrouping' worksheet", "Pencil", "Optional: base-ten blocks to physically demonstrate trading 10 ones for 1 ten"],
+    "facilitationScript": "1. Review place value from yesterday.\n2. Model 47 + 28 step by step: add ones (7+8=15), regroup (write 5, carry 1 ten), add tens (4+2+1=7), combine to get 75.\n3. If available, use base-ten blocks to physically show 10 ones being traded for 1 ten.\n4. Practice 36 + 49 together, with the child leading as much as possible.\n5. Move to the worksheet: solve each problem, regrouping when needed.\n6. Close by asking the child to explain in their own words why we 'carry' a number.",
+    "differentiationTips": [
+      "Struggling: use base-ten blocks or drawings for every problem until the carrying process feels automatic",
+      "Ready for more: try a problem where BOTH the ones and tens need regrouping into the hundreds (e.g. 85 + 47)",
+      "For a child who already knows the standard algorithm, ask them to explain each step in place-value language, not just procedure"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. 47+28=75. 2. 36+49=85. 3. 58+37=95. 4. 64+29=93.",
+    "standardsRationale": "Adding two-digit numbers with regrouping is a core Grade 2 standard (matching Common Core 2.NBT.5), directly applying yesterday's place-value understanding to real computation."
+  },
+  "worksheet": {
+    "id": "worksheet-math-2-1-2",
+    "lessonId": "lesson-math-2-1-2",
+    "title": "Adding Two-Digit Numbers with Regrouping",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each addition problem, regrouping (carrying) when needed.",
+      "rows": [
+        { "problem": "47 + 28 = ?" },
+        { "problem": "36 + 49 = ?" },
+        { "problem": "58 + 37 = ?" },
+        { "problem": "64 + 29 = ?" }
+      ]
+    }
+  }
+}

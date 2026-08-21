@@ -9,6 +9,12 @@ export const SHELLS = {
 
 export type ShellKey = keyof typeof SHELLS;
 
+export function shellForGradeBand(gradeBand: string): ShellKey {
+  if (gradeBand === "K-2") return "little-sparks";
+  if (gradeBand === "9-12") return "sikhi-school-studio";
+  return "rising-school"; // 3-5, 6-8
+}
+
 export const BADGE_TIERS = ["seed", "sprout", "bloom", "sunrise", "chardi-kala"] as const;
 
 export type BadgeTier = (typeof BADGE_TIERS)[number];

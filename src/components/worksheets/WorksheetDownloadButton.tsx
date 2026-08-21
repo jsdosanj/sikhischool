@@ -44,7 +44,13 @@ export default function WorksheetDownloadButton({
           setPending(false);
         }
       }}
-      className="rounded border border-[var(--foreground)]/20 px-4 py-2 text-sm font-semibold hover:border-[var(--color-saffron)] disabled:opacity-60"
+      className="px-5 py-3 text-sm font-semibold transition hover:brightness-105 disabled:opacity-60"
+      style={{
+        borderRadius: "var(--shell-radius, 0.5rem)",
+        minHeight: "var(--shell-touch, 2.75rem)",
+        background: "var(--shell-accent, var(--color-saffron))",
+        color: "#2a1c06",
+      }}
     >
       {pending ? "Generating…" : "Download worksheet (PDF)"}
     </button>

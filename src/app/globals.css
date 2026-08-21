@@ -1,9 +1,8 @@
 @import "tailwindcss";
 
-/* Placeholder palette only — the real design system (colors, type scale, the
-   3 age-banded shells) is Wave 1b work, not Wave 0 scaffolding. This just
-   proves the pipeline works and gives the portfolio's saffron/navy family a
-   starting point, consistent with sikhiuni's own token names. */
+/* Brand-family anchor — shared across sikhiuni, sikhi.io, and every shell
+   below. Saffron (Nishan Sahib) and navy are the constant thread; each shell
+   varies warmth/saturation around them rather than replacing them. */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -31,4 +30,60 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ── Age-banded shells (plan §5) ──────────────────────────────────────────
+   Applied via a [data-shell] attribute on a page's outermost wrapper (see
+   src/components/shells/Shell.tsx). Each shell sets --shell-bg/-ink/-accent/
+   -accent-2/-display-font/-body-font/-radius; components read these instead
+   of hardcoding colors, so a page written once looks right in whichever
+   shell wraps it. */
+
+[data-shell="little-sparks"] {
+  /* K-2: warm, rounded, high-contrast for early readers. Sunrise gradient
+     ties to Chardi Kala — "rising spirits" — without depicting anyone. */
+  --shell-bg: #fff8ec;
+  --shell-surface: #ffffff;
+  --shell-ink: #3a2e1f;
+  --shell-ink-soft: #6b5c46;
+  --shell-accent: var(--color-saffron);
+  --shell-accent-2: #4fb8a8; /* friendly teal, secondary actions */
+  --shell-sunrise-1: #ffd24c;
+  --shell-sunrise-2: #ff8a3d;
+  --shell-sunrise-3: #ff5c7a;
+  --shell-display-font: var(--font-little-sparks-display);
+  --shell-body-font: var(--font-little-sparks-body);
+  --shell-radius: 1.5rem;
+  --shell-touch: 4rem; /* 64px minimum touch target */
+}
+
+[data-shell="rising-school"] {
+  /* 3-8: a confident, colorful dashboard — Khan-Academy-style course map,
+     the literal seed->sprout->bloom->sunrise growth arc for badges. */
+  --shell-bg: #fbfaf7;
+  --shell-surface: #ffffff;
+  --shell-ink: #23201a;
+  --shell-ink-soft: #5c5548;
+  --shell-accent: var(--color-saffron);
+  --shell-accent-2: #2e8b7d; /* deeper, more grounded teal than Little Sparks */
+  --shell-display-font: var(--font-rising-school-display);
+  --shell-body-font: var(--font-body-sans);
+  --shell-radius: 0.75rem;
+  --shell-touch: 2.75rem; /* 44px */
+}
+
+[data-shell="sikhi-school-studio"] {
+  /* 9-12: dark navy-forward, echoing sikhiuni's own "sanctum" mood —
+     foreshadows the transition into Sikhi University, not a generic
+     dark-mode default. Serif display carries the collegiate register. */
+  --shell-bg: #0f1f35;
+  --shell-surface: #16294a;
+  --shell-ink: #f0ede4;
+  --shell-ink-soft: #b9c3d6;
+  --shell-accent: var(--color-saffron);
+  --shell-accent-2: #6f8fb8;
+  --shell-display-font: var(--font-studio-display);
+  --shell-body-font: var(--font-body-sans);
+  --shell-radius: 0.5rem;
+  --shell-touch: 2.75rem;
 }

@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-4-1",
+    "courseId": "course-science-4",
+    "order": 1,
+    "title": "Energy and How It Moves",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-4-1-5",
+    "unitId": "unit-science-4-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Energy and How It Moves",
+    "gradeLevel": "4",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you investigated energy from every angle: how it transfers, how it relates to speed, what happens in a collision, and how devices convert it on purpose. Let's put it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: energy transfers between objects and places through heat, light, sound, and motion (Day 1). A faster object has more energy than the same object moving slowly (Day 2). When objects collide, energy transfers between them, and heavier objects resist that transfer more than light ones (Day 3). Engineers design real devices that convert energy from one form into another on purpose (Day 4). Walk back through your own home and find one real example of each of these four ideas."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work investigating energy this week! You now understand energy transfer, speed, collisions, and conversion — real physical science concepts engineers use every day."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-4-1-5",
+    "lessonId": "lesson-science-4-1-5",
+    "objectives": [
+      "Recall and correctly apply all four energy concepts from the week: transfer, speed, collisions, and conversion",
+      "Identify a real-life example of each concept"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Send the child on a home scavenger hunt for one example of each of the 4 concepts.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of investigation — this pattern (5 days building to a review) is how every unit this year works.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to explain WHY each example fits its category, not just to label it correctly",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Rubbing your hands together transfers motion energy into heat energy. 2. A ball rolled hard has more energy than the same ball rolled gently. 3. A marble hitting dominoes transfers energy, causing them to fall. 4. A flashlight converts chemical (battery) energy into light energy.",
+    "standardsRationale": "Consolidates NGSS 4-PS3-1 through 4-PS3-4 (energy transfer, speed-energy relationship, collision effects, and energy-converting devices) before the unit moves on, matching the 'consolidate before adding more' pacing established in earlier units this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-4-1-5",
+    "lessonId": "lesson-science-4-1-5",
+    "title": "Energy and How It Moves: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "Rubbing your hands together transfers what kind of energy into what other kind?" },
+        { "problem": "Which has more energy: a ball rolled hard, or the same ball rolled gently?" },
+        { "problem": "What happens to energy when a marble hits a line of dominoes?" },
+        { "problem": "What does a flashlight convert battery energy into?" }
+      ]
+    }
+  }
+}

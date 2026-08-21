@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-4-1",
+    "courseId": "course-science-4",
+    "order": 1,
+    "title": "Energy and How It Moves",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-4-1-2",
+    "unitId": "unit-science-4-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Speed and Energy",
+    "gradeLevel": "4",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you found energy transferring all around you. Today, a specific pattern: the faster something moves, the more energy it has."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A moving object's energy is directly related to its speed — a faster object has more energy than the same object moving slowly. You can test this with evidence: roll a ball gently into a stack of light blocks, then roll the same ball harder (faster) into the same stack. The faster ball knocks over more blocks or knocks them farther — that's evidence of more energy. Try this at home with a ball and some light, stackable objects (blocks, cups, or boxes), rolling at two different speeds and comparing what happens."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just gathered real evidence that speed and energy are connected — a faster object causes a bigger change. Tomorrow we'll look closely at what happens when moving objects collide."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-4-1-2",
+    "lessonId": "lesson-science-4-1-2",
+    "objectives": [
+      "Use evidence from an investigation to relate an object's speed to its energy",
+      "Predict that a faster-moving object will cause a bigger change on impact than the same object moving slowly"
+    ],
+    "materialsNeeded": ["A ball or marble", "Light, stackable objects (blocks, cups, or small boxes)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's energy-transfer examples.\n2. Set up the block-stack investigation: roll the ball gently, observe, then roll it harder, observe.\n3. Discuss the evidence: faster ball = bigger effect = more energy.\n4. Try a second round with a different rolling distance or a slightly heavier ball if available, to reinforce the pattern.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: collisions.",
+    "differentiationTips": [
+      "Struggling: do just one clear comparison (gentle vs. hard roll) rather than multiple variations",
+      "Ready for more: ask them to predict what would happen with an even faster roll before testing it, then check their prediction",
+      "Physically doing the investigation, not just reading about it, is essential for this lesson to land"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A faster-moving ball has more energy than the same ball moving slowly. 2. The evidence is that the faster ball knocks over more blocks / knocks them farther. 3. A slow-rolling ball would knock over fewer blocks than a fast-rolling one.",
+    "standardsRationale": "Directly addresses NGSS 4-PS3-1: using evidence to construct an explanation relating the speed of an object to the energy of that object."
+  },
+  "worksheet": {
+    "id": "worksheet-science-4-1-2",
+    "lessonId": "lesson-science-4-1-2",
+    "title": "Speed and Energy",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about your investigation.",
+      "rows": [
+        { "problem": "Which has more energy: a ball rolling fast or the same ball rolling slowly?" },
+        { "problem": "What evidence from your investigation shows this?" },
+        { "problem": "Predict: what would happen if you rolled the ball even faster than your hardest roll?" }
+      ]
+    }
+  }
+}

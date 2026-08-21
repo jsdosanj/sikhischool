@@ -1,4 +1,4 @@
-import { sqliteTable, text, integer, primaryKey } from "drizzle-orm/sqlite-core";
+import { sqliteTable, text, integer, primaryKey, unique } from "drizzle-orm/sqlite-core";
 
 // ── Auth.js identity tables (standard Drizzle-SQLite adapter shape). Auth.js owns
 // "is this email verified/authenticated"; parentAccounts/teacherAccounts (below) own
@@ -241,8 +241,24 @@ export const classroomLicenses = sqliteTable("classroom_licenses", {
   id: text("id").primaryKey(),
   teacherAccountId: text("teacher_account_id").notNull().references(() => teacherAccounts.id),
   name: text("name").notNull(),
+  // Short parent-facing code (e.g. "K7QX9M") a parent types in to enroll a
+  // child — nicer to hand-type/read aloud than the classroom's UUID.
+  joinCode: text("join_code").notNull().unique(),
   createdAt: integer("created_at", { mode: "timestamp" }).notNull(),
 });
+
+// A child's enrollment in a teacher's classroom — no PII beyond what
+// ChildProfile already carries (display name + grade level).
+export const classroomEnrollments = sqliteTable(
+  "classroom_enrollments",
+  {
+    id: text("id").primaryKey(),
+    classroomLicenseId: text("classroom_license_id").notNull().references(() => classroomLicenses.id),
+    childProfileId: text("child_profile_id").notNull().references(() => childProfiles.id),
+    enrolledAt: integer("enrolled_at", { mode: "timestamp" }).notNull(),
+  },
+  (table) => [unique().on(table.classroomLicenseId, table.childProfileId)],
+);
 
 // Ported from sikhiuni's course_teachers pattern: scopes a teacher's gradebook
 // view to their assigned grade/classroom, prevents IDOR across classrooms.

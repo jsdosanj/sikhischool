@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-1-1",
+    "courseId": "course-sikhi-1",
+    "order": 1,
+    "title": "Kindness, the Golden Temple, and Prayer",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-1-1-1",
+    "unitId": "unit-sikhi-1-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Seva and Kindness in Everyday Life",
+    "gradeLevel": "1",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last year you learned that Seva means helping others without expecting anything back. This year let's go deeper: what does Seva look like as real, everyday kindness?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Kindness is Seva in action — small, real choices that help someone else feel cared for. Sharing your snack with a friend who forgot theirs, helping a sibling pick up spilled toys, or comforting someone who's sad are all real acts of kindness. The key is doing it because you care, not because you want a reward or praise. Think of one act of kindness you did this week, or one you could do today."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Every act of kindness, no matter how small, is real Seva. This week, keep watching for chances to practice it."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-1-1-1",
+    "lessonId": "lesson-sikhi-1-1-1",
+    "objectives": [
+      "Connect Seva (from last year) to concrete, everyday acts of kindness",
+      "Identify and describe one real act of kindness the child has done or could do"
+    ],
+    "materialsNeeded": ["Printed 'Seva and Kindness' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review what Seva means from last year.\n2. Introduce kindness as Seva in action — small, real, caring choices.\n3. Brainstorm 3-4 examples of kindness together (sharing, helping, comforting).\n4. Ask the child to describe a real act of kindness they've done or could do soon.\n5. Move to the worksheet: write or draw about that act of kindness.\n6. Close by picking one specific act of kindness to practice this week.",
+    "differentiationTips": [
+      "Struggling: focus on just one concrete example (sharing) rather than brainstorming many kinds of kindness at once",
+      "Ready for more: discuss how kindness sometimes takes courage (like standing up for someone) as well as gentleness",
+      "For a child who enjoys stories, read or tell a short story about a character choosing kindness"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is an open-ended, personal reflection activity — there is no single right/wrong answer.",
+    "standardsRationale": "Deepening last year's Seva introduction into concrete, everyday kindness is the Grade 1 Sikhi course's stated starting point, building real understanding before the week moves into the Golden Temple and prayer."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-1-1-1",
+    "lessonId": "lesson-sikhi-1-1-1",
+    "title": "Seva and Kindness",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write or draw about an act of kindness below.",
+      "prompts": [
+        { "prompt": "Describe one act of kindness you did or could do this week.", "lines": 3 }
+      ]
+    }
+  }
+}

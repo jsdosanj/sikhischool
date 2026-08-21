@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-1-1",
+    "courseId": "course-sikhi-1",
+    "order": 1,
+    "title": "Kindness, the Golden Temple, and Prayer",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-1-1-2",
+    "unitId": "unit-sikhi-1-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Golden Temple: A Special Place",
+    "gradeLevel": "1",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you practiced kindness. Today let's learn about a real place built around that same spirit of kindness and welcome: the Golden Temple, also called Harmandir Sahib."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Golden Temple is in Amritsar, Punjab, and is covered in real gold on its dome. It sits in the middle of a peaceful pool of water called the Amrit Sarovar. One special detail: the Golden Temple has entrances on all four sides — north, south, east, and west — showing that everyone is welcome, no matter where they come from. It's also home to Langar, the free community kitchen, which serves meals to enormous numbers of visitors every single day."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "The Golden Temple's four open doors are a real, physical symbol of Seva and equality — the same values you've been practicing this week. Tomorrow we'll explore another important practice: prayer."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-1-1-2",
+    "lessonId": "lesson-sikhi-1-1-2",
+    "objectives": [
+      "Identify the Golden Temple (Harmandir Sahib) as a real, significant place located in Amritsar, Punjab",
+      "Explain that its four entrances symbolize welcome and equality for everyone"
+    ],
+    "materialsNeeded": ["Printed 'The Golden Temple' worksheet", "Pencil or crayon", "Optional: a picture or video of the Golden Temple"],
+    "facilitationScript": "1. If available, show a picture of the Golden Temple and ask what the child notices.\n2. Introduce its location (Amritsar, Punjab) and its gold-covered dome.\n3. Explain the four entrances and what they symbolize — everyone is welcome.\n4. Connect it to Langar, already familiar from last year.\n5. Move to the worksheet: trace each vocabulary word and talk through its meaning.\n6. Close by asking why four open doors might be a meaningful choice, not just a design decision.",
+    "differentiationTips": [
+      "Struggling: focus on just the gold dome and Langar connection, saving the four-doors symbolism for a follow-up conversation",
+      "Ready for more: research one more detail about the Golden Temple's history or architecture together",
+      "For a child who has visited or has family who has visited, invite them to share what they remember or have heard"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can name the Golden Temple's location and explain what its four doors symbolize.",
+    "standardsRationale": "The Golden Temple is the foundational, universally-recognized Grade 1 Sikhi landmark (the course's stated focus), and its four-doors symbolism directly reinforces this week's kindness and equality themes."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-1-1-2",
+    "lessonId": "lesson-sikhi-1-1-2",
+    "title": "The Golden Temple",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Harmandir Sahib", "label": "The Golden Temple's other name" },
+        { "trace": "Amritsar", "label": "The city in Punjab where it's located" },
+        { "trace": "Four doors", "label": "Symbolize that everyone is welcome" }
+      ]
+    }
+  }
+}

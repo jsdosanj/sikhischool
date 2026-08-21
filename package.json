@@ -11,7 +11,7 @@
     "cf:preview": "opennextjs-cloudflare preview",
     "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "db:generate": "drizzle-kit generate",
-    "db:migrate:local": "wrangler d1 execute sikhischool --local --file=./drizzle/migrations/0000_breezy_the_fallen.sql"
+    "db:migrate:local": "wrangler d1 execute sikhischool --local --file=./drizzle/migrations/0000_youthful_squirrel_girl.sql"
   },
   "dependencies": {
     "@auth/drizzle-adapter": "^1.11.3",

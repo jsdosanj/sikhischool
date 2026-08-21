@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-08-21T04:16:32.286Z",
+  "exportedAt": "2026-08-21T13:42:21.999Z",
   "sourceRepo": "redroyals/sikh-archive",
   "sourceCommitNote": "lib/santhiya/curriculum.ts + public/data/santhiya-audio.json, verified 2026-08-21",
   "stages": [
@@ -60,6 +60,7 @@
       "order": 1,
       "title": "Muharni + Baal Updesh",
       "gurmukhiTitle": "ਮੁਹਾਰਨੀ + ਬਾਲ ਉਪਦੇਸ਼",
+      "description": "Step 1 — the foundation. Learn the 35 Gurmukhi letters (akhar), the vowel signs (laga-matra), and the muharni: chanting every letter through each vowel until the sounds are second nature. Baal Updesh adds simple words and shabads so new readers build confidence before opening a gutka.",
       "textRef": null,
       "externalReader": null,
       "audioTracks": [],
@@ -72,6 +73,7 @@
       "order": 1,
       "title": "Nitnem + Sundar Gutka",
       "gurmukhiTitle": "ਨਿਤਨੇਮ + ਸੁੰਦਰ ਗੁਟਕਾ",
+      "description": "Step 2 — the daily banis. Read along to the five morning banis, Rehras Sahib, and Kirtan Sohila exactly as they are uchaared, then continue into the wider Sundar Gutka collection. Follow the Bhindran Taksal santhya track to perfect pauses (vishraam) and pronunciation.",
       "textRef": "sikh-archive:GURBANI_DB:SG",
       "externalReader": null,
       "audioTracks": [
@@ -1005,6 +1007,7 @@
       "order": 1,
       "title": "Punj Granthi + Das Granthi",
       "gurmukhiTitle": "ਪੰਜ ਗ੍ਰੰਥੀ + ਦਸ ਗ੍ਰੰਥੀ",
+      "description": "Step 3 — the five-bani (Punj Granthi) and ten-bani (Das Granthi) collections. These gather the longer banis read by Gursikhs beyond Nitnem, building the stamina and fluency needed before taking on a full granth.",
       "textRef": "sikh-archive:GURBANI_DB:SG",
       "externalReader": null,
       "audioTracks": [],
@@ -1017,6 +1020,7 @@
       "order": 1,
       "title": "22 Vaaran + Bhagat Bani + Bhai Gurdas Vaaran",
       "gurmukhiTitle": "੨੨ ਵਾਰਾਂ + ਭਗਤ ਬਾਣੀ + ਭਾਈ ਗੁਰਦਾਸ ਵਾਰਾਂ",
+      "description": "Step 4 — the 22 Vaaran of Sri Guru Granth Sahib Ji, the bani of the Bhagats, and the Vaaran of Bhai Gurdas Ji — called the kunji (key) to Gurbani. Reading these deepens understanding of raag, rhythm, and the vocabulary you will meet in the full granth.",
       "textRef": "sikh-archive:GURBANI_DB:V",
       "externalReader": null,
       "audioTracks": [],
@@ -1029,6 +1033,7 @@
       "order": 1,
       "title": "Sri Guru Granth Sahib Ji",
       "gurmukhiTitle": "ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ",
+      "description": "Step 5 — the complete Sri Guru Granth Sahib Ji, all 1430 ang, with read-along sehaj-paath audio for every ang. Read at your own pace; the docked player follows you ang by ang so you can match the uchaaran of each pankti.",
       "textRef": null,
       "externalReader": {
         "href": "/sggs",
@@ -8185,6 +8190,7 @@
       "order": 1,
       "title": "Sri Dasam Granth",
       "gurmukhiTitle": "ਸ੍ਰੀ ਦਸਮ ਗ੍ਰੰਥ",
+      "description": "Step 6 — Sri Dasam Granth Sahib, the writings of Sri Guru Gobind Singh Ji. Read along with santhiya recorded at the Dasam Granth Paath Bodh Samagam — the precise uchaaran matters most here, where the bani is dense with Braj, Persian, and Sanskrit vocabulary.",
       "textRef": null,
       "externalReader": {
         "href": "/dasam",
@@ -9031,6 +9037,7 @@
       "order": 1,
       "title": "Sri Sarbloh Granth",
       "gurmukhiTitle": "ਸ੍ਰੀ ਸਰਬਲੋਹ ਗ੍ਰੰਥ",
+      "description": "Step 7 — Sri Sarbloh Granth, the final and most advanced granth in the santhiya path. Read along with santhiya from the Sri Sarbloh Granth Paath Bodh Samagam, completing the journey from the first Gurmukhi letter to the deepest Khalsa bani.",
       "textRef": null,
       "externalReader": {
         "href": "/sarbloh",

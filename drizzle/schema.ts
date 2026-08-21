@@ -142,8 +142,17 @@ export const scriptureSections = sqliteTable("scripture_sections", {
   stageId: text("stage_id").notNull().references(() => scriptureStages.id),
   order: integer("order").notNull(),
   title: text("title").notNull(),
-  textRef: text("text_ref").notNull(), // vishraam-marked Gurbani source text, migrated
-  audioRef: text("audio_ref"), // Arweave URL (referenced directly, not re-hosted) or R2 key
+  gurmukhiTitle: text("gurmukhi_title"),
+  description: text("description"),
+  // Vishraam-marked Gurbani source text — NOT migrated yet (see scripts/migrate-santhya-path.ts);
+  // null until the GURBANI_DB corpus pull happens. Format: "sikh-archive:GURBANI_DB:<code>".
+  textRef: text("text_ref"),
+  externalReader: text("external_reader", { mode: "json" }).$type<{ href: string; label: string } | null>(),
+  // R2-mirrored from gurmatveechar.com (sikh-archive's own choice — see the migration
+  // script's header comment). A section can have zero, one, or many tracks (SGGS alone
+  // has 1,428 — one per ang), so this is a list, not a single ref.
+  audioTracks: text("audio_tracks", { mode: "json" }).$type<{ title: string; sourceUrl: string; r2Key: string }[]>().notNull().default([]),
+  audioNote: text("audio_note"),
   padchedLarivaarSupport: integer("padched_larivaar_support", { mode: "boolean" }).notNull().default(false),
   glossaryRefs: text("glossary_refs", { mode: "json" }).$type<string[]>().notNull().default([]),
   masteryQuizId: text("mastery_quiz_id"),

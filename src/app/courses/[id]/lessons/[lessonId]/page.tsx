@@ -1,12 +1,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getLesson } from "@/lib/lessons";
+import { getLesson, getChildrenWithProgress } from "@/lib/lessons";
 import { GRADE_BAND_ORDER } from "@/lib/courses";
 import { shellForGradeBand } from "@/design/tokens";
 import { GRADE_ORDER } from "@/lib/grades";
+import { getCurrentParent, getChildren } from "@/lib/session";
 import Shell from "@/components/shells/Shell";
 import SunFriend from "@/components/shells/SunFriend";
 import WorksheetDownloadButton from "@/components/worksheets/WorksheetDownloadButton";
+import MarkCompleteWidget from "@/components/MarkCompleteWidget";
 
 // Server-rendered on demand — see src/app/courses/page.tsx for why.
 export const dynamic = "force-dynamic";
@@ -32,6 +34,15 @@ export default async function LessonDetailPage({
   const contentBlocks = lesson.contentBlocks as { type: string; ref?: string; text?: string }[];
   const shell = shellForGradeBand(gradeBandForLevel(lesson.gradeLevel));
   const little = shell === "little-sparks";
+
+  const parent = await getCurrentParent();
+  const children = parent ? await getChildren(parent.id) : [];
+  const alreadyDoneChildIds = children.length
+    ? await getChildrenWithProgress(
+        children.map((c) => c.id),
+        lessonId,
+      )
+    : [];
 
   return (
     <Shell shell={shell}>
@@ -82,6 +93,14 @@ export default async function LessonDetailPage({
               data={(worksheet.generationData as Record<string, unknown>) ?? {}}
             />
           </div>
+        )}
+
+        {children.length > 0 && (
+          <MarkCompleteWidget
+            lessonId={lessonId}
+            kids={children.map((c) => ({ id: c.id, displayName: c.displayName }))}
+            alreadyDoneChildIds={alreadyDoneChildIds}
+          />
         )}
 
         {guide && (

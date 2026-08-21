@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "A free K-12 curriculum for worldly subjects, Punjabi, and Sikhi — sibling to sikhiuni.com and sikhi.io.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
       lang="en"

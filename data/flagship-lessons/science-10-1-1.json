@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-10-1",
+    "courseId": "course-science-10",
+    "order": 1,
+    "title": "Atomic Structure",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-10-1-1",
+    "unitId": "unit-science-10-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Understanding Atomic Structure",
+    "gradeLevel": "10",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Everything around you is made of atoms, and every atom is built from just three particles: protons, neutrons, and electrons. Understanding how these three particles are arranged explains almost everything about how elements behave."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Protons (positive charge) and neutrons (no charge) sit together in the atom's nucleus; electrons (negative charge) orbit around it. The atomic number tells you the number of protons — this is what defines which element an atom is (all carbon atoms have exactly 6 protons). The mass number is the total of protons plus neutrons. To find the number of neutrons, subtract the atomic number from the mass number. A neutral atom has equal numbers of protons and electrons, since the positive and negative charges balance out. Atoms of the same element with different numbers of neutrons are called isotopes."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know how to read an atom's basic structure from just two numbers: atomic number and mass number. This is the foundation for understanding bonding and chemical reactions later in this unit."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-10-1-1",
+    "lessonId": "lesson-science-10-1-1",
+    "objectives": [
+      "Identify the charge and location of protons, neutrons, and electrons in an atom",
+      "Calculate the number of protons, neutrons, and electrons in a neutral atom given its atomic number and mass number"
+    ],
+    "materialsNeeded": ["Printed 'Understanding Atomic Structure' worksheet", "Pencil", "A periodic table (for looking up atomic numbers)"],
+    "facilitationScript": "1. Draw a simple atom diagram together: nucleus (protons + neutrons) with electrons orbiting around it.\n2. Explain each particle's charge and how atomic number defines the element.\n3. Work through one full example together: given atomic number 6 and mass number 12 (carbon), find protons, neutrons, and electrons.\n4. Introduce isotopes as atoms of the same element with different neutron counts.\n5. Move to the worksheet: calculate particle counts for each given element.\n6. Close by asking: what would happen if an atom gained or lost an electron? (This previews ions, useful for the bonding unit ahead.)",
+    "differentiationTips": [
+      "Struggling: use the periodic table to look up atomic numbers directly rather than requiring memorization",
+      "Ready for more: introduce ions and have the child calculate particle counts for a charged atom, not just a neutral one",
+      "For a visual learner, have them draw a simple Bohr-model diagram for each worksheet element"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Carbon (Z=6, A=12): 6 protons, 6 neutrons, 6 electrons. 2. Oxygen (Z=8, A=16): 8 protons, 8 neutrons, 8 electrons. 3. Sodium (Z=11, A=23): 11 protons, 12 neutrons, 11 electrons. 4. Chlorine (Z=17, A=35): 17 protons, 18 neutrons, 17 electrons.",
+    "standardsRationale": "Atomic structure is the foundational Grade 10 Chemistry concept that bonding, chemical reactions, and stoichiometry all build on later in the course."
+  },
+  "worksheet": {
+    "id": "worksheet-science-10-1-1",
+    "lessonId": "lesson-science-10-1-1",
+    "title": "Understanding Atomic Structure",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each element, calculate the number of protons, neutrons, and electrons in a neutral atom.",
+      "rows": [
+        { "problem": "Carbon: atomic number 6, mass number 12" },
+        { "problem": "Oxygen: atomic number 8, mass number 16" },
+        { "problem": "Sodium: atomic number 11, mass number 23" },
+        { "problem": "Chlorine: atomic number 17, mass number 35" }
+      ]
+    }
+  }
+}

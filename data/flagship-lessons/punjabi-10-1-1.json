@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-10-1",
+    "courseId": "course-punjabi-10",
+    "order": 1,
+    "title": "Punjabi Poetry",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-10-1-1",
+    "unitId": "unit-punjabi-10-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Introduction to Punjabi Poetry: Rhythm and Imagery",
+    "gradeLevel": "10",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Punjabi has a rich, centuries-long poetic tradition, built on strong rhythm and vivid imagery drawn from everyday Punjabi life — the land, the seasons, family, and love. Today we'll study these two building blocks and use them in your own writing."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Rhythm in Punjabi poetry often comes from a steady pattern of stressed and unstressed syllables, and frequently from rhyme at the end of paired lines. Imagery uses specific, sensory details — not 'the field was nice,' but 'the golden wheat swayed under the summer sun.' Read a few example lines aloud together and notice: which words create rhythm, and which words create a clear picture in your mind? Try writing two lines of your own about a place you know well, using one strong image."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've practiced the two building blocks every Punjabi poet uses. Keep noticing rhythm and imagery whenever you read or hear Punjabi poetry — even in song lyrics."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-10-1-1",
+    "lessonId": "lesson-punjabi-10-1-1",
+    "objectives": [
+      "Identify rhythm (stressed/unstressed syllable pattern, rhyme) and imagery (specific sensory detail) in a sample of Punjabi poetry",
+      "Write an original short poem using at least one strong image"
+    ],
+    "materialsNeeded": ["Printed 'Introduction to Punjabi Poetry' worksheet", "Pencil", "Optional: a sample of Punjabi poetry or song lyrics the family enjoys"],
+    "facilitationScript": "1. Read a few lines of Punjabi poetry or song lyrics aloud together, if available, and notice the rhythm.\n2. Introduce imagery: contrast a vague sentence with one full of specific sensory detail.\n3. Practice finding imagery together in the sample text.\n4. Move to the worksheet: write an original short poem about a place or memory, using at least one strong image.\n5. Read the poem aloud together, noticing where rhythm and imagery come through.\n6. Close by asking the child to share their favorite line from their own poem.",
+    "differentiationTips": [
+      "Struggling: focus on writing just two lines with one clear image, rather than a full poem",
+      "Ready for more: try writing the poem with a consistent end-rhyme pattern",
+      "For a child who enjoys music, connect this lesson to Punjabi song lyrics they already know and love"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Open-ended writing — check that the poem includes at least one specific, sensory image (not a vague general statement) and shows some intentional attention to rhythm.",
+    "standardsRationale": "Rhythm and imagery are the foundational Grade 10 Punjabi literary-analysis and creative-writing skills, connecting this course's literary-history and formal-writing strands."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-10-1-1",
+    "lessonId": "lesson-punjabi-10-1-1",
+    "title": "Introduction to Punjabi Poetry",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a short poem (at least 4 lines) about a place or memory that matters to you. Use at least one strong, specific image.",
+      "prompts": [
+        { "prompt": "Write your poem below.", "lines": 6 }
+      ]
+    }
+  }
+}

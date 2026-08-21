@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-math-10-1",
+    "courseId": "course-math-10",
+    "order": 1,
+    "title": "Congruence and Proof",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-10-1-1",
+    "unitId": "unit-math-10-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Proving Triangle Congruence",
+    "gradeLevel": "10",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Two triangles are congruent when they're exactly the same size and shape — but you don't need to check all six measurements (three sides, three angles) to prove it. A few shortcuts do the job."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Three common congruence criteria: SSS (all three sides match), SAS (two sides and the angle between them match), and ASA (two angles and the side between them match). Each of these three matching pieces of information is enough to guarantee the whole triangle matches — no more measuring needed. Given two triangles with only some measurements marked, your job is to identify which criterion (if any) proves they're congruent."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Being able to prove congruence with minimal information is the foundation for formal geometric proofs — the skill you'll build on for the rest of this unit."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-10-1-1",
+    "lessonId": "lesson-math-10-1-1",
+    "objectives": [
+      "State the SSS, SAS, and ASA triangle congruence criteria",
+      "Given a pair of triangles with marked measurements, identify which congruence criterion (if any) applies"
+    ],
+    "materialsNeeded": ["Printed 'Proving Triangle Congruence' worksheet", "Pencil", "Ruler and protractor (optional, for constructing example triangles)"],
+    "facilitationScript": "1. Ask: if I tell you two triangles have all three sides equal, do you need to check the angles too? Discuss why not.\n2. Introduce SSS, SAS, and ASA one at a time, drawing a quick example triangle pair for each.\n3. Emphasize the 'included' requirement for SAS and ASA — the angle/side must be BETWEEN the two matching parts, not just anywhere.\n4. Work through 2-3 example triangle pairs together, identifying the correct criterion.\n5. Move to the worksheet: identify the congruence criterion for each triangle pair described.\n6. Close by asking: why do you think SSA (two sides and a non-included angle) is NOT a valid criterion? (This is worth flagging as a common misconception.)",
+    "differentiationTips": [
+      "Struggling: use physical manipulatives (cut-out triangles or straws) to build intuition before working abstractly",
+      "Ready for more: introduce AAS (angle-angle-side) as a fourth valid criterion and explain why it also works",
+      "For a visual learner, draw each triangle pair carefully to scale before identifying the criterion"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. SSS. 2. SAS (angle is included between the two marked sides). 3. ASA (side is included between the two marked angles). 4. Not enough information (only two sides, no angle marked). 5. SAS.",
+    "standardsRationale": "Triangle congruence criteria are the Grade 10 Geometry course's entry point into formal proof-writing, the central skill the rest of the congruence-and-similarity unit builds on."
+  },
+  "worksheet": {
+    "id": "worksheet-math-10-1-1",
+    "lessonId": "lesson-math-10-1-1",
+    "title": "Proving Triangle Congruence",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each triangle pair description, write which congruence criterion applies (SSS, SAS, ASA), or write 'not enough information' if none apply.",
+      "rows": [
+        { "problem": "All three sides of triangle A match all three sides of triangle B" },
+        { "problem": "Two sides and the angle between them match in both triangles" },
+        { "problem": "Two angles and the side between them match in both triangles" },
+        { "problem": "Two sides match, but no angle is given" },
+        { "problem": "A right angle is included between two matching legs of length 5 and 12 in both triangles" }
+      ]
+    }
+  }
+}

@@ -95,7 +95,10 @@ export const lessons = sqliteTable("lessons", {
   aiGenerated: integer("ai_generated", { mode: "boolean" }).notNull().default(false),
   aiReviewStatus: text("ai_review_status").notNull().default("pending"), // pending | human-reviewed | scholar-reviewed
   citations: text("citations", { mode: "json" }).$type<string[]>().notNull().default([]),
-  enrichmentLinks: text("enrichment_links", { mode: "json" }).$type<{ label: string; url: string; source: "sikhi.io" | "sikhiuni" | "external" }[]>().notNull().default([]),
+  // "sikhischool" covers same-site links (e.g. Santhya Path, migrated natively
+  // rather than cross-linked — see CLAUDE.md/plan §12); the other three are
+  // genuinely cross-property.
+  enrichmentLinks: text("enrichment_links", { mode: "json" }).$type<{ label: string; url: string; source: "sikhischool" | "sikhi.io" | "sikhiuni" | "external" }[]>().notNull().default([]),
 });
 
 // Always-free, always-present: the artifact that makes a lesson actually teachable.

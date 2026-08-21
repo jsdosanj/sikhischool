@@ -1,0 +1,81 @@
+{
+  "unit": {
+    "id": "unit-sikhi-k-1",
+    "courseId": "course-sikhi-k",
+    "order": 1,
+    "title": "Living Sikhi Values",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-k-1-1",
+    "unitId": "unit-sikhi-k-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is Seva? Helping Our Sangat",
+    "gradeLevel": "K",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Have you ever helped set the table, shared a toy, or handed someone a cup of water without being asked? In Sikhi, helping others without expecting anything back is called Seva. Today we'll talk about what Seva means and look for ways to practice it."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "One of the most well-known examples of Seva happens at Langar — the free community kitchen found at every Gurdwara, where anyone, from any background, can come and share a meal together. People cook, serve, and clean up as an act of Seva, and everyone sits together as equals. Sangat is the word for the community — everyone who gathers together. Talk with your grown-up about a time you helped your own Sangat, at home, school, or the Gurdwara."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Seva doesn't have to be big. Even a small act of helping — without being asked, and without expecting a reward — is Seva. This week, look for one small way to help someone in your Sangat."
+      }
+    ],
+    "enrichmentLinks": [
+      {
+        "label": "Keep reading: start the Santhya Path with Stage 1",
+        "url": "/santhya-path/muharni-baal-updesh",
+        "source": "sikhischool"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-k-1-1",
+    "lessonId": "lesson-sikhi-k-1-1",
+    "objectives": [
+      "Explain in simple words what Seva means (helping others without expecting anything in return)",
+      "Identify Langar as a real, everyday example of Seva practiced in every Gurdwara",
+      "Name at least one small act of Seva the child can practice this week"
+    ],
+    "materialsNeeded": [
+      "Printed 'What Is Seva?' worksheet",
+      "Pencil or crayon",
+      "Optional: a photo or story about a Langar the family has attended"
+    ],
+    "facilitationScript": "1. Ask the child to describe a time someone helped them without being asked. Then ask if they've ever helped someone the same way.\n2. Introduce the word Seva and explain it means helping without expecting anything back — not for a reward or praise.\n3. Talk about Langar as a real example: everyone is welcome, everyone can help (cooking, serving, cleaning), and everyone sits together as equals.\n4. Introduce Sangat as the word for the community that gathers together — at the Gurdwara, but also at home and school.\n5. Move to the worksheet: trace each vocabulary word (Seva, Sangat, Langar) and talk through its meaning again as the child writes.\n6. Close by picking one small act of Seva together that the child can try this week — helping a sibling, sharing a toy, or setting the table.",
+    "differentiationTips": [
+      "Struggling: focus only on the word Seva and one concrete example (like sharing a toy) rather than introducing all three vocabulary words at once",
+      "Ready for more: ask the child to brainstorm three different kinds of Seva they could do at home, school, and Gurdwara",
+      "For a child who has attended Langar before, invite them to describe what they saw and did there"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a vocabulary tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can explain Seva in their own words by the end.",
+    "standardsRationale": "Seva is one of the foundational, universally-taught values of Sikhi, alongside Simran and Sangat — introducing it through the everyday, familiar example of Langar builds an early, concrete understanding before more abstract concepts are introduced in later grades."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-k-1-1",
+    "lessonId": "lesson-sikhi-k-1-1",
+    "title": "What Is Seva?",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Seva", "label": "Selfless service — helping without expecting anything back" },
+        { "trace": "Sangat", "label": "Community — everyone who gathers together" },
+        { "trace": "Langar", "label": "The free community kitchen, open to everyone" }
+      ]
+    }
+  }
+}

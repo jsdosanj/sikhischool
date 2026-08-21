@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { pdf } from "@react-pdf/renderer";
 import CountAndWriteWorksheet, { type CountAndWriteRow } from "./CountAndWriteWorksheet";
+import TraceAndWriteWorksheet, { type TraceAndWriteRow } from "./TraceAndWriteWorksheet";
 
 // PDF generation runs here, client-side, not on the server: @react-pdf/renderer's
 // layout engine (yoga-layout) instantiates WebAssembly dynamically, which
@@ -20,11 +21,9 @@ export default function WorksheetDownloadButton({
 }) {
   const [pending, setPending] = useState(false);
 
-  if (templateKey !== "count-and-write-v1") {
+  if (templateKey !== "count-and-write-v1" && templateKey !== "trace-and-write-v1") {
     return null;
   }
-
-  const rows = (data.rows as CountAndWriteRow[] | undefined) ?? [];
 
   return (
     <button
@@ -33,7 +32,17 @@ export default function WorksheetDownloadButton({
       onClick={async () => {
         setPending(true);
         try {
-          const blob = await pdf(<CountAndWriteWorksheet title={title} rows={rows} />).toBlob();
+          const doc =
+            templateKey === "count-and-write-v1" ? (
+              <CountAndWriteWorksheet title={title} rows={(data.rows as CountAndWriteRow[] | undefined) ?? []} />
+            ) : (
+              <TraceAndWriteWorksheet
+                title={title}
+                instructions={(data.instructions as string | undefined) ?? "Trace each letter, then write it on your own."}
+                rows={(data.rows as TraceAndWriteRow[] | undefined) ?? []}
+              />
+            );
+          const blob = await pdf(doc).toBlob();
           const url = URL.createObjectURL(blob);
           const a = document.createElement("a");
           a.href = url;

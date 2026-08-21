@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-k-1",
+    "courseId": "course-punjabi-k",
+    "order": 1,
+    "title": "Meeting the Gurmukhi Alphabet",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-k-1-4",
+    "unitId": "unit-punjabi-k-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Three More Letters: ਘ, ਙ, and ਚ",
+    "gradeLevel": "K",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You already know eight letters! Today we finish the row we started yesterday and begin a new one: ਘ (ghagga), ਙ (nga), and ਚ (chacha)."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਘ (ghagga) makes a heavier 'gh' sound, related to ਗ but with more breath. ਙ (nga) makes a soft nasal sound, like the 'ng' in 'sing'. ਚ (chacha) makes a 'ch' sound, like in 'chair', and starts a brand new row. Practice saying: gha... nga... cha."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know eleven letters! You've finished a whole row of the Gurmukhi alphabet and started another. Tomorrow we'll review everything you've learned this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-k-1-4",
+    "lessonId": "lesson-punjabi-k-1-4",
+    "objectives": [
+      "Recognize and name the letters ਘ (ghagga), ਙ (nga), and ਚ (chacha)",
+      "Notice that ਘ and ਙ complete the sound-family row started with ਕ, ਖ, ਗ, while ਚ begins a new row"
+    ],
+    "materialsNeeded": ["Printed 'Three More Letters' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review all eight letters learned so far — can the child name them in order?\n2. Introduce ਘ, ਙ, ਚ one at a time, saying each name aloud together three times.\n3. Point out that ਘ and ਙ finish the row started yesterday (ਕ ਖ ਗ ਘ ਙ), and ਚ starts a new row.\n4. Trace each letter in the air before picking up a pencil.\n5. Move to the worksheet: trace each letter, then write it once more on the practice line.\n6. Close by reciting all eleven letters learned so far, in order.",
+    "differentiationTips": [
+      "Struggling: focus on ਙ's nasal sound separately, since it's the most different from the others and often needs extra practice",
+      "Ready for more: ask the child to sort all eleven letters learned so far into their two completed/started rows",
+      "For a child who enjoys a challenge, have them write all eleven letters from memory before checking against the worksheet"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and recognition activity — check that each traced letter roughly matches the shape shown.",
+    "standardsRationale": "ਘ and ਙ complete the first consonant row, and ਚ begins the second — continuing the systematic Painti Akhari sequence and building toward this week's cumulative review."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-k-1-4",
+    "lessonId": "lesson-punjabi-k-1-4",
+    "title": "Three More Letters: ਘ, ਙ, ਚ",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its name out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਘ", "label": "Ghagga — a heavier 'gh' sound" },
+        { "trace": "ਙ", "label": "Nga — a soft nasal sound, like 'ng' in 'sing'" },
+        { "trace": "ਚ", "label": "Chacha — makes a 'ch' sound, like in 'chair'" }
+      ]
+    }
+  }
+}

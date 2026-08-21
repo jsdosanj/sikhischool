@@ -39,12 +39,26 @@ async function main() {
   const data = JSON.parse(readFileSync(path, "utf-8"));
   const { unit, lesson, teacherGuide, worksheet } = data;
 
-  await query('DELETE FROM units WHERE id = ?;', [unit.id]);
-  await query(
-    'INSERT INTO units (id, course_id, "order", title, week_of_year, standard_tags) VALUES (?,?,?,?,?,?);',
-    [unit.id, unit.courseId, unit.order, unit.title, unit.weekOfYear, "[]"],
-  );
+  // Only insert the unit if it doesn't already exist. Multiple lessons share
+  // a unit, and lessons.unit_id is a real FK to units.id — unconditionally
+  // deleting+reinserting the unit on every run would (briefly, or worse,
+  // permanently if the DELETE fails on the FK) orphan any lessons already
+  // added to it in an earlier run.
+  const existingUnit = await query("SELECT id FROM units WHERE id = ?;", [unit.id]);
+  const unitRows = (existingUnit as unknown as { result: { results: unknown[] }[] }).result;
+  const unitExists = (unitRows?.[0]?.results?.length ?? 0) > 0;
+  if (!unitExists) {
+    await query(
+      'INSERT INTO units (id, course_id, "order", title, week_of_year, standard_tags) VALUES (?,?,?,?,?,?);',
+      [unit.id, unit.courseId, unit.order, unit.title, unit.weekOfYear, "[]"],
+    );
+  }
 
+  // worksheets/teacher_guides reference lessons.id via FK — must delete
+  // those child rows before the lesson row, not after.
+  await query("DELETE FROM worksheets WHERE lesson_id = ?;", [lesson.id]);
+  await query("DELETE FROM teacher_guides WHERE lesson_id = ?;", [lesson.id]);
+  await query("DELETE FROM lessons WHERE id = ?;", [lesson.id]);
   await query(
     'INSERT INTO lessons (id, unit_id, "order", day_of_week, title, grade_level, subject, standard_tags, content_blocks, activity_refs, mastery_points_familiar, mastery_points_proficient, mastery_points_mastered, ai_generated, ai_review_status, citations, enrichment_links) ' +
       "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);",

@@ -1,0 +1,84 @@
+{
+  "unit": {
+    "id": "unit-punjabi-k-1",
+    "courseId": "course-punjabi-k",
+    "order": 1,
+    "title": "Meeting the Gurmukhi Alphabet",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-k-1-5",
+    "unitId": "unit-punjabi-k-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Our First Eleven Letters",
+    "gradeLevel": "K",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned eleven Gurmukhi letters! Today is review day — no new letters, just practice remembering everything you've learned so far."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Say all eleven letters together, in order: ੳ, ਅ, ੲ, ਸ, ਹ, ਕ, ਖ, ਗ, ਘ, ਙ, ਚ. Try covering up the letters one at a time and saying the name from memory. Which letters do you remember easily? Which ones need more practice? That's completely normal — review days are for finding out what to practice more, not for getting everything perfect."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week! You've built a real foundation for reading Gurmukhi. Next week, we'll keep adding new letters to this list."
+      }
+    ],
+    "enrichmentLinks": [
+      {
+        "label": "Keep reading: start the Santhya Path with Stage 1",
+        "url": "/santhya-path/muharni-baal-updesh",
+        "source": "sikhischool"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-k-1-5",
+    "lessonId": "lesson-punjabi-k-1-5",
+    "objectives": [
+      "Recall and name all eleven letters learned this week (ੳ, ਅ, ੲ, ਸ, ਹ, ਕ, ਖ, ਗ, ਘ, ਙ, ਚ)",
+      "Self-identify which letters are secure and which need more practice, building early metacognitive habits"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Say all eleven letters together as a group, in order, without looking at any reference.\n2. Play a quick game: cover the letters one at a time and ask the child to name each from memory.\n3. Notice together which letters were easy and which were tricky — this is useful information, not a test to pass or fail.\n4. Move to the worksheet: trace all eleven letters once more, in order.\n5. Praise effort and progress, not just correctness — a full week of new letters is real work for a Kindergartner.\n6. Close by previewing that next week continues with new letters.",
+    "differentiationTips": [
+      "Struggling: it's completely fine to spend extra review days on this same set of eleven letters before moving on — there's no rush",
+      "Ready for more: ask the child to sort the eleven letters into their groups (3 vowel bearers, sassa/haha pair, the ka-row) from memory",
+      "For a child who wants a game, turn this into a simple matching or flashcard activity instead of straight tracing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which of the eleven letters the child recalled confidently vs. needed prompting for, to guide next week's pacing.",
+    "standardsRationale": "A dedicated review day after introducing 11 new letters in one week matches how real Gurmukhi primers pace instruction — consolidation before adding more content is essential at this age and this is the first of many planned review days in this course."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-k-1-5",
+    "lessonId": "lesson-punjabi-k-1-5",
+    "title": "Review Day: Our First Eleven Letters",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter one more time, saying its name out loud as you go.",
+      "rows": [
+        { "trace": "ੳ", "label": "Ura" },
+        { "trace": "ਅ", "label": "Aira" },
+        { "trace": "ੲ", "label": "Iri" },
+        { "trace": "ਸ", "label": "Sassa" },
+        { "trace": "ਹ", "label": "Haha" },
+        { "trace": "ਕ", "label": "Kakka" },
+        { "trace": "ਖ", "label": "Khakha" },
+        { "trace": "ਗ", "label": "Gagga" },
+        { "trace": "ਘ", "label": "Ghagga" },
+        { "trace": "ਙ", "label": "Nga" },
+        { "trace": "ਚ", "label": "Chacha" }
+      ]
+    }
+  }
+}

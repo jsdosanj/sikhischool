@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-4-1",
+    "courseId": "course-ela-4",
+    "order": 1,
+    "title": "Writing Strong Paragraphs",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-4-1-1",
+    "unitId": "unit-ela-4-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Writing a Topic Sentence",
+    "gradeLevel": "4",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every strong paragraph starts with a topic sentence — one sentence that tells the reader exactly what the paragraph is going to be about. Think of it like a sign pointing the way before a trip."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A good topic sentence has two parts: the subject (what you're writing about) and a controlling idea (what point you're making about it). For example: 'Recess is my favorite part of the school day because it gives me time to move and play with friends.' The subject is recess, and the controlling idea is why it's a favorite. Try writing a topic sentence about your favorite season, using the same pattern: subject + why it matters to you."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Once you have a strong topic sentence, every other sentence in the paragraph should support it with details and examples. You've just written the most important sentence in your paragraph!"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-4-1-1",
+    "lessonId": "lesson-ela-4-1-1",
+    "objectives": [
+      "Define a topic sentence as stating a subject plus a controlling idea",
+      "Write an original topic sentence for a given prompt"
+    ],
+    "materialsNeeded": ["Printed 'Writing a Topic Sentence' worksheet", "Pencil"],
+    "facilitationScript": "1. Read a few example topic sentences aloud and ask the child to identify the subject and the controlling idea in each.\n2. Explain the pattern: subject + why it matters / what you think about it.\n3. Model writing one together about a shared topic (favorite food, a pet, a game).\n4. Move to the worksheet: for each prompt, write one topic sentence following the pattern.\n5. Read the child's sentences back to them and ask: does this sentence tell me exactly what the paragraph will be about?\n6. Close by picking the strongest sentence and brainstorming two supporting details that could follow it.",
+    "differentiationTips": [
+      "Struggling: give a sentence starter ('My favorite season is ___ because ___') rather than a blank prompt",
+      "Ready for more: ask the child to write two different topic sentences for the same subject, each with a different controlling idea",
+      "For a child ready to extend further, have them add 2-3 supporting-detail sentences after their topic sentence to build a full paragraph"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Open-ended writing — check that each response includes both a clear subject and a controlling idea (an opinion or reason), not just a bare statement of fact.",
+    "standardsRationale": "Topic-sentence writing is the foundational Grade 4 paragraph-structure skill that multi-paragraph essay writing and literary analysis build on in the rest of the course."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-4-1-1",
+    "lessonId": "lesson-ela-4-1-1",
+    "title": "Writing a Topic Sentence",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write one topic sentence for each prompt. Remember: subject + why it matters to you.",
+      "prompts": [
+        { "prompt": "Write a topic sentence about your favorite season.", "lines": 2 },
+        { "prompt": "Write a topic sentence about a place you like to visit.", "lines": 2 },
+        { "prompt": "Write a topic sentence about a skill you're proud of.", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -4,6 +4,10 @@ import { useState } from "react";
 import { pdf } from "@react-pdf/renderer";
 import CountAndWriteWorksheet, { type CountAndWriteRow } from "./CountAndWriteWorksheet";
 import TraceAndWriteWorksheet, { type TraceAndWriteRow } from "./TraceAndWriteWorksheet";
+import PracticeProblemsWorksheet, { type PracticeProblemRow } from "./PracticeProblemsWorksheet";
+import WritingLinesWorksheet, { type WritingPrompt } from "./WritingLinesWorksheet";
+
+const TEMPLATE_KEYS = ["count-and-write-v1", "trace-and-write-v1", "practice-problems-v1", "writing-lines-v1"];
 
 // PDF generation runs here, client-side, not on the server: @react-pdf/renderer's
 // layout engine (yoga-layout) instantiates WebAssembly dynamically, which
@@ -21,7 +25,7 @@ export default function WorksheetDownloadButton({
 }) {
   const [pending, setPending] = useState(false);
 
-  if (templateKey !== "count-and-write-v1" && templateKey !== "trace-and-write-v1") {
+  if (!TEMPLATE_KEYS.includes(templateKey)) {
     return null;
   }
 
@@ -32,16 +36,34 @@ export default function WorksheetDownloadButton({
       onClick={async () => {
         setPending(true);
         try {
-          const doc =
-            templateKey === "count-and-write-v1" ? (
-              <CountAndWriteWorksheet title={title} rows={(data.rows as CountAndWriteRow[] | undefined) ?? []} />
-            ) : (
+          let doc;
+          if (templateKey === "count-and-write-v1") {
+            doc = <CountAndWriteWorksheet title={title} rows={(data.rows as CountAndWriteRow[] | undefined) ?? []} />;
+          } else if (templateKey === "trace-and-write-v1") {
+            doc = (
               <TraceAndWriteWorksheet
                 title={title}
                 instructions={(data.instructions as string | undefined) ?? "Trace each letter, then write it on your own."}
                 rows={(data.rows as TraceAndWriteRow[] | undefined) ?? []}
               />
             );
+          } else if (templateKey === "practice-problems-v1") {
+            doc = (
+              <PracticeProblemsWorksheet
+                title={title}
+                instructions={(data.instructions as string | undefined) ?? "Solve each problem and write your answer in the box."}
+                rows={(data.rows as PracticeProblemRow[] | undefined) ?? []}
+              />
+            );
+          } else {
+            doc = (
+              <WritingLinesWorksheet
+                title={title}
+                instructions={(data.instructions as string | undefined) ?? "Respond to each prompt in complete sentences."}
+                prompts={(data.prompts as WritingPrompt[] | undefined) ?? []}
+              />
+            );
+          }
           const blob = await pdf(doc).toBlob();
           const url = URL.createObjectURL(blob);
           const a = document.createElement("a");

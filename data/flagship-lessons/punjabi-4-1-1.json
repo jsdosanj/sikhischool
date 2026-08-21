@@ -1,0 +1,74 @@
+{
+  "unit": {
+    "id": "unit-punjabi-4-1",
+    "courseId": "course-punjabi-4",
+    "order": 1,
+    "title": "Writing About My Life",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-4-1-1",
+    "unitId": "unit-punjabi-4-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Writing a Paragraph: My Family Story",
+    "gradeLevel": "4",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਅੱਜ ਅਸੀਂ ਆਪਣੇ ਪਰਿਵਾਰ ਬਾਰੇ ਲਿਖਦੇ ਹਾਂ। (Today we write about our family.) Every family has its own story — where it comes from, the languages it speaks, and the traditions it keeps. Writing about your own family is a great way to practice Punjabi paragraph writing."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "First, let's expand our vocabulary: ਪਰਿਵਾਰ (parivaar) means family, ਦਾਦਾ ਜੀ / ਦਾਦੀ ਜੀ (dada ji / dadi ji) means grandfather/grandmother, and ਕਹਾਣੀ (kahani) means story. A strong paragraph starts with an opening sentence, then adds two or three detail sentences, and ends with a closing thought. Try starting your paragraph with: ਮੇਰਾ ਪਰਿਵਾਰ... (My family...)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਸ਼ਾਬਾਸ਼! (Well done!) You've practiced new vocabulary and paragraph structure at the same time. Keep this paragraph — it's the start of your own family story."
+      }
+    ],
+    "enrichmentLinks": [
+      {
+        "label": "Keep reading: start the Santhya Path with Stage 1",
+        "url": "/santhya-path/muharni-baal-updesh",
+        "source": "sikhischool"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-4-1-1",
+    "lessonId": "lesson-punjabi-4-1-1",
+    "objectives": [
+      "Use new Punjabi vocabulary (parivaar, dada ji/dadi ji, kahani) correctly in context",
+      "Write a short paragraph in Punjabi (or a Punjabi/English mix, if still building fluency) with an opening, detail sentences, and a closing thought"
+    ],
+    "materialsNeeded": ["Printed 'My Family Story' worksheet", "Pencil", "Optional: a family photo to write about"],
+    "facilitationScript": "1. Introduce the new vocabulary words aloud, practicing pronunciation together.\n2. Talk about the child's own family — names, where they're from, a favorite family tradition or story.\n3. Model a short example paragraph together, using the opening + details + closing structure.\n4. Move to the worksheet: write your own family paragraph using at least two of the new vocabulary words.\n5. Read the paragraph back together, celebrating the vocabulary used correctly.\n6. Close by asking the child to share their paragraph with a family member.",
+    "differentiationTips": [
+      "Struggling: allow a mix of Punjabi and English if full-Punjabi writing is still developing — vocabulary use matters more than full fluency at this stage",
+      "Ready for more: challenge the child to write the entire paragraph in Gurmukhi script rather than English transliteration",
+      "For a child who enjoys storytelling, have them interview a grandparent or older family member for a real detail to include"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Open-ended writing — check that the paragraph includes an opening sentence, at least two supporting details, a closing thought, and at least two of the new vocabulary words used correctly.",
+    "standardsRationale": "Paragraph writing paired with vocabulary expansion is the Grade 4 Punjabi course's core skill combination, and grounding it in the child's own family story keeps the writing personally meaningful rather than abstract."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-4-1-1",
+    "lessonId": "lesson-punjabi-4-1-1",
+    "title": "My Family Story",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your family paragraph below. Try to use at least two of today's new words: parivaar, dada ji/dadi ji, kahani.",
+      "prompts": [
+        { "prompt": "Meraa parivaar... (My family...)", "lines": 6 }
+      ]
+    }
+  }
+}

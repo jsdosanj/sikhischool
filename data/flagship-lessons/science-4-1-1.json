@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-science-4-1",
+    "courseId": "course-science-4",
+    "order": 1,
+    "title": "Energy and How It Moves",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-4-1-1",
+    "unitId": "unit-science-4-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "How Energy Transfers: Heat, Light, and Motion",
+    "gradeLevel": "4",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Energy is what makes things happen — it can move, glow, heat up, or make sound. Energy doesn't just appear or disappear; it transfers, moving from one object or place to another."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Think about a few examples: when you rub your hands together, motion energy transfers into heat energy — your hands get warm. When sunlight hits a dark sidewalk, light energy transfers into heat energy — the sidewalk gets hot. When you strike a drum, motion energy transfers into sound energy. In each case, energy is moving from one form or place into another, not disappearing. Look around your home and find one example of energy transferring — a lamp, a moving fan, a warm stove."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You found real examples of energy transfer all around you. This week, keep noticing: whenever something heats up, lights up, moves, or makes sound, energy is transferring from somewhere else."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-4-1-1",
+    "lessonId": "lesson-science-4-1-1",
+    "objectives": [
+      "Explain that energy transfers between objects rather than appearing or disappearing",
+      "Identify real, everyday examples of energy transferring as heat, light, sound, or motion"
+    ],
+    "materialsNeeded": ["Printed 'How Energy Transfers' worksheet", "Pencil", "Optional: a flashlight, a fan, or another simple household device to demonstrate with"],
+    "facilitationScript": "1. Ask the child what 'energy' means in their own words, then introduce the idea that energy moves — it transfers.\n2. Demonstrate rubbing hands together (motion to heat) and talk through what's happening.\n3. Walk through 2-3 more examples together: sunlight warming a surface (light to heat), a speaker vibrating (motion to sound).\n4. Go on a short 'energy hunt' around the house, finding real examples of transfer.\n5. Move to the worksheet: for each scenario, identify what kind of energy transfer is happening.\n6. Close by picking the child's favorite example and explaining it back in their own words.",
+    "differentiationTips": [
+      "Struggling: focus on just two forms (heat and motion) rather than all four, using very concrete, familiar examples",
+      "Ready for more: introduce the idea that energy can transfer through multiple steps in a row (e.g. electricity to motion to sound in a speaker)",
+      "For a hands-on learner, do a simple experiment: spin a coin and feel for warmth afterward, or hold a hand near (not touching) a warm lightbulb"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Motion to heat (rubbing hands). 2. Light to heat (sun warming pavement). 3. Motion to sound (drum). 4. Electrical to light (turning on a lamp). 5. Motion to sound (guitar string).",
+    "standardsRationale": "Understanding energy transfer across forms (heat, light, sound, motion) is a core Grade 4 physical-science idea that later units on structures, ecosystems, and Earth systems all build on."
+  },
+  "worksheet": {
+    "id": "worksheet-science-4-1-1",
+    "lessonId": "lesson-science-4-1-1",
+    "title": "How Energy Transfers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each scenario, write what kind of energy transfer is happening (for example: motion to heat).",
+      "rows": [
+        { "problem": "Rubbing your hands together on a cold day" },
+        { "problem": "Sunlight warming up a dark sidewalk" },
+        { "problem": "Hitting a drum" },
+        { "problem": "Turning on a lamp" },
+        { "problem": "Plucking a guitar string" }
+      ]
+    }
+  }
+}

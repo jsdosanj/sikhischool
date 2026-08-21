@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-sikhi-4-1",
+    "courseId": "course-sikhi-4",
+    "order": 1,
+    "title": "Guru Nanak's Life and Teachings",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-4-1-1",
+    "unitId": "unit-sikhi-4-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Guru Nanak's Journeys: The Udasis",
+    "gradeLevel": "4",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Guru Nanak, the founder of Sikhi, didn't just teach from one place — he traveled far and wide, meeting people of many different faiths and backgrounds along the way. These journeys are called the Udasis, and today we'll learn about them and the core teachings Guru Nanak shared wherever he went."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "During his Udasis, Guru Nanak traveled across South Asia and beyond, visiting people of many different religions and ways of life. Everywhere he went, he taught the same core message, often summarized as three simple ideas: Naam Japo (remember and meditate on God's name), Kirat Karo (earn an honest, honest living through your own work), and Vand Chakko (share what you have with others). These three ideas together describe a life of devotion, honest work, and generosity — all lived out together, not separately."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Guru Nanak's journeys teach us that his message was for everyone, everywhere — not just one place or one group of people. This week, think about one way you could practice Kirat Karo or Vand Chakko in your own life."
+      }
+    ],
+    "enrichmentLinks": [
+      {
+        "label": "Keep reading: start the Santhya Path with Stage 1",
+        "url": "/santhya-path/muharni-baal-updesh",
+        "source": "sikhischool"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-4-1-1",
+    "lessonId": "lesson-sikhi-4-1-1",
+    "objectives": [
+      "Explain that Guru Nanak's Udasis were journeys during which he taught people of many different faiths and backgrounds",
+      "Name and explain, in simple terms, the three core teachings: Naam Japo, Kirat Karo, and Vand Chakko"
+    ],
+    "materialsNeeded": ["Printed 'Guru Nanak's Journeys' worksheet", "Pencil", "Optional: a world/South Asia map to trace approximate travel"],
+    "facilitationScript": "1. Ask the child if they've ever traveled somewhere new and met people who lived differently than they do.\n2. Introduce Guru Nanak's Udasis — his journeys teaching people of many different faiths and backgrounds.\n3. Introduce the three core teachings one at a time: Naam Japo, Kirat Karo, Vand Chakko. For each, ask the child to restate it in their own words.\n4. Discuss how the three fit together: devotion, honest work, and generosity, lived out as one whole way of life — not three separate rules.\n5. Move to the worksheet: trace each term and its meaning.\n6. Close by picking one small way to practice Kirat Karo or Vand Chakko this week.",
+    "differentiationTips": [
+      "Struggling: focus on just one teaching (Vand Chakko is often the most concrete for young learners — sharing) rather than all three at once",
+      "Ready for more: ask the child to give a real example from their own life for each of the three teachings",
+      "For a child who enjoys geography, find approximate regions of Guru Nanak's travels on a map together"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a tracing and discussion activity — there is no right/wrong answer beyond correct tracing. Check that the child can explain all three teachings in their own words by the end.",
+    "standardsRationale": "Guru Nanak's life and the three core teachings are foundational Grade 4 Sikhi content, building directly on the K-2 introduction to Seva and preparing students for deeper doctrinal study in later grades."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-4-1-1",
+    "lessonId": "lesson-sikhi-4-1-1",
+    "title": "Guru Nanak's Journeys",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Naam Japo", "label": "Remember and meditate on God's name" },
+        { "trace": "Kirat Karo", "label": "Earn an honest living through your own work" },
+        { "trace": "Vand Chakko", "label": "Share what you have with others" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-4-1",
+    "courseId": "course-punjabi-4",
+    "order": 1,
+    "title": "Writing About My Life",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-4-1-2",
+    "unitId": "unit-punjabi-4-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "More Family Words: Extended Family",
+    "gradeLevel": "4",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਕੱਲ੍ਹ ਅਸੀਂ ਪਰਿਵਾਰ ਬਾਰੇ ਲਿਖਿਆ। (Yesterday we wrote about family.) Today, let's expand our family vocabulary even further — to grandparents on both sides, and siblings."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Four new words: ਨਾਨਾ ਜੀ (nana ji, maternal grandfather), ਨਾਨੀ ਜੀ (nani ji, maternal grandmother), ਭੈਣ (bhain, sister), and ਭਰਾ (bhra, brother). Notice Punjabi has different words for grandparents on your mother's side (ਨਾਨਾ/ਨਾਨੀ) versus your father's side (ਦਾਦਾ/ਦਾਦੀ, from yesterday) — English just says 'grandpa' and 'grandma' for both. Write one sentence about a grandparent or sibling using one of today's new words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know words for family on both sides, plus siblings — real vocabulary expansion. Tomorrow we'll write about your daily routine."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-4-1-2",
+    "lessonId": "lesson-punjabi-4-1-2",
+    "objectives": [
+      "Learn 4 new family vocabulary words: ਨਾਨਾ ਜੀ, ਨਾਨੀ ਜੀ, ਭੈਣ, ਭਰਾ",
+      "Recognize that Punjabi distinguishes maternal and paternal grandparents where English does not"
+    ],
+    "materialsNeeded": ["Yesterday's family-paragraph worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's ਪਰਿਵਾਰ/ਦਾਦਾ ਜੀ/ਦਾਦੀ ਜੀ/ਕਹਾਣੀ vocabulary.\n2. Introduce today's 4 new words, explicitly comparing the maternal/paternal grandparent distinction to English's single 'grandma/grandpa.'\n3. Have the child write one sentence using a new word.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: writing about daily routine.",
+    "differentiationTips": [
+      "Struggling: focus on just ਭੈਣ/ਭਰਾ (sister/brother) if the maternal/paternal distinction feels like too much at once",
+      "Ready for more: ask them to draw a simple family tree labeling each relative with the correct Punjabi word",
+      "All Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਨਾਨਾ ਜੀ = maternal grandfather. 2. ਨਾਨੀ ਜੀ = maternal grandmother. 3. ਭੈਣ = sister. 4. ਭਰਾ = brother.",
+    "standardsRationale": "Continues the course's 'vocabulary expansion' goal, deliberately building family vocabulary depth (maternal vs. paternal terms) that English lacks an equivalent distinction for — a genuine, worthwhile linguistic concept for this grade."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-4-1-2",
+    "lessonId": "lesson-punjabi-4-1-2",
+    "title": "Extended Family Words",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the English meaning of each Gurmukhi word.",
+      "rows": [
+        { "problem": "ਨਾਨਾ ਜੀ" },
+        { "problem": "ਨਾਨੀ ਜੀ" },
+        { "problem": "ਭੈਣ" },
+        { "problem": "ਭਰਾ" }
+      ]
+    }
+  }
+}

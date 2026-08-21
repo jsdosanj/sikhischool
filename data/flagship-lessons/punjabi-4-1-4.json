@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-4-1",
+    "courseId": "course-punjabi-4",
+    "order": 1,
+    "title": "Writing About My Life",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-4-1-4",
+    "unitId": "unit-punjabi-4-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing About a Favorite Tradition",
+    "gradeLevel": "4",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਤੁਸੀਂ ਪਰਿਵਾਰ ਅਤੇ ਆਪਣੇ ਦਿਨ ਬਾਰੇ ਲਿਖਿਆ। (You've written about family and your day.) Today, a cultural story: your favorite family tradition or celebration."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Three new words: ਤਿਉਹਾਰ (tyohar, festival/celebration), ਖੁਸ਼ੀ (khushi, happiness), and ਮਨਾਉਣਾ (manauna, to celebrate). Think of a tradition or celebration your family takes part in — it could be a festival, a birthday, or a special family gathering. Write 2-3 sentences describing it: what is it called, what do you do, and how does it make you feel? Try starting with: ਮੇਰਾ ਪਸੰਦੀਦਾ ਤਿਉਹਾਰ... (My favorite celebration...)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just wrote a real cultural story about your own family's traditions — exactly the kind of writing this course is building toward. Tomorrow we'll combine everything from this week into one complete piece."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-4-1-4",
+    "lessonId": "lesson-punjabi-4-1-4",
+    "objectives": [
+      "Learn 3 new vocabulary words: ਤਿਉਹਾਰ, ਖੁਸ਼ੀ, ਮਨਾਉਣਾ",
+      "Write 2-3 sentences describing a personal family tradition or celebration"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's vocabulary (family, daily routine).\n2. Introduce today's 3 new words and the example sentence starter.\n3. Discuss real family traditions the child can draw on before writing.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: combining everything into one finished piece.",
+    "differentiationTips": [
+      "Struggling: allow the child to describe the tradition in English first, then help translate 1-2 key sentences into Punjabi",
+      "Ready for more: ask them to add a sentence explaining WHY the tradition matters to their family, not just what happens",
+      "All Gurmukhi words/sentences used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਤਿਉਹਾਰ = festival/celebration. 2. ਖੁਸ਼ੀ = happiness. 3. ਮਨਾਉਣਾ = to celebrate.",
+    "standardsRationale": "Addresses the course's 'cultural stories' description directly, giving the child a genuine, personally meaningful writing topic that also reinforces this week's paragraph-structure and vocabulary-expansion goals."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-4-1-4",
+    "lessonId": "lesson-punjabi-4-1-4",
+    "title": "Writing About a Favorite Tradition",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write 2-3 sentences about a favorite family tradition or celebration, using ਤਿਉਹਾਰ, ਖੁਸ਼ੀ, or ਮਨਾਉਣਾ.",
+      "prompts": [
+        { "prompt": "My favorite family tradition (in Punjabi):", "lines": 4 }
+      ]
+    }
+  }
+}

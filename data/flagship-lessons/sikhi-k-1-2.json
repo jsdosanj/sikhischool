@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-k-1",
+    "courseId": "course-sikhi-k",
+    "order": 1,
+    "title": "Living Sikhi Values",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-k-1-2",
+    "unitId": "unit-sikhi-k-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "What Is Simran? A Quiet, Peaceful Heart",
+    "gradeLevel": "K",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Have you ever sat quietly and felt really calm and peaceful? In Sikhi, taking quiet moments to remember and feel close to Waheguru (God) is called Simran. Today we'll practice a simple, quiet moment of Simran together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Simran doesn't have to be complicated. It can be as simple as sitting quietly, breathing slowly, and thinking peaceful thoughts. Try this with your grown-up: sit comfortably, close your eyes if that feels good, take three slow breaths, and quietly think the word 'Waheguru' in your mind. Notice how your body feels calmer afterward."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "That quiet, peaceful feeling is what Simran helps build. This week, try one quiet moment of Simran on your own, even just for a few breaths."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-k-1-2",
+    "lessonId": "lesson-sikhi-k-1-2",
+    "objectives": [
+      "Explain in simple words what Simran means (quietly remembering and feeling close to Waheguru)",
+      "Practice a short, guided moment of quiet remembrance"
+    ],
+    "materialsNeeded": ["Printed 'What Is Simran?' worksheet", "Pencil or crayon", "A quiet space for the practice moment"],
+    "facilitationScript": "1. Ask the child to describe a time they felt really calm and peaceful.\n2. Introduce Simran as taking quiet moments to remember and feel close to Waheguru.\n3. Guide a short practice moment together: sit comfortably, take three slow breaths, quietly think 'Waheguru.'\n4. Talk about how their body felt afterward — calmer, slower, quieter.\n5. Move to the worksheet: trace the word and talk through its meaning again.\n6. Close by picking one time this week to try a quiet Simran moment on their own.",
+    "differentiationTips": [
+      "Struggling: keep the quiet moment very short (even 10-15 seconds) — the goal is a positive first experience, not a long practice",
+      "Ready for more: introduce that Simran often happens through Nitnem (daily prayers), which they'll learn more about in later lessons",
+      "For a child who finds sitting still hard, try a slow, quiet walk instead of sitting — the calm, mindful quality matters more than the position"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and experiential activity — there is no right/wrong answer beyond correct word tracing. Check that the child can describe Simran as a quiet, peaceful remembrance in their own words.",
+    "standardsRationale": "Simran is one of the foundational, universally-taught values of Sikhi alongside Seva and Sangat (introduced in the previous lesson) — introducing it experientially, through an actual quiet moment, builds real understanding before more abstract doctrinal study in later grades."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-k-1-2",
+    "lessonId": "lesson-sikhi-k-1-2",
+    "title": "What Is Simran?",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace the word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Simran", "label": "Quietly remembering and feeling close to Waheguru" }
+      ]
+    }
+  }
+}

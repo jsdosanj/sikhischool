@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-punjabi-3-1",
+    "courseId": "course-punjabi-3",
+    "order": 1,
+    "title": "Nouns, Verbs, and Adjectives",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-3-1-2",
+    "unitId": "unit-punjabi-3-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Action Words: Verbs (ਕਿਰਿਆ)",
+    "gradeLevel": "3",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you named things with nouns. Today, let's talk about what those things DO — action words, called verbs."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A verb (ਕਿਰਿਆ) tells what someone or something does. You already know four verbs from last year: ਖਾਣਾ (to eat), ਪੀਣਾ (to drink), ਖੇਡਣਾ (to play), and ਸੌਣਾ (to sleep). Today, one new verb: ਪੜ੍ਹਨਾ (to read) — an important one, since this week also builds toward reading fluency! Act out each of the five verbs with your body as you say the word out loud. Then match each verb to a noun from yesterday that could plausibly do that action (for example, ਕੁੱਤਾ ਖੇਡਣਾ — a dog playing)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know five real action words in Punjabi, including the word for 'to read' — exactly what we'll be doing more of this week. Tomorrow we'll learn describing words: adjectives."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-3-1-2",
+    "lessonId": "lesson-punjabi-3-1-2",
+    "objectives": [
+      "Define a verb as an action word",
+      "Read and correctly use 5 Gurmukhi verbs, matching each to a plausible noun"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's 5 nouns.\n2. Introduce the term ਕਿਰਿਆ (verb) and the 'action word' definition.\n3. Review the 4 known verbs from last year, then introduce ਪੜ੍ਹਨਾ (to read).\n4. Act out each verb physically while saying it aloud.\n5. Practice matching verbs to plausible nouns from yesterday.\n6. Complete the worksheet.\n7. Preview tomorrow's topic: adjectives.",
+    "differentiationTips": [
+      "Struggling: focus only on the new verb (ਪੜ੍ਹਨਾ) plus one review verb rather than all 5 at once",
+      "Ready for more: ask them to name which noun from yesterday is LEAST likely to do each verb, and why",
+      "All Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary for the noun-matching activity — check that the pairing is plausible (e.g. ਕੁੱਤਾ + ਖੇਡਣਾ makes sense; ਕਿਤਾਬ + ਸੌਣਾ does not). 1. ਪੜ੍ਹਨਾ = to read. 2. ਖਾਣਾ = to eat. 3. ਖੇਡਣਾ = to play.",
+    "standardsRationale": "Introduces the second of this week's three core grammar concepts (verbs, ਕਿਰਿਆ), deliberately including 'to read' (ਪੜ੍ਹਨਾ) to connect grammar instruction directly to the course's 'reading fluency' goal."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-3-1-2",
+    "lessonId": "lesson-punjabi-3-1-2",
+    "title": "Match the Verb",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the English meaning of each Gurmukhi verb.",
+      "rows": [
+        { "problem": "ਪੜ੍ਹਨਾ" },
+        { "problem": "ਖਾਣਾ" },
+        { "problem": "ਪੀਣਾ" },
+        { "problem": "ਖੇਡਣਾ" },
+        { "problem": "ਸੌਣਾ" }
+      ]
+    }
+  }
+}

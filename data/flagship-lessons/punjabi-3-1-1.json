@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-punjabi-3-1",
+    "courseId": "course-punjabi-3",
+    "order": 1,
+    "title": "Nouns, Verbs, and Adjectives",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-3-1-1",
+    "unitId": "unit-punjabi-3-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Naming Words: Nouns (ਨਾਂਵ)",
+    "gradeLevel": "3",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You already know many Gurmukhi words for people, places, and things from the last two years. This week we'll learn the grammar names for these word types, starting with naming words: nouns."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A noun (ਨਾਂਵ) names a person, place, or thing. Some nouns you already know: ਘਰ (home) and ਪਾਣੀ (water). Today, five new nouns: ਮੁੰਡਾ (boy), ਕੁੜੀ (girl), ਸਕੂਲ (school), ਕਿਤਾਬ (book), and ਕੁੱਤਾ (dog). Sort each word into one category: person, place, or thing. Then look around your home and name three real nouns you see — say each one out loud in Punjabi if you know the word, or in English if you don't yet."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned five new nouns and the grammar term for naming words. Tomorrow we'll learn about action words: verbs."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-3-1-1",
+    "lessonId": "lesson-punjabi-3-1-1",
+    "objectives": [
+      "Define a noun as a naming word for a person, place, or thing",
+      "Read and correctly sort 5 new Gurmukhi nouns by category"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review 2 known nouns from last year (ਘਰ/ਪਾਣੀ).\n2. Introduce the term ਨਾਂਵ (noun) and the person/place/thing definition.\n3. Introduce the 5 new nouns, practicing pronunciation together.\n4. Sort all 7 nouns (2 review + 5 new) into person/place/thing categories.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: verbs.",
+    "differentiationTips": [
+      "Struggling: focus on just the 5 new words without requiring the person/place/thing sort on the first pass",
+      "Ready for more: ask them to name one more noun in each category from their own vocabulary",
+      "All 7 Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਮੁੰਡਾ (boy) = person. 2. ਕੁੜੀ (girl) = person. 3. ਸਕੂਲ (school) = place. 4. ਕਿਤਾਬ (book) = thing. 5. ਕੁੱਤਾ (dog) = thing.",
+    "standardsRationale": "Introduces the grammar term 'noun' and its Gurmukhi equivalent (ਨਾਂਵ), the first of this week's three core grammar concepts (nouns/verbs/adjectives), matching the course's own 'grammar basics' description."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-3-1-1",
+    "lessonId": "lesson-punjabi-3-1-1",
+    "title": "Sort the Nouns",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each noun, write whether it is a PERSON, PLACE, or THING.",
+      "rows": [
+        { "problem": "ਮੁੰਡਾ (boy)" },
+        { "problem": "ਕੁੜੀ (girl)" },
+        { "problem": "ਸਕੂਲ (school)" },
+        { "problem": "ਕਿਤਾਬ (book)" },
+        { "problem": "ਕੁੱਤਾ (dog)" }
+      ]
+    }
+  }
+}

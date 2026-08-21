@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-3-1",
+    "courseId": "course-punjabi-3",
+    "order": 1,
+    "title": "Nouns, Verbs, and Adjectives",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-3-1-5",
+    "unitId": "unit-punjabi-3-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Nouns, Verbs, and Adjectives",
+    "gradeLevel": "3",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned all three basic word types and used them to build real sentences. Let's review everything and read a short passage together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: nouns (ਨਾਂਵ) name a person, place, or thing (Day 1). Verbs (ਕਿਰਿਆ) tell what something does (Day 2). Adjectives (ਵਿਸ਼ੇਸ਼ਣ) describe a noun, and change form to match masculine or feminine nouns (Day 3-4). Now read this short passage built entirely from words you already know: ਇਹ ਵੱਡਾ ਘਰ ਹੈ। ਕੁੜੀ ਪੜ੍ਹਦੀ ਹੈ। ਕੁੱਤਾ ਖੇਡਦਾ ਹੈ। (This is a big house. The girl reads. The dog plays.)"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just read a real three-sentence passage using only words you learned this week, and reviewed all three grammar concepts. Great work building real reading fluency in Gurmukhi!"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-3-1-5",
+    "lessonId": "lesson-punjabi-3-1-5",
+    "objectives": [
+      "Recall the definitions of noun, verb, and adjective, in Gurmukhi and English",
+      "Read a short passage built entirely from the week's vocabulary with correct comprehension"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Read the 3-sentence passage together, checking comprehension of each sentence.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit and reading a real passage independently.",
+    "differentiationTips": [
+      "Struggling: read the passage together sentence by sentence, translating each before moving to the next",
+      "Ready for more: ask them to write one more sentence of their own using this week's vocabulary, following the noun+adjective+verb pattern",
+      "This is a good checkpoint to note which grammar concept (noun/verb/adjective) needs the most re-teaching before next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. ਨਾਂਵ = noun. 2. ਕਿਰਿਆ = verb. 3. ਵਿਸ਼ੇਸ਼ਣ = adjective. Passage translation: 'This is a big house. The girl reads. The dog plays.'",
+    "standardsRationale": "Consolidates the week's grammar-basics content (nouns/verbs/adjectives) and directly demonstrates reading fluency with an all-known-vocabulary passage, matching the course's own 'grammar basics ... and reading fluency' description."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-3-1-5",
+    "lessonId": "lesson-punjabi-3-1-5",
+    "title": "Nouns, Verbs, and Adjectives: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "What does ਨਾਂਵ mean in English?" },
+        { "problem": "What does ਕਿਰਿਆ mean in English?" },
+        { "problem": "What does ਵਿਸ਼ੇਸ਼ਣ mean in English?" },
+        { "problem": "Translate: ਕੁੱਤਾ ਖੇਡਦਾ ਹੈ।" }
+      ]
+    }
+  }
+}

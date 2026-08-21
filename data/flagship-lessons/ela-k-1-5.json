@@ -1,0 +1,72 @@
+{
+  "unit": {
+    "id": "unit-ela-k-1",
+    "courseId": "course-ela-k",
+    "order": 1,
+    "title": "Letters and Their Sounds",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-k-1-5",
+    "unitId": "unit-ela-k-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: S, M, A, T — and Reading Our Words",
+    "gradeLevel": "K",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned four letter sounds and blended your first word! Today is review day — no new letters, just practice remembering everything and reading a few words."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Say all four sounds together: /s/, /m/, /a/, /t/. Then try blending them into words: sat, mat, tam. Which letters do you remember easily? Which sounds need more practice? That's completely normal — review days are for finding out what to practice more, not for getting everything perfect."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you learned four sounds and read real words by blending them! Next week, we'll keep adding new letters to your growing list."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-k-1-5",
+    "lessonId": "lesson-ela-k-1-5",
+    "objectives": [
+      "Recall and produce all four letter sounds learned this week (S, M, A, T)",
+      "Blend the four letters into at least two simple words (sat, mat)"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Say all four sounds together as a group: /s/, /m/, /a/, /t/.\n2. Play a quick game: show a letter and ask the child to name its sound from memory.\n3. Practice blending sat and mat together, slowly then faster.\n4. Move to the worksheet: trace all four letters once more, then practice blending both words.\n5. Praise effort and progress, not just correctness — four new sounds and real blending is real work for a Kindergartner.\n6. Close by previewing that next week continues with new letters.",
+    "differentiationTips": [
+      "Struggling: it's completely fine to spend extra review days on this same set of four letters before moving on",
+      "Ready for more: ask the child to think of a third word using these same letters, if one exists (e.g. 'tam')",
+      "For a child who wants a game, turn this into a simple matching or flashcard activity instead of straight tracing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall and blending activity — check which of the four letters the child recalled confidently vs. needed prompting for, and whether they successfully blended sat and mat.",
+    "standardsRationale": "A dedicated review day after introducing 4 new sounds and a first blending experience matches the platform's established pacing pattern (see the Punjabi K, Sikhi K, and Math K units' own Day 5 review lessons) — consolidation before adding more content is essential at this age."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-k-1-5",
+    "lessonId": "lesson-ela-k-1-5",
+    "title": "Review Day: S, M, A, T",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter and word one more time, saying the sounds out loud as you go.",
+      "rows": [
+        { "trace": "S", "label": "Say 'sss', like a snake" },
+        { "trace": "M", "label": "Say 'mmm'" },
+        { "trace": "A", "label": "Say 'aaa'" },
+        { "trace": "T", "label": "A quick tap sound" },
+        { "trace": "sat", "label": "Blend s-a-t" },
+        { "trace": "mat", "label": "Blend m-a-t" }
+      ]
+    }
+  }
+}

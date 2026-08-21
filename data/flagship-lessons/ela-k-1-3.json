@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-k-1",
+    "courseId": "course-ela-k",
+    "order": 1,
+    "title": "Letters and Their Sounds",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-k-1-3",
+    "unitId": "unit-ela-k-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Meeting the Letter A (Our First Vowel!)",
+    "gradeLevel": "K",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know two letter sounds now: S and M. Today is special — we're meeting our very first vowel, the letter A! Vowels are extra important because almost every word needs at least one."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The short A sound is like the 'a' in 'cat' or 'apple': aaa. Say 'aaa' together and notice how your mouth opens wide. Now try some words with that sound: apple, ant, cat, hat. Say each word slowly, listening for the 'aaa' sound in the middle or start: aaa-pple, aaa-nt, c-aaa-t, h-aaa-t."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just met your first vowel! Vowels are the glue that holds words together. Tomorrow we'll meet one more letter — and then we'll blend sounds into a real word."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-k-1-3",
+    "lessonId": "lesson-ela-k-1-3",
+    "objectives": [
+      "Identify the letter A and produce its short vowel sound (/a/ as in 'cat')",
+      "Recognize the /a/ sound in familiar words, whether at the start or in the middle"
+    ],
+    "materialsNeeded": ["Printed 'Meeting the Letter A' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Explain simply that A is a vowel, and vowels are extra important because almost every word has one.\n2. Model the short A sound: 'aaa', with your mouth open wide.\n3. Say a list of words slowly, listening for /a/: apple, ant, cat, hat. Ask the child to give a thumbs up when they hear it.\n4. Point out that in 'cat' and 'hat', the A sound is in the middle, not just the start — this is a bit trickier than S and M.\n5. Move to the worksheet: trace the letter A, then practice writing it once more.\n6. Close by brainstorming one more word with the /a/ sound.",
+    "differentiationTips": [
+      "Struggling: focus only on words where A starts the word (apple, ant) before tackling middle-of-word examples like cat and hat",
+      "Ready for more: introduce that this is called the 'short A' sound, and that A can make other sounds too, which they'll learn later",
+      "For a child who already writes letters confidently, have them write a full row of A's from memory before tracing"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and sound-recognition activity — there is no right/wrong answer beyond correct letter formation and hearing the /a/ sound.",
+    "standardsRationale": "Introducing the first vowel alongside two consonants (S, M) is a standard early-literacy sequencing choice — it sets up real word-blending (S + A + T = 'sat') by the end of this week."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-k-1-3",
+    "lessonId": "lesson-ela-k-1-3",
+    "title": "Meeting the Letter A",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its sound out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "A", "label": "Capital A — say 'aaa', like in 'apple'" },
+        { "trace": "a", "label": "Lowercase a — same sound, smaller letter" }
+      ]
+    }
+  }
+}

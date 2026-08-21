@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-k-1",
+    "courseId": "course-ela-k",
+    "order": 1,
+    "title": "Letters and Their Sounds",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-k-1-4",
+    "unitId": "unit-ela-k-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Meeting the Letter T — and Blending Our First Word!",
+    "gradeLevel": "K",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know S, M, and A. Today we meet one more letter, T — and then something exciting: we're going to blend sounds together into a real word for the first time!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The letter T makes a quick, tapping sound: t. Say it together, like a tiny tap of your tongue. Now for the exciting part: say the sounds /s/, /a/, /t/ one at a time, then say them faster and faster until they blend into a word: sss...aaa...t... sat! That's blending — putting individual sounds together to read a whole word."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just read your very first word by blending sounds: sat! This is exactly how reading works — sound by sound, then blended together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-k-1-4",
+    "lessonId": "lesson-ela-k-1-4",
+    "objectives": [
+      "Identify the letter T and produce its most common sound (/t/)",
+      "Blend three individual sounds (/s/, /a/, /t/) into the word 'sat', a foundational decoding skill"
+    ],
+    "materialsNeeded": ["Printed 'Meeting the Letter T' worksheet", "Pencil or crayon", "Optional: letter cards or tiles for S, A, T if available"],
+    "facilitationScript": "1. Introduce T and its sound: a quick tap, 't'.\n2. Say a few T words together (top, tap, ten), listening for the sound at the start.\n3. Review all four letters learned this week: S, M, A, T — say each sound in a row.\n4. Model blending: say /s/, /a/, /t/ slowly, then faster, until it becomes 'sat'. Do this together several times.\n5. If you have letter cards, physically slide S, A, T together while blending, to make the connection visual.\n6. Move to the worksheet: trace the letter T, then practice blending 'sat' again.\n7. Close by celebrating — the child just read their first word!",
+    "differentiationTips": [
+      "Struggling: it's completely fine if blending doesn't click immediately — keep practicing /s/-/a/-/t/ slowly without rushing to the blended word",
+      "Ready for more: try blending a second word if the letters allow it (e.g. 'mat' using M, A, T)",
+      "For a child who enjoys hands-on learning, physically moving letter cards together while blending makes the abstract process concrete"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a tracing and blending-practice activity — there is no right/wrong answer beyond correct letter formation and successfully blending 'sat'.",
+    "standardsRationale": "Blending individual letter sounds into a whole word is the pivotal Kindergarten decoding skill that everything in phonics builds toward — this lesson is the payoff for the whole week's letter-sound work."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-k-1-4",
+    "lessonId": "lesson-ela-k-1-4",
+    "title": "Meeting the Letter T",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its sound out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "T", "label": "Capital T — a quick tapping sound" },
+        { "trace": "sat", "label": "Blend the sounds s-a-t together to read this word" }
+      ]
+    }
+  }
+}

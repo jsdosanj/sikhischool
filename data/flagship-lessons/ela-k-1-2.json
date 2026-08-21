@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-k-1",
+    "courseId": "course-ela-k",
+    "order": 1,
+    "title": "Letters and Their Sounds",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-k-1-2",
+    "unitId": "unit-ela-k-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Meeting the Letter M",
+    "gradeLevel": "K",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you met the letter S and its hissing sound. Today we're meeting a new letter: M. The letter M makes a humming sound, like when you taste something delicious: mmm."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Say 'mmm' together and notice how your lips press together. Now try some words that start with that sound: mom, moon, milk, mat. Say each word slowly and stretch out the very first sound: mmm-om, mmm-oon, mmm-ilk, mmm-at. Can you think of one more word that starts with the M sound?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great listening! Now you know two letter sounds: S and M. Tomorrow we'll meet our very first vowel."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-k-1-2",
+    "lessonId": "lesson-ela-k-1-2",
+    "objectives": [
+      "Identify the letter M and produce its most common sound (/m/)",
+      "Recognize the /m/ sound at the beginning of familiar words"
+    ],
+    "materialsNeeded": ["Printed 'Meeting the Letter M' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Show the letter M and model its sound: 'mmm', like humming happily over a tasty meal.\n2. Say the sound together five times.\n3. Say a list of words slowly, stretching the first sound: mom, moon, milk, mat. Ask the child to give a thumbs up when they hear the /m/ sound at the start.\n4. Compare M to yesterday's S — how are the sounds different?\n5. Move to the worksheet: trace the letter M, then practice writing it once more.\n6. Close by brainstorming one more M word together.",
+    "differentiationTips": [
+      "Struggling: focus only on hearing the sound (no writing yet) — clapping or tapping the table each time they hear /m/ at the start of a word",
+      "Ready for more: ask the child to sort a small pile of picture cards or objects into 'starts with S' and 'starts with M' piles",
+      "For a child who already writes letters confidently, have them write a full row of M's from memory before tracing"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and sound-recognition activity — there is no right/wrong answer beyond correct letter formation and hearing the /m/ sound.",
+    "standardsRationale": "Building a small set of letter-sound correspondences (S, then M) is the foundational Kindergarten phonemic-awareness sequence that leads toward blending sounds into words later this week."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-k-1-2",
+    "lessonId": "lesson-ela-k-1-2",
+    "title": "Meeting the Letter M",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its sound out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "M", "label": "Capital M — say 'mmm', like a happy hum" },
+        { "trace": "m", "label": "Lowercase m — same sound, smaller letter" }
+      ]
+    }
+  }
+}

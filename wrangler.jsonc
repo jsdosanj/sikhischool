@@ -5,6 +5,9 @@
   "compatibility_flags": ["nodejs_compat"],
   "account_id": "0d4412e40181808b16cce0225ddb5152",
   "main": ".open-next/worker.js",
+  "vars": {
+    "NEXTAUTH_URL": "https://sikhischool.jasvant-dosanjh.workers.dev"
+  },
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"

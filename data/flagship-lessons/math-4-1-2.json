@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-4-1",
+    "courseId": "course-math-4",
+    "order": 1,
+    "title": "Multi-Digit Multiplication",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-4-1-2",
+    "unitId": "unit-math-4-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Multiplying a 3-Digit Number by a 1-Digit Number",
+    "gradeLevel": "4",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you multiplied 2-digit numbers using the area model. Today, the exact same method works on a 3-digit number — you just break it into one more piece."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's multiply 234 x 5. Break 234 into 200 + 30 + 4. Multiply each part by 5 separately: 200 x 5 = 1,000, 30 x 5 = 150, and 4 x 5 = 20. Add all three results together: 1,000 + 150 + 20 = 1,170. Same idea as yesterday — just one more piece to add."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Try it yourself with 316 x 4: break 316 into 300 + 10 + 6, multiply each part by 4, then add the three results. This same technique will keep working no matter how many digits a number has."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-4-1-2",
+    "lessonId": "lesson-math-4-1-2",
+    "objectives": [
+      "Multiply a 3-digit number by a 1-digit number using the area model/distributive property",
+      "Recognize that the same technique from 2-digit multiplication extends directly to 3-digit numbers"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's 2-digit x 1-digit area-model technique.\n2. Work through 234 x 5 together, breaking it into 200+30+4.\n3. Have the child try 316 x 4 independently, checking each partial product before summing.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: 2-digit x 2-digit multiplication.",
+    "differentiationTips": [
+      "Struggling: write out the place-value breakdown (200+30+4) for them before asking them to multiply each part",
+      "Ready for more: try a 4-digit x 1-digit problem to confirm the pattern keeps extending",
+      "Encourage estimating first (234 is close to 200, so the answer should be a bit more than 200x5=1,000) as a reasonableness check"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 234 x 5 = 1,170 (1,000 + 150 + 20). 2. 316 x 4 = 1,264 (1,200 + 40 + 24). 3. 412 x 3 = 1,236 (1,200 + 30 + 6). 4. 523 x 2 = 1,046 (1,000 + 40 + 6).",
+    "standardsRationale": "Directly extends Common Core Grade 4 Number & Operations in Base Ten (4.NBT.5, multiplying a multi-digit number by a one-digit number) from 2 digits to 3 digits, matching the unit's own area-model approach."
+  },
+  "worksheet": {
+    "id": "worksheet-math-4-1-2",
+    "lessonId": "lesson-math-4-1-2",
+    "title": "3-Digit by 1-Digit Multiplication",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use the area model (break the 3-digit number into hundreds, tens, and ones) to solve each problem.",
+      "rows": [
+        { "problem": "234 x 5 = ?" },
+        { "problem": "316 x 4 = ?" },
+        { "problem": "412 x 3 = ?" },
+        { "problem": "523 x 2 = ?" }
+      ]
+    }
+  }
+}

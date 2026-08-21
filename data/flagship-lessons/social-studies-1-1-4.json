@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-1-1",
+    "courseId": "course-social-studies-1",
+    "order": 1,
+    "title": "Families, Traditions, and Maps",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-1-1-4",
+    "unitId": "unit-social-studies-1-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Finding My Way: Directions on a Map",
+    "gradeLevel": "1",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what a map is. Today let's practice something maps help with: finding your way using directions."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The simplest directions are up, down, left, and right. On a map, 'up' usually points toward the top of the page, and that's often called North. Try this: on a simple map, find one landmark (like a house symbol). Now practice giving directions to get from one landmark to another, using up, down, left, and right. Can you guide your grown-up from the house to the park using only directions?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used real map-reading skills to give directions! Tomorrow is review day — we'll bring together everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-1-1-4",
+    "lessonId": "lesson-social-studies-1-1-4",
+    "objectives": [
+      "Use up/down/left/right to describe a path between two points on a simple map",
+      "Recognize that 'up' on a map often corresponds to North"
+    ],
+    "materialsNeeded": ["Printed 'Finding My Way' worksheet", "Pencil or crayon", "A simple map with 2-3 landmarks for a hands-on direction-giving activity"],
+    "facilitationScript": "1. Review up/down/left/right as basic directions, practicing physically in the room first.\n2. Introduce that 'up' on most maps is called North.\n3. Using a simple map, find two landmarks and practice giving step-by-step directions between them.\n4. Switch roles: have the child follow directions you give, then give their own directions to you.\n5. Move to the worksheet: follow simple directions on the map.\n6. Close by giving directions from their bedroom to another room in the house, out loud.",
+    "differentiationTips": [
+      "Struggling: focus on just one pair of directions (up/down OR left/right) before combining all four",
+      "Ready for more: introduce all four cardinal directions (North, South, East, West) if the child is ready",
+      "For a kinesthetic learner, tape a simple map on the floor and have them physically walk the directions"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a direction-following activity — check against the specific map used, confirming the child correctly followed each up/down/left/right instruction.",
+    "standardsRationale": "Using basic directions to navigate a map is the core Grade 1 map-reading application skill, building directly on yesterday's introduction to what a map is and how symbols/keys work."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-1-1-4",
+    "lessonId": "lesson-social-studies-1-1-4",
+    "title": "Finding My Way",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Practice giving directions using up, down, left, and right.",
+      "prompts": [
+        { "prompt": "Give directions from your bedroom to the kitchen, using up/down/left/right words.", "lines": 3 },
+        { "prompt": "What direction does 'up' usually point to on a map?", "lines": 1 }
+      ]
+    }
+  }
+}

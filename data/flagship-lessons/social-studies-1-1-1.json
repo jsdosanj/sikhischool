@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-1-1",
+    "courseId": "course-social-studies-1",
+    "order": 1,
+    "title": "Families, Traditions, and Maps",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-1-1-1",
+    "unitId": "unit-social-studies-1-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Makes a Family?",
+    "gradeLevel": "1",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every person belongs to a family — but families come in all kinds of shapes and sizes! Today we'll think about what makes a family, and celebrate that families look different for everyone."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A family is the people who love and take care of each other. Some families are big with lots of people, some are small. Some children live with two parents, some with one, some with grandparents, and some with other family members — all of these are real families. Draw or describe the people in your own family, and talk about one way your family takes care of each other."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "There's no single 'right' way for a family to look — what matters is that a family loves and takes care of each other. Tomorrow we'll talk about family traditions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-1-1-1",
+    "lessonId": "lesson-social-studies-1-1-1",
+    "objectives": [
+      "Describe a family as people who love and take care of each other, recognizing that family structures vary widely",
+      "Describe one way their own family takes care of each other"
+    ],
+    "materialsNeeded": ["Printed 'What Makes a Family?' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Ask the child to name the people in their own family.\n2. Introduce that families come in many different shapes and sizes, and all of them are real families.\n3. Discuss one way the child's family takes care of each other.\n4. Move to the worksheet: draw or describe their family.\n5. Close by affirming that every kind of family is valuable and worth celebrating.",
+    "differentiationTips": [
+      "Struggling: focus on just one caring relationship (e.g. 'who tucks you in at night?') rather than a full family description",
+      "Ready for more: discuss how families can also include people who aren't related by blood, like close family friends",
+      "Be mindful and inclusive of the child's actual family structure — let their own description lead, rather than assuming a specific structure"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended, personal reflection activity — there is no single right/wrong answer.",
+    "standardsRationale": "Recognizing and respecting diverse family structures is a core Grade 1 social studies concept — a respectful, inclusive foundation for this week's broader look at families and traditions."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-1-1-1",
+    "lessonId": "lesson-social-studies-1-1-1",
+    "title": "What Makes a Family?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write or draw about your family below.",
+      "prompts": [
+        { "prompt": "Who is in your family?", "lines": 3 },
+        { "prompt": "Name one way your family takes care of each other.", "lines": 2 }
+      ]
+    }
+  }
+}

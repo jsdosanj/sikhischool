@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-2-1",
+    "courseId": "course-social-studies-2",
+    "order": 1,
+    "title": "Needs, Goods, Services, and Trade",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-2-1-5",
+    "unitId": "unit-social-studies-2-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Needs, Goods, Services, and Trade",
+    "gradeLevel": "2",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about needs and wants, goods and services, how communities work together, and trade. Today is review day — let's bring it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's review: what's the difference between a need and a want? Between a good and a service? How does a community meet everyone's needs? What is trade? Try answering each question from memory first, then check together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you learned real economics ideas that explain how communities actually work! Next week, we'll keep exploring more about our world."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-2-1-5",
+    "lessonId": "lesson-social-studies-2-1-5",
+    "objectives": [
+      "Recall and explain all four concepts from this week (needs/wants, goods/services, community interdependence, trade)",
+      "Self-identify which concept feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Ask the four big review questions one at a time, letting the child answer from memory first.\n2. Check answers together against what was learned this week.\n3. Move to the worksheet: complete the mixed review questions covering all four days.\n4. Praise effort and progress across the whole week, not just today's recall.\n5. Close by previewing that next week continues exploring community and geography together.",
+    "differentiationTips": [
+      "Struggling: focus review time on whichever single concept felt hardest, rather than requiring equal recall of all four",
+      "Ready for more: have the child trace one good (like bread) from the person who makes it to their own table, naming each step",
+      "For a child who enjoys role play, act out a simple trade scenario using play money or real small items"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which of the four concepts the child recalled confidently vs. needed prompting for, to guide next week's pacing.",
+    "standardsRationale": "A dedicated review day after a full week of related economics concepts matches the platform's established pacing pattern — consolidation before adding more content is essential at this age."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-2-1-5",
+    "lessonId": "lesson-social-studies-2-1-5",
+    "title": "Review Day: Needs, Goods, Services, and Trade",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each review question in your own words.",
+      "rows": [
+        { "problem": "What is the difference between a need and a want?" },
+        { "problem": "What is the difference between a good and a service?" },
+        { "problem": "How does a community meet everyone's needs?" },
+        { "problem": "What is trade?" }
+      ]
+    }
+  }
+}

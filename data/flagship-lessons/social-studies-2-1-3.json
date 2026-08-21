@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-2-1",
+    "courseId": "course-social-studies-2",
+    "order": 1,
+    "title": "Needs, Goods, Services, and Trade",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-2-1-3",
+    "unitId": "unit-social-studies-2-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "How Communities Meet Everyone's Needs",
+    "gradeLevel": "2",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "No single person can grow all their own food, build their own house, AND take care of themselves when sick, all alone. Today we'll explore how a whole community works together to meet everyone's needs."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A community works because people specialize — each person or business focuses on providing certain goods or services, and everyone shares with each other. A farmer grows food (a good). A doctor provides checkups (a service). A grocery store gathers goods from many farmers so everyone can access them in one place. Think about your own community: what businesses or people provide the food, healthcare, and other needs where you live?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Communities meet needs by people working together, each contributing something different. Tomorrow we'll learn about trade — how people exchange goods and services with each other."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-2-1-3",
+    "lessonId": "lesson-social-studies-2-1-3",
+    "objectives": [
+      "Explain that a community meets everyone's needs through people/businesses specializing in different goods and services",
+      "Identify at least two real businesses or people in their own community and what need they help meet"
+    ],
+    "materialsNeeded": ["Printed 'How Communities Meet Needs' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Ask the child: could one single person grow their own food, build their own house, and treat their own illnesses, all alone?\n2. Introduce the idea of specialization — everyone contributes something different.\n3. Walk through the farmer -> grocery store -> family example together.\n4. Brainstorm real businesses/people in the child's own community and what need each meets.\n5. Move to the worksheet: match each need to a real community role that helps meet it.\n6. Close by picking one community role the child would like to learn more about.",
+    "differentiationTips": [
+      "Struggling: focus on just food (farmer to grocery store) as the one clear example, rather than covering many needs at once",
+      "Ready for more: discuss what might happen if one type of community role (like farmers) disappeared entirely",
+      "For a child who enjoys local trips, connect this lesson to an actual recent visit to a store, clinic, or other community business"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Open-ended — check that the child correctly matches at least two needs (food, healthcare) to a real community role that helps meet them.",
+    "standardsRationale": "Understanding how communities meet needs through specialization and interdependence is a core Grade 2 economics/civics concept (the course's stated focus), synthesizing this week's needs/wants and goods/services vocabulary."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-2-1-3",
+    "lessonId": "lesson-social-studies-2-1-3",
+    "title": "How Communities Meet Needs",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your answers below.",
+      "prompts": [
+        { "prompt": "Name one business or person in your community that helps meet the need for food.", "lines": 2 },
+        { "prompt": "Name one business or person in your community that helps meet the need for healthcare.", "lines": 2 }
+      ]
+    }
+  }
+}

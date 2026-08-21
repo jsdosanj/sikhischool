@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-2-1",
+    "courseId": "course-social-studies-2",
+    "order": 1,
+    "title": "Needs, Goods, Services, and Trade",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-2-1-4",
+    "unitId": "unit-social-studies-2-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "What Is Trade?",
+    "gradeLevel": "2",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about needs, goods, and services. Today let's learn how people actually exchange them with each other: trade."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Trade means exchanging one thing for another. The simplest kind is called bartering — trading a good or service directly for another good or service, without using money. Imagine you have an apple but want a sandwich, and your friend has a sandwich but wants an apple — you could trade directly! Most trade today uses money instead: you trade money for a good or service, and the seller can then use that money to get what they need. Can you think of a trade you made recently, using either money or a direct swap?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Trade is how goods and services move from the people who make them to the people who need them. Tomorrow is review day — we'll bring together everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-2-1-4",
+    "lessonId": "lesson-social-studies-2-1-4",
+    "objectives": [
+      "Define trade as exchanging one good or service for another",
+      "Distinguish bartering (direct exchange) from money-based trade"
+    ],
+    "materialsNeeded": ["Printed 'What Is Trade?' worksheet", "Pencil or crayon", "Optional: two small items for a real, simple bartering demonstration"],
+    "facilitationScript": "1. Introduce trade as exchanging one thing for another.\n2. Use the apple-for-sandwich example to introduce bartering.\n3. Discuss how most trade today uses money as a middle step instead of direct swapping.\n4. If possible, do a real, simple bartering trade with two small items together.\n5. Move to the worksheet: identify each example as bartering or money-based trade.\n6. Close by asking the child to describe a recent trade they made, using either method.",
+    "differentiationTips": [
+      "Struggling: focus only on the concrete bartering example (trading one snack for another) before introducing money-based trade",
+      "Ready for more: discuss why money-based trade might be more convenient than bartering for buying many different things",
+      "For a hands-on learner, do a real trade of small toys or snacks together as a memorable, concrete example"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Trading a toy for a friend's toy = bartering. 2. Buying an apple with a dollar = money-based trade. 3. Swapping lunch items = bartering. 4. Paying for a haircut = money-based trade.",
+    "standardsRationale": "Understanding trade as exchange, including the distinction between bartering and money-based trade, is a core Grade 2 economics concept (the course's stated focus) that completes this week's needs/goods/services/trade sequence."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-2-1-4",
+    "lessonId": "lesson-social-studies-2-1-4",
+    "title": "What Is Trade?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each example, write whether it is BARTERING (direct exchange) or MONEY-BASED TRADE.",
+      "rows": [
+        { "problem": "Trading a toy for a friend's toy" },
+        { "problem": "Buying an apple with a dollar" },
+        { "problem": "Swapping lunch items with a classmate" },
+        { "problem": "Paying for a haircut" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-2-1",
+    "courseId": "course-ela-2",
+    "order": 1,
+    "title": "Reading Comprehension Strategies",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-2-1-4",
+    "unitId": "unit-ela-2-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Asking Questions While You Read",
+    "gradeLevel": "2",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've found main ideas, retold stories in order, and made predictions. Today's strategy: good readers ask questions while they read, not just after."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read this passage: 'The old lighthouse had been dark for fifty years. One stormy night, Mira noticed a strange light flickering at the very top.' What questions pop into your mind? Maybe: Why was the lighthouse dark? Who is Mira? What's making the light flicker? Asking questions like these keeps your mind actively engaged, and often the answers show up later in the story."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Asking questions is something strong readers do automatically — it keeps you curious and engaged. Tomorrow is review day, where we'll bring together all four comprehension strategies from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-2-1-4",
+    "lessonId": "lesson-ela-2-1-4",
+    "objectives": [
+      "Generate genuine questions while reading a passage, based on curiosity or confusion",
+      "Recognize that asking questions is an active reading strategy, not a sign of not understanding"
+    ],
+    "materialsNeeded": ["Printed 'Asking Questions' worksheet", "Pencil"],
+    "facilitationScript": "1. Read the lighthouse passage together and model asking a question out loud yourself first.\n2. Ask the child what questions come to their own mind.\n3. Discuss that questions can be about characters, events, or things that don't make sense yet.\n4. Move to the worksheet: read a passage and write down two real questions it makes them wonder about.\n5. Close by trying this strategy during regular reading time with a book of their choice.",
+    "differentiationTips": [
+      "Struggling: model 2-3 example questions first, then ask the child to add just one of their own",
+      "Ready for more: sort their questions into 'answered later in the text' vs. 'still a mystery' categories",
+      "For a child who enjoys mysteries, frame this as being a reading detective, gathering clues and asking smart questions"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Open-ended question-generation activity — check that each question is genuinely related to the passage, not a generic or unrelated question.",
+    "standardsRationale": "Asking questions while reading is a foundational Grade 2 reading-comprehension strategy that promotes active engagement, completing this week's four-strategy toolkit (main idea, retelling, predicting, questioning)."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-2-1-4",
+    "lessonId": "lesson-ela-2-1-4",
+    "title": "Asking Questions",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Read the passage below, then write two real questions it makes you wonder about.",
+      "prompts": [
+        { "prompt": "Passage: Every morning, an old man left a bowl of food by the back door. No one ever saw who — or what — came to eat it. Write your first question:", "lines": 1 },
+        { "prompt": "Write your second question:", "lines": 1 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-2-1",
+    "courseId": "course-ela-2",
+    "order": 1,
+    "title": "Reading Comprehension Strategies",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-2-1-2",
+    "unitId": "unit-ela-2-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Retelling in Order: Beginning, Middle, End",
+    "gradeLevel": "2",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you found the main idea. Today let's practice another comprehension strategy: retelling a story in the right order, from beginning to middle to end."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read this story: 'Leo wanted to bake cookies for his grandmother. First, he gathered flour, sugar, and butter. Next, he mixed everything together and shaped the dough into little balls. Finally, he baked them in the oven until they turned golden brown, and brought a plate to his grandmother's house.' Now retell it in order: what happened at the BEGINNING? What happened in the MIDDLE? What happened at the END?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Retelling in order helps you understand and remember what you read. Tomorrow we'll practice a strategy good readers use even before they finish a story: making predictions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-2-1-2",
+    "lessonId": "lesson-ela-2-1-2",
+    "objectives": [
+      "Retell a short story's events in correct sequence: beginning, middle, end",
+      "Identify signal words (first, next, finally) that help mark sequence in a story"
+    ],
+    "materialsNeeded": ["Printed 'Retelling in Order' worksheet", "Pencil"],
+    "facilitationScript": "1. Read the Leo cookie story together.\n2. Ask the child to identify the beginning, middle, and end separately.\n3. Point out signal words (first, next, finally) that help mark the sequence.\n4. Practice retelling the whole story in order, in the child's own words.\n5. Move to the worksheet: read a new short passage and write the beginning/middle/end.\n6. Close by asking the child to retell their own day in beginning/middle/end order.",
+    "differentiationTips": [
+      "Struggling: use physical picture cards or drawings representing each part of the story, and have the child physically order them",
+      "Ready for more: ask what might have happened if the order were different — would the story still make sense?",
+      "For a child who enjoys drawing, have them illustrate the beginning, middle, and end as three separate pictures"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Leo story: Beginning = gathered ingredients. Middle = mixed and shaped dough. End = baked cookies and brought them to grandmother. Check the worksheet passage similarly.",
+    "standardsRationale": "Retelling events in sequence is a foundational Grade 2 reading-comprehension strategy, building narrative-structure awareness that supports both reading comprehension and the course's paragraph-writing strand."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-2-1-2",
+    "lessonId": "lesson-ela-2-1-2",
+    "title": "Retelling in Order",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Read the passage, then write what happened at the beginning, middle, and end.",
+      "prompts": [
+        { "prompt": "Passage: Ravi planted a seed in a small pot. Every day, he watered it and gave it sunlight. After two weeks, a tiny green sprout appeared. What happened at the BEGINNING?", "lines": 1 },
+        { "prompt": "What happened in the MIDDLE?", "lines": 1 },
+        { "prompt": "What happened at the END?", "lines": 1 }
+      ]
+    }
+  }
+}

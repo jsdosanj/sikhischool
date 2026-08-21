@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-2-1",
+    "courseId": "course-ela-2",
+    "order": 1,
+    "title": "Reading Comprehension Strategies",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-2-1-3",
+    "unitId": "unit-ela-2-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Making Predictions While Reading",
+    "gradeLevel": "2",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Good readers don't just read passively — they think ahead! Today we'll practice making predictions: smart guesses about what might happen next."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read the beginning of this story, then stop: 'Priya packed her umbrella, boots, and raincoat before leaving the house. The sky outside was full of dark gray clouds.' Before reading further, make a prediction: what do you think will happen next? A good prediction uses clues from the text — the clouds and Priya's rain gear are big hints! Now imagine the story continues: 'Sure enough, by the time Priya reached school, it was pouring rain.' Was your prediction close?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Predictions use clues in the text to make smart guesses — and it's completely fine if a prediction turns out wrong, as long as it's based on real evidence. Tomorrow we'll learn one more comprehension strategy: asking questions while you read."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-2-1-3",
+    "lessonId": "lesson-ela-2-1-3",
+    "objectives": [
+      "Make a text-based prediction about what will happen next in a story, using clues from what's already been read",
+      "Check a prediction against what actually happens, without treating an incorrect guess as a failure"
+    ],
+    "materialsNeeded": ["Printed 'Making Predictions' worksheet", "Pencil"],
+    "facilitationScript": "1. Read the Priya passage together, stopping before the rain reveal.\n2. Ask the child to predict what happens next, and to name the specific clues that led to their guess.\n3. Read the continuation and compare it to the prediction.\n4. Emphasize that a 'wrong' prediction based on real clues is still good reading thinking.\n5. Move to the worksheet: read a passage, stop partway, and write a prediction with supporting clues.\n6. Close by trying this strategy with a book the child is currently reading.",
+    "differentiationTips": [
+      "Struggling: point directly to one or two clue words/phrases rather than asking the child to find clues independently",
+      "Ready for more: ask for two different possible predictions, based on different clues, before revealing what actually happens",
+      "For a child who enjoys stories, pause mid-story during regular reading time and practice this strategy naturally"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Open-ended prediction activity — check that the prediction is reasonable given the clues provided, and that the child can name at least one specific clue that led to their guess.",
+    "standardsRationale": "Making text-based predictions is a foundational Grade 2 reading-comprehension strategy that builds active, engaged reading — a key skill this course's comprehension-strategies strand is built around."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-2-1-3",
+    "lessonId": "lesson-ela-2-1-3",
+    "title": "Making Predictions",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Read the passage below, then make a prediction using real clues from the text.",
+      "prompts": [
+        { "prompt": "Passage: Diya spent all afternoon studying her spelling words. That night, she laid out her favorite pencil and packed her backpack early. What do you predict will happen tomorrow?", "lines": 2 },
+        { "prompt": "What clues from the passage helped you make that prediction?", "lines": 2 }
+      ]
+    }
+  }
+}

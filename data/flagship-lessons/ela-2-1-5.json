@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-2-1",
+    "courseId": "course-ela-2",
+    "order": 1,
+    "title": "Reading Comprehension Strategies",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-2-1-5",
+    "unitId": "unit-ela-2-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Our Reading Comprehension Toolkit",
+    "gradeLevel": "2",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a whole toolkit of reading comprehension strategies: finding the main idea, retelling in order, making predictions, and asking questions. Today is review day."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read one more short passage, and use ALL FOUR strategies together: find the main idea, notice the beginning/middle/end, make a prediction about what could happen next, and ask one real question. Which strategy felt easiest this week? Which would you like more practice with?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have four real strategies strong readers use every time they read. Next week, we'll keep building your reading and writing skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-2-1-5",
+    "lessonId": "lesson-ela-2-1-5",
+    "objectives": [
+      "Apply all four comprehension strategies practiced this week (main idea, retelling, predicting, questioning) to one new passage",
+      "Self-identify which strategy feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Read a new short passage together.\n2. Walk through all four strategies in sequence: main idea, beginning/middle/end, a prediction, a question.\n3. Ask which strategy felt easiest and which felt hardest — this guides next week's pacing.\n4. Move to the worksheet: complete the mixed review using the same passage.\n5. Praise effort and progress across the whole week, not just today's performance.\n6. Close by encouraging the child to try these strategies during independent reading time.",
+    "differentiationTips": [
+      "Struggling: focus on just two of the four strategies (whichever felt strongest this week) rather than requiring all four",
+      "Ready for more: apply this same four-strategy toolkit to a full page of a book they're currently reading",
+      "For a child who enjoys teaching, have them explain each strategy to a stuffed animal or family member"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "This is an application/review activity — check that the child correctly applies all four strategies to the shared passage, not that any single 'correct' answer exists.",
+    "standardsRationale": "A dedicated review day after a full week of related comprehension strategies matches the platform's established pacing pattern — consolidation before adding more content is essential."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-2-1-5",
+    "lessonId": "lesson-ela-2-1-5",
+    "title": "Review Day: Our Reading Comprehension Toolkit",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Read the passage, then use all four strategies from this week.",
+      "prompts": [
+        { "prompt": "Passage: Ben found an old key in his backyard. It didn't match any lock in his house. He decided to ask his neighbors if it belonged to them. What is the MAIN IDEA?", "lines": 1 },
+        { "prompt": "What happens at the BEGINNING, MIDDLE, and END?", "lines": 2 },
+        { "prompt": "Make a PREDICTION: what might happen next?", "lines": 1 },
+        { "prompt": "Write one QUESTION this passage makes you wonder about.", "lines": 1 }
+      ]
+    }
+  }
+}

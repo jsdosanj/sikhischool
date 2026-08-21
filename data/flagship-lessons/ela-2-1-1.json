@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-2-1",
+    "courseId": "course-ela-2",
+    "order": 1,
+    "title": "Reading Comprehension Strategies",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-2-1-1",
+    "unitId": "unit-ela-2-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Finding the Main Idea",
+    "gradeLevel": "2",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You're already a strong reader who can sound out words. This year, we'll focus on something even more important: understanding what you read. Let's start with finding the main idea."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read this short passage: 'Maya loves animals. She has a pet rabbit named Clover. Every day, she feeds Clover fresh vegetables and brushes his fur. On weekends, Maya visits the animal shelter to help take care of cats and dogs too.' What is this passage MOSTLY about? Not just one detail — the big idea that ties everything together. The main idea here is that Maya loves and cares for animals. Every sentence supports that one big idea."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Finding the main idea means asking: what is this whole passage really about? Tomorrow we'll practice another comprehension strategy: retelling a story in order."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-2-1-1",
+    "lessonId": "lesson-ela-2-1-1",
+    "objectives": [
+      "Identify the main idea of a short passage (what the passage is mostly about)",
+      "Distinguish the main idea from a single supporting detail"
+    ],
+    "materialsNeeded": ["Printed 'Finding the Main Idea' worksheet", "Pencil"],
+    "facilitationScript": "1. Read the Maya passage together, then ask what it's about.\n2. If the child names a detail (like 'a rabbit named Clover'), gently guide toward the bigger idea (Maya loves and cares for animals).\n3. Practice with one more short passage together, identifying the main idea vs. supporting details.\n4. Move to the worksheet: read each short passage and write its main idea.\n5. Close by asking the child to summarize today's whole lesson in one main-idea sentence.",
+    "differentiationTips": [
+      "Struggling: ask 'what is this passage mostly about?' as a direct, repeated question rather than a more abstract prompt",
+      "Ready for more: ask the child to write one supporting detail for each main idea they identify",
+      "For a child who enjoys writing, have them write their own 3-sentence passage with a clear main idea for someone else to identify"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Passage 1 (Maya): Main idea is that Maya loves and cares for animals. Passage 2 and 3: check that the identified main idea covers the whole passage, not just one detail.",
+    "standardsRationale": "Identifying the main idea is a foundational Grade 2 reading-comprehension strategy (the course's stated focus), building the close-reading habits that retelling, predicting, and questioning this week all extend."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-2-1-1",
+    "lessonId": "lesson-ela-2-1-1",
+    "title": "Finding the Main Idea",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Read each short passage, then write its main idea (what it's MOSTLY about).",
+      "prompts": [
+        { "prompt": "Sam plays soccer every Saturday. He practices kicking and running during the week. His team won three games this season. Main idea:", "lines": 2 },
+        { "prompt": "The garden had bright red tomatoes, tall green beans, and orange pumpkins. Every plant needed water and sunlight to grow. Main idea:", "lines": 2 }
+      ]
+    }
+  }
+}

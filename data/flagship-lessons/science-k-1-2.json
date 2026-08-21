@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-k-1",
+    "courseId": "course-science-k",
+    "order": 1,
+    "title": "Living Things and Their Needs",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-k-1-2",
+    "unitId": "unit-science-k-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "What Do Animals Need to Survive?",
+    "gradeLevel": "K",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday we learned what plants need to grow. Today let's investigate: what do animals need to survive — and how is it similar to or different from what plants need?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Animals need four main things: food, water, air, and shelter (a safe place to live). Unlike plants, animals can't make their own food from sunlight — they have to find or eat it. Think about a pet or an animal you know well. Where does it get food and water? Where does it shelter when it's cold, hot, or scared? Talk with your grown-up about what that animal needs to survive."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You're building real scientific knowledge about living things! Tomorrow we'll investigate a bigger question: how can you tell if something is alive at all?"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-k-1-2",
+    "lessonId": "lesson-science-k-1-2",
+    "objectives": [
+      "Name the four basic things animals need to survive: food, water, air, and shelter",
+      "Compare an animal's needs to a plant's needs (from the previous lesson), noting one key difference (animals must find/eat food; plants make their own)"
+    ],
+    "materialsNeeded": ["Printed 'What Do Animals Need to Survive?' worksheet", "Pencil or crayon", "A pet or a picture/video of a familiar animal to discuss"],
+    "facilitationScript": "1. Review yesterday's plant needs (sunlight, water, soil) briefly.\n2. Introduce animal needs: food, water, air, shelter.\n3. Discuss a specific animal (a family pet, or a picture of one) — where does it get each of these four things?\n4. Compare: how are plant needs and animal needs alike (both need water)? How are they different (animals must find food; plants make their own using sunlight)?\n5. Move to the worksheet: trace each vocabulary word and talk through what it means for an animal.\n6. Close by picking one more animal to think about together.",
+    "differentiationTips": [
+      "Struggling: focus on just food and water, the two most concrete needs, before adding air and shelter",
+      "Ready for more: introduce that different animals meet their needs in different ways (a fish breathes underwater, a bird builds a nest for shelter)",
+      "For a child with a pet at home, make this lesson hands-on by observing and caring for the pet's needs together"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can name all four animal needs by the end.",
+    "standardsRationale": "Understanding what animals need to survive, and comparing it to plant needs, is a core Kindergarten life-science idea (matching the NGSS K-LS1-1 standard on patterns of what living things need to survive)."
+  },
+  "worksheet": {
+    "id": "worksheet-science-k-1-2",
+    "lessonId": "lesson-science-k-1-2",
+    "title": "What Do Animals Need to Survive?",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Food", "label": "Animals must find or eat their food" },
+        { "trace": "Water", "label": "Every animal needs water to survive" },
+        { "trace": "Shelter", "label": "A safe place to live and rest" }
+      ]
+    }
+  }
+}

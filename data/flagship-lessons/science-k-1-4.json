@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-science-k-1",
+    "courseId": "course-science-k",
+    "order": 1,
+    "title": "Living Things and Their Needs",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-k-1-4",
+    "unitId": "unit-science-k-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Plants and Animals: Alike and Different",
+    "gradeLevel": "K",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about plants and animals separately this week. Today let's put that knowledge together: how are plants and animals alike, and how are they different?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Both plants and animals are living things — they both grow, change, and need water. But there are real differences too: plants make their own food using sunlight, while animals must find or eat their food. Most animals can move around on their own, while most plants stay rooted in one place. Think of one plant and one animal you know well, and compare them: what's alike, and what's different?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Comparing and contrasting is a real scientific skill you'll use again and again. Tomorrow is review day — we'll bring together everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-k-1-4",
+    "lessonId": "lesson-science-k-1-4",
+    "objectives": [
+      "Identify at least one similarity between plants and animals (both are living, both need water, both grow)",
+      "Identify at least one difference between plants and animals (how they get food; whether they can move)"
+    ],
+    "materialsNeeded": ["Printed 'Plants and Animals: Alike and Different' worksheet", "Pencil or crayon", "A real plant and picture of an animal for side-by-side comparison"],
+    "facilitationScript": "1. Review what was learned about plants (Day 1) and animals (Day 2) this week.\n2. Ask the child to name one way plants and animals are alike, then one way they're different.\n3. Introduce the two key differences if not already mentioned: how they get food, and whether they can move.\n4. Use a real plant and a picture of an animal to point out specific similarities and differences together.\n5. Move to the worksheet: sort statements into 'alike' and 'different' categories.\n6. Close by previewing tomorrow's review day.",
+    "differentiationTips": [
+      "Struggling: focus on just the movement difference (animals move, plants stay in place), the most visually obvious one",
+      "Ready for more: research one unusual plant or animal that breaks the pattern (a Venus flytrap that 'catches' food; a sea sponge that doesn't move)",
+      "For a child who enjoys drawing, have them draw a plant and an animal side by side, labeling one similarity and one difference"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Alike: both need water, both grow and change, both are living things. Different: plants make their own food, animals must find/eat food; most plants stay in place, most animals can move.",
+    "standardsRationale": "Comparing and contrasting plants and animals synthesizes this week's separate lessons on plant needs and animal needs into a single, connected understanding of living things — a core Kindergarten life-science reasoning skill."
+  },
+  "worksheet": {
+    "id": "worksheet-science-k-1-4",
+    "lessonId": "lesson-science-k-1-4",
+    "title": "Plants and Animals: Alike and Different",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each statement, write whether it describes something ALIKE (true for both) or DIFFERENT (true for only one).",
+      "rows": [
+        { "problem": "Both need water to survive." },
+        { "problem": "Only animals must find or eat their food." },
+        { "problem": "Both are living things that grow and change." },
+        { "problem": "Only most animals can move around on their own." },
+        { "problem": "Only plants make their own food using sunlight." }
+      ]
+    }
+  }
+}

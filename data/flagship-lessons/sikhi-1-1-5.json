@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-1-1",
+    "courseId": "course-sikhi-1",
+    "order": 1,
+    "title": "Kindness, the Golden Temple, and Prayer",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-1-1-5",
+    "unitId": "unit-sikhi-1-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Kindness, the Golden Temple, and Prayer",
+    "gradeLevel": "1",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you explored kindness, the Golden Temple, and simple prayer. Today is review day — let's bring it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's review: what does kindness look like as real Seva? Where is the Golden Temple, and what do its four doors mean? What is a simple prayer? Try answering each question from memory first, then check together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you've built real understanding of kindness, a special place, and a meaningful practice! Next week, we'll keep exploring more about Sikhi together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-1-1-5",
+    "lessonId": "lesson-sikhi-1-1-5",
+    "objectives": [
+      "Recall and explain all three concepts from this week (kindness/Seva, the Golden Temple, simple prayer)",
+      "Self-identify which concept feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "This week's worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Ask the three big review questions one at a time, letting the child answer from memory first.\n2. Check answers together against what was learned this week.\n3. Move to the worksheet: complete the mixed review questions.\n4. Praise effort and progress across the whole week, not just today's recall.\n5. Close by previewing that next week continues exploring Sikhi together.",
+    "differentiationTips": [
+      "Struggling: focus review time on whichever single concept felt hardest, rather than requiring equal recall of all three",
+      "Ready for more: ask the child to teach one of this week's concepts to a family member in their own words",
+      "For a child who enjoys drawing, have them illustrate the Golden Temple with its four doors as a review activity"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which of the three concepts the child recalled confidently vs. needed prompting for, to guide next week's pacing.",
+    "standardsRationale": "A dedicated review day after a full week of related Sikhi concepts matches the platform's established pacing pattern (see every K unit and the Grade 1 units' own Day 5 review lessons) — consolidation before adding more content is essential."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-1-1-5",
+    "lessonId": "lesson-sikhi-1-1-5",
+    "title": "Review Day: Kindness, the Golden Temple, and Prayer",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each review question in your own words.",
+      "rows": [
+        { "problem": "What does kindness look like as real Seva?" },
+        { "problem": "Where is the Golden Temple, and what do its four doors mean?" },
+        { "problem": "What is a simple prayer?" }
+      ]
+    }
+  }
+}

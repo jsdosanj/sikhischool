@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-1-1",
+    "courseId": "course-sikhi-1",
+    "order": 1,
+    "title": "Kindness, the Golden Temple, and Prayer",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-1-1-3",
+    "unitId": "unit-sikhi-1-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Simple Prayers: Starting and Ending Our Day",
+    "gradeLevel": "1",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You learned about a quiet moment of remembrance called Simran last year. Today let's build on that with something related: simple prayer, a moment to feel grateful or ask for guidance."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A simple prayer can be just a few honest words — thanking Waheguru for something good in your day, or quietly asking for help with something hard. Try this together: take a quiet moment, and think of one thing you're grateful for today. You can say it out loud or just think it quietly. Many Sikhs practice short daily prayers in the morning and evening, as a regular, gentle habit rather than something rare or complicated."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Prayer doesn't have to be long or complicated — even a few honest words count. Tomorrow we'll bring together everything from this week: kindness, the Golden Temple, and prayer."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-1-1-3",
+    "lessonId": "lesson-sikhi-1-1-3",
+    "objectives": [
+      "Describe simple prayer as a moment of gratitude or honest request, connected to last year's Simran practice",
+      "Practice one real, short moment of gratitude or reflection"
+    ],
+    "materialsNeeded": ["Printed 'Simple Prayers' worksheet", "Pencil or crayon", "A quiet space for the practice moment"],
+    "facilitationScript": "1. Review Simran from last year briefly.\n2. Introduce simple prayer as related — a few honest words of gratitude or a request for guidance.\n3. Guide a short practice moment together: think of one thing to be grateful for today.\n4. Mention that many Sikhs practice short prayers regularly, morning and evening, as a gentle daily habit.\n5. Move to the worksheet: write or draw about what they're grateful for.\n6. Close by picking one moment this week to practice a short prayer of gratitude.",
+    "differentiationTips": [
+      "Struggling: keep the gratitude moment very short and concrete (one specific thing, like a favorite food or person)",
+      "Ready for more: discuss the idea of praying for others, not just for oneself",
+      "This lesson intentionally keeps prayer experiential and personal, rather than teaching a specific memorized prayer text — that's appropriate for a family's own practice and tradition to guide"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is an open-ended, personal reflection activity — there is no single right/wrong answer.",
+    "standardsRationale": "Simple, experiential prayer practice is the Grade 1 Sikhi course's stated focus, building directly on last year's Simran foundation without requiring a specific memorized text — the family's own practice can layer in specific prayers as appropriate."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-1-1-3",
+    "lessonId": "lesson-sikhi-1-1-3",
+    "title": "Simple Prayers",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write or draw about something you're grateful for today.",
+      "prompts": [
+        { "prompt": "What is one thing you're grateful for today?", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-1-1",
+    "courseId": "course-sikhi-1",
+    "order": 1,
+    "title": "Kindness, the Golden Temple, and Prayer",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-1-1-4",
+    "unitId": "unit-sikhi-1-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "A Day in Sikhi Life: Bringing It All Together",
+    "gradeLevel": "1",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about kindness, the Golden Temple, and prayer. Today let's see how these three ideas connect into one whole way of living."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Imagine a day that includes all three: starting the morning with a quiet moment of gratitude, choosing kindness toward a family member or friend during the day, and remembering the Golden Temple's example of welcoming everyone equally. These aren't three separate rules — they fit together into one way of living with an open, caring heart. Can you imagine what that kind of day might look like for you?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Kindness, welcome, and gratitude all connect into a real, everyday way of living. Tomorrow is review day — we'll bring together everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-1-1-4",
+    "lessonId": "lesson-sikhi-1-1-4",
+    "objectives": [
+      "Explain how kindness, the Golden Temple's welcome, and prayer connect into one coherent way of living",
+      "Describe what a day practicing all three might look like for them personally"
+    ],
+    "materialsNeeded": ["Printed 'A Day in Sikhi Life' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review each of this week's three topics briefly.\n2. Discuss how they connect — not separate rules, but one way of living with an open heart.\n3. Imagine together what a day practicing all three might look like.\n4. Move to the worksheet: describe or draw that imagined day.\n5. Close by picking one part of that imagined day to actually try today.",
+    "differentiationTips": [
+      "Struggling: focus on just two of the three themes (whichever felt most memorable this week) rather than all three at once",
+      "Ready for more: ask the child to connect this synthesis back to last year's Chardi Kala and Equality lessons too",
+      "For a child who enjoys drawing, have them illustrate their imagined day instead of writing about it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended, personal reflection activity — there is no single right/wrong answer.",
+    "standardsRationale": "Synthesizing the week's separate lessons into one connected understanding is a core reasoning skill, showing that Sikhi values aren't isolated facts but a coherent way of living."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-1-1-4",
+    "lessonId": "lesson-sikhi-1-1-4",
+    "title": "A Day in Sikhi Life",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe or draw a day that includes kindness, welcome, and gratitude.",
+      "prompts": [
+        { "prompt": "Describe what your imagined day might look like.", "lines": 4 }
+      ]
+    }
+  }
+}

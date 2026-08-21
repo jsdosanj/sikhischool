@@ -5,6 +5,8 @@ import { getUnitsForCourse, getLessonsForUnit } from "@/lib/lessons";
 import { shellForGradeBand } from "@/design/tokens";
 import Shell from "@/components/shells/Shell";
 import SunFriend from "@/components/shells/SunFriend";
+import SubjectIcon from "@/components/SubjectIcon";
+import CourseMedia from "@/components/CourseMedia";
 
 // Server-rendered on demand — see src/app/courses/page.tsx for why.
 export const dynamic = "force-dynamic";
@@ -33,9 +35,13 @@ export default async function CourseDetailPage({
           &larr; Courses
         </Link>
 
-        {little && (
+        {little ? (
           <div className="mt-4 flex justify-center">
             <SunFriend size={72} />
+          </div>
+        ) : (
+          <div className="mt-4 flex justify-center">
+            <SubjectIcon subject={course.subject} size={56} />
           </div>
         )}
 
@@ -53,6 +59,13 @@ export default async function CourseDetailPage({
           {course.title}
         </h1>
         <p className={`mt-4 opacity-80 ${little ? "text-center text-lg" : ""}`}>{course.description}</p>
+
+        <CourseMedia
+          heroImageUrl={course.heroImageUrl}
+          heroImageAttribution={course.heroImageAttribution}
+          videoId={course.videoId}
+          title={course.title}
+        />
 
         {unitsWithLessons.length === 0 ? (
           <p

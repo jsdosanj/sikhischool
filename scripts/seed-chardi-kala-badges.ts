@@ -6,6 +6,10 @@
 // Auth: reads CLOUDFLARE_API_TOKEN from the environment (needs D1 Edit permission).
 // Run: CLOUDFLARE_API_TOKEN=... npx tsx scripts/seed-chardi-kala-badges.ts
 
+export {}; // makes this file a module — without this, its top-level consts/functions
+// collide with any other import-less script in the same tsc program (real bug,
+// found and fixed when adding scripts/seed-course-media.ts alongside it)
+
 const ACCOUNT_ID = "0d4412e40181808b16cce0225ddb5152";
 const DATABASE_ID = "1ccc6190-dab9-45f0-a31e-ff88a9b43de0";
 

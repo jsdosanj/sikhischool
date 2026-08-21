@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllCourses, GRADE_BAND_ORDER, SUBJECT_LABELS } from "@/lib/courses";
+import SubjectIcon from "@/components/SubjectIcon";
 
 // Server-rendered on demand — queries live D1, which isn't reachable at build
 // time (no Workers bindings outside the deployed runtime).
@@ -31,12 +32,15 @@ export default async function CoursesPage() {
                 <li key={course.id}>
                   <Link
                     href={`/courses/${course.id}`}
-                    className="block h-full rounded-lg border border-[var(--foreground)]/15 p-4 transition hover:border-[var(--color-saffron)]"
+                    className="flex h-full items-start gap-3 rounded-lg border border-[var(--foreground)]/15 p-4 transition hover:border-[var(--color-saffron)]"
                   >
-                    <p className="text-xs font-semibold uppercase tracking-wide text-[var(--foreground)]/50">
-                      {SUBJECT_LABELS[course.subject] ?? course.subject}
-                    </p>
-                    <p className="mt-0.5 font-medium">{course.title}</p>
+                    <SubjectIcon subject={course.subject} size={36} className="mt-0.5 shrink-0" />
+                    <span>
+                      <p className="text-xs font-semibold uppercase tracking-wide text-[var(--foreground)]/50">
+                        {SUBJECT_LABELS[course.subject] ?? course.subject}
+                      </p>
+                      <p className="mt-0.5 font-medium">{course.title}</p>
+                    </span>
                   </Link>
                 </li>
               ))}

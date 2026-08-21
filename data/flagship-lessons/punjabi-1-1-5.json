@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-punjabi-1-1",
+    "courseId": "course-punjabi-1",
+    "order": 1,
+    "title": "Greetings, More Letters, and Simple Words",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-1-1-5",
+    "unitId": "unit-punjabi-1-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Greetings, Letters, and Words",
+    "gradeLevel": "1",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned greetings, three new letters, family words, and practiced reading in Gurmukhi script! Today is review day."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's review everything: say Sat Sri Akal and dhanvaad. Name the three new letters (ਛ, ਜ, ਝ). Say the family words: maa, pita, ghar, paani. Read ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ once more in Gurmukhi script. Which part felt easiest this week? Which would you like more practice with?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you've built real Punjabi vocabulary and reading skills! Next week, we'll keep building on everything you've learned."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-1-1-5",
+    "lessonId": "lesson-punjabi-1-1-5",
+    "objectives": [
+      "Recall and use all vocabulary and letters learned this week (greetings, ਛ/ਜ/ਝ, family words, script recognition)",
+      "Self-identify which part of the week feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Go through each part of the week together: greetings, letters, family words, script reading.\n2. Ask which part felt easiest and which felt hardest.\n3. Move to the worksheet: complete the mixed review.\n4. Praise effort and progress across the whole week, not just today's recall.\n5. Close by previewing that next week continues building Punjabi skills.",
+    "differentiationTips": [
+      "Struggling: spend extra time on whichever single part felt hardest, rather than requiring equal recall of everything",
+      "Ready for more: ask the child to use two or more of this week's words together in one spoken sentence",
+      "For a child who enjoys teaching, have them 'teach' this week's greetings to a family member"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which parts of the week the child recalled confidently vs. needed prompting for, to guide next week's pacing.",
+    "standardsRationale": "A dedicated review day after a full week of new vocabulary and letters matches the platform's established pacing pattern (see every K unit and the Math/ELA/Science/Social Studies 1 units' own Day 5 review lessons) — consolidation before adding more content is essential."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-1-1-5",
+    "lessonId": "lesson-punjabi-1-1-5",
+    "title": "Review Day: Greetings, Letters, and Words",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each item one more time, saying it out loud as you go.",
+      "rows": [
+        { "trace": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ", "label": "Sat Sri Akal — hello" },
+        { "trace": "ਛ", "label": "Chhachha" },
+        { "trace": "ਜ", "label": "Jaja" },
+        { "trace": "ਝ", "label": "Jhajha" },
+        { "trace": "Ghar", "label": "Home" }
+      ]
+    }
+  }
+}

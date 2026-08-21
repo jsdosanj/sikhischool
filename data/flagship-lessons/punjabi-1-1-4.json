@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-1-1",
+    "courseId": "course-punjabi-1",
+    "order": 1,
+    "title": "Greetings, More Letters, and Simple Words",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-1-1-4",
+    "unitId": "unit-punjabi-1-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Reading Practice: Recognizing Words in Gurmukhi Script",
+    "gradeLevel": "1",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned greetings, new letters, and family words. Today let's practice something exciting: reading real words written in Gurmukhi script, not just the English spelling."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Look at ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ written in Gurmukhi script. Can you recognize it, even though it looks different from the English letters you're used to? Practice looking at the whole word shape and recognizing it quickly, the way a reader does — not sounding out every single letter each time, but recognizing familiar words on sight. Try the same with ਧੰਨਵਾਦ (dhanvaad)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Recognizing whole words quickly, by sight, is a real reading skill — it's what makes reading feel smooth and natural. Tomorrow is review day, where we'll bring together everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-1-1-4",
+    "lessonId": "lesson-punjabi-1-1-4",
+    "objectives": [
+      "Recognize this week's greeting words (Sat Sri Akal, dhanvaad) in Gurmukhi script by sight",
+      "Practice reading whole familiar words quickly, rather than sounding out every letter each time"
+    ],
+    "materialsNeeded": ["Printed 'Reading Practice' worksheet", "Pencil"],
+    "facilitationScript": "1. Show ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ in Gurmukhi script and ask the child if they recognize it from this week.\n2. Practice reading it a few times, aiming for quick recognition rather than slow letter-by-letter sounding out.\n3. Repeat with ਧੰਨਵਾਦ.\n4. Move to the worksheet: trace each word in Gurmukhi script, practicing quick recognition.\n5. Close by asking the child to 'read' both words to a family member from memory.",
+    "differentiationTips": [
+      "Struggling: it's fine to sound out letter by letter still — sight recognition develops with more exposure over time, not all at once",
+      "Ready for more: introduce one more short Gurmukhi word (from this week's family vocabulary, spelled phonetically as taught letters allow) for sight practice",
+      "For a child who enjoys a challenge, time how quickly they can recognize each word across a few practice rounds"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a sight-reading practice activity — check that the child can recognize both words with increasing speed and confidence by the end of the lesson.",
+    "standardsRationale": "Sight-word recognition, alongside phonetic decoding, is a core Grade 1 beginning-reading skill (matching the course's stated 'beginning reading' focus) — this lesson bridges this week's spoken-vocabulary and alphabet threads into real script recognition."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-1-1-4",
+    "lessonId": "lesson-punjabi-1-1-4",
+    "title": "Reading Practice: Recognizing Words",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word in Gurmukhi script, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ", "label": "Sat Sri Akal — hello" },
+        { "trace": "ਧੰਨਵਾਦ", "label": "Dhanvaad — thank you" }
+      ]
+    }
+  }
+}

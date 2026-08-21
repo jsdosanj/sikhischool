@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-1-1",
+    "courseId": "course-punjabi-1",
+    "order": 1,
+    "title": "Greetings, More Letters, and Simple Words",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-1-1-3",
+    "unitId": "unit-punjabi-1-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Simple Words: My Family and Home",
+    "gradeLevel": "1",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned greetings and new letters this week. Today let's learn some simple, everyday words about your family and home."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਮਾਂ (maa) means mother. ਪਿਤਾ (pita) means father. ਘਰ (ghar) means home. ਪਾਣੀ (paani) means water. Practice saying each word, and try using it in a simple sentence: 'Mainu paani chahida hai' (I want water) is a phrase you might use every day. Which of these words do you already know?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know real, everyday Punjabi words for your family and home. Tomorrow we'll practice reading these words together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-1-1-3",
+    "lessonId": "lesson-punjabi-1-1-3",
+    "objectives": [
+      "Recognize and use the words maa (mother), pita (father), ghar (home), and paani (water)",
+      "Use at least one of these words in a simple spoken sentence"
+    ],
+    "materialsNeeded": ["Printed 'My Family and Home' worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce each word one at a time, connecting it to something real (pointing at the child's own mother, home, etc.).\n2. Practice saying each word together several times.\n3. Model one simple sentence using a word (e.g. asking for water using paani).\n4. Move to the worksheet: trace each word and talk through its meaning.\n5. Close by using each word once in a real moment throughout the rest of the day.",
+    "differentiationTips": [
+      "Struggling: focus on just two words (maa and ghar) rather than all four at once",
+      "Ready for more: ask the child to think of one more family or home-related word they already know in Punjabi",
+      "For a child who speaks Punjabi at home already, use this as a chance to connect spoken vocabulary to written words"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and vocabulary-practice activity — there is no right/wrong answer beyond correct word tracing and understanding each word's meaning.",
+    "standardsRationale": "Simple, everyday vocabulary is the Grade 1 Punjabi course's stated focus — practical words a child can use immediately build real language confidence."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-1-1-3",
+    "lessonId": "lesson-punjabi-1-1-3",
+    "title": "My Family and Home",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Maa", "label": "Mother" },
+        { "trace": "Pita", "label": "Father" },
+        { "trace": "Ghar", "label": "Home" },
+        { "trace": "Paani", "label": "Water" }
+      ]
+    }
+  }
+}

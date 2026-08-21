@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-1-1",
+    "courseId": "course-punjabi-1",
+    "order": 1,
+    "title": "Greetings, More Letters, and Simple Words",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-1-1-1",
+    "unitId": "unit-punjabi-1-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Common Punjabi Greetings",
+    "gradeLevel": "1",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ! (Sat Sri Akal!) That's one of the most common Punjabi greetings. This year we'll learn to use everyday Punjabi words and phrases, starting with greetings you can use right away."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ (Sat Sri Akal) is a warm greeting used to say hello. ਧੰਨਵਾਦ (dhanvaad) means thank you. ਹਾਂ (haan) means yes, and ਨਹੀਂ (nahin) means no. Practice using these with your family today — greet someone with Sat Sri Akal, and say dhanvaad the next time someone helps you."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know real Punjabi words you can use every day! This week we'll keep building your vocabulary and reading skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-1-1-1",
+    "lessonId": "lesson-punjabi-1-1-1",
+    "objectives": [
+      "Use Sat Sri Akal as a greeting and dhanvaad to express thanks",
+      "Recognize haan (yes) and nahin (no) in conversation"
+    ],
+    "materialsNeeded": ["Printed 'Common Punjabi Greetings' worksheet", "Pencil"],
+    "facilitationScript": "1. Model Sat Sri Akal as a greeting, practicing together with a warm tone.\n2. Introduce dhanvaad and practice using it in a real moment (e.g. after handing the child something).\n3. Introduce haan and nahin, practicing with simple yes/no questions.\n4. Move to the worksheet: trace each word and talk through its meaning.\n5. Close by using all four words in a short practice conversation together.",
+    "differentiationTips": [
+      "Struggling: focus on just Sat Sri Akal and dhanvaad this lesson, saving haan/nahin for extra practice",
+      "Ready for more: challenge the child to use all four words in real conversation throughout the day, not just during the lesson",
+      "For a child who already knows some of these words, ask them to teach the words to a sibling or stuffed animal"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and vocabulary-practice activity — there is no right/wrong answer beyond correct word tracing and understanding each word's meaning.",
+    "standardsRationale": "Everyday greetings and simple words are the Grade 1 Punjabi course's stated starting point — practical, usable vocabulary that builds confidence before deeper reading and grammar work."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-1-1-1",
+    "lessonId": "lesson-punjabi-1-1-1",
+    "title": "Common Punjabi Greetings",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Sat Sri Akal", "label": "A warm way to say hello" },
+        { "trace": "Dhanvaad", "label": "Thank you" },
+        { "trace": "Haan", "label": "Yes" },
+        { "trace": "Nahin", "label": "No" }
+      ]
+    }
+  }
+}

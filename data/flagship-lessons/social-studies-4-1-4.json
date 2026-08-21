@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-4-1",
+    "courseId": "course-social-studies-4",
+    "order": 1,
+    "title": "Washington's Land and First Peoples",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-4-1-4",
+    "unitId": "unit-social-studies-4-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Washington's Rivers and Waterways",
+    "gradeLevel": "4",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've explored Washington's regions and mountains. Today, the waterways that connect them all — and that people have depended on for thousands of years."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Columbia River is Washington's largest river, flowing from Canada through eastern Washington and eventually forming much of the border with Oregon before reaching the Pacific Ocean. Puget Sound is a large inlet of saltwater in western Washington, surrounded by many of the state's biggest cities. As you learned on Day 1, Indigenous nations in this region have long-standing, ongoing relationships with these very rivers and coastlines — the water has always been central to life here, not just for travel and fishing, but for whole ways of life that continue today. Find the Columbia River and Puget Sound on your map from Day 2."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know Washington's two most important waterways and how they connect to this week's earlier lessons on geography and the state's first peoples. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-4-1-4",
+    "lessonId": "lesson-social-studies-4-1-4",
+    "objectives": [
+      "Identify the Columbia River and Puget Sound as Washington's major waterways",
+      "Connect the importance of water to both historical and present-day life in Washington, building on Day 1's introduction"
+    ],
+    "materialsNeeded": ["The map from Day 2", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's geography and mountains lessons.\n2. Introduce the Columbia River and Puget Sound, locating both on the Day 2 map.\n3. Connect back to Day 1: water has been central to Indigenous life in this region for thousands of years, and remains so today.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just locating the two waterways on the map rather than the deeper historical connection",
+      "Ready for more: research one more river in Washington (e.g. the Snake River) and add it to the map",
+      "Keep the Indigenous-nations connection general and respectful, exactly as scoped in Day 1 — deeper, specific tribal history is intentionally deferred to future lessons"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The Columbia River is Washington's largest river. 2. Puget Sound is a large saltwater inlet in western Washington. 3. Water has been central to Indigenous life in this region for thousands of years, and remains so today.",
+    "standardsRationale": "Completes the week's WA Social Studies Geography content while deliberately tying back to Day 1's Indigenous-nations introduction in only a general, respectful way — specific tribal history remains intentionally deferred, per the content-sensitivity scoping already established for this course."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-4-1-4",
+    "lessonId": "lesson-social-studies-4-1-4",
+    "title": "Washington's Rivers and Waterways",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Washington's waterways.",
+      "rows": [
+        { "problem": "What is Washington's largest river called?" },
+        { "problem": "What is Puget Sound?" },
+        { "problem": "Why has water been so important to people in this region, historically and today?" }
+      ]
+    }
+  }
+}

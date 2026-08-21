@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-4-1",
+    "courseId": "course-social-studies-4",
+    "order": 1,
+    "title": "Washington's Land and First Peoples",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-4-1-2",
+    "unitId": "unit-social-studies-4-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Washington's Geographic Regions",
+    "gradeLevel": "4",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned Washington has always been home to many distinct peoples. Today, let's explore the land itself — the real geography that has shaped where and how people have lived here."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Washington has several distinct geographic regions: the rocky Pacific Coast in the west, the Puget Sound Lowlands (a large inland sea surrounded by cities and towns), the Cascade Mountains running north to south through the middle of the state, and the Columbia Plateau, a much drier, flatter region covering most of eastern Washington. Find a map of Washington (printed or online) and locate these four regions. Notice how different the coast looks from the mountains, and how different the mountains look from the eastern plateau."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just located Washington's four major geographic regions. Tomorrow we'll look closely at the Cascade Mountains and the surprising effect they have on the state's weather."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-4-1-2",
+    "lessonId": "lesson-social-studies-4-1-2",
+    "objectives": [
+      "Identify Washington's four major geographic regions: Pacific Coast, Puget Sound Lowlands, Cascade Mountains, Columbia Plateau",
+      "Locate each region on a map of Washington State"
+    ],
+    "materialsNeeded": ["A map of Washington State (printed or online)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's introduction to Washington's first peoples.\n2. Introduce the four geographic regions using the map.\n3. Discuss how visually different each region is from the others.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: the Cascade Mountains and weather.",
+    "differentiationTips": [
+      "Struggling: focus on just the coast vs. mountains vs. eastern plateau as a simpler 3-way distinction before adding Puget Sound as a 4th",
+      "Ready for more: research which of Washington's cities are located in which region",
+      "A physical (relief) map that shows elevation with color/shading works especially well for this lesson"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The Pacific Coast is in the west. 2. The Puget Sound Lowlands is the inland-sea region with many cities. 3. The Cascade Mountains run north-south through the middle of the state. 4. The Columbia Plateau covers most of eastern Washington and is drier and flatter.",
+    "standardsRationale": "Establishes real, verifiable Washington geography (matching WA's own Social Studies Geography strand) as the foundation for this week's unit, continuing from Day 1's respectful introduction to the land's first peoples."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-4-1-2",
+    "lessonId": "lesson-social-studies-4-1-2",
+    "title": "Washington's Geographic Regions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Washington's geographic regions.",
+      "rows": [
+        { "problem": "Which region is on the western edge of the state?" },
+        { "problem": "What is the Puget Sound Lowlands region known for?" },
+        { "problem": "Which region runs north-south through the middle of the state?" },
+        { "problem": "Which region covers most of eastern Washington?" }
+      ]
+    }
+  }
+}

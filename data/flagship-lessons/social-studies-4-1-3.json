@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-4-1",
+    "courseId": "course-social-studies-4",
+    "order": 1,
+    "title": "Washington's Land and First Peoples",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-4-1-3",
+    "unitId": "unit-social-studies-4-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "The Cascade Mountains and the Rain Shadow",
+    "gradeLevel": "4",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you located the Cascade Mountains running through the middle of Washington. Today, a surprising fact: those mountains split the state into two very different climates."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Cascade Mountains create what's called a rain shadow. Moist air blows in from the Pacific Ocean and rises over the mountains, dropping most of its rain on the western side — which is why western Washington is famously green, rainy, and forested. By the time that air crosses over the mountains, most of the moisture is gone, leaving eastern Washington much drier, sunnier, and better suited to farming with irrigation. Mount Rainier, part of the Cascades, is Washington's tallest peak at over 14,000 feet — tall enough to be visible from great distances on a clear day. Compare: if you've been to both western and eastern Washington, what differences did you notice?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand why Washington's west side is rainy and green while its east side is dry and sunny — all because of one mountain range. Tomorrow we'll look at Washington's rivers and waterways."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-4-1-3",
+    "lessonId": "lesson-social-studies-4-1-3",
+    "objectives": [
+      "Explain the rain shadow effect and why it makes western and eastern Washington so climatically different",
+      "Identify Mount Rainier as Washington's tallest peak"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Optional: a photo of Mount Rainier"],
+    "facilitationScript": "1. Review yesterday's four geographic regions.\n2. Explain the rain shadow effect: moist Pacific air rises over the Cascades, drops rain on the west side, leaves the east side dry.\n2b. Introduce Mount Rainier as the tallest peak.\n3. Discuss any personal experience the child has with both sides of the state, if applicable.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: rivers and waterways.",
+    "differentiationTips": [
+      "Struggling: use a simple diagram (mountain with rain clouds on one side, sun on the other) to make the rain shadow visual",
+      "Ready for more: research one more example of a rain shadow effect somewhere else in the world",
+      "If the family has never traveled east of the Cascades, describe the climate difference vividly using words like 'sagebrush' and 'desert-like' vs. 'rainforest'"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The rain shadow effect happens when a mountain range blocks moist air, causing rain on one side and dryness on the other. 2. Western Washington is rainy and green because it gets the moisture first. 3. Eastern Washington is dry and sunny because the mountains block most of the rain. 4. Mount Rainier is Washington's tallest peak, over 14,000 feet.",
+    "standardsRationale": "Deepens the WA Social Studies Geography strand with a real, well-established physical-geography concept (the rain shadow effect) that explains a genuinely distinctive feature of Washington's climate and landscape."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-4-1-3",
+    "lessonId": "lesson-social-studies-4-1-3",
+    "title": "The Rain Shadow Effect",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Cascade Mountains and the rain shadow effect.",
+      "rows": [
+        { "problem": "What causes the rain shadow effect?" },
+        { "problem": "Why is western Washington rainy and green?" },
+        { "problem": "Why is eastern Washington dry and sunny?" },
+        { "problem": "What is the name of Washington's tallest peak?" }
+      ]
+    }
+  }
+}

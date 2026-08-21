@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { getCurrentParent, getChildren } from "@/lib/session";
 import { getEarnedBadges } from "@/lib/badges";
+import { getAnnouncementsForChild } from "@/lib/classrooms";
 import AddChildForm from "./AddChildForm";
 import JoinClassroomForm from "./JoinClassroomForm";
 
@@ -11,7 +12,10 @@ export default async function DashboardPage() {
   if (!parent) redirect("/login");
 
   const children = await getChildren(parent.id);
-  const badgesByChild = await Promise.all(children.map((c) => getEarnedBadges(c.id)));
+  const [badgesByChild, announcementsByChild] = await Promise.all([
+    Promise.all(children.map((c) => getEarnedBadges(c.id))),
+    Promise.all(children.map((c) => getAnnouncementsForChild(c.id))),
+  ]);
 
   return (
     <main className="mx-auto max-w-2xl flex-1 p-8">
@@ -49,6 +53,15 @@ export default async function DashboardPage() {
                       </span>
                     ))}
                   </div>
+                )}
+                {announcementsByChild[i].length > 0 && (
+                  <ul className="mt-2 flex flex-col gap-1 border-t border-[var(--foreground)]/10 pt-2 text-xs text-[var(--foreground)]/70">
+                    {announcementsByChild[i].map((a) => (
+                      <li key={a.id}>
+                        <span className="font-medium">{a.classroomName}:</span> {a.body}
+                      </li>
+                    ))}
+                  </ul>
                 )}
               </li>
             ))}

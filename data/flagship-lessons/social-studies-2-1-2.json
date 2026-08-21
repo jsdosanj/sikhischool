@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-social-studies-2-1",
+    "courseId": "course-social-studies-2",
+    "order": 1,
+    "title": "Needs, Goods, Services, and Trade",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-2-1-2",
+    "unitId": "unit-social-studies-2-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Goods and Services: What's the Difference?",
+    "gradeLevel": "2",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you sorted needs and wants. Today let's learn two more important words: goods and services — the two ways people meet those needs and wants."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A good is a real, physical thing you can hold or touch — like bread, a bicycle, or a book. A service is help or work that someone does for you — like a haircut, a doctor's checkup, or a teacher teaching a lesson. Think about your day: what goods did you use? What services did someone provide for you?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Every day, you use goods and receive services from people all around your community. Tomorrow we'll look at how a whole community works together to meet everyone's needs."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-2-1-2",
+    "lessonId": "lesson-social-studies-2-1-2",
+    "objectives": [
+      "Define a good as a physical, tangible item and a service as work or help someone provides",
+      "Correctly sort real examples into goods and services"
+    ],
+    "materialsNeeded": ["Printed 'Goods and Services' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Ask the child to name something they touched today (a good) and something someone did to help them (a service).\n2. Introduce the definitions clearly with those real examples.\n3. Sort 4-5 more examples together (bread, a haircut, a book, a doctor visit).\n4. Move to the worksheet: sort each item into goods or services.\n5. Close by asking the child to think of one goods-provider and one service-provider in their own community.",
+    "differentiationTips": [
+      "Struggling: use only very clear-cut examples (a toy vs. a haircut) before tackling trickier ones",
+      "Ready for more: discuss a business that provides both — a restaurant sells food (a good) and provides serving (a service)",
+      "For a child who enjoys community helpers, connect back to last year's helper jobs and sort each as providing a good or a service"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Bread = good. 2. Haircut = service. 3. Bicycle = good. 4. Doctor's checkup = service. 5. Teaching a lesson = service.",
+    "standardsRationale": "Distinguishing goods from services is a core Grade 2 economics concept (matching the C3 Framework's economics dimension), directly building on yesterday's needs-vs-wants foundation."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-2-1-2",
+    "lessonId": "lesson-social-studies-2-1-2",
+    "title": "Goods and Services",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Sort each item as a GOOD (a physical thing) or a SERVICE (help or work someone does).",
+      "rows": [
+        { "problem": "Bread" },
+        { "problem": "A haircut" },
+        { "problem": "A bicycle" },
+        { "problem": "A doctor's checkup" },
+        { "problem": "Teaching a lesson" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-social-studies-2-1",
+    "courseId": "course-social-studies-2",
+    "order": 1,
+    "title": "Needs, Goods, Services, and Trade",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-2-1-1",
+    "unitId": "unit-social-studies-2-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Needs vs. Wants",
+    "gradeLevel": "2",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You want a new toy. You need food to eat. Both feel important, but they're actually different! Today we'll learn to tell the difference between a need and a want."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A need is something you must have to survive and stay healthy — food, water, shelter, and clothing. A want is something nice to have, but you could live without it — a toy, a video game, or candy. Look around your home and sort five things into 'need' and 'want' piles. Some things can be tricky: is a warm coat a need or a want? (It's a need — staying warm is about survival!)"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Understanding needs vs. wants helps you think carefully about choices. This week, we'll build on this idea with goods, services, and trade."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-2-1-1",
+    "lessonId": "lesson-social-studies-2-1-1",
+    "objectives": [
+      "Define a need as something necessary for survival and health, and a want as something desired but not essential",
+      "Correctly sort at least five real examples into needs and wants"
+    ],
+    "materialsNeeded": ["Printed 'Needs vs. Wants' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Ask the child to name one thing they need and one thing they want.\n2. Introduce the definitions: needs are for survival/health, wants are nice-to-have.\n3. Sort 5 real household items or ideas together into needs and wants.\n4. Discuss tricky examples (a warm coat, a bicycle) and why they fit one category or the other.\n5. Move to the worksheet: sort each item into needs or wants.\n6. Close by asking the child to name one want they could save up for instead of needing right away.",
+    "differentiationTips": [
+      "Struggling: use only very clear-cut examples (food vs. a toy) before tackling tricky in-between cases",
+      "Ready for more: discuss how the same item could be a need for one person and a want for another (a car for a delivery driver vs. a hobbyist)",
+      "For a child who enjoys sorting games, turn this into a quick physical sorting activity with real household objects"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Food = need. 2. Video game = want. 3. Winter coat = need. 4. Toy car = want. 5. Water = need.",
+    "standardsRationale": "Distinguishing needs from wants is the foundational Grade 2 economics concept (matching the C3 Framework's economics dimension) that goods, services, and trade this week all build on."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-2-1-1",
+    "lessonId": "lesson-social-studies-2-1-1",
+    "title": "Needs vs. Wants",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Sort each item as a NEED (necessary for survival/health) or a WANT (nice to have).",
+      "rows": [
+        { "problem": "Food" },
+        { "problem": "A video game" },
+        { "problem": "A winter coat" },
+        { "problem": "A toy car" },
+        { "problem": "Water" }
+      ]
+    }
+  }
+}

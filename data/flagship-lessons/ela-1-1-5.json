@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-1-1",
+    "courseId": "course-ela-1",
+    "order": 1,
+    "title": "Reading CVC Words and Simple Sentences",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-1-1-5",
+    "unitId": "unit-ela-1-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Words, Sounds, and Our First Sentences",
+    "gradeLevel": "1",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you read short-A words, met short I, learned the digraph 'sh', and read full sentences! Today is review day — practice, not new learning."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's read a mix of everything: some short-A words, some short-I words, an 'sh' word, and a full sentence. Which felt easiest this week? Which would you like more practice with?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You made huge progress this week — from single words to whole sentences! Next week, we'll keep building your reading skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-1-1-5",
+    "lessonId": "lesson-ela-1-1-5",
+    "objectives": [
+      "Demonstrate all skills practiced this week — short-A words, short-I words, the 'sh' digraph, and sentence reading — in one cumulative activity",
+      "Self-identify which skill feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Read a mixed set of this week's words together: cat, sit, fish, ship.\n2. Read both sentences from yesterday once more.\n3. Ask which part of the week felt easiest and which felt hardest.\n4. Move to the worksheet: complete the mixed review.\n5. Praise effort and progress across the whole week, not just today's performance.\n6. Close by previewing that next week continues building reading skills.",
+    "differentiationTips": [
+      "Struggling: spend extra time on whichever single skill felt hardest, rather than requiring equal practice across all four",
+      "Ready for more: ask the child to write their own short sentence using two or more of this week's words",
+      "For a child who enjoys reading aloud, let them 'perform' both sentences from Day 4 one more time"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which of the week's skills the child recalled confidently vs. needed prompting for, to guide next week's pacing.",
+    "standardsRationale": "A dedicated review day after a full week of new phonics patterns matches the platform's established pacing pattern (see every K-unit and the Math 1 unit's own Day 5 review lessons) — consolidation before adding more content is essential."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-1-1-5",
+    "lessonId": "lesson-ela-1-1-5",
+    "title": "Review Day: Words, Sounds, and Sentences",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Read each word one more time, saying the sounds out loud as you go.",
+      "rows": [
+        { "trace": "cat", "label": "Short A" },
+        { "trace": "sit", "label": "Short I" },
+        { "trace": "fish", "label": "The digraph sh" },
+        { "trace": "The cat sat.", "label": "A full sentence!" }
+      ]
+    }
+  }
+}

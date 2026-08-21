@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-1-1",
+    "courseId": "course-ela-1",
+    "order": 1,
+    "title": "Reading CVC Words and Simple Sentences",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-1-1-2",
+    "unitId": "unit-ela-1-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Meeting a New Vowel: Short I",
+    "gradeLevel": "1",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you read short-A words like cat and hat. Today we meet a new vowel sound: short I, like in 'sit' and 'pin'."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The short I sound is quick and small: ih. Say it together and notice your mouth barely opens. Now blend some CVC words with short I: s-i-t, sit. p-i-n, pin. h-i-t, hit. Practice reading each one, then try comparing a short-A word to a short-I word: cat vs. sit — notice how just changing the vowel changes the whole word."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know two vowel sounds: short A and short I. Tomorrow we'll practice reading words with BOTH vowels mixed together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-1-1-2",
+    "lessonId": "lesson-ela-1-1-2",
+    "objectives": [
+      "Produce the short I vowel sound and read short-I CVC words (sit, pin, hit)",
+      "Compare short-A and short-I words, noticing how changing the vowel changes the word"
+    ],
+    "materialsNeeded": ["Printed 'Meeting Short I' worksheet", "Pencil", "Optional: letter cards for I, P, N"],
+    "facilitationScript": "1. Model the short I sound: quick and small, 'ih'.\n2. Introduce any new letters needed (P, N) if not already known.\n3. Blend sit, pin, hit together, slowly then faster.\n4. Compare a short-A word (cat) to a short-I word (sit) — same pattern, different vowel, different word.\n5. Move to the worksheet: read and trace each short-I word.\n6. Close by asking the child to spot the vowel in each word they read today.",
+    "differentiationTips": [
+      "Struggling: keep comparing back to yesterday's short-A words as an anchor before fully committing short I to memory",
+      "Ready for more: ask the child to change one letter in a short-I word to make a new word (sit -> sip, pin -> pit)",
+      "For a child who mixes up short A and short I, use exaggerated mouth-shape modeling (wide open for A, barely open for I)"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a reading and tracing-practice activity — check that the child can blend and read each short-I CVC word.",
+    "standardsRationale": "Introducing a second short vowel builds the vowel-flexibility Grade 1 readers need to decode a much wider range of CVC words, directly extending yesterday's short-A foundation."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-1-1-2",
+    "lessonId": "lesson-ela-1-1-2",
+    "title": "Meeting Short I",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Read each word by blending its sounds, trace it, then write it once more on your own.",
+      "rows": [
+        { "trace": "sit", "label": "Blend s-i-t" },
+        { "trace": "pin", "label": "Blend p-i-n" },
+        { "trace": "hit", "label": "Blend h-i-t" }
+      ]
+    }
+  }
+}

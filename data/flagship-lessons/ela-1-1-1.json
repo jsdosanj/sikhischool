@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-1-1",
+    "courseId": "course-ela-1",
+    "order": 1,
+    "title": "Reading CVC Words and Simple Sentences",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-1-1-1",
+    "unitId": "unit-ela-1-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Reading Short-A Words: CVC Practice",
+    "gradeLevel": "1",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last year you blended your first word: sat. This year we'll get much stronger at reading whole words — starting with a quick warm-up on short-A words like the ones you already know."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Words like sat, mat, cat, and hat all follow the same pattern: consonant-vowel-consonant, or 'CVC' for short. Practice reading each one by blending the sounds: c-a-t, cat. m-a-t, mat. h-a-t, hat. Once you can blend these smoothly, try reading them faster, like a real reader — not sound by sound, but as a whole word."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just read four real words fluently! This CVC pattern shows up in hundreds of words you'll learn to read this year."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-1-1-1",
+    "lessonId": "lesson-ela-1-1-1",
+    "objectives": [
+      "Read short-A CVC words (sat, mat, cat, hat) by blending sounds smoothly",
+      "Recognize the consonant-vowel-consonant (CVC) pattern as a recurring, decodable word structure"
+    ],
+    "materialsNeeded": ["Printed 'Reading Short-A Words' worksheet", "Pencil", "Optional: letter cards for S, M, A, T, C, H"],
+    "facilitationScript": "1. Review the short A sound and the letters S, M, T from last year briefly.\n2. Introduce two new letters if needed: C (sound /k/) and H (sound /h/).\n3. Model blending each CVC word slowly, then faster: c-a-t... cat.\n4. Practice all four words (sat, mat, cat, hat) together, aiming for smooth, whole-word reading by the end.\n5. Move to the worksheet: read and trace each word.\n6. Close by asking the child to use one word in a spoken sentence.",
+    "differentiationTips": [
+      "Struggling: slow back down to sound-by-sound blending rather than pushing for fluent whole-word reading yet",
+      "Ready for more: ask the child to think of one more short-A CVC word not on the list (bat, rat, fat)",
+      "For a child who reads these words instantly already, have them use each word in a full spoken sentence"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a reading and tracing-practice activity — check that the child can blend and read each CVC word, not just trace it silently.",
+    "standardsRationale": "Fluent CVC word reading is the foundational Grade 1 phonics-based decoding skill (the course's stated focus) that everything else this week — new patterns, digraphs, and sentence reading — builds directly on."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-1-1-1",
+    "lessonId": "lesson-ela-1-1-1",
+    "title": "Reading Short-A Words",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Read each word by blending its sounds, trace it, then write it once more on your own.",
+      "rows": [
+        { "trace": "sat", "label": "Blend s-a-t" },
+        { "trace": "mat", "label": "Blend m-a-t" },
+        { "trace": "cat", "label": "Blend c-a-t" },
+        { "trace": "hat", "label": "Blend h-a-t" }
+      ]
+    }
+  }
+}

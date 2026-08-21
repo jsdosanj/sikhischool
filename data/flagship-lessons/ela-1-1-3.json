@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-1-1",
+    "courseId": "course-ela-1",
+    "order": 1,
+    "title": "Reading CVC Words and Simple Sentences",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-1-1-3",
+    "unitId": "unit-ela-1-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Two Letters, One Sound: The Digraph 'sh'",
+    "gradeLevel": "1",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "So far, every letter you've read has made its own separate sound. Today we meet something new: two letters that team up to make just ONE sound. S and H together make 'sh', like when you're asking someone to be quiet."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "When S and H sit next to each other, they don't say 's' then 'h' separately — they blend into one brand-new sound: 'sh'. Practice reading words with 'sh': ship, shop, fish, wish. Notice the 'sh' sound might be at the start (ship, shop) or at the end (fish, wish) of a word."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned your first digraph — two letters, one sound! Watch for 'sh' in words you read this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-1-1-3",
+    "lessonId": "lesson-ela-1-1-3",
+    "objectives": [
+      "Recognize that the letters S and H together make one new sound, /sh/, not two separate sounds",
+      "Read words containing 'sh' at the beginning (ship, shop) and end (fish, wish) of the word"
+    ],
+    "materialsNeeded": ["Printed 'The Digraph sh' worksheet", "Pencil"],
+    "facilitationScript": "1. Ask the child to say the S sound, then the H sound, separately.\n2. Introduce that together, S+H make a brand new sound: 'sh', like asking for quiet.\n3. Model reading ship, shop (sh at the start), then fish, wish (sh at the end).\n4. Practice all four words together, pointing out where 'sh' sits in each one.\n5. Move to the worksheet: read and trace each 'sh' word.\n6. Close by brainstorming one more 'sh' word together.",
+    "differentiationTips": [
+      "Struggling: focus only on 'sh' at the start of words (ship, shop) before tackling end-of-word examples",
+      "Ready for more: ask the child to sort a small list of words into 'has sh' and 'no sh' piles",
+      "For a child who enjoys sounds, practice a few silly 'sh' words or made-up words to build automatic recognition"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a reading and tracing-practice activity — check that the child recognizes 'sh' as one sound in each word, not two separate letter sounds.",
+    "standardsRationale": "Digraphs (two letters, one sound) are a core Grade 1 phonics pattern beyond single-letter sounds — this is the first of several digraphs (sh, ch, th) typically introduced this year."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-1-1-3",
+    "lessonId": "lesson-ela-1-1-3",
+    "title": "The Digraph 'sh'",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Read each word by blending its sounds (remember: sh is ONE sound), trace it, then write it once more on your own.",
+      "rows": [
+        { "trace": "ship", "label": "Sh is at the start" },
+        { "trace": "shop", "label": "Sh is at the start" },
+        { "trace": "fish", "label": "Sh is at the end" },
+        { "trace": "wish", "label": "Sh is at the end" }
+      ]
+    }
+  }
+}

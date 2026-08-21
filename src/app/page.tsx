@@ -32,6 +32,9 @@ export default function Home() {
           Explore Santhya Path &rarr;
         </Link>
       </div>
+      <Link href="/login" className="mt-4 text-sm text-[var(--foreground)]/60 hover:underline">
+        Parent sign-in &rarr;
+      </Link>
     </main>
   );
 }

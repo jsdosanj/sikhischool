@@ -1,6 +1,7 @@
 import { eq } from "drizzle-orm";
 import { getDb } from "./db";
 import { courses } from "../../drizzle/schema";
+import { GRADE_ORDER } from "./grades";
 
 export const GRADE_BAND_ORDER = ["K-2", "3-5", "6-8", "9-12"] as const;
 
@@ -14,8 +15,6 @@ export const SUBJECT_LABELS: Record<string, string> = {
   "life-skills": "Life Skills",
   "digital-literacy": "Digital Literacy",
 };
-
-const GRADE_ORDER = ["K", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
 
 function compareGradeLevel(a: string, b: string): number {
   const ia = GRADE_ORDER.indexOf(a);

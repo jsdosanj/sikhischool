@@ -5,7 +5,14 @@ import { sqliteTable, text, integer, primaryKey } from "drizzle-orm/sqlite-core"
 // the app-specific profile + role data, linked by email after sign-in. ──
 
 export const users = sqliteTable("users", {
-  id: text("id").primaryKey(),
+  // $defaultFn (not just .primaryKey()) matters here: next-auth's Email-provider
+  // flow calls adapter.createUser() with NO id (core/lib/callback-handler.js
+  // strips it before the call, expecting the adapter/DB to generate one).
+  // @auth/drizzle-adapter only supplies its own id when it detects the column
+  // has NO default — without $defaultFn, it silently inserts id: undefined,
+  // which fails the NOT NULL primary key with a swallowed "CreateUserError"
+  // (surfaces to the user as ?error=EmailCreateAccount, no useful logs).
+  id: text("id").primaryKey().$defaultFn(() => crypto.randomUUID()),
   name: text("name"),
   email: text("email").notNull().unique(),
   emailVerified: integer("email_verified", { mode: "timestamp" }),

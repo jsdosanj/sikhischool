@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-10-1",
+    "courseId": "course-ela-10",
+    "order": 1,
+    "title": "Argumentative Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-10-1-1",
+    "unitId": "unit-ela-10-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Building a Strong Argumentative Claim",
+    "gradeLevel": "10",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every argumentative essay stands or falls on its claim — the specific, debatable position the whole essay defends. A weak claim leads to a weak essay, no matter how well the rest is written."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong claim has three qualities: it's specific (not vague), it's genuinely debatable (a reasonable person could disagree), and it's defensible with real evidence. Compare: 'Social media has effects on teenagers' (too vague — what effects, and is that even debatable?) versus 'Schools should limit smartphone use during class because it measurably improves student focus and classroom participation' (specific, debatable, and points toward the evidence needed to defend it). Practice turning a vague topic into a sharp, debatable claim."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "A precise, debatable claim is the foundation everything else in an argumentative essay is built on. Before you write another word of an essay, always test your claim against these three qualities."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-10-1-1",
+    "lessonId": "lesson-ela-10-1-1",
+    "objectives": [
+      "Define the three qualities of a strong argumentative claim: specific, debatable, defensible",
+      "Revise a vague topic statement into a sharp, debatable claim"
+    ],
+    "materialsNeeded": ["Printed 'Building a Strong Argumentative Claim' worksheet", "Pencil"],
+    "facilitationScript": "1. Present the two example claims (vague vs. sharp) and ask which one would be easier to write a strong essay from, and why.\n2. Introduce the three qualities: specific, debatable, defensible.\n3. Test a few sample claims together against all three qualities — which ones pass, which fail, and why?\n4. Move to the worksheet: revise each vague topic into a sharp, debatable claim.\n5. Read the revised claims aloud and test each one against the three qualities.\n6. Close by picking the strongest claim and brainstorming what kind of evidence would defend it.",
+    "differentiationTips": [
+      "Struggling: work through revising one topic together fully before assigning the rest independently",
+      "Ready for more: write the strongest counterclaim to your own claim, and one piece of evidence that would refute it",
+      "For a child who enjoys debate, have them argue the opposite side of their own claim out loud for two minutes"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Open-ended revision — check that each revised claim is specific (not vague), genuinely debatable (a reasonable person could disagree), and points toward defensible evidence, not just a restated fact.",
+    "standardsRationale": "A strong, debatable claim is the foundational Grade 10 argumentative-writing skill every essay in this course builds on, and this course's world-literature and media-analysis units both draw on the same claim-building skill."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-10-1-1",
+    "lessonId": "lesson-ela-10-1-1",
+    "title": "Building a Strong Argumentative Claim",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Revise each vague topic into a specific, debatable, defensible claim.",
+      "prompts": [
+        { "prompt": "Vague topic: 'Video games affect teenagers.' Write a sharper claim.", "lines": 2 },
+        { "prompt": "Vague topic: 'School schedules are important.' Write a sharper claim.", "lines": 2 },
+        { "prompt": "Vague topic: 'Social media is a big part of life today.' Write a sharper claim.", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-10-1",
+    "courseId": "course-social-studies-10",
+    "order": 1,
+    "title": "Colonialism and the Modern World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-10-1-1",
+    "unitId": "unit-social-studies-10-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Colonialism and Its Legacies: An Introduction",
+    "gradeLevel": "10",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Much of the modern world's political map, economic relationships, and even everyday conflicts trace back to a specific historical pattern: colonialism, when one nation takes control of another people's land and resources. This unit studies that pattern and its lasting effects, including in South Asia and Punjab specifically."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Colonialism typically involved a foreign power controlling a region's government, economy, and often its borders — frequently extracting resources and labor for the colonizing country's benefit, and frequently redrawing political boundaries without regard for existing communities. These patterns left long-lasting effects that outlasted colonial rule itself: economic relationships, political borders, and social divisions that colonized regions had to navigate long after gaining independence. As we move through this unit, we'll study specific historical cases in depth — including how colonialism shaped South Asia, and the specific, consequential events surrounding the end of British rule in India."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "This is a broad introduction to a pattern that shaped much of the modern world. In upcoming lessons, we'll study specific regions and events — including South Asia's colonial history and its aftermath — in much greater depth and care."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-10-1-1",
+    "lessonId": "lesson-social-studies-10-1-1",
+    "objectives": [
+      "Define colonialism as one nation's control over another region's government, economy, and often its borders",
+      "Explain why colonialism's effects often outlasted colonial rule itself (economic relationships, political borders, social divisions)"
+    ],
+    "materialsNeeded": ["Printed 'Colonialism and Its Legacies' worksheet", "Pencil", "Optional: a world map to identify regions that experienced colonial rule"],
+    "facilitationScript": "1. Ask the child what they already know about colonialism, building on prior units if this connects to earlier world history study.\n2. Introduce the core definition and the typical patterns: foreign control of government/economy, resource extraction, redrawn borders.\n3. Discuss why these effects often outlast colonial rule itself — this is the key idea to carry into the rest of the unit.\n4. Preview that upcoming lessons will study specific, sensitive historical events (including South Asia's partition) with more depth and care than this introductory lesson attempts.\n5. Move to the worksheet: respond to the reflection prompts.\n6. Close by naming one region or event the child is curious to study further in this unit.",
+    "differentiationTips": [
+      "Struggling: focus on the single core definition and one concrete example, rather than trying to cover global breadth in one lesson",
+      "Ready for more: research one specific colonial-era border that was redrawn and identify a present-day effect that traces back to it",
+      "This lesson is intentionally a broad framing lesson — specific, sensitive historical events (including the partition of India) deserve their own carefully-sourced lessons, not a brief mention here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Open-ended reflection — check that responses correctly define colonialism and can explain, in their own words, why its effects often outlast colonial rule itself.",
+    "standardsRationale": "This introductory framing lesson sets up the Grade 10 World History (Modern) unit's central theme — colonialism and its lasting legacies — before the unit moves into specific, carefully-sourced case studies including South Asia's colonial history and the global Sikh diaspora."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-10-1-1",
+    "lessonId": "lesson-social-studies-10-1-1",
+    "title": "Colonialism and Its Legacies",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Respond to each prompt in your own words, using complete sentences.",
+      "prompts": [
+        { "prompt": "In your own words, define colonialism.", "lines": 2 },
+        { "prompt": "Why do the effects of colonialism often outlast colonial rule itself? Give one reason.", "lines": 3 },
+        { "prompt": "What is one region or historical event related to colonialism you'd like to study more deeply this unit?", "lines": 2 }
+      ]
+    }
+  }
+}

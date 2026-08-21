@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-10-1",
+    "courseId": "course-sikhi-10",
+    "order": 1,
+    "title": "The Sikh Empire",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-10-1-1",
+    "unitId": "unit-sikhi-10-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Maharaja Ranjit Singh and the Sikh Empire",
+    "gradeLevel": "10",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "In the late 1700s and early 1800s, a young Sikh leader named Ranjit Singh unified rival Punjabi factions into a single, powerful state: the Sikh Empire, centered in Punjab. Today we'll learn about his rise and the kind of state he built."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Ranjit Singh rose from leading one of several Sikh military confederacies (Misls) to unifying them, capturing Lahore in 1799 and establishing himself as Maharaja. His empire, at its height, stretched across Punjab and beyond, and it's remembered for a distinctive style of governance: a religiously diverse court and administration, with Hindu, Muslim, and Sikh officials serving alongside each other, and general religious tolerance for a state of that era. Punjab under his rule became known for relative prosperity, strong infrastructure, and a modernized military. His empire lasted until shortly after his death in 1839, when internal conflicts and later wars with the British East India Company brought Punjab under British control by 1849."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "The Sikh Empire is remembered as a high point of Sikh political power and a notably pluralistic state for its time. In future lessons, we'll study the events following its fall and how they connect to the modern history of Punjab and the Sikh diaspora."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-10-1-1",
+    "lessonId": "lesson-sikhi-10-1-1",
+    "objectives": [
+      "Describe Ranjit Singh's rise from Misl leader to Maharaja of a unified Sikh Empire",
+      "Identify the Sikh Empire's reputation for religious pluralism and administrative/military modernization as distinctive features of the period"
+    ],
+    "materialsNeeded": ["Printed 'Maharaja Ranjit Singh and the Sikh Empire' worksheet", "Pencil", "Optional: a map of Punjab and surrounding regions circa early 1800s"],
+    "facilitationScript": "1. Introduce the Misl system briefly — multiple Sikh military confederacies in Punjab before unification.\n2. Walk through Ranjit Singh's rise and the 1799 capture of Lahore.\n3. Discuss the empire's distinctive features: religious pluralism in governance, prosperity, modernized military.\n4. Briefly preview the empire's end (1839 death, later British annexation by 1849) without going deep into that period — it's covered in a future lesson.\n5. Move to the worksheet: respond to the reflection prompts.\n6. Close by discussing why a pluralistic governing style might have been notable for that era.",
+    "differentiationTips": [
+      "Struggling: focus on the single big idea (unification + pluralistic governance) rather than a detailed timeline",
+      "Ready for more: research one specific official or general in Ranjit Singh's court and their background",
+      "This lesson intentionally focuses on the empire's rise and character — the empire's fall and British annexation are covered in a later, separate lesson"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Open-ended reflection — check that responses correctly describe Ranjit Singh's rise to Maharaja and can name at least one distinctive feature of the Sikh Empire's governance.",
+    "standardsRationale": "The Sikh Empire under Maharaja Ranjit Singh is a foundational Grade 10 Sikh-history topic, bridging the Mughal-era history studied earlier in the course with the modern-history and diaspora topics covered later."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-10-1-1",
+    "lessonId": "lesson-sikhi-10-1-1",
+    "title": "Maharaja Ranjit Singh and the Sikh Empire",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Respond to each prompt in your own words, using complete sentences.",
+      "prompts": [
+        { "prompt": "How did Ranjit Singh rise to become Maharaja of a unified Sikh Empire?", "lines": 3 },
+        { "prompt": "What made the Sikh Empire's governance distinctive for its era?", "lines": 3 },
+        { "prompt": "Why do you think historians consider this a high point of Sikh political power?", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-science-7-1",
+    "courseId": "course-science-7",
+    "order": 1,
+    "title": "Matter and Chemical Reactions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-7-1-1",
+    "unitId": "unit-science-7-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Physical vs. Chemical Changes",
+    "gradeLevel": "7",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Ice melting and wood burning both look like 'change,' but they're actually two completely different kinds of change at the molecular level. Today we'll learn to tell them apart."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A physical change alters an object's form or appearance without changing what it's actually made of — melting ice is still water molecules, just in a different state. A chemical change creates a genuinely new substance with different properties. Look for these four clues that a chemical change has happened: a color change that isn't explained by mixing colors, gas bubbles forming (without boiling), a temperature change happening on its own, or a solid forming out of two liquids (a precipitate). Wood burning is a chemical change — it produces ash, smoke, and gas, substances completely different from wood."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have four real clues scientists use to spot a chemical reaction. This week, look for one example of each kind of change happening around you."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-7-1-1",
+    "lessonId": "lesson-science-7-1-1",
+    "objectives": [
+      "Distinguish a physical change (form/appearance changes, substance stays the same) from a chemical change (a new substance forms)",
+      "Identify the four common evidence signs of a chemical reaction: color change, gas production, temperature change, precipitate formation"
+    ],
+    "materialsNeeded": ["Printed 'Physical vs. Chemical Changes' worksheet", "Pencil", "Optional: baking soda + vinegar for a safe, visible chemical-reaction demonstration"],
+    "facilitationScript": "1. Ask the child to describe what happens when ice melts, and separately, what happens when wood burns. Are these the same kind of change?\n2. Introduce the physical vs. chemical distinction: does the substance stay fundamentally the same, or does something new form?\n3. Introduce the four evidence clues for a chemical change: color change, gas bubbles, temperature change, precipitate.\n4. If materials are available, demonstrate the baking soda + vinegar reaction and identify which evidence clue(s) appear (gas bubbles).\n5. Move to the worksheet: classify each scenario as a physical or chemical change.\n6. Close by having the child explain, in their own words, the difference between the two kinds of change.",
+    "differentiationTips": [
+      "Struggling: focus on very clear-cut examples first (melting ice vs. burning paper) before tackling ambiguous ones (dissolving sugar, which is physical, can feel tricky)",
+      "Ready for more: research one more clue scientists use (like light or sound produced) and add it to the list",
+      "For a hands-on learner, do the baking soda + vinegar demonstration and have them describe every piece of evidence they observe"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Physical (ice melting — still water). 2. Chemical (wood burning — new substances form). 3. Physical (tearing paper — still paper). 4. Chemical (iron rusting — new substance, iron oxide, forms). 5. Physical (dissolving sugar in water — sugar is still sugar, just dispersed).",
+    "standardsRationale": "Distinguishing physical from chemical changes using observable evidence is a foundational Grade 7 physical-science skill, building the scientific-observation habits needed for the unit's deeper study of energy and chemical reactions."
+  },
+  "worksheet": {
+    "id": "worksheet-science-7-1-1",
+    "lessonId": "lesson-science-7-1-1",
+    "title": "Physical vs. Chemical Changes",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each scenario, write whether it is a PHYSICAL or CHEMICAL change.",
+      "rows": [
+        { "problem": "Ice melting into water" },
+        { "problem": "Wood burning in a campfire" },
+        { "problem": "Tearing a piece of paper" },
+        { "problem": "An iron nail rusting over time" },
+        { "problem": "Dissolving sugar in water" }
+      ]
+    }
+  }
+}

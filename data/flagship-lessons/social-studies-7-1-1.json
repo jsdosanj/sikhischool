@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-7-1",
+    "courseId": "course-social-studies-7",
+    "order": 1,
+    "title": "Faith and Empire in the Medieval World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-7-1-1",
+    "unitId": "unit-social-studies-7-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The Guru Period: Foundations of the Sikh Panth",
+    "gradeLevel": "7",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "In the late 1400s, in the region of Punjab in South Asia, a new spiritual and social movement began that would grow into a major world religion: Sikhi. Today we'll look at how the Sikh Panth — the Sikh community and its institutions — developed over roughly two centuries."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Guru Nanak, born in Punjab in 1469, taught the oneness of God and the equality of all people regardless of caste, gender, or background — and he institutionalized that equality through Langar, a free community kitchen where everyone sat and ate together. Over the next roughly two centuries, nine more Gurus led the growing community, building institutions like the city of Amritsar and the compilation of a sacred scripture (completed under Guru Arjan in the early 1600s). In 1699, the tenth Guru, Guru Gobind Singh, formalized the Khalsa, a committed core of the community with a distinct visible identity. Before his passing, he established the Guru Granth Sahib — the scripture itself — as the eternal, living Guru, ending the line of human Gurus."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "In roughly 200 years, a new faith community grew from one teacher's message into an organized Panth with its own institutions, scripture, and identity — a significant development in the history of Punjab and South Asia. In future lessons, we'll look more closely at specific events and figures from this period."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-7-1-1",
+    "lessonId": "lesson-social-studies-7-1-1",
+    "objectives": [
+      "Place the founding and early development of the Sikh Panth within the medieval/early-modern timeline (late 1400s-1699)",
+      "Identify at least two key institutional developments during the Guru period (e.g. Langar, the compiled scripture, the founding of Amritsar, the Khalsa)"
+    ],
+    "materialsNeeded": ["Printed 'The Guru Period' worksheet", "Pencil", "Optional: a South Asia map showing Punjab's location"],
+    "facilitationScript": "1. Locate Punjab on a map and place it within the broader South Asian region being studied this unit.\n2. Introduce Guru Nanak's founding teachings: oneness of God, equality across caste/gender/background.\n3. Walk through the timeline of institutional development across the ten Gurus, without needing to memorize every name — focus on the big developments (Langar, Amritsar, the scripture, the Khalsa).\n4. Discuss why 1699's formation of the Khalsa was a major turning point.\n5. Move to the worksheet: respond to the reflection prompts using the timeline discussed.\n6. Close by connecting this to the broader unit theme: how faith communities develop institutions and identity over time.",
+    "differentiationTips": [
+      "Struggling: focus on just three big ideas — Guru Nanak's founding teachings, Langar, and the Khalsa — rather than the full timeline of ten Gurus",
+      "Ready for more: research how the compilation of the Guru Granth Sahib compares to the compilation of another world religion's central scripture",
+      "This lesson is intentionally an overview — plan to go deeper into specific events, figures, and their historical context in later lessons in this unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Open-ended reflection — check that responses correctly place the Guru period within the medieval/early-modern timeline and reference at least one real institutional development discussed in the lesson.",
+    "standardsRationale": "The Guru period and the rise of the Sikh Panth is explicitly named in Washington's Grade 7 World History (Medieval & Early Modern) sequence, and situating it within the broader history of faith communities in this era connects it to the unit's larger comparative theme."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-7-1-1",
+    "lessonId": "lesson-social-studies-7-1-1",
+    "title": "The Guru Period",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Respond to each prompt in your own words, using complete sentences.",
+      "prompts": [
+        { "prompt": "What were Guru Nanak's core founding teachings?", "lines": 2 },
+        { "prompt": "Name one institution developed during the Guru period and explain its purpose.", "lines": 3 },
+        { "prompt": "Why was 1699's formation of the Khalsa a turning point for the Sikh Panth?", "lines": 3 }
+      ]
+    }
+  }
+}

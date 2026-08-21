@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-k-1",
+    "courseId": "course-math-k",
+    "order": 1,
+    "title": "Counting & Numbers to 20",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-k-1-5",
+    "unitId": "unit-math-k-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Counting, Writing, Comparing, and Adding",
+    "gradeLevel": "K",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you counted objects, wrote numbers, compared groups, and even did your first addition! Today is review day — no new skills, just practice putting it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's do a little bit of everything: count a group of objects out loud, write the number you counted, then make a second group and compare the two, then combine them and find the total. Which part felt easiest? Which part would you like more practice with?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've built a real math foundation this week — counting, writing, comparing, and adding. Next week, we'll keep building on these same skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-k-1-5",
+    "lessonId": "lesson-math-k-1-5",
+    "objectives": [
+      "Demonstrate all four skills practiced this week — counting, writing numerals, comparing groups, and combining groups — in one cumulative activity",
+      "Self-identify which skill feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "Small objects for the cumulative hands-on activity"],
+    "facilitationScript": "1. Walk through all four skills in sequence with real objects: count a group, write the number, make a second group and compare, then combine and find the total.\n2. Ask which part felt easiest and which felt hardest — there's no wrong answer, this just guides next week's pacing.\n3. Move to the worksheet: complete the mixed review problems covering all four skills.\n4. Praise effort and progress across the whole week, not just today's performance.\n5. Close by previewing that next week continues building on these same skills.",
+    "differentiationTips": [
+      "Struggling: spend extra time on whichever single skill felt hardest, rather than requiring equal practice across all four",
+      "Ready for more: ask the child to create and solve their own mixed problem (count, write, compare, add) using objects around them",
+      "For a child who enjoys games, turn this into a scavenger hunt — find and count real objects around the house for each skill"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Row 1 (count and write): 6, 9, 4 (matching the shapes shown). Rows 2-3 (compare/add): check against each specific problem's correct comparison or sum.",
+    "standardsRationale": "A dedicated review day after a full week of new number-sense skills matches the platform's established pacing pattern (see the Punjabi K and Sikhi K units' own Day 5 review lessons) — consolidation before adding more content is essential at this age."
+  },
+  "worksheet": {
+    "id": "worksheet-math-k-1-5",
+    "lessonId": "lesson-math-k-1-5",
+    "title": "Review Day: Counting, Writing, Comparing, and Adding",
+    "generationTemplateKey": "count-and-write-v1",
+    "generationData": {
+      "rows": [
+        { "count": 6, "label": "stars" },
+        { "count": 9, "label": "circles" },
+        { "count": 4, "label": "triangles" }
+      ]
+    }
+  }
+}

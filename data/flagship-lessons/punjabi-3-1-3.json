@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-punjabi-3-1",
+    "courseId": "course-punjabi-3",
+    "order": 1,
+    "title": "Nouns, Verbs, and Adjectives",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-3-1-3",
+    "unitId": "unit-punjabi-3-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Describing Words: Adjectives (ਵਿਸ਼ੇਸ਼ਣ)",
+    "gradeLevel": "3",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know naming words and action words. But how do you describe what something is LIKE? That's the job of today's word type: adjectives."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "An adjective (ਵਿਸ਼ੇਸ਼ਣ) describes a noun — what it's like. Five new adjectives today: ਵੱਡਾ (big), ਛੋਟਾ (small), ਚੰਗਾ (good), ਸੋਹਣਾ (beautiful), and ਲਾਲ (red). Adjectives usually come right before the noun they describe, just like in English: ਵੱਡਾ ਕੁੱਤਾ means 'big dog.' Try describing three nouns from Day 1 with an adjective from today — for example, ਸੋਹਣੀ ਕੁੜੀ (beautiful girl) or ਛੋਟਾ ਕੁੱਤਾ (small dog)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know all three word types this week's unit is named for: nouns, verbs, and adjectives. Tomorrow we'll combine all three into real, full sentences."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-3-1-3",
+    "lessonId": "lesson-punjabi-3-1-3",
+    "objectives": [
+      "Define an adjective as a describing word for a noun",
+      "Read and correctly pair 5 Gurmukhi adjectives with nouns from Day 1"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review nouns (Day 1) and verbs (Day 2).\n2. Introduce the term ਵਿਸ਼ੇਸ਼ਣ (adjective) and the 'describing word' definition.\n3. Introduce the 5 new adjectives, practicing pronunciation together.\n4. Practice pairing adjectives with Day 1's nouns, noting the adjective comes before the noun (same as English word order).\n5. Complete the worksheet.\n6. Preview tomorrow's topic: combining nouns, verbs, and adjectives into full sentences.",
+    "differentiationTips": [
+      "Struggling: focus on just 2-3 adjectives paired with the most familiar nouns (ਕੁੱਤਾ, ਕਿਤਾਬ) rather than all 5",
+      "Ready for more: ask them to describe the same noun with two different adjectives and explain how the meaning changes",
+      "All Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਵੱਡਾ = big. 2. ਛੋਟਾ = small. 3. ਚੰਗਾ = good. 4. ਸੋਹਣਾ = beautiful. 5. ਲਾਲ = red.",
+    "standardsRationale": "Introduces the third of this week's three core grammar concepts (adjectives, ਵਿਸ਼ੇਸ਼ਣ), completing the noun/verb/adjective set the unit is named for and setting up Day 4's full-sentence synthesis."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-3-1-3",
+    "lessonId": "lesson-punjabi-3-1-3",
+    "title": "Match the Adjective",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the English meaning of each Gurmukhi adjective.",
+      "rows": [
+        { "problem": "ਵੱਡਾ" },
+        { "problem": "ਛੋਟਾ" },
+        { "problem": "ਚੰਗਾ" },
+        { "problem": "ਸੋਹਣਾ" },
+        { "problem": "ਲਾਲ" }
+      ]
+    }
+  }
+}

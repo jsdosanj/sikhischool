@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-3-1",
+    "courseId": "course-punjabi-3",
+    "order": 1,
+    "title": "Nouns, Verbs, and Adjectives",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-3-1-4",
+    "unitId": "unit-punjabi-3-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Building Full Sentences",
+    "gradeLevel": "3",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You now know nouns, verbs, and adjectives separately. Today, put all three together to build real, complete sentences — this week's biggest payoff."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A full sentence can combine an adjective + noun + verb + ਹੈ (is/are). One important rule: adjectives and verbs change slightly depending on whether the noun is masculine or feminine — ਵੱਡਾ becomes ਵੱਡੀ, and ਖੇਡਦਾ becomes ਖੇਡਦੀ, when describing a feminine noun like ਕੁੜੀ. Read these two real sentences aloud: ਵੱਡਾ ਕੁੱਤਾ ਖੇਡਦਾ ਹੈ। (The big dog plays.) ਸੋਹਣੀ ਕੁੜੀ ਪੜ੍ਹਦੀ ਹੈ। (The beautiful girl reads.) Now build two of your own sentences using this week's words, matching masculine or feminine forms correctly."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just built and read real, complete Gurmukhi sentences using nouns, verbs, and adjectives together. Tomorrow we'll review the whole week and read a short passage."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-3-1-4",
+    "lessonId": "lesson-punjabi-3-1-4",
+    "objectives": [
+      "Combine a noun, a matching adjective, and a matching verb into a complete sentence",
+      "Recognize that adjectives and verbs change form to agree with a masculine or feminine noun"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review nouns/verbs/adjectives from Days 1-3.\n2. Read the two example sentences together, pointing out ਵੱਡਾ/ਵੱਡੀ and ਖੇਡਦਾ/ਖੇਡਦੀ as the same word changing to match the noun's gender.\n3. Practice building 2-3 more sentences together out loud before the worksheet.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review and reading passage.",
+    "differentiationTips": [
+      "Struggling: provide the noun and verb, and have the child supply only the adjective, rather than building a full sentence from scratch",
+      "Ready for more: ask them to change a sentence's noun from masculine to feminine and correctly adjust the adjective and verb",
+      "All Gurmukhi words/sentences used in this lesson were validated word-by-word against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਵੱਡਾ ਕੁੱਤਾ ਖੇਡਦਾ ਹੈ। = The big dog plays. 2. ਸੋਹਣੀ ਕੁੜੀ ਪੜ੍ਹਦੀ ਹੈ। = The beautiful girl reads. 3. ਛੋਟਾ ਮੁੰਡਾ ਖਾਂਦਾ ਹੈ। = The small boy eats.",
+    "standardsRationale": "Synthesizes the week's three grammar concepts (nouns, verbs, adjectives) into real sentence construction, directly building the reading-fluency skill the course description names."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-3-1-4",
+    "lessonId": "lesson-punjabi-3-1-4",
+    "title": "Read and Translate",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Read each sentence, then write its English meaning below.",
+      "prompts": [
+        { "prompt": "ਵੱਡਾ ਕੁੱਤਾ ਖੇਡਦਾ ਹੈ।", "lines": 2 },
+        { "prompt": "ਸੋਹਣੀ ਕੁੜੀ ਪੜ੍ਹਦੀ ਹੈ।", "lines": 2 },
+        { "prompt": "ਛੋਟਾ ਮੁੰਡਾ ਖਾਂਦਾ ਹੈ।", "lines": 2 }
+      ]
+    }
+  }
+}

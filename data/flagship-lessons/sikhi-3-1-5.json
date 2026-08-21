@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-sikhi-3-1",
+    "courseId": "course-sikhi-3",
+    "order": 1,
+    "title": "Visiting the Gurdwara",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-3-1-5",
+    "unitId": "unit-sikhi-3-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: A Full Gurdwara Visit",
+    "gradeLevel": "3",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned everything needed to visit a Gurdwara from start to finish. Let's walk through the whole visit, in order, one more time."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review, in the order you'd actually do them: first, remove your shoes and cover your head (Day 2). Next, enter the Darbar Sahib, bow toward the Guru Granth Sahib, and sit on the floor facing forward (Day 3). If it's time for Langar, wash your hands, sit together in pangat, take a reasonable portion, and clear your own spot afterward (Day 4). Act out this whole sequence from start to finish, narrating each step out loud in order."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work — you now know a complete, respectful Gurdwara visit from start to finish, and you understand the values (respect and equality) behind each custom, not just the steps themselves."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-3-1-5",
+    "lessonId": "lesson-sikhi-3-1-5",
+    "objectives": [
+      "Recall the full sequence of Gurdwara etiquette in the correct order",
+      "Explain the value (respect or equality) behind each custom, not just the behavior itself"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of the full sequence together, out loud, in order.\n2. Act out the whole sequence physically from start to finish.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — the child is now ready for a real, confident Gurdwara visit.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to explain WHY each custom exists (respect/equality), not just to recite the steps in order",
+      "This is a great lesson to actually plan a real Gurdwara visit around, if one is coming up"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Remove shoes and cover your head. 2. Bow toward the Guru Granth Sahib and sit on the floor. 3. Wash hands, sit in pangat, take a reasonable portion, clear your own spot. 4. The values behind these customs are respect and equality.",
+    "standardsRationale": "Consolidates the full week's Gurdwara-etiquette sequence before the unit moves to a new topic (stories of courage from Sikh history, per the course description), matching the 'consolidate before adding more' pacing established in every other unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-3-1-5",
+    "lessonId": "lesson-sikhi-3-1-5",
+    "title": "Visiting the Gurdwara: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Put the steps of a Gurdwara visit in order, then answer the last question.",
+      "rows": [
+        { "problem": "What do you do before entering (2 things)?" },
+        { "problem": "What do you do once inside the Darbar Sahib?" },
+        { "problem": "What do you do for Langar (in order)?" },
+        { "problem": "What two values are behind all of these customs?" }
+      ]
+    }
+  }
+}

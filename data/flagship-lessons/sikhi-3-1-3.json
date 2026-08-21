@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-3-1",
+    "courseId": "course-sikhi-3",
+    "order": 1,
+    "title": "Visiting the Gurdwara",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-3-1-3",
+    "unitId": "unit-sikhi-3-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Inside the Darbar Sahib",
+    "gradeLevel": "3",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've removed your shoes and covered your head — now you're ready to enter the Darbar Sahib, the main hall where the Guru Granth Sahib rests. Here's how to move and sit respectfully once inside."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "When you approach the Guru Granth Sahib, you bow gently as a sign of respect, then move to sit on the floor — everyone sits on the floor together, without chairs, which is itself a quiet reminder of equality: no one sits higher than anyone else. It's customary to sit facing the Guru Granth Sahib rather than turning your back to it, and to keep your voice low and calm inside the hall. Practice sitting cross-legged on the floor for a few minutes at home, noticing how it feels, and practice moving quietly from a standing position to sitting."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know how to enter, bow, and sit respectfully inside the Darbar Sahib. Tomorrow we'll learn Langar etiquette — how to eat together in the community kitchen."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-3-1-3",
+    "lessonId": "lesson-sikhi-3-1-3",
+    "objectives": [
+      "Describe how to approach and sit respectfully inside the Darbar Sahib",
+      "Connect sitting on the floor to the value of equality"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Open floor space for practice sitting"],
+    "facilitationScript": "1. Review yesterday's shoes/head-covering customs.\n2. Introduce bowing and floor-sitting as the next steps once inside.\n3. Discuss why everyone sits on the floor together (equality — no one sits higher).\n4. Practice sitting cross-legged and moving quietly from standing to sitting.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: Langar etiquette.",
+    "differentiationTips": [
+      "Struggling: focus on just one behavior at a time (first bowing, then separately floor-sitting) rather than combining both",
+      "Ready for more: ask them to explain in their own words why sitting on the floor is a form of teaching, not just a practical arrangement",
+      "If floor-sitting is physically difficult for the child, adapt respectfully and note that Gurdwaras are generally accommodating of individual needs"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Bow gently toward the Guru Granth Sahib. 2. Sit on the floor, facing the Guru Granth Sahib. 3. Sitting on the floor together (without chairs) reminds everyone that no one is higher than anyone else — a sign of equality.",
+    "standardsRationale": "Continues the course's 'Gurdwara etiquette' description with real, respectful behavioral guidance, while explicitly tying the floor-sitting custom to the equality value already established in earlier grades."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-3-1-3",
+    "lessonId": "lesson-sikhi-3-1-3",
+    "title": "Inside the Darbar Sahib",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What do you do when you first approach the Guru Granth Sahib?" },
+        { "problem": "Where does everyone sit inside the Darbar Sahib?" },
+        { "problem": "What value does sitting on the floor together remind everyone of?" }
+      ]
+    }
+  }
+}

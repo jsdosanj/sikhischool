@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-3-1",
+    "courseId": "course-sikhi-3",
+    "order": 1,
+    "title": "Visiting the Gurdwara",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-3-1-2",
+    "unitId": "unit-sikhi-3-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Before You Enter: Shoes and Head Covering",
+    "gradeLevel": "3",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Before anyone steps into the Darbar Sahib (the main worship hall), there are two things everyone does — no exceptions, no matter who you are."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Everyone removes their shoes before entering, and everyone covers their head — usually with a scarf, bandana, or small cloth called a rumala if you don't already wear a turban or other head covering. Both customs show respect for the Guru Granth Sahib and the sacred space. Notice something important: this rule applies equally to every single visitor, whether they are a child, an elder, a guest of another faith, or the wealthiest or most famous person in town — nobody skips it. Practice tying a simple head covering at home, and set your shoes neatly by a doorway as practice for a real visit."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know the first two things every single Gurdwara visitor does before entering. Tomorrow we'll learn how to walk and sit inside the Darbar Sahib itself."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-3-1-2",
+    "lessonId": "lesson-sikhi-3-1-2",
+    "objectives": [
+      "Explain why visitors remove shoes and cover their heads before entering a Gurdwara",
+      "Recognize that this custom applies equally to every visitor, regardless of status"
+    ],
+    "materialsNeeded": ["A scarf, bandana, or cloth for head-covering practice", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask if the child remembers these two customs from a past visit.\n2. Explain both customs and their shared purpose: respect.\n3. Emphasize the equality point explicitly — everyone follows this custom, no exceptions.\n4. Practice tying a head covering and setting shoes aside at home.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: walking and sitting inside the Darbar Sahib.",
+    "differentiationTips": [
+      "Struggling: focus on just the 'why' (respect) rather than requiring a perfectly tied head covering",
+      "Ready for more: connect this equality point back to what they learned about equality and Langar in earlier grades",
+      "If the child already regularly wears a head covering, discuss the additional custom of removing shoes only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Remove your shoes and cover your head. 2. Both customs show respect for the Guru Granth Sahib and the sacred space. 3. This rule applies to every single visitor equally, no matter who they are.",
+    "standardsRationale": "Directly addresses the course's 'Gurdwara etiquette' description with the two most universally practiced, uncontroversial customs — reinforcing the equality principle established in earlier grades' Langar lessons."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-3-1-2",
+    "lessonId": "lesson-sikhi-3-1-2",
+    "title": "Before You Enter",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What do you remove before entering a Gurdwara?" },
+        { "problem": "What do you cover before entering a Gurdwara?" },
+        { "problem": "Does this rule apply to everyone equally, or only to some visitors?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-2-1",
+    "courseId": "course-science-2",
+    "order": 1,
+    "title": "Properties of Materials",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-2-1-1",
+    "unitId": "unit-science-2-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Describing Materials by Their Properties",
+    "gradeLevel": "2",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every object around you is made of materials — wood, metal, plastic, fabric, and more. Today we'll practice a real scientist's skill: describing materials by their observable properties."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A property is something you can observe about a material, like whether it's hard or soft, rough or smooth, flexible (bends easily) or rigid (stays stiff), and whether it's transparent or opaque. Find three objects around you made of different materials — maybe a spoon, a sock, and a window. Describe each one's properties using these words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used real scientific vocabulary to describe materials! This week we'll build on these observation skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-2-1-1",
+    "lessonId": "lesson-science-2-1-1",
+    "objectives": [
+      "Use property vocabulary (hard/soft, rough/smooth, flexible/rigid, transparent/opaque) to describe real materials",
+      "Observe and describe the properties of at least three real household objects"
+    ],
+    "materialsNeeded": ["Printed 'Describing Materials' worksheet", "Pencil or crayon", "3-5 household objects made of different materials for hands-on observation"],
+    "facilitationScript": "1. Introduce the property vocabulary pairs one at a time, with a clear example of each.\n2. Gather 3-5 real objects and observe them together, describing each with at least two properties.\n3. Discuss why the same material might have multiple properties (a spoon is both hard and smooth).\n4. Move to the worksheet: describe each pictured/named object using property words.\n5. Close by finding one more object and describing its properties together.",
+    "differentiationTips": [
+      "Struggling: focus on just one property pair (hard/soft) across several objects before introducing more vocabulary",
+      "Ready for more: introduce additional properties like waterproof/absorbent or magnetic/non-magnetic",
+      "For a hands-on learner, blindfold-style guessing (feel an object and describe its properties before looking) adds a fun challenge"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary and observation activity — check that the child correctly applies at least two property words per object, with reasonable justification.",
+    "standardsRationale": "Describing and classifying materials by observable properties is a core Grade 2 physical-science skill (matching the NGSS 2-PS1 standard) that this whole week's investigation builds on."
+  },
+  "worksheet": {
+    "id": "worksheet-science-2-1-1",
+    "lessonId": "lesson-science-2-1-1",
+    "title": "Describing Materials",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each material, write at least two properties that describe it (hard/soft, rough/smooth, flexible/rigid, transparent/opaque).",
+      "rows": [
+        { "problem": "A wooden spoon" },
+        { "problem": "A cotton sock" },
+        { "problem": "A glass window" },
+        { "problem": "A rubber band" }
+      ]
+    }
+  }
+}

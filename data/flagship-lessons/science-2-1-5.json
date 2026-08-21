@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-2-1",
+    "courseId": "course-science-2",
+    "order": 1,
+    "title": "Properties of Materials",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-2-1-5",
+    "unitId": "unit-science-2-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Properties of Materials",
+    "gradeLevel": "2",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you became a real materials scientist! You described, classified, and investigated properties, and even studied heating and cooling. Today is review day."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's put it all together: describe a material's properties, sort objects by a property, explain why a material is chosen for a job, and decide if a heating/cooling change reverses. Try answering each from memory first, then check together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you built real scientific understanding of materials and their properties! Next week, we'll keep exploring more about our world."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-2-1-5",
+    "lessonId": "lesson-science-2-1-5",
+    "objectives": [
+      "Recall and explain, in simple words, all four concepts from this week (properties, classification, material choice, heating/cooling changes)",
+      "Self-identify which concept feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Ask the four big review questions one at a time, letting the child answer from memory first.\n2. Check answers together against what was learned this week.\n3. Move to the worksheet: complete the mixed review questions covering all four days.\n4. Praise effort and progress across the whole week, not just today's recall.\n5. Close by previewing that next week continues exploring science together.",
+    "differentiationTips": [
+      "Struggling: focus review time on whichever single concept felt hardest, rather than requiring equal recall of all four",
+      "Ready for more: ask the child to design their own mini-investigation testing a material's properties, to try later this week",
+      "For a hands-on learner, repeat one of this week's demonstrations (sorting objects or observing ice melt) as a hands-on review"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which of the four concepts the child recalled confidently vs. needed prompting for, to guide next week's pacing.",
+    "standardsRationale": "A dedicated review day after a full week of related NGSS materials-science concepts matches the platform's established pacing pattern — consolidation before adding more content is essential at this age."
+  },
+  "worksheet": {
+    "id": "worksheet-science-2-1-5",
+    "lessonId": "lesson-science-2-1-5",
+    "title": "Review Day: Properties of Materials",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each review question in your own words.",
+      "rows": [
+        { "problem": "Name two properties you could use to describe a material." },
+        { "problem": "Why might an umbrella be made of waterproof fabric?" },
+        { "problem": "Is ice melting a reversible or irreversible change?" },
+        { "problem": "Is cooking an egg a reversible or irreversible change?" }
+      ]
+    }
+  }
+}

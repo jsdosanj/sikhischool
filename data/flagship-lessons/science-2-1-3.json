@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-2-1",
+    "courseId": "course-science-2",
+    "order": 1,
+    "title": "Properties of Materials",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-2-1-3",
+    "unitId": "unit-science-2-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Choosing the Right Material for the Job",
+    "gradeLevel": "2",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Why are umbrellas made of waterproof fabric instead of paper? Why are oven mitts thick and heat-resistant instead of thin cotton? Today we'll investigate why people choose specific materials for specific jobs."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Engineers and designers pick materials based on the properties they need. An umbrella needs to be waterproof, so it's made of a material that repels water. Oven mitts need to resist heat, so they're made of thick, heat-resistant material. Think about a raincoat, a glass cup, and a wool sweater — what property does each need to do its job well?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Choosing the right material for a job is real engineering thinking! Tomorrow we'll investigate how heating and cooling can actually change a material."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-2-1-3",
+    "lessonId": "lesson-science-2-1-3",
+    "objectives": [
+      "Explain why a specific material is chosen for a specific everyday object, based on its needed property",
+      "Match at least three everyday objects to the key property that makes them suited for their purpose"
+    ],
+    "materialsNeeded": ["Printed 'Choosing the Right Material' worksheet", "Pencil or crayon", "Optional: a real umbrella, oven mitt, or raincoat for hands-on discussion"],
+    "facilitationScript": "1. Ask the child why they think umbrellas are waterproof instead of made of paper.\n2. Introduce the engineering idea: materials are chosen based on the properties a job requires.\n3. Discuss oven mitts (heat-resistant), then work through 2-3 more examples together.\n4. Move to the worksheet: match each object to the key property it needs.\n5. Close by inventing a new object together and deciding what property its material would need.",
+    "differentiationTips": [
+      "Struggling: focus on just the umbrella and oven mitt examples, both very concrete and familiar",
+      "Ready for more: discuss why a material might fail at its job if made from the wrong material (a paper umbrella, a metal oven mitt)",
+      "For a design-minded child, have them sketch and label an invented object with its needed material property"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Umbrella needs to be waterproof. 2. Oven mitt needs to be heat-resistant. 3. Glass cup needs to be transparent (see what's inside). 4. Wool sweater needs to be warm/insulating.",
+    "standardsRationale": "Matching material properties to their intended purpose is a core Grade 2 engineering-design application (matching the NGSS 2-PS1 standard), connecting this week's property and classification skills to real-world design thinking."
+  },
+  "worksheet": {
+    "id": "worksheet-science-2-1-3",
+    "lessonId": "lesson-science-2-1-3",
+    "title": "Choosing the Right Material",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each object, write the key property its material needs to do its job well.",
+      "rows": [
+        { "problem": "An umbrella" },
+        { "problem": "An oven mitt" },
+        { "problem": "A glass drinking cup" },
+        { "problem": "A wool sweater" }
+      ]
+    }
+  }
+}

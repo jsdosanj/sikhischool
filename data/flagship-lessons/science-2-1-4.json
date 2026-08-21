@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-science-2-1",
+    "courseId": "course-science-2",
+    "order": 1,
+    "title": "Properties of Materials",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-2-1-4",
+    "unitId": "unit-science-2-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "How Heating and Cooling Change Materials",
+    "gradeLevel": "2",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned that materials have properties. Today let's investigate something surprising: heating and cooling can actually change a material's properties!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Watch what happens to an ice cube left out at room temperature: it melts into liquid water. Now imagine that water going into a freezer: it turns back into solid ice. This is a change you can reverse! Now think about butter melting in a hot pan versus an egg cooking in a hot pan — the butter can go back to solid if it cools, but the cooked egg can never go back to being raw again. Which changes have you noticed can reverse, and which can't?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Some changes from heating and cooling can reverse, and some can't — that's a real scientific observation. Tomorrow is review day, where we'll bring together everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-2-1-4",
+    "lessonId": "lesson-science-2-1-4",
+    "objectives": [
+      "Describe how heating and cooling can change a material (melting, freezing)",
+      "Distinguish a reversible change (ice melting/refreezing) from an irreversible change (cooking an egg)"
+    ],
+    "materialsNeeded": ["Printed 'Heating and Cooling' worksheet", "Pencil or crayon", "Optional: an ice cube to observe melting in real time"],
+    "facilitationScript": "1. If possible, observe a real ice cube melting together, checking back every few minutes.\n2. Discuss that this change (solid to liquid) can reverse if the water freezes again.\n3. Introduce the butter-vs-egg comparison: one change reverses, one doesn't.\n4. Brainstorm 2-3 more examples of reversible and irreversible heating/cooling changes.\n5. Move to the worksheet: sort each example as reversible or irreversible.\n6. Close by asking why cooking an egg can't be 'undone,' unlike melting ice.",
+    "differentiationTips": [
+      "Struggling: focus on just the ice-melting example, since it's the clearest and most familiar reversible change",
+      "Ready for more: discuss chocolate melting and re-hardening as another reversible example, contrasted with baking a cake",
+      "For a hands-on learner, do a real, safe kitchen observation together (with supervision) of one reversible and one irreversible change"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Ice melting = reversible. 2. Cooking an egg = irreversible. 3. Butter melting = reversible. 4. Baking a cake = irreversible. 5. Chocolate melting = reversible.",
+    "standardsRationale": "Observing that heating/cooling can cause reversible or irreversible changes in materials is a core Grade 2 physical-science standard (matching NGSS 2-PS1-4), completing this week's properties-of-materials investigation."
+  },
+  "worksheet": {
+    "id": "worksheet-science-2-1-4",
+    "lessonId": "lesson-science-2-1-4",
+    "title": "Heating and Cooling",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each example, write whether the change is REVERSIBLE (can go back) or IRREVERSIBLE (cannot go back).",
+      "rows": [
+        { "problem": "Ice melting into water" },
+        { "problem": "Cooking a raw egg" },
+        { "problem": "Butter melting in a warm pan" },
+        { "problem": "Baking batter into a cake" },
+        { "problem": "Chocolate melting and then cooling" }
+      ]
+    }
+  }
+}

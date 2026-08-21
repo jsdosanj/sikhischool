@@ -193,6 +193,15 @@ export const badges = sqliteTable("badges", {
   criteria: text("criteria"),
 });
 
+// Which child earned which badge, and when — badges themselves (the catalog)
+// live in `badges` above; this is the join table recording actual awards.
+export const childBadges = sqliteTable("child_badges", {
+  id: text("id").primaryKey(),
+  childProfileId: text("child_profile_id").notNull().references(() => childProfiles.id),
+  badgeId: text("badge_id").notNull().references(() => badges.id),
+  earnedAt: integer("earned_at", { mode: "timestamp" }).notNull(),
+});
+
 export const studentProgress = sqliteTable("student_progress", {
   id: text("id").primaryKey(),
   childProfileId: text("child_profile_id").notNull().references(() => childProfiles.id),

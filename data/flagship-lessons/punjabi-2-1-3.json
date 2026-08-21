@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-2-1",
+    "courseId": "course-punjabi-2",
+    "order": 1,
+    "title": "Verbs, Sentences, and Short Stories",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-2-1-3",
+    "unitId": "unit-punjabi-2-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Growing Our Sentences: Adding What",
+    "gradeLevel": "2",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਮੈਂ ਪਾਣੀ ਪੀਂਦਾ ਹਾਂ! (Main paani peenda haan! - I drink water!) Yesterday your sentences said WHO did something. Today let's grow them by adding WHAT."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Remember paani (water) from last year? Now we can build a bigger sentence: ਮੈਂ ਪਾਣੀ ਪੀਂਦਾ ਹਾਂ (main paani peenda haan, I drink water). The pattern grows to: who + what + action. Try building one more: use ghar (home) with the verb jaana (to go) — main ghar jaanda haan (I go home)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Your sentences are getting bigger and more detailed! Tomorrow we'll use everything you've learned to read a short story."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-2-1-3",
+    "lessonId": "lesson-punjabi-2-1-3",
+    "objectives": [
+      "Build a 'who + what + action' sentence, combining a subject, an object, and a verb",
+      "Reuse last year's family/home vocabulary (paani, ghar) in a new sentence-building context"
+    ],
+    "materialsNeeded": ["Printed 'Growing Our Sentences' worksheet", "Pencil"],
+    "facilitationScript": "1. Review paani and ghar from last year.\n2. Introduce the new verb jaana (to go).\n3. Model main paani peenda haan and main ghar jaanda haan together.\n4. Practice building 1-2 more sentences combining last year's vocabulary with this week's verbs.\n5. Move to the worksheet: build each sentence using the given word and verb.\n6. Close by having the child say their favorite new sentence out loud.",
+    "differentiationTips": [
+      "Struggling: focus on just one complete sentence (main paani peenda haan) rather than building several",
+      "Ready for more: challenge the child to build a sentence using a word not explicitly given, from memory",
+      "For a child who enjoys drawing, have them illustrate their sentence to reinforce meaning"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a sentence-building activity — check that the child correctly combines main, an object word, and a verb into a complete sentence.",
+    "standardsRationale": "Growing sentences with an object is the natural next step in the Grade 2 Punjabi course's sentence-construction sequence, building directly on yesterday's subject+verb pattern."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-2-1-3",
+    "lessonId": "lesson-punjabi-2-1-3",
+    "title": "Growing Our Sentences",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Build a sentence using each word and verb given.",
+      "prompts": [
+        { "prompt": "Build a sentence using paani (water) and peena (to drink).", "lines": 1 },
+        { "prompt": "Build a sentence using ghar (home) and jaana (to go).", "lines": 1 }
+      ]
+    }
+  }
+}

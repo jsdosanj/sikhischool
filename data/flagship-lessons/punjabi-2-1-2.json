@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-2-1",
+    "courseId": "course-punjabi-2",
+    "order": 1,
+    "title": "Verbs, Sentences, and Short Stories",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-2-1-2",
+    "unitId": "unit-punjabi-2-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Building Simple Sentences: Who + Action",
+    "gradeLevel": "2",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਮੈਂ ਖੇਡਦਾ ਹਾਂ! (Main khedda haan! - I play!) Yesterday you learned action words. Today let's put them together with 'who' to build your very first real Punjabi sentences."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਮੈਂ (main) means I. A simple sentence pattern is: who + action + haan (am/do). For a boy: ਮੈਂ ਖੇਡਦਾ ਹਾਂ (main khedda haan, I play). For a girl: ਮੈਂ ਖੇਡਦੀ ਹਾਂ (main kheddi haan, I play) — notice the verb ending changes slightly! Try building your own sentence using yesterday's verbs: khana, peena, or sauna."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just built your very first real Punjabi sentences! Tomorrow we'll add even more to our sentences by including what we're doing the action to."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-2-1-2",
+    "lessonId": "lesson-punjabi-2-1-2",
+    "objectives": [
+      "Build a simple 'I + verb' sentence using main and a verb from yesterday's lesson",
+      "Recognize that Punjabi verb endings can change slightly based on the speaker (a beginning awareness of gendered verb agreement)"
+    ],
+    "materialsNeeded": ["Printed 'Building Simple Sentences' worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce main (I) and the simple who+action+haan sentence pattern.\n2. Model main khedda haan (for a boy) and main kheddi haan (for a girl), pointing out the small ending change.\n3. Practice building 2-3 more sentences together using yesterday's verbs.\n4. Move to the worksheet: build a sentence for each verb.\n5. Close by having the child say their favorite new sentence out loud.",
+    "differentiationTips": [
+      "Struggling: focus on just one verb (khedna) and one correct sentence, rather than building several new sentences at once",
+      "Ready for more: introduce tusi (you) as a second subject and build one sentence with it",
+      "For a child who enjoys performing, have them act out their sentence while saying it aloud"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a sentence-building activity — check that the child correctly combines main with a verb and haan, using the gender-appropriate verb ending.",
+    "standardsRationale": "Building simple subject+verb sentences is the Grade 2 Punjabi course's core sentence-construction skill, directly applying yesterday's verb vocabulary into real grammatical structures."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-2-1-2",
+    "lessonId": "lesson-punjabi-2-1-2",
+    "title": "Building Simple Sentences",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Build a sentence for each verb using 'Main ___ haan' (I ___).",
+      "prompts": [
+        { "prompt": "Build a sentence using khana (to eat).", "lines": 1 },
+        { "prompt": "Build a sentence using peena (to drink).", "lines": 1 },
+        { "prompt": "Build a sentence using sauna (to sleep).", "lines": 1 }
+      ]
+    }
+  }
+}

@@ -6,7 +6,7 @@ export default function LoginPage() {
       <h1 className="text-2xl font-bold">Sign in</h1>
       <p className="mt-2 text-sm text-[var(--foreground)]/70">
         Free, no password — we&apos;ll email you a magic sign-in link. This account is for
-        parents; children never sign in directly.
+        parents and teachers; children never sign in directly.
       </p>
       <LoginForm />
     </main>

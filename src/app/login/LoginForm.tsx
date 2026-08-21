@@ -3,8 +3,15 @@
 import { useState } from "react";
 import { signIn } from "next-auth/react";
 
+// Role determines only the destination page after sign-in (/dashboard vs
+// /teacher/dashboard) — that page lazily provisions the matching ParentAccount
+// or TeacherAccount row on first visit. Not plumbed through NextAuth's own
+// events.createUser: that fires once per new *email identity*, with no access
+// to which role the person intended, and a person can legitimately hold both
+// roles (same pattern sikhiuni uses for multi-hat accounts).
 export default function LoginForm() {
   const [email, setEmail] = useState("");
+  const [role, setRole] = useState<"parent" | "teacher">("parent");
   const [sent, setSent] = useState(false);
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -32,13 +39,35 @@ export default function LoginForm() {
         }
         setError(null);
         setPending(true);
-        await signIn("email", { email, callbackUrl: "/dashboard", redirect: false });
+        const callbackUrl = role === "teacher" ? "/teacher/dashboard" : "/dashboard";
+        await signIn("email", { email, callbackUrl, redirect: false });
         setPending(false);
         setSent(true);
       }}
     >
+      <fieldset className="flex gap-4">
+        <legend className="text-sm font-medium">I am joining as a…</legend>
+        <label className="flex items-center gap-1.5 text-sm">
+          <input
+            type="radio"
+            name="role"
+            checked={role === "parent"}
+            onChange={() => setRole("parent")}
+          />
+          Parent
+        </label>
+        <label className="flex items-center gap-1.5 text-sm">
+          <input
+            type="radio"
+            name="role"
+            checked={role === "teacher"}
+            onChange={() => setRole("teacher")}
+          />
+          Teacher
+        </label>
+      </fieldset>
       <label className="text-sm font-medium" htmlFor="email">
-        Parent&apos;s email
+        Email
       </label>
       <input
         id="email"

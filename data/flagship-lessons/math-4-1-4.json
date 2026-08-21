@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-4-1",
+    "courseId": "course-math-4",
+    "order": 1,
+    "title": "Multi-Digit Multiplication",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-4-1-4",
+    "unitId": "unit-math-4-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Multi-Digit Multiplication Word Problems",
+    "gradeLevel": "4",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned to multiply 2-digit, 3-digit, and 2-digit-by-2-digit numbers. Today, put those skills to work solving real-world problems."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's solve this together: A school orders 24 boxes of pencils, with 12 pencils in each box. How many pencils in total? First, identify the multiplication: 24 x 12. Using the area model: 20x10=200, 20x2=40, 4x10=40, 4x2=8. Add them: 200+40+40+8 = 288 pencils total. The key skill in a word problem is deciding WHICH numbers to multiply — look for phrases like 'each' or 'per' as your clue."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Try these on your own: a theater has 18 rows of 25 seats each — how many seats total? A shop has 15 bags with 34 marbles in each — how many marbles total? Use the area model for each one."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-4-1-4",
+    "lessonId": "lesson-math-4-1-4",
+    "objectives": [
+      "Identify the correct multiplication from a real-world word problem",
+      "Apply the area model to solve multi-digit multiplication word problems"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's area-model technique across 2-digit, 3-digit, and 2x2-digit problems.\n2. Work through the pencil-boxes example together, emphasizing how to identify the multiplication from the words ('each', 'per').\n3. Have the child solve the seats and marbles problems independently, checking their identification of the multiplication before checking the arithmetic.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: underline the two key numbers in each word problem together before starting the multiplication",
+      "Ready for more: ask them to write their own word problem for a partner to solve, using a multiplication from earlier this week",
+      "Encourage always writing a full sentence answer with the correct unit (pencils, seats, marbles), not just a bare number"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 24 x 12 = 288 pencils. 2. 18 x 25 = 450 seats. 3. 15 x 34 = 510 marbles. 4. 27 x 8 = 216 chairs.",
+    "standardsRationale": "Applies the week's area-model multiplication skill (4.NBT.5) to real-world problem-solving contexts (4.OA.3), the natural culmination before Day 5's pure-skill review."
+  },
+  "worksheet": {
+    "id": "worksheet-math-4-1-4",
+    "lessonId": "lesson-math-4-1-4",
+    "title": "Multiplication Word Problems",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each word problem using the area model. Write your answer with the correct unit.",
+      "rows": [
+        { "problem": "A school orders 24 boxes of pencils, 12 pencils in each box. How many pencils total?" },
+        { "problem": "A theater has 18 rows of 25 seats each. How many seats total?" },
+        { "problem": "A shop has 15 bags with 34 marbles in each. How many marbles total?" },
+        { "problem": "A room has 27 tables with 8 chairs at each table. How many chairs total?" }
+      ]
+    }
+  }
+}

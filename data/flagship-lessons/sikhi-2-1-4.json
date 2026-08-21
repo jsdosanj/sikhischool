@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-2-1",
+    "courseId": "course-sikhi-2",
+    "order": 1,
+    "title": "The Five Ks, Vaisakhi, and Service",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-2-1-4",
+    "unitId": "unit-sikhi-2-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Celebrating Vaisakhi Today",
+    "gradeLevel": "2",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about Vaisakhi's history. Today let's explore how it's actually celebrated by Sikh communities today, every spring."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Many communities celebrate Vaisakhi with a Nagar Kirtan — a joyful procession through the streets with music and singing. Families gather at the Gurdwara, and of course, there's langar for everyone. It's a day full of community, music, and togetherness. If your family celebrates Vaisakhi, what does your celebration usually look like?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Vaisakhi connects history (what happened in 1699) with a living, joyful tradition celebrated today. Tomorrow is review day — we'll bring together everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-2-1-4",
+    "lessonId": "lesson-sikhi-2-1-4",
+    "objectives": [
+      "Describe how Vaisakhi is celebrated today (Nagar Kirtan, gathering at the Gurdwara, langar)",
+      "Connect this week's history lesson (what happened in 1699) to a living, present-day tradition"
+    ],
+    "materialsNeeded": ["Printed 'Celebrating Vaisakhi Today' worksheet", "Pencil or crayon", "Optional: photos or video of a real Nagar Kirtan celebration"],
+    "facilitationScript": "1. Review what happened on Vaisakhi in 1699 from earlier this week.\n2. Introduce how Vaisakhi is celebrated today: Nagar Kirtan, gathering at the Gurdwara, langar.\n3. If the family celebrates Vaisakhi, discuss what their own celebration looks like.\n4. Move to the worksheet: trace each vocabulary word and talk through its meaning.\n5. Close by connecting history and celebration — why do communities keep celebrating this day, year after year?",
+    "differentiationTips": [
+      "Struggling: focus on just one element of the celebration (langar, already familiar) rather than all three at once",
+      "Ready for more: discuss why celebrating a historical event helps a community remember and pass on its story",
+      "For a family that celebrates Vaisakhi, make this personal and specific to their own traditions rather than generic"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can name at least one real way Vaisakhi is celebrated today.",
+    "standardsRationale": "Connecting historical events to present-day living traditions is a core social-studies-adjacent reasoning skill, completing this week's Vaisakhi thread from origin story to modern celebration."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-2-1-4",
+    "lessonId": "lesson-sikhi-2-1-4",
+    "title": "Celebrating Vaisakhi Today",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Nagar Kirtan", "label": "A joyful procession with music and singing" },
+        { "trace": "Gurdwara", "label": "Where families gather to celebrate" }
+      ]
+    }
+  }
+}

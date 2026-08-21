@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-2-1",
+    "courseId": "course-sikhi-2",
+    "order": 1,
+    "title": "The Five Ks, Vaisakhi, and Service",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-2-1-3",
+    "unitId": "unit-sikhi-2-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Langar: A Real Act of Service",
+    "gradeLevel": "2",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about langar before — the free community kitchen where everyone eats together as equals. Today let's think about langar in a new way: as a real act of service."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A service is help or work someone does for other people. Cooking, serving, and cleaning up at langar are all real acts of service — people volunteer their time and effort so that everyone, no matter who they are, can share a meal. No one gets paid for langar seva; they do it because they want to help. Can you think of a service someone has done for you recently, without expecting payment?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Langar shows that service doesn't need to involve money — helping others is valuable all on its own. Tomorrow we'll learn how Vaisakhi is celebrated today."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-2-1-3",
+    "lessonId": "lesson-sikhi-2-1-3",
+    "objectives": [
+      "Explain langar as a real, concrete example of service (help or work done for others)",
+      "Connect langar to the broader idea that service doesn't require payment to be valuable"
+    ],
+    "materialsNeeded": ["Printed 'Langar: A Real Act of Service' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review what langar is from earlier lessons.\n2. Introduce the word 'service' as help or work someone does for others.\n3. Discuss cooking, serving, and cleaning at langar as real acts of service, done without payment.\n4. Ask the child to think of a service someone has done for them without expecting payment.\n5. Move to the worksheet: trace each vocabulary word and talk through its meaning.\n6. Close by picking one small act of service the child could offer this week.",
+    "differentiationTips": [
+      "Struggling: focus on just one concrete example (someone serving food at langar) rather than the abstract concept of service broadly",
+      "Ready for more: connect this to Seva, learned in earlier grades, and discuss how langar-as-service is one specific example of the bigger idea of Seva",
+      "If this week's Social Studies course has covered goods vs. services, explicitly connect langar to that same 'service' vocabulary"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can explain langar as an act of service in their own words.",
+    "standardsRationale": "Framing langar explicitly as 'service' is the Grade 2 Sikhi course's stated focus, and deliberately reinforces this same vocabulary from this week's Social Studies goods-and-services lesson, connecting learning across subjects."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-2-1-3",
+    "lessonId": "lesson-sikhi-2-1-3",
+    "title": "Langar: A Real Act of Service",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Service", "label": "Help or work done for other people" },
+        { "trace": "Langar", "label": "The free community kitchen" },
+        { "trace": "Volunteer", "label": "Someone who helps without being paid" }
+      ]
+    }
+  }
+}

@@ -32,8 +32,10 @@ export default async function LessonDetailPage({
   const { lesson, guide, worksheet } = result;
 
   const contentBlocks = lesson.contentBlocks as { type: string; ref?: string; text?: string }[];
+  const enrichmentLinks = lesson.enrichmentLinks as { label: string; url: string; source: string }[];
   const shell = shellForGradeBand(gradeBandForLevel(lesson.gradeLevel));
   const little = shell === "little-sparks";
+  const hasGurmukhi = lesson.subject === "punjabi" || lesson.subject === "sikhi";
 
   const parent = await getCurrentParent();
   const children = parent ? await getChildren(parent.id) : [];
@@ -77,13 +79,31 @@ export default async function LessonDetailPage({
           {lesson.title}
         </h1>
 
-        <section className={`mt-6 flex flex-col gap-4 ${little ? "text-lg text-center" : ""}`}>
+        <section
+          className={`mt-6 flex flex-col gap-4 ${little ? "text-lg text-center" : ""}`}
+          style={hasGurmukhi ? { fontFamily: "var(--font-gurmukhi), var(--shell-body-font)" } : undefined}
+        >
           {contentBlocks.map((block, i) => (
             <p key={i} className="leading-relaxed opacity-90">
               {block.text}
             </p>
           ))}
         </section>
+
+        {enrichmentLinks.length > 0 && (
+          <div className="mt-6 flex flex-col gap-2">
+            {enrichmentLinks.map((link) => (
+              <Link
+                key={link.url}
+                href={link.url}
+                className="text-sm font-semibold underline"
+                style={{ color: "var(--shell-accent)" }}
+              >
+                {link.label} &rarr;
+              </Link>
+            ))}
+          </div>
+        )}
 
         {worksheet && (
           <div className={`mt-8 ${little ? "flex justify-center" : ""}`}>

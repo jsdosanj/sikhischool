@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Baloo_2, Atkinson_Hyperlegible, Outfit, Inter, Fraunces } from "next/font/google";
+import { Geist, Geist_Mono, Baloo_2, Atkinson_Hyperlegible, Outfit, Inter, Fraunces, Noto_Sans_Gurmukhi } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
@@ -14,6 +14,9 @@ const atkinson = Atkinson_Hyperlegible({ variable: "--font-little-sparks-body", 
 const outfit = Outfit({ variable: "--font-rising-school-display", subsets: ["latin"], weight: ["500", "600", "700"] });
 const inter = Inter({ variable: "--font-body-sans", subsets: ["latin"] });
 const fraunces = Fraunces({ variable: "--font-studio-display", subsets: ["latin"], weight: ["500", "600"] });
+// For Gurmukhi script text (Punjabi/Sikhi lessons) — the Latin display/body
+// fonts above don't cover Gurmukhi glyphs.
+const notoGurmukhi = Noto_Sans_Gurmukhi({ variable: "--font-gurmukhi", subsets: ["gurmukhi"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Sikhi School",
@@ -24,7 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${balloo.variable} ${atkinson.variable} ${outfit.variable} ${inter.variable} ${fraunces.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${balloo.variable} ${atkinson.variable} ${outfit.variable} ${inter.variable} ${fraunces.variable} ${notoGurmukhi.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

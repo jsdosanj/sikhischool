@@ -1,0 +1,80 @@
+{
+  "unit": {
+    "id": "unit-punjabi-k-1",
+    "courseId": "course-punjabi-k",
+    "order": 1,
+    "title": "Meeting the Gurmukhi Alphabet",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-k-1-1",
+    "unitId": "unit-punjabi-k-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Our First Three Letters: ੳ, ਅ, ੲ",
+    "gradeLevel": "K",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "The Punjabi alphabet is called Gurmukhi. Every Gurmukhi primer begins the same special way: with three letters that don't make their own sound by themselves. Instead, they carry every vowel sound the alphabet has. Today we'll meet all three."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ੳ (ura) looks like a hook with a tail. ਅ (aira) has a tall straight line with a loop. ੲ (iri) curves like a wave. Say each name slowly with your grown-up: oo-raa... ai-raa... ee-ree. These three letters always come first because every other vowel sound in Gurmukhi is written by adding a small mark to one of them."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work! You've met the very first letters every Gurmukhi reader learns. Next time, we'll start adding the marks that turn these three letters into different vowel sounds."
+      }
+    ],
+    "enrichmentLinks": [
+      {
+        "label": "Keep reading: start the Santhya Path with Stage 1",
+        "url": "/santhya-path/muharni-baal-updesh",
+        "source": "sikhischool"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-k-1-1",
+    "lessonId": "lesson-punjabi-k-1-1",
+    "objectives": [
+      "Recognize and name the three Gurmukhi vowel-bearer letters: ੳ (ura), ਅ (aira), ੲ (iri)",
+      "Understand that these three letters carry vowel sounds rather than having one fixed sound of their own"
+    ],
+    "materialsNeeded": [
+      "Printed 'Our First Three Letters' worksheet",
+      "Pencil or crayon",
+      "Optional: a Gurmukhi primer (Painti Akhari) chart, if you have one at home"
+    ],
+    "facilitationScript": "1. Show the child each letter one at a time — ੳ, then ਅ, then ੲ — and say its name aloud together three times.\n2. Ask the child to describe what each letter looks like in their own words (a hook, a tall line with a loop, a wave). This builds visual memory before writing practice.\n3. Trace each letter in the air with a finger before picking up a pencil.\n4. Move to the worksheet: trace each letter in the box, then try writing it once more on the practice line underneath.\n5. Close by saying all three names together in order: ura, aira, iri — this is the order every Gurmukhi primer uses, so it's worth repeating often.",
+    "differentiationTips": [
+      "Struggling: focus on just one letter per sitting rather than all three at once; come back to the others another day",
+      "Ready for more: ask the child to find these three letters if they see any Gurmukhi writing around the house or at the Gurdwara",
+      "For a child who already recognizes the letters, have them try writing all three from memory before tracing"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and recognition activity — there is no right/wrong answer beyond correct letter formation. Check that each traced letter roughly matches the shape shown.",
+    "standardsRationale": "Letter recognition and formation are the foundation every later Punjabi reading and writing skill builds on, matching how Gurmukhi is traditionally introduced in Punjabi primers (the Painti Akhari sequence)."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-k-1-1",
+    "lessonId": "lesson-punjabi-k-1-1",
+    "title": "Our First Three Letters",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its name out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ੳ", "label": "Ura — say 'oo-raa'" },
+        { "trace": "ਅ", "label": "Aira — say 'ai-raa'" },
+        { "trace": "ੲ", "label": "Iri — say 'ee-ree'" }
+      ]
+    }
+  }
+}

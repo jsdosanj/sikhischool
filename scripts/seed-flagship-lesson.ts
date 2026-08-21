@@ -65,7 +65,7 @@ async function main() {
       lesson.aiGenerated ? 1 : 0,
       lesson.aiReviewStatus,
       "[]",
-      "[]",
+      JSON.stringify(lesson.enrichmentLinks ?? []),
     ],
   );
 
@@ -86,7 +86,13 @@ async function main() {
 
   await query(
     "INSERT INTO worksheets (id, lesson_id, title, generation_template_key, generation_data) VALUES (?,?,?,?,?);",
-    [worksheet.id, lesson.id, worksheet.title, "count-and-write-v1", JSON.stringify({ rows: worksheet.rows })],
+    [
+      worksheet.id,
+      lesson.id,
+      worksheet.title,
+      worksheet.generationTemplateKey ?? "count-and-write-v1",
+      JSON.stringify(worksheet.generationData ?? { rows: worksheet.rows }),
+    ],
   );
 
   console.log(`Seeded unit "${unit.title}", lesson "${lesson.title}", teacher guide, and worksheet.`);

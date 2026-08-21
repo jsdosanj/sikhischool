@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-1-1",
+    "courseId": "course-punjabi-1",
+    "order": 1,
+    "title": "Greetings, More Letters, and Simple Words",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-1-1-2",
+    "unitId": "unit-punjabi-1-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Continuing the Alphabet: ਛ, ਜ, and ਝ",
+    "gradeLevel": "1",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last year you learned eleven Gurmukhi letters, ending with ਚ. Today we'll continue right where you left off with three more letters: ਛ, ਜ, and ਝ."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਛ (chhachha) makes a breathier 'chh' sound, related to yesterday's ਚ. ਜ (jaja) makes a 'j' sound, like in 'jump'. ਝ (jhajha) makes a breathier 'jh' sound, related to ਜ. Practice saying all three: chha... ja... jha. Notice the pattern — just like the ਕ ਖ ਗ ਘ row you learned last year, this row has related sounds too."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know fourteen Gurmukhi letters! You're building real reading skills, one letter at a time."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-1-1-2",
+    "lessonId": "lesson-punjabi-1-1-2",
+    "objectives": [
+      "Recognize and name the letters ਛ (chhachha), ਜ (jaja), and ਝ (jhajha)",
+      "Recall all eleven letters learned last year, connecting them to today's three new letters"
+    ],
+    "materialsNeeded": ["Printed 'Continuing the Alphabet' worksheet", "Pencil"],
+    "facilitationScript": "1. Review the eleven letters learned last year, ending with ਚ.\n2. Introduce ਛ, ਜ, ਝ one at a time, saying each name aloud together three times.\n3. Point out the sound-family pattern, just like last year's ਕ ਖ ਗ ਘ ਙ row.\n4. Trace each letter in the air before picking up a pencil.\n5. Move to the worksheet: trace each letter, then write it once more on the practice line.\n6. Close by reciting all fourteen letters learned so far, in order.",
+    "differentiationTips": [
+      "Struggling: if last year's eleven letters aren't fully secure, spend extra time reviewing those before adding new ones",
+      "Ready for more: ask the child to guess what letter might come next in this row (a hint: it's a nasal sound, like ਙ was for the previous row)",
+      "For a child who enjoys patterns, point out how many Gurmukhi consonant rows follow this same related-sounds structure"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and recognition activity — check that each traced letter roughly matches the shape shown.",
+    "standardsRationale": "Continuing the Painti Akhari sequence from exactly where Kindergarten left off builds directly on prior-year learning, keeping the same systematic, well-established letter-by-letter progression."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-1-1-2",
+    "lessonId": "lesson-punjabi-1-1-2",
+    "title": "Continuing the Alphabet: ਛ, ਜ, ਝ",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its name out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਛ", "label": "Chhachha — a breathier 'chh' sound" },
+        { "trace": "ਜ", "label": "Jaja — makes a 'j' sound, like in 'jump'" },
+        { "trace": "ਝ", "label": "Jhajha — a breathier 'jh' sound" }
+      ]
+    }
+  }
+}

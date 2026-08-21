@@ -1,0 +1,14 @@
+{
+  "lessonId": "lesson-science-4-1-1",
+  "quiz": {
+    "id": "quiz-science-4-1-1",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      { "q": "Rubbing your hands together transfers what kind of energy into heat?", "options": ["Light energy", "Motion energy", "Sound energy", "Electrical energy"], "answer": 1 },
+      { "q": "What happens to energy when something heats up, lights up, moves, or makes sound?", "options": ["It disappears", "It transfers from somewhere else", "It is created from nothing", "It stays exactly the same"], "answer": 1 },
+      { "q": "Sunlight warming a dark sidewalk is an example of what kind of energy transfer?", "options": ["Motion to sound", "Light to heat", "Heat to light", "Sound to motion"], "answer": 1 },
+      { "q": "Turning on a lamp transfers what kind of energy into light?", "options": ["Electrical energy", "Motion energy", "Heat energy", "Sound energy"], "answer": 0 }
+    ]
+  }
+}

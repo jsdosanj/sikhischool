@@ -1,0 +1,14 @@
+{
+  "lessonId": "lesson-math-10-1-1",
+  "quiz": {
+    "id": "quiz-math-10-1-1",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      { "q": "Which congruence criterion applies when all three sides of two triangles match?", "options": ["ASA", "SSS", "SAS", "None"], "answer": 1 },
+      { "q": "In SAS, which two things must match?", "options": ["Two angles and the included side", "Two sides and the included angle", "Three sides", "Three angles"], "answer": 1 },
+      { "q": "In ASA, the matching side must be...", "options": ["Any side of the triangle", "Included between the two matching angles", "The longest side", "Outside the two matching angles"], "answer": 1 },
+      { "q": "If only two sides of two triangles match, with no angle given, can you prove congruence?", "options": ["Yes, always", "No, not enough information", "Yes, using SSA", "Only if the triangles look similar"], "answer": 1 }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-3-1",
+    "courseId": "course-social-studies-3",
+    "order": 1,
+    "title": "Communities Around the World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-3-1-2",
+    "unitId": "unit-social-studies-3-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "What Is Culture?",
+    "gradeLevel": "3",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you named one tradition your community shares. Today let's dig into culture — the bigger idea that traditions are part of."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Culture is the shared way of life of a group of people — it includes the language they speak, the food they eat, the clothing they wear, the music and art they create, and the celebrations they hold. No two communities' cultures are exactly alike, and that's something to celebrate, not something to rank as better or worse. Think of one example from each category for your own culture: a word or phrase in a language you speak at home, a food your family eats often, an item of clothing worn for a special occasion, and a celebration or holiday you take part in."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just mapped out five real parts of your own culture. Tomorrow we'll use this same lens — language, food, clothing, celebrations — to explore a real place: Punjab."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-3-1-2",
+    "lessonId": "lesson-social-studies-3-1-2",
+    "objectives": [
+      "Define culture as a group's shared language, food, clothing, art, and celebrations",
+      "Identify a real example of each element from their own culture"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's 'tradition' example.\n2. Introduce culture as the bigger idea: language, food, clothing, art/music, celebrations.\n3. Walk through each element using the child's own culture as the example.\n4. Emphasize explicitly: different cultures are equally valid, not ranked better/worse.\n5. Complete the worksheet.\n6. Preview tomorrow's real-place example: Punjab.",
+    "differentiationTips": [
+      "Struggling: focus on just 2-3 of the 5 categories rather than all 5",
+      "Ready for more: ask them to name a culture different from their own that they already know something about, and identify its language/food/clothing/celebration",
+      "Explicitly affirm that a family blending more than one culture (e.g. through a multicultural household) is completely normal, if relevant to the child"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's own culture — check that each answer fits its category (language/food/clothing/celebration) and is a genuine, specific example rather than a vague generality.",
+    "standardsRationale": "Builds the C3 Framework's Culture dimension vocabulary the child will need to meaningfully compare their own community to Punjab later this week, avoiding a comparison that's just 'different' without any real framework."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-3-1-2",
+    "lessonId": "lesson-social-studies-3-1-2",
+    "title": "My Own Culture",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Respond to each prompt in complete sentences.",
+      "prompts": [
+        { "prompt": "Name a word or phrase in a language you speak at home.", "lines": 2 },
+        { "prompt": "Name a food your family eats often.", "lines": 2 },
+        { "prompt": "Describe a celebration or holiday your family takes part in.", "lines": 3 }
+      ]
+    }
+  }
+}

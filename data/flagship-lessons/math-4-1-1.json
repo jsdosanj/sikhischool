@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-math-4-1",
+    "courseId": "course-math-4",
+    "order": 1,
+    "title": "Multi-Digit Multiplication",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-4-1-1",
+    "unitId": "unit-math-4-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Multiplying a 2-Digit Number by a 1-Digit Number",
+    "gradeLevel": "4",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You already know how to multiply small numbers, like 6 x 7. Today we'll multiply bigger numbers — like 34 x 6 — by breaking them into smaller, easier pieces first."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's multiply 34 x 6 using the area model. Break 34 into 30 + 4. Multiply each part by 6 separately: 30 x 6 = 180, and 4 x 6 = 24. Then add the two results together: 180 + 24 = 204. Breaking a big multiplication into smaller, friendlier pieces — this is called the distributive property — works every time, no matter how big the numbers get."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Try it yourself with 27 x 5: break 27 into 20 + 7, multiply each part by 5, then add the results. Nice work stretching your multiplication skills!"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-4-1-1",
+    "lessonId": "lesson-math-4-1-1",
+    "objectives": [
+      "Multiply a 2-digit number by a 1-digit number using place-value decomposition (the area model)",
+      "Explain why breaking a number into tens and ones makes multiplication easier"
+    ],
+    "materialsNeeded": [
+      "Printed 'Multiplying 2-Digit by 1-Digit Numbers' worksheet",
+      "Pencil",
+      "Optional: grid paper for drawing the area model as rectangles"
+    ],
+    "facilitationScript": "1. Review single-digit multiplication facts briefly (6x7, 8x4) to warm up.\n2. Introduce the area model with 34 x 6: draw a rectangle split into two parts, 30 and 4 wide, 6 tall. Multiply each part separately: 30x6=180, 4x6=24.\n3. Add the two partial products: 180+24=204. Confirm this matches the standard algorithm if the child already knows it.\n4. Do a second example together (27 x 5) with the child leading as much as possible.\n5. Move to the worksheet: solve each problem using the area-model breakdown, showing both partial products before the final answer.\n6. Close by asking: why does breaking the number apart still give the right answer? (Because 34 is really 30+4 — multiplying each part and adding back together doesn't change the total.)",
+    "differentiationTips": [
+      "Struggling: use single-digit-times-multiple-of-ten problems first (30x6, 40x7) before combining two parts",
+      "Ready for more: try a 3-digit by 1-digit problem using the same breaking-apart strategy (e.g. 234 x 6)",
+      "For a child who already knows the standard algorithm, have them solve with both methods and check that the answers match"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Sample worksheet answers: 34x6=204, 27x5=135, 48x3=144, 56x4=224, 63x7=441, 19x8=152",
+    "standardsRationale": "Multi-digit multiplication using place-value reasoning is a core Grade 4 number-and-operations skill, and building it on the distributive property (rather than memorized steps alone) supports genuine number sense for later multi-digit division and algebra."
+  },
+  "worksheet": {
+    "id": "worksheet-math-4-1-1",
+    "lessonId": "lesson-math-4-1-1",
+    "title": "Multiplying 2-Digit by 1-Digit Numbers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Break each number into tens and ones, multiply each part, then add. Write your final answer in the box.",
+      "rows": [
+        { "problem": "34 x 6 = ?" },
+        { "problem": "27 x 5 = ?" },
+        { "problem": "48 x 3 = ?" },
+        { "problem": "56 x 4 = ?" },
+        { "problem": "63 x 7 = ?" },
+        { "problem": "19 x 8 = ?" }
+      ]
+    }
+  }
+}

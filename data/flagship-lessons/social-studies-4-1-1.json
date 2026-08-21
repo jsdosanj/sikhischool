@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-4-1",
+    "courseId": "course-social-studies-4",
+    "order": 1,
+    "title": "Washington's Land and First Peoples",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-4-1-1",
+    "unitId": "unit-social-studies-4-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Washington's First Peoples: An Introduction",
+    "gradeLevel": "4",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Before Washington was a state, and long before it had its current name, it was home to many distinct Indigenous nations who had lived on this land for thousands of years. Today we begin learning about Washington's history by starting with its very first peoples."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Washington is home to dozens of federally recognized tribes today, each with its own name, government, language, and traditions — they are not one single group, but many distinct nations. Many tribes in this region have deep, ongoing relationships with the land, rivers, and coastline that continue today, not just in the past. As we study Washington's history and geography this year, we'll keep coming back to this: Indigenous nations are part of Washington's story from its very beginning through today, not just a chapter that ended long ago."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "This is just an introduction — in future lessons we'll go deeper into specific tribal nations, their histories, and their present-day communities. For now, remember: Washington's story starts with many distinct peoples who called this land home."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-4-1-1",
+    "lessonId": "lesson-social-studies-4-1-1",
+    "objectives": [
+      "Understand that Washington has been home to many distinct Indigenous nations for thousands of years, not one single group",
+      "Recognize that Indigenous nations in Washington are part of the state's present, not only its past"
+    ],
+    "materialsNeeded": ["Printed 'Washington's First Peoples' worksheet", "Pencil", "A Washington state map, if available"],
+    "facilitationScript": "1. Show a Washington state map and ask: who do you think lived here before it was called Washington?\n2. Introduce the idea that Washington is home to dozens of distinct, federally recognized tribal nations today — each with its own name, government, and traditions.\n3. Emphasize that these are living communities today, not only a historical topic — this sets the tone for the rest of the unit.\n4. Discuss respectfully: this is an introduction, and there is much more to learn in upcoming lessons about specific tribal nations.\n5. Move to the worksheet: respond to the reflection prompts in your own words.\n6. Close by naming one thing the child wants to learn more about in future lessons.",
+    "differentiationTips": [
+      "Struggling: focus on the single big idea (many distinct nations, not one group) rather than trying to cover breadth in one sitting",
+      "Ready for more: research one federally recognized tribe in Washington and its present-day community for a future lesson",
+      "This lesson is intentionally introductory — treat it as an opening, not a complete unit, and plan to go deeper in future lessons with more specific, well-sourced content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Open-ended reflection — check that responses reflect the two objectives: recognizing multiple distinct nations, and recognizing them as present-day communities.",
+    "standardsRationale": "Washington's own Grade 4 social studies sequence centers state history and geography, and Indigenous history is a required, ongoing thread throughout — this lesson is intentionally scoped as a respectful, general introduction, with more specific tribal-nation content planned for future lessons rather than asserted here without deeper sourcing."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-4-1-1",
+    "lessonId": "lesson-social-studies-4-1-1",
+    "title": "Washington's First Peoples",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Respond to each prompt in your own words, using complete sentences.",
+      "prompts": [
+        { "prompt": "What is one thing you learned about Washington's Indigenous nations today?", "lines": 3 },
+        { "prompt": "Why is it important to remember that Indigenous nations are part of Washington's present, not just its past?", "lines": 3 },
+        { "prompt": "What is one question you have that you'd like to learn more about?", "lines": 2 }
+      ]
+    }
+  }
+}

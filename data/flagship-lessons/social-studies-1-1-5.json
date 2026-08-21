@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-1-1",
+    "courseId": "course-social-studies-1",
+    "order": 1,
+    "title": "Families, Traditions, and Maps",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-1-1-5",
+    "unitId": "unit-social-studies-1-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Families, Traditions, and Maps",
+    "gradeLevel": "1",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you talked about families, traditions, and learned to read maps! Today is review day — let's bring it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's review: what makes a family? What is a tradition? What is a map, and what does a key do? How do you use directions on a map? Try answering each question from memory first, then check together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you learned about families and traditions, and started a brand-new skill: reading maps! Next week, we'll keep exploring more about our world."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-1-1-5",
+    "lessonId": "lesson-social-studies-1-1-5",
+    "objectives": [
+      "Recall and explain all four concepts from this week (families, traditions, what a map is, using directions)",
+      "Self-identify which concept feels most secure and which needs more practice"
+    ],
+    "materialsNeeded": ["Printed 'Review Day' worksheet", "Pencil or crayon", "This week's four worksheets, if kept, for a quick flip-back review"],
+    "facilitationScript": "1. Ask the four big review questions one at a time, letting the child answer from memory first.\n2. Check answers together against what was learned this week.\n3. Move to the worksheet: complete the mixed review questions covering all four days.\n4. Praise effort and progress across the whole week, not just today's recall.\n5. Close by previewing that next week continues exploring community and geography together.",
+    "differentiationTips": [
+      "Struggling: focus review time on whichever single concept felt hardest, rather than requiring equal recall of all four",
+      "Ready for more: have the child draw a simple map of their own home with a key, applying this week's map skills",
+      "For a child who enjoys stories, ask them to describe their family's traditions to a stuffed animal or family member"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a review/recall activity — there is no single right/wrong answer. Note which of the four concepts the child recalled confidently vs. needed prompting for, to guide next week's pacing.",
+    "standardsRationale": "A dedicated review day after a full week of related family/tradition/map concepts matches the platform's established pacing pattern — consolidation before adding more content is essential at this age."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-1-1-5",
+    "lessonId": "lesson-social-studies-1-1-5",
+    "title": "Review Day: Families, Traditions, and Maps",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each review question in your own words.",
+      "rows": [
+        { "problem": "What makes a family?" },
+        { "problem": "What is a tradition?" },
+        { "problem": "What does a map key (or legend) do?" },
+        { "problem": "What direction does 'up' usually point to on a map?" }
+      ]
+    }
+  }
+}

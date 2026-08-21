@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-1-1",
+    "courseId": "course-social-studies-1",
+    "order": 1,
+    "title": "Families, Traditions, and Maps",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-1-1-2",
+    "unitId": "unit-social-studies-1-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Family Traditions: Special Things We Do Together",
+    "gradeLevel": "1",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you talked about your family. Today let's explore something every family has: traditions — special things a family does together, again and again, that feel meaningful."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A tradition could be a special meal on a certain day, a song sung every bedtime, a holiday celebrated every year, or even a simple Saturday morning routine. Traditions are meaningful because they're shared and repeated — they help a family feel connected. Families all around the world have their own traditions, and no two families' traditions look exactly the same. Talk with your grown-up about one tradition your family has, and why it feels special."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Every family's traditions are worth celebrating, whether big or small. Tomorrow we'll start learning a brand-new skill: reading maps."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-1-1-2",
+    "lessonId": "lesson-social-studies-1-1-2",
+    "objectives": [
+      "Define a tradition as a special, repeated activity that feels meaningful to a family",
+      "Describe one real tradition from their own family and why it matters to them"
+    ],
+    "materialsNeeded": ["Printed 'Family Traditions' worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Ask the child to think of something their family does together again and again.\n2. Introduce the word tradition and a few varied examples (a special meal, a song, a holiday, a simple routine).\n3. Emphasize that families everywhere have their own unique traditions — there's no 'normal' one to compare to.\n4. Discuss one specific tradition from the child's own family and why it feels special.\n5. Move to the worksheet: write or draw about that tradition.\n6. Close by asking if there's a new tradition they might like to start.",
+    "differentiationTips": [
+      "Struggling: if 'tradition' feels abstract, start with the very concrete idea of 'something we always do on [a specific day]'",
+      "Ready for more: ask the child to interview another family member about a tradition from when they were young",
+      "Keep this open-ended and led by the child's own family — avoid assuming any specific cultural or religious traditions"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended, personal reflection activity — there is no single right/wrong answer.",
+    "standardsRationale": "Understanding traditions as meaningful, repeated family practices — and that they vary across families — is a core Grade 1 social studies concept that builds respectful awareness of difference before broader world-culture study in later grades."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-1-1-2",
+    "lessonId": "lesson-social-studies-1-1-2",
+    "title": "Family Traditions",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write or draw about a tradition your family has.",
+      "prompts": [
+        { "prompt": "Describe one tradition your family has.", "lines": 3 },
+        { "prompt": "Why does this tradition feel special to you?", "lines": 2 }
+      ]
+    }
+  }
+}

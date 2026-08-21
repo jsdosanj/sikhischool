@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-1-1",
+    "courseId": "course-social-studies-1",
+    "order": 1,
+    "title": "Families, Traditions, and Maps",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-1-1-3",
+    "unitId": "unit-social-studies-1-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "What Is a Map?",
+    "gradeLevel": "1",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week we've talked about families and traditions. Today we start a new skill: reading maps! Have you ever wondered what makes a map different from a regular picture?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A map is a drawing that shows where things are, usually looking down from above — like a bird's-eye view. Maps use simple symbols instead of detailed pictures: a small square might mean a house, a blue line might mean a river. Many maps also have a key (or legend) — a little box that explains what each symbol means. Look at a simple map together and find the key. What symbols do you see, and what do they mean?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what makes a map special: a bird's-eye view, simple symbols, and a key to explain them. Tomorrow we'll practice using directions on a map."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-1-1-3",
+    "lessonId": "lesson-social-studies-1-1-3",
+    "objectives": [
+      "Describe a map as a bird's-eye-view drawing that shows where things are using symbols",
+      "Use a map key/legend to identify what a symbol represents"
+    ],
+    "materialsNeeded": ["Printed 'What Is a Map?' worksheet", "Pencil or crayon", "A simple map with a key (a picture book map, a park map, or a printed simple map)"],
+    "facilitationScript": "1. Show a regular photo and a simple map side by side — ask what's different.\n2. Introduce the bird's-eye view idea: maps show things from above.\n3. Point out simple symbols on a real map and find the key/legend together.\n4. Practice matching 2-3 symbols to their meanings using the key.\n5. Move to the worksheet: match each symbol to its meaning.\n6. Close by asking what symbol they'd invent for something in their own neighborhood.",
+    "differentiationTips": [
+      "Struggling: use a very simple map with just 2-3 symbols rather than a detailed real-world map",
+      "Ready for more: have the child draw a simple map of their own bedroom or backyard, including a key with 2-3 symbols",
+      "For a visual learner, practice the bird's-eye-view idea by looking down at a table setup from standing height vs. sitting height"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a matching and discussion activity — check against the specific symbols/key used in the map explored together.",
+    "standardsRationale": "Understanding what a map is and how to use a key/legend is the foundational Grade 1 map-reading skill (the course's stated 'introduction to reading maps' focus) that direction-reading builds on tomorrow."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-1-1-3",
+    "lessonId": "lesson-social-studies-1-1-3",
+    "title": "What Is a Map?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about maps in your own words.",
+      "rows": [
+        { "problem": "What is a map?" },
+        { "problem": "What does a map key (or legend) do?" },
+        { "problem": "Name one symbol you might see on a map, and what it means." }
+      ]
+    }
+  }
+}

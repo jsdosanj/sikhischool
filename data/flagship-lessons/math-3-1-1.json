@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-3-1",
+    "courseId": "course-math-3",
+    "order": 1,
+    "title": "Multiplication and Division Facts",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-3-1-1",
+    "unitId": "unit-math-3-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Understanding Multiplication as Equal Groups",
+    "gradeLevel": "3",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You already know how to add. This year, we'll learn a powerful shortcut for adding the same number over and over: multiplication."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Imagine 4 bags, each with 3 apples. You could add 3+3+3+3 to find the total — or you could multiply: 4 x 3 = 12. Multiplication means equal groups: the first number tells you how many groups, and the second tells you how many are in each group. Try drawing 5 groups of 2 stars, then write both the addition (2+2+2+2+2) and the multiplication (5 x 2) for it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Multiplication is really just fast, organized addition of equal groups. Tomorrow we'll practice multiplication facts using arrays and skip counting."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-3-1-1",
+    "lessonId": "lesson-math-3-1-1",
+    "objectives": [
+      "Understand multiplication as combining equal groups (repeated addition)",
+      "Write a multiplication equation to represent a picture or story of equal groups"
+    ],
+    "materialsNeeded": ["Printed 'Understanding Multiplication' worksheet", "Pencil", "Optional: small objects to physically build equal groups"],
+    "facilitationScript": "1. Present the 4-bags-of-3-apples example and solve it with addition first.\n2. Introduce multiplication as a shortcut for the same idea: groups x amount in each group.\n3. Build 2-3 more equal-group examples together, writing both the addition and multiplication for each.\n4. Move to the worksheet: draw or interpret groups and write the multiplication equation.\n5. Close by asking the child to explain what each number in a multiplication equation means (groups vs. amount per group).",
+    "differentiationTips": [
+      "Struggling: use real physical objects to build equal groups before moving to pictures or equations",
+      "Ready for more: ask what happens if you swap the two numbers (3 groups of 4 vs. 4 groups of 3) — is the total the same?",
+      "For a visual learner, draw every equal-group example as circles or boxes before writing the equation"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 4 groups of 3 = 4x3=12. 2. 5 groups of 2 = 5x2=10. 3. 3 groups of 6 = 3x6=18. 4. 6 groups of 4 = 6x4=24.",
+    "standardsRationale": "Understanding multiplication as equal groups is the foundational Grade 3 standard (matching Common Core 3.OA.1) that all of this week's multiplication and division work builds on."
+  },
+  "worksheet": {
+    "id": "worksheet-math-3-1-1",
+    "lessonId": "lesson-math-3-1-1",
+    "title": "Understanding Multiplication",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the multiplication equation for each equal-group description, then solve it.",
+      "rows": [
+        { "problem": "4 groups of 3" },
+        { "problem": "5 groups of 2" },
+        { "problem": "3 groups of 6" },
+        { "problem": "6 groups of 4" }
+      ]
+    }
+  }
+}

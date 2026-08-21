@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-4-1",
+    "courseId": "course-ela-4",
+    "order": 1,
+    "title": "Writing Strong Paragraphs",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-4-1-3",
+    "unitId": "unit-ela-4-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Connecting Ideas with Transition Words",
+    "gradeLevel": "4",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have a topic sentence and three supporting details. Right now they're separate ideas — today, transition words connect them into one smooth paragraph."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Transition words signal how one idea connects to the next. Some useful ones for listing details: first, next, also, in addition, finally. Watch how they smooth out a list of details: 'First, I get to run on the field. Next, I play tag with my friends. Finally, I feel less tired after moving around.' Without transitions, the same details sound choppy and disconnected. Take your three supporting details from yesterday and add a transition word to the start of each one."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Your three details now flow together as connected ideas instead of a disconnected list. Tomorrow we'll add the final piece: a concluding sentence."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-4-1-3",
+    "lessonId": "lesson-ela-4-1-3",
+    "objectives": [
+      "Define a transition word as a word that connects one idea to the next",
+      "Add transition words to a list of supporting details to improve flow"
+    ],
+    "materialsNeeded": ["Yesterday's supporting-details worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's 3 supporting details.\n2. Read the choppy version (no transitions) aloud, then the smooth version (with transitions), and discuss the difference in how it sounds.\n3. Introduce the 5 transition words: first, next, also, in addition, finally.\n4. Have the child add a transition word to the start of each of their 3 details.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: concluding sentences.",
+    "differentiationTips": [
+      "Struggling: provide the transition word list as a word bank to choose from rather than requiring recall from memory",
+      "Ready for more: ask them to try a transition word that shows a different relationship, like 'however' or 'because,' beyond just listing",
+      "Reading both versions aloud (with and without transitions) is the single most effective way to make this lesson click — don't skip it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's own supporting details — check that each detail now begins with an appropriate transition word (first/next/also/in addition/finally) and that the sequence makes logical sense.",
+    "standardsRationale": "Addresses Common Core Grade 4 Writing standard W.4.2c (link ideas within categories of information using words and phrases), the natural third step connecting Day 1's topic sentence to Day 2's details."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-4-1-3",
+    "lessonId": "lesson-ela-4-1-3",
+    "title": "Adding Transition Words",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Rewrite your 3 supporting details from yesterday, adding a transition word to the start of each one.",
+      "prompts": [
+        { "prompt": "Detail 1 (start with 'First,'):", "lines": 2 },
+        { "prompt": "Detail 2 (start with 'Next,' or 'Also,'):", "lines": 2 },
+        { "prompt": "Detail 3 (start with 'Finally,' or 'In addition,'):", "lines": 2 }
+      ]
+    }
+  }
+}

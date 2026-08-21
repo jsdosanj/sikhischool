@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-4-1",
+    "courseId": "course-ela-4",
+    "order": 1,
+    "title": "Writing Strong Paragraphs",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-4-1-2",
+    "unitId": "unit-ela-4-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Adding Supporting Details",
+    "gradeLevel": "4",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you wrote a topic sentence. But a topic sentence alone isn't a paragraph — it needs support. Today: supporting details."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Supporting details are the specific facts, examples, and reasons that back up your topic sentence. If your topic sentence is 'Recess is my favorite part of the school day because it gives me time to move and play with friends,' good supporting details might be: 'I get to run on the field,' 'I play tag with my friends,' and 'I feel less tired after moving around.' Notice each detail is specific, not vague — 'it's fun' is too general, but 'I play tag with my friends' paints a real picture. Write three specific supporting details for the topic sentence you wrote yesterday about your favorite season."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a topic sentence plus three real supporting details — the heart of a paragraph. Tomorrow we'll learn how to connect those details smoothly using transition words."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-4-1-2",
+    "lessonId": "lesson-ela-4-1-2",
+    "objectives": [
+      "Define a supporting detail as a specific fact, example, or reason that backs up a topic sentence",
+      "Write 3 specific (not vague) supporting details for a given topic sentence"
+    ],
+    "materialsNeeded": ["Yesterday's topic sentence worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's topic sentence about the child's favorite season.\n2. Introduce supporting details using the recess example, explicitly modeling specific vs. vague ('it's fun' vs. 'I play tag with my friends').\n3. Brainstorm 3 specific details together before writing.\n4. Complete the worksheet, writing 3 details for yesterday's topic sentence.\n5. Preview tomorrow's topic: transition words.",
+    "differentiationTips": [
+      "Struggling: accept 2 strong details rather than requiring 3 if the child is working hard to make them specific",
+      "Ready for more: ask them to rank their 3 details from most to least convincing, and explain why",
+      "If a detail comes out vague, ask a follow-up question ('what does that look like?') to help them get more specific, rather than rewriting it for them"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's own topic sentence from Day 1 — check that each of the 3 details is specific (a concrete example or fact) rather than a vague restatement of the topic sentence.",
+    "standardsRationale": "Addresses Common Core Grade 4 Writing standard W.4.2b (develop the topic with facts, definitions, concrete details), the natural second step after Day 1's topic-sentence skill."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-4-1-2",
+    "lessonId": "lesson-ela-4-1-2",
+    "title": "Supporting Details",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write 3 specific supporting details for your topic sentence from yesterday.",
+      "prompts": [
+        { "prompt": "Supporting detail 1:", "lines": 2 },
+        { "prompt": "Supporting detail 2:", "lines": 2 },
+        { "prompt": "Supporting detail 3:", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-9-1",
+    "courseId": "course-science-9",
+    "order": 1,
+    "title": "Introduction to Genetics",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-9-1-4",
+    "unitId": "unit-science-9-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Where Genetic Variation Comes From",
+    "gradeLevel": "9",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "If every offspring just directly copied its parents' genes, every generation would look identical to the last. Real genetics involves real, ongoing variation — today, where it comes from."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Genetic variation comes from several real sources: new combinations of existing alleles (when parents' chromosomes mix during reproduction, offspring get a unique combination, not an exact copy of either parent), and mutations (rare, random changes in DNA that create entirely new alleles that didn't exist before in either parent). Most mutations have no noticeable effect, some are harmful, and occasionally one is beneficial — over long timescales, beneficial mutations that help survival tend to become more common in a population. This ongoing process of new variation is essential — a population with zero genetic variation would be far more vulnerable to a single disease or environmental change wiping out the whole group. Explain in your own words why genetic variation might matter for a population's long-term survival."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just explained two real sources of genetic variation and why variation matters for survival. Tomorrow we'll review everything about genetics from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-9-1-4",
+    "lessonId": "lesson-science-9-1-4",
+    "objectives": [
+      "Identify new allele combinations and mutations as two real sources of genetic variation",
+      "Explain why genetic variation matters for a population's long-term survival"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's genetics vocabulary.\n2. Introduce new combinations and mutations as the two sources of variation.\n3. Discuss why a population with no variation would be vulnerable.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just the 'new combinations' source (easier to grasp — each sibling is a unique mix of the same parents' genes) before introducing mutations",
+      "Ready for more: research one real example of a beneficial mutation in a population (like antibiotic resistance in bacteria)",
+      "The population-survival framing genuinely previews the course's later 'evolution' unit — worth flagging that connection explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Genetic variation comes from new allele combinations and mutations. 2. A mutation is a rare, random change in DNA creating a new allele. 3. Genetic variation matters because a population with none would be highly vulnerable to a single disease or environmental change.",
+    "standardsRationale": "Directly addresses NGSS HS-LS3-2: explaining that inheritable genetic variations result from new genetic combinations and mutations, setting up the course's later evolution unit."
+  },
+  "worksheet": {
+    "id": "worksheet-science-9-1-4",
+    "lessonId": "lesson-science-9-1-4",
+    "title": "Where Genetic Variation Comes From",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about genetic variation.",
+      "rows": [
+        { "problem": "Name two real sources of genetic variation." },
+        { "problem": "What is a mutation?" },
+        { "problem": "Why does genetic variation matter for a population's survival?" }
+      ]
+    }
+  }
+}

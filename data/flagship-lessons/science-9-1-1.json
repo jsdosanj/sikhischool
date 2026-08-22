@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-9-1",
+    "courseId": "course-science-9",
+    "order": 1,
+    "title": "Introduction to Genetics",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-9-1-1",
+    "unitId": "unit-science-9-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "DNA and Chromosomes: The Code of Life",
+    "gradeLevel": "9",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every trait you inherited from your parents — eye color, height tendencies, and thousands of other characteristics — is encoded in a molecule small enough to fit in every one of your cells: DNA."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "DNA (deoxyribonucleic acid) is a molecule shaped like a twisted ladder (a double helix) that carries the instructions for building and operating an organism. DNA is organized into structures called chromosomes — humans have 23 pairs, one set inherited from each parent. Specific sections of DNA called genes each carry instructions for a particular trait. Because you inherit one full set of chromosomes from each parent, you inherit two copies of most genes — one from your mother, one from your father. Explain in your own words why offspring resemble both parents, not just one."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just explained the basic mechanism connecting DNA, chromosomes, and inherited traits. Tomorrow we'll look closely at genes and how different versions of the same gene can produce different traits."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-9-1-1",
+    "lessonId": "lesson-science-9-1-1",
+    "objectives": [
+      "Describe DNA as a double-helix molecule carrying genetic instructions",
+      "Explain that chromosomes and genes are inherited one set from each parent"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce DNA's double-helix structure and its role as genetic instructions.\n2. Introduce chromosomes (23 pairs in humans) and genes as specific instruction sections.\n3. Discuss why offspring resemble both parents, connecting back to the two-copies-per-gene idea.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: genes and alleles.",
+    "differentiationTips": [
+      "Struggling: use a simple 'instruction manual' analogy — DNA is like a manual, chromosomes are like chapters, genes are like specific instructions within a chapter",
+      "Ready for more: research how many total genes are estimated to be in the human genome",
+      "Physical models (even a simple drawn double helix) help make this abstract molecular concept more concrete"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. DNA is a double-helix molecule carrying genetic instructions. 2. Humans have 23 pairs of chromosomes. 3. Offspring resemble both parents because they inherit one full set of chromosomes (and therefore one copy of each gene) from each parent.",
+    "standardsRationale": "Directly addresses NGSS HS-LS3-1: the role of DNA and chromosomes in coding instructions for characteristic traits passed from parents to offspring, the foundational Grade 9 Genetics standard this week's unit builds from."
+  },
+  "worksheet": {
+    "id": "worksheet-science-9-1-1",
+    "lessonId": "lesson-science-9-1-1",
+    "title": "DNA and Chromosomes: The Code of Life",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about DNA and chromosomes.",
+      "rows": [
+        { "problem": "What shape does DNA have?" },
+        { "problem": "How many pairs of chromosomes do humans have?" },
+        { "problem": "Why do offspring resemble both parents?" }
+      ]
+    }
+  }
+}

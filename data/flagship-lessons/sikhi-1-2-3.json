@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-1-2",
+    "courseId": "course-sikhi-1",
+    "order": 2,
+    "title": "Seva, the Golden Temple, and Gratitude",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-1-2-3",
+    "unitId": "unit-sikhi-1-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "What Is Ardas?",
+    "gradeLevel": "1",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you practiced a simple, personal prayer. Today: a special kind of prayer Sikhs often say together, standing, called Ardas."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Ardas is a prayer Sikhs say together, usually standing, as a way of giving thanks and asking for guidance — often at the end of a Gurdwara service, or before starting something important. Saying Ardas together, standing, is itself meaningful: it shows everyone pausing together with a shared sense of gratitude and hope. Think of one moment in your own life — starting something new, or finishing something important — where pausing to feel grateful might feel meaningful."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand Ardas as a real, shared practice of gratitude and guidance. Tomorrow we'll bring everything from this week together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-1-2-3",
+    "lessonId": "lesson-sikhi-1-2-3",
+    "objectives": [
+      "Describe Ardas as a shared, standing prayer of thanks and guidance",
+      "Connect the idea of pausing for gratitude to a real personal moment"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review last week's simple personal prayer moment.\n2. Introduce Ardas as a shared, standing prayer of thanks and guidance.\n3. Discuss when Ardas is typically said (end of a service, before something important).\n4. Have the child identify a personal moment where pausing for gratitude would feel meaningful.\n5. Complete the worksheet.\n6. Preview tomorrow's synthesis lesson.",
+    "differentiationTips": [
+      "Struggling: focus on the simple idea of 'pausing together to feel thankful' rather than the specific term Ardas",
+      "Ready for more: ask the child to compare Ardas (said together, standing) to last week's Simran-style personal prayer (quiet, individual)",
+      "This lesson is deliberately conceptual — it describes what Ardas is and when it's said, without reciting or paraphrasing any of its actual text, consistent with the no-fabrication discipline for religious content"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can describe Ardas as a shared, standing prayer of thanks and guidance, and identify a real personal moment for gratitude.",
+    "standardsRationale": "Directly addresses the course's 'simple prayers' description, introducing a real, communal form of prayer alongside last week's individual, quiet practice — kept conceptual and experiential rather than reciting specific text."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-1-2-3",
+    "lessonId": "lesson-sikhi-1-2-3",
+    "title": "What Is Ardas?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Ardas.",
+      "rows": [
+        { "problem": "What is Ardas?" },
+        { "problem": "When is Ardas often said?" },
+        { "problem": "Name one moment in your own life where pausing for gratitude would feel meaningful." }
+      ]
+    }
+  }
+}

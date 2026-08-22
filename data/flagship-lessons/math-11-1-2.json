@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-11-1",
+    "courseId": "course-math-11",
+    "order": 1,
+    "title": "Quadratic Functions and Equations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-11-1-2",
+    "unitId": "unit-math-11-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Standard Form and Finding the Vertex",
+    "gradeLevel": "11",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Not every quadratic function starts out in vertex form. Today: finding the vertex when it doesn't."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Standard form writes a quadratic as y = ax^2 + bx + c. You can find the vertex's x-coordinate directly with the formula x = -b / (2a), then find the y-coordinate by substituting that x back into the original equation. For y = x^2 - 4x + 1: here a=1, b=-4, c=1, so the vertex's x-coordinate is -(-4)/(2×1) = 2. Substituting x=2 back in: y = (2)^2 - 4(2) + 1 = 4 - 8 + 1 = -3. So the vertex is (2, -3) — the same parabola from yesterday, just written in a different form. Find the vertex of y = x^2 - 6x + 5 using this method."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now find a parabola's vertex from either vertex form or standard form. Tomorrow we'll move from graphing to solving: finding exactly where a parabola crosses the x-axis."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-11-1-2",
+    "lessonId": "lesson-math-11-1-2",
+    "objectives": [
+      "Identify a, b, and c from a quadratic in standard form",
+      "Find the vertex using x = -b/(2a) and substitution"
+    ],
+    "materialsNeeded": ["Yesterday's vertex-form worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's vertex form and vertex (2,-3) example.\n2. Introduce standard form and the x=-b/(2a) formula.\n3. Work through y=x^2-4x+1 together, confirming it matches yesterday's same vertex.\n4. Have the child find the vertex of y=x^2-6x+5 independently.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: solving by factoring.",
+    "differentiationTips": [
+      "Struggling: write out a, b, c explicitly as labeled values before plugging into the formula, to reduce sign errors",
+      "Ready for more: ask them to explain why substituting the x-coordinate back into the ORIGINAL equation (not vertex form) is necessary to find the y-coordinate",
+      "Sign errors with negative b values are the most common mistake here — model showing the substitution step explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "For y = x^2 - 6x + 5: a=1, b=-6, c=5. Vertex x-coordinate: -(-6)/(2×1) = 3. Vertex y-coordinate: (3)^2 - 6(3) + 5 = 9 - 18 + 5 = -4. Vertex: (3, -4).",
+    "standardsRationale": "Directly addresses Common Core Algebra 2 standard F-IF.8a: writing a quadratic function in different but equivalent forms to reveal and explain different properties, connecting standard form back to yesterday's vertex-form work."
+  },
+  "worksheet": {
+    "id": "worksheet-math-11-1-2",
+    "lessonId": "lesson-math-11-1-2",
+    "title": "Standard Form and Finding the Vertex",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find the vertex of each quadratic function given in standard form.",
+      "rows": [
+        { "problem": "y = x^2 - 6x + 5" },
+        { "problem": "Identify a, b, and c for y = x^2 - 6x + 5" },
+        { "problem": "Why must you substitute back into the ORIGINAL equation to find the y-coordinate?" }
+      ]
+    }
+  }
+}

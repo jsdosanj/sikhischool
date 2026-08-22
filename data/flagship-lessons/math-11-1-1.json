@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-11-1",
+    "courseId": "course-math-11",
+    "order": 1,
+    "title": "Quadratic Functions and Equations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-11-1-1",
+    "unitId": "unit-math-11-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Graphing Quadratic Functions in Vertex Form",
+    "gradeLevel": "11",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Algebra 2. You've solved linear equations — now you'll work with a new shape entirely: the parabola."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A quadratic function's graph is a parabola, a U-shaped curve. Vertex form, y = a(x - h)^2 + k, directly shows the parabola's vertex — its highest or lowest point — at the coordinates (h, k). The value of 'a' controls whether the parabola opens upward (a positive) or downward (a negative), and how narrow or wide it is. The vertical line x = h, passing through the vertex, is called the axis of symmetry — the parabola is a mirror image on either side of it. For y = (x - 2)^2 - 3: identify the vertex, the axis of symmetry, and whether the parabola opens up or down."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know how to read a parabola's most important features directly from vertex form. Tomorrow we'll look at standard form and how to find the vertex when the equation isn't already in this convenient shape."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-11-1-1",
+    "lessonId": "lesson-math-11-1-1",
+    "objectives": [
+      "Identify the vertex and axis of symmetry from a quadratic function in vertex form",
+      "Determine whether a parabola opens upward or downward from the sign of 'a'"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Graph paper (optional)"],
+    "facilitationScript": "1. Introduce parabolas and vertex form, y = a(x-h)^2 + k.\n2. Work through y=(x-2)^2-3 together: vertex (2,-3), axis of symmetry x=2, opens upward since a=1 is positive.\n3. Discuss how 'a' affects the parabola's width and direction.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: standard form.",
+    "differentiationTips": [
+      "Struggling: plot a few points by hand (x=0,1,2,3,4) to see the U-shape emerge before relying on the vertex-form shortcut",
+      "Ready for more: ask them to predict how the graph of y=(x-2)^2-3 would change if 'a' were -1 instead of 1, or if 'a' were 3",
+      "This is the first lesson of Algebra 2 — a good moment to note this is a new function family, not just a harder version of linear equations"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Vertex: (2, -3). 2. Axis of symmetry: x = 2. 3. The parabola opens upward, since a=1 is positive.",
+    "standardsRationale": "Directly addresses Common Core Algebra 2 standard F-IF.7a: graphing quadratic functions and showing intercepts, maxima, and minima using vertex form as the entry point for this new function family."
+  },
+  "worksheet": {
+    "id": "worksheet-math-11-1-1",
+    "lessonId": "lesson-math-11-1-1",
+    "title": "Graphing Quadratic Functions in Vertex Form",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For y = (x - 2)^2 - 3, answer each question.",
+      "rows": [
+        { "problem": "What is the vertex?" },
+        { "problem": "What is the axis of symmetry?" },
+        { "problem": "Does the parabola open upward or downward? How do you know?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-8-2",
+    "courseId": "course-social-studies-8",
+    "order": 2,
+    "title": "The Early Republic",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-8-2-2",
+    "unitId": "unit-social-studies-8-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The First Political Parties",
+    "gradeLevel": "8",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned about Washington's precedents. Today: the first political disagreement big enough to split the government!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Within Washington's own Cabinet, two very different visions of the new government emerged, forming the country's first political parties: the Federalists (led by Alexander Hamilton) wanted a strong central government and a national bank to build the economy, while the Democratic-Republicans (led by Thomas Jefferson) worried too much federal power threatened individual liberty and preferred power staying closer to the states. Explain in your own words the core disagreement between these two early parties."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how America's first political parties formed! Tomorrow we'll see how the young nation doubled in size."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-8-2-2",
+    "lessonId": "lesson-social-studies-8-2-2",
+    "objectives": [
+      "Identify the Federalists and Democratic-Republicans and their key leaders",
+      "Explain the core disagreement between the two early parties in the child's own words"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Washington-precedents work briefly.\n2. Introduce the Federalist/Democratic-Republican split using the Hamilton/Jefferson disagreement.\n3. Have the child explain the core disagreement in their own words.\n4. Complete the worksheet.\n5. Preview tomorrow's Louisiana Purchase lesson.",
+    "differentiationTips": [
+      "Struggling: frame it as a simple two-question test — 'should the national government be strong or should states have more power?' — to make the split concrete",
+      "Ready for more: ask the child whether this same 'how much federal power is too much' question still comes up in politics today",
+      "This is a genuinely foundational American-government tension worth taking time on — it recurs throughout the rest of this course"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The Federalists (Hamilton) wanted a strong national government and a national bank to build a powerful economy, while the Democratic-Republicans (Jefferson) worried that too much federal power threatened individual liberty and preferred keeping more power with the states — a disagreement over how strong the federal government should be.",
+    "standardsRationale": "Directly addresses the C3 Framework's Civics dimension: the emergence of political parties and competing visions of federal power in the early republic."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-8-2-2",
+    "lessonId": "lesson-social-studies-8-2-2",
+    "title": "The First Political Parties",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about the first political parties.",
+      "prompts": [
+        { "prompt": "Who led the Federalists, and what did they want?", "lines": 2 },
+        { "prompt": "Who led the Democratic-Republicans, and what did they want?", "lines": 2 }
+      ]
+    }
+  }
+}

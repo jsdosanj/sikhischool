@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-8-2",
+    "courseId": "course-social-studies-8",
+    "order": 2,
+    "title": "The Early Republic",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-8-2-1",
+    "unitId": "unit-social-studies-8-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Washington's Presidency and Its Precedents",
+    "gradeLevel": "8",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you studied the Constitution's structure. This week: the early republic that structure actually had to run!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "George Washington was the first person to hold the new office of President, and many of his choices became lasting precedents (traditions future presidents followed) even though the Constitution didn't require them: serving only two terms, forming a Cabinet of advisors (the Constitution names the office but not this practice), and staying neutral in European conflicts. Explain why a precedent set by the very first president could matter so much for how the office worked for centuries afterward."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how Washington shaped the presidency beyond what the Constitution required! Tomorrow we'll see how the first political parties emerged."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-8-2-1",
+    "lessonId": "lesson-social-studies-8-2-1",
+    "objectives": [
+      "Identify Washington's key presidential precedents: two-term tradition, Cabinet, neutrality",
+      "Explain why an early precedent could shape the presidency for centuries"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Constitution/checks-and-balances work briefly.\n2. Introduce Washington's key precedents and explain that they weren't Constitutional requirements.\n3. Have the child explain why a first-president precedent could matter for centuries.\n4. Complete the worksheet.\n5. Preview tomorrow's political-parties lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple classroom analogy (the first student to try something new sets an example others copy) to make 'precedent' concrete",
+      "Ready for more: ask the child to research when the two-term tradition eventually did become an actual Constitutional requirement (the 22nd Amendment)",
+      "Opens this week's early-republic thread, continuing chronologically from last week's founding-government unit"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A precedent from the very first president matters enormously because later presidents and the public came to expect it as 'the way things are done,' even without a legal requirement — Washington's choices shaped unwritten norms that lasted for generations, showing that a system's actual practice isn't only defined by its written rules.",
+    "standardsRationale": "Directly addresses the C3 Framework's Civics dimension and WA Social Studies standards on the development of American political institutions, opening this week's early-republic thread as a continuation of last week's founding-government unit."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-8-2-1",
+    "lessonId": "lesson-social-studies-8-2-1",
+    "title": "Washington's Presidency and Its Precedents",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Washington's presidency.",
+      "rows": [
+        { "problem": "Name two precedents Washington set that weren't required by the Constitution." },
+        { "problem": "Why can a precedent set by the first president matter for centuries?" }
+      ]
+    }
+  }
+}

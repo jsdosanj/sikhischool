@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-8-2",
+    "courseId": "course-social-studies-8",
+    "order": 2,
+    "title": "The Early Republic",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-8-2-3",
+    "unitId": "unit-social-studies-8-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "The Louisiana Purchase",
+    "gradeLevel": "8",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about the young nation's leaders and parties. Today: the deal that doubled the country's size overnight!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "In 1803, President Thomas Jefferson purchased the Louisiana Territory from France for about $15 million, roughly doubling the size of the United States in a single transaction. Jefferson then sent explorers Meriwether Lewis and William Clark to map the new territory, find a route to the Pacific, and document its land, plants, and animals. Explain why doubling the country's size through a purchase, rather than through war, was significant for the young nation."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how the Louisiana Purchase doubled the young nation! Tomorrow we'll learn about the war that tested it soon after."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-8-2-3",
+    "lessonId": "lesson-social-studies-8-2-3",
+    "objectives": [
+      "State the basic facts of the 1803 Louisiana Purchase (buyer, seller, approximate effect on size)",
+      "Explain why acquiring the territory peacefully, through purchase, mattered for the young nation"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's political-parties work briefly.\n2. Introduce the Louisiana Purchase and the Lewis and Clark expedition.\n3. Have the child explain why a peaceful purchase mattered for the young nation.\n4. Complete the worksheet.\n5. Preview tomorrow's War of 1812 lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple before/after map comparison (even described in words) to make 'doubling in size' concrete",
+      "Ready for more: ask the child what new resources or opportunities such a large new territory might have opened up for the growing nation",
+      "A good moment to connect back to last week's civics content — this was a major decision made by the very presidency the child studied last week"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Acquiring the territory through purchase rather than war meant the young, still-fragile nation avoided a costly conflict it likely couldn't have afforded, gaining enormous new land and resources peacefully at a critical early moment in its growth.",
+    "standardsRationale": "Directly addresses WA Social Studies and C3 Framework Geography/History standards on early US territorial expansion, continuing this week's early-republic thread chronologically."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-8-2-3",
+    "lessonId": "lesson-social-studies-8-2-3",
+    "title": "The Louisiana Purchase",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Louisiana Purchase.",
+      "rows": [
+        { "problem": "Who bought the Louisiana Territory, and from whom?" },
+        { "problem": "Who did Jefferson send to explore the new territory?" },
+        { "problem": "Why was gaining this land through purchase, not war, significant?" }
+      ]
+    }
+  }
+}

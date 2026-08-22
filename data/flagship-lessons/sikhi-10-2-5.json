@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-10-2",
+    "courseId": "course-sikhi-10",
+    "order": 2,
+    "title": "The Sikh Panth Under Mughal Rule",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-10-2-5",
+    "unitId": "unit-sikhi-10-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: The Sikh Panth Under Mughal Rule",
+    "gradeLevel": "10",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you traced the Sikh Panth's growth under Mughal rule. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Punjab sat within the Mughal Empire's territory (Day 1). Akbar's era showed real, well-documented cooperation, including the land donation connected to Harmandir Sahib (Day 2). The relationship grew more complex as the Panth grew larger and more organized (Day 3). The Khalsa's 1699 founding gave the Panth a clear, unified identity (Day 4). Write a short paragraph connecting this week's Mughal-era content to last week's Sikh Empire content — how does the story of a growing, strengthening Panth under Mughal rule set the stage for the Sikh Empire that came later?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you traced the Sikh Panth's real growth and identity-strengthening under Mughal rule! A future unit will explore this era's more complex, historically significant events in the depth and care they deserve."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-10-2-5",
+    "lessonId": "lesson-sikhi-10-2-5",
+    "objectives": [
+      "Review the Mughal Empire's context, early cooperation, the changing relationship, and the Khalsa's founding",
+      "Connect this week's content to last week's Sikh Empire unit as one continuous historical arc"
+    ],
+    "materialsNeeded": ["This week's worksheets, last week's Sikh Empire worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child write their connecting paragraph linking this week to last week's Sikh Empire unit.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of Mughal-era Sikh history, and note that a future unit will explore this era's more complex events with the depth they deserve.",
+    "differentiationTips": [
+      "Struggling: focus on just one clear connection (the Khalsa's unified identity helping the later Sikh Empire's own strength) rather than a fully developed multi-point argument",
+      "Ready for more: ask the child to place this week's and last week's content on a simple timeline, in the correct chronological order",
+      "This is a good checkpoint to note which of the week's four Mughal-era ideas needs the most reinforcement going forward, and re-affirms the deliberate deferral of this era's more sensitive specific events"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended synthesis activity — check that the paragraph makes a genuine connection, such as: the Khalsa's unified, visible identity (this week) gave the Sikh Panth real institutional strength and cohesion that helped it grow into the organized, confident community capable of eventually building the Sikh Empire (last week) under Maharaja Ranjit Singh.",
+    "standardsRationale": "Consolidates this week's Mughal-era thread and connects it chronologically to last week's Sikh Empire content, matching the established Day-5-review pacing used across every unit this session, and explicitly re-affirms the deliberate deferral of this era's more sensitive specific events to a future, dedicated unit."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-10-2-5",
+    "lessonId": "lesson-sikhi-10-2-5",
+    "title": "Review: The Sikh Panth Under Mughal Rule",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Connect this week's content to last week's Sikh Empire unit.",
+      "prompts": [
+        { "prompt": "How does this week's story set the stage for last week's Sikh Empire?", "lines": 3 }
+      ]
+    }
+  }
+}

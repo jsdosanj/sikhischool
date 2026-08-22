@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-10-2",
+    "courseId": "course-sikhi-10",
+    "order": 2,
+    "title": "The Sikh Panth Under Mughal Rule",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-10-2-2",
+    "unitId": "unit-sikhi-10-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "An Early Period of Cooperation",
+    "gradeLevel": "10",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you set the scene. Today: an early period of relative cooperation between the Sikh Panth and Mughal rule!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "During the reign of the Mughal emperor Akbar, known for a general policy of relative religious tolerance, relations between the Mughal court and the growing Sikh Panth were largely peaceful — Akbar is recorded as having personally visited Guru Amar Das and donated land that later became the site of Harmandir Sahib (the Golden Temple) in Amritsar, connecting directly back to your Grade 5 lesson on Guru Ram Das founding the city. Explain why this land donation is a meaningful, well-documented example of the cooperative relationship this week's unit is examining."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about a real period of Mughal-Sikh cooperation! Tomorrow we'll see how this relationship began to change over time."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-10-2-2",
+    "lessonId": "lesson-sikhi-10-2-2",
+    "objectives": [
+      "Understand Akbar's general policy of relative religious tolerance and its connection to Harmandir Sahib's land",
+      "Explain why this is a meaningful example of early Mughal-Sikh cooperation"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet, Grade 5 Sikhi notes if available", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Mughal-context work briefly.\n2. Introduce Akbar's tolerance policy and the Harmandir Sahib land donation, connecting to Grade 5 content.\n3. Have the child explain why this example matters.\n4. Complete the worksheet.\n5. Preview tomorrow's changing-relationship lesson.",
+    "differentiationTips": [
+      "Struggling: focus on the concrete fact (Akbar donated land) rather than the broader policy generalization, since it's the most memorable and specific detail",
+      "Ready for more: ask the child why a ruler's personal policy (like Akbar's tolerance) might not necessarily continue unchanged under a later ruler",
+      "Well-documented, safe historical fact — kept factual and specific rather than broadly characterizing all of Mughal rule based on one emperor's approach"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This land donation is meaningful because it's a specific, well-documented action showing genuine goodwill from the Mughal court toward the Sikh Panth at that time — rather than just a general claim about tolerance, it's a concrete example (donated land that became one of Sikhi's most significant sites) that shows the relationship was, at that point, cooperative in a real, lasting way.",
+    "standardsRationale": "Directly addresses this course's Mughal-era thread, presenting well-documented, safe historical content that connects to prior Sikhi grade content (Grade 5's Harmandir Sahib founding)."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-10-2-2",
+    "lessonId": "lesson-sikhi-10-2-2",
+    "title": "An Early Period of Cooperation",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about early Mughal-Sikh cooperation.",
+      "prompts": [
+        { "prompt": "What did Akbar do that showed cooperation with the Sikh Panth?", "lines": 2 },
+        { "prompt": "Why is this a meaningful, well-documented example?", "lines": 2 }
+      ]
+    }
+  }
+}

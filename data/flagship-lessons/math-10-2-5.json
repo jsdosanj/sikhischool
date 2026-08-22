@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-10-2",
+    "courseId": "course-math-10",
+    "order": 2,
+    "title": "Similarity and Proportional Reasoning",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-10-2-5",
+    "unitId": "unit-math-10-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Similarity and Proportional Reasoning",
+    "gradeLevel": "10",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you mastered similarity four ways. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: similar figures have equal angles and proportional sides (Day 1). AA proves two triangles similar using just two angles (Day 2). You found missing side lengths using proportions (Day 3). You applied this to measure a flagpole indirectly (Day 4). A 5.5-foot person casts a 4-foot shadow. At the same moment, a building casts a 60-foot shadow. Find the building's height, and explain which similarity concept from this week makes this method work."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you mastered similarity and applied it to solve a real measurement problem! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-10-2-5",
+    "lessonId": "lesson-math-10-2-5",
+    "objectives": [
+      "Review similarity's definition, AA, finding missing sides, and real-world application",
+      "Correctly find the building's height and explain the underlying similarity concept"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child solve the building-height problem and explain the underlying concept.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of similarity mastery!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often setting up the proportion correctly) rather than requiring all four equally",
+      "Ready for more: ask the child how this week's similarity content connects to and differs from last week's congruence content",
+      "This is a good checkpoint to note which of the week's four similarity skills needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "5.5/4 = h/60 cross-multiplies to 4h = 330, so h = 82.5. The building is 82.5 feet tall. This method works because the sun's rays create two similar right triangles (AA, since both have a right angle and the same sun angle), so their corresponding sides are proportional.",
+    "standardsRationale": "Consolidates this week's Common Core Geometry similarity standards (G-SRT.2/G-SRT.3/G-SRT.5) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-10-2-5",
+    "lessonId": "lesson-math-10-2-5",
+    "title": "Review: Similarity and Proportional Reasoning",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "A 5.5-foot person casts a 4-foot shadow. A building casts a 60-foot shadow. Find the building's height." },
+        { "problem": "Explain which similarity concept from this week makes this method work." }
+      ]
+    }
+  }
+}

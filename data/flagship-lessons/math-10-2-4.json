@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-10-2",
+    "courseId": "course-math-10",
+    "order": 2,
+    "title": "Similarity and Proportional Reasoning",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-10-2-4",
+    "unitId": "unit-math-10-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Real-World Indirect Measurement",
+    "gradeLevel": "10",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've mastered similarity. Today: use it to measure something too tall to measure directly!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Similar triangles let you measure very tall objects, like a flagpole, indirectly using shadows: on a sunny day, the sun's rays hit both the flagpole and a person at the same angle, creating two similar right triangles. A 6-foot-tall person casts a 4-foot shadow at the same moment a flagpole casts a 20-foot shadow. Set up a proportion using the person's height/shadow and the flagpole's unknown height/shadow, then solve for the flagpole's height."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just measured a flagpole's height without touching it! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-10-2-4",
+    "lessonId": "lesson-math-10-2-4",
+    "objectives": [
+      "Understand why shadows create similar triangles at the same moment in time",
+      "Correctly solve the flagpole-height indirect-measurement problem"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's similarity, AA, and missing-side-length work.\n2. Explain why the sun's angle creates similar triangles for the person and flagpole.\n3. Have the child set up and solve the proportion.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: draw both triangles (person + shadow, flagpole + shadow) as a simple diagram before setting up the proportion algebraically",
+      "Ready for more: ask the child why this method wouldn't work on a cloudy day with no visible shadow, and whether they can think of another real-world way to measure a tall object indirectly",
+      "This is the week's synthesis moment — a real, historically-used surveying technique, not just an abstract exercise"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "6/4 = h/20 cross-multiplies to 4h = 120, so h = 30. The flagpole is 30 feet tall.",
+    "standardsRationale": "Directly addresses Common Core Geometry standard G-SRT.5: applying similarity to solve real-world measurement problems, completing this week's thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-math-10-2-4",
+    "lessonId": "lesson-math-10-2-4",
+    "title": "Real-World Indirect Measurement",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each indirect-measurement problem.",
+      "rows": [
+        { "problem": "A 6-foot person casts a 4-foot shadow. At the same moment, a flagpole casts a 20-foot shadow. Find the flagpole's height." },
+        { "problem": "A 5-foot person casts a 3-foot shadow. At the same moment, a tree casts a 21-foot shadow. Find the tree's height." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-10-2",
+    "courseId": "course-math-10",
+    "order": 2,
+    "title": "Similarity and Proportional Reasoning",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-10-2-3",
+    "unitId": "unit-math-10-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Finding Missing Side Lengths",
+    "gradeLevel": "10",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned to prove similarity. Today: use it to find a missing side length!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Once two triangles are known to be similar, you can set up a proportion between corresponding sides to solve for an unknown length. If Triangle A has sides 4, 6, and 8, and similar Triangle B has a corresponding first side of 10, set up the proportion 4/10 = 6/x to solve for Triangle B's second side. Solve this proportion for x, then find Triangle B's third side using the same scale factor."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just found missing side lengths using similar triangles! Tomorrow we'll apply this to a real-world measurement problem."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-10-2-3",
+    "lessonId": "lesson-math-10-2-3",
+    "objectives": [
+      "Set up a proportion between corresponding sides of similar triangles",
+      "Correctly solve for a missing side length using cross-multiplication"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's similarity and AA work briefly.\n2. Model setting up and solving the 4/10 = 6/x proportion.\n3. Have the child find Triangle B's third side using the same scale factor.\n4. Complete the worksheet.\n5. Preview tomorrow's real-world application.",
+    "differentiationTips": [
+      "Struggling: find the scale factor first (10/4 = 2.5) and use it to directly multiply each side, rather than cross-multiplying a proportion",
+      "Ready for more: ask the child to solve the same problem both ways (proportion and scale factor) and confirm they give the same answer",
+      "This is a genuinely practical geometry skill — the same reasoning underlies tomorrow's real-world indirect-measurement application"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "4/10 = 6/x cross-multiplies to 4x = 60, so x = 15. The scale factor is 10/4 = 2.5, so Triangle B's third side is 8 × 2.5 = 20. Triangle B's sides are 10, 15, and 20.",
+    "standardsRationale": "Directly addresses Common Core Geometry standard G-SRT.5: using similarity criteria to solve problems and find unknown measurements."
+  },
+  "worksheet": {
+    "id": "worksheet-math-10-2-3",
+    "lessonId": "lesson-math-10-2-3",
+    "title": "Finding Missing Side Lengths",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find the missing side length using similar triangles.",
+      "rows": [
+        { "problem": "Triangle A has sides 4, 6, 8. Similar Triangle B's first side is 10. Find Triangle B's second and third sides." },
+        { "problem": "Triangle C has sides 5, 7, 9. Similar Triangle D's first side is 15. Find Triangle D's second and third sides." }
+      ]
+    }
+  }
+}

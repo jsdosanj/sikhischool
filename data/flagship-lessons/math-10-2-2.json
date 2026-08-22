@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-10-2",
+    "courseId": "course-math-10",
+    "order": 2,
+    "title": "Similarity and Proportional Reasoning",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-10-2-2",
+    "unitId": "unit-math-10-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The AA Similarity Postulate",
+    "gradeLevel": "10",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what similarity means. Today: a shortcut for proving two triangles are similar!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The AA (Angle-Angle) Similarity Postulate states that if two angles of one triangle are equal to two angles of another triangle, the triangles are similar — you don't need to check all three angles or any side lengths, since a triangle's angles always sum to 180 degrees, so matching two angles automatically forces the third to match too. Given Triangle A with angles 50° and 60°, and Triangle B with angles 50° and 60°, explain why AA lets you conclude these triangles are similar without checking the third angle or any sides."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the AA Similarity Postulate! Tomorrow we'll use similar triangles to find missing side lengths."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-10-2-2",
+    "lessonId": "lesson-math-10-2-2",
+    "objectives": [
+      "State the AA Similarity Postulate",
+      "Explain why the third angle is automatically determined once two angles match"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's similarity-definition work briefly.\n2. Introduce the AA Similarity Postulate and the 180-degree-sum reasoning behind it.\n3. Have the child explain why the third angle is automatically determined.\n4. Complete the worksheet.\n5. Preview tomorrow's missing-side-length lesson.",
+    "differentiationTips": [
+      "Struggling: have the child calculate the third angle directly (180-50-60=70) for both triangles to see they match, before explaining why this will always happen",
+      "Ready for more: ask the child why AA is enough for SIMILARITY but SAS/ASA/SSS (from last week) were needed for CONGRUENCE — what's the key difference in what each is proving",
+      "This connects directly back to last week's triangle-congruence criteria, contrasting what's needed for similarity vs. congruence"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Since a triangle's three angles always sum to 180 degrees, if two triangles already share two equal angles, their third angles must also be equal (180 minus the same two numbers gives the same result) — so checking just two angles is enough to guarantee all three match, making the triangles similar by AA.",
+    "standardsRationale": "Directly addresses Common Core Geometry standard G-SRT.3: using the AA criterion to prove triangles similar, continuing this week's similarity thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-10-2-2",
+    "lessonId": "lesson-math-10-2-2",
+    "title": "The AA Similarity Postulate",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the AA Similarity Postulate.",
+      "rows": [
+        { "problem": "State the AA Similarity Postulate." },
+        { "problem": "Triangle A has angles 40° and 70°. Triangle B has angles 40° and 70°. Are they similar by AA? Explain." },
+        { "problem": "If two triangles share angles of 90° and 30°, what must the third angle of each be?" }
+      ]
+    }
+  }
+}

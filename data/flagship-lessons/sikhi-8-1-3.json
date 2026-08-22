@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-8-1",
+    "courseId": "course-sikhi-8",
+    "order": 1,
+    "title": "Understanding Bias and Civic Engagement",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-8-1-3",
+    "unitId": "unit-sikhi-8-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Confidently Explaining Your Identity",
+    "gradeLevel": "8",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've named a real challenge. Today, something empowering: real, practical ways to respond confidently when someone genuinely doesn't know about Sikhi."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "When someone asks a genuine, respectful question about your identity — like about a turban or the Kara — you have a real opportunity to close the information gap directly, in your own words. A simple, confident response might explain what the article represents (like from your earlier lessons on the Five Kakars) without needing a long lecture: 'This is a Kara, one of the Five Kakars in Sikhi — it represents restraint and reminds me of my values.' Practice: write a short, confident 2-3 sentence explanation you could give a curious, respectful classmate about one part of Sikh identity you've learned about this year."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just practiced a real, confident way to represent your own identity accurately. Tomorrow we'll look at another way to engage constructively: civic engagement."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-8-1-3",
+    "lessonId": "lesson-sikhi-8-1-3",
+    "objectives": [
+      "Recognize a genuine question as an opportunity to share accurate information",
+      "Write a short, confident explanation of one aspect of Sikh identity"
+    ],
+    "materialsNeeded": ["Earlier Sikhi-course worksheets (Five Kakars, Guru contributions) for reference", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's identity/information-gap discussion.\n2. Introduce the idea of a genuine question as an opportunity, not a burden.\n3. Model a short, confident explanation using the Kara example.\n4. Have the child write their own explanation of a different Sikh identity element they've studied.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: civic engagement.",
+    "differentiationTips": [
+      "Struggling: let the child choose the simplest, most familiar topic to explain (like Langar) rather than something more complex",
+      "Ready for more: have them practice saying their explanation out loud, as if speaking to a real classmate",
+      "This is the empowering pivot point of the week — spend real, positive time here after Day 2's harder content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's chosen topic — check that the explanation is accurate (matches what was taught in earlier lessons), confident in tone, and appropriately brief (2-3 sentences).",
+    "standardsRationale": "Directly addresses the course's 'representation' description by building a genuine, practical skill — explaining one's own identity accurately and confidently — rather than leaving the bias discussion without a constructive next step."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-8-1-3",
+    "lessonId": "lesson-sikhi-8-1-3",
+    "title": "Confidently Explaining Your Identity",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a short, confident 2-3 sentence explanation of one part of Sikh identity you've learned about this year.",
+      "prompts": [
+        { "prompt": "My chosen topic:", "lines": 1 },
+        { "prompt": "My explanation:", "lines": 3 }
+      ]
+    }
+  }
+}

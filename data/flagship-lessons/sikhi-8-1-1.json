@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-8-1",
+    "courseId": "course-sikhi-8",
+    "order": 1,
+    "title": "Understanding Bias and Civic Engagement",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-8-1-1",
+    "unitId": "unit-sikhi-8-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is Bias?",
+    "gradeLevel": "8",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week, we'll explore contemporary issues connected to Sikh identity: bias, representation, and how to engage confidently as a citizen. We start with understanding bias itself."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Bias means forming an opinion about someone based on assumptions about a group they belong to, rather than getting to know them as an individual. Bias often comes from a simple lack of accurate information — someone may have never learned the real facts about a group, so they fill the gap with guesses or media portrayals, which are sometimes wrong. This isn't unique to any one group; every community has, at some point, been misunderstood by people who didn't have accurate information about them. Think of a time you assumed something about a person or group before really getting to know them — what happened when you learned more?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined what bias really is and where it usually comes from: a lack of accurate information. Tomorrow we'll look at how this specifically applies to Sikh identity."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-8-1-1",
+    "lessonId": "lesson-sikhi-8-1-1",
+    "objectives": [
+      "Define bias as forming assumptions about someone based on group membership rather than individual knowledge",
+      "Recognize that bias generally stems from a lack of accurate information"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the definition of bias in a calm, educational tone.\n2. Discuss that bias affects many different communities, not just one, and usually comes from missing information.\n3. Have the child reflect on their own experience with an assumption they later revised.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: how this applies specifically to Sikh identity.",
+    "differentiationTips": [
+      "Struggling: use a simple, low-stakes example (assuming a new student wouldn't like a hobby, then learning they do) rather than a heavier topic",
+      "Ready for more: discuss the difference between bias (an internal assumption) and discrimination (acting on that assumption unfairly)",
+      "Keep this lesson's tone educational and calm, not alarming — it's laying groundwork for Day 2's more specific content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Bias means forming an opinion about someone based on group assumptions rather than getting to know them individually. 2. Bias usually comes from a lack of accurate information. 3. Answers will vary for the child's own reflection.",
+    "standardsRationale": "Establishes the general concept of bias before Day 2 applies it specifically to Sikh identity, matching the course's own 'contemporary Sikh issues — bias' description with a calm, educational foundation."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-8-1-1",
+    "lessonId": "lesson-sikhi-8-1-1",
+    "title": "What Is Bias?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What does bias mean?" },
+        { "problem": "Where does bias usually come from?" },
+        { "problem": "Is bias unique to one group, or does it affect many communities?" }
+      ]
+    }
+  }
+}

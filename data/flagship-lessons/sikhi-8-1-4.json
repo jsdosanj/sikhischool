@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-8-1",
+    "courseId": "course-sikhi-8",
+    "order": 1,
+    "title": "Understanding Bias and Civic Engagement",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-8-1-4",
+    "unitId": "unit-sikhi-8-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Civic Engagement: Real Ways to Participate",
+    "gradeLevel": "8",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Explaining your own identity to one person at a time matters. Today, a bigger scale: real ways to engage as a citizen in your wider community."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Civic engagement means taking an active part in your community and government. Real, concrete examples: voting in elections once you're eligible, contacting elected officials about issues you care about, joining or supporting community organizations (including Sikh community organizations that educate the public and advocate on important issues), participating in interfaith or multicultural events that build understanding across communities, and simply staying informed about local and national issues. Civic engagement is one of the most effective long-term ways communities close the information gap from earlier this week — not through one conversation, but through sustained, active participation. Name one form of civic engagement from this list you could realistically take part in now or in the near future, and explain why."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected this week's ideas about identity and representation to real, active civic participation. Tomorrow we'll review everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-8-1-4",
+    "lessonId": "lesson-sikhi-8-1-4",
+    "objectives": [
+      "Define civic engagement and name real, concrete examples",
+      "Identify one form of civic engagement personally realistic for the child now or soon"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's identity and representation content.\n2. Introduce civic engagement and its real examples (voting, contacting officials, community organizations, interfaith events, staying informed).\n3. Have the child identify one realistic form of engagement for their own life stage.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on the most age-appropriate example (joining or supporting a community organization, staying informed) rather than voting, which the child isn't yet eligible for",
+      "Ready for more: research one real Sikh community organization and what kind of civic work it does",
+      "Keep this forward-looking and empowering — civic engagement is presented as a genuine tool, not an obligation"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Civic engagement means taking an active part in your community and government. 2. Examples include voting, contacting officials, joining community organizations, and interfaith events. 3. Answers will vary for the child's own realistic choice.",
+    "standardsRationale": "Directly addresses the course's 'civic engagement' description with real, age-appropriate examples, completing the week's arc from understanding bias to constructive individual and collective response."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-8-1-4",
+    "lessonId": "lesson-sikhi-8-1-4",
+    "title": "Civic Engagement: Real Ways to Participate",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about civic engagement.",
+      "rows": [
+        { "problem": "What does civic engagement mean?" },
+        { "problem": "Name two real examples of civic engagement." },
+        { "problem": "Which form of civic engagement could you realistically take part in now or soon, and why?" }
+      ]
+    }
+  }
+}

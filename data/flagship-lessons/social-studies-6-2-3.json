@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-6-2",
+    "courseId": "course-social-studies-6",
+    "order": 2,
+    "title": "The Indus Valley and Ancient China",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-6-2-3",
+    "unitId": "unit-social-studies-6-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Ancient China's Yellow River Civilization",
+    "gradeLevel": "6",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've explored the Indus Valley. Today: the fourth river-valley civilization, Ancient China!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Ancient Chinese civilization grew along the Huang He, or Yellow River, whose fertile flooding soil supported farming, much like the Nile did for Egypt. One of the earliest Chinese dynasties, the Shang Dynasty, left behind oracle bones — animal bones and turtle shells inscribed with an early form of Chinese writing, used to ask questions and record answers. Compare the Yellow River's role for Ancient China to the Nile's role for Ancient Egypt, which you learned about last week."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned real facts about Ancient China's river-valley civilization! Tomorrow we'll compare all four river-valley civilizations together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-6-2-3",
+    "lessonId": "lesson-social-studies-6-2-3",
+    "objectives": [
+      "Locate Ancient China's civilization along the Yellow River (Huang He)",
+      "Compare the Yellow River's role for China to the Nile's role for Egypt"
+    ],
+    "materialsNeeded": ["Last week's Egypt worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's Indus Valley content.\n2. Introduce the Yellow River, the Shang Dynasty, and oracle bones.\n3. Have the child compare the Yellow River to the Nile.\n4. Complete the worksheet.\n5. Preview tomorrow's four-civilizations comparison.",
+    "differentiationTips": [
+      "Struggling: use a simple side-by-side chart (River, Fertile Soil, Early Writing) to compare China and Egypt directly",
+      "Ready for more: ask the child what oracle bones suggest about what mattered to the Shang Dynasty's rulers",
+      "This lesson completes the fourth and final river-valley civilization, setting up tomorrow's full comparison"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a comparison activity — check that the child correctly identifies both rivers as sources of fertile flooding soil that supported farming and, in turn, the growth of civilization.",
+    "standardsRationale": "Directly addresses the C3 Framework's History and Geography dimensions, completing the course's river-valley-civilizations thread with the final deferred civilization from week 1."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-6-2-3",
+    "lessonId": "lesson-social-studies-6-2-3",
+    "title": "Ancient China's Yellow River Civilization",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Ancient China.",
+      "rows": [
+        { "problem": "What river did Ancient Chinese civilization grow along?" },
+        { "problem": "What are oracle bones, and what dynasty used them?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-6-2",
+    "courseId": "course-social-studies-6",
+    "order": 2,
+    "title": "The Indus Valley and Ancient China",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-6-2-2",
+    "unitId": "unit-social-studies-6-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "An Unsolved Mystery: The Indus Script",
+    "gradeLevel": "6",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned real facts about Indus Valley cities. Today: a real historical mystery historians still haven't solved!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Indus Valley people had their own writing system, found on seals and pottery, but historians have never fully deciphered it. Unlike Mesopotamia's cuneiform or Egypt's hieroglyphics, which scholars can read, the Indus script remains a genuine unsolved mystery. Why do you think a whole civilization's writing system might be so much harder to decipher than others, even with modern research tools?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about a real, still-unsolved historical mystery! Tomorrow we'll travel to a very different river valley: Ancient China."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-6-2-2",
+    "lessonId": "lesson-social-studies-6-2-2",
+    "objectives": [
+      "Understand that the Indus script remains undeciphered, unlike Mesopotamian cuneiform or Egyptian hieroglyphics",
+      "Reason about why some ancient writing systems remain harder to decipher than others"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Indus Valley cities work.\n2. Introduce the undeciphered Indus script, contrasting it with cuneiform/hieroglyphics.\n3. Discuss why some scripts are harder to decipher.\n4. Complete the worksheet.\n5. Preview tomorrow's Ancient China lesson.",
+    "differentiationTips": [
+      "Struggling: connect to a simple analogy — trying to understand a code with no key or translation reference",
+      "Ready for more: ask the child what kind of new discovery might finally help historians decipher the Indus script",
+      "This is a genuinely honest 'we don't know' moment in history — a valuable lesson that not every historical mystery has been solved"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is an open-ended reasoning activity — check that the child gives a sensible explanation, such as the lack of a translation key (like the Rosetta Stone for hieroglyphics) or too few surviving samples of the script.",
+    "standardsRationale": "Directly addresses the C3 Framework's History dimension, honestly representing the limits of historical knowledge rather than presenting every fact as fully settled."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-6-2-2",
+    "lessonId": "lesson-social-studies-6-2-2",
+    "title": "An Unsolved Mystery: The Indus Script",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain why the Indus script might be harder to decipher than other ancient writing systems.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

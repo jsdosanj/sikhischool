@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-6-2",
+    "courseId": "course-social-studies-6",
+    "order": 2,
+    "title": "The Indus Valley and Ancient China",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-6-2-1",
+    "unitId": "unit-social-studies-6-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The Indus Valley Civilization",
+    "gradeLevel": "6",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you compared Mesopotamia and Egypt. This week: the other two river-valley civilizations, starting with the Indus Valley!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Indus Valley Civilization grew along the Indus River in South Asia, with major cities like Mohenjo-daro and Harappa. These cities were remarkably advanced for their time: carefully planned streets in a grid pattern, sophisticated drainage systems carrying away wastewater, and standardized weights and measures used across the whole civilization. Using last week's 7 characteristics of civilization, explain why advanced city planning like this counts as a real sign of civilization."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned real facts about the remarkably advanced Indus Valley cities! Tomorrow we'll learn about one of history's great unsolved mysteries connected to this civilization."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-6-2-1",
+    "lessonId": "lesson-social-studies-6-2-1",
+    "objectives": [
+      "Locate the Indus Valley Civilization and name its major cities: Mohenjo-daro and Harappa",
+      "Explain how advanced city planning connects to last week's 7 characteristics of civilization"
+    ],
+    "materialsNeeded": ["Last week's 7-characteristics worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Mesopotamia/Egypt comparison and the 7 characteristics of civilization.\n2. Introduce the Indus Valley's cities and their advanced planning.\n3. Discuss the connection to civilization characteristics.\n4. Complete the worksheet.\n5. Preview tomorrow's Indus Valley mystery lesson.",
+    "differentiationTips": [
+      "Struggling: focus on the drainage-system fact, the most concrete and relatable of the three examples",
+      "Ready for more: ask the child what standardized weights and measures suggest about the civilization's trade and organization",
+      "Reuses last week's 7-characteristics framework explicitly — this is a genuine application, not new isolated facts"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an explanation activity — check that the child connects city planning to characteristics like organized government/social structure and technology, both part of the 7-characteristics framework.",
+    "standardsRationale": "Directly addresses the C3 Framework's History dimension at a Grade 6 level, continuing the course's river-valley-civilizations thread with the two civilizations deliberately deferred from week 1."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-6-2-1",
+    "lessonId": "lesson-social-studies-6-2-1",
+    "title": "The Indus Valley Civilization",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Indus Valley Civilization.",
+      "rows": [
+        { "problem": "Name the two major Indus Valley cities." },
+        { "problem": "Name one advanced feature of their city planning." }
+      ]
+    }
+  }
+}

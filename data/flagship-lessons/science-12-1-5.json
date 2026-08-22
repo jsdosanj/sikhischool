@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-12-1",
+    "courseId": "course-science-12",
+    "order": 1,
+    "title": "Systems Thinking and Sustainability",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-12-1-5",
+    "unitId": "unit-science-12-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Systems Thinking and Sustainability",
+    "gradeLevel": "12",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a complete framework — systems, sustainability, feedback, and the design process — for the whole year's environmental science and engineering work ahead."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a system is described by inputs, outputs, and feedback (Day 1). Sustainability is evaluated through three pillars — environmental, economic, social (Day 2). Positive feedback loops reinforce change; negative feedback loops balance it (Day 3). The engineering design process — define, brainstorm, prototype, test, iterate — is genuinely iterative (Day 4). Choose a real environmental problem in your community, and analyze it using all four tools: describe it as a system (inputs/outputs/feedback), evaluate it through the three pillars, identify one feedback loop involved, and write a specific problem definition ready for the design process."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now have a genuine analytical toolkit connecting systems thinking, sustainability, and engineering design. This is exactly the foundation your capstone project later this year will build on."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-12-1-5",
+    "lessonId": "lesson-science-12-1-5",
+    "objectives": [
+      "Synthesize the week's four frameworks — systems, sustainability pillars, feedback loops, design process — into one analysis",
+      "Apply all four tools to a real environmental problem in the student's own community"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child choose a real community environmental problem and apply all four tools to it.\n3. Complete the cumulative review worksheet.\n4. Discuss any uncertain answers together before finishing.\n5. Celebrate finishing the first full week of Environmental Science & Engineering — this analytical toolkit underpins the capstone project ahead.",
+    "differentiationTips": [
+      "Struggling: allow the child to apply just two of the four tools in depth rather than all four at once, building toward the full synthesis over time",
+      "Ready for more: ask them to sketch an early brainstorm of one possible solution to their chosen problem, moving one step into the design process itself",
+      "This is a good checkpoint to note which of the four frameworks (systems, sustainability, feedback, design process) needs the most re-teaching before the capstone work begins"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "A complete answer applies all four tools to one real community problem: its inputs/outputs/feedback as a system, an evaluation through the three sustainability pillars, one identified feedback loop, and a specific, narrow problem definition — content varies genuinely by student, evaluated against these four required elements.",
+    "standardsRationale": "Consolidates the course's 'sustainability, systems thinking' description before the unit moves toward the capstone engineering-design project, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-12-1-5",
+    "lessonId": "lesson-science-12-1-5",
+    "title": "Systems Thinking and Sustainability: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Choose a real community environmental problem and apply all four tools.",
+      "rows": [
+        { "problem": "Describe the problem as a system: inputs, outputs, and any feedback." },
+        { "problem": "Evaluate it through the three sustainability pillars." },
+        { "problem": "Write a specific, narrow problem definition ready for the design process." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-12-1",
+    "courseId": "course-science-12",
+    "order": 1,
+    "title": "Systems Thinking and Sustainability",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-12-1-2",
+    "unitId": "unit-science-12-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Three Pillars of Sustainability",
+    "gradeLevel": "12",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned to see systems. Today: a standard framework for evaluating whether a system is actually sustainable."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Sustainability is commonly analyzed through three connected pillars: environmental (does it protect ecosystems and natural resources?), economic (is it financially viable over time?), and social (does it meet human needs fairly?). A genuinely sustainable solution addresses all three — a plan that's environmentally sound but economically unworkable won't last, and one that's profitable but environmentally destructive isn't truly sustainable either. For example, a farm using water-efficient irrigation (environmental) that also costs less to run long-term (economic) and provides stable local jobs (social) addresses all three pillars together. Choose one real environmental issue you're aware of and briefly analyze it through all three pillars."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a real, standard framework for evaluating sustainability, not just an intuitive sense of 'good for the environment.' Tomorrow we'll look at feedback loops specifically within environmental systems."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-12-1-2",
+    "lessonId": "lesson-science-12-1-2",
+    "objectives": [
+      "Define the three pillars of sustainability: environmental, economic, social",
+      "Analyze a real environmental issue through all three pillars"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's systems-thinking framework.\n2. Introduce the three pillars using the water-efficient irrigation example.\n3. Discuss why addressing only one or two pillars often isn't truly sustainable.\n4. Have the child choose a real issue and analyze it through all three pillars.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: feedback loops in environmental systems.",
+    "differentiationTips": [
+      "Struggling: provide one pre-selected environmental issue (like recycling programs or public transit) to analyze rather than requiring the child to choose their own",
+      "Ready for more: ask them to identify a real example where addressing only one or two pillars caused a solution to fail or be criticized",
+      "Keep this lesson at the general framework level — specific policy debates are out of scope here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The three pillars are environmental, economic, and social. 2. A genuinely sustainable solution addresses all three — for example, water-efficient irrigation that's also affordable long-term and supports stable local jobs.",
+    "standardsRationale": "Directly addresses the course's 'sustainability' description, establishing the standard three-pillars framework used throughout environmental science and policy analysis."
+  },
+  "worksheet": {
+    "id": "worksheet-science-12-1-2",
+    "lessonId": "lesson-science-12-1-2",
+    "title": "The Three Pillars of Sustainability",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the three pillars of sustainability.",
+      "rows": [
+        { "problem": "Name the three pillars of sustainability." },
+        { "problem": "Choose a real environmental issue and analyze it through all three pillars." },
+        { "problem": "Why isn't a solution that addresses only one or two pillars truly sustainable?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-11-1",
+    "courseId": "course-sikhi-11",
+    "order": 1,
+    "title": "The Global Sikh Diaspora",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-11-1-4",
+    "unitId": "unit-sikhi-11-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Identity and Adaptation in Diaspora",
+    "gradeLevel": "11",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Living in a new country while staying genuinely connected to Sikh identity isn't automatic — it takes real, ongoing effort across generations."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Diaspora Sikhs navigate a genuine, ongoing balance: adapting to a new country's language, systems, and daily life, while maintaining core elements of Sikh identity — articles of faith, Gurmukhi language and Gurbani, values like Seva and equality, and connection to Gurdwara community life. This balance isn't static; each generation navigates it somewhat differently, especially children growing up fully immersed in a new country's culture while their families work to pass down Punjabi language and Sikh practice. This is not a contradiction to resolve, but an ongoing, active process every diaspora community navigates. Think about what makes it easier, or harder, for identity and traditions to pass successfully from one generation to the next in a diaspora setting."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "This active balance between adaptation and identity is at the heart of what it means to be part of a living diaspora, not just a historical fact about migration. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-11-1-4",
+    "lessonId": "lesson-sikhi-11-1-4",
+    "objectives": [
+      "Describe the ongoing balance diaspora Sikhs navigate between adaptation and maintaining Sikh identity",
+      "Identify factors that help or hinder identity transmission across generations in a diaspora setting"
+    ],
+    "materialsNeeded": ["This week's earlier lesson notes", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's diaspora concept, migration waves, and the Gurdwara's role.\n2. Introduce the adaptation/identity balance as an ongoing, active process, not a one-time resolution.\n3. Discuss what helps or hinders identity transmission across generations.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: make this concrete and personal if appropriate — ask the child to reflect on their own family's experience with language, tradition, or practice across generations",
+      "Ready for more: ask them to consider how institutions (like the Gurdwara from Day 3) play a specific role in helping identity transmission succeed across generations",
+      "Text-only content, per the platform's content policy — keep this reflective and general rather than asserting one 'correct' way to balance adaptation and identity"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Diaspora Sikhs navigate an ongoing balance between adapting to a new country and maintaining core elements of Sikh identity (articles of faith, language, values, community life). 2. Factors that help transmission include community institutions, intentional family effort, and language/tradition practice; factors that hinder it include full immersion in a different culture without those supports.",
+    "standardsRationale": "Addresses the C3 Framework's Geography dimension (D2.Geo.4, cultural diffusion and adaptation) alongside the platform's Sikhi standards, completing this week's diaspora study with its most personally relevant, ongoing dimension."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-11-1-4",
+    "lessonId": "lesson-sikhi-11-1-4",
+    "title": "Identity and Adaptation in Diaspora",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about identity and adaptation in diaspora communities.",
+      "prompts": [
+        { "prompt": "What balance do diaspora Sikhs navigate?", "lines": 2 },
+        { "prompt": "What helps identity and traditions pass successfully across generations?", "lines": 3 }
+      ]
+    }
+  }
+}

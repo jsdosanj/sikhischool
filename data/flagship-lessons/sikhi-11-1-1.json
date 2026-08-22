@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-11-1",
+    "courseId": "course-sikhi-11",
+    "order": 1,
+    "title": "The Global Sikh Diaspora",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-11-1-1",
+    "unitId": "unit-sikhi-11-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is a Diaspora?",
+    "gradeLevel": "11",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Grade 11 Sikhi. This course studies modern Sikh history, including colonialism, partition, and the global diaspora — genuinely significant and sometimes difficult events we'll approach carefully over time. This week, we'll begin with the diaspora itself: where Sikhs live today, and how that global community grew."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A diaspora is a community of people living outside their original homeland while maintaining a shared identity, culture, and connection to that homeland. Today, Sikhs live in significant numbers across North America, the United Kingdom, East Africa, Australia, and Southeast Asia, in addition to Punjab itself — genuinely one of the most widely dispersed diaspora communities in the world relative to its size. This didn't happen all at once; it grew over more than a century, through distinct waves of migration for different reasons over time. Think of a community you know (your own family's story, or another community you're familiar with) that maintains its identity and traditions while living somewhere far from its place of origin. What helps a community like that stay connected across distance?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Understanding what a diaspora is gives you the right lens for this week's study of how the global Sikh community actually grew. Tomorrow we'll look at the early migration waves that started it."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-11-1-1",
+    "lessonId": "lesson-sikhi-11-1-1",
+    "objectives": [
+      "Define diaspora as a community maintaining shared identity and homeland connection while living elsewhere",
+      "Describe the general scope of the global Sikh diaspora today"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the course's scope honestly, noting that colonialism and partition will be approached carefully in future weeks.\n2. Define diaspora and describe the Sikh diaspora's general global scope today.\n3. Discuss the reflection question about community connection across distance.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: early migration waves.",
+    "differentiationTips": [
+      "Struggling: use a simple, relatable framing — a diaspora is like a big extended family that lives in many different houses (countries) but still calls, visits, and shares traditions together",
+      "Ready for more: ask them to name specific ways a community might maintain its identity across generations living far from its homeland (language, religious institutions, food, celebrations)",
+      "Text-only content, per the platform's content policy"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A diaspora is a community living outside its original homeland while maintaining shared identity, culture, and connection to that homeland. 2. Today, Sikhs live in significant numbers across North America, the UK, East Africa, Australia, and Southeast Asia, alongside Punjab itself.",
+    "standardsRationale": "Addresses the C3 Framework's Geography dimension (D2.Geo.4, migration patterns) and WA Social Studies' World History strand, establishing the diaspora concept this unit's migration history builds on."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-11-1-1",
+    "lessonId": "lesson-sikhi-11-1-1",
+    "title": "What Is a Diaspora?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about diaspora communities.",
+      "rows": [
+        { "problem": "What is a diaspora?" },
+        { "problem": "Where does the global Sikh diaspora live today?" },
+        { "problem": "What helps a community maintain its identity across distance and generations?" }
+      ]
+    }
+  }
+}

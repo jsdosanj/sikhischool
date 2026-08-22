@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-k-2",
+    "courseId": "course-science-k",
+    "order": 2,
+    "title": "Weather Patterns",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-k-2-1",
+    "unitId": "unit-science-k-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is Weather?",
+    "gradeLevel": "K",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Look outside right now — is it sunny, cloudy, rainy, or windy? That's weather, and today we start a whole new unit exploring it!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Weather describes what the sky and air are like outside at a certain time — sunny, cloudy, rainy, windy, or snowy are all real weather words. Weather can also be described by temperature: hot, warm, cool, or cold. Look outside (or think about today) and describe today's weather using both a weather word and a temperature word."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just made your first real weather observation! Tomorrow we'll learn about the four seasons and how weather changes throughout the year."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-k-2-1",
+    "lessonId": "lesson-science-k-2-1",
+    "objectives": [
+      "Name common weather conditions: sunny, cloudy, rainy, windy, snowy",
+      "Describe current weather using both a weather word and a temperature word"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon", "A window or the ability to briefly step outside"],
+    "facilitationScript": "1. Look outside together (or recall today's weather) and describe it.\n2. Introduce the common weather words and temperature words.\n3. Practice describing 2-3 different hypothetical weather scenarios together.\n4. Complete the worksheet.\n5. Close by describing today's actual weather one more time, together.",
+    "differentiationTips": [
+      "Struggling: focus on just 2-3 weather words (sunny, rainy, cloudy) before introducing the full set",
+      "Ready for more: ask the child to describe yesterday's weather from memory, and compare it to today's",
+      "This is a great lesson to actually step outside briefly, if possible, for a real observation"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is an observation and discussion activity — answers vary based on actual local weather; check that the child uses both a weather word and a temperature word.",
+    "standardsRationale": "Directly addresses NGSS Kindergarten standard K-ESS2-1: using and sharing observations of local weather conditions, the foundational skill this new unit builds on."
+  },
+  "worksheet": {
+    "id": "worksheet-science-k-2-1",
+    "lessonId": "lesson-science-k-2-1",
+    "title": "What Is Weather?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about weather.",
+      "rows": [
+        { "problem": "What is today's weather? Use a weather word and a temperature word." },
+        { "problem": "Name three different kinds of weather." },
+        { "problem": "How is sunny weather different from rainy weather?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-10-1",
+    "courseId": "course-ela-10",
+    "order": 1,
+    "title": "Argumentative Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-10-1-3",
+    "unitId": "unit-ela-10-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Addressing Counterarguments: Concession and Rebuttal",
+    "gradeLevel": "10",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "A one-sided essay is easy to write and easy to dismiss. Today, the move that makes an argument genuinely persuasive: taking the other side seriously."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A concession-and-rebuttal is a specific two-part structure: first, honestly acknowledge a real point the other side would make (the concession) — this shows the reader you understand the issue, not just your own view of it. Then, explain why your claim still holds despite that point (the rebuttal). For the claim 'Schools should limit smartphone use during class,' a fair counterargument is: 'Students sometimes need their phones for legitimate reasons, like a family emergency.' A strong rebuttal doesn't ignore this — it responds directly: 'That's true, which is why the policy should include a clear emergency exception rather than a total ban.' Notice the rebuttal doesn't pretend the counterargument is wrong — it shows the claim survives it. Write one real counterargument to yesterday's claim, then write a rebuttal that acknowledges it honestly before responding."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Addressing the other side honestly, rather than ignoring or strawmanning it, is what separates a mature argumentative essay from a one-sided rant. Tomorrow we'll put every piece from this week into one complete essay structure."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-10-1-3",
+    "lessonId": "lesson-ela-10-1-3",
+    "objectives": [
+      "Explain the concession-and-rebuttal structure and why it strengthens an argument",
+      "Write a fair concession and a direct rebuttal for a given claim"
+    ],
+    "materialsNeeded": ["Yesterday's claim and evidence worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's claim and evidence.\n2. Introduce the concession-and-rebuttal structure with the smartphone example.\n3. Discuss why acknowledging the other side honestly (not strawmanning it) actually strengthens credibility.\n4. Have the child write a real counterargument and rebuttal for their own claim.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: full essay organization.",
+    "differentiationTips": [
+      "Struggling: provide a pre-written counterargument and have the child focus only on writing the rebuttal",
+      "Ready for more: ask them to identify what a strawman version of the counterargument would look like, and explain why that would weaken rather than strengthen the essay",
+      "This is often the hardest argumentative-writing skill for students — expect to revisit it, one genuinely fair concession is worth more than three dismissive ones"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A concession honestly acknowledges a real point from the other side. 2. A rebuttal explains why the claim still holds despite that point. 3. A strawman version misrepresents the counterargument to make it easy to dismiss, which weakens credibility rather than strengthening it.",
+    "standardsRationale": "Directly addresses Common Core Writing standard W.9-10.1a: developing claims and counterclaims fairly, supplying the strongest evidence for each while pointing out the strengths and limitations of both."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-10-1-3",
+    "lessonId": "lesson-ela-10-1-3",
+    "title": "Addressing Counterarguments: Concession and Rebuttal",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a fair counterargument to your claim, then a rebuttal that responds to it directly.",
+      "prompts": [
+        { "prompt": "A real, fair counterargument to your claim:", "lines": 2 },
+        { "prompt": "Your rebuttal — why the claim still holds:", "lines": 3 },
+        { "prompt": "Why is a fair concession stronger than a strawman?", "lines": 2 }
+      ]
+    }
+  }
+}

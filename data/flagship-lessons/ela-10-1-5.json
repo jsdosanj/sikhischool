@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-10-1",
+    "courseId": "course-ela-10",
+    "order": 1,
+    "title": "Argumentative Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-10-1-5",
+    "unitId": "unit-ela-10-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Argumentative Writing",
+    "gradeLevel": "10",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built every piece of a real argumentative essay. Today, put it all together by drafting the two paragraphs that frame the whole thing."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a strong claim is specific, debatable, and defensible (Day 1). Evidence comes in three types — facts/statistics, expert opinion, examples — and some evidence is stronger than others (Day 2). A concession-and-rebuttal honestly acknowledges the other side before responding to it (Day 3). A complete essay follows a five-part structure, with the counterargument addressed near the end (Day 4). Using your Day 4 outline, write your full introduction paragraph (ending in your claim) and your full conclusion paragraph (restating the claim in light of your argument)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've now drafted the frame of a complete argumentative essay — claim, evidence, a fair counterargument, and real structure. This is the foundation every future argumentative essay in this course will build on."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-10-1-5",
+    "lessonId": "lesson-ela-10-1-5",
+    "objectives": [
+      "Synthesize the week's four skills — claim, evidence, counterargument/rebuttal, structure — into one plan",
+      "Draft a complete introduction and conclusion paragraph from a five-part outline"
+    ],
+    "materialsNeeded": ["Day 4's outline worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child draft the introduction paragraph independently, using Day 4's outline.\n3. Draft the conclusion paragraph.\n4. Complete the cumulative review worksheet.\n5. Discuss how the two paragraphs connect back to the same claim.\n6. Celebrate finishing the first full week of this unit — this essay structure will reappear constantly throughout the course.",
+    "differentiationTips": [
+      "Struggling: allow the child to draft just 2-3 sentences per paragraph rather than a full paragraph, focused on hitting the required elements",
+      "Ready for more: ask them to also draft one full body paragraph (the strongest evidence one) to have a nearly-complete essay",
+      "This is a good checkpoint to note which part of the process (claim-writing, evidence, counterargument, or structure) needs the most re-teaching before the unit continues"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "A strong claim is specific, debatable, and defensible. Evidence types are facts/statistics, expert opinion, and examples. A concession-and-rebuttal fairly acknowledges the other side before responding. The five-part structure places the counterargument paragraph near the end, after the writer's own case is established.",
+    "standardsRationale": "Consolidates Common Core Writing standard W.9-10.1a-e (claim development, evidence, counterclaims, organization, and a concluding statement) before the unit moves to a full essay draft, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-10-1-5",
+    "lessonId": "lesson-ela-10-1-5",
+    "title": "Argumentative Writing: Week 1 Review",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Using your Day 4 outline, draft your full introduction and conclusion paragraphs.",
+      "prompts": [
+        { "prompt": "Introduction paragraph (ending in your claim):", "lines": 5 },
+        { "prompt": "Conclusion paragraph (restating your claim):", "lines": 5 }
+      ]
+    }
+  }
+}

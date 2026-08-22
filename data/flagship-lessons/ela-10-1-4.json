@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-ela-10-1",
+    "courseId": "course-ela-10",
+    "order": 1,
+    "title": "Argumentative Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-10-1-4",
+    "unitId": "unit-ela-10-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Organizing a Complete Argumentative Essay",
+    "gradeLevel": "10",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have a claim, evidence, and a counterargument-and-rebuttal. Today: the structure that puts them all together into one complete essay."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A complete argumentative essay generally has five parts, in this order: (1) an introduction ending in your claim, (2) a body paragraph presenting your strongest evidence, (3) a body paragraph presenting a second piece of evidence, (4) a paragraph addressing the counterargument with your rebuttal, (5) a conclusion that restates the claim in light of everything argued. Notice the counterargument paragraph comes near the end, after your own case is established — addressing it too early can undercut your argument before the reader has seen your strongest points. Using this week's claim, evidence, and counterargument/rebuttal, create a five-part outline: one line per part describing what it will say."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a complete outline ready to become a real essay. Tomorrow we'll review everything from this week and you'll draft the essay's opening and closing."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-10-1-4",
+    "lessonId": "lesson-ela-10-1-4",
+    "objectives": [
+      "Identify the five-part structure of a complete argumentative essay",
+      "Organize this week's claim, evidence, and counterargument/rebuttal into a five-part outline"
+    ],
+    "materialsNeeded": ["This week's claim/evidence/counterargument worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's claim, evidence, and counterargument/rebuttal.\n2. Introduce the five-part essay structure, discussing why the counterargument paragraph comes near the end rather than the beginning.\n3. Model outlining one part together.\n4. Have the child complete the remaining four parts independently.\n5. Complete the worksheet.\n6. Preview tomorrow's review and drafting.",
+    "differentiationTips": [
+      "Struggling: provide the five part labels pre-printed and have the child fill in only the content for each",
+      "Ready for more: ask them to also outline a second piece of evidence beyond what was written on Day 2",
+      "This outline IS the plan for the actual essay draft tomorrow — encourage genuine, specific detail rather than one-word placeholders"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "A complete outline includes: (1) an introduction ending in the claim, (2)-(3) two evidence-based body paragraphs, (4) a counterargument-and-rebuttal paragraph, (5) a conclusion restating the claim. The counterargument paragraph is placed near the end so the writer's own case is established first.",
+    "standardsRationale": "Directly addresses Common Core Writing standard W.9-10.1: creating an organization that establishes clear relationships among claim, counterclaims, reasons, and evidence."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-10-1-4",
+    "lessonId": "lesson-ela-10-1-4",
+    "title": "Organizing a Complete Argumentative Essay",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Outline your complete five-part argumentative essay, one line per part.",
+      "prompts": [
+        { "prompt": "1. Introduction (ending in your claim):", "lines": 2 },
+        { "prompt": "2. First evidence paragraph:", "lines": 2 },
+        { "prompt": "3. Second evidence paragraph:", "lines": 2 },
+        { "prompt": "4. Counterargument and rebuttal paragraph:", "lines": 2 },
+        { "prompt": "5. Conclusion:", "lines": 2 }
+      ]
+    }
+  }
+}

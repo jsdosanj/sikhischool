@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-11-1",
+    "courseId": "course-punjabi-11",
+    "order": 1,
+    "title": "Introduction to Punjabi News Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-11-1-2",
+    "unitId": "unit-punjabi-11-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Inverted Pyramid: Structuring a News Report",
+    "gradeLevel": "11",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what counts as ਖ਼ਬਰ. Today: the specific structure real news writing uses to organize it."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "News writing follows the inverted pyramid — the most ਮਹੱਤਵਪੂਰਨ (important) ਜਾਣਕਾਰੀ (information) comes first, with less critical details following after. This is the opposite of a story, which often builds toward its most important moment at the end. The inverted pyramid exists because a ਪਾਠਕ (reader) might only read the first sentence or two — so that opening must contain the core of what happened. Take this week's Day 1 event and write just the single most important sentence about it — the sentence a reader would need even if they read nothing else."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand why news writing is organized backward from a typical story. Tomorrow we'll learn the specific questions every strong opening sentence should answer."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-11-1-2",
+    "lessonId": "lesson-punjabi-11-1-2",
+    "objectives": [
+      "Explain the inverted pyramid structure and why news writing uses it",
+      "Write a single opening sentence containing an event's most important information"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's ਖ਼ਬਰ definition and Day 1's event.\n2. Introduce the inverted pyramid, contrasting it with typical story structure.\n3. Discuss why readers' limited attention makes this structure useful.\n4. Have the child write their single most-important-sentence.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: the 5 key questions.",
+    "differentiationTips": [
+      "Struggling: use a visual triangle diagram (wide/important at top, narrow/detail at bottom, inverted from a normal pyramid) to make the structure concrete",
+      "Ready for more: ask them to rewrite their Day 1 event as a short story instead, and compare which structure (story vs. inverted pyramid) fits better for that particular event",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The inverted pyramid puts the most important information first, with less critical details following. 2. This structure exists because readers often only read the opening, so the core information must appear there.",
+    "standardsRationale": "Directly addresses the course's 'advanced composition and an introduction to Punjabi-language media and journalism' description, teaching a genuine structural convention of news writing."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-11-1-2",
+    "lessonId": "lesson-punjabi-11-1-2",
+    "title": "The Inverted Pyramid: Structuring a News Report",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer the question, then write your opening sentence.",
+      "prompts": [
+        { "prompt": "Why does news writing put the most important information first?", "lines": 2 },
+        { "prompt": "Write the single most important sentence about your Day 1 event:", "lines": 2 }
+      ]
+    }
+  }
+}

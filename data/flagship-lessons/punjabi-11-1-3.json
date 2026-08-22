@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-11-1",
+    "courseId": "course-punjabi-11",
+    "order": 1,
+    "title": "Introduction to Punjabi News Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-11-1-3",
+    "unitId": "unit-punjabi-11-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "ਪੰਜ ਸਵਾਲ: The Five Key Questions",
+    "gradeLevel": "11",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday's opening sentence needs real substance. Today: the five ਸਵਾਲ (questions) that give it exactly that."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong news opening usually answers as many of these five ਸਵਾਲ as possible: ਕੌਣ (who), ਕੀ (what), ਕਦੋਂ (when), ਕਿੱਥੇ (where), and ਕਿਉਂ (why) — the ਕਾਰਨ (reason) something happened. Not every opening sentence fits all five in cleanly, but a strong one answers at least ਕੌਣ, ਕੀ, and either ਕਦੋਂ or ਕਿੱਥੇ. Take your Day 2 opening sentence and check it against all five questions — which ones does it already answer, and which are missing? Revise your sentence to answer at least one more."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a genuine checklist for making a news opening substantive, not just short. Tomorrow you'll write a complete original news report using everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-11-1-3",
+    "lessonId": "lesson-punjabi-11-1-3",
+    "objectives": [
+      "Identify the five key questions (ਕੌਣ/ਕੀ/ਕਦੋਂ/ਕਿੱਥੇ/ਕਿਉਂ) a strong news opening answers",
+      "Revise an opening sentence to answer more of the five questions"
+    ],
+    "materialsNeeded": ["Day 2's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's inverted-pyramid opening sentence.\n2. Introduce the five ਸਵਾਲ.\n3. Check the Day 2 sentence against all five together.\n4. Have the child revise their own sentence to answer at least one more question.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: writing a complete news report.",
+    "differentiationTips": [
+      "Struggling: work through the five questions one at a time as a checklist, ticking off each as it's addressed rather than revising the whole sentence at once",
+      "Ready for more: ask them to identify which of the five questions is hardest to answer in one sentence, and why",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The five key questions are ਕੌਣ (who), ਕੀ (what), ਕਦੋਂ (when), ਕਿੱਥੇ (where), ਕਿਉਂ (why). 2. A strong opening sentence answers at least ਕੌਣ, ਕੀ, and either ਕਦੋਂ or ਕਿੱਥੇ.",
+    "standardsRationale": "Directly addresses the course's 'advanced composition and an introduction to Punjabi-language media and journalism' description, giving a concrete, checkable standard for a strong news opening."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-11-1-3",
+    "lessonId": "lesson-punjabi-11-1-3",
+    "title": "ਪੰਜ ਸਵਾਲ: The Five Key Questions",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Check your Day 2 sentence against the five questions, then revise it.",
+      "prompts": [
+        { "prompt": "Which of the five questions (ਕੌਣ/ਕੀ/ਕਦੋਂ/ਕਿੱਥੇ/ਕਿਉਂ) does your sentence already answer?", "lines": 2 },
+        { "prompt": "Your revised sentence, answering at least one more question:", "lines": 2 }
+      ]
+    }
+  }
+}

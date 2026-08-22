@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-11-2",
+    "courseId": "course-sikhi-11",
+    "order": 2,
+    "title": "The Sikh Diaspora's Institutions and Impact",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-11-2-4",
+    "unitId": "unit-sikhi-11-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Preserving Language and Culture",
+    "gradeLevel": "11",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've explored the diaspora's institutions and humanitarian impact. Today: how it preserves language and culture across generations!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Diaspora communities actively work to preserve Punjabi language and Sikh culture across generations, especially for children growing up primarily surrounded by a different dominant language and culture — this connects directly to your own experience learning Punjabi through this very course, and to Tuesday's lesson on Gurdwaras hosting language classes. Explain why preserving language across generations requires active, ongoing effort in a diaspora community, rather than happening automatically."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned why the diaspora actively works to preserve language and culture! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-11-2-4",
+    "lessonId": "lesson-sikhi-11-2-4",
+    "objectives": [
+      "Understand that diaspora communities actively work to preserve language and culture across generations",
+      "Explain why this preservation requires active effort rather than happening automatically"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's diaspora-regions, Gurdwara-role, and humanitarian-contributions work.\n2. Introduce active language/culture preservation, connecting to the child's own Punjabi-course experience.\n3. Have the child explain why this requires active effort.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: ask the child to reflect on their own experience — would they know as much Punjabi as they do now without dedicated lessons and practice?",
+      "Ready for more: ask the child what might be lost if a diaspora community stopped actively teaching its language and culture to the next generation",
+      "This is the week's synthesis moment — the child's own experience with this very Punjabi course is itself a real, living example of this week's theme"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Preserving language across generations requires active effort because a child growing up surrounded mostly by a different dominant language will naturally become most fluent in that surrounding language unless the family and community make a deliberate, ongoing effort — through classes, conversation at home, and cultural practice — to keep the original language and traditions alive and genuinely used.",
+    "standardsRationale": "Directly addresses this course's global-diaspora thread, connecting real diaspora language-preservation efforts to the student's own lived experience in this course."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-11-2-4",
+    "lessonId": "lesson-sikhi-11-2-4",
+    "title": "Preserving Language and Culture",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about preserving language and culture.",
+      "prompts": [
+        { "prompt": "Why does language preservation require active, ongoing effort?", "lines": 2 },
+        { "prompt": "How is your own Punjabi course an example of this effort?", "lines": 2 }
+      ]
+    }
+  }
+}

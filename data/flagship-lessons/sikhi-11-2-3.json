@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-11-2",
+    "courseId": "course-sikhi-11",
+    "order": 2,
+    "title": "The Sikh Diaspora's Institutions and Impact",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-11-2-3",
+    "unitId": "unit-sikhi-11-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Humanitarian Contributions",
+    "gradeLevel": "11",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned the Gurdwara's expanded role. Today: a real, well-documented humanitarian contribution the diaspora is known for!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Sikh diaspora organizations have become genuinely well-known for organizing large-scale Langar-based disaster relief efforts — volunteers preparing and distributing free meals to affected communities during floods, wildfires, and other emergencies, regardless of who is being served. This directly extends the value of Seva (selfless service) and Langar's tradition of open, equal service to everyone, connecting back to content studied at earlier grades. Explain how this humanitarian work connects to Seva and Langar's core value of serving everyone equally, regardless of who they are."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about a real, well-known diaspora humanitarian contribution! Tomorrow we'll look at how the diaspora preserves language and culture."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-11-2-3",
+    "lessonId": "lesson-sikhi-11-2-3",
+    "objectives": [
+      "Understand Sikh diaspora organizations' well-known Langar-based disaster relief work",
+      "Connect this humanitarian work to Seva and Langar's core value of equal service"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets, earlier-grade Seva/Langar notes if available", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's diaspora-regions and Gurdwara-civic-role work.\n2. Introduce diaspora disaster-relief Langar efforts.\n3. Have the child connect this work to Seva and Langar's core value.\n4. Complete the worksheet.\n5. Preview tomorrow's language-and-culture-preservation lesson.",
+    "differentiationTips": [
+      "Struggling: review the earlier-grade Langar/equality content briefly first, then connect it directly to this week's example",
+      "Ready for more: ask the child why serving everyone equally, without asking about someone's background, might make this kind of relief work especially trusted and effective during a crisis",
+      "Kept general and factual — a real, well-documented pattern of diaspora humanitarian work, not tied to any single specific unverified incident"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This humanitarian work is a direct, real-world extension of Seva and Langar's core value: serving anyone in need, without asking about their background, religion, or status — the same principle that made Langar a place of equality in earlier grades' content now shows up as disaster relief that serves entire affected communities equally, regardless of who they are.",
+    "standardsRationale": "Directly addresses this course's global-diaspora thread, connecting a real, well-documented diaspora contribution to core Sikhi values studied at earlier grades."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-11-2-3",
+    "lessonId": "lesson-sikhi-11-2-3",
+    "title": "Humanitarian Contributions",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about diaspora humanitarian contributions.",
+      "prompts": [
+        { "prompt": "What kind of humanitarian work are Sikh diaspora organizations well-known for?", "lines": 1 },
+        { "prompt": "How does this connect to Seva and Langar's core value?", "lines": 2 }
+      ]
+    }
+  }
+}

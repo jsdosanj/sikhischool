@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-2-2",
+    "courseId": "course-sikhi-2",
+    "order": 2,
+    "title": "Guru Gobind Singh Ji and the Panj Pyare",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-2-2-3",
+    "unitId": "unit-sikhi-2-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "What Does 'Khalsa' Mean?",
+    "gradeLevel": "2",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've met Guru Gobind Singh Ji and the Panj Pyare. Today: what does being 'Khalsa' actually mean?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Being part of the Khalsa means belonging to a community that shares the same values and the same visible identity — remember the Five Ks from last week? Members of the Khalsa wear them as a shared way of showing their commitment, just like a team might all wear the same uniform to show they belong together. Being Khalsa also means trying to live by Sikh values like courage, equality, and service every day, not just on special occasions. Name one of the Five Ks from last week, and explain how it connects to belonging to the Khalsa."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected the Five Ks and the Khalsa together! Tomorrow we'll learn how the Panj Pyare are still honored today."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-2-2-3",
+    "lessonId": "lesson-sikhi-2-2-3",
+    "objectives": [
+      "Explain that being Khalsa means sharing a visible identity (the Five Ks) and a set of values",
+      "Connect one of the Five Ks from week 1 back to the concept of Khalsa membership"
+    ],
+    "materialsNeeded": ["Week 1's Five Ks worksheet", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review the Five Ks from last week briefly.\n2. Introduce 'Khalsa' as shared identity + shared values, using the team-uniform analogy.\n3. Have the child pick one of the Five Ks and explain its connection to Khalsa membership.\n4. Complete the worksheet.\n5. Preview tomorrow's Panj-Pyare-today lesson.",
+    "differentiationTips": [
+      "Struggling: use the team-uniform analogy repeatedly — it's the most concrete, kid-relatable way into this idea",
+      "Ready for more: ask the child what values (beyond wearing the Five Ks) they think matter for being part of a community like the Khalsa",
+      "This lesson deliberately synthesizes week 1's Five Ks content with this week's Guru Gobind Singh Ji/Panj Pyare content — point out that connection explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a synthesis and reflection activity — check that the child correctly names one of the Five Ks and explains, in their own words, that it's a shared way Khalsa members show their identity and values.",
+    "standardsRationale": "Directly extends the course's 'introduction to the Five Ks' description by connecting it to the Khalsa concept, synthesizing week 1's and this week's content into one coherent understanding."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-2-2-3",
+    "lessonId": "lesson-sikhi-2-2-3",
+    "title": "What Does 'Khalsa' Mean?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Name one of the Five Ks and explain how it connects to belonging to the Khalsa.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

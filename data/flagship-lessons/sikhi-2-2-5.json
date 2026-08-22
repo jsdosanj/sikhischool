@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-2-2",
+    "courseId": "course-sikhi-2",
+    "order": 2,
+    "title": "Guru Gobind Singh Ji and the Panj Pyare",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-2-2-5",
+    "unitId": "unit-sikhi-2-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Guru Gobind Singh Ji and the Panj Pyare",
+    "gradeLevel": "2",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you went deeper into Vaisakhi's story than ever before. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Guru Gobind Singh Ji founded the Khalsa at Vaisakhi in 1699 (Day 1). The Panj Pyare were the first five members, showing great courage (Day 2). Being Khalsa means sharing the Five Ks and Sikh values together (Day 3). Today's Panj Pyare still lead Nagar Kirtan, honoring the original five (Day 4). Answer: who founded the Khalsa, what does 'Panj Pyare' mean, and how are they honored today?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work these past two weeks! You've gone from a simple introduction to the Five Ks and Vaisakhi to real, specific understanding of Guru Gobind Singh Ji and the Panj Pyare."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-2-2-5",
+    "lessonId": "lesson-sikhi-2-2-5",
+    "objectives": [
+      "Review and connect this week's four lessons: Guru Gobind Singh Ji, the Panj Pyare, Khalsa membership, and today's living tradition",
+      "Recall who founded the Khalsa, what 'Panj Pyare' means, and how they're honored today"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child answer all three review questions.\n3. Complete the review worksheet.\n4. Celebrate finishing two full weeks of Grade 2 Sikhi — real depth beyond the introduction!",
+    "differentiationTips": [
+      "Struggling: focus on just one of the three review questions, whichever the child engaged with most this week",
+      "Ready for more: ask the child to explain how this week's content connects back to something from week 1 (the Five Ks or Nagar Kirtan)",
+      "This is a good checkpoint to note which of this week's threads (Guru Gobind Singh Ji, the Panj Pyare, or Khalsa identity) needs the most reinforcement"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child can state Guru Gobind Singh Ji founded the Khalsa, that Panj Pyare means 'Five Beloved Ones,' and that today's Panj Pyare lead Nagar Kirtan honoring the original five.",
+    "standardsRationale": "Consolidates this week's deepened Vaisakhi/Khalsa content before the course continues, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-2-2-5",
+    "lessonId": "lesson-sikhi-2-2-5",
+    "title": "Guru Gobind Singh Ji and the Panj Pyare: Week 2 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Who founded the Khalsa?" },
+        { "problem": "What does 'Panj Pyare' mean?" },
+        { "problem": "How are the Panj Pyare honored today?" }
+      ]
+    }
+  }
+}

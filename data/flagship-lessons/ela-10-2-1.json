@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-10-2",
+    "courseId": "course-ela-10",
+    "order": 2,
+    "title": "Introduction to Media Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-10-2-1",
+    "unitId": "unit-ela-10-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Media Analysis Means",
+    "gradeLevel": "10",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you built argumentative essays. This week: media analysis, the course's third and final thread!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Media analysis means examining HOW a piece of media (a news article, advertisement, or social media post) is constructed to create a particular message, not just accepting WHAT it says at face value. Every media message is created by someone, with choices about words, images, and framing that shape how an audience understands it. Read this short ad script: 'Tired of feeling stuck? Break free with EnergyMax — the choice of champions.' Identify one specific word or phrase choice in this ad and explain what feeling it's designed to create in the reader."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just started analyzing HOW a media message is built! Tomorrow we'll look at purpose and audience specifically."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-10-2-1",
+    "lessonId": "lesson-ela-10-2-1",
+    "objectives": [
+      "Define media analysis as examining how a message is constructed, not just what it says",
+      "Identify one specific word/phrase choice in the EnergyMax ad and its intended effect"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's argumentative-writing work briefly.\n2. Introduce media analysis and the how-vs-what distinction.\n3. Read the EnergyMax ad together and have the child identify a word choice and its effect.\n4. Complete the worksheet.\n5. Preview tomorrow's purpose-and-audience lesson.",
+    "differentiationTips": [
+      "Struggling: point to 'champions' specifically and ask what feeling that single word is meant to create, before asking the child to find their own example",
+      "Ready for more: ask the child to rewrite the ad's tagline in a completely neutral, non-persuasive way, and compare the difference",
+      "Opens this week's media-analysis thread from the course's own description, using an original ad script written for this lesson to avoid any real-brand accuracy risk"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child identifies a genuine word/phrase choice (e.g. 'break free,' 'champions,' 'stuck') and explains a real, specific intended feeling (e.g. 'champions' is meant to make the reader feel successful or elite by association).",
+    "standardsRationale": "Directly addresses Common Core Grade 9-10 RI.9-10.6: analyzing how an author's point of view or purpose shapes content and style, opening this week's media-analysis thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-10-2-1",
+    "lessonId": "lesson-ela-10-2-1",
+    "title": "What Media Analysis Means",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Analyze one word or phrase choice in the EnergyMax ad.",
+      "prompts": [
+        { "prompt": "Which word or phrase did you choose?", "lines": 1 },
+        { "prompt": "What feeling is it designed to create, and why?", "lines": 2 }
+      ]
+    }
+  }
+}

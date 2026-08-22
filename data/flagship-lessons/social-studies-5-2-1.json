@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-5-2",
+    "courseId": "course-social-studies-5",
+    "order": 2,
+    "title": "The Age of Exploration",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-5-2-1",
+    "unitId": "unit-social-studies-5-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Why Explorers Set Sail",
+    "gradeLevel": "5",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored Indigenous peoples' rich history before European contact. This week: why European kingdoms sent explorers across the ocean."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "In the 1400s and 1500s, European kingdoms competed for wealth and trade. Spices, silk, and other valuable goods from Asia normally traveled overland on long, expensive routes. Kingdoms wanted a faster ocean route to reach Asia directly, and also hoped to find new sources of gold and other wealth. Explain in your own words why finding a faster ocean route mattered so much to these kingdoms."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the real economic reasons behind the Age of Exploration! Tomorrow we'll learn about the navigation tools that made these voyages possible."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-5-2-1",
+    "lessonId": "lesson-social-studies-5-2-1",
+    "objectives": [
+      "Explain the economic motivations (trade, spices, wealth) behind European exploration",
+      "Understand why a faster ocean route to Asia was valuable to competing kingdoms"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Indigenous-peoples content briefly.\n2. Introduce the trade/wealth motivations behind exploration.\n3. Have the child explain the ocean-route motivation in their own words.\n4. Complete the worksheet.\n5. Preview tomorrow's navigation-tools lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple cost/time comparison (a long, expensive overland trip vs. a possibly faster ocean route) to make the motivation concrete",
+      "Ready for more: ask the child what risks kingdoms might have accepted in exchange for the chance at this reward",
+      "Deliberately opens with the safe economic-motivation framing — colonization's human impact on Indigenous peoples is saved for future, more carefully sourced lessons, continuing last week's content-sensitivity approach"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an explanation activity — check that the child connects a faster ocean route to lower costs/more direct access to valuable trade goods, explaining why competing kingdoms wanted it.",
+    "standardsRationale": "Directly addresses the C3 Framework's History and Economics dimensions at a Grade 5 level, opening the course's exploration/colonization thread with a safe, general economic framing before deeper, more sensitive content in future lessons."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-5-2-1",
+    "lessonId": "lesson-social-studies-5-2-1",
+    "title": "Why Explorers Set Sail",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain why finding a faster ocean route mattered to European kingdoms.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

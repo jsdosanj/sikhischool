@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-5-2",
+    "courseId": "course-social-studies-5",
+    "order": 2,
+    "title": "The Age of Exploration",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-5-2-4",
+    "unitId": "unit-social-studies-5-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "A World Newly Connected",
+    "gradeLevel": "5",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned why and how explorers voyaged. Today: what these new connections meant for the wider world."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "These voyages connected parts of the world that had previously had little or no contact with each other, leading to an exchange of plants, animals, and ideas across the Atlantic Ocean in both directions — crops like potatoes and corn spread to Europe, while horses and wheat spread to the Americas. This period marks a major turning point in world history, though it also began a complex, sometimes difficult chapter that this course will explore more deeply in future lessons. Name one item you think might have crossed the Atlantic in either direction during this period."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how the Age of Exploration connected distant parts of the world! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-5-2-4",
+    "lessonId": "lesson-social-studies-5-2-4",
+    "objectives": [
+      "Understand that exploration led to an exchange of plants, animals, and ideas between the Americas and Europe",
+      "Name a real example of an item exchanged across the Atlantic during this period"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's exploration content.\n2. Introduce the exchange of goods between the Americas and Europe.\n3. Have the child name a real example.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: offer the corn/potato and horse/wheat examples directly rather than requiring the child to generate a new one",
+      "Ready for more: ask the child what they think this exchange might have meant for people's daily lives on both sides of the Atlantic",
+      "This lesson honestly names that a more complex chapter follows, without going into it yet — an explicit signal, not silence, about what's deferred to future lessons"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended recall activity — check that the child names a real exchanged item (like corn, potatoes, horses, or wheat) correctly connected to the Americas-Europe exchange.",
+    "standardsRationale": "Directly addresses the C3 Framework's History and Geography dimensions at a Grade 5 level, completing this week's Age of Exploration thread while honestly signaling more complex content ahead."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-5-2-4",
+    "lessonId": "lesson-social-studies-5-2-4",
+    "title": "A World Newly Connected",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Name one item you think crossed the Atlantic during this period.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-3-2",
+    "courseId": "course-math-3",
+    "order": 2,
+    "title": "Fractions as Parts of a Whole",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-3-2-5",
+    "unitId": "unit-math-3-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Fractions as Parts of a Whole",
+    "gradeLevel": "3",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you explored fractions four different ways. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a fraction is equal parts of a whole, numerator over denominator (Day 1). Fractions can be placed on a number line between 0 and 1 (Day 2). With the same denominator, a bigger numerator means a bigger fraction (Day 3). Equivalent fractions look different but name the same amount (Day 4). Draw a rectangle showing 3/4, then explain whether 3/4 is bigger or smaller than 2/4."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you learned to draw, place, compare, and find equivalent fractions! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-3-2-5",
+    "lessonId": "lesson-math-3-2-5",
+    "objectives": [
+      "Review fraction basics, number-line placement, comparison, and equivalence",
+      "Draw a fraction and correctly compare it to another same-denominator fraction"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child draw 3/4 and compare it to 2/4.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of real fractions work!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often equivalent fractions) rather than requiring all four equally",
+      "Ready for more: ask the child to find an equivalent fraction for 3/4 and explain how they know it's equivalent",
+      "This is a good checkpoint to note which of the week's four fraction skills needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "3/4 is bigger than 2/4, since 3 equal parts is more than 2 equal parts of the same whole.",
+    "standardsRationale": "Consolidates this week's Common Core Grade 3 fraction standards (3.NF.1/3.NF.2/3.NF.3) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-3-2-5",
+    "lessonId": "lesson-math-3-2-5",
+    "title": "Review: Fractions as Parts of a Whole",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Draw a rectangle showing 3/4." },
+        { "problem": "Is 3/4 bigger or smaller than 2/4? Why?" },
+        { "problem": "Name a fraction equivalent to 1/2." }
+      ]
+    }
+  }
+}

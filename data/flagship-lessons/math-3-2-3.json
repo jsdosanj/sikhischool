@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-3-2",
+    "courseId": "course-math-3",
+    "order": 2,
+    "title": "Fractions as Parts of a Whole",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-3-2-3",
+    "unitId": "unit-math-3-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Comparing Fractions",
+    "gradeLevel": "3",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've drawn and placed fractions. Today: compare two fractions to see which is bigger!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "When two fractions have the same denominator (bottom number), the one with the bigger numerator (top number) is bigger — more equal-sized parts means more of the whole. 3/4 is bigger than 1/4, because 3 parts out of 4 is more than 1 part out of 4. Compare: which is bigger, 2/5 or 4/5? Draw two identical rectangles, shade 2/5 in one and 4/5 in the other, and check your answer visually."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just compared fractions with the same denominator! Tomorrow we'll learn about fractions that look different but are actually equal."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-3-2-3",
+    "lessonId": "lesson-math-3-2-3",
+    "objectives": [
+      "Compare two fractions with the same denominator by comparing their numerators",
+      "Verify a fraction comparison by drawing and shading two identical shapes"
+    ],
+    "materialsNeeded": ["Paper for drawing shapes", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's number-line work.\n2. Introduce same-denominator comparison using the 3/4 vs. 1/4 example.\n3. Have the child compare 2/5 and 4/5, drawing shaded rectangles to verify.\n4. Complete the worksheet.\n5. Preview tomorrow's equivalent-fractions lesson.",
+    "differentiationTips": [
+      "Struggling: always require the visual check (drawing and shading) rather than reasoning about the numbers alone",
+      "Ready for more: ask the child to explain in their own words why a bigger numerator means a bigger fraction, when the denominator stays the same",
+      "This lesson is deliberately limited to same-denominator comparisons — comparing different denominators is a harder skill for a later grade, not this week"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "4/5 is bigger than 2/5, because 4 equal parts out of 5 is more than 2 equal parts out of 5.",
+    "standardsRationale": "Directly addresses Common Core Grade 3 standard 3.NF.3d: comparing two fractions with the same denominator, continuing this week's fractions thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-3-2-3",
+    "lessonId": "lesson-math-3-2-3",
+    "title": "Comparing Fractions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Compare each pair of fractions. Write which is bigger.",
+      "rows": [
+        { "problem": "2/5 or 4/5: which is bigger?" },
+        { "problem": "1/6 or 5/6: which is bigger?" },
+        { "problem": "3/8 or 2/8: which is bigger?" }
+      ]
+    }
+  }
+}

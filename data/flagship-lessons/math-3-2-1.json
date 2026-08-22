@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-3-2",
+    "courseId": "course-math-3",
+    "order": 2,
+    "title": "Fractions as Parts of a Whole",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-3-2-1",
+    "unitId": "unit-math-3-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is a Fraction?",
+    "gradeLevel": "3",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you mastered multiplication and division facts. This week: a new idea, fractions — numbers that show parts of a whole!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A fraction shows a whole divided into equal parts. The bottom number (denominator) tells how many equal parts the whole is split into. The top number (numerator) tells how many of those parts you have. If a pizza is cut into 4 equal slices and you eat 1, that's 1/4 of the pizza. Draw a rectangle, divide it into 3 equal parts, and shade 2 of them — what fraction have you shown?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what a fraction really means: equal parts of a whole! Tomorrow we'll place fractions on a number line."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-3-2-1",
+    "lessonId": "lesson-math-3-2-1",
+    "objectives": [
+      "Understand a fraction as equal parts of a whole",
+      "Identify the numerator (parts shaded) and denominator (total equal parts)"
+    ],
+    "materialsNeeded": ["Paper for drawing shapes", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's multiplication/division facts briefly.\n2. Introduce numerator/denominator using the pizza example.\n3. Have the child draw and shade a rectangle divided into 3 equal parts.\n4. Complete the worksheet.\n5. Preview tomorrow's number-line lesson.",
+    "differentiationTips": [
+      "Struggling: use real objects (crackers, paper strips) to physically divide and shade before drawing",
+      "Ready for more: ask the child to draw a different shape divided into 3 equal parts, shading the same fraction, and confirm it still represents 2/3",
+      "Emphasize 'equal parts' explicitly — an uneven division is the most common Grade 3 misconception with fractions"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A rectangle divided into 3 equal parts with 2 shaded shows the fraction 2/3.",
+    "standardsRationale": "Directly addresses Common Core Grade 3 standard 3.NF.1: understanding a fraction as parts of a whole, opening this week's fractions thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-math-3-2-1",
+    "lessonId": "lesson-math-3-2-1",
+    "title": "What Is a Fraction?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Draw and shade each fraction, then answer the question.",
+      "rows": [
+        { "problem": "Draw a rectangle divided into 4 equal parts. Shade 1 part. What fraction is shaded?" },
+        { "problem": "Draw a circle divided into 2 equal parts. Shade 1 part. What fraction is shaded?" },
+        { "problem": "In the fraction 2/3, which number is the numerator, and which is the denominator?" }
+      ]
+    }
+  }
+}

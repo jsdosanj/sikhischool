@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-k-2",
+    "courseId": "course-science-k",
+    "order": 2,
+    "title": "Weather Patterns",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-k-2-3",
+    "unitId": "unit-science-k-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Tracking Weather Like a Scientist",
+    "gradeLevel": "K",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Real scientists don't just notice weather once — they track it over many days to find patterns. Today, start your own weather journal!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Tracking weather means recording what the weather is like, day after day, so you can look back and notice patterns — like whether this week has been mostly sunny or mostly rainy. Start a simple weather journal: for today, draw or write today's weather, then plan to check again tomorrow and the next day. After a few days, you'll be able to see a real pattern, not just a guess."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've started a real scientific practice — tracking data over time to find patterns! Tomorrow we'll talk about preparing for different kinds of weather."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-k-2-3",
+    "lessonId": "lesson-science-k-2-3",
+    "objectives": [
+      "Explain that tracking weather over multiple days reveals real patterns",
+      "Begin a simple weather journal with today's observation"
+    ],
+    "materialsNeeded": ["Printed weather journal worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review the four seasons from yesterday.\n2. Introduce the idea of tracking weather over time to find patterns, rather than judging from just one day.\n3. Have the child record today's weather in a simple journal format.\n4. Plan together to check and record weather again over the next few days.\n5. Close by discussing what a real scientist might learn from a whole week of weather records.",
+    "differentiationTips": [
+      "Struggling: use simple weather symbols (sun, cloud, raindrop) instead of written words for each day's entry",
+      "Ready for more: ask the child to predict what tomorrow's weather might be, based on today's, and check the prediction the next day",
+      "This lesson works best as an ongoing practice — encourage continuing the weather journal for a full week if possible, beyond just today's entry"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is an observation and journaling activity — check that the child recorded a real observation of today's actual weather.",
+    "standardsRationale": "Directly addresses NGSS Kindergarten standard K-ESS2-1: recording weather observations over time to notice patterns, a genuine early-science-practice skill."
+  },
+  "worksheet": {
+    "id": "worksheet-science-k-2-3",
+    "lessonId": "lesson-science-k-2-3",
+    "title": "Tracking Weather Like a Scientist",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Record today's weather, and answer each question.",
+      "rows": [
+        { "problem": "Today's weather (draw or write it):" },
+        { "problem": "Why do scientists track weather over many days instead of just one?" },
+        { "problem": "What do you predict tomorrow's weather might be?" }
+      ]
+    }
+  }
+}

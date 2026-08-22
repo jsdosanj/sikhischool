@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-k-2",
+    "courseId": "course-science-k",
+    "order": 2,
+    "title": "Weather Patterns",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-k-2-5",
+    "unitId": "unit-science-k-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Weather Patterns",
+    "gradeLevel": "K",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you observed, tracked, and prepared for weather — a real scientific practice from start to finish. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: weather describes sky/air conditions and temperature (Day 1). The four seasons bring repeating yearly weather patterns (Day 2). Tracking weather over many days reveals real patterns (Day 3). Weather knowledge helps you prepare and make good choices (Day 4). Look back at your weather journal from this week — what pattern did you notice, and how did you use it to prepare?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you practiced real weather science, from observation all the way to practical preparation!"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-k-2-5",
+    "lessonId": "lesson-science-k-2-5",
+    "objectives": [
+      "Review and connect this week's four weather concepts: description, seasons, tracking, preparation",
+      "Reflect on the child's own weather journal from this week"
+    ],
+    "materialsNeeded": ["This week's weather journal and worksheets", "Printed review worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Look back at the child's weather journal from Day 3 (and any additional days tracked).\n3. Discuss what pattern, if any, was noticed.\n4. Complete the review worksheet.\n5. Celebrate finishing two full weeks of Kindergarten Science!",
+    "differentiationTips": [
+      "Struggling: if only one or two journal days were recorded, focus the reflection on comparing just those rather than requiring a full week's pattern",
+      "Ready for more: ask the child to predict what next week's weather pattern might look like, based on the current season",
+      "This is a good checkpoint to note which part of weather science (description, seasons, tracking, or preparation) needs the most reinforcement"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection and review activity — check that the child can name at least one weather pattern noticed and connect it to a real preparation choice.",
+    "standardsRationale": "Consolidates this week's NGSS K-ESS2-1/K-ESS3-2 weather-science content before the course moves to its next unit (pushes and pulls), matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-k-2-5",
+    "lessonId": "lesson-science-k-2-5",
+    "title": "Weather Patterns: Week 2 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Reflect on your weather journal from this week and answer each question.",
+      "rows": [
+        { "problem": "What pattern did you notice in this week's weather?" },
+        { "problem": "How did you use that knowledge to prepare?" },
+        { "problem": "What season are we in right now, and what weather is typical for it?" }
+      ]
+    }
+  }
+}

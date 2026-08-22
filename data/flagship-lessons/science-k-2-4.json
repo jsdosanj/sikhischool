@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-k-2",
+    "courseId": "course-science-k",
+    "order": 2,
+    "title": "Weather Patterns",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-k-2-4",
+    "unitId": "unit-science-k-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Preparing for Weather",
+    "gradeLevel": "K",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've observed and tracked weather. Today: use that knowledge to actually prepare for it — a real, practical use of weather science!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Knowing the weather helps us make good choices — wearing a coat on a cold day, bringing an umbrella on a rainy day, or choosing indoor activities during a storm. This is a genuine, everyday use of weather knowledge: using what you observe to prepare and stay safe or comfortable. For each weather type — sunny, rainy, cold, snowy — name one way you would prepare or what you would wear."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've connected weather observation to real, practical decisions — exactly how weather science helps people every day. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-k-2-4",
+    "lessonId": "lesson-science-k-2-4",
+    "objectives": [
+      "Connect weather conditions to practical preparation choices (clothing, activities)",
+      "Name an appropriate preparation for four different weather types"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review this week's weather-tracking journal.\n2. Introduce the idea of using weather knowledge to prepare — coats, umbrellas, indoor activities.\n3. Discuss preparation choices for each of four weather types together.\n4. Complete the worksheet.\n5. Close by discussing what today's actual weather calls for.",
+    "differentiationTips": [
+      "Struggling: focus on just two contrasting weather types (sunny vs. rainy) before covering all four",
+      "Ready for more: ask the child to explain why preparing incorrectly for weather (like no coat in the cold) could be a real problem, not just uncomfortable",
+      "Connect this directly to the child's own real experience getting dressed or planning activities based on weather"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and matching activity — reasonable answers include: sunny (sunscreen/hat), rainy (umbrella/raincoat), cold (coat/gloves), snowy (boots/warm coat).",
+    "standardsRationale": "Directly addresses NGSS Kindergarten standard K-ESS3-2: using weather observations to design solutions that reduce the effects of weather, applied here to everyday personal preparation."
+  },
+  "worksheet": {
+    "id": "worksheet-science-k-2-4",
+    "lessonId": "lesson-science-k-2-4",
+    "title": "Preparing for Weather",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each weather type, write one way to prepare.",
+      "rows": [
+        { "problem": "Sunny weather — how do you prepare?" },
+        { "problem": "Rainy weather — how do you prepare?" },
+        { "problem": "Cold weather — how do you prepare?" },
+        { "problem": "Snowy weather — how do you prepare?" }
+      ]
+    }
+  }
+}

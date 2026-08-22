@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-k-2",
+    "courseId": "course-science-k",
+    "order": 2,
+    "title": "Weather Patterns",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-k-2-2",
+    "unitId": "unit-science-k-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Four Seasons",
+    "gradeLevel": "K",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you described today's weather. Today: why weather changes throughout the whole year, in a repeating pattern called seasons."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "There are four seasons that repeat every year: spring (mild, rainy, plants start growing), summer (hot), fall/autumn (cooler, leaves change color and fall), and winter (cold, sometimes snowy). Each season generally brings a predictable pattern of weather, though the exact weather each day can still vary. Name your favorite season and describe what the weather is usually like during it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know that weather follows a repeating yearly pattern — the four seasons. Tomorrow we'll practice tracking weather like a real scientist."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-k-2-2",
+    "lessonId": "lesson-science-k-2-2",
+    "objectives": [
+      "Name the four seasons in order: spring, summer, fall, winter",
+      "Describe the typical weather pattern associated with each season"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review yesterday's weather-description vocabulary.\n2. Introduce the four seasons and their typical weather patterns.\n3. Discuss the child's favorite season and its usual weather.\n4. Complete the worksheet.\n5. Close by naming the current season together.",
+    "differentiationTips": [
+      "Struggling: focus on just the season the child is currently experiencing, building outward to the others over time",
+      "Ready for more: ask the child to put the four seasons in order starting from the current one",
+      "If your local climate doesn't have four sharply distinct seasons, focus on the general concept of a repeating yearly weather pattern rather than exact seasonal descriptions"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can name all four seasons and describe at least a general weather pattern for each.",
+    "standardsRationale": "Directly addresses NGSS Kindergarten standard K-ESS2-1: describing patterns in weather across seasons, building on yesterday's daily weather-observation foundation."
+  },
+  "worksheet": {
+    "id": "worksheet-science-k-2-2",
+    "lessonId": "lesson-science-k-2-2",
+    "title": "The Four Seasons",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the four seasons.",
+      "rows": [
+        { "problem": "Name the four seasons in order." },
+        { "problem": "What is the weather usually like in winter?" },
+        { "problem": "What is your favorite season, and why?" }
+      ]
+    }
+  }
+}

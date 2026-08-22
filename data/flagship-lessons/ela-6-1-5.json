@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-ela-6-1",
+    "courseId": "course-ela-6",
+    "order": 1,
+    "title": "Literary Elements",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-6-1-5",
+    "unitId": "unit-ela-6-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Complete Literary Analysis",
+    "gradeLevel": "6",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you analyzed 'The Lost Kite' from four different angles: plot, character, setting, and theme. Today, bring it all together into one complete literary analysis."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: plot has five parts, from exposition to resolution (Day 1). Character analysis uses traits, motivation, and development, backed by evidence (Day 2). Setting shapes what's possible in the plot (Day 3). Theme is the story's deeper message, different from plot summary (Day 4). Write one paragraph that touches on all four elements of 'The Lost Kite,' showing how they work together to build the complete story."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now have a real toolkit for literary analysis (plot, character, setting, theme) that you'll use on every story you read from here forward."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-6-1-5",
+    "lessonId": "lesson-ela-6-1-5",
+    "objectives": [
+      "Recall the four literary elements studied this week: plot, character, setting, theme",
+      "Write a complete paragraph analyzing how all four elements work together in one story"
+    ],
+    "materialsNeeded": ["All 4 worksheets from this week", "Printed final-paragraph worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child write a combined analysis paragraph using their earlier worksheets.\n3. Read the finished paragraph aloud together.\n4. Celebrate finishing a real, complete literary analysis — a genuinely advanced skill for this grade.\n5. Note this same four-element framework (plot/character/setting/theme) will apply to every future story studied this year.",
+    "differentiationTips": [
+      "Struggling: allow the paragraph to be organized as 4 clearly separate sentences (one per element) rather than requiring smooth blended prose",
+      "Ready for more: ask them to apply this same four-element framework to a favorite book or movie they know well",
+      "This is a genuine analytical-writing milestone — celebrate it as real literary criticism, not just a worksheet"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Answers will vary — check the paragraph addresses all 4 elements (plot, character, setting, theme) and shows genuine connections between them, not just 4 disconnected facts listed in a row.",
+    "standardsRationale": "Synthesizes the week's Common Core Grade 6 Reading Literature standards (RL.6.2, RL.6.3) into one complete analytical piece, matching the course's own 'literary elements' description end to end."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-6-1-5",
+    "lessonId": "lesson-ela-6-1-5",
+    "title": "Complete Literary Analysis of 'The Lost Kite'",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write one complete paragraph analyzing the plot, character, setting, and theme of 'The Lost Kite,' showing how they work together.",
+      "prompts": [
+        { "prompt": "My complete literary analysis:", "lines": 8 }
+      ]
+    }
+  }
+}

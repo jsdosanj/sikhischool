@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-6-1",
+    "courseId": "course-ela-6",
+    "order": 1,
+    "title": "Literary Elements",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-6-1-4",
+    "unitId": "unit-ela-6-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Finding the Theme",
+    "gradeLevel": "6",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've analyzed plot, character, and setting separately. Today, the element that ties them all together: theme, the story's deeper message about life."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Theme is different from plot summary — plot is WHAT happens, theme is what the story means, a message that could apply beyond just this one story. Theme is never stated directly; you have to infer it from the plot, characters, and their choices. In 'The Lost Kite,' the theme isn't just 'a girl gets her kite back' (that's plot) — it's something like 'persistence can accomplish what others doubt is possible,' shown through Maya's choice not to give up and Sam's changed opinion. Write the theme of 'The Lost Kite' in your own words, in one sentence, without just restating the plot."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified a real theme — the hardest and most valuable literary-analysis skill this week. Tomorrow you'll bring plot, character, setting, and theme together into one complete analysis."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-6-1-4",
+    "lessonId": "lesson-ela-6-1-4",
+    "objectives": [
+      "Distinguish theme (the story's deeper message) from plot summary (what happens)",
+      "State a story's theme in one clear sentence, supported by plot and character evidence"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review plot, character, and setting from Days 1-3.\n2. Introduce theme, explicitly contrasting it with plot summary using the given example.\n3. Have the child draft their own one-sentence theme statement, checking it isn't just a plot restatement.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review, bringing all 4 elements together.",
+    "differentiationTips": [
+      "Struggling: offer a multiple-choice set of possible themes (some are really just plot summaries in disguise) and have them pick the real theme",
+      "Ready for more: ask them to think of a completely different story (from any book or movie they know) that shares the same theme",
+      "This is genuinely the hardest literary-analysis skill introduced this week — expect it to take real back-and-forth discussion, not a quick answer"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A strong answer names something like 'persistence can accomplish what others doubt is possible' or similar — check that it's a general life lesson, not just a summary of what happened in the story ('a girl climbs a tree and gets her kite').",
+    "standardsRationale": "Addresses Common Core Grade 6 Reading Literature standard RL.6.2: determining a theme and how it's conveyed through details, the most conceptually demanding literary-analysis skill this week."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-6-1-4",
+    "lessonId": "lesson-ela-6-1-4",
+    "title": "Finding the Theme in 'The Lost Kite'",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write the theme of the story in one sentence, then explain how the plot and characters show it.",
+      "prompts": [
+        { "prompt": "The theme of 'The Lost Kite' is:", "lines": 2 },
+        { "prompt": "How do the plot and characters show this theme?", "lines": 3 }
+      ]
+    }
+  }
+}

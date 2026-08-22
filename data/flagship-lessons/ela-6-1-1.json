@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-6-1",
+    "courseId": "course-ela-6",
+    "order": 1,
+    "title": "Literary Elements",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-6-1-1",
+    "unitId": "unit-ela-6-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Plot Structure",
+    "gradeLevel": "6",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every story you've ever read follows a real structure, whether you noticed it or not. This week, you'll learn to analyze stories the way literary readers do, starting with plot."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Plot has five parts: exposition (the setup — characters and setting introduced), rising action (a problem builds), climax (the turning point — the most intense moment), falling action (events after the climax), and resolution (how it ends). Read this short story: 'Maya stood at the edge of the park, staring at her kite tangled in the tallest oak tree. She had saved for months to buy it, and now the wind had ripped it from her hands. Her older brother Sam laughed and said it was hopeless. But Maya wasn't ready to give up. She found a long stick, climbed onto the lowest branch, and carefully worked the kite string loose, branch by branch, for nearly an hour. When the kite finally came free, torn but whole, Sam's laughter had turned to surprise. \"I didn't think you'd actually do it,\" he admitted. Maya smiled, brushing bark from her hands. \"I wasn't going to just watch it stay stuck forever.\"' Identify the five plot parts in this story."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just broke a real story into its five plot parts. Tomorrow we'll use this same story to analyze its characters."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-6-1-1",
+    "lessonId": "lesson-ela-6-1-1",
+    "objectives": [
+      "Identify the five parts of plot structure: exposition, rising action, climax, falling action, resolution",
+      "Locate each plot part within a real short story"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the five plot parts with clear definitions.\n2. Read 'The Lost Kite' story together.\n3. Identify each plot part in the story together, discussing why each moment fits its label.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: character analysis using this same story.",
+    "differentiationTips": [
+      "Struggling: focus on just 3 parts (beginning/middle/end) before introducing all 5 formal terms",
+      "Ready for more: ask them to identify the exact sentence where the climax occurs and explain why that's the turning point",
+      "This story will be reused all week — the child doesn't need to reread it from scratch each day, just refer back to it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Exposition: Maya at the park, her kite stuck. 2. Rising action: Maya climbing the tree and working the string loose. 3. Climax: the kite comes free. 4. Falling action/Resolution: Sam's surprise and Maya's response.",
+    "standardsRationale": "Addresses Common Core Grade 6 Reading Literature standard RL.6.3: describing how a plot unfolds in a series of episodes, using an original story to avoid any copyright or fabricated-detail risk with a real published work."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-6-1-1",
+    "lessonId": "lesson-ela-6-1-1",
+    "title": "Plot Structure in 'The Lost Kite'",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Identify each part of the plot in 'The Lost Kite.'",
+      "rows": [
+        { "problem": "What is the exposition (setup) of the story?" },
+        { "problem": "What is the rising action (the problem building)?" },
+        { "problem": "What is the climax (the turning point)?" }
+      ]
+    }
+  }
+}

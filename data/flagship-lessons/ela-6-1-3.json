@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-6-1",
+    "courseId": "course-ela-6",
+    "order": 1,
+    "title": "Literary Elements",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-6-1-3",
+    "unitId": "unit-ela-6-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Setting and Its Effect",
+    "gradeLevel": "6",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've analyzed plot and character in 'The Lost Kite.' Today, the element that's easy to overlook but shapes everything: setting."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Setting is the time and place a story happens — and a skilled writer chooses it deliberately, because setting shapes what's possible in the plot. 'The Lost Kite' is set at a park with a tall oak tree. Ask yourself: could this exact plot have happened in a different setting, like an empty parking lot with no trees? No — the tall oak tree is essential; without it, there'd be nothing for the kite to get stuck in, and no climb for Maya to make. Try changing the setting of the story in your imagination (a beach, a city street) and predict how the plot would have to change to still make sense."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just analyzed how setting isn't just background — it actively shapes what a plot can do. Tomorrow we'll find the story's theme: its deeper message."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-6-1-3",
+    "lessonId": "lesson-ela-6-1-3",
+    "objectives": [
+      "Define setting as the time and place of a story",
+      "Explain how a story's setting shapes what's possible in its plot"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review plot and character from Days 1-2.\n2. Introduce setting using the oak-tree example, emphasizing that the setting was a deliberate choice, not incidental.\n3. Do the setting-swap thought experiment together (beach, city street).\n4. Complete the worksheet.\n5. Preview tomorrow's topic: theme.",
+    "differentiationTips": [
+      "Struggling: focus on just identifying the setting (a park with an oak tree) before requiring the deeper 'why it matters' analysis",
+      "Ready for more: ask them to rewrite one sentence of the story with a different setting and explain what plot detail would need to change",
+      "This is genuinely one of the more abstract literary elements — concrete swap examples make it click faster than definitions alone"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The setting is a park with a tall oak tree. 2. The tall oak tree is essential because it's what the kite gets stuck in and what Maya has to climb. 3. Answers will vary for the setting-swap prediction, but should show real reasoning about what would need to change.",
+    "standardsRationale": "Addresses Common Core Grade 6 Reading Literature standard RL.6.3 by extending 'how elements interact' analysis to setting's influence on plot, a more sophisticated literary-analysis skill than simply identifying where a story takes place."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-6-1-3",
+    "lessonId": "lesson-ela-6-1-3",
+    "title": "Setting in 'The Lost Kite'",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each prompt about the story's setting.",
+      "prompts": [
+        { "prompt": "Describe the setting of 'The Lost Kite.'", "lines": 2 },
+        { "prompt": "Why is the tall oak tree essential to this specific plot?", "lines": 2 },
+        { "prompt": "If the setting were a beach instead, what would have to change in the plot?", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-6-2",
+    "courseId": "course-punjabi-6",
+    "order": 2,
+    "title": "An Introduction to Punjabi Literature",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-6-2-5",
+    "unitId": "unit-punjabi-6-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: An Introduction to Punjabi Literature",
+    "gradeLevel": "6",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਪੰਜਾਬੀ ਸਾਹਿਤ ਬਾਰੇ ਸਿੱਖਿਆ। ਆਓ ਸਭ ਕੁਝ ਦੁਹਰਾਈਏ! (This week you learned about Punjabi literature. Let's review it all!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: literature is writing meant to be shared and remembered (Day 1). Boli is a short, rhythmic, communal verse form (Day 2). Qissa is a longer narrative storytelling form (Day 3). You wrote your own short verse using an idiom (Day 4). Write the Gurmukhi word for 'poetry,' explain the difference between Boli and Qissa, and read your Day 4 verse aloud one more time."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਬਹੁਤ ਵਧੀਆ ਕੰਮ! (Wonderful work!) You learned two real traditional Punjabi literary forms and wrote your own verse this week. Next week we'll keep building your Punjabi skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-6-2-5",
+    "lessonId": "lesson-punjabi-6-2-5",
+    "objectives": [
+      "Review this week's literature introduction, Boli, Qissa, and original-writing work",
+      "Recall the Gurmukhi word for poetry and correctly distinguish Boli from Qissa"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child write the word for 'poetry' from memory.\n3. Have the child explain the Boli/Qissa difference and reread their Day 4 verse.\n4. Complete the review worksheet.\n5. Celebrate finishing a full week exploring Punjabi literature!",
+    "differentiationTips": [
+      "Struggling: allow the child to look back at this week's worksheets while writing the review answers, rather than requiring pure recall",
+      "Ready for more: ask the child which of the two forms (Boli or Qissa) they'd rather try writing a longer piece in, and why",
+      "This is a good checkpoint to note which of this week's elements (the literature concept, Boli, Qissa, or the original verse) needs the most review before next week"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child correctly writes ਕਵਿਤਾ for 'poetry,' explains Boli is short/communal while Qissa is long/narrative, and can reread their own Day 4 verse.",
+    "standardsRationale": "Consolidates this week's introduction-to-literature content before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-6-2-5",
+    "lessonId": "lesson-punjabi-6-2-5",
+    "title": "An Introduction to Punjabi Literature: Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Write the Gurmukhi word for 'poetry.'" },
+        { "problem": "What is one difference between Boli and Qissa?" }
+      ]
+    }
+  }
+}

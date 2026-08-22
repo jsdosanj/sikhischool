@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-6-2",
+    "courseId": "course-punjabi-6",
+    "order": 2,
+    "title": "An Introduction to Punjabi Literature",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-6-2-1",
+    "unitId": "unit-punjabi-6-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is Literature?",
+    "gradeLevel": "6",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਪਿਛਲੇ ਹਫ਼ਤੇ ਤੁਸੀਂ ਮੁਹਾਵਰੇ ਸਿੱਖੇ। ਇਸ ਹਫ਼ਤੇ: ਪੰਜਾਬੀ ਸਾਹਿਤ ਦੀ ਜਾਣ-ਪਛਾਣ! (Last week you learned idioms. This week: an introduction to Punjabi literature!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Literature is writing that's created to be shared, remembered, and passed down — not just everyday communication. Punjabi has a rich literary tradition across several forms: ਕਵਿਤਾ (poetry), ਕਹਾਣੀ (story/prose), and forms sung or spoken aloud in community settings. Why do you think a culture's literature matters for keeping its language and stories alive across generations?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਸਾਹਿਤ ਬਾਰੇ ਸਿੱਖਿਆ! (You just learned about literature!) Tomorrow we'll learn about a real traditional Punjabi verse form."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-6-2-1",
+    "lessonId": "lesson-punjabi-6-2-1",
+    "objectives": [
+      "Define literature as writing created to be shared, remembered, and passed down",
+      "Name ਕਵਿਤਾ (poetry) and ਕਹਾਣੀ (story) as two Punjabi literary forms"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's idioms briefly.\n2. Introduce the concept of literature and the ਕਵਿਤਾ/ਕਹਾਣੀ vocabulary.\n3. Discuss why literature matters for a culture.\n4. Complete the worksheet.\n5. Preview tomorrow's Boli lesson.",
+    "differentiationTips": [
+      "Struggling: connect to a story or poem the child already knows in any language as a relatable example",
+      "Ready for more: ask the child what makes a piece of writing feel memorable enough to be passed down",
+      "This opens the course's 'introduction to Punjabi literature' description as a general survey before specific forms tomorrow"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended reflection activity — check that the child gives a genuine reason literature helps preserve language/culture across generations.",
+    "standardsRationale": "Directly addresses the course's 'introduction to Punjabi literature' goal, opening this week's thread with a general survey before specific forms."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-6-2-1",
+    "lessonId": "lesson-punjabi-6-2-1",
+    "title": "What Is Literature?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer the question about literature.",
+      "prompts": [
+        { "prompt": "Why does a culture's literature matter for keeping its language and stories alive?", "lines": 3 }
+      ]
+    }
+  }
+}

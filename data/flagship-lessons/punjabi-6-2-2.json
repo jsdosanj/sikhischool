@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-6-2",
+    "courseId": "course-punjabi-6",
+    "order": 2,
+    "title": "An Introduction to Punjabi Literature",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-6-2-2",
+    "unitId": "unit-punjabi-6-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Boli: A Traditional Folk Verse",
+    "gradeLevel": "6",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਕੱਲ੍ਹ ਤੁਸੀਂ ਸਾਹਿਤ ਬਾਰੇ ਸਿੱਖਿਆ। ਅੱਜ ਇੱਕ ਅਸਲੀ ਪਰੰਪਰਾਗਤ ਰੂਪ: ਬੋਲੀ! (Yesterday you learned about literature. Today, a real traditional form: Boli!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A ਬੋਲੀ (Boli) is a short, rhythmic Punjabi folk verse, traditionally sung or spoken together in a group during celebrations and festivals. Because they're short and rhythmic, they're easy for a whole community to remember and sing together, passing them down without ever needing to be written. What do you think makes a verse easy for a whole group of people to remember and repeat together?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਬੋਲੀ ਬਾਰੇ ਸਿੱਖਿਆ! (You just learned about Boli!) Tomorrow we'll learn about a longer traditional storytelling form."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-6-2-2",
+    "lessonId": "lesson-punjabi-6-2-2",
+    "objectives": [
+      "Define Boli as a short, rhythmic Punjabi folk verse traditionally sung communally",
+      "Explain what makes a verse easy for a group to remember and repeat together"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's literature introduction.\n2. Introduce Boli as a short, communal, rhythmic folk-verse form.\n3. Discuss what makes verses memorable for group singing.\n4. Complete the worksheet.\n5. Preview tomorrow's Qissa lesson.",
+    "differentiationTips": [
+      "Struggling: connect to a nursery rhyme or simple chant the child already knows as a relatable example of a short, memorable, group-repeated verse",
+      "Ready for more: ask the child why oral traditions like Boli might have been especially important before widespread written literacy",
+      "Kept deliberately at the level of form/purpose only — no specific Boli text is quoted, avoiding any fabrication risk"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child gives a sensible explanation (rhythm, repetition, short length, rhyme) for what makes group verses memorable.",
+    "standardsRationale": "Directly addresses the course's 'introduction to Punjabi literature' goal with a real, well-documented traditional form, appropriately scoped to structure/purpose rather than quoting specific unverifiable text."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-6-2-2",
+    "lessonId": "lesson-punjabi-6-2-2",
+    "title": "Boli: A Traditional Folk Verse",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Boli.",
+      "rows": [
+        { "problem": "What is a Boli, in your own words?" },
+        { "problem": "When are Boli traditionally sung?" }
+      ]
+    }
+  }
+}

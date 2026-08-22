@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-6-1",
+    "courseId": "course-punjabi-6",
+    "order": 1,
+    "title": "Common Punjabi Idioms",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-6-1-4",
+    "unitId": "unit-punjabi-6-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Idiom: ਅੱਖਾਂ ਵਿੱਚ ਘੱਟਾ ਪਾਉਣਾ + Writing with Idioms",
+    "gradeLevel": "6",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਅੱਜ ਤੀਜਾ ਮੁਹਾਵਰਾ, ਅਤੇ ਲਿਖਣ ਦੀ ਵਾਰੀ! (Today, the third idiom, and it's time to write!) One more idiom, then real composition practice using all three."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The idiom is ਅੱਖਾਂ ਵਿੱਚ ਘੱਟਾ ਪਾਉਣਾ (akhaan vich ghatta pauna). New words: ਅੱਖਾਂ (akhaan, eyes) and ਘੱਟਾ (ghatta, dust). Literally, this means 'to put dust in someone's eyes' — imagine someone throwing dust in your eyes so you can't see clearly what's really happening. The real meaning: to deceive or trick someone, distracting them from the truth. Now, using at least one of this week's three idioms (ਅੱਗ ਵਿੱਚ ਘਿਓ ਪਾਉਣਾ, ਦੁੱਧ ਦਾ ਦੁੱਧ ਪਾਣੀ ਦਾ ਪਾਣੀ, or ਅੱਖਾਂ ਵਿੱਚ ਘੱਟਾ ਪਾਉਣਾ), write 2-3 original sentences telling a short scene or story where that idiom fits naturally."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਸ਼ਾਬਾਸ਼! (Well done!) You just used a real Punjabi idiom correctly in your own original writing — genuine composition practice. Tomorrow we'll review all three idioms together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-6-1-4",
+    "lessonId": "lesson-punjabi-6-1-4",
+    "objectives": [
+      "Learn the idiom ਅੱਖਾਂ ਵਿੱਚ ਘੱਟਾ ਪਾਉਣਾ, its literal meaning, and its real meaning",
+      "Write 2-3 original sentences correctly using one of this week's three idioms"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets for reference", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the first two idioms from Days 2-3.\n2. Introduce today's idiom (ਅੱਖਾਂ ਵਿੱਚ ਘੱਟਾ ਪਾਉਣਾ).\n3. Have the child choose one of the three idioms and plan a short scene where it fits.\n4. Have them write 2-3 original sentences using the idiom correctly.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: allow the child to use the idiom's EXPLANATION rather than the idiom phrase itself if the full Gurmukhi sentence is too difficult",
+      "Ready for more: challenge them to use two of the three idioms correctly in the same short scene",
+      "All Gurmukhi words/phrases used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Literal meaning: to put dust in someone's eyes. 2. Real meaning: to deceive or trick someone. 3. Answers will vary for the child's own composition — check the chosen idiom is used in a way that matches its real (not literal) meaning.",
+    "standardsRationale": "Completes the week's three named idioms while directly addressing the course's 'composition' description — genuine original writing that correctly applies figurative language, a meaningfully advanced skill for this grade."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-6-1-4",
+    "lessonId": "lesson-punjabi-6-1-4",
+    "title": "Writing with Idioms",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Choose one of this week's three idioms and write 2-3 original sentences telling a short scene where it fits.",
+      "prompts": [
+        { "prompt": "Which idiom did you choose?", "lines": 1 },
+        { "prompt": "My original sentences using this idiom:", "lines": 4 }
+      ]
+    }
+  }
+}

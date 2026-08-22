@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-k-2",
+    "courseId": "course-punjabi-k",
+    "order": 2,
+    "title": "More Letters of the Gurmukhi Alphabet",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-k-2-3",
+    "unitId": "unit-punjabi-k-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Finishing the Row: ਡ, ਢ, and ਣ",
+    "gradeLevel": "K",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned the tongue-curl trick! Today we finish that row with three more letters: ਡ (dadda), ਢ (ddhadha), and ਣ (nana)."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਡ (dadda) and ਢ (ddhadha) use the same tongue-curl as yesterday's ਟ/ਠ, but make a 'd' sound instead — ਢ is the breathier version of ਡ. ਣ (nana) also uses the tongue-curl, but makes an 'n' sound. Practice all five letters from this row together: ta... tha... da... dha... na, feeling your tongue curl back for every single one."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know nineteen letters, and you've mastered a whole row that uses the tongue-curl sound! Tomorrow we'll move to a new row that sounds similar but feels different in your mouth."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-k-2-3",
+    "lessonId": "lesson-punjabi-k-2-3",
+    "objectives": [
+      "Recognize and name the letters ਡ (dadda), ਢ (ddhadha), and ਣ (nana)",
+      "Complete the full retroflex (tongue-curl) row: ਟ, ਠ, ਡ, ਢ, ਣ"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review yesterday's ਟ, ਠ and the tongue-curl feeling.\n2. Introduce ਡ, ਢ, ਣ, having the child notice the same tongue-curl in each.\n3. Practice the full five-letter row together: ta...tha...da...dha...na.\n4. Trace each letter in the air before picking up a pencil.\n5. Move to the worksheet: trace each letter, then write it once more.\n6. Close by counting all nineteen letters and celebrating a complete row.",
+    "differentiationTips": [
+      "Struggling: focus on just ਡ (the clearest new sound) before adding ਢ's breathier pair and ਣ's different ending sound",
+      "Ready for more: ask the child to say the complete five-letter row from memory, without a prompt",
+      "This completes a genuinely full row — a good moment to celebrate the accomplishment before moving to new material tomorrow"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and recognition activity — check that each traced letter roughly matches the shape shown.",
+    "standardsRationale": "ਡ, ਢ, ਣ complete the retroflex consonant row in the Painti Akhari sequence, giving the child a full, coherent set of tongue-curl sounds before the next row introduces a contrasting articulation. Every letter was validated against gurmukhifix's Lexicon before writing."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-k-2-3",
+    "lessonId": "lesson-punjabi-k-2-3",
+    "title": "Finishing the Row: ਡ, ਢ, ਣ",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its name out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਡ", "label": "Dadda — a 'd' sound with your tongue curled back" },
+        { "trace": "ਢ", "label": "Ddhadha — the breathier version of ਡ" },
+        { "trace": "ਣ", "label": "Nana — an 'n' sound with your tongue curled back" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-punjabi-k-2",
+    "courseId": "course-punjabi-k",
+    "order": 2,
+    "title": "More Letters of the Gurmukhi Alphabet",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-k-2-5",
+    "unitId": "unit-punjabi-k-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Twenty-One Letters",
+    "gradeLevel": "K",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned ten new letters! Let's practice all twenty-one letters you know so far, from the very beginning."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Say all twenty-one letters in order, from the very first ones you learned: ura, aira, iri, sassa, haha, kakka, khakha, gagga, ghagha, ngangga, chachha, then this week's: chhachha, jajja, jhajha, tainka, thattha, dadda, ddhadha, nana, tatta, thatha. Notice the pattern in the last two rows especially — tongue-curl sounds, then similar-but-different tongue-to-teeth sounds."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Twenty-one letters — more than half the Gurmukhi alphabet! Wonderful work these past two weeks. Keep practicing saying them all in order."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-k-2-5",
+    "lessonId": "lesson-punjabi-k-2-5",
+    "objectives": [
+      "Recite all twenty-one letters learned across weeks 1 and 2, in order",
+      "Distinguish the retroflex row (ਟਠਡਢਣ) from the dental row (ਤਥ) by feel"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Recite all twenty-one letters together, in order, from the very first lesson.\n2. Pay special attention to the retroflex-vs-dental contrast from this week.\n3. Complete the review worksheet.\n4. Celebrate finishing two full weeks — twenty-one letters, more than half the alphabet!",
+    "differentiationTips": [
+      "Struggling: break the recitation into the same chunks used across the two weeks (groups of 2-3) rather than requiring all 21 in one unbroken sequence",
+      "Ready for more: ask the child to sort this week's ten letters into two groups by feel — tongue-curl vs. tongue-to-teeth — without looking at the list",
+      "This is a good checkpoint to note which specific letters or sounds need the most repetition before continuing to new rows"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recitation and tracing review — check that the child can name and trace all ten of this week's letters (ਛ ਜ ਝ ਟ ਠ ਡ ਢ ਣ ਤ ਥ), and recite the full 21-letter sequence with reasonable fluency.",
+    "standardsRationale": "Consolidates two full weeks of the Painti Akhari sequence (21 of 35 traditional letters) before the unit continues, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-k-2-5",
+    "lessonId": "lesson-punjabi-k-2-5",
+    "title": "Review Day: Twenty-One Letters",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each of this week's letters one more time, and say its name out loud.",
+      "rows": [
+        { "trace": "ਛ", "label": "Chhachha" },
+        { "trace": "ਜ", "label": "Jajja" },
+        { "trace": "ਝ", "label": "Jhajha" },
+        { "trace": "ਟ", "label": "Tainka" },
+        { "trace": "ਠ", "label": "Thattha" },
+        { "trace": "ਡ", "label": "Dadda" },
+        { "trace": "ਢ", "label": "Ddhadha" },
+        { "trace": "ਣ", "label": "Nana" },
+        { "trace": "ਤ", "label": "Tatta" },
+        { "trace": "ਥ", "label": "Thatha" }
+      ]
+    }
+  }
+}

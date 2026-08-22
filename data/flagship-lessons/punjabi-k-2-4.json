@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-k-2",
+    "courseId": "course-punjabi-k",
+    "order": 2,
+    "title": "More Letters of the Gurmukhi Alphabet",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-k-2-4",
+    "unitId": "unit-punjabi-k-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "A Familiar Feeling: ਤ and ਥ",
+    "gradeLevel": "K",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday's row curled your tongue back. Today's letters, ਤ (tatta) and ਥ (thatha), sound similar but feel different — your tongue touches your teeth instead!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਤ (tatta) and ਥ (thatha) also make 't'-like sounds, but instead of curling your tongue back like yesterday's ਟ/ਠ, your tongue tip touches near your front teeth. ਥ is the breathier version of ਤ. Practice saying yesterday's ਟ and today's ਤ back to back — same-ish sound, but notice how differently your tongue moves for each one."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know twenty-one letters, and you can feel the real difference between two similar-sounding rows! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-k-2-4",
+    "lessonId": "lesson-punjabi-k-2-4",
+    "objectives": [
+      "Recognize and name the letters ਤ (tatta) and ਥ (thatha)",
+      "Physically distinguish this row's tongue-to-teeth sound from yesterday's tongue-curl sound"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review yesterday's tongue-curl row (ਟ, ਠ, ਡ, ਢ, ਣ).\n2. Introduce ਤ, ਥ, having the child notice their tongue touching their teeth instead of curling back.\n3. Practice saying ਟ and ਤ back to back, feeling the difference.\n4. Trace each letter in the air before picking up a pencil.\n5. Move to the worksheet: trace each letter, then write it once more.\n6. Close by counting all twenty-one letters learned so far.",
+    "differentiationTips": [
+      "Struggling: focus on just noticing that the tongue does something different, without requiring precise articulation language",
+      "Ready for more: ask the child to explain in their own words the difference between yesterday's row and today's two letters",
+      "This tongue-curl vs. tongue-to-teeth contrast is a genuinely important distinction in Punjabi pronunciation — worth real repetition"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and recognition activity — check that each traced letter roughly matches the shape shown.",
+    "standardsRationale": "ਤ, ਥ begin the dental consonant row, deliberately placed right after the retroflex row to let the child directly compare and feel the contrast between the two articulation points. Every letter was validated against gurmukhifix's Lexicon before writing."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-k-2-4",
+    "lessonId": "lesson-punjabi-k-2-4",
+    "title": "A Familiar Feeling: ਤ, ਥ",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its name out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਤ", "label": "Tatta — a 't' sound with your tongue at your teeth" },
+        { "trace": "ਥ", "label": "Thatha — the breathier version of ਤ" }
+      ]
+    }
+  }
+}

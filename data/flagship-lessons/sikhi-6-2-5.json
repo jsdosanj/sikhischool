@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-6-2",
+    "courseId": "course-sikhi-6",
+    "order": 2,
+    "title": "Major Sikh Festivals",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-6-2-5",
+    "unitId": "unit-sikhi-6-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Major Sikh Festivals",
+    "gradeLevel": "6",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about three major Sikh festivals. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Vaisakhi connects to equality through the Khalsa's founding (Day 1). Bandi Chhor Divas celebrates freedom for everyone, not just one person (Day 2). Gurpurabs celebrate important Guru-related dates with Akhand Path, Nagar Kirtan, and Langar (Day 3). All three share community and Langar, but each is unique (Day 4). Name all three festivals and one real fact about each."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you learned three real Sikh festivals in genuine depth! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-6-2-5",
+    "lessonId": "lesson-sikhi-6-2-5",
+    "objectives": [
+      "Review Vaisakhi, Bandi Chhor Divas, and Gurpurabs, and their shared/unique elements",
+      "Name all three festivals and one real fact about each"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child name all three festivals and a fact about each.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of Sikh festivals exploration!",
+    "differentiationTips": [
+      "Struggling: focus on just the festival the child engaged with most this week",
+      "Ready for more: ask the child to connect this week's festivals content back to last week's women-in-Sikh-history content in one sentence",
+      "This is a good checkpoint to note which of the week's three festivals needs the most reinforcement before moving on"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child correctly names all three festivals (Vaisakhi, Bandi Chhor Divas, Gurpurabs) with one accurate fact each.",
+    "standardsRationale": "Consolidates this week's 'major festivals' content before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-6-2-5",
+    "lessonId": "lesson-sikhi-6-2-5",
+    "title": "Review: Major Sikh Festivals",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Name all three festivals from this week." },
+        { "problem": "State one real fact about each festival." }
+      ]
+    }
+  }
+}

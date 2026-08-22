@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-6-2",
+    "courseId": "course-sikhi-6",
+    "order": 2,
+    "title": "Major Sikh Festivals",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-6-2-2",
+    "unitId": "unit-sikhi-6-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Bandi Chhor Divas: The Day of Liberation",
+    "gradeLevel": "6",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you connected Vaisakhi to equality. Today: a festival celebrating a real act of freeing others!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Bandi Chhor Divas celebrates Guru Hargobind Ji's release from imprisonment at Gwalior Fort. When offered his own freedom, Guru Hargobind Ji requested that 52 other imprisoned princes be released as well. As the story goes, he had a cloak made with 52 tassels so all 52 princes could hold on and walk free together with him. Why do you think Guru Hargobind Ji chose to ask for others' freedom instead of just accepting his own?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about Bandi Chhor Divas, a festival celebrating freedom for everyone, not just one person! Tomorrow we'll learn about Gurpurabs."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-6-2-2",
+    "lessonId": "lesson-sikhi-6-2-2",
+    "objectives": [
+      "Recall the Bandi Chhor Divas story: Guru Hargobind Ji securing 52 princes' release alongside his own",
+      "Reflect on why Guru Hargobind Ji chose to advocate for others' freedom"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Vaisakhi/equality lesson.\n2. Introduce the Bandi Chhor Divas story.\n3. Discuss why Guru Hargobind Ji advocated for the other princes.\n4. Complete the worksheet.\n5. Preview tomorrow's Gurpurab lesson.",
+    "differentiationTips": [
+      "Struggling: focus on the simple sequence — offered his own freedom, asked for others' freedom too, made a way for everyone to leave together",
+      "Ready for more: ask the child how this story connects to the equality theme from yesterday and earlier grades",
+      "This is a real, well-documented, commonly-told story — text-only, per the platform's Ten Gurus content policy"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child gives a genuine explanation connecting Guru Hargobind Ji's choice to values like compassion, equality, or leadership responsibility.",
+    "standardsRationale": "Directly addresses the course's 'major festivals' description with a real, well-documented festival story, continuing this week's equality thread from yesterday."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-6-2-2",
+    "lessonId": "lesson-sikhi-6-2-2",
+    "title": "Bandi Chhor Divas: The Day of Liberation",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Bandi Chhor Divas.",
+      "rows": [
+        { "problem": "Who was released from Gwalior Fort, and how many other princes were freed with him?" },
+        { "problem": "Why do you think Guru Hargobind Ji asked for the other princes' freedom too?" }
+      ]
+    }
+  }
+}

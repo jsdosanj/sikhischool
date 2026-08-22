@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-6-2",
+    "courseId": "course-sikhi-6",
+    "order": 2,
+    "title": "Major Sikh Festivals",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-6-2-1",
+    "unitId": "unit-sikhi-6-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Vaisakhi and Equality",
+    "gradeLevel": "6",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned about women in Sikh history. This week: major Sikh festivals, starting with a deeper look at Vaisakhi!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "You've learned about Vaisakhi before — the 1699 founding of the Khalsa. Look at it now through this course's equality lens: the Panj Pyare who stepped forward came from different backgrounds, and Guru Gobind Singh Ji gave every member of the Khalsa the same visible identity and the same responsibilities, regardless of where they came from. Explain how Vaisakhi's story connects to the idea of equality."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected Vaisakhi to the theme of equality! Tomorrow we'll learn about a different festival: Bandi Chhor Divas."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-6-2-1",
+    "lessonId": "lesson-sikhi-6-2-1",
+    "objectives": [
+      "Recall Vaisakhi's 1699 Khalsa-founding history from earlier grades",
+      "Explain how Vaisakhi's story connects to equality"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's women-in-Sikh-history content briefly.\n2. Review Vaisakhi's history, then discuss it through the equality lens.\n3. Have the child explain the connection.\n4. Complete the worksheet.\n5. Preview tomorrow's Bandi Chhor Divas lesson.",
+    "differentiationTips": [
+      "Struggling: focus on the single concrete fact — the Panj Pyare came from different backgrounds but became equal members of the same Khalsa",
+      "Ready for more: ask the child how this connects to Guru Amar Das's Langar-for-everyone teaching from earlier grades",
+      "This lesson deliberately revisits familiar Vaisakhi content through the course's own 'ethics and equality' lens, rather than repeating it identically"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child explains the Panj Pyare's diverse backgrounds becoming equal within the Khalsa as a real connection to the equality theme.",
+    "standardsRationale": "Directly addresses the course's 'major festivals' and 'ethics and equality' descriptions together, opening this week's festivals thread with genuine depth rather than repetition."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-6-2-1",
+    "lessonId": "lesson-sikhi-6-2-1",
+    "title": "Vaisakhi and Equality",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain how Vaisakhi's story connects to equality.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

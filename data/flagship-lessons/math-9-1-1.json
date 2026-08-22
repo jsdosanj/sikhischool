@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-9-1",
+    "courseId": "course-math-9",
+    "order": 1,
+    "title": "Systems of Linear Equations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-9-1-1",
+    "unitId": "unit-math-9-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is a System of Equations?",
+    "gradeLevel": "9",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know how to graph one line using y=mx+b. This week, work with TWO lines at once — and find the exact point where they cross."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A system of equations is a set of two (or more) equations you solve together, finding the values that make ALL of them true at the same time. Graphically, this means finding where two lines intersect — that single point (x, y) is the solution. For y = x + 1 and y = -x + 5, both equations equal y at the same x-value when the lines cross. Since both equal y, set them equal to each other: x + 1 = -x + 5. Solve for x, then use either equation to find y."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just found the solution to a system of equations — the exact point where two lines meet. Tomorrow we'll learn a more systematic method: substitution."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-9-1-1",
+    "lessonId": "lesson-math-9-1-1",
+    "objectives": [
+      "Define a system of equations as two equations solved together, with a solution at their intersection point",
+      "Solve a simple system by setting two y=mx+b equations equal to each other"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Optional: graph paper"],
+    "facilitationScript": "1. Review Grade 8's y=mx+b skill.\n2. Introduce systems of equations and the graphical intersection idea.\n3. Work through x+1=-x+5 together, solving for x then y.\n4. If graph paper is available, plot both lines and confirm they cross at the found point.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: substitution.",
+    "differentiationTips": [
+      "Struggling: physically graph both lines first, estimate the intersection visually, then confirm algebraically",
+      "Ready for more: ask them to predict what it means if two lines never intersect (parallel lines, no solution)",
+      "Emphasize that the solution (x,y) must work in BOTH original equations — have them check both, not just one"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. For y=x+1 and y=-x+5: x+1=-x+5, so 2x=4, x=2, y=3. Solution: (2,3). 2. Checking: 2+1=3 ✓ and -2+5=3 ✓.",
+    "standardsRationale": "Directly addresses Common Core Algebra 1 standard A-REI.6/A-REI.11: solving systems of linear equations and understanding the solution as the intersection point of two graphs."
+  },
+  "worksheet": {
+    "id": "worksheet-math-9-1-1",
+    "lessonId": "lesson-math-9-1-1",
+    "title": "What Is a System of Equations?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each system by setting the equations equal to each other.",
+      "rows": [
+        { "problem": "y = x + 1 and y = -x + 5. Find (x, y)." },
+        { "problem": "y = 2x and y = x + 3. Find (x, y)." },
+        { "problem": "What does the solution (x, y) represent graphically?" }
+      ]
+    }
+  }
+}

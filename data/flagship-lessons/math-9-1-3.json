@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-9-1",
+    "courseId": "course-math-9",
+    "order": 1,
+    "title": "Systems of Linear Equations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-9-1-3",
+    "unitId": "unit-math-9-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Solving by Elimination",
+    "gradeLevel": "9",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Substitution works well, but sometimes there's an even faster path: elimination, where adding two equations together makes a variable disappear entirely."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Elimination works when adding (or subtracting) two equations cancels out one variable. For 2x + y = 10 and x - y = 2: notice the y terms are +y and -y — adding the equations straight down eliminates y entirely: (2x + x) + (y - y) = 10 + 2, giving 3x = 12, so x = 4. Then substitute x = 4 into either original equation to find y: 4 - y = 2, so y = 2. The solution is (4, 2). Solve this system using elimination: 3x + y = 11 and x - y = 1."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just solved a system using elimination — often the fastest method when variables are set up to cancel. Tomorrow we'll use all three methods to solve a real-world problem."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-9-1-3",
+    "lessonId": "lesson-math-9-1-3",
+    "objectives": [
+      "Solve a system of equations using the elimination method when terms are already set up to cancel",
+      "Recognize when elimination is a faster path than substitution"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's substitution method.\n2. Work through the 2x+y=10, x-y=2 example together, pointing out the +y/-y cancellation.\n3. Have the child solve 3x+y=11, x-y=1 independently.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: applying all three methods to a real-world problem.",
+    "differentiationTips": [
+      "Struggling: physically write the two equations stacked and draw a line underneath, adding column by column, to make the cancellation visual",
+      "Ready for more: ask them what to do if the variables DON'T already cancel (multiply one equation by a constant first) — a preview of next week's deeper work",
+      "Elimination and substitution both work on any system — the choice is about which is faster for the specific setup, not that one is 'more correct'"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 2x+y=10, x-y=2: adding gives 3x=12, x=4, y=2. 2. 3x+y=11, x-y=1: adding gives 4x=12, x=3, y=2.",
+    "standardsRationale": "Directly addresses Common Core Algebra 1 standard A-REI.6: solving systems of linear equations algebraically using elimination (linear combination), the third core solving method alongside graphing and substitution."
+  },
+  "worksheet": {
+    "id": "worksheet-math-9-1-3",
+    "lessonId": "lesson-math-9-1-3",
+    "title": "Solving by Elimination",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each system using elimination.",
+      "rows": [
+        { "problem": "2x + y = 10 and x - y = 2. Find (x, y)." },
+        { "problem": "3x + y = 11 and x - y = 1. Find (x, y)." },
+        { "problem": "4x + y = 15 and x - y = 0. Find (x, y)." }
+      ]
+    }
+  }
+}

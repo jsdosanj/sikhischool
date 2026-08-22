@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-5-2",
+    "courseId": "course-ela-5",
+    "order": 2,
+    "title": "Comparing Texts Across Genres",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-5-2-3",
+    "unitId": "unit-ela-5-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Comparing Point of View",
+    "gradeLevel": "5",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've compared the two passages' purposes. Today: look closer at HOW each one is written!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The fiction passage follows one specific character, Maria, using her feelings and personal experience ('her heart pounding'). The nonfiction passage speaks generally about firefighters as a group, using facts that apply broadly, not to one specific person. This is a real difference in point of view between the genres: fiction often narrows in on an individual's experience, while nonfiction often zooms out to general, broadly-true information. Find one more phrase from each passage that shows this difference."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified a real difference in point of view between fiction and nonfiction! Tomorrow we'll combine both passages into a fuller understanding."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-5-2-3",
+    "lessonId": "lesson-ela-5-2-3",
+    "objectives": [
+      "Distinguish fiction's individual-character focus from nonfiction's general, broadly-applicable focus",
+      "Find textual evidence from each passage supporting this distinction"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's purpose comparison.\n2. Introduce the individual-vs-general point-of-view distinction.\n3. Have the child find one more supporting phrase from each passage.\n4. Complete the worksheet.\n5. Preview tomorrow's synthesis lesson.",
+    "differentiationTips": [
+      "Struggling: reread both passages together, pausing to ask 'is this about one person, or about firefighters generally?' at each sentence",
+      "Ready for more: ask the child if a nonfiction piece could ever focus on one specific person too (like a biography), and how that would be different from this week's example",
+      "This is a genuine step up from Day 2's simpler purpose comparison — a real close-reading skill"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended textual-evidence activity — check that the child finds a genuine individual-focused phrase from the fiction passage and a genuine general/broad phrase from the nonfiction passage.",
+    "standardsRationale": "Directly addresses Common Core Grade 5 Reading standards RL.5.9/RI.5.9, deepening the genre comparison from purpose to point of view."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-5-2-3",
+    "lessonId": "lesson-ela-5-2-3",
+    "title": "Comparing Point of View",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Find one phrase from each passage showing the individual-vs-general difference.",
+      "prompts": [
+        { "prompt": "Phrase from the fiction passage:", "lines": 1 },
+        { "prompt": "Phrase from the nonfiction passage:", "lines": 1 }
+      ]
+    }
+  }
+}

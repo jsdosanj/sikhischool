@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-5-2",
+    "courseId": "course-ela-5",
+    "order": 2,
+    "title": "Comparing Texts Across Genres",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-5-2-2",
+    "unitId": "unit-ela-5-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Comparing Two Real Passages",
+    "gradeLevel": "5",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you predicted how genre changes a topic. Today: compare two real passages about firefighters!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Fiction passage: 'The alarm blared at 2 a.m. Maria pulled on her gear in under a minute, her heart pounding as the truck roared out of the station toward the smoke rising over Elm Street.' Nonfiction passage: 'Firefighters train for years to safely respond to emergencies. Their gear includes a helmet, protective coat, and self-contained breathing apparatus, all designed to protect them in extreme heat and smoke.' What is the purpose of each passage — to tell an exciting story, or to inform with facts?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just compared a real fiction passage and a real nonfiction passage on the same topic! Tomorrow we'll compare their points of view more closely."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-5-2-2",
+    "lessonId": "lesson-ela-5-2-2",
+    "objectives": [
+      "Read a fiction and a nonfiction passage on the same topic",
+      "Identify each passage's purpose: to entertain/tell a story vs. to inform with facts"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's genre predictions.\n2. Read both passages together.\n3. Discuss each passage's purpose.\n4. Complete the worksheet.\n5. Preview tomorrow's point-of-view comparison.",
+    "differentiationTips": [
+      "Struggling: point to specific clue words in each passage (like 'her heart pounding' for fiction vs. 'train for years' for nonfiction) to anchor the purpose distinction",
+      "Ready for more: ask the child to identify one detail from each passage that reveals its genre",
+      "These two original passages ('The Night Alarm' fiction excerpt and a firefighter-facts nonfiction excerpt) are used across the rest of this week — keep them available for reference"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The fiction passage's purpose is to tell an exciting, engaging story (following one character's experience). The nonfiction passage's purpose is to inform with real facts about training and equipment.",
+    "standardsRationale": "Directly addresses Common Core Grade 5 Reading standards RL.5.9 and RI.5.9, giving genuine practice comparing real fiction and nonfiction texts on the same topic."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-5-2-2",
+    "lessonId": "lesson-ela-5-2-2",
+    "title": "Comparing Two Real Passages",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question comparing the two passages.",
+      "rows": [
+        { "problem": "What is the fiction passage's purpose?" },
+        { "problem": "What is the nonfiction passage's purpose?" }
+      ]
+    }
+  }
+}

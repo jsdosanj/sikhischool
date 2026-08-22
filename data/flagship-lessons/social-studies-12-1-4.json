@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-12-1",
+    "courseId": "course-social-studies-12",
+    "order": 1,
+    "title": "How Government Works",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-12-1-4",
+    "unitId": "unit-social-studies-12-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Personal Economics: Building a Real Budget",
+    "gradeLevel": "12",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week has studied government structure. Today, this course's other focus: the practical economics of your own future household."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A budget tracks income against expenses over a set period, usually a month. Expenses generally fall into fixed (the same amount each month, like rent) and variable (changes month to month, like food or entertainment) categories. A basic budgeting principle: track every expense category, subtract total expenses from income, and treat what's left as either savings or discretionary spending — never assume there's money left over without actually calculating it. For a monthly income of $2,000 with expenses of $800 (rent), $300 (food), $150 (transportation), and $200 (other): calculate the total expenses, the amount remaining, and what percent of income that remaining amount represents."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've just built and analyzed a real budget using real arithmetic, not just budgeting in the abstract. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-12-1-4",
+    "lessonId": "lesson-social-studies-12-1-4",
+    "objectives": [
+      "Distinguish fixed expenses from variable expenses",
+      "Calculate total expenses, remaining income, and savings rate from a real budget scenario"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Calculator"],
+    "facilitationScript": "1. Introduce the shift to personal economics for this lesson.\n2. Introduce fixed vs. variable expenses and the basic budgeting principle.\n3. Work through the $2,000 income example together, calculating total expenses, remaining amount, and savings rate.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: work through the calculation one step at a time (sum expenses first, then subtract, then find the percentage) rather than all at once",
+      "Ready for more: ask them to identify which of the four expense categories in the example are likely fixed vs. variable, and why",
+      "Real, concrete numbers matter here — resist the temptation to skip the actual arithmetic in favor of abstract budgeting talk"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Total expenses: 800+300+150+200 = $1,450. Remaining: $2,000 - $1,450 = $550. Savings rate: 550/2000 = 27.5%.",
+    "standardsRationale": "Directly addresses the course's 'personal economics' description with a genuine, computed budgeting exercise — the practical skill this half of the course builds toward."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-12-1-4",
+    "lessonId": "lesson-social-studies-12-1-4",
+    "title": "Personal Economics: Building a Real Budget",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For a $2,000 monthly income with expenses of $800 (rent), $300 (food), $150 (transportation), and $200 (other), answer each question.",
+      "rows": [
+        { "problem": "What are the total expenses?" },
+        { "problem": "How much income remains after expenses?" },
+        { "problem": "What percent of income does the remaining amount represent?" }
+      ]
+    }
+  }
+}

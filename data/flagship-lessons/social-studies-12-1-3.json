@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-12-1",
+    "courseId": "course-social-studies-12",
+    "order": 1,
+    "title": "How Government Works",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-12-1-3",
+    "unitId": "unit-social-studies-12-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "How a Bill Becomes a Law",
+    "gradeLevel": "12",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You understand government's structure. Today: trace the concrete process an idea actually goes through to become a real law."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A bill generally follows this real process: (1) a member of Congress introduces it, (2) it goes to committee for review, discussion, and possible changes, (3) if approved, the full chamber (House or Senate) debates and votes on it, (4) it must pass BOTH the House and Senate, often after reconciling differences between their versions, (5) it goes to the President, who can sign it into law or veto it, (6) Congress can override a veto with a two-thirds vote in both chambers. Most bills never make it through this whole process — this filtering is itself part of the design, reflecting yesterday's abuse-prevention theme (a law shouldn't pass just because one person wants it). Explain why requiring a bill to pass through committee review, rather than going straight to a full vote, might improve the law's quality."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand the real, concrete process behind a law, not just an abstract idea of 'Congress makes laws.' Tomorrow we'll shift to this course's other focus: personal economics."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-12-1-3",
+    "lessonId": "lesson-social-studies-12-1-3",
+    "objectives": [
+      "Trace the real step-by-step process a bill follows to become a law",
+      "Explain why committee review and the veto-override requirement serve the same abuse-prevention purpose as separation of powers"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's separation of powers and federalism.\n2. Walk through the six-step bill process together.\n3. Discuss why most bills don't make it through the whole process, and why that's by design.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: personal economics.",
+    "differentiationTips": [
+      "Struggling: use a numbered flowchart/diagram of the six steps to make the sequence concrete and easy to reference",
+      "Ready for more: ask them to connect this process back to Day 1's separation-of-powers theme — where in the bill process do checks between branches actually appear?",
+      "Keep this lesson at the general process level — specific current or historical legislation is out of scope here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The six steps are: introduction, committee review, chamber vote, passage in both chambers, presidential signature/veto, possible veto override. 2. Committee review improves quality by allowing detailed discussion and revision before the whole chamber votes, rather than rushing an unreviewed idea straight to a final decision.",
+    "standardsRationale": "Directly addresses the course's 'how government works' description with a concrete procedural walkthrough, connecting back to Day 1's abuse-prevention theme."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-12-1-3",
+    "lessonId": "lesson-social-studies-12-1-3",
+    "title": "How a Bill Becomes a Law",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the legislative process.",
+      "rows": [
+        { "problem": "List the six steps a bill follows to become a law." },
+        { "problem": "What happens if the President vetoes a bill?" },
+        { "problem": "Why does committee review improve a bill's quality?" }
+      ]
+    }
+  }
+}

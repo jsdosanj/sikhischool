@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-12-1",
+    "courseId": "course-social-studies-12",
+    "order": 1,
+    "title": "How Government Works",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-12-1-5",
+    "unitId": "unit-social-studies-12-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Government and Personal Economics",
+    "gradeLevel": "12",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you studied government's structure and your own future household's economics. Let's review both together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: separation of powers divides government by branch to prevent concentrated power (Day 1). Federalism divides power by level — national vs. state (Day 2). A bill follows a real, deliberately filtering process to become a law (Day 3). A budget tracks income against fixed and variable expenses to find what's genuinely left over (Day 4). For a $2,500 monthly income with expenses of $900 (rent), $350 (food), $200 (transportation), and $250 (other): calculate total expenses, remaining income, and savings rate. Then, in one or two sentences, explain one connection you see between this week's civics content (checks on power) and personal budgeting (checking your own spending against your income)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now understand both how government power is structured and how to build a real personal budget. Both are foundational to this course's civics and economics work ahead."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-12-1-5",
+    "lessonId": "lesson-social-studies-12-1-5",
+    "objectives": [
+      "Calculate total expenses, remaining income, and savings rate for a new budget scenario",
+      "Draw a genuine connection between this week's civics and personal-economics content"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed cumulative review worksheet", "Pencil", "Calculator"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child calculate the new budget scenario independently.\n3. Discuss the connection question together — checks on power vs. checking your own spending.\n4. Complete the cumulative review worksheet.\n5. Celebrate finishing the first full week of Civics, Government & Economics — this foundation carries into the rest of the course.",
+    "differentiationTips": [
+      "Struggling: allow the connection question to be answered with a simple, concrete parallel rather than an abstract essay",
+      "Ready for more: ask them to also identify a real connection between federalism and personal budgeting (e.g., how different levels of a household's finances — individual vs. shared family expenses — might parallel federal vs. state division)",
+      "This is a good checkpoint to note which half of the week (government structure or personal economics) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Total expenses: 900+350+200+250 = $1,700. Remaining: $2,500 - $1,700 = $800. Savings rate: 800/2500 = 32%. A reasonable connection: both systems rely on checking power/spending against a limit rather than trusting it will work out — separation of powers checks government branches against each other, and budgeting checks spending against actual income.",
+    "standardsRationale": "Consolidates the week's government-structure and personal-economics content before the course continues into deeper civics and economics topics, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-12-1-5",
+    "lessonId": "lesson-social-studies-12-1-5",
+    "title": "Government and Personal Economics: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For a $2,500 monthly income with expenses of $900 (rent), $350 (food), $200 (transportation), and $250 (other), answer each question.",
+      "rows": [
+        { "problem": "What are the total expenses, and how much income remains?" },
+        { "problem": "What percent of income does the remaining amount represent?" },
+        { "problem": "What connection do you see between checks on government power and checking your own budget?" }
+      ]
+    }
+  }
+}

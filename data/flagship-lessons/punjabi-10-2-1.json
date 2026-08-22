@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-10-2",
+    "courseId": "course-punjabi-10",
+    "order": 2,
+    "title": "Formal Writing: The Punjabi Essay (ਲੇਖ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-10-2-1",
+    "unitId": "unit-punjabi-10-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Formal Writing Requires",
+    "gradeLevel": "10",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored Punjabi poetry. This week: formal writing, the course's third and final thread!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਰਸਮੀ ਲਿਖਤ (formal writing) requires a more careful, respectful register than everyday conversation, with clear organization and no casual/slang expressions — this builds on last year's letter-writing conventions, but applies to a longer piece like a ਲੇਖ (essay). Explain why a formal essay needs a more careful writing style than a casual text message to a friend."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just reviewed what formal writing requires! Tomorrow we'll learn a formal essay's structure."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-10-2-1",
+    "lessonId": "lesson-punjabi-10-2-1",
+    "objectives": [
+      "Understand ਰਸਮੀ ਲਿਖਤ (formal writing) as requiring a careful, respectful register",
+      "Explain why formal writing differs from casual conversation"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Punjabi-poetry work briefly.\n2. Review last year's (Grade 7) letter-writing conventions as a foundation.\n3. Introduce ਲੇਖ (essay) as this week's longer, formal-writing genre.\n4. Have the child explain the register difference.\n5. Complete the worksheet.\n6. Preview tomorrow's essay-structure lesson.",
+    "differentiationTips": [
+      "Struggling: compare one real sentence written both casually and formally side by side to make the register difference concrete",
+      "Ready for more: ask the child to list three specific things (word choice, sentence length, tone) that change between a casual text and a formal essay",
+      "Opens this week's formal-writing thread from the course's own description, building directly on Grade 7's letter-writing foundation"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A formal essay needs a more careful writing style because it's meant to be read by a wider or more formal audience (a teacher, an official reader) and needs to communicate ideas clearly and respectfully, without the shortcuts, slang, or casual tone that's appropriate between close friends who already share context.",
+    "standardsRationale": "Directly addresses this course's formal-writing thread from its own description, opening it with a genre-definition lesson connected to prior formal-writing content."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-10-2-1",
+    "lessonId": "lesson-punjabi-10-2-1",
+    "title": "What Formal Writing Requires",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about formal writing.",
+      "prompts": [
+        { "prompt": "What does ਰਸਮੀ ਲਿਖਤ (formal writing) require?", "lines": 2 },
+        { "prompt": "Why does formal writing need a different style than a casual message?", "lines": 2 }
+      ]
+    }
+  }
+}

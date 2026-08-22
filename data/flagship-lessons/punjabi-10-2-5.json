@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-10-2",
+    "courseId": "course-punjabi-10",
+    "order": 2,
+    "title": "Formal Writing: The Punjabi Essay (ਲੇਖ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-10-2-5",
+    "unitId": "unit-punjabi-10-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Formal Essay Writing",
+    "gradeLevel": "10",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built and wrote a complete formal Punjabi essay. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: formal writing needs a careful, respectful register (Day 1). A ਲੇਖ has three parts: ਭੂਮਿਕਾ, ਵਿਸ਼ਾ-ਵਸਤੂ, ਸਿੱਟਾ (Day 2). ਇਸ ਤੋਂ ਇਲਾਵਾ and ਅੰਤ ਵਿੱਚ connect the parts smoothly (Day 3). You wrote a complete essay with a title (Day 4). Explain in your own words why an essay's three-part structure and transition words together make it easier for a reader to follow."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you wrote a complete formal Punjabi essay from scratch! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-10-2-5",
+    "lessonId": "lesson-punjabi-10-2-5",
+    "objectives": [
+      "Review formal register, essay structure, transition words, and complete essay writing",
+      "Explain why structure and transitions together make an essay easier to follow"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child explain why structure and transitions help a reader.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of formal Punjabi essay writing!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often the transition words) rather than requiring an even summary of all four",
+      "Ready for more: ask the child how this week's formal-essay skills might apply to a different genre, like a formal letter (from Grade 7) or a persuasive piece",
+      "This is a good checkpoint to note which of the week's four formal-writing ideas needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The three-part structure gives a reader a predictable shape to follow (knowing an idea is being introduced, developed, then closed), while transition words like ਇਸ ਤੋਂ ਇਲਾਵਾ and ਅੰਤ ਵਿੱਚ signal exactly where one part ends and the next begins — together, they make the writer's thinking easy to follow instead of leaving the reader to guess how ideas connect.",
+    "standardsRationale": "Consolidates this week's formal-writing thread before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-10-2-5",
+    "lessonId": "lesson-punjabi-10-2-5",
+    "title": "Review: Formal Essay Writing",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer to review this week's formal-essay-writing skills.",
+      "prompts": [
+        { "prompt": "Why do structure and transition words together make an essay easier to follow?", "lines": 3 }
+      ]
+    }
+  }
+}

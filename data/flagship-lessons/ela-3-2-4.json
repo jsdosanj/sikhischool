@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-3-2",
+    "courseId": "course-ela-3",
+    "order": 2,
+    "title": "Reading a Chapter Book",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-3-2-4",
+    "unitId": "unit-ela-3-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Figuring Out Words from Clues",
+    "gradeLevel": "3",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've finished reading the whole story. Today: figure out a tricky word using clues in the sentence, not a dictionary!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Look at this sentence from Chapter 1 again: 'Mira gripped her backpack straps as she walked through the front doors.' If you didn't know what 'gripped' means, the rest of the sentence gives you clues — she's holding her backpack straps while walking, probably nervously. That's called using context clues. Based on those clues, what do you think 'gripped' means? Try using it in your own new sentence."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just figured out a new word using context clues, a real reading superpower! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-3-2-4",
+    "lessonId": "lesson-ela-3-2-4",
+    "objectives": [
+      "Use surrounding sentence context to infer the meaning of an unfamiliar word",
+      "Use the newly-understood word correctly in an original sentence"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's story and character-trait work.\n2. Reread the 'gripped' sentence and model the context-clue reasoning aloud.\n3. Have the child state their own definition and write a new sentence using the word.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: point specifically to 'backpack straps' and 'walked through' as the clue words to focus on",
+      "Ready for more: ask the child to find a different word in the story they'd like to practice context clues on",
+      "This directly builds the course's own 'vocabulary building' goal using a real reading strategy, not isolated word lists"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "'Gripped' means held onto tightly — check that the child's own sentence uses the word correctly (e.g., 'She gripped the railing as she climbed the stairs.').",
+    "standardsRationale": "Directly addresses Common Core Grade 3 Language standard L.3.4a (using context as a clue to word meaning), connecting the course's vocabulary-building and chapter-book-reading goals together."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-3-2-4",
+    "lessonId": "lesson-ela-3-2-4",
+    "title": "Figuring Out Words from Clues",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write what 'gripped' means, then use it in your own sentence.",
+      "prompts": [
+        { "prompt": "I think 'gripped' means:", "lines": 2 },
+        { "prompt": "My own sentence using 'gripped':", "lines": 2 }
+      ]
+    }
+  }
+}

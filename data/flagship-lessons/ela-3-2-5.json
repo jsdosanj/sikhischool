@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-3-2",
+    "courseId": "course-ela-3",
+    "order": 2,
+    "title": "Reading a Chapter Book",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-3-2-5",
+    "unitId": "unit-ela-3-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Reading a Chapter Book",
+    "gradeLevel": "3",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you read a whole 3-chapter story. Let's review everything you learned!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a chapter book tells its story in parts you read one at a time (Day 1). A character trait comes from what someone does, not just how they feel (Day 2). Retelling a story in order uses first/then/finally (Day 3). Context clues help you figure out tricky words (Day 4). Answer: what is one character trait Mira showed, and what clue from the story tells you a word's meaning?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you read a whole chapter-book-style story and used 4 real reading skills! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-3-2-5",
+    "lessonId": "lesson-ela-3-2-5",
+    "objectives": [
+      "Review chapter-book structure, character traits, sequencing, and context clues",
+      "Recall one character trait and one context-clue example from this week's story"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child answer both review questions.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of chapter-book reading!",
+    "differentiationTips": [
+      "Struggling: focus on just one of the two review questions, whichever the child engaged with most this week",
+      "Ready for more: ask the child what they think might happen if there were a Chapter 4 to this story",
+      "This is a good checkpoint to note which of the week's four reading skills needs the most reinforcement before the next chapter-book unit"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child can name a real character trait Mira showed (brave/kind) and correctly explain how context clues helped figure out 'gripped.'",
+    "standardsRationale": "Consolidates this week's Common Core Grade 3 Reading and Language standards (RL.3.1/RL.3.3/RL.3.5, L.3.4a) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-3-2-5",
+    "lessonId": "lesson-ela-3-2-5",
+    "title": "Review: Reading a Chapter Book",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Name one character trait Mira showed this week." },
+        { "problem": "What clue helped you figure out what 'gripped' means?" }
+      ]
+    }
+  }
+}

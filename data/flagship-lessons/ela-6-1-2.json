@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-6-1",
+    "courseId": "course-ela-6",
+    "order": 1,
+    "title": "Literary Elements",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-6-1-2",
+    "unitId": "unit-ela-6-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Character Analysis",
+    "gradeLevel": "6",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you mapped the plot of 'The Lost Kite.' Today, let's dig into the people who drive that plot: the characters."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Character analysis looks at traits (qualities a character shows), motivations (why a character acts as they do), and character development (how a character changes). In 'The Lost Kite,' Maya shows the trait of persistence — she doesn't give up even when her brother doubts her. Her motivation is clear: she saved for months for this kite, so it matters deeply to her. Sam starts doubtful and mocking, but his reaction changes to surprise and respect by the end — that's character development. Find one piece of evidence from the story (an exact detail or quote) that supports each of these three ideas."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just analyzed two characters using traits, motivation, and development, backed by real evidence from the text. Tomorrow we'll examine how the setting shapes this same story."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-6-1-2",
+    "lessonId": "lesson-ela-6-1-2",
+    "objectives": [
+      "Define character trait, motivation, and character development",
+      "Support a character analysis claim with specific textual evidence"
+    ],
+    "materialsNeeded": ["Yesterday's plot worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's plot analysis.\n2. Introduce trait, motivation, and character development using Maya and Sam as examples.\n3. Have the child find specific textual evidence for each concept.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: setting.",
+    "differentiationTips": [
+      "Struggling: focus on just Maya's persistence (the clearest trait) before analyzing Sam's development",
+      "Ready for more: ask them to predict how Sam might act differently the next time Maya faces a challenge, based on his development in this story",
+      "Requiring an exact quote or detail (not just a general impression) is the real skill here — hold that standard consistently"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Maya's trait: persistence, shown by 'working the kite string loose, branch by branch, for nearly an hour.' 2. Maya's motivation: she saved for months for the kite. 3. Sam's development: from laughing/doubtful to admitting surprise and respect.",
+    "standardsRationale": "Addresses Common Core Grade 6 Reading Literature standard RL.6.3: describing how characters respond or change as the plot moves toward a resolution, with an explicit textual-evidence requirement."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-6-1-2",
+    "lessonId": "lesson-ela-6-1-2",
+    "title": "Character Analysis in 'The Lost Kite'",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each prompt with a specific piece of evidence from the story.",
+      "prompts": [
+        { "prompt": "What trait does Maya show, and what evidence supports it?", "lines": 2 },
+        { "prompt": "What is Maya's motivation for climbing the tree?", "lines": 2 },
+        { "prompt": "How does Sam's character develop from the start to the end of the story?", "lines": 2 }
+      ]
+    }
+  }
+}

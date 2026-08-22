@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-7-2",
+    "courseId": "course-sikhi-7",
+    "order": 2,
+    "title": "Identity, Community, and Resilience",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-7-2-4",
+    "unitId": "unit-sikhi-7-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Resilience Today",
+    "gradeLevel": "7",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've explored resilience, identity, and community. Today: reflect on how this continues in your own life today!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Sikh communities around the world today continue to practice their faith openly, maintain visible identity, and gather for Sangat and Langar — living resilience carried forward from generation to generation. This isn't just history; it's a real, ongoing practice that young people today are part of. Describe one way you personally could help carry forward identity, community, or resilience in your own life."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just reflected on your own role in carrying resilience forward! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-7-2-4",
+    "lessonId": "lesson-sikhi-7-2-4",
+    "objectives": [
+      "Understand identity, community, and resilience as living practices continuing today, not just historical concepts",
+      "Reflect on a personal way to carry these values forward"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's resilience, identity, and community content.\n2. Discuss how these continue as living practices today.\n3. Have the child reflect on their own personal role.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: offer simple starting-point examples (attending Gurdwara, helping with Langar, explaining their identity confidently to a curious friend) to prompt reflection",
+      "Ready for more: ask the child how they might explain the connection between identity, community, and resilience to someone younger",
+      "This closing lesson deliberately ends the week on an empowering, forward-looking note, connecting to the child's own agency"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is an open-ended personal-reflection activity — check that the child describes a genuine, specific way they could personally contribute to identity, community, or resilience.",
+    "standardsRationale": "Directly addresses the course's 'resilience' description with a genuine, empowering, present-day connection, completing this week's thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-7-2-4",
+    "lessonId": "lesson-sikhi-7-2-4",
+    "title": "Resilience Today",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe one way you could personally help carry forward identity, community, or resilience.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

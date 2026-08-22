@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-7-2",
+    "courseId": "course-sikhi-7",
+    "order": 2,
+    "title": "Identity, Community, and Resilience",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-7-2-5",
+    "unitId": "unit-sikhi-7-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Identity, Community, and Resilience",
+    "gradeLevel": "7",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you explored resilience, identity, and community. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: resilience means staying strong and true to yourself through real difficulty (Day 1). Maintaining a visible identity is itself an act of resilience (Day 2). Community, like the Sangat and Gurdwara, strengthens resilience together (Day 3). This continues as a living practice today, including in your own life (Day 4). Answer: what is resilience, and how do identity and community both connect to it?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you explored resilience, identity, and community, and reflected on your own role in carrying them forward! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-7-2-5",
+    "lessonId": "lesson-sikhi-7-2-5",
+    "objectives": [
+      "Review resilience, identity, community, and the present-day connection",
+      "Explain what resilience is and how identity/community connect to it"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child answer the review question.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week exploring resilience, identity, and community!",
+    "differentiationTips": [
+      "Struggling: focus on just one of the two connections (identity or community) rather than requiring both",
+      "Ready for more: ask the child what they'd like to learn next about this topic in a future lesson",
+      "This is a good checkpoint to note which of the week's threads (resilience, identity, or community) needs the most reinforcement"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child can define resilience and correctly explain both its identity connection (visible identity as courage) and community connection (mutual support through Sangat/Gurdwara).",
+    "standardsRationale": "Consolidates this week's 'resilience' content before the course continues, matching the 'consolidate before adding more' pacing established across this session. Specific historical persecution events remain deliberately deferred to a future, more carefully sourced lesson."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-7-2-5",
+    "lessonId": "lesson-sikhi-7-2-5",
+    "title": "Identity, Community, and Resilience: Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What is resilience, in your own words?" },
+        { "problem": "How does identity connect to resilience?" }
+      ]
+    }
+  }
+}

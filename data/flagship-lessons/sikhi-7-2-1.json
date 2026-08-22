@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-7-2",
+    "courseId": "course-sikhi-7",
+    "order": 2,
+    "title": "Identity, Community, and Resilience",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-7-2-1",
+    "unitId": "unit-sikhi-7-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is Resilience?",
+    "gradeLevel": "7",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored Sikh identity and the Five Ks. This week: resilience, and how identity and community connect to it."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Resilience means staying strong, true to yourself, and capable of recovering when facing real difficulty. It isn't about never struggling — it's about how a person or community responds to struggle. Communities that maintain their identity, support each other, and keep practicing their values even during hard times are showing real resilience. Describe a time you or someone you know showed resilience, even in a small everyday way."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just explored what resilience really means! Tomorrow we'll connect it to something you already know: the Five Ks."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-7-2-1",
+    "lessonId": "lesson-sikhi-7-2-1",
+    "objectives": [
+      "Define resilience as staying strong and true to oneself while recovering from real difficulty",
+      "Describe a genuine example of resilience, everyday or larger-scale"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Five Ks content briefly.\n2. Introduce resilience as a concept, distinct from simply avoiding hardship.\n3. Have the child describe a real example.\n4. Complete the worksheet.\n5. Preview tomorrow's identity-and-resilience connection.",
+    "differentiationTips": [
+      "Struggling: offer a simple relatable example first (recovering from a disappointing test grade by studying differently) before asking for the child's own example",
+      "Ready for more: ask the child what role a supportive community might play in someone's resilience",
+      "This lesson deliberately opens with the general concept before connecting it to specific Sikh history/identity content in the following days — building understanding in the right order"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended reflection activity — check that the child describes a genuine example showing recovery and continued strength through real difficulty, not just avoiding hardship altogether.",
+    "standardsRationale": "Directly opens the course's 'historical persecution and resilience' description with the resilience concept itself, building understanding before connecting it to Sikh identity and community in the following days."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-7-2-1",
+    "lessonId": "lesson-sikhi-7-2-1",
+    "title": "What Is Resilience?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe a time you or someone you know showed resilience.",
+      "prompts": [
+        { "prompt": "My example:", "lines": 3 }
+      ]
+    }
+  }
+}

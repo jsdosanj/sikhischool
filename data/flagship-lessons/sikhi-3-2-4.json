@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-3-2",
+    "courseId": "course-sikhi-3",
+    "order": 2,
+    "title": "The Story of Bhai Kanhaiya Ji",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-3-2-4",
+    "unitId": "unit-sikhi-3-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Bhai Kanhaiya Ji's Spirit Today",
+    "gradeLevel": "3",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about Bhai Kanhaiya Ji's courage and compassion. Today: see his spirit alive at Gurdwaras right now!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Remember last week's Langar etiquette lesson? Langar serves every single visitor, regardless of who they are or where they come from — the exact same universal compassion Bhai Kanhaiya Ji showed hundreds of years ago. His story isn't just old history — it's a living value practiced every single day at Gurdwaras around the world. How does serving Langar to every visitor, no exceptions, connect to Bhai Kanhaiya Ji's story?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected a real history story to a living tradition practiced today! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-3-2-4",
+    "lessonId": "lesson-sikhi-3-2-4",
+    "objectives": [
+      "Connect Bhai Kanhaiya Ji's universal compassion to Langar's practice of serving every visitor",
+      "Understand that historical values can continue as living practices today"
+    ],
+    "materialsNeeded": ["Last week's Langar-etiquette worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Langar-etiquette lesson.\n2. Draw the explicit connection between Langar's universal service and Bhai Kanhaiya Ji's story.\n3. Have the child explain the connection in their own words.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on the single connecting idea — 'everyone is served, no exceptions' — as the core takeaway",
+      "Ready for more: ask the child to think of another way they could practice this same value of universal compassion in their own daily life",
+      "This lesson deliberately bridges last week's unit (Gurdwara etiquette) and this week's unit (a courage story), showing the two threads are connected, not separate"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a connection activity — check that the child can explain both practices share the same value: treating every person with equal compassion and care, no matter who they are.",
+    "standardsRationale": "Directly addresses the course's dual description (Gurdwara etiquette and stories of courage) by synthesizing both threads into one coherent understanding before the week's review."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-3-2-4",
+    "lessonId": "lesson-sikhi-3-2-4",
+    "title": "Bhai Kanhaiya Ji's Spirit Today",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain how serving Langar to every visitor connects to Bhai Kanhaiya Ji's story.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

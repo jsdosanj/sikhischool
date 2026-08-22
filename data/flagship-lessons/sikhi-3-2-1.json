@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-3-2",
+    "courseId": "course-sikhi-3",
+    "order": 2,
+    "title": "The Story of Bhai Kanhaiya Ji",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-3-2-1",
+    "unitId": "unit-sikhi-3-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is Courage?",
+    "gradeLevel": "3",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned Gurdwara etiquette. This week: a real story of courage from Sikh history!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Courage isn't just about being physically brave — it's also about having the strength to do what you believe is right, even when other people question or criticize you for it. That kind of courage can be even harder than physical bravery, because it means standing by your values when it would be easier to just go along with everyone else. Describe a time when you, or someone you know, did the right thing even though it was hard or unpopular."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just explored what courage really means! Tomorrow we'll meet a real person from Sikh history who showed exactly this kind of courage."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-3-2-1",
+    "lessonId": "lesson-sikhi-3-2-1",
+    "objectives": [
+      "Distinguish physical courage from the courage to do what's right despite criticism",
+      "Recall or describe a real example of moral courage"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Gurdwara-etiquette work briefly.\n2. Introduce the two types of courage, discussing why moral courage can be especially hard.\n3. Have the child describe a real or known example.\n4. Complete the worksheet.\n5. Preview tomorrow's real history story.",
+    "differentiationTips": [
+      "Struggling: offer a simple example first (like standing up for a classmate being teased) to model the concept before asking the child to generate their own",
+      "Ready for more: ask the child why doing the right thing can sometimes feel harder when other people disagree with you",
+      "This lesson deliberately sets up tomorrow's story by establishing the 'courage to do what's right' framing in advance"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is an open-ended reflection activity — check that the child can describe a genuine example of doing the right thing despite it being hard or unpopular, not just physical bravery.",
+    "standardsRationale": "Directly opens the course's 'stories of courage from Sikh history' description, deliberately introducing the moral-courage framing before this week's real history story."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-3-2-1",
+    "lessonId": "lesson-sikhi-3-2-1",
+    "title": "What Is Courage?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe a time someone did the right thing even though it was hard.",
+      "prompts": [
+        { "prompt": "My example:", "lines": 3 }
+      ]
+    }
+  }
+}

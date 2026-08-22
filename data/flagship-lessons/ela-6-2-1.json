@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-ela-6-2",
+    "courseId": "course-ela-6",
+    "order": 2,
+    "title": "Argumentative Writing",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-6-2-1",
+    "unitId": "unit-ela-6-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Makes a Strong Argumentative Claim",
+    "gradeLevel": "6",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you analyzed literary elements. This week: argumentative writing, a more formal step beyond opinion writing!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong argumentative claim is specific, debatable, and defensible. Debatable means a reasonable person could actually disagree with it — 'Homework should be optional on weekends' is debatable, but 'Homework exists' is just a fact, not a real claim. Defensible means you can actually support it with real evidence. Write your own argumentative claim about something at school, and check it against all three criteria."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just wrote a real argumentative claim, checked against three real criteria! Tomorrow we'll learn different types of evidence to support it."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-6-2-1",
+    "lessonId": "lesson-ela-6-2-1",
+    "objectives": [
+      "Define a strong argumentative claim as specific, debatable, and defensible",
+      "Write an original claim and check it against all three criteria"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's literary-elements work briefly.\n2. Introduce the three criteria using the homework example.\n3. Have the child write their own claim and check it against all three criteria.\n4. Complete the worksheet.\n5. Preview tomorrow's evidence-types lesson.",
+    "differentiationTips": [
+      "Struggling: offer 2-3 pre-written claims (some good, some too vague or too factual) and have the child sort them before writing their own",
+      "Ready for more: ask the child to write a claim, then write the strongest opposing claim someone might make against it",
+      "This is a genuine step up from earlier grades' simpler opinion-writing — 'debatable' is a new, more precise criterion worth naming explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended writing activity — check that the child's claim is specific (not vague), genuinely debatable (a reasonable person could disagree), and defensible (real evidence could support it).",
+    "standardsRationale": "Directly addresses Common Core Grade 6 Writing standard W.6.1a: introducing claims and organizing reasons/evidence, opening this week's argumentative-writing thread with a more formal bar than earlier grades."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-6-2-1",
+    "lessonId": "lesson-ela-6-2-1",
+    "title": "What Makes a Strong Argumentative Claim",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your own argumentative claim about something at school.",
+      "prompts": [
+        { "prompt": "My claim:", "lines": 2 }
+      ]
+    }
+  }
+}

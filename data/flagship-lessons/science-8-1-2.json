@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-8-1",
+    "courseId": "course-science-8",
+    "order": 1,
+    "title": "Space Systems",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-8-1-2",
+    "unitId": "unit-science-8-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Understanding Moon Phases",
+    "gradeLevel": "8",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Another common misconception: the moon's phases are caused by Earth's shadow. That's actually what causes an eclipse — moon phases work completely differently."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The moon doesn't produce its own light — we only see the half of it that sunlight hits, reflected back to Earth. Moon phases happen because, as the moon orbits Earth, we see different amounts of its sunlit half from our angle. At new moon, the sunlit half faces away from us. At full moon, the sunlit half faces directly toward us. In between, we see partial amounts as the angle changes — this is a real geometric effect, not a shadow. If you have a ball and a flashlight (or a lamp), model this: shine light on the ball and walk around it, noticing how the visible lit portion changes shape from your viewpoint."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just modeled the real cause of moon phases — a geometric effect of viewing angle, not a shadow. Tomorrow we'll investigate the force that keeps the moon, and everything else, in orbit: gravity."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-8-1-2",
+    "lessonId": "lesson-science-8-1-2",
+    "objectives": [
+      "Explain that moon phases are caused by viewing angle relative to the sunlit half of the moon, not Earth's shadow",
+      "Model moon phases using a ball and a light source"
+    ],
+    "materialsNeeded": ["A ball (or similar round object)", "A flashlight or lamp", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask what the child currently believes causes moon phases.\n2. Introduce the real cause: viewing angle of the sunlit half, directly correcting the shadow misconception.\n3. Do the ball-and-light demonstration together, walking around the ball to observe changing 'phases.'\n4. Complete the worksheet.\n5. Preview tomorrow's topic: gravity and orbits.",
+    "differentiationTips": [
+      "Struggling: do the ball-and-light demonstration multiple times, narrating each 'phase' out loud as you walk around it",
+      "Ready for more: ask them to explain why an eclipse (Earth's real shadow) is a much rarer event than a regular monthly phase cycle",
+      "The physical demonstration is essential here — this concept is genuinely difficult to grasp from description alone"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Moon phases are caused by our changing viewing angle of the moon's sunlit half, not Earth's shadow. 2. Earth's shadow causes an eclipse, a different and much rarer event. 3. At full moon, the sunlit half faces directly toward Earth.",
+    "standardsRationale": "Directly addresses NGSS MS-ESS1-1: developing a model to describe cyclic patterns of lunar phases, explicitly correcting the well-documented common misconception that phases are caused by Earth's shadow."
+  },
+  "worksheet": {
+    "id": "worksheet-science-8-1-2",
+    "lessonId": "lesson-science-8-1-2",
+    "title": "Understanding Moon Phases",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the real cause of moon phases.",
+      "rows": [
+        { "problem": "What actually causes moon phases?" },
+        { "problem": "What causes an eclipse, and is it the same as a moon phase?" },
+        { "problem": "At full moon, which way does the sunlit half of the moon face?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-8-1",
+    "courseId": "course-science-8",
+    "order": 1,
+    "title": "Space Systems",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-8-1-4",
+    "unitId": "unit-science-8-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "The Real Scale of the Solar System",
+    "gradeLevel": "8",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Textbook pictures of the solar system are seriously misleading — the real distances between planets are far larger than any diagram can show to scale."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "If the sun were shrunk to the size of a basketball (about 24 cm across), Earth would be about the size of a peppercorn, roughly 26 meters away — nearly the length of an Olympic swimming pool. On this same scale, Pluto would be over a kilometer away. This is why solar system diagrams in books always show planets close together — showing the real distances to scale would make the page impossibly wide. Using string or footsteps, try laying out this scale model at home: mark the 'sun' and pace out roughly 26 meters (or a smaller fraction, like 2.6 meters, if space is limited) to place 'Earth.'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just experienced the real, surprising scale of the solar system firsthand. Tomorrow we'll review everything about space systems from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-8-1-4",
+    "lessonId": "lesson-science-8-1-4",
+    "objectives": [
+      "Explain why textbook solar system diagrams are not drawn to scale",
+      "Build or estimate a real-scale distance model between the sun and Earth"
+    ],
+    "materialsNeeded": ["String or a tape measure (optional)", "Open outdoor or indoor space", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask the child if they've ever noticed solar system pictures show planets close together.\n2. Introduce the basketball-sun/peppercorn-Earth scale model.\n3. If space allows, physically pace out the scaled distance together.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on the single striking fact (26 meters away on this scale) rather than requiring the child to do the full physical pacing",
+      "Ready for more: research how far Pluto would be on this same scale and compare it to Earth's distance",
+      "The physical pacing-out activity, even indoors at a smaller fraction of scale, makes the abstract distance genuinely felt rather than just stated"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. On a basketball-sized sun, Earth would be about 26 meters away. 2. Diagrams aren't drawn to scale because real distances are far too large to fit on a page. 3. Answers will vary for the child's own scale-model activity.",
+    "standardsRationale": "Directly addresses NGSS MS-ESS1-3: analyzing and interpreting data to determine scale properties of objects in the solar system, using a real, hands-on scale-model activity rather than abstract numbers alone."
+  },
+  "worksheet": {
+    "id": "worksheet-science-8-1-4",
+    "lessonId": "lesson-science-8-1-4",
+    "title": "The Real Scale of the Solar System",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about solar system scale.",
+      "rows": [
+        { "problem": "On a basketball-sized sun, about how far away would Earth be?" },
+        { "problem": "Why are solar system diagrams in books not drawn to scale?" },
+        { "problem": "Describe your own scale-model activity." }
+      ]
+    }
+  }
+}

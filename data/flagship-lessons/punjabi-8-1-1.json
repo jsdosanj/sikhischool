@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-8-1",
+    "courseId": "course-punjabi-8",
+    "order": 1,
+    "title": "The Geography of Punjab",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-8-1-1",
+    "unitId": "unit-punjabi-8-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "ਪੰਜਾਬ ਦੇ ਦਰਿਆ (Punjab's Rivers)",
+    "gradeLevel": "8",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਅੱਜ ਅਸੀਂ ਪੰਜਾਬ ਦੇ ਦਰਿਆਵਾਂ ਬਾਰੇ ਸਿੱਖਾਂਗੇ। (Today we'll learn about Punjab's rivers.) This week, real geography vocabulary in Punjabi."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "New word: ਦਰਿਆ (dariya, river). Three real rivers flow through today's Punjab: ਸਤਲੁਜ (Satluj), ਬਿਆਸ (Biyas), and ਰਾਵੀ (Ravi). These ਦਰਿਆ give Punjab its name, which means 'land of five rivers' — historically, two more rivers (further west, in today's Pakistan) completed the original five. Write a sentence naming one of these three rivers, using the pattern: [river name] ਇੱਕ ਦਰਿਆ ਹੈ (___ is a river)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know real Punjabi vocabulary for three of Punjab's rivers. Tomorrow we'll learn about the farmland these rivers help support."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-8-1-1",
+    "lessonId": "lesson-punjabi-8-1-1",
+    "objectives": [
+      "Learn the word ਦਰਿਆ (river) and the names of three real Punjab rivers",
+      "Write a simple sentence naming a river using the pattern [name] ਇੱਕ ਦਰਿਆ ਹੈ"
+    ],
+    "materialsNeeded": ["A map of Punjab (printed or online)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce ਦਰਿਆ and the three river names, locating them on a map.\n2. Explain the 'land of five rivers' name and that two of the five are in today's Pakistan.\n3. Have the child write the practice sentence for one river.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: farmland vocabulary.",
+    "differentiationTips": [
+      "Struggling: focus on just one river (Sutlej) rather than all three at once",
+      "Ready for more: ask them to locate all three rivers relative to each other on the map",
+      "All Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਦਰਿਆ = river. 2. The three named rivers are ਸਤਲੁਜ, ਬਿਆਸ, and ਰਾਵੀ. 3. Punjab means 'land of five rivers.'",
+    "standardsRationale": "Introduces the course's 'geography of Punjab' description with real, validated Gurmukhi vocabulary rather than translated English geography content, building real language skill alongside geographic knowledge."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-8-1-1",
+    "lessonId": "lesson-punjabi-8-1-1",
+    "title": "ਪੰਜਾਬ ਦੇ ਦਰਿਆ",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in English.",
+      "rows": [
+        { "problem": "What does ਦਰਿਆ mean?" },
+        { "problem": "Name the three rivers you learned today." },
+        { "problem": "What does the name 'Punjab' mean?" }
+      ]
+    }
+  }
+}

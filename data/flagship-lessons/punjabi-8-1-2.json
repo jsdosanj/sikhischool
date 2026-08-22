@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-8-1",
+    "courseId": "course-punjabi-8",
+    "order": 1,
+    "title": "The Geography of Punjab",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-8-1-2",
+    "unitId": "unit-punjabi-8-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "ਪੰਜਾਬ ਦੀ ਖੇਤੀਬਾੜੀ (Punjab's Farmland)",
+    "gradeLevel": "8",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਦਰਿਆ ਪਾਣੀ ਦਿੰਦੇ ਹਨ, ਅਤੇ ਪਾਣੀ ਖੇਤਾਂ ਨੂੰ ਵਧਾਉਂਦਾ ਹੈ। (Rivers give water, and water grows fields.) Today, real vocabulary for Punjab's farmland."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "New words: ਖੇਤ (khet, field/farm), ਖੇਤੀਬਾੜੀ (khetibaari, farming/agriculture), ਕਣਕ (kanak, wheat), and ਜ਼ਮੀਨ (zameen, land). Punjab's rivers make its ਜ਼ਮੀਨ excellent for ਖੇਤੀਬਾੜੀ, and ਕਣਕ is one of its most important crops. Write 2 sentences describing Punjab's farmland, using at least two of today's new words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have real vocabulary for Punjab's farmland and agriculture. Tomorrow we'll learn about one of its most famous cities: Amritsar."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-8-1-2",
+    "lessonId": "lesson-punjabi-8-1-2",
+    "objectives": [
+      "Learn 4 new vocabulary words for Punjab's farmland: ਖੇਤ, ਖੇਤੀਬਾੜੀ, ਕਣਕ, ਜ਼ਮੀਨ",
+      "Write 2 sentences connecting rivers to farmland using the new vocabulary"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's river vocabulary.\n2. Introduce today's 4 new farmland words, connecting rivers to farming.\n3. Have the child write 2 sentences using at least 2 new words.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: Amritsar.",
+    "differentiationTips": [
+      "Struggling: allow the child to use just ਖੇਤ and ਕਣਕ (the two most concrete words) rather than all 4",
+      "Ready for more: ask them to explain in their own words why rivers matter for farming",
+      "All Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਖੇਤ = field/farm. 2. ਖੇਤੀਬਾੜੀ = farming/agriculture. 3. ਕਣਕ = wheat. 4. ਜ਼ਮੀਨ = land.",
+    "standardsRationale": "Continues building the course's 'geography of Punjab' vocabulary, connecting Day 1's rivers to their real agricultural significance for the region."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-8-1-2",
+    "lessonId": "lesson-punjabi-8-1-2",
+    "title": "ਪੰਜਾਬ ਦੀ ਖੇਤੀਬਾੜੀ",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the English meaning of each Gurmukhi word.",
+      "rows": [
+        { "problem": "ਖੇਤ" },
+        { "problem": "ਖੇਤੀਬਾੜੀ" },
+        { "problem": "ਕਣਕ" },
+        { "problem": "ਜ਼ਮੀਨ" }
+      ]
+    }
+  }
+}

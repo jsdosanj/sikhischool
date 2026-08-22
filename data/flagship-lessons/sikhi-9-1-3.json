@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-9-1",
+    "courseId": "course-sikhi-9",
+    "order": 1,
+    "title": "Foundations of Sikh Philosophy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-9-1-3",
+    "unitId": "unit-sikhi-9-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Maya: Worldly Attachment and Staying Engaged",
+    "gradeLevel": "9",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Many philosophical and religious traditions worldwide grapple with the same question: how should someone relate to worldly life — wealth, status, possessions? Sikh philosophy answers this in a genuinely distinctive way."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Maya refers to worldly attachment — becoming so consumed by material wealth, status, or possessions that it distracts from deeper spiritual awareness. This concept appears across several South Asian philosophical traditions, but Sikh philosophy takes a genuinely distinctive position: rather than teaching withdrawal from worldly life (as some traditions emphasizing renunciation do), Sikh philosophy teaches full, active engagement with the world — working, earning, raising a family, contributing to community — while remaining spiritually unattached to the outcomes. This connects directly to Kirat Karo (honest work) from earlier grades: you're meant to work hard in the world, not escape it, while not becoming spiritually enslaved by what that work produces. Explain in your own words the difference between 'avoiding the world' and 'engaging with the world without being spiritually consumed by it.'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined a genuinely distinctive philosophical position: full worldly engagement combined with spiritual non-attachment. Tomorrow we'll explore Hukam: divine order and how to relate to it."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-9-1-3",
+    "lessonId": "lesson-sikhi-9-1-3",
+    "objectives": [
+      "Define Maya as worldly attachment that distracts from spiritual awareness",
+      "Explain Sikh philosophy's distinctive stance: active worldly engagement combined with spiritual non-attachment"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Days 1-2's Ik Onkar and Naam.\n2. Introduce Maya and its broader South Asian philosophical context.\n3. Explain Sikh philosophy's distinctive engaged-not-withdrawn position, connecting to Kirat Karo from earlier grades.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: Hukam.",
+    "differentiationTips": [
+      "Struggling: focus on the concrete connection to Kirat Karo ('work hard, but don't let money control you') rather than the broader comparative context",
+      "Ready for more: ask them to think of a modern example of someone who seems fully engaged in worldly success while still seeming genuinely unattached to it",
+      "Text-only content, per the platform's content policy — no depiction of any Guru, symbolic references only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Maya refers to worldly attachment that distracts from spiritual awareness. 2. Sikh philosophy teaches active worldly engagement, not withdrawal. 3. This connects to Kirat Karo: work hard in the world without being spiritually consumed by the results.",
+    "standardsRationale": "Introduces a genuinely comparative philosophical concept (Maya, shared across South Asian traditions) while highlighting Sikh philosophy's distinctive position, directly addressing the course's 'comparative religion and Sikh philosophy' description."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-9-1-3",
+    "lessonId": "lesson-sikhi-9-1-3",
+    "title": "Maya: Worldly Attachment and Staying Engaged",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What does Maya refer to?" },
+        { "problem": "How does Sikh philosophy's position differ from traditions that teach withdrawal from the world?" },
+        { "problem": "How does this connect to Kirat Karo?" }
+      ]
+    }
+  }
+}

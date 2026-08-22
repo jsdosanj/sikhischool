@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-9-1",
+    "courseId": "course-sikhi-9",
+    "order": 1,
+    "title": "Foundations of Sikh Philosophy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-9-1-2",
+    "unitId": "unit-sikhi-9-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Naam: The Divine Name as Philosophical Practice",
+    "gradeLevel": "9",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "In earlier grades, you practiced a simple form of Naam Japo. Today, examine the deeper philosophical idea behind it."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Naam refers to the Divine Name or presence — but philosophically, it represents something larger: the idea that ultimate reality can be continuously remembered and stayed connected to through ordinary, everyday awareness, not only through separate religious ritual. Naam Simran (remembering the Divine) is the philosophical practice of maintaining this awareness throughout daily life — while working, while with family, while resting — not compartmentalized into a specific time or place. This reflects a genuine philosophical position: that the sacred and the everyday aren't separate categories requiring different modes of being. Reflect on the difference between treating spirituality as a separate, scheduled activity versus as something woven into ordinary awareness — which does Naam Simran's philosophy suggest, and why might that distinction matter?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined the philosophical position behind Naam Simran — that the sacred and everyday aren't separate. Tomorrow we'll explore Maya, a genuinely different philosophical concept: worldly attachment."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-9-1-2",
+    "lessonId": "lesson-sikhi-9-1-2",
+    "objectives": [
+      "Explain Naam as representing continuous, everyday remembrance rather than only scheduled ritual",
+      "Articulate the philosophical position that the sacred and everyday are not separate categories"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the earlier-grade Naam Japo practice (a quiet gratitude moment).\n2. Introduce the deeper philosophical framing: sacred and everyday as unified, not separate.\n3. Discuss the reflection question about scheduled vs. woven-in spirituality.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: Maya.",
+    "differentiationTips": [
+      "Struggling: connect back concretely to the earlier-grade practice (a quiet moment of gratitude) as a lived example of this philosophy, rather than staying only abstract",
+      "Ready for more: ask them to think of another tradition or philosophy (religious or secular) that similarly rejects a sacred/everyday divide",
+      "Text-only content, per the platform's content policy — no depiction of any Guru, symbolic references only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Naam represents the Divine Name/presence, continuously remembered through everyday awareness. 2. Naam Simran means remembering the Divine throughout daily life, not just in scheduled ritual. 3. This reflects the philosophical position that the sacred and everyday aren't separate categories.",
+    "standardsRationale": "Deepens the course's 'Sikh philosophy' description by revisiting a practice from earlier grades (Naam Japo) at a genuinely more abstract, philosophical level appropriate for Grade 9."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-9-1-2",
+    "lessonId": "lesson-sikhi-9-1-2",
+    "title": "Naam: The Divine Name as Philosophical Practice",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What does Naam refer to?" },
+        { "problem": "What is Naam Simran?" },
+        { "problem": "What philosophical position does this practice reflect about the sacred and the everyday?" }
+      ]
+    }
+  }
+}

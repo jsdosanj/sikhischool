@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-9-1",
+    "courseId": "course-sikhi-9",
+    "order": 1,
+    "title": "Foundations of Sikh Philosophy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-9-1-1",
+    "unitId": "unit-sikhi-9-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Ik Onkar: The Oneness of God",
+    "gradeLevel": "9",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "The Guru Granth Sahib opens with a single symbol that establishes the philosophical foundation for everything that follows: ੴ, Ik Onkar."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Ik Onkar means 'There is One God' or 'One Universal Creator' — a foundational philosophical claim of absolute oneness, not many separate gods, and not a God divided into competing parts. This isn't just a religious statement; it's a philosophical starting point with real implications: if all existence comes from one source, then all people, regardless of background, share that same fundamental origin — a philosophical basis for the equality you've studied in earlier grades through Langar and the Khalsa. Think about how believing 'we all come from one common source' might philosophically support a value like human equality, in a way that's more than just a nice sentiment."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined how a foundational philosophical claim (oneness) connects logically to a real ethical value (equality). Tomorrow we'll go deeper into Naam, the concept of the Divine Name."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-9-1-1",
+    "lessonId": "lesson-sikhi-9-1-1",
+    "objectives": [
+      "Explain Ik Onkar as the foundational philosophical claim of absolute oneness",
+      "Connect this philosophical claim to the ethical value of equality studied in earlier grades"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce Ik Onkar as the Guru Granth Sahib's opening philosophical statement.\n2. Discuss what 'absolute oneness' means as a philosophical claim, not just a religious one.\n3. Connect this to equality (Langar, Khalsa) from earlier grades, discussing the logical link.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: Naam.",
+    "differentiationTips": [
+      "Struggling: focus on the simple statement 'there is one God, so we all come from the same source' without requiring the deeper philosophical implications yet",
+      "Ready for more: ask them to compare this oneness concept to a philosophical or religious idea from a different tradition they may know about",
+      "Text-only content, per the platform's content policy — no depiction of any Guru, symbolic references only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Ik Onkar means 'there is one God' or 'one universal creator.' 2. This is a philosophical claim of absolute oneness. 3. If all existence shares one source, this provides a philosophical basis for human equality.",
+    "standardsRationale": "Introduces the course's 'Sikh philosophy' description with its most foundational concept, explicitly connecting abstract philosophy to concrete ethical values (equality) already studied in earlier grades."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-9-1-1",
+    "lessonId": "lesson-sikhi-9-1-1",
+    "title": "Ik Onkar: The Oneness of God",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What does Ik Onkar mean?" },
+        { "problem": "What kind of philosophical claim is this?" },
+        { "problem": "How does this claim connect to the value of equality?" }
+      ]
+    }
+  }
+}

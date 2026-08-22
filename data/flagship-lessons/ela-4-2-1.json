@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-4-2",
+    "courseId": "course-ela-4",
+    "order": 2,
+    "title": "Introduction to Literary Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-4-2-1",
+    "unitId": "unit-ela-4-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is Literary Analysis?",
+    "gradeLevel": "4",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you wrote strong paragraphs. This week: a new skill, looking closely at what a story really means!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Literary analysis means looking closely at HOW a story is told, not just WHAT happens in it. One big idea in literary analysis is theme — the lesson or message a story teaches, even though the story never says it directly. For example, a story about a turtle who loses a race but keeps trying and eventually succeeds might have the theme 'don't give up.' Think of a story you already know — a book, movie, or one someone told you. What lesson or message do you think it teaches?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just started thinking about theme, a story's real message! Tomorrow we'll find the theme of a brand-new story together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-4-2-1",
+    "lessonId": "lesson-ela-4-2-1",
+    "objectives": [
+      "Understand literary analysis as looking closely at how a story is told, not just what happens",
+      "Define theme as the lesson or message a story teaches"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's paragraph-writing work briefly.\n2. Introduce literary analysis and theme using the turtle-race example.\n3. Have the child identify a theme from a story they already know.\n4. Complete the worksheet.\n5. Preview tomorrow's theme-finding lesson using a new story.",
+    "differentiationTips": [
+      "Struggling: offer a short list of common themes (don't give up, be honest, help others) to choose from rather than requiring an open-ended answer",
+      "Ready for more: ask the child if a story could have more than one theme",
+      "This is a genuine step up from Grade 3's character-trait work — theme is about the whole story's message, not just one character"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended reflection activity — check that the child names a real story they know and states a genuine theme/lesson, not just a plot summary.",
+    "standardsRationale": "Directly addresses Common Core Grade 4 Reading standard RL.4.2 (determining a theme from details in the text), opening this week's literary-analysis thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-4-2-1",
+    "lessonId": "lesson-ela-4-2-1",
+    "title": "What Is Literary Analysis?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Name a story you know and its theme.",
+      "prompts": [
+        { "prompt": "The story is:", "lines": 1 },
+        { "prompt": "Its theme (lesson/message) is:", "lines": 2 }
+      ]
+    }
+  }
+}

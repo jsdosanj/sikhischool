@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-ela-4-2",
+    "courseId": "course-ela-4",
+    "order": 2,
+    "title": "Introduction to Literary Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-4-2-2",
+    "unitId": "unit-ela-4-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Finding the Theme",
+    "gradeLevel": "4",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what theme means. Today: find the theme of a brand-new story!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read this original story: 'Jae's kite crashed into the dirt for the third time. She almost stuffed it back in the closet for good. But she noticed the tail was too short, so she added more ribbon and tried once more. This time, the kite caught the wind and soared. Jae grinned, watching it dance against the clouds.' What lesson do you think this story teaches? Look for what Jae does, not just what happens to her."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just found a real story's theme! Tomorrow we'll learn to support that idea with real evidence from the text."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-4-2-2",
+    "lessonId": "lesson-ela-4-2-2",
+    "objectives": [
+      "Read an original short story and identify its theme",
+      "Distinguish theme (the lesson) from plot summary (what happened)"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's theme discussion.\n2. Read the kite story together.\n3. Discuss what theme it teaches, distinguishing from a plain plot summary.\n4. Complete the worksheet.\n5. Preview tomorrow's evidence-based lesson.",
+    "differentiationTips": [
+      "Struggling: ask 'what did Jae do differently the third time' as a guiding question toward the perseverance theme",
+      "Ready for more: ask the child to write one sentence retelling the plot, and a separate sentence stating the theme, to see the difference clearly",
+      "This week's story ('Jae's Kite') is used across all 5 days — keep it available for the child to reference all week"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The theme is something like 'don't give up' or 'keep trying, even after failing' — check the child focuses on the lesson (persistence), not just retelling that the kite eventually flew.",
+    "standardsRationale": "Directly addresses Common Core Grade 4 Reading standard RL.4.2, giving genuine practice identifying theme from a fresh original text."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-4-2-2",
+    "lessonId": "lesson-ela-4-2-2",
+    "title": "Finding the Theme",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer the question about the kite story.",
+      "prompts": [
+        { "prompt": "What theme (lesson) does this story teach?", "lines": 2 }
+      ]
+    }
+  }
+}

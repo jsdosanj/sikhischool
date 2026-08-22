@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-k-2",
+    "courseId": "course-ela-k",
+    "order": 2,
+    "title": "More Letters and Words",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-k-2-5",
+    "unitId": "unit-ela-k-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Reading Real Sentences",
+    "gradeLevel": "K",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You now know seven letters and can blend many words. Today's payoff: read three whole sentences, all by yourself!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: this week you met P, I (your second vowel), and N (Days 1-3), then blended man, tan, tap, tip, and sap (Day 4). Now read these three sentences, blending each word: 'Sam sat. Tim sat. Pam sat.' Every single word uses only letters you already know."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just read three whole sentences using only the letters you've learned these two weeks! That's real reading. Wonderful work."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-k-2-5",
+    "lessonId": "lesson-ela-k-2-5",
+    "objectives": [
+      "Review all seven letters and this week's five blended words",
+      "Read three complete decodable sentences using only known letters"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Do the quick walk-through review of this week's letters and words together, out loud.\n2. Have the child read the three sentences independently, blending each word.\n3. Complete the review worksheet.\n4. Celebrate finishing two full weeks of ELA — real sentence reading!",
+    "differentiationTips": [
+      "Struggling: read the three sentences together first, then have the child re-read them independently",
+      "Ready for more: ask the child to write one more sentence of their own using only known letters",
+      "This is a genuine reading milestone — celebrate it explicitly, not just as another worksheet"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The three sentences are: 'Sam sat. Tim sat. Pam sat.' Check that the child can read each word by blending, not memorizing the whole sentence by sight alone.",
+    "standardsRationale": "Consolidates this two-week synthetic-phonics sequence (7 letters, 2 vowels) into a genuine sentence-reading milestone, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-k-2-5",
+    "lessonId": "lesson-ela-k-2-5",
+    "title": "Review: Reading Real Sentences",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each sentence, read it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Sam sat.", "label": "Blend each word, then read the whole sentence" },
+        { "trace": "Tim sat.", "label": "Blend each word, then read the whole sentence" },
+        { "trace": "Pam sat.", "label": "Blend each word, then read the whole sentence" }
+      ]
+    }
+  }
+}

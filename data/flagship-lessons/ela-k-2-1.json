@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-k-2",
+    "courseId": "course-ela-k",
+    "order": 2,
+    "title": "More Letters and Words",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-k-2-1",
+    "unitId": "unit-ela-k-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Meeting the Letter P",
+    "gradeLevel": "K",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned S, M, A, and T, and even read the word 'sat'! Today, a new letter: P."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The letter P makes a quick popping sound: p, like at the start of 'pat' or 'pot'. Practice saying /p/ several times, feeling your lips pop apart each time. Now try blending it with letters you already know: /p/ /a/ /t/ — pat! You just read a brand-new word using a letter you only just met."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used a new letter to read a new word right away! Tomorrow we'll meet our second vowel."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-k-2-1",
+    "lessonId": "lesson-ela-k-2-1",
+    "objectives": [
+      "Recognize and produce the /p/ sound for the letter P",
+      "Blend P with known letters to read the new word 'pat'"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review S, M, A, T and the word 'sat' from last week.\n2. Introduce P and its popping sound.\n3. Blend p-a-t together slowly, then faster, until it reads as 'pat'.\n4. Move to the worksheet: trace P, then trace and blend 'pat'.\n5. Close by comparing 'sat' and 'pat' — same ending sound, different first letter.",
+    "differentiationTips": [
+      "Struggling: focus on just the /p/ sound in isolation before attempting the full blend",
+      "Ready for more: ask the child to think of another real word that starts with the /p/ sound",
+      "Comparing 'sat' and 'pat' reinforces that changing just the first sound changes the whole word — a genuinely useful phonics insight"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and blending activity — check that the child can produce the /p/ sound and successfully blend 'pat'.",
+    "standardsRationale": "P is a high-utility consonant that, combined with last week's S/M/A/T, unlocks several new real CVC words — continuing the deliberate letter-sequencing strategy from week 1."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-k-2-1",
+    "lessonId": "lesson-ela-k-2-1",
+    "title": "Meeting the Letter P",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its sound out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "P", "label": "Capital P — a quick popping sound" },
+        { "trace": "pat", "label": "Blend the sounds p-a-t together to read this word" }
+      ]
+    }
+  }
+}

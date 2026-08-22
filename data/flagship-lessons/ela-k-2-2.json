@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-k-2",
+    "courseId": "course-ela-k",
+    "order": 2,
+    "title": "More Letters and Words",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-k-2-2",
+    "unitId": "unit-ela-k-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Meeting the Letter I — Our Second Vowel!",
+    "gradeLevel": "K",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You met your first vowel, A, last week. Today: a second vowel, I — and a whole new set of words to read!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The letter I makes a short sound: i, like at the start of 'igloo' or 'itch'. Vowels are special because almost every word needs at least one. Now try blending: /p/ /i/ /t/ — pit! And /s/ /i/ /t/ — sit! Notice how swapping the vowel A for I changes 'pat' into 'pit', and gives you a brand-new word each time."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know two vowels, and you've seen how swapping just one sound changes a whole word! Tomorrow we'll meet one more consonant."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-k-2-2",
+    "lessonId": "lesson-ela-k-2-2",
+    "objectives": [
+      "Recognize and produce the short /i/ sound for the letter I",
+      "Blend I with known letters to read 'pit' and 'sit', noticing the vowel-swap pattern"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review P and the word 'pat' from yesterday.\n2. Introduce I as the second vowel, contrasting its sound with A.\n3. Blend p-i-t and s-i-t together, comparing to yesterday's 'pat' and last week's 'sat'.\n4. Move to the worksheet: trace I, then trace and blend both new words.\n5. Close by having the child swap the vowel in 'pat' to make 'pit' out loud.",
+    "differentiationTips": [
+      "Struggling: focus on just one new word (pit) rather than both pit and sit in the same lesson",
+      "Ready for more: ask the child to find one more real word using the short /i/ sound they already know",
+      "The vowel-swap comparison (pat/pit, sat/sit) is the real teaching moment here — give it real time, not just a mention"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and blending activity — check that the child can produce the short /i/ sound and successfully blend both 'pit' and 'sit'.",
+    "standardsRationale": "Introducing a second vowel unlocks vowel-substitution as a genuine early-literacy insight — the same consonants, a different vowel, a completely different word — building directly on last week's single-vowel foundation."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-k-2-2",
+    "lessonId": "lesson-ela-k-2-2",
+    "title": "Meeting the Letter I",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its sound out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "I", "label": "Capital I — a short 'ih' sound" },
+        { "trace": "pit", "label": "Blend the sounds p-i-t together to read this word" },
+        { "trace": "sit", "label": "Blend the sounds s-i-t together to read this word" }
+      ]
+    }
+  }
+}

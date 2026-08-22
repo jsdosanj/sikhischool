@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-9-1",
+    "courseId": "course-social-studies-9",
+    "order": 1,
+    "title": "Foundations of World Geography",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-9-1-5",
+    "unitId": "unit-social-studies-9-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Foundations of World Geography",
+    "gradeLevel": "9",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a complete geographic toolkit: an analytical framework, physical geography, human geography, and critical map literacy. Let's review it all."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: the five themes of geography are Location, Place, Human-Environment Interaction, Movement, and Region (Day 1). Landforms and climate zones shape physical geography (Day 2). Population distribution follows real, predictable patterns based on water, farmland, and climate (Day 3). Every map projection distorts something, including the common Mercator projection's size distortion (Day 4). Choose any real place in the world and apply all five themes, plus its landform/climate and settlement pattern, in one connected paragraph."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you now have a real, connected geographic toolkit that this course will use to analyze places and issues around the world."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-9-1-5",
+    "lessonId": "lesson-social-studies-9-1-5",
+    "objectives": [
+      "Recall the five themes of geography, physical/human geography, and map projection limitations",
+      "Apply the full week's toolkit to one real place in a connected analysis"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil", "This week's map for reference"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child choose a real place and apply the full toolkit in one paragraph.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — this toolkit will apply to every region studied throughout the course.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to choose a place they know little about and research one fact for each of the five themes",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. The five themes are Location, Place, Human-Environment Interaction, Movement, Region. 2. Landforms and climate shape physical geography. 3. People settle near water, farmland, and trade routes. 4. The Mercator projection distorts size, especially near the poles.",
+    "standardsRationale": "Consolidates the week's C3 Framework Geography content before the course moves into civic participation, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-9-1-5",
+    "lessonId": "lesson-social-studies-9-1-5",
+    "title": "Foundations of World Geography: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "List the five themes of geography." },
+        { "problem": "Name two factors that shape physical geography." },
+        { "problem": "Name two factors that influence where people settle." },
+        { "problem": "What does the Mercator projection distort?" }
+      ]
+    }
+  }
+}

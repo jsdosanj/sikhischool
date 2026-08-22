@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-9-1",
+    "courseId": "course-social-studies-9",
+    "order": 1,
+    "title": "Foundations of World Geography",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-9-1-3",
+    "unitId": "unit-social-studies-9-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Human Geography: Where and Why People Settle",
+    "gradeLevel": "9",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've studied the physical land itself. Today, human geography: why people cluster in some places and not others, in real, predictable patterns."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Population distribution — where people live — isn't random. People tend to settle near fresh water (rivers, lakes), on fertile farmland, along trade routes, and in moderate climates, while very cold, very dry, or very mountainous regions tend to have far fewer people. You already saw one real example of this earlier in Sikhi School: early river-valley civilizations (Mesopotamia, Egypt) forming along rivers for exactly these reasons. Population density measures how many people live in a given area — cities have high density, remote rural areas have low density. Explain why a river valley would have historically attracted dense settlement, using this week's Human-Environment Interaction theme."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected settlement patterns to real geographic factors, tying back to earlier content on ancient civilizations. Tomorrow we'll look at the tools geographers use to represent all of this: maps."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-9-1-3",
+    "lessonId": "lesson-social-studies-9-1-3",
+    "objectives": [
+      "Explain real factors influencing population distribution: water, farmland, trade routes, climate",
+      "Define population density and connect settlement patterns to the Human-Environment Interaction theme"
+    ],
+    "materialsNeeded": ["A world population-density map (printed or online, if available)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's physical geography.\n2. Introduce population distribution factors and density.\n3. Connect back to the Grade 6 river-valley-civilizations content as a real historical example.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: maps and geographic tools.",
+    "differentiationTips": [
+      "Struggling: focus on just the water/farmland connection, the clearest and most historically grounded factor",
+      "Ready for more: ask them to predict which of today's world regions likely have the highest and lowest population density, based on the factors discussed",
+      "Explicitly reconnecting to the earlier river-valley-civilizations content reinforces that this course's ideas build on each other across grades"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. People tend to settle near fresh water, fertile farmland, trade routes, and in moderate climates. 2. Population density measures how many people live in a given area. 3. River valleys attracted dense settlement because water and fertile soil supported reliable food production — a real Human-Environment Interaction.",
+    "standardsRationale": "Addresses the C3 Framework Geography and Economics dimensions with real settlement-pattern content, explicitly reinforcing the Grade 6 river-valley-civilizations unit as a concrete historical example of this week's abstract geographic principles."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-9-1-3",
+    "lessonId": "lesson-social-studies-9-1-3",
+    "title": "Human Geography: Where and Why People Settle",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about human geography.",
+      "rows": [
+        { "problem": "Name three real factors that influence where people settle." },
+        { "problem": "What does population density measure?" },
+        { "problem": "Why did river valleys historically attract dense settlement?" }
+      ]
+    }
+  }
+}

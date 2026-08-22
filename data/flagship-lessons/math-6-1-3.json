@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-6-1",
+    "courseId": "course-math-6",
+    "order": 1,
+    "title": "Ratios and Rates",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-6-1-3",
+    "unitId": "unit-math-6-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Unit Rates",
+    "gradeLevel": "6",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "When you see a car's speed in 'miles per hour' or a price in 'dollars per pound,' you're seeing a special, especially useful kind of ratio: the unit rate."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A unit rate compares a quantity to exactly ONE of something — 'per' always means 'for each one.' If 4 apples cost $2, the unit rate is $2 ÷ 4 = $0.50 per apple. If a car travels 60 miles in 2 hours, the unit rate is 60 ÷ 2 = 30 miles per hour. To find a unit rate, divide the first number by the second so the second number becomes 1. Find the unit rate: 5 pencils cost $1.50 — what's the cost per pencil?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just calculated a real unit rate — a skill you'll see constantly in daily life, from grocery shopping to travel speed. Tomorrow we'll use ratios and rates to solve real-world problems."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-6-1-3",
+    "lessonId": "lesson-math-6-1-3",
+    "objectives": [
+      "Define a unit rate as a ratio comparing a quantity to one unit of another",
+      "Calculate a unit rate by dividing the first term by the second"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's equivalent ratios.\n2. Introduce unit rate using the apples and car-speed examples.\n3. Work through the pencil unit-rate problem together.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: real-world ratio and rate problems.",
+    "differentiationTips": [
+      "Struggling: connect this explicitly to division they already know — a unit rate is just a division problem with a real-world label",
+      "Ready for more: ask them to find a unit rate example from an actual grocery store receipt or price tag at home",
+      "Point out real 'per' language they encounter daily (miles per hour, price per pound) — this makes the abstract skill concrete"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. $2 for 4 apples = $0.50 per apple. 2. 60 miles in 2 hours = 30 miles per hour. 3. $1.50 for 5 pencils = $0.30 per pencil.",
+    "standardsRationale": "Directly addresses Common Core 6.RP.2: understanding the concept of a unit rate, a foundational skill for percent, measurement conversion, and real-world rate problems in future units."
+  },
+  "worksheet": {
+    "id": "worksheet-math-6-1-3",
+    "lessonId": "lesson-math-6-1-3",
+    "title": "Unit Rates",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find the unit rate for each.",
+      "rows": [
+        { "problem": "4 apples cost $2. What is the cost per apple?" },
+        { "problem": "A car travels 60 miles in 2 hours. What is the speed in miles per hour?" },
+        { "problem": "5 pencils cost $1.50. What is the cost per pencil?" }
+      ]
+    }
+  }
+}

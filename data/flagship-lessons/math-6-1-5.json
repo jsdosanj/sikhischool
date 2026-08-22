@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-6-1",
+    "courseId": "course-math-6",
+    "order": 1,
+    "title": "Ratios and Rates",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-6-1-5",
+    "unitId": "unit-math-6-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Ratios and Rates",
+    "gradeLevel": "6",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a complete toolkit for working with ratios: what they are, how to scale them, how to find unit rates, and how to apply them to real problems. Let's review it all."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a ratio compares two quantities and can be written 'a to b,' 'a:b,' or 'a/b' (Day 1). Equivalent ratios scale both terms by the same number (Day 2). A unit rate compares a quantity to exactly one of something, found by dividing (Day 3). Ratio reasoning solves real-world scaling problems (Day 4). Solve one problem of each type below to show you've mastered all four skills."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now have a real, complete toolkit for ratios and rates that will support everything from percents to unit conversions in future units."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-6-1-5",
+    "lessonId": "lesson-math-6-1-5",
+    "objectives": [
+      "Correctly write ratios, find equivalent ratios, calculate unit rates, and solve real-world ratio problems"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Complete the cumulative review worksheet, one problem of each type from the week.\n3. Discuss any mismatches or uncertain answers together before finishing.\n4. Celebrate finishing the first full week of this unit — this same ratio/rate reasoning will keep reappearing throughout the year (percents, unit conversions, proportional relationships).",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to write their own real-world ratio word problem for a family member to solve",
+      "This is a good checkpoint to note which day's skill needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Ratio of 4:6 written as a fraction is 4/6. 2. 12 pencils cost $3, unit rate = $0.25 per pencil. 3. Ratio 4:5 scaled so the first term is 12: second term is 15. 4. A recipe uses 3 cups sugar for 4 dozen cookies — for 8 dozen, you need 6 cups.",
+    "standardsRationale": "Consolidates Common Core 6.RP.1 through 6.RP.3 (ratio concepts, equivalent ratios, unit rates, and real-world application) before the unit moves to a new topic, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-6-1-5",
+    "lessonId": "lesson-math-6-1-5",
+    "title": "Ratios and Rates: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each problem.",
+      "rows": [
+        { "problem": "Write the ratio 4:6 as a fraction." },
+        { "problem": "12 pencils cost $3. What is the unit rate (cost per pencil)?" },
+        { "problem": "Find the equivalent ratio: 4:5 = 12:?" },
+        { "problem": "A recipe uses 3 cups sugar for 4 dozen cookies. How much sugar for 8 dozen cookies?" }
+      ]
+    }
+  }
+}

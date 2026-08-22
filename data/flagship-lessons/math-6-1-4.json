@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-6-1",
+    "courseId": "course-math-6",
+    "order": 1,
+    "title": "Ratios and Rates",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-6-1-4",
+    "unitId": "unit-math-6-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Solving Real-World Ratio Problems",
+    "gradeLevel": "6",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned ratios, equivalent ratios, and unit rates. Today, put all three to work solving a real problem: scaling a recipe."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A recipe uses 2 cups of flour for every 3 dozen cookies. How much flour is needed for 6 dozen cookies? Since 6 dozen is double 3 dozen, use an equivalent ratio: scale 2:3 by 2, giving 4:6 — so you need 4 cups of flour for 6 dozen cookies. This is exactly the equivalent-ratio skill from Day 2, applied to a real situation. Try this one: if 2 cups of flour make 3 dozen cookies, how much flour is needed for 9 dozen cookies?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used ratio reasoning to solve a genuine real-world scaling problem. Tomorrow we'll review everything about ratios and rates from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-6-1-4",
+    "lessonId": "lesson-math-6-1-4",
+    "objectives": [
+      "Apply equivalent-ratio reasoning to solve real-world scaling problems",
+      "Identify the scale factor needed to solve a ratio word problem"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's ratio, equivalent-ratio, and unit-rate skills.\n2. Work through the recipe-scaling example together, identifying the scale factor (2x) before calculating.\n3. Have the child solve the 9-dozen version independently.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: explicitly write out the ratio table for each problem rather than jumping straight to a scale factor",
+      "Ready for more: give them a problem where the scale factor isn't a whole number (e.g. scaling 2:3 down to find the amount for 1 dozen)",
+      "This lesson is mostly application of Day 2's skill to new contexts — reassure the child the hard thinking (finding scale factors) is already familiar"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 2 cups flour for 6 dozen cookies = 4 cups (2:3 scaled by 2). 2. 2 cups flour for 9 dozen cookies = 6 cups (2:3 scaled by 3). 3. A car going 30 mph travels how far in 4 hours? 120 miles (30 x 4).",
+    "standardsRationale": "Directly addresses Common Core 6.RP.3: using ratio and rate reasoning to solve real-world problems, the applied culmination of the week's conceptual and procedural skills."
+  },
+  "worksheet": {
+    "id": "worksheet-math-6-1-4",
+    "lessonId": "lesson-math-6-1-4",
+    "title": "Solving Real-World Ratio Problems",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each real-world ratio problem.",
+      "rows": [
+        { "problem": "2 cups flour makes 3 dozen cookies. How much flour for 6 dozen cookies?" },
+        { "problem": "2 cups flour makes 3 dozen cookies. How much flour for 9 dozen cookies?" },
+        { "problem": "A car travels at 30 miles per hour. How far does it travel in 4 hours?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-9-2",
+    "courseId": "course-ela-9",
+    "order": 2,
+    "title": "Introduction to Drama Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-9-2-3",
+    "unitId": "unit-ela-9-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Dramatic Irony",
+    "gradeLevel": "9",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned how character comes through dialogue. Today: a powerful tool playwrights use called dramatic irony!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Dramatic irony happens when the audience knows something important that one or more characters on stage do not — this creates tension, because the audience is waiting to see how the character will react when they finally find out. Read this short scene: (The audience has just seen TOMAS hide a surprise party invitation in his bag.) MAYA: Why do you keep checking your bag? TOMAS: No reason. Just making sure I have everything. Explain why this moment is an example of dramatic irony, and what tension it creates for the audience."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how dramatic irony creates tension! Tomorrow we'll put dialogue, character, and irony together in one scene."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-9-2-3",
+    "lessonId": "lesson-ela-9-2-3",
+    "objectives": [
+      "Define dramatic irony as the audience knowing something a character doesn't",
+      "Identify dramatic irony in the TOMAS/MAYA scene and explain the tension it creates"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's dialogue and character work briefly.\n2. Introduce dramatic irony and read the TOMAS/MAYA scene together.\n3. Have the child explain why it's dramatic irony and what tension it creates.\n4. Complete the worksheet.\n5. Preview tomorrow's combined-analysis lesson.",
+    "differentiationTips": [
+      "Struggling: point out explicitly that the audience saw something MAYA didn't (the hidden invitation) before asking the child to explain why that matters",
+      "Ready for more: ask the child to think of a movie or show they've seen that used dramatic irony, and briefly describe the scene",
+      "Dramatic irony is a genuinely powerful, widely-used technique worth spending real time on — it appears constantly in the plays and shows students already know"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is dramatic irony because the audience already knows TOMAS is hiding a surprise party invitation, but MAYA doesn't — this creates tension because the audience is watching MAYA get suspicious and waiting to see whether TOMAS's secret will be revealed or whether the surprise will succeed.",
+    "standardsRationale": "Directly addresses Common Core Grade 9-10 RL.9-10.4/RL.9-10.5: analyzing an author's choices concerning structure and how specific dramatic techniques create meaning and tension."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-9-2-3",
+    "lessonId": "lesson-ela-9-2-3",
+    "title": "Dramatic Irony",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about dramatic irony in the TOMAS/MAYA scene.",
+      "prompts": [
+        { "prompt": "Why is this scene an example of dramatic irony?", "lines": 2 },
+        { "prompt": "What tension does it create for the audience?", "lines": 2 }
+      ]
+    }
+  }
+}

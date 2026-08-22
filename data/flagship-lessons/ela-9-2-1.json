@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-9-2",
+    "courseId": "course-ela-9",
+    "order": 2,
+    "title": "Introduction to Drama Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-9-2-1",
+    "unitId": "unit-ela-9-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Makes Drama Different",
+    "gradeLevel": "9",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you studied rhetoric. This week: literary analysis of drama, another core thread of this course!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Drama is different from prose fiction because it's written to be performed, not just read — a play script is almost entirely dialogue (what characters say) plus stage directions (brief instructions about action, setting, or tone), with no narrator describing what a character is thinking or feeling. This means the reader has to infer much more than they would from a novel. Explain why a play script has to work harder than a novel to show a character's inner feelings, since it can't simply describe them."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what makes drama different from prose! Tomorrow we'll see how character comes through dialogue alone."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-9-2-1",
+    "lessonId": "lesson-ela-9-2-1",
+    "objectives": [
+      "Identify dialogue and stage directions as the two main components of a play script",
+      "Explain why drama must show inner feelings indirectly, without a narrator's help"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's rhetoric work briefly.\n2. Introduce dialogue and stage directions as drama's two building blocks, contrasting with prose narration.\n3. Have the child explain why drama has to work harder to reveal feelings.\n4. Complete the worksheet.\n5. Preview tomorrow's character-through-dialogue lesson.",
+    "differentiationTips": [
+      "Struggling: compare a single moment (a character feeling nervous) as written in a novel (with narration) versus how it would need to be shown in a play (through what they say and do) side by side",
+      "Ready for more: ask the child why plays are still written and performed today when novels and movies can describe things directly",
+      "Opens this week's drama-analysis thread from the course's own description, distinct from last week's rhetoric focus"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A play script can't describe a character's inner feelings directly the way a novel's narrator can, so the playwright has to reveal those feelings indirectly, through carefully chosen dialogue, brief stage directions, and how a character acts toward others — requiring the reader (or audience) to infer much more.",
+    "standardsRationale": "Directly addresses Common Core Grade 9-10 RL.9-10.4/RL.9-10.5: analyzing how a text's structure (in this case, the dramatic form) shapes meaning, opening this week's thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-9-2-1",
+    "lessonId": "lesson-ela-9-2-1",
+    "title": "What Makes Drama Different",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about drama's structure.",
+      "rows": [
+        { "problem": "Name the two main components of a play script." },
+        { "problem": "Why can't a play script describe a character's feelings the way a novel can?" }
+      ]
+    }
+  }
+}

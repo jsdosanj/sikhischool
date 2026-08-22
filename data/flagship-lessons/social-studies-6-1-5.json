@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-6-1",
+    "courseId": "course-social-studies-6",
+    "order": 1,
+    "title": "Early River Valley Civilizations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-6-1-5",
+    "unitId": "unit-social-studies-6-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Early River Valley Civilizations",
+    "gradeLevel": "6",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a real framework for civilization and applied it to two of history's earliest examples. Let's review and compare everything."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a civilization has cities, government, specialized jobs, social classes, religion, writing, and technology/art (Day 1). Early civilizations formed along rivers for fertile soil, water, and transportation — Mesopotamia, Egypt, the Indus Valley, and China (Day 2). Mesopotamia had city-states and cuneiform writing (Day 3). Egypt had the Nile's predictable floods, hieroglyphics, and pharaohs (Day 4). Now compare: what is one similarity and one difference between Mesopotamia and Egypt?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you now have a real analytical framework and two detailed case studies of early civilization. Future weeks will explore the Indus Valley, China, and civilizations across other world regions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-6-1-5",
+    "lessonId": "lesson-social-studies-6-1-5",
+    "objectives": [
+      "Recall the civilization framework, the four river-valley civilizations, and details of Mesopotamia and Egypt",
+      "Compare and contrast Mesopotamia and Egypt using at least one similarity and one difference"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil", "This week's map for reference"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Discuss the Mesopotamia-vs-Egypt comparison together before writing.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — note that future weeks will cover the Indus Valley, China, and other world regions.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to predict what the Indus Valley or China civilizations might have in common with Mesopotamia and Egypt, based on the river-valley pattern",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. The seven characteristics of a civilization. 2. Rivers provided fertile soil, water, and transportation. 3. A similarity: both had writing systems (cuneiform/hieroglyphics) and rulers/leadership structures. A difference: Mesopotamia was organized into separate city-states, while Egypt was united under pharaohs.",
+    "standardsRationale": "Consolidates the week's C3 Framework History and Geography content with a genuine comparative-analysis task before the unit moves to the remaining two river-valley civilizations, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-6-1-5",
+    "lessonId": "lesson-social-studies-6-1-5",
+    "title": "Early River Valley Civilizations: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "List three of the seven characteristics of a civilization." },
+        { "problem": "Name the four early river-valley civilizations and their rivers." },
+        { "problem": "Name one similarity between Mesopotamia and Egypt." },
+        { "problem": "Name one difference between Mesopotamia and Egypt." }
+      ]
+    }
+  }
+}

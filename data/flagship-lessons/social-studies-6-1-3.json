@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-6-1",
+    "courseId": "course-social-studies-6",
+    "order": 1,
+    "title": "Early River Valley Civilizations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-6-1-3",
+    "unitId": "unit-social-studies-6-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Mesopotamia: Cradle of Civilization",
+    "gradeLevel": "6",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Mesopotamia is often called the 'cradle of civilization' — home to some of the very first cities and the earliest known writing system. Today, a closer look."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Sumerians, who lived in southern Mesopotamia, built some of the world's first true cities, like Ur and Uruk, each governed as an independent city-state. Around 3400-3200 BCE, they developed cuneiform — one of the earliest known writing systems, made by pressing a wedge-shaped stylus into soft clay tablets. Cuneiform was used for record-keeping (tracking trade, taxes, and harvests), laws, and eventually literature. Using the civilization framework from Day 1, identify which characteristics Mesopotamia clearly shows, based on what you just read."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined real evidence of one of history's earliest true civilizations. Tomorrow we'll look closely at Ancient Egypt."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-6-1-3",
+    "lessonId": "lesson-social-studies-6-1-3",
+    "objectives": [
+      "Identify the Sumerians' city-states (Ur, Uruk) as among the world's first true cities",
+      "Describe cuneiform as one of the earliest known writing systems"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's four river-valley civilizations.\n2. Introduce the Sumerians, their city-states, and cuneiform writing.\n3. Apply the Day 1 civilization framework to Mesopotamia together.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: Ancient Egypt.",
+    "differentiationTips": [
+      "Struggling: focus on just cuneiform (the most concrete, memorable detail) before introducing the city-state concept",
+      "Ready for more: research what a real cuneiform tablet recorded (trade records, laws, or stories) and share one example",
+      "If possible, look at real images of cuneiform tablets online — the physical wedge-shaped marks are genuinely striking to see"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Ur and Uruk were Sumerian city-states. 2. Cuneiform is one of the earliest known writing systems, made with a wedge-shaped stylus on clay tablets. 3. Cuneiform was used for record-keeping, laws, and literature.",
+    "standardsRationale": "Provides a concrete, well-documented case study of the Day 1 civilization framework, addressing the C3 Framework History dimension with real evidence (cuneiform, city-states) rather than abstract description alone."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-6-1-3",
+    "lessonId": "lesson-social-studies-6-1-3",
+    "title": "Mesopotamia: Cradle of Civilization",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Mesopotamia.",
+      "rows": [
+        { "problem": "Name two Sumerian city-states." },
+        { "problem": "What is cuneiform, and how was it made?" },
+        { "problem": "What was cuneiform used for?" }
+      ]
+    }
+  }
+}

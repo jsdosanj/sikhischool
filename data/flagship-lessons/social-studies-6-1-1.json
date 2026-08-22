@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-6-1",
+    "courseId": "course-social-studies-6",
+    "order": 1,
+    "title": "Early River Valley Civilizations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-6-1-1",
+    "unitId": "unit-social-studies-6-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Makes a Civilization?",
+    "gradeLevel": "6",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Before we travel to ancient Mesopotamia and Egypt, we need a real framework: what actually makes a group of people a 'civilization,' rather than just a village or a camp?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Historians generally look for several characteristics together: cities (large, permanent settlements), organized government (leaders and laws), specialized jobs (not everyone farms — some make tools, others govern, others create art), social classes (different levels of status and wealth), religion (shared beliefs and practices), a writing or record-keeping system, and advanced technology or art. A small farming village might have some of these, but a true civilization has most or all of them working together. Think of your own community: which of these seven characteristics does it have?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a real framework for identifying a civilization. Tomorrow we'll discover why almost every early civilization formed in one specific kind of place: next to a major river."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-6-1-1",
+    "lessonId": "lesson-social-studies-6-1-1",
+    "objectives": [
+      "List the seven characteristics historians use to identify a civilization",
+      "Apply this framework to their own community as a check for understanding"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask the child what they already think 'civilization' means.\n2. Introduce the seven characteristics one at a time with concrete examples.\n3. Apply the framework to the child's own community together.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: why rivers mattered so much to early civilizations.",
+    "differentiationTips": [
+      "Struggling: focus on just 4 of the 7 characteristics (cities, government, jobs, writing) as the core set",
+      "Ready for more: ask them to think of a group that has SOME but not all 7 characteristics, and discuss whether it counts as a civilization",
+      "This framework will be used repeatedly across the whole world-history course, worth taking real time to make it stick"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The seven characteristics are cities, government, specialized jobs, social classes, religion, writing, and advanced technology/art. 2. Answers will vary for the child's own community analysis.",
+    "standardsRationale": "Establishes the C3 Framework History dimension's foundational analytical framework (what defines a civilization) before surveying specific civilizations, matching the course's own 'ancient civilizations' description."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-6-1-1",
+    "lessonId": "lesson-social-studies-6-1-1",
+    "title": "What Makes a Civilization?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the characteristics of a civilization.",
+      "rows": [
+        { "problem": "List the seven characteristics of a civilization." },
+        { "problem": "Why does a small village usually NOT count as a full civilization?" },
+        { "problem": "Name one of these characteristics your own community has." }
+      ]
+    }
+  }
+}

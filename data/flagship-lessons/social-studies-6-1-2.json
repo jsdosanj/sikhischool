@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-6-1",
+    "courseId": "course-social-studies-6",
+    "order": 1,
+    "title": "Early River Valley Civilizations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-6-1-2",
+    "unitId": "unit-social-studies-6-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Why Rivers? The Four Great River Valleys",
+    "gradeLevel": "6",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Nearly every one of the earliest civilizations on Earth formed in the exact same kind of place: next to a major river. Today, discover why."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Rivers provided three essential things: fertile soil (annual flooding deposited rich silt, perfect for farming), water for drinking and irrigation, and transportation for trade and travel. Four of the earliest civilizations in world history each grew up along a major river: Mesopotamia, between the Tigris and Euphrates rivers (in modern-day Iraq); Ancient Egypt, along the Nile River; the Indus Valley Civilization, along the Indus River (in modern-day Pakistan and northwest India); and Ancient China, along the Yellow River (Huang He). Find all four rivers on a world map."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just located the four great river valleys where some of history's earliest civilizations began. Tomorrow we'll look closely at the first of these: Mesopotamia."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-6-1-2",
+    "lessonId": "lesson-social-studies-6-1-2",
+    "objectives": [
+      "Explain why rivers were essential to early civilizations (fertile soil, water, transportation)",
+      "Locate and name the four great early river-valley civilizations: Mesopotamia, Egypt, Indus Valley, China"
+    ],
+    "materialsNeeded": ["A world map (printed or online)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's civilization framework.\n2. Introduce the three reasons rivers mattered (soil, water, transportation).\n3. Locate all four rivers/civilizations on a world map together.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: a closer look at Mesopotamia.",
+    "differentiationTips": [
+      "Struggling: focus on just 2 of the 4 civilizations (Mesopotamia and Egypt, which the rest of this week covers in depth) rather than requiring all 4 to be memorized",
+      "Ready for more: ask them to predict what might happen to a civilization if its river flooded unpredictably or dried up",
+      "This geography-first approach (matching the course's 'across world regions' description) sets up every future civilization-specific lesson"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Rivers provided fertile soil, water, and transportation. 2. Mesopotamia formed between the Tigris and Euphrates rivers. 3. Ancient Egypt formed along the Nile River. 4. The Indus Valley Civilization formed along the Indus River, and Ancient China formed along the Yellow River.",
+    "standardsRationale": "Directly addresses the C3 Framework Geography dimension by connecting physical geography (rivers) to the rise of civilization, matching the course's own 'across world regions' description."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-6-1-2",
+    "lessonId": "lesson-social-studies-6-1-2",
+    "title": "Why Rivers? The Four Great River Valleys",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the four river-valley civilizations.",
+      "rows": [
+        { "problem": "Name three things rivers provided to early civilizations." },
+        { "problem": "What two rivers was Mesopotamia located between?" },
+        { "problem": "What river was Ancient Egypt located along?" },
+        { "problem": "Name the rivers for the Indus Valley Civilization and Ancient China." }
+      ]
+    }
+  }
+}

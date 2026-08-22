@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-6-1",
+    "courseId": "course-social-studies-6",
+    "order": 1,
+    "title": "Early River Valley Civilizations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-6-1-4",
+    "unitId": "unit-social-studies-6-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Ancient Egypt: Gift of the Nile",
+    "gradeLevel": "6",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "The ancient Greek historian Herodotus famously called Egypt 'the gift of the Nile' — today, discover exactly why."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Each year, the Nile River flooded predictably, depositing rich, fertile soil along its banks — this reliable cycle let Egyptian farmers grow surplus food, supporting cities and specialized workers. Ancient Egyptians developed their own writing system, hieroglyphics, using pictures and symbols carved into stone or written on papyrus. Egypt was ruled by pharaohs, who held both political and religious authority as god-kings. The most famous pharaohs were honored with massive stone pyramids as tombs, like the Great Pyramid of Giza. Using the Day 1 civilization framework again, identify which characteristics Egypt clearly shows."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined a second real ancient civilization using the same framework. Tomorrow we'll review everything from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-6-1-4",
+    "lessonId": "lesson-social-studies-6-1-4",
+    "objectives": [
+      "Explain why the Nile's predictable flooding was essential to Egyptian civilization",
+      "Identify hieroglyphics, pharaohs, and pyramids as key features of Ancient Egypt"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Optional: images of hieroglyphics or the pyramids"],
+    "facilitationScript": "1. Review yesterday's Mesopotamia lesson.\n2. Introduce the Nile's flooding cycle, hieroglyphics, pharaohs, and pyramids.\n3. Apply the Day 1 civilization framework to Egypt together.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review, comparing Mesopotamia and Egypt.",
+    "differentiationTips": [
+      "Struggling: focus on the pyramids and pharaohs (the most visually memorable details) before introducing hieroglyphics",
+      "Ready for more: compare cuneiform and hieroglyphics — how are they similar and different as early writing systems?",
+      "Real images of hieroglyphics or the pyramids make this lesson significantly more vivid and memorable"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The Nile's yearly flooding deposited fertile soil, letting farmers grow surplus food. 2. Hieroglyphics was Egypt's writing system, using pictures and symbols. 3. Pharaohs were Egypt's god-king rulers, sometimes honored with pyramid tombs.",
+    "standardsRationale": "Provides a second concrete civilization case study (paired with Day 3's Mesopotamia) for Day 5's comparative review, reinforcing the C3 Framework History and Geography dimensions together."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-6-1-4",
+    "lessonId": "lesson-social-studies-6-1-4",
+    "title": "Ancient Egypt: Gift of the Nile",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Ancient Egypt.",
+      "rows": [
+        { "problem": "Why was the Nile's yearly flooding so important?" },
+        { "problem": "What was Egypt's writing system called?" },
+        { "problem": "What were pharaohs, and what were they sometimes honored with?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "unit": {
+    "id": "unit-sikhi-k-2",
+    "courseId": "course-sikhi-k",
+    "order": 2,
+    "title": "Gathering and Celebrating Together",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-k-2-5",
+    "unitId": "unit-sikhi-k-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Gathering Together",
+    "gradeLevel": "K",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned four new words: Waheguru, Kirtan, Khanda, and Gurdwara. Let's remember what each one means!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Waheguru is a word said to feel close to God and thankful (Naam). Kirtan is singing sacred hymns together with the Sangat. The Khanda is the Sikh symbol — a sword, a circle, and two crossed swords — seen on the Nishan Sahib flag. A Gurdwara is where Sikhs gather to do all of these things together, showing respect by removing shoes and covering their heads. Point to or say each word, and explain what it means in your own words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know eight real Sikhi words from these first two weeks: Seva, Sangat, Langar, Simran, Naam, Kirtan, Khanda, and Gurdwara. Wonderful work building your Sikhi vocabulary!"
+      }
+    ],
+    "enrichmentLinks": [
+      {
+        "label": "Keep reading: start the Santhya Path with Stage 1",
+        "url": "/santhya-path/muharni-baal-updesh",
+        "source": "sikhischool"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-k-2-5",
+    "lessonId": "lesson-sikhi-k-2-5",
+    "objectives": [
+      "Recall and explain all four of this week's words: Waheguru, Kirtan, Khanda, Gurdwara",
+      "Connect this week's words to last week's Seva, Sangat, Simran, and equality content"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Go through all four of this week's words together, out loud, using this week's worksheets as reference.\n2. Ask the child to explain each word in their own words.\n3. Complete the review worksheet.\n4. Celebrate finishing two full weeks of Sikhi vocabulary and values — eight words total!",
+    "differentiationTips": [
+      "Struggling: focus on just two of the four words, chosen based on what the child engaged with most this week",
+      "Ready for more: ask the child to connect one word from this week to one word from last week (e.g., Kirtan happens with the Sangat from week 1)",
+      "This is a good checkpoint to note which of the four words needs the most reinforcement before moving to new content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Waheguru is said to feel close to God and thankful. 2. Kirtan is singing sacred hymns together. 3. The Khanda is the Sikh symbol of a sword, circle, and two crossed swords. 4. A Gurdwara is where Sikhs gather to do all of these things.",
+    "standardsRationale": "Consolidates this week's four new words alongside week 1's four words before the unit continues, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-k-2-5",
+    "lessonId": "lesson-sikhi-k-2-5",
+    "title": "Review: Gathering Together",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word one more time, and say what it means out loud.",
+      "rows": [
+        { "trace": "Waheguru", "label": "A word said to feel close to God and thankful" },
+        { "trace": "Kirtan", "label": "Singing sacred hymns together" },
+        { "trace": "Khanda", "label": "The Sikh symbol" },
+        { "trace": "Gurdwara", "label": "Where Sikhs gather together" }
+      ]
+    }
+  }
+}

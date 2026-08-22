@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-sikhi-k-2",
+    "courseId": "course-sikhi-k",
+    "order": 2,
+    "title": "Gathering and Celebrating Together",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-k-2-1",
+    "unitId": "unit-sikhi-k-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Saying Waheguru: A Feeling of Wonder",
+    "gradeLevel": "K",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Have you ever seen something so beautiful or amazing that you just wanted to say 'wow'? In Sikhi, one way people express that feeling — wonder, thankfulness, and closeness to God — is by saying Waheguru."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Waheguru is a word Sikhs say often — sometimes quietly to themselves, sometimes together with others — as a way of feeling close to God and thankful for the world around them. It connects to Naam, which means remembering God, especially through this word. You don't need a special moment to say it — some people say it when they see something beautiful, when they feel thankful, or just quietly throughout their day. Talk with your grown-up about one thing today that made you feel a sense of wonder or thankfulness."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Saying Waheguru is a simple, real way Sikhs practice Naam — remembering God — in everyday moments, not just at special times. This week we'll explore more ways Sikhs gather and celebrate together."
+      }
+    ],
+    "enrichmentLinks": [
+      {
+        "label": "Keep reading: start the Santhya Path with Stage 1",
+        "url": "/santhya-path/muharni-baal-updesh",
+        "source": "sikhischool"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-k-2-1",
+    "lessonId": "lesson-sikhi-k-2-1",
+    "objectives": [
+      "Explain in simple words that Waheguru is a word Sikhs say to feel close to God and thankful",
+      "Connect Waheguru to Naam (remembering God) as a real, everyday practice",
+      "Name one personal moment of wonder or thankfulness"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Ask the child about a time they felt real wonder or amazement.\n2. Introduce Waheguru as a word said to express that feeling, connected to God.\n3. Introduce Naam as remembering God, especially through this word.\n4. Emphasize this can happen any time, not just at special moments.\n5. Move to the worksheet: trace the vocabulary words and talk through their meaning again.\n6. Close by naming one thing from today that made the child feel thankful.",
+    "differentiationTips": [
+      "Struggling: focus only on the word Waheguru and the simple feeling of wonder/thankfulness, without introducing Naam by name yet",
+      "Ready for more: ask the child to think of three different moments across a normal day when they might feel this kind of wonder",
+      "Keep this experiential and personal — this is not about a specific memorized prayer text, just a real, everyday practice"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a vocabulary tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can explain Waheguru in their own simple words by the end.",
+    "standardsRationale": "Introduces Naam through the concrete, everyday practice of saying Waheguru — deliberately experiential rather than tied to specific liturgical text, matching the caution established for Simran-related content at this grade band."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-k-2-1",
+    "lessonId": "lesson-sikhi-k-2-1",
+    "title": "Saying Waheguru",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Waheguru", "label": "A word Sikhs say to feel close to God and thankful" },
+        { "trace": "Naam", "label": "Remembering God" }
+      ]
+    }
+  }
+}

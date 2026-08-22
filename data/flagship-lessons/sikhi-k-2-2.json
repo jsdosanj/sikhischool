@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-sikhi-k-2",
+    "courseId": "course-sikhi-k",
+    "order": 2,
+    "title": "Gathering and Celebrating Together",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-k-2-2",
+    "unitId": "unit-sikhi-k-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Kirtan: Singing Together",
+    "gradeLevel": "K",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Do you like singing songs with other people? At the Gurdwara, Sikhs come together to sing beautiful hymns as part of worship — this is called Kirtan."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Kirtan means singing sacred hymns together, often with musical instruments like the tabla (drums) and harmonium. It's a joyful, shared experience — everyone in the Sangat (the community we learned about last week) can listen, and many join in singing along. Kirtan is one more way Sikhs feel connected to each other and to God, alongside Seva and saying Waheguru. Talk with your grown-up about a song that makes you feel happy when you sing it with others."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Kirtan shows that Sikhi worship isn't quiet and separate — it's often joyful and shared together as a Sangat. Tomorrow we'll learn about a special symbol that represents Sikh identity."
+      }
+    ],
+    "enrichmentLinks": [
+      {
+        "label": "Keep reading: start the Santhya Path with Stage 1",
+        "url": "/santhya-path/muharni-baal-updesh",
+        "source": "sikhischool"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-k-2-2",
+    "lessonId": "lesson-sikhi-k-2-2",
+    "objectives": [
+      "Explain in simple words that Kirtan means singing sacred hymns together",
+      "Connect Kirtan to the Sangat (community) learned about in week 1",
+      "Share a personal experience of joyful group singing"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon", "Optional: a short, age-appropriate Kirtan recording to listen to together"],
+    "facilitationScript": "1. Ask the child about a song they enjoy singing with others.\n2. Introduce Kirtan as singing sacred hymns together at the Gurdwara, often with instruments like tabla and harmonium.\n3. Connect it back to Sangat from last week — everyone can listen or join in.\n4. If possible, listen to a short, age-appropriate Kirtan recording together.\n5. Move to the worksheet: trace the vocabulary words and talk through their meaning.\n6. Close by talking about how singing together feels different from singing alone.",
+    "differentiationTips": [
+      "Struggling: focus on the simple idea of 'singing together feels joyful' without requiring the child to name the instruments",
+      "Ready for more: ask the child to name both instruments (tabla, harmonium) and describe what each one sounds like",
+      "If a real recording is played, keep it short and simply enjoyed — this is an introduction, not a music lesson"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a vocabulary tracing and discussion activity — there is no right/wrong answer beyond correct word tracing. Check that the child can explain Kirtan in their own simple words by the end.",
+    "standardsRationale": "Introduces Kirtan as a real, joyful, communal Sikhi practice, connecting back to Sangat from week 1 and building toward Santhya Path's audio-based Gurbani reading pathway."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-k-2-2",
+    "lessonId": "lesson-sikhi-k-2-2",
+    "title": "Kirtan: Singing Together",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Kirtan", "label": "Singing sacred hymns together" },
+        { "trace": "Sangat", "label": "The community that gathers and sings together" }
+      ]
+    }
+  }
+}

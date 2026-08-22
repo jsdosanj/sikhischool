@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-sikhi-k-2",
+    "courseId": "course-sikhi-k",
+    "order": 2,
+    "title": "Gathering and Celebrating Together",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-k-2-3",
+    "unitId": "unit-sikhi-k-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "The Khanda: A Sikh Symbol",
+    "gradeLevel": "K",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Have you ever seen a special symbol that tells you something belongs to a certain group, like a flag or a badge? Sikhs have a special symbol too, called the Khanda."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Khanda is a symbol made of a few shapes together: a double-edged sword in the middle, a circle around it, and two curved swords crossed on the outside. You can see it on the Nishan Sahib — the flag that flies outside every Gurdwara, letting people know a Gurdwara is nearby. The Khanda doesn't show a person — it's just shapes, and it represents Sikh identity and values as a whole. Draw the Khanda as best you can, using the description: one straight sword in the middle, a circle around it, two curved swords crossed on the outside."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "The Khanda is a symbol you'll recognize at every Gurdwara from now on. Tomorrow we'll learn more about what a Gurdwara actually is."
+      }
+    ],
+    "enrichmentLinks": [
+      {
+        "label": "Keep reading: start the Santhya Path with Stage 1",
+        "url": "/santhya-path/muharni-baal-updesh",
+        "source": "sikhischool"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-k-2-3",
+    "lessonId": "lesson-sikhi-k-2-3",
+    "objectives": [
+      "Describe the Khanda's shapes: a central double-edged sword, a circle, and two crossed curved swords",
+      "Identify the Nishan Sahib as the flag bearing this symbol outside every Gurdwara"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Ask the child about symbols they know (flags, badges, logos).\n2. Introduce the Khanda's three shapes one at a time: the central sword, the circle, the two crossed swords.\n3. Introduce the Nishan Sahib as the flag flying outside every Gurdwara.\n4. Have the child draw the Khanda using the description.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: what a Gurdwara is.",
+    "differentiationTips": [
+      "Struggling: focus on just recognizing the Khanda symbol (shown as an image if available) rather than drawing it from a verbal description alone",
+      "Ready for more: ask them to explain why a symbol made of shapes, rather than a picture of a person, might be a meaningful choice",
+      "Text-only/symbolic content only, per the platform's content policy — the Khanda itself contains no depiction of any person"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a drawing and vocabulary activity — check that the child can name the Khanda's three parts (sword, circle, two crossed swords) and correctly identify the Nishan Sahib as the flag it appears on.",
+    "standardsRationale": "Introduces the Khanda as a safe, symbolic (never a person-depicting) marker of Sikh identity, matching the Ten Gurus content policy's requirement for symbolic-only representation."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-k-2-3",
+    "lessonId": "lesson-sikhi-k-2-3",
+    "title": "The Khanda: A Sikh Symbol",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Khanda", "label": "The Sikh symbol: a sword, a circle, and two crossed swords" },
+        { "trace": "Nishan Sahib", "label": "The flag with the Khanda that flies outside every Gurdwara" }
+      ]
+    }
+  }
+}

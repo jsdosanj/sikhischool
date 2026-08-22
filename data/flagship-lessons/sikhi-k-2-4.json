@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-sikhi-k-2",
+    "courseId": "course-sikhi-k",
+    "order": 2,
+    "title": "Gathering and Celebrating Together",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-k-2-4",
+    "unitId": "unit-sikhi-k-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "What Is a Gurdwara?",
+    "gradeLevel": "K",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about Langar, Kirtan, and the Khanda flag — now let's put it all together. Where do Sikhs gather to do all of these things?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A Gurdwara is the Sikh place of gathering and worship — its name means 'doorway to the Guru.' Inside, the Guru Granth Sahib (the sacred scripture) is kept and treated with great respect. When people visit, they take off their shoes and cover their heads as a sign of respect. It's also where Langar happens, where Kirtan is sung, and where the whole Sangat gathers together. Draw or describe one thing you would see or do if you visited a Gurdwara."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "A Gurdwara brings together everything you've learned this week and last week — Seva, Sangat, Kirtan, and respect, all in one place. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "enrichmentLinks": [
+      {
+        "label": "Keep reading: start the Santhya Path with Stage 1",
+        "url": "/santhya-path/muharni-baal-updesh",
+        "source": "sikhischool"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-k-2-4",
+    "lessonId": "lesson-sikhi-k-2-4",
+    "objectives": [
+      "Explain that a Gurdwara is the Sikh place of gathering and worship",
+      "Name at least one respectful practice when visiting (removing shoes, covering the head)",
+      "Connect the Gurdwara to Langar, Kirtan, and Sangat learned about this week and last"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review Langar, Kirtan, and the Khanda from this week and last.\n2. Introduce the Gurdwara as the place where all of these happen together.\n3. Introduce shoes-off and head-covering as signs of respect.\n4. Have the child draw or describe something they'd see or do at a Gurdwara.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: if the child has visited a real Gurdwara, ask them to describe their own memory rather than working from the general description alone",
+      "Ready for more: ask them to explain why removing shoes and covering the head are both ways of showing respect, even though they're different actions",
+      "Text-only content, per the platform's content policy — this is an introductory, name-level treatment; Grade 3's Sikhi course covers Gurdwara etiquette in more depth"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can explain a Gurdwara is where Sikhs gather and worship, and name at least one respectful practice (shoes off or head covered).",
+    "standardsRationale": "Introduces the Gurdwara as the physical/communal setting connecting this week's Kirtan and Khanda content with last week's Seva/Langar/Sangat, at an appropriately introductory K-level depth."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-k-2-4",
+    "lessonId": "lesson-sikhi-k-2-4",
+    "title": "What Is a Gurdwara?",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Gurdwara", "label": "The Sikh place of gathering and worship" },
+        { "trace": "Respect", "label": "Shown by taking off shoes and covering our heads" }
+      ]
+    }
+  }
+}

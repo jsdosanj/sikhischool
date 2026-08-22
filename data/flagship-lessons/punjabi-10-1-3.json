@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-10-1",
+    "courseId": "course-punjabi-10",
+    "order": 1,
+    "title": "Punjabi Poetry",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-10-1-3",
+    "unitId": "unit-punjabi-10-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "ਦੋਹਾ: A Traditional Two-Line Form",
+    "gradeLevel": "10",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned three poetic tools — ਲੈਅ, ਬਿੰਬ, ਉਪਮਾ. Today: a specific traditional form that uses all three in just two lines."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਦੋਹਾ is a traditional short poetic form built from two ਤੁਕ (lines) that work together to express one complete thought — often something reflective or wise, expressed compactly. Because it's so short, every word has to earn its place: a strong ਦੋਹਾ usually uses a clear ਬਿੰਬ (image) and steady ਲੈਅ (rhythm) rather than trying to say too much. Read this example structure: line one sets up an image or situation, line two delivers the thought or turn that completes it. Try writing your own two-line ਦੋਹਾ about something you've observed in everyday life — keep it short and let one strong image carry the meaning."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Writing within a tight two-line form is real practice in choosing words carefully — a skill that makes longer poems stronger too. Tomorrow you'll write a complete original poem combining everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-10-1-3",
+    "lessonId": "lesson-punjabi-10-1-3",
+    "objectives": [
+      "Describe ਦੋਹਾ as a traditional two-line poetic form expressing one complete thought",
+      "Write an original two-line ਦੋਹਾ using a clear image"
+    ],
+    "materialsNeeded": ["This week's rhythm/imagery/simile worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's three tools: ਲੈਅ, ਬਿੰਬ, ਉਪਮਾ.\n2. Introduce ਦੋਹਾ's two-line structure (setup line, then a completing thought).\n3. Model writing one example ਦੋਹਾ together.\n4. Have the child write their own.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: writing a complete original poem.",
+    "differentiationTips": [
+      "Struggling: have the child write their setup line and completing-thought line as two separate sentences first, then tighten them into a more poetic two lines",
+      "Ready for more: ask them to revise their ਦੋਹਾ to include a simile from Day 2, not just an image",
+      "The value of this exercise is brevity — resist letting the child expand it into more than two lines"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A ਦੋਹਾ is a traditional two-line poetic form expressing one complete thought. 2. Line one typically sets up an image or situation; line two delivers the completing thought. 3. A strong ਦੋਹਾ uses a clear image and steady rhythm rather than trying to say too much in a short space.",
+    "standardsRationale": "Directly addresses the course's 'Punjabi literary history, poetry, and formal writing' description by introducing a real traditional poetic form, applying the week's rhythm/imagery tools within a specific structural constraint."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-10-1-3",
+    "lessonId": "lesson-punjabi-10-1-3",
+    "title": "ਦੋਹਾ: A Traditional Two-Line Form",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer the question, then write your own original two-line ਦੋਹਾ.",
+      "prompts": [
+        { "prompt": "What is a ਦੋਹਾ, and how are its two lines typically structured?", "lines": 3 },
+        { "prompt": "Write your own original two-line ਦੋਹਾ:", "lines": 2 }
+      ]
+    }
+  }
+}

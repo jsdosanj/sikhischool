@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-10-1",
+    "courseId": "course-punjabi-10",
+    "order": 1,
+    "title": "Punjabi Poetry",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-10-1-5",
+    "unitId": "unit-punjabi-10-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Punjabi Poetry",
+    "gradeLevel": "10",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a real poetic toolkit — rhythm, imagery, simile, and a traditional form — then used all of it to write your own poem. Let's review the whole set."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: ਲੈਅ (rhythm) comes from a steady pattern of sound, often rhyme; ਬਿੰਬ (imagery) uses specific, sensory detail instead of vague description (Day 1). ਉਪਮਾ (simile) directly compares two different things, a type of the broader category ਅਲੰਕਾਰ (figurative language) (Day 2). ਦੋਹਾ is a traditional two-line form where the first line sets up an image and the second delivers a completing thought (Day 3). You then combined all of these into one original poem (Day 4). Look back at your Day 4 poem: identify exactly where in it you used ਬਿੰਬ, where you used ਉਪਮਾ, and describe its ਲੈਅ in one sentence."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now have real analytical and compositional tools for Punjabi poetry, not just a poem you wrote once. These same four tools will apply throughout this course as we study more of Punjabi's rich literary tradition."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-10-1-5",
+    "lessonId": "lesson-punjabi-10-1-5",
+    "objectives": [
+      "Review and correctly define ਲੈਅ, ਬਿੰਬ, ਉਪਮਾ, and ਦੋਹਾ",
+      "Identify these four elements within the student's own Day 4 poem"
+    ],
+    "materialsNeeded": ["Day 4's original poem worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child re-read their own Day 4 poem and label where each element appears.\n3. Complete the cumulative review worksheet.\n4. Discuss any uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — these four tools will be used throughout the rest of the course.",
+    "differentiationTips": [
+      "Struggling: allow the child to point to and read aloud (rather than write out) where each element appears in their poem",
+      "Ready for more: ask them to suggest one small revision to their Day 4 poem that would strengthen its ਲੈਅ or add a second ਉਪਮਾ",
+      "This is a good checkpoint to note which of the four elements (rhythm, imagery, simile, or the ਦੋਹਾ form) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. ਲੈਅ is rhythm, often from a steady sound pattern or rhyme. 2. ਬਿੰਬ is specific, sensory imagery. 3. ਉਪਮਾ is a direct comparison between two different things, part of ਅਲੰਕਾਰ (figurative language). 4. ਦੋਹਾ is a traditional two-line form: an image-setting line followed by a completing thought.",
+    "standardsRationale": "Consolidates this week's four poetic-analysis tools (rhythm, imagery, simile, traditional form) before the unit continues further into Punjabi's literary tradition, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-10-1-5",
+    "lessonId": "lesson-punjabi-10-1-5",
+    "title": "Punjabi Poetry: Week 1 Review",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Review your Day 4 poem and answer each question.",
+      "prompts": [
+        { "prompt": "Where in your poem did you use ਬਿੰਬ (imagery)?", "lines": 2 },
+        { "prompt": "Where in your poem did you use ਉਪਮਾ (simile)?", "lines": 2 },
+        { "prompt": "Describe your poem's ਲੈਅ (rhythm) in one sentence:", "lines": 2 }
+      ]
+    }
+  }
+}

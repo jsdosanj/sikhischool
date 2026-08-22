@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-6-2",
+    "courseId": "course-ela-6",
+    "order": 2,
+    "title": "Argumentative Writing",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-6-2-3",
+    "unitId": "unit-ela-6-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Addressing a Counterclaim",
+    "gradeLevel": "6",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've built your claim and evidence. Today: a genuinely strong argument also addresses the other side!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A counterclaim is the strongest reasonable argument someone could make AGAINST your claim. Addressing it — instead of ignoring it — actually makes your own argument stronger, because it shows you've thought it through fairly. After stating the counterclaim, a rebuttal explains why your original claim still holds up. Write the strongest counterclaim someone might make against your claim from Day 1, then write one sentence rebutting it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just wrote a real counterclaim and rebuttal, a genuinely advanced argumentative skill! Tomorrow we'll assemble your complete argument."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-6-2-3",
+    "lessonId": "lesson-ela-6-2-3",
+    "objectives": [
+      "Define a counterclaim as the strongest reasonable opposing argument",
+      "Write a counterclaim and a rebuttal for the child's own Day 1 claim"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's claim and evidence work.\n2. Introduce counterclaim and rebuttal, emphasizing that addressing the other side strengthens an argument.\n3. Have the child write their own counterclaim and rebuttal.\n4. Complete the worksheet.\n5. Preview tomorrow's full-assembly lesson.",
+    "differentiationTips": [
+      "Struggling: ask 'what would someone who disagrees with you actually say?' as a direct prompt for the counterclaim",
+      "Ready for more: ask the child if their rebuttal fully answers the counterclaim, or only partly — and how they'd strengthen it",
+      "This is a genuine step up in formality from Grade 5's simpler counterargument mention — this week requires a full stated counterclaim plus a real rebuttal"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended writing activity — check that the child's counterclaim is a genuine, reasonable opposing view (not a strawman) and that the rebuttal directly responds to it.",
+    "standardsRationale": "Directly addresses Common Core Grade 6 Writing standard W.6.1a: acknowledging alternate or opposing claims, a more formal requirement than earlier grades' argumentative writing."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-6-2-3",
+    "lessonId": "lesson-ela-6-2-3",
+    "title": "Addressing a Counterclaim",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a counterclaim against your Day 1 claim, then rebut it.",
+      "prompts": [
+        { "prompt": "Counterclaim:", "lines": 2 },
+        { "prompt": "My rebuttal:", "lines": 2 }
+      ]
+    }
+  }
+}

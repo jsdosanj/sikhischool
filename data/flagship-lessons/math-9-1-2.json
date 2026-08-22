@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-9-1",
+    "courseId": "course-math-9",
+    "order": 1,
+    "title": "Systems of Linear Equations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-9-1-2",
+    "unitId": "unit-math-9-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Solving by Substitution",
+    "gradeLevel": "9",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday's method only worked because both equations were already solved for y. Today, substitution — a method that works even when equations aren't in that convenient form."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Substitution means replacing a variable in one equation with an equivalent expression from the other. For y = 2x and x + y = 9: since y equals 2x, substitute '2x' in place of y in the second equation: x + 2x = 9. Now solve: 3x = 9, so x = 3. Then use x = 3 in either original equation to find y: y = 2(3) = 6. The solution is (3, 6). Solve this system using substitution: y = x + 4 and 2x + y = 10."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just solved a system using substitution — a method that works on almost any system. Tomorrow we'll learn a third method: elimination."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-9-1-2",
+    "lessonId": "lesson-math-9-1-2",
+    "objectives": [
+      "Solve a system of equations using the substitution method",
+      "Verify a solution works in both original equations"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's intersection method.\n2. Work through the y=2x, x+y=9 example together, step by step.\n3. Have the child solve y=x+4, 2x+y=10 independently.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: elimination.",
+    "differentiationTips": [
+      "Struggling: underline which variable is already isolated (y=...) before substituting, every time",
+      "Ready for more: ask them to solve a system where neither equation is already solved for a single variable, requiring an extra rearranging step first",
+      "Always have the child check their answer in BOTH original equations, not just the one they substituted into"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. y=2x, x+y=9: x=3, y=6. 2. y=x+4, 2x+y=10: substituting, 2x+x+4=10, 3x=6, x=2, y=6. Solution: (2,6).",
+    "standardsRationale": "Directly addresses Common Core Algebra 1 standard A-REI.6: solving systems of linear equations algebraically using substitution, a method that generalizes beyond the special case in Day 1."
+  },
+  "worksheet": {
+    "id": "worksheet-math-9-1-2",
+    "lessonId": "lesson-math-9-1-2",
+    "title": "Solving by Substitution",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each system using substitution.",
+      "rows": [
+        { "problem": "y = 2x and x + y = 9. Find (x, y)." },
+        { "problem": "y = x + 4 and 2x + y = 10. Find (x, y)." },
+        { "problem": "y = 3x and x + y = 12. Find (x, y)." }
+      ]
+    }
+  }
+}

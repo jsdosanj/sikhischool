@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-9-1",
+    "courseId": "course-math-9",
+    "order": 1,
+    "title": "Systems of Linear Equations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-9-1-5",
+    "unitId": "unit-math-9-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Systems of Linear Equations",
+    "gradeLevel": "9",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned three real methods for solving systems of equations, plus a genuine real-world application. Let's review it all."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a system's solution is the point where two equations are simultaneously true, graphically where their lines intersect (Day 1). Substitution replaces one variable with an equivalent expression from the other equation (Day 2). Elimination adds or subtracts equations to cancel a variable (Day 3). Systems model real situations like break-even points (Day 4). Solve one problem using each of the three methods below to show you've mastered all of them."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now have three real, reliable methods for solving systems of equations, a skill you'll use constantly throughout Algebra 1 and beyond."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-9-1-5",
+    "lessonId": "lesson-math-9-1-5",
+    "objectives": [
+      "Solve systems of equations using intersection, substitution, and elimination methods"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Complete the cumulative review worksheet, one problem per method from the week.\n3. Discuss any mismatches or uncertain answers together before finishing.\n4. Celebrate finishing the first full week of this unit — systems of equations will reappear constantly throughout Algebra 1.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them which method they'd choose for a new system, and why, before solving it",
+      "This is a good checkpoint to note which method needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. y=x+2, y=-x+8: x=3, y=5. 2. y=3x, x+y=16: x=4, y=12. 3. 2x+y=13, x-y=2: x=5, y=3.",
+    "standardsRationale": "Consolidates Common Core Algebra 1 A-REI.6/A-REI.11/A-CED.3 (systems of equations via graphing, substitution, elimination, and real-world modeling) before the unit moves to a new topic, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-9-1-5",
+    "lessonId": "lesson-math-9-1-5",
+    "title": "Systems of Linear Equations: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each system, using the method that fits best.",
+      "rows": [
+        { "problem": "y = x + 2 and y = -x + 8. Find (x, y)." },
+        { "problem": "y = 3x and x + y = 16. Find (x, y)." },
+        { "problem": "2x + y = 13 and x - y = 2. Find (x, y)." }
+      ]
+    }
+  }
+}

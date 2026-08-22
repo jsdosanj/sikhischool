@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-9-1",
+    "courseId": "course-math-9",
+    "order": 1,
+    "title": "Systems of Linear Equations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-9-1-4",
+    "unitId": "unit-math-9-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Solving a Real-World Break-Even Problem",
+    "gradeLevel": "9",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Systems of equations solve a genuinely common real-world question: at what point do two different pricing plans cost the same amount?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Phone Plan A costs $20 per month plus $0.10 per text. Phone Plan B costs $10 per month plus $0.15 per text. Set up two equations: y = 0.10x + 20 (Plan A) and y = 0.15x + 10 (Plan B), where x is number of texts and y is total cost. Since both equal y, set them equal: 0.10x + 20 = 0.15x + 10. Solve for x to find the 'break-even' number of texts where both plans cost the same, then find y (the cost at that point)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used a system of equations to find a genuine break-even point between two pricing plans. Tomorrow we'll review everything about systems of equations from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-9-1-4",
+    "lessonId": "lesson-math-9-1-4",
+    "objectives": [
+      "Set up a system of equations from a real-world pricing scenario",
+      "Solve for and interpret a break-even point"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's three solving methods.\n2. Work through the phone-plan example together, setting up both equations before solving.\n3. Discuss what the break-even point actually means (fewer texts = Plan B cheaper, more texts = Plan A cheaper).\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: provide both equations already set up, and have the child focus only on solving the system",
+      "Ready for more: ask them which plan is better for someone who sends fewer than 200 texts, and which for someone who sends more",
+      "This is exactly how real subscription/pricing comparisons work — connect it to something the child has actually seen (phone plans, streaming services)"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Setting 0.10x+20 = 0.15x+10 gives 0.05x=10, so x=200 texts. 2. At x=200, cost = 0.10(200)+20 = $40. 3. Below 200 texts, Plan B is cheaper; above 200 texts, Plan A is cheaper.",
+    "standardsRationale": "Directly addresses Common Core Algebra 1 standard A-CED.3/A-REI.6: applying systems of linear equations to model and solve real-world problems, a genuine culmination of the week's three solving methods."
+  },
+  "worksheet": {
+    "id": "worksheet-math-9-1-4",
+    "lessonId": "lesson-math-9-1-4",
+    "title": "Solving a Real-World Break-Even Problem",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Plan A: y = 0.10x + 20. Plan B: y = 0.15x + 10. Solve each problem.",
+      "rows": [
+        { "problem": "At how many texts (x) do both plans cost the same?" },
+        { "problem": "What is the total cost at that break-even point?" },
+        { "problem": "Which plan is cheaper for someone who sends fewer than 200 texts?" }
+      ]
+    }
+  }
+}

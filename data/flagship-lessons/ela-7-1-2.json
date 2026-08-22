@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-7-1",
+    "courseId": "course-ela-7",
+    "order": 1,
+    "title": "Analyzing an Author's Craft",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-7-1-2",
+    "unitId": "unit-ela-7-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Figurative Language: Similes and Metaphors",
+    "gradeLevel": "7",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you analyzed word choice and tone. Today, one of the most powerful craft tools authors use: figurative language that isn't meant to be taken literally."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A simile compares two unlike things using 'like' or 'as': 'Her anger was like a storm.' A metaphor makes the same kind of comparison, but states it directly, without 'like' or 'as': 'Her anger was a storm.' Both create vivid imagery by connecting an abstract idea (anger) to something concrete and familiar (a storm) — this helps readers FEEL the intensity, not just understand a fact. Compare: 'He was very tired' versus 'He was a wilted flower by the end of the day.' Which one makes you feel the tiredness more vividly, and why?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just analyzed how similes and metaphors create vivid imagery beyond plain description. Tomorrow we'll look at imagery that appeals directly to the five senses."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-7-1-2",
+    "lessonId": "lesson-ela-7-1-2",
+    "objectives": [
+      "Distinguish a simile (uses 'like' or 'as') from a metaphor (direct comparison)",
+      "Explain how figurative language creates more vivid meaning than plain, literal description"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's word-choice/tone analysis.\n2. Introduce simile vs. metaphor using the 'anger was a storm' examples.\n3. Compare the plain vs. figurative tiredness sentences, discussing why the figurative one feels more vivid.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: sensory imagery.",
+    "differentiationTips": [
+      "Struggling: focus on just spotting 'like' or 'as' as the clue for a simile, before tackling metaphor identification",
+      "Ready for more: ask them to write their own original metaphor for a feeling (excitement, boredom, nervousness)",
+      "Reading both example sentences aloud, with real expression, makes the emotional-impact difference much more obvious than reading silently"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 'Her anger was like a storm' is a simile (uses 'like'). 2. 'Her anger was a storm' is a metaphor (direct comparison). 3. The figurative sentence ('a wilted flower') is more vivid because it connects tiredness to a concrete, familiar image.",
+    "standardsRationale": "Directly addresses Common Core Grade 7 Reading standard RL.7.4: determining the meaning of figurative language and analyzing its impact on meaning and tone, continuing Day 1's word-choice analysis with a specific craft technique."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-7-1-2",
+    "lessonId": "lesson-ela-7-1-2",
+    "title": "Similes and Metaphors",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Identify each as a simile or metaphor, then explain its effect.",
+      "rows": [
+        { "problem": "'The classroom was a zoo.' Simile or metaphor?" },
+        { "problem": "'Her smile was like sunshine.' Simile or metaphor?" },
+        { "problem": "Why is 'a wilted flower' more vivid than 'very tired'?" }
+      ]
+    }
+  }
+}

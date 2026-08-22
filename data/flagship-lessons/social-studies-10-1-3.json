@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-10-1",
+    "courseId": "course-social-studies-10",
+    "order": 1,
+    "title": "Colonialism and the Modern World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-10-1-3",
+    "unitId": "unit-social-studies-10-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Two Strategies of Colonial Governance",
+    "gradeLevel": "10",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Not every colonized territory was governed the same way. Today: the two general strategies historians use to compare colonial administrations."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Historians generally describe two broad governance strategies. Direct rule meant the colonizing power replaced local political structures with its own administrators, laws, and institutions, governing the territory much like an extension of the home country. Indirect rule meant the colonizing power kept existing local rulers or institutions in place, governing through them while retaining ultimate control and often reshaping their role to serve colonial interests. Neither strategy meant colonized people had genuine self-determination — the real difference was in the visible structure of administration, not in who actually held power. Which strategy do you think would be harder for a colonized population to resist or organize against, and why?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Understanding these two governance strategies gives you a framework for comparing colonial administrations across different regions and time periods. Tomorrow we'll look at colonialism's economic impact."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-10-1-3",
+    "lessonId": "lesson-social-studies-10-1-3",
+    "objectives": [
+      "Distinguish direct rule from indirect rule as two general colonial governance strategies",
+      "Explain that neither strategy gave colonized populations genuine self-determination"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's three drivers of colonial expansion.\n2. Introduce direct rule and indirect rule as two general strategies, being clear that both meant colonial powers retained ultimate control.\n3. Discuss the reflection question about resistance together.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: colonialism's economic impact.",
+    "differentiationTips": [
+      "Struggling: use a simple comparison — direct rule is like 'replacing the local government,' indirect rule is like 'keeping the local government but controlling it from behind the scenes'",
+      "Ready for more: ask them to consider why a colonial power might choose indirect rule in one region and direct rule in another (cost, existing local institutions, population size)",
+      "Keep this lesson at the general comparative-framework level — specific regional applications come in later, more carefully sourced lessons"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Direct rule replaces local political structures with the colonizer's own administration. 2. Indirect rule keeps local rulers/institutions in place but under colonial control. 3. Neither gave colonized populations genuine self-determination — both retained ultimate control for the colonizing power.",
+    "standardsRationale": "Addresses the C3 Framework's Civics dimension (D2.Civ.1, comparing power structures and governance systems) and WA Social Studies' World History strand, building the comparative-governance framework this unit's regional case studies will apply."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-10-1-3",
+    "lessonId": "lesson-social-studies-10-1-3",
+    "title": "Two Strategies of Colonial Governance",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about direct rule and indirect rule.",
+      "prompts": [
+        { "prompt": "What is direct rule?", "lines": 2 },
+        { "prompt": "What is indirect rule?", "lines": 2 },
+        { "prompt": "Why did neither strategy give colonized populations genuine self-determination?", "lines": 3 }
+      ]
+    }
+  }
+}

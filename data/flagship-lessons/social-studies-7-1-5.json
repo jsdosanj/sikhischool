@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-7-1",
+    "courseId": "course-social-studies-7",
+    "order": 1,
+    "title": "Faith and Empire in the Medieval World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-7-1-5",
+    "unitId": "unit-social-studies-7-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Faith and Empire in the Medieval World",
+    "gradeLevel": "7",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you studied the Guru Period through a real world-history lens: geography, context, and institution-building. Let's bring it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: the Guru Period (1469-1708) transformed one teacher's message into an organized Panth over roughly two centuries (Day 1). Punjab's crossroads geography and religious diversity shaped Guru Nanak's message of unity (Day 2). Langar turned belief into daily practice (Day 3). A written scripture turned belief into lasting, fixed authority (Day 4). Using this week's world-history lens, explain in your own words why the Sikh Panth successfully grew from one teacher into a lasting religious tradition, using at least two of this week's ideas."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you now have real historical-analysis skills (geographic context, institution-building) applied to a genuine world-history case study, skills that will apply to every future civilization and movement you study."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-7-1-5",
+    "lessonId": "lesson-social-studies-7-1-5",
+    "objectives": [
+      "Recall the Guru Period timeline, geographic context, and the two institution-building strategies studied this week",
+      "Synthesize at least two of the week's ideas into an explanation of the Sikh Panth's growth"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Discuss the synthesis question together before writing.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — note that future weeks will look more closely at specific events and figures from this period, as Day 1 originally promised.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to predict what OTHER kinds of institutions (beyond Langar and scripture) a growing religious movement might need to build to last for centuries",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. The Guru Period lasted roughly two centuries, from 1469 to 1708. 2. Punjab's crossroads geography and religious diversity shaped the message of unity. 3. Langar turned belief into daily practice; scripture turned belief into lasting authority. 4. Answers will vary for the synthesis explanation — check it draws on at least two of the week's specific ideas.",
+    "standardsRationale": "Consolidates the week's C3 Framework History and Geography content with a genuine synthesis task before the unit moves to more specific events and figures, matching the 'consolidate before adding more' pacing established across this session and Day 1's own stated intent."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-7-1-5",
+    "lessonId": "lesson-social-studies-7-1-5",
+    "title": "Faith and Empire in the Medieval World: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "About how long did the Guru Period last, and between which years?" },
+        { "problem": "How did Punjab's geography shape Guru Nanak's message?" },
+        { "problem": "Name the two institution-building strategies studied this week." },
+        { "problem": "Using at least two of this week's ideas, explain why the Sikh Panth successfully grew and lasted." }
+      ]
+    }
+  }
+}

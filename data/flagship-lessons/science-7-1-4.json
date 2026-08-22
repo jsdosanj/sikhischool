@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-7-1",
+    "courseId": "course-science-7",
+    "order": 1,
+    "title": "Matter and Chemical Reactions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-7-1-4",
+    "unitId": "unit-science-7-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Reactions That Release or Absorb Energy",
+    "gradeLevel": "7",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Some chemical reactions make things feel warmer. Others make things feel colder. Today, discover why — and that both are completely normal chemistry."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "An exothermic reaction releases energy (usually as heat) into its surroundings — burning wood, rusting metal (very slowly), and a car engine burning fuel are all exothermic, and you can feel the heat they release. An endothermic reaction absorbs energy from its surroundings, making things feel cooler — an instant cold pack uses an endothermic reaction, and baking soda dissolving in water absorbs a small amount of heat too, feeling slightly cool to the touch. Try this: dissolve a spoonful of baking soda in a cup of room-temperature water, and feel the outside of the cup before and after — describe what you notice."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just investigated real energy changes in chemical reactions — exothermic and endothermic. Tomorrow we'll review everything about matter and chemical reactions from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-7-1-4",
+    "lessonId": "lesson-science-7-1-4",
+    "objectives": [
+      "Distinguish exothermic reactions (release energy) from endothermic reactions (absorb energy)",
+      "Investigate a real endothermic reaction (baking soda dissolving in water) and describe observed evidence"
+    ],
+    "materialsNeeded": ["Baking soda", "A cup of room-temperature water", "A spoon", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's chemical-reaction evidence and conservation of mass.\n2. Introduce exothermic vs. endothermic with the burning/cold-pack examples.\n3. Do the baking-soda-in-water investigation, feeling the cup before and after.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just one clear example of each type (burning = exothermic, cold pack = endothermic) rather than a longer list",
+      "Ready for more: research one more real example of each type and explain what evidence shows it's exothermic or endothermic",
+      "The baking-soda-in-water temperature change is subtle — set expectations that it's a small, gentle cooling, not a dramatic one"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Exothermic reactions release energy (heat) into their surroundings. 2. Endothermic reactions absorb energy from their surroundings. 3. Burning wood is exothermic; a cold pack is endothermic.",
+    "standardsRationale": "Connects to NGSS MS-PS1-6 (thermal energy release/absorption in chemical processes), rounding out the week's chemical-reaction unit with the energy dimension named in the course's own 'energy, matter, and chemical reactions' description."
+  },
+  "worksheet": {
+    "id": "worksheet-science-7-1-4",
+    "lessonId": "lesson-science-7-1-4",
+    "title": "Reactions That Release or Absorb Energy",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Label each reaction as exothermic or endothermic.",
+      "rows": [
+        { "problem": "Burning wood: exothermic or endothermic?" },
+        { "problem": "An instant cold pack: exothermic or endothermic?" },
+        { "problem": "Baking soda dissolving in water (feels slightly cool): exothermic or endothermic?" }
+      ]
+    }
+  }
+}

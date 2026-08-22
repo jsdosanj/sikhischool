@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-7-1",
+    "courseId": "course-science-7",
+    "order": 1,
+    "title": "Matter and Chemical Reactions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-7-1-3",
+    "unitId": "unit-science-7-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Conservation of Mass in Reactions",
+    "gradeLevel": "7",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "When wood burns, the leftover ash weighs much less than the original wood. Does matter actually disappear? Today's surprising answer: no."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The law of conservation of mass states that in a chemical reaction, the total mass of the substances you start with equals the total mass of what you end with — atoms rearrange into new combinations, but no atoms are created or destroyed. Wood seems to 'lose' mass when it burns, but that's because it's an open system: the wood combines with oxygen from the air, and much of the resulting mass escapes as smoke and gas you can't see or weigh. If you burned wood in a perfectly sealed container with a fixed amount of air, the total mass before and after would be exactly equal. Explain in your own words why the ash weighing less than the original wood doesn't violate conservation of mass."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just resolved a genuinely tricky science question using conservation of mass. Tomorrow we'll investigate reactions that release or absorb heat."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-7-1-3",
+    "lessonId": "lesson-science-7-1-3",
+    "objectives": [
+      "State the law of conservation of mass: total mass is unchanged in a chemical reaction",
+      "Explain why burning wood appears to lose mass without violating this law"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Pose the wood-burning mass question and let the child guess before explaining.\n2. Introduce conservation of mass and the open-vs-sealed-system distinction.\n3. Walk through why the ash-weighs-less observation doesn't violate the law.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: reactions that release or absorb heat.",
+    "differentiationTips": [
+      "Struggling: use a simpler example first — baking soda + vinegar in an OPEN cup (gas escapes, seems to lose mass) vs. in a SEALED balloon (gas is trapped, mass is conserved)",
+      "Ready for more: ask them to predict what would happen if you weighed a sealed balloon of baking soda and vinegar before and after the reaction",
+      "This is a genuinely counterintuitive idea for this age — expect real back-and-forth discussion, not an instant 'got it'"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Conservation of mass states the total mass before and after a chemical reaction stays the same. 2. Ash weighs less than wood because gases and smoke (which have real mass) escaped into the open air, not because mass was destroyed. 3. In a sealed container, the total mass before and after would be exactly equal.",
+    "standardsRationale": "Directly addresses NGSS MS-PS1-5: developing a model to describe that the total number of atoms does not change in a chemical reaction, resolving a genuinely common student misconception about burning and mass loss."
+  },
+  "worksheet": {
+    "id": "worksheet-science-7-1-3",
+    "lessonId": "lesson-science-7-1-3",
+    "title": "Conservation of Mass in Reactions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about conservation of mass.",
+      "rows": [
+        { "problem": "What does the law of conservation of mass state?" },
+        { "problem": "Why does burning wood appear to lose mass?" },
+        { "problem": "Would mass be conserved if wood burned in a sealed container? Why?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-12-1",
+    "courseId": "course-social-studies-12",
+    "order": 1,
+    "title": "How Government Works",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-12-1-2",
+    "unitId": "unit-social-studies-12-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Federalism: Dividing Power by Level",
+    "gradeLevel": "12",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you studied power divided across branches. Today: power divided across an entirely different dimension — levels of government."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Federalism divides governing power between the national (federal) government and state governments, each with real, distinct authority. The federal government generally handles matters requiring nationwide consistency — national defense, currency, interstate commerce. States generally handle matters closer to daily life — education systems, most criminal law, local infrastructure. Some powers are shared (both levels can tax, for example). This division exists for real reasons: it allows different states to make different choices suited to local needs, while keeping certain matters consistent nationwide. Explain why requiring national consistency for something like currency, but allowing state variation for something like education policy, might make practical sense."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand government power divided two ways: by branch (yesterday) and by level (today). Tomorrow we'll trace a concrete process: how an idea actually becomes a law."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-12-1-2",
+    "lessonId": "lesson-social-studies-12-1-2",
+    "objectives": [
+      "Define federalism as the division of power between national and state government",
+      "Explain why some matters benefit from national consistency while others benefit from state-level variation"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's separation of powers across branches.\n2. Introduce federalism as a different dividing dimension — by level, not branch.\n3. Discuss the currency-vs-education example.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: how a bill becomes a law.",
+    "differentiationTips": [
+      "Struggling: use concrete, familiar examples — a driver's license (state) vs. a passport (federal) — to make the level-division tangible",
+      "Ready for more: ask them to name one more example each of a federal-level and state-level responsibility, beyond the ones given",
+      "Keep this lesson at the structural level — specific policy debates about federal vs. state authority are out of scope here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Federalism divides power between the national and state governments. 2. National consistency for currency prevents chaos from 50 different currencies; state variation for education allows different communities to make choices suited to their own local needs and priorities.",
+    "standardsRationale": "Directly addresses the course's 'how government works' description, examining a second structural dimension of American government alongside yesterday's separation of powers."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-12-1-2",
+    "lessonId": "lesson-social-studies-12-1-2",
+    "title": "Federalism: Dividing Power by Level",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about federalism.",
+      "rows": [
+        { "problem": "What is federalism?" },
+        { "problem": "Name one federal-level and one state-level responsibility." },
+        { "problem": "Why might national consistency make sense for some matters but not others?" }
+      ]
+    }
+  }
+}

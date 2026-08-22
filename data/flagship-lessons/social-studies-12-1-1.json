@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-12-1",
+    "courseId": "course-social-studies-12",
+    "order": 1,
+    "title": "How Government Works",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-12-1-1",
+    "unitId": "unit-social-studies-12-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Why Separate Powers?",
+    "gradeLevel": "12",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Civics, Government & Economics. You've learned the three branches of government before — this year, go deeper: why does this structure exist at all?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The US Constitution divides government power across three branches — legislative (Congress, makes laws), executive (the President, enforces laws), judicial (courts, interprets laws) — specifically to prevent any single branch from accumulating too much power. Each branch also has real checks on the others: Congress can override a presidential veto with enough votes, the President nominates judges but the Senate must confirm them, courts can rule a law unconstitutional. This isn't just an org chart — it's a deliberate design choice reflecting a specific concern: that concentrated power, even with good intentions, tends toward abuse over time. Explain, in your own words, why designing a government around 'preventing abuse' is a different goal than designing one purely for 'efficiency.'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Understanding WHY separation of powers exists, not just naming the three branches, is real political-philosophy thinking. Tomorrow we'll look at another structural division: power between national and state government."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-12-1-1",
+    "lessonId": "lesson-social-studies-12-1-1",
+    "objectives": [
+      "Explain the purpose behind separation of powers, not just name the three branches",
+      "Distinguish a government designed to prevent abuse from one designed purely for efficiency"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Briefly review the three branches as prior knowledge.\n2. Introduce the deeper 'why' — preventing concentrated power/abuse, using the veto-override and judicial-nomination examples.\n3. Discuss the efficiency-vs-abuse-prevention design tension.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: federalism.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — one person holding all the keys to a building (efficient, but risky) vs. requiring two people to agree before opening certain doors (slower, but safer)",
+      "Ready for more: ask them to identify a real historical or hypothetical example where one branch's check on another actually mattered",
+      "This is the first lesson of the year — a good moment to frame the course as analytical civics, not just structural memorization"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Separation of powers exists to prevent any single branch from accumulating too much power. 2. A government designed for efficiency prioritizes speed and simplicity; one designed to prevent abuse deliberately accepts more friction/slowness in exchange for checks on concentrated power.",
+    "standardsRationale": "Directly addresses the course's 'how government works' description at a genuinely analytical level appropriate for Grade 12, building on the structural civics content introduced at Grade 8."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-12-1-1",
+    "lessonId": "lesson-social-studies-12-1-1",
+    "title": "Why Separate Powers?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about separation of powers.",
+      "prompts": [
+        { "prompt": "Why does the Constitution divide power across three branches?", "lines": 2 },
+        { "prompt": "Give one real example of a check one branch has on another.", "lines": 2 },
+        { "prompt": "Why is 'preventing abuse' a different design goal than 'efficiency'?", "lines": 3 }
+      ]
+    }
+  }
+}

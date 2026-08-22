@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-8-1",
+    "courseId": "course-ela-8",
+    "order": 1,
+    "title": "Formal Essay Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-8-1-3",
+    "unitId": "unit-ela-8-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Connecting Paragraphs Across an Essay",
+    "gradeLevel": "8",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've built one strong paragraph. But a real essay needs several body paragraphs working together — today, the transitions that connect them into one flowing argument."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Essay-level transitions are different from within-paragraph transitions — they connect one WHOLE paragraph's idea to the next, showing the reader how the argument is building. Phrases like 'Beyond this,' 'Just as important,' 'While some might argue X, an even stronger concern is Y,' or 'Building on this point' all signal a logical relationship between paragraphs, not just a new topic starting randomly. Write a second body paragraph for your essay (a new claim supporting the same thesis), and write a transition sentence connecting it back to your first body paragraph from yesterday."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected two body paragraphs into one flowing argument. Tomorrow we'll write a real conclusion that ties the whole essay together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-8-1-3",
+    "lessonId": "lesson-ela-8-1-3",
+    "objectives": [
+      "Distinguish essay-level transitions (connecting whole paragraphs) from sentence-level transitions",
+      "Write a second body paragraph with a transition connecting it to the first"
+    ],
+    "materialsNeeded": ["Yesterday's body paragraph worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's body paragraph.\n2. Introduce essay-level transition phrases, contrasting them with simple sentence connectors.\n3. Have the child draft a second body paragraph (a new claim) with a transition connecting it to the first.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: writing the conclusion.",
+    "differentiationTips": [
+      "Struggling: provide 3-4 transition phrases as a word bank to choose from rather than requiring original ones",
+      "Ready for more: ask them to write a transition that acknowledges a counterargument before pivoting to their second claim",
+      "Reading the two paragraphs aloud with and without the transition sentence makes the difference in flow immediately audible"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's own essay — check the second body paragraph follows the same Claim-Evidence-Reasoning structure as Day 2, and the transition genuinely connects the two paragraphs' ideas, not just announces a new topic.",
+    "standardsRationale": "Addresses Common Core Grade 8 Writing standard W.8.1c (use words, phrases, and clauses to create cohesion and clarify relationships), extending Grade 5's within-paragraph linking words to a full essay-level structural skill."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-8-1-3",
+    "lessonId": "lesson-ela-8-1-3",
+    "title": "Connecting Paragraphs",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a second body paragraph (Claim, Evidence, Reasoning) with a transition sentence connecting it to your first.",
+      "prompts": [
+        { "prompt": "Transition sentence:", "lines": 1 },
+        { "prompt": "Second body paragraph (Claim, Evidence, Reasoning):", "lines": 4 }
+      ]
+    }
+  }
+}

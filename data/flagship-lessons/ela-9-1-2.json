@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-9-1",
+    "courseId": "course-ela-9",
+    "order": 1,
+    "title": "Introduction to Rhetoric",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-9-1-2",
+    "unitId": "unit-ela-9-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Ethos: Establishing Credibility",
+    "gradeLevel": "9",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you spotted ethos in the garden speech's opening. Today, examine exactly HOW writers build credibility — and why an audience's trust has to be earned, not assumed."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Ethos can be built several ways: citing relevant personal experience (as in yesterday's opening), citing credentials or expertise, referencing trustworthy sources, or simply using a measured, fair-minded tone that signals the speaker has genuinely thought the issue through. Read this next part of the garden speech: 'I spoke with our school's science teacher, who confirmed the soil behind the gym tests well for growing vegetables, and with three other schools in our district that have run successful garden programs for over five years.' Identify all the ways this passage builds ethos — count at least two distinct credibility-building techniques."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified multiple techniques a writer uses to build genuine credibility. Tomorrow we'll examine pathos: how writers appeal to emotion."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-9-1-2",
+    "lessonId": "lesson-ela-9-1-2",
+    "objectives": [
+      "Identify multiple techniques for building ethos: experience, expert consultation, precedent, tone",
+      "Analyze a passage for specific ethos-building techniques"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's ethos identification.\n2. Introduce the several techniques for building ethos.\n3. Read today's passage together, identifying the science-teacher consultation and other-schools precedent as two distinct techniques.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: pathos.",
+    "differentiationTips": [
+      "Struggling: focus on identifying just the two clearest techniques (expert consultation, precedent from other schools) rather than a longer list",
+      "Ready for more: ask them to write one more sentence for the speech that would add ethos through a new technique",
+      "Genuine ethos-building (citing real, verifiable sources) is different from just claiming authority — discuss this distinction if it comes up naturally"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Ethos-building techniques include citing experience, expert consultation, referencing precedent, and using a measured tone. 2. This passage builds ethos through consulting the science teacher (expert consultation) and citing other schools' success (precedent).",
+    "standardsRationale": "Deepens Common Core RI.9-10.6's rhetoric-analysis standard with a specific, technique-level examination of ethos, the first of the week's three appeals studied in depth."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-9-1-2",
+    "lessonId": "lesson-ela-9-1-2",
+    "title": "Ethos: Establishing Credibility",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about ethos-building techniques.",
+      "rows": [
+        { "problem": "Name two techniques writers use to build ethos." },
+        { "problem": "What ethos technique does consulting the science teacher demonstrate?" },
+        { "problem": "What ethos technique does citing other schools' success demonstrate?" }
+      ]
+    }
+  }
+}

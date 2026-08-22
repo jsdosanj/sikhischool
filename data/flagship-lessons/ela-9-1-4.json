@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-9-1",
+    "courseId": "course-ela-9",
+    "order": 1,
+    "title": "Introduction to Rhetoric",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-9-1-4",
+    "unitId": "unit-ela-9-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Logos: The Logical Backbone",
+    "gradeLevel": "9",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Ethos earns trust and pathos earns feeling — but an argument still needs a logical backbone that actually holds up. Today, logos."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Logos is the logical structure of an argument: clear reasoning connecting evidence to a conclusion, often including facts, statistics, or a clear cause-and-effect chain. Read the garden speech's closing argument: 'If just one class period per week is devoted to garden work, and the garden yields even modest produce, that's enough vegetables to supply our cafeteria's salad bar twice a month — a real, measurable outcome from a small time investment.' This is logos: a clear if-then chain of reasoning leading to a specific, checkable claim. Identify the logical structure: what is the 'if' (the input/cause), and what is the 'then' (the resulting claim)?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified the logical if-then structure underlying a real logos appeal. Tomorrow we'll review all three appeals together and analyze the complete speech."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-9-1-4",
+    "lessonId": "lesson-ela-9-1-4",
+    "objectives": [
+      "Define logos as the logical structure connecting evidence to a conclusion",
+      "Identify the if-then reasoning chain in a logos-based passage"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review ethos and pathos from earlier this week.\n2. Introduce logos and the if-then reasoning structure.\n3. Read today's passage together, identifying the specific 'if' and 'then' parts.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review, analyzing the complete speech.",
+    "differentiationTips": [
+      "Struggling: physically underline the 'if' clause and circle the 'then' claim in the passage to make the structure visible",
+      "Ready for more: ask them to evaluate whether this logos claim is actually convincing — is the reasoning solid, or does it skip a step?",
+      "This is a good moment to discuss that logos, like pathos, can be used honestly or manipulatively (a claim can SOUND logical while skipping real evidence) — a genuine critical-thinking skill"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Logos is the logical structure connecting evidence to a conclusion. 2. The 'if' is devoting one class period weekly to garden work with modest yield. 3. The 'then' is enough vegetables to supply the salad bar twice a month.",
+    "standardsRationale": "Completes Common Core RI.9-10.6's three-appeal rhetoric analysis with logos, the reasoning-and-evidence appeal that completes the ethos/pathos/logos framework before Day 5's full synthesis."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-9-1-4",
+    "lessonId": "lesson-ela-9-1-4",
+    "title": "Logos: The Logical Backbone",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about logos.",
+      "rows": [
+        { "problem": "What is logos?" },
+        { "problem": "What is the 'if' (cause) in the passage's reasoning?" },
+        { "problem": "What is the 'then' (resulting claim) in the passage's reasoning?" }
+      ]
+    }
+  }
+}

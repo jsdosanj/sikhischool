@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-7-2",
+    "courseId": "course-science-7",
+    "order": 2,
+    "title": "Energy",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-7-2-1",
+    "unitId": "unit-science-7-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Kinetic and Potential Energy",
+    "gradeLevel": "7",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored matter and chemical reactions. This week: a new topic, energy!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Kinetic energy is the energy of motion — a moving car, a thrown ball, flowing water all have kinetic energy. Potential energy is stored energy based on position or condition — a ball held above the ground, a stretched rubber band, or a compressed spring all have potential energy, ready to be released. Classify these as kinetic or potential: a rock sitting at the edge of a cliff, a rock rolling down a hill."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just classified kinetic and potential energy! Tomorrow we'll learn how energy transfers between objects."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-7-2-1",
+    "lessonId": "lesson-science-7-2-1",
+    "objectives": [
+      "Define kinetic energy as the energy of motion and potential energy as stored energy",
+      "Correctly classify a stationary cliff-edge rock (potential) and a rolling rock (kinetic)"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's matter/chemical-reactions work briefly.\n2. Introduce kinetic and potential energy with real examples.\n3. Have the child classify the two rock scenarios.\n4. Complete the worksheet.\n5. Preview tomorrow's energy-transfer lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple physical demonstration — holding a ball still (potential) then dropping it (kinetic) — to make the distinction concrete",
+      "Ready for more: ask the child to think of a real example where an object has both kinetic and potential energy at the same time",
+      "Opens this week's energy thread from the course's own description, using classic, well-established physics examples"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The rock at the cliff edge has potential energy (stored, based on position). The rolling rock has kinetic energy (energy of motion).",
+    "standardsRationale": "Directly addresses NGSS Grade 6-8 Physical Science standard MS-PS3-1: relationship between kinetic energy and mass/speed, opening this week's energy thread."
+  },
+  "worksheet": {
+    "id": "worksheet-science-7-2-1",
+    "lessonId": "lesson-science-7-2-1",
+    "title": "Kinetic and Potential Energy",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Classify each scenario as kinetic or potential energy.",
+      "rows": [
+        { "problem": "A rock sitting at the edge of a cliff." },
+        { "problem": "A rock rolling down a hill." },
+        { "problem": "A stretched rubber band, held still." }
+      ]
+    }
+  }
+}

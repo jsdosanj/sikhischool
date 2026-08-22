@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-7-2",
+    "courseId": "course-science-7",
+    "order": 2,
+    "title": "Energy",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-7-2-2",
+    "unitId": "unit-science-7-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Energy Transfer",
+    "gradeLevel": "7",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you classified kinetic and potential energy. Today: how energy actually moves from one object to another!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Energy transfer happens when energy moves from one object or system to another, without changing form. When a moving pool ball hits a still one, kinetic energy transfers from the first ball to the second. When you touch a hot pan, thermal energy transfers from the pan to your hand. Describe a real example of energy transfer you've experienced, and identify what type of energy was involved."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just described a real energy transfer! Tomorrow we'll learn about energy transformations, when energy changes form."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-7-2-2",
+    "lessonId": "lesson-science-7-2-2",
+    "objectives": [
+      "Define energy transfer as energy moving between objects without changing form",
+      "Describe a real personal example of energy transfer"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's kinetic/potential energy work.\n2. Introduce energy transfer using the pool-ball and hot-pan examples.\n3. Have the child describe their own real example.\n4. Complete the worksheet.\n5. Preview tomorrow's energy-transformation lesson.",
+    "differentiationTips": [
+      "Struggling: use a real physical demonstration (rolling one ball into another) to make transfer visible",
+      "Ready for more: ask the child to explain why the second pool ball starts moving using the idea of energy transfer, not just 'it got hit'",
+      "This lesson deliberately distinguishes 'transfer' (same form, different location) from tomorrow's 'transformation' (form changes) — name that distinction explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended reflection activity — check that the child describes a real, sensible energy-transfer example and correctly identifies the energy type involved (kinetic, thermal, etc.).",
+    "standardsRationale": "Directly addresses NGSS Grade 6-8 Physical Science standard MS-PS3-2: energy transfer, continuing this week's energy thread."
+  },
+  "worksheet": {
+    "id": "worksheet-science-7-2-2",
+    "lessonId": "lesson-science-7-2-2",
+    "title": "Energy Transfer",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe a real example of energy transfer you've experienced.",
+      "prompts": [
+        { "prompt": "My example:", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-7-2",
+    "courseId": "course-science-7",
+    "order": 2,
+    "title": "Energy",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-7-2-3",
+    "unitId": "unit-science-7-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Energy Transformations",
+    "gradeLevel": "7",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned energy transfer. Today: energy transformation, when energy actually changes form!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "An energy transformation happens when energy changes from one form into another. A battery-powered toy car transforms chemical energy (stored in the battery) into kinetic energy (motion). Remember last week's chemical reactions? Many of them transform chemical energy into thermal energy (heat) or light energy. Describe the energy transformation happening in a burning candle."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just described a real energy transformation, connecting back to last week's chemistry! Tomorrow we'll learn about conservation of energy."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-7-2-3",
+    "lessonId": "lesson-science-7-2-3",
+    "objectives": [
+      "Define energy transformation as energy changing from one form to another",
+      "Describe the chemical-to-thermal/light transformation in a burning candle"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's kinetic/potential/transfer work.\n2. Introduce energy transformation using the battery-car example.\n3. Have the child describe the candle transformation, connecting to last week's chemical reactions.\n4. Complete the worksheet.\n5. Preview tomorrow's conservation-of-energy lesson.",
+    "differentiationTips": [
+      "Struggling: use the battery-car example again, walking through it step by step (chemical energy stored → motor runs → kinetic energy) before the candle example",
+      "Ready for more: ask the child to identify all the energy transformations happening when they turn on a flashlight",
+      "This lesson deliberately connects back to last week's chemical-reactions content — point out that connection explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child correctly identifies the candle transforming chemical energy (stored in the wax) into thermal energy (heat) and light energy as it burns.",
+    "standardsRationale": "Directly addresses NGSS Grade 6-8 Physical Science standard MS-PS3-5: energy transformations, connecting this week's energy thread back to last week's chemical-reactions content."
+  },
+  "worksheet": {
+    "id": "worksheet-science-7-2-3",
+    "lessonId": "lesson-science-7-2-3",
+    "title": "Energy Transformations",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about energy transformations.",
+      "rows": [
+        { "problem": "What energy transformation happens in a battery-powered toy car?" },
+        { "problem": "What energy transformation happens in a burning candle?" }
+      ]
+    }
+  }
+}

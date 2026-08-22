@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-12-2",
+    "courseId": "course-ela-12",
+    "order": 2,
+    "title": "Planning Your Capstone Literature Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-12-2-1",
+    "unitId": "unit-ela-12-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Makes a Capstone Project Different",
+    "gradeLevel": "12",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you built media/AI literacy skills. This week: planning your own independent literature capstone project!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A capstone project is different from a regular assignment: it's self-directed (you choose the focus), sustained (built over weeks, not days), and independent (you're responsible for your own planning and pacing, not just following step-by-step instructions). This combines two of this course's threads — independent literature study and the capstone research project — into one real, extended piece of work. Explain why a project requiring self-directed planning over several weeks demands different skills than a single-day assignment."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just reviewed what makes a capstone project genuinely different! Tomorrow we'll start choosing your own literary text."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-12-2-1",
+    "lessonId": "lesson-ela-12-2-1",
+    "objectives": [
+      "Understand a capstone project as self-directed, sustained, and independent",
+      "Explain why self-directed, multi-week work demands different skills than a single-day assignment"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's media/AI-literacy work briefly.\n2. Introduce the capstone project's self-directed, sustained, independent nature.\n3. Have the child explain why this demands different skills.\n4. Complete the worksheet.\n5. Preview tomorrow's text-choosing lesson.",
+    "differentiationTips": [
+      "Struggling: contrast one familiar single-day assignment directly against the capstone's multi-week scope to make the difference concrete",
+      "Ready for more: ask the child what personal habits (time management, self-motivation) they think will matter most for a project like this",
+      "Opens this week's capstone-planning thread, combining the course's own independent-literature-study and capstone-research-project threads into one sequence"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A self-directed, multi-week project requires planning ahead, pacing your own work over time without daily reminders, and staying motivated through a longer effort — these are genuinely different skills than completing a single clearly-defined assignment in one sitting, closer to real independent research or professional work.",
+    "standardsRationale": "Directly addresses this course's capstone-research-project thread from its own description, opening it with a genre-definition lesson before the planning steps in the days ahead."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-12-2-1",
+    "lessonId": "lesson-ela-12-2-1",
+    "title": "What Makes a Capstone Project Different",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about capstone projects.",
+      "prompts": [
+        { "prompt": "Name three things that make a capstone project different from a regular assignment.", "lines": 1 },
+        { "prompt": "Why does self-directed, multi-week work require different skills?", "lines": 2 }
+      ]
+    }
+  }
+}

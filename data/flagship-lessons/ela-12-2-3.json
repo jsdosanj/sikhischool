@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-12-2",
+    "courseId": "course-ela-12",
+    "order": 2,
+    "title": "Planning Your Capstone Literature Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-12-2-3",
+    "unitId": "unit-ela-12-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Developing a Focused Research Question",
+    "gradeLevel": "12",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've chosen your text. Today: develop the focused question that will drive your entire capstone!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong capstone research question is specific and analytical, not a simple yes/no or a question with an obvious answer — connecting back to Grade 11's research-question skills, but applied to literary analysis specifically. 'What themes are in this book?' is too broad, while 'How does the author use unreliable narration to explore the theme of memory?' is focused and analytical. Write a first draft of a focused research question about the text you chose yesterday."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just drafted your capstone's driving research question! Tomorrow we'll build a realistic project timeline."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-12-2-3",
+    "lessonId": "lesson-ela-12-2-3",
+    "objectives": [
+      "Distinguish a focused, analytical research question from a too-broad one",
+      "Draft a first-version focused research question about the chosen capstone text"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet, Grade 11 research-question notes if available", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's text-choice work and Grade 11's research-question skills briefly.\n2. Introduce focused vs. too-broad questions using the two examples.\n3. Have the child draft their own research question.\n4. Complete the worksheet.\n5. Preview tomorrow's timeline-planning lesson.",
+    "differentiationTips": [
+      "Struggling: start with a too-broad question about the child's chosen text, then work together to narrow it down one step at a time",
+      "Ready for more: ask the child to explain why their question can't be answered with a simple yes or no",
+      "This is a genuinely important skill directly reused from Grade 11's research-process unit, now applied specifically to literary analysis"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the question is specific and analytical (asking HOW or WHY something works in the text), not a broad or simple-answer question, and that it's genuinely about the child's chosen capstone text.",
+    "standardsRationale": "Directly addresses this course's capstone-research-project thread, applying Grade 11's research-question skill to literary analysis specifically."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-12-2-3",
+    "lessonId": "lesson-ela-12-2-3",
+    "title": "Developing a Focused Research Question",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Draft your capstone research question.",
+      "prompts": [
+        { "prompt": "Your first-draft research question:", "lines": 2 },
+        { "prompt": "Why is this question focused, not too broad?", "lines": 2 }
+      ]
+    }
+  }
+}

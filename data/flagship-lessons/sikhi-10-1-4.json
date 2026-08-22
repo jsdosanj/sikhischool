@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-10-1",
+    "courseId": "course-sikhi-10",
+    "order": 1,
+    "title": "The Sikh Empire",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-10-1-4",
+    "unitId": "unit-sikhi-10-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Prosperity and Patronage",
+    "gradeLevel": "10",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "A stable, pluralistic state with a modern army still needs one more thing to be remembered as a genuine golden era: prosperity that reached its people and institutions."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Under Ranjit Singh, Lahore grew into a major cultural and economic center, and Punjab as a whole is remembered for relative peace, trade, and infrastructure investment compared to the instability of the preceding decades. Ranjit Singh was also a notable patron of Sikh institutions: he funded the gold-plating of Harmandir Sahib (the Golden Temple) in Amritsar, a project that gave the shrine the appearance it's still known for today, and he supported other gurdwaras and religious institutions across his territory. This patronage reflected his broader approach: political and military strength used partly to support and elevate the religious and cultural institutions of his own community. Explain why funding a religious institution's upkeep and beautification is a meaningful act for a ruler, beyond just its immediate cost."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Ranjit Singh's patronage of Harmandir Sahib is a lasting, visible legacy of the Empire's prosperity — a physical connection between this history and a place many Sikhs visit today. Tomorrow we'll review everything about the Sikh Empire from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-10-1-4",
+    "lessonId": "lesson-sikhi-10-1-4",
+    "objectives": [
+      "Describe Lahore's growth and Punjab's relative prosperity under the Sikh Empire",
+      "Explain Ranjit Singh's patronage of Harmandir Sahib and its lasting significance"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the Misl system and the Fauj-i-Khas from earlier this week.\n2. Introduce Lahore's growth and general Punjab prosperity under Ranjit Singh.\n3. Introduce his patronage of Harmandir Sahib's gold-plating.\n4. Discuss why funding religious institutions is a meaningful act.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: connect this lesson directly to something the child may have seen — photos or a visit to the Golden Temple — as a concrete, visible link to this history",
+      "Ready for more: ask them to consider what patronage of a religious institution communicates to a ruler's subjects, beyond religious devotion alone",
+      "Text-only content, per the platform's content policy — no depiction of any Guru, only historical/architectural facts about the shrine itself"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Lahore became a major cultural and economic center; Punjab is remembered for relative prosperity and stability under Ranjit Singh. 2. Ranjit Singh funded the gold-plating of Harmandir Sahib, giving it the appearance it's still known for today. 3. Funding a religious institution's upkeep is meaningful because it demonstrates lasting commitment beyond immediate cost, elevating something the whole community values.",
+    "standardsRationale": "Directly addresses the course's 'Sikh history from the Mughal era through the Sikh Empire' description, connecting the Empire's political stability to a specific, well-documented, visible legacy still relevant to Sikh life today."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-10-1-4",
+    "lessonId": "lesson-sikhi-10-1-4",
+    "title": "Prosperity and Patronage",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about prosperity and patronage under the Sikh Empire.",
+      "rows": [
+        { "problem": "What did Lahore become under Ranjit Singh's rule?" },
+        { "problem": "What specific act of patronage did Ranjit Singh fund at Harmandir Sahib?" },
+        { "problem": "Why is funding a religious institution's upkeep meaningful beyond its cost?" }
+      ]
+    }
+  }
+}

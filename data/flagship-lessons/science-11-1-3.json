@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-11-1",
+    "courseId": "course-science-11",
+    "order": 1,
+    "title": "Describing Motion: Kinematics",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-11-1-3",
+    "unitId": "unit-science-11-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Acceleration",
+    "gradeLevel": "11",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Velocity itself can change — speeding up, slowing down, or turning. Today, the quantity that measures exactly how fast velocity changes."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Acceleration is the rate of change of velocity over time: a = Δv / Δt, where Δv is the change in velocity (final velocity minus initial velocity). Acceleration is also a vector — positive acceleration means velocity is increasing in the positive direction (or an object is slowing down while moving in the negative direction), and the units are meters per second, per second (m/s²). For an object whose velocity changes from 5 m/s to 20 m/s over 5 seconds: the change in velocity is 20-5=15 m/s, so the acceleration is 15/5 = 3 m/s². This means the object's velocity increases by 3 m/s every single second. Find the acceleration of an object whose velocity changes from 30 m/s to 10 m/s over 4 seconds, and explain what the sign of your answer means."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have all three core kinematic quantities: displacement, velocity, and acceleration. Tomorrow we'll combine them into equations that let you solve real motion problems."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-11-1-3",
+    "lessonId": "lesson-science-11-1-3",
+    "objectives": [
+      "Define acceleration as the rate of change of velocity, a = Δv/Δt",
+      "Calculate acceleration and interpret the sign of the result"
+    ],
+    "materialsNeeded": ["Yesterday's velocity worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's velocity formula.\n2. Introduce acceleration and the a=Δv/Δt formula, working through the 5-to-20 m/s example.\n3. Discuss units (m/s²) and what a negative acceleration means (slowing down, or speeding up in the negative direction).\n4. Have the child solve the 30-to-10 m/s example independently.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: the kinematic equations.",
+    "differentiationTips": [
+      "Struggling: use a car analogy — pressing the gas pedal is positive acceleration, pressing the brake while moving forward is negative acceleration (deceleration)",
+      "Ready for more: ask them to explain why an object moving at a constant, unchanging velocity has zero acceleration, even though it's still moving",
+      "The negative-acceleration-means-slowing-down intuition breaks down for objects moving in the negative direction — flag this nuance if the child seems ready for it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Change in velocity: 10-30 = -20 m/s. Acceleration: -20/4 = -5 m/s². The negative sign means the object is decelerating (slowing down), since it's still moving in the positive direction but losing speed.",
+    "standardsRationale": "Directly addresses NGSS HS-PS2-1, completing the three core kinematic quantities (displacement, velocity, acceleration) before combining them into the kinematic equations tomorrow."
+  },
+  "worksheet": {
+    "id": "worksheet-science-11-1-3",
+    "lessonId": "lesson-science-11-1-3",
+    "title": "Acceleration",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "An object's velocity changes from 30 m/s to 10 m/s over 4 seconds. Answer each question.",
+      "rows": [
+        { "problem": "What is the change in velocity?" },
+        { "problem": "What is the acceleration?" },
+        { "problem": "What does the sign of your answer mean about the object's motion?" }
+      ]
+    }
+  }
+}

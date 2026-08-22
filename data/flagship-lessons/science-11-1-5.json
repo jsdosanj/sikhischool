@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-11-1",
+    "courseId": "course-science-11",
+    "order": 1,
+    "title": "Describing Motion: Kinematics",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-11-1-5",
+    "unitId": "unit-science-11-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Describing Motion",
+    "gradeLevel": "11",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a complete kinematic toolkit — from a precise definition of motion to equations that solve real motion problems. Let's put it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: distance is the total scalar path length; displacement is the vector net change in position (Day 1). Average velocity is displacement divided by time, v=Δx/Δt (Day 2). Acceleration is the rate of change of velocity, a=Δv/Δt (Day 3). For constant acceleration, v=v₀+at finds final velocity and d=v₀t+½at² finds displacement (Day 4). An object starts at v₀=6 m/s with acceleration 5 m/s² over 4 seconds. Find its final velocity and displacement, then explain in your own words how displacement, velocity, and acceleration are all connected."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you can now describe and calculate motion precisely, the essential foundation for the forces unit ahead, since Newton's laws describe exactly what causes the acceleration you calculated this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-11-1-5",
+    "lessonId": "lesson-science-11-1-5",
+    "objectives": [
+      "Apply the kinematic equations to a new constant-acceleration scenario",
+      "Explain how displacement, velocity, and acceleration are conceptually connected"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed cumulative review worksheet", "Pencil", "Calculator"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child solve the v0=6, a=5, t=4 problem independently.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of Physics — preview that next unit's forces will explain WHAT CAUSES acceleration.",
+    "differentiationTips": [
+      "Struggling: allow the child to work through the two calculations (final velocity, then displacement) as fully separate steps, checking each before moving to the next",
+      "Ready for more: ask them to predict what would happen to the displacement if the acceleration doubled but time stayed the same, without recalculating first",
+      "This is a good checkpoint to note which part of the kinematics chain (distance/displacement, velocity, acceleration, or the equations) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Final velocity: v = 6 + 5(4) = 26 m/s. Displacement: d = 6(4) + ½(5)(4²) = 24 + 40 = 64 meters. The three quantities are connected: velocity is the rate of change of position (displacement over time), and acceleration is the rate of change of velocity over time — each builds on the one before it.",
+    "standardsRationale": "Consolidates NGSS HS-PS2-1's kinematic foundation before the unit moves to Newton's laws of motion (forces), matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-11-1-5",
+    "lessonId": "lesson-science-11-1-5",
+    "title": "Describing Motion: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "An object starts at v0=6 m/s with acceleration 5 m/s^2 for 4 seconds. Answer each question.",
+      "rows": [
+        { "problem": "What is the final velocity?" },
+        { "problem": "What is the displacement?" },
+        { "problem": "How are displacement, velocity, and acceleration connected?" }
+      ]
+    }
+  }
+}

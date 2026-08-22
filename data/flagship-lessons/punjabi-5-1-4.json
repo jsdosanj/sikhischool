@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-5-1",
+    "courseId": "course-punjabi-5",
+    "order": 1,
+    "title": "Reading Punjabi Folk Tales",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-5-1-4",
+    "unitId": "unit-punjabi-5-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing Your Own Folk Tale",
+    "gradeLevel": "5",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਹੁਣ ਤੁਹਾਡੀ ਵਾਰੀ ਹੈ! (Now it's your turn!) You've read a real folk tale and found its lesson — today, write your own."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "One new word: ਜਾਨਵਰ (janwar, animal). Just like the Thirsty Crow, your story should have a ਜਾਨਵਰ as the main character, face a problem, and solve it in a way that teaches a real ਸਿੱਖਿਆ (lesson). Plan your story in three simple parts: 1) what problem does your animal have? 2) how does it solve the problem? 3) what lesson does that teach? Write your story using 4-5 short Gurmukhi sentences, reusing vocabulary you already know from this week and earlier grades."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਸ਼ਾਬਾਸ਼! (Well done!) You just wrote your own original folk tale with a real lesson — real basic composition in Punjabi."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-5-1-4",
+    "lessonId": "lesson-punjabi-5-1-4",
+    "objectives": [
+      "Learn 1 new vocabulary word: ਜਾਨਵਰ",
+      "Plan and write an original short story (4-5 sentences) featuring an animal, a problem, and a lesson"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets for vocabulary reference", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the Thirsty Crow's three-part structure (problem, solution, lesson).\n2. Introduce ਜਾਨਵਰ and help the child choose their own animal character.\n3. Plan the three parts together before writing full sentences.\n4. Have the child write their story, reusing known vocabulary where possible.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: allow the story to closely mirror the Thirsty Crow's structure with just the animal and problem changed",
+      "Ready for more: encourage a genuinely original problem and solution, not just a retelling of the crow story with a different animal",
+      "It's fine if the child plans in English first, then translates key sentences into Punjabi with help"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Answers will vary based on the child's own story — check that it includes an animal character, a clear problem, a solution, and a stated lesson, using only vocabulary the child has already learned or can look up.",
+    "standardsRationale": "Directly addresses the course's 'basic composition' description, giving the child real creative-writing practice in Punjabi following the folk-tale structure just studied."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-5-1-4",
+    "lessonId": "lesson-punjabi-5-1-4",
+    "title": "Writing Your Own Folk Tale",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Plan and write your own short folk tale with an animal, a problem, a solution, and a lesson.",
+      "prompts": [
+        { "prompt": "My animal and its problem:", "lines": 2 },
+        { "prompt": "How the animal solves the problem:", "lines": 2 },
+        { "prompt": "My story's lesson:", "lines": 2 },
+        { "prompt": "My full story (4-5 sentences in Punjabi):", "lines": 5 }
+      ]
+    }
+  }
+}

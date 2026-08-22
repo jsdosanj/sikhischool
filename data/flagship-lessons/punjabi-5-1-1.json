@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-5-1",
+    "courseId": "course-punjabi-5",
+    "order": 1,
+    "title": "Reading Punjabi Folk Tales",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-5-1-1",
+    "unitId": "unit-punjabi-5-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is a Folk Tale?",
+    "gradeLevel": "5",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਅੱਜ ਅਸੀਂ ਲੋਕ ਕਹਾਣੀਆਂ ਬਾਰੇ ਸਿੱਖਾਂਗੇ। (Today we'll learn about folk tales.) A folk tale is a story passed down through generations, usually teaching a real lesson."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "New vocabulary: ਪੀੜ੍ਹੀ (peerhi, generation), ਸਿੱਖਿਆ (sikhya, a lesson or moral), and ਬੁੱਢਾ (budhha, old man). Folk tales are told by one ਪੀੜ੍ਹੀ (generation) to the next, and almost always give the listener a real ਸਿੱਖਿਆ (lesson) at the end — that's what makes them different from just any story. Read this short story: ਇੱਕ ਬੁੱਢਾ ਆਪਣੇ ਪਿੰਡ ਵਿੱਚ ਰਹਿੰਦਾ ਸੀ। ਉਹ ਹਰ ਬੱਚੇ ਨੂੰ ਸਿੱਖਿਆ ਦਿੰਦਾ ਸੀ। (An old man lived in his village. He gave every child a lesson.) What do you think this old man's role in his village was?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਸ਼ਾਬਾਸ਼! (Well done!) You now understand what makes a folk tale special: it's passed down across generations and always carries a real lesson. Tomorrow we'll read a real, famous folk tale."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-5-1-1",
+    "lessonId": "lesson-punjabi-5-1-1",
+    "objectives": [
+      "Define a folk tale as a story passed down through generations that teaches a lesson",
+      "Learn 3 new vocabulary words: ਪੀੜ੍ਹੀ, ਸਿੱਖਿਆ, ਬੁੱਢਾ"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask the child if they know any folk tales, from any culture.\n2. Introduce the definition of a folk tale and today's 3 new words.\n3. Read the short story together, discussing the old man's likely role.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: reading a real, famous folk tale.",
+    "differentiationTips": [
+      "Struggling: focus on just the definition (passed down + teaches a lesson) without requiring all 3 vocabulary words to be memorized yet",
+      "Ready for more: ask them to name a folk tale from a different culture they already know and compare it to this definition",
+      "All Gurmukhi words/sentences used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਪੀੜ੍ਹੀ = generation. 2. ਸਿੱਖਿਆ = a lesson or moral. 3. ਬੁੱਢਾ = old man. 4. A folk tale is passed down through generations and teaches a lesson.",
+    "standardsRationale": "Introduces the genre concept directly, matching the course's own 'Punjabi folk tales' description, before reading a real example story on Day 2."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-5-1-1",
+    "lessonId": "lesson-punjabi-5-1-1",
+    "title": "What Is a Folk Tale?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the English meaning of each Gurmukhi word, then answer the last question.",
+      "rows": [
+        { "problem": "ਪੀੜ੍ਹੀ" },
+        { "problem": "ਸਿੱਖਿਆ" },
+        { "problem": "ਬੁੱਢਾ" },
+        { "problem": "What two things make a story a 'folk tale'?" }
+      ]
+    }
+  }
+}

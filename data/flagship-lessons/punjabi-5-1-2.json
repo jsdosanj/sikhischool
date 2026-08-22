@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-5-1",
+    "courseId": "course-punjabi-5",
+    "order": 1,
+    "title": "Reading Punjabi Folk Tales",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-5-1-2",
+    "unitId": "unit-punjabi-5-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Thirsty Crow",
+    "gradeLevel": "5",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਅੱਜ ਇੱਕ ਮਸ਼ਹੂਰ ਕਹਾਣੀ ਪੜ੍ਹਾਂਗੇ। (Today we'll read a famous story.) This is one of the best-known folk tales told across generations: the story of a thirsty crow."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read this real folk tale carefully: ਇੱਕ ਕਾਂ ਤਿਹਾਇਆ ਸੀ। ਉਸ ਨੇ ਇੱਕ ਘੜਾ ਦੇਖਿਆ। ਘੜੇ ਵਿੱਚ ਥੋੜ੍ਹਾ ਪਾਣੀ ਸੀ। ਕਾਂ ਨੇ ਪੱਥਰ ਘੜੇ ਵਿੱਚ ਪਾਏ। ਪਾਣੀ ਉੱਪਰ ਵਧਿਆ। ਕਾਂ ਨੇ ਪਾਣੀ ਪੀਤਾ। (A crow was thirsty. He saw a pot. There was a little water in the pot. The crow put stones in the pot. The water rose up. The crow drank the water.) As you read, predict: why do you think the crow put stones in the pot, before you reach that part of the story?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just read a real, famous folk tale in Punjabi. Tomorrow we'll dig deeper into what lesson this story is really teaching."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-5-1-2",
+    "lessonId": "lesson-punjabi-5-1-2",
+    "objectives": [
+      "Read a real, well-known folk tale (the Thirsty Crow) in Gurmukhi with comprehension",
+      "Practice the reading-comprehension strategy of predicting what happens next"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce this as a real, famous folk tale, not an invented one.\n2. Read the story together slowly, pausing before the stones-in-the-pot part to have the child predict why.\n3. Discuss whether their prediction matched what actually happened.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: finding the story's lesson.",
+    "differentiationTips": [
+      "Struggling: read the story aloud to the child first, then have them re-read it themselves for practice",
+      "Ready for more: ask them to retell the story in their own words, in Punjabi or English",
+      "All Gurmukhi words/sentences used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The crow was thirsty and found a pot with a little water. 2. The crow put stones in the pot. 3. The water rose up so the crow could drink it.",
+    "standardsRationale": "Directly addresses the course's 'Punjabi folk tales' and 'reading comprehension' descriptions with a real, well-known story rather than an invented plot, teaching the predicting-while-reading comprehension strategy."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-5-1-2",
+    "lessonId": "lesson-punjabi-5-1-2",
+    "title": "The Thirsty Crow",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the story.",
+      "rows": [
+        { "problem": "Why was the crow looking for water?" },
+        { "problem": "What did the crow put in the pot?" },
+        { "problem": "Why did the crow put stones in the pot?" }
+      ]
+    }
+  }
+}

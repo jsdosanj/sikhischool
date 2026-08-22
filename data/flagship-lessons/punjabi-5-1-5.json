@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-5-1",
+    "courseId": "course-punjabi-5",
+    "order": 1,
+    "title": "Reading Punjabi Folk Tales",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-5-1-5",
+    "unitId": "unit-punjabi-5-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Reading Punjabi Folk Tales",
+    "gradeLevel": "5",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਬਹੁਤ ਕੁਝ ਸਿੱਖਿਆ! (This week you learned so much!) Let's review the vocabulary, the real folk tale, and your own story."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a folk tale (Day 1) is passed down through ਪੀੜ੍ਹੀਆਂ (generations) and gives a real ਸਿੱਖਿਆ (lesson). You read the real story of the Thirsty Crow (Day 2), found its lesson about ਸਿਆਣਪ (wisdom) and being ਚਲਾਕ (clever) (Day 3), and wrote your own original folk tale about a ਜਾਨਵਰ (animal) (Day 4). Read your own story from yesterday out loud, and then read the Thirsty Crow one more time — notice how both stories follow the same structure."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਸ਼ਾਬਾਸ਼! (Well done!) You now understand real Punjabi folk tales — both reading a famous one and writing your very own — plus real reading-comprehension and composition skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-5-1-5",
+    "lessonId": "lesson-punjabi-5-1-5",
+    "objectives": [
+      "Recall all 6 new vocabulary words learned this week",
+      "Compare the structure of the real folk tale and their own original story"
+    ],
+    "materialsNeeded": ["All 4 worksheets from this week", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through vocabulary review of all 4 days together, out loud.\n2. Have the child read their own story aloud, then re-read the Thirsty Crow.\n3. Discuss the shared structure (animal, problem, solution, lesson) between both stories.\n4. Complete the cumulative review worksheet.\n5. Celebrate finishing a real week of reading comprehension AND composition in Punjabi.",
+    "differentiationTips": [
+      "Struggling: focus the comparison discussion on just one shared element (like 'both have an animal') rather than all four structural parts",
+      "Ready for more: ask them to suggest one way they could make their own story even stronger next time",
+      "This is a genuine milestone — reading a real folk tale and writing an original one in the same week — worth celebrating explicitly"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. ਪੀੜ੍ਹੀ = generation. 2. ਸਿਆਣਪ = wisdom. 3. ਚਲਾਕ = clever. 4. ਜਾਨਵਰ = animal.",
+    "standardsRationale": "Consolidates the week's reading comprehension, folk-tale genre knowledge, and basic composition skills into one final review, matching the course's own description end to end."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-5-1-5",
+    "lessonId": "lesson-punjabi-5-1-5",
+    "title": "Reading Punjabi Folk Tales: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the English meaning of each Gurmukhi word from this week.",
+      "rows": [
+        { "problem": "ਪੀੜ੍ਹੀ" },
+        { "problem": "ਸਿਆਣਪ" },
+        { "problem": "ਚਲਾਕ" },
+        { "problem": "ਜਾਨਵਰ" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-7-2",
+    "courseId": "course-social-studies-7",
+    "order": 2,
+    "title": "The Silk Road: Medieval Trade Networks",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-7-2-1",
+    "unitId": "unit-social-studies-7-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Was the Silk Road?",
+    "gradeLevel": "7",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored the Guru Period and Punjab's crossroads geography. This week: the vast trade network connecting medieval Asia to Europe!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Silk Road wasn't a single road at all — it was a vast network of overland and sea trade routes connecting East Asia, Central Asia, South Asia, the Middle East, Africa, and Europe over hundreds of years during the medieval period. Merchants rarely traveled the whole route themselves; instead, goods passed through many hands along the way. Why do you think a network of connected routes, rather than one continuous road, made more sense for medieval trade?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what the Silk Road really was! Tomorrow we'll learn what actually traveled along it."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-7-2-1",
+    "lessonId": "lesson-social-studies-7-2-1",
+    "objectives": [
+      "Understand the Silk Road as a network of trade routes, not a single road",
+      "Explain why a network structure suited medieval long-distance trade"
+    ],
+    "materialsNeeded": ["A world map, if available", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Guru Period/Punjab geography content briefly.\n2. Introduce the Silk Road as a trade network, not one road.\n3. Discuss why a network structure made sense.\n4. Complete the worksheet.\n5. Preview tomorrow's goods-and-ideas lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple relay-race analogy — goods passing from one trader to the next rather than one person carrying everything the whole way",
+      "Ready for more: ask the child to name the continents the Silk Road network connected",
+      "Opens this week's medieval-world-history thread with a topic that geographically connects to last week's Punjab-crossroads content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reasoning activity — check that the child gives a sensible explanation, such as a network being more flexible, shorter for individual traders, or safer than one person traveling the entire distance.",
+    "standardsRationale": "Directly addresses the course's 'medieval through early modern world' description, opening this week's trade-networks thread with real, verifiable geography and history."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-7-2-1",
+    "lessonId": "lesson-social-studies-7-2-1",
+    "title": "What Was the Silk Road?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain why a network of routes made sense for medieval trade.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

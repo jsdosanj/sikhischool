@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-9-1",
+    "courseId": "course-punjabi-9",
+    "order": 1,
+    "title": "Introduction to Translation Practice",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-9-1-3",
+    "unitId": "unit-punjabi-9-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Translating Punjabi to English",
+    "gradeLevel": "9",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਹੁਣ ਉਲਟ ਦਿਸ਼ਾ! (Now the opposite direction!) Translating Punjabi to English requires re-ordering words back into Subject-Verb-Object."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Translating from Punjabi to English means reversing yesterday's process: read the Punjabi Subject-Object-Verb sentence, identify each word's meaning, then reorder into English Subject-Verb-Object. Translate: ਛੋਟੀ ਕੁੜੀ ਦੁੱਧ ਪੀਂਦੀ ਹੈ (ਛੋਟੀ = small, ਕੁੜੀ = girl, ਦੁੱਧ = milk, ਪੀਂਦੀ ਹੈ = drinks). Identify each word's meaning first, then write the correctly reordered English sentence."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just translated a real sentence from Punjabi back into natural English. Tomorrow we'll translate a short paragraph, combining both directions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-9-1-3",
+    "lessonId": "lesson-punjabi-9-1-3",
+    "objectives": [
+      "Translate a Punjabi sentence into natural English",
+      "Correctly reverse Subject-Object-Verb order into Subject-Verb-Object for English"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's English-to-Punjabi translation.\n2. Work through the ਛੋਟੀ ਕੁੜੀ ਦੁੱਧ ਪੀਂਦੀ ਹੈ example together.\n3. Have the child translate one more Punjabi sentence independently.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: translating a full paragraph.",
+    "differentiationTips": [
+      "Struggling: have the child identify each word's meaning first (writing English under each Punjabi word) before attempting to reorder into a sentence",
+      "Ready for more: ask them to translate a sentence with an adjective describing the object too, not just the subject",
+      "All Gurmukhi words/sentences used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਛੋਟੀ ਕੁੜੀ ਦੁੱਧ ਪੀਂਦੀ ਹੈ। = The small girl drinks milk. 2. ਵੱਡਾ ਮੁੰਡਾ ਕਿਤਾਬ ਪੜ੍ਹਦਾ ਹੈ। = The big boy reads a book.",
+    "standardsRationale": "Completes the two-directional translation skill (English-to-Punjabi from Day 2, Punjabi-to-English here), addressing the course's 'translation practice' description from both directions before Day 4's paragraph-level synthesis."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-9-1-3",
+    "lessonId": "lesson-punjabi-9-1-3",
+    "title": "Translating Punjabi to English",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Translate each Punjabi sentence into English.",
+      "rows": [
+        { "problem": "ਛੋਟੀ ਕੁੜੀ ਦੁੱਧ ਪੀਂਦੀ ਹੈ।" },
+        { "problem": "ਵੱਡਾ ਮੁੰਡਾ ਕਿਤਾਬ ਪੜ੍ਹਦਾ ਹੈ।" },
+        { "problem": "ਲਾਲ ਕਿਤਾਬ ਵੱਡੀ ਹੈ।" }
+      ]
+    }
+  }
+}

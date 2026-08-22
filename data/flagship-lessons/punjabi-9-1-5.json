@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-9-1",
+    "courseId": "course-punjabi-9",
+    "order": 1,
+    "title": "Introduction to Translation Practice",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-9-1-5",
+    "unitId": "unit-punjabi-9-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Introduction to Translation Practice",
+    "gradeLevel": "9",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਅਸਲ ਅਨੁਵਾਦ ਦਾ ਅਭਿਆਸ ਕੀਤਾ! (This week you practiced real translation!) Let's review everything."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: English follows Subject-Verb-Object order, Punjabi follows Subject-Object-Verb (Day 1). You translated sentences English-to-Punjabi (Day 2) and Punjabi-to-English (Day 3), always checking word order and gender agreement. You translated a complete short paragraph (Day 4). Read your paragraph translation from yesterday aloud, then answer the review questions below."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਸ਼ਾਬਾਸ਼! (Well done!) You now understand a real structural difference between English and Punjabi, and you've practiced genuine two-directional translation, including at the paragraph level."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-9-1-5",
+    "lessonId": "lesson-punjabi-9-1-5",
+    "objectives": [
+      "Recall the word-order difference between English and Punjabi",
+      "Demonstrate two-directional translation skill through review questions"
+    ],
+    "materialsNeeded": ["All 4 worksheets from this week", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child read their own paragraph translation from Day 4 aloud.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing a real week of translation practice, in both directions and at the paragraph level.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to translate one more sentence of their own choosing, in either direction",
+      "This is a genuine milestone — real two-directional translation practice, matching the course's own 'translation practice' description"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. English follows Subject-Verb-Object; Punjabi follows Subject-Object-Verb. 2. 'The cat is small' = ਬਿੱਲੀ ਛੋਟੀ ਹੈ। 3. ਮੁੰਡਾ ਸਕੂਲ ਜਾਂਦਾ ਹੈ। = The boy goes to school.",
+    "standardsRationale": "Consolidates the week's word-order concept and two-directional translation practice, matching the course's own 'translation practice' description end to end."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-9-1-5",
+    "lessonId": "lesson-punjabi-9-1-5",
+    "title": "Introduction to Translation Practice: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "What word order does English follow? What about Punjabi?" },
+        { "problem": "Translate: 'The cat is small.' (ਬਿੱਲੀ = cat, ਛੋਟੀ = small)" },
+        { "problem": "Translate: ਮੁੰਡਾ ਸਕੂਲ ਜਾਂਦਾ ਹੈ।" }
+      ]
+    }
+  }
+}

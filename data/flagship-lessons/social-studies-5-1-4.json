@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-5-1",
+    "courseId": "course-social-studies-5",
+    "order": 1,
+    "title": "Indigenous Peoples of North America Before European Contact",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-5-1-4",
+    "unitId": "unit-social-studies-5-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "How Historians Learn About the Past",
+    "gradeLevel": "5",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned real facts about nations that existed long before written European records of them. How do historians actually know all this?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Historians use several kinds of evidence to learn about the past. Archaeology examines physical objects left behind — tools, pottery, building foundations, the trade goods you studied yesterday. Oral tradition is history passed down through spoken storytelling across generations, a method many Indigenous nations used (and still use) to preserve their own history accurately. Primary sources are firsthand records from the time being studied — for pre-contact history, that mostly means archaeological evidence and oral tradition, since written records from this specific period are limited. Historians combine multiple types of evidence, rather than relying on just one, to build the most accurate picture possible."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand the real tools historians use to study the past, especially periods with limited written records. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-5-1-4",
+    "lessonId": "lesson-social-studies-5-1-4",
+    "objectives": [
+      "Identify archaeology, oral tradition, and primary sources as tools historians use to study the past",
+      "Explain why historians combine multiple types of evidence rather than relying on just one"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask how the child thinks historians know things about a time before written records existed.\n2. Introduce archaeology, oral tradition, and primary sources, connecting archaeology back to Day 3's trade evidence.\n3. Discuss why using multiple evidence types together is more reliable than using just one.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just archaeology, since it directly connects to yesterday's trade-evidence lesson",
+      "Ready for more: ask them why oral tradition might sometimes be more accurate for certain kinds of history than physical objects alone",
+      "This is a genuine historical-thinking skill (evaluating sources) that will apply across every future history unit, not just this one"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Archaeology studies physical objects left behind, like tools and pottery. 2. Oral tradition is history passed down through spoken storytelling. 3. Historians combine multiple types of evidence to build the most accurate picture possible.",
+    "standardsRationale": "Addresses the C3 Framework's Skills dimension (evaluating sources and evidence) directly, a foundational historical-thinking skill the rest of the course will rely on."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-5-1-4",
+    "lessonId": "lesson-social-studies-5-1-4",
+    "title": "How Historians Learn About the Past",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about how historians learn about the past.",
+      "rows": [
+        { "problem": "What is archaeology?" },
+        { "problem": "What is oral tradition?" },
+        { "problem": "Why do historians combine multiple types of evidence instead of relying on just one?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-5-1",
+    "courseId": "course-social-studies-5",
+    "order": 1,
+    "title": "Indigenous Peoples of North America Before European Contact",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-5-1-5",
+    "unitId": "unit-social-studies-5-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Indigenous Peoples Before European Contact",
+    "gradeLevel": "5",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you began US History at its true starting point: the diverse, organized, connected Indigenous nations of North America. Let's review everything together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: North America was home to hundreds of distinct Indigenous nations, not one single group (Day 1). Geography shaped very different ways of life across regions — farming villages, bison-hunting, irrigation farming, and fishing (Day 2). Long-distance trade evidence shows these nations were connected across huge distances (Day 3). Historians use archaeology, oral tradition, and primary sources together to learn about the past (Day 4). On a blank map, label the four regions you learned and their way of life."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you now have a real, respectful foundation in North America's Indigenous nations before European contact, and the historical-thinking skills to keep learning as the course moves forward into colonization and the founding of the United States."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-5-1-5",
+    "lessonId": "lesson-social-studies-5-1-5",
+    "objectives": [
+      "Recall the diversity, regional geography, trade networks, and historical methods studied this week",
+      "Apply this week's knowledge by labeling a blank map with regions and ways of life"
+    ],
+    "materialsNeeded": ["A blank or simple outline map of North America", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Complete the map-labeling activity together.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — note that future weeks will move into European colonization and the founding of the United States, building on this foundation.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to explain why starting US History with these nations, rather than with European arrival, gives a more complete picture",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Hundreds of distinct nations, not one group. 2. Geography shaped different ways of life (farming, hunting, irrigation, fishing) across regions. 3. Trade evidence (seashells, obsidian, copper) shows these nations were connected across huge distances. 4. Historians use archaeology, oral tradition, and primary sources together.",
+    "standardsRationale": "Consolidates the week's C3 Framework History, Geography, Economics, and Skills dimensions before the course moves into European colonization, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-5-1-5",
+    "lessonId": "lesson-social-studies-5-1-5",
+    "title": "Indigenous Peoples Before European Contact: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "Were North America's first peoples one single group, or many distinct nations?" },
+        { "problem": "Name one way geography shaped a regional way of life." },
+        { "problem": "What kind of evidence shows these nations traded across huge distances?" },
+        { "problem": "Name two tools historians use to learn about the past." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-5-1",
+    "courseId": "course-social-studies-5",
+    "order": 1,
+    "title": "Indigenous Peoples of North America Before European Contact",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-5-1-1",
+    "unitId": "unit-social-studies-5-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Hundreds of Distinct Nations",
+    "gradeLevel": "5",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Before we study European colonization and the founding of the United States, we need to understand the land and peoples that were already here. This week, we begin US History with the diverse Indigenous nations of North America."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Long before European contact, North America was home to hundreds of distinct Indigenous nations — each with its own name, language, government, and way of life. They were not one single group, but many different peoples, just as different from each other as, say, France is from Japan today. Historians estimate millions of people lived across the continent, organized into complex societies with their own systems of trade, governance, and culture. As we study this week, remember: 'Indigenous peoples' is not one story, but hundreds of distinct ones."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand that North America's first peoples were hundreds of distinct nations, not one single group. Tomorrow we'll explore how geography shaped very different ways of life across the continent."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-5-1-1",
+    "lessonId": "lesson-social-studies-5-1-1",
+    "objectives": [
+      "Understand that North America was home to hundreds of distinct Indigenous nations before European contact, not one homogeneous group",
+      "Recognize that these nations had complex, organized societies with their own governments and cultures"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask what the child already knows about Indigenous peoples in North America.\n2. Introduce the 'hundreds of distinct nations' framing, using the France-vs-Japan analogy to make the diversity concrete.\n3. Discuss why it matters to avoid treating all Indigenous peoples as one single group.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: how geography shaped different ways of life.",
+    "differentiationTips": [
+      "Struggling: focus on just the core idea (many distinct nations, not one) without requiring specific numbers or names yet",
+      "Ready for more: ask them to think of other historical examples where very different groups get incorrectly lumped together as 'one people'",
+      "Keep this deliberately general and respectful, matching the same content-sensitivity scoping used for Washington's Indigenous peoples in Grade 4 — deeper, region-specific detail comes in future lessons"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. North America was home to hundreds of distinct Indigenous nations before European contact. 2. They had their own languages, governments, and ways of life. 3. Historians estimate millions of people lived across the continent.",
+    "standardsRationale": "Establishes the C3 Framework History dimension's foundational fact (diversity and complexity of pre-contact Indigenous societies) before the course moves into colonization and founding — matching the course's own 'Indigenous peoples, European colonization, and the founding of the United States' description in order."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-5-1-1",
+    "lessonId": "lesson-social-studies-5-1-1",
+    "title": "Hundreds of Distinct Nations",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "How many distinct Indigenous nations lived in North America before European contact?" },
+        { "problem": "What are two things that made these nations different from one another?" },
+        { "problem": "About how many people did historians estimate lived across the continent?" }
+      ]
+    }
+  }
+}

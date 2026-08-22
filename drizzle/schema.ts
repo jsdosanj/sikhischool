@@ -181,6 +181,23 @@ export const scriptureSections = sqliteTable("scripture_sections", {
   masteryQuizId: text("mastery_quiz_id"),
 });
 
+// Real, verbatim page-level Gurbani text migrated from sikh-archive's production
+// corpus (sggs_pages / scripture_pages, BaniDB-sourced) — one row per ang/page.
+// `payload` is the source's own structured JSON verbatim (gurmukhi text plus
+// line-by-line Punjabi meaning); it uses standard Gurbani punctuation but is NOT
+// specially vishraam-annotated beyond that. See scripts/migrate-gurbani-corpus.ts.
+export const scripturePages = sqliteTable(
+  "scripture_pages",
+  {
+    id: text("id").primaryKey(),
+    sectionId: text("section_id").notNull().references(() => scriptureSections.id),
+    source: text("source").notNull(), // G | D | B (SGGS | Dasam Granth | Sarbloh Granth)
+    pageNumber: integer("page_number").notNull(), // ang/page number
+    payload: text("payload").notNull(), // verbatim source JSON (gurmukhi + line-by-line meaning)
+  },
+  (table) => [unique().on(table.source, table.pageNumber)],
+);
+
 export const gurbaniGlossary = sqliteTable("gurbani_glossary", {
   id: text("id").primaryKey(),
   term: text("term").notNull(),

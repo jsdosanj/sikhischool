@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getStageBySlug } from "@/lib/santhya-path";
+import { getStageBySlug, getScripturePageRange, migratedScriptureSource } from "@/lib/santhya-path";
 import SanthyaAudioPlayer from "@/components/SanthyaAudioPlayer";
 
 // Server-rendered on demand, not statically generated — the stage list comes from
@@ -20,6 +20,8 @@ export default async function SanthyaStagePage({
   const section = stage.section;
   const tracks = section?.audioTracks ?? [];
   const externalReader = section?.externalReader;
+  const migratedSource = migratedScriptureSource(section?.textRef ?? null);
+  const scriptureRange = migratedSource ? await getScripturePageRange(migratedSource) : null;
 
   return (
     <main className="mx-auto max-w-3xl flex-1 p-8">
@@ -46,13 +48,22 @@ export default async function SanthyaStagePage({
         </Link>
       )}
 
+      {scriptureRange && (
+        <Link
+          href={`/santhya-path/${stage.slug}/${scriptureRange.min}`}
+          className="mt-6 inline-block rounded bg-[var(--color-saffron)] px-4 py-2 text-sm font-semibold text-[#2a1c06] hover:brightness-105"
+        >
+          Start reading &rarr;
+        </Link>
+      )}
+
       {tracks.length > 0 ? (
         <SanthyaAudioPlayer tracks={tracks} />
-      ) : (
+      ) : !scriptureRange ? (
         <p className="mt-6 rounded-lg border border-[var(--foreground)]/15 p-5 text-sm text-[var(--foreground)]/70">
           The interactive reader for this stage is still being built. Check back soon.
         </p>
-      )}
+      ) : null}
 
       {section?.audioNote && (
         <p className="mt-3 text-xs text-[var(--foreground)]/50">Audio: {section.audioNote}</p>

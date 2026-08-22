@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-7-1",
+    "courseId": "course-sikhi-7",
+    "order": 1,
+    "title": "Sikh Identity and the Articles of Faith",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-7-1-3",
+    "unitId": "unit-sikhi-7-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Kara and Kachera: Restraint and Readiness",
+    "gradeLevel": "7",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you paired Kesh and Kangha. Today, another natural pair: Kara and Kachera."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Kara (a steel bracelet) is worn on the wrist as a constant, physical reminder — a Sikh's hand should be restrained from wrong action, and connected instead to the values they've committed to. It's literally impossible to ignore, since you see and feel it constantly. Kachera (a specific cotton undergarment) represents self-control and readiness — historically practical for movement and action when needed, and symbolically a statement of moral self-control at all times. Together, Kara and Kachera teach a connected lesson about restraint: not just restraint from acting wrongly, but readiness to act rightly when needed. Think about why a physical, constantly-felt reminder (like Kara) might be more effective than just remembering a rule mentally."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined how a second pair of Kakars work together around restraint and readiness. Tomorrow we'll look at the fifth article, Kirpan, and its real meaning."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-7-1-3",
+    "lessonId": "lesson-sikhi-7-1-3",
+    "objectives": [
+      "Explain the individual meanings of Kara (restraint) and Kachera (readiness/self-control)",
+      "Explain how a constant physical reminder differs from a mentally-remembered rule"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Kesh/Kangha pairing.\n2. Deepen Kara and Kachera's individual meanings.\n3. Discuss why a physical, constant reminder (Kara) might work differently than just remembering a rule.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: Kirpan.",
+    "differentiationTips": [
+      "Struggling: focus on Kara alone first (the more concrete, easily-explained article) before adding Kachera",
+      "Ready for more: ask them to think of a modern example of a physical object used as a constant reminder of a commitment or value",
+      "Text-only content, per the platform's content policy — no depiction of any Guru or person, general/symbolic discussion only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Kara represents restraint — a constant physical reminder against wrong action. 2. Kachera represents self-control and readiness. 3. A physical reminder is constantly felt, unlike a rule you have to consciously remember.",
+    "standardsRationale": "Deepens the third and fourth of the course's named articles of faith, continuing the paired-analysis pattern from Day 2 and building toward Day 4's treatment of the final article, Kirpan."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-7-1-3",
+    "lessonId": "lesson-sikhi-7-1-3",
+    "title": "Kara and Kachera: Restraint and Readiness",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What does Kara represent?" },
+        { "problem": "What does Kachera represent?" },
+        { "problem": "Why might a physical reminder work differently than a mentally-remembered rule?" }
+      ]
+    }
+  }
+}

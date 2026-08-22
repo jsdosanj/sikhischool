@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-7-1",
+    "courseId": "course-sikhi-7",
+    "order": 1,
+    "title": "Sikh Identity and the Articles of Faith",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-7-1-4",
+    "unitId": "unit-sikhi-7-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Kirpan: A Symbol of Responsibility",
+    "gradeLevel": "7",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "The Kirpan is often the most misunderstood of the Five Kakars. Today, its real meaning: a symbol of moral responsibility, not aggression."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Kirpan is a ceremonial sword, representing a Sikh's duty to defend justice and protect anyone vulnerable or oppressed, including standing up for people of any faith or background who need protection — not a weapon meant for aggression or harm. It's fundamentally about taking real, active responsibility for others rather than staying passive when someone needs defending. Carrying this responsibility as a visible, worn symbol is a serious, lifelong commitment, not a casual choice. Think about the difference between a symbol of readiness-to-protect and a symbol of aggression — why does that distinction matter?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the real, respectful meaning behind one of the most misunderstood symbols in Sikhi. Tomorrow we'll review all Five Kakars together as one complete identity."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-7-1-4",
+    "lessonId": "lesson-sikhi-7-1-4",
+    "objectives": [
+      "Explain the Kirpan's real meaning: a duty to defend justice and protect the vulnerable, not aggression",
+      "Distinguish a symbol of protective responsibility from a symbol of aggression"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask the child what they think a Kirpan might mean, and gently correct any misconception about it being aggressive.\n2. Introduce its real meaning: duty to protect, not attack.\n3. Discuss the protection-vs-aggression distinction and why it matters.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review of all Five Kakars.",
+    "differentiationTips": [
+      "Struggling: focus on the single core idea — 'it means you'll help protect someone who needs it, not that you'll hurt someone' — kept simple and reassuring",
+      "Ready for more: ask them why explaining a misunderstood symbol accurately and respectfully matters, both for Sikhs and for people learning about Sikhi from outside",
+      "This is a genuinely sensitive topic worth handling with care — keep the tone calm, respectful, and focused on responsibility, not conflict"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The Kirpan represents a duty to defend justice and protect the vulnerable. 2. It is not meant as a symbol of aggression or harm. 3. It represents taking active responsibility for others, not staying passive.",
+    "standardsRationale": "Completes the course's five named 'articles of faith' with a careful, respectful treatment of the most commonly misunderstood one, directly serving the course's own 'Sikh identity' description by helping students understand and accurately explain it."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-7-1-4",
+    "lessonId": "lesson-sikhi-7-1-4",
+    "title": "Kirpan: A Symbol of Responsibility",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What does the Kirpan represent?" },
+        { "problem": "Is the Kirpan meant as a symbol of aggression?" },
+        { "problem": "What kind of responsibility does carrying a Kirpan represent?" }
+      ]
+    }
+  }
+}

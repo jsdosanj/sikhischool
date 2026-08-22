@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-10-2",
+    "courseId": "course-ela-10",
+    "order": 2,
+    "title": "Introduction to Media Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-10-2-3",
+    "unitId": "unit-ela-10-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Recognizing Persuasive Techniques",
+    "gradeLevel": "10",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've identified purpose and audience. Today: specific techniques media uses to persuade!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Persuasive media often uses recognizable techniques: emotional appeal (targeting a feeling, like yesterday's 'tired and stuck'), loaded language (words with strong positive or negative connotations, like 'champions'), and selective framing (choosing which facts to include or leave out to support a particular impression). Read this new example: 'Don't miss out — join thousands of satisfied customers before this limited-time offer disappears forever!' Identify at least two different persuasive techniques used in this sentence, and name which one each is."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified real persuasive techniques in media! Tomorrow we'll analyze a complete example using everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-10-2-3",
+    "lessonId": "lesson-ela-10-2-3",
+    "objectives": [
+      "Name three persuasive techniques: emotional appeal, loaded language, selective framing",
+      "Identify at least two techniques within the 'limited-time offer' example sentence"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's how/purpose/audience work briefly.\n2. Introduce the three persuasive techniques with clear definitions.\n3. Have the child identify at least two techniques in the example sentence.\n4. Complete the worksheet.\n5. Preview tomorrow's combined-analysis lesson.",
+    "differentiationTips": [
+      "Struggling: point to 'don't miss out' and 'disappears forever' specifically and ask what feeling (urgency, fear of missing out) they create, before asking for independent identification",
+      "Ready for more: ask the child to rewrite the sentence removing all three techniques, keeping only the neutral factual content",
+      "This connects directly back to Grade 9's rhetoric/ethos-pathos-logos content, applying similar analysis skills to a media context specifically"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended analysis activity — check that the child identifies at least two genuine techniques, such as emotional appeal ('don't miss out' creating urgency/fear of missing out), loaded language ('satisfied customers,' 'limited-time'), or selective framing (only mentioning satisfaction, never any downside).",
+    "standardsRationale": "Directly addresses Common Core Grade 9-10 RI.9-10.8: delineating and evaluating the reasoning and specific claims in a persuasive text, continuing this week's media-analysis thread."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-10-2-3",
+    "lessonId": "lesson-ela-10-2-3",
+    "title": "Recognizing Persuasive Techniques",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Identify at least two persuasive techniques in the example sentence.",
+      "prompts": [
+        { "prompt": "Technique 1 and where you found it:", "lines": 2 },
+        { "prompt": "Technique 2 and where you found it:", "lines": 2 }
+      ]
+    }
+  }
+}

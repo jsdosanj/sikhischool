@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-10-2",
+    "courseId": "course-ela-10",
+    "order": 2,
+    "title": "Introduction to Media Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-10-2-2",
+    "unitId": "unit-ela-10-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Identifying Purpose and Audience",
+    "gradeLevel": "10",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you started examining how media is built. Today: figuring out WHO a message is for and WHY it exists!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Every piece of media has a purpose (to inform, persuade, or entertain) and an intended audience (who it's specifically trying to reach), and identifying both helps explain the choices a creator made. The EnergyMax ad from yesterday is clearly meant to persuade, aimed at an audience that feels tired or unmotivated. Read this second example: a news headline reading 'Local School Board Approves New Recycling Program.' Identify this headline's purpose and its likely intended audience, and explain how you can tell."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified a media message's purpose and audience! Tomorrow we'll learn specific techniques used to persuade."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-10-2-2",
+    "lessonId": "lesson-ela-10-2-2",
+    "objectives": [
+      "Identify a media message's purpose (inform/persuade/entertain) and intended audience",
+      "Explain how specific clues in the headline reveal purpose and audience"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's EnergyMax analysis briefly.\n2. Introduce purpose and audience as two separate questions to ask of any media message.\n3. Have the child analyze the recycling-program headline.\n4. Complete the worksheet.\n5. Preview tomorrow's persuasive-techniques lesson.",
+    "differentiationTips": [
+      "Struggling: contrast the neutral, factual tone of the headline directly against yesterday's emotionally-charged ad language to make the purpose distinction concrete",
+      "Ready for more: ask the child to identify who is NOT the intended audience for this particular headline, and why",
+      "This lesson deliberately reuses last week's Grade 7 author's-purpose concept (inform/persuade/entertain) at a more advanced, media-specific level"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This headline's purpose is to inform, and its likely intended audience is local residents/parents in the community — the neutral, factual tone (stating what happened without emotional language) and the specific local detail ('Local School Board') both signal a straightforward informational purpose aimed at people who live in that community.",
+    "standardsRationale": "Directly addresses Common Core Grade 9-10 RI.9-10.6: determining an author's point of view and purpose, continuing this week's media-analysis thread."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-10-2-2",
+    "lessonId": "lesson-ela-10-2-2",
+    "title": "Identifying Purpose and Audience",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Analyze the recycling-program headline's purpose and audience.",
+      "prompts": [
+        { "prompt": "What is this headline's purpose?", "lines": 1 },
+        { "prompt": "Who is its likely intended audience, and how can you tell?", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-ela-10-2",
+    "courseId": "course-ela-10",
+    "order": 2,
+    "title": "Introduction to Media Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-10-2-5",
+    "unitId": "unit-ela-10-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Media Analysis",
+    "gradeLevel": "10",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned to analyze media like a critical, informed reader. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: media analysis examines how a message is built, not just what it says (Day 1). Every message has a purpose and an intended audience (Day 2). Persuasive media uses emotional appeal, loaded language, and selective framing (Day 3). You combined all three into one complete written analysis (Day 4). Explain in your own words why being able to analyze media this way makes someone a more informed, harder-to-mislead reader."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you learned to analyze media like a critical, informed reader! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-10-2-5",
+    "lessonId": "lesson-ela-10-2-5",
+    "objectives": [
+      "Review how media is built, purpose/audience identification, and persuasive techniques",
+      "Explain why media-analysis skills make someone a more informed reader"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child explain why these skills matter for being an informed reader.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of media-analysis skills!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found most interesting this week (often persuasive techniques) rather than requiring an even summary of all three",
+      "Ready for more: ask the child to find (with a parent's guidance) one real example of a persuasive technique they've seen in an actual ad or headline recently",
+      "This is a good checkpoint to note which of the week's three media-analysis skills needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Being able to analyze media this way makes someone harder to mislead because they can recognize when a message is trying to persuade rather than simply inform, notice specific techniques being used on them, and consciously step back to evaluate a claim on its actual merits rather than being swept along by emotional language or framing alone.",
+    "standardsRationale": "Consolidates this week's Common Core Grade 9-10 media-analysis standards (RI.9-10.6/RI.9-10.8) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-10-2-5",
+    "lessonId": "lesson-ela-10-2-5",
+    "title": "Review: Media Analysis",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer to review this week's media-analysis skills.",
+      "prompts": [
+        { "prompt": "Why does media-analysis make someone a more informed, harder-to-mislead reader?", "lines": 3 }
+      ]
+    }
+  }
+}

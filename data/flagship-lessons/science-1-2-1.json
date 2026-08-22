@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-1-2",
+    "courseId": "course-science-1",
+    "order": 2,
+    "title": "Parents and Offspring",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-1-2-1",
+    "unitId": "unit-science-1-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Young Animals and Their Parents",
+    "gradeLevel": "1",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Have you ever noticed a puppy looks like a dog, not a cat? Today we start a new unit exploring why young animals look like their parents."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Young animals generally resemble their parents — a kitten grows features similar to its cat parents, a duckling grows up looking like its duck parents, and a calf grows up looking like its cow parents. This pattern — offspring resembling their parents — happens across almost all animals. Name one animal parent and its young, and describe one way they look similar."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified a real pattern: young animals resemble their parents. Tomorrow we'll see this same pattern in plants!"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-1-2-1",
+    "lessonId": "lesson-science-1-2-1",
+    "objectives": [
+      "Describe the general pattern that young animals resemble their parents",
+      "Identify one specific animal-parent/offspring pair and a shared trait"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Introduce the new unit and the puppy/dog example.\n2. Discuss 2-3 more animal-parent/offspring pairs together (kitten/cat, duckling/duck, calf/cow).\n3. Have the child name one pair and describe a shared trait.\n4. Complete the worksheet.\n5. Close by looking at a real photo of an animal family, if available.",
+    "differentiationTips": [
+      "Struggling: focus on just one very familiar animal pair (like puppy/dog) rather than covering several",
+      "Ready for more: ask the child to think of an animal pair where the young one looks quite different at first (like a tadpole/frog) and discuss why",
+      "This is the first lesson of a new unit — a good moment to frame the whole week's exploration of parent-offspring resemblance"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can name a real animal-parent/offspring pair and describe at least one shared trait.",
+    "standardsRationale": "Directly addresses NGSS Grade 1 standard 1-LS3-1: young animals resembling their parents, the foundational pattern this new unit explores across animals and plants."
+  },
+  "worksheet": {
+    "id": "worksheet-science-1-2-1",
+    "lessonId": "lesson-science-1-2-1",
+    "title": "Young Animals and Their Parents",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Parent", "label": "A grown animal that has young" },
+        { "trace": "Offspring", "label": "The young of a parent animal" }
+      ]
+    }
+  }
+}

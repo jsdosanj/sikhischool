@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-1-2",
+    "courseId": "course-science-1",
+    "order": 2,
+    "title": "Parents and Offspring",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-1-2-4",
+    "unitId": "unit-science-1-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Inherited Traits vs. Learned Behaviors",
+    "gradeLevel": "1",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've explored traits offspring get from their parents. Today: not everything is inherited — some things are learned instead!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "An inherited trait is something an offspring is born with, passed from its parents — like fur color or eye color. A learned behavior is something an animal or person learns to do after being born — like a dog learning to sit, or a person learning to ride a bike. A puppy is born with its fur color (inherited), but it learns tricks over time (learned). Sort these into inherited or learned: a bird's feather color, a dog knowing how to fetch, a person's eye color, a person knowing how to read."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand the real difference between something you're born with and something you learn! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-1-2-4",
+    "lessonId": "lesson-science-1-2-4",
+    "objectives": [
+      "Distinguish an inherited trait from a learned behavior",
+      "Correctly sort four examples into inherited or learned"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review this week's resemblance and variation content.\n2. Introduce inherited traits vs. learned behaviors using the puppy fur-color/tricks example.\n3. Sort the four examples together.\n4. Complete the worksheet.\n5. Close by having the child name one more inherited trait and one more learned behavior of their own.",
+    "differentiationTips": [
+      "Struggling: focus on just two clearly contrasting examples (fur color vs. a trained trick) before adding the other two",
+      "Ready for more: ask the child to explain why reading is learned even though humans are naturally capable of learning language",
+      "This inherited-vs-learned distinction is a genuinely important early-science concept, worth real discussion time"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Inherited: a bird's feather color, a person's eye color. Learned: a dog knowing how to fetch, a person knowing how to read.",
+    "standardsRationale": "Directly addresses NGSS Grade 1 standard 1-LS3-1's explicit note that some characteristics are learned behaviors rather than inherited traits — a real, important scientific distinction."
+  },
+  "worksheet": {
+    "id": "worksheet-science-1-2-4",
+    "lessonId": "lesson-science-1-2-4",
+    "title": "Inherited Traits vs. Learned Behaviors",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each example, write whether it is INHERITED or LEARNED.",
+      "rows": [
+        { "problem": "A bird's feather color" },
+        { "problem": "A dog knowing how to fetch" },
+        { "problem": "A person's eye color" },
+        { "problem": "A person knowing how to read" }
+      ]
+    }
+  }
+}

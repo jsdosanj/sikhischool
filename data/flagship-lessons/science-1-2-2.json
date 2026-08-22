@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-1-2",
+    "courseId": "course-science-1",
+    "order": 2,
+    "title": "Parents and Offspring",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-1-2-2",
+    "unitId": "unit-science-1-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Plants Resemble Their Parent Plants Too",
+    "gradeLevel": "1",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you saw young animals resemble their parents. Today: plants show this same pattern!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A seed from an apple tree grows into a new apple tree, not a different kind of plant. A sunflower seed grows into a sunflower, with the same kind of leaves, flower, and general shape as the parent plant. This is the same resemblance pattern you saw in animals yesterday, just in plants. Name a plant you know, and describe what its seed grows into."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now see this pattern in both animals and plants — offspring resemble their parents! Tomorrow we'll look at how offspring can still be a little different from their parents too."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-1-2-2",
+    "lessonId": "lesson-science-1-2-2",
+    "objectives": [
+      "Describe that a plant's seed grows into the same kind of plant as its parent",
+      "Connect this pattern to yesterday's animal-resemblance content"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon", "A real seed or plant, if available"],
+    "facilitationScript": "1. Review yesterday's animal-resemblance content.\n2. Introduce the apple-seed/apple-tree example.\n3. Discuss a plant the child knows and what its seed grows into.\n4. Complete the worksheet.\n5. Close by explicitly connecting today's plant pattern to yesterday's animal pattern.",
+    "differentiationTips": [
+      "Struggling: use a very familiar example (like a seed the child has planted or seen) rather than an abstract one",
+      "Ready for more: ask the child to explain why an apple seed never grows into an orange tree",
+      "If a real seed or plant is available, use it — concrete, physical examples work best at this age"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can explain a seed grows into the same kind of plant as its parent.",
+    "standardsRationale": "Directly addresses NGSS Grade 1 standard 1-LS3-1, extending yesterday's animal-resemblance pattern to plants, showing the same biological pattern across both kingdoms."
+  },
+  "worksheet": {
+    "id": "worksheet-science-1-2-2",
+    "lessonId": "lesson-science-1-2-2",
+    "title": "Plants Resemble Their Parent Plants Too",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about plants and their parents.",
+      "rows": [
+        { "problem": "Name a plant, and describe what its seed grows into." },
+        { "problem": "Why does an apple seed always grow into an apple tree, never a different kind of plant?" }
+      ]
+    }
+  }
+}

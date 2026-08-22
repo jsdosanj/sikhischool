@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-2-2",
+    "courseId": "course-science-2",
+    "order": 2,
+    "title": "How Plants Grow",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-2-2-3",
+    "unitId": "unit-science-2-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "How Animals Help Plants: Pollination",
+    "gradeLevel": "2",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you tested what plants need to grow. Today, a new idea: some plants actually need animals to help them!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Many flowers make a sweet food called nectar, which attracts animals like bees and butterflies. When a bee visits a flower to drink nectar, a yellow dust called pollen sticks to its body. When the bee flies to the next flower, some of that pollen rubs off — this is called pollination, and it lets the plant make seeds and fruit. Without bees and other pollinators visiting flowers, many plants couldn't make new seeds at all. Name one animal you know of that helps pollinate flowers."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned pollination — a real way animals and plants depend on each other! Tomorrow we'll learn a second way animals help plants: spreading their seeds."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-2-2-3",
+    "lessonId": "lesson-science-2-2-3",
+    "objectives": [
+      "Explain that flowers attract pollinators with nectar",
+      "Describe pollination as pollen moving from flower to flower on an animal's body, enabling seed-making"
+    ],
+    "materialsNeeded": ["A real flower, if available, to point out its parts", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's two investigation days briefly.\n2. Introduce nectar, pollen, and the bee's role, step by step.\n3. Have the child name a pollinator they already know about.\n4. Complete the worksheet.\n5. Preview tomorrow's seed-spreading lesson.",
+    "differentiationTips": [
+      "Struggling: use the simple sequence 'bee visits flower for food → pollen sticks → bee visits next flower → pollen moves' as a repeatable chain",
+      "Ready for more: ask what might happen to a plant if no pollinators visited it at all",
+      "A real flower to look at (even a store-bought one) makes pollen and nectar far more concrete than description alone"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and connection activity — check that the child can name a pollinator (bee, butterfly, hummingbird, etc.) and explain in their own words that pollen moves between flowers on the animal's body.",
+    "standardsRationale": "Directly addresses NGSS Grade 2 Life Science standard 2-LS2-2: developing a model showing plants depend on animals for pollination, opening this week's plant-animal-interdependence thread."
+  },
+  "worksheet": {
+    "id": "worksheet-science-2-2-3",
+    "lessonId": "lesson-science-2-2-3",
+    "title": "How Animals Help Plants: Pollination",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about pollination.",
+      "rows": [
+        { "problem": "What sweet food do flowers make to attract animals?" },
+        { "problem": "Name one animal that pollinates flowers." },
+        { "problem": "What does pollination let a plant make?" }
+      ]
+    }
+  }
+}

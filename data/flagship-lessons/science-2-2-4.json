@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-2-2",
+    "courseId": "course-science-2",
+    "order": 2,
+    "title": "How Plants Grow",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-2-2-4",
+    "unitId": "unit-science-2-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "How Animals Help Plants: Spreading Seeds",
+    "gradeLevel": "2",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned how animals pollinate flowers. Today, a second way animals help plants: spreading their seeds!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Plants can't walk, so they need help spreading their seeds to new places to grow. Some seeds are covered in tiny hooks (like burrs) that stick to an animal's fur and fall off far away. Other seeds are inside tasty fruit — an animal eats the fruit, and later the seeds come out in its droppings somewhere new, ready to grow. Both ways move seeds far from the parent plant, where there's more room and less competition. Describe one of these two ways in your own words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned two real ways animals help spread seeds! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-2-2-4",
+    "lessonId": "lesson-science-2-2-4",
+    "objectives": [
+      "Describe two real ways animals help spread plant seeds: sticking (burrs) and eating fruit",
+      "Explain why spreading seeds far from the parent plant is helpful"
+    ],
+    "materialsNeeded": ["A real burr or fruit with visible seeds, if available", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's pollination lesson briefly.\n2. Introduce burr-sticking and fruit-eating as two ways seeds spread.\n3. Have the child describe one way in their own words.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just one of the two methods (whichever the child finds more memorable) rather than requiring both",
+      "Ready for more: ask the child to think of a third way seeds might travel (wind, floating on water) beyond the two animal-based methods taught today",
+      "A real burr stuck to clothing or fabric after a walk outside is a genuinely memorable, concrete demonstration if one is available"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall activity — check that the child can describe at least one of the two seed-spreading methods (burrs sticking to fur, or seeds passing through an animal after it eats fruit) in their own words.",
+    "standardsRationale": "Directly addresses NGSS Grade 2 Life Science standard 2-LS2-2 (plants depend on animals for seed dispersal, alongside pollination), completing this week's plant-animal-interdependence pair before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-science-2-2-4",
+    "lessonId": "lesson-science-2-2-4",
+    "title": "How Animals Help Plants: Spreading Seeds",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about seed spreading.",
+      "rows": [
+        { "problem": "How do burrs help a plant spread its seeds?" },
+        { "problem": "How does an animal eating fruit help spread seeds?" },
+        { "problem": "Why is it helpful for seeds to land far from the parent plant?" }
+      ]
+    }
+  }
+}

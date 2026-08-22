@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-2-2",
+    "courseId": "course-science-2",
+    "order": 2,
+    "title": "How Plants Grow",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-2-2-2",
+    "unitId": "unit-science-2-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Investigating: Do Plants Need Water?",
+    "gradeLevel": "2",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you planned a sunlight investigation. Today, use the same fair-test idea to investigate water!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Same fair-test rule as yesterday: change only one thing. To test if plants need water, you'd use two of the same kind of plant, both getting the same sunlight — but one gets watered regularly and the other gets no water at all. Plan this investigation: what's the one thing that's different between your two plants this time? What do you predict will happen to the plant that gets no water?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just planned a second real investigation, this time testing water! Tomorrow we'll learn something new: how animals actually help plants grow."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-2-2-2",
+    "lessonId": "lesson-science-2-2-2",
+    "objectives": [
+      "Apply the fair-test method to a new variable: water",
+      "Predict what happens to a plant deprived of water, based on real-world observation"
+    ],
+    "materialsNeeded": ["Two same-type plants or seedlings, if available (optional but ideal)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's sunlight-investigation plan.\n2. Introduce today's water investigation, using the same fair-test structure.\n3. Have the child describe their own version of the plan on the worksheet.\n4. If real plants are available, set this investigation up too.\n5. Preview tomorrow's animal-and-plant lesson.",
+    "differentiationTips": [
+      "Struggling: connect to a real memory — has the child ever seen a plant wilt from not being watered?",
+      "Ready for more: ask what would happen if BOTH sunlight and water were changed at once, and why that would no longer be a fair test",
+      "Reusing yesterday's exact structure (just swapping the variable) reinforces that this is a repeatable method, not a one-time trick"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an investigation-planning activity — check that the child identifies water as the one changed variable this time, with everything else kept the same, and predicts the unwatered plant will wilt or not grow well.",
+    "standardsRationale": "Directly addresses NGSS Grade 2 Life Science standard 2-LS2-1 (plants need sunlight and water to grow), continuing this week's real scientific-investigation methodology with a second variable."
+  },
+  "worksheet": {
+    "id": "worksheet-science-2-2-2",
+    "lessonId": "lesson-science-2-2-2",
+    "title": "Investigating: Do Plants Need Water?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe your water investigation plan.",
+      "prompts": [
+        { "prompt": "What is the one thing that's different between your two plants?", "lines": 2 },
+        { "prompt": "What do you predict will happen to the plant with no water?", "lines": 2 }
+      ]
+    }
+  }
+}

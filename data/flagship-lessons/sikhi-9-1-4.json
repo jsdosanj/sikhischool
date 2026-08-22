@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-9-1",
+    "courseId": "course-sikhi-9",
+    "order": 1,
+    "title": "Foundations of Sikh Philosophy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-9-1-4",
+    "unitId": "unit-sikhi-9-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Hukam: Divine Order and Acceptance",
+    "gradeLevel": "9",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've explored oneness, remembrance, and worldly engagement. Today, a philosophical concept about how to relate to what you can't control: Hukam."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Hukam refers to divine order or will — the idea that there is an underlying order to existence, and that genuine peace comes from aligning yourself with that order rather than constantly resisting or fighting against circumstances you cannot control. This is a real philosophical stance on a universal human question: how do you relate to hardship, change, or outcomes beyond your control? Importantly, accepting Hukam is not the same as passivity — it doesn't mean giving up effort (recall Kirat Karo from yesterday). It means putting in genuine effort while accepting outcomes with equanimity rather than resentment or despair. Think of a real situation — yours or a general example — where 'accepting what you can't control while still doing your best' would look different from either giving up entirely or refusing to accept an outcome at all."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined a genuine philosophical stance on effort and acceptance together. Tomorrow we'll review all four philosophical concepts from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-9-1-4",
+    "lessonId": "lesson-sikhi-9-1-4",
+    "objectives": [
+      "Define Hukam as divine order, and acceptance of it as a path to genuine peace",
+      "Distinguish accepting Hukam from passivity, connecting it to continued effort"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's three earlier concepts.\n2. Introduce Hukam and the effort-plus-acceptance distinction from passivity.\n3. Discuss the reflection scenario together.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: use a simple, relatable example (accepting you didn't make a sports team after trying your best, vs. giving up before trying) to make the effort-vs-passivity distinction concrete",
+      "Ready for more: ask them to compare this concept to a similar idea from another philosophy or religion they may know (like Stoicism's distinction between what is and isn't within our control)",
+      "Text-only content, per the platform's content policy — no depiction of any Guru, symbolic references only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Hukam refers to divine order or will. 2. Genuine peace comes from aligning with this order rather than resisting it. 3. Accepting Hukam is not passivity — it means continued genuine effort combined with accepting outcomes with equanimity.",
+    "standardsRationale": "Completes the week's four-concept philosophical foundation with Hukam, a genuine philosophical stance on effort and acceptance that connects to universal questions comparative religion classes often explore."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-9-1-4",
+    "lessonId": "lesson-sikhi-9-1-4",
+    "title": "Hukam: Divine Order and Acceptance",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What does Hukam refer to?" },
+        { "problem": "Where does genuine peace come from, according to this philosophy?" },
+        { "problem": "Why is accepting Hukam not the same as passivity?" }
+      ]
+    }
+  }
+}

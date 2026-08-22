@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-sikhi-9-1",
+    "courseId": "course-sikhi-9",
+    "order": 1,
+    "title": "Foundations of Sikh Philosophy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-9-1-5",
+    "unitId": "unit-sikhi-9-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Foundations of Sikh Philosophy",
+    "gradeLevel": "9",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you explored four core philosophical concepts that together form a coherent worldview. Let's connect them into one whole."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Ik Onkar establishes absolute oneness, the philosophical basis for equality (Day 1). Naam Simran means the sacred and everyday aren't separate — remembrance is continuous, not scheduled (Day 2). Maya teaches full worldly engagement without spiritual attachment to outcomes (Day 3). Hukam teaches genuine effort combined with peaceful acceptance of what's beyond your control (Day 4). Notice how these four ideas connect: because all existence shares one source (Day 1), sacred awareness belongs in ordinary life (Day 2), which means engaging fully with the world (Day 3), while accepting its outcomes peacefully (Day 4). Explain this connected chain in your own words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you now have a real, connected philosophical foundation that future weeks' comparative religion content will build directly on."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-9-1-5",
+    "lessonId": "lesson-sikhi-9-1-5",
+    "objectives": [
+      "Recall all four philosophical concepts: Ik Onkar, Naam, Maya, Hukam",
+      "Explain how the four concepts connect into one coherent philosophical chain"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Discuss the connected-chain explanation together before writing.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — note that future weeks will build toward comparative religion, using this week's foundation.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them which of the four concepts they found most personally interesting or challenging, and why",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Ik Onkar = oneness of God, basis for equality. 2. Naam = continuous remembrance, sacred/everyday unified. 3. Maya = worldly attachment; Sikh philosophy teaches engagement without spiritual attachment. 4. Hukam = divine order; genuine effort combined with peaceful acceptance.",
+    "standardsRationale": "Consolidates the week's foundational Sikh philosophy content before the course moves into comparative religion, matching the 'consolidate before adding more' pacing established across this session and the course's own topic order."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-9-1-5",
+    "lessonId": "lesson-sikhi-9-1-5",
+    "title": "Foundations of Sikh Philosophy: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "What does Ik Onkar mean, and what value does it philosophically support?" },
+        { "problem": "What does Naam Simran teach about the sacred and everyday life?" },
+        { "problem": "What does Maya mean, and how does Sikh philosophy relate to it?" },
+        { "problem": "What does Hukam mean, and how is it different from passivity?" }
+      ]
+    }
+  }
+}

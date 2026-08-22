@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-12-1",
+    "courseId": "course-punjabi-12",
+    "order": 1,
+    "title": "Preparing for the Oral History Interview",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-12-1-3",
+    "unitId": "unit-punjabi-12-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "ਧਿਆਨ ਨਾਲ ਸੁਣਨਾ: Active Listening",
+    "gradeLevel": "12",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have a real question list. Today: the listening skill that turns a list of questions into a genuine conversation."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਧਿਆਨ ਨਾਲ ਸੁਣਨਾ (listening with attention) means genuinely following what's said, not just waiting for your turn to ask the next question. The best oral-history moments often come from a natural follow-up question, asked in response to something the person just said, not from your original list. For example, if your elder mentions a specific place while answering a ਬਚਪਨ question, a natural follow-up might be 'ਉਹ ਥਾਂ ਕਿਹੋ ਜਿਹੀ ਸੀ?' (What was that place like?) — a question you couldn't have planned in advance. Take one question from your Day 2 list and write one likely follow-up question you might ask, depending on how your elder answers."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "This skill — genuinely listening and following up — is what separates a real conversation from reading off a list. Tomorrow we'll cover the practical and respectful side of actually recording an interview."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-12-1-3",
+    "lessonId": "lesson-punjabi-12-1-3",
+    "objectives": [
+      "Explain ਧਿਆਨ ਨਾਲ ਸੁਣਨਾ (active listening) and why it matters in an interview",
+      "Write a genuine, unplanned follow-up question responding to a hypothetical answer"
+    ],
+    "materialsNeeded": ["Day 2's question-list worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Day 2's question list.\n2. Introduce active listening and the natural-follow-up-question idea.\n3. Model one example follow-up together.\n4. Have the child write their own follow-up question from a Day 2 question.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: recording and consent.",
+    "differentiationTips": [
+      "Struggling: role-play a short exchange together (teacher answers a Day 2 question, child practices asking a real-time follow-up out loud) before writing it down",
+      "Ready for more: ask them to explain why a planned follow-up question is different in kind from a genuinely spontaneous one",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਧਿਆਨ ਨਾਲ ਸੁਣਨਾ means genuinely following what's said, not just waiting to ask the next question. 2. The best follow-up questions respond to something specific just said, which couldn't have been planned in advance.",
+    "standardsRationale": "Directly addresses the course's 'oral-history capstone' description, building the conversational listening skill a real interview genuinely depends on, beyond just a prepared question list."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-12-1-3",
+    "lessonId": "lesson-punjabi-12-1-3",
+    "title": "ਧਿਆਨ ਨਾਲ ਸੁਣਨਾ: Active Listening",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer the question, then write a possible follow-up question.",
+      "prompts": [
+        { "prompt": "Why does active listening matter more than just asking planned questions?", "lines": 2 },
+        { "prompt": "A Day 2 question, and a possible follow-up depending on the answer:", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-12-1",
+    "courseId": "course-punjabi-12",
+    "order": 1,
+    "title": "Preparing for the Oral History Interview",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-12-1-1",
+    "unitId": "unit-punjabi-12-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Makes a Good Interview Question?",
+    "gradeLevel": "12",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Grade 12 Punjabi. This year's capstone: interview a ਬਜ਼ੁਰਗ (family elder) in Punjabi and turn their ਕਹਾਣੀ (story) into a short documentary. It starts with learning to ask genuinely good questions."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A good oral-history question is open-ended, inviting a real ਕਹਾਣੀ rather than a single word. Compare: 'ਕੀ ਤੁਸੀਂ ਸਕੂਲ ਜਾਂਦੇ ਸੀ?' (Did you go to school?) invites just 'ਹਾਂ' or 'ਨਹੀਂ' (yes/no), while 'ਤੁਹਾਡਾ ਸਕੂਲ ਕਿਹੋ ਜਿਹਾ ਸੀ?' (What was your school like?) invites real detail and memory. Open questions usually start with words like ਕਿਹੋ ਜਿਹਾ (what kind of), ਕਿਵੇਂ (how), or ਕਿਉਂ (why) rather than a yes/no starter. Take one closed yes/no question about someone's ਬਚਪਨ (childhood) and rewrite it as a genuine open-ended question."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "This open-question skill is the foundation of the whole capstone — every good interview moment starts with a question that genuinely invites a story. Tomorrow we'll build a real question list for your interview."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-12-1-1",
+    "lessonId": "lesson-punjabi-12-1-1",
+    "objectives": [
+      "Distinguish open-ended interview questions from closed yes/no questions",
+      "Rewrite a closed question as a genuine open-ended one in Punjabi"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the year's oral-history capstone project.\n2. Introduce open vs. closed questions with the school example.\n3. Discuss the common Punjabi open-question starters (ਕਿਹੋ ਜਿਹਾ/ਕਿਵੇਂ/ਕਿਉਂ).\n4. Have the child rewrite a closed question as an open one.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: building a full question list.",
+    "differentiationTips": [
+      "Struggling: provide 2-3 example closed questions to rewrite before asking the child to generate their own from scratch",
+      "Ready for more: ask them to identify which starter word (ਕਿਹੋ ਜਿਹਾ/ਕਿਵੇਂ/ਕਿਉਂ) best fits a question they genuinely want to ask their own family elder",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. An open-ended question invites a real story rather than a single word. 2. Open questions often start with ਕਿਹੋ ਜਿਹਾ, ਕਿਵੇਂ, or ਕਿਉਂ. 3. A closed 'ਕੀ ਤੁਸੀਂ...' question can usually be rewritten as an open one by asking what/how/why instead.",
+    "standardsRationale": "Directly addresses the course's 'oral-history capstone' description, establishing the foundational interview-question skill this year's whole project depends on."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-12-1-1",
+    "lessonId": "lesson-punjabi-12-1-1",
+    "title": "What Makes a Good Interview Question?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Rewrite a closed question about childhood as an open-ended one.",
+      "prompts": [
+        { "prompt": "A closed yes/no question about childhood:", "lines": 1 },
+        { "prompt": "Your rewritten open-ended version:", "lines": 2 },
+        { "prompt": "Why does the open version invite a better answer?", "lines": 2 }
+      ]
+    }
+  }
+}

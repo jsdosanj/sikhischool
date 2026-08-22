@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-12-1",
+    "courseId": "course-punjabi-12",
+    "order": 1,
+    "title": "Preparing for the Oral History Interview",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-12-1-4",
+    "unitId": "unit-punjabi-12-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "ਇਜਾਜ਼ਤ: Consent and Respect",
+    "gradeLevel": "12",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have questions and listening skills ready. Before capturing anyone's real ਯਾਦਾਂ (memories), one thing must come first: their genuine ਇਜਾਜ਼ਤ (permission)."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Before recording any real interview, always ask clear ਇਜਾਜ਼ਤ first — explain what you're doing (a school project turning their story into a short documentary) and confirm they're comfortable being recorded, in plain, respectful language. This matters doubly with a ਬਜ਼ੁਰਗ (elder) sharing personal ਯਾਦਾਂ: their ਕਹਾਣੀ belongs to them, and treating it with genuine respect — including the right to skip a question or stop at any point — is part of doing this project honestly. Write, in Punjabi, a short, respectful sentence you could actually say to ask your elder's permission before starting."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have every piece needed to conduct your real interview respectfully and well. Tomorrow we'll review the whole process together with a mock interview."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-12-1-4",
+    "lessonId": "lesson-punjabi-12-1-4",
+    "objectives": [
+      "Explain why asking genuine consent before recording matters, especially for personal memories",
+      "Write a real, respectful Punjabi sentence requesting permission to record"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's question list and listening skills.\n2. Introduce the importance of genuine consent before recording, including the right to skip or stop.\n3. Have the child write their own permission-request sentence in Punjabi.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review and mock interview.",
+    "differentiationTips": [
+      "Struggling: provide a simple sentence template to adapt rather than requiring the child to construct one from scratch",
+      "Ready for more: ask them to also explain what they'd do if their elder wanted to skip a specific question — a genuine, respectful response to plan for in advance",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Genuine consent matters because the elder's story belongs to them, and recording without clear permission would be disrespectful. 2. A respectful permission request explains the project's purpose and confirms comfort with being recorded, including the right to skip or stop at any point.",
+    "standardsRationale": "Directly addresses the course's 'oral-history capstone' description, establishing the ethical foundation (genuine consent, respect for the elder's ownership of their story) a real documentary project requires."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-12-1-4",
+    "lessonId": "lesson-punjabi-12-1-4",
+    "title": "ਇਜਾਜ਼ਤ: Consent and Respect",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your own respectful permission request in Punjabi.",
+      "prompts": [
+        { "prompt": "Why does genuine consent matter before recording someone's memories?", "lines": 2 },
+        { "prompt": "Your permission-request sentence, in Punjabi:", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-12-1",
+    "courseId": "course-math-12",
+    "order": 1,
+    "title": "The Data Science Inquiry Cycle",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-12-1-1",
+    "unitId": "unit-math-12-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The Four-Step Statistical Inquiry Cycle",
+    "gradeLevel": "12",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Statistics & Data Science. Every real statistical investigation, from a simple class survey to a major scientific study, follows the same four-step cycle."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The statistical inquiry cycle has four steps: (1) Formulate a question — one that anticipates variability and can actually be answered with data, (2) Collect data — gathering it in a way appropriate to the question, (3) Analyze the data — using appropriate numerical and graphical methods, (4) Interpret the results — connecting the analysis back to the original question, including its limitations. These steps aren't optional extras — skipping any one of them weakens the whole investigation. For example: 'How many books do students in this class read per month?' is a real statistical question (it anticipates variation between students), while 'Do students like reading?' is too vague to collect clean data for. Take a topic you're curious about and write one genuine statistical question about it — one that anticipates real variability and could be answered with actual data."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "This four-step cycle is the framework for everything in this course. Tomorrow we'll look closely at step two: how you actually collect data well."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-12-1-1",
+    "lessonId": "lesson-math-12-1-1",
+    "objectives": [
+      "Identify the four steps of the statistical inquiry cycle: formulate, collect, analyze, interpret",
+      "Write a genuine statistical question that anticipates variability and can be answered with data"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the four-step inquiry cycle with the books-read-per-month example.\n2. Discuss the difference between a genuine statistical question and a vague one.\n3. Have the child write their own statistical question on a topic of interest.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: data collection.",
+    "differentiationTips": [
+      "Struggling: provide 2-3 example question pairs (one statistical, one too vague) to sort before writing their own",
+      "Ready for more: ask them to explain why 'anticipating variability' is a necessary quality of a genuine statistical question, not just a nice-to-have",
+      "This is the first lesson of the course — a good moment to frame the whole year around this repeating four-step cycle"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The four steps are: formulate a question, collect data, analyze data, interpret results. 2. A genuine statistical question anticipates real variability in the answer and can actually be answered by collecting data — 'How many books do students read per month?' works; 'Do students like reading?' is too vague.",
+    "standardsRationale": "Directly addresses the course's data-science inquiry cycle description, establishing the GAISE-based four-step framework (formulate, collect, analyze, interpret) that WA's 2026 standards weave through statistics instruction."
+  },
+  "worksheet": {
+    "id": "worksheet-math-12-1-1",
+    "lessonId": "lesson-math-12-1-1",
+    "title": "The Four-Step Statistical Inquiry Cycle",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about the statistical inquiry cycle.",
+      "prompts": [
+        { "prompt": "List the four steps of the statistical inquiry cycle:", "lines": 2 },
+        { "prompt": "Write your own genuine statistical question on a topic you're curious about:", "lines": 2 },
+        { "prompt": "Why does your question anticipate real variability?", "lines": 2 }
+      ]
+    }
+  }
+}

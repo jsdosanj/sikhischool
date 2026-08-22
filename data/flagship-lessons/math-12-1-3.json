@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-12-1",
+    "courseId": "course-math-12",
+    "order": 1,
+    "title": "The Data Science Inquiry Cycle",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-12-1-3",
+    "unitId": "unit-math-12-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Measures of Center: Mean, Median, and Mode",
+    "gradeLevel": "12",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've formulated a question and thought carefully about collecting unbiased data. Today: analyzing it, starting with a single number that summarizes the 'typical' value."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Three measures of center each answer 'what's typical?' differently. The mean is the sum of all values divided by how many there are. The median is the middle value when data is sorted in order (or the average of the two middle values if there's an even count). The mode is the value that appears most often. These aren't interchangeable — the mean is sensitive to outliers (extreme values pull it toward them), while the median is not. For books read by 7 students: 2, 3, 5, 5, 7, 9, 11. Sorted, this is already in order. The mean is (2+3+5+5+7+9+11)/7 = 42/7 = 6. The median (middle value of 7 sorted values) is 5. The mode (most frequent value) is 5. Explain why the mean (6) is slightly higher than the median (5) for this particular dataset."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have three real tools for summarizing 'typical,' and understand why they can genuinely disagree. Tomorrow we'll look at measures that describe how SPREAD OUT the data is, not just its center."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-12-1-3",
+    "lessonId": "lesson-math-12-1-3",
+    "objectives": [
+      "Calculate mean, median, and mode for a dataset",
+      "Explain why the mean is more sensitive to outliers than the median"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Calculator"],
+    "facilitationScript": "1. Review this week's inquiry cycle and sampling concepts.\n2. Introduce mean, median, and mode using the 2,3,5,5,7,9,11 dataset.\n3. Discuss why the mean (6) differs slightly from the median (5) here — the 11 pulls the mean upward more than it affects the median.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: measures of spread.",
+    "differentiationTips": [
+      "Struggling: have the child sort the dataset first and physically count to the middle value before calculating the mean, to build the concepts separately",
+      "Ready for more: ask them to construct a dataset where the mean and median are equal, and explain what property makes that happen (symmetric data)",
+      "Emphasize this connects to Day 2: an outlier from a biased sample can distort the mean specifically, which is part of why sampling method matters"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "For books read [2,3,5,5,7,9,11]: mean = 42/7 = 6. Median = 5 (the middle value). Mode = 5 (appears twice, more than any other value). The mean is higher than the median because the value 11 is an outlier that pulls the mean upward more than it affects the median, which only depends on position, not magnitude.",
+    "standardsRationale": "Directly addresses the course's data-science inquiry cycle description (the 'analyze' step), building the measures-of-center toolkit foundational to all further statistical analysis."
+  },
+  "worksheet": {
+    "id": "worksheet-math-12-1-3",
+    "lessonId": "lesson-math-12-1-3",
+    "title": "Measures of Center: Mean, Median, and Mode",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For the dataset [2, 3, 5, 5, 7, 9, 11], answer each question.",
+      "rows": [
+        { "problem": "What is the mean?" },
+        { "problem": "What is the median?" },
+        { "problem": "What is the mode, and why is the mean slightly higher than the median here?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-4-2",
+    "courseId": "course-punjabi-4",
+    "order": 2,
+    "title": "A Cultural Story: The Farmer and His Sons",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-4-2-3",
+    "unitId": "unit-punjabi-4-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "The Story's Real Lesson",
+    "gradeLevel": "4",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਤੁਸੀਂ ਕਹਾਣੀ ਪੜ੍ਹੀ। ਅੱਜ ਇਸ ਦਾ ਅਸਲੀ ਸਬਕ ਲੱਭੋ! (You've read the story. Today, find its real lesson!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "This story's real lesson is about ਮਿਹਨਤ (hard work): the sons were tricked into working hard by the promise of a ਖ਼ਜ਼ਾਨਾ (treasure), but their real reward came from the ਮਿਹਨਤ itself, not from finding gold. The father understood something the sons didn't yet: sometimes the effort you put in is worth more than what you were originally looking for. Describe a time when hard work led to a good result, even if it wasn't the exact result you first expected."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਕਹਾਣੀ ਦਾ ਸਬਕ ਸਮਝਿਆ! (You just understood the story's lesson!) Tomorrow we'll write about it in a full paragraph."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-4-2-3",
+    "lessonId": "lesson-punjabi-4-2-3",
+    "objectives": [
+      "State the story's lesson: hard work itself can be the real reward",
+      "Connect the story's lesson to a real personal example"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's story reading.\n2. Discuss the story's real lesson about hard work.\n3. Have the child connect it to a real personal example.\n4. Complete the worksheet.\n5. Preview tomorrow's paragraph-writing lesson.",
+    "differentiationTips": [
+      "Struggling: offer a simple example first (like practicing a skill and getting better at something unexpected) to model the connection",
+      "Ready for more: ask the child if they can think of a different lesson this same story could also teach",
+      "This lesson is the key synthesis moment connecting the story's plot (Day 2) to its deeper meaning — give it real time"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended reflection activity — check that the child can state the hard-work lesson in their own words and give a genuine personal example connecting to it.",
+    "standardsRationale": "Directly addresses the course's 'cultural stories' description by moving from plot comprehension to genuine thematic understanding, a real literary-analysis skill."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-4-2-3",
+    "lessonId": "lesson-punjabi-4-2-3",
+    "title": "The Story's Real Lesson",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe a time hard work led to a good result, even if it wasn't what you first expected.",
+      "prompts": [
+        { "prompt": "My example:", "lines": 3 }
+      ]
+    }
+  }
+}

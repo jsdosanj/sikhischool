@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-4-2",
+    "courseId": "course-punjabi-4",
+    "order": 2,
+    "title": "A Cultural Story: The Farmer and His Sons",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-4-2-5",
+    "unitId": "unit-punjabi-4-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: A Cultural Story",
+    "gradeLevel": "4",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਇੱਕ ਪੂਰੀ ਸੱਭਿਆਚਾਰਕ ਕਹਾਣੀ ਸਿੱਖੀ। ਆਓ ਸਭ ਕੁਝ ਦੁਹਰਾਈਏ! (This week you learned a whole cultural story. Let's review it all!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: you learned 5 new words about farming (Day 1). You read the full story about the farmer and his sons (Day 2). You found its real lesson about hard work (Day 3). You wrote a paragraph retelling it (Day 4). Write the Gurmukhi word for 'farmer,' the word for 'hard work,' and one sentence stating the story's lesson."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਬਹੁਤ ਵਧੀਆ ਕੰਮ! (Wonderful work!) You read, understood, and wrote about a real cultural story this week. Next week we'll keep building your Punjabi skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-4-2-5",
+    "lessonId": "lesson-punjabi-4-2-5",
+    "objectives": [
+      "Review this week's vocabulary, story, lesson, and paragraph-writing work",
+      "Recall 2 vocabulary words and correctly restate the story's lesson"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child write the words for 'farmer' and 'hard work' from memory.\n3. Have the child restate the story's lesson in one sentence.\n4. Complete the review worksheet.\n5. Celebrate finishing a full week with a real cultural story!",
+    "differentiationTips": [
+      "Struggling: allow the child to look back at this week's worksheets while writing the review words, rather than requiring pure recall",
+      "Ready for more: ask the child to think of a different story (from any culture) that teaches a similar lesson about hard work",
+      "This is a good checkpoint to note which of this week's elements (vocabulary, story comprehension, or the lesson) needs the most review before next week"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child correctly writes ਕਿਸਾਨ for 'farmer' and ਮਿਹਨਤ for 'hard work,' and correctly restates the story's lesson about hard work being its own reward.",
+    "standardsRationale": "Consolidates this week's vocabulary, cultural-story, and paragraph-writing content before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-4-2-5",
+    "lessonId": "lesson-punjabi-4-2-5",
+    "title": "A Cultural Story: Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Write the Gurmukhi word for 'farmer.'" },
+        { "problem": "Write the Gurmukhi word for 'hard work.'" },
+        { "problem": "Write one sentence stating the story's lesson." }
+      ]
+    }
+  }
+}

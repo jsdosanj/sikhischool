@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-4-2",
+    "courseId": "course-punjabi-4",
+    "order": 2,
+    "title": "A Cultural Story: The Farmer and His Sons",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-4-2-2",
+    "unitId": "unit-punjabi-4-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Reading the Story",
+    "gradeLevel": "4",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਕੱਲ੍ਹ ਤੁਸੀਂ ਨਵੇਂ ਸ਼ਬਦ ਸਿੱਖੇ। ਅੱਜ ਪੂਰੀ ਕਹਾਣੀ ਪੜ੍ਹੋ! (Yesterday you learned new words. Today, read the full story!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A well-known cultural story: A farmer had three lazy sons who never wanted to work in the field. On his deathbed, the farmer told them, 'There is a khazana (treasure) buried somewhere in our khet (field).' After he passed, the sons dug up the entire field searching everywhere, but found no treasure at all. Yet that season, because the whole field had been dug and turned over, they grew the biggest fasal (harvest) they'd ever had. What do you think the sons discovered by the end of the story, even though they never found actual treasure?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਇੱਕ ਪੂਰੀ ਕਹਾਣੀ ਪੜ੍ਹੀ! (You just read a complete story!) Tomorrow we'll find the real lesson it teaches."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-4-2-2",
+    "lessonId": "lesson-punjabi-4-2-2",
+    "objectives": [
+      "Read and understand this week's cultural story: The Farmer and His Sons",
+      "Begin identifying the story's implied lesson (their hard work itself was the real treasure)"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's vocabulary.\n2. Read the story together, pointing out where each vocabulary word appears.\n3. Discuss what the sons really discovered by the story's end.\n4. Complete the worksheet.\n5. Preview tomorrow's lesson on the story's full moral.",
+    "differentiationTips": [
+      "Struggling: retell the story's sequence together first (dying father → digging → no treasure → big harvest) before discussing meaning",
+      "Ready for more: ask the child if they think the father actually knew there was no treasure, and why he might have said it anyway",
+      "This is a real, well-known Panchatantra-style cultural fable, widely told across South Asian oral tradition — a safe, verifiable choice for this week's 'cultural stories' content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child recognizes the sons' hard work of digging the whole field is what actually produced the big harvest, even though there was never real buried treasure.",
+    "standardsRationale": "Directly addresses the course's 'cultural stories' description with a real, well-known, safely-retellable Panchatantra-style fable."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-4-2-2",
+    "lessonId": "lesson-punjabi-4-2-2",
+    "title": "Reading the Story",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer the question about the story.",
+      "prompts": [
+        { "prompt": "What did the sons really discover, even though they found no treasure?", "lines": 3 }
+      ]
+    }
+  }
+}

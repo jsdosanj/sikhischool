@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-5-2",
+    "courseId": "course-sikhi-5",
+    "order": 2,
+    "title": "Guru Arjan Dev Ji and Guru Hargobind Ji",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-5-2-5",
+    "unitId": "unit-sikhi-5-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Guru Arjan Dev Ji and Guru Hargobind Ji",
+    "gradeLevel": "5",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you met the fifth and sixth Gurus. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Guru Arjan Dev Ji compiled the Adi Granth (Day 1). He also completed Harmandir Sahib and installed the Adi Granth inside it (Day 2). Guru Hargobind Ji introduced Miri-Piri, balancing spiritual and worldly responsibility (Day 3). You built a six-Guru timeline connecting everyone so far (Day 4). Answer: what did Guru Arjan Dev Ji compile, and what does Miri-Piri mean?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work these past two weeks! You've built a real, connected timeline of six Gurus and their genuine contributions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-5-2-5",
+    "lessonId": "lesson-sikhi-5-2-5",
+    "objectives": [
+      "Review and connect this week's two Gurus: Guru Arjan Dev Ji and Guru Hargobind Ji",
+      "State Guru Arjan Dev Ji's compiling achievement and Guru Hargobind Ji's Miri-Piri concept"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child answer both review questions.\n3. Complete the review worksheet.\n4. Celebrate finishing two full weeks of Grade 5 Sikhi — six real Gurus and their contributions!",
+    "differentiationTips": [
+      "Struggling: focus on just one of the two Gurus, whichever the child engaged with most this week",
+      "Ready for more: ask the child which Guru's contribution from either week they'd most like to learn more about",
+      "This is a good checkpoint to note which of the week's two Gurus needs the most reinforcement"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child can state Guru Arjan Dev Ji compiled the Adi Granth and that Miri-Piri means balancing spiritual and worldly responsibility.",
+    "standardsRationale": "Consolidates this week's deepened Guru-contributions content before the course continues, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-5-2-5",
+    "lessonId": "lesson-sikhi-5-2-5",
+    "title": "Guru Arjan Dev Ji and Guru Hargobind Ji: Week 2 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What did Guru Arjan Dev Ji compile?" },
+        { "problem": "What does Miri-Piri mean?" }
+      ]
+    }
+  }
+}

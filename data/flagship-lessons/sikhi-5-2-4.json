@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-5-2",
+    "courseId": "course-sikhi-5",
+    "order": 2,
+    "title": "Guru Arjan Dev Ji and Guru Hargobind Ji",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-5-2-4",
+    "unitId": "unit-sikhi-5-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "A Growing Timeline: Six Gurus So Far",
+    "gradeLevel": "5",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've met two more Gurus. Today: build a growing timeline connecting all six Gurus so far!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Six Gurus, six real contributions: Guru Nanak founded Sikhi's core teachings. Guru Angad standardized the Gurmukhi script. Guru Amar Das required equal Langar attendance for everyone. Guru Ram Das founded the town that became Amritsar. Guru Arjan Dev Ji compiled the Adi Granth and completed Harmandir Sahib. Guru Hargobind Ji introduced Miri-Piri. Build your own timeline listing all six Gurus in order, with one contribution each."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just built a real six-Guru timeline of contributions! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-5-2-4",
+    "lessonId": "lesson-sikhi-5-2-4",
+    "objectives": [
+      "Recall all six Gurus covered so far, in correct order",
+      "State one real contribution for each of the six Gurus"
+    ],
+    "materialsNeeded": ["Last week's four-Gurus timeline worksheet", "This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's four Gurus and this week's two new Gurus together.\n2. Model building the six-Guru timeline.\n3. Have the child build their own version, with one contribution each.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: provide the six names in order already, and have the child match each to its correct contribution",
+      "Ready for more: ask the child which of the six contributions they find most impressive, and why",
+      "This is the week's synthesis moment — connecting two weeks of content into one coherent, growing timeline"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and synthesis activity — check that the child correctly lists all six Gurus in order with one accurate contribution each.",
+    "standardsRationale": "Directly addresses the course's 'contributions of the Ten Gurus' description, synthesizing two weeks of content into one connected timeline before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-5-2-4",
+    "lessonId": "lesson-sikhi-5-2-4",
+    "title": "A Growing Timeline: Six Gurus So Far",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "List all six Gurus in order, with one contribution each.",
+      "prompts": [
+        { "prompt": "My timeline:", "lines": 6 }
+      ]
+    }
+  }
+}

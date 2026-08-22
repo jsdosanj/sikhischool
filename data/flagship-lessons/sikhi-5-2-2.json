@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-5-2",
+    "courseId": "course-sikhi-5",
+    "order": 2,
+    "title": "Guru Arjan Dev Ji and Guru Hargobind Ji",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-5-2-2",
+    "unitId": "unit-sikhi-5-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Completing Harmandir Sahib",
+    "gradeLevel": "5",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned about the Adi Granth. Today: a building Guru Arjan Dev Ji completed!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Remember the Golden Temple, or Harmandir Sahib, from earlier grades — the four doors symbolizing welcome to everyone? Guru Arjan Dev Ji oversaw its completion, on land connected to the town founded earlier by Guru Ram Das (remember him from last week?). Once completed, Guru Arjan Dev Ji installed the newly-compiled Adi Granth inside it. Explain how this week's two facts (the Adi Granth and Harmandir Sahib) connect to each other."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected two of Guru Arjan Dev Ji's major achievements! Tomorrow we'll meet the next Guru and a new idea he introduced."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-5-2-2",
+    "lessonId": "lesson-sikhi-5-2-2",
+    "objectives": [
+      "Recall that Guru Arjan Dev Ji completed Harmandir Sahib, building on Guru Ram Das's founding of the town",
+      "Connect the Adi Granth's installation to Harmandir Sahib's completion"
+    ],
+    "materialsNeeded": ["This week's Day 1 worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Adi Granth lesson and last week's Guru Ram Das/Amritsar content.\n2. Introduce Guru Arjan Dev Ji's completion of Harmandir Sahib.\n3. Have the child connect this week's two facts together.\n4. Complete the worksheet.\n5. Preview tomorrow's Guru Hargobind Ji lesson.",
+    "differentiationTips": [
+      "Struggling: draw a simple timeline showing Guru Ram Das founding the town, then Guru Arjan Dev Ji completing the building on it",
+      "Ready for more: ask the child why installing the newly-compiled scripture inside the newly-completed building might have felt like a fitting moment",
+      "This lesson deliberately connects three generations of Guru-led achievement (Guru Ram Das's town, Guru Arjan Dev Ji's building and scripture) into one coherent story"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a connection activity — check that the child explains Guru Arjan Dev Ji installed the newly-compiled Adi Granth inside the newly-completed Harmandir Sahib, connecting both achievements together.",
+    "standardsRationale": "Directly addresses the course's 'contributions of the Ten Gurus' description, connecting this week's content to last week's Guru Ram Das lesson for genuine continuity."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-5-2-2",
+    "lessonId": "lesson-sikhi-5-2-2",
+    "title": "Completing Harmandir Sahib",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain how the Adi Granth and Harmandir Sahib connect to each other.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

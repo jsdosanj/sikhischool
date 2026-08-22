@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-5-2",
+    "courseId": "course-sikhi-5",
+    "order": 2,
+    "title": "Guru Arjan Dev Ji and Guru Hargobind Ji",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-5-2-1",
+    "unitId": "unit-sikhi-5-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Compiling the Adi Granth",
+    "gradeLevel": "5",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned about the first four Gurus. This week: the fifth Guru's monumental achievement!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Guru Arjan Dev Ji, the fifth Guru, took on an enormous task: compiling the hymns and writings of the earlier Gurus, along with writings from other respected saints, into one single sacred volume called the Adi Granth. This careful, scholarly work created the first compiled version of what would eventually become the Guru Granth Sahib. Why do you think it mattered to gather these teachings into one organized collection, rather than leaving them scattered?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about Guru Arjan Dev Ji's monumental scholarly achievement! Tomorrow we'll learn about a building he completed."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-5-2-1",
+    "lessonId": "lesson-sikhi-5-2-1",
+    "objectives": [
+      "Identify Guru Arjan Dev Ji as the fifth Guru who compiled the Adi Granth",
+      "Explain why organizing these teachings into one collection was significant"
+    ],
+    "materialsNeeded": ["Last week's four-Gurus timeline worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's first-four-Gurus content briefly.\n2. Introduce Guru Arjan Dev Ji and the compiling of the Adi Granth.\n3. Discuss why organizing the teachings mattered.\n4. Complete the worksheet.\n5. Preview tomorrow's Harmandir Sahib lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — like organizing scattered notes into one clear notebook — to make the compiling task concrete",
+      "Ready for more: ask the child what skills they think this kind of careful, scholarly work required",
+      "Text-only, per the platform's Ten Gurus content policy — no illustration or depiction of Guru Arjan Dev Ji"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child gives a sensible explanation, such as organizing the teachings made them easier to preserve, share, and pass down accurately.",
+    "standardsRationale": "Directly addresses the course's 'contributions of the Ten Gurus' description, continuing chronologically from last week's first four Gurus."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-5-2-1",
+    "lessonId": "lesson-sikhi-5-2-1",
+    "title": "Compiling the Adi Granth",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer the question about the Adi Granth.",
+      "prompts": [
+        { "prompt": "Why do you think it mattered to gather these teachings into one collection?", "lines": 3 }
+      ]
+    }
+  }
+}

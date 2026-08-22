@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-10-2",
+    "courseId": "course-science-10",
+    "order": 2,
+    "title": "Chemical Bonding",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-10-2-2",
+    "unitId": "unit-science-10-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Ionic Bonding",
+    "gradeLevel": "10",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned why atoms bond. Today: ionic bonding, the transfer of electrons!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Ionic bonding happens when one atom transfers an electron (or electrons) to another atom, creating two oppositely-charged ions (connecting to last week's ion content) that attract each other through electrostatic force. When sodium gives its 1 valence electron to chlorine, sodium becomes a positive Na⁺ ion (having lost a negative charge) and chlorine becomes a negative Cl⁻ ion (having gained one), and the resulting attraction between opposite charges forms the ionic bond in table salt, NaCl. Explain why the sodium ion ends up with a positive charge and the chlorine ion ends up with a negative charge after this electron transfer."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how ionic bonding actually works! Tomorrow we'll learn about covalent bonding, a different way atoms connect."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-10-2-2",
+    "lessonId": "lesson-science-10-2-2",
+    "objectives": [
+      "Describe ionic bonding as electron transfer creating oppositely-charged ions",
+      "Explain why sodium becomes positively charged and chlorine becomes negatively charged"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's octet-rule work briefly.\n2. Introduce ionic bonding using the NaCl example.\n3. Have the child explain the resulting charges.\n4. Complete the worksheet.\n5. Preview tomorrow's covalent-bonding lesson.",
+    "differentiationTips": [
+      "Struggling: remind the child that a neutral atom has equal protons and electrons, so losing a negative electron leaves more protons than electrons (net positive), and gaining one does the opposite",
+      "Ready for more: ask the child to predict the ionic compound formed between magnesium (2 valence electrons) and chlorine, including how many chlorine atoms would be needed",
+      "This connects directly back to last week's ion content, showing WHY an atom becomes an ion in the first place through real chemical bonding"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A neutral atom has equal numbers of protons (positive) and electrons (negative). Sodium loses its 1 valence electron, leaving one more proton than electrons, giving it a net positive charge (Na⁺). Chlorine gains that electron, leaving one more electron than protons, giving it a net negative charge (Cl⁻).",
+    "standardsRationale": "Directly addresses NGSS Grade 9-10 standard HS-PS1-3: analyzing bonding based on electrostatic forces between electrons and nuclei, continuing this week's chemical-bonding thread."
+  },
+  "worksheet": {
+    "id": "worksheet-science-10-2-2",
+    "lessonId": "lesson-science-10-2-2",
+    "title": "Ionic Bonding",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about ionic bonding.",
+      "rows": [
+        { "problem": "Describe ionic bonding in your own words." },
+        { "problem": "Why does sodium become positively charged and chlorine become negatively charged in NaCl?" }
+      ]
+    }
+  }
+}

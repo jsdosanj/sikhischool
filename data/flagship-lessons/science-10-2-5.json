@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-10-2",
+    "courseId": "course-science-10",
+    "order": 2,
+    "title": "Chemical Bonding",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-10-2-5",
+    "unitId": "unit-science-10-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Chemical Bonding",
+    "gradeLevel": "10",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned why and how atoms bond. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: atoms bond to achieve a stable octet (Day 1). Ionic bonding transfers electrons, creating charged ions (Day 2). Covalent bonding shares electrons between atoms (Day 3). You learned to predict bond type from metal/nonmetal combinations (Day 4). Predict the bond type for potassium fluoride (potassium, a metal + fluorine, a nonmetal) and for two nitrogen atoms bonding together, and explain both."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you mastered why and how atoms bond, and can predict bond types! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-10-2-5",
+    "lessonId": "lesson-science-10-2-5",
+    "objectives": [
+      "Review the octet rule, ionic bonding, covalent bonding, and bond-type prediction",
+      "Correctly predict and explain the bond type for potassium fluoride and nitrogen gas"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child predict and explain both new examples.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of chemical-bonding mastery!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often distinguishing ionic vs. covalent) rather than requiring all four equally",
+      "Ready for more: ask the child to explain why two identical nonmetal atoms (like nitrogen) must share rather than transfer electrons",
+      "This is a good checkpoint to note which of the week's four chemical-bonding skills needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Potassium fluoride is ionic, since potassium is a metal and fluorine is a nonmetal (metal+nonmetal pattern). Two nitrogen atoms bonding together form a covalent bond, since both are the same nonmetal element and neither can transfer an electron away without losing stability — they must share instead.",
+    "standardsRationale": "Consolidates this week's NGSS Grade 9-10 chemical-bonding standards (HS-PS1-1/HS-PS1-3) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-10-2-5",
+    "lessonId": "lesson-science-10-2-5",
+    "title": "Review: Chemical Bonding",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Predict the bond type for each pair and explain your reasoning.",
+      "rows": [
+        { "problem": "Predict the bond type for potassium fluoride (potassium + fluorine). Explain." },
+        { "problem": "Predict the bond type for two nitrogen atoms bonding together. Explain." }
+      ]
+    }
+  }
+}

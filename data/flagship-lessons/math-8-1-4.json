@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-8-1",
+    "courseId": "course-math-8",
+    "order": 1,
+    "title": "Linear Equations and Functions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-8-1-4",
+    "unitId": "unit-math-8-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Solving Real-World Linear Problems",
+    "gradeLevel": "8",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week's skills solve a genuinely common real-world problem: figuring out a total cost that has both a flat fee and a per-unit rate."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A taxi charges a $3 base fee plus $2 per mile. This is a linear relationship: y = 2x + 3, where x is miles and y is total cost — $3 is the y-intercept (the base fee you pay even for 0 miles), and $2 is the slope (the rate per mile). For 5 miles: y = 2(5) + 3 = $13. Find the total cost for an 8-mile ride using this same equation."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used a linear equation to solve a real cost problem. Tomorrow we'll review everything about linear equations and functions from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-8-1-4",
+    "lessonId": "lesson-math-8-1-4",
+    "objectives": [
+      "Set up a linear equation (y=mx+b) from a real-world flat-fee-plus-rate scenario",
+      "Solve for a total cost using the equation"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's slope and slope-intercept skills.\n2. Work through the taxi example together, identifying the base fee (b) and rate (m).\n3. Have the child solve the 8-mile version independently.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: explicitly label 'base fee = b' and 'rate per unit = m' before writing the equation each time",
+      "Ready for more: ask them to write and solve their own flat-fee-plus-rate scenario (a phone plan, a gym membership)",
+      "This is exactly how real subscription/rate pricing works — worth connecting to something the child has actually seen (a data plan, a rideshare app)"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. y=2x+3 at x=5 gives y=$13. 2. y=2x+3 at x=8 gives y=$19. 3. The base fee is the y-intercept ($3); the per-mile rate is the slope ($2).",
+    "standardsRationale": "Directly addresses Common Core Grade 8 Expressions & Equations standard 8.EE.8/Functions 8.F.4: constructing and using a linear function to model a real-world relationship between two quantities."
+  },
+  "worksheet": {
+    "id": "worksheet-math-8-1-4",
+    "lessonId": "lesson-math-8-1-4",
+    "title": "Solving Real-World Linear Problems",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "A taxi charges a $3 base fee plus $2 per mile (y = 2x + 3). Solve each problem.",
+      "rows": [
+        { "problem": "What is the total cost for a 5-mile ride?" },
+        { "problem": "What is the total cost for an 8-mile ride?" },
+        { "problem": "In this equation, what does the $3 represent?" }
+      ]
+    }
+  }
+}

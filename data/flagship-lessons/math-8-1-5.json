@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-8-1",
+    "courseId": "course-math-8",
+    "order": 1,
+    "title": "Linear Equations and Functions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-8-1-5",
+    "unitId": "unit-math-8-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Linear Equations and Functions",
+    "gradeLevel": "8",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a complete toolkit for linear equations: functions, slope, slope-intercept form, and real-world application. Let's review it all."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a function gives exactly one output per input, written f(x) (Day 1). Slope is the rate of change between two points, rise over run (Day 2). Slope-intercept form, y=mx+b, describes an entire line using its slope and y-intercept (Day 3). Linear equations model real situations with a flat fee plus a rate (Day 4). Solve one problem of each type below to show you've mastered all four skills."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now have a complete toolkit for linear equations and functions that will support the rest of this year's algebra, including the Pythagorean theorem and geometric transformations."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-8-1-5",
+    "lessonId": "lesson-math-8-1-5",
+    "objectives": [
+      "Evaluate functions, calculate slope, use slope-intercept form, and solve real-world linear problems"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Complete the cumulative review worksheet, one problem of each type from the week.\n3. Discuss any mismatches or uncertain answers together before finishing.\n4. Celebrate finishing the first full week of this unit — linear equations will reappear constantly throughout the rest of the year.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to write their own real-world flat-fee-plus-rate word problem for a family member to solve",
+      "This is a good checkpoint to note which day's skill needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. For f(x)=x+3, f(7)=10. 2. Slope of (2,3) and (5,9) is 2. 3. For y=3x-2, y at x=4 is 10. 4. A $5 base fee plus $3/item, for 6 items: y=3(6)+5=$23.",
+    "standardsRationale": "Consolidates Common Core 8.F.1, 8.EE.6, and 8.EE.8 (functions, slope, slope-intercept form, and real-world linear modeling) before the unit moves to a new topic, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-8-1-5",
+    "lessonId": "lesson-math-8-1-5",
+    "title": "Linear Equations and Functions: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each problem.",
+      "rows": [
+        { "problem": "For f(x) = x + 3, find f(7)." },
+        { "problem": "Find the slope between (2, 3) and (5, 9)." },
+        { "problem": "For y = 3x - 2, find y when x = 4." },
+        { "problem": "A service charges a $5 base fee plus $3 per item. What is the total cost for 6 items?" }
+      ]
+    }
+  }
+}

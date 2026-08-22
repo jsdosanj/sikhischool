@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-11-1",
+    "courseId": "course-social-studies-11",
+    "order": 1,
+    "title": "The Progressive Era",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-11-1-3",
+    "unitId": "unit-social-studies-11-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Trust-Busting and Labor Reform",
+    "gradeLevel": "11",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Public outrage from muckraking journalism needed to turn into actual policy. Today: two concrete kinds of reform the Progressive Era pursued."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Progressive reformers pursued change on two connected fronts. Trust-busting meant using government power (especially antitrust laws like the Sherman Antitrust Act) to break up trusts — huge companies that had grown powerful enough to eliminate competition and control entire industries, often at consumers' expense. Labor reform meant new laws addressing the workplace conditions from Day 1: limiting child labor, establishing safer workplace standards, and recognizing labor unions' right to organize. Both reforms shared a common idea: government intervention was necessary to correct problems that an unregulated market wasn't solving on its own. Explain, in your own words, why breaking up a company's total control over an industry might also help protect factory workers, even though trust-busting and labor reform target different problems."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Trust-busting and labor reform show the Progressive Era's core idea in action: using government power deliberately to correct problems industrialization created. Tomorrow we'll look at a major Progressive-Era achievement in a different area entirely: voting rights."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-11-1-3",
+    "lessonId": "lesson-social-studies-11-1-3",
+    "objectives": [
+      "Define trust-busting and explain its purpose using antitrust law",
+      "Describe labor reform's goals and connect both reforms to a shared Progressive-Era idea"
+    ],
+    "materialsNeeded": ["This week's earlier lesson notes", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's muckraking journalism and its effects.\n2. Introduce trust-busting and labor reform as two connected Progressive-Era strategies.\n3. Discuss the shared idea: government intervention correcting market problems.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: women's suffrage.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — one company controlling an entire industry is like one team owning every referee in a league; trust-busting restores fair competition",
+      "Ready for more: ask them to consider what risks or downsides government intervention in markets might also carry, for a more balanced view",
+      "Keep this lesson at the general reform-strategy level — specific legislation and dates beyond the Sherman Antitrust Act are out of scope here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Trust-busting used government power (like antitrust law) to break up companies that eliminated competition and controlled entire industries. 2. Labor reform addressed workplace conditions directly, including child labor limits and safety standards. 3. Both reflect the idea that government intervention is sometimes necessary to correct problems an unregulated market isn't solving — breaking a company's total control can also reduce its power to ignore worker conditions.",
+    "standardsRationale": "Addresses the C3 Framework's Economics dimension (D2.Eco.1) and Civics dimension (D2.Civ.1) alongside WA Social Studies' US History strand, examining two concrete government responses to the problems established earlier this week."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-11-1-3",
+    "lessonId": "lesson-social-studies-11-1-3",
+    "title": "Trust-Busting and Labor Reform",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about trust-busting and labor reform.",
+      "rows": [
+        { "problem": "What was trust-busting, and what tool did it use?" },
+        { "problem": "Name one goal of labor reform during this era." },
+        { "problem": "What shared idea connects trust-busting and labor reform?" }
+      ]
+    }
+  }
+}

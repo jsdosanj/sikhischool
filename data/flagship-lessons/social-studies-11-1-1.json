@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-11-1",
+    "courseId": "course-social-studies-11",
+    "order": 1,
+    "title": "The Progressive Era",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-11-1-1",
+    "unitId": "unit-social-studies-11-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Industrialization's New Problems",
+    "gradeLevel": "11",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Modern US History. As the 1900s began, America had rapidly industrialized — and that rapid change created real problems a growing reform movement would soon respond to."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "By 1900, the United States had shifted from a mostly agricultural, rural nation into an industrial, increasingly urban one. Factories drew huge numbers of workers, including many new immigrants, into fast-growing cities. This rapid growth outpaced the laws and safety standards needed to manage it: factory conditions were often dangerous, hours were long, child labor was common, and city infrastructure (housing, sanitation) struggled to keep up with population growth. These weren't isolated problems — they were widespread patterns across many industrial cities. Explain why rapid change (like fast industrialization) often creates problems that slower, more gradual change wouldn't — even when the change itself (more factories, more jobs) seems positive overall."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Understanding these industrialization-era problems is essential context — the Progressive Era we'll study this week was a direct response to exactly these conditions. Tomorrow we'll look at how journalists helped expose them to the public."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-11-1-1",
+    "lessonId": "lesson-social-studies-11-1-1",
+    "objectives": [
+      "Describe the general pattern of problems created by rapid industrialization and urban growth around 1900",
+      "Explain why rapid change can create problems that gradual change might avoid"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce industrialization and urban growth around 1900.\n2. Discuss the general pattern of problems (unsafe factories, long hours, child labor, strained city infrastructure).\n3. Discuss the reflection question about rapid vs. gradual change.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: journalists who exposed these problems.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — a town growing from 100 to 10,000 people overnight would struggle with the same roads/schools/services designed for 100, even though more people is generally a sign of opportunity",
+      "Ready for more: ask them to name a modern example of rapid change creating unexpected problems, and compare it to this historical pattern",
+      "Keep this lesson at the general pattern level — specific reforms and reformers come in the lessons ahead"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Rapid industrialization created dangerous factory conditions, long working hours, child labor, and strained city infrastructure. 2. Rapid change can outpace the laws, safety standards, and infrastructure needed to manage it safely, even when the underlying change (economic growth) is broadly positive.",
+    "standardsRationale": "Addresses the C3 Framework's History dimension (D2.His.1) and WA Social Studies' US History strand, establishing the causal context for the Progressive Era reforms this unit studies."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-11-1-1",
+    "lessonId": "lesson-social-studies-11-1-1",
+    "title": "Industrialization's New Problems",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about industrialization's effects around 1900.",
+      "prompts": [
+        { "prompt": "Name two problems created by rapid industrialization and urban growth:", "lines": 2 },
+        { "prompt": "Why can rapid change create problems that gradual change might avoid?", "lines": 3 }
+      ]
+    }
+  }
+}

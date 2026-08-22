@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-2-2",
+    "courseId": "course-punjabi-2",
+    "order": 2,
+    "title": "Describing Words, More Verbs, and a Longer Story",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-2-2-5",
+    "unitId": "unit-punjabi-2-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: A Week of New Words",
+    "gradeLevel": "2",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਬਹੁਤ ਨਵੇਂ ਸ਼ਬਦ ਸਿੱਖੇ। ਆਓ ਸਭ ਕੁਝ ਦੁਹਰਾਈਏ! (This week you learned many new words. Let's review it all!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: describing words like ਵੱਡਾ/ਵੱਡੀ and ਛੋਟਾ/ਛੋਟੀ change with gender (Day 1). They combine with nouns and verbs into full sentences (Day 2). ਪੜ੍ਹਨਾ and ਲਿਖਣਾ are two new verbs meaning to read and to write (Day 3). All of this week's words built a real story (Day 4). Write the Gurmukhi word for 'big,' the word for 'to read,' and one full sentence using any of this week's words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਬਹੁਤ ਵਧੀਆ ਕੰਮ! (Wonderful work!) You learned describing words, two new verbs, and read a real story this week. Next week we'll keep building your Punjabi skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-2-2-5",
+    "lessonId": "lesson-punjabi-2-2-5",
+    "objectives": [
+      "Review this week's describing words, animal nouns, two new verbs, and the story",
+      "Recall and correctly write at least 3 of this week's new words"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child write the words for 'big' and 'to read' from memory.\n3. Have the child write one original sentence using this week's vocabulary.\n4. Complete the review worksheet.\n5. Celebrate finishing a full week of new Punjabi vocabulary!",
+    "differentiationTips": [
+      "Struggling: allow the child to look back at this week's worksheets while writing the review words, rather than requiring pure recall",
+      "Ready for more: ask the child to write a sentence combining a describing word AND one of the new verbs (ਪੜ੍ਹਨਾ/ਲਿਖਣਾ) in the same sentence",
+      "This is a good checkpoint to note which of this week's three new elements (describing words, sentence-building, or the two verbs) needs the most review before next week"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child correctly writes ਵੱਡਾ for 'big' and ਪੜ੍ਹਨਾ for 'to read,' and that their original sentence uses this week's vocabulary correctly.",
+    "standardsRationale": "Consolidates this week's sentence-building, verb, and reading-fluency content before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-2-2-5",
+    "lessonId": "lesson-punjabi-2-2-5",
+    "title": "A Week of New Words: Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Write the Gurmukhi word for 'big.'" },
+        { "problem": "Write the Gurmukhi word for 'to read.'" },
+        { "problem": "Write one full sentence using any of this week's words." }
+      ]
+    }
+  }
+}

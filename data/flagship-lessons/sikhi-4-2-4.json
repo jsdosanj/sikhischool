@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-4-2",
+    "courseId": "course-sikhi-4",
+    "order": 2,
+    "title": "Stories from the Udasis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-4-2-4",
+    "unitId": "unit-sikhi-4-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "A Story from Guru Nanak's Travels to Mecca",
+    "gradeLevel": "4",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned about honest living. Today: a different story from Guru Nanak's travels, this one about a big idea!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "During his Udasis, Guru Nanak traveled to Mecca, a holy city for people of the Muslim faith. One well-known story says that while resting, his feet happened to point toward the Kaaba, a sacred structure, and someone asked him to turn them away out of respect. Guru Nanak gently replied by asking them to instead turn his feet toward a direction where God was NOT — showing, respectfully, that he believed God is present everywhere, not limited to just one place or direction. What do you think this story teaches about how Guru Nanak understood God?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned a respectful story about Guru Nanak's belief that God is everywhere! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-4-2-4",
+    "lessonId": "lesson-sikhi-4-2-4",
+    "objectives": [
+      "Recall this well-known Udasi story about Guru Nanak's travels to Mecca",
+      "Explain what the story teaches about God being present everywhere"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's Bhai Lalo/Malik Bhago story briefly.\n2. Introduce the Mecca story, told with genuine respect for the setting.\n3. Discuss what it teaches about God's presence everywhere.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on the single core idea — 'God is everywhere, not just in one place' — as the takeaway",
+      "Ready for more: ask the child how this idea connects to the Ik Onkar concept of oneness, if familiar from other Sikhi lessons",
+      "This is a real, well-documented, respectfully-told story emphasizing interfaith respect — text-only, per the platform's Ten Gurus content policy"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child can explain the story teaches God is present everywhere, not confined to one place or direction.",
+    "standardsRationale": "Directly extends the course's Udasis description with a second real, well-documented story, distinct from this week's honest-living thread, broadening the child's understanding of Guru Nanak's travels."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-4-2-4",
+    "lessonId": "lesson-sikhi-4-2-4",
+    "title": "A Story from Guru Nanak's Travels to Mecca",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain what this story teaches about God.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

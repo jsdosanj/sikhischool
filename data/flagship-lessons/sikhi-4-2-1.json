@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-4-2",
+    "courseId": "course-sikhi-4",
+    "order": 2,
+    "title": "Stories from the Udasis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-4-2-1",
+    "unitId": "unit-sikhi-4-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Meeting Bhai Lalo",
+    "gradeLevel": "4",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned Guru Nanak's three core teachings. This week: real stories from his Udasi journeys that put them into action!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "On his travels, Guru Nanak stayed with Bhai Lalo, a poor carpenter known for earning every bit of his living through honest, hard work — remember Kirat Karo from last week? Bhai Lalo lived that teaching every day, even though he had very little money. Why do you think Guru Nanak chose to stay with a poor but honest carpenter during his travels, instead of somewhere more comfortable?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just met Bhai Lalo, a real example of Kirat Karo in action! Tomorrow we'll meet someone very different: a wealthy official named Malik Bhago."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-4-2-1",
+    "lessonId": "lesson-sikhi-4-2-1",
+    "objectives": [
+      "Identify Bhai Lalo as a poor carpenter known for honest, hard-earned living",
+      "Connect Bhai Lalo's example back to last week's Kirat Karo teaching"
+    ],
+    "materialsNeeded": ["Last week's Kirat Karo worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's three core teachings, especially Kirat Karo.\n2. Introduce Bhai Lalo and his honest work.\n3. Discuss why Guru Nanak might have chosen to stay with him.\n4. Complete the worksheet.\n5. Preview tomorrow's Malik Bhago lesson.",
+    "differentiationTips": [
+      "Struggling: connect directly back to last week's Kirat Karo definition (earning honestly) as the through-line for this whole story",
+      "Ready for more: ask the child what qualities they think made Bhai Lalo someone worth remembering in a story told for hundreds of years",
+      "This is a real, well-documented, commonly-told story from Guru Nanak's life — text-only, per the platform's Ten Gurus content policy"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended reflection activity — check that the child connects Bhai Lalo's honest, hard-earned living directly back to last week's Kirat Karo teaching.",
+    "standardsRationale": "Directly extends the course's Udasis description with a real, concrete story that applies last week's abstract teaching (Kirat Karo) to a specific person and moment."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-4-2-1",
+    "lessonId": "lesson-sikhi-4-2-1",
+    "title": "Meeting Bhai Lalo",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer the question about Bhai Lalo.",
+      "prompts": [
+        { "prompt": "Why do you think Guru Nanak chose to stay with Bhai Lalo?", "lines": 3 }
+      ]
+    }
+  }
+}

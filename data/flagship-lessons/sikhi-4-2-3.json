@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-4-2",
+    "courseId": "course-sikhi-4",
+    "order": 2,
+    "title": "Stories from the Udasis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-4-2-3",
+    "unitId": "unit-sikhi-4-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Connecting the Story to Kirat Karo",
+    "gradeLevel": "4",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've met Bhai Lalo and Malik Bhago. Today: connect their whole story back to a teaching you already know!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Remember Kirat Karo from last week — earning an honest living through your own hard work? The Bhai Lalo and Malik Bhago story is a real, specific example of that teaching in action: Bhai Lalo's simple bread, honestly earned, mattered more to Guru Nanak than Malik Bhago's grand feast. Explain in your own words how this whole story is really a story about Kirat Karo."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected a real story back to a core teaching, seeing how they fit together! Tomorrow we'll learn a different story from Guru Nanak's travels."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-4-2-3",
+    "lessonId": "lesson-sikhi-4-2-3",
+    "objectives": [
+      "Explicitly connect the Bhai Lalo/Malik Bhago story to the Kirat Karo teaching",
+      "Explain the connection in the child's own words"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the full Bhai Lalo/Malik Bhago story from the past two days.\n2. Draw the explicit connection back to last week's Kirat Karo teaching.\n3. Have the child explain the connection in their own words.\n4. Complete the worksheet.\n5. Preview tomorrow's Mecca story.",
+    "differentiationTips": [
+      "Struggling: reread last week's Kirat Karo worksheet answer together as a direct comparison point",
+      "Ready for more: ask the child to think of a modern-day example that shows the same Kirat Karo idea",
+      "This is the key synthesis lesson connecting a concrete story to an abstract teaching — give it real time rather than rushing through it"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a synthesis activity — check that the child can explain, in their own words, that the story shows Kirat Karo in action: honest work and honest earnings matter more than wealth or appearance.",
+    "standardsRationale": "Directly extends the course's dual description (Udasis and core teachings) by synthesizing them into one coherent understanding, rather than treating story and teaching as separate."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-4-2-3",
+    "lessonId": "lesson-sikhi-4-2-3",
+    "title": "Connecting the Story to Kirat Karo",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain how the Bhai Lalo and Malik Bhago story connects to Kirat Karo.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

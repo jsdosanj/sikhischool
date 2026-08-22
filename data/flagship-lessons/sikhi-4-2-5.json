@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-4-2",
+    "courseId": "course-sikhi-4",
+    "order": 2,
+    "title": "Stories from the Udasis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-4-2-5",
+    "unitId": "unit-sikhi-4-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Stories from the Udasis",
+    "gradeLevel": "4",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned two real stories from Guru Nanak's travels. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Bhai Lalo earned an honest living through hard work (Day 1). Guru Nanak chose Bhai Lalo's honest meal over Malik Bhago's unfair feast (Day 2). This whole story shows Kirat Karo in action (Day 3). The Mecca story shows Guru Nanak believed God is everywhere (Day 4). Name both stories from this week, and state one teaching each one shows."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work these past two weeks! You've gone from Guru Nanak's core teachings to real, specific stories showing them in action."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-4-2-5",
+    "lessonId": "lesson-sikhi-4-2-5",
+    "objectives": [
+      "Review and connect this week's two Udasi stories: Bhai Lalo/Malik Bhago and the Mecca story",
+      "State the core teaching each story demonstrates"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child name both stories and state a teaching from each.\n3. Complete the review worksheet.\n4. Celebrate finishing two full weeks of Grade 4 Sikhi — real story-based depth!",
+    "differentiationTips": [
+      "Struggling: focus on just one of the two stories, whichever the child engaged with most this week",
+      "Ready for more: ask the child to explain how this week's stories connect back to something from week 1's core-teachings content",
+      "This is a good checkpoint to note which of the week's two stories needs the most reinforcement"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child can name both stories and correctly state that Bhai Lalo/Malik Bhago shows Kirat Karo, and the Mecca story shows God is present everywhere.",
+    "standardsRationale": "Consolidates this week's deepened Udasis-story content before the course continues, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-4-2-5",
+    "lessonId": "lesson-sikhi-4-2-5",
+    "title": "Stories from the Udasis: Week 2 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What teaching does the Bhai Lalo/Malik Bhago story show?" },
+        { "problem": "What teaching does the Mecca story show?" }
+      ]
+    }
+  }
+}

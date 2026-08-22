@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-3-2",
+    "courseId": "course-math-3",
+    "order": 2,
+    "title": "Fractions as Parts of a Whole",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-3-2-4",
+    "unitId": "unit-math-3-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Equivalent Fractions",
+    "gradeLevel": "3",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you compared fractions with the same denominator. Today: fractions that look different but are actually equal!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Equivalent fractions name the same amount even though the numbers are different. 1/2 and 2/4 are equivalent — half a pizza is the same amount whether you cut it into 2 slices and take 1, or cut it into 4 slices and take 2. Draw two identical rectangles: divide one into 2 equal parts and shade 1, divide the other into 4 equal parts and shade 2. Do the shaded areas look the same size?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just discovered equivalent fractions — different numbers, same amount! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-3-2-4",
+    "lessonId": "lesson-math-3-2-4",
+    "objectives": [
+      "Understand that equivalent fractions represent the same amount with different numerators and denominators",
+      "Verify 1/2 = 2/4 by drawing and comparing shaded areas in identical shapes"
+    ],
+    "materialsNeeded": ["Paper for drawing shapes", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's fraction-comparison work.\n2. Introduce equivalent fractions using the pizza example.\n3. Have the child draw and shade the two rectangles to verify 1/2 = 2/4.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: use the exact same physical object (like a paper strip) folded two different ways, rather than two separately-drawn shapes",
+      "Ready for more: ask the child to find a third fraction equivalent to 1/2 (like 3/6) by drawing a shape with 6 equal parts",
+      "This is a foundational idea for later grades' fraction work — a solid visual understanding now matters more than symbolic shortcuts"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1/2 and 2/4 are equivalent — both shaded areas cover exactly half of the identical rectangles.",
+    "standardsRationale": "Directly addresses Common Core Grade 3 standard 3.NF.3a-b: recognizing and generating simple equivalent fractions, completing this week's fractions thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-math-3-2-4",
+    "lessonId": "lesson-math-3-2-4",
+    "title": "Equivalent Fractions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Draw shapes to check each pair of fractions. Are they equivalent?",
+      "rows": [
+        { "problem": "Is 1/2 equivalent to 2/4? Draw to check." },
+        { "problem": "Is 1/3 equivalent to 2/6? Draw to check." },
+        { "problem": "Is 1/2 equivalent to 3/4? Draw to check." }
+      ]
+    }
+  }
+}

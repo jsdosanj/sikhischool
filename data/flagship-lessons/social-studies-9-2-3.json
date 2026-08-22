@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-9-2",
+    "courseId": "course-social-studies-9",
+    "order": 2,
+    "title": "Introduction to Civic Participation",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-9-2-3",
+    "unitId": "unit-social-studies-9-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Civic Participation Beyond Voting",
+    "gradeLevel": "9",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about voting. Today: the many real ways to participate civically without an election happening at all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Civic participation happens constantly between elections too: volunteering with a local organization, attending a public meeting like a city council or school board meeting, contacting an elected representative about an issue, or joining a community group focused on a shared concern. These forms of participation are often available even to people too young to vote yet, which matters because civic habits built early tend to continue into adulthood. Explain why civic participation options that don't require voting are especially valuable for someone your age."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned real ways to participate civically before you're even old enough to vote! Tomorrow we'll learn how to stay informed as a participating citizen."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-9-2-3",
+    "lessonId": "lesson-social-studies-9-2-3",
+    "objectives": [
+      "Name several forms of civic participation available outside of voting",
+      "Explain why non-voting participation options matter especially for someone under 18"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's civic-participation and voting work.\n2. Introduce non-voting forms of participation: volunteering, public meetings, contacting representatives, community groups.\n3. Have the child explain why these options matter especially at their age.\n4. Complete the worksheet.\n5. Preview tomorrow's staying-informed lesson.",
+    "differentiationTips": [
+      "Struggling: focus on one concrete, achievable example (volunteering with a local organization) rather than requiring the child to explain all four forms equally",
+      "Ready for more: ask the child to research one real public meeting (school board, city council) happening in their own community and what topics it covers",
+      "This is a genuinely empowering lesson for a student too young to vote — worth emphasizing that meaningful participation doesn't have to wait until turning 18"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Non-voting participation matters especially at this age because it lets someone build real civic habits and experience before they're old enough to vote — someone who volunteers, attends meetings, or contacts representatives as a teenager is more likely to keep participating actively as an adult, rather than starting from scratch later.",
+    "standardsRationale": "Directly addresses the C3 Framework's Civics dimension: participating in civic and democratic processes, continuing this week's thread with forms of participation accessible before voting age."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-9-2-3",
+    "lessonId": "lesson-social-studies-9-2-3",
+    "title": "Civic Participation Beyond Voting",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about civic participation beyond voting.",
+      "rows": [
+        { "problem": "Name two forms of civic participation available before voting age." },
+        { "problem": "Why do these options matter especially for someone your age?" }
+      ]
+    }
+  }
+}

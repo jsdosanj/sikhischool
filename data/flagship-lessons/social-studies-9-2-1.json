@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-9-2",
+    "courseId": "course-social-studies-9",
+    "order": 2,
+    "title": "Introduction to Civic Participation",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-9-2-1",
+    "unitId": "unit-social-studies-9-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Civic Participation Means",
+    "gradeLevel": "9",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you studied world geography. This week: civic participation, the other half of this course's focus!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Civic participation means actively taking part in the life of your community and government, rather than just living passively within it — this can include voting, volunteering, attending public meetings, and staying informed about issues that affect your community. Democratic societies depend on people actually participating; a government structure alone doesn't guarantee a healthy democracy if citizens don't engage with it. List three different examples of civic participation, at least one of which doesn't involve voting."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what civic participation really means! Tomorrow we'll focus on voting specifically."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-9-2-1",
+    "lessonId": "lesson-social-studies-9-2-1",
+    "objectives": [
+      "Define civic participation as actively engaging in community and government life",
+      "List three examples of civic participation, including at least one non-voting example"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's world-geography work briefly.\n2. Introduce civic participation and why democratic societies depend on it.\n3. Have the child list three examples, including at least one non-voting example.\n4. Complete the worksheet.\n5. Preview tomorrow's voting-focused lesson.",
+    "differentiationTips": [
+      "Struggling: offer a short list of examples (voting, volunteering, attending a town hall, writing to a representative) for the child to choose three from",
+      "Ready for more: ask the child why a government structure alone, without active citizen participation, might not be enough for a healthy democracy",
+      "Opens this week's civic-participation thread from the course's own description, distinct from last week's pure-geography focus"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child lists three genuine, distinct examples of civic participation and that at least one doesn't involve voting (e.g. volunteering, attending a public meeting, or contacting a representative).",
+    "standardsRationale": "Directly addresses the C3 Framework's Civics dimension, opening this week's thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-9-2-1",
+    "lessonId": "lesson-social-studies-9-2-1",
+    "title": "What Civic Participation Means",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "List three examples of civic participation.",
+      "prompts": [
+        { "prompt": "Example 1:", "lines": 1 },
+        { "prompt": "Example 2:", "lines": 1 },
+        { "prompt": "Example 3 (not voting):", "lines": 1 }
+      ]
+    }
+  }
+}

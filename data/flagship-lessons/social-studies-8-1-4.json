@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-8-1",
+    "courseId": "course-social-studies-8",
+    "order": 1,
+    "title": "Foundations of American Government",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-8-1-4",
+    "unitId": "unit-social-studies-8-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "The Bill of Rights: Protecting Individual Freedoms",
+    "gradeLevel": "8",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "The Constitution set up government structure. But many people worried it didn't clearly protect individual freedoms — the Bill of Rights, added in 1791, addressed that directly."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Bill of Rights is the first ten amendments to the Constitution, ratified in 1791. Some of the most significant: the First Amendment protects freedom of speech, religion, the press, and peaceful assembly. The Fourth Amendment protects against unreasonable searches and seizures. The Fifth and Sixth Amendments guarantee due process and a fair, speedy trial. The Eighth Amendment prohibits cruel and unusual punishment. These amendments exist specifically to limit government power over individuals, complementing the branch-vs-branch checks you studied yesterday. Pick two of these amendments and explain, in your own words, what specific government action each one is meant to prevent."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined real, specific protections the Bill of Rights guarantees. Tomorrow we'll review everything about American government's foundations from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-8-1-4",
+    "lessonId": "lesson-social-studies-8-1-4",
+    "objectives": [
+      "Identify key protections in the Bill of Rights: First, Fourth, Fifth/Sixth, and Eighth Amendments",
+      "Explain what specific government action each named amendment is meant to prevent"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's Declaration, Constitution, and checks-and-balances content.\n2. Introduce the Bill of Rights and the four named amendments.\n3. Have the child choose two amendments and explain what each prevents.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just the First Amendment (the most familiar and concrete) before introducing the others",
+      "Ready for more: ask them to think of a real or hypothetical scenario where one of these amendments would apply",
+      "Connecting each amendment to a concrete 'what it prevents' framing (rather than just reciting text) makes this content much more meaningful"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The First Amendment protects speech, religion, press, and assembly. 2. The Fourth Amendment protects against unreasonable searches and seizures. 3. The Eighth Amendment prohibits cruel and unusual punishment.",
+    "standardsRationale": "Completes the C3 Framework Civics dimension's founding-government content with the Bill of Rights, the individual-rights complement to this week's branch-structure and checks-and-balances lessons."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-8-1-4",
+    "lessonId": "lesson-social-studies-8-1-4",
+    "title": "The Bill of Rights",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Bill of Rights.",
+      "rows": [
+        { "problem": "What does the First Amendment protect?" },
+        { "problem": "What does the Fourth Amendment protect against?" },
+        { "problem": "What does the Eighth Amendment prohibit?" }
+      ]
+    }
+  }
+}

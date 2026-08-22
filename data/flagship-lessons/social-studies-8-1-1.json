@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-8-1",
+    "courseId": "course-social-studies-8",
+    "order": 1,
+    "title": "Foundations of American Government",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-8-1-1",
+    "unitId": "unit-social-studies-8-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The Declaration of Independence's Core Principles",
+    "gradeLevel": "8",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "We begin US History at its founding moment: 1776, when a document laid out the core principles the entire country would be built on."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Declaration of Independence, adopted in 1776, established several core principles: that people have unalienable rights — life, liberty, and the pursuit of happiness — that no government can rightfully take away; that governments get their power from the consent of the governed, not from a king's authority alone; and that people have the right to change or abolish a government that fails to protect their rights. These ideas were genuinely radical for their time, directly rejecting the idea that a monarch ruled by unquestionable right. Explain in your own words why 'government by consent of the governed' was such a different idea from how many governments worked before."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined the core founding principles the United States was built on. Tomorrow we'll look at how the Constitution turned these principles into a real structure of government."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-8-1-1",
+    "lessonId": "lesson-social-studies-8-1-1",
+    "objectives": [
+      "Identify the Declaration of Independence's core principles: unalienable rights, government by consent, right to alter government",
+      "Explain why 'government by consent of the governed' was a significant departure from prior forms of rule"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the Declaration of Independence and its 1776 context.\n2. Walk through the three core principles: unalienable rights, consent of the governed, right to alter government.\n3. Discuss why 'consent of the governed' was radical compared to monarchy.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: the Constitution's structure of government.",
+    "differentiationTips": [
+      "Struggling: focus on just 'unalienable rights' (life, liberty, pursuit of happiness) as the single clearest principle",
+      "Ready for more: ask them to think of a modern example where 'consent of the governed' shows up in how government works today (elections)",
+      "This week deliberately begins with founding principles and government structure — the tension between these ideals and the reality of slavery at the time is addressed in a later, more dedicated unit, not glossed over but also not compressed into this civics-structure lesson"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Unalienable rights are life, liberty, and the pursuit of happiness. 2. Government by consent means government gets its power from the people, not a king's unquestionable authority. 3. People have the right to change or abolish a government that fails to protect their rights.",
+    "standardsRationale": "Establishes the C3 Framework Civics dimension's foundational document before the course moves into government structure and, in future units, the war and its consequences — matching the course's own 'founding era' starting point."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-8-1-1",
+    "lessonId": "lesson-social-studies-8-1-1",
+    "title": "The Declaration of Independence's Core Principles",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Declaration of Independence.",
+      "rows": [
+        { "problem": "What are the three unalienable rights named in the Declaration?" },
+        { "problem": "Where does the Declaration say a government's power comes from?" },
+        { "problem": "What right do people have if a government fails to protect their rights?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-8-1",
+    "courseId": "course-social-studies-8",
+    "order": 1,
+    "title": "Foundations of American Government",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-8-1-5",
+    "unitId": "unit-social-studies-8-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Foundations of American Government",
+    "gradeLevel": "8",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you traced the founding of American government from its core principles to its real, working structure. Let's review it all."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: the Declaration of Independence (1776) established unalienable rights and government by consent (Day 1). The Constitution (1788) created three branches — legislative, executive, judicial (Day 2). Checks and balances let each branch limit the others (Day 3). The Bill of Rights (1791) protects individual freedoms from government overreach (Day 4). Explain in your own words how these four pieces work together as one connected system, not four separate ideas."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you now have a real foundation in how American government was designed, a foundation the rest of this course's journey through the Civil War and Reconstruction will build directly on."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-8-1-5",
+    "lessonId": "lesson-social-studies-8-1-5",
+    "objectives": [
+      "Recall the Declaration's principles, the Constitution's branches, checks and balances, and the Bill of Rights",
+      "Explain how all four pieces work together as one connected system of government"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Discuss the synthesis question — how the four pieces connect — together before writing.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — note that future weeks will build toward the tensions, conflicts, and eventual Civil War this founding structure would face.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to predict what kinds of disagreements a system built this way might struggle to resolve peacefully",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. The Declaration established unalienable rights and government by consent. 2. The Constitution created three branches: legislative, executive, judicial. 3. Checks and balances let each branch limit the others. 4. The Bill of Rights protects individual freedoms from government overreach.",
+    "standardsRationale": "Consolidates the week's C3 Framework Civics content before the course moves toward the tensions and conflicts of the pre-Civil War era, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-8-1-5",
+    "lessonId": "lesson-social-studies-8-1-5",
+    "title": "Foundations of American Government: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "What are two principles from the Declaration of Independence?" },
+        { "problem": "Name the three branches of government." },
+        { "problem": "Give one real example of checks and balances." },
+        { "problem": "What does the Bill of Rights protect?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-8-1",
+    "courseId": "course-social-studies-8",
+    "order": 1,
+    "title": "Foundations of American Government",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-8-1-2",
+    "unitId": "unit-social-studies-8-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Constitution's Three Branches",
+    "gradeLevel": "8",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday's principles needed a real structure to work in practice. Today, the Constitution's answer: three separate branches of government."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Constitution, ratified in 1788, divided the federal government into three branches, each with a distinct job: the legislative branch (Congress — the House of Representatives and Senate) makes laws; the executive branch (the President) enforces and carries out laws; the judicial branch (the Supreme Court and federal courts) interprets laws and decides whether they're constitutional. Splitting power this way was a deliberate choice — no single branch could do everything, which prevents any one part of government from becoming too powerful on its own. Match each branch to its job, and explain in your own words why splitting power this way might prevent abuse."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just mapped out the Constitution's three-branch structure. Tomorrow we'll look at how these branches actually limit each other in practice: checks and balances."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-8-1-2",
+    "lessonId": "lesson-social-studies-8-1-2",
+    "objectives": [
+      "Identify the three branches of government and their distinct jobs: legislative, executive, judicial",
+      "Explain why dividing power across three branches helps prevent abuse"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Declaration of Independence principles.\n2. Introduce the three branches and their jobs.\n3. Discuss why splitting power this way prevents any one branch from becoming too powerful.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: checks and balances.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — 'one group makes the rules, one group enforces them, one group settles disputes about them' — before introducing the formal branch names",
+      "Ready for more: ask them to name a real government role or institution that fits each of the three branches (Congress, the President, the Supreme Court)",
+      "This lesson is genuinely foundational — worth taking real time to make the three-branch structure stick before moving to checks and balances"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Legislative branch (Congress) makes laws. 2. Executive branch (the President) enforces laws. 3. Judicial branch (the courts) interprets laws. 4. Splitting power prevents any single branch from becoming too powerful on its own.",
+    "standardsRationale": "Directly addresses the C3 Framework Civics dimension's core content on the structure of American government, the necessary foundation for Day 3's checks-and-balances analysis."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-8-1-2",
+    "lessonId": "lesson-social-studies-8-1-2",
+    "title": "The Constitution's Three Branches",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Match each branch to its job.",
+      "rows": [
+        { "problem": "Legislative branch: what is its job?" },
+        { "problem": "Executive branch: what is its job?" },
+        { "problem": "Judicial branch: what is its job?" }
+      ]
+    }
+  }
+}

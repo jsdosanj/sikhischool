@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-2-2",
+    "courseId": "course-social-studies-2",
+    "order": 2,
+    "title": "Public Goods, Taxes, and Community Choices",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-2-2-2",
+    "unitId": "unit-social-studies-2-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "What Are Taxes?",
+    "gradeLevel": "2",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned public goods are paid for by the whole community. Today: how does that actually work?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A tax is a small amount of money that people and families give to their community's government. All those small amounts add up to pay for public goods and services, like public libraries, public parks, and the fire department. It works kind of like a classroom where everyone brings a small snack to share, so there's a big meal for the whole class instead of each person eating alone. Name one public good or service from yesterday's lesson that taxes help pay for."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what taxes are and why they matter! Tomorrow we'll look at real jobs that taxes help pay for."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-2-2-2",
+    "lessonId": "lesson-social-studies-2-2-2",
+    "objectives": [
+      "Explain that taxes are money people give to their government to pay for public goods and services",
+      "Connect a specific public good or service back to the idea that taxes helped pay for it"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's public-vs-private-goods sorting.\n2. Introduce taxes using the shared-classroom-snack analogy.\n3. Have the child connect one public good from yesterday back to taxes.\n4. Complete the worksheet.\n5. Preview tomorrow's public-service-jobs lesson.",
+    "differentiationTips": [
+      "Struggling: lean on the shared-snack analogy repeatedly — it's the most concrete, kid-relatable way into this idea",
+      "Ready for more: ask what might happen to a public library if nobody paid any taxes at all",
+      "Keep this deliberately simple — no tax rates, percentages, or income levels; the goal is just the basic 'shared payment for shared things' concept"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended connection activity — check that the child names a real public good or service from yesterday (library, park, fire department) and explains that taxes are the shared money that helps pay for it.",
+    "standardsRationale": "Directly addresses the C3 Framework's Economics dimension (basic taxation concept) at a Grade 2 level, continuing this week's public-goods thread with the mechanism behind it."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-2-2-2",
+    "lessonId": "lesson-social-studies-2-2-2",
+    "title": "What Are Taxes?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about taxes.",
+      "rows": [
+        { "problem": "In your own words, what is a tax?" },
+        { "problem": "Name one public good or service that taxes help pay for." }
+      ]
+    }
+  }
+}

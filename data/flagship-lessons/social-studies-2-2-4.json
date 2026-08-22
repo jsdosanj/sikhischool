@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-2-2",
+    "courseId": "course-social-studies-2",
+    "order": 2,
+    "title": "Public Goods, Taxes, and Community Choices",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-2-2-4",
+    "unitId": "unit-social-studies-2-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Making a Community Choice",
+    "gradeLevel": "2",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about public goods, taxes, and community jobs. Today: practice making a real community decision!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Communities don't have unlimited money, so they have to choose what to spend shared tax money on first. Imagine your community has enough money for only ONE new public good this year: a new public park, or a bigger public library. Pick one, and explain your reason using something you learned this week — who it would help, and why that matters to the whole community, not just to you."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just made a real community decision, just like real town leaders do! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-2-2-4",
+    "lessonId": "lesson-social-studies-2-2-4",
+    "objectives": [
+      "Understand that a community must choose between public goods because money is limited",
+      "Give a reason for a community choice based on benefit to the whole community, not personal preference alone"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's public-goods, taxes, and jobs lessons.\n2. Introduce the park-vs-library scenario and the idea that money is limited.\n3. Have the child pick one option and explain their reasoning.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: ask 'who would this help' as a guiding question for each option before deciding",
+      "Ready for more: ask the child to think of a compromise — could the community do a smaller version of both instead of choosing just one?",
+      "There's no single correct answer here — focus feedback on whether the reasoning connects to community-wide benefit, not just personal preference"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended civic-reasoning activity — check that the child picks one option and gives a reason connected to community-wide benefit, not purely personal preference (e.g. 'the library helps kids learn to read' rather than just 'I like libraries').",
+    "standardsRationale": "Directly addresses the C3 Framework's Civics dimension (community decision-making with limited shared resources) at a Grade 2 level, applying the whole week's economics vocabulary to a real practice decision."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-2-2-4",
+    "lessonId": "lesson-social-studies-2-2-4",
+    "title": "Making a Community Choice",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Choose a new public park or a bigger public library, and explain your reason.",
+      "prompts": [
+        { "prompt": "Which did you choose, and why would it help the whole community?", "lines": 3 }
+      ]
+    }
+  }
+}

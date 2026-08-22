@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-1-2",
+    "courseId": "course-punjabi-1",
+    "order": 2,
+    "title": "New Letters, Colors, and Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-1-2-4",
+    "unitId": "unit-punjabi-1-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Reading Practice: Combining Colors and Numbers",
+    "gradeLevel": "1",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know colors and numbers separately. Today: recognize them combined together, the way you'd really use them!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Practice recognizing these combined phrases in Gurmukhi script: ਇੱਕ ਲਾਲ (ikk laal, one red), ਦੋ ਨੀਲਾ (do neela, two blue), ਤਿੰਨ ਪੀਲਾ (tinn peela, three yellow). Read each phrase by recognizing the whole shape of each word, the way a fluent reader does, then say what it means."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just read real combined phrases using this week's colors and numbers! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-1-2-4",
+    "lessonId": "lesson-punjabi-1-2-4",
+    "objectives": [
+      "Read combined number-color phrases in Gurmukhi script",
+      "Correctly translate each phrase's meaning"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's colors and numbers separately.\n2. Introduce the three combined phrases, reading each by whole-word recognition.\n3. Have the child translate each phrase's meaning.\n4. Move to the worksheet: trace and write each phrase.\n5. Close by making up one more combined phrase together.",
+    "differentiationTips": [
+      "Struggling: point to the number word and color word separately within each phrase before reading the whole thing together",
+      "Ready for more: ask the child to make up and write their own new number-color combination",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a reading and translation activity — check that the child can read all three phrases and correctly translate: ਇੱਕ ਲਾਲ (one red), ਦੋ ਨੀਲਾ (two blue), ਤਿੰਨ ਪੀਲਾ (three yellow).",
+    "standardsRationale": "Directly extends the course's reading-practice goal (established week 1) by combining this week's two new vocabulary sets into genuine, real-use phrases rather than isolated word lists."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-1-2-4",
+    "lessonId": "lesson-punjabi-1-2-4",
+    "title": "Reading Practice: Combining Colors and Numbers",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each phrase in Gurmukhi script, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਇੱਕ ਲਾਲ", "label": "Ikk laal — one red" },
+        { "trace": "ਦੋ ਨੀਲਾ", "label": "Do neela — two blue" },
+        { "trace": "ਤਿੰਨ ਪੀਲਾ", "label": "Tinn peela — three yellow" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-7-1",
+    "courseId": "course-social-studies-7",
+    "order": 1,
+    "title": "Faith and Empire in the Medieval World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-7-1-4",
+    "unitId": "unit-social-studies-7-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "A Written Scripture as a Lasting Institution",
+    "gradeLevel": "7",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You analyzed how Langar made a belief into daily practice. Today, a second institution-building strategy: putting teachings into a permanent, written form."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A compiled, written scripture solves a real historical problem: how does a movement's core teachings stay accurate and consistent after its founder and early leaders are gone? The Sikh scripture was compiled under Guru Arjan in the early 1600s, and later established as the eternal, living Guru itself — meaning the community's central authority became a fixed text, not a person who could be replaced, contradicted, or misquoted. From a world-history perspective, this is a genuine institution-building milestone: movements that successfully create a stable, authoritative text tend to preserve their core identity over centuries, even as circumstances change dramatically around them. Compare this to Langar from yesterday — both solved a similar problem (keeping a belief stable and unified) but in very different ways."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined a second real institution-building strategy — a written scripture as lasting authority. Tomorrow we'll review this whole week's world-history analysis together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-7-1-4",
+    "lessonId": "lesson-social-studies-7-1-4",
+    "objectives": [
+      "Explain how a written, authoritative scripture helps a movement's teachings stay consistent over time",
+      "Compare the scripture-as-institution strategy to Langar's daily-practice strategy"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Langar-as-institution lesson.\n2. Introduce the scripture-compilation timeline and its later status as eternal Guru.\n3. Discuss why a fixed text can't be 'replaced, contradicted, or misquoted' the way a person can.\n4. Compare the two institution-building strategies (Langar vs. scripture) together.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on the core fact — 'a written text can't change or be argued with the way a person's memory can' — without requiring deep comparison analysis yet",
+      "Ready for more: ask them to think of another historical example of a text (religious or otherwise) that served as a stable, lasting authority",
+      "Text-only content, per the platform's content policy — no depiction of the Gurus, symbolic references only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A written scripture keeps a movement's teachings accurate and consistent after its founders are gone. 2. The Sikh scripture was compiled under Guru Arjan and later established as the eternal Guru. 3. Langar makes belief into daily practice; scripture makes belief into fixed, lasting authority — different strategies solving a similar problem.",
+    "standardsRationale": "Continues the C3 Framework History dimension's institution-building analysis from Day 3, giving a second concrete example and an explicit compare-and-contrast task before Day 5's synthesis."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-7-1-4",
+    "lessonId": "lesson-social-studies-7-1-4",
+    "title": "A Written Scripture as a Lasting Institution",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about scripture as an institution.",
+      "rows": [
+        { "problem": "What problem does a written, authoritative scripture help solve?" },
+        { "problem": "Who was the Sikh scripture compiled under, and roughly when?" },
+        { "problem": "What is one similarity and one difference between Langar and scripture as institution-building strategies?" }
+      ]
+    }
+  }
+}

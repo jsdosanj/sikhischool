@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-7-1",
+    "courseId": "course-social-studies-7",
+    "order": 1,
+    "title": "Faith and Empire in the Medieval World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-7-1-3",
+    "unitId": "unit-social-studies-7-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "From Teaching to Institution: Langar",
+    "gradeLevel": "7",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "A spiritual teaching can inspire people, but it takes a real institution to make that teaching an unavoidable, daily practice. Today, a world-history lens on Langar."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "From a world-history perspective, one reason a new religious movement succeeds and lasts is whether it builds real institutions that put its core ideas into daily, physical practice — not just words. Langar, the free community kitchen, did exactly this for early Sikhi: it turned the abstract idea of equality (that all people, regardless of caste or status, deserve equal dignity) into a concrete, repeatable, unavoidable daily act — everyone sitting together, eating the same food. This is a genuine institution-building strategy historians recognize across many movements throughout world history: turning belief into shared, structured practice. Think about why a daily, physical practice might spread and sustain a belief more effectively than words alone."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just analyzed Langar through a world-history lens: as an institution that made a belief into daily practice. Tomorrow we'll look at how a written scripture served a similar institution-building role."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-7-1-3",
+    "lessonId": "lesson-social-studies-7-1-3",
+    "objectives": [
+      "Explain how Langar turned an abstract belief (equality) into a concrete daily institution",
+      "Apply a general world-history principle (institutions help movements endure) to a specific example"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's geographic/cultural context.\n2. Introduce the institution-building analytical lens using Langar as the example.\n3. Discuss why daily physical practice might sustain a belief more than words alone.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: the scripture as an institution.",
+    "differentiationTips": [
+      "Struggling: focus on the concrete fact (Langar = everyone eating together = equality made real) before the more abstract 'institution-building' framing",
+      "Ready for more: ask them to think of a modern example of a daily practice that reinforces a belief or value",
+      "This connects directly to Langar content already covered in earlier Sikhi grades, but analyzes it from a genuinely different (world-history/institutional) angle rather than repeating the same content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Langar turned the idea of equality into a concrete, repeatable daily act. 2. Everyone sitting together and eating the same food made equality unavoidable, not just an idea. 3. A daily, physical practice can sustain a belief more effectively than words alone because it's repeated and shared by everyone.",
+    "standardsRationale": "Addresses the C3 Framework History dimension's analytical skill of examining HOW religious/social movements build lasting institutions, applying a genuine world-history lens to content already introduced at a simpler level in earlier Sikhi grades."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-7-1-3",
+    "lessonId": "lesson-social-studies-7-1-3",
+    "title": "From Teaching to Institution: Langar",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Langar as an institution.",
+      "rows": [
+        { "problem": "What abstract belief did Langar turn into a daily practice?" },
+        { "problem": "How did Langar make that belief unavoidable rather than optional?" },
+        { "problem": "Why might a daily practice sustain a belief better than words alone?" }
+      ]
+    }
+  }
+}

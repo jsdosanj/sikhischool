@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-7-1",
+    "courseId": "course-social-studies-7",
+    "order": 1,
+    "title": "Faith and Empire in the Medieval World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-7-1-2",
+    "unitId": "unit-social-studies-7-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Punjab in the Late 1400s: The World Guru Nanak Was Born Into",
+    "gradeLevel": "7",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you got an overview of the Guru Period. Today, let's zoom into the specific world Guru Nanak was actually born into in 1469."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Punjab, in the late 1400s, sat along major trade and travel routes connecting South Asia to Central Asia and the Middle East — a genuinely well-traveled crossroads region, not an isolated place. It was a region long shaped by both Hindu and Islamic traditions living alongside each other, with a rich mix of languages, cultures, and religious practices. This mixed, crossroads setting matters for understanding Sikhi's early message: Guru Nanak's teaching of one God for everyone, regardless of background, emerged directly out of a region where multiple faith communities were already a daily reality, not an abstract idea. Think about why a message of unity and equality might resonate especially strongly in a region with this much religious and cultural diversity."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just placed Guru Nanak's birth in its real geographic and cultural context. Tomorrow we'll look closely at how his message became a real, functioning institution."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-7-1-2",
+    "lessonId": "lesson-social-studies-7-1-2",
+    "objectives": [
+      "Describe Punjab's late-1400s geographic and cultural context as a crossroads region",
+      "Connect this context to Guru Nanak's message of unity and equality"
+    ],
+    "materialsNeeded": ["A map of South Asia/Central Asia (printed or online)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Guru Period overview.\n2. Introduce Punjab's crossroads geography and religious diversity using the map.\n3. Discuss why a unity-and-equality message might resonate in this specific setting.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: how the message became an institution.",
+    "differentiationTips": [
+      "Struggling: focus on the single core idea — 'Punjab was a place where many different peoples and religions already lived near each other' — without requiring deep geography detail",
+      "Ready for more: research one other historical crossroads region and compare how diversity shaped its culture",
+      "This lesson deliberately stays at the level of general, well-established geography/cultural context rather than asserting specific political history it hasn't independently verified"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Punjab sat along major trade routes connecting South Asia to Central Asia and the Middle East. 2. It was shaped by both Hindu and Islamic traditions living alongside each other. 3. A message of unity and equality could resonate strongly in a region already used to religious and cultural diversity.",
+    "standardsRationale": "Addresses the C3 Framework Geography dimension by grounding a specific faith tradition's founding in its real historical-geographic context, matching the course's 'World History — Medieval & Early Modern' framing rather than treating Sikhi's founding in isolation."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-7-1-2",
+    "lessonId": "lesson-social-studies-7-1-2",
+    "title": "Punjab in the Late 1400s",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Punjab's late-1400s context.",
+      "rows": [
+        { "problem": "What made Punjab a 'crossroads' region?" },
+        { "problem": "What two major religious traditions had long shaped the region?" },
+        { "problem": "Why might a message of unity and equality resonate in this setting?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-9-2",
+    "courseId": "course-math-9",
+    "order": 2,
+    "title": "Exponent Rules",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-9-2-4",
+    "unitId": "unit-math-9-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Combining All the Exponent Rules",
+    "gradeLevel": "9",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned four separate exponent rules. Today: combine them all in one problem!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Real algebra problems often need more than one exponent rule at once. Simplify (x³)² · x⁻¹ step by step: first apply the power-of-a-power rule to (x³)², giving x⁶, then apply the product rule to x⁶ · x⁻¹, giving x⁵ (since 6+(-1)=5). Simplify (y²)⁴ · y⁻³ using the same two-step approach."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just combined multiple exponent rules in one problem! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-9-2-4",
+    "lessonId": "lesson-math-9-2-4",
+    "objectives": [
+      "Apply the power-of-a-power rule and the product rule together in one multi-step problem",
+      "Correctly simplify (y²)⁴ · y⁻³ using both rules in sequence"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's four rules together.\n2. Model the (x³)²·x⁻¹ example step by step.\n3. Have the child simplify (y²)⁴·y⁻³ independently.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: have the child write out each step separately on paper rather than trying to combine rules mentally",
+      "Ready for more: ask the child to create their own two-rule combined problem for a family member to solve",
+      "This is the week's synthesis moment — combining rules in sequence, one step at a time, is the genuinely important skill here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "(y²)⁴ = y⁸ (2×4=8), then y⁸·y⁻³ = y⁵ (8+(-3)=5). So (y²)⁴·y⁻³ = y⁵.",
+    "standardsRationale": "Directly addresses Algebra 1 standards on properties of exponents, synthesizing this week's four rules into one coherent problem-solving skill before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-math-9-2-4",
+    "lessonId": "lesson-math-9-2-4",
+    "title": "Combining All the Exponent Rules",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Simplify each expression using more than one exponent rule.",
+      "rows": [
+        { "problem": "Simplify: (y²)⁴ · y⁻³" },
+        { "problem": "Simplify: (x⁴)² / x³" },
+        { "problem": "Simplify: a⁵ · a⁻² · a³" }
+      ]
+    }
+  }
+}

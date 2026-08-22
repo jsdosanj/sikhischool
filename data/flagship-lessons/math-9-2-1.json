@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-math-9-2",
+    "courseId": "course-math-9",
+    "order": 2,
+    "title": "Exponent Rules",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-9-2-1",
+    "unitId": "unit-math-9-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Multiplying and Dividing Powers",
+    "gradeLevel": "9",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you solved systems of equations. This week: exponent rules, one of this course's other core threads!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "When multiplying powers with the same base, add the exponents: x³ · x⁴ = x⁷ (since x³ · x⁴ = (x·x·x)·(x·x·x·x), seven x's total). When dividing powers with the same base, subtract the exponents: x⁷ / x³ = x⁴. Simplify x⁵ · x² and y⁸ / y³ using these rules."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned to multiply and divide powers! Tomorrow we'll learn what happens when you raise a power to another power."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-9-2-1",
+    "lessonId": "lesson-math-9-2-1",
+    "objectives": [
+      "State the product-of-powers rule: add exponents when multiplying same-base powers",
+      "State the quotient-of-powers rule: subtract exponents when dividing same-base powers",
+      "Correctly simplify x⁵·x² and y⁸/y³"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's systems-of-equations work briefly.\n2. Introduce the product and quotient rules, expanding x³·x⁴ by hand to show why it works.\n3. Have the child simplify x⁵·x² and y⁸/y³.\n4. Complete the worksheet.\n5. Preview tomorrow's power-of-a-power lesson.",
+    "differentiationTips": [
+      "Struggling: physically expand a small example (x²·x³) into repeated multiplication before introducing the shortcut rule",
+      "Ready for more: ask the child what happens when the bases are DIFFERENT (e.g. x³·y⁴) and why the rule doesn't apply there",
+      "Opens this week's exponent-rules thread from the course's own description, following directly after last week's systems-of-equations unit"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "x⁵·x² = x⁷ (5+2=7). y⁸/y³ = y⁵ (8-3=5).",
+    "standardsRationale": "Directly addresses Algebra 1 standards on properties of exponents (extending Common Core Grade 8 standard 8.EE.1 to algebraic expressions), opening this week's thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-math-9-2-1",
+    "lessonId": "lesson-math-9-2-1",
+    "title": "Multiplying and Dividing Powers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Simplify each expression using the product or quotient rule.",
+      "rows": [
+        { "problem": "Simplify: x⁵ · x²" },
+        { "problem": "Simplify: y⁸ / y³" },
+        { "problem": "Simplify: a⁴ · a⁶" },
+        { "problem": "Simplify: b¹⁰ / b⁴" }
+      ]
+    }
+  }
+}

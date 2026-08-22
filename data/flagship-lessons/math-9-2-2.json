@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-math-9-2",
+    "courseId": "course-math-9",
+    "order": 2,
+    "title": "Exponent Rules",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-9-2-2",
+    "unitId": "unit-math-9-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Power of a Power, and the Zero Exponent",
+    "gradeLevel": "9",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you multiplied and divided powers. Today: what happens when you raise a power to another power!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "When raising a power to another power, multiply the exponents: (x³)⁴ = x¹² (since it means x³ multiplied by itself 4 times, giving 3+3+3+3=12 total factors of x). Any nonzero number raised to the power of 0 equals 1: x⁰ = 1 — this follows from the quotient rule, since x³/x³ = x⁰ but also clearly equals 1. Simplify (x²)⁵ and evaluate 7⁰."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the power-of-a-power and zero-exponent rules! Tomorrow we'll learn what negative exponents really mean."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-9-2-2",
+    "lessonId": "lesson-math-9-2-2",
+    "objectives": [
+      "State the power-of-a-power rule: multiply exponents",
+      "State that any nonzero number to the power of 0 equals 1, and explain why using the quotient rule",
+      "Correctly simplify (x²)⁵ and evaluate 7⁰"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's product/quotient rules briefly.\n2. Introduce the power-of-a-power rule, expanding (x³)⁴ by hand to show why it works.\n3. Introduce the zero-exponent rule using the x³/x³ = x⁰ = 1 reasoning.\n4. Have the child simplify (x²)⁵ and evaluate 7⁰.\n5. Complete the worksheet.\n6. Preview tomorrow's negative-exponents lesson.",
+    "differentiationTips": [
+      "Struggling: physically expand (x²)³ into (x·x)(x·x)(x·x) before introducing the shortcut rule",
+      "Ready for more: ask the child to prove x⁰=1 a second way, using a pattern like x³, x², x¹, x⁰ and noticing each step divides by x",
+      "The zero-exponent rule often feels arbitrary to students — grounding it in the quotient rule (rather than just stating it) makes it feel earned, not memorized"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "(x²)⁵ = x¹⁰ (2×5=10). 7⁰ = 1.",
+    "standardsRationale": "Directly addresses Algebra 1 standards on properties of exponents, continuing this week's thread with the power-of-a-power and zero-exponent rules."
+  },
+  "worksheet": {
+    "id": "worksheet-math-9-2-2",
+    "lessonId": "lesson-math-9-2-2",
+    "title": "Power of a Power, and the Zero Exponent",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Simplify or evaluate each expression.",
+      "rows": [
+        { "problem": "Simplify: (x²)⁵" },
+        { "problem": "Simplify: (y³)³" },
+        { "problem": "Evaluate: 7⁰" },
+        { "problem": "Evaluate: 15⁰" }
+      ]
+    }
+  }
+}

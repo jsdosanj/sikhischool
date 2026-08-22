@@ -60,6 +60,14 @@ export default async function CourseDetailPage({
         </h1>
         <p className={`mt-4 opacity-80 ${little ? "text-center text-lg" : ""}`}>{course.description}</p>
 
+        <Link
+          href={`/courses/${course.id}/pacing-guide`}
+          className={`mt-3 inline-block text-sm hover:underline ${little ? "block text-center" : ""}`}
+          style={{ color: "var(--shell-accent)" }}
+        >
+          View the full-year pacing guide &rarr;
+        </Link>
+
         <CourseMedia
           heroImageUrl={course.heroImageUrl}
           heroImageAttribution={course.heroImageAttribution}

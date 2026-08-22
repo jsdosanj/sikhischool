@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-10-1",
+    "courseId": "course-math-10",
+    "order": 1,
+    "title": "Congruence and Proof",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-10-1-2",
+    "unitId": "unit-math-10-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Applying the Congruence Criteria",
+    "gradeLevel": "10",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know three shortcuts for proving triangle congruence. Today, practice recognizing exactly which one applies to a given set of marked measurements."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The key skill is checking not just WHICH three pieces of information you're given, but their ARRANGEMENT. For SAS, the angle must be the one BETWEEN the two given sides — not just any angle. For ASA, the side must be the one BETWEEN the two given angles. Consider: Triangle ABC and Triangle DEF, where AB = DE, angle A = angle D, and AC = DF. Since angle A is between sides AB and AC (and angle D is between DE and DF), this is SAS. Now identify the criterion for: Triangle ABC and Triangle DEF, where angle A = angle D, AB = DE, and angle B = angle E."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just correctly identified a congruence criterion by checking the arrangement of given information, not just the pieces themselves. Tomorrow we'll use these criteria to write a complete, formal two-column proof."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-10-1-2",
+    "lessonId": "lesson-math-10-1-2",
+    "objectives": [
+      "Correctly identify which congruence criterion (SSS, SAS, ASA) applies based on the arrangement of given information",
+      "Recognize that the angle in SAS must be between the two given sides"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Paper for sketching triangles"],
+    "facilitationScript": "1. Review yesterday's three criteria.\n2. Emphasize the arrangement rule: SAS needs the INCLUDED angle, ASA needs the INCLUDED side.\n3. Work through the AB=DE, angle A=angle D, AC=DF example (SAS) together.\n4. Have the child identify the criterion for the angle A=angle D, AB=DE, angle B=angle E example independently.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: writing a formal proof.",
+    "differentiationTips": [
+      "Struggling: sketch each triangle and physically label the given parts before deciding which criterion fits",
+      "Ready for more: ask them to construct an example where two sides and a NON-included angle are given (this is NOT a valid criterion, a good conceptual challenge)",
+      "This arrangement-checking skill is the single most common source of error in congruence proofs — worth real repetition"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. AB=DE, angle A=angle D (included), AC=DF: this is SAS. 2. angle A=angle D, AB=DE (included side), angle B=angle E: this is ASA. 3. The angle in SAS must be between (included by) the two given sides.",
+    "standardsRationale": "Directly addresses Common Core Geometry standard G-CO.8: explaining how the criteria for triangle congruence follow from the definition of congruence, with careful attention to the arrangement rules that distinguish valid from invalid criteria."
+  },
+  "worksheet": {
+    "id": "worksheet-math-10-1-2",
+    "lessonId": "lesson-math-10-1-2",
+    "title": "Applying the Congruence Criteria",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Identify which congruence criterion (SSS, SAS, or ASA) applies to each.",
+      "rows": [
+        { "problem": "AB=DE, BC=EF, AC=DF" },
+        { "problem": "AB=DE, angle A=angle D (included), AC=DF" },
+        { "problem": "angle A=angle D, AB=DE (included side), angle B=angle E" }
+      ]
+    }
+  }
+}

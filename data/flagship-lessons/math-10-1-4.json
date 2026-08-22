@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-10-1",
+    "courseId": "course-math-10",
+    "order": 1,
+    "title": "Congruence and Proof",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-10-1-4",
+    "unitId": "unit-math-10-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "CPCTC: What Congruence Guarantees",
+    "gradeLevel": "10",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you proved two triangles congruent using just three pieces of information. Today, the powerful payoff: what does that proof tell you about everything else?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "CPCTC stands for 'Corresponding Parts of Congruent Triangles are Congruent.' Once you've proven two triangles congruent — by any method, SSS, SAS, or ASA — EVERY corresponding side and angle must also be equal, even the ones you never directly used in the proof. In yesterday's proof, Triangle ABD ≅ Triangle CBD was proven using SAS (AB=CB, angle ABD=angle CBD, BD=BD). By CPCTC, this also proves AD = CD and angle ADB = angle CDB — parts never directly compared in the original proof. This is genuinely useful: proving congruence with just 3 pieces of information unlocks certainty about ALL 6 corresponding parts. Using yesterday's proof, state one additional fact CPCTC now guarantees that wasn't part of the original given information."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used CPCTC to unlock new facts from an already-completed proof. Tomorrow we'll review everything about congruence and proof from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-10-1-4",
+    "lessonId": "lesson-math-10-1-4",
+    "objectives": [
+      "Define CPCTC and explain when it applies",
+      "Apply CPCTC to derive a new fact from an already-proven congruence"
+    ],
+    "materialsNeeded": ["Yesterday's proof worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's completed proof.\n2. Introduce CPCTC and why it's a genuinely powerful follow-up tool.\n3. Apply CPCTC to yesterday's proof together, deriving AD=CD.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just one new fact (AD=CD) rather than requiring the child to find all remaining corresponding parts",
+      "Ready for more: ask them to list ALL 6 corresponding parts (3 sides, 3 angles) for yesterday's two triangles, noting which 3 were given/proven directly and which 3 come from CPCTC",
+      "Emphasize that CPCTC only applies AFTER congruence has already been proven — it can't be used to prove the congruence itself, only to use it afterward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. CPCTC means Corresponding Parts of Congruent Triangles are Congruent. 2. It applies only after triangles have already been proven congruent. 3. From yesterday's proof, CPCTC guarantees AD=CD (and angle ADB=angle CDB), neither of which was directly given or used in the proof.",
+    "standardsRationale": "Directly addresses Common Core Geometry standard G-CO.10, extending the practical value of a completed congruence proof — a genuine 'why does this matter' payoff for the week's proof-writing skill."
+  },
+  "worksheet": {
+    "id": "worksheet-math-10-1-4",
+    "lessonId": "lesson-math-10-1-4",
+    "title": "CPCTC: What Congruence Guarantees",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about CPCTC.",
+      "rows": [
+        { "problem": "What does CPCTC stand for?" },
+        { "problem": "When can you use CPCTC?" },
+        { "problem": "From the Triangle ABD ≅ Triangle CBD proof, what does CPCTC guarantee about AD and CD?" }
+      ]
+    }
+  }
+}

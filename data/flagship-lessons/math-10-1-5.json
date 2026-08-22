@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-10-1",
+    "courseId": "course-math-10",
+    "order": 1,
+    "title": "Congruence and Proof",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-10-1-5",
+    "unitId": "unit-math-10-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Congruence and Proof",
+    "gradeLevel": "10",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you moved from congruence criteria to complete formal proofs to CPCTC. Let's review the whole chain."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: SSS, SAS, and ASA are three criteria that prove triangle congruence with minimal information (Day 1). Correctly identifying which applies requires checking the ARRANGEMENT of given parts, not just which pieces (Day 2). A two-column proof lists statements and justifying reasons, often using the reflexive property for shared sides (Day 3). Once congruence is proven, CPCTC guarantees ALL corresponding parts are equal (Day 4). Write a complete two-column proof for a new pair of triangles: Given AC = BC and CD bisects angle ACB, prove Triangle ACD ≅ Triangle BCD, then state one fact CPCTC guarantees."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now have a complete toolkit for triangle congruence and formal proof-writing, foundational skills for the rest of this Geometry course."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-10-1-5",
+    "lessonId": "lesson-math-10-1-5",
+    "objectives": [
+      "Write a complete two-column proof using an appropriate congruence criterion",
+      "Apply CPCTC to state a new fact from the completed proof"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child write the complete new proof independently, using Day 3's proof as a structural model.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — proof-writing will reappear constantly throughout this Geometry course.",
+    "differentiationTips": [
+      "Struggling: allow the child to use Day 3's proof as a direct template, changing only the letter names",
+      "Ready for more: ask them to also state what CPCTC guarantees about the angles at A and B in this new proof",
+      "This is a good checkpoint to note which part of the proof process (criteria identification, writing statements, or reasons) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Proof: (1) AC=BC — given. (2) angle ACD=angle BCD — given (CD bisects angle C). (3) CD=CD — reflexive property. (4) Triangle ACD ≅ Triangle BCD — SAS. CPCTC guarantees AD=BD.",
+    "standardsRationale": "Consolidates Common Core Geometry G-CO.8/G-CO.9/G-CO.10 (congruence criteria, formal proof-writing, and CPCTC) before the unit moves to similarity, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-10-1-5",
+    "lessonId": "lesson-math-10-1-5",
+    "title": "Congruence and Proof: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Given AC = BC and CD bisects angle ACB, write a complete two-column proof that Triangle ACD ≅ Triangle BCD, then answer the last question.",
+      "rows": [
+        { "problem": "Write your 4-statement, 4-reason proof." },
+        { "problem": "Which congruence criterion does this proof use?" },
+        { "problem": "What does CPCTC guarantee about AD and BD?" }
+      ]
+    }
+  }
+}

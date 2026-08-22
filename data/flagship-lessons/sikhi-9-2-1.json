@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-9-2",
+    "courseId": "course-sikhi-9",
+    "order": 2,
+    "title": "An Introduction to Comparative Religion",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-9-2-1",
+    "unitId": "unit-sikhi-9-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is Comparative Religion?",
+    "gradeLevel": "9",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored Sikh philosophy in depth. This week: comparative religion, the other half of this course's focus!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Comparative religion is the academic practice of respectfully studying different religious traditions side by side, looking for shared questions and different approaches, without ranking one tradition as better than another or claiming to fully capture what a religion means to the people who actually practice it from the outside. This kind of study requires real humility, since a scholar studying a tradition is different from someone living within it. Explain why humility matters when studying religions other than your own."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what comparative religion is and why humility matters! Tomorrow we'll explore questions many religions address."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-9-2-1",
+    "lessonId": "lesson-sikhi-9-2-1",
+    "objectives": [
+      "Define comparative religion as the respectful, humble study of religious traditions side by side",
+      "Explain why humility matters when studying a tradition other than one's own"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Sikh-philosophy work briefly.\n2. Introduce comparative religion and the importance of humility and respect.\n3. Have the child explain why humility matters in this kind of study.\n4. Complete the worksheet.\n5. Preview tomorrow's shared-questions lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — reading ABOUT a sport is different from actually playing it, and a scholar studying a religion is a bit like that",
+      "Ready for more: ask the child why it might be tempting, but ultimately unfair, to compare the very best version of one's own tradition to a less complete understanding of another",
+      "Opens this week's comparative-religion thread from the course's own description, kept deliberately general and respectful rather than making specific claims about other traditions"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Humility matters because someone studying a religion from the outside can never fully capture what it feels like to actually live within that tradition — approaching another faith with humility means being careful not to oversimplify, stereotype, or claim more certainty than is warranted about beliefs and practices that aren't one's own.",
+    "standardsRationale": "Directly addresses the C3 Framework's Civics dimension on respectful cross-cultural understanding, opening this week's comparative-religion thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-9-2-1",
+    "lessonId": "lesson-sikhi-9-2-1",
+    "title": "What Is Comparative Religion?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about comparative religion.",
+      "prompts": [
+        { "prompt": "What is comparative religion?", "lines": 2 },
+        { "prompt": "Why does humility matter when studying another tradition?", "lines": 2 }
+      ]
+    }
+  }
+}

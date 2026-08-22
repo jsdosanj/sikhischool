@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-9-2",
+    "courseId": "course-sikhi-9",
+    "order": 2,
+    "title": "An Introduction to Comparative Religion",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-9-2-3",
+    "unitId": "unit-sikhi-9-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Why This Matters for Civic Life",
+    "gradeLevel": "9",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned comparative religion's basics. Today: why respectful understanding of different traditions matters for everyone!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Understanding comparative religion respectfully connects directly to living well in a pluralistic society made up of people with many different beliefs and backgrounds. Sikhi itself has a strong historical commitment to pluralism and equality, from Guru Amar Das requiring Langar attendance for every visitor regardless of status to Maharaja Ranjit Singh's pluralistic governance of the Sikh Empire, both of which you studied in earlier grades. Explain how Sikhi's own historical commitment to pluralism connects naturally to the value of respectfully understanding other religious traditions today."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected comparative religion to Sikhi's own historical values! Tomorrow we'll apply this respectful understanding to reflect on our own tradition."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-9-2-3",
+    "lessonId": "lesson-sikhi-9-2-3",
+    "objectives": [
+      "Understand why respectful cross-tradition understanding matters in a pluralistic society",
+      "Connect this value to Sikhi's own historical commitment to pluralism and equality"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's comparative-religion and universal-questions work.\n2. Introduce the civic-life connection, recalling the Langar and Sikh Empire examples from earlier grades.\n3. Have the child explain the connection in their own words.\n4. Complete the worksheet.\n5. Preview tomorrow's personal-reflection lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just one example (Langar's open-to-everyone practice) rather than requiring both historical examples",
+      "Ready for more: ask the child to think of one modern example of respectful pluralism they've personally witnessed or experienced",
+      "This is a genuinely values-forward lesson connecting this week's academic content to Sikhi's own lived tradition, not an abstract civics lecture"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Sikhi's own history shows a real, practiced commitment to pluralism, treating everyone as equal regardless of their background — this same value naturally extends to respectfully understanding other religious traditions today, since genuinely valuing equality means genuinely valuing understanding people whose beliefs differ from one's own.",
+    "standardsRationale": "Directly addresses the C3 Framework's Civics dimension on living respectfully in a pluralistic society, connecting this week's comparative-religion thread to Sikhi's own historical values studied in earlier grades."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-9-2-3",
+    "lessonId": "lesson-sikhi-9-2-3",
+    "title": "Why This Matters for Civic Life",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain how Sikhi's history connects to respectful understanding of other traditions.",
+      "prompts": [
+        { "prompt": "How does Sikhi's historical commitment to pluralism connect to comparative religion?", "lines": 3 }
+      ]
+    }
+  }
+}

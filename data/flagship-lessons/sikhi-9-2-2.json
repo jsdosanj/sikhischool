@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-9-2",
+    "courseId": "course-sikhi-9",
+    "order": 2,
+    "title": "An Introduction to Comparative Religion",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-9-2-2",
+    "unitId": "unit-sikhi-9-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Universal Questions Across Traditions",
+    "gradeLevel": "9",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what comparative religion is. Today: the big questions many religious traditions ask!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Many world religions, in their own distinct ways, address a similar set of big human questions: what is the nature of the divine or ultimate reality? How should a person live an ethical life? What happens after death? Comparative religion doesn't claim every tradition answers these questions the same way, only that many traditions ask similar questions from within their own distinct worldview. Think back to last week's Sikh philosophy lessons (Ik Onkar, Hukam), and explain which of these three big questions Sikhi's concept of Ik Onkar most directly addresses."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected a universal question to a Sikh philosophical concept! Tomorrow we'll see why this kind of respectful understanding matters for civic life."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-9-2-2",
+    "lessonId": "lesson-sikhi-9-2-2",
+    "objectives": [
+      "Identify three big questions many religious traditions address in their own way",
+      "Connect Sikhi's Ik Onkar concept, from last week, to one of these universal questions"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet, last week's Sikh-philosophy worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's comparative-religion definition briefly.\n2. Introduce the three universal questions, being careful to frame them generally rather than claiming any single answer.\n3. Have the child connect Ik Onkar to one of the three questions.\n4. Complete the worksheet.\n5. Preview tomorrow's civic-life connection.",
+    "differentiationTips": [
+      "Struggling: review last week's Ik Onkar lesson notes together first before asking the child to make the connection independently",
+      "Ready for more: ask the child which of the three universal questions they find most personally meaningful to think about, and why",
+      "Kept deliberately general — this lesson makes no specific claims about how OTHER traditions answer these questions, only that many traditions engage with them"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Ik Onkar most directly addresses the question of the nature of the divine or ultimate reality, since it expresses Sikhi's understanding of one, universal divine oneness underlying everything.",
+    "standardsRationale": "Directly addresses this course's comparative-religion thread, connecting a genuinely universal framework back to last week's specific Sikh-philosophy content."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-9-2-2",
+    "lessonId": "lesson-sikhi-9-2-2",
+    "title": "Universal Questions Across Traditions",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about universal questions and Sikh philosophy.",
+      "prompts": [
+        { "prompt": "Name the three universal questions from today's lesson.", "lines": 2 },
+        { "prompt": "Which one does Ik Onkar most directly address, and why?", "lines": 2 }
+      ]
+    }
+  }
+}

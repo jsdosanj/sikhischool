@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-6-2",
+    "courseId": "course-math-6",
+    "order": 2,
+    "title": "Negative Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-6-2-4",
+    "unitId": "unit-math-6-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Comparing Numbers in Real Contexts",
+    "gradeLevel": "6",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've explored negative numbers three ways. Today: apply all of it to a real comparison problem!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Real problem: three cities recorded these overnight low temperatures: City A was -8°F, City B was 3°F, and City C was -15°F. Which city was coldest? Which was warmest? Remember: on a number line, further left (more negative) means colder/smaller, even though -15 might look like a 'bigger' number than -8."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just solved a real comparison problem using negative numbers! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-6-2-4",
+    "lessonId": "lesson-math-6-2-4",
+    "objectives": [
+      "Compare a mixed set of positive and negative numbers in a real-world context",
+      "Correctly identify the coldest and warmest temperatures from the three-city example"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's number-line and absolute-value work.\n2. Model the three-city temperature comparison.\n3. Have the child identify the coldest and warmest cities.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: place all three temperatures on a number line together before comparing",
+      "Ready for more: ask the child to add a fourth city's temperature and re-rank all four",
+      "This is the week's synthesis moment — applying number-line ordering to a genuine real-world comparison problem"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "City C (-15°F) was coldest. City B (3°F) was warmest.",
+    "standardsRationale": "Directly addresses Common Core Grade 6 standard 6.NS.7b: writing, interpreting, and explaining statements of order for rational numbers in real-world contexts."
+  },
+  "worksheet": {
+    "id": "worksheet-math-6-2-4",
+    "lessonId": "lesson-math-6-2-4",
+    "title": "Comparing Numbers in Real Contexts",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use the three temperatures (City A: -8°F, City B: 3°F, City C: -15°F) to answer each question.",
+      "rows": [
+        { "problem": "Which city was coldest?" },
+        { "problem": "Which city was warmest?" },
+        { "problem": "Order all three temperatures from coldest to warmest." }
+      ]
+    }
+  }
+}

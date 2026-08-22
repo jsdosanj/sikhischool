@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-6-2",
+    "courseId": "course-math-6",
+    "order": 2,
+    "title": "Negative Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-6-2-3",
+    "unitId": "unit-math-6-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Absolute Value: Distance from Zero",
+    "gradeLevel": "6",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've placed negative numbers on a number line. Today: a new idea, absolute value!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Absolute value is a number's distance from zero, always written as a positive value (or zero). The absolute value of -7 is 7, because -7 is 7 steps away from zero on the number line, just like the absolute value of 7 is also 7. Absolute value is written with two vertical bars: |-7| = 7. Find the absolute value of -12, and of 5."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned absolute value, distance from zero! Tomorrow we'll compare and order a mixed set of numbers using everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-6-2-3",
+    "lessonId": "lesson-math-6-2-3",
+    "objectives": [
+      "Define absolute value as a number's distance from zero",
+      "Correctly find the absolute value of -12 and 5"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's number-line work.\n2. Introduce absolute value using |-7| = 7.\n3. Have the child find the absolute value of -12 and 5.\n4. Complete the worksheet.\n5. Preview tomorrow's mixed-comparison lesson.",
+    "differentiationTips": [
+      "Struggling: count the steps from zero to the number on the number line as a concrete way to find absolute value",
+      "Ready for more: ask the child if two different numbers could ever have the same absolute value, and give an example",
+      "Emphasize that absolute value is always positive (or zero) — never negative, even for a negative input"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "|-12| = 12. |5| = 5.",
+    "standardsRationale": "Directly addresses Common Core Grade 6 standard 6.NS.7c: understanding the absolute value of a rational number as its distance from zero, continuing this week's negative-numbers thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-6-2-3",
+    "lessonId": "lesson-math-6-2-3",
+    "title": "Absolute Value: Distance from Zero",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find each absolute value.",
+      "rows": [
+        { "problem": "|-12| = ?" },
+        { "problem": "|5| = ?" },
+        { "problem": "|-20| = ?" }
+      ]
+    }
+  }
+}

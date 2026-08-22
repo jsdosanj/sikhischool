@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-6-2",
+    "courseId": "course-math-6",
+    "order": 2,
+    "title": "Negative Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-6-2-5",
+    "unitId": "unit-math-6-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Negative Numbers",
+    "gradeLevel": "6",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you explored negative numbers four different ways. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: negative numbers represent values below zero (Day 1). Further left on a number line means a smaller value (Day 2). Absolute value is distance from zero, always positive (Day 3). You compared real negative numbers in a temperature problem (Day 4). Find |-9|, then order -9, 4, and -2 from least to greatest."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you learned to understand, place, and compare negative numbers, plus absolute value! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-6-2-5",
+    "lessonId": "lesson-math-6-2-5",
+    "objectives": [
+      "Review negative numbers, number-line placement, absolute value, and real-world comparison",
+      "Find an absolute value and order a mixed set of numbers"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child find |-9| and order -9, 4, -2.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of real negative-numbers work!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often absolute value) rather than requiring all four equally",
+      "Ready for more: ask the child to explain the difference between a number's value and its absolute value",
+      "This is a good checkpoint to note which of the week's four negative-number skills needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "|-9| = 9. Ordered least to greatest: -9, -2, 4.",
+    "standardsRationale": "Consolidates this week's Common Core Grade 6 negative-numbers standards (6.NS.5/6.NS.6/6.NS.7) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-6-2-5",
+    "lessonId": "lesson-math-6-2-5",
+    "title": "Review: Negative Numbers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Find |-9|." },
+        { "problem": "Order -9, 4, and -2 from least to greatest." }
+      ]
+    }
+  }
+}

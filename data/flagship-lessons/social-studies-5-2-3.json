@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-5-2",
+    "courseId": "course-social-studies-5",
+    "order": 2,
+    "title": "The Age of Exploration",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-5-2-3",
+    "unitId": "unit-social-studies-5-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Major Voyages of Exploration",
+    "gradeLevel": "5",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned why and how explorers set sail. Today: some of the real voyages that resulted!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "In 1492, an expedition led by Christopher Columbus, sailing for Spain, crossed the Atlantic Ocean hoping to reach Asia and instead reached the Caribbean islands, land Europeans hadn't known existed. Other voyages followed from Portugal, England, and France, each hoping to find new trade routes or claim new land for their kingdom. These voyages permanently connected parts of the world that had previously had little or no contact. Why do you think reaching land nobody in Europe knew existed was such a major event at the time?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about real voyages that changed how the world understood itself! Tomorrow we'll learn what these new connections meant for the wider world."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-5-2-3",
+    "lessonId": "lesson-social-studies-5-2-3",
+    "objectives": [
+      "Recall that Columbus's 1492 voyage reached the Caribbean while sailing for Spain",
+      "Explain why unexpectedly reaching unknown land was a major historical event"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's motivations and tools lessons.\n2. Introduce Columbus's 1492 voyage and other European voyages, kept factual and general.\n3. Discuss why this was such a major event.\n4. Complete the worksheet.\n5. Preview tomorrow's global-connections lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just the basic fact (1492, Columbus, Spain, the Caribbean) rather than requiring deeper analysis yet",
+      "Ready for more: ask the child what questions they'd want answered about what happened next, after these voyages reached new lands",
+      "Deliberately kept factual and general — this course's deeper treatment of colonization's consequences for Indigenous peoples is reserved for future, more carefully sourced lessons, continuing this week's and last week's content-sensitivity approach"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and reflection activity — check that the child correctly states Columbus sailed for Spain in 1492 and reached the Caribbean, and gives a sensible explanation of why the discovery was historically significant.",
+    "standardsRationale": "Directly addresses the C3 Framework's History dimension at a Grade 5 level, continuing this week's Age of Exploration thread with real, factual voyage history."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-5-2-3",
+    "lessonId": "lesson-social-studies-5-2-3",
+    "title": "Major Voyages of Exploration",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Columbus's 1492 voyage.",
+      "rows": [
+        { "problem": "What year did Columbus's voyage take place?" },
+        { "problem": "Which kingdom did Columbus sail for?" },
+        { "problem": "What region did his voyage reach?" }
+      ]
+    }
+  }
+}

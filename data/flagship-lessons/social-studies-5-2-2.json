@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-5-2",
+    "courseId": "course-social-studies-5",
+    "order": 2,
+    "title": "The Age of Exploration",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-5-2-2",
+    "unitId": "unit-social-studies-5-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Tools That Made Exploration Possible",
+    "gradeLevel": "5",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned why explorers wanted to sail. Today: the real tools that actually made long ocean voyages possible!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Long ocean voyages needed real technology: a compass to find direction reliably even out of sight of land, an astrolabe to figure out a ship's position using the stars, and improved ship designs (like the caravel) that could sail more efficiently against the wind. Without these tools, long ocean crossings would have been far too risky. Pick one of these three tools and explain why it was essential for a long ocean voyage."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the real technology behind the Age of Exploration! Tomorrow we'll learn about some of the actual voyages these tools made possible."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-5-2-2",
+    "lessonId": "lesson-social-studies-5-2-2",
+    "objectives": [
+      "Name three real navigation technologies: the compass, the astrolabe, and improved ship design",
+      "Explain why one of these tools was essential for long ocean voyages"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's exploration-motivation lesson.\n2. Introduce the compass, astrolabe, and caravel ship design.\n3. Have the child pick one and explain its importance.\n4. Complete the worksheet.\n5. Preview tomorrow's real-voyages lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just the compass, the most familiar and easiest to understand of the three tools",
+      "Ready for more: ask the child to imagine what a voyage might have been like without any of these three tools",
+      "This is a genuinely STEM-adjacent history lesson — connecting technology directly to what became historically possible"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended explanation activity — check that the child correctly explains one tool's real function (compass = direction, astrolabe = position via stars, caravel = efficient sailing) and why it mattered for a long voyage.",
+    "standardsRationale": "Directly addresses the C3 Framework's History dimension at a Grade 5 level, continuing this week's Age of Exploration thread with real, verifiable technological facts."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-5-2-2",
+    "lessonId": "lesson-social-studies-5-2-2",
+    "title": "Tools That Made Exploration Possible",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about exploration technology.",
+      "rows": [
+        { "problem": "What does a compass help a sailor find?" },
+        { "problem": "What does an astrolabe help a sailor figure out?" },
+        { "problem": "Name one improvement in ship design that helped long voyages." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-punjabi-1-2",
+    "courseId": "course-punjabi-1",
+    "order": 2,
+    "title": "New Letters, Colors, and Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-1-2-3",
+    "unitId": "unit-punjabi-1-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Counting in Punjabi: ਇੱਕ ਤੋਂ ਪੰਜ",
+    "gradeLevel": "1",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know colors now. Today: count from one to five in Punjabi!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Learn to count: ਇੱਕ (ikk, one), ਦੋ (do, two), ਤਿੰਨ (tinn, three), ਚਾਰ (chaar, four), ਪੰਜ (panj, five). Practice counting out loud in order, then practice counting real objects around you using these Punjabi number words instead of English ones."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now count to five in Punjabi! Tomorrow we'll practice reading a short passage using everything you've learned this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-1-2-3",
+    "lessonId": "lesson-punjabi-1-2-3",
+    "objectives": [
+      "Count from one to five in Punjabi: ਇੱਕ, ਦੋ, ਤਿੰਨ, ਚਾਰ, ਪੰਜ",
+      "Use these number words to count real objects"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "5+ small objects to count"],
+    "facilitationScript": "1. Review yesterday's colors.\n2. Introduce the five number words, counting together in order.\n3. Practice counting real objects using the Punjabi words.\n4. Move to the worksheet: trace each number word.\n5. Close by counting one more group of objects together.",
+    "differentiationTips": [
+      "Struggling: focus on just the first three numbers (ਇੱਕ, ਦੋ, ਤਿੰਨ) before adding four and five",
+      "Ready for more: ask the child to count a group of colored objects, combining this week's colors and numbers",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and counting activity — check that the child can count to five in Punjabi in order and apply it to real objects.",
+    "standardsRationale": "Introduces genuinely useful, high-frequency vocabulary (numbers) building directly on last week's family/home vocabulary and this week's colors — real conversational Punjabi, not just alphabet drilling."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-1-2-3",
+    "lessonId": "lesson-punjabi-1-2-3",
+    "title": "Counting in Punjabi: One to Five",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each number word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਇੱਕ", "label": "Ikk — one" },
+        { "trace": "ਦੋ", "label": "Do — two" },
+        { "trace": "ਤਿੰਨ", "label": "Tinn — three" },
+        { "trace": "ਚਾਰ", "label": "Chaar — four" },
+        { "trace": "ਪੰਜ", "label": "Panj — five" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-punjabi-1-2",
+    "courseId": "course-punjabi-1",
+    "order": 2,
+    "title": "New Letters, Colors, and Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-1-2-2",
+    "unitId": "unit-punjabi-1-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Finishing the Row and Meeting Colors: ਢ, ਣ",
+    "gradeLevel": "1",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned ਟ, ਠ, ਡ. Today: finish that row with ਢ and ਣ, then start a new vocabulary set — colors (ਰੰਗ)!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਢ and ਣ finish the tongue-curl row you started yesterday — ਢ is the breathier version of ਡ, and ਣ makes an 'n' sound with the same tongue-curl. Now for something new: ਰੰਗ means color. Learn your first three colors: ਲਾਲ (laal, red), ਪੀਲਾ (peela, yellow), and ਨੀਲਾ (neela, blue). Practice saying each color and pointing to something in that color nearby."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You finished a whole row of letters AND learned your first three colors! Tomorrow we'll learn numbers."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-1-2-2",
+    "lessonId": "lesson-punjabi-1-2-2",
+    "objectives": [
+      "Recognize and name the letters ਢ and ਣ, completing the retroflex row",
+      "Learn and use three color words: ਲਾਲ (red), ਪੀਲਾ (yellow), ਨੀਲਾ (blue)"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil", "Objects of different colors around the room"],
+    "facilitationScript": "1. Review ਟ, ਠ, ਡ from yesterday.\n2. Introduce ਢ and ਣ, completing the row.\n3. Introduce ਰੰਗ and the three color words, pointing to real objects of each color.\n4. Move to the worksheet: trace each letter and color word.\n5. Close by finding one more object of each color together.",
+    "differentiationTips": [
+      "Struggling: focus on just the three colors today, saving ਢ/ਣ practice for tomorrow's review",
+      "Ready for more: ask the child to name an object of each color from memory, without looking around first",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a tracing, recognition, and vocabulary activity — check that the child can name ਢ and ਣ, and correctly use ਲਾਲ, ਪੀਲਾ, and ਨੀਲਾ for real objects.",
+    "standardsRationale": "Completes the retroflex row (ਟਠਡਢਣ) from the Painti Akhari sequence while introducing genuinely new, practical vocabulary (colors) — a real Grade 1 Punjabi curriculum goal beyond the alphabet alone."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-1-2-2",
+    "lessonId": "lesson-punjabi-1-2-2",
+    "title": "Finishing the Row and Meeting Colors",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter or word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਢ", "label": "Ddhadha — breathier version of ਡ" },
+        { "trace": "ਣ", "label": "Nana — tongue curled back, 'n' sound" },
+        { "trace": "ਲਾਲ", "label": "Laal — red" },
+        { "trace": "ਪੀਲਾ", "label": "Peela — yellow" },
+        { "trace": "ਨੀਲਾ", "label": "Neela — blue" }
+      ]
+    }
+  }
+}

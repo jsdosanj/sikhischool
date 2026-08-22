@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-1-2",
+    "courseId": "course-punjabi-1",
+    "order": 2,
+    "title": "New Letters, Colors, and Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-1-2-5",
+    "unitId": "unit-punjabi-1-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Letters, Colors, and Numbers",
+    "gradeLevel": "1",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned five new letters, three colors, and five numbers! Let's review it all."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Say the five new letters in order: ਟ, ਠ, ਡ, ਢ, ਣ. Say the three colors: ਲਾਲ, ਪੀਲਾ, ਨੀਲਾ. Count from one to five: ਇੱਕ, ਦੋ, ਤਿੰਨ, ਚਾਰ, ਪੰਜ. Now combine a color and a number of your own choosing, and say the phrase out loud."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work these past two weeks! You've learned real, useful Punjabi vocabulary alongside continuing the alphabet — genuine progress toward reading and speaking."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-1-2-5",
+    "lessonId": "lesson-punjabi-1-2-5",
+    "objectives": [
+      "Recite this week's five letters, three colors, and five numbers",
+      "Create and read a new number-color combination"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Recite this week's letters, colors, and numbers together, in order.\n2. Have the child create and read their own new number-color phrase.\n3. Complete the review worksheet.\n4. Celebrate finishing two full weeks — real vocabulary progress alongside the alphabet!",
+    "differentiationTips": [
+      "Struggling: break the recitation into three separate chunks (letters, colors, numbers) rather than one long unbroken sequence",
+      "Ready for more: ask the child to also recall one word from last week (a greeting or family word) and combine it into a longer phrase if possible",
+      "This is a good checkpoint to note which of the three vocabulary sets (letters, colors, or numbers) needs the most repetition"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recitation and creative-combination review — check that the child can recall this week's letters, colors, and numbers, and create one new valid phrase.",
+    "standardsRationale": "Consolidates this week's alphabet continuation and new vocabulary (colors, numbers) before the course continues, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-1-2-5",
+    "lessonId": "lesson-punjabi-1-2-5",
+    "title": "Review: Letters, Colors, and Numbers",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each item one more time, and say it out loud.",
+      "rows": [
+        { "trace": "ਟ ਠ ਡ ਢ ਣ", "label": "This week's five letters" },
+        { "trace": "ਲਾਲ ਪੀਲਾ ਨੀਲਾ", "label": "This week's three colors" },
+        { "trace": "ਇੱਕ ਦੋ ਤਿੰਨ ਚਾਰ ਪੰਜ", "label": "Counting one to five" }
+      ]
+    }
+  }
+}

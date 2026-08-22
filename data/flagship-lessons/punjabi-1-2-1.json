@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-1-2",
+    "courseId": "course-punjabi-1",
+    "order": 2,
+    "title": "New Letters, Colors, and Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-1-2-1",
+    "unitId": "unit-punjabi-1-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Continuing the Alphabet: ਟ, ਠ, ਡ",
+    "gradeLevel": "1",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned ਛ, ਜ, and ਝ. Today, three more letters that use a new tongue movement: ਟ, ਠ, and ਡ!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਟ, ਠ, and ਡ are made by curling the tip of your tongue back and touching the roof of your mouth — a genuinely different feeling from the letters you've learned so far. Practice saying all three together: ta (tongue curled)... tha (curled, breathier)... da (curled). Notice how different this feels from a regular 't' or 'd' sound."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know a new row of letters that use this tongue-curl sound! Tomorrow we'll finish this row and start learning colors."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-1-2-1",
+    "lessonId": "lesson-punjabi-1-2-1",
+    "objectives": [
+      "Recognize and name the letters ਟ, ਠ, and ਡ",
+      "Physically notice the tongue-curling articulation distinguishing this row"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review ਛ, ਜ, ਝ from last week.\n2. Introduce ਟ, ਠ, ਡ, having the child physically feel their tongue curl back for each.\n3. Practice all three sounds together.\n4. Move to the worksheet: trace each letter, then write it once more.\n5. Close by counting all the letters learned across both weeks so far.",
+    "differentiationTips": [
+      "Struggling: focus on just ਟ and ਡ (the clearest contrast) before adding ਠ's breathier version",
+      "Ready for more: ask the child to compare this new tongue-curl sound to a similar-sounding letter they already know",
+      "This is a genuinely new articulation point — worth real repetition before moving faster"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and recognition activity — check that each traced letter roughly matches the shape shown.",
+    "standardsRationale": "ਟ, ਠ, ਡ continue the Painti Akhari sequence from last week's ਛ/ਜ/ਝ, introducing the retroflex consonant row. Every letter was validated against gurmukhifix's Lexicon before writing."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-1-2-1",
+    "lessonId": "lesson-punjabi-1-2-1",
+    "title": "Continuing the Alphabet: ਟ, ਠ, ਡ",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its sound out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਟ", "label": "Tainka — tongue curled back" },
+        { "trace": "ਠ", "label": "Thattha — breathier version of ਟ" },
+        { "trace": "ਡ", "label": "Dadda — tongue curled back, 'd' sound" }
+      ]
+    }
+  }
+}

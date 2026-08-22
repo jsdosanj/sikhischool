@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-10-1",
+    "courseId": "course-punjabi-10",
+    "order": 1,
+    "title": "Punjabi Poetry",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-10-1-4",
+    "unitId": "unit-punjabi-10-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing an Original Poem",
+    "gradeLevel": "10",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You now have four real poetic tools: ਲੈਅ, ਬਿੰਬ, ਉਪਮਾ, and the ਦੋਹਾ form. Today, use all of them together in one complete original poem."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Write an original poem, 4 to 6 ਤੁਕ (lines) long, on a subject drawn from your own everyday life — the ਖੇਤ (field) near your home, a season, a family memory, or anything genuinely yours. As you write, deliberately use: at least one clear ਬਿੰਬ (sensory image), at least one ਉਪਮਾ (simile), and a steady ਲੈਅ (rhythm) you can feel when you read it aloud. You don't need to use the strict two-line ਦੋਹਾ form for the whole poem — but consider whether your closing two lines could work as a ਦੋਹਾ, delivering one complete thought. Read your finished poem aloud to check that the rhythm feels steady."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've written a complete original poem using every tool from this week. Tomorrow we'll review all four concepts together before this unit moves further into Punjabi's poetic tradition."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-10-1-4",
+    "lessonId": "lesson-punjabi-10-1-4",
+    "objectives": [
+      "Write a complete original 4-6 line poem incorporating imagery, simile, and rhythm",
+      "Read the finished poem aloud to self-check its rhythm"
+    ],
+    "materialsNeeded": ["This week's worksheets (imagery, simile, ਦੋਹਾ)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review all three tools (ਲੈਅ, ਬਿੰਬ, ਉਪਮਾ) and the ਦੋਹਾ form from this week.\n2. Have the child choose a genuine, personal subject before drafting.\n3. Draft the poem, checking that it includes at least one image and one simile.\n4. Read the finished poem aloud together, checking the rhythm.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: allow a shorter 4-line poem and provide a subject choice (season, family memory, a place) rather than requiring a fully original topic",
+      "Ready for more: encourage a full 6-line poem where the final two lines genuinely work as a self-contained ਦੋਹਾ",
+      "The reading-aloud step is not optional — rhythm is much easier to evaluate by ear than by eye, and this models a real habit poets use"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "A complete answer is the child's own original poem (4-6 lines) containing at least one clear image, one simile, and a rhythm the child can identify when reading aloud — content varies genuinely by student, evaluated against these three criteria rather than a fixed 'correct' answer.",
+    "standardsRationale": "Directly addresses the course's 'Punjabi literary history, poetry, and formal writing' description with a genuine composition capstone, synthesizing every tool introduced this week into one finished original piece."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-10-1-4",
+    "lessonId": "lesson-punjabi-10-1-4",
+    "title": "Writing an Original Poem",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your original 4-6 line poem, then check off which tools you used.",
+      "prompts": [
+        { "prompt": "Your original poem (4-6 lines):", "lines": 6 },
+        { "prompt": "Which image, simile, and rhythm choice did you use?", "lines": 3 }
+      ]
+    }
+  }
+}

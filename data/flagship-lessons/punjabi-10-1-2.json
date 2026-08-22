@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-10-1",
+    "courseId": "course-punjabi-10",
+    "order": 1,
+    "title": "Punjabi Poetry",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-10-1-2",
+    "unitId": "unit-punjabi-10-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "ਉਪਮਾ ਅਤੇ ਅਲੰਕਾਰ: Simile and Figurative Language",
+    "gradeLevel": "10",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you found ਲੈਅ (rhythm) and ਬਿੰਬ (imagery) in poetry. Today, a tool poets use to make an image even more vivid: comparison."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਉਪਮਾ (simile) directly compares two different things using a comparing word, making an image sharper by connecting it to something familiar. In English this is the 'like/as' comparison; Punjabi poetry uses comparing words the same way. ਉਪਮਾ is one type of a broader category, ਅਲੰਕਾਰ (figurative language/poetic device) — language used for effect beyond its literal meaning. For example: comparing ਪਿਆਰ (love) to something warm and steady, like sunlight on a field, is a simile that makes an abstract feeling concrete and sensory. Write one original simile of your own, comparing an emotion or idea to something concrete from everyday life."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've now added a second poetic tool, ਉਪਮਾ, to yesterday's rhythm and imagery. Tomorrow we'll look at a specific traditional Punjabi poetic form: ਦੋਹਾ."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-10-1-2",
+    "lessonId": "lesson-punjabi-10-1-2",
+    "objectives": [
+      "Define ਉਪਮਾ (simile) as a direct comparison between two different things",
+      "Write an original simile connecting an abstract idea to a concrete, sensory image"
+    ],
+    "materialsNeeded": ["Yesterday's imagery worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's ਲੈਅ and ਬਿੰਬ.\n2. Introduce ਉਪਮਾ and the broader category ਅਲੰਕਾਰ, using the love/sunlight example.\n3. Have the child write an original simile connecting an abstract feeling to something concrete.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: the ਦੋਹਾ form.",
+    "differentiationTips": [
+      "Struggling: provide two half-finished similes ('Anger is like ___', 'Hope is like ___') for the child to complete before writing one fully original",
+      "Ready for more: ask them to explain why comparing an abstract feeling to something concrete and sensory makes a poem more vivid than stating the feeling directly",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਉਪਮਾ is a direct comparison between two different things, usually using a comparing word. 2. ਅਲੰਕਾਰ is the broader category of figurative/poetic language ਉਪਮਾ belongs to. 3. A strong simile connects an abstract idea to something concrete and sensory.",
+    "standardsRationale": "Directly addresses the course's 'Punjabi literary history, poetry, and formal writing' description by building a second real poetic-analysis tool, continuing from Day 1's rhythm/imagery foundation."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-10-1-2",
+    "lessonId": "lesson-punjabi-10-1-2",
+    "title": "ਉਪਮਾ ਅਤੇ ਅਲੰਕਾਰ: Simile and Figurative Language",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question, then write your original simile.",
+      "prompts": [
+        { "prompt": "What is ਉਪਮਾ (simile)?", "lines": 2 },
+        { "prompt": "What is the broader category ਉਪਮਾ belongs to, and what does it mean?", "lines": 2 },
+        { "prompt": "Write your own original simile comparing a feeling to something concrete:", "lines": 2 }
+      ]
+    }
+  }
+}

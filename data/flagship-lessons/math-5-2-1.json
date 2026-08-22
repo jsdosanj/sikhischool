@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-5-2",
+    "courseId": "course-math-5",
+    "order": 2,
+    "title": "Decimal Place Value",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-5-2-1",
+    "unitId": "unit-math-5-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Understanding Decimal Place Value",
+    "gradeLevel": "5",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you added and subtracted fractions. This week: decimals, another way to write parts of a whole!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "In a decimal number, each place after the decimal point has a name: the first place is tenths, the second is hundredths, the third is thousandths. In 3.245, the 2 is in the tenths place, the 4 is in the hundredths place, and the 5 is in the thousandths place. For the number 6.482, identify what digit is in the tenths place, the hundredths place, and the thousandths place."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified decimal place values! Tomorrow we'll use place value to compare decimals."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-5-2-1",
+    "lessonId": "lesson-math-5-2-1",
+    "objectives": [
+      "Name the tenths, hundredths, and thousandths places in a decimal number",
+      "Identify the digit in each place for a given decimal"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's fraction-addition work briefly.\n2. Introduce the tenths/hundredths/thousandths places using a real example.\n3. Have the child identify each place's digit in 6.482.\n4. Complete the worksheet.\n5. Preview tomorrow's decimal-comparison lesson.",
+    "differentiationTips": [
+      "Struggling: use a place-value chart with labeled columns to visually anchor each digit's place",
+      "Ready for more: ask the child to write a decimal number of their own and identify all three places",
+      "This is a genuine step up from Grade 4's decimal introduction — connecting decimal place value explicitly to whole-number place value (tens, hundreds) can help"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "In 6.482: tenths place = 4, hundredths place = 8, thousandths place = 2.",
+    "standardsRationale": "Directly addresses Common Core Grade 5 standard 5.NBT.3: reading, writing, and comparing decimals to thousandths, opening this week's decimal thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-math-5-2-1",
+    "lessonId": "lesson-math-5-2-1",
+    "title": "Understanding Decimal Place Value",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Identify the digit in each place for the number 6.482.",
+      "rows": [
+        { "problem": "What digit is in the tenths place?" },
+        { "problem": "What digit is in the hundredths place?" },
+        { "problem": "What digit is in the thousandths place?" }
+      ]
+    }
+  }
+}

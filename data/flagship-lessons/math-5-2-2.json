@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-5-2",
+    "courseId": "course-math-5",
+    "order": 2,
+    "title": "Decimal Place Value",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-5-2-2",
+    "unitId": "unit-math-5-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Comparing Decimals",
+    "gradeLevel": "5",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned decimal place value. Today: use it to compare decimals!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "To compare decimals, compare digit by digit starting from the leftmost place, the same way you would for whole numbers. 0.45 vs. 0.5: line them up as 0.45 and 0.50 — comparing the tenths place first, 4 is less than 5, so 0.45 is less than 0.5, even though 45 looks like a bigger number than 5! Compare 0.7 and 0.68 using this method."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just compared decimals using place value, avoiding a common trap! Tomorrow we'll learn to round decimals."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-5-2-2",
+    "lessonId": "lesson-math-5-2-2",
+    "objectives": [
+      "Compare two decimals by comparing digits place by place, starting from the left",
+      "Correctly compare 0.7 and 0.68"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's place-value work.\n2. Model the 0.45 vs. 0.5 comparison, correcting the common 'more digits means bigger' misconception.\n3. Have the child compare 0.7 and 0.68 independently.\n4. Complete the worksheet.\n5. Preview tomorrow's rounding lesson.",
+    "differentiationTips": [
+      "Struggling: always rewrite both decimals with the same number of decimal places (0.45 and 0.50) before comparing, as a consistent routine",
+      "Ready for more: ask the child to explain why 0.45 having 'more digits' doesn't automatically make it bigger than 0.5",
+      "This misconception (more digits = bigger) is a genuinely common Grade 5 error — name it explicitly rather than just showing the correct method"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "0.7 = 0.70, and comparing to 0.68: 7 is greater than 6 in the tenths place, so 0.7 is greater than 0.68.",
+    "standardsRationale": "Directly addresses Common Core Grade 5 standard 5.NBT.3b: comparing two decimals to thousandths based on place value, continuing this week's decimal thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-5-2-2",
+    "lessonId": "lesson-math-5-2-2",
+    "title": "Comparing Decimals",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Compare each pair of decimals. Write which is bigger.",
+      "rows": [
+        { "problem": "Compare 0.7 and 0.68." },
+        { "problem": "Compare 0.3 and 0.29." },
+        { "problem": "Compare 0.55 and 0.6." }
+      ]
+    }
+  }
+}

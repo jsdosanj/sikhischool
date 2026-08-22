@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-5-2",
+    "courseId": "course-math-5",
+    "order": 2,
+    "title": "Decimal Place Value",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-5-2-3",
+    "unitId": "unit-math-5-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Rounding Decimals",
+    "gradeLevel": "5",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've compared decimals. Today: round them to a given place!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Rounding a decimal works just like rounding a whole number: look at the digit right after the place you're rounding to. If it's 5 or more, round up; if it's less than 5, round down. To round 3.14159 to the nearest hundredth, look at the thousandths digit (1) — since it's less than 5, round down, giving 3.14. Round 6.782 to the nearest tenth."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just rounded decimals to a given place! Tomorrow we'll add and subtract decimals in real word problems."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-5-2-3",
+    "lessonId": "lesson-math-5-2-3",
+    "objectives": [
+      "Round a decimal to a given place using the standard rounding rule",
+      "Correctly round 6.782 to the nearest tenth"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's place-value and comparison work.\n2. Model rounding 3.14159 to the nearest hundredth.\n3. Have the child round 6.782 to the nearest tenth independently.\n4. Complete the worksheet.\n5. Preview tomorrow's decimal-addition lesson.",
+    "differentiationTips": [
+      "Struggling: underline the place being rounded to, then circle the digit right after it, as a consistent visual routine",
+      "Ready for more: ask the child to round the same number (6.782) to the nearest hundredth instead, and compare the two results",
+      "This connects directly to whole-number rounding taught in earlier grades — point out the rule works exactly the same way"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "6.782 rounded to the nearest tenth is 6.8 (the hundredths digit, 8, rounds the 7 up to 8).",
+    "standardsRationale": "Directly addresses Common Core Grade 5 standard 5.NBT.4: using place value understanding to round decimals to any place, continuing this week's decimal thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-5-2-3",
+    "lessonId": "lesson-math-5-2-3",
+    "title": "Rounding Decimals",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Round each decimal to the given place.",
+      "rows": [
+        { "problem": "Round 6.782 to the nearest tenth." },
+        { "problem": "Round 4.36 to the nearest tenth." },
+        { "problem": "Round 9.451 to the nearest hundredth." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-4-2",
+    "courseId": "course-math-4",
+    "order": 2,
+    "title": "Fraction Equivalence and Comparison",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-4-2-3",
+    "unitId": "unit-math-4-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Comparing Fractions with Different Denominators",
+    "gradeLevel": "4",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "In Grade 3 you compared fractions with the same denominator. Today: compare fractions with DIFFERENT denominators!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "To compare 2/3 and 3/4, first find a common denominator by making equivalent fractions: 2/3 becomes 8/12 (×4/4), and 3/4 becomes 9/12 (×3/3). Now that both have the same denominator, you can compare directly: 8/12 is less than 9/12, so 2/3 is less than 3/4. Compare 1/2 and 2/5 by first converting both to a common denominator of 10."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just compared fractions with different denominators, a real step up from Grade 3! Tomorrow we'll learn a quicker comparison trick using benchmark fractions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-4-2-3",
+    "lessonId": "lesson-math-4-2-3",
+    "objectives": [
+      "Find a common denominator to compare two fractions with different denominators",
+      "Apply this method to compare 1/2 and 2/5"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's equivalent-fractions and simplifying work.\n2. Model the 2/3 vs. 3/4 comparison using common denominators.\n3. Have the child compare 1/2 and 2/5 using a common denominator of 10.\n4. Complete the worksheet.\n5. Preview tomorrow's benchmark-fraction shortcut.",
+    "differentiationTips": [
+      "Struggling: work through the conversion to a common denominator step by step, writing out each equivalent fraction explicitly before comparing",
+      "Ready for more: ask the child to explain why converting to a common denominator makes the comparison possible",
+      "This directly builds on this week's Day 1 equivalent-fractions skill — point out that connection explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1/2 = 5/10, 2/5 = 4/10. Since 5/10 is greater than 4/10, 1/2 is greater than 2/5.",
+    "standardsRationale": "Directly addresses Common Core Grade 4 standard 4.NF.2: comparing two fractions with different numerators and denominators by creating a common denominator, a genuine step up from Grade 3's same-denominator-only comparison."
+  },
+  "worksheet": {
+    "id": "worksheet-math-4-2-3",
+    "lessonId": "lesson-math-4-2-3",
+    "title": "Comparing Fractions with Different Denominators",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Compare each pair of fractions using a common denominator.",
+      "rows": [
+        { "problem": "Compare 1/2 and 2/5 using a common denominator of 10." },
+        { "problem": "Compare 1/3 and 1/4 using a common denominator of 12." },
+        { "problem": "Compare 3/5 and 1/2 using a common denominator of 10." }
+      ]
+    }
+  }
+}

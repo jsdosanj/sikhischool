@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-4-2",
+    "courseId": "course-math-4",
+    "order": 2,
+    "title": "Fraction Equivalence and Comparison",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-4-2-5",
+    "unitId": "unit-math-4-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Fraction Equivalence and Comparison",
+    "gradeLevel": "4",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you worked with fractions four different ways. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: multiplying numerator and denominator by the same number gives an equivalent fraction (Day 1). Dividing them simplifies a fraction (Day 2). A common denominator lets you compare different-denominator fractions (Day 3). A benchmark fraction like 1/2 gives a quick comparison shortcut (Day 4). Simplify 6/8, then use a benchmark to say if the simplified fraction is more or less than 1/2."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you learned to generate, simplify, and compare fractions two different ways! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-4-2-5",
+    "lessonId": "lesson-math-4-2-5",
+    "objectives": [
+      "Review generating equivalent fractions, simplifying, and two comparison methods",
+      "Simplify a fraction and apply a benchmark comparison to the result"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child simplify 6/8 and compare the result to 1/2.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of real fraction work!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often different-denominator comparison) rather than requiring all four equally",
+      "Ready for more: ask the child to explain when they'd use the common-denominator method versus the benchmark-fraction shortcut",
+      "This is a good checkpoint to note which of the week's four fraction skills needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "6/8 simplifies to 3/4. Since 4/8 (or 3/6) would equal 1/2, and 3/4 is greater than 1/2, the simplified fraction 3/4 is more than 1/2.",
+    "standardsRationale": "Consolidates this week's Common Core Grade 4 fraction standards (4.NF.1/4.NF.2) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-4-2-5",
+    "lessonId": "lesson-math-4-2-5",
+    "title": "Review: Fraction Equivalence and Comparison",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Simplify 6/8." },
+        { "problem": "Is the simplified fraction more or less than 1/2?" },
+        { "problem": "Compare 2/3 and 3/5 using a common denominator of 15." }
+      ]
+    }
+  }
+}

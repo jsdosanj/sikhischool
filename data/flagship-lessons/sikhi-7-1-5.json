@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-sikhi-7-1",
+    "courseId": "course-sikhi-7",
+    "order": 1,
+    "title": "Sikh Identity and the Articles of Faith",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-7-1-5",
+    "unitId": "unit-sikhi-7-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Sikh Identity and the Articles of Faith",
+    "gradeLevel": "7",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you went deep into all Five Kakars, two pairs and one standalone. Let's bring them all together as one complete identity."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Kesh (acceptance) and Kangha (discipline) work together (Day 2). Kara (restraint) and Kachera (readiness) work together (Day 3). Kirpan (protective responsibility) stands as a serious individual commitment (Day 4). Together, all Five Kakars make a Sikh's faith and values visible and constant, worn at all times — not something separate from daily life, but woven directly into it. Explain in your own words why wearing these values visibly, every day, might matter more than just believing them privately."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you now understand the real, individual meaning of each of the Five Kakars, and how together they form one complete, visible statement of identity and commitment."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-7-1-5",
+    "lessonId": "lesson-sikhi-7-1-5",
+    "objectives": [
+      "Recall the individual meaning of each of the Five Kakars",
+      "Explain why visible, worn commitment matters, not just private belief"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Discuss the visible-vs-private-commitment question together before writing.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — note that a future unit will explore the historical persecution and resilience connected to this identity, as the course description names.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to explain the Five Kakars to an imagined friend who has never heard of them, in their own words",
+      "This is a good checkpoint to note which day's article needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Kesh = acceptance; Kangha = discipline. 2. Kara = restraint; Kachera = readiness/self-control. 3. Kirpan = protective responsibility. 4. Answers will vary for the visible-commitment explanation — check it shows genuine reasoning, not just a repeated fact.",
+    "standardsRationale": "Consolidates the course's 'Sikh identity and the articles of faith' description into one complete understanding before a future unit addresses the separate 'historical persecution and resilience' thread, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-7-1-5",
+    "lessonId": "lesson-sikhi-7-1-5",
+    "title": "Sikh Identity and the Articles of Faith: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Match each Kakar to its meaning.",
+      "rows": [
+        { "problem": "Kesh:" },
+        { "problem": "Kangha:" },
+        { "problem": "Kara:" },
+        { "problem": "Kachera:" },
+        { "problem": "Kirpan:" }
+      ]
+    }
+  }
+}

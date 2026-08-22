@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-11-2",
+    "courseId": "course-sikhi-11",
+    "order": 2,
+    "title": "The Sikh Diaspora's Institutions and Impact",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-11-2-1",
+    "unitId": "unit-sikhi-11-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Where the Diaspora Lives Today",
+    "gradeLevel": "11",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned the diaspora's basics. This week: a deeper look at its institutions and real-world impact!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Today, significant Sikh diaspora communities are concentrated in several regions worldwide, including the United Kingdom, Canada, the United States, and parts of East Africa and Southeast Asia — each with its own distinct community history and character, connecting directly to last week's content on early voluntary migration. Using last week's knowledge of why people migrate, explain why a diaspora community might develop its own distinct local character rather than being identical everywhere in the world."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just reviewed where the diaspora lives today! Tomorrow we'll look at diaspora Gurdwaras' expanded civic role."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-11-2-1",
+    "lessonId": "lesson-sikhi-11-2-1",
+    "objectives": [
+      "Name several regions with significant Sikh diaspora communities today",
+      "Explain why diaspora communities develop distinct local character rather than being identical worldwide"
+    ],
+    "materialsNeeded": ["Last week's diaspora worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's diaspora-basics work briefly.\n2. Introduce today's major diaspora regions.\n3. Have the child explain why local character develops differently.\n4. Complete the worksheet.\n5. Preview tomorrow's Gurdwara-civic-role lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — the same family recipe often changes a little depending on what ingredients are available in a new place",
+      "Ready for more: ask the child what kinds of local factors (climate, existing communities, economic opportunities) might shape where a diaspora community settles and grows",
+      "Opens this week's diaspora-institutions thread, genuinely extending last week's introduction rather than repeating it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A diaspora community develops its own distinct local character because it grows within a specific place's own history, culture, economy, and existing population — the community adapts to and blends with its local context over time, so a community in one country naturally develops differently than one in another, even while sharing the same original roots.",
+    "standardsRationale": "Directly addresses this course's global-diaspora thread, extending last week's foundational content into a deeper, more specific examination."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-11-2-1",
+    "lessonId": "lesson-sikhi-11-2-1",
+    "title": "Where the Diaspora Lives Today",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about today's diaspora communities.",
+      "prompts": [
+        { "prompt": "Name three regions with significant Sikh diaspora communities today.", "lines": 1 },
+        { "prompt": "Why might a diaspora community develop its own distinct local character?", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-11-2",
+    "courseId": "course-sikhi-11",
+    "order": 2,
+    "title": "The Sikh Diaspora's Institutions and Impact",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-11-2-2",
+    "unitId": "unit-sikhi-11-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Gurdwara's Expanded Civic Role",
+    "gradeLevel": "11",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned where the diaspora lives. Today: how diaspora Gurdwaras grew into much more than places of worship!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Beyond worship, diaspora Gurdwaras often expanded into genuine community civic centers, hosting Punjabi language classes, cultural events, community support services, and gathering spaces for a diaspora community's shared life — a real expansion of the Gurdwara's role from last week's 'community anchor' introduction. Explain why a diaspora community, newly settled in an unfamiliar country, might especially need the Gurdwara to serve these additional civic functions, beyond worship alone."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how the Gurdwara's role expanded in the diaspora! Tomorrow we'll look at the diaspora's real humanitarian contributions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-11-2-2",
+    "lessonId": "lesson-sikhi-11-2-2",
+    "objectives": [
+      "Understand the diaspora Gurdwara's expanded civic functions beyond worship",
+      "Explain why a newly settled community especially benefits from these expanded functions"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet, last week's Gurdwara-anchor content", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's diaspora-regions work and last week's Gurdwara-anchor content briefly.\n2. Introduce the Gurdwara's expanded civic functions.\n3. Have the child explain why a newly settled community especially benefits.\n4. Complete the worksheet.\n5. Preview tomorrow's humanitarian-contributions lesson.",
+    "differentiationTips": [
+      "Struggling: list the specific functions (language classes, cultural events, community support) one at a time and ask which one seems most important for someone newly arrived",
+      "Ready for more: ask the child to compare the diaspora Gurdwara's expanded role to how a community center or cultural association might function for other newly settled communities",
+      "This is a genuine extension of last week's Gurdwara-as-anchor content, showing specifically HOW that anchoring role works in practice"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A newly settled community, especially in an unfamiliar country, benefits enormously from having one trusted, familiar place that offers language, culture, and community support alongside worship — the Gurdwara becomes a genuine anchor precisely because it meets multiple real needs at once, helping people build a new life while staying connected to their heritage.",
+    "standardsRationale": "Directly addresses this course's global-diaspora thread, extending last week's Gurdwara-as-anchor content into its specific civic functions."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-11-2-2",
+    "lessonId": "lesson-sikhi-11-2-2",
+    "title": "The Gurdwara's Expanded Civic Role",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Gurdwara's expanded civic role.",
+      "prompts": [
+        { "prompt": "Name two civic functions a diaspora Gurdwara might serve beyond worship.", "lines": 1 },
+        { "prompt": "Why does a newly settled community especially benefit from these functions?", "lines": 2 }
+      ]
+    }
+  }
+}

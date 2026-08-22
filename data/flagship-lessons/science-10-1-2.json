@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-10-1",
+    "courseId": "course-science-10",
+    "order": 1,
+    "title": "Atomic Structure",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-10-1-2",
+    "unitId": "unit-science-10-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Isotopes and Ions",
+    "gradeLevel": "10",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned a neutral atom has equal protons and electrons. Today: what happens when that balance changes?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Isotopes are atoms of the same element (same number of protons, so same atomic number) with different numbers of neutrons — this means they have different mass numbers. Carbon-12 (6 protons, 6 neutrons) and Carbon-14 (6 protons, 8 neutrons) are both carbon, just different isotopes. Ions form when an atom gains or loses electrons, creating a charge — this does NOT change which element it is, since the proton count stays the same. Losing electrons creates a positive ion (cation); gaining electrons creates a negative ion (anion). A sodium atom (11 protons, 11 electrons, neutral) that loses 1 electron becomes Na+ (11 protons, 10 electrons). Find the number of neutrons in Carbon-14 (mass number 14), and find the number of electrons in a chlorine ion Cl- (atomic number 17, gains 1 electron)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand two different ways an atom's particle counts can vary — isotopes (neutrons) and ions (electrons) — while the proton count always defines the element. Tomorrow we'll look at where electrons actually are: energy levels."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-10-1-2",
+    "lessonId": "lesson-science-10-1-2",
+    "objectives": [
+      "Distinguish an isotope (different neutron count) from an ion (different electron count)",
+      "Calculate neutron count for an isotope and electron count for an ion"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Periodic table reference (optional)"],
+    "facilitationScript": "1. Review yesterday's atomic number/mass number/neutral-atom concepts.\n2. Introduce isotopes using the Carbon-12/Carbon-14 example.\n3. Introduce ions using the sodium example, distinguishing cations from anions.\n4. Work through the Carbon-14 and Cl- calculations together.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: electron energy levels.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — isotopes are 'heavier or lighter versions of the same person', ions are 'the same person carrying a different charge, not becoming someone else'",
+      "Ready for more: ask them to explain why an ion's identity as an element never changes no matter how many electrons it gains or loses, but changing proton count always would",
+      "A common misconception is that ions are a different element — explicitly correct this: the element is defined only by proton count"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Carbon-14 has 14-6=8 neutrons. 2. Cl- has 17+1=18 electrons. 3. Isotopes differ in neutron count; ions differ in electron count; neither changes the element, which is defined by proton count.",
+    "standardsRationale": "Directly extends NGSS HS-PS1-1 by deepening atomic-structure understanding to isotopes and ions, foundational concepts for the unit's later work on bonding and stoichiometry."
+  },
+  "worksheet": {
+    "id": "worksheet-science-10-1-2",
+    "lessonId": "lesson-science-10-1-2",
+    "title": "Isotopes and Ions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about isotopes and ions.",
+      "rows": [
+        { "problem": "How many neutrons does Carbon-14 (atomic number 6, mass number 14) have?" },
+        { "problem": "How many electrons does Cl- (atomic number 17, gains 1 electron) have?" },
+        { "problem": "Does gaining or losing an electron ever change which element an atom is? Why or why not?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-10-1",
+    "courseId": "course-science-10",
+    "order": 1,
+    "title": "Atomic Structure",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-10-1-4",
+    "unitId": "unit-science-10-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "The Periodic Table's Hidden Pattern",
+    "gradeLevel": "10",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "The periodic table isn't just a list of elements — its rows and columns directly encode the electron arrangements you learned yesterday."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Elements are arranged left to right by increasing atomic number. But the table's ROWS (periods) and COLUMNS (groups) aren't arbitrary: each period number tells you how many electron shells an atom in that row has, and elements in the same group (column) have the same number of valence electrons — which is why they behave similarly. Sodium (period 3, group 1) has 3 shells and 1 valence electron; so does every other group 1 element, just with more shells added per period down the column. This is the actual reason elements in the same group share chemical properties: it's not a coincidence, it's the same valence-electron count producing similar behavior. Using this pattern, predict the number of valence electrons for chlorine (period 3, group 17) and for magnesium (period 3, group 2)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand why the periodic table is shaped the way it is — its structure directly reflects electron arrangement, not an arbitrary sorting choice. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-10-1-4",
+    "lessonId": "lesson-science-10-1-4",
+    "objectives": [
+      "Explain that a period number corresponds to the number of electron shells, and group number relates to valence electron count",
+      "Predict an element's valence electron count from its position on the periodic table"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Periodic table reference"],
+    "facilitationScript": "1. Review yesterday's electron-shell arrangements.\n2. Introduce periods (shells) and groups (valence electrons) using the sodium example.\n3. Discuss why elements in the same group share chemical properties.\n4. Work through the chlorine and magnesium predictions together.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus only on group 1 and group 2 elements first (simplest valence patterns: 1 and 2) before introducing higher group numbers",
+      "Ready for more: ask them to explain why elements in the same period do NOT share similar chemical properties, despite being right next to each other",
+      "A real periodic table in front of the child makes this lesson far more concrete — point to actual rows/columns while discussing the pattern"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Chlorine (group 17) has 7 valence electrons. 2. Magnesium (group 2) has 2 valence electrons. 3. Elements in the same group share properties because they have the same valence electron count, which determines chemical behavior.",
+    "standardsRationale": "Directly addresses NGSS HS-PS1-1: using the periodic table as a model to predict relative properties of elements based on patterns of electrons in the outermost energy level — the culminating lesson of this atomic-structure week."
+  },
+  "worksheet": {
+    "id": "worksheet-science-10-1-4",
+    "lessonId": "lesson-science-10-1-4",
+    "title": "The Periodic Table's Hidden Pattern",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use the periodic table pattern (period = shells, group = valence electrons) to answer each question.",
+      "rows": [
+        { "problem": "How many valence electrons does chlorine (group 17) have?" },
+        { "problem": "How many valence electrons does magnesium (group 2) have?" },
+        { "problem": "Why do elements in the same group share similar chemical properties?" }
+      ]
+    }
+  }
+}

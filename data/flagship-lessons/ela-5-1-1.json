@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-5-1",
+    "courseId": "course-ela-5",
+    "order": 1,
+    "title": "Persuasive Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-5-1-1",
+    "unitId": "unit-ela-5-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Stating a Clear Claim",
+    "gradeLevel": "5",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Persuasive writing tries to convince the reader to agree with your position on something. This week, you'll learn to write persuasively — starting with the most important sentence: your claim."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A claim is a clear, specific statement of your position — not a fact, but an opinion you can support with reasons. A weak claim is vague: 'Homework is bad.' A strong claim is specific: 'Elementary schools should limit homework to 30 minutes per night because students need time for family, rest, and other activities.' Notice the strong claim states exactly what should happen AND previews why. Practice writing a claim about a topic you care about — a school rule, a household rule, or something in your community."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just wrote a specific, defensible claim — the foundation every persuasive piece is built on. Tomorrow we'll learn how to support that claim with real reasons and evidence."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-5-1-1",
+    "lessonId": "lesson-ela-5-1-1",
+    "objectives": [
+      "Define a claim as a specific, defensible statement of position, not a vague opinion",
+      "Write a specific, well-formed claim on a topic of personal interest"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce persuasive writing as writing meant to convince a reader.\n2. Compare the weak ('Homework is bad') vs. strong ('Elementary schools should limit homework to 30 minutes...') claim examples.\n3. Brainstorm topics the child genuinely cares about before writing.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: supporting the claim with reasons and evidence.",
+    "differentiationTips": [
+      "Struggling: provide a claim template ('[Who] should [do what] because [reason]') to fill in",
+      "Ready for more: ask them to write two different claims on the same topic and explain which is more specific and why",
+      "Genuine personal investment in the topic makes every later lesson this week easier — spend real time on topic selection"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's chosen topic — check that the claim is specific (not vague) and clearly states a position that could be argued for or against.",
+    "standardsRationale": "Addresses Common Core Grade 5 Writing standard W.5.1a (introduce a topic and state an opinion), building beyond Grade 3's simpler opinion-statement skill toward a more specific, defensible claim."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-5-1-1",
+    "lessonId": "lesson-ela-5-1-1",
+    "title": "Stating a Clear Claim",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a specific, defensible claim about a topic you care about.",
+      "prompts": [
+        { "prompt": "My topic:", "lines": 1 },
+        { "prompt": "My claim (specific, not vague):", "lines": 3 }
+      ]
+    }
+  }
+}

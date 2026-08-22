@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-8-2",
+    "courseId": "course-science-8",
+    "order": 2,
+    "title": "Earth's History",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-8-2-3",
+    "unitId": "unit-science-8-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "The Vastness of Geologic Time",
+    "gradeLevel": "8",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've read rock layers and fossils. Today: just how much time those layers actually represent!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Earth is about 4.6 billion years old — a number so large it's hard to picture. One helpful way to grasp it: imagine Earth's whole history compressed into a single 12-month calendar year. On that scale, the earliest simple life appears around February, the first land plants don't show up until early December, dinosaurs go extinct on December 26th, and all of recorded human history fits into the final few seconds before midnight on December 31st. If dinosaurs went extinct on December 26th of this compressed calendar year, explain what that tells you about how recently, in Earth's real history, dinosaurs actually lived compared to the very first simple life in February."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just grasped the real scale of geologic time! Tomorrow we'll put rock layers, fossils, and time together to reconstruct Earth's history."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-8-2-3",
+    "lessonId": "lesson-science-8-2-3",
+    "objectives": [
+      "Understand Earth's age (4.6 billion years) using the compressed-calendar-year analogy",
+      "Explain what the calendar analogy reveals about how recently dinosaurs lived relative to early life"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's fossil-evidence work briefly.\n2. Introduce Earth's real age and walk through the compressed-calendar-year analogy together.\n3. Have the child explain what the December 26th dinosaur-extinction date reveals.\n4. Complete the worksheet.\n5. Preview tomorrow's synthesis lesson.",
+    "differentiationTips": [
+      "Struggling: use a real physical wall calendar and point to the actual dates as you walk through the analogy",
+      "Ready for more: ask the child to estimate what date recorded human history would need to start on to fit only in the final seconds",
+      "Geologic time is one of the genuinely hardest ideas at this grade level to make concrete — the calendar analogy is worth revisiting slowly rather than rushing past it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "It tells you dinosaurs lived very recently compared to early life — nearly the entire compressed year (almost 11 months) passed between the first simple life in February and the dinosaurs' extinction in late December, meaning most of Earth's history happened before dinosaurs even existed.",
+    "standardsRationale": "Directly addresses NGSS Grade 8 Earth and Space Science standard MS-ESS1-4: representing Earth's very long history on a scale that makes clear how relatively recent later events are."
+  },
+  "worksheet": {
+    "id": "worksheet-science-8-2-3",
+    "lessonId": "lesson-science-8-2-3",
+    "title": "The Vastness of Geologic Time",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about geologic time.",
+      "rows": [
+        { "problem": "About how old is Earth?" },
+        { "problem": "On the compressed calendar year, dinosaurs went extinct on December 26th. What does this tell you about how recently they lived?" }
+      ]
+    }
+  }
+}

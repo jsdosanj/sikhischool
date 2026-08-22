@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-12-1",
+    "courseId": "course-ela-12",
+    "order": 1,
+    "title": "Media and AI Literacy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-12-1-1",
+    "unitId": "unit-ela-12-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "A Framework for Evaluating Media",
+    "gradeLevel": "12",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Grade 12 ELA. Before this year's independent literature study and capstone research project, we'll build a genuinely necessary skill: evaluating the flood of media you encounter every day."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong media-evaluation framework asks three questions of anything you encounter — an article, a video, a social media post: What is its purpose (to inform, persuade, entertain, or sell something)? What evidence does it actually provide, versus just assert? What context is missing that might change how you understand it? This builds directly on the source-credibility work from Grade 11, but applies more broadly — to the full range of media you encounter daily, not just academic sources. Pick one piece of media you saw recently (a video, post, or article) and evaluate it against all three questions."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "This three-question framework gives you a genuine tool for navigating media critically, not just consuming it passively. Tomorrow we'll look at a newer challenge this framework has to handle: AI-generated content."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-12-1-1",
+    "lessonId": "lesson-ela-12-1-1",
+    "objectives": [
+      "Apply a three-question framework (purpose, evidence, missing context) to evaluate a piece of media",
+      "Distinguish this broader media-evaluation skill from Grade 11's academic source-credibility criteria"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A real, recent piece of media (article, video, or post) to evaluate"],
+    "facilitationScript": "1. Introduce the three-question framework: purpose, evidence, missing context.\n2. Connect it back to Grade 11's source-credibility work, noting this is broader (applies to all media, not just academic sources).\n3. Have the child pick a real, recent piece of media and evaluate it.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: AI-generated content.",
+    "differentiationTips": [
+      "Struggling: work through one example together first (a familiar ad or social post) before the child evaluates their own choice independently",
+      "Ready for more: ask them to evaluate two different pieces of media on the same topic and compare what each one's 'missing context' reveals",
+      "This is the first lesson of the year — a good moment to frame this unit as foundational to the capstone research project ahead"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The three questions are: what is the media's purpose, what evidence does it provide, and what context is missing. 2. This framework applies broadly to all media (video, social posts, articles), not just academic sources, extending the source-credibility skills from Grade 11.",
+    "standardsRationale": "Directly addresses the course's 'media/AI literacy' description, establishing a genuine evaluative framework before the unit moves into AI-generated content and fact-checking this week."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-12-1-1",
+    "lessonId": "lesson-ela-12-1-1",
+    "title": "A Framework for Evaluating Media",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Evaluate one real piece of media against the three-question framework.",
+      "prompts": [
+        { "prompt": "The media you're evaluating (title/source):", "lines": 1 },
+        { "prompt": "What is its purpose?", "lines": 2 },
+        { "prompt": "What evidence does it provide, and what context is missing?", "lines": 3 }
+      ]
+    }
+  }
+}

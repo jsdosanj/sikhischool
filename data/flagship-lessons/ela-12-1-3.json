@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-12-1",
+    "courseId": "course-ela-12",
+    "order": 1,
+    "title": "Media and AI Literacy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-12-1-3",
+    "unitId": "unit-ela-12-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Lateral Reading: Verifying Claims",
+    "gradeLevel": "12",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have signals for AI-generated content. Today: a technique professional fact-checkers actually use to verify ANY claim, AI-generated or not."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Lateral reading means leaving the original source to check a claim against other, independent sources — instead of only reading deeper into the same page or site (vertical reading) to judge whether it seems trustworthy. Professional fact-checkers use lateral reading as a primary verification method: rather than analyzing a site's own design, tone, or self-description to judge credibility, they open new tabs and see what independent, established sources say about the same claim or the site itself. This works because a source's own presentation of itself isn't reliable evidence of its actual credibility. Take one claim from a piece of media you've seen recently and practice lateral reading: find what at least one other independent source says about it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Lateral reading is a genuinely more reliable verification method than judging a source by how it presents itself. Tomorrow we'll look at how the same event can be presented differently depending on the source's perspective."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-12-1-3",
+    "lessonId": "lesson-ela-12-1-3",
+    "objectives": [
+      "Define lateral reading and distinguish it from vertical reading",
+      "Practice lateral reading by verifying a real claim against an independent source"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Internet access or library materials"],
+    "facilitationScript": "1. Review this week's media framework and AI-content signals.\n2. Introduce lateral reading vs. vertical reading, explaining why professional fact-checkers prefer it.\n3. Have the child pick a real claim and practice lateral reading on it.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: media bias and perspective.",
+    "differentiationTips": [
+      "Struggling: model the process once together on a simple example claim before the child attempts their own",
+      "Ready for more: ask them to explain why a professionally-designed, official-looking website isn't itself evidence of the claims on it being true",
+      "If internet access isn't available, this can be practiced by comparing two different physical print sources on the same topic instead"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Lateral reading means checking a claim against independent outside sources rather than only reading deeper into the original source (vertical reading). 2. Professional fact-checkers prefer it because a source's own design, tone, or self-description isn't reliable evidence of its actual credibility.",
+    "standardsRationale": "Directly addresses the course's 'media/AI literacy' description, teaching a real, widely-used professional verification technique applicable to both AI-generated and human-generated claims."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-12-1-3",
+    "lessonId": "lesson-ela-12-1-3",
+    "title": "Lateral Reading: Verifying Claims",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Practice lateral reading on one real claim.",
+      "prompts": [
+        { "prompt": "The claim you're checking:", "lines": 1 },
+        { "prompt": "What does at least one independent source say about it?", "lines": 3 },
+        { "prompt": "Why is lateral reading more reliable than judging a source by its own presentation?", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-12-1",
+    "courseId": "course-ela-12",
+    "order": 1,
+    "title": "Media and AI Literacy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-12-1-4",
+    "unitId": "unit-ela-12-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Media Bias and Perspective",
+    "gradeLevel": "12",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can now verify claims through lateral reading. Today: why even accurate, verified reporting can still look different depending on where it comes from."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Perspective and bias affect coverage even when individual facts are accurate: which details get emphasized, which get left out, what tone is used, and which experts get quoted can all shift a reader's impression of the same underlying event. This isn't always a matter of a source deliberately lying — it can come from genuine differences in audience, editorial priorities, or unconscious framing. This is exactly why lateral reading (checking multiple independent sources, not just one) matters: comparing coverage of the same event across different sources reveals what any single source alone would hide. Pick one real, recent event and compare how two different sources cover it — what does each emphasize, and what does each leave out?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand why 'accurate' and 'complete' aren't the same thing, and why comparing multiple sources reveals what a single one leaves out. Tomorrow we'll review this whole week's media-literacy framework together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-12-1-4",
+    "lessonId": "lesson-ela-12-1-4",
+    "objectives": [
+      "Explain how perspective and bias can shape coverage even when individual facts are accurate",
+      "Compare two real sources' coverage of the same event"
+    ],
+    "materialsNeeded": ["Yesterday's lateral-reading worksheet", "Printed worksheet", "Pencil", "Internet access or library materials"],
+    "facilitationScript": "1. Review yesterday's lateral reading practice.\n2. Introduce how perspective/bias shapes emphasis, omission, and tone even in accurate reporting.\n3. Have the child compare two real sources' coverage of the same event.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: provide two pre-selected, contrasting sources on the same simple event to compare, rather than requiring the child to find their own",
+      "Ready for more: ask them to identify a specific detail one source emphasized that the other omitted, and consider why that choice might have been made",
+      "Keep this lesson balanced — the goal is recognizing that perspective shapes coverage, not concluding that any particular source is untrustworthy"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Perspective and bias can shape which details are emphasized or omitted, and what tone is used, even when individual facts are accurate. 2. Comparing multiple independent sources on the same event reveals what any single source alone would leave out.",
+    "standardsRationale": "Directly addresses the course's 'media/AI literacy' description, completing this week's evaluative toolkit with genuine perspective-awareness before the unit moves toward research and independent literature study."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-12-1-4",
+    "lessonId": "lesson-ela-12-1-4",
+    "title": "Media Bias and Perspective",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Compare two real sources' coverage of the same event.",
+      "prompts": [
+        { "prompt": "The event and your two sources:", "lines": 2 },
+        { "prompt": "What does each source emphasize, and what does each leave out?", "lines": 3 }
+      ]
+    }
+  }
+}

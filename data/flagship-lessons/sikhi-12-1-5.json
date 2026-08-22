@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-12-1",
+    "courseId": "course-sikhi-12",
+    "order": 1,
+    "title": "Foundations for the Capstone",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-12-1-5",
+    "unitId": "unit-sikhi-12-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Your Capstone Proposal",
+    "gradeLevel": "12",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built every piece needed to begin your real capstone project. Today, put it all together into one complete proposal."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: your values toolkit gives you six real lenses to apply (Day 1). A strong capstone question is personally meaningful, specific, and open to reflection (Day 2). Narrowing a broad topic in steps produces a real, focused question (Day 3). Genuinely applying a value means using it to think, not just naming it (Day 4). Write a complete one-paragraph capstone proposal: state your question, name the value (or values) you'll apply to it, and explain in a few genuine sentences why this question matters to you personally."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a real, complete capstone proposal — a question, a values lens, and genuine personal motivation. This is exactly the foundation the rest of this year's project will build on."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-12-1-5",
+    "lessonId": "lesson-sikhi-12-1-5",
+    "objectives": [
+      "Synthesize the week's four skills — values toolkit, question quality, narrowing, genuine application — into one proposal",
+      "Write a complete one-paragraph capstone proposal"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child write their complete capstone proposal paragraph, using this week's worksheets.\n3. Complete the cumulative review worksheet.\n4. Discuss the proposal together, checking it against the whole week's criteria.\n5. Celebrate finishing the first full week of Grade 12 Sikhi — this proposal is the real starting point for the year's capstone project.",
+    "differentiationTips": [
+      "Struggling: allow the proposal to be assembled from this week's worksheets nearly verbatim, focused on making sure all three required pieces (question, value, personal motivation) are present",
+      "Ready for more: ask them to also name one challenge they anticipate in exploring this question over the rest of the year",
+      "This is a good checkpoint to note which part of the process (values recall, question-narrowing, or genuine application) needs the most support going forward"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "A complete proposal states a specific, personally meaningful question, names the value(s) being applied, and explains genuine personal motivation — content varies entirely by student, evaluated against these three required elements rather than a fixed 'correct' answer.",
+    "standardsRationale": "Consolidates the week's four capstone-preparation skills before the year's actual project work begins, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-12-1-5",
+    "lessonId": "lesson-sikhi-12-1-5",
+    "title": "Your Capstone Proposal: Week 1 Review",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your complete one-paragraph capstone proposal.",
+      "prompts": [
+        { "prompt": "Your capstone question:", "lines": 2 },
+        { "prompt": "The value(s) you'll apply:", "lines": 1 },
+        { "prompt": "Why this question matters to you personally:", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-12-1",
+    "courseId": "course-sikhi-12",
+    "order": 1,
+    "title": "Foundations for the Capstone",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-12-1-2",
+    "unitId": "unit-sikhi-12-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "What Makes a Strong Capstone Question",
+    "gradeLevel": "12",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have your values toolkit ready. Today: what actually makes a modern identity or civics question strong enough to build a whole capstone project around."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong capstone question is personally meaningful (genuinely matters to you, not just easy to answer), specific (narrow enough to explore in real depth), and open to real reflection (not a question with one obvious 'correct' answer). Some example directions: how to balance personal identity with community belonging, what genuine environmental responsibility looks like day to day, how to participate meaningfully in civic life, or how to navigate a values conflict between different parts of your own life. These are examples of the KIND of question, not a list to pick from directly — your own real question should come from something you genuinely think about. Explain, in your own words, why a question with one obvious correct answer would make a weak capstone topic."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand what makes a capstone question genuinely strong. Tomorrow you'll draft and narrow your own real question."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-12-1-2",
+    "lessonId": "lesson-sikhi-12-1-2",
+    "objectives": [
+      "Identify the three qualities of a strong capstone question: personally meaningful, specific, open to reflection",
+      "Explain why a question with one obvious answer makes a weak capstone topic"
+    ],
+    "materialsNeeded": ["Yesterday's values-toolkit worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's values toolkit.\n2. Introduce the three qualities of a strong capstone question, with the example directions.\n3. Discuss why the example directions are illustrative, not a menu to pick from directly.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: drafting your own question.",
+    "differentiationTips": [
+      "Struggling: discuss a few of the example directions together conversationally before the child begins thinking about their own",
+      "Ready for more: ask them to start naming (not yet fully drafting) 2-3 possible directions their own real question might take",
+      "Keep this lesson general and example-based — the child's own specific question comes tomorrow, not today"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A strong capstone question is personally meaningful, specific, and open to real reflection. 2. A question with one obvious correct answer doesn't require genuine exploration or reflection — there's nothing left to discover or think through.",
+    "standardsRationale": "Directly addresses the course's capstone description, establishing genuine criteria for a strong question before the student drafts their own."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-12-1-2",
+    "lessonId": "lesson-sikhi-12-1-2",
+    "title": "What Makes a Strong Capstone Question",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about strong capstone questions.",
+      "prompts": [
+        { "prompt": "List the three qualities of a strong capstone question:", "lines": 2 },
+        { "prompt": "Why does a question with one obvious answer make a weak capstone topic?", "lines": 3 }
+      ]
+    }
+  }
+}

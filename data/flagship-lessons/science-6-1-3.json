@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-6-1",
+    "courseId": "course-science-6",
+    "order": 1,
+    "title": "Cells: The Building Blocks of Life",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-6-1-3",
+    "unitId": "unit-science-6-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Plant Cells vs. Animal Cells",
+    "gradeLevel": "6",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You now know the basic parts every cell shares. Today, discover what makes plant cells genuinely different from animal cells."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Plant cells have two extra structures animal cells don't: a rigid cell wall (outside the cell membrane, giving the cell a fixed shape and support — this is why plant cells look boxy) and chloroplasts (which capture sunlight to make food through photosynthesis, giving plants their green color). Plant cells also often have one large central vacuole for storing water, while animal cells have smaller ones. Draw two cells side by side — a plant cell and an animal cell — labeling which structures are unique to each."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just compared plant and animal cells and identified their real structural differences. Tomorrow we'll zoom out to see how cells organize into the body systems that keep you alive."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-6-1-3",
+    "lessonId": "lesson-science-6-1-3",
+    "objectives": [
+      "Identify the cell wall and chloroplasts as structures unique to plant cells",
+      "Compare and contrast plant cells and animal cells"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Paper for drawing"],
+    "facilitationScript": "1. Review yesterday's shared cell parts (nucleus, membrane, cytoplasm, mitochondria).\n2. Introduce the cell wall and chloroplasts as plant-only additions.\n3. Have the child draw both cell types side by side, labeling the differences.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: cells organizing into body systems.",
+    "differentiationTips": [
+      "Struggling: focus on just the cell wall (the most visually obvious difference) before introducing chloroplasts",
+      "Ready for more: research why chloroplasts make plants green (they contain a pigment called chlorophyll)",
+      "Drawing both cells side by side genuinely helps the comparison stick better than a written list alone"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Cell wall = a rigid outer structure unique to plant cells, giving them shape and support. 2. Chloroplasts = structures unique to plant cells that capture sunlight for photosynthesis. 3. Both plant and animal cells share the nucleus, cell membrane, cytoplasm, and mitochondria.",
+    "standardsRationale": "Extends NGSS MS-LS1-2's cell-structure-and-function focus with a genuine comparison task, reinforcing that structure directly relates to a cell's specific role (plants make their own food; animal cells don't need to)."
+  },
+  "worksheet": {
+    "id": "worksheet-science-6-1-3",
+    "lessonId": "lesson-science-6-1-3",
+    "title": "Plant Cells vs. Animal Cells",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question comparing plant and animal cells.",
+      "rows": [
+        { "problem": "What structure gives plant cells a rigid, boxy shape?" },
+        { "problem": "What structure lets plant cells capture sunlight for food?" },
+        { "problem": "Name one cell part shared by both plant and animal cells." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-6-1",
+    "courseId": "course-science-6",
+    "order": 1,
+    "title": "Cells: The Building Blocks of Life",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-6-1-4",
+    "unitId": "unit-science-6-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "From Cells to Body Systems",
+    "gradeLevel": "6",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "A single cell is amazing, but your body isn't just a pile of separate cells — they're organized into a real system. Today, trace that organization from cell to whole body."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The organization goes: cells group together to form tissues (a group of similar cells doing the same job, like muscle tissue). Tissues group together to form organs (a structure made of different tissues working together, like your heart). Organs group together to form organ systems (multiple organs working toward one big job, like your circulatory system, made of your heart, blood vessels, and blood, all working to move blood through your body). This is a real hierarchy: cell → tissue → organ → organ system → organism. Pick one body system you know (like the digestive or respiratory system) and name at least one organ that's part of it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just traced the real organizational hierarchy from a single cell all the way up to a whole organ system. Tomorrow we'll review everything about cells from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-6-1-4",
+    "lessonId": "lesson-science-6-1-4",
+    "objectives": [
+      "Describe the hierarchy: cell, tissue, organ, organ system, organism",
+      "Name a real organ system and at least one organ within it"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's cell-structure lessons.\n2. Introduce the cell → tissue → organ → organ system → organism hierarchy, using the circulatory system as the worked example.\n3. Have the child name one more body system and an organ within it.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just the circulatory system example given, rather than requiring them to generate a new one",
+      "Ready for more: ask them to place the skin (an organ) within its correct organ system (the integumentary system)",
+      "This lesson bridges directly into the course's own 'body systems' description — a good moment to preview what future weeks will cover in depth"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The hierarchy is cell -> tissue -> organ -> organ system -> organism. 2. A tissue is a group of similar cells doing the same job. 3. An organ system is made of multiple organs working toward one big job (like the circulatory system: heart, blood vessels, blood).",
+    "standardsRationale": "Directly addresses NGSS MS-LS1-3: using evidence for how the body is a system of interacting subsystems composed of groups of cells, bridging this week's cell-level content to the course's broader 'body systems' description."
+  },
+  "worksheet": {
+    "id": "worksheet-science-6-1-4",
+    "lessonId": "lesson-science-6-1-4",
+    "title": "From Cells to Body Systems",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Put the organizational hierarchy in order, then answer the last question.",
+      "rows": [
+        { "problem": "List the hierarchy in order, from smallest to largest: organ, tissue, cell, organ system." },
+        { "problem": "What organs make up the circulatory system?" },
+        { "problem": "Name one other body system and one organ within it." }
+      ]
+    }
+  }
+}

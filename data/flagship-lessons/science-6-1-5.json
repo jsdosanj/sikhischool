@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-6-1",
+    "courseId": "course-science-6",
+    "order": 1,
+    "title": "Cells: The Building Blocks of Life",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-6-1-5",
+    "unitId": "unit-science-6-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Cells, the Building Blocks of Life",
+    "gradeLevel": "6",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you zoomed from a single cell all the way up to whole organ systems. Let's put it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: all living things are made of one or more cells (Day 1). A cell's parts — nucleus, cell membrane, cytoplasm, mitochondria — each have a specific job (Day 2). Plant cells have a cell wall and chloroplasts that animal cells don't (Day 3). Cells organize into tissues, organs, and organ systems (Day 4). Draw one complete diagram tracing all four ideas: a labeled cell, noting whether it's plant or animal, and how it fits into the larger tissue-organ-system hierarchy."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work investigating cells this week! You now understand the basic unit of life and how it builds up into the complex systems that keep every living thing alive."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-6-1-5",
+    "lessonId": "lesson-science-6-1-5",
+    "objectives": [
+      "Recall and correctly apply all four cell concepts from the week: cell theory, cell parts, plant/animal differences, and organizational hierarchy",
+      "Create one integrated diagram showing all four ideas together"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil", "This week's diagrams for reference"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child create the integrated diagram combining all 4 ideas.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of investigation — this pattern (5 days building to a review) is how every unit this year will work.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets and diagrams as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to explain WHY each cell structure exists, connecting form to function, not just naming parts",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. All living things are made of one or more cells. 2. The nucleus is the control center, holding genetic instructions. 3. A cell wall and chloroplasts are unique to plant cells. 4. The hierarchy is cell -> tissue -> organ -> organ system.",
+    "standardsRationale": "Consolidates NGSS MS-LS1-1 through MS-LS1-3 (cell theory, cell structure/function, and body organization) before the unit moves on, matching the 'consolidate before adding more' pacing established in earlier units this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-6-1-5",
+    "lessonId": "lesson-science-6-1-5",
+    "title": "Cells: The Building Blocks of Life — Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "What does the cell theory state?" },
+        { "problem": "What is the job of the nucleus?" },
+        { "problem": "Name two structures unique to plant cells." },
+        { "problem": "List the organizational hierarchy from cell to organ system." }
+      ]
+    }
+  }
+}

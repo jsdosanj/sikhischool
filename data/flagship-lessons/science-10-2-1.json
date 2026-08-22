@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-10-2",
+    "courseId": "course-science-10",
+    "order": 2,
+    "title": "Chemical Bonding",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-10-2-1",
+    "unitId": "unit-science-10-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Why Atoms Bond",
+    "gradeLevel": "10",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored atomic structure. This week: chemical bonding, why atoms actually connect to each other!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Atoms bond because most elements are more stable with a full outer shell of 8 valence electrons (the octet rule), connecting directly to last week's valence-electron content. An atom with only 1 or 2 valence electrons, or one that's missing just 1 or 2 from a full shell, tends to bond in a way that achieves that stable full-shell arrangement. Using last week's periodic table knowledge, explain why sodium (1 valence electron) and chlorine (7 valence electrons) might be especially likely to bond with each other."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned why atoms bond in the first place! Tomorrow we'll learn about ionic bonding specifically."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-10-2-1",
+    "lessonId": "lesson-science-10-2-1",
+    "objectives": [
+      "State the octet rule: atoms tend toward a stable full outer shell of 8 valence electrons",
+      "Explain why sodium and chlorine's valence-electron counts make them likely to bond"
+    ],
+    "materialsNeeded": ["Last week's worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's valence-electron and periodic-table work briefly.\n2. Introduce the octet rule.\n3. Have the child explain why sodium and chlorine are likely to bond.\n4. Complete the worksheet.\n5. Preview tomorrow's ionic-bonding lesson.",
+    "differentiationTips": [
+      "Struggling: point out that sodium's 1 electron and chlorine's missing 1 electron (from 8) fit together like a puzzle piece before asking for the full explanation",
+      "Ready for more: ask the child to predict whether two chlorine atoms could bond with each other in a similar way, and why or why not",
+      "Opens this week's chemical-bonding thread from the course's own description, directly building on last week's atomic-structure content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Sodium has just 1 valence electron (one more than a stable, empty-outer-shell-below arrangement) and chlorine is missing just 1 electron from a full octet — sodium can give away its 1 electron and chlorine can accept it, so both atoms end up more stable, making them especially likely to bond together.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-10 standard HS-PS1-1: using the periodic table to predict properties based on outermost electrons, opening this week's thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-science-10-2-1",
+    "lessonId": "lesson-science-10-2-1",
+    "title": "Why Atoms Bond",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about why atoms bond.",
+      "rows": [
+        { "problem": "State the octet rule in your own words." },
+        { "problem": "Why are sodium and chlorine especially likely to bond with each other?" }
+      ]
+    }
+  }
+}

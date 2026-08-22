@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-10-2",
+    "courseId": "course-science-10",
+    "order": 2,
+    "title": "Chemical Bonding",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-10-2-4",
+    "unitId": "unit-science-10-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Comparing Ionic and Covalent Bonds",
+    "gradeLevel": "10",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned two bonding types. Today: compare them and learn to predict which one forms!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "You can predict which bond type forms by looking at what kinds of elements are involved: a metal bonding with a nonmetal typically forms an ionic bond (one atom gives, one takes), while two nonmetals bonding together typically form a covalent bond (both share). Ionic compounds also tend to have high melting points and conduct electricity when dissolved in water, while covalent compounds tend to have lower melting points and don't conduct electricity this way. Using this pattern, predict whether magnesium oxide (a metal + a nonmetal) and carbon dioxide (two nonmetals) form ionic or covalent bonds, and explain your reasoning for each."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned to predict bond type from the elements involved! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-10-2-4",
+    "lessonId": "lesson-science-10-2-4",
+    "objectives": [
+      "Predict bond type (ionic vs. covalent) based on metal/nonmetal combinations",
+      "Correctly identify magnesium oxide as ionic and carbon dioxide as covalent, with reasoning"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's ionic and covalent bonding work.\n2. Introduce the metal+nonmetal=ionic vs. nonmetal+nonmetal=covalent prediction pattern.\n3. Have the child predict and explain both compound examples.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: have the child locate magnesium, oxygen, and carbon on a periodic table first to confirm which are metals and which are nonmetals before predicting bond type",
+      "Ready for more: ask the child why an ionic compound's high melting point and electrical conductivity (when dissolved) both follow from the strong attraction between fully-charged ions",
+      "This is the week's synthesis moment — using a real, memorable prediction pattern is more useful long-term than memorizing individual examples"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Magnesium oxide forms an ionic bond, since magnesium is a metal and oxygen is a nonmetal (metal+nonmetal pattern). Carbon dioxide forms covalent bonds, since carbon and oxygen are both nonmetals (nonmetal+nonmetal pattern).",
+    "standardsRationale": "Directly addresses NGSS Grade 9-10 standard HS-PS1-1/HS-PS1-3, synthesizing this week's ionic and covalent bonding content into a predictive framework before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-science-10-2-4",
+    "lessonId": "lesson-science-10-2-4",
+    "title": "Comparing Ionic and Covalent Bonds",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Predict the bond type for each compound and explain why.",
+      "rows": [
+        { "problem": "Predict the bond type for magnesium oxide (magnesium + oxygen). Explain." },
+        { "problem": "Predict the bond type for carbon dioxide (carbon + oxygen). Explain." }
+      ]
+    }
+  }
+}

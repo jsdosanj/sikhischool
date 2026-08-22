@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-10-2",
+    "courseId": "course-science-10",
+    "order": 2,
+    "title": "Chemical Bonding",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-10-2-3",
+    "unitId": "unit-science-10-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Covalent Bonding",
+    "gradeLevel": "10",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned ionic bonding's electron transfer. Today: covalent bonding, where atoms share instead!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Covalent bonding happens when atoms share, rather than transfer, electrons — this typically occurs between two nonmetal atoms that both need more electrons to complete their octet, so neither can simply give one away. In water (H₂O), each hydrogen atom shares one electron with oxygen, and oxygen shares one electron with each hydrogen, so all three atoms effectively get a more complete outer shell through sharing. Explain why sharing, rather than transferring, makes more sense when two atoms both need additional electrons rather than one having extra to give away."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how covalent bonding works! Tomorrow we'll compare ionic and covalent bonds directly."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-10-2-3",
+    "lessonId": "lesson-science-10-2-3",
+    "objectives": [
+      "Describe covalent bonding as electron sharing between atoms",
+      "Explain why sharing makes sense when both atoms need additional electrons"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's octet-rule and ionic-bonding work.\n2. Introduce covalent bonding using the water (H₂O) example.\n3. Have the child explain why sharing makes sense in this case.\n4. Complete the worksheet.\n5. Preview tomorrow's ionic-vs-covalent comparison.",
+    "differentiationTips": [
+      "Struggling: use a simple real-world analogy — if two people both need one more dollar to afford something, pooling their money (sharing) makes more sense than one just giving theirs away",
+      "Ready for more: ask the child to predict whether two identical nonmetal atoms (like two oxygen atoms) could form a covalent bond with each other",
+      "This is a genuinely important contrast with yesterday's ionic bonding — worth emphasizing the mechanism difference, not just the vocabulary"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "When both atoms need additional electrons to complete their octet, transferring an electron away wouldn't help the giving atom get closer to a full shell — sharing lets both atoms count the shared electrons toward their own octet at the same time, benefiting both without either one having to give anything away permanently.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-10 standard HS-PS1-3, contrasting covalent bonding's sharing mechanism with yesterday's ionic bonding."
+  },
+  "worksheet": {
+    "id": "worksheet-science-10-2-3",
+    "lessonId": "lesson-science-10-2-3",
+    "title": "Covalent Bonding",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about covalent bonding.",
+      "rows": [
+        { "problem": "Describe covalent bonding in your own words." },
+        { "problem": "Why does sharing make sense when both atoms need additional electrons?" }
+      ]
+    }
+  }
+}

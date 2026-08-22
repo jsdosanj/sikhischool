@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-6-2",
+    "courseId": "course-math-6",
+    "order": 2,
+    "title": "Negative Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-6-2-1",
+    "unitId": "unit-math-6-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Negative Numbers Mean",
+    "gradeLevel": "6",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you mastered ratios and rates. This week: negative numbers, values below zero!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A negative number represents a value below zero. Real examples: a temperature of -5°F is 5 degrees below zero. An elevation of -50 feet means 50 feet below sea level. A balance of -$20 means owing $20. Write a real negative number for each: the temperature on a very cold day, and the elevation of the bottom of a valley below sea level."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected negative numbers to real situations below zero! Tomorrow we'll place them on a number line."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-6-2-1",
+    "lessonId": "lesson-math-6-2-1",
+    "objectives": [
+      "Understand a negative number represents a value below zero",
+      "Apply negative numbers to real contexts: temperature, elevation, and debt"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's ratios/rates work briefly.\n2. Introduce negative numbers using temperature, elevation, and debt examples.\n3. Have the child write their own real negative-number examples.\n4. Complete the worksheet.\n5. Preview tomorrow's number-line lesson.",
+    "differentiationTips": [
+      "Struggling: use a real thermometer image or a real elevation map to make the below-zero concept concrete",
+      "Ready for more: ask the child to think of a real situation from their own life where a negative number would apply",
+      "Opens this week's negative-numbers thread from the course's own description, using multiple real-world contexts, not just abstract numbers"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended real-world application activity — check that the child writes a genuine negative number for both a cold temperature and a below-sea-level elevation.",
+    "standardsRationale": "Directly addresses Common Core Grade 6 standard 6.NS.5: understanding that positive and negative numbers describe quantities with opposite directions or values, opening this week's negative-numbers thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-6-2-1",
+    "lessonId": "lesson-math-6-2-1",
+    "title": "What Negative Numbers Mean",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a real negative number for each situation.",
+      "prompts": [
+        { "prompt": "The temperature on a very cold day:", "lines": 1 },
+        { "prompt": "The elevation of a valley below sea level:", "lines": 1 }
+      ]
+    }
+  }
+}

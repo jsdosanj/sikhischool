@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-math-6-2",
+    "courseId": "course-math-6",
+    "order": 2,
+    "title": "Negative Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-6-2-2",
+    "unitId": "unit-math-6-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Negative Numbers on a Number Line",
+    "gradeLevel": "6",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you connected negative numbers to real situations. Today: place them on a number line!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A number line extends in both directions from zero: positive numbers to the right, negative numbers to the left. The farther left a number is, the smaller its value — so -8 is less than -3, even though 8 is a bigger number than 3! Draw a number line from -10 to 10, and place these numbers on it: -7, 3, -2, 8."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just placed negative numbers on a number line! Tomorrow we'll learn about absolute value: distance from zero."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-6-2-2",
+    "lessonId": "lesson-math-6-2-2",
+    "objectives": [
+      "Place positive and negative numbers correctly on a number line",
+      "Understand that further-left numbers on the line are smaller, correcting a common misconception"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's real-world negative-number examples.\n2. Draw a number line together, placing -7, 3, -2, 8.\n3. Discuss why -8 is less than -3, correcting the 'bigger number = bigger value' misconception.\n4. Complete the worksheet.\n5. Preview tomorrow's absolute-value lesson.",
+    "differentiationTips": [
+      "Struggling: use a real ruler or a taped number line on the floor for the child to physically walk along",
+      "Ready for more: ask the child to explain why -8 is less than -3 in their own words",
+      "The 'bigger number, smaller value' misconception with negatives is genuinely common at this age — name it explicitly rather than just showing the correct placement"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "On the number line, -7 is furthest left, then -2, then 3, then 8 furthest right — correctly ordered from least to greatest.",
+    "standardsRationale": "Directly addresses Common Core Grade 6 standard 6.NS.6c: finding and positioning integers on a number line, continuing this week's negative-numbers thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-6-2-2",
+    "lessonId": "lesson-math-6-2-2",
+    "title": "Negative Numbers on a Number Line",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Draw a number line from -10 to 10 and place these numbers on it: -7, 3, -2, 8. Then order them from least to greatest.",
+      "rows": [
+        { "problem": "Order -7, 3, -2, 8 from least to greatest." }
+      ]
+    }
+  }
+}

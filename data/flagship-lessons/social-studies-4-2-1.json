@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-4-2",
+    "courseId": "course-social-studies-4",
+    "order": 2,
+    "title": "Getting to Know Washington State",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-4-2-1",
+    "unitId": "unit-social-studies-4-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Washington Becomes a State",
+    "gradeLevel": "4",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored Washington's geography. This week: Washington's history as a state!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Washington officially became the 42nd state of the United States in 1889. Before that, it was a territory, meaning it wasn't yet a full state with all the same rights. Becoming a state was a major milestone — it meant Washington could elect its own representatives in Congress and have a full say in national decisions. What year did Washington become a state, and what number state was it?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned when and how Washington became a state! Tomorrow we'll learn Washington's official state symbols."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-4-2-1",
+    "lessonId": "lesson-social-studies-4-2-1",
+    "objectives": [
+      "Recall that Washington became the 42nd state in 1889",
+      "Explain the basic difference between a territory and a state"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Washington geography work briefly.\n2. Introduce Washington's 1889 statehood and the territory/state distinction.\n3. Have the child recall the year and state number.\n4. Complete the worksheet.\n5. Preview tomorrow's state-symbols lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just the fact 'Washington became a state in 1889' without requiring the state-number detail",
+      "Ready for more: ask the child why having representatives in Congress matters for a state",
+      "This opens the course's 'state history' thread deliberately, using a safe, well-documented civic milestone rather than more complex earlier history"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Washington became a state in 1889, the 42nd state.",
+    "standardsRationale": "Directly addresses the C3 Framework's History dimension at a Grade 4 level, opening the course's 'state history' thread with a safe, well-documented civic milestone."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-4-2-1",
+    "lessonId": "lesson-social-studies-4-2-1",
+    "title": "Washington Becomes a State",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Washington's statehood.",
+      "rows": [
+        { "problem": "What year did Washington become a state?" },
+        { "problem": "What number state was Washington?" }
+      ]
+    }
+  }
+}

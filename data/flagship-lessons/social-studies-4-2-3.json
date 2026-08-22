@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-4-2",
+    "courseId": "course-social-studies-4",
+    "order": 2,
+    "title": "Getting to Know Washington State",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-4-2-3",
+    "unitId": "unit-social-studies-4-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Washington's Capital and State Government",
+    "gradeLevel": "4",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned Washington's symbols. Today: where the state's government works, and how it's organized!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Washington's state capital is Olympia — not Seattle, even though Seattle is the state's largest city. Just like the national government, Washington's state government has three branches: a legislative branch that makes laws, an executive branch (led by the governor) that carries out laws, and a judicial branch that interprets laws. Why do you think a state might organize its government into three separate branches, similar to the national government?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned Washington's capital and its three-branch government structure! Tomorrow we'll learn about Washington's major cities."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-4-2-3",
+    "lessonId": "lesson-social-studies-4-2-3",
+    "objectives": [
+      "Identify Olympia as Washington's state capital, distinct from Seattle",
+      "Name the three branches of Washington's state government and their general roles"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's statehood/symbols work.\n2. Introduce Olympia as the capital and the three-branch structure.\n3. Discuss why separate branches might be a good idea.\n4. Complete the worksheet.\n5. Preview tomorrow's major-cities lesson.",
+    "differentiationTips": [
+      "Struggling: correct the common misconception that Seattle is the capital explicitly and clearly, since it's a very common mix-up",
+      "Ready for more: ask the child to guess what might happen if only one branch of government had all the power",
+      "This lesson deliberately mirrors national-government structure at the state level, building a genuinely transferable civics understanding"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Washington's capital is Olympia. The three branches are legislative (makes laws), executive (carries out laws, led by the governor), and judicial (interprets laws).",
+    "standardsRationale": "Directly addresses the C3 Framework's Civics dimension (structure of state government) at a Grade 4 level, continuing the course's state-history thread with real civic-literacy content."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-4-2-3",
+    "lessonId": "lesson-social-studies-4-2-3",
+    "title": "Washington's Capital and State Government",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Washington's capital and government.",
+      "rows": [
+        { "problem": "What is Washington's state capital?" },
+        { "problem": "Name the three branches of Washington's state government." }
+      ]
+    }
+  }
+}

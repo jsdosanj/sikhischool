@@ -1,19 +1,19 @@
 import { Document, Page, Text, View, StyleSheet } from "@react-pdf/renderer";
+import { theme, WorksheetHeader, WorksheetFooter, NAVY, SAFFRON, INK_SOFT } from "./worksheetTheme";
 
 const styles = StyleSheet.create({
-  page: { padding: 40, fontSize: 12, fontFamily: "Helvetica" },
-  title: { fontSize: 20, marginBottom: 8, fontWeight: 700 },
-  subtitle: { fontSize: 11, marginBottom: 24, color: "#555" },
   row: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    borderBottom: "1pt solid #ddd",
-    paddingVertical: 14,
+    borderBottom: `1pt solid #e6e1d6`,
+    paddingVertical: 16,
   },
-  shapes: { flexDirection: "row", flexWrap: "wrap", maxWidth: 340, gap: 4 },
-  shape: { width: 12, height: 12, backgroundColor: "#f4b21a", borderRadius: 2 },
-  answerBox: { width: 60, height: 32, border: "1.5pt solid #333", borderRadius: 4 },
+  shapes: { flexDirection: "row", flexWrap: "wrap", maxWidth: 320, gap: 6 },
+  shape: { width: 14, height: 14, backgroundColor: SAFFRON, borderRadius: 3, border: `0.5pt solid ${NAVY}` },
+  answerCol: { alignItems: "center" },
+  answerLabel: { fontSize: 8, fontFamily: "Helvetica-Bold", color: INK_SOFT, letterSpacing: 1, marginBottom: 4 },
+  answerBox: { width: 64, height: 40, border: `1.5pt solid ${NAVY}`, borderRadius: 6 },
 });
 
 export interface CountAndWriteRow {
@@ -24,27 +24,37 @@ export interface CountAndWriteRow {
 export default function CountAndWriteWorksheet({
   title,
   rows,
+  gradeLevel,
+  subject,
 }: {
   title: string;
   rows: CountAndWriteRow[];
+  gradeLevel?: string;
+  subject?: string;
 }) {
   return (
     <Document>
-      <Page size="A4" style={styles.page}>
-        <Text style={styles.title}>{title}</Text>
-        <Text style={styles.subtitle}>Count each group, then write the number in the box.</Text>
+      <Page size="A4" style={theme.page}>
+        <WorksheetHeader
+          title={title}
+          subtitle="Count each group, then write the number in the box."
+          gradeLevel={gradeLevel}
+          subject={subject}
+        />
         {rows.map((row, i) => (
-           
-          <View key={i} style={styles.row}>
+          <View key={i} style={styles.row} wrap={false}>
             <View style={styles.shapes}>
               {Array.from({ length: row.count }).map((_, j) => (
-                 
                 <View key={j} style={styles.shape} />
               ))}
             </View>
-            <View style={styles.answerBox} />
+            <View style={styles.answerCol}>
+              <Text style={styles.answerLabel}>COUNT</Text>
+              <View style={styles.answerBox} />
+            </View>
           </View>
         ))}
+        <WorksheetFooter />
       </Page>
     </Document>
   );

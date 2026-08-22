@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-11-1",
+    "courseId": "course-social-studies-11",
+    "order": 1,
+    "title": "The Progressive Era",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-11-1-5",
+    "unitId": "unit-social-studies-11-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: The Progressive Era",
+    "gradeLevel": "11",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you moved from industrialization's problems to journalism, to economic reform, to a constitutional expansion of democracy. Let's connect it all."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: rapid industrialization created real problems — dangerous factories, long hours, child labor, strained cities (Day 1). Muckraking journalists, like Upton Sinclair, exposed these problems and directly caused real policy reform (Day 2). Trust-busting and labor reform used government power to correct problems the market wasn't solving on its own (Day 3). The 19th Amendment expanded voting rights to women in 1920, showing the era's reforms extended beyond the economy into democracy itself (Day 4). Write a short paragraph explaining what all four of these pieces have in common as examples of 'the Progressive Era' as a single historical movement."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand the Progressive Era as a real, connected reform movement — not just a list of separate facts. This same pattern of problem-exposure-and-reform will reappear as we move through the rest of the 20th century in the weeks ahead."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-11-1-5",
+    "lessonId": "lesson-social-studies-11-1-5",
+    "objectives": [
+      "Synthesize the week's four themes — industrial problems, journalism, economic reform, democratic expansion — into one coherent explanation",
+      "Explain what connects these examples as a single reform movement"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 prior days together, out loud.\n2. Have the child write the synthesis paragraph independently.\n3. Complete the cumulative review worksheet.\n4. Discuss any uncertain answers together before finishing.\n5. Preview that this same reform pattern (problem, exposure, organized effort, policy change) reappears throughout the rest of the 20th century.",
+    "differentiationTips": [
+      "Struggling: provide the four themes as sentence starters for the synthesis paragraph",
+      "Ready for more: ask them to predict what kinds of new problems the mid-20th century (industrial growth continuing, world events ahead) might create, based on this week's pattern",
+      "This is a good checkpoint to note which part of the week (industrial problems, journalism, economic reform, or suffrage) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "The four themes are: (1) industrialization created real problems, (2) journalism exposed them to the public, (3) government used economic tools (trust-busting, labor reform) to address them, (4) reform extended into democracy itself (women's suffrage). Together, they show the Progressive Era's shared pattern: a problem identified, publicized, and addressed through organized, sustained civic and policy action.",
+    "standardsRationale": "Consolidates the C3 Framework's History, Civics, and Economics dimensions before the unit moves further into the 20th century, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-11-1-5",
+    "lessonId": "lesson-social-studies-11-1-5",
+    "title": "The Progressive Era: Week 1 Review",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your synthesis paragraph connecting this week's four themes.",
+      "prompts": [
+        { "prompt": "What connects industrialization's problems, muckraking journalism, economic reform, and women's suffrage as one movement?", "lines": 6 }
+      ]
+    }
+  }
+}

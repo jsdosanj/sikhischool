@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-11-1",
+    "courseId": "course-social-studies-11",
+    "order": 1,
+    "title": "The Progressive Era",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-11-1-2",
+    "unitId": "unit-social-studies-11-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Muckrakers: Journalism That Sparked Reform",
+    "gradeLevel": "11",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned industrialization created real problems. Today: the journalists who made those problems impossible for the public to ignore."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Muckrakers were investigative journalists and authors who exposed corruption and dangerous conditions to the public, often through detailed, widely-read written accounts. The most famous example is Upton Sinclair's 1906 novel 'The Jungle,' which vividly described unsanitary conditions in the meatpacking industry. Public reaction was immediate and strong — the outrage it generated led directly to real federal reform: the Meat Inspection Act and the Pure Food and Drug Act, both passed in 1906. This is a clear example of a broader pattern: journalism that informs the public can directly lead to concrete policy change, not just raise awareness. Explain why a detailed, specific account (like a novel describing real conditions) might create more public pressure for change than a general statistic alone."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "The muckrakers show journalism doesn't just report on problems — it can be the direct cause of real reform. Tomorrow we'll look at more of the Progressive Era's specific reforms."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-11-1-2",
+    "lessonId": "lesson-social-studies-11-1-2",
+    "objectives": [
+      "Define muckrakers and describe their role in exposing industrial-era problems",
+      "Explain how Upton Sinclair's 'The Jungle' led directly to the Meat Inspection Act and Pure Food and Drug Act (1906)"
+    ],
+    "materialsNeeded": ["Yesterday's lesson notes", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's industrialization-era problems.\n2. Introduce muckrakers and the 'The Jungle' example.\n3. Discuss why specific, vivid accounts can drive more public pressure than statistics alone.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: specific Progressive-Era reforms.",
+    "differentiationTips": [
+      "Struggling: use a simple modern parallel — a detailed news story about one specific situation often gets more public attention and response than a general statistic about the same issue",
+      "Ready for more: ask them to consider what responsibilities come with this kind of journalistic power to influence public opinion and policy",
+      "This lesson references 'The Jungle's' unsanitary meatpacking conditions generally — avoid graphic specifics, which aren't necessary for the historical point being made"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Muckrakers were investigative journalists/authors who exposed corruption and dangerous conditions to the public. 2. Upton Sinclair's 'The Jungle' (1906) exposed unsanitary meatpacking conditions, leading directly to the Meat Inspection Act and Pure Food and Drug Act. 3. A specific, vivid account can create stronger public pressure than a statistic because it makes an abstract problem feel concrete and real to readers.",
+    "standardsRationale": "Addresses the C3 Framework's Civics dimension (D2.Civ.10, evaluating how citizen action shapes policy) and WA Social Studies' US History strand, showing a concrete mechanism by which public awareness became real reform."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-11-1-2",
+    "lessonId": "lesson-social-studies-11-1-2",
+    "title": "Muckrakers: Journalism That Sparked Reform",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about muckraking journalism.",
+      "rows": [
+        { "problem": "What is a muckraker?" },
+        { "problem": "What did Upton Sinclair's 'The Jungle' expose, and what reforms did it lead to?" },
+        { "problem": "Why might a specific, vivid account create more public pressure than a general statistic?" }
+      ]
+    }
+  }
+}

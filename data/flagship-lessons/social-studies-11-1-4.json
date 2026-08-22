@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-11-1",
+    "courseId": "course-social-studies-11",
+    "order": 1,
+    "title": "The Progressive Era",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-11-1-4",
+    "unitId": "unit-social-studies-11-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Women's Suffrage: The 19th Amendment",
+    "gradeLevel": "11",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week's reforms have focused on the economy and workplace. Today: the Progressive Era's major achievement in a different area — who gets to vote."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The women's suffrage movement was a decades-long campaign for women's right to vote, built on organizing, public advocacy, and sustained pressure on lawmakers. This effort reached a major milestone in 1920, when the 19th Amendment to the US Constitution was ratified, prohibiting the denial of voting rights on the basis of sex. This was a genuine expansion of American democracy — a fundamental civic right extended to a group that had been excluded from it. Like this week's other reforms, it required organized, sustained public effort to achieve real constitutional change, not a single event. Explain why changing the Constitution itself (rather than just passing a regular law) makes a reform like this especially significant and durable."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "The 19th Amendment shows the Progressive Era wasn't only about economic reform — it also expanded who could fully participate in American democracy. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-11-1-4",
+    "lessonId": "lesson-social-studies-11-1-4",
+    "objectives": [
+      "Describe the women's suffrage movement and the 19th Amendment's ratification in 1920",
+      "Explain why a constitutional amendment is especially significant and durable compared to a regular law"
+    ],
+    "materialsNeeded": ["This week's earlier lesson notes", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's economic and labor reforms.\n2. Introduce the women's suffrage movement and the 19th Amendment (1920).\n3. Discuss why a constitutional amendment carries special significance and durability.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: connect this lesson to today's expectation of voting as a right for all adult citizens, contrasting it with the fact that this wasn't always true",
+      "Ready for more: ask them to consider why sustained, decades-long organizing (rather than a single event) was necessary to achieve this kind of fundamental change",
+      "Keep this lesson at the level of the amendment itself and its significance — specific suffrage leaders and organizations can be a future, more detailed lesson"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The women's suffrage movement was a decades-long campaign for women's voting rights, achieving the 19th Amendment's ratification in 1920. 2. A constitutional amendment is harder to reverse than a regular law and applies as a fundamental, nationwide right, making it especially significant and durable.",
+    "standardsRationale": "Addresses the C3 Framework's Civics dimension (D2.Civ.10, evaluating citizen action and its effect on constitutional rights) and WA Social Studies' US History strand, examining a major democratic expansion alongside this week's economic reforms."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-11-1-4",
+    "lessonId": "lesson-social-studies-11-1-4",
+    "title": "Women's Suffrage: The 19th Amendment",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the women's suffrage movement.",
+      "rows": [
+        { "problem": "What did the 19th Amendment accomplish, and when was it ratified?" },
+        { "problem": "What kind of sustained effort was required to achieve it?" },
+        { "problem": "Why is a constitutional amendment especially significant compared to a regular law?" }
+      ]
+    }
+  }
+}

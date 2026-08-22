@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-10-2",
+    "courseId": "course-sikhi-10",
+    "order": 2,
+    "title": "The Sikh Panth Under Mughal Rule",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-10-2-1",
+    "unitId": "unit-sikhi-10-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Setting the Scene: The Mughal Empire",
+    "gradeLevel": "10",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you studied the Sikh Empire. This week: the earlier era this course also covers, the Sikh Panth's growth under Mughal rule!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Mughal Empire ruled over most of what is now North India (including Punjab) throughout the 16th and 17th centuries, the same period the Sikh Gurus lived and taught. Understanding this shared historical backdrop matters, since the Sikh Panth (community) grew and changed within this larger political world, not in isolation from it. Using your knowledge of Punjab's geography from earlier grades, explain why Punjab's location would have made it directly affected by whoever controlled the wider Mughal Empire."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just set the historical scene for this week! Tomorrow we'll look at an early period of relative cooperation."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-10-2-1",
+    "lessonId": "lesson-sikhi-10-2-1",
+    "objectives": [
+      "Understand the Mughal Empire's general 16th-17th century context in North India",
+      "Explain why Punjab's geography connected it directly to Mughal rule"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Sikh Empire work briefly, noting this week covers the earlier era.\n2. Introduce the Mughal Empire's general context in North India.\n3. Have the child connect Punjab's geography to Mughal rule.\n4. Complete the worksheet.\n5. Preview tomorrow's cooperation lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple map-based explanation — Punjab sits within the region the Mughal Empire controlled, so its rulers and policies directly affected daily life there",
+      "Ready for more: ask the child why understanding the wider political context of an era helps make sense of a specific community's history within it",
+      "Opens this week's Mughal-era thread from the course's own description, kept at a general historical-context level before more specific content in the days ahead"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Since Punjab was located within the territory the Mughal Empire controlled, whoever held power at the Mughal court directly shaped the laws, taxes, and general conditions that affected everyone living in Punjab, including the growing Sikh Panth — a community's local history is always connected to the larger political world it exists within.",
+    "standardsRationale": "Directly addresses this course's Mughal-era thread from its own description, opening it with general historical-geography context before more specific content in the days ahead."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-10-2-1",
+    "lessonId": "lesson-sikhi-10-2-1",
+    "title": "Setting the Scene: The Mughal Empire",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Mughal Empire's context.",
+      "prompts": [
+        { "prompt": "What region and centuries did the Mughal Empire rule over?", "lines": 1 },
+        { "prompt": "Why did Punjab's geography connect it directly to Mughal rule?", "lines": 2 }
+      ]
+    }
+  }
+}

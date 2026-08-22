@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-10-2",
+    "courseId": "course-sikhi-10",
+    "order": 2,
+    "title": "The Sikh Panth Under Mughal Rule",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-10-2-4",
+    "unitId": "unit-sikhi-10-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Strengthening a Distinct Identity",
+    "gradeLevel": "10",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've traced a changing relationship. Today: how the Sikh Panth responded by strengthening its own identity!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "One real, historically significant response to this era's growing complexity was the 1699 founding of the Khalsa by Guru Gobind Singh Ji, which you've studied at earlier grades — a formal, visible, and unified identity (the Five Ks, a shared code of conduct) that gave the Sikh Panth an even clearer, stronger collective identity going forward. Using what you already know about the Khalsa from earlier grades, explain why establishing a clear, visible, shared identity could be a meaningful institutional response during a historically complex and changing time."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected the Khalsa's founding to this week's historical context! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-10-2-4",
+    "lessonId": "lesson-sikhi-10-2-4",
+    "objectives": [
+      "Connect the 1699 founding of the Khalsa to this week's historical context of a changing Mughal-Sikh relationship",
+      "Explain why a clear, shared identity could be a meaningful response during a complex historical period"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets, earlier-grade Khalsa notes if available", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's context, cooperation, and changing-relationship work.\n2. Review the Khalsa's founding from earlier grades as historical background.\n3. Have the child connect the Khalsa's founding to this week's context, at a mature historical-analysis level.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on the simple fact that a clearly identifiable group is easier to recognize and unite around than one without shared visible markers",
+      "Ready for more: ask the child how this week's historical-analysis lens on the Khalsa differs from how they first learned about it (at Grade 2, as an introduction to identity and values)",
+      "This is the week's synthesis moment — revisiting well-established Khalsa content from earlier grades, but through a genuinely more mature historical-analysis lens appropriate for Grade 10"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A clear, visible, shared identity gives a community real strength during a complex or uncertain time — it helps members recognize and support one another, creates a genuine sense of belonging and purpose, and gives the community a stronger, more unified presence, all of which can matter especially when a community's relationship with the wider political world is growing more complicated.",
+    "standardsRationale": "Directly addresses this course's Mughal-era thread, applying a mature historical-analysis lens to the Khalsa's founding (already established at earlier grades) as this week's culminating institutional response."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-10-2-4",
+    "lessonId": "lesson-sikhi-10-2-4",
+    "title": "Strengthening a Distinct Identity",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question connecting the Khalsa to this week's context.",
+      "prompts": [
+        { "prompt": "What did Guru Gobind Singh Ji found in 1699?", "lines": 1 },
+        { "prompt": "Why could a clear, shared identity matter during a complex historical time?", "lines": 2 }
+      ]
+    }
+  }
+}

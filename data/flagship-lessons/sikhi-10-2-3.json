@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-10-2",
+    "courseId": "course-sikhi-10",
+    "order": 2,
+    "title": "The Sikh Panth Under Mughal Rule",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-10-2-3",
+    "unitId": "unit-sikhi-10-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "A Changing Relationship",
+    "gradeLevel": "10",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about early cooperation. Today: how this relationship grew more complicated over later decades!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "As the Sikh Panth continued to grow throughout the 1600s, becoming a larger and more organized community with its own institutions and leadership, its relationship with later Mughal rulers grew more complex than the relative cooperation of Akbar's era — a genuinely significant historical shift that this course will explore in more depth in a future, dedicated unit, since it deserves careful, thorough treatment. For now, explain why a community growing larger and more organized might naturally lead to a more complicated relationship with the ruling government of the time, even without any specific conflict yet described."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just recognized this relationship's real complexity! Tomorrow we'll see how the Sikh Panth responded by strengthening its own identity."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-10-2-3",
+    "lessonId": "lesson-sikhi-10-2-3",
+    "objectives": [
+      "Understand that the Sikh Panth's relationship with Mughal rule grew more complex over time",
+      "Explain a general reason a growing, organized community might see a more complex relationship with government"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's context and cooperation work.\n2. Introduce the general idea that the relationship grew more complex over time, without detailing specific events.\n3. Have the child explain the general growth-and-complexity reasoning.\n4. Complete the worksheet.\n5. Preview tomorrow's Sikh-identity-strengthening lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — a small club that grows into a large, well-organized group naturally starts interacting differently with school administration than it did as a handful of friends",
+      "Ready for more: ask the child what kinds of institutions (leadership structure, gathering places, shared practices) a growing community might develop, and why those might draw more attention from a ruling government",
+      "Deliberately kept general — the specific, historically significant events of this period (including real hardship the Panth faced) deserve a dedicated, carefully-sourced future unit rather than being compressed into a brief mention here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A growing, more organized community naturally becomes more visible and significant to a ruling government, since it now has real institutions, leadership, and a larger shared identity — a government that might not have paid much attention to a small, informal group often takes real notice once that group becomes large and organized enough to represent a genuine social and political presence.",
+    "standardsRationale": "Directly addresses this course's Mughal-era thread, acknowledging real historical complexity while deliberately deferring specific sensitive events to a future, dedicated, more carefully sourced unit."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-10-2-3",
+    "lessonId": "lesson-sikhi-10-2-3",
+    "title": "A Changing Relationship",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about the changing Mughal-Sikh relationship.",
+      "prompts": [
+        { "prompt": "How did the Sikh Panth change over the 1600s?", "lines": 1 },
+        { "prompt": "Why might a growing, organized community's relationship with government become more complex?", "lines": 2 }
+      ]
+    }
+  }
+}

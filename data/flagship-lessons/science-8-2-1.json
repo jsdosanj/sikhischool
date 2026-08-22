@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-8-2",
+    "courseId": "course-science-8",
+    "order": 2,
+    "title": "Earth's History",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-8-2-1",
+    "unitId": "unit-science-8-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Reading Rock Layers",
+    "gradeLevel": "8",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored space systems. This week: Earth's own history, written in rock!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Sedimentary rock forms in layers, and under normal conditions, the oldest layer is always on the bottom and the youngest is on top — this is called the law of superposition. A canyon wall showing many stacked layers is like a stack of pages: the bottom page was written first. Look at a diagram of 5 stacked rock layers labeled A (bottom) through E (top), and put them in order from oldest to youngest."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned to read rock layers like a timeline! Tomorrow we'll see what fossils inside those layers can tell us."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-8-2-1",
+    "lessonId": "lesson-science-8-2-1",
+    "objectives": [
+      "State the law of superposition: older layers are on the bottom, younger on top",
+      "Correctly order 5 labeled rock layers from oldest to youngest"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's space-systems work briefly.\n2. Introduce the law of superposition using a real stack of paper as an analogy.\n3. Have the child order the 5 labeled rock layers from oldest to youngest.\n4. Complete the worksheet.\n5. Preview tomorrow's fossils lesson.",
+    "differentiationTips": [
+      "Struggling: physically stack 5 labeled index cards to make the bottom-is-oldest idea concrete before abstracting it to a diagram",
+      "Ready for more: ask the child what it would mean if a layer were found upside-down or tilted (real geologic disturbance)",
+      "Opens this week's Earth's-history thread from the course's own description, shifting away from last week's space-systems focus"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Oldest to youngest: A, B, C, D, E (the bottom layer, A, formed first).",
+    "standardsRationale": "Directly addresses NGSS Grade 8 Earth and Space Science standard MS-ESS1-4: using rock strata as evidence to organize Earth's history, opening this week's thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-science-8-2-1",
+    "lessonId": "lesson-science-8-2-1",
+    "title": "Reading Rock Layers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about rock layers.",
+      "rows": [
+        { "problem": "State the law of superposition in your own words." },
+        { "problem": "In a stack of 5 rock layers A (bottom) through E (top), which layer is oldest?" },
+        { "problem": "Which layer is youngest?" }
+      ]
+    }
+  }
+}

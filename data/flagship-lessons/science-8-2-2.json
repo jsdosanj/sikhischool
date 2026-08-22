@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-8-2",
+    "courseId": "course-science-8",
+    "order": 2,
+    "title": "Earth's History",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-8-2-2",
+    "unitId": "unit-science-8-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Fossils as Evidence",
+    "gradeLevel": "8",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned rock layers form a timeline. Today: what the fossils inside them tell us!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A fossil found in a rock layer is evidence of the living things and environment that existed when that layer formed. Finding an ocean-creature fossil in a rock layer tells scientists that spot was underwater at that time, even if it's dry land today. If Layer B (older) contains fern fossils and Layer D (younger, from the same location) contains fossils of a much larger, different type of plant, explain what that pattern suggests about how life or environment changed at that location over time."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used fossils as real evidence about Earth's past! Tomorrow we'll learn just how vast geologic time really is."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-8-2-2",
+    "lessonId": "lesson-science-8-2-2",
+    "objectives": [
+      "Explain that a fossil is evidence of the life/environment present when its rock layer formed",
+      "Interpret a simple two-layer fossil pattern as evidence of change over time"
+    ],
+    "materialsNeeded": ["Yesterday's rock-layer worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's rock-layer ordering briefly.\n2. Introduce fossils as evidence of past life/environment, using the ocean-fossil-on-dry-land example.\n3. Have the child interpret the fern-to-larger-plant fossil pattern.\n4. Complete the worksheet.\n5. Preview tomorrow's geologic-time-scale lesson.",
+    "differentiationTips": [
+      "Struggling: focus on the concrete ocean-fossil example first before asking the child to interpret a new, unfamiliar pattern",
+      "Ready for more: ask the child what it would mean if the SAME fossil type appeared in both layers instead of different ones",
+      "This directly connects yesterday's ordering skill (which layer is older) to real scientific reasoning about change over time"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This suggests life or environment changed at that location over time — the plant life present when the older layer formed (ferns) was different from the plant life present later (the larger plant), which is exactly the kind of change fossils provide real evidence for.",
+    "standardsRationale": "Directly addresses NGSS Grade 8 Earth and Space Science standard MS-ESS1-4: using fossils as evidence to reconstruct Earth's history."
+  },
+  "worksheet": {
+    "id": "worksheet-science-8-2-2",
+    "lessonId": "lesson-science-8-2-2",
+    "title": "Fossils as Evidence",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about fossils as evidence.",
+      "prompts": [
+        { "prompt": "What does finding an ocean fossil on dry land tell scientists?", "lines": 2 },
+        { "prompt": "What does the fern-to-larger-plant fossil pattern suggest?", "lines": 2 }
+      ]
+    }
+  }
+}

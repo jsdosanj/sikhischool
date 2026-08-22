@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-8-2",
+    "courseId": "course-science-8",
+    "order": 2,
+    "title": "Earth's History",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-8-2-5",
+    "unitId": "unit-science-8-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Earth's History",
+    "gradeLevel": "8",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned to read Earth's own history book. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: rock layers order events, oldest on the bottom (Day 1). Fossils are evidence of past life and environment (Day 2). Geologic time is vast — the compressed calendar year makes it graspable (Day 3). You combined all three to reconstruct a site's history (Day 4). A new site has 3 layers: Layer 1 (oldest) has coral-reef fossils, Layer 2 has desert-plant fossils, Layer 3 (youngest) has no fossils. Write what this site's history suggests about how its environment changed over time."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you learned to read Earth's own history in rock and fossils! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-8-2-5",
+    "lessonId": "lesson-science-8-2-5",
+    "objectives": [
+      "Review rock layers, fossil evidence, geologic time, and historical reconstruction",
+      "Correctly interpret a new 3-layer coral-to-desert fossil pattern as environmental change"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child interpret the new coral-reef-to-desert-plant fossil pattern.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of Earth's-history skills!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often the geologic-time-scale concept) rather than requiring all four equally",
+      "Ready for more: ask the child what kind of evidence would be needed to figure out exactly how MANY years separate the coral-reef layer from the desert-plant layer, not just their order",
+      "This is a good checkpoint to note which of the week's four Earth's-history skills needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The site's environment changed dramatically over time — it started as an ocean coral reef (Layer 1, oldest), later became dry desert land with desert plants (Layer 2), and the newest layer having no fossils suggests conditions there today may not preserve fossils well, or simply haven't been studied for them yet.",
+    "standardsRationale": "Consolidates this week's NGSS Grade 8 Earth's-history standard (MS-ESS1-4) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-8-2-5",
+    "lessonId": "lesson-science-8-2-5",
+    "title": "Review: Earth's History",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer to review this week's Earth's-history skills.",
+      "prompts": [
+        { "prompt": "What does the coral-reef-to-desert-plant fossil pattern suggest about how this site's environment changed?", "lines": 3 }
+      ]
+    }
+  }
+}

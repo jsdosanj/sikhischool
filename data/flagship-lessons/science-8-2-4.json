@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-8-2",
+    "courseId": "course-science-8",
+    "order": 2,
+    "title": "Earth's History",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-8-2-4",
+    "unitId": "unit-science-8-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Reconstructing Earth's Past",
+    "gradeLevel": "8",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned rock layers, fossils, and geologic time. Today: put them all together like a real scientist!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Scientists reconstruct Earth's history by combining all three tools from this week: rock layers tell relative order (law of superposition), fossils tell what life/environment existed at each layer, and the geologic time scale gives a sense of how much time separates them. Given a site with 4 rock layers (oldest to youngest): Layer 1 has ocean-shell fossils, Layer 2 has fern fossils, Layer 3 has dinosaur fossils, Layer 4 has no fossils but shows footprint tracks — write a short story of that location's history from oldest to youngest, using all three tools."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just reconstructed a real geologic history like a scientist! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-8-2-4",
+    "lessonId": "lesson-science-8-2-4",
+    "objectives": [
+      "Combine rock-layer order, fossil evidence, and geologic time into one coherent historical reconstruction",
+      "Write a short, ordered history of a 4-layer site using all three tools"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's rock-layer, fossil, and geologic-time work together.\n2. Model reasoning through Layer 1 (ocean) together as a class example.\n3. Have the child write the full 4-layer history independently.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: talk through each layer verbally first (what does this fossil tell us?) before asking for the written story",
+      "Ready for more: ask the child to explain what kind of environment the site might be in today, given no fossils in the newest layer",
+      "This is the week's synthesis moment — combining all three tools into one coherent story is the genuinely important skill here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A reasonable answer: the location started underwater (ocean-shell fossils in the oldest layer), later became land with ferns growing (fern fossils), then supported dinosaurs (dinosaur fossils), and most recently had land animals walking across it leaving footprints (track layer, youngest) — showing the site changed from ocean to land over a very long span of time.",
+    "standardsRationale": "Directly addresses NGSS Grade 8 Earth and Space Science standard MS-ESS1-4: constructing a scientific explanation for Earth's history using multiple lines of evidence together, completing this week's thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-science-8-2-4",
+    "lessonId": "lesson-science-8-2-4",
+    "title": "Reconstructing Earth's Past",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write the site's history from oldest to youngest layer.",
+      "prompts": [
+        { "prompt": "Layer 1 (oldest, ocean-shell fossils):", "lines": 1 },
+        { "prompt": "Layer 2 (fern fossils):", "lines": 1 },
+        { "prompt": "Layer 3 (dinosaur fossils):", "lines": 1 },
+        { "prompt": "Layer 4 (youngest, footprint tracks):", "lines": 1 }
+      ]
+    }
+  }
+}

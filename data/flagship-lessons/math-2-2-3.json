@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-2-2",
+    "courseId": "course-math-2",
+    "order": 2,
+    "title": "Measuring Length, Time, and Money",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-2-2-3",
+    "unitId": "unit-math-2-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Counting Coins",
+    "gradeLevel": "2",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've measured length and time. Today: count money, starting with coins!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Each coin is worth a different amount: a penny is 1 cent, a nickel is 5 cents, a dime is 10 cents, and a quarter is 25 cents. To count a group of coins, add up their values — it usually helps to count the biggest coins first. For example: 2 quarters + 1 dime + 3 pennies = 50 + 10 + 3 = 63 cents. Count this group of coins: 1 quarter, 2 dimes, and 1 nickel."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just counted real coin combinations, starting with the biggest values first! Tomorrow we'll use this skill to solve real money word problems."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-2-2-3",
+    "lessonId": "lesson-math-2-2-3",
+    "objectives": [
+      "Recall the value of a penny, nickel, dime, and quarter",
+      "Count a group of mixed coins by adding values, largest first"
+    ],
+    "materialsNeeded": ["Real or play coins (pennies, nickels, dimes, quarters)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's time-telling work.\n2. Introduce each coin's value.\n3. Practice the 2-quarters/1-dime/3-pennies example, counting largest-first.\n4. Have the child count 1 quarter + 2 dimes + 1 nickel independently.\n5. Complete the worksheet using real or play coins.\n6. Close by counting one more coin combination together.",
+    "differentiationTips": [
+      "Struggling: use real or play coins to physically sort and count, rather than working from numbers alone",
+      "Ready for more: ask the child to make 50 cents using a different combination of coins than the ones already used this lesson",
+      "The 'count biggest first' strategy is a genuinely important efficiency skill — model it explicitly, not just the final answer"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1 quarter + 2 dimes + 1 nickel = 25 + 20 + 5 = 50 cents.",
+    "standardsRationale": "Directly addresses Common Core Grade 2 standard 2.MD.8: solving problems involving dollar bills, quarters, dimes, nickels, and pennies, continuing this week's measurement theme into money."
+  },
+  "worksheet": {
+    "id": "worksheet-math-2-2-3",
+    "lessonId": "lesson-math-2-2-3",
+    "title": "Counting Coins",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Count each group of coins and write the total in cents.",
+      "rows": [
+        { "problem": "1 quarter + 2 dimes + 1 nickel = ?" },
+        { "problem": "3 dimes + 4 pennies = ?" },
+        { "problem": "2 quarters + 1 dime + 3 pennies = ?" }
+      ]
+    }
+  }
+}

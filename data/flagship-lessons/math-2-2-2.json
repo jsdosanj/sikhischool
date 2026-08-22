@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-2-2",
+    "courseId": "course-math-2",
+    "order": 2,
+    "title": "Measuring Length, Time, and Money",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-2-2-2",
+    "unitId": "unit-math-2-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Telling Time to the Nearest 5 Minutes",
+    "gradeLevel": "2",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you measured length. Today, measure something different: time!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "On a clock, the short hand shows the hour and the long hand shows the minutes. Each small mark around the clock represents 5 minutes, so you can read the time by counting by 5s as the long hand moves: 5, 10, 15, 20... Practice reading these times: the long hand pointing straight down (6, meaning 30 minutes past the hour), and the long hand pointing at the 3 (meaning 15 minutes past the hour). Draw or describe a clock showing 4:15 and a clock showing 7:45."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just practiced reading time to the nearest 5 minutes — a real skill you'll use every day! Tomorrow we'll measure something else: money."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-2-2-2",
+    "lessonId": "lesson-math-2-2-2",
+    "objectives": [
+      "Read the time on an analog clock to the nearest 5 minutes",
+      "Draw or describe a clock showing a given time"
+    ],
+    "materialsNeeded": ["A real or paper clock with movable hands, if available", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's length-measurement work.\n2. Introduce reading the clock's hour and minute hands, counting by 5s for minutes.\n3. Practice reading 2-3 example times together.\n4. Have the child draw clocks for 4:15 and 7:45.\n5. Complete the worksheet.\n6. Close by checking the current real time on a clock together.",
+    "differentiationTips": [
+      "Struggling: focus on just the easiest landmark times (:00, :15, :30, :45) before reading arbitrary 5-minute marks",
+      "Ready for more: ask the child to figure out what time it will be in 20 minutes from a given starting time",
+      "A real clock with movable hands makes this lesson far more concrete than a static worksheet image alone"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a clock-reading and drawing activity — check that the child correctly draws the hour hand near the 4 and minute hand at the 3 (for 4:15), and the hour hand near the 8 and minute hand at the 9 (for 7:45).",
+    "standardsRationale": "Directly addresses Common Core Grade 2 standard 2.MD.7: telling and writing time from analog clocks to the nearest 5 minutes, continuing this week's measurement theme."
+  },
+  "worksheet": {
+    "id": "worksheet-math-2-2-2",
+    "lessonId": "lesson-math-2-2-2",
+    "title": "Telling Time to the Nearest 5 Minutes",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Draw or describe a clock showing each time.",
+      "rows": [
+        { "problem": "Draw a clock showing 4:15." },
+        { "problem": "Draw a clock showing 7:45." },
+        { "problem": "What time is it when the long hand points straight down and the short hand is between 2 and 3?" }
+      ]
+    }
+  }
+}

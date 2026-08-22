@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-2-2",
+    "courseId": "course-math-2",
+    "order": 2,
+    "title": "Measuring Length, Time, and Money",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-2-2-4",
+    "unitId": "unit-math-2-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Money Word Problems",
+    "gradeLevel": "2",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you counted coins. Today, use that skill to solve real money word problems!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Here's a real problem: A toy costs 45 cents. You pay with 1 quarter and 2 dimes. Do you have exactly enough? 25 + 10 + 10 = 45 cents — yes, exactly enough! Here's a harder problem: An item costs 78 cents. You pay with a one-dollar bill (100 cents). How much change should you get back? 100 - 78 = 22 cents. Try this one yourself: A snack costs 60 cents. You have 2 quarters and 1 dime. Do you have enough? How much money do you have in total?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just solved real money word problems — figuring out if you have enough, and finding change! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-2-2-4",
+    "lessonId": "lesson-math-2-2-4",
+    "objectives": [
+      "Determine whether a given set of coins is enough to cover a cost",
+      "Calculate change owed when paying with a dollar bill"
+    ],
+    "materialsNeeded": ["Real or play coins and a play dollar bill", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's coin-counting work.\n2. Work through the 45-cent toy example together, confirming the coins total exactly 45 cents.\n3. Work through the 78-cent/change example together.\n4. Have the child solve the 60-cent snack problem independently.\n5. Complete the worksheet.\n6. Close by previewing tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: use real or play coins and a play dollar bill to physically act out each problem",
+      "Ready for more: ask the child to find a way to pay for the 60-cent snack using exact change with different coins than the ones given",
+      "Making change (subtracting from a dollar) is the harder skill this week — allow extra time and physical props for it specifically"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Toy: 25+10+10=45 cents, exactly enough. Item: 100-78=22 cents change. Snack: 2 quarters + 1 dime = 25+25+10=60 cents total, exactly enough.",
+    "standardsRationale": "Directly addresses Common Core Grade 2 standard 2.MD.8: solving word problems involving dollars and cents, applying yesterday's coin-counting skill to real scenarios."
+  },
+  "worksheet": {
+    "id": "worksheet-math-2-2-4",
+    "lessonId": "lesson-math-2-2-4",
+    "title": "Money Word Problems",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each money word problem.",
+      "rows": [
+        { "problem": "A toy costs 45 cents. You pay with 1 quarter and 2 dimes. Is that exactly enough?" },
+        { "problem": "An item costs 78 cents. You pay with a one-dollar bill. How much change do you get?" },
+        { "problem": "A snack costs 60 cents. You have 2 quarters and 1 dime. Do you have enough? How much do you have in total?" }
+      ]
+    }
+  }
+}

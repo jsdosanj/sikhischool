@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-11-1",
+    "courseId": "course-punjabi-11",
+    "order": 1,
+    "title": "Introduction to Punjabi News Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-11-1-1",
+    "unitId": "unit-punjabi-11-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "ਖ਼ਬਰ ਕੀ ਹੈ? What Makes Something News?",
+    "gradeLevel": "11",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Grade 11 Punjabi. This week begins a new focus: ਖ਼ਬਰ (news) writing — a real, practical form of advanced composition."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਖ਼ਬਰ (news) has three qualities that distinguish it from a personal story or opinion: it must be ਸੱਚ (true), ਮਹੱਤਵਪੂਰਨ (important) to the ਪਾਠਕ (reader), and current in ਸਮਾਂ (time) — old information usually isn't news anymore. The ਲੇਖਕ (writer) who reports news has a real responsibility: readers trust that what they've written is accurate and honest. Think of one event from your own life or community this week. Explain whether it would count as ਖ਼ਬਰ by checking it against all three qualities: is it true, is it important to others, and is it current?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a real framework for what makes something ਖ਼ਬਰ, not just 'something that happened.' Tomorrow we'll learn the structure real news writing uses to organize information."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-11-1-1",
+    "lessonId": "lesson-punjabi-11-1-1",
+    "objectives": [
+      "Define ਖ਼ਬਰ (news) using its three qualities: true, important, current",
+      "Evaluate a real event against these three qualities"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce ਖ਼ਬਰ and its three qualities.\n2. Discuss the writer's responsibility to readers.\n3. Have the child pick a real event and evaluate it against the three qualities.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: how news writing is structured.",
+    "differentiationTips": [
+      "Struggling: provide two contrasting example events (one clearly newsworthy, one clearly not) to compare before evaluating their own",
+      "Ready for more: ask them to explain why something can be true and current but still NOT count as news if it isn't important to enough readers",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing — a few candidate words (ਪੱਤਰਕਾਰ, ਅਖ਼ਬਾਰ, ਸੰਪਾਦਕ) failed validation and were deliberately avoided in favor of validated descriptive phrasing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The three qualities of ਖ਼ਬਰ are: ਸੱਚ (true), ਮਹੱਤਵਪੂਰਨ (important to readers), and current. 2. A ਲੇਖਕ (writer) reporting news has a responsibility to be accurate and honest, since readers trust what they write.",
+    "standardsRationale": "Directly addresses the course's 'advanced composition and an introduction to Punjabi-language media and journalism' description, establishing the foundational definition this week's news-writing skills build on."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-11-1-1",
+    "lessonId": "lesson-punjabi-11-1-1",
+    "title": "ਖ਼ਬਰ ਕੀ ਹੈ? What Makes Something News?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Pick a real event and evaluate it against the three qualities of ਖ਼ਬਰ.",
+      "prompts": [
+        { "prompt": "The event:", "lines": 1 },
+        { "prompt": "Is it ਸੱਚ (true)? Is it ਮਹੱਤਵਪੂਰਨ (important) to others? Is it current?", "lines": 3 },
+        { "prompt": "Does it count as ਖ਼ਬਰ? Why or why not?", "lines": 2 }
+      ]
+    }
+  }
+}

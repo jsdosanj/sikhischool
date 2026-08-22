@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-11-1",
+    "courseId": "course-punjabi-11",
+    "order": 1,
+    "title": "Introduction to Punjabi News Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-11-1-4",
+    "unitId": "unit-punjabi-11-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing a Complete News Report",
+    "gradeLevel": "11",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have every piece: what counts as ਖ਼ਬਰ, the inverted pyramid, and the five ਸਵਾਲ. Today, write a complete original news report."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Write a complete short news report (4-6 sentences) about a real, genuine event from your own life, school, or community this week. Structure it using the inverted pyramid: your opening sentence (from Day 3, revised) comes first, answering as many of the five ਸਵਾਲ as you can. Follow it with 2-4 more sentences adding supporting details, in order from most to least important. Before finishing, add a short ਸੁਰਖੀ (headline) above your report — a few words that capture its core in as little space as possible."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've written a complete original news report using genuine journalistic structure. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-11-1-4",
+    "lessonId": "lesson-punjabi-11-1-4",
+    "objectives": [
+      "Write a complete 4-6 sentence news report using the inverted pyramid structure",
+      "Write a short headline (ਸੁਰਖੀ) capturing the report's core"
+    ],
+    "materialsNeeded": ["This week's worksheets (Days 1-3)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's three tools: ਖ਼ਬਰ definition, inverted pyramid, five ਸਵਾਲ.\n2. Have the child draft their opening sentence, using Day 3's revision as a starting point.\n3. Add 2-4 supporting-detail sentences in order of importance.\n4. Write a short ਸੁਰਖੀ above the report.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: allow a shorter 4-sentence report and provide a sentence-order checklist (opening, then supporting details, most to least important)",
+      "Ready for more: ask them to write two different ਸੁਰਖੀ options for the same report and explain which one is stronger and why",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "A complete answer is the child's own original 4-6 sentence news report, structured with the most important information first, answering multiple of the five ਸਵਾਲ, plus a short headline — content varies genuinely by student, evaluated against these structural criteria rather than a fixed 'correct' answer.",
+    "standardsRationale": "Directly addresses the course's 'advanced composition and an introduction to Punjabi-language media and journalism' description with a genuine composition capstone, synthesizing every tool introduced this week into one finished original piece."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-11-1-4",
+    "lessonId": "lesson-punjabi-11-1-4",
+    "title": "Writing a Complete News Report",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your complete news report with a headline.",
+      "prompts": [
+        { "prompt": "ਸੁਰਖੀ (headline):", "lines": 1 },
+        { "prompt": "Your complete news report (4-6 sentences):", "lines": 6 }
+      ]
+    }
+  }
+}

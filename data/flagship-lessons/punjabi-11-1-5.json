@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-11-1",
+    "courseId": "course-punjabi-11",
+    "order": 1,
+    "title": "Introduction to Punjabi News Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-11-1-5",
+    "unitId": "unit-punjabi-11-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Introduction to News Writing",
+    "gradeLevel": "11",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a real news-writing toolkit — a definition, a structure, a question checklist — then used all of it to write your own report. Let's review the whole set."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: ਖ਼ਬਰ must be ਸੱਚ, ਮਹੱਤਵਪੂਰਨ, and current (Day 1). The inverted pyramid puts the most important ਜਾਣਕਾਰੀ first (Day 2). A strong opening answers the five ਸਵਾਲ — ਕੌਣ, ਕੀ, ਕਦੋਂ, ਕਿੱਥੇ, ਕਿਉਂ (Day 3). You combined all of this into one complete report with a ਸੁਰਖੀ (Day 4). Look back at your Day 4 report: identify which of the five ਸਵਾਲ it answers, and explain in one sentence why its structure follows the inverted pyramid."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now have real analytical and compositional tools for Punjabi-language news writing. These same tools will apply throughout this course as we study more of Punjabi-language media and journalism."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-11-1-5",
+    "lessonId": "lesson-punjabi-11-1-5",
+    "objectives": [
+      "Review and correctly define ਖ਼ਬਰ's three qualities, the inverted pyramid, and the five ਸਵਾਲ",
+      "Identify these elements within the student's own Day 4 news report"
+    ],
+    "materialsNeeded": ["Day 4's news report worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child re-read their own Day 4 report and label which questions it answers.\n3. Complete the cumulative review worksheet.\n4. Discuss any uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — these tools will be used throughout the rest of the course.",
+    "differentiationTips": [
+      "Struggling: allow the child to point to and read aloud (rather than write out) where each element appears in their report",
+      "Ready for more: ask them to suggest one small revision to their Day 4 report that would answer one more of the five ਸਵਾਲ",
+      "This is a good checkpoint to note which of the four elements (news definition, inverted pyramid, five questions, or headline-writing) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. ਖ਼ਬਰ must be ਸੱਚ (true), ਮਹੱਤਵਪੂਰਨ (important), and current. 2. The inverted pyramid puts the most important information first. 3. The five ਸਵਾਲ are ਕੌਣ, ਕੀ, ਕਦੋਂ, ਕਿੱਥੇ, ਕਿਉਂ.",
+    "standardsRationale": "Consolidates this week's news-writing foundation before the unit continues further into Punjabi-language media and journalism, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-11-1-5",
+    "lessonId": "lesson-punjabi-11-1-5",
+    "title": "Introduction to News Writing: Week 1 Review",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Review your Day 4 report and answer each question.",
+      "prompts": [
+        { "prompt": "Which of the five ਸਵਾਲ does your report answer?", "lines": 2 },
+        { "prompt": "Why does your report's structure follow the inverted pyramid?", "lines": 2 }
+      ]
+    }
+  }
+}

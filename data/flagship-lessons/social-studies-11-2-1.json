@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-11-2",
+    "courseId": "course-social-studies-11",
+    "order": 2,
+    "title": "America and the Roaring Twenties",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-11-2-1",
+    "unitId": "unit-social-studies-11-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The United States Enters World War I",
+    "gradeLevel": "11",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you studied the Progressive Era's reforms. This week: America's entry onto the world stage in World War I!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The United States initially stayed neutral when World War I began in Europe in 1914, but entered the war in 1917, driven by several factors including German submarine attacks on ships (including some carrying Americans) and a general shift in public opinion toward supporting the Allied powers. This marked a significant change from America's earlier, more isolated foreign policy. Explain why German attacks on ships carrying Americans would have been a significant factor in shifting US public opinion toward joining the war."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned why the US entered World War I! Tomorrow we'll see how the war's end reshaped America's role in the world."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-11-2-1",
+    "lessonId": "lesson-social-studies-11-2-1",
+    "objectives": [
+      "State the basic timeline and key factor (submarine attacks) in the US decision to enter WWI",
+      "Explain why attacks on American lives shifted public opinion toward war"
+    ],
+    "materialsNeeded": ["Last week's Progressive Era worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Progressive Era work briefly.\n2. Introduce the US's initial neutrality and 1917 entry into WWI.\n3. Have the child explain the submarine-attacks factor.\n4. Complete the worksheet.\n5. Preview tomorrow's war's-end lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple cause-and-effect framing — an attack that harms your own citizens is a direct, personal reason for a country to reconsider staying uninvolved",
+      "Ready for more: ask the child why a country might prefer to stay neutral in a conflict for as long as possible before that changes",
+      "Kept at a general historical-overview level, appropriate for opening this week's chronological continuation from last week's Progressive Era"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Attacks that harmed or killed American citizens made the war feel much more direct and personal to the American public, rather than a distant conflict between other countries — this kind of direct harm is a powerful factor in shifting public and political opinion toward involvement, since it changes the war from something happening 'over there' to something with real consequences at home.",
+    "standardsRationale": "Directly addresses WA Social Studies and C3 Framework History standards on early 20th-century US foreign policy, opening this week's thread as a chronological continuation of last week's Progressive Era unit."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-11-2-1",
+    "lessonId": "lesson-social-studies-11-2-1",
+    "title": "The United States Enters World War I",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about US entry into World War I.",
+      "prompts": [
+        { "prompt": "When did the US enter World War I, and what was one key factor?", "lines": 2 },
+        { "prompt": "Why did attacks on Americans shift public opinion toward war?", "lines": 2 }
+      ]
+    }
+  }
+}

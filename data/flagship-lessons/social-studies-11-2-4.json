@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-11-2",
+    "courseId": "course-social-studies-11",
+    "order": 2,
+    "title": "America and the Roaring Twenties",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-11-2-4",
+    "unitId": "unit-social-studies-11-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "The Economic Boom of the 1920s",
+    "gradeLevel": "11",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've traced war, global change, and culture. Today: the decade's real economic boom!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The 1920s saw genuine economic growth in the United States, with rising factory production, new consumer goods (like radios, cars, and household appliances) becoming widely available, and a new practice of buying on credit (installment plans) that let more people afford these goods than if they had to pay the full price upfront. This growing culture of borrowing to buy consumer goods is an important detail to understand about this decade's economy. Explain how buying on credit could let more people participate in this decade's consumer boom than they otherwise could have."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about the 1920s' real economic boom! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-11-2-4",
+    "lessonId": "lesson-social-studies-11-2-4",
+    "objectives": [
+      "Understand the 1920s' economic growth and rise of consumer goods",
+      "Explain how buying on credit expanded participation in the consumer boom"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's WWI, global-role, and cultural-change work.\n2. Introduce the 1920s' economic boom and buying on credit.\n3. Have the child explain the credit-and-participation connection.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: use a simple, familiar example — being able to pay a little at a time for something instead of all at once lets more people afford it right away",
+      "Ready for more: ask the child what risk might come with widespread borrowing to buy goods, even if it feels good in the moment",
+      "Deliberately kept focused on the 1920s boom itself, without covering the later economic downturn this decade led to, which deserves a separate future lesson"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Buying on credit let people pay for a good over time in smaller installments, rather than needing the entire price upfront — this meant many more people could afford radios, cars, and appliances than if they'd had to save the full amount first, genuinely expanding who could participate in the decade's consumer boom.",
+    "standardsRationale": "Directly addresses WA Social Studies and C3 Framework Economics dimension standards on 1920s economic growth, completing this week's thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-11-2-4",
+    "lessonId": "lesson-social-studies-11-2-4",
+    "title": "The Economic Boom of the 1920s",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about the 1920s' economic boom.",
+      "prompts": [
+        { "prompt": "Name two new consumer goods that became widely available in the 1920s.", "lines": 1 },
+        { "prompt": "How did buying on credit expand who could participate in the boom?", "lines": 2 }
+      ]
+    }
+  }
+}

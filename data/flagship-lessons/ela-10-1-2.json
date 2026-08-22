@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-10-1",
+    "courseId": "course-ela-10",
+    "order": 1,
+    "title": "Argumentative Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-10-1-2",
+    "unitId": "unit-ela-10-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Gathering and Using Evidence",
+    "gradeLevel": "10",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you built a sharp, debatable claim. Today: what actually makes a reader believe it?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Strong evidence generally falls into three types: facts and statistics (verifiable numbers or data), expert opinion (a credentialed source's judgment), and real examples (specific cases that illustrate the claim in action). Not all evidence is equally strong — a single anecdote is weaker than a statistic drawn from many cases, and a source's credibility matters (a relevant expert carries more weight than an unrelated celebrity). Using yesterday's claim ('Schools should limit smartphone use during class because it measurably improves student focus and classroom participation'), identify one piece of evidence for each of the three types that could support it, then explain which one is strongest and why."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "A claim without strong evidence is just an opinion. Tomorrow we'll look at the move that separates a good argumentative essay from a great one: addressing the other side."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-10-1-2",
+    "lessonId": "lesson-ela-10-1-2",
+    "objectives": [
+      "Identify the three main types of argumentative evidence: facts/statistics, expert opinion, examples",
+      "Evaluate which type of evidence is strongest for a given claim and explain why"
+    ],
+    "materialsNeeded": ["Yesterday's claim worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's claim.\n2. Introduce the three evidence types with real-world examples of each.\n3. Discuss what makes one piece of evidence stronger than another (sample size, source credibility, relevance).\n4. Have the child generate one example of each type for yesterday's claim.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: addressing the other side.",
+    "differentiationTips": [
+      "Struggling: provide 2-3 pre-written evidence examples and have the child sort them by type before generating their own",
+      "Ready for more: ask them to find a real statistic or expert quote (from a source they can name) rather than a hypothetical one",
+      "Emphasize that weak evidence (a single unverified anecdote) can actually hurt an argument's credibility, not just fail to help it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The three evidence types are facts/statistics, expert opinion, and real examples. 2. Statistics drawn from many cases are generally stronger than a single anecdote. 3. A source's relevant expertise increases how much weight their opinion carries.",
+    "standardsRationale": "Directly addresses Common Core Writing standard W.9-10.1b: developing claims with the most relevant evidence, demonstrating an understanding of the topic and evaluating source credibility."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-10-1-2",
+    "lessonId": "lesson-ela-10-1-2",
+    "title": "Gathering and Using Evidence",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Support yesterday's claim with one piece of evidence of each type, then answer the last question.",
+      "prompts": [
+        { "prompt": "A statistic or fact that supports the claim:", "lines": 2 },
+        { "prompt": "An expert opinion that supports the claim:", "lines": 2 },
+        { "prompt": "A real example that supports the claim:", "lines": 2 },
+        { "prompt": "Which piece of evidence is strongest, and why?", "lines": 3 }
+      ]
+    }
+  }
+}

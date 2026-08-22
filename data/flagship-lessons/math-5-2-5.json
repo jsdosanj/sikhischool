@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-5-2",
+    "courseId": "course-math-5",
+    "order": 2,
+    "title": "Decimal Place Value",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-5-2-5",
+    "unitId": "unit-math-5-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Decimal Place Value",
+    "gradeLevel": "5",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you worked with decimals four different ways. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: decimal places are named tenths, hundredths, thousandths (Day 1). Comparing decimals means comparing place by place, not just counting digits (Day 2). Rounding uses the digit right after the target place (Day 3). Adding/subtracting decimals means lining up decimal points (Day 4). Round 5.362 to the nearest tenth, then add it to 2.1."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you learned to read, compare, round, and calculate with decimals! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-5-2-5",
+    "lessonId": "lesson-math-5-2-5",
+    "objectives": [
+      "Review decimal place value, comparison, rounding, and addition/subtraction",
+      "Round a decimal and use the result in an addition problem"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child round 5.362 to the nearest tenth, then add it to 2.1.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of real decimal work!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often comparison, due to the more-digits misconception) rather than requiring all four equally",
+      "Ready for more: ask the child to explain when they'd use rounding versus exact addition in a real-life situation",
+      "This is a good checkpoint to note which of the week's four decimal skills needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "5.362 rounds to 5.4 (nearest tenth). 5.4 + 2.1 = 7.5.",
+    "standardsRationale": "Consolidates this week's Common Core Grade 5 decimal standards (5.NBT.3/5.NBT.4/5.NBT.7) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-5-2-5",
+    "lessonId": "lesson-math-5-2-5",
+    "title": "Review: Decimal Place Value",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Round 5.362 to the nearest tenth." },
+        { "problem": "Add your rounded answer to 2.1." },
+        { "problem": "Compare 0.8 and 0.79. Which is bigger?" }
+      ]
+    }
+  }
+}

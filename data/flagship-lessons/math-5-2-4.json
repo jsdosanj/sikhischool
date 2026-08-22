@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-5-2",
+    "courseId": "course-math-5",
+    "order": 2,
+    "title": "Decimal Place Value",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-5-2-4",
+    "unitId": "unit-math-5-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Adding and Subtracting Decimals",
+    "gradeLevel": "5",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've compared and rounded decimals. Today: add and subtract them in real problems!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "To add or subtract decimals, line up the decimal points first, so each place value matches up correctly — the same idea as lining up ones, tens, and hundreds when adding whole numbers. 2.35 + 1.7 lines up as 2.35 and 1.70 (adding a placeholder zero), giving 4.05. Solve this real problem: you have $5.60, and you spend $2.85 on a snack. How much money do you have left?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just added and subtracted decimals in a real money problem! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-5-2-4",
+    "lessonId": "lesson-math-5-2-4",
+    "objectives": [
+      "Add and subtract decimals by lining up decimal points and place values",
+      "Apply this skill to a real money word problem"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's place-value, comparison, and rounding work.\n2. Model 2.35 + 1.7 = 4.05, emphasizing lining up decimal points.\n3. Have the child solve the $5.60 - $2.85 money problem independently.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: use lined or grid paper to physically keep decimal points and digits aligned in columns",
+      "Ready for more: ask the child to create their own real-world decimal word problem for a family member to solve",
+      "Real money problems make decimal addition/subtraction concrete and immediately meaningful — lean on that context throughout"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "$5.60 - $2.85 = $2.75.",
+    "standardsRationale": "Directly addresses Common Core Grade 5 standard 5.NBT.7: adding and subtracting decimals to hundredths using concrete models or place value understanding, applying this week's decimal skills to a real scenario."
+  },
+  "worksheet": {
+    "id": "worksheet-math-5-2-4",
+    "lessonId": "lesson-math-5-2-4",
+    "title": "Adding and Subtracting Decimals",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each decimal addition/subtraction problem.",
+      "rows": [
+        { "problem": "$5.60 - $2.85 = ?" },
+        { "problem": "3.4 + 2.65 = ?" },
+        { "problem": "8.2 - 1.75 = ?" }
+      ]
+    }
+  }
+}

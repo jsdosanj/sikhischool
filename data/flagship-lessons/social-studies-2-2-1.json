@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-2-2",
+    "courseId": "course-social-studies-2",
+    "order": 2,
+    "title": "Public Goods, Taxes, and Community Choices",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-2-2-1",
+    "unitId": "unit-social-studies-2-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Public Goods vs. Private Goods",
+    "gradeLevel": "2",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned about goods, services, and trade. This week: how a whole community pays for some things together!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A private good is something one person or family buys for themselves, like a toy or a bike. A public good is something the whole community pays for together, so everyone can use it — like a public park, a public library, or a fire department. Sort these into public or private: a video game, a public library, a family's car, a public playground. Explain why a fire department has to be a public good instead of something each family buys separately."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the difference between public and private goods! Tomorrow we'll learn exactly how public goods get paid for: taxes."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-2-2-1",
+    "lessonId": "lesson-social-studies-2-2-1",
+    "objectives": [
+      "Distinguish a private good (bought individually) from a public good (paid for by the whole community)",
+      "Explain why some goods and services, like a fire department, work better as public goods"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's goods/services/trade vocabulary briefly.\n2. Introduce public vs. private goods with the park/library vs. toy/bike examples.\n3. Have the child sort the 4 example items into public or private.\n4. Discuss the fire-department question together.\n5. Complete the worksheet.\n6. Preview tomorrow's taxes lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple test question — 'could just one family buy this for only themselves?' — to sort each example",
+      "Ready for more: ask the child to name one more public good and one more private good from their own life",
+      "The fire-department example is the strongest one for building genuine understanding — spend extra time there if the sorting activity feels easy"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Public: public library, public playground. Private: video game, family's car. A fire department is public because everyone needs to be protected, and most families couldn't afford their own fire truck and firefighters.",
+    "standardsRationale": "Directly addresses the C3 Framework's Economics dimension (public vs. private goods) at a Grade 2 level, opening this week's community-choices thread building on last week's goods/services foundation."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-2-2-1",
+    "lessonId": "lesson-social-studies-2-2-1",
+    "title": "Public Goods vs. Private Goods",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Sort each item as public or private, then answer the question.",
+      "rows": [
+        { "problem": "A video game: public or private?" },
+        { "problem": "A public library: public or private?" },
+        { "problem": "Why does a fire department need to be a public good?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-2-2",
+    "courseId": "course-social-studies-2",
+    "order": 2,
+    "title": "Public Goods, Taxes, and Community Choices",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-2-2-5",
+    "unitId": "unit-social-studies-2-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Public Goods, Taxes, and Community Choices",
+    "gradeLevel": "2",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned how communities pay for and choose shared things. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a public good is paid for by the whole community, unlike a private good (Day 1). Taxes are the shared money that pays for public goods (Day 2). Firefighters, teachers, and librarians are real tax-funded jobs (Day 3). Communities have to choose between public goods since money is limited (Day 4). Answer: what makes a good 'public' instead of 'private'? Name one tax-funded job and explain who it helps."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you learned how a whole community works together to pay for and choose shared things! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-2-2-5",
+    "lessonId": "lesson-social-studies-2-2-5",
+    "objectives": [
+      "Review public vs. private goods, taxes, tax-funded jobs, and community decision-making",
+      "Explain what makes a good public and name one tax-funded job and who it helps"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child explain the public-vs-private distinction in their own words.\n3. Have the child name one tax-funded job and who it helps.\n4. Complete the review worksheet.\n5. Celebrate finishing a full week of community-economics learning!",
+    "differentiationTips": [
+      "Struggling: focus on just the public-vs-private distinction, the foundation the rest of the week builds on",
+      "Ready for more: ask the child to connect this week's ideas back to last week's goods/services/trade vocabulary in one sentence",
+      "This is a good checkpoint to note whether the child needs more practice on the public-goods concept specifically before the next Social Studies unit"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child can explain public goods are paid for by the whole community (not one person) and correctly name one tax-funded job with who it helps.",
+    "standardsRationale": "Consolidates this week's C3 Framework Economics and Civics dimensions before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-2-2-5",
+    "lessonId": "lesson-social-studies-2-2-5",
+    "title": "Review: Public Goods, Taxes, and Community Choices",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What makes a good 'public' instead of 'private'?" },
+        { "problem": "Name one tax-funded job and who it helps." }
+      ]
+    }
+  }
+}

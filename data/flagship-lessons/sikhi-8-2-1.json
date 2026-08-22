@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-8-2",
+    "courseId": "course-sikhi-8",
+    "order": 2,
+    "title": "Representation",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-8-2-1",
+    "unitId": "unit-sikhi-8-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Representation Means",
+    "gradeLevel": "8",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored bias and civic engagement. This week: representation, the third piece of this course's focus!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Representation means seeing yourself and your identity accurately reflected in the world around you — in books, movies, the news, textbooks, and public life. Accurate representation matters because it helps everyone, both people who share that identity and people who don't, understand it correctly instead of relying on guesses or stereotypes. Think of a time you saw someone who shared part of your own identity (your interests, background, or community) accurately shown somewhere public, like a book, show, or news story, and explain how that felt."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what representation means and why it matters! Tomorrow we'll look at real representation gaps Sikhs sometimes face."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-8-2-1",
+    "lessonId": "lesson-sikhi-8-2-1",
+    "objectives": [
+      "Define representation as accurate identity reflection in books, media, and public life",
+      "Reflect on a personal experience of seeing an identity accurately represented"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's bias and civic-engagement work briefly.\n2. Introduce representation and why accuracy in it matters for everyone.\n3. Have the child reflect on a personal experience of accurate representation.\n4. Complete the worksheet.\n5. Preview tomorrow's representation-gaps lesson.",
+    "differentiationTips": [
+      "Struggling: offer a simple, familiar example first (seeing a character in a show who plays the same sport you do) to make the concept concrete",
+      "Ready for more: ask the child why representation might matter just as much for people OUTSIDE a community as for people inside it",
+      "Opens this week's representation thread, completing the course's own three-part description (bias, representation, civic engagement) across weeks 1 and 2"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended reflection activity — check that the child describes a genuine, specific example and explains a real feeling connected to it (recognition, pride, or feeling understood).",
+    "standardsRationale": "Directly addresses the course's representation thread from its own description, opening it with a genre-definition lesson before examining real Sikh-representation examples in the days ahead."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-8-2-1",
+    "lessonId": "lesson-sikhi-8-2-1",
+    "title": "What Representation Means",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Reflect on a time you saw your own identity accurately represented.",
+      "prompts": [
+        { "prompt": "Describe the time you saw this accurate representation:", "lines": 2 },
+        { "prompt": "How did it feel?", "lines": 2 }
+      ]
+    }
+  }
+}

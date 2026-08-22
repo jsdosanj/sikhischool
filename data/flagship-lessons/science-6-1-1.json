@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-6-1",
+    "courseId": "course-science-6",
+    "order": 1,
+    "title": "Cells: The Building Blocks of Life",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-6-1-1",
+    "unitId": "unit-science-6-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "All Living Things Are Made of Cells",
+    "gradeLevel": "6",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You, a tree, a mushroom, and a bacterium have something surprising in common: you're all made of the same basic building block — cells."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The cell theory states that all living things are made of one or more cells, and the cell is the basic unit of life. Some organisms are unicellular (made of just one cell), like bacteria and many protists. Others are multicellular (made of many cells working together), like plants, animals, and humans — an adult human is made of trillions of cells. If you have access to a microscope, examine a slide of onion skin or your own cheek cells (a real, simple classroom investigation) and describe what you observe. If not, research an image of onion skin cells and describe what you see."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined real evidence that living things are made of cells. Tomorrow we'll look inside a cell and learn what its different parts actually do."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-6-1-1",
+    "lessonId": "lesson-science-6-1-1",
+    "objectives": [
+      "State the cell theory: all living things are made of one or more cells",
+      "Distinguish unicellular organisms from multicellular organisms"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Optional: a microscope and onion skin, or images of onion skin cells"],
+    "facilitationScript": "1. Ask what the child thinks all living things might have in common at the smallest scale.\n2. Introduce the cell theory and unicellular vs. multicellular organisms.\n3. Do the onion-skin (or cheek cell) observation if a microscope is available, or examine images together.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: what's inside a cell.",
+    "differentiationTips": [
+      "Struggling: focus on just the human-body example (trillions of cells) as the single most relatable case",
+      "Ready for more: research one specific unicellular organism (like an amoeba or paramecium) and describe how it survives as just one cell",
+      "A real or even a video microscope observation is far more memorable than a description alone — worth the extra effort to include"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. All living things are made of one or more cells. 2. A unicellular organism is made of just one cell (like bacteria). 3. A multicellular organism is made of many cells working together (like plants, animals, humans).",
+    "standardsRationale": "Directly addresses NGSS MS-LS1-1: providing evidence that living things are made of cells, the foundational Grade 6 Life Science standard this week's unit builds from."
+  },
+  "worksheet": {
+    "id": "worksheet-science-6-1-1",
+    "lessonId": "lesson-science-6-1-1",
+    "title": "All Living Things Are Made of Cells",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about cells.",
+      "rows": [
+        { "problem": "What does the cell theory state?" },
+        { "problem": "Give an example of a unicellular organism." },
+        { "problem": "Give an example of a multicellular organism." }
+      ]
+    }
+  }
+}

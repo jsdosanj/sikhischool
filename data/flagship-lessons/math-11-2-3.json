@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-11-2",
+    "courseId": "course-math-11",
+    "order": 2,
+    "title": "Exponential Functions",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-11-2-3",
+    "unitId": "unit-math-11-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Real-World Growth: Compound Interest",
+    "gradeLevel": "11",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned exponential functions and their graphs. Today: a real-world growth application!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Compound interest is a classic real-world exponential growth model: an account with a starting balance P and an annual interest rate r grows according to A = P(1+r)ᵗ, where t is the number of years. Notice this matches yesterday's y=a·bˣ form, with a=P and b=(1+r). If $1,000 is deposited in an account earning 10% annual interest, find the account's balance after 2 years using A = P(1+r)ᵗ."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just modeled real compound interest growth! Tomorrow we'll look at a real-world decay example."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-11-2-3",
+    "lessonId": "lesson-math-11-2-3",
+    "objectives": [
+      "Understand the compound interest formula A = P(1+r)ᵗ as an exponential growth model",
+      "Correctly calculate the balance after 2 years at 10% interest on $1,000"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's exponential-function and graphing work.\n2. Introduce the compound interest formula, connecting it explicitly to the y=a·bˣ form.\n3. Have the child calculate the 2-year balance.\n4. Complete the worksheet.\n5. Preview tomorrow's exponential-decay lesson.",
+    "differentiationTips": [
+      "Struggling: calculate one year at a time (year 1: 1000×1.1=1100, year 2: 1100×1.1=1210) rather than using the exponent directly",
+      "Ready for more: ask the child to calculate the balance after 3 years and compare how much was earned in year 3 alone versus year 1 alone",
+      "This is a genuinely practical, real-world application students will actually encounter with savings accounts and investments"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A = 1000(1.10)² = 1000 × 1.21 = $1,210.",
+    "standardsRationale": "Directly addresses Common Core Algebra 2 standard F-LE.2: constructing exponential functions to model real-world growth, continuing this week's thread with a genuinely practical application."
+  },
+  "worksheet": {
+    "id": "worksheet-math-11-2-3",
+    "lessonId": "lesson-math-11-2-3",
+    "title": "Real-World Growth: Compound Interest",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each compound interest problem using A = P(1+r)ᵗ.",
+      "rows": [
+        { "problem": "$1,000 deposited at 10% annual interest. Find the balance after 2 years." },
+        { "problem": "$2,000 deposited at 5% annual interest. Find the balance after 2 years." }
+      ]
+    }
+  }
+}

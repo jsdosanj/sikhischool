@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-11-2",
+    "courseId": "course-math-11",
+    "order": 2,
+    "title": "Exponential Functions",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-11-2-4",
+    "unitId": "unit-math-11-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Real-World Decay: Radioactive Half-Life",
+    "gradeLevel": "11",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've applied exponential growth. Today: a real-world decay application!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Radioactive half-life is a classic real-world exponential decay model: a substance's remaining amount follows A = A₀(0.5)ᵗ, where A₀ is the starting amount and t is the number of half-life periods that have passed, since exactly half the remaining amount decays during each period. If a lab starts with 200 mg of a radioactive substance, find how much remains after 1, 2, and 3 half-life periods using A = A₀(0.5)ᵗ."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just modeled real radioactive decay! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-11-2-4",
+    "lessonId": "lesson-math-11-2-4",
+    "objectives": [
+      "Understand the half-life decay formula A = A₀(0.5)ᵗ as an exponential decay model",
+      "Correctly calculate the remaining amount after 1, 2, and 3 half-life periods from 200 mg"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's exponential-growth work.\n2. Introduce the half-life decay formula, connecting it to yesterday's growth formula as the decay counterpart.\n3. Have the child calculate the remaining amount at three time points.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: calculate one half-life at a time by literally halving the previous amount (200→100→50→25) rather than using the exponent formula directly",
+      "Ready for more: ask the child what fraction of the ORIGINAL 200 mg remains after 3 half-lives, expressed as a fraction",
+      "This connects directly to real nuclear chemistry/physics content students may encounter in Science courses, showing math's real applications"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "After 1 half-life: 200(0.5)¹=100 mg. After 2 half-lives: 200(0.5)²=50 mg. After 3 half-lives: 200(0.5)³=25 mg.",
+    "standardsRationale": "Directly addresses Common Core Algebra 2 standard F-LE.2: constructing exponential functions to model real-world decay, completing this week's thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-math-11-2-4",
+    "lessonId": "lesson-math-11-2-4",
+    "title": "Real-World Decay: Radioactive Half-Life",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each half-life decay problem using A = A₀(0.5)ᵗ.",
+      "rows": [
+        { "problem": "200 mg of a substance. Find the amount remaining after 1, 2, and 3 half-lives." },
+        { "problem": "80 mg of a substance. Find the amount remaining after 1, 2, and 3 half-lives." }
+      ]
+    }
+  }
+}

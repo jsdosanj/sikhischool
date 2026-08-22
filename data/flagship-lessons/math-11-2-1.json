@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-11-2",
+    "courseId": "course-math-11",
+    "order": 2,
+    "title": "Exponential Functions",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-11-2-1",
+    "unitId": "unit-math-11-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is an Exponential Function?",
+    "gradeLevel": "11",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you mastered quadratic functions. This week: exponential functions, another key function family this course covers!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "An exponential function has the form y = a·bˣ, where a is the starting value and b is the growth/decay factor — unlike a quadratic or linear function, the variable x appears in the EXPONENT, not as a base being multiplied or squared. If b > 1, the function grows (exponential growth); if 0 < b < 1, it shrinks (exponential decay). For y = 100 · 2ˣ, find y when x = 0, x = 1, and x = 2, and explain whether this represents growth or decay."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what makes a function exponential! Tomorrow we'll learn to graph exponential functions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-11-2-1",
+    "lessonId": "lesson-math-11-2-1",
+    "objectives": [
+      "State the general form y = a·bˣ and identify growth (b>1) vs. decay (0<b<1)",
+      "Correctly evaluate y = 100·2ˣ at x=0, 1, 2 and identify it as growth"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's quadratic-functions work briefly.\n2. Introduce the exponential form y=a·bˣ, contrasting the variable's position with linear/quadratic functions.\n3. Have the child evaluate y=100·2ˣ at three x-values.\n4. Complete the worksheet.\n5. Preview tomorrow's graphing lesson.",
+    "differentiationTips": [
+      "Struggling: compute each value one step at a time (2⁰=1, 2¹=2, 2²=4) before multiplying by 100, rather than doing it all mentally",
+      "Ready for more: ask the child to predict y when x=3 without a calculator, using the pattern from the previous values",
+      "Opens this week's exponential-functions thread from the course's own description, directly building on Grade 9's exponent-rules content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "At x=0: y=100·1=100. At x=1: y=100·2=200. At x=2: y=100·4=400. This represents exponential growth, since b=2 is greater than 1 and the values are increasing.",
+    "standardsRationale": "Directly addresses Common Core Algebra 2 standard F-LE.1: distinguishing between situations that can be modeled with linear vs. exponential functions, opening this week's thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-math-11-2-1",
+    "lessonId": "lesson-math-11-2-1",
+    "title": "What Is an Exponential Function?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Evaluate each exponential function at the given x-values.",
+      "rows": [
+        { "problem": "For y = 100 · 2ˣ, find y at x = 0, 1, and 2. Is this growth or decay?" },
+        { "problem": "For y = 50 · 3ˣ, find y at x = 0, 1, and 2. Is this growth or decay?" }
+      ]
+    }
+  }
+}

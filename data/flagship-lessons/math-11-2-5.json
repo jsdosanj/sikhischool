@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-11-2",
+    "courseId": "course-math-11",
+    "order": 2,
+    "title": "Exponential Functions",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-11-2-5",
+    "unitId": "unit-math-11-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Exponential Functions",
+    "gradeLevel": "11",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you mastered exponential functions four ways. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: y=a·bˣ, with b>1 for growth and 0<b<1 for decay (Day 1). Its graph has a y-intercept at (0,a) and a horizontal asymptote at y=0 (Day 2). You modeled compound interest growth (Day 3) and radioactive decay (Day 4). A $500 deposit grows at 8% annual interest. Find the balance after 2 years, and explain whether this is growth or decay and why."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you mastered exponential functions and applied them to real growth and decay problems! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-11-2-5",
+    "lessonId": "lesson-math-11-2-5",
+    "objectives": [
+      "Review exponential functions, their graphs, and real-world growth/decay applications",
+      "Correctly calculate the 8%-interest balance and explain why it's growth"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child solve the new compound interest problem and explain growth vs. decay.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of exponential-function mastery!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often distinguishing growth vs. decay) rather than requiring all four equally",
+      "Ready for more: ask the child how this week's exponential functions differ from last week's quadratic functions in their overall shape and behavior",
+      "This is a good checkpoint to note which of the week's four exponential-function skills needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A = 500(1.08)² = 500 × 1.1664 = $583.20. This is growth, since the growth factor b=1.08 is greater than 1, matching the compound-interest pattern from Day 3.",
+    "standardsRationale": "Consolidates this week's Common Core Algebra 2 exponential-function standards (F-LE.1/F-LE.2/F-IF.7e) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-11-2-5",
+    "lessonId": "lesson-math-11-2-5",
+    "title": "Review: Exponential Functions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "$500 deposited at 8% annual interest. Find the balance after 2 years." },
+        { "problem": "Explain whether this is growth or decay, and why." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-1-2",
+    "courseId": "course-math-1",
+    "order": 2,
+    "title": "Understanding Tens and Ones",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-1-2-5",
+    "unitId": "unit-math-1-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Tens and Ones",
+    "gradeLevel": "1",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you bundled, broke down, compared, and added two-digit numbers using tens and ones. Let's review it all on one new number."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a ten is a bundle of 10 objects, and extra objects are ones (Day 1). A two-digit number's first digit is tens, second digit is ones (Day 2). Compare tens first, then ones (Day 3). To add a one-digit number, keep the tens and add to the ones (Day 4). For the number 27: break it into tens and ones, compare it to 72 (which is bigger?), and solve 27 + 2."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now have real place-value understanding: breaking down, comparing, and adding two-digit numbers using tens and ones."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-1-2-5",
+    "lessonId": "lesson-math-1-2-5",
+    "objectives": [
+      "Break down, compare, and add using tens and ones for a new number",
+      "Apply all four of this week's skills to one cumulative problem set"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child break down, compare, and add using the number 27 independently.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of place value — this foundation carries throughout the rest of the course.",
+    "differentiationTips": [
+      "Struggling: allow the child to work through each of the three tasks (breakdown, comparison, addition) as fully separate steps, checking each before moving on",
+      "Ready for more: ask them to also predict, without calculating, whether 27+8 would need regrouping (a preview of a future skill)",
+      "This is a good checkpoint to note which part of the place-value chain (bundling, breakdown, comparison, or addition) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "27 = 2 tens + 7 ones. 72 is bigger than 27 (7 tens vs. 2 tens). 27 + 2 = 29.",
+    "standardsRationale": "Consolidates Common Core Grade 1 standards 1.NBT.2/1.NBT.3/1.NBT.4 (place value, comparison, and addition) before the unit continues, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-1-2-5",
+    "lessonId": "lesson-math-1-2-5",
+    "title": "Tens and Ones: Week 2 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For the number 27, answer each question.",
+      "rows": [
+        { "problem": "Break 27 into tens and ones." },
+        { "problem": "Which is bigger: 27 or 72?" },
+        { "problem": "Solve 27 + 2." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-1-2",
+    "courseId": "course-math-1",
+    "order": 2,
+    "title": "Understanding Tens and Ones",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-1-2-1",
+    "unitId": "unit-math-1-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is a Ten?",
+    "gradeLevel": "1",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've added and subtracted within 20. Today, a new way to think about numbers: grouping them into tens!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Count out 10 small objects and bundle them together — that group of 10 is called a ten. Once you have a full ten, any extra objects are called ones. For example, if you have 13 objects, that's 1 ten (10 objects bundled) and 3 ones (3 extra objects). Count out 16 objects, bundle 10 of them into a ten, and describe how many tens and ones you have."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just organized a number into tens and ones — the foundation for understanding bigger numbers! Tomorrow we'll practice this with written two-digit numbers."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-1-2-1",
+    "lessonId": "lesson-math-1-2-1",
+    "objectives": [
+      "Group a set of objects into a ten (bundle of 10) plus extra ones",
+      "Describe a two-digit quantity using tens and ones language"
+    ],
+    "materialsNeeded": ["16+ small objects (blocks, buttons, or beans)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review counting and adding within 20 from last week.\n2. Introduce bundling 10 objects into a 'ten', using the 13-object example.\n3. Have the child count out 16 objects and bundle 10 into a ten.\n4. Complete the worksheet using real objects to check each answer.\n5. Close by bundling one more quantity together, just for practice.",
+    "differentiationTips": [
+      "Struggling: always physically bundle the ten (with a rubber band or a cup) before asking the child to describe the tens/ones breakdown",
+      "Ready for more: ask the child to bundle a larger quantity (like 24) and describe it in tens and ones",
+      "This is a genuinely new way of thinking about numbers — concrete, physical bundling matters more than the worksheet at this stage"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "16 objects = 1 ten (10 objects bundled) and 6 ones (6 extra objects).",
+    "standardsRationale": "Directly addresses Common Core Grade 1 standard 1.NBT.2: understanding that the two digits of a two-digit number represent amounts of tens and ones, the foundation for this new unit."
+  },
+  "worksheet": {
+    "id": "worksheet-math-1-2-1",
+    "lessonId": "lesson-math-1-2-1",
+    "title": "What Is a Ten?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use real objects to bundle each number into tens and ones.",
+      "rows": [
+        { "problem": "16 objects: how many tens and ones?" },
+        { "problem": "12 objects: how many tens and ones?" },
+        { "problem": "19 objects: how many tens and ones?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-11-1",
+    "courseId": "course-sikhi-11",
+    "order": 1,
+    "title": "The Global Sikh Diaspora",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-11-1-3",
+    "unitId": "unit-sikhi-11-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "The Gurdwara as a Community Anchor",
+    "gradeLevel": "11",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "New diaspora communities needed more than jobs — they needed a place to gather, worship, and support each other. Almost everywhere Sikhs settled, one institution came first."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Across nearly every diaspora community, establishing a Gurdwara was often one of the very first things a new Sikh community did — sometimes even before the community had significant numbers or resources. A Gurdwara serves multiple roles at once: a place of worship centered on the Guru Granth Sahib, a Langar hall providing shared meals and hospitality to anyone regardless of background, and a genuine community gathering space for support, information, and connection. In a new, unfamiliar country, a Gurdwara gave diaspora Sikhs something invaluable: an anchor of familiar identity and mutual support. Explain why a religious institution can also function as a genuine community support network, not just a place of worship."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "The Gurdwara's role as both worship space and community anchor explains why it appears so consistently, in nearly every place Sikhs have settled. Tomorrow we'll look at how diaspora Sikhs maintain their identity while also adapting to new countries."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-11-1-3",
+    "lessonId": "lesson-sikhi-11-1-3",
+    "objectives": [
+      "Describe the Gurdwara's multiple roles: worship, Langar, and community gathering",
+      "Explain why the Gurdwara functions as a genuine community support network, not just a place of worship"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's early migration waves.\n2. Introduce the Gurdwara's multiple roles, connecting back to earlier grades' Langar/equality content.\n3. Discuss why a religious institution can also function as a support network.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: identity and adaptation in diaspora.",
+    "differentiationTips": [
+      "Struggling: connect this to something concrete the child may know — a Gurdwara they've visited, and what happened there beyond just prayer (food, conversation, help)",
+      "Ready for more: ask them to compare the Gurdwara's role in diaspora communities to a similar institution from another culture or religion they may know about",
+      "Text-only content, per the platform's content policy"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A Gurdwara serves as a place of worship, a Langar hall, and a community gathering space. 2. It functions as a support network because it provides not just religious practice but also shared meals, hospitality, and connection — practical support alongside spiritual practice.",
+    "standardsRationale": "Addresses the C3 Framework's Civics dimension (D2.Civ.1, community institutions) alongside the platform's Sikhi standards, examining a concrete, positive institution central to diaspora community-building."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-11-1-3",
+    "lessonId": "lesson-sikhi-11-1-3",
+    "title": "The Gurdwara as a Community Anchor",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Gurdwara's role in diaspora communities.",
+      "rows": [
+        { "problem": "Name the Gurdwara's three main roles." },
+        { "problem": "Why was establishing a Gurdwara often one of the first things a new diaspora community did?" },
+        { "problem": "Why can a religious institution also function as a community support network?" }
+      ]
+    }
+  }
+}

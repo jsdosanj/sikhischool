@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-11-1",
+    "courseId": "course-sikhi-11",
+    "order": 1,
+    "title": "The Global Sikh Diaspora",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-11-1-5",
+    "unitId": "unit-sikhi-11-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: The Global Sikh Diaspora",
+    "gradeLevel": "11",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you moved from what a diaspora is, to how the Sikh diaspora began, to the institution that anchors it, to the ongoing work of maintaining identity within it. Let's connect it all."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a diaspora is a community maintaining shared identity while living outside its homeland, and today's Sikh diaspora spans many countries (Day 1). Early Sikh emigration, beginning in the late 1800s-early 1900s, was largely voluntary and opportunity-driven (Day 2). The Gurdwara served as a consistent early community anchor, combining worship, Langar, and gathering space (Day 3). Diaspora Sikhs navigate an ongoing balance between adaptation and maintaining core identity across generations (Day 4). Write a short paragraph explaining how these four pieces together tell the story of how a genuinely global Sikh community grew and continues to sustain itself."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand the global Sikh diaspora not just as a fact, but as a real historical and ongoing process. In future weeks, we'll study colonialism and the partition — the specific, more complex historical events that also shaped this modern history — with the care and depth that subject deserves."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-11-1-5",
+    "lessonId": "lesson-sikhi-11-1-5",
+    "objectives": [
+      "Synthesize the week's four themes — diaspora definition, migration, the Gurdwara's role, and identity — into one coherent explanation",
+      "Explain how these four pieces together describe the global Sikh diaspora's growth and sustainability"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 prior days together, out loud.\n2. Have the child write the synthesis paragraph independently.\n3. Complete the cumulative review worksheet.\n4. Discuss any uncertain answers together before finishing.\n5. Preview that upcoming weeks will study colonialism and partition — the more complex historical events named in the course description — with dedicated, careful treatment.",
+    "differentiationTips": [
+      "Struggling: provide the four themes as sentence starters for the synthesis paragraph",
+      "Ready for more: ask them to predict what kinds of challenges or events (beyond what's been covered this week) a diaspora community typically has to navigate over its history",
+      "Be explicit that this week deliberately built a safe, general diaspora foundation — colonialism and the partition, named in the course description, get dedicated, carefully-sourced future treatment, not compressed into this introductory week"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "The four themes are: (1) diaspora as a concept and the Sikh diaspora's global scope, (2) early voluntary migration waves, (3) the Gurdwara as a consistent community anchor, (4) the ongoing balance of adaptation and identity across generations. Together, these explain how a genuinely global Sikh community grew and continues to sustain its identity today.",
+    "standardsRationale": "Consolidates the C3 Framework's Geography and Civics dimensions before the unit moves to colonialism and the partition, matching the 'consolidate before adding more' pacing established across this session, and explicitly previews that those more sensitive, complex topics will receive dedicated, carefully-sourced future treatment."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-11-1-5",
+    "lessonId": "lesson-sikhi-11-1-5",
+    "title": "The Global Sikh Diaspora: Week 1 Review",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your synthesis paragraph connecting this week's four themes.",
+      "prompts": [
+        { "prompt": "How do diaspora, migration, the Gurdwara, and identity together tell the story of the global Sikh diaspora?", "lines": 6 }
+      ]
+    }
+  }
+}

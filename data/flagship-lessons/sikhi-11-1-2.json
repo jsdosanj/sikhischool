@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-11-1",
+    "courseId": "course-sikhi-11",
+    "order": 1,
+    "title": "The Global Sikh Diaspora",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-11-1-2",
+    "unitId": "unit-sikhi-11-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Early Migration Waves",
+    "gradeLevel": "11",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned Sikhs live across the globe today. Today: how that spread actually began, more than a century ago."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Significant Sikh emigration began in the late 1800s and early 1900s, as individuals and families sought new work opportunities abroad — in agriculture, timber, railway construction, and other industries in places like North America and East Africa. This was largely voluntary economic migration, driven by the search for opportunity, similar in kind to migration patterns many other communities around the world experienced during this same general era of global movement. These early communities were often small and had to establish themselves in genuinely new, unfamiliar settings, far from the institutions and support networks of Punjab. Explain why establishing a new community somewhere unfamiliar — even when migration is voluntary and opportunity-driven — still requires real resilience and effort."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "These early migration waves planted the first seeds of today's global Sikh diaspora. Tomorrow we'll look at the institution these early communities built first, wherever they settled: the Gurdwara."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-11-1-2",
+    "lessonId": "lesson-sikhi-11-1-2",
+    "objectives": [
+      "Describe early Sikh emigration (late 1800s-early 1900s) as largely voluntary, opportunity-driven economic migration",
+      "Explain why establishing a new community somewhere unfamiliar requires resilience, even when migration is voluntary"
+    ],
+    "materialsNeeded": ["Yesterday's lesson notes", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's diaspora definition and global scope.\n2. Introduce early emigration waves and their general economic motivations.\n3. Discuss why establishing a new community requires resilience even when migration is voluntary.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: Gurdwaras as community anchors.",
+    "differentiationTips": [
+      "Struggling: connect this to a simple, relatable idea — moving to a brand-new place, even by choice and for good reasons, still means starting over without the familiar support a home community provides",
+      "Ready for more: ask them to compare this pattern of voluntary, opportunity-driven migration to other migration patterns they may know about from world history",
+      "Keep this lesson at the general, cross-regional pattern level — specific events like the Komagata Maru incident deserve dedicated, carefully-sourced future treatment, not a brief mention here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Early Sikh emigration (late 1800s-early 1900s) was largely voluntary economic migration for work in agriculture, timber, and railway industries. 2. Establishing a new community requires resilience because even voluntary migrants must rebuild support networks and institutions from scratch in an unfamiliar setting.",
+    "standardsRationale": "Addresses the C3 Framework's Geography dimension (D2.Geo.4) and History dimension (D2.His.1), examining the concrete origins of the diaspora concept introduced yesterday, kept deliberately general and safe pending future, more specific treatment."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-11-1-2",
+    "lessonId": "lesson-sikhi-11-1-2",
+    "title": "Early Migration Waves",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about early Sikh migration.",
+      "rows": [
+        { "problem": "When did significant Sikh emigration begin, and what generally motivated it?" },
+        { "problem": "Name two industries early Sikh migrants often worked in." },
+        { "problem": "Why does establishing a new community require resilience, even when migration is voluntary?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-9-2",
+    "courseId": "course-punjabi-9",
+    "order": 2,
+    "title": "Punjabi Postpositions (ਸੰਬੰਧਕ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-9-2-1",
+    "unitId": "unit-punjabi-9-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is a Postposition?",
+    "gradeLevel": "9",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you practiced translation and word order. This week: advanced grammar, another core thread of this course!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "English uses prepositions, small words like 'to,' 'from,' or 'in,' that come BEFORE a noun ('to school'). Punjabi uses ਸੰਬੰਧਕ (postpositions) instead, small words that come AFTER a noun ('school to,' ਸਕੂਲ ਨੂੰ) — this connects directly to last week's lesson that Punjabi is an SOV (subject-object-verb) language, where word order often flips compared to English. Explain, using what you learned about word order last week, why it makes sense that Punjabi would put these small connecting words after the noun instead of before it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what a postposition is and why Punjabi uses them! Tomorrow we'll learn two of the most common ones."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-9-2-1",
+    "lessonId": "lesson-punjabi-9-2-1",
+    "objectives": [
+      "Define ਸੰਬੰਧਕ (postposition) as coming after the noun, unlike an English preposition",
+      "Connect this pattern to last week's SOV word-order lesson"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's SOV word-order work briefly.\n2. Introduce ਸੰਬੰਧਕ and contrast with English prepositions using the ਸਕੂਲ ਨੂੰ example.\n3. Have the child connect the postposition pattern to last week's word-order lesson.\n4. Complete the worksheet.\n5. Preview tomorrow's first two postpositions.",
+    "differentiationTips": [
+      "Struggling: have the child physically say 'school to' out loud a few times to get used to the reversed order before introducing the Gurmukhi term",
+      "Ready for more: ask the child whether they can think of any English phrase that also puts a small connecting word in an unusual place",
+      "Opens this week's advanced-grammar thread from the course's own description, building directly on last week's translation-practice unit"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Since Punjabi is an SOV language where the verb comes at the end rather than the middle, it makes sense that other elements, like connecting words, would also follow a different order than English — putting the postposition after the noun matches the same overall pattern of core sentence elements often coming later in a Punjabi sentence.",
+    "standardsRationale": "Directly addresses this course's advanced-grammar thread from its own description, opening it with a genre-definition lesson connected to last week's translation content."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-9-2-1",
+    "lessonId": "lesson-punjabi-9-2-1",
+    "title": "What Is a Postposition?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about postpositions.",
+      "prompts": [
+        { "prompt": "What is a ਸੰਬੰਧਕ (postposition), and how is it different from an English preposition?", "lines": 2 },
+        { "prompt": "How does this connect to last week's SOV word-order lesson?", "lines": 2 }
+      ]
+    }
+  }
+}

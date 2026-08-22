@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-9-2",
+    "courseId": "course-punjabi-9",
+    "order": 2,
+    "title": "Punjabi Postpositions (ਸੰਬੰਧਕ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-9-2-4",
+    "unitId": "unit-punjabi-9-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Combining Postpositions in Full Sentences",
+    "gradeLevel": "9",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned all four essential postpositions. Today: combine them into full sentences, connecting back to your translation-practice skills!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Real sentences often use more than one postposition at once. Using last week's translation-practice skills, translate this full sentence into Punjabi, using at least two of this week's four postpositions correctly: 'I am going with my friend to school.'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just translated a full sentence using multiple postpositions! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-9-2-4",
+    "lessonId": "lesson-punjabi-9-2-4",
+    "objectives": [
+      "Combine multiple postpositions correctly in one translated sentence",
+      "Connect this week's grammar skill to last week's translation-practice skill"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's four postpositions together.\n2. Model translating the full example sentence step by step.\n3. Have the child complete their own translation independently.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: translate the sentence in two separate chunks (with my friend / to school) before combining them into one full sentence",
+      "Ready for more: ask the child to write their own original sentence using all four postpositions from this week",
+      "This is the week's synthesis moment — combining grammar and translation skills together is the genuinely important goal here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A correct translation uses ਨਾਲ for 'with my friend' and ਨੂੰ for 'to school,' for example: ਮੈਂ ਦੋਸਤ ਨਾਲ ਸਕੂਲ ਨੂੰ ਜਾ ਰਿਹਾ ਹਾਂ — check that the child's version correctly places both postpositions after their nouns.",
+    "standardsRationale": "Directly addresses this course's advanced-grammar and translation-practice threads together, synthesizing this week's four postpositions before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-9-2-4",
+    "lessonId": "lesson-punjabi-9-2-4",
+    "title": "Combining Postpositions in Full Sentences",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Translate the full sentence into Punjabi.",
+      "prompts": [
+        { "prompt": "Translate: 'I am going with my friend to school.'", "lines": 2 }
+      ]
+    }
+  }
+}

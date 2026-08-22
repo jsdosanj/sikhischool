@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-9-2",
+    "courseId": "course-punjabi-9",
+    "order": 2,
+    "title": "Punjabi Postpositions (ਸੰਬੰਧਕ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-9-2-5",
+    "unitId": "unit-punjabi-9-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Punjabi Postpositions",
+    "gradeLevel": "9",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you mastered four real Punjabi postpositions. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a ਸੰਬੰਧਕ (postposition) comes AFTER its noun, unlike an English preposition (Day 1). ਨੂੰ means 'to/for' and ਤੋਂ means 'from' (Day 2). ਵਿੱਚ means 'in' and ਨਾਲ means 'with' (Day 3). You combined multiple postpositions into one full translated sentence (Day 4). Translate a new sentence: 'My friend is coming from school with a book.'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you mastered four real Punjabi postpositions and combined them with your translation skills! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-9-2-5",
+    "lessonId": "lesson-punjabi-9-2-5",
+    "objectives": [
+      "Review all four postpositions: ਨੂੰ, ਤੋਂ, ਵਿੱਚ, ਨਾਲ",
+      "Correctly translate a new sentence using multiple postpositions"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child translate the new review sentence.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of Punjabi postpositions!",
+    "differentiationTips": [
+      "Struggling: focus on just the two postpositions the child remembers most confidently rather than requiring all four in the review sentence",
+      "Ready for more: ask the child to write one more original sentence using a postposition not featured in today's review sentence",
+      "This is a good checkpoint to note which of the week's four postpositions needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A correct translation uses ਤੋਂ for 'from school' and ਨਾਲ for 'with a book,' for example: ਮੇਰਾ ਦੋਸਤ ਸਕੂਲ ਤੋਂ ਕਿਤਾਬ ਨਾਲ ਆ ਰਿਹਾ ਹੈ — check that the child's version places each postposition correctly after its noun.",
+    "standardsRationale": "Consolidates this week's advanced-grammar thread before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-9-2-5",
+    "lessonId": "lesson-punjabi-9-2-5",
+    "title": "Review: Punjabi Postpositions",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Translate the full sentence into Punjabi.",
+      "prompts": [
+        { "prompt": "Translate: 'My friend is coming from school with a book.'", "lines": 2 }
+      ]
+    }
+  }
+}

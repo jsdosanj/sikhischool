@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-12-2",
+    "courseId": "course-science-12",
+    "order": 2,
+    "title": "Your Capstone Engineering-Design Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-12-2-2",
+    "unitId": "unit-science-12-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Brainstorming and Evaluating Solutions",
+    "gradeLevel": "12",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you defined a problem. Today: brainstorm multiple possible solutions and evaluate them!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Strong engineering design generates multiple possible solutions before choosing one, then evaluates each against the problem's real criteria and constraints from yesterday, rather than jumping straight to the first idea. For a food-waste problem, possible solutions might include a share-table for untouched food, a composting program, or portion-size surveys — each with different costs, effort, and effectiveness. Brainstorm three different possible solutions to yesterday's problem, then briefly evaluate each against your stated constraint."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just brainstormed and evaluated real solutions! Tomorrow we'll build and test a prototype of your chosen solution."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-12-2-2",
+    "lessonId": "lesson-science-12-2-2",
+    "objectives": [
+      "Generate multiple distinct possible solutions to a defined problem",
+      "Evaluate each solution against the problem's stated constraint"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's problem-definition work briefly.\n2. Introduce brainstorming multiple solutions using the food-waste example.\n3. Have the child brainstorm and evaluate three solutions of their own.\n4. Complete the worksheet.\n5. Preview tomorrow's prototyping lesson.",
+    "differentiationTips": [
+      "Struggling: model brainstorming three solutions for the food-waste example together first, before asking the child to do it independently for their own problem",
+      "Ready for more: ask the child which of their three solutions they'd choose, and why it best balances effectiveness against their constraint",
+      "Generating multiple options before picking one is a genuinely core engineering-design habit, worth emphasizing over jumping to the first idea"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child generates three genuinely distinct solutions (not minor variations of the same idea) and evaluates each specifically against their stated constraint from yesterday.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-12 Engineering Design standard HS-ETS1-2: designing a solution by breaking it into smaller, evaluable pieces, continuing this week's capstone thread."
+  },
+  "worksheet": {
+    "id": "worksheet-science-12-2-2",
+    "lessonId": "lesson-science-12-2-2",
+    "title": "Brainstorming and Evaluating Solutions",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Brainstorm and evaluate three possible solutions.",
+      "prompts": [
+        { "prompt": "Solution 1, and how it meets your constraint:", "lines": 1 },
+        { "prompt": "Solution 2, and how it meets your constraint:", "lines": 1 },
+        { "prompt": "Solution 3, and how it meets your constraint:", "lines": 1 }
+      ]
+    }
+  }
+}

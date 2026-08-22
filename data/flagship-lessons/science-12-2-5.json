@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-12-2",
+    "courseId": "course-science-12",
+    "order": 2,
+    "title": "Your Capstone Engineering-Design Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-12-2-5",
+    "unitId": "unit-science-12-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Your Capstone Proposal",
+    "gradeLevel": "12",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built every piece of a real engineering-design capstone. Let's put it all together!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: define your problem with real constraints (Day 1). Brainstorm and evaluate multiple solutions (Day 2). Build a testable prototype (Day 3). Iterate based on real feedback (Day 4). Combine your problem statement, chosen solution, prototype description, and one planned iteration into one complete capstone engineering-design proposal."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you built a complete, real engineering-design capstone proposal! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-12-2-5",
+    "lessonId": "lesson-science-12-2-5",
+    "objectives": [
+      "Review problem definition, brainstorming/evaluation, prototyping, and iteration",
+      "Combine all four into one complete written capstone proposal"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child assemble their complete capstone proposal.\n3. Complete the review worksheet.\n4. Celebrate finishing a real engineering-design capstone proposal, ready to carry out!",
+    "differentiationTips": [
+      "Struggling: it's fine if the proposal is short — focus on genuinely combining all four pieces rather than length",
+      "Ready for more: ask the child what they'd need to actually carry out this project in the real world, beyond just the written proposal",
+      "This is the week's synthesis moment — a real, usable engineering proposal the child can genuinely follow going forward, not just a review exercise"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended synthesis activity — check that the proposal genuinely combines all four elements from this week (a specific problem with a real constraint, the chosen solution, a testable prototype description, and a planned iteration) into one coherent, usable engineering-design proposal.",
+    "standardsRationale": "Consolidates this week's NGSS Grade 9-12 Engineering Design standards (HS-ETS1-1/HS-ETS1-2/HS-ETS1-3) before the course continues, matching the established Day-5-review pacing used across every unit this session, producing a genuinely usable final artifact rather than just a review."
+  },
+  "worksheet": {
+    "id": "worksheet-science-12-2-5",
+    "lessonId": "lesson-science-12-2-5",
+    "title": "Review: Your Capstone Proposal",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your complete capstone engineering-design proposal.",
+      "prompts": [
+        { "prompt": "Your complete capstone proposal (problem, solution, prototype, and iteration):", "lines": 6 }
+      ]
+    }
+  }
+}

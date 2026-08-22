@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-9-1",
+    "courseId": "course-punjabi-9",
+    "order": 1,
+    "title": "Introduction to Translation Practice",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-9-1-4",
+    "unitId": "unit-punjabi-9-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Translating a Short Paragraph",
+    "gradeLevel": "9",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਹੁਣ ਇੱਕ ਪੂਰਾ ਪੈਰਾ! (Now a whole paragraph!) Real translation work usually means connected sentences, not just one at a time."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Translate this short English paragraph into Punjabi, sentence by sentence, using this week's vocabulary and word-order skill: 'The big dog goes home. The small girl reads a book. The book is red.' Break it into three separate sentences, translate each one applying Subject-Object-Verb order, then check that your translated paragraph reads naturally as connected Punjabi, not just three disconnected sentences."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just translated a complete short paragraph — real, connected translation work. Tomorrow we'll review everything about translation from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-9-1-4",
+    "lessonId": "lesson-punjabi-9-1-4",
+    "objectives": [
+      "Translate a short, multi-sentence paragraph from English to Punjabi",
+      "Apply word order and gender agreement consistently across multiple sentences"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets for vocabulary reference", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's translation skills.\n2. Break the paragraph into 3 separate sentences together.\n3. Have the child translate each sentence, checking gender agreement each time.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: translate the 3 sentences on separate days' pacing if needed, rather than requiring all 3 in one sitting",
+      "Ready for more: challenge them to add a 4th original sentence continuing the paragraph's story",
+      "All Gurmukhi words/sentences used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "ਵੱਡਾ ਕੁੱਤਾ ਘਰ ਜਾਂਦਾ ਹੈ। ਛੋਟੀ ਕੁੜੀ ਕਿਤਾਬ ਪੜ੍ਹਦੀ ਹੈ। ਕਿਤਾਬ ਲਾਲ ਹੈ।",
+    "standardsRationale": "Directly addresses the course's 'translation practice' description at the paragraph level, the natural culmination of this week's sentence-level translation skills."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-9-1-4",
+    "lessonId": "lesson-punjabi-9-1-4",
+    "title": "Translating a Short Paragraph",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Translate this paragraph into Punjabi: 'The big dog goes home. The small girl reads a book. The book is red.'",
+      "prompts": [
+        { "prompt": "My Punjabi translation:", "lines": 4 }
+      ]
+    }
+  }
+}

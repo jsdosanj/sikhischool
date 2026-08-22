@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-9-1",
+    "courseId": "course-punjabi-9",
+    "order": 1,
+    "title": "Introduction to Translation Practice",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-9-1-2",
+    "unitId": "unit-punjabi-9-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Translating English to Punjabi",
+    "gradeLevel": "9",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਅੱਜ ਅਸੀਂ ਅਨੁਵਾਦ ਕਰਾਂਗੇ! (Today we'll translate!) Put yesterday's word-order lesson into real practice."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's translate 'The girl reads a book' step by step: identify the words (ਕੁੜੀ = girl, ਕਿਤਾਬ = book, ਪੜ੍ਹਦੀ ਹੈ = reads), then reorder into Subject-Object-Verb: ਕੁੜੀ ਕਿਤਾਬ ਪੜ੍ਹਦੀ ਹੈ (literally 'girl book reads'). Notice the verb correctly matches ਕੁੜੀ's feminine gender (ਪੜ੍ਹਦੀ, not ਪੜ੍ਹਦਾ). Translate this sentence yourself: 'The boy goes home' (ਮੁੰਡਾ = boy, ਘਰ = home, ਜਾਂਦਾ ਹੈ = goes)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just translated real sentences from English to Punjabi, correctly applying both word order and gender agreement. Tomorrow we'll translate in the opposite direction: Punjabi to English."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-9-1-2",
+    "lessonId": "lesson-punjabi-9-1-2",
+    "objectives": [
+      "Translate a simple English sentence into Punjabi, applying Subject-Object-Verb order",
+      "Correctly match verb gender agreement to the subject"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's word-order concept.\n2. Work through 'The girl reads a book' translation together, step by step.\n3. Have the child translate 'The boy goes home' independently.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: translating Punjabi to English.",
+    "differentiationTips": [
+      "Struggling: provide all three Punjabi words already given, and have the child focus only on ordering them correctly",
+      "Ready for more: ask them to translate a third sentence of their own choosing, using vocabulary from earlier grades",
+      "All Gurmukhi words/sentences used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 'The girl reads a book' = ਕੁੜੀ ਕਿਤਾਬ ਪੜ੍ਹਦੀ ਹੈ। 2. 'The boy goes home' = ਮੁੰਡਾ ਘਰ ਜਾਂਦਾ ਹੈ।",
+    "standardsRationale": "Directly addresses the course's 'translation practice' description with real, guided English-to-Punjabi translation, applying Day 1's structural concept."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-9-1-2",
+    "lessonId": "lesson-punjabi-9-1-2",
+    "title": "Translating English to Punjabi",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Translate each English sentence into Punjabi.",
+      "rows": [
+        { "problem": "The girl reads a book." },
+        { "problem": "The boy goes home." },
+        { "problem": "The dog is big. (ਕੁੱਤਾ = dog, ਵੱਡਾ = big)" }
+      ]
+    }
+  }
+}

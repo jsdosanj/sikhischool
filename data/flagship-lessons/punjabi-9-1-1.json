@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-9-1",
+    "courseId": "course-punjabi-9",
+    "order": 1,
+    "title": "Introduction to Translation Practice",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-9-1-1",
+    "unitId": "unit-punjabi-9-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Word Order: English vs. Punjabi",
+    "gradeLevel": "9",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਅੱਜ ਅਸੀਂ ਅਨੁਵਾਦ ਸ਼ੁਰੂ ਕਰਾਂਗੇ। (Today we begin translation.) Real translation is never simple word-for-word substitution — it starts with understanding how word order itself differs between languages."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "New words: ਵਾਕ (vaak, sentence), ਸ਼ਬਦ (shabad, word), ਕ੍ਰਮ (kram, order). English generally follows Subject-Verb-Object order: 'I drink water.' Punjabi generally follows Subject-Object-Verb order: ਮੈਂ ਪਾਣੀ ਪੀਂਦਾ ਹਾਂ (literally 'I water drink'). If you translated word-for-word without reordering, you'd get an awkward or wrong sentence. Take the English sentence 'The girl reads a book' and identify its Subject-Verb-Object structure, then predict how the Punjabi word order (Subject-Object-Verb) would rearrange it before we translate it tomorrow."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified a real structural difference between English and Punjabi that any good translation has to account for. Tomorrow we'll put this into practice, translating real sentences from English to Punjabi."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-9-1-1",
+    "lessonId": "lesson-punjabi-9-1-1",
+    "objectives": [
+      "Learn the words ਵਾਕ (sentence), ਸ਼ਬਦ (word), ਕ੍ਰਮ (order)",
+      "Identify the Subject-Verb-Object (English) vs. Subject-Object-Verb (Punjabi) word order difference"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce today's 3 new vocabulary words.\n2. Explain the SVO (English) vs. SOV (Punjabi) word order difference using the water example.\n3. Have the child identify the SVO structure of 'The girl reads a book' and predict its SOV rearrangement.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: translating real sentences.",
+    "differentiationTips": [
+      "Struggling: use physical word cards (or written words on paper) the child can physically rearrange from SVO to SOV order",
+      "Ready for more: ask them to find one more English sentence and identify its SVO structure independently",
+      "All Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਵਾਕ = sentence. 2. ਸ਼ਬਦ = word. 3. ਕ੍ਰਮ = order. 4. English typically follows Subject-Verb-Object order; Punjabi typically follows Subject-Object-Verb order.",
+    "standardsRationale": "Introduces the course's 'translation practice' description with the foundational structural concept (word order difference) needed before attempting real sentence translation."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-9-1-1",
+    "lessonId": "lesson-punjabi-9-1-1",
+    "title": "Word Order: English vs. Punjabi",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about word order.",
+      "rows": [
+        { "problem": "What word order does English typically follow?" },
+        { "problem": "What word order does Punjabi typically follow?" },
+        { "problem": "Identify the Subject, Verb, and Object in: 'The girl reads a book.'" }
+      ]
+    }
+  }
+}

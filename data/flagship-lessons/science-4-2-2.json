@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-4-2",
+    "courseId": "course-science-4",
+    "order": 2,
+    "title": "Structures That Help Organisms Survive",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-4-2-2",
+    "unitId": "unit-science-4-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Internal Structures for Survival",
+    "gradeLevel": "4",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you found external structures. Today: look inside an organism at its internal structures!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "An internal structure is a part on the inside of an organism that helps it survive, even though you can't see it from outside. A plant's roots absorb water and nutrients from the soil, functioning even underground. A fish's gills let it pull oxygen from water, the same job your lungs do with air. Compare gills and lungs: how are their jobs similar, even though they work in different environments?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just compared internal structures across two very different environments! Tomorrow we'll learn about structures for sensing the environment."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-4-2-2",
+    "lessonId": "lesson-science-4-2-2",
+    "objectives": [
+      "Define an internal structure as a non-visible body part that helps an organism survive",
+      "Compare gills and lungs as structures with the same job in different environments"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's external-structures work.\n2. Introduce internal structures using the roots/gills examples.\n3. Have the child compare gills and lungs.\n4. Complete the worksheet.\n5. Preview tomorrow's sensing-structures lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple diagram of a fish and a person to visually compare gills and lungs, rather than describing from memory alone",
+      "Ready for more: ask the child to think of another internal structure (like a heart or stomach) and explain its survival function",
+      "The gills/lungs comparison is the strongest example here for building the 'same job, different environment' idea that recurs later this week"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Gills and lungs both pull oxygen from the organism's environment (water for gills, air for lungs) so the organism can breathe — same job, different environment.",
+    "standardsRationale": "Directly addresses NGSS Grade 4 Life Science standard 4-LS1-1, extending yesterday's external-structure model to internal structures."
+  },
+  "worksheet": {
+    "id": "worksheet-science-4-2-2",
+    "lessonId": "lesson-science-4-2-2",
+    "title": "Internal Structures for Survival",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about internal structures.",
+      "rows": [
+        { "problem": "What job do a plant's roots do?" },
+        { "problem": "How are gills and lungs similar, even though they work in different environments?" }
+      ]
+    }
+  }
+}

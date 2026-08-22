@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-4-2",
+    "courseId": "course-science-4",
+    "order": 2,
+    "title": "Structures That Help Organisms Survive",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-4-2-4",
+    "unitId": "unit-science-4-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Same Need, Different Structures",
+    "gradeLevel": "4",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've explored many structures. Today: see how the SAME need can lead to very different structures in different environments!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Every plant needs water, but different environments call for very different root structures. A desert cactus grows deep roots that reach far underground to find rare, deep water. A rainforest plant often grows wide, shallow roots that quickly soak up frequent surface rain. Same need — water — but two very different structures, because the environments are so different. Explain in your own words why a desert plant and a rainforest plant would need different root structures, even though they both need water."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just explained how environment shapes structure, even for the same basic need! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-4-2-4",
+    "lessonId": "lesson-science-4-2-4",
+    "objectives": [
+      "Compare desert and rainforest root structures as different solutions to the same need (water)",
+      "Explain how environment shapes which structure best serves a shared survival need"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's structures work (external, internal, sensing).\n2. Introduce the desert-vs-rainforest root comparison.\n3. Have the child explain why the two environments call for different root structures.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: draw a simple side-by-side sketch of both root systems to make the comparison concrete",
+      "Ready for more: ask the child to think of another example where different environments led to different structures for the same need",
+      "This lesson is the week's synthesis moment — connecting structure directly to environment rather than treating them as separate facts"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an explanation activity — check that the child correctly connects the desert plant's deep roots to scarce, deep water and the rainforest plant's shallow roots to frequent, easy-to-reach surface rain.",
+    "standardsRationale": "Directly addresses NGSS Grade 4 Life Science standard 4-LS1-1, synthesizing this week's structures thread by connecting structure directly to environmental context."
+  },
+  "worksheet": {
+    "id": "worksheet-science-4-2-4",
+    "lessonId": "lesson-science-4-2-4",
+    "title": "Same Need, Different Structures",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain why a desert plant and a rainforest plant need different root structures.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

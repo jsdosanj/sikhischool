@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-4-2",
+    "courseId": "course-science-4",
+    "order": 2,
+    "title": "Structures That Help Organisms Survive",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-4-2-1",
+    "unitId": "unit-science-4-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "External Structures for Survival",
+    "gradeLevel": "4",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored energy transfer. This week: a new topic, the body structures that help living things survive!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "An external structure is a body part on the outside of an organism that helps it survive in its environment. A hawk's sharp, curved beak is shaped perfectly for tearing meat, matching its diet. A cactus's spines protect it from being eaten and reduce water loss in the hot desert. Name one external structure you've noticed on an animal or plant, and explain how you think it helps that organism survive."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified an external structure and its survival function! Tomorrow we'll look inside an organism at its internal structures."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-4-2-1",
+    "lessonId": "lesson-science-4-2-1",
+    "objectives": [
+      "Define an external structure as a visible body part that helps an organism survive",
+      "Identify a real external structure and explain its survival function"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's energy-transfer work briefly.\n2. Introduce external structures using the hawk beak/cactus spine examples.\n3. Have the child name and explain a real external structure they've observed.\n4. Complete the worksheet.\n5. Preview tomorrow's internal-structures lesson.",
+    "differentiationTips": [
+      "Struggling: use a pet or backyard animal the child knows well as the example, rather than requiring an unfamiliar one",
+      "Ready for more: ask the child to think of an animal whose external structure would NOT work well in a very different environment",
+      "This lesson deliberately opens with the most visually obvious kind of structure before moving to less-visible internal ones tomorrow"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended observation activity — check that the child names a real external structure and gives a genuine, sensible explanation of its survival function.",
+    "standardsRationale": "Directly addresses NGSS Grade 4 Life Science standard 4-LS1-1: constructing an argument that plants and animals have internal and external structures that function to support survival, opening this week's structures thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-science-4-2-1",
+    "lessonId": "lesson-science-4-2-1",
+    "title": "External Structures for Survival",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Name an external structure you've noticed, and explain how it helps that organism survive.",
+      "prompts": [
+        { "prompt": "My example:", "lines": 3 }
+      ]
+    }
+  }
+}

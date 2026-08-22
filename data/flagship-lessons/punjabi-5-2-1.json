@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-5-2",
+    "courseId": "course-punjabi-5",
+    "order": 2,
+    "title": "A Second Folk Tale: The Ant and the Grasshopper",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-5-2-1",
+    "unitId": "unit-punjabi-5-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "New Vocabulary: A Season Story",
+    "gradeLevel": "5",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਪਿਛਲੇ ਹਫ਼ਤੇ ਤੁਸੀਂ ਤਿਹਾਈ ਕਾਂ ਦੀ ਕਹਾਣੀ ਪੜ੍ਹੀ। ਇਸ ਹਫ਼ਤੇ ਇੱਕ ਹੋਰ ਲੋਕ ਕਹਾਣੀ! (Last week you read the Thirsty Crow story. This week, another folk tale!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "This week's story is about two very different animals during changing seasons. Learn 4 new words: ਕੀੜੀ (ant), ਟਿੱਡਾ (grasshopper), ਸਰਦੀ (winter), and ਤਿਆਰੀ (preparation). Practice: use ਕੀੜੀ and ਤਿਆਰੀ in one sentence describing an ant getting ready for something."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਨਵੇਂ ਸ਼ਬਦ ਸਿੱਖੇ! (You just learned new words!) Tomorrow we'll read the real story using them."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-5-2-1",
+    "lessonId": "lesson-punjabi-5-2-1",
+    "objectives": [
+      "Learn 4 new vocabulary words needed for this week's folk tale: ਕੀੜੀ/ਟਿੱਡਾ/ਸਰਦੀ/ਤਿਆਰੀ",
+      "Use ਕੀੜੀ and ਤਿਆਰੀ correctly in an original sentence"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Thirsty Crow story briefly.\n2. Introduce this week's 4 new words.\n3. Have the child build a sentence using ਕੀੜੀ and ਤਿਆਰੀ.\n4. Complete the worksheet.\n5. Preview tomorrow's story, which uses this week's full vocabulary.",
+    "differentiationTips": [
+      "Struggling: focus on just ਕੀੜੀ and ਸਰਦੀ first, the two most central words to the story",
+      "Ready for more: ask the child to predict what the story might be about, based only on this week's 4 vocabulary words",
+      "This lesson directly sets up the course's 'Punjabi folk tales' description, previewing vocabulary before the story itself, same pattern as last week"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary-acquisition activity — check that the child correctly traces/writes all 4 new words and builds a real sentence using ਕੀੜੀ and ਤਿਆਰੀ together.",
+    "standardsRationale": "Directly addresses the course's 'Punjabi folk tales' and 'basic composition' goals together, pre-teaching key vocabulary before this week's real story."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-5-2-1",
+    "lessonId": "lesson-punjabi-5-2-1",
+    "title": "New Vocabulary: A Season Story",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, then copy it once on your own.",
+      "rows": [
+        { "trace": "ਕੀੜੀ", "label": "ant" },
+        { "trace": "ਟਿੱਡਾ", "label": "grasshopper" },
+        { "trace": "ਸਰਦੀ", "label": "winter" },
+        { "trace": "ਤਿਆਰੀ", "label": "preparation" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-12-2",
+    "courseId": "course-math-12",
+    "order": 2,
+    "title": "Introduction to Statistical Inference",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-12-2-4",
+    "unitId": "unit-math-12-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Reading a Real Survey Report Critically",
+    "gradeLevel": "12",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned samples, margin of error, and correlation vs. causation. Today: read a survey report like a real statistician!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read this survey report: 'A survey of 200 students found that 58% who study with music report higher test scores, with a margin of error of ±5%. Researchers conclude that listening to music while studying causes better test performance.' Find the likely range for the true percentage using the margin of error, then explain why the researchers' conclusion (that music CAUSES better scores) goes beyond what this correlational survey can actually support."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just critically read a real survey report! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-12-2-4",
+    "lessonId": "lesson-math-12-2-4",
+    "objectives": [
+      "Calculate the margin-of-error range for the music-and-test-scores survey",
+      "Explain why the survey's causal conclusion goes beyond what a correlational study supports"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's margin-of-error and correlation-vs-causation work.\n2. Read the survey report together and have the child calculate the range.\n3. Have the child explain why the causal conclusion overreaches.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: separate the two tasks clearly — first just the math (the range), then just the reasoning (why the conclusion is too strong) — rather than combining them at once",
+      "Ready for more: ask the child what kind of study (not just a survey) would actually be needed to test whether music CAUSES better scores",
+      "This is the week's synthesis moment — combining a real statistical calculation with genuine critical evaluation of a claim is the important skill here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The likely range is 53% to 63% (58-5=53, 58+5=63). The researchers' conclusion overreaches because this is a correlational survey, not an experiment — students who choose to study with music might differ in other ways (more disciplined study habits, less distraction-prone, etc.) that could be the real explanation for their higher scores, rather than the music itself causing the improvement.",
+    "standardsRationale": "Directly addresses Common Core Statistics standards S-IC.4/S-IC.6, synthesizing this week's margin-of-error and correlation-vs-causation content into one real critical-reading skill before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-math-12-2-4",
+    "lessonId": "lesson-math-12-2-4",
+    "title": "Reading a Real Survey Report Critically",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Analyze the survey report.",
+      "rows": [
+        { "problem": "Find the likely range for the true percentage, given 58% with a margin of error of ±5%." },
+        { "problem": "Why does the researchers' causal conclusion go beyond what this survey can support?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-12-2",
+    "courseId": "course-math-12",
+    "order": 2,
+    "title": "Introduction to Statistical Inference",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-12-2-1",
+    "unitId": "unit-math-12-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Population vs. Sample",
+    "gradeLevel": "12",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you mastered the data-science inquiry cycle. This week: statistical inference, the course's other core thread!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A population is the entire group you want to learn about, while a sample is a smaller subset actually measured — since measuring an entire population is often impossible or impractical, statisticians use a well-chosen sample to make inferences (educated conclusions) about the whole population, connecting directly to last week's sampling-bias content. A school wants to know the average time students spend on homework. Explain why surveying every single student (the population) might be impractical, and what a good sample would need to look like instead."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just reviewed population vs. sample! Tomorrow we'll learn why sample-based estimates carry real uncertainty."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-12-2-1",
+    "lessonId": "lesson-math-12-2-1",
+    "objectives": [
+      "Distinguish a population from a sample",
+      "Explain why surveying an entire population is often impractical and what a good sample requires"
+    ],
+    "materialsNeeded": ["Last week's worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's sampling-bias content briefly.\n2. Introduce population vs. sample using the homework-time example.\n3. Have the child explain why full-population surveying is often impractical.\n4. Complete the worksheet.\n5. Preview tomorrow's uncertainty lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple concrete number — if a school has 2,000 students, ask how long it would realistically take to survey every single one",
+      "Ready for more: ask the child what could go wrong if the sample only included students from one grade level, rather than a genuine cross-section",
+      "Opens this week's statistical-inference thread from the course's own description, directly building on last week's sampling content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Surveying every single student would take enormous time and effort, especially in a large school — a good sample instead needs to be representative, including a genuine cross-section of students across grades, backgrounds, and habits, so the sample's results reasonably reflect the whole population rather than just one narrow group.",
+    "standardsRationale": "Directly addresses Common Core Statistics standard S-IC.1: understanding statistics as a process for making inferences about population parameters based on a random sample, opening this week's thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-math-12-2-1",
+    "lessonId": "lesson-math-12-2-1",
+    "title": "Population vs. Sample",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about population vs. sample.",
+      "rows": [
+        { "problem": "Define population and sample in your own words." },
+        { "problem": "Why might surveying an entire school population be impractical, and what does a good sample need?" }
+      ]
+    }
+  }
+}

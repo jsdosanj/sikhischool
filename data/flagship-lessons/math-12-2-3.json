@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-12-2",
+    "courseId": "course-math-12",
+    "order": 2,
+    "title": "Introduction to Statistical Inference",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-12-2-3",
+    "unitId": "unit-math-12-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Correlation vs. Causation",
+    "gradeLevel": "12",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned margin of error. Today: one of the most important cautions in all of statistics!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Correlation means two variables tend to change together, while causation means one variable actually causes the change in the other — correlation alone never proves causation, since a third, unmeasured factor might explain both. Ice cream sales and drowning incidents are strongly correlated (both rise in summer), but ice cream doesn't cause drowning — the real explanation is a third factor: hot weather leads to both more ice cream sales AND more swimming. Explain why it would be a mistake to conclude ice cream causes drowning just from this correlation."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned why correlation doesn't prove causation! Tomorrow we'll apply everything to a real survey scenario."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-12-2-3",
+    "lessonId": "lesson-math-12-2-3",
+    "objectives": [
+      "Distinguish correlation from causation",
+      "Explain the ice-cream-and-drowning example using a third, unmeasured factor"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's population/sample and margin-of-error work.\n2. Introduce correlation vs. causation using the ice-cream/drowning example.\n3. Have the child explain the third-factor reasoning.\n4. Complete the worksheet.\n5. Preview tomorrow's real-world application.",
+    "differentiationTips": [
+      "Struggling: ask the child what season both ice cream sales AND drownings go up in, to help them spot the hidden third factor (hot weather) themselves",
+      "Ready for more: ask the child to come up with their own example of two things that are correlated but where one doesn't cause the other",
+      "This is one of the single most important statistical-literacy skills a student can learn — worth real emphasis, since this mistake appears constantly in real media reporting"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "It would be a mistake because the real explanation is a third factor — hot weather — that independently causes both more ice cream sales and more swimming (and therefore more drowning risk); ice cream sales and drownings rise together not because one causes the other, but because both are driven by the same underlying cause.",
+    "standardsRationale": "Directly addresses Common Core Statistics standard S-IC.6: evaluating reports based on data, continuing this week's thread with a genuinely critical statistical-literacy skill."
+  },
+  "worksheet": {
+    "id": "worksheet-math-12-2-3",
+    "lessonId": "lesson-math-12-2-3",
+    "title": "Correlation vs. Causation",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about correlation vs. causation.",
+      "rows": [
+        { "problem": "Define correlation and causation, and explain the difference." },
+        { "problem": "Why is it a mistake to conclude ice cream causes drowning from the correlation?" }
+      ]
+    }
+  }
+}

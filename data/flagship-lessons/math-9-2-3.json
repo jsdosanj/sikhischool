@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-math-9-2",
+    "courseId": "course-math-9",
+    "order": 2,
+    "title": "Exponent Rules",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-9-2-3",
+    "unitId": "unit-math-9-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Negative Exponents",
+    "gradeLevel": "9",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned power-of-a-power and the zero exponent. Today: what a negative exponent actually means!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A negative exponent means take the reciprocal: x⁻ⁿ = 1/xⁿ. This follows from the quotient rule too — x²/x⁵ = x⁻³ using the rule, but expanding it directly gives 1/x³, so x⁻³ must equal 1/x³. Simplify x⁻² and 2⁻³ (as a fraction)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what negative exponents really mean! Tomorrow we'll combine every rule from this week into one problem."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-9-2-3",
+    "lessonId": "lesson-math-9-2-3",
+    "objectives": [
+      "State the negative-exponent rule: x⁻ⁿ = 1/xⁿ",
+      "Explain why this follows from the quotient rule",
+      "Correctly simplify x⁻² and 2⁻³"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's rules so far briefly.\n2. Introduce the negative-exponent rule using the x²/x⁵ reasoning from both the quotient rule and direct expansion.\n3. Have the child simplify x⁻² and 2⁻³.\n4. Complete the worksheet.\n5. Preview tomorrow's combined-rules review.",
+    "differentiationTips": [
+      "Struggling: work through x²/x⁵ by fully expanding and cancelling (x·x)/(x·x·x·x·x) = 1/x³ to make the reciprocal idea concrete, not just algebraic",
+      "Ready for more: ask the child to simplify a mixed expression like x⁻³·x⁵ using both the negative-exponent and product rules together",
+      "This is often the hardest of the week's rules to internalize — grounding it in direct expansion, not just the shortcut, pays off"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "x⁻² = 1/x². 2⁻³ = 1/2³ = 1/8.",
+    "standardsRationale": "Directly addresses Algebra 1 standards on properties of exponents, extending Common Core Grade 8 standard 8.EE.1 to negative exponents."
+  },
+  "worksheet": {
+    "id": "worksheet-math-9-2-3",
+    "lessonId": "lesson-math-9-2-3",
+    "title": "Negative Exponents",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Simplify each expression as a fraction.",
+      "rows": [
+        { "problem": "Simplify: x⁻²" },
+        { "problem": "Simplify: 2⁻³" },
+        { "problem": "Simplify: y⁻⁴" },
+        { "problem": "Simplify: 3⁻²" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-9-2",
+    "courseId": "course-math-9",
+    "order": 2,
+    "title": "Exponent Rules",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-9-2-5",
+    "unitId": "unit-math-9-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Exponent Rules",
+    "gradeLevel": "9",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you mastered four exponent rules. Let's review them all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: multiplying same-base powers adds exponents, dividing subtracts them (Day 1). Raising a power to a power multiplies exponents, and anything to the power of 0 is 1 (Day 2). A negative exponent means take the reciprocal (Day 3). You combined multiple rules in one problem (Day 4). Simplify (x²)³ · x⁻⁴ / x⁰, showing every step."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you mastered all four exponent rules! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-9-2-5",
+    "lessonId": "lesson-math-9-2-5",
+    "objectives": [
+      "Review the product, quotient, power-of-a-power, zero-exponent, and negative-exponent rules",
+      "Correctly simplify (x²)³·x⁻⁴/x⁰, applying all relevant rules in sequence"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child solve the combined review problem step by step.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of exponent-rule mastery!",
+    "differentiationTips": [
+      "Struggling: focus on just the rule the child found hardest this week (often negative exponents) rather than requiring all four equally",
+      "Ready for more: ask the child to explain why x⁰ in the denominator doesn't change the problem at all",
+      "This is a good checkpoint to note which of the week's four exponent rules needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "(x²)³ = x⁶. x⁶·x⁻⁴ = x². x⁰ = 1, and dividing by 1 doesn't change anything, so (x²)³·x⁻⁴/x⁰ = x².",
+    "standardsRationale": "Consolidates this week's Algebra 1 exponent-rules standards before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-9-2-5",
+    "lessonId": "lesson-math-9-2-5",
+    "title": "Review: Exponent Rules",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Simplify each expression, showing your steps.",
+      "rows": [
+        { "problem": "Simplify: (x²)³ · x⁻⁴ / x⁰" },
+        { "problem": "Simplify: (a²)⁵ · a⁻³" },
+        { "problem": "Simplify: b⁷ / b⁻²" }
+      ]
+    }
+  }
+}

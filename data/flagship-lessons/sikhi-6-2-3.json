@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-6-2",
+    "courseId": "course-sikhi-6",
+    "order": 2,
+    "title": "Major Sikh Festivals",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-6-2-3",
+    "unitId": "unit-sikhi-6-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Gurpurabs: Celebrating the Gurus",
+    "gradeLevel": "6",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about Vaisakhi and Bandi Chhor Divas. Today: a whole category of festivals honoring the Gurus!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A Gurpurab is a celebration marking an important date connected to one of the Gurus, like a birth anniversary. Communities mark Gurpurabs with an Akhand Path (a continuous reading of the scripture), a Nagar Kirtan procession, and of course Langar for everyone who attends. Unlike Vaisakhi or Bandi Chhor Divas, which each celebrate one specific historical event, Gurpurabs happen throughout the year for different Gurus. Name the three elements a Gurpurab celebration typically includes."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what a Gurpurab is and how it's celebrated! Tomorrow we'll compare all three festivals from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-6-2-3",
+    "lessonId": "lesson-sikhi-6-2-3",
+    "objectives": [
+      "Define a Gurpurab as a celebration marking an important date connected to a Guru",
+      "Name the three typical elements of a Gurpurab: Akhand Path, Nagar Kirtan, and Langar"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's Vaisakhi and Bandi Chhor Divas lessons.\n2. Introduce Gurpurabs and their three typical elements.\n3. Have the child recall all three elements.\n4. Complete the worksheet.\n5. Preview tomorrow's three-festival comparison.",
+    "differentiationTips": [
+      "Struggling: connect each element back to something already familiar — Langar from many earlier lessons, Nagar Kirtan from Grade 2's Panj Pyare content",
+      "Ready for more: ask the child why continuously reading the whole scripture (Akhand Path) might be a meaningful way to mark an important date",
+      "This lesson deliberately introduces Gurpurab as a category/pattern, distinct from the two single-event festivals covered earlier this week"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Akhand Path (continuous scripture reading), Nagar Kirtan (procession), and Langar (community meal).",
+    "standardsRationale": "Directly addresses the course's 'major festivals' description, completing a three-festival survey before tomorrow's comparison."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-6-2-3",
+    "lessonId": "lesson-sikhi-6-2-3",
+    "title": "Gurpurabs: Celebrating the Gurus",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Gurpurabs.",
+      "rows": [
+        { "problem": "What is a Gurpurab?" },
+        { "problem": "Name the three typical elements of a Gurpurab celebration." }
+      ]
+    }
+  }
+}

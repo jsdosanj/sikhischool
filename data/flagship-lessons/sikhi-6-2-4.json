@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-6-2",
+    "courseId": "course-sikhi-6",
+    "order": 2,
+    "title": "Major Sikh Festivals",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-6-2-4",
+    "unitId": "unit-sikhi-6-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Comparing Three Festivals",
+    "gradeLevel": "6",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned about three festivals. Today: compare what they share and what makes each unique!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Vaisakhi celebrates the founding of the Khalsa. Bandi Chhor Divas celebrates freedom for many, not just one. Gurpurabs celebrate important dates connected to the Gurus throughout the year. All three usually involve community gathering and Langar, but each marks something different. Pick two of the three festivals and explain one thing they share and one thing that makes them different."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just compared three real Sikh festivals! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-6-2-4",
+    "lessonId": "lesson-sikhi-6-2-4",
+    "objectives": [
+      "Identify Langar and community gathering as shared elements across the three festivals",
+      "Compare two of the three festivals, naming one similarity and one difference"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's three festival lessons.\n2. Model a comparison between two festivals.\n3. Have the child pick their own two festivals and compare them.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: provide a simple 3-row chart (Festival, What It Celebrates, Shared Elements) already filled in as a reference",
+      "Ready for more: ask the child which of the three festivals they'd most like to learn more about, and why",
+      "This is the week's synthesis moment — connecting three individually-taught festivals into one comparative understanding"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended comparison activity — check that the child picks two real festivals and states a genuine, accurate similarity (community/Langar) and a genuine, accurate difference (what each specifically celebrates).",
+    "standardsRationale": "Directly addresses the course's 'major festivals' description, synthesizing this week's three-festival survey into one comparative understanding before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-6-2-4",
+    "lessonId": "lesson-sikhi-6-2-4",
+    "title": "Comparing Three Festivals",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Pick two of the three festivals and compare them.",
+      "prompts": [
+        { "prompt": "Which two festivals, and how are they similar/different?", "lines": 4 }
+      ]
+    }
+  }
+}

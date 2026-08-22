@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-3-2",
+    "courseId": "course-science-3",
+    "order": 2,
+    "title": "Life Cycles",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-3-2-3",
+    "unitId": "unit-science-3-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Inherited Traits",
+    "gradeLevel": "3",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned how life cycles work. Today: why do offspring often look like their parents?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A trait is a feature of a living thing, like fur color, flower color, or leaf shape. Some traits are inherited, meaning they're passed down from parents to offspring — a puppy often has fur colors similar to one or both of its parents, and sunflower seeds from a tall sunflower plant usually grow into tall sunflower plants too. But offspring aren't identical to their parents — there's natural variation. Name one inherited trait you might share with a family member, or a plant/animal trait you've noticed that seems passed down from a parent."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about inherited traits, passed from parents to offspring! Tomorrow we'll learn about traits that come from somewhere else: the environment."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-3-2-3",
+    "lessonId": "lesson-science-3-2-3",
+    "objectives": [
+      "Define a trait as a feature of a living thing",
+      "Explain that inherited traits pass from parent to offspring, with natural variation"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review this week's life-cycle work briefly.\n2. Introduce traits and inheritance using the puppy fur/sunflower height examples.\n3. Have the child name a real inherited trait from their own life or observation.\n4. Complete the worksheet.\n5. Preview tomorrow's environment-and-traits lesson.",
+    "differentiationTips": [
+      "Struggling: focus on the puppy example, the most concrete and relatable of the two",
+      "Ready for more: ask the child why two puppies from the same litter might still look a little different from each other",
+      "Keep this lesson focused on the simple inheritance concept — genetics mechanisms are a much later-grade topic, not needed here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended observation activity — check that the child names a genuine inherited trait (eye color, height tendency, a pet's fur pattern) and connects it to a parent.",
+    "standardsRationale": "Directly addresses NGSS Grade 3 Life Science standard 3-LS3-1: analyzing that offspring have traits similar to, but not exactly the same as, their parents."
+  },
+  "worksheet": {
+    "id": "worksheet-science-3-2-3",
+    "lessonId": "lesson-science-3-2-3",
+    "title": "Inherited Traits",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Name one inherited trait you've noticed, and where it came from.",
+      "prompts": [
+        { "prompt": "My trait example:", "lines": 3 }
+      ]
+    }
+  }
+}

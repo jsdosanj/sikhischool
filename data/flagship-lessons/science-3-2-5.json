@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-3-2",
+    "courseId": "course-science-3",
+    "order": 2,
+    "title": "Life Cycles",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-3-2-5",
+    "unitId": "unit-science-3-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Life Cycles",
+    "gradeLevel": "3",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you explored life cycles and traits. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a butterfly's life cycle has 4 stages — egg, larva, pupa, adult (Day 1). A frog and a plant have different-looking cycles, but all end in reproduction (Day 2). Inherited traits pass from parents to offspring (Day 3). Some traits come from the environment instead (Day 4). Sequence the butterfly's life cycle again, then name one inherited trait and one environment-influenced trait."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you explored life cycles and learned where traits come from! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-3-2-5",
+    "lessonId": "lesson-science-3-2-5",
+    "objectives": [
+      "Review life-cycle stages across organisms, and the distinction between inherited and environment-influenced traits",
+      "Correctly sequence the butterfly life cycle and give one example of each trait type"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child re-sequence the butterfly life cycle.\n3. Have the child name one inherited trait and one environment-influenced trait.\n4. Complete the review worksheet.\n5. Celebrate finishing a full week of life-cycles exploration!",
+    "differentiationTips": [
+      "Struggling: focus on just the life-cycle sequencing, the most concrete of the week's skills, before the trait-type distinction",
+      "Ready for more: ask the child to connect this week back to last week — could an environmental force (like a strong wind) affect how a plant's life cycle unfolds?",
+      "This is a good checkpoint to note which of the week's ideas (life cycles or trait types) needs the most reinforcement before moving on"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child correctly sequences egg-larva-pupa-adult and gives one genuine example each of an inherited trait and an environment-influenced trait.",
+    "standardsRationale": "Consolidates this week's NGSS Grade 3 Life Science standards (3-LS1-1, 3-LS3-1, 3-LS3-2) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-3-2-5",
+    "lessonId": "lesson-science-3-2-5",
+    "title": "Review: Life Cycles",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Put the butterfly life cycle in order: pupa, egg, adult, larva." },
+        { "problem": "Name one inherited trait." },
+        { "problem": "Name one environment-influenced trait." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-3-2",
+    "courseId": "course-science-3",
+    "order": 2,
+    "title": "Life Cycles",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-3-2-2",
+    "unitId": "unit-science-3-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Comparing Life Cycles: Frog and Plant",
+    "gradeLevel": "3",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned a butterfly's life cycle. Today, compare it to two very different life cycles!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A frog's life cycle also has dramatic stages: egg, tadpole (which lives in water and has gills), then a young frog, then an adult frog. A plant's life cycle looks different: seed, sprout (seedling), mature plant, then flowers that make new seeds. All three life cycles — butterfly, frog, and plant — share one thing in common: they all end with the organism able to make new offspring. What's one way the frog's life cycle is similar to the butterfly's, and one way it's different?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just compared three very different life cycles and found what they share! Tomorrow we'll learn about traits — what makes an organism look the way it does."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-3-2-2",
+    "lessonId": "lesson-science-3-2-2",
+    "objectives": [
+      "Describe the frog's life cycle (egg, tadpole, young frog, adult frog) and the plant's life cycle (seed, sprout, mature plant, seed)",
+      "Identify that all life cycles share the common feature of ending in reproduction"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review yesterday's butterfly life cycle.\n2. Introduce the frog's and plant's life cycles.\n3. Discuss one similarity and one difference between the frog's and butterfly's cycles.\n4. Complete the worksheet.\n5. Preview tomorrow's traits lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple 2-column chart (Butterfly vs. Frog) to organize the comparison rather than free-form discussion alone",
+      "Ready for more: ask the child to compare the plant's life cycle to either the butterfly's or the frog's",
+      "The 'all life cycles end in making new offspring' idea is the core generalizable concept — make sure it's explicit, not just implied by the examples"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Similarity: both go through a dramatic change in body form (metamorphosis) between young and adult stages. Difference: a tadpole lives in water and has gills, while a caterpillar lives on land.",
+    "standardsRationale": "Directly addresses NGSS Grade 3 Life Science standard 3-LS1-1, extending yesterday's model to compare multiple organisms' life cycles."
+  },
+  "worksheet": {
+    "id": "worksheet-science-3-2-2",
+    "lessonId": "lesson-science-3-2-2",
+    "title": "Comparing Life Cycles: Frog and Plant",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question comparing life cycles.",
+      "rows": [
+        { "problem": "Put the frog's life cycle in order: adult frog, tadpole, young frog, egg." },
+        { "problem": "Put the plant's life cycle in order: mature plant, seed, flowers/new seeds, sprout." },
+        { "problem": "What do all three life cycles (butterfly, frog, plant) have in common?" }
+      ]
+    }
+  }
+}

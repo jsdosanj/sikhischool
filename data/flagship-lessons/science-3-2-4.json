@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-3-2",
+    "courseId": "course-science-3",
+    "order": 2,
+    "title": "Life Cycles",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-3-2-4",
+    "unitId": "unit-science-3-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Traits from the Environment",
+    "gradeLevel": "3",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned about inherited traits. Today: some traits actually come from the environment, not from parents!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Not every trait is inherited — some come from the environment an organism grows up in. Two seeds from the very same plant can grow very differently: one planted in rich soil with lots of sunlight might grow tall and healthy, while the other planted in poor soil with little light might grow short. A puppy raised with plenty of food usually grows bigger than a littermate raised without enough food, even though they share the same parents. Explain in your own words why two seeds from the same plant might grow to different heights."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned that the environment can shape traits too, not just inheritance! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-3-2-4",
+    "lessonId": "lesson-science-3-2-4",
+    "objectives": [
+      "Distinguish an environment-influenced trait from an inherited trait",
+      "Explain how sunlight/soil/food availability can affect an organism's growth"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review yesterday's inherited-traits lesson.\n2. Introduce environment-influenced traits using the seed/soil and puppy/food examples.\n3. Have the child explain the different-height-seeds scenario in their own words.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: connect to a real memory — has the child ever seen two plants of the same type growing very differently?",
+      "Ready for more: ask the child to sort a list of traits (eye color, height from good nutrition, fur color, a scar from an injury) into inherited vs. environment-influenced",
+      "The seed/soil example is the clearest one for building genuine understanding of this distinction — spend extra time there"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Seeds: the height difference comes from the environment (soil quality, sunlight amount), not inheritance, since both seeds came from the same plant. Fur color: usually inherited. Puppy size in this example: from the environment (food availability), since the puppies share the same parents but different food.",
+    "standardsRationale": "Directly addresses NGSS Grade 3 Life Science standard 3-LS3-2: analyzing how the environment can affect an organism's traits, completing this week's traits pair before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-science-3-2-4",
+    "lessonId": "lesson-science-3-2-4",
+    "title": "Traits from the Environment",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about environment-influenced traits.",
+      "rows": [
+        { "problem": "Why might two seeds from the same plant grow to different heights?" },
+        { "problem": "Is fur color usually inherited, or from the environment?" },
+        { "problem": "Is a puppy's size (given enough or not enough food) inherited, or from the environment?" }
+      ]
+    }
+  }
+}

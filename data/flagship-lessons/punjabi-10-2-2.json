@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-10-2",
+    "courseId": "course-punjabi-10",
+    "order": 2,
+    "title": "Formal Writing: The Punjabi Essay (ਲੇਖ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-10-2-2",
+    "unitId": "unit-punjabi-10-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Three-Part Essay Structure",
+    "gradeLevel": "10",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you reviewed formal writing's register. Today: the ਲੇਖ (essay)'s three-part structure!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A formal ਲੇਖ has three parts: ਭੂਮਿਕਾ (introduction, introducing the topic), ਵਿਸ਼ਾ-ਵਸਤੂ (body, the main content and ideas), and ਸਿੱਟਾ (conclusion, summarizing and closing). Choose a simple topic you know well (a hobby, a favorite season, a place you enjoy), and write one sentence each for what your ਭੂਮਿਕਾ, ਵਿਸ਼ਾ-ਵਸਤੂ, and ਸਿੱਟਾ would say about it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just outlined a real three-part essay structure! Tomorrow we'll learn formal transition words to connect the parts smoothly."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-10-2-2",
+    "lessonId": "lesson-punjabi-10-2-2",
+    "objectives": [
+      "Name the three parts of a formal ਲੇਖ: ਭੂਮਿਕਾ, ਵਿਸ਼ਾ-ਵਸਤੂ, ਸਿੱਟਾ",
+      "Outline a simple topic across all three parts, one sentence each"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's formal-writing-register work briefly.\n2. Introduce the three-part essay structure.\n3. Have the child outline a simple topic across all three parts.\n4. Complete the worksheet.\n5. Preview tomorrow's transition-words lesson.",
+    "differentiationTips": [
+      "Struggling: model the outline with a very simple topic (my favorite food) as a class example before asking for an independent one",
+      "Ready for more: ask the child why an essay's ਸਿੱਟਾ shouldn't just repeat the ਭੂਮਿਕਾ word-for-word",
+      "This is a foundational structural skill directly reusable for any future formal Punjabi essay the student writes"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended outlining activity — check that the child provides one genuine sentence for each of the three parts, and that the ਭੂਮਿਕਾ introduces the topic, the ਵਿਸ਼ਾ-ਵਸਤੂ develops it with real content, and the ਸਿੱਟਾ closes it rather than simply repeating the introduction.",
+    "standardsRationale": "Directly addresses this course's formal-writing thread, teaching the standard three-part structure underlying formal essay composition."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-10-2-2",
+    "lessonId": "lesson-punjabi-10-2-2",
+    "title": "The Three-Part Essay Structure",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Outline your topic across the three essay parts.",
+      "prompts": [
+        { "prompt": "Your topic:", "lines": 1 },
+        { "prompt": "ਭੂਮਿਕਾ (introduction) sentence:", "lines": 1 },
+        { "prompt": "ਵਿਸ਼ਾ-ਵਸਤੂ (body) sentence:", "lines": 1 },
+        { "prompt": "ਸਿੱਟਾ (conclusion) sentence:", "lines": 1 }
+      ]
+    }
+  }
+}

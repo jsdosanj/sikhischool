@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-10-2",
+    "courseId": "course-punjabi-10",
+    "order": 2,
+    "title": "Formal Writing: The Punjabi Essay (ਲੇਖ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-10-2-3",
+    "unitId": "unit-punjabi-10-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Formal Transition Words",
+    "gradeLevel": "10",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've outlined an essay's three parts. Today: words that connect them smoothly!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Formal transition words help an essay flow smoothly between ideas: ਇਸ ਤੋਂ ਇਲਾਵਾ means 'furthermore' or 'in addition,' used to add a new point, and ਅੰਤ ਵਿੱਚ means 'in conclusion' or 'finally,' used to signal the closing ਸਿੱਟਾ. Using yesterday's three-sentence outline, add ਇਸ ਤੋਂ ਇਲਾਵਾ before your ਵਿਸ਼ਾ-ਵਸਤੂ sentence (if you add a second point) and ਅੰਤ ਵਿੱਚ before your ਸਿੱਟਾ sentence, and rewrite the connected version."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used real formal transition words! Tomorrow we'll write a complete formal essay."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-10-2-3",
+    "lessonId": "lesson-punjabi-10-2-3",
+    "objectives": [
+      "Understand ਇਸ ਤੋਂ ਇਲਾਵਾ (furthermore) and ਅੰਤ ਵਿੱਚ (in conclusion)",
+      "Correctly add both transition words to yesterday's three-sentence outline"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's three-part outline briefly.\n2. Introduce ਇਸ ਤੋਂ ਇਲਾਵਾ and ਅੰਤ ਵਿੱਚ.\n3. Have the child add both transitions to their outline and rewrite it.\n4. Complete the worksheet.\n5. Preview tomorrow's complete-essay lesson.",
+    "differentiationTips": [
+      "Struggling: model adding just ਅੰਤ ਵਿੱਚ to a simple example sentence first before asking for both transitions",
+      "Ready for more: ask the child to think of one more Punjabi transition word they may already know from reading, and how it would be used",
+      "These transition words are directly reusable for tomorrow's complete essay, not just an isolated grammar drill"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child correctly places ਇਸ ਤੋਂ ਇਲਾਵਾ before an added point and ਅੰਤ ਵਿੱਚ directly before their ਸਿੱਟਾ sentence.",
+    "standardsRationale": "Directly addresses this course's formal-writing thread, teaching transition words that make a formal essay flow, continuing this week's structure lesson."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-10-2-3",
+    "lessonId": "lesson-punjabi-10-2-3",
+    "title": "Formal Transition Words",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Rewrite your outline using formal transition words.",
+      "prompts": [
+        { "prompt": "Your connected version, using ਇਸ ਤੋਂ ਇਲਾਵਾ and ਅੰਤ ਵਿੱਚ:", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-10-2",
+    "courseId": "course-punjabi-10",
+    "order": 2,
+    "title": "Formal Writing: The Punjabi Essay (ਲੇਖ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-10-2-4",
+    "unitId": "unit-punjabi-10-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing a Complete Formal Essay",
+    "gradeLevel": "10",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've built every piece of a formal essay. Today: put it all together!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Combine everything from this week: your ਭੂਮਿਕਾ, ਵਿਸ਼ਾ-ਵਸਤੂ, and ਸਿੱਟਾ sentences from Day 2, connected with ਇਸ ਤੋਂ ਇਲਾਵਾ and ਅੰਤ ਵਿੱਚ from Day 3. Expand each of your three sentences into a full sentence or two, and write your complete formal ਲੇਖ on your chosen topic, using a clear ਸਿਰਲੇਖ (title) at the top."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just wrote a complete formal Punjabi essay! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-10-2-4",
+    "lessonId": "lesson-punjabi-10-2-4",
+    "objectives": [
+      "Combine this week's structure and transition-word skills into one complete formal essay",
+      "Write a complete ਲੇਖ with a title, expanding on Days 1-3's outline"
+    ],
+    "materialsNeeded": ["Days 1-3 worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's structure and transition-word work together.\n2. Have the child expand each outline sentence into a fuller sentence or two.\n3. Have the child write the complete essay with a ਸਿਰਲੇਖ (title).\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: it's fine if each part is just one expanded sentence — focus on completing all three connected parts rather than length",
+      "Ready for more: ask the child to add one additional supporting detail to their ਵਿਸ਼ਾ-ਵਸਤੂ section",
+      "This is the week's synthesis moment — writing a genuinely complete, connected formal essay is the important skill here, not just having the separate pieces"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended composition activity — check that the essay includes a title, all three structural parts (ਭੂਮਿਕਾ, ਵਿਸ਼ਾ-ਵਸਤੂ, ਸਿੱਟਾ), and correctly uses at least one of this week's transition words.",
+    "standardsRationale": "Directly addresses this course's formal-writing thread, completing this week's essay-writing sequence before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-10-2-4",
+    "lessonId": "lesson-punjabi-10-2-4",
+    "title": "Writing a Complete Formal Essay",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your complete formal essay with a title.",
+      "prompts": [
+        { "prompt": "ਸਿਰਲੇਖ (title):", "lines": 1 },
+        { "prompt": "Your complete essay:", "lines": 5 }
+      ]
+    }
+  }
+}

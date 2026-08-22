@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-8-2",
+    "courseId": "course-sikhi-8",
+    "order": 2,
+    "title": "Representation",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-8-2-3",
+    "unitId": "unit-sikhi-8-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "The Power of Accurate Representation",
+    "gradeLevel": "8",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about representation gaps. Today: what happens when representation gets it right!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "When Sikh identity is shown accurately, whether that's a news story correctly explaining why someone wears a turban, a textbook accurately mentioning Sikhi alongside other world religions, or a public figure openly sharing their Sikh identity, it helps close both problems from this week at once: it fills a representation gap and it's accurate rather than biased. Accurate representation also tends to build on itself over time, since each accurate example makes the next one more likely and more normal. Explain why accurate representation might get easier over time instead of staying equally hard forever."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned why accurate representation builds on itself over time! Tomorrow we'll see how you can be part of that."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-8-2-3",
+    "lessonId": "lesson-sikhi-8-2-3",
+    "objectives": [
+      "Understand that accurate representation addresses both gaps and bias at once",
+      "Explain why accurate representation tends to build on itself over time"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's gap-vs-bias distinction briefly.\n2. Introduce how accurate representation addresses both problems and builds momentum over time.\n3. Have the child explain why it gets easier over time.\n4. Complete the worksheet.\n5. Preview tomorrow's how-you-can-help lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple snowball analogy — each accurate example makes the next one a little more expected and normal, like a snowball picking up more snow as it rolls",
+      "Ready for more: ask the child to name one general category of public representation (news, textbooks, entertainment) where they think accurate Sikh representation matters most, and why",
+      "Kept general, no specific unverifiable public figures or media examples named, matching this course's accuracy discipline throughout"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Accurate representation builds on itself because each accurate example makes people more familiar with the correct information, so the next accurate portrayal seems less unusual and more expected — over time, this familiarity can make stereotypes and gaps less common, rather than the effort needed staying constant.",
+    "standardsRationale": "Directly addresses the course's representation thread from its own description, showing a constructive, empowering angle before tomorrow's personal-action lesson."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-8-2-3",
+    "lessonId": "lesson-sikhi-8-2-3",
+    "title": "The Power of Accurate Representation",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the power of accurate representation.",
+      "rows": [
+        { "problem": "Name one place accurate representation could appear (news, textbooks, entertainment, etc.)." },
+        { "problem": "Why does accurate representation tend to build on itself over time?" }
+      ]
+    }
+  }
+}

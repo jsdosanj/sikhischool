@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-8-2",
+    "courseId": "course-sikhi-8",
+    "order": 2,
+    "title": "Representation",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-8-2-2",
+    "unitId": "unit-sikhi-8-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Representation Gaps Sikhs Sometimes Face",
+    "gradeLevel": "8",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what representation means. Today: real gaps in how Sikhs are sometimes represented!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Sikhs are a relatively small global community, so Sikh characters, history, and identity sometimes simply don't appear in mainstream textbooks, movies, or news coverage at all — this is called a representation gap, distinct from bias (which is being represented inaccurately). Being left out entirely can be its own kind of problem, separate from last week's bias lesson: a gap means people never even get the chance to learn accurate information in the first place. Explain in your own words the difference between a representation gap (being left out) and bias (being included but inaccurately)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the difference between a representation gap and bias! Tomorrow we'll see the real power of accurate representation."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-8-2-2",
+    "lessonId": "lesson-sikhi-8-2-2",
+    "objectives": [
+      "Understand a representation gap as being left out, distinct from bias (being included but inaccurately)",
+      "Explain the difference between the two in the child's own words"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's representation-definition work briefly.\n2. Introduce representation gaps and contrast them with last week's bias lesson.\n3. Have the child explain the difference in their own words.\n4. Complete the worksheet.\n5. Preview tomorrow's power-of-representation lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — bias is like a photo of you that's blurry or wrong, a gap is like there being no photo of you at all",
+      "Ready for more: ask the child which problem (gap or bias) they think might be harder to fix, and why",
+      "Kept general and educational, no unverifiable specific incidents/statistics cited, matching this course's own established, empowering tone from week 1"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A representation gap means a group is left out entirely — never shown or mentioned at all — while bias means a group IS included but shown inaccurately or through a stereotype; a gap is a problem of absence, bias is a problem of accuracy.",
+    "standardsRationale": "Directly addresses the course's representation thread from its own description, distinguishing a genuinely different concept from last week's bias lesson rather than repeating it."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-8-2-2",
+    "lessonId": "lesson-sikhi-8-2-2",
+    "title": "Representation Gaps Sikhs Sometimes Face",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain the difference between a representation gap and bias.",
+      "prompts": [
+        { "prompt": "What is a representation gap?", "lines": 2 },
+        { "prompt": "How is it different from bias (last week's topic)?", "lines": 2 }
+      ]
+    }
+  }
+}

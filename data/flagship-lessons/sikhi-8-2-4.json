@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-8-2",
+    "courseId": "course-sikhi-8",
+    "order": 2,
+    "title": "Representation",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-8-2-4",
+    "unitId": "unit-sikhi-8-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "How You Can Help",
+    "gradeLevel": "8",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned about representation gaps and their power when done right. Today: your own real part in it!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "There are real, everyday ways a student can help improve representation, connecting directly back to last week's civic-engagement lesson: writing an accurate short description of Sikh identity for a school project, politely and confidently correcting a classmate's honest misconception (the same confident-explaining skill from last week), or recommending an accurate book or resource to a teacher or librarian. Write a short plan for one specific, realistic way you could help improve representation at your own school."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just made your own real plan to help improve representation! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-8-2-4",
+    "lessonId": "lesson-sikhi-8-2-4",
+    "objectives": [
+      "Identify realistic, everyday ways a student can help improve representation",
+      "Write a specific personal plan connected to the child's own school"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's representation-gap and power-of-representation lessons.\n2. Introduce realistic student-level ways to help, connecting back to last week's confident-explaining and civic-engagement skills.\n3. Have the child write their own specific, realistic plan.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: offer the three example actions from the lesson as a menu to choose from rather than requiring an original idea",
+      "Ready for more: ask the child to think of one way an entire class, not just one student, could help improve representation together",
+      "This is the week's synthesis and empowerment moment — connecting representation directly to last week's civic-engagement content is the genuinely important thread here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child's plan is specific and realistic (a real project, conversation, or recommendation they could actually attempt), not vague or generic.",
+    "standardsRationale": "Directly addresses the course's civic-engagement and representation threads together, closing this week's thread with a genuine student-empowerment action before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-8-2-4",
+    "lessonId": "lesson-sikhi-8-2-4",
+    "title": "How You Can Help",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your specific plan to help improve representation at your school.",
+      "prompts": [
+        { "prompt": "Your specific, realistic plan:", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-8-2",
+    "courseId": "course-sikhi-8",
+    "order": 2,
+    "title": "Representation",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-8-2-5",
+    "unitId": "unit-sikhi-8-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Representation",
+    "gradeLevel": "8",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about representation, gaps, and your own real power to help. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: representation means seeing your identity accurately reflected in the world (Day 1). A representation gap is being left out entirely, different from bias, which is being included but inaccurately (Day 2). Accurate representation fills gaps, fights bias, and builds on itself over time (Day 3). You made a real plan to help improve representation at your own school (Day 4). Write a short paragraph connecting all three weeks-long threads of this course together: bias, representation, and civic engagement."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — and across both weeks, you've explored bias, representation, and civic engagement together! Next week we'll build on all of this with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-8-2-5",
+    "lessonId": "lesson-sikhi-8-2-5",
+    "objectives": [
+      "Review representation, representation gaps, the power of accurate representation, and personal action",
+      "Connect bias, representation, and civic engagement into one coherent understanding"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child write their short connecting paragraph across both weeks' full course thread.\n3. Complete the review worksheet.\n4. Celebrate finishing a full two-week exploration of contemporary Sikh issues!",
+    "differentiationTips": [
+      "Struggling: focus on connecting just two of the three threads (e.g. representation and civic engagement) rather than requiring all three",
+      "Ready for more: ask the child which of the three threads (bias, representation, civic engagement) they think matters most for their own life right now, and why",
+      "This is a genuine two-week course-level checkpoint, not just a single-week review — worth noting which of the three threads needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended synthesis activity — check that the paragraph genuinely connects at least two of the three threads (e.g. accurate representation reduces bias, and confidently explaining your identity is itself a form of civic engagement), not just three separate, disconnected definitions.",
+    "standardsRationale": "Consolidates this week's representation thread and the course's full two-week bias/representation/civic-engagement description before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-8-2-5",
+    "lessonId": "lesson-sikhi-8-2-5",
+    "title": "Review: Representation",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Connect this course's three threads: bias, representation, and civic engagement.",
+      "prompts": [
+        { "prompt": "How do bias, representation, and civic engagement connect to each other?", "lines": 3 }
+      ]
+    }
+  }
+}

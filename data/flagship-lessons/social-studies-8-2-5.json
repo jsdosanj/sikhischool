@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-8-2",
+    "courseId": "course-social-studies-8",
+    "order": 2,
+    "title": "The Early Republic",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-8-2-5",
+    "unitId": "unit-social-studies-8-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: The Early Republic",
+    "gradeLevel": "8",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you followed the young nation from its first president through its first war. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Washington set lasting precedents even beyond what the Constitution required (Day 1). The Federalists and Democratic-Republicans disagreed over how strong the federal government should be (Day 2). The Louisiana Purchase doubled the nation's size peacefully (Day 3). The War of 1812 tested and strengthened the young nation's identity (Day 4). Write a short paragraph explaining how these four events, taken together, show the United States growing and defining itself in its earliest years."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you traced the early republic's growth from its first president to its first war! Next week we'll continue this story."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-8-2-5",
+    "lessonId": "lesson-social-studies-8-2-5",
+    "objectives": [
+      "Review Washington's precedents, the first political parties, the Louisiana Purchase, and the War of 1812",
+      "Write a short paragraph connecting all four events into one growth-and-identity narrative"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child write their short connecting paragraph.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of early-republic history!",
+    "differentiationTips": [
+      "Struggling: focus on just two of the four events the child remembers best rather than requiring all four in the paragraph",
+      "Ready for more: ask the child to predict what kind of new challenge a growing, more confident nation might face next",
+      "This is a good checkpoint to note which of the week's four early-republic events needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended synthesis activity — check that the paragraph connects at least two or three of the week's events into a coherent narrative of a young nation establishing its government, defining its politics, growing its territory, and proving it could defend itself.",
+    "standardsRationale": "Consolidates this week's WA Social Studies and C3 Framework History/Civics standards on the early republic before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-8-2-5",
+    "lessonId": "lesson-social-studies-8-2-5",
+    "title": "Review: The Early Republic",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer to review this week's early-republic events.",
+      "prompts": [
+        { "prompt": "How do this week's four events show the nation growing and defining itself?", "lines": 3 }
+      ]
+    }
+  }
+}

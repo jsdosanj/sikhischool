@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-8-2",
+    "courseId": "course-social-studies-8",
+    "order": 2,
+    "title": "The Early Republic",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-8-2-4",
+    "unitId": "unit-social-studies-8-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "The War of 1812",
+    "gradeLevel": "8",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "The young nation just doubled in size. Today: the war that tested whether it could actually defend itself!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The War of 1812 was fought between the United States and Great Britain, driven largely by American anger over British interference with US trade and shipping. Though the war itself ended in a stalemate with no major territory changing hands, it's sometimes called the 'second war of independence' because it proved the young United States could stand up to a major European power, which strengthened a shared sense of national identity and pride. Explain why a war that ended in a stalemate could still be seen as an important moment for the young nation."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how the War of 1812 strengthened the young nation's identity! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-8-2-4",
+    "lessonId": "lesson-social-studies-8-2-4",
+    "objectives": [
+      "State the basic cause and outcome of the War of 1812",
+      "Explain why the war strengthened national identity despite ending in a stalemate"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's Washington, political-parties, and Louisiana Purchase work.\n2. Introduce the War of 1812's cause and outcome.\n3. Have the child explain why a stalemate could still matter for national identity.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: connect it to a simple idea the child already knows — standing up for yourself against someone bigger can matter even if you don't 'win' outright",
+      "Ready for more: ask the child how this event connects to the neutrality precedent Washington set earlier this week",
+      "This is the week's synthesis moment — a good chance to connect back across the whole week's chronological thread"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Even though the war ended in a stalemate with no major territory gained or lost, successfully standing up to a major European power proved the young United States could defend itself and wasn't going to be pushed around — this built genuine national pride and a stronger shared sense of American identity, which is why it's remembered as important despite the military outcome.",
+    "standardsRationale": "Directly addresses WA Social Studies and C3 Framework History standards on the early republic's development, completing this week's chronological thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-8-2-4",
+    "lessonId": "lesson-social-studies-8-2-4",
+    "title": "The War of 1812",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the War of 1812.",
+      "rows": [
+        { "problem": "Who fought in the War of 1812?" },
+        { "problem": "Why is it sometimes called the 'second war of independence'?" }
+      ]
+    }
+  }
+}

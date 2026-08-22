@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-9-2",
+    "courseId": "course-science-9",
+    "order": 2,
+    "title": "Evolution by Natural Selection",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-9-2-3",
+    "unitId": "unit-science-9-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "A Real Example: The Peppered Moth",
+    "gradeLevel": "9",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned the four requirements of natural selection. Today: a real, well-documented example!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The peppered moth is a classic, well-documented example of natural selection observed within a human lifetime. Before industrial pollution darkened tree bark in parts of England, light-colored peppered moths were well camouflaged against light, lichen-covered trees, while darker moths stood out to predators. As pollution darkened the tree bark, the camouflage advantage flipped: darker moths became better camouflaged and light moths became easier for birds to spot, so the population's proportion of dark-colored moths increased significantly over just a few decades. Walk through this example using all four requirements of natural selection from yesterday's lesson: identify the variation, the inheritance, the overproduction, and the differential survival."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just applied all four requirements of natural selection to a real example! Tomorrow we'll look at the evidence for evolution more broadly."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-9-2-3",
+    "lessonId": "lesson-science-9-2-3",
+    "objectives": [
+      "Understand the peppered moth as a real, documented example of natural selection",
+      "Identify all four requirements of natural selection within this example"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's four requirements of natural selection briefly.\n2. Introduce the peppered moth example and its pollution/camouflage connection.\n3. Have the child identify all four requirements within the example.\n4. Complete the worksheet.\n5. Preview tomorrow's broader-evidence lesson.",
+    "differentiationTips": [
+      "Struggling: walk through just one requirement at a time (start with variation — light vs. dark moths already existed) before asking for all four together",
+      "Ready for more: ask the child to predict what would happen to the moth population if pollution controls later cleaned the tree bark back to its original light color",
+      "This is a real, well-documented case study, not a hypothetical — worth emphasizing that natural selection can be observed happening within a human lifetime, not only over geologic time"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Variation: both light and dark moths already existed in the population. Inheritance: moth coloring is passed from parents to offspring. Overproduction: more moths were born than could survive predator attacks. Differential survival: as pollution darkened tree bark, dark moths were better camouflaged and survived/reproduced more successfully than light moths, shifting the population's proportions over time.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-10 standard HS-LS4-2, applying natural selection's mechanism to a real, well-documented historical example."
+  },
+  "worksheet": {
+    "id": "worksheet-science-9-2-3",
+    "lessonId": "lesson-science-9-2-3",
+    "title": "A Real Example: The Peppered Moth",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Identify each requirement of natural selection in the peppered moth example.",
+      "prompts": [
+        { "prompt": "Variation:", "lines": 1 },
+        { "prompt": "Inheritance:", "lines": 1 },
+        { "prompt": "Overproduction:", "lines": 1 },
+        { "prompt": "Differential survival:", "lines": 1 }
+      ]
+    }
+  }
+}

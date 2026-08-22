@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-10-2",
+    "courseId": "course-social-studies-10",
+    "order": 2,
+    "title": "The Legacies of Colonialism",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-10-2-2",
+    "unitId": "unit-social-studies-10-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Challenge of Colonial-Era Borders",
+    "gradeLevel": "10",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned about independence movements. Today: a specific, widespread challenge many newly independent nations faced!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Colonial powers often drew territorial borders based on their own administrative convenience, without much regard for the existing ethnic, cultural, linguistic, or religious lines within the local population. This general pattern created real challenges after independence in many parts of the world, since newly independent nations sometimes inherited borders that grouped very different communities together or split closely related communities apart. Explain why a border drawn without regard to a region's actual cultural and religious geography could create genuine, lasting difficulties for a newly independent nation."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about a real, widespread post-colonial challenge! Tomorrow we'll look at colonialism's economic legacies."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-10-2-2",
+    "lessonId": "lesson-social-studies-10-2-2",
+    "objectives": [
+      "Understand that colonial-era borders often ignored existing ethnic/cultural/religious geography",
+      "Explain why this general pattern created lasting post-independence challenges in many regions"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's independence-movements work briefly.\n2. Introduce the colonial-borders challenge as a general worldwide pattern.\n3. Have the child explain why mismatched borders create lasting difficulties.\n4. Complete the worksheet.\n5. Preview tomorrow's economic-legacies lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — imagine a new school district line drawn straight through the middle of a close-knit neighborhood, splitting friends and families onto different sides without anyone being asked",
+      "Ready for more: ask the child why colonial administrators might have found it more convenient to draw simple straight-line borders rather than borders that carefully followed existing community boundaries",
+      "This lesson is deliberately kept at the general, worldwide-pattern level — a future dedicated unit will study the 1947 partition of India and Pakistan as one specific, historically significant case of exactly this pattern, treated with the depth and care it deserves"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A mismatched border can group communities with very different languages, religions, or traditions into one governing system that has to somehow represent everyone fairly, or it can split a single closely-connected community across two different countries — either situation can create real tension, unequal representation, or conflict that persists for generations after independence, since the underlying mismatch between the political border and the actual human geography doesn't disappear on its own.",
+    "standardsRationale": "Directly addresses WA Social Studies and C3 Framework Geography/History standards on colonial legacies, kept at a general worldwide level, explicitly deferring the specific 1947 India-Pakistan partition to a future, dedicated, more carefully sourced unit."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-10-2-2",
+    "lessonId": "lesson-social-studies-10-2-2",
+    "title": "The Challenge of Colonial-Era Borders",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about colonial-era borders.",
+      "prompts": [
+        { "prompt": "How did colonial powers often decide where to draw borders?", "lines": 2 },
+        { "prompt": "Why could this create lasting difficulties for a newly independent nation?", "lines": 2 }
+      ]
+    }
+  }
+}

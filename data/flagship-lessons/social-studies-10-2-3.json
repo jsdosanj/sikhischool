@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-10-2",
+    "courseId": "course-social-studies-10",
+    "order": 2,
+    "title": "The Legacies of Colonialism",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-10-2-3",
+    "unitId": "unit-social-studies-10-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Economic Legacies",
+    "gradeLevel": "10",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about borders. Today: colonialism's economic legacies that lasted well past independence!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Colonial economies were often deliberately structured to export raw materials (like cotton, minerals, or crops) to the colonizing country rather than to develop diverse local industries, and this pattern of trade and resource dependency frequently continued for decades after formal independence, since it takes real time and investment to build new economic structures. Explain why an economy built primarily around exporting a small number of raw materials might be more vulnerable than one with a wider variety of industries."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about colonialism's economic legacies! Tomorrow we'll look at its cultural legacies."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-10-2-3",
+    "lessonId": "lesson-social-studies-10-2-3",
+    "objectives": [
+      "Understand colonial-era raw-material export economies and their lasting effect after independence",
+      "Explain why a narrow, raw-material-focused economy is more economically vulnerable"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's independence-movements and colonial-borders work.\n2. Introduce raw-material export economies and their lasting post-independence effects.\n3. Have the child explain the vulnerability of a narrow economy.\n4. Complete the worksheet.\n5. Preview tomorrow's cultural-legacies lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — a family that only earns money from one job is more vulnerable to a single setback than a family with several income sources",
+      "Ready for more: ask the child what kinds of new investment (infrastructure, education, local industry) a newly independent nation might need to diversify its economy",
+      "This is real, well-documented economic history — kept at a general pattern level applicable across many former colonies, not a specific region's detailed case study"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A narrow economy built around a small number of raw materials is more vulnerable because it depends heavily on the global price and demand for just those few goods — if the price drops or demand shifts, the whole economy suffers with no other industries to fall back on, while a more diverse economy can absorb a downturn in one area with strength in others.",
+    "standardsRationale": "Directly addresses WA Social Studies and C3 Framework Economics dimension standards on colonial economic legacies, continuing this week's general, worldwide-level treatment."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-10-2-3",
+    "lessonId": "lesson-social-studies-10-2-3",
+    "title": "Economic Legacies",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about colonialism's economic legacies.",
+      "prompts": [
+        { "prompt": "How were many colonial economies structured?", "lines": 2 },
+        { "prompt": "Why is a narrow, raw-material-focused economy more vulnerable?", "lines": 2 }
+      ]
+    }
+  }
+}

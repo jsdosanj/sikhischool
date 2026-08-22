@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-6-2",
+    "courseId": "course-science-6",
+    "order": 2,
+    "title": "Body Systems",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-6-2-4",
+    "unitId": "unit-science-6-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Three Systems Working Together",
+    "gradeLevel": "6",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've explored three body systems separately. Today: see all three working together for one goal!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Getting energy to a single body cell actually requires all three systems working together: the digestive system breaks down food into nutrients, the respiratory system brings in oxygen, and the circulatory system delivers both the nutrients and oxygen to every cell in the body, where the cell can finally use them for energy. Draw or describe this full process, from eating food to a cell actually using energy, showing all three systems' roles."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just traced how three body systems work together for one shared goal! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-6-2-4",
+    "lessonId": "lesson-science-6-2-4",
+    "objectives": [
+      "Explain how the digestive, respiratory, and circulatory systems work together to power a single cell",
+      "Trace the full process from eating food to cellular energy use"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's three individual systems.\n2. Model the full 3-system process together.\n3. Have the child draw or describe the complete process independently.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: use arrows connecting each system in sequence (digestion → circulation → respiration → circulation → cell) as a visual scaffold",
+      "Ready for more: ask the child what would happen to this whole process if just one of the three systems failed",
+      "This is the week's synthesis moment — genuinely connecting all three systems into one shared-goal process, not just listing them separately"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a synthesis activity — check that the child correctly traces: digestion breaks down food into nutrients → respiration brings in oxygen → circulation delivers both to a cell → the cell uses them for energy.",
+    "standardsRationale": "Directly addresses NGSS Grade 6-8 Life Science standard MS-LS1-3: organisms as systems of interacting subsystems, completing this week's body-systems thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-science-6-2-4",
+    "lessonId": "lesson-science-6-2-4",
+    "title": "Three Systems Working Together",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe how digestion, respiration, and circulation work together to power a body cell.",
+      "prompts": [
+        { "prompt": "My description:", "lines": 5 }
+      ]
+    }
+  }
+}

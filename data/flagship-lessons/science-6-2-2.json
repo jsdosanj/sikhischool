@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-6-2",
+    "courseId": "course-science-6",
+    "order": 2,
+    "title": "Body Systems",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-6-2-2",
+    "unitId": "unit-science-6-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Circulatory System",
+    "gradeLevel": "6",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned about digestion. Today: how those nutrients travel around your whole body!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The circulatory system transports nutrients, oxygen, and other materials throughout the body using the heart (a pump), blood vessels (the transport routes), and blood (the carrier). The heart pumps blood through blood vessels to every cell in the body. Explain why the nutrients absorbed by the digestive system yesterday would be useless without a circulatory system to actually deliver them to cells."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how the circulatory system delivers what digestion absorbs! Tomorrow we'll learn about the respiratory system and its close connection to circulation."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-6-2-2",
+    "lessonId": "lesson-science-6-2-2",
+    "objectives": [
+      "Name the circulatory system's main parts: heart, blood vessels, and blood",
+      "Explain the connection between digestion's absorption and circulation's delivery"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's digestive-system work.\n2. Introduce the heart, blood vessels, and blood.\n3. Discuss the digestion-to-circulation connection.\n4. Complete the worksheet.\n5. Preview tomorrow's respiratory-system lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple pump-and-pipes analogy (heart = pump, blood vessels = pipes, blood = water) to make the system concrete",
+      "Ready for more: ask the child to trace a nutrient's journey from the mouth all the way to a body cell, using both days' content",
+      "This lesson deliberately builds the explicit systems-interacting-together idea this week is building toward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an explanation activity — check that the child correctly connects digestion's absorbed nutrients to circulation's job of actually delivering them throughout the body — without circulation, absorbed nutrients would just stay in the intestines.",
+    "standardsRationale": "Directly addresses NGSS Grade 6-8 Life Science standard MS-LS1-3, continuing this week's body-systems thread with a second interacting system."
+  },
+  "worksheet": {
+    "id": "worksheet-science-6-2-2",
+    "lessonId": "lesson-science-6-2-2",
+    "title": "The Circulatory System",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the circulatory system.",
+      "rows": [
+        { "problem": "What organ pumps blood through the body?" },
+        { "problem": "What carries nutrients and oxygen through the blood vessels?" }
+      ]
+    }
+  }
+}

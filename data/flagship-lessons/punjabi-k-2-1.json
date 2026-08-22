@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-k-2",
+    "courseId": "course-punjabi-k",
+    "order": 2,
+    "title": "More Letters of the Gurmukhi Alphabet",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-k-2-1",
+    "unitId": "unit-punjabi-k-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Finishing a Row: ਛ, ਜ, and ਝ",
+    "gradeLevel": "K",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You learned eleven letters last week, ending with ਚ (chachha)! Today we finish that same row with three more letters: ਛ (chhachha), ਜ (jajja), and ਝ (jhajha)."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਛ (chhachha) makes a breathier 'chh' sound than ਚ, pushed out with more air. ਜ (jajja) makes a 'j' sound, like in 'jam'. ਝ (jhajha) makes a breathier 'jh' sound, related to ਜ the same way ਛ is related to ਚ. Practice saying all four letters from this row together: cha... chha... ja... jha. Notice the pattern — every other letter is the 'breathier' version of the one before it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know fourteen letters! This week we'll keep moving through new rows of the Gurmukhi alphabet."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-k-2-1",
+    "lessonId": "lesson-punjabi-k-2-1",
+    "objectives": [
+      "Recognize and name the letters ਛ (chhachha), ਜ (jajja), and ਝ (jhajha)",
+      "Notice the breathy/non-breathy pairing pattern between ਚ/ਛ and ਜ/ਝ"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review last week's eleven letters, ending with ਚ.\n2. Introduce ਛ, ਜ, ਝ one at a time, saying each name aloud together three times.\n3. Practice the sound pattern: cha...chha...ja...jha, noticing the breathy pairing.\n4. Trace each letter in the air before picking up a pencil.\n5. Move to the worksheet: trace each letter, then write it once more.\n6. Close by counting all fourteen letters learned so far.",
+    "differentiationTips": [
+      "Struggling: focus on ਜ (the clearest, most distinct sound) before adding ਛ and ਝ's breathier pairs",
+      "Ready for more: ask the child to identify which earlier letter (from last week) ਛ sounds most similar to, and why",
+      "This lesson deliberately skips ਞ (the row's fifth letter) — it did not pass this platform's Gurmukhi word-validation check, so it's held back rather than risked"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and recognition activity — check that each traced letter roughly matches the shape shown.",
+    "standardsRationale": "ਛ, ਜ, ਝ complete the row begun with ਚ last week, continuing the systematic Painti Akhari sequence. Every letter was validated against gurmukhifix's Lexicon before writing."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-k-2-1",
+    "lessonId": "lesson-punjabi-k-2-1",
+    "title": "Finishing a Row: ਛ, ਜ, ਝ",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its name out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਛ", "label": "Chhachha — a breathier 'chh' sound" },
+        { "trace": "ਜ", "label": "Jajja — makes a 'j' sound, like in 'jam'" },
+        { "trace": "ਝ", "label": "Jhajha — a breathier 'jh' sound" }
+      ]
+    }
+  }
+}

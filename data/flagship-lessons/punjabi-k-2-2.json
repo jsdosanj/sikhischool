@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-k-2",
+    "courseId": "course-punjabi-k",
+    "order": 2,
+    "title": "More Letters of the Gurmukhi Alphabet",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-k-2-2",
+    "unitId": "unit-punjabi-k-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "A New Kind of Sound: ਟ and ਠ",
+    "gradeLevel": "K",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know fourteen letters now! Today we start a brand-new row with a sound you make in a new way: curling your tongue back. Meet ਟ (tainka) and ਠ (thattha)."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਟ (tainka) and ਠ (thattha) are made by curling the tip of your tongue back and touching the roof of your mouth — try it and feel how different that is from other sounds you've learned! ਠ is the breathier version of ਟ, the same pairing pattern as ਚ/ਛ and ਜ/ਝ from before. Practice saying ta... tha, feeling your tongue curl back each time."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know sixteen letters, and you've felt a whole new way of making a sound with your tongue! Tomorrow we'll add three more letters from this same row."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-k-2-2",
+    "lessonId": "lesson-punjabi-k-2-2",
+    "objectives": [
+      "Recognize and name the letters ਟ (tainka) and ਠ (thattha)",
+      "Physically notice the tongue-curling ('retroflex') articulation that distinguishes this row"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review the fourteen letters learned so far.\n2. Introduce ਟ and ਠ, having the child physically feel their tongue curl back while saying each sound.\n3. Practice ta...tha together, emphasizing the tongue-curl.\n4. Trace each letter in the air before picking up a pencil.\n5. Move to the worksheet: trace each letter, then write it once more.\n6. Close by counting all sixteen letters learned so far.",
+    "differentiationTips": [
+      "Struggling: have the child place a finger near (not in) their mouth to physically notice the tongue-curl difference from earlier sounds",
+      "Ready for more: ask the child to compare this new tongue-curl sound to the more familiar ਤ-like sound they may already know from spoken Punjabi",
+      "This is the first genuinely new articulation point introduced — worth extra repetition before moving on"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a tracing and recognition activity — check that each traced letter roughly matches the shape shown.",
+    "standardsRationale": "ਟ, ਠ begin a new consonant row (the retroflex series) in the Painti Akhari sequence, introducing a genuinely new articulation point after two rows of more familiar sounds. Every letter was validated against gurmukhifix's Lexicon before writing."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-k-2-2",
+    "lessonId": "lesson-punjabi-k-2-2",
+    "title": "A New Kind of Sound: ਟ, ਠ",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each letter, say its name out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "ਟ", "label": "Tainka — made with your tongue curled back" },
+        { "trace": "ਠ", "label": "Thattha — the breathier version of ਟ" }
+      ]
+    }
+  }
+}

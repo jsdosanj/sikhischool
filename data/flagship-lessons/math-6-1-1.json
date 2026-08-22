@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-6-1",
+    "courseId": "course-math-6",
+    "order": 1,
+    "title": "Ratios and Rates",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-6-1-1",
+    "unitId": "unit-math-6-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Understanding Ratios",
+    "gradeLevel": "6",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "If a recipe calls for 2 cups of flour for every 3 cups of sugar, that's a ratio — a comparison between two quantities. This week, you'll learn to work with ratios like a mathematician."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A ratio compares two quantities, and can be written three ways: 'the ratio of flour to sugar is 2 to 3,' '2:3,' or as a fraction '2/3.' Order matters — the ratio of flour to sugar (2:3) is different from the ratio of sugar to flour (3:2). Look at a group of objects around you (like a set of pencils and pens, or red and blue items) and write the ratio comparing the two groups, in all three forms."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just described a real comparison using ratio language in three different forms. Tomorrow we'll learn how to find equivalent ratios that describe the same comparison at a different scale."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-6-1-1",
+    "lessonId": "lesson-math-6-1-1",
+    "objectives": [
+      "Define a ratio as a comparison between two quantities",
+      "Write a ratio in three forms: 'a to b,' 'a:b,' and 'a/b'"
+    ],
+    "materialsNeeded": ["A group of two different countable objects (pencils/pens, red/blue items)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the recipe example and the three ways to write a ratio.\n2. Emphasize that order matters — flour:sugar is different from sugar:flour.\n3. Have the child count real objects and write the ratio in all three forms.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: equivalent ratios.",
+    "differentiationTips": [
+      "Struggling: focus on just the ':' notation before introducing the fraction and 'to' forms",
+      "Ready for more: ask them to find a ratio in their own life (like a sports team's win-loss record) and describe it in all three forms",
+      "The order-matters point is genuinely easy to overlook — spend real time on it with concrete, countable examples"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's chosen objects — check that the ratio is written correctly in all three forms and that the order matches what was actually asked for.",
+    "standardsRationale": "Directly addresses Common Core Grade 6 Ratios & Proportional Relationships standard 6.RP.1: understanding the concept of a ratio and using ratio language."
+  },
+  "worksheet": {
+    "id": "worksheet-math-6-1-1",
+    "lessonId": "lesson-math-6-1-1",
+    "title": "Understanding Ratios",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write each ratio in the requested form.",
+      "rows": [
+        { "problem": "A bowl has 5 apples and 3 oranges. Write the ratio of apples to oranges using ':' notation." },
+        { "problem": "Write the same ratio (apples to oranges) using 'to' notation." },
+        { "problem": "Write the ratio of oranges to apples using ':' notation." }
+      ]
+    }
+  }
+}

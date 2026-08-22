@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-6-1",
+    "courseId": "course-math-6",
+    "order": 1,
+    "title": "Ratios and Rates",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-6-1-2",
+    "unitId": "unit-math-6-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Equivalent Ratios",
+    "gradeLevel": "6",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you described real ratios. Today, learn that a single ratio can be scaled up or down while still describing the exact same comparison."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Equivalent ratios describe the same relationship at different scales — just like equivalent fractions. To find them, multiply (or divide) BOTH numbers in the ratio by the same amount. For the ratio 2:3, multiplying both by 2 gives 4:6, multiplying both by 3 gives 6:9, and by 4 gives 8:12 — all of these describe the exact same comparison as 2:3. A ratio table organizes this clearly: list the ratio's two numbers in columns, then scale both together. Build a ratio table for 3:5, finding at least 3 equivalent ratios."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just built a ratio table and found real equivalent ratios. Tomorrow we'll learn a special, especially useful kind of ratio: the unit rate."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-6-1-2",
+    "lessonId": "lesson-math-6-1-2",
+    "objectives": [
+      "Find equivalent ratios by multiplying or dividing both terms by the same number",
+      "Build and use a ratio table to organize equivalent ratios"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's ratio notation.\n2. Work through the 2:3 example together, scaling by 2, 3, and 4.\n3. Introduce the ratio table format explicitly.\n4. Have the child build their own ratio table for 3:5.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: unit rates.",
+    "differentiationTips": [
+      "Struggling: provide a partially filled ratio table (first row given) rather than a blank one",
+      "Ready for more: ask them to find the scale factor between two given equivalent ratios (e.g. what number turns 3:5 into 12:20?)",
+      "Explicitly connect this to equivalent fractions, a skill they already have from earlier grades — the same core idea, applied to ratios"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 2:3 scaled by 2 = 4:6. 2. 2:3 scaled by 3 = 6:9. 3. 3:5 scaled by 2 = 6:10, by 3 = 9:15, by 4 = 12:20.",
+    "standardsRationale": "Builds the equivalent-ratio skill (an extension of 6.RP.1's ratio concept) that Day 4's real-world problem-solving will depend on."
+  },
+  "worksheet": {
+    "id": "worksheet-math-6-1-2",
+    "lessonId": "lesson-math-6-1-2",
+    "title": "Equivalent Ratios",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find the equivalent ratio for each.",
+      "rows": [
+        { "problem": "2:3 scaled by 2 = ?" },
+        { "problem": "2:3 scaled by 3 = ?" },
+        { "problem": "3:5 scaled by 2, 3, and 4 = ?" }
+      ]
+    }
+  }
+}

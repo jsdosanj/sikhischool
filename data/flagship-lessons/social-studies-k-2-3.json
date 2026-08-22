@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-k-2",
+    "courseId": "course-social-studies-k",
+    "order": 2,
+    "title": "Cooperation and Caring for Each Other",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-k-2-3",
+    "unitId": "unit-social-studies-k-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "How Communities Take Care of Each Other",
+    "gradeLevel": "K",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned cooperation, sharing, and taking turns. Today: how a whole community takes care of people who need extra help."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Communities take care of each other in real, everyday ways: neighbors checking on an elderly neighbor, a food bank collecting food for families who need it, or a community center offering a warm place to gather. These are all real examples of a community — not just one person — working together to make sure everyone is cared for. Think of one way your own community (neighborhood, school, or place of worship) takes care of people who need help."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand that caring for each other happens at a whole-community level, not just between individual friends. Tomorrow we'll focus on being a good friend and neighbor yourself."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-k-2-3",
+    "lessonId": "lesson-social-studies-k-2-3",
+    "objectives": [
+      "Describe real, general examples of communities caring for members who need help",
+      "Identify one way the child's own community cares for people who need help"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review sharing and taking turns from yesterday.\n2. Introduce whole-community caring using the neighbor-checking-in and food-bank examples.\n3. Discuss a real example from the child's own community, if known.\n4. Complete the worksheet.\n5. Close by discussing why a whole community caring together can help more people than just one person alone.",
+    "differentiationTips": [
+      "Struggling: focus on just one concrete, familiar example (like a food bank or a neighbor helping) rather than covering multiple examples",
+      "Ready for more: ask the child to think of one more way a community could care for people who need help, beyond the examples given",
+      "Keep this lesson general and safe — this is an introduction to the concept, not a discussion of specific hardship or need"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can describe at least one real example of a community caring for its members, ideally connected to their own experience.",
+    "standardsRationale": "Directly addresses the course's 'how communities take care of each other' description, extending cooperation from individual interactions to whole-community practices."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-k-2-3",
+    "lessonId": "lesson-social-studies-k-2-3",
+    "title": "How Communities Take Care of Each Other",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace the word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Community", "label": "A group of people who care for and support each other" }
+      ]
+    }
+  }
+}

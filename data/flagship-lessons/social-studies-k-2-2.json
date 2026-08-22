@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-k-2",
+    "courseId": "course-social-studies-k",
+    "order": 2,
+    "title": "Cooperation and Caring for Each Other",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-k-2-2",
+    "unitId": "unit-social-studies-k-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Sharing and Taking Turns",
+    "gradeLevel": "K",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned about cooperation. Today: two concrete, everyday ways to cooperate that you already practice — sharing and taking turns."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Sharing means letting someone else use something you have, like a toy or a snack. Taking turns means everyone gets a fair chance, one after another — like waiting for your turn on a swing. Both are real, everyday forms of cooperation, making sure everyone gets a fair chance to participate. Describe a time you shared something or took turns with someone, and how it made the activity go well for everyone."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Sharing and taking turns are cooperation in action — practices you already know how to do! Tomorrow we'll look at how communities take care of people who need help."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-k-2-2",
+    "lessonId": "lesson-social-studies-k-2-2",
+    "objectives": [
+      "Define sharing and taking turns as concrete forms of cooperation",
+      "Describe a real experience of sharing or taking turns fairly"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review cooperation from yesterday.\n2. Introduce sharing and taking turns as concrete examples of cooperation.\n3. Discuss a real time the child shared or took turns.\n4. Complete the worksheet.\n5. Close by practicing taking turns with a real object or activity together.",
+    "differentiationTips": [
+      "Struggling: practice taking turns in the moment with a real toy or activity rather than only discussing it abstractly",
+      "Ready for more: ask the child to explain what might happen if nobody shared or took turns fairly",
+      "This lesson connects directly to skills the child likely already practices daily — make that connection explicit"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can explain sharing and taking turns as fair, cooperative practices, with a real personal example.",
+    "standardsRationale": "Directly addresses the course's 'cooperation' description with concrete, developmentally appropriate examples a Kindergartner already practices daily."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-k-2-2",
+    "lessonId": "lesson-social-studies-k-2-2",
+    "title": "Sharing and Taking Turns",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Sharing", "label": "Letting someone else use something you have" },
+        { "trace": "Taking Turns", "label": "Everyone gets a fair chance, one after another" }
+      ]
+    }
+  }
+}

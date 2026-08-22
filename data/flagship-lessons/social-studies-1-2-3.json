@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-1-2",
+    "courseId": "course-social-studies-1",
+    "order": 2,
+    "title": "Communities and Maps Around the World",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-1-2-3",
+    "unitId": "unit-social-studies-1-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Reading Map Symbols",
+    "gradeLevel": "1",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned what a map is. Today: practice actually reading the small pictures, called symbols, that maps use to show real things."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Maps use small symbols to represent real things — a small tree symbol might mean a park or forest, a small square might mean a building, a blue line might mean a river. The map's key (or legend) tells you what each symbol means, so you don't have to guess. Look at a real map's key (or the symbols listed on your worksheet) and match each symbol to what it represents."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just practiced a real map-reading skill: using a key to understand symbols! Tomorrow we'll use a map to find land and water."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-1-2-3",
+    "lessonId": "lesson-social-studies-1-2-3",
+    "objectives": [
+      "Explain that map symbols represent real things, and a key tells you what each symbol means",
+      "Match at least three map symbols to what they represent"
+    ],
+    "materialsNeeded": ["A real map with a key/legend (or printed map symbols)", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review what a map is from last week.\n2. Introduce map symbols and the key/legend, using tree/building/river examples.\n3. Practice matching symbols to their meanings using a real map or the worksheet examples.\n4. Complete the worksheet.\n5. Close by drawing one simple symbol of the child's own for a place near their home.",
+    "differentiationTips": [
+      "Struggling: start with just 2 symbols (tree, building) before adding more",
+      "Ready for more: ask the child to design one more symbol for something not yet covered (like a school or a mountain)",
+      "A real, physical map (even a simple one) makes this lesson much more concrete than symbols alone"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a matching activity — check that the child can correctly match at least three symbols (tree=park/forest, square=building, blue line=river) to their meanings.",
+    "standardsRationale": "Directly addresses the course's 'introduction to reading maps' description, deepening last week's basic map-concept lesson into an actual applied map-reading skill."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-1-2-3",
+    "lessonId": "lesson-social-studies-1-2-3",
+    "title": "Reading Map Symbols",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Match each map symbol to what it represents.",
+      "rows": [
+        { "problem": "A small tree symbol usually means:" },
+        { "problem": "A small square symbol usually means:" },
+        { "problem": "A blue line on a map usually means:" }
+      ]
+    }
+  }
+}

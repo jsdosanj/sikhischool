@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-1-2",
+    "courseId": "course-social-studies-1",
+    "order": 2,
+    "title": "Communities and Maps Around the World",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-1-2-1",
+    "unitId": "unit-social-studies-1-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Traditions Around the World",
+    "gradeLevel": "1",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You learned about your own family's traditions last week. Today: families all around the world have their own special traditions too!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Different communities around the world celebrate in different ways — different foods, different clothing, different celebrations — and all of them are meaningful to the people who practice them. No single way of celebrating is the 'normal' one; there's real, wonderful variety all around the world. Think of one tradition from your own family, and imagine how a family in a different part of the world might celebrate differently but still meaningfully."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand that traditions vary all around the world, and that variety is something to appreciate, not judge. Tomorrow we'll look at how homes differ around the world too."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-1-2-1",
+    "lessonId": "lesson-social-studies-1-2-1",
+    "objectives": [
+      "Explain that different communities around the world have different, equally meaningful traditions",
+      "Connect the child's own family tradition to the broader idea of worldwide variety"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review last week's family-tradition content.\n2. Introduce the idea that traditions vary meaningfully around the world, with no single 'normal' way.\n3. Have the child connect their own family's tradition to this broader idea.\n4. Complete the worksheet.\n5. Close by discussing why appreciating different traditions (rather than judging them) is important.",
+    "differentiationTips": [
+      "Struggling: keep the discussion general and open-ended rather than requiring the child to name specific, unfamiliar cultures",
+      "Ready for more: ask the child if they know a specific tradition from a different culture, and what it means to the people who practice it",
+      "Kept deliberately general — no specific culture's traditions are asserted as fact here, avoiding any risk of an inaccurate or stereotyped claim"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can express that traditions vary meaningfully around the world and that variety is something to appreciate.",
+    "standardsRationale": "Directly addresses the course's 'families and traditions around the world' description, extending last week's personal-family focus to a broader, respectful worldview."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-1-2-1",
+    "lessonId": "lesson-social-studies-1-2-1",
+    "title": "Traditions Around the World",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about traditions around the world.",
+      "rows": [
+        { "problem": "Name one tradition your own family has." },
+        { "problem": "Why might a family in a different part of the world celebrate differently, but just as meaningfully?" }
+      ]
+    }
+  }
+}

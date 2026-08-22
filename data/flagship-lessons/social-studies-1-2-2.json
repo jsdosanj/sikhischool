@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-1-2",
+    "courseId": "course-social-studies-1",
+    "order": 2,
+    "title": "Communities and Maps Around the World",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-1-2-2",
+    "unitId": "unit-social-studies-1-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Homes Around the World",
+    "gradeLevel": "1",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned traditions vary around the world. Today: even homes look different depending on where you live!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Homes around the world are often built to fit the local climate and the materials available nearby. In hot places, homes are sometimes built with materials and designs that help keep them cool. In cold or snowy places, homes are often built to stay warm, with thicker walls or steep roofs to shed snow. In places with a lot of rain, homes are sometimes built up on stilts. Describe your own home, and think about how it fits the climate where you live."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand that homes are shaped by the climate and materials of a place, not just personal choice. Tomorrow we'll go back to maps and learn to read map symbols."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-1-2-2",
+    "lessonId": "lesson-social-studies-1-2-2",
+    "objectives": [
+      "Explain that homes around the world are shaped by local climate and available materials",
+      "Describe how the child's own home fits their local climate"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review yesterday's traditions-around-the-world content.\n2. Introduce how climate and materials shape home design, using the hot/cold/rainy examples.\n3. Have the child describe their own home and its fit with the local climate.\n4. Complete the worksheet.\n5. Close by discussing one home design feature the child finds interesting.",
+    "differentiationTips": [
+      "Struggling: focus on just the child's own home and climate, rather than covering all three example climate types",
+      "Ready for more: ask the child to design (draw) a home suited to a climate very different from their own",
+      "Keep this lesson at the general climate-and-materials level — specific named cultures/regions are out of scope here to avoid unverified claims"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can describe their own home and connect at least one feature to the local climate.",
+    "standardsRationale": "Directly addresses the course's 'families and traditions around the world' description, extending yesterday's cultural-variety theme into a concrete geography concept (climate shaping home design)."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-1-2-2",
+    "lessonId": "lesson-social-studies-1-2-2",
+    "title": "Homes Around the World",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about homes and climate.",
+      "rows": [
+        { "problem": "Describe your own home." },
+        { "problem": "How does your home fit the climate where you live?" },
+        { "problem": "Why might homes in a very hot place look different from homes in a very cold place?" }
+      ]
+    }
+  }
+}

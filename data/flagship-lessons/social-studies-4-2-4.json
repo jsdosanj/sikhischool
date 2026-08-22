@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-4-2",
+    "courseId": "course-social-studies-4",
+    "order": 2,
+    "title": "Getting to Know Washington State",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-4-2-4",
+    "unitId": "unit-social-studies-4-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Washington's Major Cities",
+    "gradeLevel": "4",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned Washington's history, symbols, and government. Today: its major cities!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Seattle is Washington's largest city, sitting on Puget Sound (remember that waterway from last week?) and known as a major port for trade. Spokane, in eastern Washington, is the state's second-largest city, near the Cascade Mountains' rain shadow region. Tacoma, near Seattle, is another major Puget Sound port city. Using what you learned last week about Washington's geographic regions, explain why Seattle's location on Puget Sound might have helped it grow into the state's largest city."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected Washington's major cities to its geography! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-4-2-4",
+    "lessonId": "lesson-social-studies-4-2-4",
+    "objectives": [
+      "Name Washington's major cities: Seattle, Spokane, and Tacoma",
+      "Explain how Seattle's Puget Sound location connects to its growth as a major port city"
+    ],
+    "materialsNeeded": ["Last week's waterways worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's capital/government lesson.\n2. Introduce Seattle, Spokane, and Tacoma, connecting Seattle back to last week's Puget Sound geography.\n3. Have the child explain the geography-to-growth connection.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just Seattle and its Puget Sound connection, the clearest and most directly connected example",
+      "Ready for more: ask the child to guess why a mountain-region city like Spokane might have grown differently than a port city like Seattle",
+      "This lesson deliberately bridges last week's geography unit and this week's state-history unit — point out that connection explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an explanation activity — check that the child correctly connects Seattle's location on Puget Sound (a real waterway) to its usefulness as a port for trade and travel, helping it grow into the state's largest city.",
+    "standardsRationale": "Directly addresses the C3 Framework's Geography and History dimensions together at a Grade 4 level, synthesizing this week's state-history content with last week's geography content before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-4-2-4",
+    "lessonId": "lesson-social-studies-4-2-4",
+    "title": "Washington's Major Cities",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain how Seattle's location helped it grow into Washington's largest city.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-4-2",
+    "courseId": "course-social-studies-4",
+    "order": 2,
+    "title": "Getting to Know Washington State",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-4-2-2",
+    "unitId": "unit-social-studies-4-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Washington's State Symbols",
+    "gradeLevel": "4",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned when Washington became a state. Today: the official symbols that represent it!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Every state chooses official symbols that represent it. Washington's state bird is the American Goldfinch, its state flower is the Coast Rhododendron, and its state tree is the Western Hemlock. States choose symbols like these because they're often meaningful to the land or history of the place. Draw or describe one of Washington's three state symbols, and explain why you think it might have been chosen."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned Washington's official state bird, flower, and tree! Tomorrow we'll learn about the state capital and how state government works."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-4-2-2",
+    "lessonId": "lesson-social-studies-4-2-2",
+    "objectives": [
+      "Name Washington's state bird (American Goldfinch), flower (Coast Rhododendron), and tree (Western Hemlock)",
+      "Explain a plausible reason a state symbol might be chosen"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review yesterday's statehood facts.\n2. Introduce the three state symbols.\n3. Have the child draw or describe one symbol and explain a possible reason for its choice.\n4. Complete the worksheet.\n5. Preview tomorrow's state-government lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just one symbol (whichever the child finds most interesting) rather than requiring all three at once",
+      "Ready for more: ask the child to research (or guess, if research isn't available) their own home state or country's official symbols and compare",
+      "This is a light, engaging fact-based lesson — a good change of pace after two more analytical weeks"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "State bird: American Goldfinch. State flower: Coast Rhododendron. State tree: Western Hemlock. Reasoning for the choice is open-ended — check for a genuine, sensible explanation.",
+    "standardsRationale": "Directly addresses the C3 Framework's Civics dimension (state symbols and identity) at a Grade 4 level, continuing the course's state-history thread with concrete, memorable facts."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-4-2-2",
+    "lessonId": "lesson-social-studies-4-2-2",
+    "title": "Washington's State Symbols",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Washington's state symbols.",
+      "rows": [
+        { "problem": "What is Washington's state bird?" },
+        { "problem": "What is Washington's state flower?" },
+        { "problem": "What is Washington's state tree?" }
+      ]
+    }
+  }
+}

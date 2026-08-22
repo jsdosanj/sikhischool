@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-4-2",
+    "courseId": "course-social-studies-4",
+    "order": 2,
+    "title": "Getting to Know Washington State",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-4-2-5",
+    "unitId": "unit-social-studies-4-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Getting to Know Washington State",
+    "gradeLevel": "4",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned real facts about Washington State. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Washington became the 42nd state in 1889 (Day 1). Its state bird, flower, and tree are official symbols (Day 2). Olympia is the capital, with a three-branch government (Day 3). Seattle grew large thanks to its Puget Sound location (Day 4). Answer: what year did Washington become a state, what is its capital, and name one state symbol."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you learned real Washington State history, symbols, and government! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-4-2-5",
+    "lessonId": "lesson-social-studies-4-2-5",
+    "objectives": [
+      "Review Washington's statehood, symbols, capital/government, and major cities",
+      "Recall the statehood year, capital city, and one state symbol"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child answer all three review questions.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of real Washington State facts!",
+    "differentiationTips": [
+      "Struggling: focus on just the capital and one symbol, the two most concrete/memorable facts from this week",
+      "Ready for more: ask the child to explain how this week's state-history content connects back to last week's geography content",
+      "This is a good checkpoint to note which of the week's facts needs the most reinforcement before the next Social Studies unit"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child correctly states 1889, Olympia, and any one correct state symbol (American Goldfinch, Coast Rhododendron, or Western Hemlock).",
+    "standardsRationale": "Consolidates this week's C3 Framework History and Civics content before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-4-2-5",
+    "lessonId": "lesson-social-studies-4-2-5",
+    "title": "Review: Getting to Know Washington State",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What year did Washington become a state?" },
+        { "problem": "What is Washington's state capital?" },
+        { "problem": "Name one of Washington's official state symbols." }
+      ]
+    }
+  }
+}

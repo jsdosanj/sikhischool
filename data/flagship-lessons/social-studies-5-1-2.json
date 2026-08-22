@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-social-studies-5-1",
+    "courseId": "course-social-studies-5",
+    "order": 1,
+    "title": "Indigenous Peoples of North America Before European Contact",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-5-1-2",
+    "unitId": "unit-social-studies-5-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Geography Shaped Different Ways of Life",
+    "gradeLevel": "5",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned about hundreds of distinct nations. Today, let's explore why they developed such different ways of life: geography."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Across North America, geography shaped very different ways of life. In the Eastern Woodlands, nations farmed corn, beans, and squash and lived in settled villages near forests and rivers. On the Great Plains, nations followed vast herds of bison, developing ways of life built around hunting and mobility. In the Southwest's dry climate, nations built irrigation systems to farm and constructed multi-story adobe dwellings. Along the Pacific Northwest coast, nations relied on abundant salmon and cedar forests, building large wooden longhouses and carving totem poles. Match each region to its way of life using what you just read."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just saw how geography — climate, land, and available resources — shaped four very different ways of life across the continent. Tomorrow we'll look at how these distant nations were still connected through trade."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-5-1-2",
+    "lessonId": "lesson-social-studies-5-1-2",
+    "objectives": [
+      "Describe how geography shaped different Indigenous ways of life across four regions of North America",
+      "Match each region to its characteristic way of life"
+    ],
+    "materialsNeeded": ["A map of North America (printed or online)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's 'hundreds of nations' framing.\n2. Introduce the four regions using the map, discussing each way of life in turn.\n3. Discuss why geography (climate, land, resources) would shape such different lifestyles.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: trade networks connecting distant regions.",
+    "differentiationTips": [
+      "Struggling: focus on just 2 regions (e.g. Eastern Woodlands and Great Plains) rather than all 4 at once",
+      "Ready for more: ask them to predict what a fifth region (like the Arctic or California) might have been like, based on its climate",
+      "This is general regional/geographic information, not claims about any specific named nation, matching the safe scoping established this week"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Eastern Woodlands: farming (corn, beans, squash) and settled villages. 2. Great Plains: following bison herds, hunting-based, mobile. 3. Southwest: irrigation farming, multi-story adobe dwellings. 4. Pacific Northwest: fishing (salmon), cedar longhouses, totem poles.",
+    "standardsRationale": "Addresses the C3 Framework Geography dimension by connecting physical geography to human ways of life, a real historical-thinking skill applicable well beyond this specific topic."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-5-1-2",
+    "lessonId": "lesson-social-studies-5-1-2",
+    "title": "Geography Shaped Different Ways of Life",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Match each region to its way of life.",
+      "rows": [
+        { "problem": "Eastern Woodlands: what was the way of life?" },
+        { "problem": "Great Plains: what was the way of life?" },
+        { "problem": "Southwest: what was the way of life?" },
+        { "problem": "Pacific Northwest: what was the way of life?" }
+      ]
+    }
+  }
+}

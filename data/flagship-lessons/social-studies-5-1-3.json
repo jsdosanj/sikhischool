@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-5-1",
+    "courseId": "course-social-studies-5",
+    "order": 1,
+    "title": "Indigenous Peoples of North America Before European Contact",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-5-1-3",
+    "unitId": "unit-social-studies-5-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Connected by Trade",
+    "gradeLevel": "5",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned about very different regional ways of life. Today, evidence that these distant nations were still connected — through extensive trade networks."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Archaeologists have found real evidence of long-distance trade networks connecting nations hundreds or even thousands of miles apart. Seashells from the Pacific coast have been found far inland; obsidian (a sharp volcanic glass used for tools) traveled hundreds of miles from its source; copper from the Great Lakes region has been found in the Southeast. This tells us these nations weren't isolated — they were connected by well-established trade routes, exchanging goods, ideas, and resources across huge distances, long before Europeans arrived. Think about what this trade evidence tells us about how organized and connected these societies really were."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just examined real archaeological evidence of extensive trade networks — proof these nations were far more connected and organized than a simple description might suggest. Tomorrow we'll learn how historians actually discover facts like these."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-5-1-3",
+    "lessonId": "lesson-social-studies-5-1-3",
+    "objectives": [
+      "Describe archaeological evidence of long-distance Indigenous trade networks (seashells, obsidian, copper)",
+      "Explain what this evidence reveals about the organization and connectedness of these societies"
+    ],
+    "materialsNeeded": ["A map of North America", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's four regional ways of life.\n2. Introduce the trade-network evidence (seashells, obsidian, copper), tracing example routes on the map.\n3. Discuss what this evidence implies about organization and connection across the continent.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: how historians learn about the past.",
+    "differentiationTips": [
+      "Struggling: focus on just one example (like seashells found far inland) rather than all three materials",
+      "Ready for more: ask them to think of a modern example of long-distance trade and compare it to this ancient network",
+      "This lesson reinforces that 'organized society' and 'connected trade' are historical facts backed by physical evidence, not assumptions"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Seashells from the Pacific coast found far inland. 2. Obsidian traveled hundreds of miles from its volcanic source. 3. Copper from the Great Lakes found in the Southeast. 4. This evidence shows these nations were connected by trade routes across huge distances, not isolated from each other.",
+    "standardsRationale": "Uses real archaeological evidence to teach historical-thinking skills (evidence-based reasoning) while reinforcing the C3 Framework Economics dimension (trade) applied to a pre-contact context."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-5-1-3",
+    "lessonId": "lesson-social-studies-5-1-3",
+    "title": "Connected by Trade",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about trade evidence.",
+      "rows": [
+        { "problem": "What material from the Pacific coast has been found far inland?" },
+        { "problem": "What is obsidian, and how far did it sometimes travel?" },
+        { "problem": "What does trade evidence tell us about how connected these societies were?" }
+      ]
+    }
+  }
+}

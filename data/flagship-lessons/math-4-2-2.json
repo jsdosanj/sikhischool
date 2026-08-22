@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-4-2",
+    "courseId": "course-math-4",
+    "order": 2,
+    "title": "Fraction Equivalence and Comparison",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-4-2-2",
+    "unitId": "unit-math-4-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Simplifying Fractions",
+    "gradeLevel": "4",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you made fractions bigger-looking but equal. Today: the opposite, making them simpler while staying equal!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Simplifying a fraction means dividing both the numerator and denominator by the same number, making the fraction simpler while keeping its value the same. 4/8 simplifies to 1/2 by dividing both numbers by 4 (4÷4=1, 8÷4=2). Simplify 6/9 by finding a number that divides evenly into both 6 and 9. Then simplify 10/15 the same way."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just simplified fractions to their simplest form! Tomorrow we'll compare fractions with different denominators."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-4-2-2",
+    "lessonId": "lesson-math-4-2-2",
+    "objectives": [
+      "Simplify a fraction by dividing the numerator and denominator by a common factor",
+      "Apply this method to 2 new fractions independently"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's equivalent-fractions work, framing today as the reverse process.\n2. Introduce simplifying using 4/8 → 1/2.\n3. Have the child simplify 6/9 and 10/15 independently.\n4. Complete the worksheet.\n5. Preview tomorrow's different-denominator comparison lesson.",
+    "differentiationTips": [
+      "Struggling: provide the common factor (3 for 6/9, 5 for 10/15) rather than requiring the child to find it independently",
+      "Ready for more: ask the child to explain why 4/8 and 1/2 represent the same amount even though the numbers look different",
+      "This is the inverse skill of yesterday's lesson — explicitly point out the relationship between the two"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "6/9 ÷ 3/3 = 2/3. 10/15 ÷ 5/5 = 2/3.",
+    "standardsRationale": "Directly addresses Common Core Grade 4 standard 4.NF.1, applying equivalence in the reverse direction (simplifying rather than expanding), continuing this week's fractions thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-4-2-2",
+    "lessonId": "lesson-math-4-2-2",
+    "title": "Simplifying Fractions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Simplify each fraction to its simplest form.",
+      "rows": [
+        { "problem": "Simplify 6/9." },
+        { "problem": "Simplify 10/15." },
+        { "problem": "Simplify 8/12." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-4-2",
+    "courseId": "course-math-4",
+    "order": 2,
+    "title": "Fraction Equivalence and Comparison",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-4-2-4",
+    "unitId": "unit-math-4-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Comparing with Benchmark Fractions",
+    "gradeLevel": "4",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you compared fractions using a common denominator. Today: a faster trick using a benchmark fraction!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A benchmark fraction, like 1/2, is a familiar reference point you can compare other fractions to without finding a common denominator every time. Is 3/8 more or less than 1/2? Since 4/8 would equal 1/2, and 3/8 is less than 4/8, then 3/8 is less than 1/2 — no common-denominator math needed! Use this trick: is 5/8 more or less than 1/2? Is 2/3 more or less than 1/2?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used a benchmark fraction to compare quickly, without always finding a common denominator! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-4-2-4",
+    "lessonId": "lesson-math-4-2-4",
+    "objectives": [
+      "Use 1/2 as a benchmark fraction to quickly compare other fractions",
+      "Apply this strategy to determine if 5/8 and 2/3 are more or less than 1/2"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's common-denominator comparison method.\n2. Introduce the benchmark-fraction shortcut using 3/8 vs. 1/2.\n3. Have the child determine whether 5/8 and 2/3 are more or less than 1/2.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: for each fraction, have the child first figure out what fraction with the same denominator would exactly equal 1/2 (like 4/8), then compare to that",
+      "Ready for more: ask the child when the common-denominator method from yesterday might still be needed even with this new shortcut (comparing two fractions both very close to 1/2)",
+      "This is a genuinely useful real-world estimation skill, not just a classroom trick — point out when it's faster than yesterday's exact method"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "5/8 is more than 1/2 (since 4/8 = 1/2, and 5/8 > 4/8). 2/3 is more than 1/2 (since half of 3 would be 1.5, and 2 is more than 1.5).",
+    "standardsRationale": "Directly addresses Common Core Grade 4 standard 4.NF.2: comparing fractions using benchmark fractions like 1/2, a genuinely faster alternative strategy to yesterday's common-denominator method."
+  },
+  "worksheet": {
+    "id": "worksheet-math-4-2-4",
+    "lessonId": "lesson-math-4-2-4",
+    "title": "Comparing with Benchmark Fractions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use 1/2 as a benchmark to answer each question.",
+      "rows": [
+        { "problem": "Is 5/8 more or less than 1/2?" },
+        { "problem": "Is 2/3 more or less than 1/2?" },
+        { "problem": "Is 2/5 more or less than 1/2?" }
+      ]
+    }
+  }
+}

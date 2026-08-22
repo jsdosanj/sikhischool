@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-4-2",
+    "courseId": "course-math-4",
+    "order": 2,
+    "title": "Fraction Equivalence and Comparison",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-4-2-1",
+    "unitId": "unit-math-4-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Generating Equivalent Fractions",
+    "gradeLevel": "4",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you mastered multi-digit multiplication. This week: fractions, starting with a faster way to find equivalent fractions!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "In Grade 3 you found equivalent fractions by drawing and shading shapes. There's a faster way: multiply both the numerator and denominator by the same number. 1/2 × 2/2 = 2/4 (multiplying top and bottom by 2 gives an equivalent fraction). Use this method to find a fraction equivalent to 1/3 by multiplying both numbers by 3. Then find one equivalent to 2/5 by multiplying both numbers by 2."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just found equivalent fractions using multiplication, a faster method than drawing! Tomorrow we'll learn the opposite: simplifying fractions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-4-2-1",
+    "lessonId": "lesson-math-4-2-1",
+    "objectives": [
+      "Generate an equivalent fraction by multiplying the numerator and denominator by the same number",
+      "Apply this method to 2 new fractions independently"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's multiplication work briefly.\n2. Introduce the multiply-both-numbers method using 1/2 × 2/2 = 2/4.\n3. Have the child apply it to 1/3 (×3) and 2/5 (×2).\n4. Complete the worksheet.\n5. Preview tomorrow's simplifying-fractions lesson.",
+    "differentiationTips": [
+      "Struggling: connect back to Grade 3's shape-drawing method as a visual check that the new symbolic method gives the same real answer",
+      "Ready for more: ask the child to find two different equivalent fractions for the same starting fraction",
+      "This lesson is a genuine step up from Grade 3's purely visual approach to a symbolic, generalizable method — name that progression explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1/3 × 3/3 = 3/9. 2/5 × 2/2 = 4/10. 3/4 × 2/2 = 6/8.",
+    "standardsRationale": "Directly addresses Common Core Grade 4 standard 4.NF.1: explaining why a fraction is equivalent by multiplying numerator/denominator by the same number, opening this week's fractions thread with a more advanced method than Grade 3's."
+  },
+  "worksheet": {
+    "id": "worksheet-math-4-2-1",
+    "lessonId": "lesson-math-4-2-1",
+    "title": "Generating Equivalent Fractions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find an equivalent fraction by multiplying the numerator and denominator by the same number.",
+      "rows": [
+        { "problem": "1/3 × 3/3 = ?" },
+        { "problem": "2/5 × 2/2 = ?" },
+        { "problem": "3/4 × 2/2 = ?" }
+      ]
+    }
+  }
+}

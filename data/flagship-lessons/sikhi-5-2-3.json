@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-5-2",
+    "courseId": "course-sikhi-5",
+    "order": 2,
+    "title": "Guru Arjan Dev Ji and Guru Hargobind Ji",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-5-2-3",
+    "unitId": "unit-sikhi-5-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Guru Hargobind Ji and Miri-Piri",
+    "gradeLevel": "5",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about Guru Arjan Dev Ji's achievements. Today: meet the sixth Guru and a new idea he introduced!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Guru Hargobind Ji, the sixth Guru, introduced the idea of Miri-Piri — balancing spiritual responsibility (Piri) with worldly, practical responsibility (Miri) at the same time, rather than choosing only one. He is remembered for wearing two swords, symbolizing this balance: one representing spiritual authority, the other representing the responsibility to protect and lead in worldly matters. Why do you think balancing both spiritual and practical responsibility, instead of just one, might be an important idea for a community?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about Miri-Piri, balancing two kinds of responsibility! Tomorrow we'll build a growing timeline connecting all six Gurus so far."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-5-2-3",
+    "lessonId": "lesson-sikhi-5-2-3",
+    "objectives": [
+      "Identify Guru Hargobind Ji as the sixth Guru who introduced the concept of Miri-Piri",
+      "Explain Miri-Piri as balancing spiritual and worldly responsibility together"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's Guru Arjan Dev Ji content briefly.\n2. Introduce Guru Hargobind Ji and the Miri-Piri concept.\n3. Discuss why balancing both kinds of responsibility might matter.\n4. Complete the worksheet.\n5. Preview tomorrow's growing timeline lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple everyday analogy — like balancing schoolwork (spiritual/personal growth) with helping at home (practical responsibility) — to make the concept concrete",
+      "Ready for more: ask the child to think of a real modern-day example of someone balancing both kinds of responsibility",
+      "Text-only, per the platform's Ten Gurus content policy — the two-swords symbol is described conceptually, not illustrated"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child gives a sensible explanation of why a community might benefit from leadership balancing both spiritual guidance and practical, worldly responsibility together.",
+    "standardsRationale": "Directly addresses the course's 'contributions of the Ten Gurus' description, introducing a real, historically significant new concept from the sixth Guru."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-5-2-3",
+    "lessonId": "lesson-sikhi-5-2-3",
+    "title": "Guru Hargobind Ji and Miri-Piri",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Guru Hargobind Ji.",
+      "rows": [
+        { "problem": "What does Miri-Piri mean?" },
+        { "problem": "What did Guru Hargobind Ji's two swords symbolize?" }
+      ]
+    }
+  }
+}

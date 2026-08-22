@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-9-2",
+    "courseId": "course-science-9",
+    "order": 2,
+    "title": "Evolution by Natural Selection",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-9-2-4",
+    "unitId": "unit-science-9-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Evidence for Evolution",
+    "gradeLevel": "9",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've seen how natural selection works and one real example. Today: the broader evidence scientists use!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Scientists use several independent lines of evidence for evolution, beyond individual examples like the peppered moth: the fossil record shows how species have changed over long spans of time; comparative anatomy reveals homologous structures (like the similar bone arrangement in a human arm, a whale flipper, and a bat wing) that suggest a shared ancestor; and DNA comparison, connecting directly back to last week's genetics content, shows that more closely related species share more similar DNA. Explain why having three independent lines of evidence (fossils, anatomy, and DNA) makes the case for evolution stronger than any single line of evidence alone."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the three major lines of evidence for evolution! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-9-2-4",
+    "lessonId": "lesson-science-9-2-4",
+    "objectives": [
+      "Name the three major lines of evidence for evolution: fossil record, comparative anatomy, DNA comparison",
+      "Explain why multiple independent lines of evidence strengthen a scientific conclusion"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's natural-selection and peppered-moth work.\n2. Introduce the three lines of evidence, connecting DNA comparison back to last week's genetics content.\n3. Have the child explain why multiple independent lines of evidence matter.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on the human-arm/whale-flipper/bat-wing homologous-structure example, since it's the most visually concrete of the three lines of evidence",
+      "Ready for more: ask the child to explain what it would mean scientifically if the fossil record, anatomy, and DNA evidence all pointed in different, contradictory directions",
+      "This is the week's synthesis moment — connecting back to last week's DNA content ties the whole two-week arc together"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Multiple independent lines of evidence strengthen a scientific conclusion because each type of evidence could, in principle, be wrong or misleading on its own — but when fossils, anatomy, and DNA all consistently point to the same pattern of relatedness and change over time, it's much less likely they're all mistaken in exactly the same way, making the overall case far more convincing.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-10 standard HS-LS4-1: communicating scientific information that common ancestry and biological evolution are supported by multiple lines of empirical evidence, completing this week's thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-science-9-2-4",
+    "lessonId": "lesson-science-9-2-4",
+    "title": "Evidence for Evolution",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about evidence for evolution.",
+      "rows": [
+        { "problem": "Name the three major lines of evidence for evolution." },
+        { "problem": "Why do multiple independent lines of evidence make a scientific case stronger?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-9-2",
+    "courseId": "course-science-9",
+    "order": 2,
+    "title": "Evolution by Natural Selection",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-9-2-2",
+    "unitId": "unit-science-9-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Mechanism of Natural Selection",
+    "gradeLevel": "9",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what evolution means. Today: the specific mechanism that drives it!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Natural selection requires four conditions: variation (individuals differ in their traits), inheritance (those traits can be passed to offspring), overproduction (populations produce more offspring than the environment can support), and differential survival (individuals whose traits suit the environment tend to survive and reproduce more successfully than others). Over many generations, this means helpful traits become more common in the population. Explain why 'overproduction' — more offspring than can survive — is a necessary part of this mechanism."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the four requirements of natural selection! Tomorrow we'll see a real, well-documented example."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-9-2-2",
+    "lessonId": "lesson-science-9-2-2",
+    "objectives": [
+      "Name the four requirements of natural selection: variation, inheritance, overproduction, differential survival",
+      "Explain why overproduction is a necessary part of the mechanism"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's evolution-definition work briefly.\n2. Introduce the four requirements of natural selection.\n3. Have the child explain why overproduction matters.\n4. Complete the worksheet.\n5. Preview tomorrow's real-world example.",
+    "differentiationTips": [
+      "Struggling: use a simple concrete example (a plant producing hundreds of seeds, but only a few surviving to grow) to make overproduction tangible",
+      "Ready for more: ask the child what would happen to natural selection if the environment stopped changing at all",
+      "This is the core mechanism of the whole unit — worth taking real time to make sure all four requirements are genuinely understood, not just memorized"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Overproduction is necessary because it creates a genuine struggle for limited resources (food, space, mates) — if every offspring could survive and reproduce equally, there would be no pressure favoring one trait over another, and natural selection couldn't operate.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-10 standard HS-LS4-2: explaining how the process of natural selection works, continuing this week's evolution thread."
+  },
+  "worksheet": {
+    "id": "worksheet-science-9-2-2",
+    "lessonId": "lesson-science-9-2-2",
+    "title": "The Mechanism of Natural Selection",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about natural selection.",
+      "rows": [
+        { "problem": "Name all four requirements of natural selection." },
+        { "problem": "Why is overproduction a necessary part of the mechanism?" }
+      ]
+    }
+  }
+}

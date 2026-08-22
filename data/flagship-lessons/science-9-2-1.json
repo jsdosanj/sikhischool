@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-9-2",
+    "courseId": "course-science-9",
+    "order": 2,
+    "title": "Evolution by Natural Selection",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-9-2-1",
+    "unitId": "unit-science-9-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Evolution Means",
+    "gradeLevel": "9",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored genetics. This week: evolution, the process genetic variation makes possible!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Evolution is the change in a population's inherited traits over many generations — not a change within a single individual's lifetime, but a shift in what traits are common across an entire population over time. This connects directly to last week's genetic-variation lesson: without variation between individuals, a population would have no differences for evolution to act on at all. Explain why genetic variation, which you studied last week, is a necessary starting point for evolution to happen at all."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what evolution actually means! Tomorrow we'll learn the specific mechanism that drives it: natural selection."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-9-2-1",
+    "lessonId": "lesson-science-9-2-1",
+    "objectives": [
+      "Define evolution as a change in a population's traits across generations, not within an individual",
+      "Explain why genetic variation is a necessary precondition for evolution"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's genetic-variation work briefly.\n2. Introduce evolution as a population-level, multi-generation process.\n3. Have the child explain why variation is necessary for evolution.\n4. Complete the worksheet.\n5. Preview tomorrow's natural-selection mechanism.",
+    "differentiationTips": [
+      "Struggling: emphasize the individual-vs-population distinction with a concrete example — a single dog doesn't 'evolve' during its life, but a dog breed's traits can shift across many generations",
+      "Ready for more: ask the child what would happen to a population's ability to evolve if every individual were genetically identical",
+      "Opens this week's evolution thread from the course's own description, deliberately following genetics rather than repeating cells (already covered at Grade 6)"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Genetic variation is necessary because evolution works by some traits becoming more or less common over generations — without differences between individuals in the first place, there would be nothing for the process to act on, and a population's traits couldn't shift at all.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-10 standard HS-LS4-2: constructing an explanation based on evidence for how genetic variation and environmental factors influence natural selection, opening this week's thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-science-9-2-1",
+    "lessonId": "lesson-science-9-2-1",
+    "title": "What Evolution Means",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about evolution.",
+      "rows": [
+        { "problem": "Define evolution in your own words." },
+        { "problem": "Why does evolution require genetic variation to already exist within a population?" }
+      ]
+    }
+  }
+}

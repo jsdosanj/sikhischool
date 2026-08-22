@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-9-2",
+    "courseId": "course-science-9",
+    "order": 2,
+    "title": "Evolution by Natural Selection",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-9-2-5",
+    "unitId": "unit-science-9-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Evolution by Natural Selection",
+    "gradeLevel": "9",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned how evolution actually works, with real evidence. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: evolution is a population-level change in traits across generations (Day 1). Natural selection requires variation, inheritance, overproduction, and differential survival (Day 2). You applied all four to the real peppered moth example (Day 3). Three independent lines of evidence — fossils, anatomy, and DNA — support evolution (Day 4). Choose one new animal example and explain how natural selection could work on it, using all four requirements."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you learned how evolution actually works, with real evidence behind it! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-9-2-5",
+    "lessonId": "lesson-science-9-2-5",
+    "objectives": [
+      "Review evolution's definition, natural selection's four requirements, the peppered moth example, and the three lines of evidence",
+      "Apply the four requirements of natural selection to a new, original animal example"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child choose a new animal example and apply all four requirements.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of evolution by natural selection!",
+    "differentiationTips": [
+      "Struggling: offer a simple, familiar example (rabbits with different fur colors in a snowy vs. non-snowy environment) rather than requiring the child to invent one",
+      "Ready for more: ask the child to explain how this week's evolution content connects back to last week's genetics content as one coherent two-week story",
+      "This is a good checkpoint to note which of the week's four natural-selection requirements needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended application activity — check that the child's example genuinely includes all four requirements: existing variation, a trait that can be inherited, more offspring than the environment can support, and a specific reason why one variant would survive/reproduce more successfully than another.",
+    "standardsRationale": "Consolidates this week's NGSS Grade 9-10 evolution standards (HS-LS4-1/HS-LS4-2) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-9-2-5",
+    "lessonId": "lesson-science-9-2-5",
+    "title": "Review: Evolution by Natural Selection",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Apply the four requirements of natural selection to a new animal example.",
+      "prompts": [
+        { "prompt": "Your new animal example:", "lines": 1 },
+        { "prompt": "Variation, inheritance, overproduction, and differential survival in this example:", "lines": 4 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-10-2",
+    "courseId": "course-social-studies-10",
+    "order": 2,
+    "title": "The Legacies of Colonialism",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-10-2-5",
+    "unitId": "unit-social-studies-10-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: The Legacies of Colonialism",
+    "gradeLevel": "10",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you traced colonialism's lasting legacies. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: independence movements sought self-governance worldwide (Day 1). Colonial-era borders often ignored existing cultural/religious lines, creating lasting challenges (Day 2). Economic legacies left many former colonies dependent on narrow raw-material exports (Day 3). Cultural legacies, like language, could be both an advantage and a loss (Day 4). Write a short paragraph explaining how these four legacies connect to form one bigger picture of colonialism's lasting impact on the modern world."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you traced colonialism's lasting legacies across politics, economics, and culture! A future unit will study the 1947 partition of India and Pakistan as one specific, historically significant case connected to this week's border-challenge pattern, treated with the depth and care it deserves."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-10-2-5",
+    "lessonId": "lesson-social-studies-10-2-5",
+    "objectives": [
+      "Review independence movements, colonial borders, economic legacies, and cultural legacies",
+      "Write a short paragraph connecting all four legacies into one coherent picture"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child write their connecting paragraph.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of colonialism's legacies, and note that a future unit will study the partition of India as a specific, carefully-sourced case study.",
+    "differentiationTips": [
+      "Struggling: focus on just two of the four legacies the child remembers best rather than requiring all four in the paragraph",
+      "Ready for more: ask the child which of the four legacies they think has the most lasting effect on the world today, and why",
+      "This is a good checkpoint to note which of the week's four colonialism-legacy topics needs the most reinforcement going forward, and re-affirms the deliberate deferral of partition-specific content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended synthesis activity — check that the paragraph connects at least two or three of the week's legacies into a coherent picture, for example noting that colonial borders and economic structures together often shaped which newly independent nations faced the greatest post-independence challenges, while cultural legacies like language continue to shape daily life in complex ways today.",
+    "standardsRationale": "Consolidates this week's WA Social Studies and C3 Framework History/Economics/Culture standards on colonialism's legacies before the course continues, matching the established Day-5-review pacing used across every unit this session, and explicitly re-affirms the deliberate deferral of the 1947 partition to a future, dedicated unit."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-10-2-5",
+    "lessonId": "lesson-social-studies-10-2-5",
+    "title": "Review: The Legacies of Colonialism",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer to review this week's colonialism-legacy topics.",
+      "prompts": [
+        { "prompt": "How do this week's four legacies connect into one bigger picture?", "lines": 3 }
+      ]
+    }
+  }
+}

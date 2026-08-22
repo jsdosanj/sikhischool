@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-10-2",
+    "courseId": "course-social-studies-10",
+    "order": 2,
+    "title": "The Legacies of Colonialism",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-10-2-1",
+    "unitId": "unit-social-studies-10-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Independence Movements",
+    "gradeLevel": "10",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you studied colonialism's causes and governance. This week: what happened afterward, its lasting legacies!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Throughout the 20th century, colonized peoples across many regions of the world organized independence movements, seeking self-governance rather than continued rule by a distant colonial power. These movements varied widely in their methods (some primarily political and diplomatic, others involving armed resistance) and timelines, but shared a common goal of ending colonial rule. Using last week's content on why colonial expansion happened, explain why the same reasons a colonial power wanted control over a territory (resources, land, influence) would also be reasons the colonized population wanted that control returned to themselves."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about the general pattern of 20th-century independence movements! Tomorrow we'll look at a specific challenge many newly independent nations faced: their borders."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-10-2-1",
+    "lessonId": "lesson-social-studies-10-2-1",
+    "objectives": [
+      "Understand independence movements as a general 20th-century pattern of colonized peoples seeking self-governance",
+      "Connect the resources/land/influence motivations from last week to why colonized populations wanted self-governance"
+    ],
+    "materialsNeeded": ["Last week's worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's colonialism-causes-and-governance work briefly.\n2. Introduce independence movements as a general worldwide 20th-century pattern.\n3. Have the child connect last week's motivations to this week's independence-movement content.\n4. Complete the worksheet.\n5. Preview tomorrow's colonial-borders lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — if someone took control of your belongings for their own benefit, you would naturally want that control returned to you",
+      "Ready for more: ask the child why independence movements might use very different methods (political vs. armed) in different places, even with the same overall goal",
+      "Opens this week's colonialism-legacies thread, deliberately continuing at the same general, worldwide level as last week rather than South Asia-specific content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The same resources, land, and influence a colonial power wanted to control were exactly what the colonized population had a direct stake in, since their own land and resources were being controlled by an outside power — so the same underlying value that motivated colonial expansion also motivated the desire for self-governance and independence.",
+    "standardsRationale": "Directly addresses WA Social Studies and C3 Framework History standards on 20th-century decolonization, opening this week's colonialism-legacies thread as a continuation of last week's unit."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-10-2-1",
+    "lessonId": "lesson-social-studies-10-2-1",
+    "title": "Independence Movements",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about independence movements.",
+      "prompts": [
+        { "prompt": "What was the common goal of 20th-century independence movements?", "lines": 2 },
+        { "prompt": "How do last week's colonial motivations connect to this week's independence movements?", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-10-2",
+    "courseId": "course-social-studies-10",
+    "order": 2,
+    "title": "The Legacies of Colonialism",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-10-2-4",
+    "unitId": "unit-social-studies-10-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Cultural Legacies",
+    "gradeLevel": "10",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've studied independence, borders, and economics. Today: colonialism's lasting cultural legacies!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Colonialism also left lasting cultural legacies, most visibly through language (many former colonies still use a colonial-era language in government, education, or daily life, alongside local languages) and education systems (school structures and curricula often modeled on the colonizing country's own system). These legacies are complex: they can create real practical advantages (shared languages enabling international communication and trade) alongside real losses (pressure on local languages and traditions). Explain why a colonial-era language becoming widely used in a former colony could be seen as BOTH a practical advantage and a cultural loss at the same time."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about colonialism's complex cultural legacies! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-10-2-4",
+    "lessonId": "lesson-social-studies-10-2-4",
+    "objectives": [
+      "Understand language and education as two major forms of colonial cultural legacy",
+      "Explain why a colonial-era language can be both a practical advantage and a cultural loss"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's independence, borders, and economic-legacies work.\n2. Introduce language and education as cultural legacies, emphasizing the both-advantage-and-loss complexity.\n3. Have the child explain this dual nature.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: use a simple concrete example — being able to communicate with more people (advantage) while a grandparent's own first language becomes less commonly spoken by younger generations (loss)",
+      "Ready for more: ask the child whether they think this dual nature applies to any of the other legacies studied this week (borders, economics), and how",
+      "This is the week's synthesis moment — cultural legacies genuinely resist a simple 'good or bad' judgment, which is an important, mature historical-thinking skill"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A widely-used colonial-era language can be a practical advantage because it connects a former colony to international trade, diplomacy, and communication with many other countries that also use that language — but it can simultaneously be a cultural loss if it puts pressure on local languages, reducing how often they're spoken or passed down to younger generations, since language carries a huge amount of a culture's identity and history.",
+    "standardsRationale": "Directly addresses WA Social Studies and C3 Framework History/Culture standards on colonial legacies, completing this week's thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-10-2-4",
+    "lessonId": "lesson-social-studies-10-2-4",
+    "title": "Cultural Legacies",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about colonialism's cultural legacies.",
+      "prompts": [
+        { "prompt": "Name two major forms of colonial cultural legacy.", "lines": 1 },
+        { "prompt": "Why can a colonial-era language be both an advantage and a loss?", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-10-1",
+    "courseId": "course-sikhi-10",
+    "order": 1,
+    "title": "The Sikh Empire",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-10-1-5",
+    "unitId": "unit-sikhi-10-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: The Sikh Empire",
+    "gradeLevel": "10",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you moved from Ranjit Singh's unification to the institutions that made his empire genuinely remarkable. Let's connect it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Ranjit Singh rose from the Sukerchakia Misl to unify the roughly dozen rival Sikh Misls into one state, capturing Lahore in 1799 (Day 1-2). He built the Fauj-i-Khas, a modernized, European-trained army that helped maintain stability across a diverse, multi-religious state (Day 3). Under his rule, Lahore flourished and he funded lasting institutional patronage, including the gold-plating of Harmandir Sahib (Day 4). Write a short paragraph explaining how these four pieces — unification, religious pluralism, military modernization, and institutional patronage — together explain why the Sikh Empire is remembered as a genuine high point of Sikh political power."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand the Sikh Empire not just as a name and a date, but as a real state built from unification, pluralistic governance, military strength, and lasting patronage. In future weeks, we'll study what happened after Ranjit Singh's death — including the internal conflicts and wars with the British East India Company that eventually brought Punjab under British rule."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-10-1-5",
+    "lessonId": "lesson-sikhi-10-1-5",
+    "objectives": [
+      "Synthesize the week's four themes — unification, pluralism, military modernization, patronage — into one coherent explanation",
+      "Explain why the Sikh Empire is remembered as a high point of Sikh political power"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 prior days together, out loud.\n2. Have the child write the synthesis paragraph independently, using this week's worksheets as reference.\n3. Complete the cumulative review worksheet.\n4. Discuss any uncertain answers together before finishing.\n5. Preview that upcoming weeks will study the Empire's fall and British annexation — the events explicitly deferred since Day 1.",
+    "differentiationTips": [
+      "Struggling: provide the four themes (unification, pluralism, military modernization, patronage) as sentence starters for the synthesis paragraph",
+      "Ready for more: ask them to predict, based on what they've learned about the Empire's strengths, what kinds of challenges might arise after Ranjit Singh's death without a similarly skilled unifying leader",
+      "Be explicit that this week deliberately built the Empire's rise and institutions — its fall and British annexation get dedicated, careful treatment in a future week, not compressed into this one"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "The four themes are: (1) unification of the rival Misls under Ranjit Singh, (2) religiously pluralistic governance, (3) military modernization via the Fauj-i-Khas, and (4) institutional patronage including Harmandir Sahib's gold-plating. Together, these explain why the Sikh Empire is remembered as a genuine high point of Sikh political power — a real, stable, prosperous, and pluralistic state, not just a military conquest.",
+    "standardsRationale": "Consolidates the course's 'Sikh history from the Mughal era through the Sikh Empire' description's rise-of-the-Empire content before the unit moves to its fall and British annexation, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-10-1-5",
+    "lessonId": "lesson-sikhi-10-1-5",
+    "title": "The Sikh Empire: Week 1 Review",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your synthesis paragraph connecting this week's four themes.",
+      "prompts": [
+        { "prompt": "How do unification, pluralism, military modernization, and patronage together explain the Sikh Empire's legacy?", "lines": 6 }
+      ]
+    }
+  }
+}

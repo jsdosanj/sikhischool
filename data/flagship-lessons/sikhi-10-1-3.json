@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-10-1",
+    "courseId": "course-sikhi-10",
+    "order": 1,
+    "title": "The Sikh Empire",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-10-1-3",
+    "unitId": "unit-sikhi-10-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "The Fauj-i-Khas: A Modernized Army",
+    "gradeLevel": "10",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "One of the Sikh Empire's most distinctive achievements wasn't just political — it was military modernization on a scale few contemporaries in the region matched."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Ranjit Singh built the Fauj-i-Khas ('special army'), a modernized force trained using European-style drilling, artillery, and infantry tactics — a deliberate departure from older cavalry-centered warfare. He recruited European military officers (including French and Italian trainers) to help modernize training and weapons production, while the army remained genuinely Sikh Empire-led and commanded. This wasn't just about winning battles — a modern, well-equipped, well-trained army was also what allowed the Empire to maintain stability and defend its borders across a diverse, multi-religious state. Explain why a ruler focused on maintaining a stable, pluralistic state (as you learned Ranjit Singh's court was in Day 1) would still invest heavily in military strength."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "The Fauj-i-Khas shows the Sikh Empire wasn't just militarily strong by chance — it was a deliberate, modern institution the state invested in and built. Tomorrow we'll look at the Empire's prosperity and its patronage of Sikh institutions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-10-1-3",
+    "lessonId": "lesson-sikhi-10-1-3",
+    "objectives": [
+      "Describe the Fauj-i-Khas as a modernized, European-trained army built by the Sikh Empire",
+      "Explain why military strength mattered for maintaining a stable, pluralistic state"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the Misl system and Ranjit Singh's unification from yesterday.\n2. Introduce the Fauj-i-Khas and its European-style modernization.\n3. Discuss why military strength and internal stability/pluralism aren't contradictory goals for a state.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: prosperity and institutional patronage.",
+    "differentiationTips": [
+      "Struggling: use a simple framing — a strong, well-organized army can be what KEEPS a diverse state stable and safe, not just what conquers new territory",
+      "Ready for more: ask them to consider why other regional powers of the era were also modernizing their militaries around this same time",
+      "Text-only content, per the platform's content policy"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The Fauj-i-Khas was Ranjit Singh's modernized army, trained using European-style drilling, artillery, and infantry tactics, with European officers assisting training. 2. A strong, modern military helped a diverse, multi-religious state maintain internal stability and defend its borders, supporting rather than contradicting its pluralistic governance.",
+    "standardsRationale": "Directly addresses the course's 'Sikh history from the Mughal era through the Sikh Empire' description, examining a specific, well-documented institution (military modernization) that made the Empire's stability and reach possible."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-10-1-3",
+    "lessonId": "lesson-sikhi-10-1-3",
+    "title": "The Fauj-i-Khas: A Modernized Army",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Fauj-i-Khas.",
+      "rows": [
+        { "problem": "What was the Fauj-i-Khas?" },
+        { "problem": "How did Ranjit Singh help modernize it?" },
+        { "problem": "Why did military strength matter for maintaining a stable, pluralistic state?" }
+      ]
+    }
+  }
+}

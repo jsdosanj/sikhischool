@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-10-1",
+    "courseId": "course-sikhi-10",
+    "order": 1,
+    "title": "The Sikh Empire",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-10-1-2",
+    "unitId": "unit-sikhi-10-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Misls: Before Unification",
+    "gradeLevel": "10",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned Ranjit Singh 'unified' rival factions. Today: who were they, and what did Punjab look like before that unification?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Before Ranjit Singh's rise, 18th-century Punjab was organized into Misls — a system of roughly a dozen independent Sikh military confederacies, each controlling its own territory and army, loosely cooperating for mutual defense but otherwise acting as separate powers. This period followed decades of instability and conflict in Punjab, and the Misl system was itself a real form of Sikh self-governance during that time — not a power vacuum, but a decentralized one. Ranjit Singh was born into one Misl (the Sukerchakia Misl) and, through a combination of military skill and alliance-building, brought the rival Misls under his own unified rule rather than conquering foreign territory. Explain, in your own words, why unifying several existing self-governing powers into one state is a different kind of achievement than simply conquering unclaimed land."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Understanding the Misls gives real context to yesterday's story — Ranjit Singh's achievement was consolidating existing Sikh power, not creating it from nothing. Tomorrow we'll look at one of his empire's most distinctive institutions: its modernized army."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-10-1-2",
+    "lessonId": "lesson-sikhi-10-1-2",
+    "objectives": [
+      "Describe the Misl system as a decentralized form of Sikh self-governance in 18th-century Punjab",
+      "Explain that Ranjit Singh unified existing Sikh powers rather than conquering unclaimed territory"
+    ],
+    "materialsNeeded": ["Yesterday's lesson notes", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's overview of Ranjit Singh's rise.\n2. Introduce the Misl system as roughly a dozen independent Sikh confederacies.\n3. Discuss the distinction between unification and conquest.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: the modernized Khalsa army.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — several separate, self-governing neighborhoods coming together under one shared mayor, rather than one neighborhood taking over land that belonged to no one",
+      "Ready for more: ask them to consider what skills (beyond military strength) would be needed to convince multiple independent, self-governing powers to accept unified rule",
+      "Text-only content, per the platform's content policy"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The Misls were roughly a dozen independent Sikh military confederacies governing 18th-century Punjab. 2. Ranjit Singh was born into the Sukerchakia Misl and unified the rival Misls through military skill and alliance-building. 3. Unifying existing self-governing powers requires political skill (alliances, legitimacy, negotiation) beyond what conquering unclaimed territory would require.",
+    "standardsRationale": "Directly addresses the course's 'Sikh history from the Mughal era through the Sikh Empire' description, providing essential historical context (the Misl system) for understanding what Ranjit Singh's unification actually accomplished."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-10-1-2",
+    "lessonId": "lesson-sikhi-10-1-2",
+    "title": "The Misls: Before Unification",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Misl system.",
+      "rows": [
+        { "problem": "What was the Misl system?" },
+        { "problem": "Which Misl was Ranjit Singh born into?" },
+        { "problem": "Why is unifying existing self-governing powers a different achievement than conquering unclaimed land?" }
+      ]
+    }
+  }
+}

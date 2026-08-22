@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-10-1",
+    "courseId": "course-social-studies-10",
+    "order": 1,
+    "title": "Colonialism and the Modern World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-10-1-5",
+    "unitId": "unit-social-studies-10-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Colonialism's Framework",
+    "gradeLevel": "10",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a three-part analytical framework for studying colonialism anywhere in the world: why it happened, how it was governed, and what it did economically."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: colonial expansion was driven by economic motive, technological/military advantage, and competitive pressure between rival powers, which reinforced each other (Day 2). Colonizing powers governed through direct rule (replacing local structures) or indirect rule (controlling through existing local rulers) — neither gave colonized populations genuine self-determination (Day 3). Colonial economies were often restructured around cash-crop agriculture, resource extraction, and restricted local industry, effects that often outlasted colonial rule itself (Day 4). Using this three-part framework (motive, governance, economics), write a short paragraph explaining why studying colonialism as a general pattern helps historians understand many different regions' histories, even though every region's specific story is different."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a genuine analytical framework for studying colonialism, not just a list of facts. This is exactly the tool we'll use in upcoming weeks to study South Asia's specific colonial history and its aftermath with the care and depth that story deserves."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-10-1-5",
+    "lessonId": "lesson-social-studies-10-1-5",
+    "objectives": [
+      "Synthesize the week's three-part framework — motive, governance, economics — for analyzing colonialism",
+      "Explain the value of a general analytical framework for comparing different regional histories"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 3 prior days together, out loud.\n2. Have the child write the synthesis paragraph independently.\n3. Complete the cumulative review worksheet.\n4. Discuss any uncertain answers together before finishing.\n5. Preview that upcoming weeks will apply this framework to South Asia's specific colonial history with more depth and care.",
+    "differentiationTips": [
+      "Struggling: provide the three framework categories (motive, governance, economics) as sentence starters for the synthesis paragraph",
+      "Ready for more: ask them to predict what kinds of primary sources (government records, economic data, personal accounts) a historian would need to apply this framework to a specific region",
+      "Be explicit that this week deliberately built a general framework — the specific, sensitive history of South Asia's colonization and partition will get its own careful, dedicated treatment in future weeks, not compressed into this introductory unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "The three-part framework is: (1) motive — why expansion happened, (2) governance — how colonized territories were administered, (3) economics — how colonial rule reshaped local economies. A general framework helps because it gives historians a consistent set of questions to ask when comparing different regions, even though each region's specific history and details differ.",
+    "standardsRationale": "Consolidates the C3 Framework's History, Civics, and Economics dimensions before the unit moves to specific regional case studies, matching the 'consolidate before adding more' pacing established across this session, and explicitly previews that South Asia's colonial history and partition will receive dedicated, carefully-sourced future treatment rather than being compressed into this introductory week."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-10-1-5",
+    "lessonId": "lesson-social-studies-10-1-5",
+    "title": "Colonialism's Framework: Week 1 Review",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Using this week's three-part framework (motive, governance, economics), write your synthesis paragraph.",
+      "prompts": [
+        { "prompt": "Why does a general framework help when studying colonialism across different regions?", "lines": 6 }
+      ]
+    }
+  }
+}

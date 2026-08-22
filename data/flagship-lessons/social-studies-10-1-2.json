@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-10-1",
+    "courseId": "course-social-studies-10",
+    "order": 1,
+    "title": "Colonialism and the Modern World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-10-1-2",
+    "unitId": "unit-social-studies-10-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Why Colonial Expansion Happened",
+    "gradeLevel": "10",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what colonialism generally involved. Today: what drove powerful nations to pursue it in the first place?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Historians generally identify three connected drivers behind colonial expansion, especially from the 1700s through the early 1900s: economic motives (access to raw materials, new markets to sell manufactured goods, and control of valuable trade routes), technological and military advantages (industrial-era advances in shipping, weapons, and communication that made distant conquest and control newly possible), and competitive pressure between rival powers (once one nation expanded, others often felt pressure to compete for territory and resources rather than be left behind). These three factors reinforced each other — economic motive created the reason, technology created the means, and competition accelerated the pace. Identify which of these three drivers you think was most fundamental — the one the other two depended on — and explain your reasoning."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Understanding why colonial expansion happened — not just what it looked like — is essential background for the specific regional histories this unit will study. Tomorrow we'll look at how colonial powers actually governed the territories they controlled."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-10-1-2",
+    "lessonId": "lesson-social-studies-10-1-2",
+    "objectives": [
+      "Identify the three main drivers of colonial expansion: economic motive, technological/military advantage, competitive pressure",
+      "Explain how these three drivers reinforced one another"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's general colonialism pattern.\n2. Introduce the three drivers with real historical framing (industrial-era technology, trade competition among European powers).\n3. Discuss how the three drivers reinforced each other rather than acting independently.\n4. Have the child argue for which driver was most fundamental, with reasoning.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: how colonial powers governed.",
+    "differentiationTips": [
+      "Struggling: use a simple cause-and-effect chain diagram (economic motive → technological means → competitive acceleration) to make the relationship concrete",
+      "Ready for more: ask them to name a specific historical example of a technological advance (e.g., steamships, telegraph) that made distant colonial control more feasible",
+      "Keep this lesson at the general, global-pattern level — specific regional applications (including South Asia) come in later, more carefully sourced lessons"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The three drivers are economic motive, technological/military advantage, and competitive pressure between rival powers. 2. There's no single 'correct' most-fundamental driver — a well-reasoned argument for any of the three, explaining the reinforcing relationship, is a strong answer.",
+    "standardsRationale": "Addresses the C3 Framework's History dimension (D2.His.1, analyzing connections among historical developments) and WA Social Studies' World History strand, establishing the causal-analysis foundation this unit's regional case studies will build on."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-10-1-2",
+    "lessonId": "lesson-social-studies-10-1-2",
+    "title": "Why Colonial Expansion Happened",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about the drivers of colonial expansion.",
+      "prompts": [
+        { "prompt": "Name the three main drivers of colonial expansion:", "lines": 2 },
+        { "prompt": "Which driver do you think was most fundamental, and why?", "lines": 3 },
+        { "prompt": "How did these three drivers reinforce each other?", "lines": 3 }
+      ]
+    }
+  }
+}

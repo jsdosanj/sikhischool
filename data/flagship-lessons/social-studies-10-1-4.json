@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-10-1",
+    "courseId": "course-social-studies-10",
+    "order": 1,
+    "title": "Colonialism and the Modern World",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-10-1-4",
+    "unitId": "unit-social-studies-10-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Colonialism's Economic Impact",
+    "gradeLevel": "10",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Colonialism wasn't only a political arrangement — it reshaped colonized economies in ways many regions are still navigating today."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A common pattern across many colonized regions: colonial economies were generally organized to benefit the colonizing power, not the colonized population. This often took the form of cash-crop agriculture (land redirected to growing crops for export rather than local food needs), resource extraction (raw materials shipped out for processing elsewhere, rather than developed locally), and restricted local industry (colonial policy sometimes actively limiting local manufacturing so the colonized region stayed a market for the colonizer's own manufactured goods). The combined effect often left colonized economies structurally dependent on the colonizing power well after political independence was achieved — a pattern historians and economists still study today. Explain, in your own words, why economic effects from colonial rule might outlast the colonial period itself, even after a country becomes formally independent."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "This economic pattern — export-oriented agriculture, resource extraction, restricted local industry — appears across many different colonized regions, though the specific details vary by place. Tomorrow we'll review this week's whole framework together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-10-1-4",
+    "lessonId": "lesson-social-studies-10-1-4",
+    "objectives": [
+      "Describe the general economic pattern of colonialism: cash-crop agriculture, resource extraction, restricted local industry",
+      "Explain why these economic effects often outlasted the colonial period itself"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's drivers and governance strategies.\n2. Introduce the three economic-impact patterns with general, cross-regional framing.\n3. Discuss why structural economic effects can outlast formal political independence.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: use a concrete analogy — if a farm is redirected to grow only one export crop for years, it takes real time and investment to rebuild diverse local food production afterward, even once the farm's owner changes",
+      "Ready for more: ask them to connect this lesson back to Day 2's economic-motive driver — how the same economic goal that drove expansion also shaped how colonized economies were structured",
+      "Keep this lesson at the general, cross-regional pattern level — specific regional economic history (including South Asia) comes in later, more carefully sourced lessons"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The three patterns are cash-crop agriculture, resource extraction, and restricted local industry. 2. These effects often outlast colonial rule because rebuilding diversified local economies and industries takes significant time and investment beyond just a change in political control.",
+    "standardsRationale": "Addresses the C3 Framework's Economics dimension (D2.Eco.1, analyzing how economic decisions affect well-being) and WA Social Studies' World History strand, completing this week's three-part analytical framework (motive, governance, economics) for studying colonialism."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-10-1-4",
+    "lessonId": "lesson-social-studies-10-1-4",
+    "title": "Colonialism's Economic Impact",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about colonialism's economic impact.",
+      "prompts": [
+        { "prompt": "Name the three economic-impact patterns discussed today:", "lines": 2 },
+        { "prompt": "Why might these effects outlast the colonial period itself?", "lines": 3 }
+      ]
+    }
+  }
+}

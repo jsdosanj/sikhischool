@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-4-2",
+    "courseId": "course-science-4",
+    "order": 2,
+    "title": "Structures That Help Organisms Survive",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-4-2-3",
+    "unitId": "unit-science-4-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Structures for Sensing the Environment",
+    "gradeLevel": "4",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned external and internal survival structures. Today: structures that help an organism sense its world!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Animals use structures to receive information from their environment and respond to it: eyes detect light, ears detect sound, and whiskers help many animals feel their surroundings, especially in the dark. Even plants sense their environment — a plant's leaves and stem often bend toward sunlight, a response called phototropism. Pick one animal sense organ (eyes, ears, or whiskers), and explain what information it helps the animal receive and how the animal might use that information."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how structures let living things sense and respond to their world! Tomorrow we'll compare structures across very different environments."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-4-2-3",
+    "lessonId": "lesson-science-4-2-3",
+    "objectives": [
+      "Identify sense structures (eyes, ears, whiskers) and the information they help an organism receive",
+      "Understand that plants can also sense and respond to their environment (phototropism)"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's external/internal structures work.\n2. Introduce sense structures and phototropism.\n3. Have the child explain one sense structure's function and use.\n4. Complete the worksheet.\n5. Preview tomorrow's structures-across-environments lesson.",
+    "differentiationTips": [
+      "Struggling: focus on the child's own senses (their own eyes/ears) as a relatable starting point before generalizing to animals",
+      "Ready for more: ask the child to predict what might happen to an animal that lost one of its sense structures",
+      "A houseplant that's visibly grown toward a window is a genuinely memorable, concrete demonstration of phototropism if one is available"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended explanation activity — check that the child correctly names what their chosen sense structure detects (light, sound, or touch/vibration) and gives a sensible real-world use for that information.",
+    "standardsRationale": "Directly addresses NGSS Grade 4 Life Science standard 4-LS1-2: using models to describe that animals receive different types of information through their senses, processing it to survive."
+  },
+  "worksheet": {
+    "id": "worksheet-science-4-2-3",
+    "lessonId": "lesson-science-4-2-3",
+    "title": "Structures for Sensing the Environment",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Pick one sense structure and explain what information it helps an animal receive.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

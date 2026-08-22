@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-11-2",
+    "courseId": "course-social-studies-11",
+    "order": 2,
+    "title": "America and the Roaring Twenties",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-11-2-2",
+    "unitId": "unit-social-studies-11-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "America's New Role in the World",
+    "gradeLevel": "11",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned about US entry into the war. Today: how the war's end reshaped America's global role!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "World War I ended in 1918, and the United States emerged from the conflict as a stronger economic and military power on the world stage than it had been before, even though the war caused real hardship and loss. This marked a genuine shift: the US began to play a more active role in global affairs going forward, a change from its earlier, more isolated foreign policy tendencies. Explain why a country emerging from a major war with its industry and military strengthened could see its overall influence in the world grow, even after a costly conflict."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how the war reshaped America's global role! Tomorrow we'll see the cultural changes that followed at home."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-11-2-2",
+    "lessonId": "lesson-social-studies-11-2-2",
+    "objectives": [
+      "Understand that the US emerged from WWI with greater global economic/military influence",
+      "Explain how a strengthened industry and military can increase a country's overall influence"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's US-entry-into-WWI work briefly.\n2. Introduce the US's strengthened post-war global position.\n3. Have the child explain the industry/military-to-influence connection.\n4. Complete the worksheet.\n5. Preview tomorrow's cultural-change lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — a country that comes out of a difficult challenge stronger and better organized than before often finds other countries paying it more attention and respect afterward",
+      "Ready for more: ask the child what kinds of decisions a more globally influential country might now be asked to weigh in on that it wasn't before",
+      "Kept at a general historical-overview level, continuing this week's chronological thread"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A country with strengthened industry and military capacity has more real resources and leverage to influence world events, trade, and diplomacy — other nations tend to take a stronger, more capable country's interests and positions more seriously, which is why the US's post-WWI industrial and military strength translated into greater global influence going forward.",
+    "standardsRationale": "Directly addresses WA Social Studies and C3 Framework History standards on America's changing role in the world, continuing this week's chronological thread."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-11-2-2",
+    "lessonId": "lesson-social-studies-11-2-2",
+    "title": "America's New Role in the World",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about America's new global role.",
+      "prompts": [
+        { "prompt": "When did World War I end, and how did the US emerge from it?", "lines": 2 },
+        { "prompt": "Why can a strengthened industry and military increase a country's global influence?", "lines": 2 }
+      ]
+    }
+  }
+}

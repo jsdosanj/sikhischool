@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-11-2",
+    "courseId": "course-social-studies-11",
+    "order": 2,
+    "title": "America and the Roaring Twenties",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-11-2-3",
+    "unitId": "unit-social-studies-11-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Cultural Change: The Roaring Twenties",
+    "gradeLevel": "11",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've traced the war's global impact. Today: the real cultural changes sweeping America at home!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The 1920s, often called the 'Roaring Twenties,' brought real cultural change to America: jazz music spread widely and became a defining sound of the era, new technologies like radio and the automobile changed daily life and entertainment, and social norms shifted noticeably, including changing fashion and greater public visibility for women following the 19th Amendment (from last week's Progressive Era unit). Explain how last week's 19th Amendment content connects to this week's changing social norms for women in the 1920s."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about the Roaring Twenties' real cultural changes! Tomorrow we'll look at the decade's economic boom."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-11-2-3",
+    "lessonId": "lesson-social-studies-11-2-3",
+    "objectives": [
+      "Understand the 1920s' cultural changes: jazz, new technology, shifting social norms",
+      "Connect last week's 19th Amendment content to this week's changing social norms for women"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets, last week's 19th Amendment notes", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's WWI-and-aftermath work.\n2. Review last week's 19th Amendment content briefly.\n3. Introduce the 1920s' cultural changes.\n4. Have the child connect the 19th Amendment to changing social norms.\n5. Complete the worksheet.\n6. Preview tomorrow's economic-boom lesson.",
+    "differentiationTips": [
+      "Struggling: focus on the direct, concrete connection — voting rights (19th Amendment) is one visible sign of women's greater public role, which the 1920s' broader social changes continued",
+      "Ready for more: ask the child why new technologies like radio might have helped spread cultural trends (like jazz music) faster and more widely than in earlier decades",
+      "This is a genuine cross-week connection, showing history as one continuous story rather than isolated weekly topics"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The 19th Amendment (1920), giving women the right to vote, was part of a broader shift toward greater public visibility and independence for women — the 1920s' changing fashion, social norms, and public life for women continued this same larger trend of women gaining a more prominent, active role in American public and cultural life.",
+    "standardsRationale": "Directly addresses WA Social Studies and C3 Framework History/Culture standards on 1920s social change, continuing this week's chronological thread and connecting explicitly to last week's unit."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-11-2-3",
+    "lessonId": "lesson-social-studies-11-2-3",
+    "title": "Cultural Change: The Roaring Twenties",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Roaring Twenties' cultural changes.",
+      "prompts": [
+        { "prompt": "Name two cultural changes of the Roaring Twenties.", "lines": 1 },
+        { "prompt": "How does the 19th Amendment connect to this week's changing social norms?", "lines": 2 }
+      ]
+    }
+  }
+}

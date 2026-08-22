@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-8-2",
+    "courseId": "course-punjabi-8",
+    "order": 2,
+    "title": "Punjabi Proverbs (ਅਖਾਣ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-8-2-1",
+    "unitId": "unit-punjabi-8-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is an Akhaan (Proverb)?",
+    "gradeLevel": "8",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored Punjab's geography. This week: literature — the short, wise sayings called ਅਖਾਣ (akhaan)!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "An ਅਖਾਣ (akhaan, proverb) is a complete saying passed down through generations that teaches a lesson about life — different from a ਮੁਹਾਵਰਾ (muhavara, idiom), which is usually a short phrase substituted into a sentence rather than a complete saying on its own. English has proverbs too, like 'the early bird catches the worm.' Write one English proverb you already know, and explain the lesson it teaches."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what makes an akhaan different from a muhavara! Tomorrow we'll learn our first real Punjabi proverb."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-8-2-1",
+    "lessonId": "lesson-punjabi-8-2-1",
+    "objectives": [
+      "Define ਅਖਾਣ (akhaan) as a complete, lesson-teaching saying",
+      "Distinguish an akhaan from a muhavara (idiom)",
+      "Write one known English proverb and explain its lesson"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Punjab-geography work briefly.\n2. Introduce ਅਖਾਣ and contrast it with last year's ਮੁਹਾਵਰਾ lesson (Grade 6).\n3. Have the child write and explain one English proverb.\n4. Complete the worksheet.\n5. Preview tomorrow's first real Punjabi proverb.",
+    "differentiationTips": [
+      "Struggling: offer 2-3 familiar English proverbs to choose from ('the early bird catches the worm,' 'don't judge a book by its cover') rather than requiring the child to recall one independently",
+      "Ready for more: ask the child why a complete-sentence proverb might carry a different kind of lesson than a shorter idiom phrase",
+      "Opens this week's literature thread from the course's own description, distinct from last week's geography and persuasive-writing threads"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child names a real, complete English proverb (not just a phrase) and explains its underlying lesson correctly, e.g. 'the early bird catches the worm' teaches that acting early brings advantages.",
+    "standardsRationale": "Directly addresses the course's literature-excerpts thread, opening it with a genre-definition lesson before introducing real Punjabi examples in the days ahead."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-8-2-1",
+    "lessonId": "lesson-punjabi-8-2-1",
+    "title": "What Is an Akhaan (Proverb)?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write one English proverb you know and explain its lesson.",
+      "prompts": [
+        { "prompt": "An English proverb I know:", "lines": 1 },
+        { "prompt": "The lesson it teaches:", "lines": 2 }
+      ]
+    }
+  }
+}

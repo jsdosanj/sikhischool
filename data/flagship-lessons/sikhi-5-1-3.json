@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-5-1",
+    "courseId": "course-sikhi-5",
+    "order": 1,
+    "title": "Contributions of the First Gurus",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-5-1-3",
+    "unitId": "unit-sikhi-5-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Guru Amar Das: Strengthening Equality",
+    "gradeLevel": "5",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about founding a community and standardizing a script. Today, the third Guru's contribution: putting equality into real, unavoidable practice."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Guru Amar Das, the third Guru, strengthened Langar into a firm, unavoidable rule: anyone who wanted to meet him — no matter how wealthy, powerful, or important — had to first sit and eat in Langar, on the floor, alongside everyone else, before being received. This meant emperors and commoners literally sat side by side to eat. This wasn't just a nice idea — it was a real, enforced practice that made equality unavoidable, not optional. He also spoke out against unfair treatment of women in his era and worked to expand Sikh religious organization across a wider region. Think about why REQUIRING this practice mattered more than simply encouraging it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how Guru Amar Das turned the idea of equality into an unavoidable, real practice. Tomorrow we'll learn about the fourth Guru's contribution: founding a city that still exists today."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-5-1-3",
+    "lessonId": "lesson-sikhi-5-1-3",
+    "objectives": [
+      "Explain how Guru Amar Das made equality an unavoidable, enforced practice through Langar",
+      "Recognize his broader contributions to religious organization and speaking against unfair treatment of women"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the first two Gurus' contributions.\n2. Introduce Guru Amar Das's Langar requirement, emphasizing that even powerful visitors had no exception.\n3. Discuss why REQUIRING equality (not just suggesting it) is a stronger, more meaningful act.\n4. Briefly mention his broader contributions.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: Guru Ram Das and Amritsar.",
+    "differentiationTips": [
+      "Struggling: focus entirely on the Langar-requirement story, the most concrete and memorable example",
+      "Ready for more: ask them to think of a modern rule that works the same way — making fairness unavoidable rather than optional",
+      "Text-only content, per the platform's content policy — no depiction of Guru Amar Das, symbolic references only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Everyone, including powerful visitors, had to eat in Langar on the floor before meeting Guru Amar Das. 2. This made equality unavoidable, not just an idea people could choose to follow. 3. He also spoke out against unfair treatment of women in his era.",
+    "standardsRationale": "Deepens the equality theme established in earlier grades (Langar/pangat) with a specific, real historical practice showing HOW that value was actively enforced, not just taught."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-5-1-3",
+    "lessonId": "lesson-sikhi-5-1-3",
+    "title": "Guru Amar Das: Strengthening Equality",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What did every visitor have to do before meeting Guru Amar Das?" },
+        { "problem": "Why did this rule make equality unavoidable, not just an idea?" },
+        { "problem": "What else did Guru Amar Das speak out against?" }
+      ]
+    }
+  }
+}

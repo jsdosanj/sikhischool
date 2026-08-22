@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-sikhi-5-1",
+    "courseId": "course-sikhi-5",
+    "order": 1,
+    "title": "Contributions of the First Gurus",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-5-1-5",
+    "unitId": "unit-sikhi-5-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Contributions of the First Gurus",
+    "gradeLevel": "5",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you traced four real, lasting contributions across the first four Gurus. Let's connect them all into one timeline."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review, in order: Guru Nanak founded Sikhi and the community of Kartarpur (Day 1). Guru Angad standardized the Gurmukhi script you use in every Punjabi lesson (Day 2). Guru Amar Das made equality unavoidable by requiring everyone to eat together in Langar (Day 3). Guru Ram Das founded the town that became the city of Amritsar (Day 4). Notice: each Guru built on what came before — a community, a shared script, real equality, a physical center — pieces that together made Sikhi lasting and strong. Draw or write a simple 4-step timeline connecting all four contributions."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you now understand four real, connected contributions across the first four Gurus, and how they built on each other. This same 'contributions of the Ten Gurus' theme will continue in future units."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-5-1-5",
+    "lessonId": "lesson-sikhi-5-1-5",
+    "objectives": [
+      "Recall each of the first four Gurus' specific, lasting contribution",
+      "Explain how the four contributions built on each other over time"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil", "Paper for the timeline activity"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud, in order.\n2. Have the child draw or write a simple 4-step timeline.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — note that future weeks will continue tracing the remaining Gurus' contributions, including the formation of the Khalsa.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to predict what kind of contribution the FIFTH Guru might make, based on the pattern so far (a good bridge to future lessons, without revealing specifics)",
+      "This is a good checkpoint to note which day's Guru/contribution needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Guru Nanak founded Sikhi and Kartarpur. 2. Guru Angad standardized the Gurmukhi script. 3. Guru Amar Das made equality unavoidable through Langar. 4. Guru Ram Das founded the town that became Amritsar.",
+    "standardsRationale": "Consolidates the week's four-Guru contribution timeline before the unit moves to later Gurus and the formation of the Khalsa, matching the 'consolidate before adding more' pacing established across this session and the course's own 'contributions of the Ten Gurus' description."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-5-1-5",
+    "lessonId": "lesson-sikhi-5-1-5",
+    "title": "Contributions of the First Gurus: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Match each Guru to their contribution.",
+      "rows": [
+        { "problem": "Guru Nanak's contribution:" },
+        { "problem": "Guru Angad's contribution:" },
+        { "problem": "Guru Amar Das's contribution:" },
+        { "problem": "Guru Ram Das's contribution:" }
+      ]
+    }
+  }
+}

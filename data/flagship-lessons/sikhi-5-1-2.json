@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-5-1",
+    "courseId": "course-sikhi-5",
+    "order": 1,
+    "title": "Contributions of the First Gurus",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-5-1-2",
+    "unitId": "unit-sikhi-5-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Guru Angad: The Gurmukhi Script",
+    "gradeLevel": "5",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned how Guru Nanak founded Sikhi. Today, the second Guru's contribution: the very script you use to read Punjabi and Gurbani."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Guru Angad, the second Guru, is credited with standardizing the Gurmukhi script — the writing system used for Punjabi and for Sikh scripture. Before this, the script existed in less organized, inconsistent forms; Guru Angad gave it a standard set of letters and structure, making it easier to teach, write, and preserve Sikh teachings accurately for future generations. He also promoted physical fitness, encouraging wrestling and exercise at a training ground (akhara), believing a strong body supported a strong, disciplined mind. Think about every Gurmukhi lesson you've done in this course — all of it uses the script Guru Angad standardized."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned that the very script you've been learning in your Punjabi lessons traces back to Guru Angad's contribution. Tomorrow we'll learn about the third Guru's contribution to equality."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-5-1-2",
+    "lessonId": "lesson-sikhi-5-1-2",
+    "objectives": [
+      "Identify Guru Angad's standardization of the Gurmukhi script as his lasting contribution",
+      "Connect this contribution directly to the child's own Punjabi-language learning"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Optional: a past Punjabi lesson worksheet to point to as a real example"],
+    "facilitationScript": "1. Review Guru Nanak's contribution from yesterday.\n2. Introduce Guru Angad and the Gurmukhi script standardization.\n3. Make the connection explicit and concrete: point to a past Punjabi worksheet and note it uses this same script.\n4. Briefly mention his promotion of physical fitness as a second contribution.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: Guru Amar Das and equality.",
+    "differentiationTips": [
+      "Struggling: focus entirely on the Gurmukhi script contribution, skipping the physical-fitness detail if it's too much for one lesson",
+      "Ready for more: ask them why a standardized script matters for accurately preserving important writings over centuries",
+      "Text-only content, per the platform's content policy — no depiction of Guru Angad, symbolic references only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Guru Angad standardized the Gurmukhi script. 2. This matters because it made it easier to teach, write, and accurately preserve Sikh teachings. 3. Guru Angad also promoted physical fitness through wrestling and exercise.",
+    "standardsRationale": "Gives a genuinely concrete, verifiable historical contribution (script standardization) that the child can directly connect to their own prior Punjabi lessons this session — a meaningful cross-subject link."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-5-1-2",
+    "lessonId": "lesson-sikhi-5-1-2",
+    "title": "Guru Angad: The Gurmukhi Script",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What script did Guru Angad standardize?" },
+        { "problem": "Why did a standardized script matter for preserving Sikh teachings?" },
+        { "problem": "What else did Guru Angad promote, besides the script?" }
+      ]
+    }
+  }
+}

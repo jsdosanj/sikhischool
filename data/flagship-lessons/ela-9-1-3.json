@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-9-1",
+    "courseId": "course-ela-9",
+    "order": 1,
+    "title": "Introduction to Rhetoric",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-9-1-3",
+    "unitId": "unit-ela-9-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Pathos: Appealing to Emotion",
+    "gradeLevel": "9",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Facts alone rarely move people to act. Today, pathos: how writers connect an argument to genuine feeling, without crossing into manipulation."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Pathos works through vivid, specific imagery and language that helps an audience genuinely feel the stakes of an issue, not just understand it intellectually. Read this part of the garden speech: 'Picture a student who's never tasted a tomato picked warm off the vine, who's never felt the quiet pride of watching something they planted actually grow. That's not a small thing to miss out on.' Notice this doesn't use exaggeration or false claims — it uses real, specific sensory imagery (a warm tomato, the feeling of pride) to make an abstract benefit (garden education) feel concrete and personal. Identify the specific words or phrases doing the emotional work in this passage."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified how genuine pathos works through specific, honest imagery rather than exaggeration. Tomorrow we'll examine logos: the logical backbone of an argument."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-9-1-3",
+    "lessonId": "lesson-ela-9-1-3",
+    "objectives": [
+      "Explain how pathos works through specific, honest imagery rather than exaggeration",
+      "Identify specific words/phrases in a passage that build a genuine emotional appeal"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review ethos from yesterday.\n2. Introduce pathos, emphasizing the distinction between genuine emotional appeal and manipulative exaggeration.\n3. Read today's passage together, identifying the specific sensory/emotional language.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: logos.",
+    "differentiationTips": [
+      "Struggling: focus on just identifying the two clearest emotional images (warm tomato, quiet pride) rather than a full analysis",
+      "Ready for more: ask them to write one more sentence for the speech using genuine pathos without exaggeration",
+      "This is a good moment to discuss ethical rhetoric — pathos used honestly (real, specific imagery) versus pathos used manipulatively (fear-mongering, exaggerated claims)"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Pathos works through specific, honest imagery, not exaggeration. 2. Emotional language in the passage includes 'warm off the vine' and 'quiet pride' — specific, sensory details that make the benefit feel personal.",
+    "standardsRationale": "Continues Common Core RI.9-10.6's rhetoric analysis with pathos, explicitly distinguishing ethical emotional appeal from manipulation — a genuinely important critical-thinking skill for evaluating real-world persuasive writing."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-9-1-3",
+    "lessonId": "lesson-ela-9-1-3",
+    "title": "Pathos: Appealing to Emotion",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about pathos.",
+      "rows": [
+        { "problem": "How does genuine pathos differ from exaggeration or manipulation?" },
+        { "problem": "Identify one specific emotional image from the passage." },
+        { "problem": "What abstract idea does that image make feel concrete?" }
+      ]
+    }
+  }
+}

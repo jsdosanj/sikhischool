@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-9-1",
+    "courseId": "course-ela-9",
+    "order": 1,
+    "title": "Introduction to Rhetoric",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-9-1-1",
+    "unitId": "unit-ela-9-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is Rhetoric? The Three Appeals",
+    "gradeLevel": "9",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Over 2,000 years ago, the philosopher Aristotle identified three ways speakers and writers persuade an audience — a framework still used to analyze speeches, ads, and essays today."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Rhetoric is the art of effective, persuasive communication. Aristotle identified three appeals a speaker or writer uses to persuade: ethos (credibility — why should the audience trust this speaker?), pathos (emotion — how does this make the audience feel?), and logos (logic — what evidence and reasoning support this claim?). Most effective persuasive writing uses all three together, not just one. This week, we'll analyze an original short speech, 'Why Our School Should Start a Community Garden,' identifying each appeal in turn. Read the opening: 'As someone who has volunteered at our local food bank for two years, I've seen firsthand how many families struggle to access fresh produce. Our school has an unused half-acre of land behind the gym — land that could grow real vegetables for real families.' Which appeal (ethos, pathos, or logos) does this opening lean on most, and why?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified your first rhetorical appeal in a real piece of persuasive writing. Tomorrow we'll dig deeper into ethos: establishing credibility."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-9-1-1",
+    "lessonId": "lesson-ela-9-1-1",
+    "objectives": [
+      "Define rhetoric and Aristotle's three appeals: ethos, pathos, logos",
+      "Identify which appeal a given passage relies on most"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce rhetoric and its historical origin with Aristotle.\n2. Define each of the three appeals clearly with a one-word anchor (ethos=credibility, pathos=emotion, logos=logic).\n3. Read the garden-speech opening together and discuss which appeal it leans on (ethos, from the volunteer experience).\n4. Complete the worksheet.\n5. Preview tomorrow's topic: a deeper look at ethos.",
+    "differentiationTips": [
+      "Struggling: focus on just recognizing the three terms and their one-word anchors before analyzing real text",
+      "Ready for more: ask them to identify a real ad or speech they've encountered and guess which appeal it relies on most",
+      "This original speech ('Why Our School Should Start a Community Garden') will be reused across the whole week — no need to reread it from scratch each day"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Ethos = credibility, pathos = emotion, logos = logic. 2. The opening leans most on ethos — the speaker establishes credibility through their two years of food bank volunteer experience.",
+    "standardsRationale": "Directly addresses Common Core Grade 9-10 Reading standard RI.9-10.6/SL.9-10.3: evaluating rhetoric and how a speaker uses evidence to advance a point of view, using an original speech to avoid copyright or fabricated-detail risk with a real published text."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-9-1-1",
+    "lessonId": "lesson-ela-9-1-1",
+    "title": "What Is Rhetoric? The Three Appeals",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about rhetoric.",
+      "rows": [
+        { "problem": "What does ethos mean?" },
+        { "problem": "What does pathos mean?" },
+        { "problem": "What does logos mean?" }
+      ]
+    }
+  }
+}

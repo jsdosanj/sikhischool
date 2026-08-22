@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-5-1",
+    "courseId": "course-science-5",
+    "order": 1,
+    "title": "Properties of Matter",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-5-1-2",
+    "unitId": "unit-science-5-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Identifying Materials by Their Properties",
+    "gradeLevel": "5",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned matter is made of tiny particles. Today, use measurable properties to identify and compare different materials."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Scientists identify materials using measurable properties: density (how heavy something is for its size), solubility (whether it dissolves in water), and conductivity (whether it lets electricity or heat pass through). Test 3 household materials — like salt, sand, and a small piece of metal — by dropping each into a cup of water and observing whether it dissolves (solubility) and whether it sinks or floats (related to density). Record what you observe for each."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used real, measurable properties to compare different materials — exactly how scientists identify unknown substances. Tomorrow we'll investigate what happens to the total amount of matter when substances are heated, cooled, or mixed."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-5-1-2",
+    "lessonId": "lesson-science-5-1-2",
+    "objectives": [
+      "Identify materials using measurable properties: density, solubility, conductivity",
+      "Conduct a simple investigation testing solubility and sinking/floating for real materials"
+    ],
+    "materialsNeeded": ["A cup of water", "Salt, sand, and a small piece of metal (like a coin or paperclip)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's particle model.\n2. Introduce density, solubility, and conductivity as measurable properties.\n3. Test each of the 3 materials in water together, observing and recording.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: conservation of matter.",
+    "differentiationTips": [
+      "Struggling: focus on just solubility (does it dissolve or not) rather than introducing density and conductivity in depth",
+      "Ready for more: test 2 more materials of their choosing and add them to their observations",
+      "Emphasize this is exactly how real scientists identify unknown substances — a genuine, useful skill"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Salt dissolves in water (soluble). 2. Sand does not dissolve and sinks. 3. Metal does not dissolve and sinks (denser than water).",
+    "standardsRationale": "Directly addresses NGSS 5-PS1-3: making observations and measurements to identify materials based on their properties."
+  },
+  "worksheet": {
+    "id": "worksheet-science-5-1-2",
+    "lessonId": "lesson-science-5-1-2",
+    "title": "Identifying Materials by Their Properties",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each material, write whether it dissolved in water and whether it sank or floated.",
+      "rows": [
+        { "problem": "Salt: dissolved? sank or floated?" },
+        { "problem": "Sand: dissolved? sank or floated?" },
+        { "problem": "Metal: dissolved? sank or floated?" }
+      ]
+    }
+  }
+}

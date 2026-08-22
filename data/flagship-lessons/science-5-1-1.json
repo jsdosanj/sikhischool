@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-5-1",
+    "courseId": "course-science-5",
+    "order": 1,
+    "title": "Properties of Matter",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-5-1-1",
+    "unitId": "unit-science-5-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Matter Is Made of Tiny Particles",
+    "gradeLevel": "5",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Everything around you — the air you breathe, the water you drink, the chair you sit on — is made of matter. But matter isn't solid all the way through; it's made of incredibly tiny particles too small to see."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "All matter is made up of particles so small that no eye or ordinary microscope can see them individually. Here's evidence: put a drop of food coloring in a glass of water without stirring, and watch it slowly spread through the whole glass on its own — that happens because tiny particles of the coloring and water are moving and mixing, even though you can't see the individual particles. Try this experiment (or a similar one, like smelling a scent spreading across a room) and describe what you observe as evidence of tiny moving particles."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just observed real evidence that matter is made of tiny, moving particles — even though you can't see them directly. Tomorrow we'll use particle-level thinking to identify materials by their properties."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-5-1-1",
+    "lessonId": "lesson-science-5-1-1",
+    "objectives": [
+      "Describe matter as being made up of particles too small to see",
+      "Identify observable evidence (like diffusion) that supports the particle model of matter"
+    ],
+    "materialsNeeded": ["A clear glass of water", "Food coloring", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask what the child thinks matter is made of, at the smallest possible level.\n2. Do the food-coloring-in-water demonstration together, observing closely without stirring.\n3. Discuss what the slow spreading suggests about tiny, moving particles.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: identifying materials by their properties.",
+    "differentiationTips": [
+      "Struggling: also try smelling a strong scent (like perfume or vanilla) spreading across a room as a second, more intuitive example of the same idea",
+      "Ready for more: research the word 'diffusion,' the scientific name for particles spreading out on their own",
+      "The actual observation (patient watching) matters more than lecture here — let the demonstration do the teaching"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Matter is made of particles too small to see. 2. Food coloring spreading through water without stirring is evidence of tiny particles moving and mixing on their own. 3. Answers will vary for the child's own described observation.",
+    "standardsRationale": "Directly addresses NGSS 5-PS1-1: developing a model to describe that matter is made of particles too small to be seen, the foundational Grade 5 Physical Science standard this week's unit builds from."
+  },
+  "worksheet": {
+    "id": "worksheet-science-5-1-1",
+    "lessonId": "lesson-science-5-1-1",
+    "title": "Matter Is Made of Tiny Particles",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about your investigation.",
+      "rows": [
+        { "problem": "What is all matter made up of?" },
+        { "problem": "What did the food coloring do in the water without stirring?" },
+        { "problem": "What does that spreading tell you about the particles in the coloring and water?" }
+      ]
+    }
+  }
+}

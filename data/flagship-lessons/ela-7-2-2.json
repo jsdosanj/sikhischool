@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-7-2",
+    "courseId": "course-ela-7",
+    "order": 2,
+    "title": "The Research Paper Process",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-7-2-2",
+    "unitId": "unit-ela-7-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Finding and Evaluating Sources",
+    "gradeLevel": "7",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you wrote a research question. Today: find and evaluate real sources to answer it!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Not all sources are equally trustworthy. Check three things: who wrote it (do they have real expertise?), where it's published (is it a reliable, established outlet?), and when it was published (is the information current, especially for fast-changing topics?). Pick a real or hypothetical source for your Day 1 research question, and evaluate it against all three criteria."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just evaluated a source using real credibility criteria! Tomorrow we'll learn to take notes without plagiarizing."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-7-2-2",
+    "lessonId": "lesson-ela-7-2-2",
+    "objectives": [
+      "Evaluate a source's credibility using author expertise, publication reliability, and currency",
+      "Apply all three criteria to a real or hypothetical source"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's research question.\n2. Introduce the three source-evaluation criteria.\n3. Have the child evaluate a source against all three.\n4. Complete the worksheet.\n5. Preview tomorrow's note-taking/plagiarism lesson.",
+    "differentiationTips": [
+      "Struggling: use a clearly-strong example (a scientist's peer-reviewed article) and a clearly-weak example (an anonymous social media post) to make the criteria concrete first",
+      "Ready for more: ask the child to think of a source that might pass one criterion but fail another",
+      "This is a genuine real-world skill directly connecting to the course's 'digital citizenship' description too"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended evaluation activity — check that the child applies all three criteria (author expertise, publication reliability, currency) sensibly to their chosen source.",
+    "standardsRationale": "Directly addresses Common Core Grade 7 Writing standard W.7.8: gathering relevant information from multiple sources, assessing credibility of each source, continuing this week's research-paper thread."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-7-2-2",
+    "lessonId": "lesson-ela-7-2-2",
+    "title": "Finding and Evaluating Sources",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Evaluate your source against each criterion.",
+      "rows": [
+        { "problem": "Does the author have real expertise on this topic?" },
+        { "problem": "Is it published somewhere reliable?" },
+        { "problem": "Is the information current?" }
+      ]
+    }
+  }
+}

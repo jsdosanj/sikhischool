@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-11-2",
+    "courseId": "course-science-11",
+    "order": 2,
+    "title": "Newton's Laws of Motion",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-11-2-2",
+    "unitId": "unit-science-11-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Newton's Second Law: F = ma",
+    "gradeLevel": "11",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned inertia. Today: the equation connecting force directly to acceleration!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Newton's Second Law states F = ma: the net force on an object equals its mass times its acceleration. This means a larger force produces greater acceleration, and a larger mass requires more force to achieve the same acceleration — directly connecting last week's acceleration content to a real physical cause. A 5 kg object experiences a net force of 20 N. Find its acceleration using F = ma."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used Newton's Second Law to find acceleration! Tomorrow we'll learn the Third Law, about action-reaction pairs."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-11-2-2",
+    "lessonId": "lesson-science-11-2-2",
+    "objectives": [
+      "State Newton's Second Law: F = ma",
+      "Correctly find the acceleration of a 5 kg object under a 20 N net force"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's First Law/inertia work briefly.\n2. Introduce F=ma and rearrange it to solve for acceleration.\n3. Have the child solve the 5 kg/20 N problem.\n4. Complete the worksheet.\n5. Preview tomorrow's Third Law lesson.",
+    "differentiationTips": [
+      "Struggling: rearrange the formula step by step (F=ma → a=F/m) before plugging in numbers, rather than trying to solve it all at once",
+      "Ready for more: ask the child what would happen to the acceleration if the same 20 N force acted on a 10 kg object instead (double the mass)",
+      "This is the week's most directly mathematical lesson — worth connecting explicitly back to last week's kinematics equations"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "a = F/m = 20/5 = 4 m/s².",
+    "standardsRationale": "Directly addresses NGSS Grade 9-12 Physical Science standard HS-PS2-1: using F=ma to predict changes in motion given forces on an object, continuing this week's thread."
+  },
+  "worksheet": {
+    "id": "worksheet-science-11-2-2",
+    "lessonId": "lesson-science-11-2-2",
+    "title": "Newton's Second Law: F = ma",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use F = ma to solve each problem.",
+      "rows": [
+        { "problem": "A 5 kg object experiences a net force of 20 N. Find its acceleration." },
+        { "problem": "A 1000 kg car experiences a net force of 2000 N. Find its acceleration." },
+        { "problem": "A 4 kg object accelerates at 5 m/s². Find the net force acting on it." }
+      ]
+    }
+  }
+}

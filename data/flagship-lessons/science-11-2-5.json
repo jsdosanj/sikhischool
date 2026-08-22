@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-11-2",
+    "courseId": "course-science-11",
+    "order": 2,
+    "title": "Newton's Laws of Motion",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-11-2-5",
+    "unitId": "unit-science-11-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Newton's Laws of Motion",
+    "gradeLevel": "11",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you mastered all three of Newton's laws. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: the First Law is inertia (Day 1). The Second Law is F=ma (Day 2). The Third Law is equal-and-opposite action-reaction pairs (Day 3). You saw all three work together in a rocket launch (Day 4). A 3 kg object experiences a net force of 15 N. Find its acceleration, and explain which of Newton's three laws is most directly demonstrated by this calculation."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you mastered all three of Newton's laws! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-11-2-5",
+    "lessonId": "lesson-science-11-2-5",
+    "objectives": [
+      "Review all three of Newton's laws",
+      "Correctly calculate acceleration and identify which law it demonstrates"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child solve the new F=ma problem and identify the law.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of Newton's laws mastery!",
+    "differentiationTips": [
+      "Struggling: focus on just the law the child found hardest this week (often the Third Law) rather than requiring all three equally",
+      "Ready for more: ask the child to design their own simple real-world example demonstrating all three laws, like this week's rocket example",
+      "This is a good checkpoint to note which of Newton's three laws needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "a = F/m = 15/3 = 5 m/s². This calculation directly demonstrates Newton's Second Law (F=ma), which connects a net force and mass to a resulting acceleration.",
+    "standardsRationale": "Consolidates this week's NGSS Grade 9-12 Newton's-laws standard (HS-PS2-1) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-11-2-5",
+    "lessonId": "lesson-science-11-2-5",
+    "title": "Review: Newton's Laws of Motion",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve the problem and identify which law it demonstrates.",
+      "rows": [
+        { "problem": "A 3 kg object experiences a net force of 15 N. Find its acceleration." },
+        { "problem": "Which of Newton's three laws does this calculation most directly demonstrate?" }
+      ]
+    }
+  }
+}

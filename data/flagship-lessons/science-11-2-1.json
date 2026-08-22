@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-11-2",
+    "courseId": "course-science-11",
+    "order": 2,
+    "title": "Newton's Laws of Motion",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-11-2-1",
+    "unitId": "unit-science-11-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Newton's First Law: Inertia",
+    "gradeLevel": "11",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you described motion mathematically. This week: forces, the actual cause of motion changes!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Newton's First Law states that an object at rest stays at rest, and an object in motion stays in motion at a constant velocity, unless acted on by a net (unbalanced) force — this tendency to resist a change in motion is called inertia. This connects directly to last week's velocity and acceleration content: without a net force, there's simply no acceleration, so velocity never changes. Explain why passengers in a car feel pushed backward when the car suddenly accelerates forward, using Newton's First Law."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned Newton's First Law and inertia! Tomorrow we'll learn the Second Law, connecting force directly to acceleration."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-11-2-1",
+    "lessonId": "lesson-science-11-2-1",
+    "objectives": [
+      "State Newton's First Law and define inertia",
+      "Explain the car-passenger scenario using the First Law"
+    ],
+    "materialsNeeded": ["Last week's kinematics worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's velocity/acceleration content briefly.\n2. Introduce Newton's First Law and inertia.\n3. Have the child explain the car-passenger scenario.\n4. Complete the worksheet.\n5. Preview tomorrow's Second Law lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple, familiar example — a ball resting on a table stays put until someone pushes it, and once rolling, it would keep rolling forever on a frictionless surface",
+      "Ready for more: ask the child why a car passenger wearing a seatbelt feels a smaller version of this same push during sudden braking, not just sudden acceleration",
+      "Opens this week's forces thread from the course's own description, directly building on last week's kinematics content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The passengers' bodies have inertia and tend to stay at their original velocity (at rest, before the car accelerated) — as the car and seat push the passengers' bodies forward with them, the passengers feel this as a backward push relative to the accelerating car, even though it's really their own inertia resisting the change in motion.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-12 Physical Science standard HS-PS2-1: using Newton's laws to predict changes in motion, opening this week's thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-science-11-2-1",
+    "lessonId": "lesson-science-11-2-1",
+    "title": "Newton's First Law: Inertia",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Newton's First Law.",
+      "rows": [
+        { "problem": "State Newton's First Law in your own words." },
+        { "problem": "Why do passengers feel pushed backward when a car accelerates forward suddenly?" }
+      ]
+    }
+  }
+}

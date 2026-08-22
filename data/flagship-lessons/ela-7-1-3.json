@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-7-1",
+    "courseId": "course-ela-7",
+    "order": 1,
+    "title": "Analyzing an Author's Craft",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-7-1-3",
+    "unitId": "unit-ela-7-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Sensory Imagery",
+    "gradeLevel": "7",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've analyzed tone and figurative language. Today, the craft technique that makes readers feel like they're actually IN a scene: sensory imagery."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Sensory imagery is description that appeals to one or more of the five senses — sight, sound, smell, taste, touch — instead of just stating a fact. Compare: 'The bakery smelled good' versus 'The bakery's air was thick with the warm, buttery scent of fresh bread.' The second sentence uses smell (and a hint of touch, 'thick') to put the reader directly into the scene. Write one sentence describing a place you know well, using at least two different senses instead of just saying it 'was nice' or 'looked good.'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used sensory imagery to make a description come alive. Tomorrow we'll connect all these craft tools to the author's overall purpose."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-7-1-3",
+    "lessonId": "lesson-ela-7-1-3",
+    "objectives": [
+      "Define sensory imagery as description appealing to sight, sound, smell, taste, or touch",
+      "Write an original sentence using at least two senses to describe a real place"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Days 1-2's tone and figurative-language analysis.\n2. Introduce the five senses and the bakery example.\n3. Brainstorm a real place the child knows well before writing.\n4. Have the child write their own sensory-imagery sentence.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: author's purpose.",
+    "differentiationTips": [
+      "Struggling: focus on just one sense (smell or sound) rather than requiring two at once",
+      "Ready for more: challenge them to use three different senses in one sentence without it feeling cluttered or forced",
+      "A place the child has genuinely experienced (not an imagined one) almost always produces more vivid, specific sensory detail"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's chosen place — check that the sentence uses at least two distinct senses with specific, concrete detail rather than vague adjectives like 'nice' or 'good.'",
+    "standardsRationale": "Extends Common Core Grade 7 Reading standard RL.7.4's focus on word choice and meaning to sensory imagery specifically, a distinct and identifiable craft technique students can both analyze and practice writing themselves."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-7-1-3",
+    "lessonId": "lesson-ela-7-1-3",
+    "title": "Sensory Imagery",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a sentence describing a place you know well, using at least two different senses.",
+      "prompts": [
+        { "prompt": "The place I'm describing:", "lines": 1 },
+        { "prompt": "My sensory-imagery sentence:", "lines": 3 }
+      ]
+    }
+  }
+}

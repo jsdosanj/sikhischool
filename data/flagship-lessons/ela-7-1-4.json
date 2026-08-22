@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-7-1",
+    "courseId": "course-ela-7",
+    "order": 1,
+    "title": "Analyzing an Author's Craft",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-7-1-4",
+    "unitId": "unit-ela-7-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Author's Purpose",
+    "gradeLevel": "7",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've studied tone, figurative language, and sensory imagery. Today, the question that ties them all together: WHY did the author make these choices?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Every author writes with a purpose — usually to inform (share facts), persuade (convince the reader), or entertain (tell a good story). The craft techniques from this week serve that purpose. A persuasive essay uses tone and word choice to make you feel strongly about an issue. A story uses figurative language and sensory imagery to pull you into a scene emotionally. An informative article usually uses more neutral, precise word choice, without much figurative language, because its goal is clarity, not emotional impact. Look back at 'The bakery's air was thick with the warm, buttery scent of fresh bread' from Day 3 — what's the most likely purpose behind that sentence: to inform, persuade, or entertain?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected specific craft choices back to an author's overall purpose. Tomorrow we'll review all four craft elements from this whole week together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-7-1-4",
+    "lessonId": "lesson-ela-7-1-4",
+    "objectives": [
+      "Identify an author's purpose as to inform, persuade, or entertain",
+      "Connect specific craft techniques (tone, figurative language, imagery) to the purpose they serve"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's three craft techniques (tone, figurative language, sensory imagery).\n2. Introduce the three purposes: inform, persuade, entertain.\n3. Discuss the bakery-sentence purpose question together.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just distinguishing inform vs. entertain as the two clearest, most different purposes before adding persuade",
+      "Ready for more: ask them to find a real example of each of the 3 purposes from something they've read recently (a textbook, a story, an advertisement)",
+      "This lesson is the conceptual 'why' that makes the whole week's separate skills feel connected, not isolated — worth taking real time on"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The three author purposes are to inform, persuade, or entertain. 2. The bakery sentence's likely purpose is to entertain (pulling the reader into a vivid scene). 3. An informative article usually uses more neutral, precise language because its goal is clarity.",
+    "standardsRationale": "Addresses Common Core Grade 7 Reading Informational Text standard RI.7.6 (determining an author's point of view or purpose) while synthesizing the week's craft-technique lessons into one coherent analytical framework."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-7-1-4",
+    "lessonId": "lesson-ela-7-1-4",
+    "title": "Author's Purpose",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about author's purpose.",
+      "rows": [
+        { "problem": "List the three main author purposes." },
+        { "problem": "What is the likely purpose of 'The bakery's air was thick with the warm, buttery scent of fresh bread'?" },
+        { "problem": "Why does an informative article usually avoid heavy figurative language?" }
+      ]
+    }
+  }
+}

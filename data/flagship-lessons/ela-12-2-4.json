@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-12-2",
+    "courseId": "course-ela-12",
+    "order": 2,
+    "title": "Planning Your Capstone Literature Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-12-2-4",
+    "unitId": "unit-ela-12-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Building a Realistic Project Timeline",
+    "gradeLevel": "12",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've chosen a text and a question. Today: build a realistic timeline to actually complete the project!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A realistic capstone timeline breaks a large project into smaller milestones with real target dates, rather than leaving everything until the end — a common cause of rushed, weaker final work. A reasonable structure might be: reading/note-taking (weeks 1-2), drafting an initial analysis (weeks 3-4), revising with evidence (week 5), and final polishing (week 6). Using this structure as a model, write your own four-milestone timeline for your capstone project."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just built a real project timeline! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-12-2-4",
+    "lessonId": "lesson-ela-12-2-4",
+    "objectives": [
+      "Understand why breaking a large project into milestones prevents rushed, weaker final work",
+      "Write a realistic four-milestone timeline for the child's own capstone project"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's capstone-definition, text-choice, and research-question work.\n2. Introduce the four-milestone timeline model.\n3. Have the child write their own timeline.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: use the exact model timeline as a starting template, just filling in real dates rather than designing milestones from scratch",
+      "Ready for more: ask the child to identify which milestone they think will be hardest for them personally, and one strategy to stay on track for it",
+      "This is a genuinely practical life skill — planning and pacing a long-term independent project is directly useful beyond this course"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended planning activity — check that the child's timeline has four genuine, distinct milestones with a logical order (research/reading before drafting, drafting before revising, revising before final polishing) and realistic real-world target dates.",
+    "standardsRationale": "Directly addresses this course's capstone-research-project thread, teaching a genuinely practical project-management skill before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-12-2-4",
+    "lessonId": "lesson-ela-12-2-4",
+    "title": "Building a Realistic Project Timeline",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your four-milestone project timeline.",
+      "prompts": [
+        { "prompt": "Milestone 1 (with target date):", "lines": 1 },
+        { "prompt": "Milestone 2 (with target date):", "lines": 1 },
+        { "prompt": "Milestone 3 (with target date):", "lines": 1 },
+        { "prompt": "Milestone 4 (with target date):", "lines": 1 }
+      ]
+    }
+  }
+}

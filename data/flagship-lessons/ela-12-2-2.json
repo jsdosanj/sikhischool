@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-12-2",
+    "courseId": "course-ela-12",
+    "order": 2,
+    "title": "Planning Your Capstone Literature Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-12-2-2",
+    "unitId": "unit-ela-12-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Choosing Your Literary Text",
+    "gradeLevel": "12",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what makes a capstone different. Today: choosing the literary text you'll study independently!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A good capstone text choice meets three criteria: genuine personal interest (you'll spend weeks with it, so it should actually engage you), enough depth and complexity to sustain real analysis (not too simple to say much about), and realistic accessibility (a text you can actually obtain and read in full). List two books, plays, or authors you might consider for your capstone, and evaluate each against all three criteria."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just evaluated real capstone text choices! Tomorrow we'll develop a focused research question about your chosen text."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-12-2-2",
+    "lessonId": "lesson-ela-12-2-2",
+    "objectives": [
+      "Name the three criteria for a good capstone text choice: interest, depth, accessibility",
+      "Evaluate two candidate texts against all three criteria"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's capstone-definition work briefly.\n2. Introduce the three text-choice criteria.\n3. Have the child list and evaluate two candidate texts.\n4. Complete the worksheet.\n5. Preview tomorrow's research-question lesson.",
+    "differentiationTips": [
+      "Struggling: brainstorm a simple list of books the child has already enjoyed reading as a starting point, rather than an entirely open-ended search",
+      "Ready for more: ask the child why a text that's TOO simple might actually be harder to sustain weeks of analysis on than a genuinely complex one",
+      "This is a genuinely important early decision — worth real time, since it shapes the entire rest of the project"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child names two real, specific candidates and genuinely evaluates each against interest, depth/complexity, and accessibility, not just picking the first idea without real consideration.",
+    "standardsRationale": "Directly addresses this course's independent-literature-study thread from its own description, teaching a foundational capstone-planning skill."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-12-2-2",
+    "lessonId": "lesson-ela-12-2-2",
+    "title": "Choosing Your Literary Text",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Evaluate two candidate texts for your capstone.",
+      "prompts": [
+        { "prompt": "Candidate 1, and how it meets the three criteria:", "lines": 2 },
+        { "prompt": "Candidate 2, and how it meets the three criteria:", "lines": 2 }
+      ]
+    }
+  }
+}

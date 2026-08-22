@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-ela-k-2",
+    "courseId": "course-ela-k",
+    "order": 2,
+    "title": "More Letters and Words",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-k-2-4",
+    "unitId": "unit-ela-k-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Blending a Whole Set of New Words",
+    "gradeLevel": "K",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know seven letters now: S, M, A, T, P, I, N. Today, use all of them together to blend a whole set of brand-new words!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Blend each of these words, sound by sound, then faster until they click into place: man (m-a-n), tan (t-a-n), tap (t-a-p), tip (t-i-p), sap (s-a-p). Notice how many different real words you can make from just seven letters, by changing which letters you use and in what order."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just blended five brand-new words using only letters you already know! Tomorrow we'll review everything and read real sentences together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-k-2-4",
+    "lessonId": "lesson-ela-k-2-4",
+    "objectives": [
+      "Blend five new CVC words (man, tan, tap, tip, sap) using this week's and last week's letters",
+      "Recognize that a small set of letters can form many different real words"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review all seven letters learned so far (S, M, A, T, P, I, N).\n2. Blend each of the five new words together, slowly then faster.\n3. Move to the worksheet: trace and blend each word.\n4. Discuss how many words came from just seven letters.\n5. Close by having the child pick their favorite new word from today and use it in a spoken sentence.",
+    "differentiationTips": [
+      "Struggling: blend just 2-3 of the five words today, saving the rest for extra practice on review day",
+      "Ready for more: ask the child to think of one more real word using only letters from this set (S, M, A, T, P, I, N)",
+      "This lesson's real payoff is the volume — explicitly point out how many words came from so few letters"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a tracing and blending activity — check that the child can successfully blend all five words: man, tan, tap, tip, sap.",
+    "standardsRationale": "Directly addresses the synthetic-phonics goal of this two-week sequence: demonstrating that a small, deliberately chosen letter set unlocks many real, readable words."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-k-2-4",
+    "lessonId": "lesson-ela-k-2-4",
+    "title": "Blending a Whole Set of New Words",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, blend it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "man", "label": "Blend m-a-n" },
+        { "trace": "tan", "label": "Blend t-a-n" },
+        { "trace": "tap", "label": "Blend t-a-p" },
+        { "trace": "tip", "label": "Blend t-i-p" },
+        { "trace": "sap", "label": "Blend s-a-p" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-12-1",
+    "courseId": "course-sikhi-12",
+    "order": 1,
+    "title": "Foundations for the Capstone",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-12-1-4",
+    "unitId": "unit-sikhi-12-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Applying a Value to Your Question",
+    "gradeLevel": "12",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have a real question. Today: practice genuinely applying a Sikhi value to it, not just naming the value in passing."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Genuinely applying a value means using it to actually think through your question, not just mentioning it. For example, applying Seva to a question about community responsibility might mean asking: does genuine Seva require personal sacrifice, or can it coexist with pursuing your own goals? What would 'selfless' actually look like in this specific situation? This kind of real thinking-through is different from just writing 'Seva teaches us to help others' as a surface-level mention. Choose one value from your Day 1 toolkit that connects to your Day 3 question, and write at least three real sentences genuinely thinking through how that value applies — not just defining the value."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've now practiced the genuine analytical move your whole capstone project depends on: using a value to actually think, not just decorate an answer with it. Tomorrow we'll review this week and draft a complete capstone proposal."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-12-1-4",
+    "lessonId": "lesson-sikhi-12-1-4",
+    "objectives": [
+      "Distinguish genuinely applying a value (using it to think) from merely mentioning it",
+      "Write a real, multi-sentence application of one value to the student's own capstone question"
+    ],
+    "materialsNeeded": ["Day 1 and Day 3 worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Day 1's toolkit and Day 3's question.\n2. Introduce the difference between genuinely applying a value and merely mentioning it, using the Seva example.\n3. Have the child choose one value and write a real application to their own question.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review and capstone proposal draft.",
+    "differentiationTips": [
+      "Struggling: provide a sentence starter ('Applying [value] to my question means asking whether...') to get the genuine thinking started",
+      "Ready for more: ask them to also identify a second value from their toolkit that might apply differently, or even in tension with the first",
+      "This is the actual analytical skill the whole capstone project depends on — worth real time and care, not a rushed pass"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "A complete answer genuinely thinks through how a chosen value applies to the student's own question (at least three real sentences of analysis, not just a definition) — content varies by student, evaluated on whether it shows real thinking, not surface-level mention.",
+    "standardsRationale": "Directly addresses the course's capstone description, practicing the core analytical skill (genuinely applying a value, not just naming it) the year's whole project depends on."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-12-1-4",
+    "lessonId": "lesson-sikhi-12-1-4",
+    "title": "Applying a Value to Your Question",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Choose one value and genuinely apply it to your capstone question.",
+      "prompts": [
+        { "prompt": "The value you're applying:", "lines": 1 },
+        { "prompt": "Your genuine application (at least three sentences of real thinking):", "lines": 4 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-12-1",
+    "courseId": "course-sikhi-12",
+    "order": 1,
+    "title": "Foundations for the Capstone",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-12-1-1",
+    "unitId": "unit-sikhi-12-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Your Sikhi Values Toolkit",
+    "gradeLevel": "12",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Grade 12 Sikhi. This year's capstone: apply Sikhi's values to a real modern identity or civics question of your own choosing. Today, gather everything you've learned into one usable toolkit."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Across your years in this course, you've studied core Sikhi values: Ik Onkar (oneness, the basis for equality), Seva (selfless service), Naam Simran (remembrance, grounding action in reflection), Kirat Karo (honest effort), Vand Chakko (sharing), and Chardi Kala (resilient optimism). For this capstone, think of these not as separate facts to recall, but as a real toolkit — lenses you can apply to genuinely understand and respond to a modern question. For example, Seva might inform how you think about volunteering or community responsibility; equality (from Ik Onkar) might inform how you think about fairness in a civic system. List all six values from memory, then write one modern situation (in your own life or community) each value could genuinely apply to."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have your full toolkit organized and ready to apply. Tomorrow we'll look at what actually makes a strong, genuine capstone question."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-12-1-1",
+    "lessonId": "lesson-sikhi-12-1-1",
+    "objectives": [
+      "Recall the six core Sikhi values studied across prior grades",
+      "Connect each value to a genuine modern situation it could apply to"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the year's capstone project.\n2. Review all six values together, briefly reminding the child what each one means.\n3. Have the child write one modern application per value.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: what makes a strong capstone question.",
+    "differentiationTips": [
+      "Struggling: work through one value's modern application together as a model before the child completes the rest independently",
+      "Ready for more: ask them to identify which two values feel most personally relevant to them right now, and why",
+      "Text-only content, per the platform's content policy"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The six values are Ik Onkar, Seva, Naam Simran, Kirat Karo, Vand Chakko, and Chardi Kala. 2. Modern applications vary genuinely by student — evaluated on whether the connection between the value and the situation is real and specific, not vague.",
+    "standardsRationale": "Directly addresses the course's 'capstone project applying Sikhi's values to a modern identity or civics question' description, consolidating prior grades' content into one usable toolkit before the capstone begins."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-12-1-1",
+    "lessonId": "lesson-sikhi-12-1-1",
+    "title": "Your Sikhi Values Toolkit",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "List all six values, then write one modern application for each.",
+      "prompts": [
+        { "prompt": "List the six values:", "lines": 2 },
+        { "prompt": "One modern situation each value could genuinely apply to:", "lines": 6 }
+      ]
+    }
+  }
+}

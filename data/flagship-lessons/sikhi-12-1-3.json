@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-12-1",
+    "courseId": "course-sikhi-12",
+    "order": 1,
+    "title": "Foundations for the Capstone",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-12-1-3",
+    "unitId": "unit-sikhi-12-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Drafting Your Own Capstone Question",
+    "gradeLevel": "12",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know what makes a question strong. Today: draft and narrow your own real capstone question."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Start broad, then narrow — the same skill used for a strong research question. A broad starting idea like 'community responsibility' is a real topic, but too broad for a capstone. Narrowing it might look like: 'What does genuine community responsibility mean for someone balancing individual goals with family and community expectations?' — specific enough to actually explore, but still genuinely open. Write a broad topic you care about, then narrow it, in at least two steps, into a specific, personally meaningful question you could build a real capstone project around."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a real, narrowed capstone question of your own. Tomorrow we'll practice applying a specific Sikhi value to it directly."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-12-1-3",
+    "lessonId": "lesson-sikhi-12-1-3",
+    "objectives": [
+      "Narrow a broad topic into a specific, personally meaningful capstone question",
+      "Apply the three qualities from Day 2 (meaningful, specific, open to reflection) to evaluate the resulting question"
+    ],
+    "materialsNeeded": ["Day 2's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Day 2's three qualities of a strong question.\n2. Model narrowing the 'community responsibility' example together, step by step.\n3. Have the child narrow their own broad topic into a specific question, in at least two steps.\n4. Check the resulting question against Day 2's three qualities.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: applying a specific value to the question.",
+    "differentiationTips": [
+      "Struggling: provide 2-3 broad starting topics to choose from rather than requiring the child to generate one from nothing",
+      "Ready for more: ask them to narrow their topic a third time, making it even more specific and personal",
+      "This mirrors the research-question narrowing skill from Grade 11 ELA — worth naming that connection explicitly if the child took that course"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A complete answer shows a broad topic narrowed in at least two visible steps into a specific, personally meaningful, genuinely open question — content varies by student, evaluated against the three qualities from Day 2.",
+    "standardsRationale": "Directly addresses the course's capstone description, producing the actual question the student's capstone project will explore for the rest of the year."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-12-1-3",
+    "lessonId": "lesson-sikhi-12-1-3",
+    "title": "Drafting Your Own Capstone Question",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Narrow your broad topic into a specific capstone question, in at least two steps.",
+      "prompts": [
+        { "prompt": "Your broad starting topic:", "lines": 1 },
+        { "prompt": "Narrowing step 1:", "lines": 1 },
+        { "prompt": "Your final, specific capstone question:", "lines": 2 }
+      ]
+    }
+  }
+}

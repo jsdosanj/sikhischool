@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-11-2",
+    "courseId": "course-punjabi-11",
+    "order": 2,
+    "title": "Advanced Composition: Opinion Writing (ਵਿਚਾਰ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-11-2-2",
+    "unitId": "unit-punjabi-11-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Building a Clear ਪੱਖ (Stance)",
+    "gradeLevel": "11",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned opinion writing's purpose. Today: building a clear, specific stance!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong ਪੱਖ (stance) is clear and specific, not vague — 'schools should offer more Punjabi language classes' is a clear stance, while 'Punjabi is important' is too vague to argue for or against directly. Choose a topic you care about (school, community, or a hobby), and write one clear, specific ਪੱਖ sentence about it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just built a real, clear stance! Tomorrow we'll support it with reasoning."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-11-2-2",
+    "lessonId": "lesson-punjabi-11-2-2",
+    "objectives": [
+      "Distinguish a clear, specific ਪੱਖ (stance) from a vague general statement",
+      "Write one clear, specific stance sentence on a chosen topic"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's opinion-vs-news work briefly.\n2. Introduce clear vs. vague stances using the Punjabi-classes example.\n3. Have the child write their own clear stance sentence.\n4. Complete the worksheet.\n5. Preview tomorrow's supporting-reasons lesson.",
+    "differentiationTips": [
+      "Struggling: offer the child a choice of two or three familiar topics (school lunch, recess time, a class subject) to make a stance about, rather than an open-ended choice",
+      "Ready for more: ask the child to write both a vague and a clear version of the same stance, side by side, to see the difference directly",
+      "This is a foundational skill directly reusable for any future persuasive Punjabi writing the student does"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child's stance is specific and arguable (someone could reasonably agree or disagree with it), not a vague general statement.",
+    "standardsRationale": "Directly addresses this course's advanced-composition thread, teaching the foundational skill of a clear, arguable stance."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-11-2-2",
+    "lessonId": "lesson-punjabi-11-2-2",
+    "title": "Building a Clear ਪੱਖ (Stance)",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your clear, specific stance sentence.",
+      "prompts": [
+        { "prompt": "Your topic:", "lines": 1 },
+        { "prompt": "Your clear, specific ਪੱਖ sentence:", "lines": 1 }
+      ]
+    }
+  }
+}

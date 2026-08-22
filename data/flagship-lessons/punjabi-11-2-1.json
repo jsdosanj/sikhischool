@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-11-2",
+    "courseId": "course-punjabi-11",
+    "order": 2,
+    "title": "Advanced Composition: Opinion Writing (ਵਿਚਾਰ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-11-2-1",
+    "unitId": "unit-punjabi-11-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Makes Opinion Writing Different",
+    "gradeLevel": "11",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned objective news writing. This week: advanced composition, opinion writing (ਵਿਚਾਰ)!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਵਿਚਾਰ (opinion) writing is genuinely different from last week's ਖ਼ਬਰ (news) writing: news reporting stays objective and fact-based, while opinion writing expresses a ਪੱਖ (stance/position) supported by the writer's own reasoning. Both still require clear, careful writing, but their purpose is different. Explain the key difference between last week's ਖ਼ਬਰ writing and this week's ਵਿਚਾਰ writing."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just reviewed what makes opinion writing different! Tomorrow we'll learn to build a clear stance."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-11-2-1",
+    "lessonId": "lesson-punjabi-11-2-1",
+    "objectives": [
+      "Distinguish ਵਿਚਾਰ (opinion) writing from ਖ਼ਬਰ (news) writing",
+      "Explain the key difference between the two genres in the child's own words"
+    ],
+    "materialsNeeded": ["Last week's news-writing worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's ਖ਼ਬਰ (news) writing work briefly.\n2. Introduce ਵਿਚਾਰ (opinion) writing and contrast it with objective reporting.\n3. Have the child explain the key difference.\n4. Complete the worksheet.\n5. Preview tomorrow's stance-building lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple contrast — news answers 'what happened,' opinion answers 'what do I think about it, and why'",
+      "Ready for more: ask the child why a newspaper might clearly label opinion pieces separately from news reporting",
+      "Opens this week's advanced-composition thread from the course's own description, distinct from last week's journalism thread"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "ਖ਼ਬਰ (news) writing stays objective, reporting facts without the writer's personal opinion, while ਵਿਚਾਰ (opinion) writing expresses the writer's own stance on an issue, supported by their own reasoning — the purpose shifts from informing readers of facts to persuading them of a viewpoint.",
+    "standardsRationale": "Directly addresses this course's advanced-composition thread from its own description, opening it with a genre-definition lesson connected to last week's journalism content."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-11-2-1",
+    "lessonId": "lesson-punjabi-11-2-1",
+    "title": "What Makes Opinion Writing Different",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about opinion writing.",
+      "prompts": [
+        { "prompt": "What is the purpose of ਵਿਚਾਰ (opinion) writing?", "lines": 1 },
+        { "prompt": "How is this different from last week's ਖ਼ਬਰ (news) writing?", "lines": 2 }
+      ]
+    }
+  }
+}

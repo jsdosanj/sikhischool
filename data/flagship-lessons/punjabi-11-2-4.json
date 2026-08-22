@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-11-2",
+    "courseId": "course-punjabi-11",
+    "order": 2,
+    "title": "Advanced Composition: Opinion Writing (ਵਿਚਾਰ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-11-2-4",
+    "unitId": "unit-punjabi-11-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing a Complete Opinion Piece",
+    "gradeLevel": "11",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've built every piece of an opinion piece. Today: put it all together with a real ਸੱਦਾ (call to action)!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A complete opinion piece closes with a ਸੱਦਾ (call to action) — a clear, specific ask telling the ਪਾਠਕ (reader) exactly what to do or think differently after reading. Combine your ਪੱਖ (stance) from Day 2, your two ਕਾਰਨ (reasons) from Day 3, and write a closing ਸੱਦਾ sentence, then write your complete short opinion piece."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just wrote a complete opinion piece with a real call to action! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-11-2-4",
+    "lessonId": "lesson-punjabi-11-2-4",
+    "objectives": [
+      "Combine this week's stance and reasoning skills with a closing call to action",
+      "Write a complete short opinion piece with all three parts"
+    ],
+    "materialsNeeded": ["Days 2-3 worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's stance and reasoning work together.\n2. Introduce the ਸੱਦਾ (call to action) as a specific closing ask.\n3. Have the child write their complete opinion piece.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: it's fine if the piece is short — focus on completing all three parts (stance, reasons, call to action) rather than length",
+      "Ready for more: ask the child to make their ਸੱਦਾ as specific and actionable as possible (not just 'think about this,' but a real, concrete action)",
+      "This is the week's synthesis moment — writing a genuinely complete, persuasive opinion piece is the important skill here, not just having the separate pieces"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended composition activity — check that the complete piece includes a clear stance, both reasons, and a specific, actionable call to action, not a vague closing statement.",
+    "standardsRationale": "Directly addresses this course's advanced-composition thread, completing this week's opinion-writing sequence before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-11-2-4",
+    "lessonId": "lesson-punjabi-11-2-4",
+    "title": "Writing a Complete Opinion Piece",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your complete opinion piece.",
+      "prompts": [
+        { "prompt": "Your ਸੱਦਾ (call to action) sentence:", "lines": 1 },
+        { "prompt": "Your complete opinion piece:", "lines": 5 }
+      ]
+    }
+  }
+}

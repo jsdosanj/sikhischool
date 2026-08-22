@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-11-2",
+    "courseId": "course-punjabi-11",
+    "order": 2,
+    "title": "Advanced Composition: Opinion Writing (ਵਿਚਾਰ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-11-2-5",
+    "unitId": "unit-punjabi-11-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Opinion Writing",
+    "gradeLevel": "11",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you wrote a complete Punjabi opinion piece from scratch. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: ਵਿਚਾਰ (opinion) writing differs from ਖ਼ਬਰ (news) writing by expressing a personal stance (Day 1). A strong ਪੱਖ (stance) is clear and specific (Day 2). ਦਲੀਲ (reasoning) supports the stance with real reasons (Day 3). You wrote a complete piece with a ਸੱਦਾ (call to action) (Day 4). Explain in your own words why a clear stance, real reasoning, and a specific call to action together make an opinion piece genuinely persuasive."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you wrote a complete, persuasive Punjabi opinion piece from scratch! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-11-2-5",
+    "lessonId": "lesson-punjabi-11-2-5",
+    "objectives": [
+      "Review the opinion-vs-news distinction, stance, reasoning, and call to action",
+      "Explain why these three elements together make an opinion piece genuinely persuasive"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child explain why the three elements together create persuasion.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of Punjabi opinion writing!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often writing specific reasons) rather than requiring an even summary of all three",
+      "Ready for more: ask the child how this week's opinion-writing skills connect to Grade 10's formal-essay structure",
+      "This is a good checkpoint to note which of the week's three opinion-writing elements needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A clear stance tells the reader exactly what position is being argued, real reasoning gives them something concrete to actually consider and be convinced by, and a specific call to action tells them exactly what to do with that conviction — together, these three elements move a reader from simply understanding an opinion to genuinely being persuaded and knowing how to act on it.",
+    "standardsRationale": "Consolidates this week's advanced-composition thread before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-11-2-5",
+    "lessonId": "lesson-punjabi-11-2-5",
+    "title": "Review: Opinion Writing",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer to review this week's opinion-writing skills.",
+      "prompts": [
+        { "prompt": "Why do a clear stance, real reasoning, and a specific call to action together make an opinion piece persuasive?", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-ela-7-2",
+    "courseId": "course-ela-7",
+    "order": 2,
+    "title": "The Research Paper Process",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-7-2-1",
+    "unitId": "unit-ela-7-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Forming a Strong Research Question",
+    "gradeLevel": "7",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you analyzed an author's craft. This week: writing a research paper, starting with a strong question!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong research question is narrow and focused enough to actually answer through research — not so broad that no single paper could cover it, and not just a yes/no question. 'What is weather?' is too broad. 'Did it rain yesterday?' is too narrow and factual. 'How does the jet stream affect weather patterns in the Pacific Northwest?' is focused and researchable. Write your own research question about a topic that interests you, then check it against these criteria."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just wrote a real, focused research question! Tomorrow we'll learn to find and evaluate real sources."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-7-2-1",
+    "lessonId": "lesson-ela-7-2-1",
+    "objectives": [
+      "Distinguish a well-focused research question from one that's too broad or too narrow",
+      "Write an original research question and check it against clear criteria"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's author's-craft work briefly.\n2. Introduce the too-broad/too-narrow/just-right examples.\n3. Have the child write and check their own research question.\n4. Complete the worksheet.\n5. Preview tomorrow's source-evaluation lesson.",
+    "differentiationTips": [
+      "Struggling: offer 2-3 draft questions (some too broad, some good) and have the child sort them before writing their own",
+      "Ready for more: ask the child to narrow a too-broad topic of their own into a focused research question",
+      "This is a genuine step up from earlier grades' argumentative-writing claims — a research question guides investigation, not persuasion"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended writing activity — check that the child's question is specific and researchable, neither a yes/no fact nor an impossibly broad topic.",
+    "standardsRationale": "Directly addresses Common Core Grade 7 Writing standard W.7.7: conducting short research projects to answer a question, opening this week's research-paper thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-7-2-1",
+    "lessonId": "lesson-ela-7-2-1",
+    "title": "Forming a Strong Research Question",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your own research question, then check it against the criteria.",
+      "prompts": [
+        { "prompt": "My research question:", "lines": 2 }
+      ]
+    }
+  }
+}

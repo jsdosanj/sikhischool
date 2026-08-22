@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-7-2",
+    "courseId": "course-ela-7",
+    "order": 2,
+    "title": "The Research Paper Process",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-7-2-5",
+    "unitId": "unit-ela-7-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: The Research Paper Process",
+    "gradeLevel": "7",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a complete research plan. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a strong research question is focused and researchable (Day 1). Evaluate sources by author, publisher, and currency (Day 2). Paraphrasing with credit avoids plagiarism (Day 3). An outline organizes findings before writing (Day 4). Answer: what makes a research question 'just right,' and what are the three source-evaluation criteria?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you built a complete, honest research process from question to outline! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-7-2-5",
+    "lessonId": "lesson-ela-7-2-5",
+    "objectives": [
+      "Review research questions, source evaluation, paraphrasing, and outlining",
+      "State what makes a research question well-focused and name the three source-evaluation criteria"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child answer both review questions.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of the real research process!",
+    "differentiationTips": [
+      "Struggling: focus on just one of the two review questions, whichever the child engaged with most this week",
+      "Ready for more: ask the child what they'd research next if they had more time",
+      "This is a good checkpoint to note which of the week's four skills (question-forming, source evaluation, paraphrasing, or outlining) needs the most reinforcement before the next research unit"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child can explain a well-focused research question isn't too broad or too narrow, and correctly names all three source-evaluation criteria (author, publisher, currency).",
+    "standardsRationale": "Consolidates this week's Common Core Grade 7 Writing standards (W.7.7/W.7.8) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-7-2-5",
+    "lessonId": "lesson-ela-7-2-5",
+    "title": "Review: The Research Paper Process",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What makes a research question 'just right' — not too broad, not too narrow?" },
+        { "problem": "Name the three source-evaluation criteria." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-7-2",
+    "courseId": "course-social-studies-7",
+    "order": 2,
+    "title": "The Silk Road: Medieval Trade Networks",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-7-2-2",
+    "unitId": "unit-social-studies-7-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "More Than Goods: Ideas on the Silk Road",
+    "gradeLevel": "7",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what the Silk Road was. Today: what actually traveled along it!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Real goods traveled the Silk Road: silk from China, spices from South Asia, and many other valuable items. But goods weren't the only thing exchanged — religions, technologies like paper-making, and even diseases spread along these same routes, connecting distant cultures in both directions. Name one good and one non-material thing (an idea, technology, or religion) that spread along the Silk Road."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the Silk Road exchanged far more than goods! Tomorrow we'll connect this to Punjab's own trade position."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-7-2-2",
+    "lessonId": "lesson-social-studies-7-2-2",
+    "objectives": [
+      "Name real goods that traveled the Silk Road (silk, spices)",
+      "Understand that ideas, technologies, and religions also spread along these routes"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Silk Road network lesson.\n2. Introduce goods and non-material exchange (ideas, technology, religion).\n3. Have the child name one of each.\n4. Complete the worksheet.\n5. Preview tomorrow's Punjab-connection lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just one clear goods example (silk) and one clear idea example (a religion spreading to a new region)",
+      "Ready for more: ask the child why exchanging ideas and technology might have mattered even more than exchanging goods, in the long run",
+      "This lesson deliberately broadens 'trade' beyond just goods, a genuine historical-thinking step up"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall activity — check that the child names a real good (silk, spices, paper) and a real non-material exchange (a religion, paper-making technology, or another verifiable idea).",
+    "standardsRationale": "Directly addresses the course's 'medieval through early modern world' description, deepening the Silk Road's real historical significance beyond simple trade goods."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-7-2-2",
+    "lessonId": "lesson-social-studies-7-2-2",
+    "title": "More Than Goods: Ideas on the Silk Road",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Silk Road exchange.",
+      "rows": [
+        { "problem": "Name one good that traveled the Silk Road." },
+        { "problem": "Name one idea, technology, or religion that also spread along it." }
+      ]
+    }
+  }
+}

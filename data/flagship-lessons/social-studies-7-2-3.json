@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-7-2",
+    "courseId": "course-social-studies-7",
+    "order": 2,
+    "title": "The Silk Road: Medieval Trade Networks",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-7-2-3",
+    "unitId": "unit-social-studies-7-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Punjab's Place in Medieval Trade",
+    "gradeLevel": "7",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned about the Silk Road broadly. Today: connect it back to Punjab's own crossroads position from last week!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Remember last week's lesson: Punjab sat at a genuine crossroads, connecting South Asia to Central Asia and beyond. Trade routes linked to the wider Silk Road network passed near this region, connecting Punjab's towns to the same vast web of exchange you've studied this week. Explain how Punjab's geography from last week connects to this week's Silk Road content."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected two weeks of geography and history together! Tomorrow we'll learn about a real hub city along these routes."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-7-2-3",
+    "lessonId": "lesson-social-studies-7-2-3",
+    "objectives": [
+      "Recall Punjab's crossroads geography from last week",
+      "Explain the connection between Punjab's location and the wider Silk Road trade network"
+    ],
+    "materialsNeeded": ["Last week's Punjab-geography worksheet", "This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Punjab-crossroads content and this week's Silk Road content.\n2. Discuss how they connect geographically.\n3. Have the child explain the connection in their own words.\n4. Complete the worksheet.\n5. Preview tomorrow's hub-city lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple map pointing out Punjab's location relative to the broader Silk Road network",
+      "Ready for more: ask the child what kinds of goods or ideas might have specifically passed through Punjab, based on this week's content",
+      "This lesson deliberately synthesizes last week's and this week's content into one connected understanding, not two separate topics"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a synthesis activity — check that the child correctly connects Punjab's crossroads position to the broader Silk Road trade network, explaining that the region's geography linked it to this wider exchange.",
+    "standardsRationale": "Directly addresses the course's 'medieval through early modern world, including... Punjab' description, synthesizing this week's and last week's content together."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-7-2-3",
+    "lessonId": "lesson-social-studies-7-2-3",
+    "title": "Punjab's Place in Medieval Trade",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain how Punjab's geography connects to the Silk Road.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

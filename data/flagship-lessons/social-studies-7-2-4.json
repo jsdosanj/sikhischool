@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-7-2",
+    "courseId": "course-social-studies-7",
+    "order": 2,
+    "title": "The Silk Road: Medieval Trade Networks",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-7-2-4",
+    "unitId": "unit-social-studies-7-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Samarkand: A Real Silk Road Hub City",
+    "gradeLevel": "7",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned about the Silk Road network. Today: a real city that thrived because of it!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Samarkand, in Central Asia, was one of the most important Silk Road hub cities. Traders from many different regions passed through, making it a genuinely diverse center of trade, scholarship, and culture for centuries. A city like Samarkand shows how being positioned along a major trade network could transform a place into a thriving center, much like Punjab's own trade-connected towns. Why do you think a city positioned along major trade routes would become especially diverse and prosperous?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about a real Silk Road hub city! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-7-2-4",
+    "lessonId": "lesson-social-studies-7-2-4",
+    "objectives": [
+      "Identify Samarkand as a real, important Silk Road hub city in Central Asia",
+      "Explain why trade-route cities tend to become diverse and prosperous"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's Silk Road and Punjab-connection lessons.\n2. Introduce Samarkand as a real hub city.\n3. Discuss why trade-route cities become diverse and prosperous.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: connect to a familiar modern example — a city with a major airport or port often becomes similarly diverse and busy",
+      "Ready for more: ask the child to name what kinds of buildings or institutions a wealthy, diverse trade city like Samarkand might have needed",
+      "This lesson is kept factual and general — no specific unverifiable historical claims beyond Samarkand's well-documented role as a major Silk Road hub"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reasoning activity — check that the child gives a sensible explanation connecting trade-route access to wealth, cultural exchange, and diversity.",
+    "standardsRationale": "Directly addresses the course's 'medieval through early modern world' description with a real, verifiable historical example, completing this week's Silk Road thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-7-2-4",
+    "lessonId": "lesson-social-studies-7-2-4",
+    "title": "Samarkand: A Real Silk Road Hub City",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain why a trade-route city might become especially diverse and prosperous.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

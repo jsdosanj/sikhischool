@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-7-2",
+    "courseId": "course-social-studies-7",
+    "order": 2,
+    "title": "The Silk Road: Medieval Trade Networks",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-7-2-5",
+    "unitId": "unit-social-studies-7-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: The Silk Road",
+    "gradeLevel": "7",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about the Silk Road trade network. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: the Silk Road was a network of routes, not one road (Day 1). It exchanged goods, ideas, technology, and religion (Day 2). Punjab's crossroads geography connected it to this same network (Day 3). Samarkand thrived as a real hub city along it (Day 4). Answer: what was the Silk Road, and how does Punjab connect to it?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you learned real medieval trade history and connected it to Punjab! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-7-2-5",
+    "lessonId": "lesson-social-studies-7-2-5",
+    "objectives": [
+      "Review the Silk Road network, its exchange, Punjab's connection, and Samarkand",
+      "Explain what the Silk Road was and how Punjab connects to it"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child answer both review questions.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of Silk Road history!",
+    "differentiationTips": [
+      "Struggling: focus on just the Punjab connection, the most personally relevant part of this week's content",
+      "Ready for more: ask the child to connect this week's trade-network content back to last week's Guru Period content in one sentence",
+      "This is a good checkpoint to note which of the week's four topics needs the most reinforcement before the next Social Studies unit"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child can explain the Silk Road as a trade-route network and correctly connect Punjab's crossroads geography to it.",
+    "standardsRationale": "Consolidates this week's 'medieval through early modern world' content before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-7-2-5",
+    "lessonId": "lesson-social-studies-7-2-5",
+    "title": "Review: The Silk Road",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What was the Silk Road?" },
+        { "problem": "How does Punjab's geography connect to the Silk Road?" }
+      ]
+    }
+  }
+}

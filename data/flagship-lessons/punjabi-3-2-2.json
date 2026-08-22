@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-3-2",
+    "courseId": "course-punjabi-3",
+    "order": 2,
+    "title": "Pronouns, Plurals, and Reading Fluency",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-3-2-2",
+    "unitId": "unit-punjabi-3-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "One or Many: Plural Nouns",
+    "gradeLevel": "3",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਕੱਲ੍ਹ ਤੁਸੀਂ ਪੜਨਾਂਵ ਸਿੱਖੇ। ਅੱਜ: ਇੱਕ ਤੋਂ ਵੱਧ ਚੀਜ਼ਾਂ ਲਈ ਸ਼ਬਦ ਕਿਵੇਂ ਬਦਲਦੇ ਹਨ! (Yesterday you learned pronouns. Today: how words change for more than one thing!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Just like English changes 'girl' to 'girls,' Punjabi nouns change for plural (more than one) too: ਕੁੜੀ (one girl) becomes ਕੁੜੀਆਂ (girls). ਮੁੰਡਾ (one boy) becomes ਮੁੰਡੇ (boys). ਕਿਤਾਬ (one book) becomes ਕਿਤਾਬਾਂ (books). Practice: change ਬੱਚਾ (one child) into its plural form, ਬੱਚੇ (children)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਬਹੁਵਚਨ ਸਿੱਖਿਆ! (You just learned plurals!) Tomorrow we'll combine pronouns and plurals into full sentences."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-3-2-2",
+    "lessonId": "lesson-punjabi-3-2-2",
+    "objectives": [
+      "Understand that Punjabi nouns change form for plural (more than one)",
+      "Correctly change 4 nouns from singular to plural: ਕੁੜੀ/ਮੁੰਡਾ/ਕਿਤਾਬ/ਬੱਚਾ"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's pronouns briefly.\n2. Introduce plural nouns using the ਕੁੜੀ/ਕੁੜੀਆਂ example.\n3. Have the child change ਬੱਚਾ to ਬੱਚੇ independently.\n4. Complete the worksheet.\n5. Preview tomorrow's sentence-combining lesson.",
+    "differentiationTips": [
+      "Struggling: practice just one singular/plural pair (ਕੁੜੀ/ਕੁੜੀਆਂ) until it's solid before introducing the other three",
+      "Ready for more: ask the child to think of one more noun they know and guess its plural form",
+      "Punjabi plural endings aren't perfectly uniform across all nouns — keep this lesson to the 4 taught examples rather than generalizing a single rule"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary-transformation activity — check that the child correctly writes ਬੱਚੇ as the plural of ਬੱਚਾ, and can recall the other 3 singular/plural pairs.",
+    "standardsRationale": "Directly addresses the course's 'grammar basics' goal, introducing noun pluralization as a genuinely new grammar concept beyond week 1."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-3-2-2",
+    "lessonId": "lesson-punjabi-3-2-2",
+    "title": "One or Many: Plural Nouns",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the plural form of each noun.",
+      "rows": [
+        { "problem": "ਕੁੜੀ (one girl) → plural (girls) = ?" },
+        { "problem": "ਮੁੰਡਾ (one boy) → plural (boys) = ?" },
+        { "problem": "ਕਿਤਾਬ (one book) → plural (books) = ?" },
+        { "problem": "ਬੱਚਾ (one child) → plural (children) = ?" }
+      ]
+    }
+  }
+}

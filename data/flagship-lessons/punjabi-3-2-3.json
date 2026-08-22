@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-3-2",
+    "courseId": "course-punjabi-3",
+    "order": 2,
+    "title": "Pronouns, Plurals, and Reading Fluency",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-3-2-3",
+    "unitId": "unit-punjabi-3-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Building Sentences with Pronouns and Plurals",
+    "gradeLevel": "3",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਪੜਨਾਂਵ ਅਤੇ ਬਹੁਵਚਨ ਸਿੱਖੇ। ਅੱਜ ਦੋਵਾਂ ਨੂੰ ਵਾਕਾਂ ਵਿੱਚ ਵਰਤੋ! (This week you learned pronouns and plurals. Today, use both in sentences!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਉਹ can mean 'he,' 'she,' or 'they' — it works for both one person and many people, depending on the rest of the sentence. 'ਉਹ ਕੁੜੀਆਂ ਖੇਡਦੀਆਂ ਹਨ' means 'those girls play' — notice ਖੇਡਦੀਆਂ and ਹਨ both changed to plural to match ਕੁੜੀਆਂ. Build your own sentence using ਉਹ, a plural noun from yesterday, and a matching plural verb."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਪੜਨਾਂਵ ਅਤੇ ਬਹੁਵਚਨ ਨਾਲ ਵਾਕ ਬਣਾਏ! (You just built sentences with pronouns and plurals!) Tomorrow we'll read a longer story using everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-3-2-3",
+    "lessonId": "lesson-punjabi-3-2-3",
+    "objectives": [
+      "Understand that ਉਹ can mean he, she, or they depending on context",
+      "Build a sentence where the verb correctly agrees with a plural subject"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's pronouns and plural nouns.\n2. Model the 'ਉਹ ਕੁੜੀਆਂ ਖੇਡਦੀਆਂ ਹਨ' example, pointing out the plural agreement.\n3. Have the child build and say their own plural sentence.\n4. Complete the worksheet.\n5. Preview tomorrow's reading-fluency passage.",
+    "differentiationTips": [
+      "Struggling: build the sentence one word at a time (pronoun, then plural noun, then plural verb) rather than all at once",
+      "Ready for more: ask the child to build a second sentence using ਮੁੰਡੇ (boys) instead of ਕੁੜੀਆਂ",
+      "Plural verb agreement is the hardest part of this lesson — model it explicitly and don't rush past it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended sentence-building activity — check that the child's sentence uses ਉਹ, a plural noun, and a correctly plural-agreeing verb (e.g., ਉਹ ਮੁੰਡੇ ਖੇਡਦੇ ਹਨ).",
+    "standardsRationale": "Directly addresses the course's 'grammar basics' goal, combining this week's two new concepts (pronouns and plurals) into real sentence-building practice."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-3-2-3",
+    "lessonId": "lesson-punjabi-3-2-3",
+    "title": "Building Sentences with Pronouns and Plurals",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your own sentence using ਉਹ, a plural noun, and a plural verb.",
+      "prompts": [
+        { "prompt": "My sentence (in Gurmukhi):", "lines": 2 }
+      ]
+    }
+  }
+}

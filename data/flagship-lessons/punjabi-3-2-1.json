@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-3-2",
+    "courseId": "course-punjabi-3",
+    "order": 2,
+    "title": "Pronouns, Plurals, and Reading Fluency",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-3-2-1",
+    "unitId": "unit-punjabi-3-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Pronouns: I, You, He/She",
+    "gradeLevel": "3",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਪਿਛਲੇ ਹਫ਼ਤੇ ਤੁਸੀਂ ਨਾਂਵ, ਕਿਰਿਆ, ਅਤੇ ਵਿਸ਼ੇਸ਼ਣ ਸਿੱਖੇ। ਅੱਜ ਇੱਕ ਨਵਾਂ ਸ਼ਬਦ-ਕਿਸਮ: ਪੜਨਾਂਵ! (Last week you learned nouns, verbs, and adjectives. Today, a new word type: pronouns!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A pronoun replaces a noun so you don't have to repeat a name every time. ਮੈਂ means 'I' (talking about yourself), ਤੂੰ means 'you' (talking to someone), and ਉਹ means 'he' or 'she' (talking about someone else). Instead of saying a friend's name every time, you can say ਉਹ. Practice: say 'ਮੈਂ ਖੇਡਦਾ ਹਾਂ' (I play, for a boy) or 'ਮੈਂ ਖੇਡਦੀ ਹਾਂ' (I play, for a girl) about yourself."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਪੜਨਾਂਵ ਸਿੱਖੇ! (You just learned pronouns!) Tomorrow we'll learn how to make a noun plural — more than one."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-3-2-1",
+    "lessonId": "lesson-punjabi-3-2-1",
+    "objectives": [
+      "Learn 3 personal pronouns: ਮੈਂ (I), ਤੂੰ (you), ਉਹ (he/she)",
+      "Use ਮੈਂ correctly with the matching gendered verb form in a self-referential sentence"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's nouns/verbs/adjectives briefly.\n2. Introduce the 3 pronouns and what a pronoun does.\n3. Have the child say 'ਮੈਂ ਖੇਡਦਾ/ਖੇਡਦੀ ਹਾਂ' about themselves.\n4. Complete the worksheet.\n5. Preview tomorrow's plural-nouns lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just ਮੈਂ first, since it's the pronoun the child will use most in self-referential sentences",
+      "Ready for more: ask the child to use ਉਹ in a sentence about a friend or family member",
+      "Point out explicitly that pronouns save you from repeating the same name over and over — a real, motivating reason to learn them"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary-acquisition activity — check that the child correctly traces/writes all 3 pronouns and uses ਮੈਂ with the gender-matching verb form for themselves.",
+    "standardsRationale": "Directly addresses the course's 'grammar basics' goal by introducing pronouns as a genuinely new part of speech beyond last week's nouns/verbs/adjectives."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-3-2-1",
+    "lessonId": "lesson-punjabi-3-2-1",
+    "title": "Pronouns: I, You, He/She",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, then copy it once on your own.",
+      "rows": [
+        { "trace": "ਮੈਂ", "label": "I" },
+        { "trace": "ਤੂੰ", "label": "you" },
+        { "trace": "ਉਹ", "label": "he/she" }
+      ]
+    }
+  }
+}

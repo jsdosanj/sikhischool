@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-8-2",
+    "courseId": "course-math-8",
+    "order": 2,
+    "title": "The Pythagorean Theorem",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-8-2-4",
+    "unitId": "unit-math-8-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "A Real Ladder Problem",
+    "gradeLevel": "8",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've mastered the Pythagorean theorem both ways. Today: apply it to a real-world problem!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Real problem: a ladder is placed 6 feet from the base of a wall, and it reaches 8 feet up the wall. How long is the ladder? The ladder is the hypotenuse of a right triangle, with the ground distance and wall height as the two legs. Solve for the ladder's length."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just solved a real Pythagorean-theorem problem! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-8-2-4",
+    "lessonId": "lesson-math-8-2-4",
+    "objectives": [
+      "Recognize a real-world scenario as a right-triangle problem",
+      "Correctly solve the ladder problem using the Pythagorean theorem"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's hypotenuse and missing-leg work.\n2. Draw the ladder scenario as a right triangle together.\n3. Have the child solve for the ladder's length.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: draw the wall, ground, and ladder as an actual labeled right triangle before setting up the equation",
+      "Ready for more: ask the child to create their own real-world Pythagorean-theorem word problem for a family member to solve",
+      "This is the week's synthesis moment — recognizing that a real scenario is secretly a right-triangle problem is the genuinely important skill here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "6² + 8² = 36 + 64 = 100. The square root of 100 is 10, so the ladder is 10 feet long.",
+    "standardsRationale": "Directly addresses Common Core Grade 8 standard 8.G.7: applying the Pythagorean theorem to solve real-world problems, completing this week's thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-math-8-2-4",
+    "lessonId": "lesson-math-8-2-4",
+    "title": "A Real Ladder Problem",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve the ladder problem.",
+      "rows": [
+        { "problem": "A ladder is 6 feet from the wall and reaches 8 feet up. How long is the ladder?" },
+        { "problem": "A ladder is 9 feet from the wall and reaches 12 feet up. How long is the ladder?" }
+      ]
+    }
+  }
+}

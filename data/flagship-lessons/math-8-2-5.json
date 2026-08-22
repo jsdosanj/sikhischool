@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-8-2",
+    "courseId": "course-math-8",
+    "order": 2,
+    "title": "The Pythagorean Theorem",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-8-2-5",
+    "unitId": "unit-math-8-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: The Pythagorean Theorem",
+    "gradeLevel": "8",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you mastered the Pythagorean theorem four ways. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a² + b² = c² for right triangles (Day 1). Add the squared legs and take the square root to find the hypotenuse (Day 2). Subtract to find a missing leg (Day 3). You solved a real ladder problem (Day 4). Find the hypotenuse of a right triangle with legs 5 and 12, then explain what real-world scenario this could represent."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you mastered the Pythagorean theorem in both directions and applied it to a real problem! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-8-2-5",
+    "lessonId": "lesson-math-8-2-5",
+    "objectives": [
+      "Review the Pythagorean theorem, finding the hypotenuse, finding a leg, and real-world application",
+      "Correctly find the hypotenuse of a 5-12 triangle and connect it to a real scenario"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child solve for the 5-12 triangle's hypotenuse.\n3. Have the child connect it to a real-world scenario.\n4. Complete the review worksheet.\n5. Celebrate finishing a full week of Pythagorean-theorem mastery!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often finding a missing leg) rather than requiring all four equally",
+      "Ready for more: ask the child to explain why the Pythagorean theorem only works for right triangles, not any triangle",
+      "This is a good checkpoint to note which of the week's four Pythagorean-theorem skills needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "5² + 12² = 25 + 144 = 169. The square root of 169 is 13. This could represent a ladder problem, a diagonal distance, or any real right-triangle scenario.",
+    "standardsRationale": "Consolidates this week's Common Core Grade 8 Pythagorean-theorem standards (8.G.6/8.G.7) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-8-2-5",
+    "lessonId": "lesson-math-8-2-5",
+    "title": "Review: The Pythagorean Theorem",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Find the hypotenuse of a right triangle with legs 5 and 12." },
+        { "problem": "Describe a real-world scenario this triangle could represent." }
+      ]
+    }
+  }
+}

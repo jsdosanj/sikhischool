@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-8-2",
+    "courseId": "course-math-8",
+    "order": 2,
+    "title": "The Pythagorean Theorem",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-8-2-3",
+    "unitId": "unit-math-8-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Finding a Missing Leg",
+    "gradeLevel": "8",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've found the hypotenuse. Today: work the formula backward to find a missing leg!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Given the hypotenuse and one leg, find the missing leg: rearrange to b² = c² - a². For a hypotenuse of 13 and one leg of 5: 13² - 5² = 169 - 25 = 144, and the square root of 144 is 12, so the missing leg is 12. Find the missing leg of a right triangle with hypotenuse 10 and one leg 6."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just found a missing leg by working the theorem backward! Tomorrow we'll apply this to a real-world problem."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-8-2-3",
+    "lessonId": "lesson-math-8-2-3",
+    "objectives": [
+      "Rearrange the Pythagorean theorem to solve for a missing leg",
+      "Correctly find the missing leg given hypotenuse 10 and leg 6"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's hypotenuse-finding work.\n2. Model the 13-5-12 example, subtracting instead of adding.\n3. Have the child solve for the missing leg of the 10-6 triangle independently.\n4. Complete the worksheet.\n5. Preview tomorrow's real-world application.",
+    "differentiationTips": [
+      "Struggling: emphasize that the hypotenuse is always the largest value, so it must be squared and then have the known leg's square subtracted, not added",
+      "Ready for more: ask the child to find the missing leg of a triangle with hypotenuse 17 and one leg 8",
+      "This is a genuinely common error point (subtracting vs. adding) — plenty of guided practice here pays off before tomorrow's application"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "10² - 6² = 100 - 36 = 64. The square root of 64 is 8, so the missing leg is 8.",
+    "standardsRationale": "Directly addresses Common Core Grade 8 standard 8.G.7, extending the theorem to solve for a missing leg rather than the hypotenuse."
+  },
+  "worksheet": {
+    "id": "worksheet-math-8-2-3",
+    "lessonId": "lesson-math-8-2-3",
+    "title": "Finding a Missing Leg",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find the missing leg for each right triangle.",
+      "rows": [
+        { "problem": "Hypotenuse 10, one leg 6: find the missing leg." },
+        { "problem": "Hypotenuse 17, one leg 8: find the missing leg." },
+        { "problem": "Hypotenuse 15, one leg 9: find the missing leg." }
+      ]
+    }
+  }
+}

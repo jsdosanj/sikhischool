@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-7-2",
+    "courseId": "course-math-7",
+    "order": 2,
+    "title": "Operations with Rational Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-7-2-2",
+    "unitId": "unit-math-7-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Multiplying and Dividing Integers",
+    "gradeLevel": "7",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you added and subtracted integers. Today: multiply and divide them using real sign rules!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Two simple sign rules: multiplying or dividing two numbers with the SAME sign gives a positive answer. Multiplying or dividing two numbers with DIFFERENT signs gives a negative answer. -4 × -6 = 24 (same sign, positive). -4 × 6 = -24 (different signs, negative). Solve: -15 ÷ 3, and -7 × -8."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just multiplied and divided integers using real sign rules! Tomorrow we'll combine everything with fractions and decimals."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-7-2-2",
+    "lessonId": "lesson-math-7-2-2",
+    "objectives": [
+      "Apply the same-sign/different-sign rule for multiplying and dividing integers",
+      "Correctly solve -15 ÷ 3 and -7 × -8"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's addition/subtraction work.\n2. Introduce the same-sign/different-sign rule with the -4×-6 and -4×6 examples.\n3. Have the child solve -15÷3 and -7×-8 independently.\n4. Complete the worksheet.\n5. Preview tomorrow's mixed-operations lesson.",
+    "differentiationTips": [
+      "Struggling: write 'same sign = positive, different signs = negative' as a sticky-note reminder to reference during practice",
+      "Ready for more: ask the child to explain why two negatives multiplied together give a positive, using a real-world analogy",
+      "This is a genuinely important rule that's easy to reverse by mistake — plenty of guided practice before independent work pays off"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "-15 ÷ 3 = -5. -7 × -8 = 56.",
+    "standardsRationale": "Directly addresses Common Core Grade 7 standard 7.NS.2: multiplying and dividing rational numbers, continuing this week's operations thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-7-2-2",
+    "lessonId": "lesson-math-7-2-2",
+    "title": "Multiplying and Dividing Integers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each multiplication/division problem.",
+      "rows": [
+        { "problem": "-15 ÷ 3 = ?" },
+        { "problem": "-7 × -8 = ?" },
+        { "problem": "-24 ÷ -6 = ?" }
+      ]
+    }
+  }
+}

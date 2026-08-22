@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-7-2",
+    "courseId": "course-math-7",
+    "order": 2,
+    "title": "Operations with Rational Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-7-2-5",
+    "unitId": "unit-math-7-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Operations with Rational Numbers",
+    "gradeLevel": "7",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you mastered every rational-number operation. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: subtracting a negative is the same as adding a positive (Day 1). Same-sign multiplication/division gives a positive answer, different signs give negative (Day 2). The same rules apply to fractions and decimals (Day 3). You solved a real multi-step problem using all of it (Day 4). Solve: -9 + 4, then -5 × -3, then check your work."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you mastered adding, subtracting, multiplying, and dividing every kind of rational number! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-7-2-5",
+    "lessonId": "lesson-math-7-2-5",
+    "objectives": [
+      "Review integer addition/subtraction/multiplication/division and fraction operations",
+      "Correctly solve -9 + 4 and -5 × -3"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child solve -9 + 4 and -5 × -3.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of rational-number operations!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often sign rules for multiplication/division) rather than requiring all four equally",
+      "Ready for more: ask the child to explain the sign rule for division in their own words, using a real example",
+      "This is a good checkpoint to note which of the week's four operations needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "-9 + 4 = -5. -5 × -3 = 15.",
+    "standardsRationale": "Consolidates this week's Common Core Grade 7 rational-number standards (7.NS.1/7.NS.2/7.NS.3) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-7-2-5",
+    "lessonId": "lesson-math-7-2-5",
+    "title": "Review: Operations with Rational Numbers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "-9 + 4 = ?" },
+        { "problem": "-5 × -3 = ?" },
+        { "problem": "-1/4 + 1/2 = ?" }
+      ]
+    }
+  }
+}

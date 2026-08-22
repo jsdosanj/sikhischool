@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-7-2",
+    "courseId": "course-math-7",
+    "order": 2,
+    "title": "Operations with Rational Numbers",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-7-2-1",
+    "unitId": "unit-math-7-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Adding and Subtracting Integers",
+    "gradeLevel": "7",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you mastered proportional relationships. This week: operations with all rational numbers, starting with adding and subtracting integers!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Adding a negative number is the same as subtracting: 5 + (-3) = 5 - 3 = 2. Subtracting a negative number is the same as adding: 5 - (-3) = 5 + 3 = 8. Think of it on a number line: adding a positive moves right, adding a negative moves left. Solve: -8 + 5, and -3 - 7."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just added and subtracted integers, building on Grade 6's negative-number foundation! Tomorrow we'll multiply and divide them."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-7-2-1",
+    "lessonId": "lesson-math-7-2-1",
+    "objectives": [
+      "Add and subtract integers using the equivalence between subtracting and adding a negative",
+      "Correctly solve -8 + 5 and -3 - 7"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's proportional-relationships work briefly.\n2. Introduce the add/subtract-negative equivalence using the number-line model.\n3. Have the child solve -8 + 5 and -3 - 7 independently.\n4. Complete the worksheet.\n5. Preview tomorrow's multiplication/division lesson.",
+    "differentiationTips": [
+      "Struggling: draw an actual number line and count the moves for each problem",
+      "Ready for more: ask the child to write a real-world scenario matching -3 - 7 (like a temperature dropping twice)",
+      "This directly extends Grade 6's negative-number introduction into real integer operations, a genuine Grade 7 step up"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "-8 + 5 = -3. -3 - 7 = -10.",
+    "standardsRationale": "Directly addresses Common Core Grade 7 standard 7.NS.1: adding and subtracting rational numbers, opening this week's operations thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-math-7-2-1",
+    "lessonId": "lesson-math-7-2-1",
+    "title": "Adding and Subtracting Integers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each addition/subtraction problem.",
+      "rows": [
+        { "problem": "-8 + 5 = ?" },
+        { "problem": "-3 - 7 = ?" },
+        { "problem": "6 - (-4) = ?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-2-2",
+    "courseId": "course-science-2",
+    "order": 2,
+    "title": "How Plants Grow",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-2-2-1",
+    "unitId": "unit-science-2-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Investigating: Do Plants Need Sunlight?",
+    "gradeLevel": "2",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored what materials are made of. This week: how living plants grow! Today, let's investigate a real question: do plants need sunlight?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Scientists answer questions by planning a fair test: change only one thing, and keep everything else the same. To test if plants need sunlight, you'd need two of the very same kind of plant, given the very same amount of water — but one gets sunlight and the other is kept in a dark closet. If the sunny plant grows and the dark one doesn't, that's real evidence sunlight matters. Plan this investigation: what two plants would you use, and what's the one thing that's different between them?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just planned a real scientific investigation — changing only one thing to find real evidence! Tomorrow we'll investigate water the same way."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-2-2-1",
+    "lessonId": "lesson-science-2-2-1",
+    "objectives": [
+      "Understand a fair test changes only one variable and keeps everything else the same",
+      "Plan a simple investigation testing whether plants need sunlight"
+    ],
+    "materialsNeeded": ["Two same-type plants or seedlings, if available (optional but ideal)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's materials-properties work briefly.\n2. Introduce the fair-test idea: change one thing, keep everything else the same.\n3. Walk through the sunlight-investigation plan together.\n4. Have the child describe their own version of the plan on the worksheet.\n5. If real plants are available, actually set up the investigation to check tomorrow/later this week.\n6. Preview tomorrow's water investigation.",
+    "differentiationTips": [
+      "Struggling: focus just on identifying the one changed thing (sunlight vs. no sunlight) rather than designing the full plan independently",
+      "Ready for more: ask what could go wrong with the test if the two plants started out different sizes",
+      "If real plants are available, actually running this investigation over the following weeks makes the lesson far more concrete than the worksheet alone"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an investigation-planning activity — check that the child identifies sunlight as the one changed variable, with everything else (plant type, water amount) kept the same.",
+    "standardsRationale": "Directly addresses NGSS Grade 2 Life Science standard 2-LS2-1: planning and conducting an investigation to determine if plants need sunlight and water to grow, opening this week's plant-growth thread with real scientific-investigation methodology (more advanced than the recall-based K Science plant lesson)."
+  },
+  "worksheet": {
+    "id": "worksheet-science-2-2-1",
+    "lessonId": "lesson-science-2-2-1",
+    "title": "Investigating: Do Plants Need Sunlight?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe your sunlight investigation plan.",
+      "prompts": [
+        { "prompt": "What is the one thing that's different between your two plants?", "lines": 2 },
+        { "prompt": "What do you predict will happen to each plant?", "lines": 2 }
+      ]
+    }
+  }
+}

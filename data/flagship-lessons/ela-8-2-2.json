@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-8-2",
+    "courseId": "course-ela-8",
+    "order": 2,
+    "title": "Public Speaking",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-8-2-2",
+    "unitId": "unit-ela-8-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Delivery: Eye Contact, Pacing, and Voice",
+    "gradeLevel": "8",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you outlined a speech. Today: how you deliver it matters just as much as what you say!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Three delivery skills every strong speaker uses: eye contact (glancing around the room, not staring at notes, to connect with listeners), pacing (speaking slower than feels natural, since nervousness speeds people up), and vocal variety (changing volume and emphasis on key words instead of one flat tone). Practice reading this sentence aloud three different ways, changing your pace and emphasis each time: 'This is the most important part of my speech.'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just practiced real delivery skills! Tomorrow we'll learn how to use evidence effectively when speaking."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-8-2-2",
+    "lessonId": "lesson-ela-8-2-2",
+    "objectives": [
+      "Identify eye contact, pacing, and vocal variety as delivery skills",
+      "Practice varying pace and emphasis when reading a sentence aloud"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's speech outline briefly.\n2. Introduce and model the three delivery skills.\n3. Have the child practice the sentence aloud three ways.\n4. Complete the worksheet.\n5. Preview tomorrow's using-evidence lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just one skill (slowing down) rather than all three at once",
+      "Ready for more: ask the child to record themselves and listen back for pacing",
+      "Delivery skills genuinely change how persuasive the same words sound — worth emphasizing this is a skill, not a talent"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a speaking-practice activity — check that the child produces three genuinely different deliveries (pace and emphasis), not three identical readings.",
+    "standardsRationale": "Directly addresses Common Core Grade 8 Speaking and Listening standard SL.8.4: adapting speech to a variety of contexts and tasks, demonstrating command of formal English when indicated."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-8-2-2",
+    "lessonId": "lesson-ela-8-2-2",
+    "title": "Delivery: Eye Contact, Pacing, and Voice",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about delivery skills.",
+      "rows": [
+        { "problem": "Name the three delivery skills covered today." },
+        { "problem": "Why does nervousness usually make people speak too fast?" },
+        { "problem": "Why does eye contact matter more than reading straight from notes?" }
+      ]
+    }
+  }
+}

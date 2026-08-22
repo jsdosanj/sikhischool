@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-8-2",
+    "courseId": "course-ela-8",
+    "order": 2,
+    "title": "Public Speaking",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-8-2-4",
+    "unitId": "unit-ela-8-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Delivering Your Speech",
+    "gradeLevel": "8",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've built a complete speech: structure, delivery skills, and evidence. Today: put it all together!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Combine everything from this week: your Day 1 outline (hook, two main points, closing), your Day 3 evidence, and your Day 2 delivery skills (eye contact, pacing, vocal variety). Practice delivering the full speech out loud at least twice, standing up, to a family member or an empty room. After each practice, write down one thing that went well and one thing to improve."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just delivered a real, complete speech! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-8-2-4",
+    "lessonId": "lesson-ela-8-2-4",
+    "objectives": [
+      "Combine this week's structure, evidence, and delivery skills into one complete speech",
+      "Practice delivering the speech aloud and reflect on one strength and one area to improve"
+    ],
+    "materialsNeeded": ["Days 1-3 worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Have the child gather their Day 1, 2, and 3 worksheets.\n2. Have them practice delivering the full speech aloud at least twice, standing up.\n3. After each practice, discuss and record one strength and one area to improve.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: it's fine if the speech is short — focus on completing all the pieces rather than length",
+      "Ready for more: have the child deliver it a third time to a different family member and compare feedback",
+      "This is the week's synthesis moment — actually standing up and speaking is the genuinely important skill here, not just having the pieces on paper"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended delivery activity — check that the child actually practiced aloud (not just silently read) and recorded one genuine strength and one genuine area to improve.",
+    "standardsRationale": "Directly addresses Common Core Grade 8 Speaking and Listening standard SL.8.4: presenting information, findings, and supporting evidence clearly, concisely, and logically, with appropriate volume, pronunciation, and delivery."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-8-2-4",
+    "lessonId": "lesson-ela-8-2-4",
+    "title": "Delivering Your Speech",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Reflect on your speech practice.",
+      "prompts": [
+        { "prompt": "One thing that went well:", "lines": 2 },
+        { "prompt": "One thing to improve next time:", "lines": 2 }
+      ]
+    }
+  }
+}

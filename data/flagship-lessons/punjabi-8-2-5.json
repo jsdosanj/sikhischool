@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-8-2",
+    "courseId": "course-punjabi-8",
+    "order": 2,
+    "title": "Punjabi Proverbs (ਅਖਾਣ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-8-2-5",
+    "unitId": "unit-punjabi-8-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Punjabi Proverbs",
+    "gradeLevel": "8",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned three real Punjabi proverbs and wrote your own story. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: an ਅਖਾਣ is a complete saying with a lesson, different from a ਮੁਹਾਵਰਾ (Day 1). ਦੂਰ ਦੇ ਢੋਲ ਸੁਹਾਵਣੇ means things look better from afar (Day 2). ਘਰ ਦੀ ਮੁਰਗ਼ੀ ਦਾਲ ਬਰਾਬਰ means familiar things get undervalued (Day 3). ਸਬਰ ਦਾ ਫਲ ਮਿੱਠਾ means patience is rewarded (Day 4). Match each of the three proverbs to a short new scenario that fits its lesson."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you learned three real Punjabi proverbs and wrote your own composition! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-8-2-5",
+    "lessonId": "lesson-punjabi-8-2-5",
+    "objectives": [
+      "Review the akhaan/muhavara distinction and all three of this week's proverbs",
+      "Correctly match each proverb to a new scenario that fits its lesson"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 3 proverbs together, out loud.\n2. Have the child match each proverb to a new scenario.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of Punjabi proverbs!",
+    "differentiationTips": [
+      "Struggling: focus on just the two proverbs the child remembers most confidently rather than requiring all three",
+      "Ready for more: ask the child whether any of this week's three proverbs has a similar English equivalent, and if so, what",
+      "This is a good checkpoint to note which of the week's three proverbs needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A sample match: a child excited for a new video game that turns out disappointing fits ਦੂਰ ਦੇ ਢੋਲ ਸੁਹਾਵਣੇ; someone ignoring a always-helpful sibling until they're gone fits ਘਰ ਦੀ ਮੁਰਗ਼ੀ ਦਾਲ ਬਰਾਬਰ; a student who studies steadily and eventually understands a hard topic fits ਸਬਰ ਦਾ ਫਲ ਮਿੱਠਾ — check that the child's own scenarios genuinely fit each proverb's lesson.",
+    "standardsRationale": "Consolidates this week's literature-excerpts thread (three real Punjabi proverbs) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-8-2-5",
+    "lessonId": "lesson-punjabi-8-2-5",
+    "title": "Review: Punjabi Proverbs",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Match a new scenario to each proverb.",
+      "prompts": [
+        { "prompt": "A scenario that fits ਦੂਰ ਦੇ ਢੋਲ ਸੁਹਾਵਣੇ:", "lines": 1 },
+        { "prompt": "A scenario that fits ਘਰ ਦੀ ਮੁਰਗ਼ੀ ਦਾਲ ਬਰਾਬਰ:", "lines": 1 },
+        { "prompt": "A scenario that fits ਸਬਰ ਦਾ ਫਲ ਮਿੱਠਾ:", "lines": 1 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-8-2",
+    "courseId": "course-punjabi-8",
+    "order": 2,
+    "title": "Punjabi Proverbs (ਅਖਾਣ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-8-2-4",
+    "unitId": "unit-punjabi-8-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Akhaan: ਸਬਰ ਦਾ ਫਲ ਮਿੱਠਾ + Composition",
+    "gradeLevel": "8",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned two proverbs. Today: a third, plus writing your own composition using one!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਸਬਰ ਦਾ ਫਲ ਮਿੱਠਾ literally means 'the fruit of patience is sweet' — it's used to encourage patience, teaching that waiting and staying calm through a difficulty leads to a good result. Choose one of this week's three proverbs (ਦੂਰ ਦੇ ਢੋਲ ਸੁਹਾਵਣੇ, ਘਰ ਦੀ ਮੁਰਗ਼ੀ ਦਾਲ ਬਰਾਬਰ, or ਸਬਰ ਦਾ ਫਲ ਮਿੱਠਾ) and write 3-4 sentences telling a short story where a character learns that proverb's lesson."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just wrote your own composition using a real Punjabi proverb! Tomorrow we'll review all three."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-8-2-4",
+    "lessonId": "lesson-punjabi-8-2-4",
+    "objectives": [
+      "Understand the meaning of ਸਬਰ ਦਾ ਫਲ ਮਿੱਠਾ",
+      "Write an original short story correctly applying one of this week's three proverbs"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's first two proverbs briefly.\n2. Introduce ਸਬਰ ਦਾ ਫਲ ਮਿੱਠਾ.\n3. Have the child choose one of the three proverbs and write a short story applying it.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: help the child pick the proverb they understood most clearly this week before starting the story",
+      "Ready for more: ask the child to write a story that could apply to two of the week's proverbs at once",
+      "This is the week's synthesis moment — actually applying a proverb correctly in an original story is the genuinely important literary skill here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended composition activity — check that the child's 3-4 sentence story clearly demonstrates the chosen proverb's specific lesson, not just a generic story with the proverb tacked on.",
+    "standardsRationale": "Directly addresses the course's literature-excerpts and composition threads together, completing this week's proverb sequence before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-8-2-4",
+    "lessonId": "lesson-punjabi-8-2-4",
+    "title": "Akhaan: ਸਬਰ ਦਾ ਫਲ ਮਿੱਠਾ + Composition",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your short story applying one of this week's proverbs.",
+      "prompts": [
+        { "prompt": "Which proverb are you using?", "lines": 1 },
+        { "prompt": "Your 3-4 sentence story:", "lines": 4 }
+      ]
+    }
+  }
+}

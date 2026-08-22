@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-8-2",
+    "courseId": "course-punjabi-8",
+    "order": 2,
+    "title": "Punjabi Proverbs (ਅਖਾਣ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-8-2-3",
+    "unitId": "unit-punjabi-8-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Akhaan: ਘਰ ਦੀ ਮੁਰਗ਼ੀ ਦਾਲ ਬਰਾਬਰ",
+    "gradeLevel": "8",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday's proverb was about what's far away. Today: one about what's close to home!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਘਰ ਦੀ ਮੁਰਗ਼ੀ ਦਾਲ ਬਰਾਬਰ literally means 'the hen at home is worth only as much as lentils' — it's used when something familiar and always available stops feeling special, even though it's genuinely valuable, simply because it's so easy to have. This is almost the opposite lesson from yesterday's proverb: yesterday was about overvaluing what's distant, today is about undervaluing what's close and familiar. Write one thing in your own life that you might take for granted because it's always available, and explain why it's actually valuable."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned a second real Punjabi proverb! Tomorrow we'll learn a third one and write our own composition."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-8-2-3",
+    "lessonId": "lesson-punjabi-8-2-3",
+    "objectives": [
+      "Understand the meaning of ਘਰ ਦੀ ਮੁਰਗ਼ੀ ਦਾਲ ਬਰਾਬਰ",
+      "Contrast it with yesterday's proverb and identify something personally taken for granted"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's proverb work briefly.\n2. Introduce ਘਰ ਦੀ ਮੁਰਗ਼ੀ ਦਾਲ ਬਰਾਬਰ and contrast it with yesterday's proverb.\n3. Have the child identify and explain something they take for granted.\n4. Complete the worksheet.\n5. Preview tomorrow's third proverb and composition.",
+    "differentiationTips": [
+      "Struggling: offer a concrete example first (always having a family member who helps with homework) as a model to adapt",
+      "Ready for more: ask the child to explain how yesterday's and today's proverbs are almost opposite lessons about the same idea — familiarity changing how we value something",
+      "Two contrasting proverbs across two days is a deliberate pairing, reinforcing that proverbs often capture opposite sides of the same human tendency"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child names something genuinely familiar/always-available and explains why it's actually valuable despite feeling ordinary.",
+    "standardsRationale": "Directly addresses the course's literature-excerpts thread with a second real, well-known Punjabi proverb, deliberately contrasted with yesterday's for a richer literary understanding."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-8-2-3",
+    "lessonId": "lesson-punjabi-8-2-3",
+    "title": "Akhaan: ਘਰ ਦੀ ਮੁਰਗ਼ੀ ਦਾਲ ਬਰਾਬਰ",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write about something you take for granted.",
+      "prompts": [
+        { "prompt": "What does ਘਰ ਦੀ ਮੁਰਗ਼ੀ ਦਾਲ ਬਰਾਬਰ mean?", "lines": 1 },
+        { "prompt": "Something familiar in your life you might take for granted, and why it's valuable:", "lines": 2 }
+      ]
+    }
+  }
+}

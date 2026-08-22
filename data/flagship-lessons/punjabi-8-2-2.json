@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-8-2",
+    "courseId": "course-punjabi-8",
+    "order": 2,
+    "title": "Punjabi Proverbs (ਅਖਾਣ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-8-2-2",
+    "unitId": "unit-punjabi-8-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Akhaan: ਦੂਰ ਦੇ ਢੋਲ ਸੁਹਾਵਣੇ",
+    "gradeLevel": "8",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what an akhaan is. Today: your first real Punjabi proverb!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਦੂਰ ਦੇ ਢੋਲ ਸੁਹਾਵਣੇ literally means 'drums sound sweeter from far away' — it's used when something looks better or more appealing from a distance than it actually turns out to be up close, similar to the English saying 'the grass is greener on the other side.' Write a short example of a time (real or made up) when something seemed exciting from far away but turned out to be less exciting up close, and explain how it connects to this proverb."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned your first real Punjabi proverb! Tomorrow we'll learn a second one about what's close to home."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-8-2-2",
+    "lessonId": "lesson-punjabi-8-2-2",
+    "objectives": [
+      "Understand the meaning of ਦੂਰ ਦੇ ਢੋਲ ਸੁਹਾਵਣੇ",
+      "Write a personal example connecting to the proverb's lesson"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's akhaan-definition work briefly.\n2. Introduce ਦੂਰ ਦੇ ਢੋਲ ਸੁਹਾਵਣੇ and its literal + figurative meaning.\n3. Have the child write a connecting personal example.\n4. Complete the worksheet.\n5. Preview tomorrow's second proverb.",
+    "differentiationTips": [
+      "Struggling: offer a concrete example first (a movie that looked exciting in the trailer but was disappointing) as a model to adapt",
+      "Ready for more: ask the child to compare this proverb directly to the English 'the grass is greener' saying — what's the same, what's different",
+      "Real, well-known Punjabi proverbs (not invented ones) — accuracy matters here the same way it does for any other Gurmukhi content on this platform"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child's example genuinely reflects the proverb's lesson: something appealing from a distance that was less impressive up close.",
+    "standardsRationale": "Directly addresses the course's literature-excerpts thread with a real, well-known Punjabi proverb, continuing this week's introduction to the akhaan genre."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-8-2-2",
+    "lessonId": "lesson-punjabi-8-2-2",
+    "title": "Akhaan: ਦੂਰ ਦੇ ਢੋਲ ਸੁਹਾਵਣੇ",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your example connecting to this proverb.",
+      "prompts": [
+        { "prompt": "What is ਦੂਰ ਦੇ ਢੋਲ ਸੁਹਾਵਣੇ's literal meaning?", "lines": 1 },
+        { "prompt": "Your example of something exciting from afar, less exciting up close:", "lines": 2 }
+      ]
+    }
+  }
+}

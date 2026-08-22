@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-7-1",
+    "courseId": "course-punjabi-7",
+    "order": 1,
+    "title": "Formal Writing in Punjabi",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-7-1-5",
+    "unitId": "unit-punjabi-7-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Formal Writing in Punjabi",
+    "gradeLevel": "7",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਬਹੁਤ ਕੁਝ ਲਿਖਿਆ! (This week you wrote so much!) Let's review the letter structure and all your new vocabulary."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a Punjabi letter has a greeting (ਪਿਆਰੇ), a clear subject (ਵਿਸ਼ਾ), and a respectful closing (ਤੁਹਾਡਾ ਸਤਿਕਾਰ ਸਹਿਤ) (Day 1). Festival words: ਜਸ਼ਨ, ਇਕੱਠਾ, ਨੱਚਣਾ, ਗਾਇਆ (Day 2). Food words: ਦਾਲ, ਚੌਲ, ਸਬਜ਼ੀ, ਮਿਠਾਈ, ਸੁਆਦੀ (Day 3). You combined all of this into one complete letter (Day 4). Read your letter from yesterday aloud one more time, then match each vocabulary word below to its meaning."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਸ਼ਾਬਾਸ਼! (Well done!) You now know the real structure of a formal Punjabi letter, plus real festival and food vocabulary — and you've used all of it in your own genuine writing."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-7-1-5",
+    "lessonId": "lesson-punjabi-7-1-5",
+    "objectives": [
+      "Recall the formal letter structure and all 9 new vocabulary words from this week",
+      "Correctly match each vocabulary word to its meaning"
+    ],
+    "materialsNeeded": ["All 4 worksheets from this week", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child read their own letter from Day 4 aloud.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing a real week of formal writing AND cultural vocabulary in Punjabi.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to write one more sentence for their letter, using a vocabulary word they haven't used yet",
+      "This is a genuine milestone — a complete, real formal letter combining grammar structure and cultural vocabulary"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. ਪਿਆਰੇ = dear (greeting). 2. ਜਸ਼ਨ = celebration. 3. ਦਾਲ = lentils. 4. ਸੁਆਦੀ = delicious.",
+    "standardsRationale": "Consolidates the week's formal-writing structure and cultural vocabulary, matching the course's own 'letter writing' and 'cultural units' descriptions together in one final review."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-7-1-5",
+    "lessonId": "lesson-punjabi-7-1-5",
+    "title": "Formal Writing in Punjabi: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the English meaning of each word.",
+      "rows": [
+        { "problem": "ਪਿਆਰੇ" },
+        { "problem": "ਜਸ਼ਨ" },
+        { "problem": "ਦਾਲ" },
+        { "problem": "ਸੁਆਦੀ" }
+      ]
+    }
+  }
+}

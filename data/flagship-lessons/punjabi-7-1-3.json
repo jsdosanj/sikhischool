@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-punjabi-7-1",
+    "courseId": "course-punjabi-7",
+    "order": 1,
+    "title": "Formal Writing in Punjabi",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-7-1-3",
+    "unitId": "unit-punjabi-7-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Describing Food: Cuisine Vocabulary",
+    "gradeLevel": "7",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਹਰ ਤਿਉਹਾਰ ਵਿੱਚ ਖਾਣਾ ਬਹੁਤ ਜ਼ਰੂਰੀ ਹੁੰਦਾ ਹੈ। (Food is very important at every festival.) Today, real vocabulary for describing food."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "New words: ਦਾਲ (daal, lentils), ਚੌਲ (chaul, rice), ਸਬਜ਼ੀ (sabzi, vegetable dish), ਮਿਠਾਈ (mithai, sweets), and ਸੁਆਦੀ (suaadi, delicious). These are real, common foods served at festivals and in Langar. Write 2-3 sentences describing a meal you've eaten at a festival or family gathering, using at least two of today's new words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have real vocabulary for describing festival food. Tomorrow you'll combine everything from this week into one complete formal letter."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-7-1-3",
+    "lessonId": "lesson-punjabi-7-1-3",
+    "objectives": [
+      "Learn 5 new vocabulary words for describing food: ਦਾਲ, ਚੌਲ, ਸਬਜ਼ੀ, ਮਿਠਾਈ, ਸੁਆਦੀ",
+      "Write 2-3 sentences describing a real festival or family meal"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's festival vocabulary.\n2. Introduce today's 5 new food words, connecting to real dishes the child may know.\n3. Have the child draft 2-3 sentences describing a real meal.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: combining everything into one complete letter.",
+    "differentiationTips": [
+      "Struggling: allow the child to just name 2-3 foods they know rather than writing full descriptive sentences yet",
+      "Ready for more: ask them to describe HOW a dish tasted or smelled, not just name it",
+      "All Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਦਾਲ = lentils. 2. ਚੌਲ = rice. 3. ਸਬਜ਼ੀ = vegetable dish. 4. ਮਿਠਾਈ = sweets. 5. ਸੁਆਦੀ = delicious.",
+    "standardsRationale": "Builds the cultural/cuisine vocabulary named in the course's 'cultural units — cuisine' description, completing the vocabulary needed for the week's culminating letter."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-7-1-3",
+    "lessonId": "lesson-punjabi-7-1-3",
+    "title": "Describing Food",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the English meaning of each Gurmukhi word.",
+      "rows": [
+        { "problem": "ਦਾਲ" },
+        { "problem": "ਚੌਲ" },
+        { "problem": "ਸਬਜ਼ੀ" },
+        { "problem": "ਮਿਠਾਈ" },
+        { "problem": "ਸੁਆਦੀ" }
+      ]
+    }
+  }
+}

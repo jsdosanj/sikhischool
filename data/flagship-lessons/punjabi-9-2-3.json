@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-9-2",
+    "courseId": "course-punjabi-9",
+    "order": 2,
+    "title": "Punjabi Postpositions (ਸੰਬੰਧਕ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-9-2-3",
+    "unitId": "unit-punjabi-9-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "ਵਿੱਚ (in) and ਨਾਲ (with)",
+    "gradeLevel": "9",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned ਨੂੰ and ਤੋਂ. Today: two more essential postpositions!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਵਿੱਚ means 'in,' used the same way as the postpositions you already know: ਘਰ ਵਿੱਚ means 'in the house.' ਨਾਲ means 'with,' as in ਦੋਸਤ ਨਾਲ, 'with a friend.' Translate the phrases 'in school' and 'with my friend' into Punjabi using ਵਿੱਚ and ਨਾਲ."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned all four essential postpositions! Tomorrow we'll combine them into full sentences."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-9-2-3",
+    "lessonId": "lesson-punjabi-9-2-3",
+    "objectives": [
+      "Understand ਵਿੱਚ (in) and ਨਾਲ (with)",
+      "Correctly translate 'in school' and 'with my friend' using these postpositions"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's ਨੂੰ/ਤੋਂ work briefly.\n2. Introduce ਵਿੱਚ and ਨਾਲ with the ਘਰ ਵਿੱਚ/ਦੋਸਤ ਨਾਲ examples.\n3. Have the child translate 'in school' and 'with my friend'.\n4. Complete the worksheet.\n5. Preview tomorrow's combined-sentences lesson.",
+    "differentiationTips": [
+      "Struggling: review all four postpositions learned so far (ਨੂੰ, ਤੋਂ, ਵਿੱਚ, ਨਾਲ) together on one list before introducing new translation practice",
+      "Ready for more: ask the child to translate a sentence combining two postpositions, like 'I am going with my friend to school'",
+      "With all four postpositions now taught, the child has real, practical grammar directly usable in everyday conversation"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "'In school' = ਸਕੂਲ ਵਿੱਚ. 'With my friend' = ਦੋਸਤ ਨਾਲ.",
+    "standardsRationale": "Directly addresses this course's advanced-grammar thread, completing the four most commonly used Punjabi postpositions."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-9-2-3",
+    "lessonId": "lesson-punjabi-9-2-3",
+    "title": "ਵਿੱਚ (in) and ਨਾਲ (with)",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Translate each phrase into Punjabi using ਵਿੱਚ or ਨਾਲ.",
+      "rows": [
+        { "problem": "Translate: 'in school'" },
+        { "problem": "Translate: 'with my friend'" },
+        { "problem": "Translate: 'in the book'" }
+      ]
+    }
+  }
+}

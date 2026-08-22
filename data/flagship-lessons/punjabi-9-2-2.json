@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-9-2",
+    "courseId": "course-punjabi-9",
+    "order": 2,
+    "title": "Punjabi Postpositions (ਸੰਬੰਧਕ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-9-2-2",
+    "unitId": "unit-punjabi-9-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "ਨੂੰ (to) and ਤੋਂ (from)",
+    "gradeLevel": "9",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what a postposition is. Today: your first two real ones!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਨੂੰ means 'to' or 'for,' used after the noun it applies to: ਸਕੂਲ ਨੂੰ means 'to school.' ਤੋਂ means 'from,' used the same way: ਘਰ ਤੋਂ means 'from home.' Translate the phrases 'to my friend' and 'from school' into Punjabi using ਨੂੰ and ਤੋਂ, placing each postposition correctly after its noun."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used your first two real Punjabi postpositions! Tomorrow we'll learn two more."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-9-2-2",
+    "lessonId": "lesson-punjabi-9-2-2",
+    "objectives": [
+      "Understand ਨੂੰ (to/for) and ਤੋਂ (from)",
+      "Correctly translate 'to my friend' and 'from school' using these postpositions"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's postposition-definition work briefly.\n2. Introduce ਨੂੰ and ਤੋਂ with the ਸਕੂਲ ਨੂੰ/ਘਰ ਤੋਂ examples.\n3. Have the child translate 'to my friend' and 'from school'.\n4. Complete the worksheet.\n5. Preview tomorrow's ਵਿੱਚ/ਨਾਲ lesson.",
+    "differentiationTips": [
+      "Struggling: practice placing the postposition correctly with just one noun (ਘਰ) using both ਨੂੰ and ਤੋਂ before moving to a new noun",
+      "Ready for more: ask the child to translate a full short sentence using both postpositions, like 'I am going from home to school'",
+      "This is real, practical vocabulary directly usable in everyday conversation, not just abstract grammar"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "'To my friend' = ਦੋਸਤ ਨੂੰ. 'From school' = ਸਕੂਲ ਤੋਂ.",
+    "standardsRationale": "Directly addresses this course's advanced-grammar thread, introducing two of the most commonly used Punjabi postpositions."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-9-2-2",
+    "lessonId": "lesson-punjabi-9-2-2",
+    "title": "ਨੂੰ (to) and ਤੋਂ (from)",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Translate each phrase into Punjabi using ਨੂੰ or ਤੋਂ.",
+      "rows": [
+        { "problem": "Translate: 'to my friend'" },
+        { "problem": "Translate: 'from school'" },
+        { "problem": "Translate: 'to home'" }
+      ]
+    }
+  }
+}

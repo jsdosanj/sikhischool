@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-5-1",
+    "courseId": "course-punjabi-5",
+    "order": 1,
+    "title": "Reading Punjabi Folk Tales",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-5-1-3",
+    "unitId": "unit-punjabi-5-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Finding the Story's Lesson",
+    "gradeLevel": "5",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਹਰ ਲੋਕ ਕਹਾਣੀ ਇੱਕ ਸਿੱਖਿਆ ਦਿੰਦੀ ਹੈ। (Every folk tale gives a lesson.) Yesterday you read the whole story — today, let's find its real lesson."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Two new words: ਸਿਆਣਪ (siyanap, wisdom) and ਚਲਾਕ (chalak, clever). Think back to the Thirsty Crow: the crow didn't just give up when the water was too low to reach — he used ਸਿਆਣਪ to solve his problem in a ਚਲਾਕ way. That's the story's real lesson: even a small creature can solve a big problem by thinking cleverly, instead of giving up. Can you think of a time YOU solved a problem cleverly, like the crow did?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified the real lesson behind a famous folk tale, and connected it to your own life. Tomorrow you'll write your own short story with a lesson, just like this one."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-5-1-3",
+    "lessonId": "lesson-punjabi-5-1-3",
+    "objectives": [
+      "Identify the main lesson/moral of a folk tale (the Thirsty Crow)",
+      "Learn 2 new vocabulary words: ਸਿਆਣਪ, ਚਲਾਕ",
+      "Connect the story's lesson to a personal experience"
+    ],
+    "materialsNeeded": ["Yesterday's Thirsty Crow worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's story.\n2. Introduce ਸਿਆਣਪ and ਚਲਾਕ, connecting them to the crow's problem-solving.\n3. Discuss the story's real lesson together.\n4. Have the child share a personal example of clever problem-solving.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: writing their own story with a lesson.",
+    "differentiationTips": [
+      "Struggling: offer a specific example (like figuring out how to reach something on a high shelf) if the child struggles to think of their own",
+      "Ready for more: ask them to think of a different lesson the same story could also teach, beyond 'clever problem-solving'",
+      "All Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਸਿਆਣਪ = wisdom. 2. ਚਲਾਕ = clever. 3. The story's lesson is that even a small creature can solve a big problem by thinking cleverly instead of giving up.",
+    "standardsRationale": "Addresses the 'reading comprehension' description directly with a genuine comprehension skill (identifying theme/moral), a natural next step after Day 2's literal reading and prediction."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-5-1-3",
+    "lessonId": "lesson-punjabi-5-1-3",
+    "title": "Finding the Story's Lesson",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each prompt about the story's lesson.",
+      "prompts": [
+        { "prompt": "What is the lesson of the Thirsty Crow story?", "lines": 2 },
+        { "prompt": "Write about a time you solved a problem cleverly, like the crow did.", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-7-1",
+    "courseId": "course-science-7",
+    "order": 1,
+    "title": "Matter and Chemical Reactions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-7-1-2",
+    "unitId": "unit-science-7-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Evidence of Chemical Reactions",
+    "gradeLevel": "7",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned four clues that a chemical reaction has happened. Today, real, hands-on evidence for each one."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Test each clue with a real (or described) example: mix baking soda and vinegar — you'll see gas bubbles forming, one of the four clues. Leave an apple slice out — it slowly turns brown, a color change that isn't from mixing colors, another clue. Mix two clear liquids like a calcium solution and a carbonate solution — a solid (precipitate) can form. Touch a container where a reaction like rusting is happening — a slow, self-occurring temperature change. For each of these four examples, explain in your own words which specific clue it demonstrates."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected each of the four clues to a real, concrete example. Tomorrow we'll investigate what happens to the total amount of matter during a chemical reaction."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-7-1-2",
+    "lessonId": "lesson-science-7-1-2",
+    "objectives": [
+      "Match each of the four evidence-of-chemical-reaction clues to a real example",
+      "Conduct or describe a hands-on demonstration of at least one clue (gas bubbles)"
+    ],
+    "materialsNeeded": ["Baking soda", "Vinegar", "A bowl", "An apple slice (optional)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's four clues.\n2. Do the baking soda + vinegar investigation together, identifying the gas-bubble clue.\n3. Discuss the apple-browning, precipitate, and self-heating examples (demonstrate what's feasible at home).\n4. Complete the worksheet.\n5. Preview tomorrow's topic: conservation of mass.",
+    "differentiationTips": [
+      "Struggling: focus on just the baking soda + vinegar hands-on example, discussing the other three verbally rather than demonstrating all four",
+      "Ready for more: research one more real chemical reaction and identify which of the four clues it shows",
+      "Physically doing at least one investigation (not just reading about it) makes the abstract 'clues' concept concrete and memorable"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Baking soda + vinegar = gas bubbles forming. 2. An apple turning brown = a color change not from mixing colors. 3. Two clear liquids forming a solid = a precipitate. 4. Rusting metal feeling warm = a self-occurring temperature change.",
+    "standardsRationale": "Directly addresses NGSS MS-PS1-2: analyzing and interpreting data on the properties of substances before and after they interact to determine if a chemical reaction occurred, giving each Day-1 clue real, tangible evidence."
+  },
+  "worksheet": {
+    "id": "worksheet-science-7-1-2",
+    "lessonId": "lesson-science-7-1-2",
+    "title": "Evidence of Chemical Reactions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Match each example to the chemical-reaction clue it demonstrates.",
+      "rows": [
+        { "problem": "Baking soda + vinegar bubbling: which clue?" },
+        { "problem": "An apple slice turning brown: which clue?" },
+        { "problem": "Two clear liquids forming a solid: which clue?" },
+        { "problem": "Rusting metal feeling warm: which clue?" }
+      ]
+    }
+  }
+}

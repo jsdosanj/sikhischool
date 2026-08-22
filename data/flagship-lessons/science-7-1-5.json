@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-7-1",
+    "courseId": "course-science-7",
+    "order": 1,
+    "title": "Matter and Chemical Reactions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-7-1-5",
+    "unitId": "unit-science-7-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Matter and Chemical Reactions",
+    "gradeLevel": "7",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you investigated chemical reactions from every angle: how to spot them, what happens to mass, and how energy moves. Let's put it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: physical changes alter appearance without creating new substances, while chemical changes create genuinely new substances, shown by four clues — color change, gas bubbles, temperature change, or a precipitate (Days 1-2). The total mass in a chemical reaction is always conserved, even when it looks like something disappeared (Day 3). Reactions either release energy (exothermic) or absorb it (endothermic) (Day 4). Walk back through your own home and find one real example of each of these ideas."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work investigating chemical reactions this week! You now understand how to identify them, what happens to matter and energy, and why these ideas matter in real chemistry."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-7-1-5",
+    "lessonId": "lesson-science-7-1-5",
+    "objectives": [
+      "Recall and correctly apply all key concepts from the week: reaction evidence, conservation of mass, and exothermic/endothermic reactions",
+      "Identify a real-life example of each concept"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Send the child on a home scavenger hunt for one example of each concept.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of investigation — this pattern (5 days building to a review) is how every unit this year will work.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to explain WHY each example fits its category, not just to label it correctly",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Gas bubbles forming is one clue of a chemical reaction. 2. The total mass before and after a chemical reaction is conserved. 3. Burning wood is an exothermic reaction. 4. A cold pack is an endothermic reaction.",
+    "standardsRationale": "Consolidates NGSS MS-PS1-2, MS-PS1-5, and MS-PS1-6 (reaction evidence, conservation of mass, and thermal energy in reactions) before the unit moves on, matching the 'consolidate before adding more' pacing established in earlier units this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-7-1-5",
+    "lessonId": "lesson-science-7-1-5",
+    "title": "Matter and Chemical Reactions: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "Name one clue that a chemical reaction has occurred." },
+        { "problem": "What happens to total mass during a chemical reaction?" },
+        { "problem": "Is burning wood exothermic or endothermic?" },
+        { "problem": "Is a cold pack exothermic or endothermic?" }
+      ]
+    }
+  }
+}

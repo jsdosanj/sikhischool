@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-9-1",
+    "courseId": "course-science-9",
+    "order": 1,
+    "title": "Introduction to Genetics",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-9-1-3",
+    "unitId": "unit-science-9-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Predicting Traits with Punnett Squares",
+    "gradeLevel": "9",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You understand dominant and recessive alleles. Today, a real tool geneticists use to predict the probability of offspring traits: the Punnett square."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A Punnett square is a grid showing every possible combination of alleles two parents could pass to offspring. For two Tt (tall) pea plants crossed together, list one parent's alleles (T, t) across the top and the other's (T, t) down the side, then fill in each box by combining the row and column allele. The result: one box TT, two boxes Tt, one box tt — a 1:2:1 genotype ratio. Since both TT and Tt LOOK tall (dominant), the phenotype ratio is 3 tall : 1 short. Build this Punnett square yourself for a Tt x Tt cross, and state the resulting phenotype ratio."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just built a real Punnett square and correctly predicted a 3:1 phenotype ratio — the same result Gregor Mendel discovered through real pea-plant experiments. Tomorrow we'll look at where genetic variation actually comes from."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-9-1-3",
+    "lessonId": "lesson-science-9-1-3",
+    "objectives": [
+      "Construct a Punnett square for a Tt x Tt cross",
+      "Determine the resulting genotype ratio (1:2:1) and phenotype ratio (3:1)"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Paper for drawing the Punnett square grid"],
+    "facilitationScript": "1. Review yesterday's dominant/recessive vocabulary.\n2. Draw a 2x2 grid together, labeling T/t across the top and down the side.\n3. Fill in all four boxes together, then count genotypes and phenotypes.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: where genetic variation comes from.",
+    "differentiationTips": [
+      "Struggling: fill in the grid together step by step rather than having the child do it independently at first",
+      "Ready for more: ask them to build a Punnett square for a Tt x tt cross and predict its different ratio",
+      "This is genuinely satisfying, concrete math applied to biology — let the child do the actual counting themselves"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Tt x Tt Punnett square: 1 TT, 2 Tt, 1 tt (genotype ratio 1:2:1). 2. Phenotype ratio: 3 tall (TT, Tt, Tt) to 1 short (tt), or 3:1.",
+    "standardsRationale": "Directly addresses NGSS HS-LS3-3: applying concepts of statistics and probability to explain the variation and distribution of expressed traits in a population, using the real, historically significant Mendel pea-plant example."
+  },
+  "worksheet": {
+    "id": "worksheet-science-9-1-3",
+    "lessonId": "lesson-science-9-1-3",
+    "title": "Predicting Traits with Punnett Squares",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Build a Punnett square for a Tt x Tt cross, then answer each question.",
+      "rows": [
+        { "problem": "What is the genotype ratio (TT:Tt:tt)?" },
+        { "problem": "What is the phenotype ratio (tall:short)?" },
+        { "problem": "Why do both TT and Tt plants look tall?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-9-1",
+    "courseId": "course-science-9",
+    "order": 1,
+    "title": "Introduction to Genetics",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-9-1-5",
+    "unitId": "unit-science-9-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Introduction to Genetics",
+    "gradeLevel": "9",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you traced inheritance from DNA all the way to population-level variation. Let's put it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: DNA is organized into chromosomes and genes, inherited one set from each parent (Day 1). Alleles are different versions of a gene, and dominant alleles are expressed even with one copy (Day 2). Punnett squares predict offspring genotype and phenotype ratios (Day 3). Genetic variation comes from new allele combinations and mutations, and matters for population survival (Day 4). Build a Punnett square for a new cross — Bb x Bb, where B (brown eyes) is dominant and b (blue eyes) is recessive — and state both the genotype and phenotype ratios."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work investigating genetics this week! You now understand DNA, inheritance, Punnett squares, and genetic variation — real foundational biology that the rest of this course's genetics and evolution units will build on."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-9-1-5",
+    "lessonId": "lesson-science-9-1-5",
+    "objectives": [
+      "Recall and correctly apply all four genetics concepts from the week",
+      "Build a new Punnett square (Bb x Bb) and correctly state its ratios"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child build the new Bb x Bb Punnett square independently.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of investigation — this pattern (5 days building to a review) is how every unit this year will work.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to explain WHY the Bb x Bb cross produces the same ratios as the Tt x Tt cross, despite being about a completely different trait",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. DNA is organized into chromosomes and genes. 2. A dominant allele is expressed even with just one copy. 3. Bb x Bb Punnett square: genotype ratio 1 BB : 2 Bb : 1 bb; phenotype ratio 3 brown-eyed : 1 blue-eyed. 4. Genetic variation matters because it helps a population survive disease or environmental change.",
+    "standardsRationale": "Consolidates NGSS HS-LS3-1 through HS-LS3-3 (DNA/chromosomes, allele dominance, and Punnett-square probability) before the unit moves on, matching the 'consolidate before adding more' pacing established in earlier units this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-9-1-5",
+    "lessonId": "lesson-science-9-1-5",
+    "title": "Introduction to Genetics: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Build a Punnett square for a Bb x Bb cross (B=brown eyes dominant, b=blue eyes recessive), then answer each question.",
+      "rows": [
+        { "problem": "What is the genotype ratio (BB:Bb:bb)?" },
+        { "problem": "What is the phenotype ratio (brown-eyed:blue-eyed)?" },
+        { "problem": "Name two sources of genetic variation." },
+        { "problem": "Why does genetic variation matter for population survival?" }
+      ]
+    }
+  }
+}

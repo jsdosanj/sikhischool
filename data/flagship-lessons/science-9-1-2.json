@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-9-1",
+    "courseId": "course-science-9",
+    "order": 1,
+    "title": "Introduction to Genetics",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-9-1-2",
+    "unitId": "unit-science-9-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Genes and Alleles: Dominant and Recessive Traits",
+    "gradeLevel": "9",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know you inherit two copies of most genes. But what happens when those two copies carry different instructions for the same trait?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Different versions of the same gene are called alleles. For a given trait, an allele can be dominant (its instructions are followed even if only one copy is present) or recessive (its instructions are only followed if BOTH copies are the recessive version). In the classic pea-plant example Gregor Mendel studied, tall (T) is dominant and short (t) is recessive. A plant with two dominant alleles (TT) is tall; a plant with two recessive alleles (tt) is short; a plant with one of each (Tt) is ALSO tall, because the dominant allele's instructions are followed. Explain why a Tt plant looks identical to a TT plant, even though their genes are different."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just explained how dominant and recessive alleles determine which traits actually appear. Tomorrow we'll use a real tool, the Punnett square, to predict offspring traits."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-9-1-2",
+    "lessonId": "lesson-science-9-1-2",
+    "objectives": [
+      "Define allele, dominant, and recessive",
+      "Explain why a heterozygous (Tt) individual displays the dominant trait"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's genes and inheritance.\n2. Introduce alleles, dominant, and recessive using the classic Mendel pea-plant example.\n3. Discuss why Tt looks the same as TT (dominant allele's instructions are followed).\n4. Complete the worksheet.\n5. Preview tomorrow's topic: Punnett squares.",
+    "differentiationTips": [
+      "Struggling: focus on just TT (tall) vs. tt (short) before introducing the trickier Tt (also tall) case",
+      "Ready for more: ask them to predict what would happen if BOTH dominant and recessive alleles could equally influence a trait (a different, more complex inheritance pattern beyond this week's scope)",
+      "Mendel's actual pea-plant experiments are real, well-documented history of science — worth mentioning as genuine scientific discovery, not just an abstract example"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. An allele is a different version of the same gene. 2. A dominant allele's instructions are followed even with just one copy; a recessive allele's instructions need two copies. 3. Tt looks like TT because the dominant T allele's instructions are followed regardless of the recessive t allele's presence.",
+    "standardsRationale": "Builds the conceptual vocabulary (alleles, dominant, recessive) needed for Day 3's Punnett square predictions, matching NGSS HS-LS3's genetics standards."
+  },
+  "worksheet": {
+    "id": "worksheet-science-9-1-2",
+    "lessonId": "lesson-science-9-1-2",
+    "title": "Genes and Alleles",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about alleles.",
+      "rows": [
+        { "problem": "What is an allele?" },
+        { "problem": "A plant with genotype TT (T=dominant tall) — is it tall or short?" },
+        { "problem": "A plant with genotype Tt — is it tall or short? Why?" }
+      ]
+    }
+  }
+}

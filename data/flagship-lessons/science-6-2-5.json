@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-6-2",
+    "courseId": "course-science-6",
+    "order": 2,
+    "title": "Body Systems",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-6-2-5",
+    "unitId": "unit-science-6-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Body Systems",
+    "gradeLevel": "6",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you explored three body systems and how they work together. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: the digestive system breaks down food (Day 1). The circulatory system delivers nutrients and oxygen (Day 2). The respiratory system brings in oxygen (Day 3). All three work together to power a single cell (Day 4). Name each system's main job, then explain in one sentence how they connect."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you explored three body systems and how they interact! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-6-2-5",
+    "lessonId": "lesson-science-6-2-5",
+    "objectives": [
+      "Review the digestive, circulatory, and respiratory systems and how they interact",
+      "State each system's main job and explain how they connect"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child name each system's main job.\n3. Have the child explain the connection between all three in one sentence.\n4. Complete the review worksheet.\n5. Celebrate finishing a full week of body-systems exploration!",
+    "differentiationTips": [
+      "Struggling: focus on just naming each system's job correctly before requiring the full connection explanation",
+      "Ready for more: ask the child to connect this week back to last week — how do cells (from last week) relate to the organs and systems studied this week?",
+      "This is a good checkpoint to note which of the week's three body systems needs the most reinforcement before moving on"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child correctly states each system's job (digestion breaks down food, circulation delivers materials, respiration brings in oxygen) and gives a genuine one-sentence connection between them.",
+    "standardsRationale": "Consolidates this week's NGSS Grade 6-8 Life Science standard MS-LS1-3 before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-6-2-5",
+    "lessonId": "lesson-science-6-2-5",
+    "title": "Review: Body Systems",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What is the digestive system's main job?" },
+        { "problem": "What is the circulatory system's main job?" },
+        { "problem": "What is the respiratory system's main job?" }
+      ]
+    }
+  }
+}

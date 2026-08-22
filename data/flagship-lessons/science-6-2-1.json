@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-6-2",
+    "courseId": "course-science-6",
+    "order": 2,
+    "title": "Body Systems",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-6-2-1",
+    "unitId": "unit-science-6-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The Digestive System",
+    "gradeLevel": "6",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned about cells. This week: body systems, groups of organs working together!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The digestive system breaks down food into nutrients your body can use. Food travels through the mouth, esophagus, stomach, and intestines — each organ has a specific job: the mouth begins mechanical breakdown, the stomach uses acid to break food down further, and the intestines absorb nutrients into the body. Explain why breaking down food is necessary before your body can actually use it for energy."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how the digestive system's organs work together! Tomorrow we'll learn about the circulatory system."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-6-2-1",
+    "lessonId": "lesson-science-6-2-1",
+    "objectives": [
+      "Name the digestive system's main organs and their functions in order",
+      "Explain why breaking down food into nutrients is necessary"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's cells work briefly.\n2. Introduce the digestive system's organs in order.\n3. Discuss why breaking down food matters.\n4. Complete the worksheet.\n5. Preview tomorrow's circulatory-system lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple diagram tracing food's path through the body as a visual anchor",
+      "Ready for more: ask the child what might happen if one organ in the digestive system stopped working",
+      "Opens this week's body-systems thread, connecting directly back to last week's cell-to-tissue-to-organ-to-organ-system hierarchy"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an explanation activity — check that the child understands food must be broken into small nutrient molecules before cells can actually absorb and use them for energy.",
+    "standardsRationale": "Directly addresses NGSS Grade 6-8 Life Science standard MS-LS1-3: organisms as systems of interacting subsystems, opening this week's body-systems thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-science-6-2-1",
+    "lessonId": "lesson-science-6-2-1",
+    "title": "The Digestive System",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the digestive system.",
+      "rows": [
+        { "problem": "What organ begins the mechanical breakdown of food?" },
+        { "problem": "What organ uses acid to break food down further?" },
+        { "problem": "Where does the body absorb nutrients from food?" }
+      ]
+    }
+  }
+}

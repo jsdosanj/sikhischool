@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-6-2",
+    "courseId": "course-science-6",
+    "order": 2,
+    "title": "Body Systems",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-6-2-3",
+    "unitId": "unit-science-6-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "The Respiratory System",
+    "gradeLevel": "6",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned digestion and circulation. Today: the respiratory system, and its close partnership with circulation!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The respiratory system brings oxygen into the body and removes carbon dioxide, mainly through the lungs. But the lungs alone can't get oxygen to the rest of the body — that's where yesterday's circulatory system comes in: blood picks up oxygen in the lungs and carries it everywhere else. Explain how the respiratory and circulatory systems depend on each other to get oxygen to your whole body."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how two body systems depend on each other! Tomorrow we'll see how three systems together power your whole body."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-6-2-3",
+    "lessonId": "lesson-science-6-2-3",
+    "objectives": [
+      "Name the respiratory system's main function: bringing in oxygen, removing carbon dioxide",
+      "Explain the interdependence between the respiratory and circulatory systems"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's digestive and circulatory-system work.\n2. Introduce the respiratory system and its lungs.\n3. Discuss the respiratory-circulatory interdependence.\n4. Complete the worksheet.\n5. Preview tomorrow's three-systems synthesis lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple 'lungs load oxygen onto blood, blood delivers it' analogy, like a delivery truck picking up and dropping off packages",
+      "Ready for more: ask the child what might happen to the rest of the body if the respiratory system stopped working, even if circulation still worked fine",
+      "This lesson explicitly builds the 'systems interacting together' idea toward tomorrow's full-synthesis lesson"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an explanation activity — check that the child correctly explains the lungs bring in oxygen, but need the circulatory system to actually carry that oxygen to the rest of the body's cells.",
+    "standardsRationale": "Directly addresses NGSS Grade 6-8 Life Science standard MS-LS1-3, continuing this week's body-systems thread with a third interacting system."
+  },
+  "worksheet": {
+    "id": "worksheet-science-6-2-3",
+    "lessonId": "lesson-science-6-2-3",
+    "title": "The Respiratory System",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain how the respiratory and circulatory systems depend on each other.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

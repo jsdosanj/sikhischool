@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-math-k-2",
+    "courseId": "course-math-k",
+    "order": 2,
+    "title": "Numbers Beyond 10 and Making Sense of Amounts",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-k-2-1",
+    "unitId": "unit-math-k-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Writing Numbers 11-20",
+    "gradeLevel": "K",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned to write 0 through 10. Today we go further — writing the numbers from 11 all the way to 20!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Numbers 11-20 are written with two digits — a 1 in front, and then the second digit changes each time (11, 12, 13...). Notice that 11-19 all start with '1' the same way, and then 20 starts fresh with a '2'. Practice writing 11 through 20, saying each number name out loud as you write it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know how to write every number from 0 to 20! Tomorrow we'll practice taking groups apart instead of putting them together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-k-2-1",
+    "lessonId": "lesson-math-k-2-1",
+    "objectives": [
+      "Write the numerals 11 through 20 with recognizable, if imperfect, formation",
+      "Notice that 11-19 share a leading '1' digit"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review writing 0-10 from last week.\n2. Introduce 11-20, pointing out the shared leading '1' from 11-19.\n3. Model writing 11-20 slowly, narrating each digit.\n4. Let the child trace and write each number, saying its name aloud.\n5. Close by counting from 0 to 20 together while pointing at each written number.",
+    "differentiationTips": [
+      "Struggling: focus on just 11-15 today, saving 16-20 for extra practice on the review day",
+      "Ready for more: ask the child to write the numbers in a different order, or count backward from 20",
+      "The two-digit structure is a genuinely new concept — take time to make sure the child sees both digits, not just memorizes shapes"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a tracing and writing-practice activity — there is no right/wrong answer beyond recognizable number formation.",
+    "standardsRationale": "Directly addresses Common Core standard K.CC.3: writing numbers 0-20, extending last week's 0-10 practice to complete the full range this course's first unit introduced."
+  },
+  "worksheet": {
+    "id": "worksheet-math-k-2-1",
+    "lessonId": "lesson-math-k-2-1",
+    "title": "Writing Numbers 11-20",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each number, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "11", "label": "Eleven" },
+        { "trace": "12", "label": "Twelve" },
+        { "trace": "13", "label": "Thirteen" },
+        { "trace": "14", "label": "Fourteen" },
+        { "trace": "15", "label": "Fifteen" },
+        { "trace": "16", "label": "Sixteen" },
+        { "trace": "17", "label": "Seventeen" },
+        { "trace": "18", "label": "Eighteen" },
+        { "trace": "19", "label": "Nineteen" },
+        { "trace": "20", "label": "Twenty" }
+      ]
+    }
+  }
+}

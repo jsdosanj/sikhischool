@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-k-2",
+    "courseId": "course-math-k",
+    "order": 2,
+    "title": "Numbers Beyond 10 and Making Sense of Amounts",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-k-2-4",
+    "unitId": "unit-math-k-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Comparing Written Numbers",
+    "gradeLevel": "K",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you compared groups of objects. Today, compare written numbers directly — without needing to count objects each time!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "When comparing two written numbers, the bigger number represents more, and the smaller number represents less — this matches counting order: numbers later in the counting sequence (6, 7, 8...) are greater than numbers earlier in it (1, 2, 3...). For example, comparing 7 and 4: since 7 comes after 4 when counting, 7 is greater. Practice by comparing pairs of written numbers and saying which is greater, using the counting sequence to check yourself if you're unsure."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now compare written numbers directly, using what you know about counting order. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-k-2-4",
+    "lessonId": "lesson-math-k-2-4",
+    "objectives": [
+      "Compare two written numerals (1-10) and identify which is greater",
+      "Use the counting sequence to justify which number is greater"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon", "A number line or counting chart (optional)"],
+    "facilitationScript": "1. Review comparing groups of objects from last week.\n2. Introduce comparing written numbers using the counting-order idea, with the 7-vs-4 example.\n3. Practice 2-3 more comparisons together, checking against a number line or counting chart if helpful.\n4. Complete the worksheet.\n5. Close by comparing two numbers the child picks themselves.",
+    "differentiationTips": [
+      "Struggling: keep a number line or counting chart visible for every comparison, so the child can physically point to check their answer",
+      "Ready for more: ask the child to compare three numbers at once and put them in order from least to greatest",
+      "This connects directly to the counting sequence practiced since week 1 — worth naming that connection explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 7 is greater than 4. 2. 3 is less than 8. 3. 9 is greater than 6. 4. 2 is less than 5.",
+    "standardsRationale": "Directly addresses Common Core standards K.CC.6/K.CC.7: comparing numbers using written numerals, building on last week's group-comparison work with objects."
+  },
+  "worksheet": {
+    "id": "worksheet-math-k-2-4",
+    "lessonId": "lesson-math-k-2-4",
+    "title": "Comparing Written Numbers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each pair, write which number is greater.",
+      "rows": [
+        { "problem": "7 and 4 — which is greater?" },
+        { "problem": "3 and 8 — which is greater?" },
+        { "problem": "9 and 6 — which is greater?" },
+        { "problem": "2 and 5 — which is greater?" }
+      ]
+    }
+  }
+}

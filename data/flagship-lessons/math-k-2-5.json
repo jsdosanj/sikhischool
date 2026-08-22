@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-k-2",
+    "courseId": "course-math-k",
+    "order": 2,
+    "title": "Numbers Beyond 10 and Making Sense of Amounts",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-k-2-5",
+    "unitId": "unit-math-k-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Numbers Beyond 10",
+    "gradeLevel": "K",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you wrote bigger numbers, took groups apart, broke numbers into pieces, and compared numbers. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: you can write every number from 11 to 20 (Day 1). Subtraction means taking some away and counting what's left (Day 2). A number can be broken into two smaller parts in more than one way (Day 3). Comparing written numbers uses the same order as counting (Day 4). Practice one problem of each type: write the number 16, solve '5 take away 2', find a way to break apart 8, and compare 6 and 9."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work these past two weeks! You've built real number sense — writing, comparing, combining, and breaking apart numbers up to 20."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-k-2-5",
+    "lessonId": "lesson-math-k-2-5",
+    "objectives": [
+      "Review and apply all four skills from this week: writing 11-20, subtraction within 5, decomposing numbers, comparing numbers",
+      "Solve one representative problem of each type"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil or crayon", "Small objects for subtraction/decomposing"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child solve one problem of each type independently.\n3. Complete the review worksheet.\n4. Discuss any uncertain answers together before finishing.\n5. Celebrate finishing two full weeks of Kindergarten Math!",
+    "differentiationTips": [
+      "Struggling: allow the child to use objects for every problem, including the number-writing one (writing the number that matches a counted-out group)",
+      "Ready for more: ask them to create one new problem of their own for each of the four skills",
+      "This is a good checkpoint to note which of the four skills (writing, subtracting, decomposing, or comparing) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. 16 is written as '16'. 2. 5 take away 2 leaves 3. 3. 8 breaks apart as 1+7, 2+6, 3+5, or 4+4. 4. 9 is greater than 6.",
+    "standardsRationale": "Consolidates this week's four Common Core K number-sense standards (K.CC.3, K.OA.1/2, K.OA.3, K.CC.6/7) before the course continues, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-k-2-5",
+    "lessonId": "lesson-math-k-2-5",
+    "title": "Numbers Beyond 10: Week 2 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve one problem of each type from this week.",
+      "rows": [
+        { "problem": "Write the number 16." },
+        { "problem": "5 take away 2. How many are left?" },
+        { "problem": "Find one way to break apart 8." },
+        { "problem": "6 and 9 — which is greater?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-k-2",
+    "courseId": "course-math-k",
+    "order": 2,
+    "title": "Numbers Beyond 10 and Making Sense of Amounts",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-k-2-3",
+    "unitId": "unit-math-k-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Breaking Numbers Apart",
+    "gradeLevel": "K",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've put groups together and taken groups apart. Today: a number itself can be broken into two smaller parts in more than one way!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Take 5 objects and split them into two piles — try 1 and 4, then try 2 and 3. Both ways still make 5! This is called breaking a number apart, and most numbers can be broken apart in several different ways. Try breaking 6 objects into two piles in as many different ways as you can find (1 and 5, 2 and 4, 3 and 3), checking each time that both piles still add up to 6."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You discovered that one number can be broken apart in multiple ways, and they all still add up to the same total! Tomorrow we'll use written numbers to compare which is bigger."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-k-2-3",
+    "lessonId": "lesson-math-k-2-3",
+    "objectives": [
+      "Decompose numbers within 10 into two smaller parts using physical objects",
+      "Discover that a number can be broken apart in more than one way"
+    ],
+    "materialsNeeded": ["6-7 small objects", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review taking groups apart (subtraction) from yesterday.\n2. Introduce breaking a number into two piles using 5 objects (1+4, then 2+3).\n3. Have the child find all the ways to break 6 objects into two piles.\n4. Move to the worksheet, using objects to find each answer before writing it.\n5. Close by picking one number and naming every way to break it apart.",
+    "differentiationTips": [
+      "Struggling: work with just one number (5) and its two ways (1+4, 2+3) rather than requiring the child to find all ways for 6 independently",
+      "Ready for more: ask the child to find every way to break apart 7 (there are more combinations than 5 or 6)",
+      "This is real algebraic-thinking groundwork — the same number having multiple valid part-part-whole breakdowns is a genuinely important early idea"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 5 breaks into 1+4 or 2+3. 2. 6 breaks into 1+5, 2+4, or 3+3. 3. 7 breaks into 1+6, 2+5, or 3+4.",
+    "standardsRationale": "Directly addresses Common Core standard K.OA.3: decomposing numbers less than or equal to 10 into pairs in more than one way, using objects or drawings."
+  },
+  "worksheet": {
+    "id": "worksheet-math-k-2-3",
+    "lessonId": "lesson-math-k-2-3",
+    "title": "Breaking Numbers Apart",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use your objects to find two ways to break each number into two piles.",
+      "rows": [
+        { "problem": "Find two ways to break apart 5." },
+        { "problem": "Find two ways to break apart 6." },
+        { "problem": "Find two ways to break apart 7." }
+      ]
+    }
+  }
+}

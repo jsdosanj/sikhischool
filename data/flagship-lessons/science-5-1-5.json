@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-5-1",
+    "courseId": "course-science-5",
+    "order": 1,
+    "title": "Properties of Matter",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-5-1-5",
+    "unitId": "unit-science-5-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Properties of Matter",
+    "gradeLevel": "5",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you investigated matter from the smallest scale (particles) to the biggest ideas (conservation and chemical change). Let's put it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: matter is made of tiny particles too small to see (Day 1). Scientists identify materials using measurable properties like solubility and density (Day 2). The total amount of matter is conserved through heating, cooling, or mixing (Day 3). Mixing substances can either form a simple mixture or cause a real chemical change that creates new substances (Day 4). Walk back through your own home and find one real example of each of these four ideas."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work investigating matter this week! You now understand particles, properties, conservation, and chemical change — real physical science concepts that explain the material world around you."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-5-1-5",
+    "lessonId": "lesson-science-5-1-5",
+    "objectives": [
+      "Recall and correctly apply all four matter concepts from the week: particles, properties, conservation, chemical change",
+      "Identify a real-life example of each concept"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Send the child on a home scavenger hunt for one example of each of the 4 concepts.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of investigation — this pattern (5 days building to a review) is how every unit this year will work.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to explain WHY each example fits its category, not just to label it correctly",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Matter is made of particles too small to see. 2. Salt dissolving in water shows its solubility property. 3. An ice cube and the water it melts into weigh the same. 4. Baking soda and vinegar mixing forms a new substance (a gas), a real chemical change.",
+    "standardsRationale": "Consolidates NGSS 5-PS1-1 through 5-PS1-4 (particles, properties, conservation of matter, and chemical change) before the unit moves on, matching the 'consolidate before adding more' pacing established in earlier units this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-5-1-5",
+    "lessonId": "lesson-science-5-1-5",
+    "title": "Properties of Matter: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "What is all matter made up of?" },
+        { "problem": "What property does salt dissolving in water show?" },
+        { "problem": "How does an ice cube's weight compare to the water it melts into?" },
+        { "problem": "What is formed when baking soda and vinegar mix and fizz?" }
+      ]
+    }
+  }
+}

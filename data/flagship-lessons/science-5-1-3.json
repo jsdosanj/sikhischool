@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-5-1",
+    "courseId": "course-science-5",
+    "order": 1,
+    "title": "Properties of Matter",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-5-1-3",
+    "unitId": "unit-science-5-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Conservation of Matter",
+    "gradeLevel": "5",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "When ice melts, or sugar dissolves in tea, does any matter actually disappear? Today's surprising answer: no — matter is conserved, even when it changes form."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The total amount of matter stays the same before and after heating, cooling, or mixing — this is called conservation of matter. If you could weigh an ice cube, then weigh the puddle of water after it melts, the weight would be the same (assuming none evaporates). If you weigh a cup of water, then weigh it again after dissolving sugar in it, the weight would equal the water's weight PLUS the sugar's weight — the sugar didn't vanish, it's just spread throughout the water at the particle level. Try this at home: weigh an ice cube (or estimate), let it melt, then compare."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just investigated conservation of matter — a fundamental rule of how matter behaves. Tomorrow we'll investigate what happens when you mix two different substances together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-5-1-3",
+    "lessonId": "lesson-science-5-1-3",
+    "objectives": [
+      "Explain conservation of matter: the total weight of matter stays the same through heating, cooling, or mixing",
+      "Predict the combined weight of two substances mixed together (e.g. water plus dissolved sugar)"
+    ],
+    "materialsNeeded": ["A kitchen scale (if available)", "Ice cube", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask what the child thinks happens to the 'stuff' when ice melts — does anything disappear?\n2. Introduce conservation of matter using the ice-melting and sugar-dissolving examples.\n3. If a scale is available, actually weigh the ice cube and the resulting water to compare.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: mixing substances.",
+    "differentiationTips": [
+      "Struggling: focus on just the ice-melting example, which is the most intuitive, before introducing the sugar-dissolving example",
+      "Ready for more: ask them to predict what would happen to the weight if the melted water were left out and some evaporated (the weight would decrease, since the evaporated water left the container)",
+      "If no scale is available, discuss the concept using the described examples rather than skipping the lesson"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Conservation of matter means the total amount of matter stays the same through changes like melting or dissolving. 2. An ice cube and the water it melts into weigh the same. 3. Water with dissolved sugar weighs the water's weight plus the sugar's weight — the sugar didn't disappear.",
+    "standardsRationale": "Directly addresses NGSS 5-PS1-2: measuring and providing evidence that the total weight of matter is conserved regardless of the type of change (heating, cooling, mixing)."
+  },
+  "worksheet": {
+    "id": "worksheet-science-5-1-3",
+    "lessonId": "lesson-science-5-1-3",
+    "title": "Conservation of Matter",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about conservation of matter.",
+      "rows": [
+        { "problem": "What does conservation of matter mean?" },
+        { "problem": "How does the weight of an ice cube compare to the weight of the water it melts into?" },
+        { "problem": "If water weighs 200g and you dissolve 10g of sugar in it, how much does the mixture weigh?" }
+      ]
+    }
+  }
+}

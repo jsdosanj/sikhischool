@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-5-1",
+    "courseId": "course-science-5",
+    "order": 1,
+    "title": "Properties of Matter",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-5-1-4",
+    "unitId": "unit-science-5-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Mixing Substances: New Substance or Not?",
+    "gradeLevel": "5",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've dissolved sugar in water and watched food coloring spread. But does mixing substances always just combine them, or can it sometimes create something brand new?"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Sometimes mixing two substances just combines them without creating anything new — like sand and salt, which you could separate back out again. But sometimes mixing two substances causes a real chemical change, creating a genuinely new substance with different properties — like mixing baking soda and vinegar, which fizzes and produces a gas, forming new substances that are chemically different from the two you started with. Try this safely at home: mix a spoonful of baking soda with a small splash of vinegar in a bowl, and observe closely. Is this the same as sand and salt mixing, or something different?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just investigated the difference between a simple mixture and a real chemical change that creates new substances. Tomorrow we'll review everything about matter from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-5-1-4",
+    "lessonId": "lesson-science-5-1-4",
+    "objectives": [
+      "Distinguish a simple mixture (substances combined but unchanged) from a chemical change (new substances formed)",
+      "Investigate a real chemical change (baking soda + vinegar) and describe observed evidence"
+    ],
+    "materialsNeeded": ["Baking soda", "Vinegar", "A bowl", "A spoon", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's investigations of mixing and dissolving.\n2. Contrast sand-and-salt (simple mixture, separable) with baking-soda-and-vinegar (chemical change).\n3. Do the baking soda + vinegar investigation together, observing the fizzing/gas closely.\n4. Discuss what evidence (fizzing, gas, temperature change) suggests a NEW substance formed, not just a combination.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on the observable evidence (bubbles, fizzing) rather than requiring the child to name the chemical reaction",
+      "Ready for more: research what gas is actually produced when baking soda and vinegar react (carbon dioxide)",
+      "This investigation is genuinely exciting for this age — let the child do the mixing themselves under supervision"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Sand and salt mixing is a simple mixture — nothing new is formed, and they can be separated back out. 2. Baking soda and vinegar mixing is a chemical change — a new substance (a gas) is formed, shown by the fizzing. 3. Evidence of a chemical change includes fizzing, bubbling, or a temperature change.",
+    "standardsRationale": "Directly addresses NGSS 5-PS1-4: conducting an investigation to determine whether mixing two or more substances results in new substances."
+  },
+  "worksheet": {
+    "id": "worksheet-science-5-1-4",
+    "lessonId": "lesson-science-5-1-4",
+    "title": "Mixing Substances: New Substance or Not?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about your investigation.",
+      "rows": [
+        { "problem": "Is mixing sand and salt a simple mixture or a chemical change?" },
+        { "problem": "Is mixing baking soda and vinegar a simple mixture or a chemical change?" },
+        { "problem": "What evidence did you observe that a new substance was formed?" }
+      ]
+    }
+  }
+}

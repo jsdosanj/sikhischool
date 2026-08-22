@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-8-1",
+    "courseId": "course-ela-8",
+    "order": 1,
+    "title": "Formal Essay Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-8-1-2",
+    "unitId": "unit-ela-8-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Building Body Paragraphs: Claim, Evidence, Reasoning",
+    "gradeLevel": "8",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you wrote a thesis. Today, build the body paragraphs that actually prove it — using a real, reusable structure."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Every strong body paragraph follows a Claim-Evidence-Reasoning structure: a claim (a specific point supporting your thesis), evidence (a fact, statistic, or example proving that point), and reasoning (YOUR explanation of exactly how that evidence supports the claim — the step many writers skip). For the social-media thesis: Claim — 'Social media use during class reduces focus.' Evidence — 'Studies show students who check phones during class score lower on immediate recall tests.' Reasoning — 'This happens because switching attention between tasks costs real mental energy, even after returning to the original task.' Write one complete body paragraph for your own thesis from yesterday, using all three parts."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just built a real body paragraph using claim, evidence, and reasoning. Tomorrow we'll learn how to connect multiple body paragraphs into one flowing essay."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-8-1-2",
+    "lessonId": "lesson-ela-8-1-2",
+    "objectives": [
+      "Apply the Claim-Evidence-Reasoning structure to build one body paragraph",
+      "Distinguish reasoning (explaining HOW evidence supports a claim) from evidence itself"
+    ],
+    "materialsNeeded": ["Yesterday's thesis worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's thesis.\n2. Introduce Claim-Evidence-Reasoning using the social-media example, emphasizing reasoning is often the skipped step.\n3. Have the child draft their own claim, find/invent plausible evidence, then write the reasoning connecting them.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: connecting multiple paragraphs.",
+    "differentiationTips": [
+      "Struggling: provide sentence starters for each part ('One reason is...', 'For example...', 'This matters because...')",
+      "Ready for more: ask them to write a second body paragraph with a different claim supporting the same thesis",
+      "The reasoning step is genuinely the hardest and most valuable — resist letting the child skip straight from evidence to the next sentence"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's own thesis — check the paragraph includes a clear claim, specific evidence, and explicit reasoning connecting the two (not just evidence followed by a new unrelated sentence).",
+    "standardsRationale": "Addresses Common Core Grade 8 Writing standard W.8.1b (support claims with logical reasoning and relevant evidence), a meaningfully more rigorous structure than Grade 5's simpler reason-plus-evidence pairing."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-8-1-2",
+    "lessonId": "lesson-ela-8-1-2",
+    "title": "Building a Body Paragraph",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write one complete body paragraph for your thesis using Claim, Evidence, and Reasoning.",
+      "prompts": [
+        { "prompt": "Claim:", "lines": 2 },
+        { "prompt": "Evidence:", "lines": 2 },
+        { "prompt": "Reasoning (how the evidence supports the claim):", "lines": 2 }
+      ]
+    }
+  }
+}

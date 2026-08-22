@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-ela-8-1",
+    "courseId": "course-ela-8",
+    "order": 1,
+    "title": "Formal Essay Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-8-1-4",
+    "unitId": "unit-ela-8-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing a Real Conclusion",
+    "gradeLevel": "8",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "A weak conclusion just repeats the thesis. A strong one does something more: it shows the reader why the whole argument actually mattered."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong essay conclusion synthesizes — it briefly draws together the separate claims from your body paragraphs into one final, unified point, then answers the reader's unspoken question: 'so what?' For the social-media essay, a weak conclusion just says 'In conclusion, schools should limit social media.' A strong conclusion synthesizes: 'Reduced focus and weaker in-person social skills aren't separate problems — they're two sides of the same cost, one that compounds over years of daily use. Schools that act now protect more than just test scores.' Write a conclusion for your own essay that synthesizes your two body paragraphs' claims into one final point, and answers 'so what?'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just wrote a real synthesizing conclusion, not just a restated thesis. Tomorrow you'll assemble your complete, finished essay."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-8-1-4",
+    "lessonId": "lesson-ela-8-1-4",
+    "objectives": [
+      "Distinguish a synthesizing conclusion from a simple thesis restatement",
+      "Write a conclusion that draws body-paragraph claims together and answers 'so what?'"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the week's thesis and two body paragraphs.\n2. Compare the weak vs. strong conclusion examples.\n3. Discuss the 'so what?' question as the key to a strong conclusion.\n4. Have the child draft their own synthesizing conclusion.\n5. Complete the worksheet.\n6. Preview tomorrow: assembling the complete essay.",
+    "differentiationTips": [
+      "Struggling: it's fine if the conclusion starts as a restatement — help them add just one 'so what?' sentence at the end as a first step",
+      "Ready for more: challenge them to write a conclusion that ends on a forward-looking note (what should happen next) rather than just summarizing",
+      "This is a genuinely hard skill even for adult writers — model the thinking process aloud, don't just ask for the finished product"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's own essay — check the conclusion draws the body paragraphs' claims together (doesn't just restate the thesis word-for-word) and answers why the argument matters.",
+    "standardsRationale": "Addresses Common Core Grade 8 Writing standard W.8.1e (provide a concluding statement that follows from and supports the argument), a meaningfully more sophisticated synthesis skill than Grade 5's simpler 'restate in new words' conclusion."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-8-1-4",
+    "lessonId": "lesson-ela-8-1-4",
+    "title": "Writing a Real Conclusion",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a conclusion that synthesizes your two body paragraphs' claims and answers 'so what?'",
+      "prompts": [
+        { "prompt": "My conclusion:", "lines": 4 }
+      ]
+    }
+  }
+}

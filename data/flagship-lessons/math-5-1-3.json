@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-5-1",
+    "courseId": "course-math-5",
+    "order": 1,
+    "title": "Adding and Subtracting Fractions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-5-1-3",
+    "unitId": "unit-math-5-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Adding Fractions with Unlike Denominators",
+    "gradeLevel": "5",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know why and how to find a common denominator. Today, put it all together to actually add fractions with different denominators."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's add 1/3 + 1/4. Step 1: find the common denominator — multiples of 3 are 3,6,9,12; multiples of 4 are 4,8,12 — the common denominator is 12. Step 2: convert both fractions — 1/3 becomes 4/12, and 1/4 becomes 3/12. Step 3: add the numerators (keep the denominator the same) — 4/12 + 3/12 = 7/12. That's your final answer: 1/3 + 1/4 = 7/12."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Try it yourself: 2/5 + 1/10. Find the common denominator, convert both fractions, then add. This same 3-step process works for any two fractions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-5-1-3",
+    "lessonId": "lesson-math-5-1-3",
+    "objectives": [
+      "Add two fractions with unlike denominators using the 3-step process: common denominator, convert, add numerators"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Days 1-2 (why and how to find a common denominator).\n2. Work through 1/3 + 1/4 together, step by step.\n3. Have the child solve 2/5 + 1/10 independently.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: subtracting fractions with unlike denominators.",
+    "differentiationTips": [
+      "Struggling: write out the 3 steps as a numbered checklist the child can follow for every problem",
+      "Ready for more: ask them to simplify their final answer if it can be reduced (e.g. if they got 6/12, can it simplify to 1/2?)",
+      "Emphasize that once you have a common denominator, adding fractions is exactly as easy as same-denominator addition from earlier grades"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 1/3 + 1/4 = 7/12. 2. 2/5 + 1/10 = 1/2 (4/10 + 1/10 = 5/10, simplified to 1/2). 3. 1/2 + 1/6 = 2/3 (3/6 + 1/6 = 4/6, simplified to 2/3).",
+    "standardsRationale": "Directly addresses Common Core 5.NF.1: adding fractions with unlike denominators by first replacing them with equivalent fractions using a common denominator."
+  },
+  "worksheet": {
+    "id": "worksheet-math-5-1-3",
+    "lessonId": "lesson-math-5-1-3",
+    "title": "Adding Fractions with Unlike Denominators",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each problem, simplifying your answer if possible.",
+      "rows": [
+        { "problem": "1/3 + 1/4 = ?" },
+        { "problem": "2/5 + 1/10 = ?" },
+        { "problem": "1/2 + 1/6 = ?" }
+      ]
+    }
+  }
+}

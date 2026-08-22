@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-3-2",
+    "courseId": "course-science-3",
+    "order": 2,
+    "title": "Life Cycles",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-3-2-1",
+    "unitId": "unit-science-3-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is a Life Cycle?",
+    "gradeLevel": "3",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored forces and motion. This week: a new topic, life cycles — the stages every living thing goes through!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A life cycle is the series of stages a living thing goes through as it's born, grows, and eventually reproduces to make new offspring. A butterfly's life cycle has 4 clear stages: egg, larva (caterpillar), pupa (chrysalis), and adult butterfly. Put these 4 stages in the correct order, and explain what happens at each one in your own words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what a life cycle is, using a butterfly's dramatic transformation! Tomorrow we'll compare it to a very different kind of life cycle."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-3-2-1",
+    "lessonId": "lesson-science-3-2-1",
+    "objectives": [
+      "Define a life cycle as the stages an organism goes through from birth to reproduction",
+      "Correctly sequence the butterfly's 4 life-cycle stages: egg, larva, pupa, adult"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review last week's forces-and-motion work briefly.\n2. Introduce the life-cycle concept using the butterfly's 4 stages.\n3. Have the child sequence and describe each stage.\n4. Complete the worksheet.\n5. Preview tomorrow's comparison to a different life cycle.",
+    "differentiationTips": [
+      "Struggling: use pictures or drawings of each stage as physical cards to sequence, rather than sequencing from memory alone",
+      "Ready for more: ask the child what they think would happen if the pupa stage were skipped",
+      "The butterfly's dramatic visible transformation makes it the strongest opening example for this concept"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The correct order is: egg, larva (caterpillar), pupa (chrysalis), adult butterfly.",
+    "standardsRationale": "Directly addresses NGSS Grade 3 Life Science standard 3-LS1-1: developing models to describe an organism's unique and generalized life cycles, opening this week's life-cycles thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-science-3-2-1",
+    "lessonId": "lesson-science-3-2-1",
+    "title": "What Is a Life Cycle?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the butterfly life cycle.",
+      "rows": [
+        { "problem": "Put these in order: adult, larva, pupa, egg." },
+        { "problem": "What happens during the larva (caterpillar) stage?" },
+        { "problem": "What happens during the pupa (chrysalis) stage?" }
+      ]
+    }
+  }
+}

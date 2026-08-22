@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-5-2",
+    "courseId": "course-science-5",
+    "order": 2,
+    "title": "Ecosystems",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-5-2-4",
+    "unitId": "unit-science-5-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "When an Ecosystem Changes",
+    "gradeLevel": "5",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've explored food chains, webs, and decomposers. Today: see how changing one part affects the whole ecosystem!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Because food webs connect many organisms, a change to just one part can ripple through the whole ecosystem. If foxes disappeared from your Day 2 food web, rabbits would have fewer predators and their population might grow quickly — but then rabbits might eat too much grass, leaving less food for other grass-eaters too. Using your Day 2 food web, explain what might happen if the hawk (or your chosen second predator) suddenly disappeared."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just traced how one ecosystem change ripples through a whole food web! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-5-2-4",
+    "lessonId": "lesson-science-5-2-4",
+    "objectives": [
+      "Explain how removing one organism from a food web affects other connected organisms",
+      "Apply this reasoning to the child's own Day 2 food web"
+    ],
+    "materialsNeeded": ["Day 2's food-web worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's food chain, web, and decomposer work.\n2. Model the fox-disappearing ripple-effect example.\n3. Have the child apply the same reasoning to their own Day 2 food web.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: walk through the effect one step at a time (fewer predators → more prey → less food for prey → ...) rather than requiring the whole chain of reasoning at once",
+      "Ready for more: ask the child to think of a real example of this kind of ecosystem ripple effect they may have heard about",
+      "This lesson is the week's synthesis moment — connecting individual concepts (chains, webs, decomposers) into one systems-level understanding"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended reasoning activity — check that the child correctly traces a plausible ripple effect (e.g., fewer predators → more of that predator's prey → more pressure on the prey's own food source).",
+    "standardsRationale": "Directly addresses NGSS Grade 5 Life Science standard 5-LS2-1, applying this week's ecosystem concepts to a real cause-and-effect scenario within a food web."
+  },
+  "worksheet": {
+    "id": "worksheet-science-5-2-4",
+    "lessonId": "lesson-science-5-2-4",
+    "title": "When an Ecosystem Changes",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain what might happen to your food web if one predator disappeared.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 4 }
+      ]
+    }
+  }
+}

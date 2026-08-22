@@ -3,6 +3,7 @@ import { eq, and } from "drizzle-orm";
 import { getDb } from "@/lib/db";
 import { getCurrentParent } from "@/lib/session";
 import { awardEligibleBadges } from "@/lib/badges";
+import { scheduleDecayFrom } from "@/lib/decay";
 import { childProfiles, studentProgress, lessons } from "../../../../drizzle/schema";
 
 // Marks a lesson complete for one of the signed-in parent's children.
@@ -44,10 +45,11 @@ export async function POST(request: Request) {
     .get();
 
   const now = new Date();
+  const decayScheduledAt = scheduleDecayFrom(now);
   if (existing) {
     await db
       .update(studentProgress)
-      .set({ status: "passed", masteryPoints: lesson.masteryPointsFamiliar, lastPracticedAt: now })
+      .set({ status: "passed", masteryPoints: lesson.masteryPointsFamiliar, lastPracticedAt: now, decayScheduledAt })
       .where(eq(studentProgress.id, existing.id));
   } else {
     await db.insert(studentProgress).values({
@@ -57,6 +59,7 @@ export async function POST(request: Request) {
       status: "passed",
       masteryPoints: lesson.masteryPointsFamiliar,
       lastPracticedAt: now,
+      decayScheduledAt,
     });
   }
 

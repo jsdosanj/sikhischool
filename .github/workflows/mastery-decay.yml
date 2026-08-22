@@ -1,0 +1,31 @@
+name: Mastery decay
+
+# Daily scheduled decay pass — see src/app/api/cron/decay-mastery/route.ts and
+# src/lib/decay.ts. Cloudflare Workers' native Cron Triggers aren't supported by
+# the installed OpenNext Cloudflare adapter (no `scheduled` export hook), so this
+# GitHub Actions schedule calling the endpoint over HTTPS is the chosen alternative
+# (see the plan's reprioritization note).
+on:
+  schedule:
+    - cron: '0 9 * * *' # daily, 09:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  decay:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call decay endpoint
+        run: |
+          response=$(curl -s -w "\n%{http_code}" -X POST \
+            -H "x-cron-secret: ${{ secrets.CRON_SECRET }}" \
+            https://sikhischool.jasvant-dosanjh.workers.dev/api/cron/decay-mastery)
+          status_code=$(echo "$response" | tail -n1)
+          body=$(echo "$response" | sed '$d')
+          echo "$body"
+          if [ "$status_code" != "200" ]; then
+            echo "Decay endpoint returned $status_code"
+            exit 1
+          fi

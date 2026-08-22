@@ -3,6 +3,7 @@ import { eq, and } from "drizzle-orm";
 import { getDb } from "@/lib/db";
 import { getCurrentParent } from "@/lib/session";
 import { awardEligibleBadges } from "@/lib/badges";
+import { scheduleDecayFrom } from "@/lib/decay";
 import { childProfiles, quizzes, lessons, studentProgress } from "../../../../../../drizzle/schema";
 
 // Grades a quiz submission server-side and escalates mastery accordingly —
@@ -65,6 +66,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
   }
 
   const now = new Date();
+  const decayScheduledAt = status === "passed" ? scheduleDecayFrom(now) : null;
   const existing = await db
     .select()
     .from(studentProgress)
@@ -73,7 +75,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
   if (existing) {
     await db
       .update(studentProgress)
-      .set({ status, masteryPoints, lastPracticedAt: now })
+      .set({ status, masteryPoints, lastPracticedAt: now, decayScheduledAt })
       .where(eq(studentProgress.id, existing.id));
   } else {
     await db.insert(studentProgress).values({
@@ -83,6 +85,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
       status,
       masteryPoints,
       lastPracticedAt: now,
+      decayScheduledAt,
     });
   }
 

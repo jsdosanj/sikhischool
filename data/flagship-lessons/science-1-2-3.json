@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-1-2",
+    "courseId": "course-science-1",
+    "order": 2,
+    "title": "Parents and Offspring",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-1-2-3",
+    "unitId": "unit-science-1-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Similar, But Not Exactly the Same",
+    "gradeLevel": "1",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've seen offspring resemble their parents. Today: a closer look shows they're similar, but never exactly identical!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Even though offspring resemble their parents, they're not perfect copies — two puppies from the same parents might have slightly different fur colors or sizes, and two sunflowers from the same parent plant might grow to slightly different heights. This is a real, important part of the pattern: resemblance, but with natural variation. Think of two siblings (people, or animals you know) and describe one way they're similar and one way they're different."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand the full pattern: offspring resemble their parents, but always with some natural variation. Tomorrow we'll look at a different kind of trait — ones that are learned, not inherited."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-1-2-3",
+    "lessonId": "lesson-science-1-2-3",
+    "objectives": [
+      "Explain that offspring resemble parents but are never identical copies",
+      "Describe a real example of similarity and difference between siblings"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review this week's resemblance pattern from Days 1-2.\n2. Introduce natural variation using the puppy fur-color or sunflower-height example.\n3. Have the child describe a real similarity and difference between two siblings they know.\n4. Complete the worksheet.\n5. Close by discussing why this variation might actually be a good thing for a group of animals or plants.",
+    "differentiationTips": [
+      "Struggling: use the child's own family or a familiar pet's litter as the concrete example, if applicable",
+      "Ready for more: ask the child to predict whether two offspring from completely different parents would be more or less similar than two siblings",
+      "This is a genuinely important nuance — resist letting 'offspring resemble parents' oversimplify into 'offspring are identical to parents'"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can describe both a similarity and a genuine difference between two related individuals.",
+    "standardsRationale": "Directly addresses NGSS Grade 1 standard 1-LS3-1's full scope: resemblance between parents and offspring, including the natural variation that exists even among siblings."
+  },
+  "worksheet": {
+    "id": "worksheet-science-1-2-3",
+    "lessonId": "lesson-science-1-2-3",
+    "title": "Similar, But Not Exactly the Same",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about similarity and variation.",
+      "rows": [
+        { "problem": "Describe two siblings you know — one way they are similar, one way they are different." },
+        { "problem": "Why are offspring similar to their parents, but never an exact copy?" }
+      ]
+    }
+  }
+}

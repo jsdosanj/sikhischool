@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-12-1",
+    "courseId": "course-punjabi-12",
+    "order": 1,
+    "title": "Preparing for the Oral History Interview",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-12-1-2",
+    "unitId": "unit-punjabi-12-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Building Your Question List",
+    "gradeLevel": "12",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what makes a question good. Today: build a real, organized set of questions for your own interview."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong oral-history interview usually moves through life in order: ਬਚਪਨ (childhood), ਜਵਾਨੀ (youth), and adulthood, with a few open questions for each period. This structure helps the person you're interviewing follow a natural timeline, and helps you organize the ਕਹਾਣੀਆਂ (stories) you gather. Write at least two genuine open-ended questions for each of the three life periods — six questions total — about your own ਪਰਿਵਾਰ (family) elder's real life. Keep every question open-ended, using yesterday's ਕਿਹੋ ਜਿਹਾ/ਕਿਵੇਂ/ਕਿਉਂ pattern."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a real, organized question list ready for an actual interview. Tomorrow we'll practice the listening skills that make an interview genuinely go well, not just the questions themselves."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-12-1-2",
+    "lessonId": "lesson-punjabi-12-1-2",
+    "objectives": [
+      "Organize interview questions by life period: childhood, youth, adulthood",
+      "Write six genuine open-ended questions for a real family elder"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's open-question skill.\n2. Introduce the three-life-period structure.\n3. Have the child write two questions per period about their own family elder.\n4. Check each question against the open-ended pattern.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: active listening.",
+    "differentiationTips": [
+      "Struggling: provide one example question per life period as a model before the child writes their own",
+      "Ready for more: ask them to identify which of their six questions they expect will produce the richest, most detailed answer, and why",
+      "Every Gurmukhi word used in this lesson was checked against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A complete answer is six genuine open-ended questions (two per life period: childhood, youth, adulthood) about the student's own family elder — content varies by student, evaluated against the open-ended and life-period-organization criteria.",
+    "standardsRationale": "Directly addresses the course's 'oral-history capstone' description, producing the actual question list the student will use for their real interview."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-12-1-2",
+    "lessonId": "lesson-punjabi-12-1-2",
+    "title": "Building Your Question List",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write two open-ended questions for each life period.",
+      "prompts": [
+        { "prompt": "ਬਚਪਨ (childhood) questions:", "lines": 2 },
+        { "prompt": "ਜਵਾਨੀ (youth) questions:", "lines": 2 },
+        { "prompt": "Adulthood questions:", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-8-1",
+    "courseId": "course-social-studies-8",
+    "order": 1,
+    "title": "Foundations of American Government",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-8-1-3",
+    "unitId": "unit-social-studies-8-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Checks and Balances",
+    "gradeLevel": "8",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Three separate branches aren't enough on their own — yesterday's structure only works if each branch can actually limit the others. Today: checks and balances."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Checks and balances give each branch real tools to limit the others. The President can veto a law Congress passes; Congress can override that veto with a two-thirds vote in both chambers. The Supreme Court can rule a law unconstitutional, even one passed by Congress and signed by the President — this is called judicial review. The President appoints federal judges, but the Senate must approve them. Congress can impeach and remove a President or judge for serious wrongdoing. Trace one example: if Congress passes a law the President dislikes, what real options does the President have, and what could Congress do in response?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just traced a real chain of checks and balances between branches. Tomorrow we'll look at the Bill of Rights — the first ten amendments protecting individual freedoms."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-8-1-3",
+    "lessonId": "lesson-social-studies-8-1-3",
+    "objectives": [
+      "Identify real examples of checks and balances between the three branches",
+      "Trace a realistic scenario showing how one branch's action could be checked by another"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's three branches.\n2. Introduce veto/override, judicial review, and appointment/confirmation as real check-and-balance examples.\n3. Walk through the veto-and-override scenario together.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: the Bill of Rights.",
+    "differentiationTips": [
+      "Struggling: focus on just the veto/override example, the most concrete and easy to trace step by step",
+      "Ready for more: ask them to think of a real historical or current example where checks and balances were actually used",
+      "Physically diagramming the three branches with arrows showing 'checks' between them can make this genuinely click"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The President can veto a law Congress passes. 2. Congress can override a veto with a two-thirds vote in both chambers. 3. The Supreme Court can rule a law unconstitutional through judicial review.",
+    "standardsRationale": "Directly addresses the C3 Framework Civics dimension's checks-and-balances content, a core mechanism of the constitutional structure introduced on Day 2."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-8-1-3",
+    "lessonId": "lesson-social-studies-8-1-3",
+    "title": "Checks and Balances",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about checks and balances.",
+      "rows": [
+        { "problem": "What can the President do if they dislike a law Congress passes?" },
+        { "problem": "What can Congress do to override a presidential veto?" },
+        { "problem": "What is it called when the Supreme Court rules a law unconstitutional?" }
+      ]
+    }
+  }
+}

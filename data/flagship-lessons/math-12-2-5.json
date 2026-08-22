@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-12-2",
+    "courseId": "course-math-12",
+    "order": 2,
+    "title": "Introduction to Statistical Inference",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-12-2-5",
+    "unitId": "unit-math-12-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Introduction to Statistical Inference",
+    "gradeLevel": "12",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you mastered statistical inference four ways. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a sample estimates a population (Day 1). Margin of error expresses sample uncertainty (Day 2). Correlation doesn't prove causation (Day 3). You critically read a real survey report (Day 4). A new survey of 300 people finds 72% support a new park, with a margin of error of ±4%, and researchers claim living near green space causes better mental health. Find the likely range, and explain what's wrong with the causal claim."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you mastered statistical inference and learned to read real survey reports critically! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-12-2-5",
+    "lessonId": "lesson-math-12-2-5",
+    "objectives": [
+      "Review population/sample, margin of error, and correlation vs. causation",
+      "Correctly calculate the new survey's range and critique its causal claim"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child solve the new survey problem and critique its causal claim.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of statistical-inference mastery!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often distinguishing correlation from causation) rather than requiring all three equally",
+      "Ready for more: ask the child to design a better study (not just a survey) that could more convincingly test whether green space actually causes better mental health",
+      "This is a good checkpoint to note which of the week's three statistical-inference skills needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The likely range is 68% to 76% (72-4=68, 72+4=76). The causal claim is flawed because this is a correlational survey — people who choose to live near green space might differ in other ways (income, lifestyle, access to healthcare) that could actually explain better mental health outcomes, rather than the green space itself being the cause.",
+    "standardsRationale": "Consolidates this week's Common Core Statistics standards (S-IC.1/S-IC.4/S-IC.6) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-12-2-5",
+    "lessonId": "lesson-math-12-2-5",
+    "title": "Review: Introduction to Statistical Inference",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Analyze the new survey report.",
+      "rows": [
+        { "problem": "Find the likely range, given 72% with a margin of error of ±4%." },
+        { "problem": "What's wrong with the claim that green space causes better mental health?" }
+      ]
+    }
+  }
+}

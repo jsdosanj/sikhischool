@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-12-2",
+    "courseId": "course-math-12",
+    "order": 2,
+    "title": "Introduction to Statistical Inference",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-12-2-2",
+    "unitId": "unit-math-12-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Margin of Error: Sample Uncertainty",
+    "gradeLevel": "12",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned population vs. sample. Today: why a sample-based estimate always carries some uncertainty!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Margin of error expresses how much a sample's result might differ from the true population value, usually written as a plus-or-minus range. A survey reporting '62% of students prefer online homework, with a margin of error of ±4%' means the true population percentage is likely somewhere between 58% and 66%, not exactly 62%. Given a survey result of 45% with a margin of error of ±3%, find the full likely range for the true population percentage."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just calculated a real margin-of-error range! Tomorrow we'll learn to distinguish correlation from causation."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-12-2-2",
+    "lessonId": "lesson-math-12-2-2",
+    "objectives": [
+      "Understand margin of error as expressing sample-based uncertainty about a population value",
+      "Correctly calculate the likely range for 45% ± 3%"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's population/sample work briefly.\n2. Introduce margin of error using the 62% ± 4% example.\n3. Have the child calculate the 45% ± 3% range.\n4. Complete the worksheet.\n5. Preview tomorrow's correlation-vs-causation lesson.",
+    "differentiationTips": [
+      "Struggling: work through the range by simple addition and subtraction (45-3=42, 45+3=48) rather than reasoning about it abstractly",
+      "Ready for more: ask the child why a larger, more carefully chosen sample generally produces a smaller margin of error than a smaller one",
+      "This is a genuinely important media-literacy skill — real news reports on polls/surveys almost always include a margin of error worth understanding"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "42% to 48% (45-3=42, 45+3=48) is the likely range for the true population percentage.",
+    "standardsRationale": "Directly addresses Common Core Statistics standard S-IC.4: using margin of error to express uncertainty in sample-based estimates, continuing this week's thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-12-2-2",
+    "lessonId": "lesson-math-12-2-2",
+    "title": "Margin of Error: Sample Uncertainty",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find the likely range for each survey result.",
+      "rows": [
+        { "problem": "A survey reports 45%, with a margin of error of ±3%. Find the likely range." },
+        { "problem": "A survey reports 70%, with a margin of error of ±5%. Find the likely range." }
+      ]
+    }
+  }
+}

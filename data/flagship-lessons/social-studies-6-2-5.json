@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-6-2",
+    "courseId": "course-social-studies-6",
+    "order": 2,
+    "title": "The Indus Valley and Ancient China",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-6-2-5",
+    "unitId": "unit-social-studies-6-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: The Indus Valley and Ancient China",
+    "gradeLevel": "6",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you completed all four river-valley civilizations. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: the Indus Valley had remarkably advanced, carefully planned cities (Day 1). Its writing system remains an unsolved mystery (Day 2). Ancient China grew along the Yellow River, with the Shang Dynasty's oracle bones (Day 3). All four river-valley civilizations shared water, fertile soil, and trade routes (Day 4). Name all four civilizations and their rivers, then state one real fact about each."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work these past two weeks — you learned all four great river-valley civilizations in real depth! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-6-2-5",
+    "lessonId": "lesson-social-studies-6-2-5",
+    "objectives": [
+      "Review all four river-valley civilizations and their rivers",
+      "State one real fact about each of the four civilizations"
+    ],
+    "materialsNeeded": ["This week's and last week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child name all four civilizations and rivers.\n3. Have the child state one real fact about each.\n4. Complete the review worksheet.\n5. Celebrate finishing two full weeks covering all four river-valley civilizations!",
+    "differentiationTips": [
+      "Struggling: focus on just this week's two civilizations (Indus Valley, China), whichever the child engaged with most",
+      "Ready for more: ask the child which civilization they'd most like to learn more about in a future lesson",
+      "This is a good checkpoint to note which of the four civilizations needs the most reinforcement before the next Social Studies unit"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child can name all four civilizations (Mesopotamia, Egypt, Indus Valley, China), their rivers, and one accurate fact about each.",
+    "standardsRationale": "Consolidates two full weeks of C3 Framework History content before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-6-2-5",
+    "lessonId": "lesson-social-studies-6-2-5",
+    "title": "Review: The Indus Valley and Ancient China",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review the past two weeks.",
+      "rows": [
+        { "problem": "Name all four river-valley civilizations and their rivers." },
+        { "problem": "State one real fact about the Indus Valley Civilization." },
+        { "problem": "State one real fact about Ancient China." }
+      ]
+    }
+  }
+}

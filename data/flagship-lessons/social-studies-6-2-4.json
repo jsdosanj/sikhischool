@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-6-2",
+    "courseId": "course-social-studies-6",
+    "order": 2,
+    "title": "The Indus Valley and Ancient China",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-6-2-4",
+    "unitId": "unit-social-studies-6-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Comparing Four River-Valley Civilizations",
+    "gradeLevel": "6",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You now know all four great river-valley civilizations. Today: compare them all side by side!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Four civilizations, four rivers: Mesopotamia (the Tigris and Euphrates), Egypt (the Nile), the Indus Valley (the Indus River), and China (the Yellow River). Every one of them grew because a river provided fertile soil, water, and a way to travel and trade. Pick two of the four civilizations and explain one way they were similar, and one way they were different."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just compared civilizations across two different weeks of learning! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-6-2-4",
+    "lessonId": "lesson-social-studies-6-2-4",
+    "objectives": [
+      "Name all four river-valley civilizations and their rivers",
+      "Compare two of the four civilizations, naming one similarity and one difference"
+    ],
+    "materialsNeeded": ["This week's and last week's worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review all four civilizations and their rivers together.\n2. Model a comparison between two civilizations (e.g., Mesopotamia and the Indus Valley).\n3. Have the child pick their own two civilizations and compare them.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: provide a simple 4-row chart (Civilization, River, One Fact) already filled in as a reference for the comparison",
+      "Ready for more: ask the child to rank all four civilizations by which achievement they find most impressive, and explain why",
+      "This is the two-week synthesis moment — connecting last week's Mesopotamia/Egypt content to this week's Indus Valley/China content into one coherent comparison"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended comparison activity — check that the child picks two real civilizations and states a genuine, accurate similarity and a genuine, accurate difference between them.",
+    "standardsRationale": "Directly addresses the C3 Framework's History and Geography dimensions, synthesizing two full weeks of river-valley-civilizations content into one connected comparison before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-6-2-4",
+    "lessonId": "lesson-social-studies-6-2-4",
+    "title": "Comparing Four River-Valley Civilizations",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Pick two of the four civilizations and compare them.",
+      "prompts": [
+        { "prompt": "Which two civilizations, and how are they similar/different?", "lines": 4 }
+      ]
+    }
+  }
+}

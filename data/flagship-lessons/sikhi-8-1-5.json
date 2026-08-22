@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-sikhi-8-1",
+    "courseId": "course-sikhi-8",
+    "order": 1,
+    "title": "Understanding Bias and Civic Engagement",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-8-1-5",
+    "unitId": "unit-sikhi-8-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Understanding Bias and Civic Engagement",
+    "gradeLevel": "8",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you moved from understanding a real challenge to genuine, empowering ways to respond. Let's bring it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: bias comes from a lack of accurate information (Day 1). Sikh articles of faith are sometimes misunderstood because of this same information gap, not because of anything wrong with Sikh identity (Day 2). You can respond confidently by explaining your identity accurately when someone genuinely asks (Day 3). Civic engagement — voting, community organizations, interfaith events — closes this gap at a larger, sustained scale (Day 4). Explain in your own words how Days 3 and 4 work together as two different scales of the same response: individual and collective."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you now understand a real contemporary issue thoughtfully, and you have genuine, practical tools for representing your identity confidently and engaging constructively with your wider community."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-8-1-5",
+    "lessonId": "lesson-sikhi-8-1-5",
+    "objectives": [
+      "Recall the week's arc: understanding bias, its application to Sikh identity, and two constructive responses",
+      "Explain how individual (Day 3) and collective (Day 4) responses work together"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Discuss the individual-vs-collective synthesis question together before writing.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit on an empowering, forward-looking note.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to reflect on which of this week's ideas felt most personally relevant, and why",
+      "End this week's discussion on a genuinely positive, empowered note — the content builds toward confidence and constructive action, not dwelling on difficulty"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Bias comes from a lack of accurate information. 2. Sikh identity is sometimes misunderstood due to this same information gap. 3. You can respond individually by explaining your identity confidently, and collectively through civic engagement. 4. Answers will vary for the synthesis explanation.",
+    "standardsRationale": "Consolidates the week's C3 Framework-adjacent civics content and the course's own 'bias, representation, and civic engagement' description into one coherent, empowering arc, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-8-1-5",
+    "lessonId": "lesson-sikhi-8-1-5",
+    "title": "Understanding Bias and Civic Engagement: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "What does bias usually come from?" },
+        { "problem": "Why are Sikh articles of faith sometimes misunderstood?" },
+        { "problem": "Name one individual way to respond constructively." },
+        { "problem": "Name one collective (civic engagement) way to respond constructively." }
+      ]
+    }
+  }
+}

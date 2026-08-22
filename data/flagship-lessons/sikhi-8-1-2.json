@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-8-1",
+    "courseId": "course-sikhi-8",
+    "order": 1,
+    "title": "Understanding Bias and Civic Engagement",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-8-1-2",
+    "unitId": "unit-sikhi-8-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Sikh Identity and Being Misunderstood",
+    "gradeLevel": "8",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned bias comes from missing information. Today, a real example connected to Sikh identity: how visible articles of faith are sometimes misunderstood."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Because most people in the wider public have limited accurate information about Sikhi, visible articles of faith like the turban and uncut hair are sometimes misunderstood or mistaken for symbols of a completely different group or belief — this is a well-documented experience many Sikh families have navigated, especially in places where Sikhi isn't widely taught or known. This isn't a reflection of anything wrong with Sikh identity — it's exactly the information-gap problem from yesterday's lesson, applied to a real, specific situation. Recognizing this clearly is the first step toward responding to it constructively, which is what the rest of this week will focus on. Think about how you would feel if something meaningful to you was mistaken for something else entirely."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected yesterday's general concept of bias to a real, specific experience many Sikhs have navigated. Tomorrow we'll focus on something empowering: how to confidently explain your identity when someone genuinely doesn't know."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-8-1-2",
+    "lessonId": "lesson-sikhi-8-1-2",
+    "objectives": [
+      "Understand that visible Sikh articles of faith are sometimes misunderstood due to limited public knowledge of Sikhi",
+      "Recognize this as an information-gap issue, not a reflection on Sikh identity itself"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's bias/information-gap framework.\n2. Apply it to the real experience of Sikh articles of faith sometimes being misunderstood, keeping the tone calm and factual, not alarming.\n3. Discuss the reflection question about something meaningful being mistaken for something else.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: confidently explaining your identity to others.",
+    "differentiationTips": [
+      "Struggling: keep this brief and matter-of-fact — the key takeaway is 'this happens because of missing information, not because of anything wrong with us'",
+      "Ready for more: discuss how education and personal relationships (a classmate genuinely asking and learning) can close this information gap over time",
+      "This is a genuinely sensitive topic for this age — keep language measured, factual, and forward-looking rather than dwelling on difficulty; the week moves toward empowerment on Day 3"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Visible Sikh articles of faith are sometimes misunderstood due to limited public knowledge of Sikhi. 2. This is an information-gap issue, not a reflection on Sikh identity. 3. Answers will vary for the child's own reflection.",
+    "standardsRationale": "Directly addresses the course's 'contemporary Sikh issues — bias, representation' description with a calm, honest, age-appropriate treatment, building on Day 1's general framework before Day 3's empowering response."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-8-1-2",
+    "lessonId": "lesson-sikhi-8-1-2",
+    "title": "Sikh Identity and Being Misunderstood",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "Why are visible Sikh articles of faith sometimes misunderstood?" },
+        { "problem": "Is this a reflection on Sikh identity itself?" },
+        { "problem": "What is the first step toward responding to this constructively?" }
+      ]
+    }
+  }
+}

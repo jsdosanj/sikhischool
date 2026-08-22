@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-8-1",
+    "courseId": "course-math-8",
+    "order": 1,
+    "title": "Linear Equations and Functions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-8-1-2",
+    "unitId": "unit-math-8-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Slope: The Rate of Change",
+    "gradeLevel": "8",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you evaluated functions. Today, slope — the number that tells you exactly how steep a line is, and how fast a linear function changes."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Slope measures how much y changes for every 1 unit x changes — 'rise over run.' To find the slope between two points, use: slope = (y2 - y1) ÷ (x2 - x1). For the points (1, 2) and (3, 6): slope = (6 - 2) ÷ (3 - 1) = 4 ÷ 2 = 2. This means y increases by 2 for every 1 that x increases. Find the slope between the points (1, 4) and (4, 13)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just calculated real slope from two points. Tomorrow we'll use slope to write and graph a complete linear equation."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-8-1-2",
+    "lessonId": "lesson-math-8-1-2",
+    "objectives": [
+      "Define slope as the rate of change between two points (rise over run)",
+      "Calculate slope from two given points using the slope formula"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's function evaluation.\n2. Introduce slope and the 'rise over run' idea, then the formal formula.\n3. Work through the (1,2) and (3,6) example together.\n4. Have the child find the slope for (1,4) and (4,13) independently.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: slope-intercept form.",
+    "differentiationTips": [
+      "Struggling: draw the two points on a simple grid and physically count 'rise' (up) and 'run' (right) before using the formula",
+      "Ready for more: ask them to find the slope for two points where y decreases as x increases, producing a negative slope",
+      "Consistently label which point is (x1,y1) and which is (x2,y2) before plugging into the formula — order confusion is a common error"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Slope of (1,2) to (3,6) = 2. 2. Slope of (1,4) to (4,13) = 3. 3. Slope measures rise over run — how much y changes per 1 unit of x.",
+    "standardsRationale": "Directly addresses Common Core Grade 8 Expressions & Equations standard 8.EE.6/8.F.4: understanding and calculating the rate of change (slope) between two points."
+  },
+  "worksheet": {
+    "id": "worksheet-math-8-1-2",
+    "lessonId": "lesson-math-8-1-2",
+    "title": "Slope: The Rate of Change",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find the slope between each pair of points.",
+      "rows": [
+        { "problem": "(1, 2) and (3, 6)" },
+        { "problem": "(1, 4) and (4, 13)" },
+        { "problem": "(2, 3) and (5, 9)" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-8-1",
+    "courseId": "course-math-8",
+    "order": 1,
+    "title": "Linear Equations and Functions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-8-1-1",
+    "unitId": "unit-math-8-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Understanding Functions",
+    "gradeLevel": "8",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "A vending machine takes an input (your selection) and always gives the exact same output for that selection. That's the core idea behind a mathematical function, which you'll work with all week."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A function is a rule that takes an input and produces exactly one output for each input — never two different outputs for the same input. We write this as f(x), read 'f of x,' meaning 'the output of the function f when the input is x.' If f(x) = x + 3, then f(2) = 2 + 3 = 5, and f(10) = 10 + 3 = 13. Check whether this is a real function: does every input give exactly one output? Try finding f(5) and f(0) for f(x) = x + 3."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just evaluated a real function for different inputs. Tomorrow we'll learn about slope, the rate at which a linear function's output changes."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-8-1-1",
+    "lessonId": "lesson-math-8-1-1",
+    "objectives": [
+      "Define a function as a rule producing exactly one output per input",
+      "Evaluate a simple function f(x) for given input values"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the vending-machine analogy for a function.\n2. Introduce f(x) notation using f(x) = x + 3.\n3. Work through f(2) and f(10) together.\n4. Have the child find f(5) and f(0) independently.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: slope.",
+    "differentiationTips": [
+      "Struggling: read f(x) aloud as 'the output when the input is x' every time, until the notation feels natural",
+      "Ready for more: ask them to invent their own simple function rule and evaluate it for 3 different inputs",
+      "The vending-machine (or any input-always-gives-same-output) analogy is worth returning to whenever the notation feels abstract"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. f(5) = 5 + 3 = 8. 2. f(0) = 0 + 3 = 3. 3. A function gives exactly one output for each input.",
+    "standardsRationale": "Directly addresses Common Core Grade 8 Functions standard 8.F.1: understanding that a function assigns exactly one output to each input, the foundational Grade 8 Functions standard this week's unit builds from."
+  },
+  "worksheet": {
+    "id": "worksheet-math-8-1-1",
+    "lessonId": "lesson-math-8-1-1",
+    "title": "Understanding Functions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For f(x) = x + 3, find each output.",
+      "rows": [
+        { "problem": "f(5) = ?" },
+        { "problem": "f(0) = ?" },
+        { "problem": "What does it mean for something to be a function?" }
+      ]
+    }
+  }
+}

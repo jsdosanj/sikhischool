@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-8-1",
+    "courseId": "course-math-8",
+    "order": 1,
+    "title": "Linear Equations and Functions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-8-1-3",
+    "unitId": "unit-math-8-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Slope-Intercept Form",
+    "gradeLevel": "8",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can calculate slope. Today, use it to write a complete equation for an entire line: slope-intercept form."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Slope-intercept form is y = mx + b, where m is the slope and b is the y-intercept (the value of y when x = 0, where the line crosses the y-axis). For the equation y = 2x + 1, the slope is 2 and the y-intercept is 1 — meaning the line crosses the y-axis at (0, 1) and rises 2 for every 1 it moves right. Find y when x = 3, and again when x = 5, using y = 2x + 1."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used slope-intercept form to find values along a real line. Tomorrow we'll use this same skill to solve a real-world problem."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-8-1-3",
+    "lessonId": "lesson-math-8-1-3",
+    "objectives": [
+      "Identify the slope (m) and y-intercept (b) in an equation written as y = mx + b",
+      "Evaluate a linear equation in slope-intercept form for given x values"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's slope calculation.\n2. Introduce y = mx + b, identifying m and b in y = 2x + 1.\n3. Work through finding y at x=3 and x=5 together.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: real-world linear equation problems.",
+    "differentiationTips": [
+      "Struggling: always underline 'm' and 'b' in the equation first, before substituting any x value",
+      "Ready for more: ask them to write the equation for a line with slope 5 and y-intercept -2, then evaluate it at x=4",
+      "Graphing a couple of points from the equation on paper makes the abstract equation feel like a real, visual line"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. In y=2x+1, slope=2, y-intercept=1. 2. At x=3: y=7. 3. At x=5: y=11.",
+    "standardsRationale": "Directly addresses Common Core Grade 8 Expressions & Equations standard 8.EE.6: deriving y=mx+b and using it to describe a linear relationship."
+  },
+  "worksheet": {
+    "id": "worksheet-math-8-1-3",
+    "lessonId": "lesson-math-8-1-3",
+    "title": "Slope-Intercept Form",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For y = 2x + 1, answer each question.",
+      "rows": [
+        { "problem": "What is the slope?" },
+        { "problem": "What is the y-intercept?" },
+        { "problem": "Find y when x = 3." },
+        { "problem": "Find y when x = 5." }
+      ]
+    }
+  }
+}

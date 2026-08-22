@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-k-2",
+    "courseId": "course-social-studies-k",
+    "order": 2,
+    "title": "Cooperation and Caring for Each Other",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-k-2-1",
+    "unitId": "unit-social-studies-k-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is Cooperation?",
+    "gradeLevel": "K",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Have you ever worked together with someone to build something, clean up, or finish a game? That's cooperation — and it's how communities really get things done."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Cooperation means working together toward a shared goal — like a group of friends building a tower of blocks together, or a whole class cleaning up the classroom together. Cooperation usually works better than trying to do a big job all alone. Think of a time you cooperated with someone else to get something done, and describe what happened."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand cooperation — working together toward a shared goal. This week we'll explore more ways communities cooperate and care for each other."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-k-2-1",
+    "lessonId": "lesson-social-studies-k-2-1",
+    "objectives": [
+      "Explain in simple words that cooperation means working together toward a shared goal",
+      "Describe a real personal experience of cooperating with someone else"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review last week's community-helper content.\n2. Introduce cooperation using the block-building or classroom-cleanup example.\n3. Discuss why cooperation often works better than doing a big job alone.\n4. Have the child describe a real time they cooperated with someone.\n5. Complete the worksheet.\n6. Close by planning one small cooperative task to do together this week.",
+    "differentiationTips": [
+      "Struggling: act out a simple cooperative task together in the moment (like tidying up) rather than only discussing a past example",
+      "Ready for more: ask the child to think of a job that would be very hard for just one person, and explain why cooperation helps",
+      "This is the first lesson of a new unit — a good moment to connect it back to last week's community-helper theme"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can explain cooperation as working together toward a shared goal, with a real personal example.",
+    "standardsRationale": "Directly addresses the course's 'cooperation' description, introducing a genuine civics/social skill that builds on last week's community-helper foundation."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-k-2-1",
+    "lessonId": "lesson-social-studies-k-2-1",
+    "title": "What Is Cooperation?",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace the word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Cooperation", "label": "Working together toward a shared goal" }
+      ]
+    }
+  }
+}

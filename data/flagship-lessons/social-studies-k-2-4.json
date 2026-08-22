@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-k-2",
+    "courseId": "course-social-studies-k",
+    "order": 2,
+    "title": "Cooperation and Caring for Each Other",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-k-2-4",
+    "unitId": "unit-social-studies-k-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Being a Good Friend and Neighbor",
+    "gradeLevel": "K",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned how whole communities care for each other. Today: what YOU can personally do to be a good friend and neighbor."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Being a good friend or neighbor means real, everyday actions: saying hello, including someone who's alone, offering to help when you notice someone struggling, or simply being kind. These small personal actions are how each person contributes to the bigger community-caring you learned about yesterday. Name one specific thing you can do this week to be a good friend or neighbor to someone."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a real, personal action to try this week! Tomorrow we'll review everything about cooperation and caring for each other."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-k-2-4",
+    "lessonId": "lesson-social-studies-k-2-4",
+    "objectives": [
+      "Name concrete, everyday actions of being a good friend or neighbor",
+      "Commit to one specific personal action to practice this week"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review yesterday's whole-community caring examples.\n2. Introduce personal-level actions: saying hello, including others, offering help, kindness.\n3. Discuss why individual actions like these connect to the bigger community picture.\n4. Have the child name one specific action to try this week.\n5. Complete the worksheet.\n6. Close by checking in on the chosen action later in the week, if possible.",
+    "differentiationTips": [
+      "Struggling: offer 2-3 simple, concrete action choices (saying hello, sharing a toy, including someone) rather than requiring the child to generate one from scratch",
+      "Ready for more: ask the child to think of a friend or neighbor who might especially appreciate their chosen action, and why",
+      "Following up on the chosen action later in the week makes this lesson genuinely actionable, not just a discussion"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and commitment activity — check that the child names one specific, real action they can actually do.",
+    "standardsRationale": "Directly addresses the course's 'cooperation' and 'communities take care of each other' descriptions, bringing the week's ideas down to a genuine, personal, actionable level."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-k-2-4",
+    "lessonId": "lesson-social-studies-k-2-4",
+    "title": "Being a Good Friend and Neighbor",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace the word, say it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "Kindness", "label": "A real action you can practice this week" }
+      ]
+    }
+  }
+}

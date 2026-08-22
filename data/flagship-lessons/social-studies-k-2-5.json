@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-k-2",
+    "courseId": "course-social-studies-k",
+    "order": 2,
+    "title": "Cooperation and Caring for Each Other",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-k-2-5",
+    "unitId": "unit-social-studies-k-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Cooperation and Caring",
+    "gradeLevel": "K",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned cooperation, sharing, community caring, and being a good friend. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: cooperation means working together toward a shared goal (Day 1). Sharing and taking turns are everyday cooperation in action (Day 2). Whole communities care for members who need help, like through food banks or checking on neighbors (Day 3). Being a good friend or neighbor is something you can personally practice, like saying hello or offering help (Day 4). Talk about how your chosen action from Day 4 went this week, and name one more way you could cooperate or show care."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work these past two weeks! You now understand your community not just as helpers and rules, but as people cooperating and caring for each other — including you."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-k-2-5",
+    "lessonId": "lesson-social-studies-k-2-5",
+    "objectives": [
+      "Review and connect this week's four concepts: cooperation, sharing/turns, community care, personal kindness",
+      "Reflect on the Day 4 personal action and identify one more"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Discuss how the Day 4 chosen action went this week.\n3. Have the child name one more way to cooperate or show care.\n4. Complete the review worksheet.\n5. Celebrate finishing two full weeks of Kindergarten Social Studies!",
+    "differentiationTips": [
+      "Struggling: focus the reflection on just the Day 4 action rather than requiring a full four-day recap",
+      "Ready for more: ask the child to explain how this week's cooperation theme connects back to last week's community-helper theme",
+      "This is a good checkpoint to note which of the four concepts (cooperation, sharing, community care, or personal kindness) needs the most reinforcement"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection and review activity — check that the child can explain at least two of the week's four concepts and reflect genuinely on their Day 4 action.",
+    "standardsRationale": "Consolidates the course's 'cooperation' and 'how communities take care of each other' descriptions before the course continues, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-k-2-5",
+    "lessonId": "lesson-social-studies-k-2-5",
+    "title": "Cooperation and Caring: Week 2 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What does cooperation mean?" },
+        { "problem": "How did your Day 4 kindness action go this week?" },
+        { "problem": "Name one more way you could cooperate or show care." }
+      ]
+    }
+  }
+}

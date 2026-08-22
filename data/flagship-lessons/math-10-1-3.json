@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-10-1",
+    "courseId": "course-math-10",
+    "order": 1,
+    "title": "Congruence and Proof",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-10-1-3",
+    "unitId": "unit-math-10-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Writing a Formal Two-Column Proof",
+    "gradeLevel": "10",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can identify congruence criteria. Today, use one to write a real, formal geometric proof — the kind mathematicians actually use to establish certainty."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A two-column proof lists statements on the left and the justification (reason) for each on the right. Given: AB = CB, and BD bisects angle ABC (meaning angle ABD = angle CBD). Prove: Triangle ABD is congruent to Triangle CBD. Proof: (1) AB = CB — given. (2) angle ABD = angle CBD — given (BD bisects the angle). (3) BD = BD — reflexive property (any segment equals itself). (4) Triangle ABD ≅ Triangle CBD — SAS (using statements 1, 2, 3: side-angle-side). Notice statement 3 uses a shared side both triangles have in common — a very common proof technique. Copy this proof, making sure you understand why each statement follows from the reason given."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just worked through a complete, real formal geometric proof. Tomorrow we'll learn a powerful follow-up idea: once triangles are proven congruent, what else do we automatically know?"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-10-1-3",
+    "lessonId": "lesson-math-10-1-3",
+    "objectives": [
+      "Read and understand a two-column proof's statement-reason structure",
+      "Identify the reflexive property as a valid justification for a shared side"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Paper for sketching the triangle"],
+    "facilitationScript": "1. Review yesterday's SAS criterion.\n2. Introduce the two-column proof format (statements | reasons).\n3. Work through the AB=CB, BD bisects angle B proof together, step by step, sketching the triangle.\n4. Discuss the reflexive property (BD=BD) as a real, valid reason.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: CPCTC.",
+    "differentiationTips": [
+      "Struggling: have the child copy the proof exactly first, then explain each line back in their own words, before attempting an independent proof",
+      "Ready for more: ask them to identify which statement in the proof represents the 'included angle' that makes this SAS rather than SSA (not a valid criterion)",
+      "Sketching the actual triangle with BD splitting angle B is essential — this proof is much harder to follow without a visual"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Statement 3 (BD=BD) uses the reflexive property. 2. The proof uses the SAS criterion. 3. The included angle is angle ABD/angle CBD, between sides AB/BD and CB/BD respectively.",
+    "standardsRationale": "Directly addresses Common Core Geometry standard G-CO.9/G-CO.10: proving geometric theorems using a formal, structured two-column proof format, the core skill this whole unit (\"Congruence and Proof\") builds toward."
+  },
+  "worksheet": {
+    "id": "worksheet-math-10-1-3",
+    "lessonId": "lesson-math-10-1-3",
+    "title": "Writing a Formal Two-Column Proof",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the two-column proof.",
+      "rows": [
+        { "problem": "What reason justifies the statement BD = BD?" },
+        { "problem": "Which congruence criterion does this proof use?" },
+        { "problem": "What is the included angle in this proof?" }
+      ]
+    }
+  }
+}

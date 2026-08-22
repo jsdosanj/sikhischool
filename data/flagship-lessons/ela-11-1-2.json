@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-11-1",
+    "courseId": "course-ela-11",
+    "order": 1,
+    "title": "The Research Process",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-11-1-2",
+    "unitId": "unit-ela-11-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Evaluating Source Credibility",
+    "gradeLevel": "11",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have a research question. Now: not every source that answers it is one you should trust."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Evaluating a source's credibility means checking four things: authority (does the author have real expertise or credentials on this topic?), currency (is the information recent enough to still be accurate, especially for fast-changing topics?), evidence (does the source cite its own facts and data, or just assert claims?), and bias (does the source have an obvious motive to present only one side?). Sources also fall into two categories: primary sources (original material — data, interviews, firsthand accounts, original documents) and secondary sources (analysis or commentary written about primary material). Strong research usually uses both. Pick a source you might use for your Day 1 research question (a real article, book, or website) and evaluate it against all four credibility criteria."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "A research paper is only as strong as the sources it's built on. Tomorrow we'll look at how to actually use a source's information without plagiarizing it."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-11-1-2",
+    "lessonId": "lesson-ela-11-1-2",
+    "objectives": [
+      "Identify the four credibility criteria: authority, currency, evidence, bias",
+      "Distinguish primary sources from secondary sources"
+    ],
+    "materialsNeeded": ["Yesterday's research question worksheet", "Printed worksheet", "Pencil", "Internet access or library materials for a real source"],
+    "facilitationScript": "1. Review yesterday's research question.\n2. Introduce the four credibility criteria and the primary/secondary distinction.\n3. Help the child find one real, genuine source related to their research question.\n4. Have them evaluate it against all four criteria.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: paraphrasing and avoiding plagiarism.",
+    "differentiationTips": [
+      "Struggling: provide one pre-selected source (clearly credible or clearly not) to practice evaluating before finding their own",
+      "Ready for more: ask them to find one primary AND one secondary source on the same topic, and explain what each contributes differently",
+      "If internet access isn't available, a library book, encyclopedia entry, or printed article works just as well for this exercise"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The four credibility criteria are authority, currency, evidence, and bias. 2. A primary source is original material (data, interviews, firsthand accounts); a secondary source analyzes or comments on primary material. 3. A strong evaluation checks all four criteria against the actual source, not just accepting it at face value.",
+    "standardsRationale": "Directly addresses Common Core Writing standard W.11-12.8: gathering relevant information from multiple sources, assessing the credibility and accuracy of each source."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-11-1-2",
+    "lessonId": "lesson-ela-11-1-2",
+    "title": "Evaluating Source Credibility",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Evaluate one real source related to your research question against all four criteria.",
+      "prompts": [
+        { "prompt": "Source title/author:", "lines": 1 },
+        { "prompt": "Authority — what expertise does the author have?", "lines": 2 },
+        { "prompt": "Currency, evidence, and bias — what did you find?", "lines": 3 },
+        { "prompt": "Is this a primary or secondary source? How do you know?", "lines": 2 }
+      ]
+    }
+  }
+}

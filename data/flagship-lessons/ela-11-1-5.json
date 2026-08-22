@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-11-1",
+    "courseId": "course-ela-11",
+    "order": 1,
+    "title": "The Research Process",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-11-1-5",
+    "unitId": "unit-ela-11-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: The Research Process",
+    "gradeLevel": "11",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built the complete foundation of the research process, from a genuine question all the way to a properly cited source. Let's put it together into one real research plan."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a strong research question is focused, open, and researchable (Day 1). Credible sources are evaluated for authority, currency, evidence, and bias, and can be primary or secondary (Day 2). Sources are used honestly through quoting or genuine paraphrasing, always with credit (Day 3). MLA citation connects a quick in-text citation to a full Works Cited entry (Day 4). Using everything from this week, create a complete research plan: your research question, your evaluated source, and both citation forms for it, all in one document."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a genuine, complete research process — not just isolated skills. This exact process is what you'll use throughout this course, including when we turn to analyzing American literature in upcoming weeks."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-11-1-5",
+    "lessonId": "lesson-ela-11-1-5",
+    "objectives": [
+      "Synthesize the week's four skills — research question, source evaluation, honest use, citation — into one complete plan",
+      "Assemble a complete, correctly formatted research plan document"
+    ],
+    "materialsNeeded": ["This week's worksheets (Days 1-4)", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child assemble their complete research plan using this week's worksheets.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of Grade 11 ELA — this research process will be used throughout the course, including for literary analysis.",
+    "differentiationTips": [
+      "Struggling: allow the child to assemble the plan as four clearly labeled sections copied from this week's worksheets, rather than requiring new original writing",
+      "Ready for more: ask them to identify one additional source they'd want to find to strengthen their research question, and explain what kind of source (primary or secondary) it should be",
+      "This is a good checkpoint to note which part of the research process (question-forming, evaluation, honest use, or citation) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "A complete research plan includes: (1) a focused, open, researchable question, (2) one source evaluated against authority/currency/evidence/bias, (3) a quote and paraphrase from that source, and (4) a correct in-text citation and Works Cited entry for it — content varies genuinely by student, evaluated against these four required elements.",
+    "standardsRationale": "Consolidates Common Core Writing standards W.11-12.7/W.11-12.8 (the full research process) before the unit moves toward analyzing American literature, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-11-1-5",
+    "lessonId": "lesson-ela-11-1-5",
+    "title": "The Research Process: Week 1 Review",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Assemble your complete research plan using this week's work.",
+      "prompts": [
+        { "prompt": "Your research question:", "lines": 2 },
+        { "prompt": "Your evaluated source (title/author and credibility notes):", "lines": 3 },
+        { "prompt": "Your quote and paraphrase from that source:", "lines": 3 },
+        { "prompt": "Your in-text citation and Works Cited entry:", "lines": 3 }
+      ]
+    }
+  }
+}

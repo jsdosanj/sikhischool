@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-4-2",
+    "courseId": "course-sikhi-4",
+    "order": 2,
+    "title": "Stories from the Udasis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-4-2-2",
+    "unitId": "unit-sikhi-4-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Malik Bhago's Feast",
+    "gradeLevel": "4",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you met Bhai Lalo. Today: meet someone very different, a wealthy official named Malik Bhago!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Malik Bhago was a wealthy official who held a grand feast and invited Guru Nanak to attend. But Guru Nanak chose to stay and eat Bhai Lalo's simple bread instead, explaining that food earned through honest means matters more than food gained through unfair treatment of others, no matter how grand the feast looks. Why do you think Guru Nanak made this choice, even though Malik Bhago's feast was much fancier than Bhai Lalo's simple meal?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned why Guru Nanak chose honest simplicity over unfair wealth! Tomorrow we'll connect this whole story back to Kirat Karo."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-4-2-2",
+    "lessonId": "lesson-sikhi-4-2-2",
+    "objectives": [
+      "Identify Malik Bhago as a wealthy official whose feast Guru Nanak declined",
+      "Explain why Guru Nanak chose Bhai Lalo's honest meal over Malik Bhago's grand feast"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Bhai Lalo introduction.\n2. Introduce Malik Bhago and his feast.\n3. Discuss why Guru Nanak declined it in favor of Bhai Lalo's meal.\n4. Complete the worksheet.\n5. Preview tomorrow's synthesis lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple visual contrast — a plain meal earned honestly vs. a fancy feast gained unfairly — to make the choice concrete",
+      "Ready for more: ask the child what this story suggests about how Guru Nanak judged wealth — by its amount, or by how it was earned",
+      "Kept general and age-appropriate — the story doesn't need graphic detail about Malik Bhago's specific unfair practices to teach its lesson"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child understands Guru Nanak valued how food/wealth was earned (honestly vs. unfairly) more than its outward appearance or amount.",
+    "standardsRationale": "Directly extends the course's Udasis description, continuing the Bhai Lalo/Malik Bhago story as one connected narrative applying the Kirat Karo teaching."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-4-2-2",
+    "lessonId": "lesson-sikhi-4-2-2",
+    "title": "Malik Bhago's Feast",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer the question about Guru Nanak's choice.",
+      "prompts": [
+        { "prompt": "Why do you think Guru Nanak chose Bhai Lalo's simple meal over Malik Bhago's grand feast?", "lines": 3 }
+      ]
+    }
+  }
+}

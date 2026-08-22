@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-8-2",
+    "courseId": "course-math-8",
+    "order": 2,
+    "title": "The Pythagorean Theorem",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-8-2-1",
+    "unitId": "unit-math-8-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Understanding the Pythagorean Theorem",
+    "gradeLevel": "8",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you mastered linear equations and functions. This week: the Pythagorean theorem, one of math's most famous relationships!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "In any right triangle (a triangle with one 90-degree angle), the Pythagorean theorem states: a² + b² = c², where a and b are the two shorter sides (legs) and c is the longest side (hypotenuse, opposite the right angle). This relationship holds true for every single right triangle, no matter the size. Identify the legs and hypotenuse in a right triangle with sides 3, 4, and 5."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the Pythagorean theorem and identified a triangle's legs and hypotenuse! Tomorrow we'll use it to find a missing hypotenuse."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-8-2-1",
+    "lessonId": "lesson-math-8-2-1",
+    "objectives": [
+      "State the Pythagorean theorem: a² + b² = c² for right triangles",
+      "Correctly identify the legs and hypotenuse of a 3-4-5 right triangle"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's linear-equations work briefly.\n2. Introduce the Pythagorean theorem and right-triangle vocabulary (legs, hypotenuse).\n3. Have the child identify the parts of a 3-4-5 triangle.\n4. Complete the worksheet.\n5. Preview tomorrow's finding-the-hypotenuse lesson.",
+    "differentiationTips": [
+      "Struggling: draw an actual right triangle and label the right angle first, to make identifying the hypotenuse (opposite it) concrete",
+      "Ready for more: ask the child to verify that 3² + 4² actually equals 5² using real arithmetic",
+      "Opens this week's Pythagorean-theorem thread from the course's own description, using the classic 3-4-5 triangle"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The legs are 3 and 4; the hypotenuse (opposite the right angle, the longest side) is 5.",
+    "standardsRationale": "Directly addresses Common Core Grade 8 standard 8.G.6: explaining a proof of the Pythagorean theorem, opening this week's thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-math-8-2-1",
+    "lessonId": "lesson-math-8-2-1",
+    "title": "Understanding the Pythagorean Theorem",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Pythagorean theorem.",
+      "rows": [
+        { "problem": "Write the Pythagorean theorem formula." },
+        { "problem": "In a 3-4-5 right triangle, which side is the hypotenuse?" },
+        { "problem": "Verify: does 3² + 4² equal 5²?" }
+      ]
+    }
+  }
+}

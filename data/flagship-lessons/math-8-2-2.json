@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-8-2",
+    "courseId": "course-math-8",
+    "order": 2,
+    "title": "The Pythagorean Theorem",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-8-2-2",
+    "unitId": "unit-math-8-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Finding the Hypotenuse",
+    "gradeLevel": "8",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned the Pythagorean theorem. Today: use it to find a missing hypotenuse!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Given both legs, find the hypotenuse: a² + b² = c². For legs 6 and 8: 6² + 8² = 36 + 64 = 100, and the square root of 100 is 10, so c = 10. Find the hypotenuse of a right triangle with legs 9 and 12."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just found a missing hypotenuse using the Pythagorean theorem! Tomorrow we'll find a missing leg instead."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-8-2-2",
+    "lessonId": "lesson-math-8-2-2",
+    "objectives": [
+      "Find a right triangle's hypotenuse given both legs",
+      "Correctly solve for the hypotenuse of a 9-12 right triangle"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Pythagorean theorem introduction.\n2. Model the 6-8-10 example step by step.\n3. Have the child solve for the 9-12 triangle's hypotenuse independently.\n4. Complete the worksheet.\n5. Preview tomorrow's finding-a-leg lesson.",
+    "differentiationTips": [
+      "Struggling: write out each step separately (square each leg, add them, take the square root) rather than combining steps",
+      "Ready for more: ask the child to find the hypotenuse of a triangle with legs 5 and 12",
+      "This is direct, guided practice applying yesterday's formula — build confidence before tomorrow's reverse problem"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "9² + 12² = 81 + 144 = 225. The square root of 225 is 15, so the hypotenuse is 15.",
+    "standardsRationale": "Directly addresses Common Core Grade 8 standard 8.G.7: applying the Pythagorean theorem to find unknown side lengths, continuing this week's thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-8-2-2",
+    "lessonId": "lesson-math-8-2-2",
+    "title": "Finding the Hypotenuse",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find the hypotenuse for each right triangle.",
+      "rows": [
+        { "problem": "Legs 9 and 12: find the hypotenuse." },
+        { "problem": "Legs 5 and 12: find the hypotenuse." },
+        { "problem": "Legs 8 and 15: find the hypotenuse." }
+      ]
+    }
+  }
+}

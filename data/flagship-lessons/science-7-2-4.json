@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-7-2",
+    "courseId": "course-science-7",
+    "order": 2,
+    "title": "Energy",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-7-2-4",
+    "unitId": "unit-science-7-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Conservation of Energy",
+    "gradeLevel": "7",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've explored energy types, transfer, and transformation. Today: one of science's most important rules!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The law of conservation of energy states that energy can't be created or destroyed — it can only transfer or transform. A swinging pendulum's energy shifts between potential (at the highest points) and kinetic (at the lowest point), but the total amount stays the same (ignoring small losses to friction and air resistance). Using this week's vocabulary, describe the energy changes as a pendulum swings from its highest point to its lowest point."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just applied conservation of energy to a real pendulum! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-7-2-4",
+    "lessonId": "lesson-science-7-2-4",
+    "objectives": [
+      "State the law of conservation of energy: energy is neither created nor destroyed",
+      "Describe the potential-to-kinetic energy shift in a swinging pendulum"
+    ],
+    "materialsNeeded": ["A real pendulum or a string with a weight, if available", "This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's energy-types, transfer, and transformation work.\n2. Introduce conservation of energy using the pendulum example.\n3. Have the child describe the pendulum's energy changes.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: swing a real pendulum (a weight on a string) and pause at the highest and lowest points to make the potential/kinetic shift concrete",
+      "Ready for more: ask the child why a real pendulum eventually slows down and stops, even though energy is supposedly conserved",
+      "This is the week's synthesis moment — applying all of this week's vocabulary (kinetic, potential, transfer, transformation) to one connected real scenario"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "At the highest point, the pendulum has maximum potential energy and minimum kinetic energy. As it swings down, potential energy transforms into kinetic energy, reaching maximum kinetic energy at the lowest point.",
+    "standardsRationale": "Directly addresses NGSS Grade 6-8 Physical Science standard MS-PS3-5: conservation of energy, completing this week's energy thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-science-7-2-4",
+    "lessonId": "lesson-science-7-2-4",
+    "title": "Conservation of Energy",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe the energy changes as a pendulum swings from its highest point to its lowest point.",
+      "prompts": [
+        { "prompt": "My description:", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-7-2",
+    "courseId": "course-science-7",
+    "order": 2,
+    "title": "Energy",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-7-2-5",
+    "unitId": "unit-science-7-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Energy",
+    "gradeLevel": "7",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you explored energy four different ways. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: kinetic energy is motion, potential energy is stored (Day 1). Energy transfer moves energy between objects without changing form (Day 2). Energy transformation changes energy's form (Day 3). Conservation of energy means the total amount never changes (Day 4). Classify a stretched slingshot as kinetic or potential, then describe what happens as it's released."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you explored energy types, transfer, transformation, and conservation! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-7-2-5",
+    "lessonId": "lesson-science-7-2-5",
+    "objectives": [
+      "Review kinetic/potential energy, transfer, transformation, and conservation",
+      "Apply all four concepts to a slingshot scenario"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child classify and describe the slingshot scenario.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of energy exploration!",
+    "differentiationTips": [
+      "Struggling: focus on just the kinetic/potential classification, the most concrete of the week's skills, before requiring the full description",
+      "Ready for more: ask the child to connect this week back to last week — how might a chemical reaction's energy release relate to this week's transformation concept?",
+      "This is a good checkpoint to note which of the week's four energy concepts needs the most reinforcement before moving on"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "A stretched slingshot has potential energy. When released, that potential energy transforms into kinetic energy as the projectile moves — the total energy stays conserved throughout.",
+    "standardsRationale": "Consolidates this week's NGSS Grade 6-8 Physical Science standards (MS-PS3-1/MS-PS3-2/MS-PS3-5) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-7-2-5",
+    "lessonId": "lesson-science-7-2-5",
+    "title": "Review: Energy",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Is a stretched slingshot kinetic or potential energy?" },
+        { "problem": "Describe what happens to its energy when released." }
+      ]
+    }
+  }
+}

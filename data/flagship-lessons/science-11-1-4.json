@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-11-1",
+    "courseId": "course-science-11",
+    "order": 1,
+    "title": "Describing Motion: Kinematics",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-11-1-4",
+    "unitId": "unit-science-11-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "The Kinematic Equations",
+    "gradeLevel": "11",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You now have displacement, velocity, and acceleration as separate ideas. Today: equations that connect all three, letting you solve real motion problems."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "For motion with constant acceleration, two connected kinematic equations are especially useful: v = v₀ + at (final velocity equals initial velocity plus acceleration times time), and d = v₀t + ½at² (displacement equals initial velocity times time, plus half of acceleration times time squared). For an object starting from rest (v₀=0) with acceleration 4 m/s² over 6 seconds: final velocity v = 0 + 4(6) = 24 m/s, and displacement d = 0(6) + ½(4)(6²) = 0 + ½(4)(36) = 72 meters. Notice both equations use the same three known values (v₀, a, t) to find two different unknowns (v and d). Using the same two equations, find the final velocity and displacement of an object starting at v₀=10 m/s with acceleration 2 m/s² over 5 seconds."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now solve real constant-acceleration motion problems, not just define the quantities involved. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-11-1-4",
+    "lessonId": "lesson-science-11-1-4",
+    "objectives": [
+      "Apply v = v₀ + at to find final velocity under constant acceleration",
+      "Apply d = v₀t + ½at² to find displacement under constant acceleration"
+    ],
+    "materialsNeeded": ["This week's displacement/velocity/acceleration worksheets", "Printed worksheet", "Pencil", "Calculator"],
+    "facilitationScript": "1. Review this week's three quantities: displacement, velocity, acceleration.\n2. Introduce both kinematic equations using the v0=0, a=4, t=6 example.\n3. Work through each step of both calculations together.\n4. Have the child solve the v0=10, a=2, t=5 example independently.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: have the child write out v0, a, and t as labeled values before substituting into either formula, reducing arithmetic errors",
+      "Ready for more: ask them to verify their displacement answer using a different approach — calculating average velocity ((v0+v)/2) times time — and confirming it matches",
+      "The ½at² term is often a source of order-of-operations errors — model squaring t BEFORE multiplying by ½ and a explicitly"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Final velocity: v = 10 + 2(5) = 20 m/s. Displacement: d = 10(5) + ½(2)(5²) = 50 + ½(2)(25) = 50 + 25 = 75 meters.",
+    "standardsRationale": "Directly addresses NGSS HS-PS2-1, applying the kinematic quantities established this week to solve real constant-acceleration motion problems using standard physics equations."
+  },
+  "worksheet": {
+    "id": "worksheet-science-11-1-4",
+    "lessonId": "lesson-science-11-1-4",
+    "title": "The Kinematic Equations",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "An object starts at v0=10 m/s with acceleration 2 m/s^2 for 5 seconds. Answer each question.",
+      "rows": [
+        { "problem": "What is the final velocity?" },
+        { "problem": "What is the displacement?" },
+        { "problem": "Which formula did you use for each, and why?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-11-1",
+    "courseId": "course-science-11",
+    "order": 1,
+    "title": "Describing Motion: Kinematics",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-11-1-2",
+    "unitId": "unit-science-11-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Speed and Velocity",
+    "gradeLevel": "11",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday's distance/displacement distinction leads directly to another one: speed isn't quite the same thing as velocity."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Average speed is total distance divided by total time — a scalar, always positive. Average velocity is displacement divided by time — a vector, which includes direction and can be negative or zero. The formula for average velocity is v = Δx / Δt, where Δx (displacement) and Δt (time elapsed) — the Greek letter delta (Δ) means 'change in.' For an object that moves from position x=2 meters to x=14 meters in 4 seconds: the displacement is 14-2=12 meters, so the average velocity is 12/4 = 3 meters per second (in the positive direction). Find the average velocity of an object that moves from x=5 meters to x=-3 meters in 4 seconds."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a precise, calculable definition of velocity, built directly on yesterday's displacement concept. Tomorrow we'll look at how velocity itself can change: acceleration."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-11-1-2",
+    "lessonId": "lesson-science-11-1-2",
+    "objectives": [
+      "Distinguish average speed (scalar) from average velocity (vector)",
+      "Calculate average velocity using v = Δx/Δt, including negative velocity for motion in the negative direction"
+    ],
+    "materialsNeeded": ["Yesterday's distance/displacement worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's distance and displacement.\n2. Introduce average speed vs. average velocity and the v=Δx/Δt formula.\n3. Work through the x=2 to x=14 example together.\n4. Have the child solve the x=5 to x=-3 example independently, noting the negative result.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: acceleration.",
+    "differentiationTips": [
+      "Struggling: use a number line to visualize the x=5-to-x=-3 motion before calculating, making the negative displacement concrete",
+      "Ready for more: ask them to explain a real scenario where average speed and average velocity would have very different values (e.g. a round trip)",
+      "A negative velocity confuses some students into thinking it means 'slower' — be explicit that the sign indicates direction, not speed magnitude"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Displacement: -3-5 = -8 meters. Average velocity: -8/4 = -2 meters per second (in the negative direction).",
+    "standardsRationale": "Directly addresses NGSS HS-PS2-1 by building a precise, calculable velocity definition, extending yesterday's displacement concept toward the acceleration and kinematic-equation work ahead."
+  },
+  "worksheet": {
+    "id": "worksheet-science-11-1-2",
+    "lessonId": "lesson-science-11-1-2",
+    "title": "Speed and Velocity",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "An object moves from x=5 meters to x=-3 meters in 4 seconds. Answer each question.",
+      "rows": [
+        { "problem": "What is the object's displacement?" },
+        { "problem": "What is the object's average velocity?" },
+        { "problem": "What does a negative velocity indicate?" }
+      ]
+    }
+  }
+}

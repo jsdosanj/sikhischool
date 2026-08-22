@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-11-1",
+    "courseId": "course-science-11",
+    "order": 1,
+    "title": "Describing Motion: Kinematics",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-11-1-1",
+    "unitId": "unit-science-11-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Distance vs. Displacement",
+    "gradeLevel": "11",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Physics. Before you can study forces or energy, you need a precise way to describe motion itself — and it turns out 'how far did you go' has two different real answers."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Distance is the total length of the path traveled, regardless of direction — a scalar quantity (magnitude only). Displacement is the straight-line change in position from start to end, including direction — a vector quantity (magnitude AND direction). These can be very different: if you walk 5 meters east, then 3 meters west, your distance traveled is 5+3=8 meters, but your displacement is only 5-3=2 meters east, since that's your net change in position. Displacement can even be zero (if you return to your starting point) while distance traveled is never zero as long as you moved. Find both the distance and displacement for someone who walks 10 meters north, then 4 meters south."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "This distinction — scalar distance vs. vector displacement — is the foundation for everything else in kinematics. Tomorrow we'll use displacement to define velocity precisely."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-11-1-1",
+    "lessonId": "lesson-science-11-1-1",
+    "objectives": [
+      "Distinguish distance (scalar, total path length) from displacement (vector, net change in position)",
+      "Calculate both distance and displacement for a multi-segment motion example"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce distance and displacement with the 5m-east/3m-west example.\n2. Discuss why displacement can be zero (returning to start) while distance never is.\n3. Have the child solve the 10m-north/4m-south example independently.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: velocity.",
+    "differentiationTips": [
+      "Struggling: physically walk out a simple example in the room (or draw it on paper with a number line) to make the difference concrete",
+      "Ready for more: ask them to construct their own example where distance and displacement have the same numeric value, and explain why that only happens with motion in one consistent direction",
+      "This is the first lesson of the course — a good moment to frame Physics as building precise definitions before using them in calculations"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "For 10m north then 4m south: distance = 10+4 = 14 meters. Displacement = 10-4 = 6 meters north (net change in position).",
+    "standardsRationale": "Establishes the scalar/vector distinction foundational to NGSS HS-PS2-1 (motion and forces), the precise starting definitions this unit's velocity and acceleration lessons build on."
+  },
+  "worksheet": {
+    "id": "worksheet-science-11-1-1",
+    "lessonId": "lesson-science-11-1-1",
+    "title": "Distance vs. Displacement",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Someone walks 10 meters north, then 4 meters south. Answer each question.",
+      "rows": [
+        { "problem": "What is the total distance traveled?" },
+        { "problem": "What is the displacement (magnitude and direction)?" },
+        { "problem": "Why can displacement be zero even when distance traveled is not?" }
+      ]
+    }
+  }
+}

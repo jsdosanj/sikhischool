@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-5-2",
+    "courseId": "course-punjabi-5",
+    "order": 2,
+    "title": "A Second Folk Tale: The Ant and the Grasshopper",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-5-2-5",
+    "unitId": "unit-punjabi-5-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: A Second Folk Tale",
+    "gradeLevel": "5",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਇੱਕ ਹੋਰ ਲੋਕ ਕਹਾਣੀ ਸਿੱਖੀ। ਆਓ ਸਭ ਕੁਝ ਦੁਹਰਾਈਏ! (This week you learned another folk tale. Let's review it all!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: you learned 4 new words about seasons and preparation (Day 1). You read the full story and predicted its ending (Day 2). You compared its lesson to last week's Thirsty Crow (Day 3). You wrote your own season description (Day 4). Write the Gurmukhi word for 'ant,' the word for 'winter,' and one sentence stating this week's lesson."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਬਹੁਤ ਵਧੀਆ ਕੰਮ! (Wonderful work!) You read a second real folk tale, compared its lesson, and wrote your own composition this week. Next week we'll keep building your Punjabi skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-5-2-5",
+    "lessonId": "lesson-punjabi-5-2-5",
+    "objectives": [
+      "Review this week's vocabulary, story, comparison, and composition work",
+      "Recall 2 vocabulary words and correctly restate this week's lesson"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child write the words for 'ant' and 'winter' from memory.\n3. Have the child restate this week's lesson in one sentence.\n4. Complete the review worksheet.\n5. Celebrate finishing a full week with a second real folk tale!",
+    "differentiationTips": [
+      "Struggling: allow the child to look back at this week's worksheets while writing the review words, rather than requiring pure recall",
+      "Ready for more: ask the child which of the two folk tales (this week's or last week's) they liked better, and why",
+      "This is a good checkpoint to note which of this week's elements (vocabulary, story comprehension, comparison, or composition) needs the most review before next week"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child correctly writes ਕੀੜੀ for 'ant' and ਸਰਦੀ for 'winter,' and correctly restates this week's lesson about preparation.",
+    "standardsRationale": "Consolidates this week's vocabulary, folk-tale, and composition content before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-5-2-5",
+    "lessonId": "lesson-punjabi-5-2-5",
+    "title": "A Second Folk Tale: Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Write the Gurmukhi word for 'ant.'" },
+        { "problem": "Write the Gurmukhi word for 'winter.'" },
+        { "problem": "Write one sentence stating this week's lesson." }
+      ]
+    }
+  }
+}

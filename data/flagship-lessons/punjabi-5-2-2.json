@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-5-2",
+    "courseId": "course-punjabi-5",
+    "order": 2,
+    "title": "A Second Folk Tale: The Ant and the Grasshopper",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-5-2-2",
+    "unitId": "unit-punjabi-5-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Reading the Story",
+    "gradeLevel": "5",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਕੱਲ੍ਹ ਤੁਸੀਂ ਨਵੇਂ ਸ਼ਬਦ ਸਿੱਖੇ। ਅੱਜ ਪੂਰੀ ਕਹਾਣੀ ਪੜ੍ਹੋ! (Yesterday you learned new words. Today, read the full story!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A well-known folk tale: all through the warm months, a kirri (ant) worked hard gathering food, while a tidda (grasshopper) played and sang, never doing any tiyari (preparation). When sardi (winter) arrived, the ant had plenty of food stored, but the grasshopper had nothing at all, and had to ask the ant for help. Predict: what do you think happens next in the story?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਇੱਕ ਪੂਰੀ ਕਹਾਣੀ ਪੜ੍ਹੀ! (You just read a complete story!) Tomorrow we'll find its lesson and compare it to last week's story."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-5-2-2",
+    "lessonId": "lesson-punjabi-5-2-2",
+    "objectives": [
+      "Read and understand this week's folk tale: The Ant and the Grasshopper",
+      "Make a genuine prediction about what happens next in the story"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's vocabulary.\n2. Read the story together, pointing out where each vocabulary word appears.\n3. Have the child predict what happens next.\n4. Complete the worksheet.\n5. Preview tomorrow's lesson on the story's moral.",
+    "differentiationTips": [
+      "Struggling: retell the story's sequence together first (summer work vs. summer play → winter arrives → ant has food, grasshopper doesn't) before predicting the ending",
+      "Ready for more: ask the child to predict TWO different possible endings and explain which they think is more likely",
+      "This is a real, well-known, widely-told fable, safe and appropriate as this week's second folk tale, distinct from last week's Thirsty Crow"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a prediction activity — check that the child makes a genuine, story-consistent prediction (e.g., the ant helps the grasshopper, or the grasshopper learns a lesson about preparing ahead).",
+    "standardsRationale": "Directly addresses the course's 'Punjabi folk tales' and 'reading comprehension' goals, giving genuine prediction practice with a second real, well-known story."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-5-2-2",
+    "lessonId": "lesson-punjabi-5-2-2",
+    "title": "Reading the Story",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Predict what happens next in the story.",
+      "prompts": [
+        { "prompt": "My prediction:", "lines": 3 }
+      ]
+    }
+  }
+}

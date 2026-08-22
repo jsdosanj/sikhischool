@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-5-2",
+    "courseId": "course-punjabi-5",
+    "order": 2,
+    "title": "A Second Folk Tale: The Ant and the Grasshopper",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-5-2-4",
+    "unitId": "unit-punjabi-5-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing About the Seasons",
+    "gradeLevel": "5",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਤੁਸੀਂ ਕਹਾਣੀ ਅਤੇ ਇਸ ਦਾ ਸਬਕ ਸਿੱਖਿਆ। ਅੱਜ ਰੁੱਤਾਂ ਬਾਰੇ ਲਿਖੋ! (You've learned the story and its lesson. Today, write about the seasons!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "This week's story used two seasons: warm months for playing/working, and ਸਰਦੀ (winter) when preparation mattered most. Write a short description of your own favorite season — describe what the weather is like, and one thing you like to do or ਤਿਆਰੀ (prepare) for during that season. Use at least 2 of this week's vocabulary words if they fit."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਇੱਕ ਪੂਰਾ ਵੇਰਵਾ ਲਿਖਿਆ! (You just wrote a complete description!) Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-5-2-4",
+    "lessonId": "lesson-punjabi-5-2-4",
+    "objectives": [
+      "Write a short descriptive composition about a favorite season",
+      "Use at least 2 of this week's vocabulary words correctly in the composition"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's story and vocabulary.\n2. Model a short example description of a season.\n3. Have the child write their own description, checking for at least 2 vocabulary words.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: provide a simple sentence-starter outline (What's the weather like → What do you do → What do you prepare for) to scaffold the description",
+      "Ready for more: ask the child to also describe how their chosen season connects to preparation, like the ant did",
+      "This lesson directly addresses the course's 'basic composition' goal, connecting this week's vocabulary/story content to real original writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended writing activity — check that the child's description names a real season, describes it genuinely, and uses at least 2 of this week's vocabulary words correctly.",
+    "standardsRationale": "Directly addresses the course's 'basic composition' goal, synthesizing this week's vocabulary and story content into one real piece of original writing."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-5-2-4",
+    "lessonId": "lesson-punjabi-5-2-4",
+    "title": "Writing About the Seasons",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe your favorite season, using at least 2 of this week's vocabulary words.",
+      "prompts": [
+        { "prompt": "My description:", "lines": 5 }
+      ]
+    }
+  }
+}

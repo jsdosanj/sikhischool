@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-5-2",
+    "courseId": "course-punjabi-5",
+    "order": 2,
+    "title": "A Second Folk Tale: The Ant and the Grasshopper",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-5-2-3",
+    "unitId": "unit-punjabi-5-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Comparing Two Morals",
+    "gradeLevel": "5",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਤੁਸੀਂ ਕਹਾਣੀ ਪੜ੍ਹੀ। ਅੱਜ ਇਸ ਦਾ ਸਬਕ ਲੱਭੋ ਅਤੇ ਪਿਛਲੇ ਹਫ਼ਤੇ ਨਾਲ ਤੁਲਨਾ ਕਰੋ! (You've read the story. Today, find its lesson and compare it to last week's!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "This story's lesson is about ਤਿਆਰੀ (preparation): the ant's hard work all summer meant it was ready for sardi (winter), while the grasshopper's playing left it unprepared. Remember last week's Thirsty Crow, whose lesson was about quick, clever thinking? This week's lesson is different — it's about planning ahead, not solving a problem in the moment. Explain how these two lessons are different from each other."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਦੋ ਵੱਖਰੇ ਸਬਕ ਸਮਝੇ! (You just understood two different lessons!) Tomorrow we'll write our own description using this week's vocabulary."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-5-2-3",
+    "lessonId": "lesson-punjabi-5-2-3",
+    "objectives": [
+      "State this week's lesson: preparation matters",
+      "Compare this week's preparation lesson to last week's quick-thinking lesson from the Thirsty Crow"
+    ],
+    "materialsNeeded": ["Last week's Thirsty Crow worksheet", "This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's story.\n2. Discuss its lesson about preparation.\n3. Have the child compare it to last week's quick-thinking lesson.\n4. Complete the worksheet.\n5. Preview tomorrow's composition lesson.",
+    "differentiationTips": [
+      "Struggling: state both lessons side by side first (preparation vs. quick thinking) before asking for the comparison",
+      "Ready for more: ask the child which lesson they think is more useful in daily life, and why",
+      "This cross-story comparison is a genuine step up in comprehension complexity from last week's single-story moral-finding"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a comparison activity — check that the child correctly states this week's lesson (preparation/planning ahead) and explains how it differs from last week's lesson (quick, clever thinking in the moment).",
+    "standardsRationale": "Directly addresses the course's 'reading comprehension' goal with a genuine cross-text comparison skill, a step up from single-story analysis."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-5-2-3",
+    "lessonId": "lesson-punjabi-5-2-3",
+    "title": "Comparing Two Morals",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Compare this week's lesson to last week's Thirsty Crow lesson.",
+      "prompts": [
+        { "prompt": "My comparison:", "lines": 3 }
+      ]
+    }
+  }
+}

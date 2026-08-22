@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-2-2",
+    "courseId": "course-math-2",
+    "order": 2,
+    "title": "Measuring Length, Time, and Money",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-2-2-5",
+    "unitId": "unit-math-2-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Measuring Length, Time, and Money",
+    "gradeLevel": "2",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you measured three very different things: length, time, and money. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a ruler measures length starting at the zero mark (Day 1). A clock's long hand shows minutes, counted by 5s (Day 2). Coins are counted largest-first: quarter=25, dime=10, nickel=5, penny=1 (Day 3). Money word problems ask if you have enough, or how much change you get back (Day 4). Try one of each: measure any real object with a ruler, tell what time it is on a real or drawn clock, and count 1 quarter + 1 dime + 2 pennies."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week! You practiced three real-world measurement skills: length, time, and money. Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-2-2-5",
+    "lessonId": "lesson-math-2-2-5",
+    "objectives": [
+      "Review measuring length with a ruler, telling time to the nearest 5 minutes, and counting coins",
+      "Apply all three skills to one new example each"
+    ],
+    "materialsNeeded": ["A ruler", "A real or paper clock", "Real or play coins", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child measure a real object, tell a real or drawn time, and count a new coin group.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of real-world measurement!",
+    "differentiationTips": [
+      "Struggling: focus on just the skill the child found hardest this week (often making change) rather than requiring all three equally",
+      "Ready for more: ask the child to invent their own word problem combining two of the week's skills, like timing how long it takes to count a group of coins",
+      "This is a good checkpoint to note which of the three measurement types (length, time, money) needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1 quarter + 1 dime + 2 pennies = 25 + 10 + 2 = 37 cents. Length and time answers vary based on the real object/clock used — check for correct ruler starting point and correct 5-minute reading.",
+    "standardsRationale": "Consolidates this week's three Common Core Grade 2 Measurement & Data standards (2.MD.1 length, 2.MD.7 time, 2.MD.8 money) before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-2-2-5",
+    "lessonId": "lesson-math-2-2-5",
+    "title": "Review: Length, Time, and Money",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Measure any real object with a ruler. What is its length?" },
+        { "problem": "Draw or describe a clock showing 5:30." },
+        { "problem": "Count these coins: 1 quarter + 1 dime + 2 pennies = ?" }
+      ]
+    }
+  }
+}

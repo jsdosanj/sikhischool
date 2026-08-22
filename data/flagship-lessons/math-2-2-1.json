@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-2-2",
+    "courseId": "course-math-2",
+    "order": 2,
+    "title": "Measuring Length, Time, and Money",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-2-2-1",
+    "unitId": "unit-math-2-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Measuring Length with a Ruler",
+    "gradeLevel": "2",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've worked with place value and multi-digit numbers. Today, a new unit: real-world measurement, starting with length!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A ruler measures length in inches or centimeters. To measure an object, line up one end with the ruler's zero mark, then read the number at the other end. Measure 3 real objects around you (a pencil, a book, a toy) using a ruler, recording each length in inches. Compare your three measurements — which object is longest?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just practiced real measurement — using a ruler to find and compare lengths! Tomorrow we'll measure something different: time."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-2-2-1",
+    "lessonId": "lesson-math-2-2-1",
+    "objectives": [
+      "Correctly use a ruler to measure the length of a real object",
+      "Compare the lengths of multiple measured objects"
+    ],
+    "materialsNeeded": ["A ruler", "3 objects to measure", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's place-value and addition/subtraction work.\n2. Demonstrate lining up an object with a ruler's zero mark and reading the length.\n3. Have the child measure 3 real objects independently.\n4. Complete the worksheet, recording each measurement.\n5. Close by comparing the three lengths and identifying the longest.",
+    "differentiationTips": [
+      "Struggling: model the first measurement fully together before letting the child measure the remaining two independently",
+      "Ready for more: ask the child to measure a fourth object and predict its length before actually measuring",
+      "A real ruler and real objects are essential here — this skill doesn't transfer well from an abstract worksheet alone"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a real-world measurement activity — answers vary based on the actual objects measured; check that the child used the ruler correctly (starting at zero) and can correctly identify the longest object.",
+    "standardsRationale": "Directly addresses Common Core Grade 2 standard 2.MD.1: measuring the length of an object using appropriate tools, opening this new measurement-focused unit."
+  },
+  "worksheet": {
+    "id": "worksheet-math-2-2-1",
+    "lessonId": "lesson-math-2-2-1",
+    "title": "Measuring Length with a Ruler",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Measure three real objects with a ruler and record their lengths.",
+      "rows": [
+        { "problem": "Object 1 and its length:" },
+        { "problem": "Object 2 and its length:" },
+        { "problem": "Object 3 and its length:" },
+        { "problem": "Which object is longest?" }
+      ]
+    }
+  }
+}

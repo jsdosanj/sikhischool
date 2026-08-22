@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-8-1",
+    "courseId": "course-punjabi-8",
+    "order": 1,
+    "title": "The Geography of Punjab",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-8-1-4",
+    "unitId": "unit-punjabi-8-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "ਪੰਜਾਬ ਬਾਰੇ ਇੱਕ ਦਲੀਲ (A Persuasive Piece About Punjab)",
+    "gradeLevel": "8",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਹੁਣ ਸਭ ਕੁਝ ਵਰਤਣ ਦੀ ਵਾਰੀ! (Now it's time to use everything!) Today, real persuasive writing in Punjabi."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "New words for persuasion: ਸੋਹਣਾ (sohna, beautiful), ਦੇਖਣਾ (dekhna, to see/visit), and ਜ਼ਰੂਰੀ (zaroori, important). Using this week's vocabulary (ਦਰਿਆ, ਖੇਤ, ਖੇਤੀਬਾੜੀ, ਸ਼ਹਿਰ, ਅੰਮ੍ਰਿਤਸਰ), write a short persuasive piece (3-4 sentences) arguing why someone should visit or learn about Punjab. Make a real claim (ਪੰਜਾਬ ਦੇਖਣਾ ਜ਼ਰੂਰੀ ਹੈ — 'visiting Punjab is important'), then give at least two specific reasons using this week's geography vocabulary."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਸ਼ਾਬਾਸ਼! (Well done!) You just wrote a real persuasive piece in Punjabi, using genuine geography vocabulary as your evidence."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-8-1-4",
+    "lessonId": "lesson-punjabi-8-1-4",
+    "objectives": [
+      "Learn 3 new persuasive vocabulary words: ਸੋਹਣਾ, ਦੇਖਣਾ, ਜ਼ਰੂਰੀ",
+      "Write a short persuasive piece using a claim and reasons drawn from this week's geography vocabulary"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets for vocabulary reference", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's geography vocabulary (rivers, farmland, Amritsar).\n2. Introduce today's 3 persuasive words.\n3. Model the claim sentence, then have the child add 2 reasons using known vocabulary.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: provide the claim sentence and have the child focus only on writing the 2 supporting reasons",
+      "Ready for more: challenge them to add a persuasive concluding sentence beyond the claim and reasons",
+      "All Gurmukhi words/phrases used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Answers will vary — check the piece includes a real claim and at least 2 specific reasons using this week's vocabulary (rivers, farmland, or Amritsar), not vague generalities.",
+    "standardsRationale": "Directly addresses the course's 'persuasive writing' description, using this week's real geography vocabulary as genuine supporting evidence rather than an isolated grammar exercise."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-8-1-4",
+    "lessonId": "lesson-punjabi-8-1-4",
+    "title": "A Persuasive Piece About Punjab",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a short persuasive piece (3-4 sentences) about why someone should visit or learn about Punjab.",
+      "prompts": [
+        { "prompt": "My persuasive piece:", "lines": 5 }
+      ]
+    }
+  }
+}

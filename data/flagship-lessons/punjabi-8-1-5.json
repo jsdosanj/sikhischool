@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-8-1",
+    "courseId": "course-punjabi-8",
+    "order": 1,
+    "title": "The Geography of Punjab",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-8-1-5",
+    "unitId": "unit-punjabi-8-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: The Geography of Punjab",
+    "gradeLevel": "8",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਪੰਜਾਬ ਦੇ ਭੂਗੋਲ ਬਾਰੇ ਬਹੁਤ ਕੁਝ ਸਿੱਖਿਆ! (This week you learned so much about Punjab's geography!) Let's review it all."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: ਦਰਿਆ (rivers) — ਸਤਲੁਜ, ਬਿਆਸ, ਰਾਵੀ (Day 1). ਖੇਤੀਬਾੜੀ (farming) words — ਖੇਤ, ਕਣਕ, ਜ਼ਮੀਨ (Day 2). ਸ਼ਹਿਰ (city) — ਅੰਮ੍ਰਿਤਸਰ (Day 3). Persuasive words — ਸੋਹਣਾ, ਦੇਖਣਾ, ਜ਼ਰੂਰੀ (Day 4). Read your own persuasive piece from yesterday out loud one more time, then match each vocabulary word below to its meaning."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਸ਼ਾਬਾਸ਼! (Well done!) You now know real Punjabi vocabulary for Punjab's rivers, farmland, and cities — and you've used it in real persuasive writing of your own."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-8-1-5",
+    "lessonId": "lesson-punjabi-8-1-5",
+    "objectives": [
+      "Recall all new vocabulary words learned this week across rivers, farmland, city, and persuasive language",
+      "Correctly match each vocabulary word to its meaning"
+    ],
+    "materialsNeeded": ["All 4 worksheets from this week", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through vocabulary review of all 4 days together, out loud.\n2. Have the child read their own persuasive piece from Day 4 aloud.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing a real week of geography vocabulary AND persuasive writing in Punjabi.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to add one more sentence to their persuasive piece using a word they haven't used yet",
+      "This is a genuine milestone — real geography vocabulary combined with real persuasive composition in the same week"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. ਦਰਿਆ = river. 2. ਖੇਤ = field. 3. ਸ਼ਹਿਰ = city. 4. ਜ਼ਰੂਰੀ = important.",
+    "standardsRationale": "Consolidates the week's geography vocabulary and persuasive-writing skills, matching the course's own 'geography of Punjab' and 'persuasive writing' descriptions together in one final review."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-8-1-5",
+    "lessonId": "lesson-punjabi-8-1-5",
+    "title": "The Geography of Punjab: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the English meaning of each word.",
+      "rows": [
+        { "problem": "ਦਰਿਆ" },
+        { "problem": "ਖੇਤ" },
+        { "problem": "ਸ਼ਹਿਰ" },
+        { "problem": "ਜ਼ਰੂਰੀ" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-8-1",
+    "courseId": "course-punjabi-8",
+    "order": 1,
+    "title": "The Geography of Punjab",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-8-1-3",
+    "unitId": "unit-punjabi-8-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "ਅੰਮ੍ਰਿਤਸਰ: ਇੱਕ ਵੱਡਾ ਸ਼ਹਿਰ (Amritsar: A Major City)",
+    "gradeLevel": "8",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਤੁਸੀਂ ਦਰਿਆ ਅਤੇ ਖੇਤ ਬਾਰੇ ਸਿੱਖਿਆ। ਅੱਜ, ਪੰਜਾਬ ਦੇ ਇੱਕ ਵੱਡੇ ਸ਼ਹਿਰ ਬਾਰੇ। (You've learned about rivers and fields. Today, one of Punjab's major cities.)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "New word: ਸ਼ਹਿਰ (shahir, city). ਅੰਮ੍ਰਿਤਸਰ (Amritsar) is one of Punjab's most important cities — you already learned in an earlier grade that its name means 'pool of nectar,' and that Guru Ram Das founded the town it grew from. Write a sentence about Amritsar using the pattern: ਅੰਮ੍ਰਿਤਸਰ ਇੱਕ ਸ਼ਹਿਰ ਹੈ (Amritsar is a city), then add one more detail you remember about it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have real vocabulary connecting this week's geography to what you already know about Amritsar's history. Tomorrow you'll use everything from this week to write a persuasive piece."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-8-1-3",
+    "lessonId": "lesson-punjabi-8-1-3",
+    "objectives": [
+      "Learn the word ਸ਼ਹਿਰ (city) and connect it to Amritsar as a real example",
+      "Recall and reuse prior knowledge about Amritsar's history"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's river and farmland vocabulary.\n2. Introduce ਸ਼ਹਿਰ and Amritsar, connecting back to earlier Sikhi-grade content about Guru Ram Das founding it.\n3. Have the child write the practice sentence plus one remembered detail.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: persuasive writing.",
+    "differentiationTips": [
+      "Struggling: if the child doesn't remember Amritsar's history detail, simply reintroduce it rather than requiring recall",
+      "Ready for more: ask them to name one more real or hypothetical detail about a city they'd want to include in a description",
+      "All Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਸ਼ਹਿਰ = city. 2. Amritsar's name means 'pool of nectar.' 3. Guru Ram Das founded the town that became Amritsar.",
+    "standardsRationale": "Connects this week's geography vocabulary to prior Sikhi-course content (Grade 5's Guru Ram Das lesson), reinforcing cross-subject knowledge while building toward Day 4's persuasive writing."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-8-1-3",
+    "lessonId": "lesson-punjabi-8-1-3",
+    "title": "ਅੰਮ੍ਰਿਤਸਰ",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in English.",
+      "rows": [
+        { "problem": "What does ਸ਼ਹਿਰ mean?" },
+        { "problem": "What does the name 'Amritsar' mean?" },
+        { "problem": "Who founded the town that became Amritsar?" }
+      ]
+    }
+  }
+}

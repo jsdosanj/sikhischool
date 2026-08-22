@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-5-2",
+    "courseId": "course-science-5",
+    "order": 2,
+    "title": "Ecosystems",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-5-2-5",
+    "unitId": "unit-science-5-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Ecosystems",
+    "gradeLevel": "5",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you explored how living things interact in ecosystems. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a food chain traces energy from producer to consumer (Day 1). A food web connects many overlapping chains (Day 2). Decomposers recycle nutrients back into the soil (Day 3). Changing one part of a food web ripples through the whole ecosystem (Day 4). Build a new food chain (any 3 organisms), then explain what role a decomposer would play if one of them died."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you explored food chains, webs, decomposers, and ecosystem change! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-5-2-5",
+    "lessonId": "lesson-science-5-2-5",
+    "objectives": [
+      "Review food chains, food webs, decomposers, and ecosystem ripple effects",
+      "Build a new food chain and explain a decomposer's role within it"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child build a new 3-organism food chain.\n3. Have the child explain a decomposer's role in it.\n4. Complete the review worksheet.\n5. Celebrate finishing a full week of ecosystems exploration!",
+    "differentiationTips": [
+      "Struggling: focus on just the food-chain-building part, the most concrete of the week's skills, before requiring the decomposer explanation",
+      "Ready for more: ask the child to connect this week back to last week — how might matter's properties (like decomposability) relate to how quickly something breaks down?",
+      "This is a good checkpoint to note which of the week's ecosystem concepts needs the most reinforcement before moving on"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and application activity — check that the child builds a real, sensible 3-organism food chain and correctly explains that a decomposer would break down the dead organism and return its nutrients to the soil.",
+    "standardsRationale": "Consolidates this week's NGSS Grade 5 Life Science standard 5-LS2-1 before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-5-2-5",
+    "lessonId": "lesson-science-5-2-5",
+    "title": "Review: Ecosystems",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "Build a new food chain with 3 organisms of your choice." },
+        { "problem": "What role would a decomposer play if one of them died?" }
+      ]
+    }
+  }
+}

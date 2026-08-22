@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-5-2",
+    "courseId": "course-science-5",
+    "order": 2,
+    "title": "Ecosystems",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-5-2-3",
+    "unitId": "unit-science-5-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Decomposers: Nature's Recyclers",
+    "gradeLevel": "5",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've built food chains and webs. Today: focus on decomposers, an essential role every ecosystem needs!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Decomposers, like fungi, bacteria, and earthworms, break down dead plants and animals, returning their nutrients to the soil. Without decomposers, dead material would just pile up forever, and the soil would eventually run out of the nutrients new plants need to grow — the whole ecosystem would stop working. Explain what you think would happen to an ecosystem's soil if every decomposer suddenly disappeared."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned why decomposers are essential — they recycle matter through the whole ecosystem! Tomorrow we'll see what happens when one part of an ecosystem changes."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-5-2-3",
+    "lessonId": "lesson-science-5-2-3",
+    "objectives": [
+      "Explain decomposers' role in breaking down dead matter and returning nutrients to the soil",
+      "Predict what would happen to an ecosystem without decomposers"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's food chain/web work.\n2. Introduce decomposers and matter-cycling.\n3. Have the child predict what would happen without decomposers.\n4. Complete the worksheet.\n5. Preview tomorrow's ecosystem-change lesson.",
+    "differentiationTips": [
+      "Struggling: connect to a real, familiar example — what happens to a fallen leaf pile over many months?",
+      "Ready for more: ask the child to name a real decomposer they've seen (mushrooms, mold, earthworms) and describe where they saw it",
+      "This lesson directly addresses the 'matter cycling' half of NGSS 5-LS2-1, not just energy flow — name that distinction explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a prediction activity — check that the child correctly predicts dead material would pile up and soil would eventually lose the nutrients needed for new plant growth, without decomposers to recycle it.",
+    "standardsRationale": "Directly addresses NGSS Grade 5 Life Science standard 5-LS2-1: matter cycling among plants, animals, decomposers, and the environment — the specific role decomposers play in that cycle."
+  },
+  "worksheet": {
+    "id": "worksheet-science-5-2-3",
+    "lessonId": "lesson-science-5-2-3",
+    "title": "Decomposers: Nature's Recyclers",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain what would happen to an ecosystem's soil if all decomposers disappeared.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

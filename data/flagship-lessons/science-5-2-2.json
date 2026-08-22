@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-5-2",
+    "courseId": "course-science-5",
+    "order": 2,
+    "title": "Ecosystems",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-5-2-2",
+    "unitId": "unit-science-5-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Food Webs: A More Complete Picture",
+    "gradeLevel": "5",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you built one food chain. Today: connect multiple food chains into a real food web!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Real ecosystems are more complex than one single food chain — a fox doesn't just eat rabbits, it might also eat mice or birds, and a rabbit might be eaten by a fox OR a hawk. A food web connects many overlapping food chains, showing these real multiple connections. Add a second animal to yesterday's food chain: what's another animal that might also eat grass, or that might also eat rabbits?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just started building a real food web with multiple connections! Tomorrow we'll focus on decomposers' essential role."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-5-2-2",
+    "lessonId": "lesson-science-5-2-2",
+    "objectives": [
+      "Understand a food web as multiple overlapping food chains",
+      "Add a realistic second organism to extend yesterday's food chain into a small web"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's grass/rabbit/fox food chain.\n2. Introduce food webs as multiple connected chains.\n3. Have the child add a second animal (like a hawk or mouse) to build a small web.\n4. Complete the worksheet.\n5. Preview tomorrow's decomposers lesson.",
+    "differentiationTips": [
+      "Struggling: provide a short list of real options (hawk, mouse, deer) to choose from rather than requiring the child to invent an animal",
+      "Ready for more: ask the child to draw their small food web with arrows showing all the energy connections",
+      "This is a genuine step up in complexity from yesterday's single chain — name that progression explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended extension activity — check that the child adds a real, ecologically sensible second animal (like a hawk that also eats rabbits, or a mouse that also eats grass).",
+    "standardsRationale": "Directly addresses NGSS Grade 5 Life Science standard 5-LS2-1, extending yesterday's simple food-chain model into a more realistic food-web structure."
+  },
+  "worksheet": {
+    "id": "worksheet-science-5-2-2",
+    "lessonId": "lesson-science-5-2-2",
+    "title": "Food Webs: A More Complete Picture",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Add a second animal to yesterday's food chain and explain the new connection.",
+      "prompts": [
+        { "prompt": "My new animal and connection:", "lines": 3 }
+      ]
+    }
+  }
+}

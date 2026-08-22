@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-5-2",
+    "courseId": "course-science-5",
+    "order": 2,
+    "title": "Ecosystems",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-5-2-1",
+    "unitId": "unit-science-5-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Food Chains: Producers, Consumers, Decomposers",
+    "gradeLevel": "5",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored properties of matter. This week: a new topic, how living things interact in ecosystems!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A food chain shows how energy moves through an ecosystem. Producers (like grass) make their own energy from sunlight. Consumers (like a rabbit, then a fox) eat other living things for energy. Decomposers (like fungi and bacteria) break down dead organisms, returning nutrients to the soil. Build a simple food chain: grass → rabbit → fox. Which role does each organism play — producer, consumer, or decomposer?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just built a real food chain, tracing energy through an ecosystem! Tomorrow we'll connect multiple food chains into a food web."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-5-2-1",
+    "lessonId": "lesson-science-5-2-1",
+    "objectives": [
+      "Define producer, consumer, and decomposer roles in a food chain",
+      "Correctly identify each role in the grass → rabbit → fox food chain"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's matter-properties work briefly.\n2. Introduce producer/consumer/decomposer roles.\n3. Have the child identify each role in the grass/rabbit/fox chain.\n4. Complete the worksheet.\n5. Preview tomorrow's food-web lesson.",
+    "differentiationTips": [
+      "Struggling: use arrows to show energy flow direction (grass → rabbit → fox) as a visual anchor",
+      "Ready for more: ask the child to build their own 3-organism food chain using animals/plants they know",
+      "This opens the course's ecosystems thread from its own description, using a simple, well-established food-chain model"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Grass = producer. Rabbit = consumer (eats the producer). Fox = consumer (eats the rabbit). Decomposers (like fungi) aren't in this chain but would break down any of these organisms after death.",
+    "standardsRationale": "Directly addresses NGSS Grade 5 Life Science standard 5-LS2-1: developing a model to describe matter cycling among plants, animals, decomposers, and the environment, opening this week's ecosystems thread."
+  },
+  "worksheet": {
+    "id": "worksheet-science-5-2-1",
+    "lessonId": "lesson-science-5-2-1",
+    "title": "Food Chains: Producers, Consumers, Decomposers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Identify each role in the food chain: grass → rabbit → fox.",
+      "rows": [
+        { "problem": "What role does grass play?" },
+        { "problem": "What role does the rabbit play?" },
+        { "problem": "What role does the fox play?" }
+      ]
+    }
+  }
+}

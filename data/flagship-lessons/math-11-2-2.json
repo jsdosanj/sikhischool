@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-11-2",
+    "courseId": "course-math-11",
+    "order": 2,
+    "title": "Exponential Functions",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-11-2-2",
+    "unitId": "unit-math-11-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Graphing Exponential Functions",
+    "gradeLevel": "11",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you evaluated exponential functions. Today: what their graphs actually look like!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "An exponential function's graph has two key features: a y-intercept at (0, a), where a is the starting value, and a horizontal asymptote (a line the graph approaches but never touches) at y=0 for a basic growth or decay function. For growth (b>1), the graph rises slowly at first then increasingly steeply as x increases; for decay (0<b<1), it falls steeply at first then levels off, approaching but never reaching zero. For y = 50 · 2ˣ, identify the y-intercept and describe whether the graph rises or falls as x increases."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the key features of an exponential graph! Tomorrow we'll apply exponential growth to a real-world problem."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-11-2-2",
+    "lessonId": "lesson-math-11-2-2",
+    "objectives": [
+      "Identify an exponential function's y-intercept and horizontal asymptote",
+      "Correctly describe y = 50·2ˣ's y-intercept and graph behavior"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's exponential-evaluation work briefly.\n2. Introduce the y-intercept and horizontal-asymptote features using a sketch.\n3. Have the child identify y = 50·2ˣ's y-intercept and describe its behavior.\n4. Complete the worksheet.\n5. Preview tomorrow's real-world growth application.",
+    "differentiationTips": [
+      "Struggling: plot 3-4 points by hand (from x=-1 to x=2) and connect them to see the curve's shape directly, rather than reasoning abstractly",
+      "Ready for more: ask the child why the graph can get closer and closer to y=0 but never actually touch it, even for very negative x-values",
+      "Real graphing skills matter here — worth actually sketching the curve, not just describing it in words"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The y-intercept is (0, 50), since y=50·2⁰=50·1=50. The graph rises as x increases, slowly at first and then increasingly steeply, since b=2 is greater than 1 (exponential growth).",
+    "standardsRationale": "Directly addresses Common Core Algebra 2 standard F-IF.7e: graphing exponential functions, showing intercepts and end behavior, continuing this week's exponential-functions thread."
+  },
+  "worksheet": {
+    "id": "worksheet-math-11-2-2",
+    "lessonId": "lesson-math-11-2-2",
+    "title": "Graphing Exponential Functions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about graphing exponential functions.",
+      "rows": [
+        { "problem": "For y = 50 · 2ˣ, find the y-intercept and describe the graph's behavior." },
+        { "problem": "For y = 400 · 0.5ˣ, find the y-intercept and describe the graph's behavior." }
+      ]
+    }
+  }
+}

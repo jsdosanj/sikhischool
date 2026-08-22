@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-6-1",
+    "courseId": "course-sikhi-6",
+    "order": 1,
+    "title": "Women in Sikh History",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-6-1-3",
+    "unitId": "unit-sikhi-6-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Mai Bhago: Courage and Leadership",
+    "gradeLevel": "6",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Today, a woman remembered for real courage and leadership in a genuinely difficult moment: Mai Bhago."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Mai Bhago is remembered in Sikh history as a woman of great courage and leadership during a difficult period for the Sikh community in the early 1700s. When a group of soldiers had lost their resolve, she rallied and led them, convincing them to return with renewed commitment and courage, and she herself stood among them as a leader. Her story is remembered as a powerful example that leadership and courage weren't limited to men in Sikh history. Think about what it means to convince a discouraged group to find their courage again — what kind of leadership does that take?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about Mai Bhago, remembered for real courage and leadership. Tomorrow we'll learn about a woman who led the entire Sikh community for decades: Mata Sundari."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-6-1-3",
+    "lessonId": "lesson-sikhi-6-1-3",
+    "objectives": [
+      "Identify Mai Bhago as a woman remembered for courage and leadership in Sikh history",
+      "Discuss what kind of leadership is required to rally a discouraged group"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Bebe Nanki and Mata Khivi from earlier this week.\n2. Introduce Mai Bhago's story at a general level, focused on her courage and leadership rather than battle detail.\n3. Discuss the leadership-and-courage discussion question together.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: Mata Sundari's decades of leadership.",
+    "differentiationTips": [
+      "Struggling: focus on the single core idea — 'she led with courage when others had lost theirs' — without requiring historical/military detail",
+      "Ready for more: ask them to think of a modern example of someone rallying a discouraged group, and compare the kind of leadership involved",
+      "Deliberately kept general/non-graphic — this is a genuinely difficult historical period, and depth here is a future lesson's job, not this one's"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Mai Bhago is remembered for courage and leadership in Sikh history. 2. She rallied a discouraged group of soldiers to return with renewed commitment. 3. Her story shows leadership and courage in Sikh history weren't limited to men.",
+    "standardsRationale": "Continues the course's 'women in Sikh history' description with a well-known example of leadership, deliberately scoped to avoid graphic historical/military detail that a future, more dedicated lesson could handle with greater care."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-6-1-3",
+    "lessonId": "lesson-sikhi-6-1-3",
+    "title": "Mai Bhago: Courage and Leadership",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What is Mai Bhago remembered for?" },
+        { "problem": "What did she do when a group had lost their resolve?" },
+        { "problem": "What does her story show about leadership in Sikh history?" }
+      ]
+    }
+  }
+}

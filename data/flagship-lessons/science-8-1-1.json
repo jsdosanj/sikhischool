@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-8-1",
+    "courseId": "course-science-8",
+    "order": 1,
+    "title": "Space Systems",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-8-1-1",
+    "unitId": "unit-science-8-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Why We Have Seasons",
+    "gradeLevel": "8",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Many people believe summer happens because Earth gets closer to the sun. That's actually backwards — the real reason is something else entirely."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Seasons are caused by Earth's axial tilt — Earth spins on an axis tilted about 23.5 degrees, and that tilt stays pointed in the same direction as Earth orbits the sun over the year. When the Northern Hemisphere is tilted toward the sun, it gets more direct sunlight and longer days — summer. Six months later, tilted away, it's winter. In fact, Earth is actually slightly CLOSER to the sun during Northern Hemisphere winter, not farther — proving distance isn't the real cause. Explain in your own words why the Northern and Southern Hemispheres have opposite seasons at the same time."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just corrected a genuinely common science misconception with real evidence. Tomorrow we'll investigate why the moon appears to change shape."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-8-1-1",
+    "lessonId": "lesson-science-8-1-1",
+    "objectives": [
+      "Explain that seasons are caused by Earth's axial tilt, not distance from the sun",
+      "Explain why the Northern and Southern Hemispheres experience opposite seasons simultaneously"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Optional: a ball and flashlight to model tilt and sunlight angle"],
+    "facilitationScript": "1. Ask the child what they currently believe causes seasons.\n2. Introduce axial tilt as the real cause, directly correcting the distance misconception.\n3. If possible, model with a tilted ball and flashlight, showing how tilt changes sunlight angle.\n4. Discuss why hemispheres have opposite seasons.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: moon phases.",
+    "differentiationTips": [
+      "Struggling: focus on just the tilt-changes-sunlight-angle idea, without requiring the Earth-is-closer-in-winter counterintuitive detail yet",
+      "Ready for more: research the exact date of Earth's closest approach to the sun (perihelion) and confirm it falls in Northern Hemisphere winter",
+      "The ball-and-flashlight demonstration is genuinely worth the setup time — this concept is much harder to grasp from words alone"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Seasons are caused by Earth's axial tilt, not distance from the sun. 2. Earth is actually closer to the sun during Northern Hemisphere winter. 3. Hemispheres have opposite seasons because when one is tilted toward the sun, the other is tilted away.",
+    "standardsRationale": "Directly addresses NGSS MS-ESS1-1: developing a model of the Earth-sun-moon system to describe seasons, explicitly correcting the well-documented common misconception about distance."
+  },
+  "worksheet": {
+    "id": "worksheet-science-8-1-1",
+    "lessonId": "lesson-science-8-1-1",
+    "title": "Why We Have Seasons",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the real cause of seasons.",
+      "rows": [
+        { "problem": "What actually causes Earth's seasons?" },
+        { "problem": "Is Earth closer to or farther from the sun during Northern Hemisphere winter?" },
+        { "problem": "Why do the Northern and Southern Hemispheres have opposite seasons at the same time?" }
+      ]
+    }
+  }
+}

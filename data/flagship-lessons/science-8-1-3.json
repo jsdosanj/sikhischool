@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-8-1",
+    "courseId": "course-science-8",
+    "order": 1,
+    "title": "Space Systems",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-8-1-3",
+    "unitId": "unit-science-8-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Gravity and Orbits",
+    "gradeLevel": "8",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've studied Earth's tilt and the moon's phases. Today, the force that holds this entire system together: gravity."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Gravity is a pulling force between any two objects with mass — the more mass, the stronger the pull, and the closer the objects, the stronger the pull. An orbit happens when an object is moving fast enough sideways that gravity's pull constantly curves its path into a loop, instead of pulling it straight in or letting it fly off in a straight line. The moon orbits Earth because Earth's gravity constantly pulls it, curving its path; Earth orbits the sun for the same reason, with the sun's much stronger gravity. Explain in your own words why an object needs to be moving (not standing still) for gravity to create an orbit instead of just a straight fall."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just explained how gravity creates orbital motion throughout the solar system. Tomorrow we'll investigate the real, surprising scale of distances in space."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-8-1-3",
+    "lessonId": "lesson-science-8-1-3",
+    "objectives": [
+      "Explain gravity as a pulling force between objects with mass, stronger with more mass and closer distance",
+      "Explain how sideways motion plus gravity's pull creates an orbit"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Optional: a ball on a string, swung in a circle, to model orbital motion"],
+    "facilitationScript": "1. Review this week's Earth-sun-moon system so far.\n2. Introduce gravity as a mass-dependent, distance-dependent pulling force.\n3. If possible, swing a ball on a string to model how sideways motion plus a constant pull (your hand) creates a circular path.\n4. Discuss why standing still would just mean falling straight in.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: the real scale of the solar system.",
+    "differentiationTips": [
+      "Struggling: focus on the ball-on-a-string demonstration as the primary explanation, using words only as a supplement",
+      "Ready for more: ask them to predict what would happen to the moon's orbit if Earth suddenly had much less mass",
+      "This is a genuinely counterintuitive idea (that falling and orbiting are related) — take real time here, don't rush past it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Gravity is a pulling force between objects with mass — stronger with more mass, stronger when closer. 2. An orbit happens when sideways motion plus gravity's pull curves an object's path into a loop. 3. Without sideways motion, gravity would just pull the object straight in (a fall), not create an orbit.",
+    "standardsRationale": "Directly addresses NGSS MS-ESS1-2: developing a model to describe the role of gravity in motions within the solar system."
+  },
+  "worksheet": {
+    "id": "worksheet-science-8-1-3",
+    "lessonId": "lesson-science-8-1-3",
+    "title": "Gravity and Orbits",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about gravity and orbits.",
+      "rows": [
+        { "problem": "What two factors affect the strength of gravity between two objects?" },
+        { "problem": "What two things combine to create an orbit?" },
+        { "problem": "What would happen to an object with no sideways motion, only gravity pulling on it?" }
+      ]
+    }
+  }
+}

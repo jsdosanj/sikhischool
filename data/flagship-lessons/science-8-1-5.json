@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-science-8-1",
+    "courseId": "course-science-8",
+    "order": 1,
+    "title": "Space Systems",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-8-1-5",
+    "unitId": "unit-science-8-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Space Systems",
+    "gradeLevel": "8",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you corrected two common misconceptions and investigated gravity and real cosmic scale. Let's put it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: seasons are caused by Earth's axial tilt, not distance from the sun (Day 1). Moon phases are caused by viewing angle of the sunlit half, not Earth's shadow (Day 2). Gravity plus sideways motion creates orbital motion throughout the solar system (Day 3). Real solar system distances are far larger than textbook diagrams suggest (Day 4). Explain to a family member, in your own words, why BOTH the seasons and the moon-phases misconceptions are so common, even though the real explanations are different."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work investigating space systems this week! You now understand seasons, moon phases, gravity, and real cosmic scale — and you've corrected two genuinely common misconceptions along the way."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-8-1-5",
+    "lessonId": "lesson-science-8-1-5",
+    "objectives": [
+      "Recall and correctly explain all four space-systems concepts from the week",
+      "Explain to another person why the two corrected misconceptions were commonly believed"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child explain the week's two corrected misconceptions to a family member.\n3. Complete the cumulative review worksheet, mixing all 4 days' concepts.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of investigation — this pattern (5 days building to a review) is how every unit this year will work.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to think of one more common space-related misconception they've heard, and investigate whether it's accurate",
+      "This is a good checkpoint to note which day's concept needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Seasons are caused by axial tilt, not distance. 2. Moon phases are caused by viewing angle, not Earth's shadow. 3. Gravity plus sideways motion creates orbital motion. 4. Real solar system distances are far larger than textbook diagrams suggest.",
+    "standardsRationale": "Consolidates NGSS MS-ESS1-1 through MS-ESS1-3 (seasons, moon phases, gravity, and solar system scale) before the unit moves on, matching the 'consolidate before adding more' pacing established in earlier units this session."
+  },
+  "worksheet": {
+    "id": "worksheet-science-8-1-5",
+    "lessonId": "lesson-science-8-1-5",
+    "title": "Space Systems: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question, drawing on everything you learned this week.",
+      "rows": [
+        { "problem": "What actually causes Earth's seasons?" },
+        { "problem": "What actually causes moon phases?" },
+        { "problem": "What two things combine to create an orbit?" },
+        { "problem": "Are real solar system distances larger or smaller than textbook diagrams suggest?" }
+      ]
+    }
+  }
+}

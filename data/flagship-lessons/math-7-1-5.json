@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-7-1",
+    "courseId": "course-math-7",
+    "order": 1,
+    "title": "Proportional Relationships",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-7-1-5",
+    "unitId": "unit-math-7-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Proportional Relationships",
+    "gradeLevel": "7",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you took proportional relationships from tables to equations to graphs to real-world percent problems. Let's review it all."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a relationship is proportional if y÷x is constant for every pair, and it passes through (0,0) (Day 1). It can be written as y=kx, where k is the constant of proportionality (Day 2). Every point (x,y) on its graph tells a real story about the situation (Day 3). Proportional reasoning solves real discount and tax problems (Day 4). Solve one problem of each type below to show you've mastered all four skills."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now have a complete toolkit for proportional relationships that will support the rest of this year's math, from probability to geometry."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-7-1-5",
+    "lessonId": "lesson-math-7-1-5",
+    "objectives": [
+      "Identify proportional relationships, write their equations, interpret graph points, and solve percent problems"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Complete the cumulative review worksheet, one problem of each type from the week.\n3. Discuss any mismatches or uncertain answers together before finishing.\n4. Celebrate finishing the first full week of this unit — proportional reasoning will reappear constantly throughout the rest of the year.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to write their own real-world percent word problem for a family member to solve",
+      "This is a good checkpoint to note which day's skill needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. x=3,y=12: k=4, equation y=4x. 2. An $80 item at 15% off = $68 sale price. 3. A $25 bill with 6% tax = $26.50 total. 4. The point (5, 20) on y=4x means 5 items cost $20.",
+    "standardsRationale": "Consolidates Common Core 7.RP.1 through 7.RP.3 (unit rates, proportional relationship representations, and real-world percent problems) before the unit moves to a new topic, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-7-1-5",
+    "lessonId": "lesson-math-7-1-5",
+    "title": "Proportional Relationships: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each problem.",
+      "rows": [
+        { "problem": "x=3, y=12. Find k and write the equation." },
+        { "problem": "An $80 item is 15% off. What is the sale price?" },
+        { "problem": "A $25 bill has 6% tax. What is the total?" },
+        { "problem": "For y=4x, what does the point (5, 20) mean?" }
+      ]
+    }
+  }
+}

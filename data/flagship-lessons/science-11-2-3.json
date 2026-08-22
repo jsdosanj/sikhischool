@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-11-2",
+    "courseId": "course-science-11",
+    "order": 2,
+    "title": "Newton's Laws of Motion",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-11-2-3",
+    "unitId": "unit-science-11-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Newton's Third Law: Action-Reaction Pairs",
+    "gradeLevel": "11",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned inertia and F=ma. Today: what happens when two objects push on each other!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Newton's Third Law states that for every action force, there is an equal and opposite reaction force — when object A pushes on object B, object B simultaneously pushes back on object A with equal strength in the opposite direction. When you push against a wall, the wall pushes back on you with equal force, which is why your hand doesn't simply pass through it. Identify the action-reaction pair when a swimmer pushes backward against the water to swim forward."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned Newton's Third Law! Tomorrow we'll combine all three laws in a real-world application."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-11-2-3",
+    "lessonId": "lesson-science-11-2-3",
+    "objectives": [
+      "State Newton's Third Law: equal and opposite action-reaction force pairs",
+      "Identify the action-reaction pair in a swimmer pushing against water"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's First and Second Law work.\n2. Introduce the Third Law using the wall-push example.\n3. Have the child identify the swimmer's action-reaction pair.\n4. Complete the worksheet.\n5. Preview tomorrow's combined-laws application.",
+    "differentiationTips": [
+      "Struggling: use the wall-push example again with the swimmer, explicitly naming which push is the 'action' and which is the 'reaction'",
+      "Ready for more: ask the child why a rocket can accelerate in the vacuum of space, where there's no air to push against, using the Third Law",
+      "A commonly confused law — worth emphasizing that BOTH forces in the pair act on DIFFERENT objects, not the same one"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The action force is the swimmer pushing backward against the water; the reaction force is the water pushing forward against the swimmer with equal strength, which is what actually propels the swimmer forward through the water.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-12 Physical Science standard HS-PS2-1, continuing this week's thread with Newton's Third Law."
+  },
+  "worksheet": {
+    "id": "worksheet-science-11-2-3",
+    "lessonId": "lesson-science-11-2-3",
+    "title": "Newton's Third Law: Action-Reaction Pairs",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Newton's Third Law.",
+      "rows": [
+        { "problem": "State Newton's Third Law in your own words." },
+        { "problem": "Identify the action-reaction pair when a swimmer pushes against the water." },
+        { "problem": "Identify the action-reaction pair when a rocket engine burns fuel to launch." }
+      ]
+    }
+  }
+}

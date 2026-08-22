@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-11-2",
+    "courseId": "course-science-11",
+    "order": 2,
+    "title": "Newton's Laws of Motion",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-11-2-4",
+    "unitId": "unit-science-11-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "All Three Laws Together: A Rocket Launch",
+    "gradeLevel": "11",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned all three of Newton's laws. Today: see them all working together in a real rocket launch!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A rocket launch demonstrates all three of Newton's laws at once: the rocket sits at rest until engine thrust provides the net force needed to overcome its inertia (First Law); a 2,000 kg rocket with 24,000 N of thrust accelerates according to F=ma (Second Law); and the rocket accelerates upward because it expels exhaust gas downward, with the gas pushing back on the rocket equally and oppositely (Third Law). Using Newton's Second Law, find the rocket's acceleration, then explain which law explains why expelling gas downward makes the rocket move upward."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just saw all three of Newton's laws working together in a real launch! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-11-2-4",
+    "lessonId": "lesson-science-11-2-4",
+    "objectives": [
+      "Identify all three of Newton's laws within a real rocket-launch scenario",
+      "Correctly calculate the rocket's acceleration and explain the Third Law's role"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's First, Second, and Third Law work.\n2. Walk through the rocket-launch example, identifying each law's role.\n3. Have the child calculate the acceleration and explain the Third Law's role.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: work through each law separately for the rocket (First: it starts at rest; Second: calculate a; Third: gas pushes down, rocket pushes up) before combining into one explanation",
+      "Ready for more: ask the child why a rocket needs to carry both fuel AND an oxidizer (unlike a car engine, which uses oxygen from the air) to work in the vacuum of space",
+      "This is the week's synthesis moment — seeing all three laws work together in one real, exciting example is far more memorable than studying them in isolation"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "a = F/m = 24,000/2,000 = 12 m/s². This acceleration happens because of Newton's Third Law: the rocket pushes exhaust gas downward (the action), and the gas pushes back on the rocket upward with equal force (the reaction), which is what actually propels the rocket into the air.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-12 Physical Science standard HS-PS2-1, synthesizing all three of Newton's laws into one real-world application before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-science-11-2-4",
+    "lessonId": "lesson-science-11-2-4",
+    "title": "All Three Laws Together: A Rocket Launch",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve the rocket problem and explain the laws involved.",
+      "rows": [
+        { "problem": "A 2,000 kg rocket has 24,000 N of thrust. Find its acceleration." },
+        { "problem": "Explain which law explains why expelling gas downward makes the rocket move upward." }
+      ]
+    }
+  }
+}

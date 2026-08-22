@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-12-2",
+    "courseId": "course-science-12",
+    "order": 2,
+    "title": "Your Capstone Engineering-Design Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-12-2-4",
+    "unitId": "unit-science-12-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Iterating on Your Design",
+    "gradeLevel": "12",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've designed and prototyped a solution. Today: iterate, the engineering process's most important habit!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Iteration means using real test results to improve a design, rather than treating the first prototype as final — most successful engineering solutions go through several rounds of testing and revision. Imagine your share-table prototype's one-day trial showed that students didn't know it existed and participation was very low. Describe one specific way you would revise your prototype based on this feedback, and explain why iteration matters more than getting the first design perfect."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just practiced real engineering iteration! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-12-2-4",
+    "lessonId": "lesson-science-12-2-4",
+    "objectives": [
+      "Understand iteration as revising a design based on real test feedback",
+      "Describe a specific revision responding to low-participation feedback, and explain why iteration matters"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's problem-definition, brainstorming, and prototyping work.\n2. Introduce iteration using the low-participation scenario.\n3. Have the child describe a specific revision and explain why iteration matters.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: brainstorm together why students might not know about the trial (no announcement, no signage) before asking for a specific fix",
+      "Ready for more: ask the child how many rounds of iteration they think a real, successful product or solution typically goes through before it's finished",
+      "This is the week's most important engineering-mindset lesson — worth genuine emphasis, since it's the habit that separates working solutions from failed first attempts"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child's revision genuinely addresses the low-awareness problem (like adding signage or an announcement) and that their explanation captures why iteration matters: no first design is likely to be perfect, and real feedback from testing reveals problems that couldn't have been predicted in advance, making revision essential to actually solving the problem well.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-12 Engineering Design standard HS-ETS1-3, teaching the iterative-revision habit before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-science-12-2-4",
+    "lessonId": "lesson-science-12-2-4",
+    "title": "Iterating on Your Design",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe your revision and explain why iteration matters.",
+      "prompts": [
+        { "prompt": "Your specific revision to the low-participation problem:", "lines": 2 },
+        { "prompt": "Why does iteration matter more than a perfect first design?", "lines": 2 }
+      ]
+    }
+  }
+}

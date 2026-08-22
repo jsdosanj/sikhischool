@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-science-12-2",
+    "courseId": "course-science-12",
+    "order": 2,
+    "title": "Your Capstone Engineering-Design Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-12-2-3",
+    "unitId": "unit-science-12-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Prototyping and Testing",
+    "gradeLevel": "12",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've evaluated solutions. Today: build a testable prototype of your chosen solution!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A prototype is a simplified, testable version of a solution, built to gather real feedback before committing to a full version — this can be a physical model, a diagram, a written plan, or even a small pilot test, depending on the solution. A share-table solution's prototype might be a one-day trial run with a simple sign-up sheet and observation notes, not a permanent installation. Choose your strongest solution from yesterday, and describe what a real, testable prototype of it would look like."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just designed a real testable prototype! Tomorrow we'll learn how to iterate based on what you'd learn from it."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-12-2-3",
+    "lessonId": "lesson-science-12-2-3",
+    "objectives": [
+      "Understand a prototype as a simplified, testable version of a solution",
+      "Describe a genuine, testable prototype for the child's own chosen solution"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's problem-definition and brainstorming work.\n2. Introduce prototyping using the share-table trial-run example.\n3. Have the child describe a real prototype of their chosen solution.\n4. Complete the worksheet.\n5. Preview tomorrow's iteration lesson.",
+    "differentiationTips": [
+      "Struggling: emphasize that a prototype doesn't need to be perfect or permanent — it just needs to be real enough to test and learn from",
+      "Ready for more: ask the child what specific information they'd want to collect during the test (how many people participated, how much waste was actually reduced, etc.)",
+      "This is a genuinely important engineering habit — testing small and cheap before committing to a full-scale solution"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the described prototype is genuinely simplified and testable (a small trial, a diagram, a short pilot run), not a full-scale, permanent version, and that it's realistically connected to the child's chosen solution.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-12 Engineering Design standard HS-ETS1-3: evaluating a solution through prototyping and testing, continuing this week's capstone thread."
+  },
+  "worksheet": {
+    "id": "worksheet-science-12-2-3",
+    "lessonId": "lesson-science-12-2-3",
+    "title": "Prototyping and Testing",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe your prototype and how you'd test it.",
+      "prompts": [
+        { "prompt": "Your chosen solution:", "lines": 1 },
+        { "prompt": "Your testable prototype, and how you'd test it:", "lines": 3 }
+      ]
+    }
+  }
+}

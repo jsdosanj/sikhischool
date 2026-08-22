@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-science-12-2",
+    "courseId": "course-science-12",
+    "order": 2,
+    "title": "Your Capstone Engineering-Design Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-science-12-2-1",
+    "unitId": "unit-science-12-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Defining Your Problem",
+    "gradeLevel": "12",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned systems thinking and sustainability. This week: your own capstone engineering-design project!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The engineering design process (introduced briefly last week) always starts with clearly defining a real problem, including who is affected and what constraints (limited budget, materials, or space) shape possible solutions. A vague problem like 'help the environment' is too broad; a defined problem like 'reduce food waste in my school's cafeteria, working within a zero-additional-cost constraint' is specific and workable. Choose a real environmental or sustainability problem you care about, and write a clearly defined problem statement including at least one real constraint."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just defined a real engineering problem! Tomorrow we'll brainstorm and evaluate possible solutions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-12-2-1",
+    "lessonId": "lesson-science-12-2-1",
+    "objectives": [
+      "Understand a well-defined engineering problem as specific, with real constraints",
+      "Write a specific, constrained problem statement for the child's own capstone project"
+    ],
+    "materialsNeeded": ["Last week's systems-thinking worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's engineering-design-process introduction briefly.\n2. Introduce well-defined vs. vague problems using the food-waste example.\n3. Have the child write their own problem statement with a real constraint.\n4. Complete the worksheet.\n5. Preview tomorrow's brainstorming lesson.",
+    "differentiationTips": [
+      "Struggling: offer 2-3 familiar starting problems (school food waste, classroom energy use, water use at home) to choose from rather than an entirely open search",
+      "Ready for more: ask the child why including a real constraint (budget, materials, time) from the very start makes later solutions more realistic and useful",
+      "Opens this week's capstone-engineering-project thread from the course's own description, directly building on last week's brief introduction to the process"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the problem statement is specific (not vague), names who is affected, and includes at least one genuine, realistic constraint the solution will need to work within.",
+    "standardsRationale": "Directly addresses NGSS Grade 9-12 Engineering Design standard HS-ETS1-1: analyzing a major global challenge to specify criteria and constraints, opening this week's capstone thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-science-12-2-1",
+    "lessonId": "lesson-science-12-2-1",
+    "title": "Defining Your Problem",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your defined problem statement.",
+      "prompts": [
+        { "prompt": "Your problem, who it affects, and its real constraint:", "lines": 3 }
+      ]
+    }
+  }
+}

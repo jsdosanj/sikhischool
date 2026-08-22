@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-3-2",
+    "courseId": "course-sikhi-3",
+    "order": 2,
+    "title": "The Story of Bhai Kanhaiya Ji",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-3-2-5",
+    "unitId": "unit-sikhi-3-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: The Story of Bhai Kanhaiya Ji",
+    "gradeLevel": "3",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned a real story of courage from Sikh history. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: courage includes standing by what's right, even when it's hard (Day 1). Bhai Kanhaiya Ji gave water to everyone in need, without exception (Day 2). Others questioned him, but he stayed true to his belief — that's real moral courage (Day 3). Langar today still serves everyone, carrying his spirit forward (Day 4). Answer: who was Bhai Kanhaiya Ji, and what value connects his story to Langar today?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you learned a real story of courage and connected it to a living tradition! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-3-2-5",
+    "lessonId": "lesson-sikhi-3-2-5",
+    "objectives": [
+      "Review moral courage, Bhai Kanhaiya Ji's story, and its connection to Langar today",
+      "State who Bhai Kanhaiya Ji was and the value connecting his story to Langar"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child answer both review questions.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of real Sikh history and moral courage!",
+    "differentiationTips": [
+      "Struggling: focus on just recalling who Bhai Kanhaiya Ji was and what he did, before requiring the fuller value-connection explanation",
+      "Ready for more: ask the child how this week's story connects back to something they learned in an earlier grade's Sikhi content",
+      "This is a good checkpoint to note whether the child needs more practice with the moral-courage concept before the next Sikh-history story"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child can state Bhai Kanhaiya Ji gave water/care to everyone regardless of side, and that the connecting value is universal compassion, shared with Langar's practice of serving every visitor.",
+    "standardsRationale": "Consolidates this week's real Sikh-history-courage content before the course continues, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-3-2-5",
+    "lessonId": "lesson-sikhi-3-2-5",
+    "title": "The Story of Bhai Kanhaiya Ji: Week 2 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What is Bhai Kanhaiya Ji remembered for doing?" },
+        { "problem": "What value connects his story to Langar today?" }
+      ]
+    }
+  }
+}

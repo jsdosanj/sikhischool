@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-3-2",
+    "courseId": "course-sikhi-3",
+    "order": 2,
+    "title": "The Story of Bhai Kanhaiya Ji",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-3-2-3",
+    "unitId": "unit-sikhi-3-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Why It Took Real Courage",
+    "gradeLevel": "3",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've met Bhai Kanhaiya Ji. Today: understand why what he did took the moral courage you learned about on Day 1!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Some people questioned Bhai Kanhaiya Ji, confused about why he was helping people from every side, not just his own. It would have been easier for him to only help people who agreed with him — but he believed compassion shouldn't have limits, and he stayed true to that belief even when others didn't understand it right away. That's real moral courage in action, the exact idea you explored on Day 1. Connect this back to Day 1: what made Bhai Kanhaiya Ji's choice an example of moral courage, not just kindness?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected Bhai Kanhaiya Ji's story to real moral courage! Tomorrow we'll connect his story to something practiced at Gurdwaras today."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-3-2-3",
+    "lessonId": "lesson-sikhi-3-2-3",
+    "objectives": [
+      "Explain that Bhai Kanhaiya Ji faced questioning for his choice, yet stayed true to his belief",
+      "Connect his story explicitly back to Day 1's moral-courage definition"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Day 2's Bhai Kanhaiya Ji story.\n2. Explain that others questioned his choice, and discuss why staying true to his belief took courage.\n3. Have the child connect this explicitly back to Day 1's moral-courage definition.\n4. Complete the worksheet.\n5. Preview tomorrow's connection to Gurdwara practice today.",
+    "differentiationTips": [
+      "Struggling: reread Day 1's worksheet answer together as a direct comparison point",
+      "Ready for more: ask the child how they might respond if someone questioned them for being kind to someone others didn't expect them to help",
+      "This is the key synthesis lesson connecting Day 1's abstract concept to Day 2's concrete story — give it real time rather than rushing through"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a synthesis activity — check that the child correctly explains Bhai Kanhaiya Ji showed moral courage by staying true to his belief in universal compassion even when others questioned him, connecting directly back to Day 1's definition.",
+    "standardsRationale": "Directly addresses the course's 'stories of courage from Sikh history' description by making the moral-courage lesson concrete and personally meaningful, not just historical fact."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-3-2-3",
+    "lessonId": "lesson-sikhi-3-2-3",
+    "title": "Why It Took Real Courage",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain what made Bhai Kanhaiya Ji's choice an example of moral courage.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

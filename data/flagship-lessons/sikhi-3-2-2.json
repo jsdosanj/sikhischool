@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-3-2",
+    "courseId": "course-sikhi-3",
+    "order": 2,
+    "title": "The Story of Bhai Kanhaiya Ji",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-3-2-2",
+    "unitId": "unit-sikhi-3-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Meeting Bhai Kanhaiya Ji",
+    "gradeLevel": "3",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned about moral courage. Today, meet a real Sikh who showed exactly this kind of courage!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Bhai Kanhaiya Ji was a devoted Sikh known for one remarkable act of compassion: during a difficult time when there was conflict, he went out and gave water to every wounded person he found, without asking which side they were on. To him, every person deserved care and kindness, no matter what. Why do you think Bhai Kanhaiya Ji believed that every wounded person deserved water and care equally?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just met Bhai Kanhaiya Ji, remembered for treating everyone with equal compassion! Tomorrow we'll learn why what he did took real courage."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-3-2-2",
+    "lessonId": "lesson-sikhi-3-2-2",
+    "objectives": [
+      "Identify Bhai Kanhaiya Ji as a figure remembered for giving equal care to everyone in need",
+      "Explain in their own words why he believed every person deserved compassion"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's moral-courage discussion.\n2. Introduce Bhai Kanhaiya Ji's story, keeping the historical setting general and non-graphic.\n3. Discuss why he treated everyone equally.\n4. Complete the worksheet.\n5. Preview tomorrow's lesson on why this took courage.",
+    "differentiationTips": [
+      "Struggling: connect back to yesterday's equality-themed discussion, and to Guru Amar Das's Langar-for-everyone lesson from Grade 5's Sikhi content, if familiar",
+      "Ready for more: ask the child what they think it might have felt like to be one of the people Bhai Kanhaiya Ji helped",
+      "Kept deliberately general and non-graphic — the historical conflict setting is mentioned only briefly, with the focus entirely on the act of compassion itself, appropriate for this age band"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child can explain, in their own words, that Bhai Kanhaiya Ji believed every person deserved compassion regardless of which side they were on, connecting to the value of equality.",
+    "standardsRationale": "Directly addresses the course's 'stories of courage from Sikh history' description with a real, well-documented, age-appropriate figure, treated with the same content-sensitivity care established across this session's Sikh-history lessons."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-3-2-2",
+    "lessonId": "lesson-sikhi-3-2-2",
+    "title": "Meeting Bhai Kanhaiya Ji",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Bhai Kanhaiya Ji.",
+      "rows": [
+        { "problem": "What is Bhai Kanhaiya Ji remembered for doing?" },
+        { "problem": "Why do you think he treated everyone equally?" }
+      ]
+    }
+  }
+}

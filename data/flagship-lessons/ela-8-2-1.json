@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-8-2",
+    "courseId": "course-ela-8",
+    "order": 2,
+    "title": "Public Speaking",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-8-2-1",
+    "unitId": "unit-ela-8-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Organizing a Speech",
+    "gradeLevel": "8",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you wrote a formal essay. This week: public speaking, a related but genuinely different skill!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A speech needs a structure listeners can follow by ear, since they can't reread a confusing sentence like they could in an essay: a strong opening hook to grab attention, 2-3 clear main points, and a memorable closing. Pick a topic you know well, and outline a short speech about it: one opening hook, two main points, one closing thought."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just outlined a real speech structure! Tomorrow we'll learn delivery skills: eye contact, pacing, and voice."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-8-2-1",
+    "lessonId": "lesson-ela-8-2-1",
+    "objectives": [
+      "Understand a speech's structure: hook, main points, closing",
+      "Outline a short speech with all three parts"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's formal-essay-writing work briefly.\n2. Introduce speech structure, contrasting it with essay structure.\n3. Have the child outline their own short speech.\n4. Complete the worksheet.\n5. Preview tomorrow's delivery-skills lesson.",
+    "differentiationTips": [
+      "Struggling: offer a familiar, simple topic (a favorite hobby or game) to outline rather than an abstract one",
+      "Ready for more: ask the child why a listener needs a clearer structure than a reader does",
+      "Opens this week's public-speaking thread, a genuinely different skill from last week's written-essay work"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended outlining activity — check that the speech includes a genuine hook, two distinct main points, and a real closing thought.",
+    "standardsRationale": "Directly addresses Common Core Grade 8 Speaking and Listening standard SL.8.4: presenting claims and findings with clear organization, opening this week's public-speaking thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-8-2-1",
+    "lessonId": "lesson-ela-8-2-1",
+    "title": "Organizing a Speech",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Outline a short speech: hook, two main points, closing.",
+      "prompts": [
+        { "prompt": "Opening hook:", "lines": 1 },
+        { "prompt": "Main point 1:", "lines": 1 },
+        { "prompt": "Main point 2:", "lines": 1 },
+        { "prompt": "Closing thought:", "lines": 1 }
+      ]
+    }
+  }
+}

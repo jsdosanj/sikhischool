@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-8-2",
+    "courseId": "course-ela-8",
+    "order": 2,
+    "title": "Public Speaking",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-8-2-3",
+    "unitId": "unit-ela-8-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Using Evidence When You Speak",
+    "gradeLevel": "8",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you supported an essay claim with Claim-Evidence-Reasoning in writing. Today: the same skill, spoken aloud!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A speech is more convincing when a main point is backed by real evidence, just like a written paragraph — but spoken evidence needs to be brief and memorable, since a listener can't pause and reread a long statistic like a reader could. Pick one of the two main points from your Day 1 outline, and write one short, specific piece of evidence (a fact, example, or brief statistic) to support it in speech."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just added real evidence to your speech! Tomorrow you'll practice and deliver the whole thing."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-8-2-3",
+    "lessonId": "lesson-ela-8-2-3",
+    "objectives": [
+      "Understand why spoken evidence must be brief and memorable",
+      "Write one short piece of evidence supporting a main point from the child's own outline"
+    ],
+    "materialsNeeded": ["Day 1 worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Claim-Evidence-Reasoning essay skill briefly.\n2. Explain why spoken evidence needs to be shorter/simpler than written evidence.\n3. Have the child write one piece of evidence for one of their Day 1 main points.\n4. Complete the worksheet.\n5. Preview tomorrow's full speech delivery.",
+    "differentiationTips": [
+      "Struggling: offer a concrete example first (e.g. 'I know a lot about basketball because I've played for 5 years') as a model to adapt",
+      "Ready for more: ask the child to write evidence for both main points, not just one",
+      "Deliberately connects back to last week's written CER skill, showing the child the same reasoning transfers across writing and speaking"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the evidence is specific and genuinely brief enough to say aloud in one sentence.",
+    "standardsRationale": "Directly addresses Common Core Grade 8 Speaking and Listening standard SL.8.4: presenting claims with relevant evidence, sound reasoning, and well-chosen details."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-8-2-3",
+    "lessonId": "lesson-ela-8-2-3",
+    "title": "Using Evidence When You Speak",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Add spoken evidence to one of your main points.",
+      "prompts": [
+        { "prompt": "Which main point are you supporting?", "lines": 1 },
+        { "prompt": "Your brief, spoken evidence:", "lines": 2 }
+      ]
+    }
+  }
+}

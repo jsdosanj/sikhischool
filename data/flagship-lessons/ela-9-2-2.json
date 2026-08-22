@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-9-2",
+    "courseId": "course-ela-9",
+    "order": 2,
+    "title": "Introduction to Drama Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-9-2-2",
+    "unitId": "unit-ela-9-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Character Through Dialogue",
+    "gradeLevel": "9",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned drama has no narrator. Today: how character comes through dialogue alone!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read this short scene: MAYA: (checking her watch again) It's fine. We have plenty of time. TOMAS: You've checked that watch four times in two minutes. MAYA: Have I? I hadn't noticed. Even though MAYA claims everything is 'fine,' her repeated watch-checking (shown in the stage direction and confirmed by TOMAS's line) reveals she's actually anxious — the dialogue and stage direction contradict what she says. Explain what this contradiction between MAYA's words and her actions reveals about her character."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just analyzed character through dialogue and action! Tomorrow we'll learn about dramatic irony."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-9-2-2",
+    "lessonId": "lesson-ela-9-2-2",
+    "objectives": [
+      "Identify how a character's actions can contradict their stated words in a scene",
+      "Explain what such a contradiction reveals about a character's true state"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's dialogue/stage-directions work briefly.\n2. Read the MAYA/TOMAS scene together and model the contradiction analysis.\n3. Have the child explain what it reveals about MAYA's character.\n4. Complete the worksheet.\n5. Preview tomorrow's dramatic-irony lesson.",
+    "differentiationTips": [
+      "Struggling: ask a simple guiding question first — 'does MAYA's watch-checking match what she says?' — before asking for the fuller character analysis",
+      "Ready for more: ask the child to write one additional line of dialogue for TOMAS that would make MAYA's anxiety even more obvious without stating it directly",
+      "This is a genuinely core dramatic-analysis skill — inferring truth from the gap between what a character says and does"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The contradiction reveals that MAYA is actually anxious or nervous about time, even though she claims things are 'fine' — her repeated watch-checking and denial ('I hadn't noticed') show she isn't being fully honest with herself or TOMAS about how she feels.",
+    "standardsRationale": "Directly addresses Common Core Grade 9-10 RL.9-10.3: analyzing how complex characters develop through dialogue and action, continuing this week's drama-analysis thread."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-9-2-2",
+    "lessonId": "lesson-ela-9-2-2",
+    "title": "Character Through Dialogue",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about the MAYA/TOMAS scene.",
+      "prompts": [
+        { "prompt": "What does MAYA's watch-checking contradict about what she says?", "lines": 2 },
+        { "prompt": "What does this contradiction reveal about her character?", "lines": 2 }
+      ]
+    }
+  }
+}

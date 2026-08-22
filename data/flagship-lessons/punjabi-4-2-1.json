@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-punjabi-4-2",
+    "courseId": "course-punjabi-4",
+    "order": 2,
+    "title": "A Cultural Story: The Farmer and His Sons",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-4-2-1",
+    "unitId": "unit-punjabi-4-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "New Vocabulary: Farming Words",
+    "gradeLevel": "4",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਪਿਛਲੇ ਹਫ਼ਤੇ ਤੁਸੀਂ ਆਪਣੇ ਪਰਿਵਾਰ ਬਾਰੇ ਲਿਖਿਆ। ਇਸ ਹਫ਼ਤੇ ਇੱਕ ਪੁਰਾਣੀ ਕਹਾਣੀ ਪੜ੍ਹੋ! (Last week you wrote about your family. This week, read an old cultural story!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "This week's story is about a farmer. Learn 5 new words you'll need: ਕਿਸਾਨ (farmer), ਖੇਤ (field), ਪੁੱਤਰ (son), ਖ਼ਜ਼ਾਨਾ (treasure), and ਮਿਹਨਤ (hard work). Practice using ਕਿਸਾਨ and ਖੇਤ in one sentence of your own: describe a farmer working in a field."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਨਵੇਂ ਸ਼ਬਦ ਸਿੱਖੇ! (You just learned new words!) Tomorrow we'll read the real story using them."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-4-2-1",
+    "lessonId": "lesson-punjabi-4-2-1",
+    "objectives": [
+      "Learn 5 new vocabulary words needed for this week's cultural story: ਕਿਸਾਨ/ਖੇਤ/ਪੁੱਤਰ/ਖ਼ਜ਼ਾਨਾ/ਮਿਹਨਤ",
+      "Use ਕਿਸਾਨ and ਖੇਤ correctly in an original sentence"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's family-vocabulary paragraph briefly.\n2. Introduce this week's 5 new words.\n3. Have the child build a sentence using ਕਿਸਾਨ and ਖੇਤ.\n4. Complete the worksheet.\n5. Preview tomorrow's story, which uses this week's full vocabulary.",
+    "differentiationTips": [
+      "Struggling: focus on just ਕਿਸਾਨ and ਖੇਤ first, since they're the story's two most central words",
+      "Ready for more: ask the child to predict what the story might be about, based only on this week's 5 vocabulary words",
+      "This lesson directly sets up the course's 'cultural stories' description, previewing vocabulary before the story itself"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary-acquisition activity — check that the child correctly traces/writes all 5 new words and builds a real sentence using ਕਿਸਾਨ and ਖੇਤ together.",
+    "standardsRationale": "Directly addresses the course's 'vocabulary expansion' and 'cultural stories' goals together, pre-teaching key vocabulary before this week's real story."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-4-2-1",
+    "lessonId": "lesson-punjabi-4-2-1",
+    "title": "New Vocabulary: Farming Words",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, then copy it once on your own.",
+      "rows": [
+        { "trace": "ਕਿਸਾਨ", "label": "farmer" },
+        { "trace": "ਖੇਤ", "label": "field" },
+        { "trace": "ਪੁੱਤਰ", "label": "son" },
+        { "trace": "ਖ਼ਜ਼ਾਨਾ", "label": "treasure" },
+        { "trace": "ਮਿਹਨਤ", "label": "hard work" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-ela-5-1",
+    "courseId": "course-ela-5",
+    "order": 1,
+    "title": "Persuasive Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-5-1-4",
+    "unitId": "unit-ela-5-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Persuasive Language and Structure",
+    "gradeLevel": "5",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have all the pieces of a strong persuasive argument. Today, the language and organization that ties it all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Linking words help your reasons flow logically: 'Furthermore,' 'In addition,' 'Most importantly,' and 'Consequently' all signal how one idea connects to the next. A persuasive piece is organized in a clear order: introduce your claim, give your strongest reasons with evidence, address a counterargument, then conclude by restating your position with new energy. Take everything you've written this week — your claim, reasons, evidence, and counterargument response — and arrange them in this order, adding at least two linking words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just organized your entire persuasive argument using proper structure and linking words. Tomorrow you'll write the complete, finished piece."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-5-1-4",
+    "lessonId": "lesson-ela-5-1-4",
+    "objectives": [
+      "Use linking words to connect reasons logically (furthermore, in addition, most importantly, consequently)",
+      "Organize a persuasive piece in the correct order: claim, reasons/evidence, counterargument, conclusion"
+    ],
+    "materialsNeeded": ["All of this week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review all the pieces built so far this week.\n2. Introduce the 4 linking words and the correct organizational order.\n3. Have the child arrange their own pieces in order, inserting at least 2 linking words.\n4. Complete the worksheet.\n5. Preview tomorrow: writing the complete, finished persuasive piece.",
+    "differentiationTips": [
+      "Struggling: provide the organizational order as a numbered outline template to fill in rather than starting from a blank page",
+      "Ready for more: challenge them to use a different linking word than the 4 given, if they know one",
+      "This lesson is mostly reorganization of existing work, not new content creation — reassure the child that the hard thinking is already done"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's own persuasive piece — check that the order follows claim → reasons/evidence → counterargument/response → conclusion, and that at least 2 linking words are used correctly.",
+    "standardsRationale": "Addresses Common Core Grade 5 Writing standard W.5.1c (link opinion and reasons using words and phrases), the organizational skill that ties together the whole week's argument-building work."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-5-1-4",
+    "lessonId": "lesson-ela-5-1-4",
+    "title": "Organizing Your Argument",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "List your pieces in order: claim, reason 1 + evidence, reason 2 + evidence, counterargument + response. Use at least 2 linking words.",
+      "prompts": [
+        { "prompt": "My organized outline:", "lines": 8 }
+      ]
+    }
+  }
+}

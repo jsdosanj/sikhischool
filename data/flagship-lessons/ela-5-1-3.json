@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-5-1",
+    "courseId": "course-ela-5",
+    "order": 1,
+    "title": "Persuasive Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-5-1-3",
+    "unitId": "unit-ela-5-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Addressing the Other Side",
+    "gradeLevel": "5",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "The strongest persuasive writers don't ignore the other side of an argument — they address it directly. Today, a genuinely advanced skill: the counterargument."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A counterargument is a reason someone might disagree with your claim. Acknowledging it — and then explaining why your position is still stronger — makes your argument more convincing, not weaker. For the homework claim, a counterargument might be: 'Some people think more homework helps students learn more.' You could respond: 'But research shows that after a certain amount, extra homework doesn't improve learning — it just adds stress.' Think of one counterargument to your own claim, and write a response to it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just addressed the other side of your argument — a genuinely advanced persuasive writing skill. Tomorrow we'll learn how to organize everything with strong language and structure."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-5-1-3",
+    "lessonId": "lesson-ela-5-1-3",
+    "objectives": [
+      "Define a counterargument as a reason someone might disagree with a claim",
+      "Write one counterargument to their own claim and a response explaining why their position still stands"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the claim/reasons/evidence built so far.\n2. Introduce the counterargument concept using the homework example.\n3. Explicitly reassure the child that acknowledging the other side makes an argument STRONGER, not weaker — a genuine mindset shift worth discussing.\n4. Have them write one counterargument and response for their own claim.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: persuasive language and structure.",
+    "differentiationTips": [
+      "Struggling: provide the counterargument for them and have them focus only on writing a response to it",
+      "Ready for more: ask them to think of a SECOND counterargument and respond to that one too",
+      "This is genuinely one of the hardest skills in persuasive writing at this age — go slowly and use plenty of real examples"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's own claim — check that the counterargument is a genuine, fair representation of the opposing view (not a strawman) and that the response explains why the original claim still holds.",
+    "standardsRationale": "A meaningful extension beyond the core Common Core W.5.1 standard, introducing counterargument-and-response reasoning that prepares students for the more rigorous argumentative writing expected in middle school."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-5-1-3",
+    "lessonId": "lesson-ela-5-1-3",
+    "title": "Addressing the Other Side",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write one counterargument to your claim, then a response explaining why your position still stands.",
+      "prompts": [
+        { "prompt": "A counterargument to my claim:", "lines": 2 },
+        { "prompt": "My response:", "lines": 3 }
+      ]
+    }
+  }
+}

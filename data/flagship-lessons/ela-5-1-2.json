@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-5-1",
+    "courseId": "course-ela-5",
+    "order": 1,
+    "title": "Persuasive Writing",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-5-1-2",
+    "unitId": "unit-ela-5-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Supporting Your Claim with Reasons and Evidence",
+    "gradeLevel": "5",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you wrote a claim. But a claim alone doesn't convince anyone — today, the reasons and evidence that actually do the convincing."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A reason explains WHY your claim is true. Evidence is a fact, example, or detail that PROVES the reason. For the claim 'Schools should limit homework to 30 minutes,' a reason might be: 'Students need time for family activities.' Evidence to back it up: 'A study found students with less homework reported more family time and less stress.' Notice the evidence is specific and concrete, not just a repeat of the reason in different words. Write two reasons for your claim from yesterday, and one piece of evidence for each."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a claim, two reasons, and real evidence — the real substance of a persuasive argument. Tomorrow we'll learn a more advanced skill: addressing the other side of the argument."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-5-1-2",
+    "lessonId": "lesson-ela-5-1-2",
+    "objectives": [
+      "Distinguish a reason (why the claim is true) from evidence (a fact/example that proves the reason)",
+      "Write 2 reasons for a claim, each supported by specific evidence"
+    ],
+    "materialsNeeded": ["Yesterday's claim worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's claim.\n2. Introduce reason vs. evidence using the homework example, emphasizing evidence must be specific/concrete.\n3. Brainstorm 2 reasons for the child's own claim.\n4. Have them add one piece of evidence per reason.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: addressing the other side.",
+    "differentiationTips": [
+      "Struggling: accept a strong, specific example as 'evidence' even without a formal study or statistic — real-life examples are valid evidence at this level",
+      "Ready for more: ask them to rank their two reasons by which is more convincing, and explain why",
+      "It's fine if evidence is drawn from personal experience or observation, not just research — the key skill is specificity, not sourcing rigor"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Answers will vary based on the child's own claim — check that each reason clearly connects to the claim, and each piece of evidence is a specific, concrete detail rather than a vague restatement.",
+    "standardsRationale": "Addresses Common Core Grade 5 Writing standard W.5.1b (provide logically ordered reasons supported by facts and details), a meaningfully more rigorous skill than Grade 3's simpler 'supporting reasons' standard."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-5-1-2",
+    "lessonId": "lesson-ela-5-1-2",
+    "title": "Reasons and Evidence",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write 2 reasons for your claim, each with one piece of specific evidence.",
+      "prompts": [
+        { "prompt": "Reason 1:", "lines": 2 },
+        { "prompt": "Evidence for reason 1:", "lines": 2 },
+        { "prompt": "Reason 2:", "lines": 2 },
+        { "prompt": "Evidence for reason 2:", "lines": 2 }
+      ]
+    }
+  }
+}

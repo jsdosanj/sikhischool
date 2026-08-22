@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-10-2",
+    "courseId": "course-math-10",
+    "order": 2,
+    "title": "Similarity and Proportional Reasoning",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-10-2-1",
+    "unitId": "unit-math-10-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Makes Two Figures Similar",
+    "gradeLevel": "10",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you mastered congruence and proof. This week: similarity, a related but genuinely different relationship!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Two figures are similar if they have the exact same shape but not necessarily the same size: all corresponding angles are equal, and all corresponding sides are in the same proportion (the same scale factor). This is different from congruence, which requires figures to be exactly identical in both shape AND size. Given two similar triangles where one triangle's sides are 3, 4, 5 and the corresponding sides of the second triangle are 6, 8, 10, find the scale factor between them."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned what makes two figures similar, and how it's different from congruence! Tomorrow we'll learn the AA rule for proving triangles similar."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-10-2-1",
+    "lessonId": "lesson-math-10-2-1",
+    "objectives": [
+      "Define similarity as equal angles and proportional sides, distinct from congruence",
+      "Correctly find the scale factor between two similar triangles (3,4,5 and 6,8,10)"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's congruence-and-proof work briefly.\n2. Introduce similarity and contrast it directly with congruence.\n3. Have the child find the scale factor between the two triangles.\n4. Complete the worksheet.\n5. Preview tomorrow's AA similarity lesson.",
+    "differentiationTips": [
+      "Struggling: have the child divide each pair of corresponding sides (6/3, 8/4, 10/5) separately first to see they all give the same number",
+      "Ready for more: ask the child what the scale factor would be if you compared the SECOND triangle to the FIRST instead (the reciprocal)",
+      "Opens this week's similarity thread from the course's own description, deliberately following congruence for natural geometric progression"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The scale factor is 2 (6/3 = 8/4 = 10/5 = 2) — every side of the second triangle is twice as long as the corresponding side of the first.",
+    "standardsRationale": "Directly addresses Common Core Geometry standard G-SRT.2: defining similarity in terms of equal angles and proportional sides, opening this week's thread from the course's own description."
+  },
+  "worksheet": {
+    "id": "worksheet-math-10-2-1",
+    "lessonId": "lesson-math-10-2-1",
+    "title": "What Makes Two Figures Similar",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about similarity.",
+      "rows": [
+        { "problem": "Define similarity in your own words." },
+        { "problem": "Triangle A has sides 3, 4, 5. Triangle B has sides 6, 8, 10. Find the scale factor." },
+        { "problem": "Triangle C has sides 2, 3, 4. Triangle D has sides 6, 9, 12. Find the scale factor." }
+      ]
+    }
+  }
+}

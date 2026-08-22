@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-11-1",
+    "courseId": "course-ela-11",
+    "order": 1,
+    "title": "The Research Process",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-11-1-3",
+    "unitId": "unit-ela-11-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Paraphrasing, Quoting, and Avoiding Plagiarism",
+    "gradeLevel": "11",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've found credible sources. Today: how to actually use their information honestly in your own writing."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "There are two honest ways to use a source's information: quoting (copying the exact original wording, in quotation marks, when the original phrasing itself matters) and paraphrasing (restating the idea completely in your own words and sentence structure, not just swapping a few synonyms). Plagiarism happens when someone presents another person's words or ideas as their own, whether by copying without quotation marks or by 'paraphrasing' too closely to the original wording. Every quote or paraphrase also needs a citation crediting the original source — using someone's idea honestly still requires giving them credit. Take one sentence from your Day 2 source and write both a proper quote (with quotation marks) and a proper paraphrase (fully in your own words) of the same idea."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Using sources honestly — through real quoting and real paraphrasing, always credited — is what separates genuine research writing from copying. Tomorrow we'll learn the specific citation format to credit your sources correctly."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-11-1-3",
+    "lessonId": "lesson-ela-11-1-3",
+    "objectives": [
+      "Distinguish quoting from paraphrasing as two honest ways to use source information",
+      "Write a genuine paraphrase (not a close synonym-swap) and explain why every use of a source requires a citation"
+    ],
+    "materialsNeeded": ["Day 2's source worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Day 2's source.\n2. Introduce quoting vs. paraphrasing and define plagiarism clearly.\n3. Model paraphrasing a sentence together, checking it doesn't just swap a few words.\n4. Have the child write their own quote and paraphrase from their Day 2 source.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: citation format.",
+    "differentiationTips": [
+      "Struggling: have the child first explain the source sentence's idea OUT LOUD in their own words before writing it down — this naturally avoids close synonym-swapping",
+      "Ready for more: ask them to explain why 'paraphrasing' by only changing a few words is still considered plagiarism even without direct copying",
+      "This lesson has real academic-integrity stakes — take the time to make the plagiarism definition genuinely clear, not just a quick mention"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Quoting copies exact original wording in quotation marks; paraphrasing restates the idea fully in the writer's own words and sentence structure. 2. Plagiarism includes both copying without quotation marks AND paraphrasing too closely to the original wording. 3. Every quote or paraphrase needs a citation because using someone's words or ideas still requires giving them credit, even when restated.",
+    "standardsRationale": "Directly addresses Common Core Writing standard W.11-12.8: integrating information into the text selectively to maintain the flow of ideas, avoiding plagiarism and following a standard format for citation."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-11-1-3",
+    "lessonId": "lesson-ela-11-1-3",
+    "title": "Paraphrasing, Quoting, and Avoiding Plagiarism",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Using one sentence from your Day 2 source, write both a quote and a paraphrase.",
+      "prompts": [
+        { "prompt": "A direct quote (with quotation marks) from your source:", "lines": 2 },
+        { "prompt": "A full paraphrase of the same idea, in your own words:", "lines": 2 },
+        { "prompt": "Why does even a paraphrase still need a citation?", "lines": 2 }
+      ]
+    }
+  }
+}

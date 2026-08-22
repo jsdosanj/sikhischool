@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-11-1",
+    "courseId": "course-ela-11",
+    "order": 1,
+    "title": "The Research Process",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-11-1-4",
+    "unitId": "unit-ela-11-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Citing Sources: In-Text Citations and a Works Cited Entry",
+    "gradeLevel": "11",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know quoting and paraphrasing need a citation. Today: the actual format college-level writing uses to do it."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "MLA style (one common college-prep citation format) uses two connected parts. An in-text citation appears right where you use the source, in parentheses, usually with the author's last name and a page number: (Smith 42). A Works Cited entry appears in a full list at the end of your paper, giving complete source details in a standard order: Author Last Name, First Name. \"Title of Source.\" Container Title, Publisher, Year. These two parts work together — the in-text citation is a quick pointer, and the Works Cited entry gives the full information a reader would need to find that exact source themselves. Using your Day 2 source, write both a correct in-text citation and a correct Works Cited entry for it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have every piece needed to use sources honestly and correctly: a strong question, credible sources, honest paraphrasing, and proper citation. Tomorrow we'll review the whole process together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-11-1-4",
+    "lessonId": "lesson-ela-11-1-4",
+    "objectives": [
+      "Write a correct MLA in-text citation",
+      "Write a correct MLA Works Cited entry with all required elements in order"
+    ],
+    "materialsNeeded": ["Day 2's source worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Day 3's quoting/paraphrasing and why citations matter.\n2. Introduce MLA in-text citation and Works Cited entry format together, showing how they connect.\n3. Model writing both for one example source.\n4. Have the child write both for their own Day 2 source.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: provide a fill-in-the-blank Works Cited template (Author Last, First. \"Title.\" Container, Publisher, Year.) rather than requiring the format memorized from scratch",
+      "Ready for more: ask them to write an in-text citation and Works Cited entry for a source type WITHOUT a clear individual author (e.g. an organization's website)",
+      "This is genuinely a mechanical, format-following skill — precision matters more than creativity here, which is a different mode than most ELA lessons"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. An in-text citation is a short, parenthetical pointer (Author page#) placed where the source is used. 2. A Works Cited entry gives full source details (Author, Title, Container, Publisher, Year) at the end of the paper. 3. The two work together: the in-text citation points to the full entry, and the entry gives enough detail for a reader to find the source themselves.",
+    "standardsRationale": "Directly addresses Common Core Writing standard W.11-12.8: following a standard format for citation, completing the research-process foundation this unit builds toward a full research paper."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-11-1-4",
+    "lessonId": "lesson-ela-11-1-4",
+    "title": "Citing Sources: In-Text Citations and a Works Cited Entry",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Using your Day 2 source, write both citation forms.",
+      "prompts": [
+        { "prompt": "In-text citation:", "lines": 1 },
+        { "prompt": "Works Cited entry:", "lines": 2 },
+        { "prompt": "How do these two parts work together?", "lines": 2 }
+      ]
+    }
+  }
+}

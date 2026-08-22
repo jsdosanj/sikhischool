@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-11-1",
+    "courseId": "course-ela-11",
+    "order": 1,
+    "title": "The Research Process",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-ela-11-1-1",
+    "unitId": "unit-ela-11-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Developing a Strong Research Question",
+    "gradeLevel": "11",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Grade 11 ELA. This year builds toward college-level research and writing — and every strong research project starts with one thing: a genuinely good question."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong research question is focused (narrow enough to actually answer in the space you have), open (not answerable with a simple yes/no or single fact), and genuinely researchable (real sources exist to investigate it). Compare: 'What is climate change?' (too broad — an entire field, not a question), 'Did it rain in Seattle in 2020?' (too narrow — a single fact, not real research), versus 'How have Pacific Northwest cities adapted their infrastructure in response to changing rainfall patterns?' (focused, open, and researchable). Take a broad topic you're genuinely curious about and narrow it into one focused, open, researchable question."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "A strong research question shapes everything that follows — the sources you'll look for, the argument you'll build, even how you'll organize your final paper. Tomorrow we'll look at how to evaluate whether a source is actually trustworthy enough to use."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-11-1-1",
+    "lessonId": "lesson-ela-11-1-1",
+    "objectives": [
+      "Identify the three qualities of a strong research question: focused, open, researchable",
+      "Narrow a broad topic into one focused, open, researchable question"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the three qualities of a strong research question with the climate-change/Seattle-rain/PNW-infrastructure examples.\n2. Discuss why 'too broad' and 'too narrow' both fail, just in different ways.\n3. Have the child pick a genuine topic of interest and narrow it into a research question.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: evaluating source credibility.",
+    "differentiationTips": [
+      "Struggling: provide 3-4 broad topics (space exploration, video games, a sport) to choose from rather than requiring the child to generate one from nothing",
+      "Ready for more: ask them to write two DIFFERENT focused questions from the same broad topic, exploring different angles",
+      "This is the first lesson of the year — a good moment to frame the whole unit as building toward a real research paper, not isolated skill drills"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The three qualities are focused, open, and researchable. 2. A question that's too broad ('What is X?') can't be meaningfully answered in a limited paper; one that's too narrow (a single yes/no fact) doesn't require real research. 3. A strong question narrows a broad topic to something specific enough to investigate but open enough to require real analysis.",
+    "standardsRationale": "Directly addresses Common Core Writing standard W.11-12.7: conducting short and sustained research projects to answer a self-generated question, narrowing or broadening the inquiry as needed."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-11-1-1",
+    "lessonId": "lesson-ela-11-1-1",
+    "title": "Developing a Strong Research Question",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Narrow a broad topic into a focused, open, researchable question.",
+      "prompts": [
+        { "prompt": "A broad topic you're genuinely curious about:", "lines": 1 },
+        { "prompt": "Your narrowed research question:", "lines": 2 },
+        { "prompt": "Explain why your question is focused, open, AND researchable:", "lines": 3 }
+      ]
+    }
+  }
+}

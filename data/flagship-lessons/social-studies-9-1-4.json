@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-9-1",
+    "courseId": "course-social-studies-9",
+    "order": 1,
+    "title": "Foundations of World Geography",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-9-1-4",
+    "unitId": "unit-social-studies-9-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Maps: Representing a Round Earth on a Flat Page",
+    "gradeLevel": "9",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every flat map of the world you've ever seen has a built-in problem: Earth is a sphere, and there's no way to flatten a sphere onto a page without distorting something."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A map projection is a method for representing the curved Earth on a flat surface — every projection makes a trade-off, distorting either size, shape, distance, or direction. The Mercator projection, one of the most common in classrooms and online maps, keeps shapes and directions accurate but significantly distorts size near the poles — it makes Greenland look similar in size to Africa, when Africa is actually about 14 times larger. This isn't a mistake; it's an unavoidable trade-off of that particular projection, useful for navigation but misleading for comparing country sizes. Look at a Mercator world map and identify one more region that looks larger than its real relative size."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just critically evaluated a map projection most people never question. Tomorrow we'll review everything about world geography from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-9-1-4",
+    "lessonId": "lesson-social-studies-9-1-4",
+    "objectives": [
+      "Explain that every map projection makes a trade-off distorting some property of the real Earth",
+      "Identify the Mercator projection's specific size-distortion issue near the poles"
+    ],
+    "materialsNeeded": ["A Mercator-projection world map (printed or online)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's geography content so far.\n2. Introduce map projections and the fundamental sphere-to-flat-page problem.\n3. Show a Mercator map and point out the Greenland-vs-Africa distortion.\n4. Have the child find one more distorted region.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just the Greenland-vs-Africa example as the single clearest illustration",
+      "Ready for more: research one alternative projection (like the Peters projection) designed to fix the Mercator's size distortion, and what trade-off IT makes instead",
+      "This is a genuinely eye-opening lesson for most students — most people have never questioned the maps they grew up seeing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A map projection represents the curved Earth on a flat surface, always distorting something. 2. The Mercator projection distorts size, especially near the poles. 3. Greenland appears similar in size to Africa on a Mercator map, though Africa is about 14 times larger.",
+    "standardsRationale": "Addresses the C3 Framework Geography dimension's geographic-tools standard with a genuine critical-thinking exercise — evaluating the reliability and limitations of a commonly used geographic representation."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-9-1-4",
+    "lessonId": "lesson-social-studies-9-1-4",
+    "title": "Maps: Representing a Round Earth on a Flat Page",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about map projections.",
+      "rows": [
+        { "problem": "What is a map projection?" },
+        { "problem": "What does the Mercator projection distort?" },
+        { "problem": "How much larger is Africa than it appears compared to Greenland on a Mercator map?" }
+      ]
+    }
+  }
+}

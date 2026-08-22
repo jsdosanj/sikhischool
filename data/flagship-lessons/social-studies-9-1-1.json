@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-9-1",
+    "courseId": "course-social-studies-9",
+    "order": 1,
+    "title": "Foundations of World Geography",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-9-1-1",
+    "unitId": "unit-social-studies-9-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The Five Themes of Geography",
+    "gradeLevel": "9",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Geography is more than memorizing countries and capitals — it's a real analytical framework for understanding how people and places relate. We begin with the five core themes geographers use."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The five themes of geography, a standard framework used in geography education: Location (where something is, either exact coordinates or relative to other places), Place (the physical and human characteristics that make a location unique), Human-Environment Interaction (how people affect and adapt to their surroundings), Movement (how people, goods, and ideas travel between places), and Region (an area defined by shared characteristics). Apply all five themes to your own town or city: state its location, describe what makes it a unique place, name one way people there interact with the environment, one way things move in or out, and what region it belongs to."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just applied a real geographic framework to your own community. Tomorrow we'll use this framework to explore physical geography: landforms and climate."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-9-1-1",
+    "lessonId": "lesson-social-studies-9-1-1",
+    "objectives": [
+      "Define the five themes of geography: Location, Place, Human-Environment Interaction, Movement, Region",
+      "Apply all five themes to their own community"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce geography as an analytical discipline, not just memorization.\n2. Walk through each of the five themes with a clear definition and example.\n3. Apply all five themes to the child's own town/city together.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: physical geography.",
+    "differentiationTips": [
+      "Struggling: focus on just 3 of the 5 themes (Location, Place, Movement) as the most concrete starting point",
+      "Ready for more: ask them to apply all five themes to a place they've never visited but know something about",
+      "This five-themes framework is a standard, widely-used geography-education tool — it will be reused across this whole course"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The five themes are Location, Place, Human-Environment Interaction, Movement, and Region. 2. Answers will vary for the child's own community application.",
+    "standardsRationale": "Establishes the C3 Framework Geography dimension's foundational analytical framework, matching the course's own 'world geography' description as the starting lens for the rest of the course."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-9-1-1",
+    "lessonId": "lesson-social-studies-9-1-1",
+    "title": "The Five Themes of Geography",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the five themes of geography.",
+      "rows": [
+        { "problem": "List the five themes of geography." },
+        { "problem": "What does 'Human-Environment Interaction' mean?" },
+        { "problem": "What does 'Movement' mean in this framework?" }
+      ]
+    }
+  }
+}

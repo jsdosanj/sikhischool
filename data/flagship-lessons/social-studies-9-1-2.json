@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-9-1",
+    "courseId": "course-social-studies-9",
+    "order": 1,
+    "title": "Foundations of World Geography",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-social-studies-9-1-2",
+    "unitId": "unit-social-studies-9-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Physical Geography: Landforms and Climate",
+    "gradeLevel": "9",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday's 'Place' theme included physical characteristics. Today, a closer look at the two biggest physical factors shaping any place: landforms and climate."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Major landform types include mountains, plains, plateaus, and valleys, each shaping how people can use the land. Climate zones — broad patterns of temperature and precipitation — range from tropical (hot, often wet, near the equator) to polar (cold year-round, near the poles), with temperate, arid (dry), and other zones in between. Climate is strongly influenced by latitude (distance from the equator) but also by elevation, nearby oceans, and wind patterns. Identify the landform type and general climate zone of the region you live in, and explain how each has shaped how people live there."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected physical geography to real human impact in your own region. Tomorrow we'll look at human geography: where and why people settle."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-9-1-2",
+    "lessonId": "lesson-social-studies-9-1-2",
+    "objectives": [
+      "Identify major landform types: mountains, plains, plateaus, valleys",
+      "Explain how latitude and other factors shape climate zones"
+    ],
+    "materialsNeeded": ["A world map (printed or online)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's five themes, focusing on 'Place.'\n2. Introduce landform types and climate zones, locating examples on a map.\n3. Have the child identify their own region's landform and climate.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: human geography.",
+    "differentiationTips": [
+      "Struggling: focus on just 2 landform types (mountains, plains) and 2 climate zones (tropical, polar) as clear opposites",
+      "Ready for more: ask them to explain why coastal cities often have milder climates than inland cities at the same latitude",
+      "Using the child's own real region as the primary example makes this content immediately concrete rather than abstract"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Major landform types include mountains, plains, plateaus, and valleys. 2. Climate zones range from tropical (near the equator) to polar (near the poles). 3. Answers will vary for the child's own region.",
+    "standardsRationale": "Addresses the C3 Framework Geography dimension's physical-geography content, extending Day 1's 'Place' theme with real landform and climate vocabulary."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-9-1-2",
+    "lessonId": "lesson-social-studies-9-1-2",
+    "title": "Physical Geography: Landforms and Climate",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about physical geography.",
+      "rows": [
+        { "problem": "Name three major landform types." },
+        { "problem": "What is climate strongly influenced by?" },
+        { "problem": "What landform and climate zone describes your own region?" }
+      ]
+    }
+  }
+}

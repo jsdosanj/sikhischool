@@ -1,8 +1,10 @@
 import { redirect } from "next/navigation";
 import { getOrCreateCurrentTeacher } from "@/lib/session";
 import { getClassroomsForTeacher, getRoster, getAnnouncementsForClassroom } from "@/lib/classrooms";
+import { getQuizProgressForChildren } from "@/lib/grade-overrides";
 import CreateClassroomForm from "./CreateClassroomForm";
 import AnnouncementForm from "./AnnouncementForm";
+import GradeOverrideForm from "./GradeOverrideForm";
 
 export const dynamic = "force-dynamic";
 
@@ -15,6 +17,9 @@ export default async function TeacherDashboardPage() {
     Promise.all(classrooms.map((c) => getRoster(c.id))),
     Promise.all(classrooms.map((c) => getAnnouncementsForClassroom(c.id))),
   ]);
+  const quizProgress = await Promise.all(
+    rosters.map((roster) => getQuizProgressForChildren(roster.map((s) => s.id))),
+  );
 
   return (
     <main className="mx-auto max-w-2xl flex-1 p-8">
@@ -44,19 +49,44 @@ export default async function TeacherDashboardPage() {
                     No students enrolled yet — share the join code above.
                   </p>
                 ) : (
-                  <ul className="mt-2 flex flex-col gap-1 text-[var(--foreground)]/80">
-                    {rosters[i].map((student) => (
-                      <li key={student.id} className="flex flex-wrap items-baseline justify-between gap-x-3">
-                        <span>
-                          {student.displayName} &middot;{" "}
-                          {student.gradeLevel === "K" ? "Kindergarten" : `Grade ${student.gradeLevel}`}
-                        </span>
-                        <span className="text-xs text-[var(--foreground)]/60">
-                          {student.lessonsPassed} lesson{student.lessonsPassed === 1 ? "" : "s"} passed &middot;{" "}
-                          {student.badgesEarned} badge{student.badgesEarned === 1 ? "" : "s"}
-                        </span>
-                      </li>
-                    ))}
+                  <ul className="mt-2 flex flex-col gap-2 text-[var(--foreground)]/80">
+                    {rosters[i].map((student) => {
+                      const studentQuizzes = quizProgress[i].filter((q) => q.childProfileId === student.id);
+                      return (
+                        <li key={student.id}>
+                          <div className="flex flex-wrap items-baseline justify-between gap-x-3">
+                            <span>
+                              {student.displayName} &middot;{" "}
+                              {student.gradeLevel === "K" ? "Kindergarten" : `Grade ${student.gradeLevel}`}
+                            </span>
+                            <span className="text-xs text-[var(--foreground)]/60">
+                              {student.lessonsPassed} lesson{student.lessonsPassed === 1 ? "" : "s"} passed &middot;{" "}
+                              {student.badgesEarned} badge{student.badgesEarned === 1 ? "" : "s"}
+                            </span>
+                          </div>
+                          {studentQuizzes.length > 0 && (
+                            <ul className="mt-1 flex flex-col gap-1 pl-3 text-xs text-[var(--foreground)]/70">
+                              {studentQuizzes.map((q) => (
+                                <li key={q.nodeId} className="flex flex-wrap items-center justify-between gap-2">
+                                  <span>
+                                    {q.lessonTitle}: {q.overrideScore ?? q.masteryPoints}
+                                    {q.overrideScore !== null && (
+                                      <span className="text-[var(--foreground)]/40"> (auto: {q.masteryPoints})</span>
+                                    )}
+                                  </span>
+                                  <GradeOverrideForm
+                                    classroomId={classroom.id}
+                                    studentId={student.id}
+                                    nodeId={q.nodeId}
+                                    currentOverride={q.overrideScore}
+                                  />
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </li>
+                      );
+                    })}
                   </ul>
                 )}
 

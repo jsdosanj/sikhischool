@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-1-2",
+    "courseId": "course-ela-1",
+    "order": 2,
+    "title": "New Vowels, Digraphs, and Blends",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-1-2-3",
+    "unitId": "unit-ela-1-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "A Consonant Blend: 'st'",
+    "gradeLevel": "1",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned digraphs, where two letters make one new sound. Today: a blend, where two letters keep their OWN sounds but are said quickly together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "In a blend like 'st', you still hear both the /s/ and /t/ sounds — they're just blended together quickly, unlike a digraph where the two letters become one totally new sound. Practice reading these words with 'st': stop, stem, best, fast. Notice the difference from digraphs: in 'ch' and 'sh', you can't hear the individual letters anymore, but in 'st', you still can if you listen closely."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand the real difference between a digraph (one new sound) and a blend (two sounds said quickly together)! Tomorrow we'll read two new sentences using everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-1-2-3",
+    "lessonId": "lesson-ela-1-2-3",
+    "objectives": [
+      "Explain the difference between a consonant blend and a digraph",
+      "Blend and read words with 'st' in starting and ending positions"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review 'sh' and 'ch' as digraphs from this week and last.\n2. Introduce 'st' as a blend, explicitly contrasting it with a digraph — both sounds are still audible.\n3. Blend stop, stem, best, and fast together, listening for both /s/ and /t/.\n4. Move to the worksheet: read, trace, and write each word.\n5. Close by saying a digraph word and a blend word back to back, noticing the difference.",
+    "differentiationTips": [
+      "Struggling: don't worry about the digraph-vs-blend terminology yet — focus on successfully blending the four words",
+      "Ready for more: ask the child to sort this week's words (chip, much, stop, best) into 'digraph' and 'blend' categories",
+      "This digraph-vs-blend distinction is a genuinely important phonics concept, worth real time even if the terminology itself isn't mastered yet"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a reading, tracing, and writing activity — check that the child can blend all four 'st' words and can explain (in simple terms) that a blend keeps both sounds while a digraph makes one new sound.",
+    "standardsRationale": "Introduces consonant blends as a distinct phonics category from digraphs, broadening the decoding toolkit built through this week's short-vowel and digraph work."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-1-2-3",
+    "lessonId": "lesson-ela-1-2-3",
+    "title": "A Consonant Blend: 'st'",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Read each word by blending its sounds (remember: in a blend, you hear BOTH sounds), trace it, then write it once more on your own.",
+      "rows": [
+        { "trace": "stop", "label": "St is at the start" },
+        { "trace": "stem", "label": "St is at the start" },
+        { "trace": "best", "label": "St is at the end" },
+        { "trace": "fast", "label": "St is at the end" }
+      ]
+    }
+  }
+}

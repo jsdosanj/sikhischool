@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-1-2",
+    "courseId": "course-ela-1",
+    "order": 2,
+    "title": "New Vowels, Digraphs, and Blends",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-1-2-2",
+    "unitId": "unit-ela-1-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "A New Digraph: 'ch'",
+    "gradeLevel": "1",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You learned 'sh' makes one sound last week. Today, another digraph: 'ch'!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "When C and H sit together, they blend into one new sound: 'ch', like at the start of 'chip' or the end of 'much'. Practice reading these words with 'ch': chip, chat, much, such. Just like 'sh' last week, notice 'ch' can appear at the start (chip, chat) or the end (much, such) of a word."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know two digraphs — sh and ch! Tomorrow we'll meet something a little different: a consonant blend."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-1-2-2",
+    "lessonId": "lesson-ela-1-2-2",
+    "objectives": [
+      "Recognize that 'ch' blends into one new sound",
+      "Blend and read words with 'ch' in starting and ending positions"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review 'sh' from last week and short O from yesterday.\n2. Introduce 'ch' using the chip/much example.\n3. Blend chip, chat, much, and such together.\n4. Move to the worksheet: read, trace, and write each word.\n5. Close by comparing 'sh' and 'ch' — both are two letters making one new sound.",
+    "differentiationTips": [
+      "Struggling: focus on just the starting-position words (chip, chat) before adding the ending-position ones",
+      "Ready for more: ask the child to think of one more real word with 'ch'",
+      "Explicitly connecting back to 'sh' as the same KIND of pattern (digraph) helps generalize the skill, not just memorize one example"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a reading, tracing, and writing activity — check that the child understands 'ch' as one blended sound and can read all four words.",
+    "standardsRationale": "Directly extends last week's digraph work (sh) to a second digraph (ch), reinforcing the general digraph pattern rather than treating 'sh' as a one-off exception."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-1-2-2",
+    "lessonId": "lesson-ela-1-2-2",
+    "title": "A New Digraph: 'ch'",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Read each word by blending its sounds (remember: ch is ONE sound), trace it, then write it once more on your own.",
+      "rows": [
+        { "trace": "chip", "label": "Ch is at the start" },
+        { "trace": "chat", "label": "Ch is at the start" },
+        { "trace": "much", "label": "Ch is at the end" },
+        { "trace": "such", "label": "Ch is at the end" }
+      ]
+    }
+  }
+}

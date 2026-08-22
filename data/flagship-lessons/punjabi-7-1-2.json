@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-7-1",
+    "courseId": "course-punjabi-7",
+    "order": 1,
+    "title": "Formal Writing in Punjabi",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-7-1-2",
+    "unitId": "unit-punjabi-7-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Describing a Festival: New Vocabulary",
+    "gradeLevel": "7",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਤੁਸੀਂ ਚਿੱਠੀ ਲਿਖਣੀ ਸਿੱਖੀ। (You've learned to write a letter.) This week, you'll write a letter about something real: a Punjabi festival."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "New words for describing a festival: ਜਸ਼ਨ (jashan, celebration), ਇਕੱਠਾ (ikattha, gathered together), ਨੱਚਣਾ (nachna, to dance), and ਗਾਇਆ (gaya, sang, past tense). You already know ਤਿਉਹਾਰ (festival) and ਖੁਸ਼ੀ (happiness) from earlier grades. Think of a real festival you've celebrated — Vaisakhi or another — and write 2-3 sentences describing it using at least two of today's new words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have real vocabulary for describing a festival in Punjabi. Tomorrow we'll learn vocabulary for describing the food that's part of these celebrations."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-7-1-2",
+    "lessonId": "lesson-punjabi-7-1-2",
+    "objectives": [
+      "Learn 4 new vocabulary words for describing a festival: ਜਸ਼ਨ, ਇਕੱਠਾ, ਨੱਚਣਾ, ਗਾਇਆ",
+      "Write 2-3 sentences describing a real festival using the new vocabulary"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's letter-writing structure.\n2. Introduce today's 4 new words, reviewing ਤਿਉਹਾਰ/ਖੁਸ਼ੀ from earlier grades.\n3. Have the child choose a real festival and draft 2-3 descriptive sentences.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: describing festival food.",
+    "differentiationTips": [
+      "Struggling: allow the child to use just 1 new word correctly rather than requiring 2",
+      "Ready for more: ask them to add a sentence about how the festival made them feel, using ਖੁਸ਼ੀ",
+      "All Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਜਸ਼ਨ = celebration. 2. ਇਕੱਠਾ = gathered together. 3. ਨੱਚਣਾ = to dance. 4. ਗਾਇਆ = sang.",
+    "standardsRationale": "Builds the cultural/festival vocabulary named in the course's 'cultural units — festivals' description, directly feeding into the week's culminating letter (Day 4)."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-7-1-2",
+    "lessonId": "lesson-punjabi-7-1-2",
+    "title": "Describing a Festival",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the English meaning of each Gurmukhi word.",
+      "rows": [
+        { "problem": "ਜਸ਼ਨ" },
+        { "problem": "ਇਕੱਠਾ" },
+        { "problem": "ਨੱਚਣਾ" },
+        { "problem": "ਗਾਇਆ" }
+      ]
+    }
+  }
+}

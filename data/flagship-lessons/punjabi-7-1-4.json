@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-7-1",
+    "courseId": "course-punjabi-7",
+    "order": 1,
+    "title": "Formal Writing in Punjabi",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-7-1-4",
+    "unitId": "unit-punjabi-7-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing a Complete Letter About a Festival",
+    "gradeLevel": "7",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਹੁਣ ਸਭ ਕੁਝ ਇਕੱਠਾ ਕਰਨ ਦੀ ਵਾਰੀ! (Now it's time to put it all together!) Today, write one complete, real formal letter."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Using Day 1's letter structure (ਪਿਆਰੇ greeting, ਵਿਸ਼ਾ subject, ਤੁਹਾਡਾ ਸਤਿਕਾਰ ਸਹਿਤ closing) and this week's festival and food vocabulary, write a complete letter to a family member describing a festival you celebrated: what happened (ਜਸ਼ਨ, ਇਕੱਠਾ, ਨੱਚਣਾ, ਗਾਇਆ), and what you ate (ਦਾਲ, ਚੌਲ, ਸਬਜ਼ੀ, ਮਿਠਾਈ, ਸੁਆਦੀ). Aim for at least 5-6 sentences total, following the proper greeting-subject-closing structure."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਸ਼ਾਬਾਸ਼! (Well done!) You just wrote a complete, real formal letter in Punjabi describing a festival and its food — genuine cultural composition."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-7-1-4",
+    "lessonId": "lesson-punjabi-7-1-4",
+    "objectives": [
+      "Write a complete formal letter following the greeting-subject-closing structure",
+      "Correctly use this week's festival and food vocabulary within the letter"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets for vocabulary reference", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review the Day 1 letter structure and this week's vocabulary.\n2. Help the child plan the letter's 3 parts before writing.\n3. Have the child write the complete letter, checking structure and vocabulary use.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: allow a shorter letter (3-4 sentences) as long as the greeting-subject-closing structure is present",
+      "Ready for more: challenge them to add a question to the letter's recipient, inviting a response",
+      "All Gurmukhi words/phrases used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Answers will vary — check the letter includes a proper greeting, a clear subject describing the festival and food, correct use of at least 3-4 of this week's new vocabulary words, and the proper closing.",
+    "standardsRationale": "Synthesizes the course's 'letter writing' and 'cultural units — festivals, cuisine' descriptions into one complete, authentic piece of formal writing, the genuine culmination this week's vocabulary was built toward."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-7-1-4",
+    "lessonId": "lesson-punjabi-7-1-4",
+    "title": "My Festival Letter",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a complete formal letter to a family member describing a festival and its food, using proper greeting-subject-closing structure.",
+      "prompts": [
+        { "prompt": "My complete letter:", "lines": 8 }
+      ]
+    }
+  }
+}

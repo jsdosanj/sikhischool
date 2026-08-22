@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-6-1",
+    "courseId": "course-punjabi-6",
+    "order": 1,
+    "title": "Common Punjabi Idioms",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-6-1-5",
+    "unitId": "unit-punjabi-6-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Common Punjabi Idioms",
+    "gradeLevel": "6",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਤਿੰਨ ਮੁਹਾਵਰੇ ਸਿੱਖੇ! (This week you learned three idioms!) Let's review all three together, plus your own writing."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: an idiom (ਮੁਹਾਵਰਾ) means something different from its literal words (Day 1). ਅੱਗ ਵਿੱਚ ਘਿਓ ਪਾਉਣਾ means to make a bad situation worse (Day 2). ਦੁੱਧ ਦਾ ਦੁੱਧ ਪਾਣੀ ਦਾ ਪਾਣੀ means to sort out the clear truth (Day 3). ਅੱਖਾਂ ਵਿੱਚ ਘੱਟਾ ਪਾਉਣਾ means to deceive someone (Day 4). Read your own idiom-based writing from yesterday out loud, then match each idiom to its correct meaning below."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਸ਼ਾਬਾਸ਼! (Well done!) You now know three real, commonly used Punjabi idioms, understand how idioms work in general, and used one correctly in your own original writing."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-6-1-5",
+    "lessonId": "lesson-punjabi-6-1-5",
+    "objectives": [
+      "Recall all three idioms and their real meanings",
+      "Correctly match each idiom to its meaning"
+    ],
+    "materialsNeeded": ["All 4 worksheets from this week", "Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 3 idioms together, out loud.\n2. Have the child read their own idiom-writing from Day 4 aloud.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing a real week of idiom learning AND original composition in Punjabi.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them to think of an English idiom with a similar real meaning to each of the three Punjabi idioms",
+      "This is a genuine vocabulary-and-composition milestone — three real idioms learned and one used correctly in original writing"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. ਮੁਹਾਵਰਾ = idiom. 2. ਅੱਗ ਵਿੱਚ ਘਿਓ ਪਾਉਣਾ = to make a bad situation worse. 3. ਦੁੱਧ ਦਾ ਦੁੱਧ ਪਾਣੀ ਦਾ ਪਾਣੀ = to sort out the clear truth. 4. ਅੱਖਾਂ ਵਿੱਚ ਘੱਟਾ ਪਾਉਣਾ = to deceive someone.",
+    "standardsRationale": "Consolidates the week's idiom vocabulary and composition skills, matching the course's own 'common idioms' and 'composition' descriptions together in one final review."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-6-1-5",
+    "lessonId": "lesson-punjabi-6-1-5",
+    "title": "Common Punjabi Idioms: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write the meaning of each idiom from this week.",
+      "rows": [
+        { "problem": "ਮੁਹਾਵਰਾ" },
+        { "problem": "ਅੱਗ ਵਿੱਚ ਘਿਓ ਪਾਉਣਾ" },
+        { "problem": "ਦੁੱਧ ਦਾ ਦੁੱਧ ਪਾਣੀ ਦਾ ਪਾਣੀ" },
+        { "problem": "ਅੱਖਾਂ ਵਿੱਚ ਘੱਟਾ ਪਾਉਣਾ" }
+      ]
+    }
+  }
+}

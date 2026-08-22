@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-6-1",
+    "courseId": "course-punjabi-6",
+    "order": 1,
+    "title": "Common Punjabi Idioms",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-6-1-3",
+    "unitId": "unit-punjabi-6-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Idiom: ਦੁੱਧ ਦਾ ਦੁੱਧ ਪਾਣੀ ਦਾ ਪਾਣੀ",
+    "gradeLevel": "6",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਅੱਜ ਦੂਜਾ ਮੁਹਾਵਰਾ! (Today, the second idiom!) A well-known Punjabi idiom about getting to the clear, honest truth."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The idiom is ਦੁੱਧ ਦਾ ਦੁੱਧ ਪਾਣੀ ਦਾ ਪਾਣੀ (dudh da dudh, paani da paani). New word: ਦੁੱਧ (dudh, milk) — you already know ਪਾਣੀ (paani, water). Literally, this means 'milk as milk, water as water' — separating two things that might have been mixed together back into their true, separate identities. The real meaning: to sort out the full truth of a confusing or disputed situation, clearly separating what's true from what's false, so nothing stays mixed up or unclear. Think of a situation where 'sorting out milk from water' — figuring out the real truth — would matter."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know a second real Punjabi idiom about clarity and truth. Tomorrow we'll learn a third idiom, and use all three in your own writing."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-6-1-3",
+    "lessonId": "lesson-punjabi-6-1-3",
+    "objectives": [
+      "Learn the idiom ਦੁੱਧ ਦਾ ਦੁੱਧ ਪਾਣੀ ਦਾ ਪਾਣੀ, its literal meaning, and its real meaning",
+      "Apply the idiom to a real or invented example situation"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's idiom.\n2. Introduce today's idiom, its literal words (ਦੁੱਧ/ਪਾਣੀ), and its real meaning.\n3. Have the child think of an example situation involving sorting out the truth.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: a third idiom, plus using idioms in original writing.",
+    "differentiationTips": [
+      "Struggling: focus on just recognizing and translating the idiom, without requiring an original example yet",
+      "Ready for more: ask them how this idiom's imagery (milk and water separating) makes its meaning easy to picture and remember",
+      "All Gurmukhi words/phrases used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Literal meaning: milk as milk, water as water. 2. Real meaning: to sort out the full, clear truth of a confusing situation. 3. Answers will vary for the child's own example situation.",
+    "standardsRationale": "Teaches a second real, well-known idiom with complete literal-vs-real analysis, building the idiom vocabulary the course description names."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-6-1-3",
+    "lessonId": "lesson-punjabi-6-1-3",
+    "title": "Idiom: ਦੁੱਧ ਦਾ ਦੁੱਧ ਪਾਣੀ ਦਾ ਪਾਣੀ",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about today's idiom.",
+      "rows": [
+        { "problem": "What does ਦੁੱਧ ਦਾ ਦੁੱਧ ਪਾਣੀ ਦਾ ਪਾਣੀ literally mean?" },
+        { "problem": "What does it actually mean?" },
+        { "problem": "Describe a situation where this idiom would apply." }
+      ]
+    }
+  }
+}

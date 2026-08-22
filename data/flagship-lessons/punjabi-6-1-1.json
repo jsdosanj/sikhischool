@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-6-1",
+    "courseId": "course-punjabi-6",
+    "order": 1,
+    "title": "Common Punjabi Idioms",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-punjabi-6-1-1",
+    "unitId": "unit-punjabi-6-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is an Idiom? (ਮੁਹਾਵਰਾ)",
+    "gradeLevel": "6",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਅੱਜ ਅਸੀਂ ਮੁਹਾਵਰੇ ਸਿੱਖਾਂਗੇ। (Today we'll learn idioms.) An idiom is a phrase whose real meaning is completely different from its literal, word-by-word meaning."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "New word: ਮੁਹਾਵਰਾ (muhavra, idiom). In English, 'it's raining cats and dogs' doesn't literally mean animals are falling from the sky — it means it's raining very hard. Punjabi has its own rich set of idioms the same way. This week, you'll learn three real, commonly used Punjabi idioms, what they literally say, and what they actually mean. Can you think of one more English idiom, and explain the difference between its literal words and its real meaning?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand what makes an idiom different from a literal phrase. Tomorrow we'll learn our first real Punjabi idiom."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-6-1-1",
+    "lessonId": "lesson-punjabi-6-1-1",
+    "objectives": [
+      "Define an idiom (ਮੁਹਾਵਰਾ) as a phrase whose real meaning differs from its literal words",
+      "Identify an English idiom and explain the gap between its literal and real meaning"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce ਮੁਹਾਵਰਾ using the 'raining cats and dogs' example.\n2. Discuss why idioms are tricky for language learners — you can't just translate word by word.\n3. Have the child think of one more English idiom and explain its literal vs. real meaning.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: the first real Punjabi idiom.",
+    "differentiationTips": [
+      "Struggling: provide 2-3 example English idioms (break a leg, piece of cake) to choose from rather than generating one from scratch",
+      "Ready for more: ask them to guess why idioms are especially hard to translate directly between languages",
+      "All Gurmukhi words used in this lesson were validated against gurmukhifix's Lexicon before writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. ਮੁਹਾਵਰਾ = idiom. 2. An idiom's real meaning differs from what its individual words literally say. 3. Answers will vary for the child's own English idiom example.",
+    "standardsRationale": "Introduces the course's 'common idioms' description with the conceptual foundation (literal vs. real meaning) needed before learning specific real idioms in the following days."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-6-1-1",
+    "lessonId": "lesson-punjabi-6-1-1",
+    "title": "What Is an Idiom?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about idioms.",
+      "rows": [
+        { "problem": "What does ਮੁਹਾਵਰਾ mean?" },
+        { "problem": "What is the literal meaning of 'it's raining cats and dogs'?" },
+        { "problem": "What is the real meaning of 'it's raining cats and dogs'?" }
+      ]
+    }
+  }
+}

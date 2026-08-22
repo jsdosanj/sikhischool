@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-10-1",
+    "courseId": "course-science-10",
+    "order": 1,
+    "title": "Atomic Structure",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-10-1-3",
+    "unitId": "unit-science-10-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Electron Energy Levels",
+    "gradeLevel": "10",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Electrons don't orbit the nucleus randomly — they occupy specific energy levels, and the pattern they follow explains a lot about how elements behave."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Electrons fill energy levels (also called shells) around the nucleus in a predictable order, starting from the level closest to the nucleus: the 1st shell holds up to 2 electrons, the 2nd shell holds up to 8, and the 3rd shell holds up to 8 (for the elements you'll work with at this level). Electrons fill the lowest available shell first before moving to the next one. For example, oxygen (atomic number 8, so 8 electrons) fills its 1st shell with 2 electrons, leaving 6 for the 2nd shell: written as 2, 6. The electrons in the outermost occupied shell are called valence electrons — these are the ones involved in bonding, which you'll study in the unit ahead. Determine the electron arrangement (by shell) for sodium (atomic number 11) and identify its number of valence electrons."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know how electrons are arranged, not just how many an atom has. Tomorrow we'll see how this arrangement explains the periodic table's whole structure."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-10-1-3",
+    "lessonId": "lesson-science-10-1-3",
+    "objectives": [
+      "Explain that electrons fill energy levels (shells) in a predictable order, lowest first",
+      "Determine an element's electron arrangement by shell and identify its valence electrons"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Periodic table reference (optional)"],
+    "facilitationScript": "1. Review yesterday's proton/neutron/electron counts.\n2. Introduce energy levels/shells and their fill order (2, 8, 8) using the oxygen example.\n3. Define valence electrons as the outermost shell's electrons.\n4. Work through sodium's electron arrangement together.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: the periodic table's organization.",
+    "differentiationTips": [
+      "Struggling: use a 'floors of a building' analogy — electrons fill the ground floor before moving up, and each floor has a maximum capacity",
+      "Ready for more: ask them to determine the electron arrangement for chlorine (atomic number 17) and identify its valence electron count",
+      "Keep the fill-order rule (2, 8, 8) explicitly limited to the elements used in this course — the real rules become more complex for larger atoms, which is out of scope here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Sodium (11 electrons) fills its 1st shell with 2, 2nd shell with 8, leaving 1 for the 3rd shell: arrangement 2, 8, 1. 2. Sodium has 1 valence electron (the outermost shell's count).",
+    "standardsRationale": "Directly builds toward NGSS HS-PS1-1: patterns in the periodic table relate to the electrons in an atom's outermost energy level — this lesson establishes the electron-arrangement foundation that pattern depends on."
+  },
+  "worksheet": {
+    "id": "worksheet-science-10-1-3",
+    "lessonId": "lesson-science-10-1-3",
+    "title": "Electron Energy Levels",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Determine the electron arrangement by shell for each element, then answer the last question.",
+      "rows": [
+        { "problem": "Sodium (atomic number 11): electron arrangement by shell?" },
+        { "problem": "How many valence electrons does sodium have?" },
+        { "problem": "Chlorine (atomic number 17): electron arrangement by shell, and valence electron count?" }
+      ]
+    }
+  }
+}

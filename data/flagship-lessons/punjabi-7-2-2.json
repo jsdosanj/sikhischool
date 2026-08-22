@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-7-2",
+    "courseId": "course-punjabi-7",
+    "order": 2,
+    "title": "Verb Tenses and a Day in Your Life",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-7-2-2",
+    "unitId": "unit-punjabi-7-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Future Tense: Something Will Happen",
+    "gradeLevel": "7",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਕੱਲ੍ਹ ਤੁਸੀਂ ਭੂਤਕਾਲ ਸਿੱਖਿਆ। ਅੱਜ: ਭਵਿੱਖਤ ਕਾਲ! (Yesterday you learned past tense. Today: future tense!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Future tense shows something that hasn't happened yet: ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ means 'will go,' changing with gender just like every other tense you've learned. Compare all three tenses for the same verb: ਜਾਂਦਾ ਹਾਂ (I go, present), ਗਿਆ (I went, past), ਜਾਵਾਂਗਾ (I will go, future). Practice: say 'ਮੈਂ ਸਕੂਲ ਜਾਵਾਂਗਾ' or 'ਜਾਵਾਂਗੀ' about tomorrow."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਭਵਿੱਖਤ ਕਾਲ ਸਿੱਖਿਆ! (You just learned future tense!) Tomorrow we'll learn daily-life vocabulary to use with all three tenses."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-7-2-2",
+    "lessonId": "lesson-punjabi-7-2-2",
+    "objectives": [
+      "Learn future-tense forms ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ (will go)",
+      "Compare present, past, and future tense forms of the same verb"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's past-tense work.\n2. Introduce future tense, comparing all three tenses of ਜਾਣਾ side by side.\n3. Have the child say a future-tense sentence about tomorrow.\n4. Complete the worksheet.\n5. Preview tomorrow's daily-life-vocabulary lesson.",
+    "differentiationTips": [
+      "Struggling: write all three tense forms of ਜਾਣਾ side by side on one line as a visual reference",
+      "Ready for more: ask the child to say the same sentence in all three tenses (past, present, future) about going somewhere",
+      "This lesson completes a genuine three-tense system — present (already known), past (yesterday), future (today)"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary-acquisition and comparison activity — check that the child correctly traces/writes ਜਾਵਾਂਗਾ/ਜਾਵਾਂਗੀ and can correctly say all three tense forms of ਜਾਣਾ.",
+    "standardsRationale": "Directly addresses the course's 'grammar mastery' goal, completing the present/past/future tense system for the first time this course."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-7-2-2",
+    "lessonId": "lesson-punjabi-7-2-2",
+    "title": "Future Tense: Something Will Happen",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about tense.",
+      "rows": [
+        { "problem": "Write ਜਾਣਾ's present, past, and future tense forms (masculine)." },
+        { "problem": "Which tense would you use to talk about tomorrow?" }
+      ]
+    }
+  }
+}

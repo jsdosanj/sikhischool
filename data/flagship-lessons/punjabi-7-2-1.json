@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-punjabi-7-2",
+    "courseId": "course-punjabi-7",
+    "order": 2,
+    "title": "Verb Tenses and a Day in Your Life",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-7-2-1",
+    "unitId": "unit-punjabi-7-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Past Tense: Something Already Happened",
+    "gradeLevel": "7",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਪਿਛਲੇ ਹਫ਼ਤੇ ਤੁਸੀਂ ਰਸਮੀ ਚਿੱਠੀ ਲਿਖਣਾ ਸਿੱਖਿਆ। ਇਸ ਹਫ਼ਤੇ: ਵਿਆਕਰਣ ਵਿੱਚ ਮੁਹਾਰਤ, ਕਾਲ ਤੋਂ ਸ਼ੁਰੂ! (Last week you learned formal letter writing. This week: grammar mastery, starting with tense!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "So far you've mostly used present tense (ਖੇਡਦਾ ਹਾਂ, 'I play'). Past tense shows something already happened: ਖਾਧਾ/ਖਾਧੀ means 'ate,' and ਗਿਆ/ਗਈ means 'went' — remember these change with gender, just like verbs always have. Practice: say 'ਮੈਂ ਸਕੂਲ ਗਿਆ' (I went to school, for a boy) or 'ਮੈਂ ਸਕੂਲ ਗਈ' (for a girl)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਭੂਤਕਾਲ ਸਿੱਖਿਆ! (You just learned past tense!) Tomorrow we'll learn future tense."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-7-2-1",
+    "lessonId": "lesson-punjabi-7-2-1",
+    "objectives": [
+      "Learn past-tense forms ਖਾਧਾ/ਖਾਧੀ (ate) and ਗਿਆ/ਗਈ (went)",
+      "Use ਗਿਆ/ਗਈ correctly with matching gender in a self-referential sentence"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's formal-letter-writing content briefly.\n2. Introduce past tense, contrasting with the present tense used so far.\n3. Have the child say 'ਮੈਂ ਸਕੂਲ ਗਿਆ/ਗਈ' about themselves.\n4. Complete the worksheet.\n5. Preview tomorrow's future-tense lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just ਗਿਆ/ਗਈ first, the more immediately useful of the two past-tense verbs",
+      "Ready for more: ask the child to say a full sentence about something they actually did yesterday, using past tense",
+      "This opens the course's 'grammar mastery' thread with a genuinely new grammatical concept (tense) beyond earlier grades' present-tense-only sentences"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary-acquisition activity — check that the child correctly traces/writes both past-tense verb pairs and uses ਗਿਆ/ਗਈ with the correct gender for themselves.",
+    "standardsRationale": "Directly addresses the course's 'grammar mastery' goal, introducing tense as a genuinely new grammatical concept."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-7-2-1",
+    "lessonId": "lesson-punjabi-7-2-1",
+    "title": "Past Tense: Something Already Happened",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, then copy it once on your own.",
+      "rows": [
+        { "trace": "ਖਾਧਾ", "label": "ate (masculine)" },
+        { "trace": "ਖਾਧੀ", "label": "ate (feminine)" },
+        { "trace": "ਗਿਆ", "label": "went (masculine)" },
+        { "trace": "ਗਈ", "label": "went (feminine)" }
+      ]
+    }
+  }
+}

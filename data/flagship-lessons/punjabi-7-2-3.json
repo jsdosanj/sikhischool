@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-7-2",
+    "courseId": "course-punjabi-7",
+    "order": 2,
+    "title": "Verb Tenses and a Day in Your Life",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-7-2-3",
+    "unitId": "unit-punjabi-7-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Daily Life Vocabulary",
+    "gradeLevel": "7",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਤੁਸੀਂ ਤਿੰਨ ਕਾਲ ਸਿੱਖੇ। ਅੱਜ ਰੋਜ਼ਾਨਾ ਜ਼ਿੰਦਗੀ ਦੇ ਸ਼ਬਦ! (You've learned three tenses. Today, daily-life words!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Learn 3 new daily-life words: ਉੱਠਿਆ/ਉੱਠੀ (woke up, past tense), ਸਵੇਰ (morning), and ਰੋਜ਼ (every day/daily). Combine them with tenses you already know: 'ਮੈਂ ਸਵੇਰੇ ਉੱਠਿਆ' (I woke up in the morning, past tense). Write your own sentence about when you woke up today, using ਉੱਠਿਆ/ਉੱਠੀ and ਸਵੇਰ."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਰੋਜ਼ਾਨਾ ਸ਼ਬਦ ਸਿੱਖੇ! (You just learned daily-life words!) Tomorrow we'll write about a whole day using all three tenses."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-7-2-3",
+    "lessonId": "lesson-punjabi-7-2-3",
+    "objectives": [
+      "Learn 3 new daily-life vocabulary words: ਉੱਠਿਆ/ਉੱਠੀ, ਸਵੇਰ, ਰੋਜ਼",
+      "Combine daily-life vocabulary with past tense in an original sentence"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's tense work.\n2. Introduce the 3 new daily-life words.\n3. Have the child write a sentence about waking up today.\n4. Complete the worksheet.\n5. Preview tomorrow's full-day-writing lesson.",
+    "differentiationTips": [
+      "Struggling: model the example sentence together before asking the child to write their own version",
+      "Ready for more: ask the child to add ਰੋਜ਼ (every day) to their sentence to describe a daily routine, not just today",
+      "This lesson directly addresses the course's 'daily life' cultural-units description, connecting new vocabulary to this week's grammar focus"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended writing activity — check that the child's sentence correctly uses ਉੱਠਿਆ/ਉੱਠੀ (matching their own gender) and ਸਵੇਰ together.",
+    "standardsRationale": "Directly addresses the course's 'daily life' cultural-units description, applying this week's tense work to genuinely relevant vocabulary."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-7-2-3",
+    "lessonId": "lesson-punjabi-7-2-3",
+    "title": "Daily Life Vocabulary",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your own sentence about waking up today, using ਉੱਠਿਆ/ਉੱਠੀ and ਸਵੇਰ.",
+      "prompts": [
+        { "prompt": "My sentence (in Gurmukhi):", "lines": 2 }
+      ]
+    }
+  }
+}

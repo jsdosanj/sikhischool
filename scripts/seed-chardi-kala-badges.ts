@@ -43,7 +43,11 @@ const CHARDI_KALA_PATH = [
 ];
 
 async function main() {
-  await query("DELETE FROM badges WHERE key LIKE 'chardi-kala-path-%';");
+  // Exact-key delete, not a LIKE pattern — 'chardi-kala-path-%' would also match
+  // (and delete) the per-subject ladder's keys from seed-subject-badges.ts
+  // (chardi-kala-path-<subject>-<tier>), a real collision caught before it shipped.
+  const keys = CHARDI_KALA_PATH.map((b) => b.key);
+  await query(`DELETE FROM badges WHERE key IN (${keys.map(() => "?").join(",")});`, keys);
 
   for (const b of CHARDI_KALA_PATH) {
     await query(

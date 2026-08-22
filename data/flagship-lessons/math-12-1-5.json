@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-12-1",
+    "courseId": "course-math-12",
+    "order": 1,
+    "title": "The Data Science Inquiry Cycle",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-12-1-5",
+    "unitId": "unit-math-12-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: The Data Science Inquiry Cycle",
+    "gradeLevel": "12",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you moved through the entire statistical inquiry cycle — formulate, collect, analyze — on a real small dataset. Today, complete it on a brand new one."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: the inquiry cycle is formulate, collect, analyze, interpret (Day 1). Data collection method matters — random sampling avoids the bias a convenience sample introduces (Day 2). Mean, median, and mode each describe 'typical' differently, and the mean is more sensitive to outliers (Day 3). Range and standard deviation describe spread, with standard deviation using every data point rather than just the extremes (Day 4). A different group of 6 students scored these quiz percentages: 70, 75, 80, 80, 85, 90. Find the mean, median, mode, and range, then write one sentence interpreting what these numbers together tell you about this group's performance."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you've completed the full statistical inquiry cycle on real data, the foundation for every deeper statistics topic this course will build toward."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-12-1-5",
+    "lessonId": "lesson-math-12-1-5",
+    "objectives": [
+      "Calculate mean, median, mode, and range for a new dataset",
+      "Interpret what these measures together reveal about a dataset"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed cumulative review worksheet", "Pencil", "Calculator"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child calculate mean, median, mode, and range for the new quiz-scores dataset independently.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of Statistics & Data Science — this cycle repeats throughout the course.",
+    "differentiationTips": [
+      "Struggling: allow the child to work through each measure (mean, then median, then mode, then range) as fully separate steps rather than all at once",
+      "Ready for more: ask them to also estimate whether the standard deviation would be larger or smaller than this week's earlier example, and explain their reasoning",
+      "This is a good checkpoint to note which part of the inquiry cycle (formulating, collecting, or analyzing) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "For quiz scores [70,75,80,80,85,90]: mean = 480/6 = 80. Median = (80+80)/2 = 80. Mode = 80. Range = 90-70 = 20. Interpretation: the group's typical (mean, median, and mode all agree at 80) performance is 80%, with a moderate spread of 20 percentage points between the lowest and highest score.",
+    "standardsRationale": "Consolidates the full data-science inquiry cycle (formulate, collect, analyze) established this week before the unit moves toward inference and deeper statistical methods, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-12-1-5",
+    "lessonId": "lesson-math-12-1-5",
+    "title": "The Data Science Inquiry Cycle: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For the dataset [70, 75, 80, 80, 85, 90], answer each question.",
+      "rows": [
+        { "problem": "Find the mean, median, mode, and range." },
+        { "problem": "Write one sentence interpreting what these numbers together tell you about this group." }
+      ]
+    }
+  }
+}

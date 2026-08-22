@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-12-1",
+    "courseId": "course-math-12",
+    "order": 1,
+    "title": "The Data Science Inquiry Cycle",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-12-1-4",
+    "unitId": "unit-math-12-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Measures of Spread: Range and Standard Deviation",
+    "gradeLevel": "12",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Two datasets can have the exact same mean but look completely different. Today: measuring how spread out data actually is."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The range is the simplest measure of spread: maximum value minus minimum value. Standard deviation is more powerful — it measures the typical distance each data point is from the mean, giving a fuller picture of spread than range alone (which only uses two values and ignores everything in between). A larger standard deviation means data is more spread out; a smaller one means data clusters more tightly around the mean. For books read [2,3,5,5,7,9,11] with mean 6: the range is 11-2=9. The standard deviation (calculated using every point's distance from the mean, not just the extremes) is approximately 3.21. Explain why standard deviation gives a more complete picture of spread than range alone, using the fact that range only depends on the two most extreme values."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have both a center (mean/median/mode) and a spread (range/standard deviation) to fully describe a dataset. Tomorrow we'll review the whole inquiry cycle together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-12-1-4",
+    "lessonId": "lesson-math-12-1-4",
+    "objectives": [
+      "Calculate range for a dataset",
+      "Explain conceptually what standard deviation measures and why it's more complete than range"
+    ],
+    "materialsNeeded": ["Yesterday's mean/median/mode worksheet", "Printed worksheet", "Pencil", "Calculator"],
+    "facilitationScript": "1. Review yesterday's mean/median/mode for the books-read dataset.\n2. Introduce range and standard deviation using the same dataset (range=9, stdev≈3.21).\n3. Discuss why range ignores everything except the two extreme values.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on the conceptual meaning (standard deviation = typical distance from the mean) rather than requiring the child to compute it by hand from the formula",
+      "Ready for more: ask them to construct two different small datasets with the same mean but visibly different spread, and predict which would have a larger standard deviation before checking",
+      "A calculator or computed value is appropriate here — the conceptual understanding matters more than manual calculation at this stage"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "For [2,3,5,5,7,9,11]: range = 11-2 = 9. Standard deviation (≈3.21) measures the typical distance of each data point from the mean, using every value — range only compares the two most extreme values and ignores how the rest of the data is distributed in between, so two datasets could have the same range but very different standard deviations.",
+    "standardsRationale": "Directly addresses the course's data-science inquiry cycle description (the 'analyze' step), completing the center-and-spread toolkit needed to fully describe and compare datasets."
+  },
+  "worksheet": {
+    "id": "worksheet-math-12-1-4",
+    "lessonId": "lesson-math-12-1-4",
+    "title": "Measures of Spread: Range and Standard Deviation",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For the dataset [2, 3, 5, 5, 7, 9, 11], answer each question.",
+      "rows": [
+        { "problem": "What is the range?" },
+        { "problem": "What does standard deviation measure, conceptually?" },
+        { "problem": "Why is standard deviation more complete than range alone?" }
+      ]
+    }
+  }
+}

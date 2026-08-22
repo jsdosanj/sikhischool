@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-2-2",
+    "courseId": "course-sikhi-2",
+    "order": 2,
+    "title": "Guru Gobind Singh Ji and the Panj Pyare",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-2-2-4",
+    "unitId": "unit-sikhi-2-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "The Panj Pyare Today",
+    "gradeLevel": "2",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about the original Panj Pyare from 1699. Today: they're still honored in a very real way today!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "At Nagar Kirtan parades today (remember those from last week?), five respected members of the community are chosen to lead the procession, dressed alike and carrying the Nishan Sahib, the Sikh flag. They represent the original Panj Pyare from 1699, keeping that story alive hundreds of years later. This is a real, living tradition — not just something from a history book. If you could ask one of today's Panj Pyare a question about what it feels like to lead the parade, what would you ask?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how the Panj Pyare are honored today, connecting history to a living tradition! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-2-2-4",
+    "lessonId": "lesson-sikhi-2-2-4",
+    "objectives": [
+      "Understand that five chosen community members lead Nagar Kirtan today, representing the original Panj Pyare",
+      "Connect this living tradition back to the 1699 history learned earlier this week"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review this week's Guru Gobind Singh Ji, Panj Pyare, and Khalsa lessons.\n2. Introduce today's Panj Pyare tradition at Nagar Kirtan, carrying the Nishan Sahib.\n3. Have the child write a question they'd ask one of today's Panj Pyare.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on the single connecting idea — 'five people today represent the five people from 1699' — as the core takeaway",
+      "Ready for more: ask the child why they think this tradition has continued for hundreds of years",
+      "This lesson deliberately extends last week's general Nagar Kirtan mention with a specific, distinct detail (the Panj Pyare's role) rather than repeating it"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is an open-ended reflection activity — check that the child understands today's five Panj Pyare represent and honor the original five from 1699, and writes a genuine, on-topic question.",
+    "standardsRationale": "Directly extends the course's 'story of Vaisakhi' description by connecting its history to a real, currently-practiced tradition, completing this week's Guru Gobind Singh Ji/Panj Pyare/Khalsa arc."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-2-2-4",
+    "lessonId": "lesson-sikhi-2-2-4",
+    "title": "The Panj Pyare Today",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write a question you'd ask one of today's Panj Pyare.",
+      "prompts": [
+        { "prompt": "My question:", "lines": 2 }
+      ]
+    }
+  }
+}

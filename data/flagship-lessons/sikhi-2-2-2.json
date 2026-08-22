@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-2-2",
+    "courseId": "course-sikhi-2",
+    "order": 2,
+    "title": "Guru Gobind Singh Ji and the Panj Pyare",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-2-2-2",
+    "unitId": "unit-sikhi-2-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Panj Pyare: Five Beloved Ones",
+    "gradeLevel": "2",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you met Guru Gobind Singh Ji. Today, meet the five brave people who joined him first!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "At Vaisakhi in 1699, five men stepped forward and showed great courage and devotion when Guru Gobind Singh Ji called for volunteers. They became known as the Panj Pyare, which means the 'Five Beloved Ones' — the very first members of the Khalsa. They came from different backgrounds and different parts of the region, showing that the Khalsa welcomed everyone equally. Why do you think it took courage to be one of the first five to step forward?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just met the Panj Pyare, the first members of the Khalsa! Tomorrow we'll learn what being 'Khalsa' really means."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-2-2-2",
+    "lessonId": "lesson-sikhi-2-2-2",
+    "objectives": [
+      "Identify the Panj Pyare as the first five members of the Khalsa",
+      "Understand they came from different backgrounds, showing the Khalsa's welcome to everyone equally"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review yesterday's Guru Gobind Singh Ji introduction.\n2. Introduce the Panj Pyare and what their name means.\n3. Discuss the courage question together.\n4. Complete the worksheet.\n5. Preview tomorrow's 'what is Khalsa' lesson.",
+    "differentiationTips": [
+      "Struggling: focus on the meaning of the name (Five Beloved Ones) as the core fact to remember",
+      "Ready for more: ask the child to connect this to Grade 1's Sikhi lesson on equality (Guru Amar Das's Langar requirement)",
+      "Kept deliberately general and safe — no graphic retelling of the traditional sword-testing narrative, appropriate for this age band"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and reflection activity — check that the child can state that the Panj Pyare means 'Five Beloved Ones' and were the first members of the Khalsa.",
+    "standardsRationale": "Directly extends the course's 'story of Vaisakhi' description with real, well-documented historical detail, appropriately scoped for Grade 2 (general courage/equality themes, not graphic historical specifics)."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-2-2-2",
+    "lessonId": "lesson-sikhi-2-2-2",
+    "title": "The Panj Pyare: Five Beloved Ones",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Panj Pyare.",
+      "rows": [
+        { "problem": "What does 'Panj Pyare' mean?" },
+        { "problem": "Why do you think it took courage to be one of the first five to step forward?" }
+      ]
+    }
+  }
+}

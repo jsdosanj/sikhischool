@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-sikhi-2-2",
+    "courseId": "course-sikhi-2",
+    "order": 2,
+    "title": "Guru Gobind Singh Ji and the Panj Pyare",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-2-2-1",
+    "unitId": "unit-sikhi-2-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Meeting Guru Gobind Singh Ji",
+    "gradeLevel": "2",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned about Vaisakhi and the Khalsa. Today, meet the Guru who founded it: Guru Gobind Singh Ji!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Guru Gobind Singh Ji was born in a city called Patna, and he became Guru when he was still a child. Even though he was young, he grew up to be a courageous, caring leader who founded the Khalsa at Vaisakhi in 1699 — the same event you learned about last week. What is one word you would use to describe a leader who became Guru while still a child?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just met Guru Gobind Singh Ji, the founder of the Khalsa! Tomorrow we'll meet the five brave people who joined him first."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-2-2-1",
+    "lessonId": "lesson-sikhi-2-2-1",
+    "objectives": [
+      "Identify Guru Gobind Singh Ji as the Guru who founded the Khalsa",
+      "Recall that he was born in Patna and became Guru at a young age"
+    ],
+    "materialsNeeded": ["Last week's Vaisakhi worksheet", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review last week's Vaisakhi/Khalsa-founding story briefly.\n2. Introduce Guru Gobind Singh Ji: born in Patna, became Guru young, founded the Khalsa.\n3. Discuss the child's own word for a young leader.\n4. Complete the worksheet.\n5. Preview tomorrow's Panj Pyare lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just the single connection — 'Guru Gobind Singh Ji founded the Khalsa you learned about last week' — as the core takeaway",
+      "Ready for more: ask the child what qualities they think a good leader needs, connecting back to Guru Gobind Singh Ji",
+      "Text-only, per the platform's Ten Gurus content policy — no illustration or depiction of Guru Gobind Singh Ji"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a recall and reflection activity — check that the child can state that Guru Gobind Singh Ji founded the Khalsa and became Guru at a young age.",
+    "standardsRationale": "Directly extends the course's 'story of Vaisakhi' description by introducing its central figure, deepening last week's introduction without repeating it."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-2-2-1",
+    "lessonId": "lesson-sikhi-2-2-1",
+    "title": "Meeting Guru Gobind Singh Ji",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Guru Gobind Singh Ji.",
+      "rows": [
+        { "problem": "What did Guru Gobind Singh Ji found in 1699?" },
+        { "problem": "What is one word you would use to describe a young leader?" }
+      ]
+    }
+  }
+}

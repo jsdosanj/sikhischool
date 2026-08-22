@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-9-2",
+    "courseId": "course-social-studies-9",
+    "order": 2,
+    "title": "Introduction to Civic Participation",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-9-2-4",
+    "unitId": "unit-social-studies-9-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Staying Informed as a Citizen",
+    "gradeLevel": "9",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned how to participate. Today: how to stay genuinely informed so your participation is meaningful!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Meaningful civic participation depends on being genuinely informed, not just active: checking whether a source is credible, reading beyond a single headline, and being willing to consider more than one perspective on an issue before forming an opinion. It's also important to be able to disagree with someone civilly about an issue, since democratic communities are made up of people with genuinely different views who still have to work together. Explain why simply being active (voting, volunteering, attending meetings) isn't enough on its own without also being genuinely informed."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned why staying informed makes participation meaningful! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-9-2-4",
+    "lessonId": "lesson-social-studies-9-2-4",
+    "objectives": [
+      "Understand source credibility and considering multiple perspectives as parts of being informed",
+      "Explain why being active alone, without being informed, isn't enough for meaningful participation"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's participation-and-voting work.\n2. Introduce source credibility, considering multiple perspectives, and civil disagreement.\n3. Have the child explain why being active alone isn't enough.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: use a simple example — voting for a candidate based only on a friend's opinion, without learning anything about their actual positions, versus researching first",
+      "Ready for more: ask the child why civil disagreement between people with different views is actually a healthy sign for a democratic community, not a problem to be avoided",
+      "This is the week's synthesis moment — connecting participation to genuine information-gathering is what makes the whole week's content actually useful in practice"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Being active without being informed risks participating in ways that don't actually reflect a person's real views or interests — someone could vote, volunteer, or speak up based on incomplete or misleading information, which undermines the whole point of participating in the first place; genuine civic participation requires both action and understanding together.",
+    "standardsRationale": "Directly addresses the C3 Framework's Civics dimension on evaluating sources and civil discourse, completing this week's thread before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-9-2-4",
+    "lessonId": "lesson-social-studies-9-2-4",
+    "title": "Staying Informed as a Citizen",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about staying informed.",
+      "rows": [
+        { "problem": "Name two things that make someone a genuinely informed citizen." },
+        { "problem": "Why isn't being active alone enough, without also being informed?" }
+      ]
+    }
+  }
+}

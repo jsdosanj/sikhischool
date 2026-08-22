@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-9-2",
+    "courseId": "course-social-studies-9",
+    "order": 2,
+    "title": "Introduction to Civic Participation",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-9-2-2",
+    "unitId": "unit-social-studies-9-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Voting as a Civic Responsibility",
+    "gradeLevel": "9",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned civic participation is broader than voting. Today: voting itself, in depth!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "In the United States, citizens can register to vote once they turn 18, though some states allow pre-registration at 16 or 17 so a person is ready to vote as soon as they're eligible. Voting matters because elected officials make real decisions that affect daily life, and low turnout means a smaller, less representative group of people ends up deciding outcomes for everyone. Being an informed voter, researching candidates and issues before voting rather than voting on name recognition alone, makes participation more meaningful. Explain why low voter turnout could make election results less representative of what most people actually want."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned why voting and being an informed voter both matter! Tomorrow we'll look at civic participation beyond voting."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-9-2-2",
+    "lessonId": "lesson-social-studies-9-2-2",
+    "objectives": [
+      "State the voting age and understand pre-registration",
+      "Explain why low voter turnout can make election results less representative"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's civic-participation examples briefly.\n2. Introduce voting age, pre-registration, and informed voting.\n3. Have the child explain why low turnout affects representativeness.\n4. Complete the worksheet.\n5. Preview tomorrow's beyond-voting lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple concrete example — if only 3 out of 10 classmates vote on a class decision, the outcome might not reflect what the other 7 actually wanted",
+      "Ready for more: ask the child to research whether their own state allows voter pre-registration before turning 18",
+      "Kept factual and non-partisan throughout — the goal is understanding the civic mechanism, not any particular political position"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Low voter turnout means a smaller group of people is deciding outcomes for the whole community — if the people who vote have different priorities or views than the people who don't, the result may not actually reflect what most people in the full population would have wanted.",
+    "standardsRationale": "Directly addresses the C3 Framework's Civics dimension: understanding voting as both a right and a responsibility in a democratic society, continuing this week's civic-participation thread."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-9-2-2",
+    "lessonId": "lesson-social-studies-9-2-2",
+    "title": "Voting as a Civic Responsibility",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about voting.",
+      "rows": [
+        { "problem": "At what age can US citizens register to vote?" },
+        { "problem": "Why does low voter turnout make election results less representative?" }
+      ]
+    }
+  }
+}

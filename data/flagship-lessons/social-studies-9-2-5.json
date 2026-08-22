@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-9-2",
+    "courseId": "course-social-studies-9",
+    "order": 2,
+    "title": "Introduction to Civic Participation",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-9-2-5",
+    "unitId": "unit-social-studies-9-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Civic Participation",
+    "gradeLevel": "9",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you explored what it really means to be an engaged citizen. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: civic participation is broader than just voting (Day 1). Voting is a real civic responsibility, and being informed makes it more meaningful (Day 2). There are many forms of participation available before voting age (Day 3). Genuine participation requires being informed, not just active (Day 4). Design your own short civic-participation plan: name one specific action you could realistically take this year, and explain how you'd make sure you're genuinely informed before taking it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you built a real understanding of what it means to be an engaged, informed citizen! Next week we'll build on this with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-9-2-5",
+    "lessonId": "lesson-social-studies-9-2-5",
+    "objectives": [
+      "Review civic participation, voting, non-voting participation, and staying informed",
+      "Design a specific, realistic personal civic-participation plan"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child design their own specific civic-participation plan.\n3. Complete the review worksheet.\n4. Celebrate finishing a full week of civic-participation skills!",
+    "differentiationTips": [
+      "Struggling: offer the non-voting examples from Day 3 as a menu of options for the plan, rather than requiring an original idea",
+      "Ready for more: ask the child how they would explain to a younger sibling why civic participation matters, in one or two sentences",
+      "This is a good checkpoint to note which of the week's four civic-participation ideas needs the most reinforcement going forward"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child names one specific, realistic action (not a vague generality) and describes a genuine way to become informed first, such as reading multiple sources or attending a meeting to learn more before acting.",
+    "standardsRationale": "Consolidates this week's C3 Framework Civics dimension standards before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-9-2-5",
+    "lessonId": "lesson-social-studies-9-2-5",
+    "title": "Review: Civic Participation",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Design your own civic-participation plan.",
+      "prompts": [
+        { "prompt": "Your specific civic-participation action this year:", "lines": 2 },
+        { "prompt": "How will you make sure you're genuinely informed first?", "lines": 2 }
+      ]
+    }
+  }
+}

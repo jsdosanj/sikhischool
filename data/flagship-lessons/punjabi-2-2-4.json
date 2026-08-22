@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-2-2",
+    "courseId": "course-punjabi-2",
+    "order": 2,
+    "title": "Describing Words, More Verbs, and a Longer Story",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-2-2-4",
+    "unitId": "unit-punjabi-2-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Reading a Story in Gurmukhi",
+    "gradeLevel": "2",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਬਹੁਤ ਕੁਝ ਸਿੱਖਿਆ। ਅੱਜ ਇੱਕ ਅਸਲੀ ਕਹਾਣੀ ਪੜ੍ਹੋ! (You've learned a lot this week. Today, read a real story!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read this short story, built entirely from words you already know: ਵੱਡਾ ਕੁੱਤਾ ਦੌੜਦਾ ਹੈ। ਛੋਟੀ ਬਿੱਲੀ ਸੋਹਣੀ ਹੈ। ਮੈਂ ਕਿਤਾਬ ਪੜ੍ਹਦਾ ਹਾਂ। ਮੈਂ ਕਿਤਾਬ ਲਿਖਦੀ ਹਾਂ। (The big dog runs. The small cat is beautiful. I read a book. I write a book.) Notice the last two lines show both the boy form (ਪੜ੍ਹਦਾ) and the girl form (ਲਿਖਦੀ) — read the story aloud, using your own correct gender form for each line about yourself."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਇੱਕ ਪੂਰੀ ਕਹਾਣੀ ਪੜ੍ਹੀ! (You just read a complete story!) Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-2-2-4",
+    "lessonId": "lesson-punjabi-2-2-4",
+    "objectives": [
+      "Read a 4-sentence Gurmukhi story built entirely from this week's known vocabulary",
+      "Correctly self-select the matching gendered verb form when reading a first-person line aloud"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's full vocabulary (describing words, animals, ਪੜ੍ਹਨਾ/ਲਿਖਣਾ, ਕਿਤਾਬ).\n2. Read the 4-sentence story together, pointing out that every word has already been taught.\n3. Have the child read it aloud independently, using their own correct gender form for the last two lines.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: read each sentence together first, then have the child re-read it independently right after",
+      "Ready for more: ask the child to add one more sentence to the story using this week's vocabulary",
+      "This is the payoff moment for the whole week — celebrate that every single word in the story was already known before today"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reading-fluency activity — check that the child reads all 4 sentences correctly and self-selects the gender-matching verb form for the two first-person lines about themselves.",
+    "standardsRationale": "Directly addresses the course's 'reading short stories' goal, extending last week's 3-sentence story into a 4-sentence one that adds describing words and two new verbs."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-2-2-4",
+    "lessonId": "lesson-punjabi-2-2-4",
+    "title": "Reading a Story in Gurmukhi",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Read each sentence aloud, then copy it on the line below.",
+      "prompts": [
+        { "prompt": "ਵੱਡਾ ਕੁੱਤਾ ਦੌੜਦਾ ਹੈ।", "lines": 2 },
+        { "prompt": "ਛੋਟੀ ਬਿੱਲੀ ਸੋਹਣੀ ਹੈ।", "lines": 2 }
+      ]
+    }
+  }
+}

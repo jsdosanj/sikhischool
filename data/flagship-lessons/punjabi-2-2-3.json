@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-punjabi-2-2",
+    "courseId": "course-punjabi-2",
+    "order": 2,
+    "title": "Describing Words, More Verbs, and a Longer Story",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-2-2-3",
+    "unitId": "unit-punjabi-2-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Two New Verbs: Reading and Writing",
+    "gradeLevel": "2",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਇਸ ਹਫ਼ਤੇ ਤੁਸੀਂ ਨਵੇਂ ਸ਼ਬਦ ਸਿੱਖੇ। ਅੱਜ ਦੋ ਨਵੀਆਂ ਕਿਰਿਆਵਾਂ: ਪੜ੍ਹਨਾ ਅਤੇ ਲਿਖਣਾ! (This week you've learned new words. Today, two new verbs: to read and to write!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "ਪੜ੍ਹਨਾ means 'to read' and ਲਿਖਣਾ means 'to write' — just like last week's verbs, they change with gender: ਪੜ੍ਹਦਾ/ਪੜ੍ਹਦੀ (reads) and ਲਿਖਦਾ/ਲਿਖਦੀ (writes). A new noun connects both: ਕਿਤਾਬ (book). Practice: 'ਮੈਂ ਕਿਤਾਬ ਪੜ੍ਹਦਾ ਹਾਂ' (I read a book, for a boy) or 'ਮੈਂ ਕਿਤਾਬ ਪੜ੍ਹਦੀ ਹਾਂ' (I read a book, for a girl). Say the sentence for yourself, using the correct form."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਪੜ੍ਹਨਾ ਅਤੇ ਲਿਖਣਾ ਸਿੱਖਿਆ! (You just learned to read and write!) Tomorrow we'll read a real, longer story using everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-2-2-3",
+    "lessonId": "lesson-punjabi-2-2-3",
+    "objectives": [
+      "Learn two new verbs, ਪੜ੍ਹਨਾ (to read) and ਲਿਖਣਾ (to write), with correct gendered forms",
+      "Learn the noun ਕਿਤਾਬ (book) and use it in a self-referential sentence"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's describing words and sentence-building.\n2. Introduce ਪੜ੍ਹਨਾ, ਲਿਖਣਾ, and ਕਿਤਾਬ.\n3. Have the child say the correct-gender 'I read a book' sentence about themselves.\n4. Complete the worksheet.\n5. Preview tomorrow's story, which uses this week's full vocabulary.",
+    "differentiationTips": [
+      "Struggling: focus on just ਪੜ੍ਹਨਾ (reading) first, since it directly ties to tomorrow's story lesson",
+      "Ready for more: ask the child to also say 'ਮੈਂ ਕਿਤਾਬ ਲਿਖਦਾ/ਲਿਖਦੀ ਹਾਂ' (I write a book)",
+      "Directly connects to the course's own 'reading short stories' description — worth naming that connection explicitly for the child"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary and self-application activity — check that the child correctly uses ਪੜ੍ਹਦਾ ਹਾਂ or ਪੜ੍ਹਦੀ ਹਾਂ matching their own gender when saying 'I read a book.'",
+    "standardsRationale": "Directly addresses the course's 'common verbs' and 'reading short stories' goals together, introducing the exact verb (reading) tomorrow's story lesson will use."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-2-2-3",
+    "lessonId": "lesson-punjabi-2-2-3",
+    "title": "Two New Verbs: Reading and Writing",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, then copy it once on your own.",
+      "rows": [
+        { "trace": "ਪੜ੍ਹਨਾ", "label": "to read" },
+        { "trace": "ਲਿਖਣਾ", "label": "to write" },
+        { "trace": "ਕਿਤਾਬ", "label": "book" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "unit": {
+    "id": "unit-punjabi-2-2",
+    "courseId": "course-punjabi-2",
+    "order": 2,
+    "title": "Describing Words, More Verbs, and a Longer Story",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-2-2-1",
+    "unitId": "unit-punjabi-2-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Describing Words: Big, Small, and Beautiful",
+    "gradeLevel": "2",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਪਿਛਲੇ ਹਫ਼ਤੇ ਤੁਸੀਂ ਵਾਕ ਬਣਾਏ। ਅੱਜ ਨਵੇਂ ਸ਼ਬਦ ਸਿੱਖੋ ਜੋ ਚੀਜ਼ਾਂ ਬਾਰੇ ਦੱਸਦੇ ਹਨ! (Last week you built sentences. Today: new words that describe things!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Describing words (adjectives) change slightly for boy/man words vs. girl/woman words, just like verbs did last week: ਵੱਡਾ/ਵੱਡੀ (big), ਛੋਟਾ/ਛੋਟੀ (small), ਸੋਹਣਾ/ਸੋਹਣੀ (beautiful/nice). Two new animal words: ਕੁੱਤਾ (dog, a 'ਦਾ' word) and ਬਿੱਲੀ (cat, a 'ਦੀ' word). Practice: say 'ਵੱਡਾ ਕੁੱਤਾ' (big dog) and 'ਛੋਟੀ ਬਿੱਲੀ' (small cat) — notice how the describing word matches the noun's ending."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਨਵੇਂ ਵਰਣਨਾਤਮਕ ਸ਼ਬਦ ਸਿੱਖੇ! (You just learned new describing words!) Tomorrow we'll build full sentences using them."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-2-2-1",
+    "lessonId": "lesson-punjabi-2-2-1",
+    "objectives": [
+      "Learn 3 new gendered describing words: ਵੱਡਾ/ਵੱਡੀ, ਛੋਟਾ/ਛੋਟੀ, ਸੋਹਣਾ/ਸੋਹਣੀ",
+      "Learn 2 new animal nouns: ਕੁੱਤਾ (dog), ਬਿੱਲੀ (cat)"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's four verbs and sentence patterns briefly.\n2. Introduce the three describing-word pairs, noting the gender-matching pattern from last week's verbs.\n3. Introduce ਕੁੱਤਾ and ਬਿੱਲੀ.\n4. Practice saying 'ਵੱਡਾ ਕੁੱਤਾ' and 'ਛੋਟੀ ਬਿੱਲੀ' together.\n5. Complete the worksheet.\n6. Preview tomorrow's full-sentence lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just one pair (ਵੱਡਾ/ਵੱਡੀ) until it's solid before introducing the other two",
+      "Ready for more: ask the child to describe a real pet or toy using one of today's new words",
+      "The gender-matching pattern (dog=ਦਾ ending, cat=ਦੀ ending) directly reinforces last week's verb-gender pattern — point out the connection explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a vocabulary-acquisition activity — check that the child can correctly trace/write all 5 new words (3 describing words, 2 animal nouns) and say 'ਵੱਡਾ ਕੁੱਤਾ' and 'ਛੋਟੀ ਬਿੱਲੀ' correctly.",
+    "standardsRationale": "Continues building sentences and common vocabulary per the course's description, adding describing words as a genuinely new grammatical building block beyond last week's nouns/verbs."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-2-2-1",
+    "lessonId": "lesson-punjabi-2-2-1",
+    "title": "Describing Words: Big, Small, and Beautiful",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each word, then copy it once on your own.",
+      "rows": [
+        { "trace": "ਵੱਡਾ", "label": "big (for a ਦਾ word)" },
+        { "trace": "ਛੋਟੀ", "label": "small (for a ਦੀ word)" },
+        { "trace": "ਸੋਹਣਾ", "label": "beautiful/nice (for a ਦਾ word)" },
+        { "trace": "ਕੁੱਤਾ", "label": "dog" },
+        { "trace": "ਬਿੱਲੀ", "label": "cat" }
+      ]
+    }
+  }
+}

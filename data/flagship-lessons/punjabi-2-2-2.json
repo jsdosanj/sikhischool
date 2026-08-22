@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-2-2",
+    "courseId": "course-punjabi-2",
+    "order": 2,
+    "title": "Describing Words, More Verbs, and a Longer Story",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-2-2-2",
+    "unitId": "unit-punjabi-2-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Building Sentences with Describing Words",
+    "gradeLevel": "2",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਕੱਲ੍ਹ ਤੁਸੀਂ ਨਵੇਂ ਸ਼ਬਦ ਸਿੱਖੇ। ਅੱਜ ਉਹਨਾਂ ਨੂੰ ਪੂਰੇ ਵਾਕਾਂ ਵਿੱਚ ਵਰਤੋ! (Yesterday you learned new words. Today, use them in full sentences!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Add a describing word into last week's 'who + action' pattern: 'ਵੱਡਾ ਕੁੱਤਾ ਦੌੜਦਾ ਹੈ' (the big dog runs). 'ਛੋਟੀ ਬਿੱਲੀ ਸੋਹਣੀ ਹੈ' (the small cat is beautiful). Notice ਦੌੜਦਾ (runs) is a new verb — ਦੌੜਨਾ means 'to run.' Build your own sentence: pick ਕੁੱਤਾ or ਬਿੱਲੀ, add ਵੱਡਾ/ਵੱਡੀ or ਛੋਟਾ/ਛੋਟੀ, and say if it runs (ਦੌੜਦਾ/ਦੌੜਦੀ)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਵਰਣਨਾਤਮਕ ਸ਼ਬਦਾਂ ਨਾਲ ਵਾਕ ਬਣਾਏ! (You just built sentences with describing words!) Tomorrow we'll learn two more new verbs."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-2-2-2",
+    "lessonId": "lesson-punjabi-2-2-2",
+    "objectives": [
+      "Combine a describing word with a noun and a verb into one complete sentence",
+      "Introduce the new verb ਦੌੜਨਾ (to run) in context"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's describing words and animal nouns.\n2. Model the two example sentences together, pointing out gender agreement across all three words.\n3. Have the child build and say their own describing-word sentence.\n4. Complete the worksheet.\n5. Preview tomorrow's two new verbs.",
+    "differentiationTips": [
+      "Struggling: build the sentence one word at a time (noun, then describing word, then verb) rather than all at once",
+      "Ready for more: ask the child to build a second sentence using the other animal noun",
+      "Gender agreement across three words (noun-adjective-verb) is the hardest part of this lesson — model it explicitly and don't rush past it"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended sentence-building activity — check that the child's sentence correctly matches gender across the noun, describing word, and verb (e.g., ਵੱਡਾ ਕੁੱਤਾ ਦੌੜਦਾ ਹੈ, all masculine forms).",
+    "standardsRationale": "Directly addresses the course's 'building sentences' goal, extending last week's who+action pattern with a describing word — a genuine step up in sentence complexity."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-2-2-2",
+    "lessonId": "lesson-punjabi-2-2-2",
+    "title": "Building Sentences with Describing Words",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your own sentence using a describing word, an animal, and a verb.",
+      "prompts": [
+        { "prompt": "My sentence (in Gurmukhi):", "lines": 2 }
+      ]
+    }
+  }
+}

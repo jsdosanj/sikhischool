@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-1-2",
+    "courseId": "course-math-1",
+    "order": 2,
+    "title": "Understanding Tens and Ones",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-1-2-4",
+    "unitId": "unit-math-1-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Adding a Two-Digit and a One-Digit Number",
+    "gradeLevel": "1",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can break numbers apart and compare them. Today: use tens and ones to add a bigger number and a smaller number together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "To add a two-digit number and a one-digit number, keep the tens the same and just add to the ones. For example, 23 + 5: the '2 tens' stays put, and you just add 3 ones + 5 ones = 8 ones, giving 28. Try 41 + 6: keep the 4 tens, add 1 one + 6 ones = 7 ones, giving 47. Solve 35 + 3 and 62 + 7 the same way."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just added two-digit numbers using your tens and ones understanding! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-1-2-4",
+    "lessonId": "lesson-math-1-2-4",
+    "objectives": [
+      "Add a two-digit number and a one-digit number by keeping the tens constant and adding the ones",
+      "Solve two-digit-plus-one-digit addition problems without regrouping"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review comparing two-digit numbers from yesterday.\n2. Introduce the tens-stay-put, ones-add strategy using 23+5.\n3. Practice 41+6 together.\n4. Have the child solve 35+3 and 62+7 independently.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: use physical ten-bundles and loose ones objects to model each addition problem concretely",
+      "Ready for more: ask the child what would happen if the ones added up to 10 or more (a preview of regrouping, saved for a future lesson)",
+      "This lesson deliberately avoids regrouping (carrying) — every problem is designed so the ones sum stays under 10"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "35 + 3 = 38 (3 tens + 8 ones). 62 + 7 = 69 (6 tens + 9 ones).",
+    "standardsRationale": "Directly addresses Common Core Grade 1 standard 1.NBT.4: adding within 100 using concrete models and strategies based on place value, without regrouping."
+  },
+  "worksheet": {
+    "id": "worksheet-math-1-2-4",
+    "lessonId": "lesson-math-1-2-4",
+    "title": "Adding a Two-Digit and a One-Digit Number",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each addition problem using tens and ones.",
+      "rows": [
+        { "problem": "35 + 3 = ?" },
+        { "problem": "62 + 7 = ?" },
+        { "problem": "24 + 4 = ?" }
+      ]
+    }
+  }
+}

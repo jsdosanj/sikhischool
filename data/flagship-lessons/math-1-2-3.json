@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-1-2",
+    "courseId": "course-math-1",
+    "order": 2,
+    "title": "Understanding Tens and Ones",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-1-2-3",
+    "unitId": "unit-math-1-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Comparing Two-Digit Numbers",
+    "gradeLevel": "1",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can break numbers into tens and ones. Today: use that skill to quickly compare which of two numbers is bigger."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "To compare two-digit numbers, look at the tens digit first — more tens always means a bigger number. For example, comparing 34 and 29: 34 has 3 tens, 29 has 2 tens, so 34 is bigger, even though 9 (in the ones place) looks like a big digit. Only if the tens digits are equal do you compare the ones digit. Compare 52 and 58: both have 5 tens, so compare ones — 8 is more than 2, so 58 is bigger. Compare 41 and 14, explaining which is bigger and why."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have a real strategy for comparing two-digit numbers — check tens first, then ones only if needed! Tomorrow we'll use tens and ones to add numbers."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-1-2-3",
+    "lessonId": "lesson-math-1-2-3",
+    "objectives": [
+      "Compare two two-digit numbers by comparing tens digits first, then ones digits if needed",
+      "Explain why the tens digit matters more than the ones digit when comparing"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's tens/ones breakdown.\n2. Introduce the tens-first comparison strategy using 34 vs. 29.\n3. Practice a same-tens comparison (52 vs. 58).\n4. Have the child compare 41 and 14 independently, explaining their reasoning.\n5. Complete the worksheet.\n6. Close by comparing two numbers the child picks themselves.",
+    "differentiationTips": [
+      "Struggling: physically bundle both numbers into tens and ones objects before comparing, rather than working from written digits alone",
+      "Ready for more: ask the child to find a number between two given numbers (e.g., between 34 and 41)",
+      "The 41-vs-14 example is deliberately chosen — same digits, different order, very different values, a common early misconception worth addressing directly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "41 is bigger than 14, because 41 has 4 tens while 14 has only 1 ten — even though both numbers use the same two digits.",
+    "standardsRationale": "Directly addresses Common Core Grade 1 standard 1.NBT.3: comparing two two-digit numbers based on the meanings of the tens and ones digits, applying yesterday's place-value breakdown skill."
+  },
+  "worksheet": {
+    "id": "worksheet-math-1-2-3",
+    "lessonId": "lesson-math-1-2-3",
+    "title": "Comparing Two-Digit Numbers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each pair, write which number is bigger and explain why.",
+      "rows": [
+        { "problem": "34 and 29 — which is bigger?" },
+        { "problem": "52 and 58 — which is bigger?" },
+        { "problem": "41 and 14 — which is bigger, and why?" }
+      ]
+    }
+  }
+}

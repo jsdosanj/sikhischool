@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-1-2",
+    "courseId": "course-math-1",
+    "order": 2,
+    "title": "Understanding Tens and Ones",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-math-1-2-2",
+    "unitId": "unit-math-1-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Reading Two-Digit Numbers as Tens and Ones",
+    "gradeLevel": "1",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you bundled real objects into tens. Today: read any written two-digit number and know its tens and ones instantly!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "In a two-digit number, the first digit tells you how many tens, and the second digit tells you how many ones. For example, in 23: the '2' means 2 tens (20), and the '3' means 3 ones. So 23 = 2 tens + 3 ones. Try this with 47: the '4' means 4 tens (40), and the '7' means 7 ones, so 47 = 4 tens + 7 ones. Break down the numbers 15 and 38 into tens and ones the same way."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now break down any two-digit number into tens and ones just by looking at its digits! Tomorrow we'll use this to compare numbers."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-1-2-2",
+    "lessonId": "lesson-math-1-2-2",
+    "objectives": [
+      "Identify the tens digit and ones digit in a two-digit number",
+      "Break down a written two-digit number into its tens and ones value"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's physical ten-bundling.\n2. Introduce reading a written two-digit number's tens digit and ones digit, using 23 and 47 as examples.\n3. Have the child break down 15 and 38 the same way.\n4. Complete the worksheet.\n5. Close by picking a random two-digit number and breaking it down together.",
+    "differentiationTips": [
+      "Struggling: connect every written number back to physical bundles (like yesterday's) before working abstractly",
+      "Ready for more: ask the child to write a two-digit number given its tens and ones (e.g., '3 tens and 6 ones' → 36)",
+      "This is the key abstraction step from yesterday's concrete bundling — take real time here before moving to comparison tomorrow"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "15 = 1 ten + 5 ones. 38 = 3 tens + 8 ones.",
+    "standardsRationale": "Directly addresses Common Core Grade 1 standard 1.NBT.2, connecting yesterday's concrete object-bundling to the abstract written-numeral representation."
+  },
+  "worksheet": {
+    "id": "worksheet-math-1-2-2",
+    "lessonId": "lesson-math-1-2-2",
+    "title": "Reading Two-Digit Numbers as Tens and Ones",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Break down each number into tens and ones.",
+      "rows": [
+        { "problem": "15 = ___ tens + ___ ones" },
+        { "problem": "38 = ___ tens + ___ ones" },
+        { "problem": "24 = ___ tens + ___ ones" }
+      ]
+    }
+  }
+}

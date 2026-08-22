@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-7-2",
+    "courseId": "course-sikhi-7",
+    "order": 2,
+    "title": "Identity, Community, and Resilience",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-7-2-2",
+    "unitId": "unit-sikhi-7-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Identity as an Act of Resilience",
+    "gradeLevel": "7",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned what resilience means. Today: see how identity itself can be a form of resilience!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Remember the Five Ks from last week — a visible, shared identity every member of the Khalsa carries. Choosing to maintain a visible identity, openly and consistently, even when it might invite curiosity or difficulty from others, is itself a real act of resilience. It means staying true to who you are rather than hiding it. Explain in your own words why keeping a visible identity can take real courage."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected identity to resilience! Tomorrow we'll learn how community adds another layer of strength."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-7-2-2",
+    "lessonId": "lesson-sikhi-7-2-2",
+    "objectives": [
+      "Connect yesterday's resilience concept to maintaining a visible personal or community identity",
+      "Explain why keeping a visible identity can require real courage"
+    ],
+    "materialsNeeded": ["Last week's Five Ks worksheet", "Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's resilience concept and last week's Five Ks.\n2. Discuss how maintaining a visible identity connects to resilience.\n3. Have the child explain the courage involved in their own words.\n4. Complete the worksheet.\n5. Preview tomorrow's community lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple relatable analogy — wearing a team jersey proudly even somewhere it's less common — to make the concept concrete",
+      "Ready for more: ask the child to think of another group (of any kind) whose visible identity also represents a form of quiet resilience",
+      "Kept deliberately general — this lesson connects identity to resilience as a concept, without describing specific historical persecution events, which are reserved for future, more carefully sourced lessons"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child gives a genuine explanation connecting visible identity to courage and staying true to oneself, even when it might draw attention or questions.",
+    "standardsRationale": "Directly addresses the course's 'Sikh identity' and 'resilience' descriptions together, connecting last week's Five Ks content to this week's resilience thread."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-7-2-2",
+    "lessonId": "lesson-sikhi-7-2-2",
+    "title": "Identity as an Act of Resilience",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain why keeping a visible identity can take real courage.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

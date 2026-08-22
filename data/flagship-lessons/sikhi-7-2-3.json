@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-sikhi-7-2",
+    "courseId": "course-sikhi-7",
+    "order": 2,
+    "title": "Identity, Community, and Resilience",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-7-2-3",
+    "unitId": "unit-sikhi-7-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Community as a Source of Strength",
+    "gradeLevel": "7",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've connected identity and resilience. Today: see how community adds another layer of strength!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Sangat (community) and Gurdwara have long served as real anchors of support — places where people gather, share Langar, and find belonging together, especially during difficult times. Resilience is rarely just an individual effort; it's strengthened by a community that shows up for its members. Explain how a place like a Gurdwara, where people regularly gather and share a meal together, might help a community stay resilient."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned how community strengthens resilience! Tomorrow we'll reflect on how this continues today."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-7-2-3",
+    "lessonId": "lesson-sikhi-7-2-3",
+    "objectives": [
+      "Explain the Sangat and Gurdwara's role as a community support anchor",
+      "Connect regular community gathering to collective resilience"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's resilience and identity content.\n2. Introduce the Sangat/Gurdwara as a community-support anchor.\n3. Have the child explain the connection to resilience.\n4. Complete the worksheet.\n5. Preview tomorrow's modern-reflection lesson.",
+    "differentiationTips": [
+      "Struggling: connect to a familiar example — a family or neighborhood gathering regularly for support — before the Gurdwara-specific example",
+      "Ready for more: ask the child how Langar specifically (not just gathering generally) might build resilience, connecting to earlier grades' Langar content",
+      "Kept deliberately general and safe — focused on community support as a positive resilience mechanism, not on describing specific historical hardships"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a reflection activity — check that the child explains regular community gathering (like at a Gurdwara) provides mutual support, belonging, and shared strength, all contributing to resilience.",
+    "standardsRationale": "Directly addresses the course's 'resilience' description, connecting it to real, well-established Sikh community institutions already familiar from earlier grades."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-7-2-3",
+    "lessonId": "lesson-sikhi-7-2-3",
+    "title": "Community as a Source of Strength",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Explain how a place like a Gurdwara might help a community stay resilient.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

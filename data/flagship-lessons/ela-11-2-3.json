@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-11-2",
+    "courseId": "course-ela-11",
+    "order": 2,
+    "title": "Advanced Rhetorical Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-11-2-3",
+    "unitId": "unit-ela-11-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "How Appeals Work Together",
+    "gradeLevel": "11",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned structure and audience adaptation. Today: how ethos, pathos, and logos combine in one passage!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Skilled rhetoric rarely uses just one appeal in isolation — appeals often reinforce each other within the same passage. Read this excerpt: 'As someone who has volunteered at three community gardens over the past five years, I've seen the data firsthand: gardens like this one reduce neighborhood food costs by up to 30 percent. But more than the numbers, I've watched neighbors who'd never spoken become close friends over shared soil.' Identify where this passage uses ethos, logos, and pathos, and explain how the three appeals work together rather than separately."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified how multiple appeals reinforce each other! Tomorrow we'll write a complete analysis of a full passage."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-11-2-3",
+    "lessonId": "lesson-ela-11-2-3",
+    "objectives": [
+      "Identify ethos, logos, and pathos within one combined passage",
+      "Explain how the three appeals reinforce each other rather than functioning separately"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's structure and audience-adaptation work.\n2. Read the combined-appeals passage together and model identifying each appeal.\n3. Have the child explain how they reinforce each other.\n4. Complete the worksheet.\n5. Preview tomorrow's complete-analysis lesson.",
+    "differentiationTips": [
+      "Struggling: identify each appeal one at a time first (underline the ethos part, then logos, then pathos) before asking how they work together",
+      "Ready for more: ask the child to rewrite the passage using only ONE appeal, and compare how much less convincing it feels",
+      "This connects directly back to Grade 9's foundational ethos-pathos-logos content, applying it at a genuinely more sophisticated combined level"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Ethos appears in 'someone who has volunteered at three community gardens over the past five years' (establishing credibility through experience). Logos appears in 'reduce neighborhood food costs by up to 30 percent' (a specific statistic). Pathos appears in 'neighbors who'd never spoken become close friends' (an emotional, relatable image). The three work together because the credible speaker (ethos) makes the statistic (logos) more trustworthy, and the emotional image (pathos) makes the whole argument more memorable and personally meaningful than the statistic alone.",
+    "standardsRationale": "Directly addresses Common Core Grade 11-12 RI.11-12.6: analyzing how a speaker's rhetorical choices contribute to persuasive power, continuing this week's advanced-rhetorical-analysis thread."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-11-2-3",
+    "lessonId": "lesson-ela-11-2-3",
+    "title": "How Appeals Work Together",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Identify each appeal in the passage and explain how they work together.",
+      "prompts": [
+        { "prompt": "Where is ethos, logos, and pathos in the passage?", "lines": 3 },
+        { "prompt": "How do the three appeals work together?", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-11-1",
+    "courseId": "course-math-11",
+    "order": 1,
+    "title": "Quadratic Functions and Equations",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-11-1-5",
+    "unitId": "unit-math-11-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Quadratic Functions and Equations",
+    "gradeLevel": "11",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you moved from graphing parabolas to solving quadratic equations two different ways. Let's put it all together on one new function."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: vertex form y=a(x-h)^2+k shows the vertex (h,k) directly (Day 1). Standard form y=ax^2+bx+c requires x=-b/(2a) to find the vertex (Day 2). Factoring solves a quadratic equation using the zero product property when it factors nicely (Day 3). The quadratic formula, x=(-b±√(b^2-4ac))/(2a), solves any quadratic equation, and the discriminant predicts how many real solutions to expect (Day 4). For y = 2x^2 - 4x - 6: find the vertex, then solve 2x^2 - 4x - 6 = 0 using whichever method you prefer (factoring or the quadratic formula), and state which method you chose and why."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you can now graph, analyze, and solve quadratic functions using multiple methods, foundational skills for the rest of this Algebra 2 course."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-11-1-5",
+    "lessonId": "lesson-math-11-1-5",
+    "objectives": [
+      "Find a quadratic function's vertex from standard form",
+      "Solve a quadratic equation using either factoring or the quadratic formula, and justify the method chosen"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child find the vertex of y=2x^2-4x-6 independently.\n3. Have the child solve 2x^2-4x-6=0, choosing their own method.\n4. Complete the cumulative review worksheet.\n5. Discuss any mismatches or uncertain answers together before finishing.\n6. Celebrate finishing the first full week of Algebra 2 — these methods will reappear constantly throughout the course.",
+    "differentiationTips": [
+      "Struggling: allow the child to use the quadratic formula for every equation, even ones that factor nicely, as one consistent reliable method",
+      "Ready for more: ask them to solve 2x^2-4x-6=0 using BOTH methods and confirm they give the same answer",
+      "This is a good checkpoint to note which part of the quadratic-function chain (graphing, standard-form vertex, factoring, or the formula) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "For y=2x^2-4x-6: a=2, b=-4, c=-6. Vertex x-coordinate: -(-4)/(2×2)=1. Vertex y-coordinate: 2(1)^2-4(1)-6=-8. Vertex: (1,-8). Solving 2x^2-4x-6=0: factors to 2(x-3)(x+1)=0, giving x=3 or x=-1 (the quadratic formula gives the same result, since the discriminant is 64, a perfect square).",
+    "standardsRationale": "Consolidates Common Core Algebra 2 standards F-IF.7a/F-IF.8a/A-REI.4a-b (graphing, vertex-finding, and solving quadratics via factoring and the formula) before the unit moves to complex numbers and further quadratic applications, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-11-1-5",
+    "lessonId": "lesson-math-11-1-5",
+    "title": "Quadratic Functions and Equations: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For y = 2x^2 - 4x - 6, answer each question.",
+      "rows": [
+        { "problem": "Find the vertex." },
+        { "problem": "Solve 2x^2 - 4x - 6 = 0." },
+        { "problem": "Which method did you use to solve it, and why?" }
+      ]
+    }
+  }
+}

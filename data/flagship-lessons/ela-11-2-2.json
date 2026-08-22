@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-11-2",
+    "courseId": "course-ela-11",
+    "order": 2,
+    "title": "Advanced Rhetorical Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-11-2-2",
+    "unitId": "unit-ela-11-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Audience Adaptation",
+    "gradeLevel": "11",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned rhetorical structure. Today: how a skilled speaker adapts to their specific audience!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A skilled speaker tailors their rhetorical choices to their specific audience's values and concerns, rather than using the exact same appeal for everyone. The same community garden proposal might emphasize cost savings and property values to a city budget committee, but emphasize community bonding and feeding hungry families to a group of concerned neighbors. Write two different one-sentence openings for the SAME community garden proposal: one aimed at a city budget committee, one aimed at concerned neighbors."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just adapted rhetoric to two different audiences! Tomorrow we'll see how multiple appeals work together in one passage."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-11-2-2",
+    "lessonId": "lesson-ela-11-2-2",
+    "objectives": [
+      "Understand audience adaptation as tailoring rhetorical choices to a specific audience's values",
+      "Write two genuinely different openings for the same proposal, aimed at two different audiences"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's rhetorical-structure work briefly.\n2. Introduce audience adaptation using the budget-committee vs. neighbors example.\n3. Have the child write two different openings for the two audiences.\n4. Complete the worksheet.\n5. Preview tomorrow's combined-appeals lesson.",
+    "differentiationTips": [
+      "Struggling: brainstorm what each audience likely cares most about (budget committee: money/practicality; neighbors: community/daily life) before drafting the openings",
+      "Ready for more: ask the child to identify a third possible audience for this same proposal, and what that audience would likely care about",
+      "This is a genuinely practical rhetorical skill directly useful for the child's own future persuasive writing, in any context"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the two openings are genuinely different in emphasis, with the budget-committee version leading on cost/practicality and the neighbors version leading on community/emotional connection, both about the same underlying proposal.",
+    "standardsRationale": "Directly addresses Common Core Grade 11-12 RI.11-12.6/W.11-12.4: adapting writing for different audiences and purposes, continuing this week's advanced-rhetorical-analysis thread."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-11-2-2",
+    "lessonId": "lesson-ela-11-2-2",
+    "title": "Audience Adaptation",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write two different openings for two different audiences.",
+      "prompts": [
+        { "prompt": "Opening for a city budget committee:", "lines": 1 },
+        { "prompt": "Opening for concerned neighbors:", "lines": 1 }
+      ]
+    }
+  }
+}

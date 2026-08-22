@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-11-2",
+    "courseId": "course-ela-11",
+    "order": 2,
+    "title": "Advanced Rhetorical Analysis",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-11-2-1",
+    "unitId": "unit-ela-11-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Rhetorical Structure: Building to a Climax",
+    "gradeLevel": "11",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you built research skills. This week: advanced rhetorical analysis, going beyond Grade 9's ethos-pathos-logos basics!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Beyond WHAT appeals a speaker uses (ethos, pathos, logos, from Grade 9), skilled rhetoric also depends on rhetorical structure: the ORDER ideas are presented in. A common effective structure builds toward a climax, saving the strongest, most emotionally resonant point for last, rather than opening with it. Read these two orderings of the same three points about a community garden proposal: Ordering A (cost savings, community bonding, feeding hungry families) vs. Ordering B (feeding hungry families, cost savings, community bonding). Explain which ordering builds more effectively toward a climax, and why."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just analyzed rhetorical structure for the first time! Tomorrow we'll learn how speakers adapt their rhetoric to a specific audience."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-11-2-1",
+    "lessonId": "lesson-ela-11-2-1",
+    "objectives": [
+      "Understand rhetorical structure as the strategic ordering of ideas, distinct from WHAT appeals are used",
+      "Identify which ordering builds more effectively toward an emotional climax, with reasoning"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review Grade 9's ethos-pathos-logos content briefly.\n2. Introduce rhetorical structure and the build-to-a-climax pattern.\n3. Have the child compare the two orderings and explain which builds better.\n4. Complete the worksheet.\n5. Preview tomorrow's audience-adaptation lesson.",
+    "differentiationTips": [
+      "Struggling: ask the child which of the three points (cost savings, bonding, feeding hungry families) feels most emotionally powerful on its own, before asking about ordering",
+      "Ready for more: ask the child to think of a different, original three-point argument and decide which point they would save for last, and why",
+      "Opens this week's advanced-rhetorical-analysis thread, deliberately going beyond Grade 9's WHAT-appeals-are-used content into HOW ideas are arranged"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Ordering B builds more effectively toward a climax, since it saves 'feeding hungry families' — the most emotionally resonant point — for last, letting the argument end on its strongest, most memorable note, rather than opening with it and having the rest of the speech feel like a letdown by comparison.",
+    "standardsRationale": "Directly addresses Common Core Grade 11-12 RI.11-12.6: analyzing how style and content contribute to the power/persuasiveness of a text, opening this week's advanced-rhetorical-analysis thread."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-11-2-1",
+    "lessonId": "lesson-ela-11-2-1",
+    "title": "Rhetorical Structure: Building to a Climax",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Answer each question about rhetorical structure.",
+      "prompts": [
+        { "prompt": "Which ordering (A or B) builds more effectively toward a climax?", "lines": 1 },
+        { "prompt": "Explain your reasoning.", "lines": 2 }
+      ]
+    }
+  }
+}

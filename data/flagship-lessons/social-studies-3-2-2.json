@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-3-2",
+    "courseId": "course-social-studies-3",
+    "order": 2,
+    "title": "Reading a World Map",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-3-2-2",
+    "unitId": "unit-social-studies-3-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Finding Punjab on the Map",
+    "gradeLevel": "3",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned the continents and oceans. Today, use that to find Punjab, which you learned about last week!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Remember from last week: Punjab is in South Asia, divided between India and Pakistan. South Asia is part of the continent of Asia. On a world map, find Asia, then find the region of South Asia within it. Compare: how far is Punjab from your own community? Would you travel across an ocean to get there, or stay on the same continent?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just located Punjab on a real world map using continents! Tomorrow we'll learn how to read map symbols and directions."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-3-2-2",
+    "lessonId": "lesson-social-studies-3-2-2",
+    "objectives": [
+      "Locate Punjab within South Asia, within the continent of Asia, on a world map",
+      "Compare the location of Punjab to the child's own community using continents"
+    ],
+    "materialsNeeded": ["A world map or globe", "Last week's Punjab worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's continents/oceans work and last week's Punjab facts.\n2. Locate Asia, then South Asia, then Punjab together on the map.\n3. Discuss the distance/travel-route comparison question.\n4. Complete the worksheet.\n5. Preview tomorrow's map-symbols lesson.",
+    "differentiationTips": [
+      "Struggling: use a simplified map showing just the 7 continents, without smaller country borders, to locate the general region first",
+      "Ready for more: ask the child to trace a possible travel route from their own community to Punjab, naming any oceans or continents crossed",
+      "This lesson deliberately connects last week's culture-focused Punjab content to this week's map-skills focus — point out that connection explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a map-location activity — check that the child correctly points to South Asia within Asia and can explain whether reaching Punjab from their own community requires crossing an ocean.",
+    "standardsRationale": "Directly addresses the C3 Framework's Geography dimension, applying this week's continent/ocean vocabulary to locate a real place already studied, reinforcing both weeks together."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-3-2-2",
+    "lessonId": "lesson-social-studies-3-2-2",
+    "title": "Finding Punjab on the Map",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using a world map.",
+      "rows": [
+        { "problem": "What continent is Punjab located on?" },
+        { "problem": "What region of that continent is Punjab in?" },
+        { "problem": "Would you cross an ocean to travel from your community to Punjab?" }
+      ]
+    }
+  }
+}

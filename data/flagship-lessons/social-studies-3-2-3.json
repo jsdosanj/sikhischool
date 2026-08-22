@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-3-2",
+    "courseId": "course-social-studies-3",
+    "order": 2,
+    "title": "Reading a World Map",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-3-2-3",
+    "unitId": "unit-social-studies-3-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Map Symbols and Directions",
+    "gradeLevel": "3",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've located continents and Punjab. Today: learn to read map symbols and directions like a real mapmaker!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A map key (or legend) explains what each symbol on a map means, like a blue line for a river or a green square for a park. A compass rose shows the four cardinal directions: North, South, East, and West. Together, they let you describe exactly where something is, like 'the park is north of the school.' Draw a simple map of your own neighborhood or home with 3 symbols, a map key explaining them, and a compass rose."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just made your own map with real symbols and directions! Tomorrow we'll learn how climate shapes communities around the world."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-3-2-3",
+    "lessonId": "lesson-social-studies-3-2-3",
+    "objectives": [
+      "Explain the purpose of a map key/legend and a compass rose",
+      "Draw a simple original map with symbols, a key, and a compass rose"
+    ],
+    "materialsNeeded": ["Paper for drawing a map", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review this week's continents/Punjab work briefly.\n2. Introduce the map key and compass rose with real examples.\n3. Have the child draw their own simple map with 3 symbols, a key, and a compass rose.\n4. Complete the worksheet.\n5. Preview tomorrow's climate-and-communities lesson.",
+    "differentiationTips": [
+      "Struggling: provide 3 pre-chosen symbols to include (like a tree, a house, a road) rather than requiring the child to invent them",
+      "Ready for more: ask the child to write a direction using their map, like 'the tree is west of the house'",
+      "This is a genuinely fun, creative lesson — let the child's own neighborhood or home layout guide the map, making it personally meaningful"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a creative map-making activity — check that the child's map includes at least 3 symbols, a key explaining each one, and a labeled compass rose with all 4 directions.",
+    "standardsRationale": "Directly addresses the C3 Framework's Geography dimension (map skills: symbols, keys, direction), a genuinely new map-literacy skill beyond last week's community/culture focus."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-3-2-3",
+    "lessonId": "lesson-social-studies-3-2-3",
+    "title": "Map Symbols and Directions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Draw your own simple map, then answer the questions.",
+      "rows": [
+        { "problem": "Draw a map with 3 symbols and a key explaining what each one means." },
+        { "problem": "Draw and label a compass rose with all 4 directions on your map." },
+        { "problem": "Write one sentence describing where something is using a direction word (like north or east)." }
+      ]
+    }
+  }
+}

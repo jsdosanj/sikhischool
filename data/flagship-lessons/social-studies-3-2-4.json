@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-3-2",
+    "courseId": "course-social-studies-3",
+    "order": 2,
+    "title": "Reading a World Map",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-3-2-4",
+    "unitId": "unit-social-studies-3-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "How Climate Shapes Communities",
+    "gradeLevel": "3",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've learned to read maps. Today: use that to understand why communities around the world look so different!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A place's climate — how hot, cold, wet, or dry it usually is — shapes how the community living there builds homes, grows food, and dresses, connecting back to last week's community framework (people, environment, traditions). A community in a very cold, snowy climate needs homes built to hold in heat and warm clothing, while a community in a hot, dry climate needs homes that stay cool and clothing that protects from strong sun. Describe how you think climate shapes homes or clothing where you live."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected climate to how communities live around the world! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-3-2-4",
+    "lessonId": "lesson-social-studies-3-2-4",
+    "objectives": [
+      "Explain that climate influences how communities build homes and choose clothing",
+      "Describe how the child's own local climate shapes homes or clothing in their community"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's map-skills work.\n2. Introduce the climate-shapes-communities idea using the cold/hot climate examples, connecting back to last week's people/environment/traditions framework.\n3. Have the child describe their own local climate's effect on homes or clothing.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just clothing (a very concrete, personally-experienced example) rather than requiring both homes and clothing",
+      "Ready for more: ask the child to describe how climate might also affect what food a community grows or eats",
+      "Kept deliberately general — describing climate's effects broadly rather than naming or characterizing specific real communities or ethnic groups, per the platform's content-sensitivity discipline"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended reflection activity — check that the child gives a genuine, locally-grounded example of how climate shapes homes or clothing where they live.",
+    "standardsRationale": "Directly addresses the C3 Framework's Geography dimension (human-environment interaction) at a Grade 3 level, connecting this week's map skills back to last week's community-framework content."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-3-2-4",
+    "lessonId": "lesson-social-studies-3-2-4",
+    "title": "How Climate Shapes Communities",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Describe how climate shapes homes or clothing where you live.",
+      "prompts": [
+        { "prompt": "My answer:", "lines": 3 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-3-2",
+    "courseId": "course-social-studies-3",
+    "order": 2,
+    "title": "Reading a World Map",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-3-2-5",
+    "unitId": "unit-social-studies-3-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Reading a World Map",
+    "gradeLevel": "3",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned to read a world map. Let's review it all!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: there are 7 continents and 5 oceans (Day 1). Punjab is in South Asia, part of Asia (Day 2). A map key and compass rose help you read any map (Day 3). Climate shapes how communities live (Day 4). Name your continent, locate Punjab's continent, and explain one map symbol from your own map."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you learned real map-reading skills and how climate shapes communities! Next week we'll explore something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-3-2-5",
+    "lessonId": "lesson-social-studies-3-2-5",
+    "objectives": [
+      "Review continents/oceans, locating Punjab, map symbols/directions, and climate's effect on communities",
+      "Apply this week's map skills to answer 3 review questions"
+    ],
+    "materialsNeeded": ["This week's worksheets", "A world map or globe", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child name their continent and locate Punjab's continent on a map.\n3. Have the child explain one symbol from their own map.\n4. Complete the review worksheet.\n5. Celebrate finishing a full week of world map-reading skills!",
+    "differentiationTips": [
+      "Struggling: focus on just the continents/oceans recall, the most foundational skill this week builds on",
+      "Ready for more: ask the child to connect this week's map skills back to last week's Punjab-geography content in one sentence",
+      "This is a good checkpoint to note which of the week's map skills needs the most reinforcement before the next Social Studies unit"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and review activity — check that the child correctly names their own continent, correctly identifies Asia as Punjab's continent, and can explain one real symbol from their own Day 3 map.",
+    "standardsRationale": "Consolidates this week's C3 Framework Geography dimension content before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-3-2-5",
+    "lessonId": "lesson-social-studies-3-2-5",
+    "title": "Review: Reading a World Map",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What continent do you live on?" },
+        { "problem": "What continent is Punjab on?" },
+        { "problem": "Explain one symbol from your own map, and what it means." }
+      ]
+    }
+  }
+}

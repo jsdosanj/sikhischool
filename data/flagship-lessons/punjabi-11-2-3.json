@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-punjabi-11-2",
+    "courseId": "course-punjabi-11",
+    "order": 2,
+    "title": "Advanced Composition: Opinion Writing (ਵਿਚਾਰ)",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-11-2-3",
+    "unitId": "unit-punjabi-11-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Supporting Your Stance with ਦਲੀਲ (Reasoning)",
+    "gradeLevel": "11",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've built a clear stance. Today: support it with real reasoning!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong ਪੱਖ needs ਦਲੀਲ (reasoning/argument) to support it — a stance without reasoning is just an unsupported claim. Good ਦਲੀਲ gives specific ਕਾਰਨ (reasons) a ਪਾਠਕ (reader) can actually consider and evaluate, not just a repeated version of the stance itself. Using yesterday's stance, write two specific ਕਾਰਨ (reasons) that support it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just added real reasoning to your stance! Tomorrow we'll write a complete opinion piece with a call to action."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-11-2-3",
+    "lessonId": "lesson-punjabi-11-2-3",
+    "objectives": [
+      "Understand ਦਲੀਲ (reasoning) as specific, evaluable support for a stance",
+      "Write two specific reasons supporting yesterday's stance"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's stance-writing work briefly.\n2. Introduce ਦਲੀਲ as specific, evaluable reasoning, distinct from just repeating the stance.\n3. Have the child write two reasons supporting their stance.\n4. Complete the worksheet.\n5. Preview tomorrow's complete-piece lesson.",
+    "differentiationTips": [
+      "Struggling: model one reason for a simple shared example stance first (more recess time helps students focus better afterward) before asking for independent reasons",
+      "Ready for more: ask the child to think of one possible objection a reader might raise, and how they might respond to it",
+      "This is real, practical persuasive-writing craft directly reusable for the child's own future advocacy or opinion writing"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that both reasons are specific and genuinely support the stance (not just restating it), giving a reader something real to consider.",
+    "standardsRationale": "Directly addresses this course's advanced-composition thread, teaching the reasoning skill that makes a stance genuinely persuasive rather than a bare assertion."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-11-2-3",
+    "lessonId": "lesson-punjabi-11-2-3",
+    "title": "Supporting Your Stance with ਦਲੀਲ (Reasoning)",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write two reasons supporting your stance.",
+      "prompts": [
+        { "prompt": "Reason 1:", "lines": 1 },
+        { "prompt": "Reason 2:", "lines": 1 }
+      ]
+    }
+  }
+}

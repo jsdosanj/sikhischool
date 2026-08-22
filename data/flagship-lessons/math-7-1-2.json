@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-7-1",
+    "courseId": "course-math-7",
+    "order": 1,
+    "title": "Proportional Relationships",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-7-1-2",
+    "unitId": "unit-math-7-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Equations for Proportional Relationships",
+    "gradeLevel": "7",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you identified proportional relationships in tables. Today, write them as a real equation you can use to find any value instantly."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Every proportional relationship can be written as y = kx, where k is the constant of proportionality — the same thing as the unit rate from yesterday. To find k, pick any pair from the table and divide y by x. If a table shows x=2, y=8, then k = 8÷2 = 4, so the equation is y = 4x. Once you have the equation, you can find y for ANY x without building a whole table — for x=5, y = 4×5 = 20. Find the equation for a relationship where x=3 gives y=12."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just wrote a real equation for a proportional relationship and used it to find a new value instantly. Tomorrow we'll interpret what points on a graph of this relationship actually mean."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-7-1-2",
+    "lessonId": "lesson-math-7-1-2",
+    "objectives": [
+      "Write the equation y = kx for a proportional relationship, finding k from a table",
+      "Use the equation to find a new value without building a full table"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's table-based proportional relationship check.\n2. Work through finding k and writing y=4x for the x=2,y=8 example.\n3. Have the child find the equation for x=3,y=12 independently.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: interpreting graph points.",
+    "differentiationTips": [
+      "Struggling: always compute k as y-divided-by-x using the same pair from the table before writing the equation",
+      "Ready for more: ask them to verify their equation works for a second pair from the same table, not just the one they used to find k",
+      "Explicitly connect k to yesterday's 'unit rate' language — same concept, new symbolic name"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. For x=2,y=8: k=4, equation y=4x. 2. y=4x at x=5 gives y=20. 3. For x=3,y=12: k=4, equation y=4x.",
+    "standardsRationale": "Directly addresses Common Core 7.RP.2b: representing proportional relationships by equations, identifying the constant of proportionality."
+  },
+  "worksheet": {
+    "id": "worksheet-math-7-1-2",
+    "lessonId": "lesson-math-7-1-2",
+    "title": "Equations for Proportional Relationships",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find the constant of proportionality (k) and write the equation, then use it to answer.",
+      "rows": [
+        { "problem": "x=2, y=8. Find k and the equation." },
+        { "problem": "Using y=4x, find y when x=5." },
+        { "problem": "x=3, y=12. Find k and the equation." }
+      ]
+    }
+  }
+}

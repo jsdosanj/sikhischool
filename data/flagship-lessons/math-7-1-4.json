@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-7-1",
+    "courseId": "course-math-7",
+    "order": 1,
+    "title": "Proportional Relationships",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-7-1-4",
+    "unitId": "unit-math-7-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Solving Real-World Percent Problems",
+    "gradeLevel": "7",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week's proportional-reasoning skills solve one of the most common real-world math problems: discounts and sales tax."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A $40 shirt is on sale for 25% off. First find the discount amount: 25% of $40 = 0.25 × $40 = $10. Then subtract from the original price: $40 − $10 = $30 sale price. For sales tax, you ADD instead of subtract: a $50 meal with 8% tax means the tax is 0.08 × $50 = $4, so the total is $50 + $4 = $54. Solve this one yourself: an $80 jacket is discounted 15% — what's the sale price?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just solved real discount and tax problems using percent reasoning. Tomorrow we'll review everything about proportional relationships from this whole week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-7-1-4",
+    "lessonId": "lesson-math-7-1-4",
+    "objectives": [
+      "Calculate a discount amount and sale price from a percent-off deal",
+      "Calculate sales tax and a final total"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's proportional-relationship skills.\n2. Work through the shirt-discount example together, step by step.\n3. Work through the meal-tax example, noting the add-vs-subtract difference.\n4. Have the child solve the jacket problem independently.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: always convert the percent to a decimal first (25% = 0.25) as a separate, explicit step before multiplying",
+      "Ready for more: ask them to solve a two-step problem — a discount applied, THEN tax added to the discounted price",
+      "The discount-subtracts / tax-adds distinction is a common point of confusion — call it out explicitly"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. $40 shirt, 25% off: discount = $10, sale price = $30. 2. $50 meal, 8% tax: tax = $4, total = $54. 3. $80 jacket, 15% off: discount = $12, sale price = $68.",
+    "standardsRationale": "Directly addresses Common Core 7.RP.3: using proportional relationships to solve multistep ratio and percent problems, including markups, markdowns, and taxes."
+  },
+  "worksheet": {
+    "id": "worksheet-math-7-1-4",
+    "lessonId": "lesson-math-7-1-4",
+    "title": "Solving Real-World Percent Problems",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each discount or tax problem.",
+      "rows": [
+        { "problem": "A $40 shirt is 25% off. What is the sale price?" },
+        { "problem": "A $50 meal has 8% tax. What is the total?" },
+        { "problem": "An $80 jacket is 15% off. What is the sale price?" }
+      ]
+    }
+  }
+}

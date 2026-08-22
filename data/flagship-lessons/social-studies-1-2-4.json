@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-1-2",
+    "courseId": "course-social-studies-1",
+    "order": 2,
+    "title": "Communities and Maps Around the World",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-1-2-4",
+    "unitId": "unit-social-studies-1-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Land and Water on a Map",
+    "gradeLevel": "1",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can read map symbols now. Today: use a real world map to find the two biggest things it shows — land and water!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "On most maps, land is shown in green or brown, and water — oceans, seas, lakes, rivers — is shown in blue. Looking at a real world map, most of the blue you see is ocean, the huge bodies of water that separate the large landmasses called continents. Look at a world map (or the picture on your worksheet) and point out one area of land and one area of water."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used real map-reading skills to identify land and water on a world map! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-1-2-4",
+    "lessonId": "lesson-social-studies-1-2-4",
+    "objectives": [
+      "Identify land and water on a map using color (green/brown for land, blue for water)",
+      "Point out a real example of land and water on a world map"
+    ],
+    "materialsNeeded": ["A world map or globe", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review map symbols from yesterday.\n2. Introduce land (green/brown) vs. water (blue) coloring on a world map.\n3. Look at a real world map or globe together, pointing out land and water.\n4. Complete the worksheet.\n5. Close by finding the ocean or landmass closest to where the child lives.",
+    "differentiationTips": [
+      "Struggling: use a globe or large world map poster rather than a small printed image, for easier visual scanning",
+      "Ready for more: ask the child to count how many separate large landmasses (continents) they can identify on the map",
+      "A real map or globe is genuinely important here — this lesson is much weaker without one"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a map-reading activity — check that the child can correctly point to an area of land and an area of water on a real map, using color as the guide.",
+    "standardsRationale": "Directly addresses the course's 'introduction to reading maps' description, applying color-based map reading to the largest, most fundamental map feature: land versus water."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-1-2-4",
+    "lessonId": "lesson-social-studies-1-2-4",
+    "title": "Land and Water on a Map",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about land and water on a map.",
+      "rows": [
+        { "problem": "What color usually shows land on a map?" },
+        { "problem": "What color usually shows water on a map?" },
+        { "problem": "Name one area of land and one area of water you found on a real map." }
+      ]
+    }
+  }
+}

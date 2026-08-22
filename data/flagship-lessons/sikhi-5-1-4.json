@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-5-1",
+    "courseId": "course-sikhi-5",
+    "order": 1,
+    "title": "Contributions of the First Gurus",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-5-1-4",
+    "unitId": "unit-sikhi-5-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Guru Ram Das: Founding Amritsar",
+    "gradeLevel": "5",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've traced a community, a script, and enforced equality. Today, the fourth Guru's contribution: a city that still exists and matters deeply today."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Guru Ram Das, the fourth Guru, founded a new town that would grow into the city of Amritsar — a name that means 'pool of nectar,' referring to the sacred pool at its center. He began the work of excavating this sacred pool, around which the city grew. Amritsar later became home to the Harmandir Sahib (the Golden Temple), one of the most significant sites in Sikhi, though that building itself was completed by a later Guru. Amritsar remains a major city in Punjab today, still centered around the very site Guru Ram Das began. Think about the difference between founding an idea and founding a physical place that still exists centuries later."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned that a real city you may have heard of — Amritsar — traces its founding directly to Guru Ram Das. Tomorrow we'll review all four Gurus' contributions as one connected timeline."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-5-1-4",
+    "lessonId": "lesson-sikhi-5-1-4",
+    "objectives": [
+      "Identify Guru Ram Das as the founder of the town that became Amritsar",
+      "Explain the meaning of Amritsar's name and its connection to the sacred pool"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Optional: a map showing Amritsar's location in Punjab"],
+    "facilitationScript": "1. Review the first three Gurus' contributions.\n2. Introduce Guru Ram Das and the founding of Amritsar, including the name's meaning.\n3. Mention the later connection to the Harmandir Sahib (Golden Temple) without going into deep detail — that's a later lesson.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just 'Guru Ram Das founded the city that is now Amritsar' without requiring the name's etymology",
+      "Ready for more: ask them to locate Amritsar on a map of Punjab and note how far it is from other places they've studied",
+      "Text-only content, per the platform's content policy — no depiction of Guru Ram Das, symbolic references only; also avoid deep detail on the Golden Temple itself, which deserves its own future lesson"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Guru Ram Das founded the town that grew into Amritsar. 2. Amritsar means 'pool of nectar,' referring to the sacred pool at its center. 3. Amritsar remains a major city in Punjab today.",
+    "standardsRationale": "Gives a concrete, geographically real contribution (a still-existing major city) that connects directly to this week's earlier Grade 5 Social Studies geography content, reinforcing cross-subject knowledge."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-5-1-4",
+    "lessonId": "lesson-sikhi-5-1-4",
+    "title": "Guru Ram Das: Founding Amritsar",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What city did Guru Ram Das found?" },
+        { "problem": "What does the name 'Amritsar' mean?" },
+        { "problem": "Is Amritsar still a real city today?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-5-1",
+    "courseId": "course-sikhi-5",
+    "order": 1,
+    "title": "Contributions of the First Gurus",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-5-1-1",
+    "unitId": "unit-sikhi-5-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Guru Nanak: Founding Sikhi",
+    "gradeLevel": "5",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "There were Ten Gurus in Sikhi, each contributing something lasting. This week, we'll trace the real contributions of the first four. We begin with Guru Nanak, who founded Sikhi itself."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "You already learned about Guru Nanak's Udasis and his three core teachings — Naam Japo, Kirat Karo, and Vand Chakko. His lasting contribution as the first Guru was founding Sikhi as a distinct path, gathering a community (sangat) around these teachings, and establishing Kirtan (singing hymns together) as a central practice. He also founded the town of Kartarpur, where his followers lived and farmed together, putting his teachings into daily practice. Think about how founding a community, not just teaching ideas, made Guru Nanak's message last for generations."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just reviewed Guru Nanak's founding contribution to Sikhi. Tomorrow we'll learn about the second Guru's very different, but equally lasting, contribution: a written script."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-5-1-1",
+    "lessonId": "lesson-sikhi-5-1-1",
+    "objectives": [
+      "Recall Guru Nanak's core teachings and his founding of Kartarpur and Kirtan",
+      "Explain why building a lasting community mattered alongside his teachings"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask what the child remembers about Guru Nanak from Grade 4.\n2. Introduce Kartarpur and Kirtan as concrete, lasting contributions beyond the teachings themselves.\n3. Discuss why founding a community helps a message last.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: Guru Angad's contribution.",
+    "differentiationTips": [
+      "Struggling: keep this mostly a review of Grade 4 content, adding only Kartarpur/Kirtan as new material",
+      "Ready for more: ask them to name one modern example of an idea that lasted because it was built into a community, not just written down",
+      "Text-only content, per the platform's content policy — no depiction of Guru Nanak, symbolic references only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Guru Nanak founded Sikhi and its core teachings. 2. He founded the town of Kartarpur. 3. He established Kirtan (singing hymns together) as a central practice.",
+    "standardsRationale": "Reviews and extends Grade 4's Guru Nanak content with concrete institutional contributions (Kartarpur, Kirtan), setting up this week's pattern of tracing each Guru's specific, lasting contribution."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-5-1-1",
+    "lessonId": "lesson-sikhi-5-1-1",
+    "title": "Guru Nanak: Founding Sikhi",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "What town did Guru Nanak found?" },
+        { "problem": "What practice did Guru Nanak establish involving singing hymns?" },
+        { "problem": "Why did building a community matter, not just teaching ideas?" }
+      ]
+    }
+  }
+}

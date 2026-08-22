@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-social-studies-3-2",
+    "courseId": "course-social-studies-3",
+    "order": 2,
+    "title": "Reading a World Map",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-3-2-1",
+    "unitId": "unit-social-studies-3-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Continents and Oceans",
+    "gradeLevel": "3",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you explored world communities and culture, including Punjab. This week: learn to read a world map!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The world's land is divided into 7 large landmasses called continents: Africa, Antarctica, Asia, Australia, Europe, North America, and South America. The world's water is divided into 5 oceans: the Pacific, Atlantic, Indian, Southern, and Arctic. Look at a world map. Which continent do you live on? Name one ocean that touches that continent."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned the 7 continents and 5 oceans! Tomorrow we'll find your community and Punjab on the map."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-3-2-1",
+    "lessonId": "lesson-social-studies-3-2-1",
+    "objectives": [
+      "Name the 7 continents and 5 oceans",
+      "Identify which continent and ocean are closest to home"
+    ],
+    "materialsNeeded": ["A world map or globe", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's world-communities/Punjab work briefly.\n2. Introduce the 7 continents and 5 oceans using a world map.\n3. Have the child identify their own continent and a nearby ocean.\n4. Complete the worksheet.\n5. Preview tomorrow's locating-Punjab lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just naming and pointing to the child's own continent first, before requiring all 7",
+      "Ready for more: ask the child to name a continent they'd like to learn more about and why",
+      "A real world map or globe makes this lesson far more concrete than description alone"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a map-reading activity — check that the child correctly names their own continent and identifies at least one ocean that touches it.",
+    "standardsRationale": "Directly addresses the C3 Framework's Geography dimension (using maps to represent the world) at a Grade 3 level, opening this week's map-skills thread as a foundation for the course's world-communities focus."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-3-2-1",
+    "lessonId": "lesson-social-studies-3-2-1",
+    "title": "Continents and Oceans",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using a world map.",
+      "rows": [
+        { "problem": "Name all 7 continents." },
+        { "problem": "Name all 5 oceans." },
+        { "problem": "Which continent do you live on, and which ocean is closest to it?" }
+      ]
+    }
+  }
+}

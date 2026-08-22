@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-1-2",
+    "courseId": "course-sikhi-1",
+    "order": 2,
+    "title": "Seva, the Golden Temple, and Gratitude",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-1-2-1",
+    "unitId": "unit-sikhi-1-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The Real Jobs That Make Langar Work",
+    "gradeLevel": "1",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned Seva means helping without expecting anything back. Today: the real, specific jobs that make Langar actually happen!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Langar takes many different Seva jobs working together: some people cook the food, some serve it to everyone sitting together, some wash the dishes afterward, and some welcome guests as they arrive. Every single job matters equally — washing dishes is just as important as cooking, because Langar can't work without every part. If you visited a Gurdwara's Langar, which job would you most want to help with, and why?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand that Langar isn't just one act of kindness — it's many different jobs, all equally important, working together. Tomorrow we'll learn a real detail about the Golden Temple you may not know yet."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-1-2-1",
+    "lessonId": "lesson-sikhi-1-2-1",
+    "objectives": [
+      "Name at least three specific jobs that make Langar happen: cooking, serving, washing dishes",
+      "Explain why every Langar job matters equally, not just the more visible ones"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review Seva and Langar from last week.\n2. Introduce the specific jobs: cooking, serving, dishwashing, welcoming.\n3. Discuss why every job matters equally.\n4. Have the child choose which job they'd want to help with, and why.\n5. Complete the worksheet.\n6. Close by connecting this to a real or hypothetical Langar visit.",
+    "differentiationTips": [
+      "Struggling: focus on just two jobs (cooking and serving) before adding the less-visible ones",
+      "Ready for more: ask the child to think of one more job Langar might need that wasn't mentioned",
+      "This lesson deepens last week's Langar introduction with real specificity, rather than repeating the same general definition"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can name at least three real Langar jobs and explain why they all matter equally.",
+    "standardsRationale": "Directly addresses the course's 'Seva (selfless service) and kindness' description, deepening last week's Langar introduction with concrete, specific detail."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-1-2-1",
+    "lessonId": "lesson-sikhi-1-2-1",
+    "title": "The Real Jobs That Make Langar Work",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Langar jobs.",
+      "rows": [
+        { "problem": "Name three real jobs that make Langar happen." },
+        { "problem": "Why does washing dishes matter just as much as cooking?" },
+        { "problem": "Which job would you most want to help with, and why?" }
+      ]
+    }
+  }
+}

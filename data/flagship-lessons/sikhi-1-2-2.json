@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-1-2",
+    "courseId": "course-sikhi-1",
+    "order": 2,
+    "title": "Seva, the Golden Temple, and Gratitude",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-1-2-2",
+    "unitId": "unit-sikhi-1-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Pool Around the Golden Temple",
+    "gradeLevel": "1",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You learned about the Golden Temple's gold dome last week. Today: a real detail about what surrounds it — a beautiful pool of water!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The Golden Temple sits in the middle of a large pool of water called the Amrit Sarovar. The building appears to float on the water, connected to the surrounding walkway by a causeway (a raised path). Many visitors walk around the sarovar as part of their visit. Describe what you imagine it would feel like to walk around a beautiful pool of water with a golden building in the middle."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know a real, specific detail about the Golden Temple's setting! Tomorrow we'll learn about a simple, real Sikh practice: Ardas, a shared prayer."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-1-2-2",
+    "lessonId": "lesson-sikhi-1-2-2",
+    "objectives": [
+      "Describe the Amrit Sarovar as the pool of water surrounding the Golden Temple",
+      "Explain that the building appears to float, connected by a causeway"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil or crayon", "A photo of the Golden Temple, if available"],
+    "facilitationScript": "1. Review last week's Golden Temple gold-dome fact.\n2. Introduce the Amrit Sarovar and the causeway connecting the building to the walkway.\n3. Have the child imagine and describe walking around it.\n4. Complete the worksheet.\n5. Close by looking at a real photo together, if available.",
+    "differentiationTips": [
+      "Struggling: use a real photo to make the concept concrete rather than relying on imagination alone",
+      "Ready for more: ask the child why building something in the middle of a pool of water might feel especially peaceful or special",
+      "Text-only/architectural-fact content, per the platform's content policy — no depiction of any Guru"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and drawing activity — check that the child can describe the Amrit Sarovar and the Golden Temple's connection to the surrounding walkway via a causeway.",
+    "standardsRationale": "Directly addresses the course's 'the Golden Temple' description, deepening last week's introduction with a real, specific architectural detail."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-1-2-2",
+    "lessonId": "lesson-sikhi-1-2-2",
+    "title": "The Pool Around the Golden Temple",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the Golden Temple's setting.",
+      "rows": [
+        { "problem": "What is the Amrit Sarovar?" },
+        { "problem": "How is the Golden Temple connected to the walkway around it?" },
+        { "problem": "Describe how you imagine it would feel to visit." }
+      ]
+    }
+  }
+}

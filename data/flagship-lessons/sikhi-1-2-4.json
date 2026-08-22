@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-1-2",
+    "courseId": "course-sikhi-1",
+    "order": 2,
+    "title": "Seva, the Golden Temple, and Gratitude",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-sikhi-1-2-4",
+    "unitId": "unit-sikhi-1-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Bringing It Together: A Week of Gratitude",
+    "gradeLevel": "1",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about Langar's real jobs, the Golden Temple's pool, and Ardas. Today: see how gratitude connects all three!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Look at the thread connecting this whole week: Seva at Langar is done with a thankful, giving spirit; the Golden Temple is a place people visit to feel a sense of peace and gratitude; and Ardas is literally a prayer of thanks and guidance. Gratitude shows up in action (Langar), in a special place (the Golden Temple), and in words (Ardas). Describe one way you could show gratitude this week, connecting to something you learned."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just connected a whole week of learning around one real theme: gratitude, shown in action, in place, and in words. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-1-2-4",
+    "lessonId": "lesson-sikhi-1-2-4",
+    "objectives": [
+      "Identify gratitude as the connecting theme across this week's three lessons",
+      "Describe one personal way to show gratitude, connected to this week's content"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Review this week's three earlier lessons: Langar jobs, the Amrit Sarovar, Ardas.\n2. Discuss how gratitude connects all three — in action, in place, and in words.\n3. Have the child describe their own way to show gratitude this week.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just one of the three connections (like Langar as gratitude-in-action) rather than requiring all three at once",
+      "Ready for more: ask the child to think of one more example of gratitude shown in action, place, or words, beyond this week's specific lessons",
+      "This synthesis lesson is a good moment to make the whole week feel like one coherent story, not three separate facts"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a discussion and reflection activity — check that the child can explain gratitude as this week's connecting theme and describe one genuine personal way to show it.",
+    "standardsRationale": "Synthesizes the course's Seva, Golden Temple, and prayer descriptions into one coherent theme (gratitude), deepening this week's three separate lessons into a connected understanding."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-1-2-4",
+    "lessonId": "lesson-sikhi-1-2-4",
+    "title": "Bringing It Together: A Week of Gratitude",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question connecting this week's lessons.",
+      "rows": [
+        { "problem": "How does Langar show gratitude in action?" },
+        { "problem": "How does Ardas show gratitude in words?" },
+        { "problem": "Describe one way you could show gratitude this week." }
+      ]
+    }
+  }
+}

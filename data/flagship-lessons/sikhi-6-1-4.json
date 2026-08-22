@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-6-1",
+    "courseId": "course-sikhi-6",
+    "order": 1,
+    "title": "Women in Sikh History",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-6-1-4",
+    "unitId": "unit-sikhi-6-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Mata Sundari: Decades of Leadership",
+    "gradeLevel": "6",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Today, a woman who led the entire Sikh community — not for a single moment, but for decades: Mata Sundari."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Mata Sundari was the wife of Guru Gobind Singh, the tenth Guru. After his passing, she took on a genuinely significant leadership role, guiding the Sikh community for several decades into the 1700s. She issued hukamnamas — official written directives — to Sikh communities, helping keep the Panth (the Sikh community) organized and connected during a challenging period. This is a real example of sustained, long-term leadership, not just a single act of courage. Think about the difference between a moment of great courage (like Mai Bhago's) and decades of steady, ongoing leadership (like Mata Sundari's) — both matter, in different ways."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about Mata Sundari's decades of real leadership guiding the Sikh community. Tomorrow we'll review all four women's contributions together."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-6-1-4",
+    "lessonId": "lesson-sikhi-6-1-4",
+    "objectives": [
+      "Identify Mata Sundari as a leader who guided the Sikh community for decades after Guru Gobind Singh's passing",
+      "Distinguish sustained, long-term leadership from a single act of courage"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's earlier three women.\n2. Introduce Mata Sundari's role and her hukamnamas.\n3. Discuss the difference between a moment of courage and decades of sustained leadership.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on the core idea — 'she led the whole community for many years' — without requiring the term 'hukamnama' to be memorized",
+      "Ready for more: ask them why sustained leadership over decades might require different skills than a single courageous moment",
+      "Text-only content, per the platform's content policy — no depiction of Guru Gobind Singh, symbolic references only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Mata Sundari was Guru Gobind Singh's wife. 2. She led the Sikh community for decades after his passing. 3. She issued hukamnamas, official directives that helped keep Sikh communities organized.",
+    "standardsRationale": "Completes the week's 'women in Sikh history' survey with a genuine example of sustained institutional leadership, distinct from the single-moment courage of Day 3, giving a more complete picture of the varied forms women's leadership took."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-6-1-4",
+    "lessonId": "lesson-sikhi-6-1-4",
+    "title": "Mata Sundari: Decades of Leadership",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "Who was Mata Sundari married to?" },
+        { "problem": "How long did she lead the Sikh community for?" },
+        { "problem": "What were hukamnamas?" }
+      ]
+    }
+  }
+}

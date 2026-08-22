@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-sikhi-6-1",
+    "courseId": "course-sikhi-6",
+    "order": 1,
+    "title": "Women in Sikh History",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-6-1-5",
+    "unitId": "unit-sikhi-6-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Women in Sikh History",
+    "gradeLevel": "6",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned about four real women whose contributions shaped Sikh history in very different ways. Let's bring them all together."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: Bebe Nanki was the first to recognize Guru Nanak's spiritual greatness (Day 1). Mata Khivi is named directly in the Guru Granth Sahib for her dedication to Langar (Day 2). Mai Bhago is remembered for courage and leadership in a difficult moment (Day 3). Mata Sundari led the Sikh community for decades (Day 4). Notice: these four women contributed in four completely different ways — spiritual insight, practical dedication, courageous leadership, and sustained guidance. Match each woman to her contribution below."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Wonderful work this week — you now know four real, well-documented women whose different kinds of contributions shaped Sikh history from its very beginning."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-6-1-5",
+    "lessonId": "lesson-sikhi-6-1-5",
+    "objectives": [
+      "Recall each of the four women studied this week and their specific contribution",
+      "Recognize the variety of ways women contributed to Sikh history"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Discuss the variety of contribution types (spiritual insight, practical dedication, courage, sustained leadership).\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — note that future weeks will continue exploring Sikh ethics, equality, and major festivals.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: ask them which of the four contributions they found most personally inspiring, and why",
+      "This is a good checkpoint to note which day's figure needs the most re-teaching before moving to next week's unit"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Bebe Nanki: first to recognize Guru Nanak's spiritual greatness. 2. Mata Khivi: named in the Guru Granth Sahib for her Langar dedication. 3. Mai Bhago: courage and leadership in a difficult moment. 4. Mata Sundari: decades of sustained leadership.",
+    "standardsRationale": "Consolidates the week's 'women in Sikh history' content before the unit moves to Sikh ethics/equality and major festivals, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-6-1-5",
+    "lessonId": "lesson-sikhi-6-1-5",
+    "title": "Women in Sikh History: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Match each woman to her contribution.",
+      "rows": [
+        { "problem": "Bebe Nanki's contribution:" },
+        { "problem": "Mata Khivi's contribution:" },
+        { "problem": "Mai Bhago's contribution:" },
+        { "problem": "Mata Sundari's contribution:" }
+      ]
+    }
+  }
+}

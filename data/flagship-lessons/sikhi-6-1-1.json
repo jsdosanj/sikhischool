@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-6-1",
+    "courseId": "course-sikhi-6",
+    "order": 1,
+    "title": "Women in Sikh History",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-6-1-1",
+    "unitId": "unit-sikhi-6-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Bebe Nanki: The First to See",
+    "gradeLevel": "6",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Before Guru Nanak was known to anyone else, one person recognized his spiritual greatness first: his own older sister, Bebe Nanki."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Bebe Nanki was Guru Nanak's older sister, and Sikh tradition honors her as the very first person to recognize his spiritual greatness — before their parents, before the wider community, before anyone else. She's remembered as his first disciple, someone whose insight and support mattered deeply in the earliest days of his path. This is a meaningful historical fact: from the very beginning of Sikhi, a woman's spiritual insight was recognized and honored, not overlooked. Think about why it matters that this story has been remembered and passed down for over 500 years."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about Bebe Nanki, honored as the first person to recognize Guru Nanak's spiritual greatness. Tomorrow we'll learn about a woman named directly in the Guru Granth Sahib itself."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-6-1-1",
+    "lessonId": "lesson-sikhi-6-1-1",
+    "objectives": [
+      "Identify Bebe Nanki as Guru Nanak's sister and the first person to recognize his spiritual greatness",
+      "Explain why this story matters for understanding women's role in early Sikh history"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce Bebe Nanki as Guru Nanak's sister.\n2. Explain her traditional recognition as his first disciple, before anyone else recognized him.\n3. Discuss why this story being preserved for 500+ years is meaningful.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: Mata Khivi, named in the Guru Granth Sahib itself.",
+    "differentiationTips": [
+      "Struggling: keep this simple — 'Guru Nanak's sister was the first to recognize how special he was' is the core takeaway",
+      "Ready for more: ask them why being 'first to recognize' someone's greatness is itself a meaningful form of insight and courage",
+      "Text-only content, per the platform's content policy — no depiction of Guru Nanak, symbolic references only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Bebe Nanki was Guru Nanak's older sister. 2. She is honored as the first person to recognize his spiritual greatness. 3. She is remembered as his first disciple.",
+    "standardsRationale": "Directly addresses the course's 'women in Sikh history' description with a well-documented, safe, and genuinely significant historical figure from the very founding of Sikhi."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-6-1-1",
+    "lessonId": "lesson-sikhi-6-1-1",
+    "title": "Bebe Nanki: The First to See",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "Who was Bebe Nanki?" },
+        { "problem": "What is she honored for being the first to do?" },
+        { "problem": "How is she remembered in Sikh tradition?" }
+      ]
+    }
+  }
+}

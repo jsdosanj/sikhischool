@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-sikhi-6-1",
+    "courseId": "course-sikhi-6",
+    "order": 1,
+    "title": "Women in Sikh History",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-sikhi-6-1-2",
+    "unitId": "unit-sikhi-6-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Mata Khivi: Named in the Scripture",
+    "gradeLevel": "6",
+    "subject": "sikhi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Very few individual people are named directly in the Guru Granth Sahib. Today, meet one of them: Mata Khivi."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Mata Khivi was the wife of Guru Angad, the second Guru you learned about last week. She is directly named and praised in the Guru Granth Sahib itself for her generous, dedicated management of Langar — the free community kitchen — providing shade and shelter, and ensuring everyone who came was well fed, regardless of who they were. Being named by title in the scripture is genuinely rare and significant — it shows her real contribution was recognized and permanently recorded. Connect this back to what you learned in Grade 5 about Guru Amar Das making Langar equality unavoidable — think about how Mata Khivi's work helped make that possible even earlier."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned about a woman whose real contribution to Langar was significant enough to be permanently recorded in the Guru Granth Sahib. Tomorrow we'll learn about a woman remembered for her courage and leadership: Mai Bhago."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-sikhi-6-1-2",
+    "lessonId": "lesson-sikhi-6-1-2",
+    "objectives": [
+      "Identify Mata Khivi as a woman named in the Guru Granth Sahib for her role in Langar",
+      "Connect her contribution to the equality theme established in earlier grades"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's Guru Angad and Guru Amar Das content.\n2. Introduce Mata Khivi as Guru Angad's wife, named directly in the Guru Granth Sahib for her Langar contribution.\n3. Discuss how rare and significant it is to be named by title in the scripture.\n4. Connect this to Guru Amar Das's later Langar-equality practice from Grade 5.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: Mai Bhago.",
+    "differentiationTips": [
+      "Struggling: focus on the core fact — 'she's named in the scripture for taking great care of Langar' — without requiring deep cross-grade connections",
+      "Ready for more: ask them why being named in a sacred text specifically for practical, everyday work (running a kitchen well) is meaningful, not just for grand or dramatic deeds",
+      "Text-only content, per the platform's content policy — no depiction of Guru Angad, symbolic references only"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Mata Khivi was Guru Angad's wife. 2. She is named directly in the Guru Granth Sahib for her generous management of Langar. 3. Being named in the scripture shows her contribution was recognized as genuinely significant.",
+    "standardsRationale": "Provides a concrete, scripturally-documented example connecting 'women in Sikh history' to the equality theme already established through Langar in earlier grades — a genuine cross-grade reinforcement."
+  },
+  "worksheet": {
+    "id": "worksheet-sikhi-6-1-2",
+    "lessonId": "lesson-sikhi-6-1-2",
+    "title": "Mata Khivi: Named in the Scripture",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question in a short phrase or sentence.",
+      "rows": [
+        { "problem": "Who was Mata Khivi married to?" },
+        { "problem": "What is she named in the Guru Granth Sahib for?" },
+        { "problem": "Why is being named directly in the scripture significant?" }
+      ]
+    }
+  }
+}

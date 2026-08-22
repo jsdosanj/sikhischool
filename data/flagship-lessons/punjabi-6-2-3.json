@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-6-2",
+    "courseId": "course-punjabi-6",
+    "order": 2,
+    "title": "An Introduction to Punjabi Literature",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-6-2-3",
+    "unitId": "unit-punjabi-6-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Qissa: A Traditional Storytelling Form",
+    "gradeLevel": "6",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਤੁਸੀਂ ਬੋਲੀ ਬਾਰੇ ਸਿੱਖਿਆ। ਅੱਜ ਇੱਕ ਲੰਬਾ ਪਰੰਪਰਾਗਤ ਰੂਪ: ਕਿੱਸਾ! (You've learned about Boli. Today, a longer traditional form: Qissa!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "While a ਬੋਲੀ is short, a ਕਿੱਸਾ (Qissa) is a much longer traditional Punjabi form: a narrative poem that tells a complete story, often performed aloud over an extended time rather than read silently. Where a Boli might be sung once at a celebration, a Qissa unfolds a whole story across many verses. Compare the two forms: what's one difference between a Boli and a Qissa, based on what you've learned?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਕਿੱਸਾ ਬਾਰੇ ਸਿੱਖਿਆ! (You just learned about Qissa!) Tomorrow we'll write our own short verse."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-6-2-3",
+    "lessonId": "lesson-punjabi-6-2-3",
+    "objectives": [
+      "Define Qissa as a longer narrative poem telling a complete story",
+      "Compare Boli and Qissa as two different traditional Punjabi literary forms"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's Boli lesson.\n2. Introduce Qissa as a longer narrative form.\n3. Have the child compare Boli and Qissa.\n4. Complete the worksheet.\n5. Preview tomorrow's original-writing lesson.",
+    "differentiationTips": [
+      "Struggling: use a simple length-and-purpose comparison chart (short/celebration vs. long/storytelling) to make the distinction concrete",
+      "Ready for more: ask the child what skills a performer might need to tell a long Qissa story aloud from memory",
+      "Kept deliberately at the level of form/purpose only, same discipline as yesterday's Boli lesson — no specific Qissa story is named or summarized, avoiding any fabrication risk"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a comparison activity — check that the child correctly identifies a real difference, such as Qissa being longer and telling a complete story versus Boli being short and sung at celebrations.",
+    "standardsRationale": "Directly addresses the course's 'introduction to Punjabi literature' goal, completing a two-form survey (short/communal vs. long/narrative) before tomorrow's creative-writing application."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-6-2-3",
+    "lessonId": "lesson-punjabi-6-2-3",
+    "title": "Qissa: A Traditional Storytelling Form",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Compare Boli and Qissa.",
+      "prompts": [
+        { "prompt": "What is one difference between a Boli and a Qissa?", "lines": 3 }
+      ]
+    }
+  }
+}

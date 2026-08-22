@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-punjabi-6-2",
+    "courseId": "course-punjabi-6",
+    "order": 2,
+    "title": "An Introduction to Punjabi Literature",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-punjabi-6-2-4",
+    "unitId": "unit-punjabi-6-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing Your Own Short Verse",
+    "gradeLevel": "6",
+    "subject": "punjabi",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "ਤੁਸੀਂ ਬੋਲੀ ਅਤੇ ਕਿੱਸਾ ਬਾਰੇ ਸਿੱਖਿਆ। ਅੱਜ ਆਪਣੀ ਖੁਦ ਦੀ ਛੋਟੀ ਕਵਿਤਾ ਲਿਖੋ! (You've learned about Boli and Qissa. Today, write your own short verse!)"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Write your own short, rhythmic verse in the spirit of a Boli — 2 to 4 lines, meant to be said aloud together. Try including one of last week's idioms (ਅੱਗ ਵਿੱਚ ਘਿਓ ਪਾਉਣਾ, ਦੁੱਧ ਦਾ ਦੁੱਧ ਪਾਣੀ ਦਾ ਪਾਣੀ, or ਅੱਖਾਂ ਵਿੱਚ ਘੱਟਾ ਪਾਉਣਾ) somewhere in your verse. Read your finished verse aloud."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "ਤੁਸੀਂ ਆਪਣੀ ਖੁਦ ਦੀ ਕਵਿਤਾ ਲਿਖੀ! (You just wrote your own poem!) Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-punjabi-6-2-4",
+    "lessonId": "lesson-punjabi-6-2-4",
+    "objectives": [
+      "Write an original 2-4 line verse in the spirit of a Boli",
+      "Incorporate one idiom from last week's unit into the verse"
+    ],
+    "materialsNeeded": ["Last week's idioms worksheet", "This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's Boli/Qissa content and last week's three idioms.\n2. Model brainstorming a short 2-4 line verse together.\n3. Have the child write and read aloud their own verse, incorporating an idiom.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: focus on just 2 lines rather than 4, and allow the idiom to appear in simplified form",
+      "Ready for more: ask the child to try reading their verse with a clear rhythm, tapping the beat as they read",
+      "This lesson directly connects last week's idioms content and this week's literary-forms content, matching the course's 'composition' + 'idioms' + 'literature' description together"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended creative-writing activity — check that the verse is 2-4 lines, genuinely rhythmic/intended for group reading aloud, and includes one of last week's three idioms.",
+    "standardsRationale": "Directly addresses the course's 'composition' goal, synthesizing this week's literary-forms content with last week's idioms into one original piece of writing."
+  },
+  "worksheet": {
+    "id": "worksheet-punjabi-6-2-4",
+    "lessonId": "lesson-punjabi-6-2-4",
+    "title": "Writing Your Own Short Verse",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your own 2-4 line verse, including one idiom from last week.",
+      "prompts": [
+        { "prompt": "My verse:", "lines": 4 }
+      ]
+    }
+  }
+}

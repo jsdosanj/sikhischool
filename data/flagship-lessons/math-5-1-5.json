@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-math-5-1",
+    "courseId": "course-math-5",
+    "order": 1,
+    "title": "Adding and Subtracting Fractions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-5-1-5",
+    "unitId": "unit-math-5-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review: Adding and Subtracting Fractions",
+    "gradeLevel": "5",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned why, how, and when to use a common denominator for adding and subtracting fractions. Let's review it all, including real word problems."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: fractions need matching denominators before adding or subtracting (Day 1), you find a common denominator by listing multiples (Day 2), then convert and add (Day 3) or subtract (Day 4) the numerators. Now a real word problem: a recipe calls for 1/2 cup of flour and 1/3 cup of sugar. How much total? Use your 3-step process: common denominator, convert, add."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Excellent work this week — you now have a reliable, complete method for adding and subtracting any two fractions, even when their denominators are different."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-5-1-5",
+    "lessonId": "lesson-math-5-1-5",
+    "objectives": [
+      "Correctly add and subtract fractions with unlike denominators",
+      "Apply the fraction addition/subtraction process to a real-world word problem"
+    ],
+    "materialsNeeded": ["Printed cumulative review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Solve the flour-and-sugar word problem together, identifying it as an addition problem before solving.\n3. Complete the cumulative review worksheet.\n4. Discuss any mismatches or uncertain answers together before finishing.\n5. Celebrate finishing the first full week of this unit — this skill will keep coming up throughout the year.",
+    "differentiationTips": [
+      "Struggling: allow the child to use their Day 1-4 worksheets as a reference during review rather than working from memory alone",
+      "Ready for more: write their own word problem involving fraction addition or subtraction for a family member to solve",
+      "This is a good checkpoint to note which day's step (finding the denominator vs. converting vs. adding/subtracting) needs the most re-teaching"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. 1/2 + 1/3 = 5/6 cup total (flour + sugar). 2. 2/3 - 1/4 = 5/12. 3. 3/8 + 1/4 = 5/8. 4. 5/6 - 1/4 = 7/12.",
+    "standardsRationale": "Consolidates Common Core 5.NF.1 and 5.NF.2 (adding/subtracting fractions with unlike denominators, including real-world word problems) before the unit moves to a new topic, matching the 'consolidate before adding more' pacing established across this session."
+  },
+  "worksheet": {
+    "id": "worksheet-math-5-1-5",
+    "lessonId": "lesson-math-5-1-5",
+    "title": "Adding and Subtracting Fractions: Week 1 Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each problem. The last three should be simplified if possible.",
+      "rows": [
+        { "problem": "A recipe needs 1/2 cup flour and 1/3 cup sugar. How much total?" },
+        { "problem": "2/3 - 1/4 = ?" },
+        { "problem": "3/8 + 1/4 = ?" },
+        { "problem": "5/6 - 1/4 = ?" }
+      ]
+    }
+  }
+}

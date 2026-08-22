@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-5-1",
+    "courseId": "course-math-5",
+    "order": 1,
+    "title": "Adding and Subtracting Fractions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-5-1-1",
+    "unitId": "unit-math-5-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Why You Need a Common Denominator",
+    "gradeLevel": "5",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You already know how to add fractions with the same denominator, like 1/4 + 2/4. But what about 1/2 + 1/3, where the denominators are different? This week, you'll learn how."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "You cannot just add the numerators and denominators separately — 1/2 + 1/3 is NOT 2/5. Fractions must have the SAME denominator before you can add or subtract them, because the denominator tells you the size of the pieces, and you can only combine pieces that are the same size. Draw two circles: cut one into 2 equal pieces and shade 1, cut the other into 3 equal pieces and shade 1. Notice the shaded pieces are different sizes — that's why you can't just add 1+1 over 2+3."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand WHY fractions need a common denominator before adding — the pieces have to be the same size first. Tomorrow you'll learn how to actually find that common denominator."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-5-1-1",
+    "lessonId": "lesson-math-5-1-1",
+    "objectives": [
+      "Explain why fractions must share a common denominator before adding or subtracting",
+      "Recognize that adding numerators and denominators separately gives an incorrect result"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Optional: paper circles or fraction bars to cut and shade"],
+    "facilitationScript": "1. Ask what the child remembers about adding same-denominator fractions (e.g. 1/4+2/4).\n2. Present 1/2+1/3 and ask what they'd guess — many will guess 2/5; gently show why that's wrong.\n3. Do the circle-drawing activity, comparing piece sizes.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: finding a common denominator.",
+    "differentiationTips": [
+      "Struggling: use physical fraction bars/tiles if available, not just drawings, to make the piece-size difference tangible",
+      "Ready for more: ask them to predict, without solving, whether 1/2+1/3 will be more or less than 1",
+      "The 2/5 misconception is extremely common and worth addressing directly and patiently, not glossing over"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. False — you cannot add numerators and denominators separately. 2. The denominator tells you the size of the pieces. 3. 1/2 and 1/3 have different-sized pieces, so they can't be combined directly.",
+    "standardsRationale": "Builds the conceptual foundation for Common Core Grade 5 5.NF.1 (adding/subtracting fractions with unlike denominators) before introducing the procedure, addressing a well-documented common misconception directly."
+  },
+  "worksheet": {
+    "id": "worksheet-math-5-1-1",
+    "lessonId": "lesson-math-5-1-1",
+    "title": "Why You Need a Common Denominator",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about adding fractions with different denominators.",
+      "rows": [
+        { "problem": "True or False: 1/2 + 1/3 = 2/5" },
+        { "problem": "What does the denominator of a fraction tell you?" },
+        { "problem": "Why can't you add 1/2 and 1/3 directly without changing them first?" }
+      ]
+    }
+  }
+}

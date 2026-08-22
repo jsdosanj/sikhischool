@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-math-5-1",
+    "courseId": "course-math-5",
+    "order": 1,
+    "title": "Adding and Subtracting Fractions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-5-1-2",
+    "unitId": "unit-math-5-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Finding a Common Denominator",
+    "gradeLevel": "5",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned WHY fractions need matching denominators. Today: HOW to actually find one."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "To find a common denominator for two fractions, list the multiples of each denominator until you find one they share. For 1/4 and 1/6: multiples of 4 are 4, 8, 12, 16... and multiples of 6 are 6, 12, 18... The first number both lists share is 12 — that's your common denominator. Once you have it, convert each fraction: 1/4 becomes 3/12 (multiply top and bottom by 3), and 1/6 becomes 2/12 (multiply top and bottom by 2). Try finding the common denominator for 1/3 and 1/5 by listing multiples of each."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just found a real common denominator by listing multiples. Tomorrow you'll use this skill to actually add fractions with unlike denominators."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-5-1-2",
+    "lessonId": "lesson-math-5-1-2",
+    "objectives": [
+      "Find a common denominator for two fractions by listing multiples",
+      "Convert a fraction to an equivalent fraction using the common denominator"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's 'why' before introducing today's 'how.'\n2. Work through the 1/4 and 1/6 example together, listing multiples on paper.\n3. Have the child find the common denominator for 1/3 and 1/5 independently.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: actually adding fractions with unlike denominators.",
+    "differentiationTips": [
+      "Struggling: provide the first few multiples of each denominator already listed, and have the child find just the match",
+      "Ready for more: ask them to find the common denominator for three fractions at once (e.g. 1/2, 1/3, and 1/4)",
+      "Explicitly point out that multiplying a fraction's top and bottom by the SAME number keeps its value the same — this is the key idea behind the conversion step"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Common denominator of 1/4 and 1/6 is 12 (1/4=3/12, 1/6=2/12). 2. Common denominator of 1/3 and 1/5 is 15 (1/3=5/15, 1/5=3/15). 3. Common denominator of 1/2 and 1/6 is 6 (1/2=3/6, 1/6=1/6).",
+    "standardsRationale": "Teaches the procedural skill (finding equivalent fractions with a common denominator) needed for Common Core 5.NF.1, directly following Day 1's conceptual foundation."
+  },
+  "worksheet": {
+    "id": "worksheet-math-5-1-2",
+    "lessonId": "lesson-math-5-1-2",
+    "title": "Finding a Common Denominator",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Find the common denominator for each pair of fractions, then write both as equivalent fractions.",
+      "rows": [
+        { "problem": "1/4 and 1/6" },
+        { "problem": "1/3 and 1/5" },
+        { "problem": "1/2 and 1/6" }
+      ]
+    }
+  }
+}

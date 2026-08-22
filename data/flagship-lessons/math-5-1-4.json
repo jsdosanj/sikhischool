@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-math-5-1",
+    "courseId": "course-math-5",
+    "order": 1,
+    "title": "Adding and Subtracting Fractions",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-math-5-1-4",
+    "unitId": "unit-math-5-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Subtracting Fractions with Unlike Denominators",
+    "gradeLevel": "5",
+    "subject": "math",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can now add fractions with different denominators. Subtracting them uses the exact same 3-step process — just subtract instead of add at the last step."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Let's subtract 3/4 - 1/6. Step 1: find the common denominator — the common denominator of 4 and 6 is 12. Step 2: convert both fractions — 3/4 becomes 9/12, and 1/6 becomes 2/12. Step 3: subtract the numerators (keep the denominator the same) — 9/12 - 2/12 = 7/12. That's your final answer: 3/4 - 1/6 = 7/12."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Try it yourself: 5/6 - 1/3. Same 3 steps: common denominator, convert, subtract. You now know both addition and subtraction for fractions with unlike denominators."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-math-5-1-4",
+    "lessonId": "lesson-math-5-1-4",
+    "objectives": [
+      "Subtract two fractions with unlike denominators using the same 3-step process as addition"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's addition process.\n2. Work through 3/4 - 1/6 together, step by step, pointing out it's the same process except the last step.\n3. Have the child solve 5/6 - 1/3 independently.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review, including word problems.",
+    "differentiationTips": [
+      "Struggling: reuse the same numbered-checklist approach from yesterday, changing only the word 'add' to 'subtract' at the final step",
+      "Ready for more: ask them to solve a problem where the answer needs simplifying (like 5/6 - 1/3 = 1/2)",
+      "If the child mixes up add/subtract on the final step, that's a good sign they've internalized the first two steps well — just needs a reminder on step 3"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. 3/4 - 1/6 = 7/12. 2. 5/6 - 1/3 = 1/2 (5/6 - 2/6 = 3/6, simplified to 1/2). 3. 2/3 - 1/4 = 5/12 (8/12 - 3/12 = 5/12).",
+    "standardsRationale": "Directly addresses Common Core 5.NF.1: subtracting fractions with unlike denominators using the same equivalent-fraction procedure taught for addition on Day 3."
+  },
+  "worksheet": {
+    "id": "worksheet-math-5-1-4",
+    "lessonId": "lesson-math-5-1-4",
+    "title": "Subtracting Fractions with Unlike Denominators",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Solve each problem, simplifying your answer if possible.",
+      "rows": [
+        { "problem": "3/4 - 1/6 = ?" },
+        { "problem": "5/6 - 1/3 = ?" },
+        { "problem": "2/3 - 1/4 = ?" }
+      ]
+    }
+  }
+}

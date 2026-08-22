@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-12-1",
+    "courseId": "course-science-12",
+    "order": 1,
+    "title": "Systems Thinking and Sustainability",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-12-1-1",
+    "unitId": "unit-science-12-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "What Is a System?",
+    "gradeLevel": "12",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Welcome to Environmental Science & Engineering. This course studies sustainability and ends in a real capstone engineering-design project — both depend on a single foundational skill: systems thinking."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A system is a set of connected parts that interact to produce an outcome, generally described using three elements: inputs (what goes in), outputs (what comes out), and feedback (how outputs affect future inputs). A forest is a real environmental system: inputs include sunlight, water, and nutrients; outputs include oxygen, biomass growth, and water vapor released back into the air. Thinking in systems means looking at these connections and interactions, not just isolated cause-and-effect. Identify the inputs and outputs for a system you're familiar with — it can be environmental (like a garden) or human-made (like a school)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "This systems framework — inputs, outputs, feedback — is the lens the rest of this course uses to study environmental sustainability. Tomorrow we'll apply it to a specific, standard sustainability framework."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-12-1-1",
+    "lessonId": "lesson-science-12-1-1",
+    "objectives": [
+      "Define a system using inputs, outputs, and feedback",
+      "Identify the inputs and outputs of a real, familiar system"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce the systems-thinking framework using the forest example.\n2. Discuss inputs/outputs/feedback as the three core elements.\n3. Have the child identify inputs/outputs for a familiar system of their choice.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: the three pillars of sustainability.",
+    "differentiationTips": [
+      "Struggling: use a very simple, concrete system (a plant in a pot: water/sunlight in, growth/oxygen out) before asking the child to identify their own",
+      "Ready for more: ask them to identify one feedback loop in their chosen system — how an output might affect future inputs",
+      "This is the first lesson of the course — a good moment to frame systems thinking as the lens the whole year builds on"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A system is a set of connected parts that interact, described by inputs, outputs, and feedback. 2. A garden's inputs might include water/sunlight/soil nutrients; outputs might include food, oxygen, and compostable waste.",
+    "standardsRationale": "Directly addresses the course's 'systems thinking' description, establishing the foundational framework this course's sustainability and engineering-design content build on."
+  },
+  "worksheet": {
+    "id": "worksheet-science-12-1-1",
+    "lessonId": "lesson-science-12-1-1",
+    "title": "What Is a System?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about systems thinking.",
+      "rows": [
+        { "problem": "Define a system using inputs, outputs, and feedback." },
+        { "problem": "Choose a familiar system and list its inputs and outputs." },
+        { "problem": "What is one feedback loop in your chosen system?" }
+      ]
+    }
+  }
+}

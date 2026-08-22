@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-12-1",
+    "courseId": "course-science-12",
+    "order": 1,
+    "title": "Systems Thinking and Sustainability",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-12-1-4",
+    "unitId": "unit-science-12-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "The Engineering Design Process",
+    "gradeLevel": "12",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can analyze environmental systems. Today: the structured process this course's capstone project will use to actually design a real solution."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The engineering design process has five core steps, often repeated in cycles: (1) Define the problem clearly and specifically, (2) Brainstorm multiple possible solutions without judging them too early, (3) Prototype — build or sketch out a real, testable version of your best idea, (4) Test it against real conditions or constraints, (5) Iterate — use what you learned to improve the design, often returning to an earlier step. This process is genuinely iterative, not linear — testing often reveals a flaw that sends you back to brainstorming or prototyping again, and that's expected, not a failure. Using a real environmental problem from your own community, write one clear, specific problem definition (step 1) — specific enough that you could actually brainstorm real solutions for it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now understand the process framework your own capstone engineering-design project will follow this year. Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-12-1-4",
+    "lessonId": "lesson-science-12-1-4",
+    "objectives": [
+      "List the five steps of the engineering design process",
+      "Write a clear, specific problem definition for a real environmental issue"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's systems thinking and sustainability content.\n2. Introduce the five-step engineering design process, emphasizing it's iterative, not linear.\n3. Discuss why testing revealing a flaw is expected, not a failure.\n4. Have the child write a specific problem definition for a real community issue.\n5. Complete the worksheet.\n6. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: provide a vague problem statement and have the child practice narrowing it to something specific before writing their own from scratch",
+      "Ready for more: ask them to predict which step of the process their own eventual capstone idea might need to revisit most, and why",
+      "This process is the actual roadmap for the year's capstone — worth returning to explicitly whenever it comes up again"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The five steps are: define the problem, brainstorm, prototype, test, iterate. 2. A specific problem definition names a real, narrow issue (e.g., 'our school cafeteria produces excess food waste with no composting system' rather than a vague 'we should be greener').",
+    "standardsRationale": "Directly addresses the course's 'capstone engineering-design project' description, establishing the process framework the year's actual capstone work will follow."
+  },
+  "worksheet": {
+    "id": "worksheet-science-12-1-4",
+    "lessonId": "lesson-science-12-1-4",
+    "title": "The Engineering Design Process",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the engineering design process.",
+      "rows": [
+        { "problem": "List the five steps of the engineering design process in order." },
+        { "problem": "Write a specific, narrow problem definition for a real environmental issue in your community." },
+        { "problem": "Why is the process iterative rather than strictly linear?" }
+      ]
+    }
+  }
+}

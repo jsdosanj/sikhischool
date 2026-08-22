@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-science-12-1",
+    "courseId": "course-science-12",
+    "order": 1,
+    "title": "Systems Thinking and Sustainability",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-science-12-1-3",
+    "unitId": "unit-science-12-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Feedback Loops in Environmental Systems",
+    "gradeLevel": "12",
+    "subject": "science",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've analyzed sustainability through three pillars. Today: the feedback loops that make environmental systems speed up or stabilize over time."
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A feedback loop is when a system's output affects its own future input. A positive (reinforcing) feedback loop amplifies change — a real, well-documented example: removing forest cover reduces the amount of water vapor released into the air (transpiration), which can reduce regional rainfall, which further stresses the remaining vegetation, making more loss more likely. A negative (balancing) feedback loop resists change — for example, as a population of prey animals grows, predator populations tend to grow too, which brings the prey population back down, balancing the system. Explain, using the forest example, why a positive feedback loop is called 'reinforcing' even though the change it causes (less forest) might seem negative in a plain-English sense."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Understanding whether a feedback loop reinforces or balances a system is essential for predicting how environmental changes unfold over time. Tomorrow we'll look at the engineering design process this course's capstone project will use."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-science-12-1-3",
+    "lessonId": "lesson-science-12-1-3",
+    "objectives": [
+      "Distinguish positive (reinforcing) feedback loops from negative (balancing) ones",
+      "Explain why 'reinforcing' describes the loop's mechanism, not whether the outcome is good or bad"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's three pillars of sustainability.\n2. Introduce feedback loops using the deforestation-rainfall (positive) and predator-prey (negative) examples.\n3. Discuss why 'reinforcing'/'balancing' describe the loop's mechanism, not a value judgment.\n4. Complete the worksheet.\n5. Preview tomorrow's topic: the engineering design process.",
+    "differentiationTips": [
+      "Struggling: use a simple analogy — a positive feedback loop is like a snowball rolling downhill getting bigger; a negative feedback loop is like a thermostat keeping temperature steady",
+      "Ready for more: ask them to identify a real feedback loop (positive or negative) in a different environmental system they're aware of",
+      "This terminology genuinely confuses students — the deliberate emphasis on 'reinforcing describes mechanism, not moral value' is worth repeating"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A positive (reinforcing) feedback loop amplifies change; a negative (balancing) loop resists change and returns the system toward stability. 2. 'Reinforcing' describes the mechanism (the loop amplifies its own change) — it doesn't mean the outcome is good; in the deforestation example, the reinforcing loop amplifies an outcome (forest loss) that is actually harmful.",
+    "standardsRationale": "Directly addresses the course's 'systems thinking' description, applying the inputs/outputs/feedback framework from Day 1 to a real, documented environmental phenomenon."
+  },
+  "worksheet": {
+    "id": "worksheet-science-12-1-3",
+    "lessonId": "lesson-science-12-1-3",
+    "title": "Feedback Loops in Environmental Systems",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about feedback loops.",
+      "rows": [
+        { "problem": "What is the difference between a positive (reinforcing) and negative (balancing) feedback loop?" },
+        { "problem": "Explain the deforestation-rainfall feedback loop as a positive feedback loop." },
+        { "problem": "Why doesn't 'reinforcing' mean the outcome is good?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-ela-1-2",
+    "courseId": "course-ela-1",
+    "order": 2,
+    "title": "New Vowels, Digraphs, and Blends",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-1-2-4",
+    "unitId": "unit-ela-1-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Reading New Sentences",
+    "gradeLevel": "1",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned short O, the digraph 'ch', and the blend 'st'. Today, use all of it to read two brand-new sentences!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Read these two sentences, blending each word carefully: 'The dog can hop.' and 'Stop! The pot is hot.' Notice both sentences use words from this week — dog, hop, stop, pot, hot — combined with small, familiar words like 'the', 'can', and 'is'."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just read two whole new sentences using this week's sounds! Tomorrow we'll review everything and combine it all into one more sentence."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-1-2-4",
+    "lessonId": "lesson-ela-1-2-4",
+    "objectives": [
+      "Read two complete sentences combining this week's short-O and blend/digraph words",
+      "Blend each word within a sentence context, not just in isolation"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's words: hot, pot, dog, hop, chip, chat, much, such, stop, stem, best, fast.\n2. Read both sentences together slowly, blending each word.\n3. Have the child re-read both sentences independently.\n4. Move to the worksheet: trace and write both sentences.\n5. Close by discussing what's happening in each sentence — a real comprehension check, not just decoding.",
+    "differentiationTips": [
+      "Struggling: read each sentence together first, then have the child re-read independently rather than decoding cold",
+      "Ready for more: ask the child to write one more sentence of their own using this week's words",
+      "Checking comprehension (what's happening in the sentence), not just accurate decoding, is worth real attention here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The two sentences are: 'The dog can hop.' and 'Stop! The pot is hot.' Check that the child can read both accurately and explain what's happening in each.",
+    "standardsRationale": "Directly applies this week's short-O, digraph, and blend content to real sentence-level reading, matching Grade 1's decoding-in-context goal from week 1's own first-sentence lesson."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-1-2-4",
+    "lessonId": "lesson-ela-1-2-4",
+    "title": "Reading New Sentences",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Trace each sentence, read it out loud, then write it once more on your own.",
+      "rows": [
+        { "trace": "The dog can hop.", "label": "Blend each word, then read the whole sentence" },
+        { "trace": "Stop! The pot is hot.", "label": "Blend each word, then read the whole sentence" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "unit": {
+    "id": "unit-ela-1-2",
+    "courseId": "course-ela-1",
+    "order": 2,
+    "title": "New Vowels, Digraphs, and Blends",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-1-2-1",
+    "unitId": "unit-ela-1-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Meeting a New Vowel: Short O",
+    "gradeLevel": "1",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've read words with short A and short I. Today, a third vowel: short O!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "The short O sound is like the vowel sound in 'hot' or 'pot' — a short, open sound. Practice reading these short-O words by blending each sound: hot, pot, dog, hop. Notice how changing just the vowel sound (like in 'hot' vs. 'hit' vs. 'hat') changes the whole word, just like you practiced with short A and short I."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know three short vowel sounds — A, I, and O! Tomorrow we'll meet a new digraph, two letters that make one sound."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-1-2-1",
+    "lessonId": "lesson-ela-1-2-1",
+    "objectives": [
+      "Recognize and produce the short O vowel sound",
+      "Blend and read short-O CVC words: hot, pot, dog, hop"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review short A and short I from last week.\n2. Introduce short O using the 'hot'/'pot' example.\n3. Blend hot, pot, dog, and hop together, slowly then faster.\n4. Move to the worksheet: read, trace, and write each word.\n5. Close by comparing 'hot', 'hit', and 'hat' — same consonants, three different vowels.",
+    "differentiationTips": [
+      "Struggling: focus on just two words (hot, pot) before adding dog and hop",
+      "Ready for more: ask the child to think of one more real short-O word",
+      "The hot/hit/hat comparison reinforces the vowel-swap insight from week 1 — a good moment to revisit it explicitly"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a reading, tracing, and writing activity — check that the child can produce the short O sound and blend all four words.",
+    "standardsRationale": "Completes the core short-vowel set (A, I, O) this early-literacy sequence has been building since Grade 1's first lesson, continuing directly from last week's short-I introduction."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-1-2-1",
+    "lessonId": "lesson-ela-1-2-1",
+    "title": "Meeting a New Vowel: Short O",
+    "generationTemplateKey": "trace-and-write-v1",
+    "generationData": {
+      "instructions": "Read each word by blending its sounds, trace it, then write it once more on your own.",
+      "rows": [
+        { "trace": "hot", "label": "Short O sound" },
+        { "trace": "pot", "label": "Short O sound" },
+        { "trace": "dog", "label": "Short O sound" },
+        { "trace": "hop", "label": "Short O sound" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "unit": {
+    "id": "unit-ela-2-2",
+    "courseId": "course-ela-2",
+    "order": 2,
+    "title": "Writing a Complete Paragraph",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-ela-2-2-5",
+    "unitId": "unit-ela-2-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Sharing Our Paragraphs",
+    "gradeLevel": "2",
+    "subject": "ela",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you wrote a whole paragraph from scratch. Let's review the pieces and share your finished work!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: a topic sentence tells the main idea (Day 1). Supporting details give specific reasons or examples (Day 2). A closing sentence restates the main idea in new words (Day 3). Together, all three make one complete paragraph (Day 4). Read your finished paragraph aloud. Can you point to which sentence is the topic sentence, which are the supporting details, and which is the closing sentence?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you wrote a real, complete paragraph from start to finish! Next week we'll keep building on your writing skills."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-ela-2-2-5",
+    "lessonId": "lesson-ela-2-2-5",
+    "objectives": [
+      "Review the three parts of a paragraph: topic sentence, supporting details, closing sentence",
+      "Identify each of the three parts within the child's own finished paragraph"
+    ],
+    "materialsNeeded": ["The finished paragraph from Day 4", "Printed review worksheet", "Pencil or crayon"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child read their finished paragraph aloud.\n3. Have the child point to and label each part (topic sentence, supporting details, closing sentence) on the worksheet.\n4. Complete the review worksheet.\n5. Celebrate finishing a full week of paragraph writing!",
+    "differentiationTips": [
+      "Struggling: focus on correctly identifying just the topic sentence and closing sentence, the two clearest 'bookend' pieces, before the supporting details in between",
+      "Ready for more: ask the child to read their paragraph to a family member and explain what each part does",
+      "This is a good checkpoint to note whether the child needs more practice on topic sentences, details, or closings before the next paragraph-writing unit"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is a recall and self-identification activity — check that the child can correctly point out their own topic sentence, supporting details, and closing sentence within their finished Day-4 paragraph.",
+    "standardsRationale": "Consolidates this week's Common Core Grade 2 Writing standard W.2.1/W.2.2 work before the course continues, matching the established Day-5-review pacing used across every unit this session."
+  },
+  "worksheet": {
+    "id": "worksheet-ela-2-2-5",
+    "lessonId": "lesson-ela-2-2-5",
+    "title": "A Week of Paragraph Writing: Review",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review this week.",
+      "rows": [
+        { "problem": "What is your paragraph's topic sentence?" },
+        { "problem": "Name one supporting detail from your paragraph." },
+        { "problem": "What is your paragraph's closing sentence?" }
+      ]
+    }
+  }
+}

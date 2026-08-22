@@ -113,6 +113,8 @@ export default async function LessonDetailPage({
               templateKey={worksheet.generationTemplateKey ?? ""}
               title={worksheet.title}
               data={(worksheet.generationData as Record<string, unknown>) ?? {}}
+              gradeLevel={lesson.gradeLevel}
+              subject={lesson.subject}
             />
           </div>
         )}

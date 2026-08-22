@@ -60,10 +60,10 @@
     "generationData": {
       "instructions": "Write the plural form of each noun.",
       "rows": [
-        { "problem": "ਕੁੜੀ (one girl) → plural (girls) = ?" },
-        { "problem": "ਮੁੰਡਾ (one boy) → plural (boys) = ?" },
-        { "problem": "ਕਿਤਾਬ (one book) → plural (books) = ?" },
-        { "problem": "ਬੱਚਾ (one child) → plural (children) = ?" }
+        { "problem": "ਕੁੜੀ (one girl) becomes plural (girls) = ?" },
+        { "problem": "ਮੁੰਡਾ (one boy) becomes plural (boys) = ?" },
+        { "problem": "ਕਿਤਾਬ (one book) becomes plural (books) = ?" },
+        { "problem": "ਬੱਚਾ (one child) becomes plural (children) = ?" }
       ]
     }
   }

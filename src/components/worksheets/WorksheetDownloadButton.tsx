@@ -18,10 +18,14 @@ export default function WorksheetDownloadButton({
   templateKey,
   title,
   data,
+  gradeLevel,
+  subject,
 }: {
   templateKey: string;
   title: string;
   data: Record<string, unknown>;
+  gradeLevel?: string;
+  subject?: string;
 }) {
   const [pending, setPending] = useState(false);
 
@@ -38,13 +42,22 @@ export default function WorksheetDownloadButton({
         try {
           let doc;
           if (templateKey === "count-and-write-v1") {
-            doc = <CountAndWriteWorksheet title={title} rows={(data.rows as CountAndWriteRow[] | undefined) ?? []} />;
+            doc = (
+              <CountAndWriteWorksheet
+                title={title}
+                rows={(data.rows as CountAndWriteRow[] | undefined) ?? []}
+                gradeLevel={gradeLevel}
+                subject={subject}
+              />
+            );
           } else if (templateKey === "trace-and-write-v1") {
             doc = (
               <TraceAndWriteWorksheet
                 title={title}
                 instructions={(data.instructions as string | undefined) ?? "Trace each letter, then write it on your own."}
                 rows={(data.rows as TraceAndWriteRow[] | undefined) ?? []}
+                gradeLevel={gradeLevel}
+                subject={subject}
               />
             );
           } else if (templateKey === "practice-problems-v1") {
@@ -53,6 +66,8 @@ export default function WorksheetDownloadButton({
                 title={title}
                 instructions={(data.instructions as string | undefined) ?? "Solve each problem and write your answer in the box."}
                 rows={(data.rows as PracticeProblemRow[] | undefined) ?? []}
+                gradeLevel={gradeLevel}
+                subject={subject}
               />
             );
           } else {
@@ -61,6 +76,8 @@ export default function WorksheetDownloadButton({
                 title={title}
                 instructions={(data.instructions as string | undefined) ?? "Respond to each prompt in complete sentences."}
                 prompts={(data.prompts as WritingPrompt[] | undefined) ?? []}
+                gradeLevel={gradeLevel}
+                subject={subject}
               />
             );
           }

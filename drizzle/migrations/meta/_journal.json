@@ -43,6 +43,13 @@
       "when": 1787379905646,
       "tag": "0005_lame_blue_marvel",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1788558242391,
+      "tag": "0006_mighty_paladin",
+      "breakpoints": true
     }
   ]
 }

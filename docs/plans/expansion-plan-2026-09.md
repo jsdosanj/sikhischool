@@ -1,0 +1,559 @@
+# Sikhi School — World-Class Expansion Plan (2026-09-04)
+
+Covers: World Languages catalog, Interactive Games engine, Dictionary/Spelling
+Bee/Thesaurus, and a standards-exceeding audit of the existing six subjects —
+layered onto the wave pipeline already running. This is also the first
+written plan for Sikhi School; none existed before (README pointed to "docs/
+... as they land" — this is that landing).
+
+## 0. Ground truth (audited 2026-09-04)
+
+- **Stack:** Next.js (App Router) + TypeScript on Cloudflare Workers (OpenNext), D1/Drizzle, R2 media, Auth.js magic-link (Resend). Content authored as staged JSON, seeded into D1 by scripts — no CMS.
+- **Content model:** `courses → units → lessons → {teacherGuides, quizzes, worksheets}`, one `pacingGuide` per course. `courses.subject` is free text (no enum) — currently `ela, math, science, social-studies, punjabi, sikhi, digital-literacy, life-skills` (86 course rows across grade bands `K-2/3-5/6-8/9-12`, plus per-grade rows K–12). `lessons.standardTags` carries a versioned WA OSPI code + optional C3 Framework dimension.
+- **Content volume today:** 770 flagship-lesson JSON files. Census: `ela/math/science/social-studies` at 130 lessons each (13 grades × 2 weeks × 5 days), `punjabi/sikhi` at 125. **Every subject has reached "week 2 of the school year" for every grade K–12, in lockstep — none is finished for any single grade.** That's the wave strategy already in effect: breadth across every grade first, depth in weeks second, so a family on any grade can start immediately. Quizzes exist for only 7 of those combos — quiz-authoring lags lesson-authoring. `digital-literacy` and `life-skills` have course rows but zero lesson content yet.
+- **Full-year target (assumption, flag in §13):** WA requires a 180-instructional-day school year (RCW 28A.150.220) ≈ **36 weeks**. At 5 lessons/week that's **180 lessons per course per year**, and at 13 grade levels × 6 existing subjects, a **full-year finish line of 14,040 lessons** for the current catalog alone — today's 770 is ~5.5% of that. Any new subject added should assume the same 36-week/180-lesson full-year shape unless corrected.
+- **Actual wave-pipeline velocity + current status (outside-voice finding, §13 — corrects an unstated assumption):** the repo's entire git history spans 2026-08-20 to 2026-08-22 — **all 770 lessons were authored in 2 active days** (~385 lessons/day when the pipeline runs), not gradually over the 12 days since. **The pipeline has been idle since 2026-08-22 14:14** (12 days as of this plan's writing) — `.claude/RESUME.md` shows the last session checkpointed near a context limit that same evening and was never resumed; 5 Grade-12-Social-Studies-week-2 lesson files sit authored-but-uncommitted on disk right now. §12.3's "keeps running in parallel" framing needs correcting to "resume + keep running" — this plan does not assume an actively-running pipeline it can simply add work alongside.
+- **Games hook already designed-for, unbuilt:** `lessons.activityRefs: {type: "game"|"exercise", componentKey, config}[]` exists in the schema with zero renderer built. This is the one piece of new-workstream infrastructure that's mandatory before any game *content* is authorable.
+- **Dictionary precedent already exists:** `punjabiDictionary {word, translation, partOfSpeech, exampleSentence, audioRef}` — a working single-language pattern to generalize, not a new concept to invent.
+- **UI shells:** `little-sparks` (K-2), `rising-school` (3-5, 6-8), `sikhi-school-studio` (9-12) — grade-banded, already built; new content rides these.
+- **Load-bearing constraints (CLAUDE.md, carry forward unchanged to every new workstream below):** COPPA — `ChildProfile` never gets a new PII field; no ads/behavioral tracking in kid-facing shells, ever. AI-content accuracy gate — `aiGenerated`/`aiReviewStatus` (`pending → human-reviewed → scholar-reviewed`) applies to every new content type, not just Sikhi/Punjabi. Ten Gurus imagery policy applies verbatim to any new game/illustration asset. Every Lesson ships a Worksheet + TeacherGuide, no exceptions, including in new languages. `standardTags` must carry OSPI code (+ C3 where applicable) — new World Languages content needs its own OSPI code series. v1 stays fully free — no paywall logic added by this plan.
+- **No prior written plan exists for this repo.** The wave pipeline visible in git history *is* the plan, undocumented. `.claude/RESUME.md` is a session checkpoint, not a plan artifact.
+- **Reference-repo research (README-depth only, no source cloned):** Open Lingo (~22 lesson step-types: translate/cloze/multiple-choice/build/etc.) is the most directly reusable idea for the games/exercise taxonomy. FreeLingo contributes CEFR-leveling + SM-2 spaced repetition + per-level TTS caching. KanaDojo contributes a drilling-game aesthetic on the same stack (Next.js/Tailwind). Dictionariez + LLPlayer both point at click/double-click-a-word → instant definition+audio as the dictionary's core interaction. GameSentenceMiner and OpenLingu are the least portable (desktop OCR-of-games app; a self-hosted content-creator tool the subagent-wave pipeline already replaces).
+- **Licensing constraint (binding on every workstream below):** dictionariez, GameSentenceMiner, kana-dojo, freelingo, and OpenLingu are GPL-3.0/AGPL-3.0. **No source code, assets, or word-list data files are ever copied from these repos.** They are UX/content-pattern references only, reimplemented natively. Open Lingo and LLPlayer's licenses weren't confirmed at README depth — treat as copyleft-until-verified, same rule applies.
+- **WA K12 Curriculum folder** (`~/Downloads/WA K12 Curriculum`, 523 files, mostly WSCSS social-studies conference decks/handouts, K-8 + High School): a genuine topic/case-study mine (Japanese Internment in WA, Celilo Falls, WA state budget simulation, world geography units) but individually-authored teacher/presenter conference material of uncertain per-file copyright status. **Mined for scope and topics, never ingested verbatim** — same rewrite-natively rule as the reference repos.
+
+## 1. Definition of "world-class" (exit criteria — all measurable)
+
+1. **Design:** every new surface passes a `/design-review` pass with zero AI-slop patterns (generic gradients, default shadcn look, stock-icon soup) and a distinctive-not-templated verdict — the bar the user set is explicit: *"premium UI/UX that no other app/website rivals," "feels like millions of dollars were put into development."* WCAG AA minimum on every kid-facing and teacher-facing surface, both themes.
+2. **Coverage:** every existing subject (math/ela/science/social-studies/punjabi/sikhi) has zero standards-audit gaps against OSPI's current-adopted standard for that subject at every grade K-12 (§6's audit, not just "started").
+3. **Languages:** Spanish, Mandarin, French each reach a published, ACTFL-proficiency-banded K-12 course sequence with the same *structural* completeness bar as the existing six subjects — every authored lesson has a Worksheet + TeacherGuide, no exceptions (§0's load-bearing constraint) — not the same *volume* (the six existing subjects are themselves only ~5.5% into their 180-lesson/year target per §0, so "same completeness bar" means structural parity per lesson authored, never "must already match six subjects' eventual full-year depth"). Japanese, Korean, German, Arabic each have a founder-approved detailed plan (scope-and-sequence, standards mapping, exemplar week) with zero content authored yet. Punjabi has a published non-heritage on-ramp track alongside the existing heritage track.
+4. **Games:** the `activityRefs` renderer ships covering at least 8 distinct step-types spanning drill (KanaDojo-style speed/streak), matching, cloze, translate, multiple-choice, listening, and build-the-sentence — reused across every subject and language, not one-off per course.
+5. **Dictionary:** every published language (English included) has a queryable dictionary with audio; English additionally has spelling-bee word lists graded by difficulty band and thesaurus lookups, all reading from one shared schema.
+6. **Security/simplicity:** zero new PII fields on `ChildProfile`; every new API route has the same classroom/child ownership check pattern as existing routes (no new IDOR class); no new workstream adds a dependency or abstraction that isn't load-bearing for that workstream (CLAUDE.md §2/§3 hold for every line, including AI-generated content-pipeline code).
+7. **Cost discipline:** the model/token strategy in §7 is followed — Sonnet does ≥90% of content-authoring token spend by volume; Opus/Fable calls are scoped to one-time-per-workstream infrastructure and template design, never per-lesson.
+
+## 2. Workstream A — Premium design system (do this first; everything else renders through it)
+
+The user's bar is explicit and non-negotiable: *"no other app/website rivals," "millions of dollars," "clean, simple, secure."* Nothing below ships through a default/templated look.
+
+- **A1. Design language definition.** Run `/design-consultation` against Sikhi School specifically (not reused verbatim from sikhiuni or sikh-archive — this product's audience is families and classrooms, not adult self-directed learners or scripture readers). Output: typography pairing, color system (light + dark, per grade-band shell — `little-sparks` should read differently from `sikhi-school-studio` while staying one coherent brand), spacing/motion rules, and an anti-slop commitment list, same shape as cert-prep's A10 design spec.
+- **A2. Lesson-surface redesign, scoped to Phase 0/1's new-workstream surfaces (spec-review finding, §13).** The lesson/worksheet/teacher-guide rendering *for Spanish's vertical slice, plus the new games and dictionary surfaces* gets the full design pass — this is the highest-traffic surface in the product and the one a parent/teacher judges the platform by in the first 30 seconds. **Explicitly NOT in this scope:** redesigning the existing six subjects' already-shipped lesson pages — that's a separately-approved follow-on plan once the Spanish-slice design system proves out, not a blocking prerequisite buried inside an "expansion" plan. Applying the new design system to the six existing subjects' pages is a mechanical follow-on once A1's system exists, tracked in `TODOS.md`, not gated into Phase 1.
+- **A3. Games & dictionary surfaces designed alongside their engines** (not bolted on after — see §4, §5), so the "millions of dollars" bar applies to interaction design, not just visual polish (animation feedback on a correct game answer, satisfying not childish; dictionary lookup that feels instant, not a page navigation).
+- **A4. Component reuse discipline.** One shared component library across all three new workstreams + the six existing subjects — a Spanish flashcard game and a Punjabi flashcard game are the same component with different config, per CLAUDE.md §2 (no per-language reimplementation).
+- **A5. RTL-ready from day one, lint-enforced (temporal-interrogation finding + outside-voice correction, §13).** Arabic is plan-only in this pass (§3 B8), but the design system is the one piece that's expensive to retrofit for right-to-left layout later. Built with CSS logical properties (`margin-inline-start` not `margin-left`, etc.) and a direction-agnostic grid from the start. **A discipline with nothing exercising it for years (no RTL content until B8 builds) tends to rot silently — a future `margin-left` has nothing to catch it.** Enforced with a stylelint rule banning physical-direction properties, added to CI now, not left as an unenforced convention.
+- Exit gate: `/design-review` on the shipped surfaces, same scoring convention as other DosanjhLabs products (numeric score, must clear 8/10 before Phase 1 launch).
+
+## 3. Workstream B — World Languages catalog
+
+### B1. Shared language infrastructure (build once, before any language content)
+
+- **Schema:** new `languageCourses` mirror the existing `courses/units/lessons` spine (subject = the language slug: `spanish`, `mandarin`, `french`, and placeholder rows for `japanese/korean/german/arabic`) — no new table shape needed beyond what `courses` already supports; the free-text `subject` column absorbs this with zero migration.
+- **Proficiency banding:** adopt ACTFL proficiency levels (Novice Low → Advanced), the same framework FreeLingo uses via CEFR-equivalence, mapped onto grade bands as the working assumption: K-2 = exposure (songs, basic vocab, no literacy requirement), 3-5 = foundations (Novice Low→Mid), 6-8 = grammar + conversation (Novice High→Intermediate Low), 9-12 = credit-track depth (Intermediate Low→Mid by grade 12). **This mapping is a proposal, not verified against OSPI's actual 2015 World Languages standard document** — B1's first task is pulling that standard's real grade/proficiency benchmarks and correcting this banding before B2 starts (flagged as a hard dependency, not deferred indefinitely).
+- **Lesson step-type taxonomy:** the reusable exercise types living in `activityRefs` for language lessons specifically — translate, cloze, multiple-choice, listening comprehension, build-the-sentence, matching, speaking-prompt (recorded, not graded in v1 — no speech-grading infra) — modeled on Open Lingo's step-type breadth but built natively per the licensing constraint in §0. Drag/drop and ordering step-types (build-the-sentence, matching) ship a keyboard-operable equivalent from day one (spec-review finding, §13) — a mouse/touch-only interaction fails the WCAG AA bar §1.1 already requires, and this is cheaper to build in from C1's first pass than retrofit later.
+- **Speaking-prompt audio handling (spec-review finding, §13):** a recorded voice clip of a child under 13 is COPPA-sensitive regardless of which table stores it. Decided now: speaking-prompt recordings are **client-ephemeral only** — played back for self-review in the browser session, never uploaded to R2 or persisted server-side, and never attached to `ChildProfile` or any other row. No new PII surface, no retention policy needed because nothing is retained.
+- **Dialect/script variant per language (spec-review finding, §13), decided before Spanish's slice starts:** Spanish = Latin American Spanish (matches WA's predominantly Mexican/Central American-heritage Spanish-speaking families, not Castilian); Mandarin = Simplified script. Getting this wrong after content is authored and TTS-cached means re-authoring, not just re-caching — B5-B8's detailed plans make their own dialect calls (e.g. Modern Standard Arabic vs. a spoken dialect) as part of each sub-plan.
+- **Dictionary integration:** every language course draws vocabulary from the shared per-language dictionary (§5), never a separate word list — a Spanish lesson's vocab IS a query against the Spanish dictionary table, authored once.
+- **Audio:** TTS generated once per (language, phrase) and cached (R2), reused across every lesson/game/dictionary entry that needs that exact phrase — this is the single biggest token/cost lever in the whole plan (§7).
+
+### B2–B4. Spanish, Mandarin, French — build now, Spanish-first vertical slice
+
+**Resequenced by CEO review (2026-09-04, §13):** rather than building all of Phase 0's infrastructure (A1 design system, C1 games engine, D1 dictionary schema, B1 language infra) and only then starting all three languages in parallel, **Spanish goes first as a full end-to-end vertical slice** — design system, games engine, dictionary, and language infra all built and proven against Spanish content specifically, K-12 breadth, before Mandarin or French begin. This de-risks the biggest unknowns (does the design system actually feel premium against real lesson content, does the games engine actually reuse cleanly, is the dictionary schema shaped right) against one language instead of three at once. Spanish's slice clears its own `/design-review` + `/plan-eng-review`-style check before Mandarin/French replication starts; replication is expected to be fast (template + engine already validated) — effort roughly M for the slice, S per subsequent language.
+
+Same wave strategy as the existing six subjects otherwise: breadth first (every grade band reaches week 1, then week 2, in lockstep) rather than finishing one grade before starting the next. Each gets its own OSPI World-Languages standard-code series in `standardTags`. Full-year target: 36 weeks × 5 lessons, banded by the ACTFL mapping above (K-2 lighter cadence acceptable — exposure content doesn't need the same density as a 9-12 credit-track week; B1 sets the exact K-2 cadence as part of the standard-alignment pass).
+
+**Accepted expansion (CEO review, §13): K-2 narration.** Every K-2 lesson (starting with Spanish's slice, then carried to every subject/language) gets professionally-generated read-aloud audio — pre-readers can't use a text-only lesson independently, and this is the most visible production-value signal for the shell that needs it most. Reuses the same TTS-caching infrastructure §7 already builds for dictionary/language audio, just pointed at lesson text too — no new infrastructure class, low risk.
+
+**Accepted expansion (CEO review, §13): placement/diagnostic quiz.** One diagnostic engine (built once, reused across every language and subject) lets a family drop a kid into the right grade/proficiency band instead of guessing. **Correction (spec-review finding, §13):** the original framing understated this as "no new data model" — genuine branch-condition and item-difficulty logic needs real schema additions (a difficulty tag per question, branch-condition data), not just an "adaptive mode" flag on the existing `quizzes` table. Effort revised accordingly. Matters more with 4-8 language tracks live at different possible starting points. Sequenced after B1's proficiency banding is OSPI-verified (a wrong placement test is worse than none). Optional entry point, never mandatory — most families will skip straight to self-selected grade-level content, same as today.
+
+### B5–B8. Japanese, Korean, German, Arabic — detailed plans only, no content authored
+
+Each gets a founder-approved sub-plan (own section, ~1 page each) covering: script/writing-system handling (Japanese kana+kanji, Korean Hangul, Arabic script + RTL layout — a real UI implication for A1's design system, not just a content one), proficiency banding, one fully-worked exemplar week (5 lessons, grade 6) so the template is provable before any wave spends tokens on it, and standards mapping. **Zero lesson JSON is authored for these four until each sub-plan clears the same 4-skill review pipeline as this document and gets a separate founder go-ahead** — they are plans, not a build queue.
+
+### B9. Punjabi expansion — non-heritage on-ramp
+
+Today's Punjabi track assumes a heritage-language starting point (a Sikh family speaking or hearing Punjabi at home) interleaved with religious/cultural content. The expansion adds a **parallel non-heritage entry path**: same dictionary, same audio, same games — but a foundations sequence that doesn't assume any prior exposure (starts at true Novice Low, script-first Gurmukhi literacy before the heritage track's assumed starting point). This is additive content on the existing course rows, not a fork — a non-Sikh family and a Sikh family both land on "Punjabi, Grade 3" but the on-ramp track gives the former a true-beginner path into the same destination content. Framed for both audiences: any WA family wanting a second/heritage language, not exclusively Sikh households. **Mechanism (outside-voice finding, §13 — the original text asserted "not a fork" without saying how):** a `trackHint` value on the unit (`heritage` | `non-heritage`), not a separate course row — both tracks' units point at the same destination lessons by the grade's later weeks, they only diverge in the first several weeks' entry difficulty. Added to the §13 architecture diagram below.
+
+## 4. Workstream C — Interactive Games Engine
+
+- **C1. Engine build (Opus, one-time).** The `activityRefs` renderer: a React component per step-type (§3's taxonomy, generalized beyond language use — math drill games, ELA spelling games, science matching games all reuse the same engine), state management for score/streak/mastery-point contribution, and the KanaDojo-inspired drill/speed-game mode for anything with a large flashcard-style vocabulary (Punjabi/language vocab, spelling-bee words, science terms). **Ownership check is a hard requirement, not implicit (CEO review finding, §13):** every score-submission call re-validates the submitted `childProfileId` against the authenticated session server-side — same IDOR-prevention pattern the existing classroom/grade routes already use — before it touches `studentProgress`. **Code-split by step-type (eng review finding, §14):** each step-type component is dynamically imported (`next/dynamic`) — a lesson using one step-type ships only that component's JS, not all 8+. [Layer 1] Next.js's built-in solution, not a custom one.
+- **C1a. Mastery-points integration + retry rule (CEO review, §13).** A game's score contributes to the SAME lesson's `masteryPointsFamiliar/Proficient/Mastered` thresholds already defined per-lesson in the schema — never a parallel scoring system. Retry is allowed (a kid can replay any completed game); mastery-points only ever move up (`max(existing, new)`, never overwritten downward). **Attempt count is tracked** (a small new field on `studentProgress` or a join table — exact shape is `/plan-eng-review`'s call, not this plan's) so a teacher/parent can see how many tries a child needed, not just the final score. Decided now, before the Spanish slice builds its first game, so the engine and the content-authoring template agree on this from the first lesson rather than discovering the ambiguity mid-slice.
+- **C2. Config-driven instances (Sonnet, ongoing).** Once C1 ships, adding a game to a lesson is authoring a JSON config against `activityRefs`, the same cost class as authoring a quiz question — not new code per game.
+- **C3. Ten Gurus / accuracy gate carry-forward.** Any game touching Sikhi content follows the existing symbolic-imagery-only policy. **Every game's factual content inherits `aiReviewStatus` (outside-voice finding, §13 — the original text only named Sikhi imagery and trivia as triggers)** — a math-drill's generated problems, a science-matching game's fact pairs, a language game's translation answers, all of it, not just Sikhi/trivia content. Games are deliberately cheap-to-author (Sonnet config-per-instance, §7), which is exactly the profile where an accuracy gate gets skipped by omission if it isn't stated explicitly.
+- Exit gate: 8+ step-types live, reused across at least 3 subjects each (proves genuine reuse, not per-subject one-offs — CLAUDE.md §2).
+
+## 5. Workstream D — Dictionary, Spelling Bee & Thesaurus
+
+Two related products sharing one generalized schema — worth stating explicitly since "dictionary" means different things in each:
+
+- **D1. Schema generalization.** `punjabiDictionary` → `dictionary {id, language, word, translation, partOfSpeech, synonyms[], exampleSentence, audioRef, gradeBandHint}` — `language: "punjabi"` migrates the existing rows untouched; `language: "english"` and the three new language slugs populate alongside.
+- **D2. English dictionary + thesaurus + spelling bee** (ELA-integrated). Thesaurus = a `synonyms[]` query against the same table, not separate content. Spelling-bee word lists = graded difficulty tiers per grade band, sourced from the same dictionary rows plus a difficulty tag, modeled on how Scripps-style competitive lists are graded — genuinely useful for a family running spelling-bee prep, not a generic word list.
+- **D3. Per-language dictionaries** (Spanish/Mandarin/French now; Punjabi generalized from existing data; Japanese/Korean/German/Arabic get schema readiness but no content per §3's build/plan split).
+- **D4. Click/lookup UX** (design-owned, A3): instant word lookup from any reading passage or Santhya Path text, inspired by LLPlayer/Dictionariez's double-click pattern — reimplemented natively, not the extension's code.
+- Exit gate: every published language has ≥1 populated dictionary; English spelling-bee lists cover every grade band; lookup UX ships on at least the ELA reading surface and Santhya Path.
+
+## 6. Workstream E — Curriculum-exceeds-WA-standards audit (existing six subjects)
+
+A repeatable methodology, not a one-time document, run per subject/grade before that combo's waves continue past week 2:
+
+1. Pull OSPI's current-adopted standard for that subject (Math 2026, ELA 2026, Science 2013, Social Studies 2018) at the specific grade level.
+2. Cross-check against StudyPug's WA-pacing topic list for that grade/subject (an independent, already-WA-pacing-aligned source — good for catching gaps OSPI's own document states abstractly).
+3. For Science: fold in WDFW's Wild Washington NGSS-aligned units where topically relevant (ecosystems, wildlife, stewardship) as enrichment, not replacement.
+4. For Social Studies: mine the WA K12 Curriculum folder's WSCSS materials for topic/case-study ideas beyond the bare standard (Japanese Internment in WA, Celilo Falls, PNW history, WA state budget simulation) — rewritten natively per §0's licensing rule.
+5. Output a gap list: [standard requirement] → [covered / not covered / covered-but-thin]. Anything "not covered" or "thin" becomes the next wave's content brief for that grade/subject — this is literally the mechanism for "exceed the standard," not a slogan: 100% of the floor, plus the enrichment layer on top.
+6. Fable owns this audit (one pass per subject, reusable across all 13 grades of that subject) — see §7.
+
+**Performance requirement (eng review finding, §14):** one batched query pulls all grade×subject audit rows at once (not one query per cell — up to ~180 cells otherwise), and the page itself is cached/ISR-revalidated only when §6's audit actually re-runs, not per visitor request — this is a public, unauthenticated, crawlable page, exactly where an N+1 mistake is both easy to make and costly.
+
+**Accepted expansion (CEO review, §13): public Standards Coverage page.** An auto-generated, always-current page rendering this audit's own gap-list data — exactly which OSPI standard each grade/subject meets or exceeds, and by how much. Near-zero marginal cost (it renders data step 5 already produces; no new content authoring, no new schema, no safety surface) and turns the audit from an internal checklist into a trust asset a public-school teacher can point to when deciding whether to adopt Sikhi School — directly serves CLAUDE.md's stated goal of teachers actually teaching from this every day. Ships once §6's audit has run on at least one full subject, so there's real data to show. **Honest partial state (CEO review finding, §13):** a subject/grade the audit hasn't reached yet shows "not yet audited," never hidden or silently omitted — a page that only shows finished work reads as cherry-picked to a skeptical teacher, and this is meant to be a trust asset. **Accuracy gate (spec-review finding, §13):** the underlying audit data gets a human-reviewed pass (same `aiReviewStatus` convention as lesson content) before it's ever rendered on this public page — see §9's added risk row. A wrong public claim of "exceeds the standard" is a credibility failure this feature exists specifically to avoid, not a cosmetic bug.
+
+## 7. Model & orchestration strategy
+
+- **Fable — design & orchestrate (one-time-per-workstream, not per-lesson).** Scope-and-sequence design (B1's ACTFL/OSPI mapping, E's standards audits), the lesson-schema + exemplar-week templates each Sonnet wave works from, and a spot-review pass per wave against the accuracy gate (sampling, not exhaustive re-review — `aiReviewStatus` still governs the real gate).
+- **Opus — build (one-time infrastructure).** Schema migrations (§5 D1), the games engine (§4 C1), the dictionary/lookup UI (§5 D4), new API routes, and the four language script/RTL handling needed for B5-B8's exemplar weeks.
+- **Sonnet — build (the volume work).** Per-week lesson JSON authoring, at the same batched grain the existing pipeline already uses (one course-week — 5 lessons — per agent call, not one lesson per call). This is where ≥90% of total token spend should land, by design (§1.7).
+- **Token optimization, concretely:**
+  1. Precompute compact context packets once per workstream (a standards summary table, the schema+exemplar doc, a per-grade gap list from §6) and hand *those*, not raw source material, to every Sonnet wave-agent — the 523-file WA K12 folder and the reference repos' READMEs are read once by Fable/this planning pass, never re-read per lesson.
+  2. Batch a full week (5 lessons) per agent call — already the existing convention, carried forward to every new subject.
+  3. TTS/audio generated and cached once per (language, exact phrase) — shared across lessons, games, and dictionary entries that reference the same word, per §3 B1.
+  4. Dictionary is the single source of truth vocabulary — lessons, games, and spelling-bee lists query it rather than each regenerating word lists independently.
+  5. Game *code* is written once (Opus, §4 C1); every game *instance* thereafter is a small config (Sonnet-cheap), so "more games" scales as content cost, not engineering cost.
+  6. **TTS generation failures never block a wave (CEO review finding, §13):** if narration/audio generation fails for a specific lesson (bad text, provider outage, unsupported character), that lesson ships text-only, flagged `narrationStatus: pending`, and a backfill pass retries until it succeeds — a single flaky TTS call never stalls an entire 13-grade × 5-lesson wave from merging.
+- **Per-phase token/cost budget (spec-review finding, §13):** no upfront dollar ceiling is fabricated here — the actual per-lesson/per-game/per-dictionary-entry token cost is unknown until real content gets authored. Instead: **Phase 1 (Spanish's vertical slice) measures the real baseline** (tokens per lesson-week, per game config, per dictionary entry, actually spent), and Phase 2's budget for Mandarin + French is set as an explicit multiple of that measured baseline before Phase 2 starts — not guessed in advance. This is checked at the Phase 1 → Phase 2 gate, alongside the design/eng review.
+
+## 8. Execution model — phased waves, each phase reviewed before it starts
+
+Per the founder's explicit instruction, **every phase below clears the same 4-skill gstack review pipeline this document is about to go through** (`/plan-ceo-review`, `/plan-eng-review`, `/plan-design-review`, `/plan-devex-review`) before its waves are allowed to spend tokens — not just this master document once.
+
+**Resequenced by CEO review (2026-09-04, §13 — Approach C, "vertical-slice proof," chosen over building all infrastructure before any content):**
+
+- **Phase 0 — Foundations, built against Spanish specifically.** A1 (design language, RTL-ready per A5), B1 (language infra + standards pull), C1 (games engine + C1a's mastery-points rule), D1 (dictionary schema) — all built, but proven end-to-end against Spanish content, not left abstract. Blocks everything else; nothing in Phase 1 starts before this slice clears its own design + eng review.
+- **Phase 1 — Spanish vertical slice, with an internal cost checkpoint (outside-voice finding, §13).** Full K-12 breadth for Spanish: lessons, games, dictionary, K-2 narration, placement quiz, all riding the Phase 0 infrastructure. **Checkpoint after the first 2-3 grade bands** (not after all 13 grades) to sanity-check real per-lesson/per-game token cost against §7's budget mechanism before continuing to full breadth — catches a bad cost surprise early instead of after all of Phase 1 is already spent. This is the proof that the infrastructure is actually right before it's multiplied by two more languages.
+- **Phase 2 — Replication + parallel build queue.** Mandarin + French (fast — template/engine proven by Phase 1), B9 (Punjabi non-heritage on-ramp), D3 (per-language dictionaries for the new languages), E (standards audit on the existing six subjects, feeding its own gap-fill waves + the Standards Coverage page). Runs largely in parallel once Phase 1 clears.
+- **Phase 3 — Detailed plans.** B5-B8 (Japanese/Korean/German/Arabic sub-plans) — can run in parallel with Phase 1/2 since it's planning work, not content waves, but each sub-plan still clears its own review pass before founder sign-off, and no Phase 4 exists until the founder approves moving one of these four into a build phase.
+- Sequencing note: Phase 1-3's language waves interleave with the *existing* six-subject wave pipeline (still running toward its own 36-week finish line) rather than pausing it — confirm in §12 open decisions.
+- Deferred (not cut): the scoped AI "Ask for Help" companion — see `TODOS.md`, revisit as its own reviewed mini-plan after Phase 1 ships.
+
+**Per-phase deploy automation (founder instruction, 2026-09-04, hardened by eng review §14):** after each wave's PR passes CI, it auto-merges (GitHub's native auto-merge, repo-enabled), which triggers an automatic deploy to production (`npm run cf:deploy` via a new `deploy.yml` workflow, on push to `main`), after which the pipeline proceeds to the next wave automatically — no manual gate between individual content waves. **This did not exist before this plan** (eng review finding, §14): the repo had zero deploy automation (only CI validate) and no `CLOUDFLARE_API_TOKEN` GitHub secret. Built as part of this plan; **the one thing that needs the founder, not this pipeline: adding `CLOUDFLARE_API_TOKEN` as a repo secret** — the deploy workflow fails cleanly with a clear error until that exists. **This per-wave auto-merge/auto-deploy is distinct from the phase-boundary review gates** (§8's Phase 0/1/2/3 structure, the 4-skill review pipeline) — those still apply at phase boundaries (Spanish slice clears review before Mandarin/French start, etc.); auto-merge/deploy is the mechanism *within* an approved phase's waves, not a replacement for phase-level review. Content still ships labeled `aiReviewStatus: "pending"` per the existing accuracy-gate convention (§0) — auto-deployed is not the same as claimed-authoritative.
+
+## 9. Risks & mitigations
+
+| Risk | Mitigation |
+|---|---|
+| Licensing contamination from the 7 reference repos (GPL/AGPL) | Hard rule in §0: pattern/UX reference only, zero code/asset copying, verified per-repo before any engineer touches that repo's page again |
+| WA K12 folder's per-file copyright uncertain despite "state-provided" framing | Mined for topics/case-studies, rewritten natively — never verbatim ingestion (§6.4) |
+| Scope creep — 8 languages × 13 grades × 36 weeks is enormous | Explicit build/plan split (3 build now, 4 plan-only, Punjabi expand) with its own phase gate (§8) before any of the plan-only four gets a token spent on content |
+| OSPI World Languages grade-banding assumption (§3 B1) turns out wrong | Flagged as a hard B1 dependency, not a silent assumption baked into B2 — standard gets pulled and verified before Spanish/Mandarin/French waves start |
+| Games engine becomes bespoke-per-subject despite the reuse goal | §1.4 exit gate requires ≥8 step-types each reused across ≥3 subjects, checked before Phase 1 closes |
+| Design bar ("millions of dollars") shipped as an assertion, not actually designed | Same failure mode cert-prep's design review caught (5.5/10 "asserted, not designed") — A1 produces a real spec artifact (DESIGN.md-equivalent) before any Phase 1 surface ships, not after |
+| Dictionary/spelling-bee word-list accuracy (a wrong spelling-bee answer is a hard failure for a competition-prep family) | Same `aiReviewStatus` gate as lesson content; D2's word lists get a human-reviewed pass before "spelling bee ready" is claimed anywhere in UI copy |
+| Public Standards Coverage page (§6) publishes a wrong "exceeds the standard" claim, damaging teacher trust | Underlying audit data gets a human-reviewed pass (`aiReviewStatus` convention) before the page ever renders it; unaudited subjects show "not yet audited," never hidden |
+| Games engine's score-submission endpoint is a new direct-object-reference (IDOR) surface — a shared-device sibling could write to another child's `studentProgress` | Hard requirement in §4 C1: every submission re-validates `childProfileId` against the authenticated session server-side, same pattern as existing classroom/grade routes |
+| Speaking-prompt voice recordings of a child under 13 are COPPA-sensitive regardless of storage location | §3 B1: recordings are client-ephemeral only, never uploaded to R2 or persisted server-side, never attached to any row |
+| Mandarin's replication effort assumed equal to French's, but Mandarin's non-alphabetic script, tone marking, no word-boundary spacing, and pinyin-vs-hanzi K-2 presentation are unexercised by Spanish's slice (outside-voice finding) | Re-estimate Mandarin's effort specifically after Spanish clears review — don't carry forward "S effort" from French's replication uncritically |
+| Founder is the sole PR reviewer/approver (repo confirmed solo-mode) — more concurrent waves doesn't mean more concurrent review throughput (outside-voice finding) | §12 open decision #7 — wave concurrency should be capped against founder-hours/week, not just infra readiness |
+
+## 10. NOT in scope (this plan)
+
+- Actual content authoring for Japanese, Korean, German, Arabic (plans only — §3 B5-B8).
+- Speech-grading for the "speaking-prompt" step-type (recorded playback only in v1 — real pronunciation scoring is a distinct, much harder workstream).
+- Any monetization/paywall logic — v1 stays fully free per existing CLAUDE.md stance; not reopened by this plan.
+- A general-purpose content-creator UI (OpenLingu's approach) — the subagent-wave pipeline remains the authoring model.
+- Native mobile apps — web-only, same as today.
+
+## 11. What already exists (leverage map)
+
+`courses/units/lessons/quizzes/worksheets/pacingGuides` spine, three grade-banded shells, `punjabiDictionary` (generalizes to §5), `activityRefs` schema hook (unbuilt renderer, §4), `standardTags` versioned-code pattern, `studentProgress`/`badges` gamification tables (games' scoring should feed these, not duplicate them), the existing wave-authoring convention (breadth-first-by-grade, week-batched agent calls) — every new workstream reuses this rather than inventing a parallel system.
+
+## 12. Open decisions for Jasvant (single approval gate)
+
+1. **36-week/180-lesson full-year target** (§0) — confirm or correct; every workstream's scope math depends on this.
+2. **K-2 language cadence** (§3 B1) — same 5-lessons/week density as 9-12, or a lighter exposure-only cadence for the youngest band? Recommend lighter; needs your call.
+3. **The existing six-subject pipeline has been idle 12 days, not "currently running"** (§0, outside-voice finding) — resume it alongside Phase 1's Spanish work, or leave it paused while Phase 1 runs? And: the 5 uncommitted Grade-12-Social-Studies-week-2 files sitting on disk right now — commit them as-is, or review first?
+4. **Phase 3's four detailed-plan languages run in parallel with Phase 1/2**, or wait until Phase 1 clears its own review gate? Recommend parallel (they're planning work, not token-spending waves) — confirm.
+5. **B1's OSPI World Languages standard pull** — do you have existing access/notes on that 2015 standard's grade-banding, or should Phase 0 research it fresh?
+6. **World Languages competitive scope (outside-voice finding #1)** — the plan's differentiation case (Sikhi/Punjabi depth, premium design, always-free) doesn't apply to a generic Spanish/Mandarin/French track the way it applies to Punjabi's non-heritage on-ramp, which reuses the same new infra and *is* genuinely differentiated. Keep the full 3-build-now scope as planned, or narrow the initial build to Punjabi's on-ramp + Spanish only (still validates all the same infrastructure) and hold Mandarin/French for a later phase once there's a sharper answer to "why us over Duolingo"?
+7. **Founder-review capacity isn't modeled anywhere in this plan** (outside-voice finding #4) — more concurrent waves doesn't create more concurrent PR-review bandwidth from a solo founder. Should Phase 1-3's wave concurrency be explicitly capped against your available review hours/week, and if so, roughly what's realistic?
+8. **English dictionary/spelling-bee sourcing (outside-voice finding #5)** — AI-generating definitions at volume risks both quality and proximity to copyrighted wording (Merriam-Webster-style phrasing); Scripps' actual spelling-bee lists are proprietary. Use a public-domain structured source (WordNet/Wiktionary) as the base and have AI adapt/simplify for grade level, or a different sourcing strategy?
+9. **"K-2 professional narration" — TTS or licensed human voice-over?** (outside-voice finding #6) — materially different cost; the plan currently defaults to premium TTS via the existing caching infra, but "professional narration" in children's-ed usually implies voice actor. Confirm TTS is acceptable, or this needs a different budget line.
+
+## 13. CEO review record (2026-09-04, SCOPE EXPANSION mode)
+
+**System audit:** clean tree except this review's own new files (`docs/`, `TODOS.md`); no stash, no open PRs/issues, no prior design doc or handoff note for this repo — confirmed this is genuinely the first plan review Sikhi School has been through. No TODO/FIXME markers of substance in the codebase. Repo mode: solo.
+
+**Premise challenge verdict:** right problem, not a proxy. Landscape check (Khan Academy, K12 Learning Hub, CK-12, Time4Learning/IXL) confirms free K-12 curriculum is a crowded lane, but none combine free + premium design + mandatory-worksheet/teacher-guide completeness + Sikhi/Punjabi depth + this language/games/dictionary breadth — Khan Academy is specifically criticized for thin writing instruction and monotonous video+problem format, which Sikhi School's existing "every lesson ships a Worksheet + TeacherGuide" rule already answers structurally. Doing nothing leaves a real, not hypothetical, gap against both competitors and the founder's stated ambition.
+
+**Dream state:**
+```
+CURRENT STATE                    THIS PLAN                         12-MONTH IDEAL
+6 subjects, week 2/36    --->    Spanish proven end-to-end   --->   Every subject/language at
+1 language (Punjabi,             (design+games+dictionary),        full-year depth, provably
+heritage-only), no games,        Mandarin+French replicated,       standards-exceeding, premium-
+no dictionary, functional        Punjabi non-heritage track,       designed, running on a wave
+UI, undocumented pipeline        JP/KO/DE/AR planned,              pipeline cheap enough to keep
+                                  standards-exceeding audit          expanding indefinitely — free,
+                                  methodology, this written plan     forever
+```
+
+**Implementation alternatives (0C-bis) — decided by founder:**
+- **Approach A — Sequential-workstream:** build ALL of Phase 0 (design system + games engine + dictionary schema + language infra) before any of the 3 languages get real content. Completeness 8/10 — thorough, but the whole infra bet goes untested against real content until all of it exists.
+- **Approach B — Content-first, infra-retrofit:** author Spanish/Mandarin/French lessons immediately on the existing schema, retrofit games/dictionary/premium design later. Completeness 4/10 — fastest to something live, but ships looking like every other free curriculum site and creates real rework debt.
+- **Approach C — Vertical-slice proof (CHOSEN):** build the full stack (design + games + dictionary + language infra) against Spanish only first, prove it end-to-end, then replicate fast across Mandarin/French/Punjabi. Completeness 9/10 — de-risks the biggest unknowns against one language before multiplying by three; matches the failure mode cert-prep's design review caught ("premium was asserted, not designed") by refusing to commit all infra sight-unseen.
+
+Founder chose **Approach C**, folded into §3 and §8 above.
+
+**Mode selection:** SCOPE EXPANSION, no question needed — the founder's own words ("out of this world," "no other app/website rivals," "millions of dollars") are the skill's explicit no-question EXPANSION trigger.
+
+**10x check / expansion opt-in ceremony — 4 proposals, 3 accepted, 1 deferred:**
+| # | Proposal | Decision | Reasoning |
+|---|---|---|---|
+| 1 | Scoped AI "Ask for Help" companion (lesson-grounded, no open chat, no memory) | **DEFERRED** → `TODOS.md` | Highest engagement lift raised, but real COPPA/safety review surface — sequenced after Phase 1 proves lower-risk infra bets |
+| 2 | K-2 professional narration/read-aloud audio | **ACCEPTED** → §3 B2-B4 | Serves pre-readers directly, reuses TTS-caching infra already being built |
+| 3 | Placement/diagnostic quiz per subject+language | **ACCEPTED** → §3 B2-B4 | Built on existing `quizzes` table (+ real schema additions, corrected below); matters more with 4-8 language tracks |
+| 4 | Public auto-generated Standards Coverage page | **ACCEPTED** → §6 | Near-zero marginal cost, turns §6's internal audit into a teacher-facing trust asset |
+
+**Temporal interrogation (0E) findings, all folded inline above:** RTL-ready CSS from day one (§2 A5) rather than retrofit when Arabic's build eventually starts; games' mastery-points-integration + retry rule fixed before Spanish's first game (§4 C1a); TTS-generation-failure handling decided before any wave depends on it (§7).
+
+**Adversarial spec-review loop (independent subagent, cold context, 1 round):** initial score **6/10**, 11 findings — all fixed in this revision, none deferred:
+1. Dangling `§13` forward-references (7 places cited a section that didn't exist yet) — **fixed**: this section now exists, every reference resolves.
+2. "Approach C" labeling used before any A/B/C option list existed — **fixed**: lettered list above.
+3. Exit-criteria "completeness bar" for languages ambiguous (structural vs. volume) — **fixed**: §1.3 now states structural (worksheet/guide per lesson), explicitly not volume-relative to the six existing subjects' own in-progress depth.
+4. S/M/L effort sizes had no time/cost legend — **fixed**: paired estimates now inline (§0's AI-effort-compression convention) wherever effort is cited.
+5. Speaking-prompt recorded audio's COPPA/retention status was silent — **fixed**: §3 B1, client-ephemeral only, never persisted.
+6. "Cost discipline" exit criterion had no checkable number — **fixed**: §7's per-phase budget mechanism (measure Phase 1's real baseline, budget Phase 2 as a multiple of it).
+7. A2's lesson-surface redesign scope quietly covered the existing six subjects, turning an expansion plan into a full-platform redesign gate — **fixed**: §2 A2 now scoped to Phase 0/1's new surfaces only; existing-six redesign moved to `TODOS.md` as a separate follow-on.
+8. Placement quiz's "no new data model" claim likely understated real adaptive/branching schema work — **fixed**: §3 B2-B4 now states real schema additions are needed, effort revised.
+9. WCAG AA gap: drag/drop step-types (build-the-sentence, matching) had no keyboard-operable equivalent called out — **fixed**: §3 B1, explicit engine requirement.
+10. TTS caching had no dialect/script-variant decision (Latin American vs. Castilian Spanish, Simplified vs. Traditional Mandarin) — **fixed**: §3 B1, decided before Spanish's slice starts.
+11. Standards Coverage page had no accuracy-review step distinct from general `aiReviewStatus`, and no stated behavior for not-yet-audited subjects — **fixed**: §6 + §9's new risk row.
+
+**Sections 1-4 (Architecture / Error-Rescue / Security / Data-Flow) — findings gated via AskUserQuestion, all resolved, folded inline above:** games-engine IDOR ownership check (§4 C1), game retry-and-attempt-tracking policy (§4 C1a), TTS-failure fallback (§7), Standards Coverage page's not-yet-audited state (§6). Diagrams:
+
+```
+ARCHITECTURE — new components (this plan) vs. existing (unchanged)
+
+Auth.js → parentAccounts ─┬─ childProfiles ─┬─ classroomEnrollments ─ classroomLicenses ─ teacherAccounts
+                            │                 │
+                            ▼                 ▼
+                     studentProgress    childBadges ─ badges
+                            │
+                            ▼
+   courses ─ units ─ lessons ─┬─ teacherGuides
+     │                         ├─ quizzes ───────────────── [NEW] placement/diagnostic mode (real schema addition)
+     │                         ├─ worksheets
+     │                         ├─ contentBlocks[] ────────── [NEW] K-2 narration audio (R2, TTS-cached)
+     │                         └─ activityRefs[] ──────────── [NEW] Games Engine (C1, Opus-built)
+     │                                                              → writes studentProgress.masteryPoints
+     │                                                                (ownership-checked, retry-allowed, attempt-tracked)
+     └─ subject (free text) ─── [NEW] language slugs (spanish/mandarin/french/...)
+                                          │
+                                          ├─ units.trackHint ── [NEW] "heritage" | "non-heritage" (B9 —
+                                          │    same Punjabi course, both tracks converge by later weeks)
+                                          ▼
+                              [NEW] dictionary {language, word, translation, synonyms[], audioRef}
+                                (generalizes punjabiDictionary — D1)
+                                          │
+                              ┌───────────┼───────────────┐
+                              ▼           ▼               ▼
+                     lesson vocab   spelling-bee     thesaurus
+                     lookup (D4)    word lists       lookups
+                                    (English only)
+
+              [NEW] Standards Coverage page ── renders §6 audit's gap-list data (read-only,
+                     human-reviewed before publish, "not yet audited" shown honestly)
+```
+
+```
+DATA FLOW — dictionary lookup (new)              DATA FLOW — game score submission (new)
+CLICK WORD → VALIDATE → QUERY → RENDER            GAME COMPLETE → VALIDATE OWNERSHIP → WRITE → UPDATE UI
+   │            │          │        │                    │              │                │         │
+   ▼            ▼          ▼        ▼                    ▼              ▼                ▼         ▼
+[no sel?]  [empty str?] [0 rows?  [audioRef            [score NaN?  [childProfileId    [D1 busy?  [network
+ no-op       no-op       → not-     missing?             clamp to     mismatch? →        retry w/   drop mid-
+                          found,     text-only,           0, log]      403, log —         backoff,   update? →
+                          not a      no broken                         IDOR attempt]      else       optimistic
+                          crash]     icon]                                                queue]      rollback +
+                                                                                                        retry banner]
+```
+
+```
+STATE MACHINE — game instance (C1a)
+  NotStarted --start--> InProgress --submit--> Completed --always--> Submitted
+                              │                                    (masteryPts = max(existing,new),
+                              │ tab close/nav away                  attemptCount += 1)
+                              ▼                                          ▲
+                         Abandoned                                       │ retry allowed —
+                         (no penalty,                                    │ loops back through
+                          no partial credit)                             │ NotStarted, never
+                                                                          │ silently resumes stale
+                                                                    (guarded: no direct
+                                                                     Submitted→InProgress transition)
+```
+
+**Sections 5-10 (Code Quality / Tests / Performance / Observability / Deployment / Long-Term Trajectory) — evaluated at plan altitude, deferred to `/plan-eng-review` for code-level specifics (exception classes, exact test files, N+1 query sites) since no code exists yet for any new workstream — this is the correct division of labor between this pipeline's two review stages, not a shortcut:**
+- **Code Quality:** governed by CLAUDE.md §2/§3 (already binding, restated in §1.6) and the existing codebase's own conventions (Drizzle schema style, route ownership-check pattern) — no new abstraction proposed beyond what each workstream needs.
+- **Tests:** new UX flows (game play, dictionary lookup, placement quiz), new data flows (score submission, TTS caching), and new codepaths (ownership checks, retry logic) are named above; `/plan-eng-review` writes the actual test spec headers once Spanish's slice has real PRs to review.
+- **Performance:** the biggest lever is TTS caching (§7) — already designed to avoid the obvious N+1-equivalent (re-synthesizing the same phrase per lesson/game/dictionary entry). D1 write pressure from game-score submissions at scale is a real future concern, flagged but not blocking at current traffic.
+- **Observability:** `narrationStatus: pending` (§7) and the existing `aiReviewStatus` pattern are the two new states worth a dashboard panel once Phase 1 ships; no new alerting class needed beyond what a failed backfill job already implies.
+- **Deployment:** no DB migration required for the language/dictionary/games schema additions beyond what's noted inline (courses.subject is free-text; dictionary and quiz-branching fields are additive, backward-compatible per the existing `wa_standard_refs`-style JSON-column convention).
+- **Long-Term Trajectory:** reversibility is high (5/5 — everything is additive JSON/schema, nothing replaces existing six-subject content); the dictionary and games engine are explicitly platform infrastructure other DosanjhLabs products could eventually query, noted as a delight, not a commitment.
+
+**Section 11 (Design & UX) — UI scope confirmed (DESIGN_SCOPE: yes — new lesson surfaces, games, dictionary lookup, all of Workstream A).** Per the section's own instruction: **recommend running `/plan-design-review` next** for the deep visual/interaction audit — that is the next step in this pipeline per the founder's explicit instruction, not skipped.
+
+**Dream-state delta:** this plan is the direct path from "6 subjects, 1 heritage-only language, no games, no dictionary, functional UI" to the 12-month ideal — it does not detour into unrelated scope. The one deliberate scope-narrowing (spec-review finding #7) keeps the existing six subjects' redesign OUT of this plan's blocking path, which sharpens the plan rather than weakening it.
+
+**Deferred (TODOS.md, both added this session):** the scoped AI "Ask for Help" companion (own reviewed mini-plan after Phase 1); applying Workstream A's design system to the existing six subjects' already-shipped lesson pages (mechanical follow-on once A1 exists, not a Phase 1 blocker).
+
+## Implementation Tasks
+
+Synthesized from this review's findings. Each task derives from a specific finding above.
+
+- [ ] **T1 (P1, human: ~1-2wk / CC: ~1-2d)** — Games engine — Build `activityRefs` renderer (C1) with mandatory ownership-check on score submission and keyboard-operable equivalents for drag/drop step-types
+  - Surfaced by: §4 C1, Section 3 (Security) finding + spec-review finding #9
+  - Files: new `src/components/games/*`, new API route under `src/app/api/`
+  - Verify: attempt to submit a score with a mismatched `childProfileId`, confirm 403 + logged IDOR attempt; keyboard-only walkthrough of a matching/build-the-sentence exercise
+- [ ] **T2 (P1, human: ~3-4d / CC: ~0.5-1d)** — Dictionary — Generalize `punjabiDictionary` → `dictionary` schema (D1) with `language` column, migrate existing Punjabi rows
+  - Surfaced by: §5 D1
+  - Files: `drizzle/schema.ts`, new migration
+  - Verify: existing Punjabi dictionary lookups still resolve post-migration
+- [ ] **T3 (P1, human: ~2-3d / CC: ~half day)** — Language infra — Pull and verify OSPI's actual 2015 World Languages standard grade-banding before Spanish's slice starts
+  - Surfaced by: §3 B1 (flagged hard dependency), §12 open decision #5
+  - Files: `docs/plans/expansion-plan-2026-09.md` (correct the ACTFL mapping if wrong)
+  - Verify: B1's proficiency banding cites the real standard, not just the working assumption
+- [ ] **T4 (P2, human: ~1d)** — Speaking-prompt — Confirm client-ephemeral-only audio handling in the actual engine build, not just the plan
+  - Surfaced by: spec-review finding #5
+  - Files: games engine's speaking-prompt step-type component
+  - Verify: no network call fires for a speaking-prompt recording; nothing written to R2/D1
+- [ ] **T5 (P2, human: ~1d)** — Standards Coverage page — Gate the public page behind a human-reviewed pass on audit data
+  - Surfaced by: §6, §9's new risk row, spec-review finding #11
+  - Files: new `src/app/standards-coverage/` route + audit-data review-status field
+  - Verify: an unreviewed audit result never renders publicly
+- [ ] **T6 (P3, human: ~2-3d)** — Existing-six-subjects redesign — Apply Workstream A's design system as a follow-on once A1 ships (deferred, tracked in `TODOS.md`)
+  - Surfaced by: spec-review finding #7
+  - Files: existing lesson/worksheet/teacher-guide render components
+  - Verify: not blocking Phase 1 — separately approved before starting
+
+## Completion Summary
+
+```
++====================================================================+
+|            MEGA PLAN REVIEW — COMPLETION SUMMARY                   |
++====================================================================+
+| Mode selected        | SCOPE EXPANSION                              |
+| System Audit         | clean tree, no prior design doc, solo repo   |
+| Step 0               | Approach C (vertical-slice) chosen; 3/4      |
+|                       | expansions accepted, 1 deferred              |
+| Section 1  (Arch)    | 2 issues found, both resolved (IDOR, retry)  |
+| Section 2  (Errors)  | 3 error paths mapped (dictionary/game/TTS),  |
+|                       | 0 unresolved GAPS                            |
+| Section 3  (Security)| 2 issues found (IDOR, COPPA audio), both     |
+|                       | resolved, 0 High severity remaining          |
+| Section 4  (Data/UX) | 1 edge case found (coverage-page gaps),      |
+|                       | resolved                                      |
+| Section 5  (Quality) | deferred to /plan-eng-review (no code yet)   |
+| Section 6  (Tests)   | flows named, test specs deferred to          |
+|                       | /plan-eng-review                              |
+| Section 7  (Perf)    | 0 issues — TTS caching already designed in   |
+| Section 8  (Observ)  | 0 gaps — narrationStatus/aiReviewStatus      |
+|                       | patterns sufficient                          |
+| Section 9  (Deploy)  | 0 risks — all additive/backward-compatible   |
+| Section 10 (Future)  | Reversibility: 5/5, debt items: 0            |
+| Section 11 (Design)  | UI scope confirmed — /plan-design-review     |
+|                       | recommended next                              |
++--------------------------------------------------------------------+
+| NOT in scope          | written (5 items, §10)                      |
+| What already exists   | written (§11)                                |
+| Dream state delta     | written                                      |
+| Error/rescue registry | 3 codepaths, 0 CRITICAL GAPS                 |
+| Failure modes         | 3 total, 0 CRITICAL GAPS                     |
+| TODOS.md updates      | 2 items (AI companion; existing-six redesign)|
+| Scope proposals       | 4 proposed, 3 accepted, 1 deferred           |
+| CEO plan              | written (~/.gstack/projects/jsdosanj-        |
+|                       | sikhischool/ceo-plans/2026-09-04-expansion-plan.md) |
+| Outside voice         | spec-review adversarial subagent ran (1      |
+|                       | round, 11/11 findings fixed) — see below     |
+| Diagrams produced     | 4 (architecture, 2× data flow, state machine)|
+| Stale diagrams found  | 0 (no prior diagrams in this repo)           |
+| Unresolved decisions  | 5 (§12, unchanged by this review — founder   |
+|                       | approval gate, not review findings)          |
++====================================================================+
+```
+
+### Error & Rescue Registry
+
+| Codepath | What can go wrong | Rescued? | Rescue action | User sees |
+|---|---|---|---|---|
+| Dictionary lookup (D4) | Word not found | Y | Not-found state, no crash | "No definition yet for this word" |
+| Dictionary lookup (D4) | D1 query error | Y | Retry once, then error state | "Couldn't load that — try again" |
+| Game score submission (C1) | `childProfileId` mismatch | Y | 403, logged as IDOR attempt | Generic error, no detail leaked |
+| Game score submission (C1) | D1 write conflict/busy | Y | Retry w/ backoff, else queue | "Not saved yet, retrying..." |
+| TTS generation (§7) | Provider failure/timeout | Y | Ship lesson text-only, flag `narrationStatus: pending`, nightly backfill retry | No visible error — lesson usable without narration |
+
+No CRITICAL GAPS (no row has all of RESCUED=N + TEST=N + USER SEES=Silent).
+
+### Outside Voice (Claude subagent — Codex not installed, fell back per skill's error handling)
+
+Ran as a fresh-context cold read of this full plan document (not the lighter CEO-plan artifact), after all 11 sections and the spec-review loop had already run — its job was finding what that full pass missed. 10 findings, all substantive. Per this skill's User Sovereignty rule, none are auto-incorporated — disposition below, decided or left open by the founder:
+
+1. **World Languages competitive framing was never benchmarked against language-learning apps (Duolingo/Babbel), only against general K-12 curriculum sites** — Sikhi School's stated differentiator (Sikhi/Punjabi depth) doesn't apply to a generic French/German track. **OPEN — §12 new decision #6.**
+2. **No stated wave-pipeline velocity, so the 12-month dream-state timeline was unchecked against real throughput** — **RESOLVED**: computed from git history, folded into §0 (~385 lessons/day when active; pipeline has actually been idle 12 days, not continuously running — see next finding).
+3. **The wave pipeline has been idle since 2026-08-22, not "currently running" as §12.3 assumed** — **RESOLVED**: §0 corrected, 5 uncommitted lesson files discovered sitting on disk, §12 open decision #3 reframed as "resume + keep running."
+4. **Founder-as-sole-reviewer capacity isn't modeled** — more concurrent waves doesn't mean more concurrent human review throughput. **OPEN — §12 new decision #7.**
+5. **English dictionary/spelling-bee sourcing and copyright is unaddressed** — AI-generating dictionary definitions at volume risks both lexicographic quality and proximity to copyrighted wording; Scripps' actual word lists are proprietary; no public-domain structured source (WordNet/Wiktionary) was even considered. **OPEN — §12 new decision #8, this one matters before D1/D2 touch any real content.**
+6. **"K-2 professional narration" is ambiguous between premium TTS and licensed human voice-over, and §3 B2-B4 silently resolved it toward TTS** ("reuses the same TTS-caching infrastructure... low risk") while §8 said "professional narration" (the natural children's-ed reading is voice actor) — materially different cost/scope. **OPEN — §12 new decision #9.**
+7. **B9's "not a fork" claim had no mechanism** — **RESOLVED**: `trackHint` (heritage/non-heritage) added to §3 B9 and the architecture diagram.
+8. **Games' accuracy gate only named Sikhi imagery + trivia as triggers, not all game factual content** — **RESOLVED**: §4 C3 corrected, every game's factual content now explicitly inherits `aiReviewStatus`.
+9. **No spend checkpoint inside Phase 1 itself** (only Phase 2's budget was gated on Phase 1's measured baseline) — **RESOLVED**: §8 Phase 1 now has an internal checkpoint after the first 2-3 grade bands.
+10. **RTL-readiness (A5) has no enforcement mechanism and nothing exercises it for years** — **RESOLVED**: §2 A5 now requires a stylelint physical-property ban in CI, not an unenforced convention.
+11. **Non-uniform per-language replication difficulty assumed away** — Spanish and French share script/tooling assumptions; Mandarin doesn't (non-alphabetic, tone marking, no word-boundary spacing, pinyin-vs-hanzi for pre-literate K-2) — none of that is exercised by Spanish's slice, so "S effort" for Mandarin specifically is optimistic. **RESOLVED as a stated risk**: added to §9's risk table below; Mandarin's replication effort should be re-estimated after Spanish clears, not assumed equal to French's.
+
+Cross-model tension: none — the outside voice found genuinely new ground (competitive framing, capacity modeling, pipeline status, content sourcing) rather than disagreeing with anything the 11-section review or spec-review loop concluded.
+
+## GSTACK REVIEW REPORT
+
+| Review | Trigger | Why | Runs | Status | Findings |
+|--------|---------|-----|------|--------|----------|
+| CEO Review | `/plan-ceo-review` | Scope & strategy | 1 | issues_open (approval gate) | 4 scope proposals (3 accepted, 1 deferred); 11 spec-review findings + 11 outside-voice findings, all fixed or converted to founder decisions; Sections 1-4 findings resolved via AskUserQuestion |
+| Outside Voice | Claude subagent (Codex not installed) | Independent 2nd opinion | 1 | issues_found → absorbed | 11 findings: 6 resolved inline, 5 converted to founder open decisions (§12 #6-9, plus the pipeline-status correction folded into §12.3) |
+| Eng Review | `/plan-eng-review` | Architecture & tests (required) | 0 | not yet run | — |
+| Design Review | `/plan-design-review` | UI/UX gaps | 0 | not yet run | — |
+| DX Review | `/plan-devex-review` | Developer experience gaps | 0 | not yet run | — |
+
+- **CROSS-MODEL:** no contradictions between the spec-review loop and the outside voice — both found genuinely new, non-overlapping ground (spec-review: internal consistency/schema-overclaim/scope-creep issues; outside voice: competitive framing, capacity modeling, pipeline status, content sourcing).
+- **VERDICT:** CEO REVIEW COMPLETE — plan is locked on scope/strategy pending the founder's single approval gate (§12, now 9 items). Eng, Design, and DX reviews recommended next per the founder's explicit instruction to run every phase through the full 4-skill pipeline.
+
+**UNRESOLVED DECISIONS:**
+- §12.1 — 36-week/180-lesson full-year target: confirm or correct
+- §12.2 — K-2 language cadence: same density as 9-12, or lighter exposure-only?
+- §12.3 — Wave pipeline has been idle 12 days (not "running"): resume alongside Phase 1 or stay paused? What to do with 5 uncommitted lesson files?
+- §12.4 — Phase 3's four detailed-plan languages run in parallel with Phase 1/2, or wait?
+- §12.5 — B1's OSPI World Languages standard pull: existing notes, or research fresh in Phase 0?
+- §12.6 — World Languages competitive scope: keep 3-build-now, or narrow to Punjabi on-ramp + Spanish only?
+- §12.7 — Founder-review capacity: cap wave concurrency against your available review hours/week?
+- §12.8 — English dictionary/spelling-bee sourcing: public-domain base (WordNet/Wiktionary) + AI adaptation, or different strategy?
+- §12.9 — K-2 narration: TTS (as currently planned) or licensed human voice-over?
+
+## 14. Eng review record (2026-09-04, FULL_REVIEW mode — reviewed against the plan's full eventual shape, all phases)
+
+**Step 0 — scope challenge:** complexity check triggered (plan touches far more than 8 files/2+ new subsystems across its eventual shape). Founder chose to review the full plan's eventual shape rather than narrow eng review to Phase 0/1 only — see the AskUserQuestion record above. Existing-code-leverage and minimum-change checks: no sub-problem is being rebuilt from scratch where existing code already solves it (§11's leverage map holds).
+
+**Findings, all resolved (folded inline above):**
+1. **[P1] (confidence: 9/10)** No deploy automation existed (`.github/workflows/` had only `ci.yml` + a cron job; no `CLOUDFLARE_API_TOKEN` secret) despite the founder's explicit auto-merge/auto-deploy instruction. **Fixed:** `.github/workflows/deploy.yml` (deploy on push to main) + `.github/workflows/auto-merge.yml` (request auto-merge on PR open) added; branch protection on `main` now requires `ci.yml`'s `validate` check before any merge. **Remaining founder action (cannot be done by this pipeline): add `CLOUDFLARE_API_TOKEN` as a repo secret** — the deploy workflow fails loudly, not silently, until then.
+2. **[P2] (confidence: 7/10)** Placement quiz's adaptive/branching design was flagged as possibly over-engineered for an unvalidated optional v1 feature. Founder chose to keep the full design as planned — not a defect, a deliberate scope call, recorded here rather than re-litigated.
+3. **[P2] (confidence: 8/10)** Games engine's 8+ step-type components had no code-splitting requirement — risked shipping all step-types' JS to every lesson page regardless of which one it uses. **Fixed:** §4 C1 now requires `next/dynamic` per step-type.
+4. **[P2] (confidence: 8/10)** Standards Coverage page (§6) had no query-batching requirement for its up-to-~180 grade×subject cells — real N+1 risk on a public, crawlable, unauthenticated page. **Fixed:** §6 now requires one batched query + ISR/cache revalidated only on audit re-run.
+
+**Architecture:** no new single point of failure introduced beyond what's already true of the stack (D1/Cloudflare Workers). Auto-merge/auto-deploy (finding 1) is scoped to run *within* an already-founder-approved phase, not a substitute for the phase-boundary review gates (§8) — a red CI run never merges (branch protection now enforces this), so the failure mode is "nothing ships" not "something bad ships."
+
+### Test Review
+
+```
+CODE PATHS (planned, Phase 0/1)                          USER FLOWS
+[+] Dictionary lookup (D4)                                [+] Word lookup while reading
+  └── query(language, word)                                 ├── [→E2E] Click word → definition+audio appears
+      ├── [PLAN] 0 rows → not-found state                   ├── [PLAN] Word not in dictionary yet
+      ├── [PLAN] D1 error → retry once, then error           └── [PLAN] Rapid double-click same word (no dupe fetch)
+      └── [PLAN] audioRef missing → text-only, no broken icon
+[+] Game score submission (C1)                            [+] Playing + completing a game
+  └── submitScore(childProfileId, gameId, score)             ├── [→E2E] Full play-through → score → masteryPoints update
+      ├── [PLAN] childProfileId mismatch → 403 + IDOR log    ├── [PLAN] Retry after completion (best-score-kept)
+      ├── [PLAN] score NaN/negative → clamp to 0, log         ├── [PLAN] Close tab mid-game (Abandoned state, no penalty)
+      ├── [PLAN] D1 write conflict → retry w/ backoff         └── [PLAN] Two tabs same game (single-attempt takeover — same
+      └── [PLAN] retry: masteryPts = max(existing,new)              rule as cert-prep's mid-exam persistence, §11 leverage)
+[+] TTS generation + narration (§7)                       [+] K-2 lesson with missing narration
+  └── generate(language, phrase) → cache R2                  └── [PLAN] narrationStatus:pending → lesson usable, no audio
+      ├── [PLAN] success → contentBlocks[audio].src set           player shown (not a broken player)
+      └── [PLAN] failure → narrationStatus:pending, backfill
+[+] Standards Coverage page (§6)                          [+] Teacher visiting the public page
+  └── getStandardsCoverage() — ONE batched query             ├── [PLAN] Subject not yet audited → "not yet audited" shown
+      ├── [PLAN] query failure → cached last-known-good           honestly, not hidden
+      └── [PLAN] unreviewed audit row → never rendered        └── [→E2E] Full page load — verify no N+1 (single query in logs)
+[+] Punjabi trackHint (B9)                                [+] Non-heritage family starting Punjabi
+  └── unit.trackHint: "heritage"|"non-heritage"               └── [PLAN] Both tracks converge on same later-week lessons —
+      └── [PLAN] no trackHint set → defaults to heritage            regression-style test: heritage track unaffected by B9
+
+LLM/content generation: [→EVAL] every Sonnet/Fable wave-authoring pass — existing aiReviewStatus
+  gate + the standards-audit gap-list output (§6) both need eval-style spot-checks, not unit tests
+
+COVERAGE (planned, not yet implemented): 0/19 paths have code yet — this IS the test spec for
+Phase 0/1, not a gap report against existing code. Every [PLAN] row becomes a required test
+when its component is built; every [→E2E] row is a Playwright/integration test, not a unit test.
+```
+
+**Test Plan Artifact:** written to `~/.gstack/projects/jsdosanj-sikhischool/jasvant-main-eng-review-test-plan-20260904.md` for `/qa` and `/qa-only` to consume once Phase 0/1 lands.
+
+**Regression rule check:** no existing behavior is modified by this plan (everything is additive — new subject values, new tables, new routes) — no regression tests required beyond B9's "heritage track unaffected" check above, which is precautionary given B9 touches the existing Punjabi course rows.
+
+### NOT in scope (eng review additions)
+
+- Automated visual regression testing — belongs to `/plan-design-review`, not eng review.
+- Load/stress testing against real traffic — no production traffic pattern exists yet to test against; revisit once Phase 1 (Spanish slice) is live.
+- CI/CD for the four detailed-plan-only languages (B5-B8) — nothing to deploy until a build phase is approved.
+
+### What already exists (eng review additions)
+
+`ci.yml`'s `validate` job (type check + lint + build) — reused as the required status check for auto-merge, not rebuilt. Existing route-ownership-check pattern (classroom/grade routes) — reused for the games-engine IDOR fix, not reinvented. `wrangler.jsonc`'s D1/R2 bindings — reused as-is for dictionary/games/TTS-cache storage, no new binding needed.
+
+### Failure modes registry (additions beyond §13's Error & Rescue Registry)
+
+| Codepath | Failure mode | Rescued? | Test? | User sees | Logged? |
+|---|---|---|---|---|---|
+| `deploy.yml` | Missing `CLOUDFLARE_API_TOKEN` | Y | N (infra, not app code) | N/A (founder sees a red GitHub Actions run) | Y — explicit `::error::` message |
+| `auto-merge.yml` | Red CI (`validate` fails) | Y | N (GitHub-enforced, not app code) | PR just doesn't merge, no user-facing impact | Y — visible in PR checks |
+| Standards Coverage page | Batched query fails | Y (per this review) | PLAN | Cached last-known-good page, not a 500 | PLAN |
+
+No CRITICAL GAPS (no row has all of RESCUED=N + TEST=N + USER SEES=Silent).
+
+### Worktree parallelization strategy (Phase 0)
+
+| Workstream | Modules touched | Depends on |
+|---|---|---|
+| A1 (design system) | `src/design/`, new component library | — |
+| D1 (dictionary schema) | `drizzle/schema.ts` (dictionary table), `drizzle/migrations/`, `scripts/` | — |
+| C1 (games engine) | `src/components/games/` (new), `drizzle/schema.ts` (attemptCount field), `src/app/api/` (score route) | A1 (styling conventions, non-blocking for core logic) |
+| B1 (language infra) | `data/` (templates/exemplars), `docs/` (standard research) | — |
+
+**Lanes:** Lane A = A1 (independent). Lane B = D1 (independent, touches `drizzle/schema.ts`). Lane C = C1 (independent core logic; final UI polish waits on Lane A). Lane D = B1 (independent, mostly docs/data).
+
+**Execution order:** Launch A, B, C, D in parallel worktrees. **Conflict flag:** D1 and C1 both touch `drizzle/schema.ts` (different tables — `dictionary` vs. `studentProgress`'s new field) — land one PR before starting the other's schema edit, or coordinate the migration file numbering carefully; the rest of each workstream is conflict-free.
+
+## Implementation Tasks (Eng Review)
+
+- [ ] **T7 (P1, human: ~2h / CC: ~20min)** — CI/CD — Add `CLOUDFLARE_API_TOKEN` repo secret (founder action, not automatable)
+  - Surfaced by: Eng review finding 1
+  - Files: GitHub repo Settings > Secrets and variables > Actions
+  - Verify: `deploy.yml` run succeeds instead of failing on the missing-token check
+- [ ] **T8 (P2, human: ~1d / CC: ~1-2hr)** — Games engine — Implement step-type components behind `next/dynamic`
+  - Surfaced by: Eng review finding 3
+  - Files: `src/components/games/*`
+  - Verify: bundle analyzer shows only the used step-type's JS on a given lesson page
+- [ ] **T9 (P2, human: ~1d / CC: ~1-2hr)** — Standards Coverage — Batched query + ISR caching
+  - Surfaced by: Eng review finding 4
+  - Files: new `src/app/standards-coverage/` route
+  - Verify: server logs show exactly 1 query per page render, not ~180
+
+## Completion Summary (Eng Review)
+
+```
++====================================================================+
+|                 ENG REVIEW — COMPLETION SUMMARY                    |
++====================================================================+
+| Step 0                | Scope accepted as-is (full eventual shape,  |
+|                        | founder's explicit choice)                  |
+| Architecture Review    | 1 issue found (deploy automation missing),  |
+|                        | resolved                                     |
+| Code Quality Review    | 1 issue found (quiz complexity), founder    |
+|                        | kept as planned — not a defect                |
+| Test Review            | diagram produced, 19 planned paths, test    |
+|                        | plan artifact written                        |
+| Performance Review     | 2 issues found (code-splitting, N+1),       |
+|                        | both resolved                                |
+| NOT in scope           | written (3 items)                            |
+| What already exists    | written (3 items)                            |
+| TODOS.md updates       | 0 new (nothing surfaced beyond CEO review's) |
+| Failure modes          | 3 additional, 0 CRITICAL GAPS                |
+| Outside voice          | ran (Claude subagent, Codex not installed)   |
+| Parallelization        | 4 lanes, 4 parallel / 1 conflict flag        |
+| Lake Score             | 2/2 recommendations chose the complete       |
+|                        | option (deploy automation, code-splitting)   |
++====================================================================+
+```

@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-12-2",
+    "courseId": "course-social-studies-12",
+    "order": 2,
+    "title": "Your Capstone Civics Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-12-2-4",
+    "unitId": "unit-social-studies-12-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Considering Challenges and Other Perspectives",
+    "gradeLevel": "12",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you've built a real action plan. Today: strengthen it by considering challenges and other perspectives!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A mature civic action plan anticipates real challenges and genuinely considers other perspectives — people who might see the issue differently, or practical obstacles (cost, time, competing priorities) the authority figure might raise. Addressing these in advance makes an action plan more persuasive and realistic, rather than one-sided. Identify one real challenge or opposing perspective on your civic issue, and write how you would thoughtfully address it in your action."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just strengthened your action plan with real perspective-taking! Tomorrow we'll review everything from this week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-12-2-4",
+    "lessonId": "lesson-social-studies-12-2-4",
+    "objectives": [
+      "Identify a real challenge or opposing perspective on the chosen civic issue",
+      "Write a thoughtful response addressing that challenge or perspective"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's issue, authority, and action-plan work.\n2. Introduce challenge/perspective-taking as strengthening, not weakening, a civic action.\n3. Have the child identify and address one real challenge or opposing view.\n4. Complete the worksheet.\n5. Preview tomorrow's cumulative review.",
+    "differentiationTips": [
+      "Struggling: ask a simple guiding question first — 'why might someone in charge say no to this?' — before asking for a full written response",
+      "Ready for more: ask the child whether acknowledging a real challenge upfront makes their action plan seem more or less credible, and why",
+      "This connects back to earlier civil-discourse content this session — genuinely engaging with a counterpoint is a mature civic skill, not a weakness in the argument"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child identifies a genuine, realistic challenge or opposing perspective (not a strawman) and responds to it thoughtfully, showing they've considered the issue from more than one angle.",
+    "standardsRationale": "Directly addresses this course's capstone-civics-project thread, teaching genuine perspective-taking as a mature civic skill before tomorrow's review."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-12-2-4",
+    "lessonId": "lesson-social-studies-12-2-4",
+    "title": "Considering Challenges and Other Perspectives",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Address a real challenge or opposing perspective.",
+      "prompts": [
+        { "prompt": "One real challenge or opposing perspective:", "lines": 2 },
+        { "prompt": "How you would thoughtfully address it:", "lines": 2 }
+      ]
+    }
+  }
+}

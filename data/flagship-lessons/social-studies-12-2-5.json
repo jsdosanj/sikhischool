@@ -1,0 +1,67 @@
+{
+  "unit": {
+    "id": "unit-social-studies-12-2",
+    "courseId": "course-social-studies-12",
+    "order": 2,
+    "title": "Your Capstone Civics Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-12-2-5",
+    "unitId": "unit-social-studies-12-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Review Day: Your Capstone Civics Proposal",
+    "gradeLevel": "12",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built every piece of a real capstone civics project. Let's put it all together!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Quick review: choose a real, specific, local issue (Day 1). Identify who has real authority over it (Day 2). Develop a specific action plan (Day 3). Consider real challenges and other perspectives (Day 4). Combine your issue, identified authority, action plan, and challenge-response into one complete capstone civics proposal."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Great work this week — you built a complete, real capstone civics proposal, ready to actually carry out! Next week we'll build on these skills with something new."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-12-2-5",
+    "lessonId": "lesson-social-studies-12-2-5",
+    "objectives": [
+      "Review issue choice, authority research, action planning, and perspective-taking",
+      "Combine all four into one complete written capstone civics proposal"
+    ],
+    "materialsNeeded": ["This week's worksheets", "Printed review worksheet", "Pencil"],
+    "facilitationScript": "1. Do the quick walk-through review of all 4 days together, out loud.\n2. Have the child assemble their complete capstone civics proposal.\n3. Complete the review worksheet.\n4. Celebrate finishing a real, ready-to-carry-out capstone civics proposal!",
+    "differentiationTips": [
+      "Struggling: it's fine if the proposal is short — focus on genuinely combining all four pieces rather than length",
+      "Ready for more: ask the child what they'd need to do next to actually send or present this proposal in the real world",
+      "This is the week's synthesis moment — a real, usable civic-action proposal the child can genuinely follow going forward, not just a review exercise"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended synthesis activity — check that the proposal genuinely combines all four elements from this week (the specific issue, the correctly identified authority, the drafted action, and a thoughtful challenge-response) into one coherent, usable civic-action proposal.",
+    "standardsRationale": "Consolidates this week's capstone-civics-project thread before the course continues, matching the established Day-5-review pacing used across every unit this session, producing a genuinely usable final artifact rather than just a review."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-12-2-5",
+    "lessonId": "lesson-social-studies-12-2-5",
+    "title": "Review: Your Capstone Civics Proposal",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your complete capstone civics proposal.",
+      "prompts": [
+        { "prompt": "Your complete capstone civics proposal (issue, authority, action, and challenge-response):", "lines": 6 }
+      ]
+    }
+  }
+}

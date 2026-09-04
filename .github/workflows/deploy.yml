@@ -79,3 +79,15 @@ jobs:
             exit 1
           fi
           echo "Smoke test passed (200)."
+
+      - name: Announce deploy (magical-moment visibility — DX review §16)
+        run: |
+          # Makes "PR merged -> live in production, unattended" visible without
+          # a session having to go check the Actions tab manually — it shows up
+          # in this run's own summary and is grep-able from gh run view.
+          {
+            echo "## Deployed to production"
+            echo ""
+            echo "Commit \`${{ github.sha }}\` is live at https://sikhischool.jasvant-dosanjh.workers.dev/"
+            echo "(smoke test passed, D1 migrations applied)"
+          } >> "$GITHUB_STEP_SUMMARY"

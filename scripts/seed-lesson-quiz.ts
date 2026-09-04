@@ -38,6 +38,28 @@ async function main() {
   const data = JSON.parse(readFileSync(path, "utf-8"));
   const { lessonId, quiz } = data;
 
+  // Fail loud before any D1 write — same rationale as seed-flagship-lesson.ts.
+  // (DX review finding + outside-voice correction, docs/plans/expansion-plan-2026-09.md §16)
+  const missing: string[] = [];
+  if (!lessonId) missing.push("lessonId");
+  if (!quiz?.id || !quiz?.level) missing.push("quiz.{id,level}");
+  if (!Array.isArray(quiz?.questions) || quiz.questions.length === 0) {
+    missing.push("quiz.questions (non-empty array)");
+  } else {
+    quiz.questions.forEach((q: { q?: string; options?: string[]; answer?: number }, i: number) => {
+      if (!q?.q || !Array.isArray(q?.options) || q.options.length === 0) {
+        missing.push(`quiz.questions[${i}].{q,options}`);
+      } else if (typeof q.answer !== "number" || q.answer < 0 || q.answer >= q.options.length) {
+        missing.push(`quiz.questions[${i}].answer (must be a valid index into options)`);
+      }
+    });
+  }
+  if (missing.length > 0) {
+    console.error(`${path} is missing required field(s): ${missing.join(", ")}`);
+    console.error("See docs/CONTENT-AUTHORING.md for the full quiz JSON shape.");
+    process.exit(1);
+  }
+
   await query("DELETE FROM quizzes WHERE id = ?;", [quiz.id]);
   await query("INSERT INTO quizzes (id, level, questions, mastery_weight) VALUES (?,?,?,?);", [
     quiz.id,
@@ -45,7 +67,15 @@ async function main() {
     JSON.stringify(quiz.questions),
     quiz.masteryWeight ?? 1,
   ]);
-  await query("UPDATE lessons SET mastery_quiz_id = ? WHERE id = ?;", [quiz.id, lessonId]);
+  const linkResult = await query("UPDATE lessons SET mastery_quiz_id = ? WHERE id = ?;", [quiz.id, lessonId]);
+  // D1 returns success:true with 0 rows changed for an UPDATE that matched no
+  // row — a typo'd lessonId would otherwise print a false-positive "Seeded"
+  // message while the quiz sits linked to nothing. (outside-voice finding, §16)
+  const changes = (linkResult as unknown as { result: { meta: { changes: number } }[] }).result?.[0]?.meta?.changes ?? 0;
+  if (changes === 0) {
+    console.error(`No lesson found with id "${lessonId}" — quiz "${quiz.id}" was created but NOT linked to any lesson.`);
+    process.exit(1);
+  }
 
   console.log(`Seeded quiz "${quiz.id}" and linked it to lesson "${lessonId}".`);
 }

@@ -28,6 +28,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write  # needed for `gh workflow run deploy.yml` below
 
 jobs:
   enable-auto-merge:
@@ -56,6 +57,37 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh pr merge --auto --squash "${{ github.event.pull_request.number }}" --repo "${{ github.repository }}"
+
+      - name: Wait for merge, then explicitly trigger deploy
+        # CRITICAL: GitHub's platform-level auto-merge, once it actually merges
+        # a PR that had auto-merge enabled via GITHUB_TOKEN, produces a push to
+        # main that does NOT fire deploy.yml's `on: push` trigger — this is the
+        # documented GITHUB_TOKEN-triggered-events-don't-cascade restriction,
+        # and it was confirmed empirically here: PR #181 merged via this exact
+        # path and produced zero Deploy runs. `workflow_dispatch` is explicitly
+        # exempt from that restriction, so this step polls for the actual merge
+        # (bounded, non-fatal on timeout) and then dispatches deploy.yml
+        # directly instead of relying on the implicit push trigger.
+        # (outside-voice-style finding, caught by running the real pipeline —
+        # docs/plans/expansion-plan-2026-09.md's post-review verification note)
+        if: steps.sensitive.outputs.hit == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR="${{ github.event.pull_request.number }}"
+          for i in $(seq 1 40); do
+            STATE=$(gh pr view "$PR" --repo "${{ github.repository }}" --json state -q .state)
+            if [ "$STATE" = "MERGED" ]; then
+              echo "PR #$PR merged — dispatching deploy.yml explicitly."
+              gh workflow run deploy.yml --repo "${{ github.repository }}" --ref main
+              exit 0
+            elif [ "$STATE" = "CLOSED" ]; then
+              echo "PR #$PR closed without merging — nothing to deploy."
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "::warning::Timed out after 10min waiting for PR #$PR to merge — auto-merge may still be pending on other required checks. Deploy was not dispatched; check manually if this PR does merge later."
 
       - name: Skip auto-merge — sensitive path touched
         if: steps.sensitive.outputs.hit == 'true'

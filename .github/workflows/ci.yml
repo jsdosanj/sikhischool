@@ -28,3 +28,12 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Build Cloudflare Workers artifact
+        # Green CI alone didn't used to prove the deploy artifact builds —
+        # `npm run build` (next build) and `npm run cf:deploy` (opennextjs-
+        # cloudflare build + deploy) are different pipelines. This is the
+        # build half only (no deploy, no Cloudflare credentials needed) so
+        # a red run here catches a broken deploy before merge, not after.
+        # (outside-voice finding, eng review — docs/plans/expansion-plan-2026-09.md §14)
+        run: npm run cf:build

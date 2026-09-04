@@ -151,6 +151,9 @@ Per the founder's explicit instruction, **every phase below clears the same 4-sk
 | Speaking-prompt voice recordings of a child under 13 are COPPA-sensitive regardless of storage location | §3 B1: recordings are client-ephemeral only, never uploaded to R2 or persisted server-side, never attached to any row |
 | Mandarin's replication effort assumed equal to French's, but Mandarin's non-alphabetic script, tone marking, no word-boundary spacing, and pinyin-vs-hanzi K-2 presentation are unexercised by Spanish's slice (outside-voice finding) | Re-estimate Mandarin's effort specifically after Spanish clears review — don't carry forward "S effort" from French's replication uncritically |
 | Founder is the sole PR reviewer/approver (repo confirmed solo-mode) — more concurrent waves doesn't mean more concurrent review throughput (outside-voice finding) | §12 open decision #7 — wave concurrency should be capped against founder-hours/week, not just infra readiness |
+| **No automated test suite exists at all** (confirmed: no test script, no test framework in package.json) — the auto-merge/auto-deploy pipeline's only gate is typecheck+lint+build, so the IDOR ownership check, COPPA audio-ephemerality rule, and mastery-points-never-decreases invariant have no mechanical enforcement (eng-review outside-voice finding) | `auto-merge.yml` skips unattended auto-merge for `drizzle/`, `src/app/api/`, and `.github/workflows/` changes, requiring a human look there until real tests exist covering those paths — see §12 open decision #10 |
+| Deploy credential (`CLOUDFLARE_API_TOKEN`) needs `D1:Edit`/`R2:Edit` to deploy, meaning it can directly mutate production child-related data, not just redeploy code (eng-review outside-voice finding) | Founder should scope the token as narrowly as Cloudflare's permission model allows when creating it; flagged in `deploy.yml`'s own setup comment |
+| Existing daily `mastery-decay.yml` cron (09:00 UTC) writes to `studentProgress` for real children — a same-window auto-deploy has no coordination/lock against it (eng-review outside-voice finding) | Documented here; no deploy-freeze window implemented yet — low actual risk (deploy is a Worker version swap, not a downtime window) but worth a `/canary` post-deploy check eventually |
 
 ## 10. NOT in scope (this plan)
 
@@ -175,6 +178,7 @@ Per the founder's explicit instruction, **every phase below clears the same 4-sk
 7. **Founder-review capacity isn't modeled anywhere in this plan** (outside-voice finding #4) — more concurrent waves doesn't create more concurrent PR-review bandwidth from a solo founder. Should Phase 1-3's wave concurrency be explicitly capped against your available review hours/week, and if so, roughly what's realistic?
 8. **English dictionary/spelling-bee sourcing (outside-voice finding #5)** — AI-generating definitions at volume risks both quality and proximity to copyrighted wording (Merriam-Webster-style phrasing); Scripps' actual spelling-bee lists are proprietary. Use a public-domain structured source (WordNet/Wiktionary) as the base and have AI adapt/simplify for grade level, or a different sourcing strategy?
 9. **"K-2 professional narration" — TTS or licensed human voice-over?** (outside-voice finding #6) — materially different cost; the plan currently defaults to premium TTS via the existing caching infra, but "professional narration" in children's-ed usually implies voice actor. Confirm TTS is acceptable, or this needs a different budget line.
+10. **No automated test suite exists anywhere in this repo, and the new auto-merge/auto-deploy pipeline has no required human review** (eng-review outside-voice finding) — the IDOR check, COPPA audio rule, and mastery-points invariant currently have zero mechanical enforcement beyond the path-based auto-merge carve-out (§14). Is "unattended merge/deploy for content, human-required for schema/API/CI changes" the right posture to run with until a real test suite exists, or should content waves also require a review click for now? And: is standing up a test framework (vitest, given the Next.js/TS stack) worth doing before Phase 0 starts, or after — given it's real, unbudgeted engineering work not accounted for anywhere in §7's model/token strategy?
 
 ## 13. CEO review record (2026-09-04, SCOPE EXPANSION mode)
 
@@ -408,30 +412,6 @@ Ran as a fresh-context cold read of this full plan document (not the lighter CEO
 
 Cross-model tension: none — the outside voice found genuinely new ground (competitive framing, capacity modeling, pipeline status, content sourcing) rather than disagreeing with anything the 11-section review or spec-review loop concluded.
 
-## GSTACK REVIEW REPORT
-
-| Review | Trigger | Why | Runs | Status | Findings |
-|--------|---------|-----|------|--------|----------|
-| CEO Review | `/plan-ceo-review` | Scope & strategy | 1 | issues_open (approval gate) | 4 scope proposals (3 accepted, 1 deferred); 11 spec-review findings + 11 outside-voice findings, all fixed or converted to founder decisions; Sections 1-4 findings resolved via AskUserQuestion |
-| Outside Voice | Claude subagent (Codex not installed) | Independent 2nd opinion | 1 | issues_found → absorbed | 11 findings: 6 resolved inline, 5 converted to founder open decisions (§12 #6-9, plus the pipeline-status correction folded into §12.3) |
-| Eng Review | `/plan-eng-review` | Architecture & tests (required) | 0 | not yet run | — |
-| Design Review | `/plan-design-review` | UI/UX gaps | 0 | not yet run | — |
-| DX Review | `/plan-devex-review` | Developer experience gaps | 0 | not yet run | — |
-
-- **CROSS-MODEL:** no contradictions between the spec-review loop and the outside voice — both found genuinely new, non-overlapping ground (spec-review: internal consistency/schema-overclaim/scope-creep issues; outside voice: competitive framing, capacity modeling, pipeline status, content sourcing).
-- **VERDICT:** CEO REVIEW COMPLETE — plan is locked on scope/strategy pending the founder's single approval gate (§12, now 9 items). Eng, Design, and DX reviews recommended next per the founder's explicit instruction to run every phase through the full 4-skill pipeline.
-
-**UNRESOLVED DECISIONS:**
-- §12.1 — 36-week/180-lesson full-year target: confirm or correct
-- §12.2 — K-2 language cadence: same density as 9-12, or lighter exposure-only?
-- §12.3 — Wave pipeline has been idle 12 days (not "running"): resume alongside Phase 1 or stay paused? What to do with 5 uncommitted lesson files?
-- §12.4 — Phase 3's four detailed-plan languages run in parallel with Phase 1/2, or wait?
-- §12.5 — B1's OSPI World Languages standard pull: existing notes, or research fresh in Phase 0?
-- §12.6 — World Languages competitive scope: keep 3-build-now, or narrow to Punjabi on-ramp + Spanish only?
-- §12.7 — Founder-review capacity: cap wave concurrency against your available review hours/week?
-- §12.8 — English dictionary/spelling-bee sourcing: public-domain base (WordNet/Wiktionary) + AI adaptation, or different strategy?
-- §12.9 — K-2 narration: TTS (as currently planned) or licensed human voice-over?
-
 ## 14. Eng review record (2026-09-04, FULL_REVIEW mode — reviewed against the plan's full eventual shape, all phases)
 
 **Step 0 — scope challenge:** complexity check triggered (plan touches far more than 8 files/2+ new subsystems across its eventual shape). Founder chose to review the full plan's eventual shape rather than narrow eng review to Phase 0/1 only — see the AskUserQuestion record above. Existing-code-leverage and minimum-change checks: no sub-problem is being rebuilt from scratch where existing code already solves it (§11's leverage map holds).
@@ -531,7 +511,24 @@ No CRITICAL GAPS (no row has all of RESCUED=N + TEST=N + USER SEES=Silent).
   - Files: new `src/app/standards-coverage/` route
   - Verify: server logs show exactly 1 query per page render, not ~180
 
-## Completion Summary (Eng Review)
+### Outside voice (Claude subagent — Codex not installed) on the deploy pipeline specifically
+
+Ran a second, targeted outside-voice pass against the newly-built `deploy.yml`/`auto-merge.yml`/`ci.yml` changes (not just the plan doc) — this is the pass that actually earns its keep. 11 findings, genuinely serious for a pipeline with direct D1/R2 write access to child-related data:
+
+**Resolved by hardening the workflows just now:**
+- No concurrency control on `deploy.yml` → added `concurrency: group: deploy-production, cancel-in-progress: false`.
+- CI validated a different build than what deploys (`next build` vs. `opennextjs-cloudflare build`) → `ci.yml` now also runs `npm run cf:build`.
+- No production D1 migration step existed anywhere (6 prior migrations were applied by hand) → `deploy.yml` now runs `wrangler d1 migrations apply --remote` before deploying (idempotent, safe to re-run).
+- No post-deploy verification → `deploy.yml` now smoke-tests the live URL, fails loudly with a rollback hint if it's not a 200.
+- Auto-merge applied uniformly regardless of blast radius (a content wave and an IDOR-security-code change got identical unattended treatment) → `auto-merge.yml` now skips requesting auto-merge for `drizzle/`, `src/app/api/`, and `.github/workflows/` changes, posting a comment explaining why a human needs to look.
+
+**Not mechanically fixable by this pipeline — genuine open items, folded into §9's risk table and §12:**
+- **No test suite exists at all** in this repo (no test script, no framework installed) — the IDOR check, COPPA audio-ephemerality rule, and mastery-points invariant have zero mechanical enforcement, only the path-based carve-out above as a stopgap. **New open decision, §12 #10.**
+- **No required human review** on branch protection (confirmed via API) — combined with the above, low-risk content waves merge genuinely unattended, which matches how the existing pipeline already behaved for ~178 prior PRs, but the founder should confirm this is the intended posture going forward, not an accident. **Folded into §12 #10.**
+- Deploy credential's D1/R2 write scope, and the mastery-decay cron coordination gap — both added to §9's risk table as documented, not mechanically resolved (the first needs the founder's Cloudflare token creation, the second is low actual risk given Workers deploys are a version swap, not downtime).
+- No staging/preview deploy step exists — genuinely out of scope for this pass (Cloudflare Workers preview deploys are a real feature, but wiring them is its own workstream) — added to `TODOS.md`.
+
+
 
 ```
 +====================================================================+
@@ -557,3 +554,34 @@ No CRITICAL GAPS (no row has all of RESCUED=N + TEST=N + USER SEES=Silent).
 |                        | option (deploy automation, code-splitting)   |
 +====================================================================+
 ```
+
+## GSTACK REVIEW REPORT
+
+| Review | Trigger | Why | Runs | Status | Findings |
+|--------|---------|-----|------|--------|----------|
+| CEO Review | `/plan-ceo-review` | Scope & strategy | 1 | issues_open (approval gate) | 4 scope proposals (3 accepted, 1 deferred); 11 spec-review findings + 11 outside-voice findings, all fixed or converted to founder decisions; Sections 1-4 findings resolved via AskUserQuestion |
+| Outside Voice (CEO) | Claude subagent (Codex not installed) | Independent 2nd opinion | 1 | issues_found → absorbed | 11 findings: 6 resolved inline, 5 converted to founder open decisions (§12 #6-9, plus the pipeline-status correction folded into §12.3) |
+| Eng Review | `/plan-eng-review` | Architecture & tests (required) | 1 | issues_open (approval gate) | 4 findings, all resolved (deploy automation built, code-splitting + N+1 batching required, quiz complexity kept as-is); test coverage diagram + artifact written; worktree parallelization strategy produced |
+| Outside Voice (Eng) | Claude subagent (Codex not installed) | Independent 2nd opinion, targeted at the new deploy pipeline | 1 | issues_found → absorbed | 11 findings on the auto-merge/deploy infrastructure — 5 resolved by hardening the workflows (concurrency control, D1 migration step, post-deploy smoke test, matching CI/deploy build pipelines, path-scoped auto-merge), 1 new founder decision (§12 #10: no test suite exists), rest documented in §9's risk table |
+| Design Review | `/plan-design-review` | UI/UX gaps | 0 | not yet run | — |
+| DX Review | `/plan-devex-review` | Developer experience gaps | 0 | not yet run | — |
+
+- **CROSS-MODEL:** no contradictions across either review's spec-review-loop-vs-outside-voice pair — every pass found genuinely new, non-overlapping ground rather than disagreeing with prior findings.
+- **VERDICT:** CEO + ENG REVIEW COMPLETE — plan and its supporting CI/CD infrastructure are hardened, pending the founder's single approval gate (§12, now 10 items). Design and DX reviews recommended next per the founder's explicit instruction to run every phase through the full 4-skill pipeline.
+
+**UNRESOLVED DECISIONS:**
+- §12.1 — 36-week/180-lesson full-year target: confirm or correct
+- §12.2 — K-2 language cadence: same density as 9-12, or lighter exposure-only?
+- §12.3 — Wave pipeline was idle 12 days; resumed 2026-09-04 (PR #179) — confirm ongoing cadence alongside Phase 1
+- §12.4 — Phase 3's four detailed-plan languages run in parallel with Phase 1/2, or wait?
+- §12.5 — B1's OSPI World Languages standard pull: existing notes, or research fresh in Phase 0?
+- §12.6 — World Languages competitive scope: keep 3-build-now, or narrow to Punjabi on-ramp + Spanish only?
+- §12.7 — Founder-review capacity: cap wave concurrency against your available review hours/week?
+- §12.8 — English dictionary/spelling-bee sourcing: public-domain base (WordNet/Wiktionary) + AI adaptation, or different strategy?
+- §12.9 — K-2 narration: TTS (as currently planned) or licensed human voice-over?
+- §12.10 — No test suite exists; auto-merge/deploy currently unattended for content, human-required for schema/API/CI changes — right posture for now, or should content also require a review click until tests exist?
+- + `CLOUDFLARE_API_TOKEN` repo secret still needs to be added by the founder before `deploy.yml` can actually deploy anything (§14 finding 1) — everything up to that point is built and CI-validated; nothing has deployed to production yet.
+
+---
+
+*Next in the pipeline: `/plan-design-review` (UI/UX gaps, recommended given confirmed design scope) → `/plan-devex-review`, matching the process used for the aim528, cert-prep, and DosanjhLabs world-class plans.*

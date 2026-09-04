@@ -240,6 +240,11 @@ export const studentProgress = sqliteTable("student_progress", {
   nodeId: text("node_id").notNull(), // Lesson.id | ScriptureSection.id
   status: text("status").notNull().default("not-started"), // not-started | in-progress | passed
   masteryPoints: integer("mastery_points").notNull().default(0),
+  // Games are replayable and masteryPoints only ever move UP (max(existing, new)),
+  // so the score alone can't show how many tries a child needed — this can. Counts
+  // every graded attempt against this node (game submissions today; quiz/lesson
+  // completions keep their existing write path untouched). See plan §4 C1a.
+  attemptCount: integer("attempt_count").notNull().default(0),
   lastPracticedAt: integer("last_practiced_at", { mode: "timestamp" }),
   decayScheduledAt: integer("decay_scheduled_at", { mode: "timestamp" }),
 });

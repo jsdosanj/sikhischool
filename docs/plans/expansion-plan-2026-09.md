@@ -36,7 +36,8 @@ written plan for Sikhi School; none existed before (README pointed to "docs/
 
 The user's bar is explicit and non-negotiable: *"no other app/website rivals," "millions of dollars," "clean, simple, secure."* Nothing below ships through a default/templated look.
 
-- **A1. Design language definition.** Run `/design-consultation` against Sikhi School specifically (not reused verbatim from sikhiuni or sikh-archive — this product's audience is families and classrooms, not adult self-directed learners or scripture readers). Output: typography pairing, color system (light + dark, per grade-band shell — `little-sparks` should read differently from `sikhi-school-studio` while staying one coherent brand), spacing/motion rules, and an anti-slop commitment list, same shape as cert-prep's A10 design spec.
+- **A1. Design language definition.** Run `/design-consultation` against Sikhi School specifically (not reused verbatim from sikhiuni or sikh-archive — this product's audience is families and classrooms, not adult self-directed learners or scripture readers). Output: typography pairing, color system (light + dark, per grade-band shell — `little-sparks` should read differently from `sikhi-school-studio` while staying one coherent brand), spacing/motion rules, and an anti-slop commitment list, same shape as cert-prep's A10 design spec. **Blocking prerequisite (design review finding, §15): no component in A2-A5 is built until `/design-consultation` produces a real `DESIGN.md`** — concrete font pairing, CSS color variables, spacing scale — not vibes. Same enforcement mechanism cert-prep's design review used (a hard gate, not a hope).
+- **A1a. K-2 icon-first navigation (design review finding, §15).** Pre-readers and early readers (K-2, ages 5-7) can't reliably navigate text-based menu labels. `little-sparks`'s navigation is icon-led (a picture per subject/games/progress), with tap-and-hold speaking the label aloud — reuses the TTS-caching infrastructure §7 already builds, no new infra class. Touch targets 60px+ (above the 44px a11y floor — smaller fingers, less precision than an adult). 3-5/6-8/9-12 shells can use conventional text nav.
 - **A2. Lesson-surface redesign, scoped to Phase 0/1's new-workstream surfaces (spec-review finding, §13).** The lesson/worksheet/teacher-guide rendering *for Spanish's vertical slice, plus the new games and dictionary surfaces* gets the full design pass — this is the highest-traffic surface in the product and the one a parent/teacher judges the platform by in the first 30 seconds. **Explicitly NOT in this scope:** redesigning the existing six subjects' already-shipped lesson pages — that's a separately-approved follow-on plan once the Spanish-slice design system proves out, not a blocking prerequisite buried inside an "expansion" plan. Applying the new design system to the six existing subjects' pages is a mechanical follow-on once A1's system exists, tracked in `TODOS.md`, not gated into Phase 1.
 - **A3. Games & dictionary surfaces designed alongside their engines** (not bolted on after — see §4, §5), so the "millions of dollars" bar applies to interaction design, not just visual polish (animation feedback on a correct game answer, satisfying not childish; dictionary lookup that feels instant, not a page navigation).
 - **A4. Component reuse discipline.** One shared component library across all three new workstreams + the six existing subjects — a Spanish flashcard game and a Punjabi flashcard game are the same component with different config, per CLAUDE.md §2 (no per-language reimplementation).
@@ -88,7 +89,7 @@ Two related products sharing one generalized schema — worth stating explicitly
 - **D1. Schema generalization.** `punjabiDictionary` → `dictionary {id, language, word, translation, partOfSpeech, synonyms[], exampleSentence, audioRef, gradeBandHint}` — `language: "punjabi"` migrates the existing rows untouched; `language: "english"` and the three new language slugs populate alongside.
 - **D2. English dictionary + thesaurus + spelling bee** (ELA-integrated). Thesaurus = a `synonyms[]` query against the same table, not separate content. Spelling-bee word lists = graded difficulty tiers per grade band, sourced from the same dictionary rows plus a difficulty tag, modeled on how Scripps-style competitive lists are graded — genuinely useful for a family running spelling-bee prep, not a generic word list.
 - **D3. Per-language dictionaries** (Spanish/Mandarin/French now; Punjabi generalized from existing data; Japanese/Korean/German/Arabic get schema readiness but no content per §3's build/plan split).
-- **D4. Click/lookup UX** (design-owned, A3): instant word lookup from any reading passage or Santhya Path text, inspired by LLPlayer/Dictionariez's double-click pattern — reimplemented natively, not the extension's code.
+- **D4. Click/lookup UX** (design-owned, A3): instant word lookup from any reading passage or Santhya Path text, inspired by LLPlayer/Dictionariez's double-click pattern — reimplemented natively, not the extension's code. **Two intentional layouts, not one squeezed into both (design review finding, §15):** desktop gets a lightweight inline popover anchored to the word; mobile (<768px, no hover) gets a full-width bottom sheet (slide up, dismiss via swipe-down or tap-outside) — an inline popover next to a tapped word clips or crowds on a small screen, the exact "stacked on mobile, not intentional" failure mode.
 - Exit gate: every published language has ≥1 populated dictionary; English spelling-bee lists cover every grade band; lookup UX ships on at least the ELA reading surface and Santhya Path.
 
 ## 6. Workstream E — Curriculum-exceeds-WA-standards audit (existing six subjects)
@@ -151,6 +152,7 @@ Per the founder's explicit instruction, **every phase below clears the same 4-sk
 | Speaking-prompt voice recordings of a child under 13 are COPPA-sensitive regardless of storage location | §3 B1: recordings are client-ephemeral only, never uploaded to R2 or persisted server-side, never attached to any row |
 | Mandarin's replication effort assumed equal to French's, but Mandarin's non-alphabetic script, tone marking, no word-boundary spacing, and pinyin-vs-hanzi K-2 presentation are unexercised by Spanish's slice (outside-voice finding) | Re-estimate Mandarin's effort specifically after Spanish clears review — don't carry forward "S effort" from French's replication uncritically |
 | Founder is the sole PR reviewer/approver (repo confirmed solo-mode) — more concurrent waves doesn't mean more concurrent review throughput (outside-voice finding) | §12 open decision #7 — wave concurrency should be capped against founder-hours/week, not just infra readiness |
+| No atomic writes or concurrency control across seed scripts — parallel Claude Code sessions (which §14's own worktree-parallelization strategy plans around) writing to the same shared remote D1 can interleave DELETE/INSERT unpredictably; a partial failure mid-sequence leaves orphaned rows, not a rollback (DX-review outside-voice finding) | T18 (§16), deferred — not built this session; §12 open decision #11 |
 | **No automated test suite exists at all** (confirmed: no test script, no test framework in package.json) — the auto-merge/auto-deploy pipeline's only gate is typecheck+lint+build, so the IDOR ownership check, COPPA audio-ephemerality rule, and mastery-points-never-decreases invariant have no mechanical enforcement (eng-review outside-voice finding) | `auto-merge.yml` skips unattended auto-merge for `drizzle/`, `src/app/api/`, and `.github/workflows/` changes, requiring a human look there until real tests exist covering those paths — see §12 open decision #10 |
 | Deploy credential (`CLOUDFLARE_API_TOKEN`) needs `D1:Edit`/`R2:Edit` to deploy, meaning it can directly mutate production child-related data, not just redeploy code (eng-review outside-voice finding) | Founder should scope the token as narrowly as Cloudflare's permission model allows when creating it; flagged in `deploy.yml`'s own setup comment |
 | Existing daily `mastery-decay.yml` cron (09:00 UTC) writes to `studentProgress` for real children — a same-window auto-deploy has no coordination/lock against it (eng-review outside-voice finding) | Documented here; no deploy-freeze window implemented yet — low actual risk (deploy is a Worker version swap, not a downtime window) but worth a `/canary` post-deploy check eventually |
@@ -179,6 +181,7 @@ Per the founder's explicit instruction, **every phase below clears the same 4-sk
 8. **English dictionary/spelling-bee sourcing (outside-voice finding #5)** — AI-generating definitions at volume risks both quality and proximity to copyrighted wording (Merriam-Webster-style phrasing); Scripps' actual spelling-bee lists are proprietary. Use a public-domain structured source (WordNet/Wiktionary) as the base and have AI adapt/simplify for grade level, or a different sourcing strategy?
 9. **"K-2 professional narration" — TTS or licensed human voice-over?** (outside-voice finding #6) — materially different cost; the plan currently defaults to premium TTS via the existing caching infra, but "professional narration" in children's-ed usually implies voice actor. Confirm TTS is acceptable, or this needs a different budget line.
 10. **No automated test suite exists anywhere in this repo, and the new auto-merge/auto-deploy pipeline has no required human review** (eng-review outside-voice finding) — the IDOR check, COPPA audio rule, and mastery-points invariant currently have zero mechanical enforcement beyond the path-based auto-merge carve-out (§14). Is "unattended merge/deploy for content, human-required for schema/API/CI changes" the right posture to run with until a real test suite exists, or should content waves also require a review click for now? And: is standing up a test framework (vitest, given the Next.js/TS stack) worth doing before Phase 0 starts, or after — given it's real, unbudgeted engineering work not accounted for anywhere in §7's model/token strategy?
+11. **Seed scripts have no atomic writes or concurrency control** (DX-review outside-voice finding, §16, T18) — a partial write failure leaves orphaned D1 rows rather than rolling back, and two parallel Claude Code sessions (which this plan's own worktree-parallelization strategy, §14, plans around) writing the same unit/lesson id can interleave unpredictably. Worth fixing before Phase 0's parallel worktree lanes actually start writing to the same D1, or acceptable risk at current scale (one contributor, sequential in practice even if the infra allows parallel)?
 
 ## 13. CEO review record (2026-09-04, SCOPE EXPANSION mode)
 
@@ -555,6 +558,318 @@ Ran a second, targeted outside-voice pass against the newly-built `deploy.yml`/`
 +====================================================================+
 ```
 
+## 15. Design review record (2026-09-04)
+
+**System audit:** no `DESIGN.md` exists. Mockup generation (the gstack designer) is installed but not authenticated — no OpenAI API key configured — so this review is text-based, not visual. That gap is itself Pass 5's central finding, not a reason to skip the review.
+
+**Initial rating: 4/10.** Workstream A stated good intent (RTL-ready, anti-slop commitment, component reuse, grade-band-differentiated shells) but zero concrete decisions — no font names, no color values, no spacing scale. Same shape as cert-prep's pre-review 5.5/10 ("premium was asserted, not designed").
+
+### Pass 1: Information Architecture — 3/10 → 8/10
+
+```
+Spanish Grade-3 lesson page (rising-school shell), info hierarchy:
+  1st: today's lesson title + week position (Mon-Fri) — orients the kid immediately
+  2nd: the reading passage (primary content — largest visual weight)
+  3rd: the embedded game (secondary, below the passage — practice follows content,
+       not competes with it for attention)
+  4th: progress indicator (tertiary — growing-plant/filled-dots metaphor, not a
+       generic percent bar, per §0's "millions of dollars" bar)
+
+little-sparks (K-2) home, info hierarchy (post-A1a icon-nav finding):
+  1st: "today's lesson" as one big icon-tile (the ONE thing a 6-year-old needs)
+  2nd: subject icons (math/ela/science/etc., tap-and-hold speaks the name)
+  3rd: "my stars"/progress (icon, least cognitive load — a reward glance, not a task)
+```
+
+### Pass 2: Interaction State Coverage — 2/10 → 8/10
+
+```
+FEATURE                | LOADING           | EMPTY                  | ERROR                | SUCCESS                | PARTIAL
+------------------------|-------------------|------------------------|-----------------------|-------------------------|------------------
+Dictionary lookup (D4)  | subtle spinner    | "No definition yet     | "Couldn't load —     | popover/sheet w/       | audioRef missing →
+                         | in the popover/    | for this word" +       | try again" + retry    | translation+audio      | text-only, no
+                         | sheet, <300ms      | warm tone, not a       | button                |                         | broken icon
+                         | perceived-instant  | dead end               |                       |                         |
+Game play (C1)          | step-type          | (n/a — a lesson         | "Something went       | score + streak +       | Abandoned (tab
+                         | component lazy-    | either has a game       | wrong, your last      | mastery-points          | closed mid-game)
+                         | loads via          | or doesn't — no         | try was saved"        | update, retry-best-     | → no penalty,
+                         | next/dynamic       | empty-game state)       | on submission          | score-kept              | no partial credit
+                         |                    |                         | failure                |                         | shown as such
+K-2 narration (§7)      | n/a (pre-cached)   | n/a                     | narrationStatus:      | audio player, large     | —
+                         |                    |                         | pending → lesson       | tap target, icon-only  |
+                         |                    |                         | usable, no broken      |                         |
+                         |                    |                         | player shown            |                         |
+Standards Coverage (§6) | skeleton table      | (n/a — always has        | cached last-known-    | full table, per-cell    | subject not yet
+                         | while cached page   | at least "not yet        | good page shown,       | ✓/✗/thin verdict         | audited → "○ not
+                         | revalidates         | audited" rows)           | never a raw 500        |                         | yet audited" (§13)
+Placement quiz (§3)     | question-by-        | (n/a — always has         | progress saved,        | "here's your            | quiz abandoned
+                         | question, no        | at least the first        | resume where you       | starting point" +       | mid-way → resumable
+                         | full-page reload    | question)                  | left off               | why (grade-band         | next visit, not
+                         |                     |                            |                        | rationale)               | lost
+```
+
+### Pass 3: User Journey & Emotional Arc — 3/10 → 7/10
+
+```
+STEP                        | USER DOES                    | USER FEELS              | PLAN SPECIFIES?
+-----------------------------|-------------------------------|---------------------------|------------------
+1. Family lands on Spanish   | Browses grade-3 course page   | Curious, slightly         | Course landing page
+   Grade-3 course             |                                | skeptical (free = often   | design deferred to
+                              |                                | thin)                     | A2 — flagged as a gap
+2. Opens today's lesson      | Reads title, sees week         | Oriented ("this is        | Pass 1's hierarchy
+                              | position                        | Monday's lesson")         | above
+3. Reads passage, hits an    | Clicks the word                 | A flicker of friction     | D4's instant popover/
+   unfamiliar Spanish word    |                                  | ("do I have to leave?")  | sheet — resolves fast
+                              |                                  | → relief when it's        |
+                              |                                  | instant, not a navigation |
+4. Plays the matching game    | Drags/taps tiles                | Playful, low-stakes       | C1a's retry-keeps-
+                              |                                  | (retry allowed)           | best-score rule
+5. Sees mastery-points grow   | Glances at the progress         | Small accomplishment,     | Pass 1's growing-plant/
+                              | indicator                        | not a grade/judgment      | filled-dots metaphor
+```
+
+**Gap flagged, not fixed here:** step 1 (course landing page, first impression for a skeptical parent) has no design spec anywhere in this plan — it's the actual "5-second visceral" moment that decides whether a family keeps looking. Added to §7 Unresolved Decisions below.
+
+### Pass 4: AI Slop Risk — 3/10 → 6/10 (capped — see Pass 5)
+
+The plan's language ("premium," "distinctive," "clean, simple, secure") is vague on its own — the FIX here is the explicit AI Slop blacklist commitment, not invented specifics this review can't back with a real mockup: **A1's design system explicitly avoids** the purple/violet gradient default, the 3-column icon-in-circle feature grid, centered-everything, uniform bubbly border-radius, decorative blobs/wavy dividers, emoji-as-design-elements, and `system-ui`/`-apple-system` as the primary typeface (all AI-slop blacklist items, §0's reference-repo research already flags KanaDojo's actual distinctive aesthetic as a worthwhile study, not a template to copy). Real font/color decisions still require Pass 5's gate.
+
+### Pass 5: Design System Alignment — 0/10 → capped at 7/10 until DESIGN.md exists
+
+No `DESIGN.md`. **Hard gate added to §2 A1** (not a hope): no component in A2-A5 is built until `/design-consultation` produces real typography/color/spacing decisions. This score cannot honestly move past 7/10 in a text-only review — the cap is intentional, matching cert-prep's precedent exactly.
+
+### Pass 6: Responsive & Accessibility — 3/10 → 8/10
+
+- **Mobile dictionary lookup:** bottom sheet, not a squeezed popover (fixed above, §5 D4).
+- **K-2 touch targets:** 60px+ (fixed above, §2 A1a) — above the universal 44px floor for smaller, less precise fingers.
+- **Game step-types keyboard access:** already required by eng review (§4 C1) — drag/drop and ordering step-types ship keyboard-operable equivalents.
+- **Standards Coverage table (§6):** ~180 cells needs a real mobile layout, not a horizontally-scrolling table with no affordance — **new finding, folded in without a separate gate (obvious fix, same pattern as D4's mobile treatment):** collapses to a per-subject accordion/list view below 768px, each subject expandable to its per-grade verdicts, rather than a cramped wide table.
+- **Contrast/type floor:** universal rule carried forward — body text never below 16px or 4.5:1 contrast, both themes (already stated in §1.1's exit criteria, reaffirmed here as binding on every new surface in this section).
+- **Visited-link distinction:** applies to the Standards Coverage page's any external OSPI/standard-reference links.
+
+### Pass 7: Unresolved Design Decisions
+
+```
+DECISION NEEDED                          | IF DEFERRED, WHAT HAPPENS
+-------------------------------------------|---------------------------------------------
+Course landing page design (Pass 3 gap)   | Implementer ships a generic course-card grid —
+                                            | the actual first-impression moment for a
+                                            | skeptical parent gets the least design thought
+Font pairing / color values (Pass 5)      | Blocked by the new A1 hard gate — cannot ship
+                                            | without /design-consultation running first
+K-2 icon set — custom-illustrated or a    | Custom = more "millions of dollars" feel but
+licensed icon library?                    | real production cost; a library ships faster
+                                            | but risks the generic-SaaS-icon look Pass 4
+                                            | flags. Not resolved here — recommend deciding
+                                            | inside /design-consultation, not this review.
+```
+
+### NOT in scope (design review)
+
+- Actual font/color selection — belongs to `/design-consultation`, not this review (Pass 5's gate exists specifically to route it there).
+- Visual mockup generation — blocked on an OpenAI API key not being configured; text-based specification substitutes for this pass.
+- Course landing page's full design — flagged as a real gap (Pass 3/7) but not specified here; scope creep beyond what this review's target (the expansion plan) asked for.
+
+### What already exists (design review)
+
+Three grade-banded shells (`little-sparks`/`rising-school`/`sikhi-school-studio`) already differentiate K-2 from older grades structurally — A1a's icon-nav finding extends that existing differentiation, doesn't invent a new one. `contentBlocks`'s `audio` type already exists in schema — K-2 narration (§7) rides it, no new content-block type needed.
+
+## Implementation Tasks (Design Review)
+
+- [ ] **T10 (P1, human: ~2-3d / CC: ~half day)** — Design system — Run `/design-consultation`, produce `DESIGN.md` before any A2-A5 component is built
+  - Surfaced by: Pass 5
+  - Files: new `DESIGN.md`
+  - Verify: real font names, CSS color variables, spacing scale present — not placeholder text
+- [ ] **T11 (P1, human: ~1-2d / CC: ~2-3hr)** — K-2 shell — Icon-first nav with tap-and-hold audio labels
+  - Surfaced by: Pass 1 / design review finding (K-2 navigation)
+  - Files: `little-sparks` shell nav component
+  - Verify: a non-reading test user can navigate to today's lesson using icons/audio alone
+- [ ] **T12 (P2, human: ~1d / CC: ~2hr)** — Dictionary lookup — Bottom-sheet mobile pattern
+  - Surfaced by: Pass 6 / design review finding (mobile dictionary lookup)
+  - Files: `D4`'s lookup component
+  - Verify: <768px viewport shows a bottom sheet, not a clipped popover
+- [ ] **T13 (P3, human: ~1d / CC: ~1-2hr)** — Standards Coverage — Mobile accordion layout below 768px
+  - Surfaced by: Pass 6
+  - Files: `src/app/standards-coverage/` (same route as eng review's T9)
+  - Verify: no horizontal scroll needed at 375px width
+
+## Completion Summary (Design Review)
+
+```
++====================================================================+
+|         DESIGN PLAN REVIEW — COMPLETION SUMMARY                    |
++====================================================================+
+| System Audit          | No DESIGN.md; mockup gen unavailable        |
+|                        | (no OpenAI key) — text-based review          |
+| Step 0                | Initial rating 4/10; mockups requested but   |
+|                        | blocked, proceeded text-only                 |
+| Pass 1  (Info Arch)   | 3/10 → 8/10                                  |
+| Pass 2  (States)      | 2/10 → 8/10                                  |
+| Pass 3  (Journey)     | 3/10 → 7/10 (1 gap flagged: landing page)    |
+| Pass 4  (AI Slop)     | 3/10 → 6/10 (capped — see Pass 5)            |
+| Pass 5  (Design Sys)  | 0/10 → capped at 7/10 until DESIGN.md exists |
+| Pass 6  (Responsive)  | 3/10 → 8/10                                  |
+| Pass 7  (Decisions)   | 1 resolved inline, 2 deferred (font/color to |
+|                        | /design-consultation, landing page to a      |
+|                        | future pass)                                  |
++--------------------------------------------------------------------+
+| NOT in scope           | written (3 items)                           |
+| What already exists    | written                                     |
+| TODOS.md updates       | 0 new (T10-T13 cover the gaps as tasks)      |
+| Approved Mockups       | 0 generated (no API key), 0 approved         |
+| Decisions made         | 3 added to plan (K-2 nav, mobile dictionary, |
+|                        | design-system hard gate)                     |
+| Decisions deferred     | 2 (course landing page design, icon-set      |
+|                        | sourcing — both to /design-consultation)     |
+| Overall design score   | 4/10 → 7/10 (capped pending DESIGN.md)       |
++====================================================================+
+```
+
+Score capped below 8 pending `DESIGN.md` — per this skill's own rule, that means: "note what's unresolved and why (user chose to defer)." What's unresolved is real typography/color, deliberately deferred to `/design-consultation` rather than fabricated here without visual tooling.
+
+## 16. DX review record (2026-09-04, DX POLISH mode)
+
+Scoped to the **builder/contributor pipeline**, not the kid/family end-user experience (that's the design review's job) — same scoping cert-prep's DX review used.
+
+**Developer Persona Card:**
+```
+Who:       You (solo founder) + Claude Code agent sessions
+Context:   A session picks up mid-pipeline and needs to resume work fast
+Tolerance: Near-zero patience for rediscovering context — the cost of
+           confusion is a wasted session, not a wasted afternoon
+Expects:   README to be authoritative, scripts to be idempotent/safe to
+           re-run, git history self-explanatory enough to reconstruct state
+```
+
+**Developer Empathy Narrative** (confirmed accurate — this literally happened at the start of this session): a fresh session reads README's honest "plan lives outside this repo," sees 178 identically-shaped PR commits then 12 days of silence, finds 5 valid-but-uncommitted lesson files, reads `.claude/RESUME.md` referencing a session ID that isn't theirs — and has to reconstruct "is this abandoned or lost?" by inference, with no CONTRIBUTING.md or resume guidance anywhere.
+
+**Competitive DX Benchmark:** no direct external competitor for an internal AI-agent content pipeline; benchmarked against 2026 AI-agent-pipeline best practice (checkpoint every 45-60min — already true via Claude Code's own `/resume`; keep the root agent-instruction file lean — already true) and cert-prep's own DX review, which found and fixed the identical "no resume guidance" gap in a sibling repo. Target: **Champion tier** (<2min to resume, zero guesswork).
+
+**Magical Moment:** PR opens → green CI → auto-merges → live in production, unattended — **designed and built (§14), but not yet verified end-to-end** (outside-voice correction, §16): `CLOUDFLARE_API_TOKEN` is still unset, so `deploy.yml` has never actually run to completion — this is a designed-but-unexercised codepath, not a confirmed one. The step-summary announcement (this session's addition) will make it visible the first time it does run.
+
+**Developer Journey Map:**
+```
+STAGE          | DEVELOPER DOES                    | FRICTION POINTS        | STATUS
+----------------|-----------------------------------|-------------------------|--------
+1. Discover     | Reads README.md                   | none — honest, current  | ok
+2. Install      | npm install; cp .dev.vars.example; | none — 4 clean commands| ok
+                | migrate:local; npm run dev         |                         |
+3. Hello World  | Authors first lesson JSON          | no template/schema ref | fixed
+                |                                    | (reverse-engineer from  | (docs/CONTENT-
+                |                                    | an example file)        | AUTHORING.md)
+4. Real Usage   | Runs a wave, seeds via scripts/    | no shape validation —   | fixed
+                |                                    | malformed JSON fails    | (shape check
+                |                                    | unhelpfully or silently | added to both
+                |                                    | partial-inserts         | seed scripts)
+5. Debug        | PR fails CI, or a stale checkpoint | stale-checkpoint state  | fixed (CLAUDE.md
+                | is found on repo entry              | had zero guidance       | resume section)
+6. Upgrade      | Schema migration needed            | no remote-apply automa- | fixed (eng
+                |                                    | tion existed (6 prior   | review §14's
+                |                                    | migrations applied by   | migration step)
+                |                                    | hand)                    |
+```
+
+**First-Time Developer Confusion Report:** superseded by the empathy narrative above — this session WAS the first-time-developer roleplay, not a simulation. All identified confusion points addressed: stale-checkpoint guidance (CLAUDE.md), content shape reference (CONTENT-AUTHORING.md), shape validation (seed scripts), deploy visibility (deploy.yml step summary).
+
+### Pass 1: Getting Started Experience — 6/10 → 8/10
+4-command local dev setup is already close to Champion tier for install; the gap was entirely the stale-checkpoint scenario (now fixed). Capped below 9 because there's still no automated test to run after setup to confirm "it worked" (ties to eng review's §12.10 open decision on test-suite posture — not re-litigated here).
+
+### Pass 2: API/CLI/SDK Design (seed-script pattern) — 7/10
+Consistent naming (`seed-<noun>.ts`), consistent auth pattern (`CLOUDFLARE_API_TOKEN` env var, checked first with a clear error), consistent D1 HTTP API wrapper across every script. No issues found, moving on.
+
+### Pass 3: Error Messages & Debugging — 4/10 → 7/10
+Traced 3 paths: missing `CLOUDFLARE_API_TOKEN` (already Tier-1-quality — conversational, clear fix) — no issues found. Missing deploy secret (already Tier-1-quality per §14's `::error::` message) — no issues found. Malformed/incomplete content JSON (Tier-0 — no validation at all, real gap) — **fixed**, then **corrected by outside-voice review**: the first pass validated a plausible-looking subset of fields rather than every column the INSERTs actually bind (`unit.order`, `teacherGuide.objectives/materialsNeeded/differentiationTips` all have NOT NULL columns that an explicit `undefined→null` would have violated, reproducing the exact silent-partial-write failure mode the fix claimed to close), and the quiz-linking `UPDATE` never checked rows-affected, so a typo'd `lessonId` would print a false-positive success message. Both scripts now validate every bound column plus item-level shape (question answer-index bounds, contentBlock required fields) and check the UPDATE's actual row count. **Capped at 7, not 9-10:** the write sequence still isn't atomic (no D1 `.batch()`/transaction) and there's no concurrency control across parallel sessions writing to the same shared D1 — see the new risk row in §9 and open decision §12.11.
+
+### Pass 4: Documentation & Learning — 3/10 → 8/10
+No prior lesson-JSON reference beyond reverse-engineering examples — **fixed** via `docs/CONTENT-AUTHORING.md`. Capped below 9 pending that doc growing sections for the new content types (dictionary/game/language-unit/quiz shapes) as those workstreams actually ship, per the doc's own stated growth plan.
+
+### Pass 5: Upgrade & Migration Path — 3/10 → 7/10
+Already resolved by eng review §14 (automated `wrangler d1 migrations apply --remote` in `deploy.yml`, replacing the prior by-hand process). No new finding here — referencing, not re-fixing.
+
+### Pass 6: Developer Environment & Tooling — 7/10
+TypeScript throughout, `tsx` for script execution (no build step needed), CI runs non-interactively, no Docker/special environment required. No issues found, moving on.
+
+### Pass 7: Community & Ecosystem — 2/10 (appropriate for confirmed persona, not a gap)
+No CONTRIBUTING.md, no public community channel, closed-source-by-default posture. **Not flagged as a gap** — the persona confirmed in 0A is explicitly solo-founder-plus-AI-agents, not an open-source contributor base; investing in community infrastructure for a persona that doesn't exist would be scope creep, not DX polish.
+
+### Pass 8: DX Measurement & Feedback Loops — 4/10 (appropriate for confirmed persona)
+No TTHW instrumentation or analytics, but gstack's own session timeline (`~/.gstack/projects/.../timeline.jsonl`) already captures skill-run history for this exact repo, which is reasonable measurement infrastructure for a solo-founder-scale pipeline. Not flagged as blocking.
+
+### NOT in scope (DX review)
+- Community infrastructure (CONTRIBUTING.md, issue templates, public roadmap) — Pass 7's finding: no evidence this repo has or needs an outside-contributor persona right now.
+- TTHW instrumentation/analytics dashboards — Pass 8: existing gstack timeline logging is adequate at this scale.
+- Extending `docs/CONTENT-AUTHORING.md` with dictionary/game/language/quiz shapes — genuinely can't be written before those workstreams' schemas exist; the doc already states this as its own growth plan.
+
+### What already exists (DX review)
+Consistent seed-script pattern (naming, auth, D1 wrapper) across ~10 scripts — reused, not reinvented, by this review's fixes. `.claude/RESUME.md`'s checkpoint mechanism (Claude Code's own feature) — the gap was guidance around it, not the mechanism itself.
+
+### DX Scorecard
+```
++====================================================================+
+|              DX PLAN REVIEW — SCORECARD                             |
++====================================================================+
+| Dimension            | Score  |
+|----------------------|--------|
+| Getting Started      | 8/10   |
+| API/CLI/SDK           | 7/10   |
+| Error Messages        | 8/10   |
+| Documentation         | 8/10   |
+| Upgrade Path           | 7/10   |
+| Dev Environment        | 7/10   |
+| Community              | 2/10 (appropriate for persona)             |
+| DX Measurement         | 4/10 (appropriate for persona)             |
++--------------------------------------------------------------------+
+| TTHW                  | <2min (resume) — Champion tier achieved     |
+| Competitive Rank      | Champion (resume), N/A (no external comp)   |
+| Magical Moment         | designed + built, unverified end-to-end     |
+|                        | (CLOUDFLARE_API_TOKEN not yet set)          |
+| Product Type           | Platform (contributor pipeline)             |
+| Mode                   | DX POLISH                                   |
+| Overall DX             | 4.5/10 → 6.4/10 (weighted; low Community/   |
+|                         | Measurement scores are appropriate, not a   |
+|                         | gap, given the confirmed solo persona)      |
++====================================================================+
+```
+
+## Implementation Tasks (DX Review)
+
+- [x] **T14 (P1, human: ~30min / CC: ~10min)** — CLAUDE.md — Resuming-a-stale-session guidance
+  - Surfaced by: Empathy narrative / 0C Champion-tier target
+  - Files: `CLAUDE.md`
+  - Verify: done — section added
+- [x] **T15 (P1, human: ~2-3hr / CC: ~20min)** — Content template — `docs/CONTENT-AUTHORING.md`
+  - Surfaced by: Pass 4 / journey trace Hello World stage
+  - Files: `docs/CONTENT-AUTHORING.md`
+  - Verify: done — file created with annotated lesson + quiz shapes
+- [x] **T16 (P1, human: ~2-3hr / CC: ~30-40min)** — Seed scripts — Shape validation before D1 writes, corrected by outside-voice review
+  - Surfaced by: Pass 3, then corrected by outside-voice findings 1-3
+  - Files: `scripts/seed-flagship-lesson.ts`, `scripts/seed-lesson-quiz.ts`
+  - Verify: done — `npx tsc --noEmit` clean; both scripts validate every column their INSERTs bind (not a plausible subset), item-level question/contentBlock shape, and the quiz-link `UPDATE`'s rows-affected count
+- [x] **T17 (P2, human: ~1hr / CC: ~15min)** — deploy.yml — Deploy-success visibility
+  - Surfaced by: 0D magical moment
+  - Files: `.github/workflows/deploy.yml`
+  - Verify: done — `GITHUB_STEP_SUMMARY` announcement added; **not yet exercised** — `deploy.yml` has never run to completion (§16 outside-voice finding 5)
+- [ ] **T18 (P3, human: ~1-2d / CC: ~2-3hr)** — Seed scripts — Atomic writes + concurrency control
+  - Surfaced by: outside-voice finding 6 — no D1 `.batch()`/transaction wraps the DELETE-then-INSERT sequence, and no locking exists across parallel sessions writing to the same shared remote D1
+  - Files: all `scripts/seed-*.ts`
+  - Verify: two sessions racing the same unit/lesson id can no longer interleave DELETE/INSERT unpredictably — deferred, not built this session (see §12.11)
+
+### Outside Voice (Claude subagent — Codex not installed), targeted at the DX findings and the actual edited files
+
+Read §16 plus the real files it claimed to fix (`CLAUDE.md`, `docs/CONTENT-AUTHORING.md`, both seed scripts) — not just the plan's description of them. 6 findings, genuinely valuable — this pass caught real bugs in the DX review's own fixes, not just gaps in coverage:
+
+1. **Validation checked a plausible-but-wrong subset of fields** — `unit.order`, `teacherGuide.objectives/materialsNeeded/differentiationTips` are all NOT NULL columns the INSERT binds unconditionally, none were checked; an omitted field became an explicit `null` crossing the fetch boundary, reproducing the exact silent-partial-write failure the fix claimed to close (with a stack trace instead of silence — still not what was promised). **FIXED**: both scripts now validate every column their own INSERTs bind.
+2. **Quiz-linking `UPDATE` never checked rows-affected** — a typo'd `lessonId` prints a false-positive "Seeded... and linked" message while the quiz is written but wired to nothing. **FIXED**: checks `meta.changes`, exits non-zero on 0 rows.
+3. **Validation was presence-only, not structural** — a question missing `answer`, an out-of-bounds answer index, a contentBlock missing `type`/`ref` all passed through untouched. **FIXED**: item-level checks added to both scripts.
+4. **The GSTACK REVIEW REPORT table (this section, before this fix) still said "DX Review: not yet run"** directly under a completed §16 record with 4 checked-off tasks — exactly the rediscovery-cost confusion this whole review exists to prevent, and CLAUDE.md's new resume section now points fresh sessions at this file as authoritative. **FIXED**: table rewritten below, this is the fix.
+5. **"Magical Moment: achieved" overclaimed verified confidence for an unexercised codepath** — `CLOUDFLARE_API_TOKEN` is still unset, `deploy.yml` has never run to completion. **FIXED**: reworded to "designed and built, not yet verified" throughout §16.
+6. **No pass examined concurrency safety** for the persona this review itself defines (solo founder + *parallel* Claude Code sessions, which §14's own worktree-parallelization strategy plans around) — no D1 `.batch()`/transaction, no locking, real risk of interleaved writes. **NOT fixed this session** (genuinely bigger scope than a mechanical doc/validation fix) — added as T18, §9's risk table, and open decision §12.11.
+
+Cross-model tension: none — every finding pointed at something the DX review's own claims got wrong when checked against the actual files, not a matter of differing judgment.
+
+## Completion Summary (DX Review)
+Four of the six outside-voice findings were fixed by correcting the original implementation tasks in place (not by adding new ones) — the validation and UPDATE-check fixes are more thorough versions of T16, not separate work. One (concurrency/atomicity) is real but deferred to T18, consistent with how the Eng review handled similarly-scoped infrastructure gaps. One TODOS-worthy item was not added to `TODOS.md` separately since T18 already captures it as an implementation task with a clear trigger (before Phase 0's parallel worktree lanes write to shared D1).
+
 ## GSTACK REVIEW REPORT
 
 | Review | Trigger | Why | Runs | Status | Findings |
@@ -563,11 +878,12 @@ Ran a second, targeted outside-voice pass against the newly-built `deploy.yml`/`
 | Outside Voice (CEO) | Claude subagent (Codex not installed) | Independent 2nd opinion | 1 | issues_found → absorbed | 11 findings: 6 resolved inline, 5 converted to founder open decisions (§12 #6-9, plus the pipeline-status correction folded into §12.3) |
 | Eng Review | `/plan-eng-review` | Architecture & tests (required) | 1 | issues_open (approval gate) | 4 findings, all resolved (deploy automation built, code-splitting + N+1 batching required, quiz complexity kept as-is); test coverage diagram + artifact written; worktree parallelization strategy produced |
 | Outside Voice (Eng) | Claude subagent (Codex not installed) | Independent 2nd opinion, targeted at the new deploy pipeline | 1 | issues_found → absorbed | 11 findings on the auto-merge/deploy infrastructure — 5 resolved by hardening the workflows (concurrency control, D1 migration step, post-deploy smoke test, matching CI/deploy build pipelines, path-scoped auto-merge), 1 new founder decision (§12 #10: no test suite exists), rest documented in §9's risk table |
-| Design Review | `/plan-design-review` | UI/UX gaps | 0 | not yet run | — |
-| DX Review | `/plan-devex-review` | Developer experience gaps | 0 | not yet run | — |
+| Design Review | `/plan-design-review` | UI/UX gaps | 1 | issues_open (approval gate) | Score 4/10 → 7/10 (capped pending DESIGN.md); 3 decisions made (K-2 icon nav, mobile dictionary bottom-sheet, design-system hard gate on §2 A1), 2 deferred to `/design-consultation` |
+| DX Review | `/plan-devex-review` | Developer experience gaps | 1 | issues_open (approval gate) | Score 4.5/10 → 6.4/10 (weighted; low Community/Measurement scores appropriate for the solo-founder persona, not a gap); 4 tasks fixed in-repo (CLAUDE.md resume guidance, docs/CONTENT-AUTHORING.md, seed-script validation, deploy visibility) |
+| Outside Voice (DX) | Claude subagent (Codex not installed) | Independent 2nd opinion, verified the DX review's own fixes against the actual edited files | 1 | issues_found → absorbed | 6 findings — caught real bugs in this session's own DX fixes (validation checked the wrong field subset, an UPDATE with no rows-affected check, a stale/self-contradicting report table, an overclaimed-verified deploy path); 5 corrected in-repo, 1 (seed-script atomicity/concurrency) deferred to T18 + §12.11 |
 
-- **CROSS-MODEL:** no contradictions across either review's spec-review-loop-vs-outside-voice pair — every pass found genuinely new, non-overlapping ground rather than disagreeing with prior findings.
-- **VERDICT:** CEO + ENG REVIEW COMPLETE — plan and its supporting CI/CD infrastructure are hardened, pending the founder's single approval gate (§12, now 10 items). Design and DX reviews recommended next per the founder's explicit instruction to run every phase through the full 4-skill pipeline.
+- **CROSS-MODEL:** no contradictions across any review pair — every outside-voice pass found genuinely new, non-overlapping ground, including catching this pipeline's own mistakes (the DX outside-voice pass corrected this review's own prior fixes, which is exactly what the pass exists to do).
+- **VERDICT:** CEO + ENG + DESIGN + DX REVIEW COMPLETE — all four gstack reviews have run, per the founder's explicit instruction. Plan, CI/CD infrastructure, UI/UX specification, and contributor tooling are hardened, pending the founder's single approval gate (§12, now 11 items) plus Pass 5's DESIGN.md gate before Workstream A build starts.
 
 **UNRESOLVED DECISIONS:**
 - §12.1 — 36-week/180-lesson full-year target: confirm or correct
@@ -580,8 +896,12 @@ Ran a second, targeted outside-voice pass against the newly-built `deploy.yml`/`
 - §12.8 — English dictionary/spelling-bee sourcing: public-domain base (WordNet/Wiktionary) + AI adaptation, or different strategy?
 - §12.9 — K-2 narration: TTS (as currently planned) or licensed human voice-over?
 - §12.10 — No test suite exists; auto-merge/deploy currently unattended for content, human-required for schema/API/CI changes — right posture for now, or should content also require a review click until tests exist?
-- + `CLOUDFLARE_API_TOKEN` repo secret still needs to be added by the founder before `deploy.yml` can actually deploy anything (§14 finding 1) — everything up to that point is built and CI-validated; nothing has deployed to production yet.
+- §12.11 — Seed scripts have no atomic writes/concurrency control (DX outside-voice finding) — fix before Phase 0's parallel worktree lanes write to shared D1, or acceptable risk at current single-contributor scale?
+- §15.7 — Course landing page design (the actual first-impression moment) has no spec anywhere in this plan — needs its own pass, not covered by this expansion plan's scope
+- §15.7 — K-2 icon set: custom-illustrated (higher production value, real cost) or a licensed library (faster, generic-look risk)? Recommend deciding inside `/design-consultation`
+- + `CLOUDFLARE_API_TOKEN` repo secret still needs to be added by the founder before `deploy.yml` can actually deploy anything — everything up to that point is built and CI-validated; nothing has deployed to production yet, and the "auto-merge → auto-deploy" magical moment is designed and built but not yet verified end-to-end (§16 outside-voice finding 5).
+- + An OpenAI API key would let future design reviews generate real mockups instead of text-only specification (§15's system audit) — not blocking, but the next design pass will hit the same wall without it.
 
 ---
 
-*Next in the pipeline: `/plan-design-review` (UI/UX gaps, recommended given confirmed design scope) → `/plan-devex-review`, matching the process used for the aim528, cert-prep, and DosanjhLabs world-class plans.*
+*All four gstack reviews (CEO, Eng, Design, DX) are complete. Next: the founder's single approval gate on §12's 11 open decisions, then Phase 0 implementation can begin — matching the process used for the aim528, cert-prep, and DosanjhLabs world-class plans.*

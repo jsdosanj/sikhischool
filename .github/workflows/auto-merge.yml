@@ -1,0 +1,66 @@
+name: Auto-merge
+
+# Requests GitHub's native auto-merge on PRs against main — the PR then
+# merges itself automatically once ci.yml's `validate` check (required by
+# branch protection) goes green, no human click needed. Added as part of
+# docs/plans/expansion-plan-2026-09.md's per-phase deploy automation.
+#
+# Scope, deliberately narrow (outside-voice finding, eng review §14): CI here
+# is typecheck + lint + build — there is no test suite in this repo yet, and
+# no required human review. That's an acceptable bar for the high-volume,
+# low-blast-radius case this pipeline exists for (a wave's lesson/quiz/
+# worksheet JSON), matching how ~178 prior content PRs already merged with
+# no incident. It is NOT an acceptable bar, unattended, for anything that
+# touches auth/ownership checks, the database schema, or the pipeline itself
+# — those still need a human to actually look, so this workflow skips
+# requesting auto-merge (not a hard block — merge is still possible, just
+# not automatic) whenever the diff touches:
+#   - drizzle/**              (schema + migrations)
+#   - src/app/api/**          (route ownership/IDOR-sensitive code)
+#   - .github/workflows/**    (the CI/CD pipeline itself)
+# Revisit this list once a real test suite exists and covers those paths.
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  enable-auto-merge:
+    name: enable-auto-merge
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for sensitive paths
+        id: sensitive
+        run: |
+          git fetch origin "${{ github.event.pull_request.base.ref }}" --depth=50
+          CHANGED=$(git diff --name-only "origin/${{ github.event.pull_request.base.ref }}"...HEAD)
+          echo "Changed files:"
+          echo "$CHANGED"
+          if echo "$CHANGED" | grep -qE '^(drizzle/|src/app/api/|\.github/workflows/)'; then
+            echo "hit=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "hit=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Enable auto-merge (squash)
+        if: steps.sensitive.outputs.hit == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge --auto --squash "${{ github.event.pull_request.number }}" --repo "${{ github.repository }}"
+
+      - name: Skip auto-merge — sensitive path touched
+        if: steps.sensitive.outputs.hit == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr comment "${{ github.event.pull_request.number }}" --repo "${{ github.repository }}" \
+            --body "This PR touches schema, API routes, or the CI/CD pipeline itself — auto-merge skipped. No test suite covers these paths yet, so a human review is required before merging. (See \`.github/workflows/auto-merge.yml\`.)"

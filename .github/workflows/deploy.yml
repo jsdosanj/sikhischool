@@ -1,0 +1,81 @@
+name: Deploy
+
+# Auto-deploy to Cloudflare Workers on every push to main. Added as part of
+# docs/plans/expansion-plan-2026-09.md's per-phase deploy automation — the
+# repo had zero deploy automation before this (ci.yml only validates: type
+# check, lint, `next build`). ci.yml now ALSO runs `next-on-pages`-equivalent
+# `opennextjs-cloudflare build` (the actual pre-deploy transform) so a green
+# PR check means the thing that's about to deploy actually builds — not just
+# a plain Next.js build, which exercises a different pipeline than the real
+# deploy artifact. (outside-voice finding, eng review §14)
+#
+# Needs the CLOUDFLARE_API_TOKEN repo secret (Settings > Secrets and
+# variables > Actions) — a Cloudflare API token with Workers Scripts:Edit,
+# Workers Routes:Edit, D1:Edit, and R2:Edit permissions on the account in
+# wrangler.jsonc's account_id. This workflow fails cleanly with a clear
+# "Error: Missing CLOUDFLARE_API_TOKEN" message until that secret is added —
+# it does not silently no-op.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+# Deploys queue in commit order rather than racing — two pushes to main in
+# quick succession (plausible once waves auto-proceed) must not let an older
+# commit's slower deploy finish after a newer commit's and silently regress
+# production. (outside-voice finding, eng review — docs/plans/expansion-plan-2026-09.md §14)
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Apply D1 migrations (remote)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::error::Missing CLOUDFLARE_API_TOKEN repo secret — add it under Settings > Secrets and variables > Actions before this workflow can deploy."
+            exit 1
+          fi
+          # Prior migrations (0000-0005) were applied by hand, out of band —
+          # this is the first automated remote-apply step. `wrangler d1
+          # migrations apply` is idempotent (tracks applied migrations in
+          # D1 itself), so re-running against already-applied migrations is
+          # a safe no-op. (outside-voice finding, eng review §14)
+          npx wrangler d1 migrations apply sikhischool --remote
+
+      - name: Build + deploy to Cloudflare Workers
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npm run cf:deploy
+
+      - name: Post-deploy smoke test
+        run: |
+          # Fails the job loudly if the Worker doesn't come back up after
+          # deploy — the human-merge-click this pipeline removed used to
+          # double as an informal "did it work" check; this replaces it.
+          # (outside-voice finding, eng review §14)
+          sleep 10
+          status=$(curl -s -o /dev/null -w "%{http_code}" https://sikhischool.jasvant-dosanjh.workers.dev/)
+          if [ "$status" != "200" ]; then
+            echo "::error::Post-deploy smoke test failed — https://sikhischool.jasvant-dosanjh.workers.dev/ returned $status, expected 200. Production may be broken; consider \`wrangler rollback\`."
+            exit 1
+          fi
+          echo "Smoke test passed (200)."

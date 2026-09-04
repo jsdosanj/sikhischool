@@ -16,7 +16,14 @@
     {
       "binding": "DB",
       "database_name": "sikhischool",
-      "database_id": "1ccc6190-dab9-45f0-a31e-ff88a9b43de0"
+      "database_id": "1ccc6190-dab9-45f0-a31e-ff88a9b43de0",
+      // `wrangler d1 migrations apply` defaults to ./migrations relative to
+      // this file; our actual migration files live under drizzle/migrations/
+      // (see package.json's db:migrate:local and drizzle.config.ts). Without
+      // this, deploy.yml's remote-migration step fails with "No migrations
+      // present at .../migrations" — caught the first time the deploy
+      // pipeline actually ran end-to-end (2026-09-04, PR #179's merge).
+      "migrations_dir": "drizzle/migrations"
     }
   ],
   "r2_buckets": [

@@ -205,13 +205,23 @@ export const gurbaniGlossary = sqliteTable("gurbani_glossary", {
   sectionRefs: text("section_refs", { mode: "json" }).$type<string[]>().notNull().default([]),
 });
 
-export const punjabiDictionary = sqliteTable("punjabi_dictionary", {
+// Generalized from the original Punjabi-only `punjabi_dictionary` table (never
+// seeded with data, so this is a schema change, not a data migration — see
+// docs/plans/expansion-plan-2026-09.md §5 D1). One table for every language's
+// dictionary, including the existing Punjabi track: `language: "punjabi"`.
+// `synonyms` backs the English thesaurus (§5 D2) as a query against this same
+// table, not separate content. `gradeBandHint` supports spelling-bee
+// difficulty tiering (§5 D2) without a separate word-list content type.
+export const dictionary = sqliteTable("dictionary", {
   id: text("id").primaryKey(),
+  language: text("language").notNull(), // "punjabi" | "english" | "spanish" | "mandarin" | "french" | ...
   word: text("word").notNull(),
   translation: text("translation").notNull(),
   partOfSpeech: text("part_of_speech"),
+  synonyms: text("synonyms", { mode: "json" }).$type<string[]>().notNull().default([]),
   exampleSentence: text("example_sentence"),
   audioRef: text("audio_ref"),
+  gradeBandHint: text("grade_band_hint"), // "K-2" | "3-5" | "6-8" | "9-12", optional difficulty signal
 });
 
 // ── Gamification ──

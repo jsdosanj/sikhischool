@@ -1,0 +1,1 @@
+ALTER TABLE `student_progress` ADD `attempt_count` integer DEFAULT 0 NOT NULL;

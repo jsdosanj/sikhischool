@@ -1,8 +1,8 @@
 {
   "version": "6",
   "dialect": "sqlite",
-  "id": "559e98fc-4f91-40ac-9ff5-ba251c285d80",
-  "prevId": "3516946b-bfd2-4caf-b361-c4ed4625f807",
+  "id": "3516946b-bfd2-4caf-b361-c4ed4625f807",
+  "prevId": "ce7f23eb-2e41-4ec6-8d6a-11d0e992bcba",
   "tables": {
     "accounts": {
       "name": "accounts",
@@ -1094,6 +1094,58 @@
       "uniqueConstraints": {},
       "checkConstraints": {}
     },
+    "punjabi_dictionary": {
+      "name": "punjabi_dictionary",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "word": {
+          "name": "word",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "translation": {
+          "name": "translation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "part_of_speech": {
+          "name": "part_of_speech",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "example_sentence": {
+          "name": "example_sentence",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "audio_ref": {
+          "name": "audio_ref",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
     "quizzes": {
       "name": "quizzes",
       "columns": {
@@ -1509,6 +1561,14 @@
         },
         "mastery_points": {
           "name": "mastery_points",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": 0
+        },
+        "attempt_count": {
+          "name": "attempt_count",
           "type": "integer",
           "primaryKey": false,
           "notNull": true,

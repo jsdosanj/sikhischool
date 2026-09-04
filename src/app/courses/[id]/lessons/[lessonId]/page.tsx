@@ -12,6 +12,8 @@ import WorksheetDownloadButton from "@/components/worksheets/WorksheetDownloadBu
 import MarkCompleteWidget from "@/components/MarkCompleteWidget";
 import QuizWidget from "@/components/QuizWidget";
 import LessonContentBlock from "@/components/LessonContentBlock";
+import LessonActivities from "@/components/games/LessonActivities";
+import type { ActivityRef } from "@/components/games/types";
 
 // Server-rendered on demand — see src/app/courses/page.tsx for why.
 export const dynamic = "force-dynamic";
@@ -36,6 +38,7 @@ export default async function LessonDetailPage({
 
   const contentBlocks = lesson.contentBlocks as { type: string; ref?: string; text?: string; src?: string; caption?: string }[];
   const enrichmentLinks = lesson.enrichmentLinks as { label: string; url: string; source: string }[];
+  const activityRefs = lesson.activityRefs as ActivityRef[];
   const shell = shellForGradeBand(gradeBandForLevel(lesson.gradeLevel));
   const little = shell === "little-sparks";
   const hasGurmukhi = lesson.subject === "punjabi" || lesson.subject === "sikhi";
@@ -106,6 +109,14 @@ export default async function LessonDetailPage({
             ))}
           </div>
         )}
+
+        {/* Practice follows the content rather than competing with it for
+            attention (design review §15, Pass 1's information hierarchy). */}
+        <LessonActivities
+          lessonId={lessonId}
+          activityRefs={activityRefs}
+          kids={children.map((c) => ({ id: c.id, displayName: c.displayName }))}
+        />
 
         {worksheet && (
           <div className={`mt-8 ${little ? "flex justify-center" : ""}`}>

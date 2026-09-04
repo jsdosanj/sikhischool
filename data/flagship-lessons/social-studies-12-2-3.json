@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-12-2",
+    "courseId": "course-social-studies-12",
+    "order": 2,
+    "title": "Your Capstone Civics Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-12-2-3",
+    "unitId": "unit-social-studies-12-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Developing Your Action Plan",
+    "gradeLevel": "12",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've identified who has authority. Today: develop a real, specific action plan!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A real civic action plan names a specific, achievable action: writing a letter to the identified authority, attending a public meeting, organizing a petition, or presenting at a school board meeting — all forms of civic participation you studied earlier in this course's sequence. Choose one specific action for your civic issue, and write the first paragraph of what you would actually say or present to the authority you identified yesterday."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just drafted a real civic action! Tomorrow we'll consider challenges and other perspectives."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-12-2-3",
+    "lessonId": "lesson-social-studies-12-2-3",
+    "objectives": [
+      "Choose a specific, achievable civic action for the chosen issue",
+      "Draft the opening of a real letter or presentation to the identified authority"
+    ],
+    "materialsNeeded": ["This week's earlier worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review this week's issue-choice and authority-research work.\n2. Introduce specific action types: letter, public meeting, petition, presentation.\n3. Have the child draft their action's opening.\n4. Complete the worksheet.\n5. Preview tomorrow's challenges-and-perspectives lesson.",
+    "differentiationTips": [
+      "Struggling: offer a simple letter-writing template structure (greeting, issue, ask) to fill in rather than an entirely open draft",
+      "Ready for more: ask the child what tone (formal, urgent, collaborative) would be most effective for their specific audience and issue",
+      "This is a genuinely practical civic skill — actually drafting real words to a real authority figure makes this project concrete, not hypothetical"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child chooses one specific, genuinely achievable action and drafts an opening that clearly identifies the issue and is appropriately addressed to the authority figure identified yesterday.",
+    "standardsRationale": "Directly addresses this course's capstone-civics-project thread, connecting to civic-participation skills from earlier in the sequence and applying them to a real drafted action."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-12-2-3",
+    "lessonId": "lesson-social-studies-12-2-3",
+    "title": "Developing Your Action Plan",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Draft your civic action's opening.",
+      "prompts": [
+        { "prompt": "Your chosen action (letter, meeting, petition, presentation):", "lines": 1 },
+        { "prompt": "Your draft opening paragraph:", "lines": 3 }
+      ]
+    }
+  }
+}

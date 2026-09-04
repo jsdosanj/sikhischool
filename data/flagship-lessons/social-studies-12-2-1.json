@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-12-2",
+    "courseId": "course-social-studies-12",
+    "order": 2,
+    "title": "Your Capstone Civics Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-12-2-1",
+    "unitId": "unit-social-studies-12-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Choosing a Real Civic Issue",
+    "gradeLevel": "12",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned how government works. This week: your own capstone civics project, taking real civic action!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "A strong capstone civics project starts with choosing a real, local, and specific issue you genuinely care about — something concrete enough to actually research and act on, not an abstract national debate too large for one person's project. 'Improve traffic safety near my school' is specific and local; 'fix the economy' is too broad. Choose a real, specific, local civic issue you're genuinely interested in, and write one sentence explaining why it matters to you or your community."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just chose a real civic issue for your capstone! Tomorrow we'll research who actually has authority over it."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-12-2-1",
+    "lessonId": "lesson-social-studies-12-2-1",
+    "objectives": [
+      "Distinguish a specific, local, actionable civic issue from an overly broad one",
+      "Choose a real issue and explain why it personally matters"
+    ],
+    "materialsNeeded": ["Last week's government-structure worksheets", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review last week's how-government-works content briefly.\n2. Introduce specific/local vs. too-broad issues using the traffic-safety example.\n3. Have the child choose their own issue and explain its personal relevance.\n4. Complete the worksheet.\n5. Preview tomorrow's authority-research lesson.",
+    "differentiationTips": [
+      "Struggling: brainstorm a simple list of familiar local issues (school, neighborhood, community) together as a starting menu",
+      "Ready for more: ask the child why starting with a genuinely local, specific issue makes real civic action more achievable than starting with a huge national issue",
+      "Opens this week's capstone-civics-project thread from the course's own description, directly building on last week's government-structure content"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the chosen issue is specific and local (not an abstract national topic) and that the explanation genuinely reflects why it matters to the child or their community.",
+    "standardsRationale": "Directly addresses this course's capstone-civics-project thread from its own description, opening it with the foundational issue-selection step."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-12-2-1",
+    "lessonId": "lesson-social-studies-12-2-1",
+    "title": "Choosing a Real Civic Issue",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Choose your civic issue and explain why it matters.",
+      "prompts": [
+        { "prompt": "Your specific, local civic issue:", "lines": 1 },
+        { "prompt": "Why does this issue matter to you or your community?", "lines": 2 }
+      ]
+    }
+  }
+}

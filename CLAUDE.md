@@ -99,3 +99,24 @@ content model, migration notes, and design system as they land.
   makes that content usable by public-school teachers, not just Sikh families.
 - **Everything in v1 is free.** No paywall, no premium tier, no Stripe integration — don't add
   monetization logic unless explicitly asked; it's an intentionally deferred, separate decision.
+
+## Resuming a stale session (DX review finding, 2026-09-04)
+
+If you're a fresh session picking this repo up and `git status` shows uncommitted files,
+or `.claude/RESUME.md` references a session ID that isn't yours: a prior session likely
+hit a context limit mid-wave and checkpointed without finishing. This has happened at
+least once (2026-08-22 → 2026-09-04, 12 days, 5 orphaned lesson files — see
+`docs/plans/expansion-plan-2026-09.md` §0/§13 for the full story).
+
+**What to do:**
+1. Validate the uncommitted files (they're usually genuine finished work, not garbage —
+   e.g. `python3 -c "import json; json.load(open('path'))"` for JSON content, and sanity-check
+   the content reads like the rest of that subject/grade's lessons).
+2. If valid, commit and open a PR the normal way (branch → PR → CI → auto-merge) — don't
+   just leave them sitting. See `docs/CONTENT-AUTHORING.md` for the JSON shape reference.
+3. Check the wave pattern in recent git log (`git log --oneline -15`) to infer what
+   grade/subject/week the pipeline was on, and continue from there unless a plan doc
+   says otherwise.
+4. `.claude/RESUME.md`'s session ID is not yours to resume — it's informational only,
+   showing what the prior session was doing. You don't need `claude --resume` to continue
+   this work; a fresh session with the steps above is sufficient.

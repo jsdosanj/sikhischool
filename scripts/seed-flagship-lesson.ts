@@ -39,6 +39,44 @@ async function main() {
   const data = JSON.parse(readFileSync(path, "utf-8"));
   const { unit, lesson, teacherGuide, worksheet } = data;
 
+  // Fail loud before any D1 write, not with a stack trace mid-insert or (worse)
+  // a silent partial insert — this is the shape docs/CONTENT-AUTHORING.md
+  // documents. "Every lesson ships a Worksheet + TeacherGuide, no exceptions"
+  // is a CLAUDE.md hard rule; this is what actually enforces it.
+  //
+  // Checks every column the INSERTs below actually bind, not just a plausible
+  // subset — a field checked here-but-missing-there is the exact silent-
+  // partial-write failure mode this validation exists to prevent (a NOT NULL
+  // column with a DB-level default still rejects an explicit NULL, which is
+  // what JSON.stringify(undefined) becomes once it crosses the fetch boundary).
+  // (DX review finding + outside-voice correction, docs/plans/expansion-plan-2026-09.md §16)
+  const missing: string[] = [];
+  if (!unit?.id || !unit?.courseId || !unit?.title) missing.push("unit.{id,courseId,title}");
+  if (typeof unit?.order !== "number") missing.push("unit.order (number)");
+  if (!lesson?.id || !lesson?.unitId || !lesson?.title || !lesson?.gradeLevel || !lesson?.subject) {
+    missing.push("lesson.{id,unitId,title,gradeLevel,subject}");
+  }
+  if (typeof lesson?.order !== "number") missing.push("lesson.order (number)");
+  if (!Array.isArray(lesson?.contentBlocks) || lesson.contentBlocks.length === 0) {
+    missing.push("lesson.contentBlocks (non-empty array)");
+  } else if (lesson.contentBlocks.some((b: { type?: string; ref?: string }) => !b?.type || !b?.ref)) {
+    missing.push("lesson.contentBlocks[*].{type,ref} (every block needs both)");
+  }
+  if (!teacherGuide?.id || !teacherGuide?.facilitationScript) missing.push("teacherGuide.{id,facilitationScript}");
+  if (!Array.isArray(teacherGuide?.objectives)) missing.push("teacherGuide.objectives (array)");
+  if (!Array.isArray(teacherGuide?.materialsNeeded)) missing.push("teacherGuide.materialsNeeded (array)");
+  if (!Array.isArray(teacherGuide?.differentiationTips)) missing.push("teacherGuide.differentiationTips (array)");
+  if (!worksheet?.id || !worksheet?.title) missing.push("worksheet.{id,title}");
+  if (missing.length > 0) {
+    console.error(`${path} is missing required field(s): ${missing.join(", ")}`);
+    console.error("See docs/CONTENT-AUTHORING.md for the full lesson JSON shape.");
+    process.exit(1);
+  }
+  // aiReviewStatus has a DB-level default ("pending") but this script always
+  // passes an explicit value below — apply the same default in code so an
+  // omitted field doesn't become an explicit NULL that violates NOT NULL.
+  lesson.aiReviewStatus ??= "pending";
+
   // Only insert the unit if it doesn't already exist. Multiple lessons share
   // a unit, and lessons.unit_id is a real FK to units.id — unconditionally
   // deleting+reinserting the unit on every run would (briefly, or worse,

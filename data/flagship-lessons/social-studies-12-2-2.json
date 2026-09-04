@@ -1,0 +1,68 @@
+{
+  "unit": {
+    "id": "unit-social-studies-12-2",
+    "courseId": "course-social-studies-12",
+    "order": 2,
+    "title": "Your Capstone Civics Project",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-social-studies-12-2-2",
+    "unitId": "unit-social-studies-12-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Researching Who Has Authority",
+    "gradeLevel": "12",
+    "subject": "social-studies",
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you chose your issue. Today: research who actually has the authority to act on it!"
+      },
+      {
+        "type": "text",
+        "ref": "guided-practice",
+        "text": "Real civic action requires knowing exactly which level and branch of government (or which local body, like a school board) has authority over your issue — connecting directly back to last week's government-structure content. A school-related issue might be a school board matter, a street-safety issue might be a city council matter, and a state-law issue might be a state legislature matter. Using last week's knowledge of government structure, identify which level or body most likely has authority over your chosen civic issue, and explain your reasoning."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified who has real authority over your issue! Tomorrow we'll develop your action plan."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-social-studies-12-2-2",
+    "lessonId": "lesson-social-studies-12-2-2",
+    "objectives": [
+      "Apply last week's government-structure knowledge to identify who has authority over the chosen issue",
+      "Explain the reasoning behind the identified level/body of authority"
+    ],
+    "materialsNeeded": ["Yesterday's worksheet, last week's government-structure notes", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's issue-choice work and last week's government-structure content.\n2. Introduce identifying the correct level/body of authority using the school-board/city-council/state examples.\n3. Have the child identify authority for their own issue.\n4. Complete the worksheet.\n5. Preview tomorrow's action-plan lesson.",
+    "differentiationTips": [
+      "Struggling: work through the three example categories (school, city, state) together and ask which one the child's issue most resembles",
+      "Ready for more: ask the child what might happen if they contacted the WRONG level of government about their issue, and why getting this right matters",
+      "This is a genuine application of last week's government-structure content — the child sees why understanding government's structure has real practical value"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "This is an open-ended activity — check that the child's identified level/body of authority genuinely matches their chosen issue's nature (a school issue to a school board, a local issue to a city council, etc.) and that their reasoning connects back to real government-structure knowledge from last week.",
+    "standardsRationale": "Directly addresses this course's capstone-civics-project and how-government-works threads together, connecting last week's structural knowledge to this week's real action-planning."
+  },
+  "worksheet": {
+    "id": "worksheet-social-studies-12-2-2",
+    "lessonId": "lesson-social-studies-12-2-2",
+    "title": "Researching Who Has Authority",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Identify who has authority over your issue.",
+      "prompts": [
+        { "prompt": "Which level or body of government has authority over your issue?", "lines": 1 },
+        { "prompt": "Explain your reasoning.", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dict-spanish-tu",
+    "language": "spanish",
+    "word": "tú",
+    "translation": "you (familiar)",
+    "partOfSpeech": "pronoun",
+    "synonyms": [],
+    "exampleSentence": "Tú eres mi mejor amigo. (You are my best friend.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-usted",
+    "language": "spanish",
+    "word": "usted",
+    "translation": "you (formal)",
+    "partOfSpeech": "pronoun",
+    "synonyms": [],
+    "exampleSentence": "Usted es muy amable, señor. (You are very kind, sir.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-ustedes",
+    "language": "spanish",
+    "word": "ustedes",
+    "translation": "you all",
+    "partOfSpeech": "pronoun",
+    "synonyms": [],
+    "exampleSentence": "¿Ustedes quieren jugar fútbol? (Do you all want to play soccer?)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-como-esta-usted",
+    "language": "spanish",
+    "word": "¿cómo está usted?",
+    "translation": "how are you? (formal)",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Buenas tardes, profesora. ¿Cómo está usted? (Good afternoon, teacher. How are you?)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-formal",
+    "language": "spanish",
+    "word": "formal",
+    "translation": "formal",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Debemos usar un tono formal con el director. (We should use a formal tone with the principal.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-informal",
+    "language": "spanish",
+    "word": "informal",
+    "translation": "informal",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Entre amigos, usamos un lenguaje informal. (Among friends, we use informal language.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-saludar",
+    "language": "spanish",
+    "word": "saludar",
+    "translation": "to greet",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Me gusta saludar a mis vecinos por la mañana. (I like to greet my neighbors in the morning.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-despedirse",
+    "language": "spanish",
+    "word": "despedirse",
+    "translation": "to say goodbye",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Antes de salir, quiero despedirme de mi abuela. (Before leaving, I want to say goodbye to my grandmother.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  }
+]

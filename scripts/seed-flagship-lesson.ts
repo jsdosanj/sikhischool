@@ -57,6 +57,12 @@ async function main() {
     missing.push("lesson.{id,unitId,title,gradeLevel,subject}");
   }
   if (typeof lesson?.order !== "number") missing.push("lesson.order (number)");
+  if (lesson?.standardTags !== undefined && !Array.isArray(lesson.standardTags)) {
+    missing.push("lesson.standardTags (array, if present)");
+  }
+  if (lesson?.activityRefs !== undefined && !Array.isArray(lesson.activityRefs)) {
+    missing.push("lesson.activityRefs (array, if present)");
+  }
   if (!Array.isArray(lesson?.contentBlocks) || lesson.contentBlocks.length === 0) {
     missing.push("lesson.contentBlocks (non-empty array)");
   } else if (lesson.contentBlocks.some((b: { type?: string; ref?: string }) => !b?.type || !b?.ref)) {
@@ -108,15 +114,19 @@ async function main() {
       lesson.title,
       lesson.gradeLevel,
       lesson.subject,
-      "[]",
+      // These three were hardcoded to the literal "[]" regardless of what the
+      // JSON actually authored — every prior flagship lesson happened not to
+      // set these fields, so the bug was silent until content started using
+      // them (first real case: Spanish week 1's activityRefs, plan §4 C1/C2).
+      JSON.stringify(lesson.standardTags ?? []),
       JSON.stringify(lesson.contentBlocks),
-      "[]",
+      JSON.stringify(lesson.activityRefs ?? []),
       50,
       80,
       100,
       lesson.aiGenerated ? 1 : 0,
       lesson.aiReviewStatus,
-      "[]",
+      JSON.stringify(lesson.citations ?? []),
       JSON.stringify(lesson.enrichmentLinks ?? []),
     ],
   );

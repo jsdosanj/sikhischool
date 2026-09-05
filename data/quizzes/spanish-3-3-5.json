@@ -1,0 +1,51 @@
+{
+  "lessonId": "lesson-spanish-3-3-5",
+  "quiz": {
+    "id": "quiz-spanish-3-3-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "What is the Spanish name for the letter H?",
+        "options": ["hache", "jota", "uve", "zeta"],
+        "answer": 0,
+        "explanation": "H is called hache in Spanish, even though the h itself is always silent."
+      },
+      {
+        "q": "Which Spanish vowel sounds like the ee in 'see'?",
+        "options": ["a", "e", "i", "o"],
+        "answer": 2,
+        "explanation": "i always sounds like ee — the same way every single time."
+      },
+      {
+        "q": "What sound does ñ make, as in año?",
+        "options": ["like ny in canyon", "like z in zoo", "silent, like the h in hola", "like ch in chair"],
+        "answer": 0,
+        "explanation": "ñ sounds like the ny in canyon or the ni in onion."
+      },
+      {
+        "q": "Perro (dog) and pero (but) sound almost the same. What's the one difference?",
+        "options": [
+          "Perro has a rolled, buzzing rr; pero has a single soft r",
+          "They are pronounced exactly the same",
+          "Pero has a silent h",
+          "Perro uses la eñe"
+        ],
+        "answer": 0,
+        "explanation": "The double rr is rolled or trilled; the single r is a quick, soft tap."
+      },
+      {
+        "q": "You want to ask a classmate how to spell their name. What do you say?",
+        "options": ["Se escribe.", "¿Cómo se escribe?", "¿De dónde eres?", "Me llamo."],
+        "answer": 1,
+        "explanation": "¿Cómo se escribe? means 'how do you spell it?'"
+      },
+      {
+        "q": "How would you answer if someone asked how 'Ana' is spelled?",
+        "options": ["Soy de Ana.", "Se llama Ana.", "Se escribe a, ene, a.", "Mucho gusto, Ana."],
+        "answer": 2,
+        "explanation": "Se escribe means 'it is spelled,' followed by the letter names in order."
+      }
+    ]
+  }
+}

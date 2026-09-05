@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-el-alfabeto",
+    "language": "spanish",
+    "word": "el alfabeto",
+    "translation": "alphabet",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Aprendemos el alfabeto en español todas las semanas. (We learn the alphabet in Spanish every week.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-la-letra",
+    "language": "spanish",
+    "word": "la letra",
+    "translation": "letter",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "La letra eñe no existe en inglés. (The letter ñ doesn't exist in English.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-la-vocal",
+    "language": "spanish",
+    "word": "la vocal",
+    "translation": "vowel",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "La letra a es una vocal muy fácil de pronunciar. (The letter a is a vowel that's very easy to pronounce.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-la-palabra",
+    "language": "spanish",
+    "word": "la palabra",
+    "translation": "word",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "La palabra gato tiene cuatro letras. (The word 'gato' has four letters.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-como-se-escribe",
+    "language": "spanish",
+    "word": "¿cómo se escribe?",
+    "translation": "how do you spell it?",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Mi nombre es difícil. ¿Cómo se escribe tu nombre? (My name is hard. How do you spell your name?)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-se-escribe",
+    "language": "spanish",
+    "word": "se escribe",
+    "translation": "it is spelled",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "El nombre Ana se escribe a, ene, a. (The name Ana is spelled a, n, a.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-la-ene",
+    "language": "spanish",
+    "word": "la eñe",
+    "translation": "the letter ñ",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "La palabra año se escribe con la eñe. (The word 'año' is spelled with the letter ñ.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  }
+]

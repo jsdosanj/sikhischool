@@ -1,0 +1,112 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-3",
+    "courseId": "course-spanish-3",
+    "order": 3,
+    "title": "The Alphabet & Spanish Sounds: El Alfabeto to La Eñe",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-3-3",
+    "unitId": "unit-spanish-3-3",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Sounds You've Never Made Before: Ñ, RR, LL, and Silent H",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.4.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned letter names and vowel sounds. Today you'll meet Spanish's most special sounds — including one letter that doesn't exist in English at all."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[la eñe]] is a letter that only exists in Spanish — it looks like an n with a little wave on top: ñ. That wave is called a tilde, and it completely changes the sound. Ask a parent or teacher to say año (year) out loud for you: the ñ sounds like the 'ny' in the English word canyon, or the 'ni' in onion. Try saying año, niño (child, boy), and mañana (tomorrow) after them."
+      },
+      {
+        "type": "text",
+        "ref": "special-sounds",
+        "text": "Three more special sounds to listen for and try with a parent or teacher:\n\nRolled RR — when you see two r's together, roll or trill the r by buzzing the tip of your tongue behind your top teeth. The classic way to practice is with two almost-identical words: perro (dog, rolled rr) and pero (but, just one soft, quick r — more like the dd in the English word ladder). Ask your family member to say perro, then pero, a few times, and try to hear — and then make — the difference yourself.\n\nLL — in most of Latin America, ll sounds just like the English y. So llama (the animal, or 'he/she calls') sounds like YAH-mah, and pollo (chicken) sounds like POH-yoh.\n\nSilent H — in Spanish, the letter h is NEVER pronounced, no matter where it appears in a word. Hola (hello) sounds like OH-lah, and hermano (brother) sounds like er-MAH-noh — the h just disappears. (Funny enough, remember hache, the Spanish name for the letter H, from Monday? Even h's own name has a silent h in it!)"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned four sounds that don't work the way English sounds do: ñ, rolled rr, ll, and silent h. Tomorrow you'll put your letter names to work, spelling out loud with a classmate."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "The word 'año' has a wavy line over the n. That letter is called ___.",
+              "blankToken": "___",
+              "options": ["la eñe", "la letra", "la vocal", "el alfabeto"],
+              "answer": "la eñe"
+            },
+            {
+              "sentence": "Perro (dog) has a rolled, buzzing r. Pero (but) has just one soft, quick r. These two words are ___ except for that one sound.",
+              "blankToken": "___",
+              "options": ["identical", "opposites", "written backwards", "impossible to say"],
+              "answer": "identical"
+            },
+            {
+              "sentence": "In most of Latin America, the double l in 'llama' sounds like the English letter ___.",
+              "blankToken": "___",
+              "options": ["y", "l", "w", "h"],
+              "answer": "y"
+            },
+            {
+              "sentence": "The letter h in Spanish words like 'hola' and 'hermano' is always ___.",
+              "blankToken": "___",
+              "options": ["silent", "rolled", "doubled", "capitalized"],
+              "answer": "silent"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-3-3",
+    "lessonId": "lesson-spanish-3-3-3",
+    "objectives": [
+      "Say la eñe and produce its 'ny' sound with modeling",
+      "Distinguish the rolled rr in perro from the single r in pero",
+      "Recognize that ll sounds like y and h is always silent in Spanish"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A parent or teacher to model each special sound aloud"],
+    "facilitationScript": "1. Show the child the letter ñ and ask if they've ever seen a letter like it in English (they haven't — that's the point).\n2. Model año, niño, and mañana aloud, having the child repeat each one, focusing on the 'ny' sound.\n3. Say perro and pero side by side several times, exaggerating the rolled rr in perro, then have the child try to hear the difference and attempt to say both.\n4. Model llama and pollo, pointing out that ll sounds like the English y.\n5. Model hola and hermano, pointing out that the h is completely silent — and connect it back to hache, Monday's silent-h letter name.\n6. Complete the cloze activity.\n7. Complete the worksheet.\n8. Preview tomorrow: using letter names to spell classmates' names out loud.",
+    "differentiationTips": [
+      "Struggling: focus on just one special sound today (ñ is usually the easiest and most memorable) and let the rest be 'coming soon' rather than four new sounds at once",
+      "Ready for more: challenge them to find, or think of, another perro/pero-style pair — two Spanish words that differ only by a rolled vs. single r — with a parent or teacher's help",
+      "Rolling an r takes many children multiple tries across several weeks to physically produce — praise the attempt itself, not just a perfect trill; recognizing the sound by ear is the actual goal at this grade, not yet producing it flawlessly",
+      "This lesson relies entirely on a parent or teacher modeling each sound aloud, since the course doesn't have audio content yet (open decision, expansion-plan-2026-09.md §12.9) — for a week about sounds specifically, a live voice reading the phonetic cues above is the honest substitute until that infrastructure lands"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "La eñe = ñ, sounds like 'ny' in canyon. Perro (rolled rr) vs. pero (single r) differ only in that one sound, and perro means 'dog.' Ll sounds like y in most of Latin America. H is always silent.",
+    "standardsRationale": "Covers the week's Day 3 target (ñ, rr, ll, silent h) exactly as the scope-and-sequence names it, under WA-WL-2015.4.1 Language Comparisons — each sound is explicitly contrasted against its closest English equivalent (or lack of one, for ñ), which is the comparative lens the standard calls for, not just pronunciation drilling for its own sake."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-3-3",
+    "lessonId": "lesson-spanish-3-3-3",
+    "title": "Sounds You've Never Made Before: Ñ, RR, LL, and Silent H",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about today's special Spanish sounds.",
+      "rows": [
+        { "problem": "What does la eñe look like, and what sound does it make?" },
+        { "problem": "Which word has a rolled, buzzing r: perro or pero? Which one means 'dog'?" },
+        { "problem": "What English letter does ll sound like in llama and pollo?" },
+        { "problem": "Is the h in hola and hermano pronounced or silent?" }
+      ]
+    }
+  }
+}

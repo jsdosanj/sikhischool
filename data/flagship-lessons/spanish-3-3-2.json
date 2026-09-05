@@ -1,0 +1,93 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-3",
+    "courseId": "course-spanish-3",
+    "order": 3,
+    "title": "The Alphabet & Spanish Sounds: El Alfabeto to La Eñe",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-3-2",
+    "unitId": "unit-spanish-3-3",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "La Vocal: Five Sounds, No Surprises",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.4.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned that some Spanish letters have surprising names. Today's letters are the opposite: once you learn their sound, they never change it. Meet the five Spanish vowels."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[la vocal]] means 'vowel.' Spanish has five vocales: a, e, i, o, u — the exact same five letters English uses. But here's the big difference: in English, the letter a can sound like the a in cat, cake, car, or saw — four different sounds from one letter! In Spanish, each vowel makes exactly ONE sound, every single time, no matter what word it's in."
+      },
+      {
+        "type": "text",
+        "ref": "vowel-sounds",
+        "text": "Ask a parent or teacher to say each of these vowel sounds out loud for you, clearly and slowly, so you can repeat them:\n\na — like the a in 'father' (ah)\ne — like the e in 'bed,' short and crisp (eh)\ni — like the ee in 'see' (ee)\no — like the o in 'more,' short and crisp, not gliding into 'oh-oo' (oh)\nu — like the oo in 'moon' (oo)\n\nNow say the five vowels in order, out loud, three times fast: a-e-i-o-u, a-e-i-o-u, a-e-i-o-u. Notice that every vowel sounds exactly the same each time — that's what makes Spanish vowels so reliable once you know them."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know the five vocales and exactly how each one always sounds. Tomorrow you'll meet some genuinely special sounds — including one letter that doesn't even exist in English!"
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "Which vowel sounds like the a in 'father'?", "answer": "a" },
+            { "prompt": "Which vowel sounds like the e in 'bed'?", "answer": "e" },
+            { "prompt": "Which vowel sounds like the ee in 'see'?", "answer": "i" },
+            { "prompt": "Which vowel sounds like the o in 'more' (short and crisp)?", "answer": "o" },
+            { "prompt": "Which vowel sounds like the oo in 'moon'?", "answer": "u" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-3-2",
+    "lessonId": "lesson-spanish-3-3-2",
+    "objectives": [
+      "Say la vocal and name the five Spanish vowels",
+      "Produce each vowel's one consistent sound with a parent or teacher's modeling",
+      "Contrast Spanish's one-sound-per-vowel pattern with English's multiple vowel sounds"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A parent or teacher to model each vowel sound aloud"],
+    "facilitationScript": "1. Ask the child how many different sounds the English letter a can make (cat, cake, car, saw) — most kids are surprised once they count them out.\n2. Introduce la vocal and the five Spanish vowels: a, e, i, o, u.\n3. Model each vowel sound aloud yourself, clearly and slowly (ah, eh, ee, oh, oo), having the child repeat each one two or three times before moving to the next.\n4. Say the five vowels together in order, three times fast, noticing that each one sounds identical every time.\n5. Play the vowel speed-drill activity together.\n6. Complete the worksheet.\n7. Preview tomorrow: special sounds, including a letter that doesn't exist in English.",
+    "differentiationTips": [
+      "Struggling: master one vowel completely (start with a, the easiest to hold steady) before adding the next — five new consistent sounds at once can blur together",
+      "Ready for more: have them sort familiar Spanish words already learned (hola, adiós, buenos días, me llamo) by which vowel sound appears the most in each word",
+      "This lesson depends on a parent or teacher modeling each vowel sound aloud rather than an audio recording, since the course doesn't have audio content yet (open decision, expansion-plan-2026-09.md §12.9) — the written phonetic cues (ah, eh, ee, oh, oo) plus a live voice cover the same ground a recording would"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "a = ah (father), e = eh (bed), i = ee (see), o = oh (more, short), u = oo (moon). Unlike English, each Spanish vowel keeps exactly one sound in every word.",
+    "standardsRationale": "Delivers the week's Day 2 target (the five pure vowel sounds) under WA-WL-2015.4.1 Language Comparisons by directly contrasting Spanish's one-sound-per-vowel rule against English's multiple vowel sounds — a concrete, testable comparison a grade-3 child can verify in their own mouth."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-3-2",
+    "lessonId": "lesson-spanish-3-3-2",
+    "title": "La Vocal: Five Sounds, No Surprises",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write each vowel two times, then say its sound out loud.",
+      "prompts": [
+        { "prompt": "Write a (ah, like father) two times.", "lines": 2 },
+        { "prompt": "Write e (eh, like bed) two times.", "lines": 2 },
+        { "prompt": "Write i (ee, like see) two times.", "lines": 2 },
+        { "prompt": "Write o (oh, like more) two times.", "lines": 2 },
+        { "prompt": "Write u (oo, like moon) two times.", "lines": 2 }
+      ]
+    }
+  }
+}

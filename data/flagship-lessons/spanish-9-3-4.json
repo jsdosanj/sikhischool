@@ -1,0 +1,77 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-3",
+    "courseId": "course-spanish-9",
+    "order": 3,
+    "title": "Daily Life in the Present Tense",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-3-4",
+    "unitId": "unit-spanish-9-3",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing a Connected Paragraph About Your Typical Week",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every tool is on the table now: the present-tense map, soler + infinitive, and three connectors for comparing weekday and weekend life. Today you stop practicing them in isolated sentences and build one real paragraph — connected prose about your actual week, not four facts stapled together."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A list isn't a paragraph, even when every sentence in it is grammatically perfect: 'Entre semana me despierto temprano. Voy a la escuela. Hago tarea. Los fines de semana descanso.' is four separate true facts with nothing holding them together. A connected paragraph uses exactly the tools you've built this week to turn that list into one flowing idea: 'Entre semana suelo despertarme temprano y voy a la escuela; además, casi siempre tengo tarea por la noche. Los fines de semana, en cambio, no pongo el despertador — suelo dormir hasta tarde y aprovecho el sábado para descansar de verdad.' Same information, completely different reading experience, because además and en cambio are doing the work of showing how the sentences relate to each other, not just that they're both true."
+      },
+      {
+        "type": "text",
+        "ref": "template",
+        "text": "Build your paragraph in this order — write in Spanish where you can:\nEntre semana, (yo)... — describe two or three real things about your weekday routine, using at least one reflexive verb (me despierto, me visto, me acuesto) and one stem-changing or irregular-yo verb (tengo, hago, salgo, quiero, pido...).\nAdemás,... — add one more true weekday fact using a connector, not just 'y.'\nLos fines de semana, en cambio,... — describe how your weekend actually differs, not just the weekday pattern with different times.\nPor eso,... or Suelo... — close with either a cause-effect sentence explaining why your week ends the way it does, or a soler + infinitive sentence naming a genuine weekend habit.\nAim for 6-10 connected sentences, not four separate answers stapled together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Save this paragraph. Tomorrow's speed-talk is built directly from it — you'll say the exact ideas you just wrote, out loud, in 90 seconds, without reading it word-for-word."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-3-4",
+    "lessonId": "lesson-spanish-9-3-4",
+    "objectives": [
+      "Write a 6-10 sentence connected paragraph about weekday and weekend routines using at least one reflexive verb, one stem-changing or irregular-yo verb, and at least one connector",
+      "Use soler + infinitive at least once to describe a genuine habitual action"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "This week's earlier worksheets, for reference"],
+    "facilitationScript": "1. Briefly revisit the explanation block's list-vs-paragraph example — read both versions aloud and discuss why the second one reads as connected.\n2. Have the student draft answers to each of the four template sections on the worksheet, one at a time.\n3. Combine the four answers into one connected paragraph, checking that at least one connector and one soler sentence appear.\n4. Read the finished paragraph aloud once as rehearsal for tomorrow's speed-talk.\n5. File the draft somewhere it will be found again tomorrow.",
+    "differentiationTips": [
+      "Struggling: it's fine if the paragraph leans on just one connector used correctly rather than forcing all three in — one well-placed en cambio beats three connectors used loosely",
+      "Ready for more: challenge them to include a reflexive verb that also stem-changes (despertarse, acostarse, vestirse) rather than only a simple reflexive like levantarse",
+      "This is presentational writing headed straight for spoken delivery tomorrow — prioritize sentences the student can actually say confidently over more complex ones they'd need to read"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct paragraph — evaluate for at least one reflexive verb, one stem-changing or irregular-yo verb, at least one connector (además/en cambio/por eso), a soler + infinitive sentence, and 6-10 connected sentences rather than four disconnected answers.",
+    "standardsRationale": "Serves WA-WL-2015.1.3 by requiring the student to produce connected presentational writing — not a list — using this week's full toolkit (present-tense map, soler, connectors), per the scope-and-sequence's Day 4 target ('write a connected paragraph (not a list!) about your typical week'). This draft becomes the direct foundation for Friday's spoken speed-talk."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-3-4",
+    "lessonId": "lesson-spanish-9-3-4",
+    "title": "Writing a Connected Paragraph About Your Typical Week",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Draft your weekly-routine paragraph using the sentence starters from today's lesson. Write in Spanish where you can.",
+      "prompts": [
+        { "prompt": "Entre semana, (yo)... (Use at least one reflexive verb and one stem-changing or irregular-yo verb.)", "lines": 3 },
+        { "prompt": "Además,... (Add one more true weekday fact using a connector, not just 'y.')", "lines": 2 },
+        { "prompt": "Los fines de semana, en cambio,... (Describe how your weekend actually differs.)", "lines": 3 },
+        { "prompt": "Por eso... or Suelo... (Close with a cause-effect sentence or a soler + infinitive habit.)", "lines": 2 },
+        { "prompt": "Now combine your answers above into one connected paragraph (6-10 sentences), in Spanish.", "lines": 6 }
+      ]
+    }
+  }
+}

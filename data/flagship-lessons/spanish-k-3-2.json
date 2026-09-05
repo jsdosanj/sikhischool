@@ -1,0 +1,92 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-3",
+    "courseId": "course-spanish-k",
+    "order": 3,
+    "title": "Numbers 1-5",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-3-2",
+    "unitId": "unit-spanish-k-3",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Escucha y Aplaude: A Listening and Clapping Game",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol has ears ready to listen today — and so should you! We're going to play a clapping game with numbers."
+      },
+      {
+        "type": "text",
+        "ref": "practice-contar",
+        "text": "When we say numbers out loud one at a time, we [[contar]] — that means 'to count'! Sol will say a number, and you'll clap that many times."
+      },
+      {
+        "type": "text",
+        "ref": "practice-clap",
+        "text": "Listen for Sol's number: if Sol says tres, clap three times — ¡clap, clap, clap! Try it with uno, dos, tres, cuatro, and cinco."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You listened carefully and clapped the right number of times every time Sol said a number — that's what it means to contar! Tomorrow, we'll count real objects around the room."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match the Spanish number to how many it means.",
+          "pairs": [
+            { "left": "uno", "right": "1️⃣" },
+            { "left": "dos", "right": "2️⃣" },
+            { "left": "tres", "right": "3️⃣" },
+            { "left": "cuatro", "right": "4️⃣" },
+            { "left": "cinco", "right": "5️⃣" },
+            { "left": "contar", "right": "🔢 to count" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-3-2",
+    "lessonId": "lesson-spanish-k-3-2",
+    "objectives": [
+      "Understand that contar means 'to count'",
+      "Clap the correct number of times (1-5) after hearing a spoken number"
+    ],
+    "materialsNeeded": ["Sol the puppet", "Just your hands for clapping"],
+    "facilitationScript": "1. Explain simply that contar means 'to count' — when we say numbers one after another, we're counting.\n2. Have Sol say a number, e.g. '¡Tres!', and clap three times together with your child, counting the claps out loud: uno, dos, tres.\n3. Take turns: Sol calls a number 1-5, your child claps that many times; then your child calls a number for Sol (or you) to clap.\n4. Repeat with all five numbers in mixed-up order, moving faster once your child is confident.\n5. Complete the on-screen matching activity together, reading each number aloud since your child may not read yet.\n6. Close by asking: 'What does it mean to contar? Can you clap tres times for me?'",
+    "differentiationTips": [
+      "Struggling: stick to uno, dos, tres for a few rounds before adding cuatro and cinco",
+      "Ready for more: call out two numbers in a row and have your child clap both counts back to back, e.g. dos, then cinco",
+      "Getting the clap count exactly right matters less than confidently attempting it — celebrate a close clap count as a win"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken-and-clapped listening activity — success looks like your child clapping close to the right number of times after hearing a number, not a written answer. In the matching game: uno → 1️⃣, dos → 2️⃣, tres → 3️⃣, cuatro → 4️⃣, cinco → 5️⃣, contar → 🔢 to count.",
+    "standardsRationale": "Continues week 3's WA-WL-2015.1.2 target by turning yesterday's counted fingers into pure listening comprehension — no visual number cue, just the spoken word — which is the heart of ACTFL Interpretive Listening, and introduces contar as the verb that names the whole week's activity."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-3-2",
+    "lessonId": "lesson-spanish-k-3-2",
+    "title": "Escucha y Aplaude: A Listening and Clapping Game",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together.",
+      "rows": [
+        { "problem": "Explain that contar means 'to count'. Say a number 1-5 and clap that many times together." },
+        { "problem": "Take turns: your child claps for a number you say, then calls a number for you to clap." },
+        { "problem": "Play 2-3 more rounds, mixing up the numbers uno through cinco." }
+      ]
+    }
+  }
+}

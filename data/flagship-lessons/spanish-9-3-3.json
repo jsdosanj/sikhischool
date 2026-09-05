@@ -1,0 +1,116 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-3",
+    "courseId": "course-spanish-9",
+    "order": 3,
+    "title": "Daily Life in the Present Tense",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-3-3",
+    "unitId": "unit-spanish-9-3",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Weekday vs. Weekend: Comparing Your Cotidiano Life with Connectors",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Two very different lives happen inside one week — the version of you that exists Monday through Friday, and the version that shows up Saturday and Sunday. Today you learn three connector words that let you actually compare them in one flowing thought, instead of two disconnected lists."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Entre semana (during the week), a typical day might sound like this: Me despierto a las seis, voy a la escuela, y hago la tarea casi todas las noches; además, no me queda mucho tiempo libre. (I wake up at six, go to school, and do homework almost every night; besides, I don't have much free time left.) Notice what además is doing there — it isn't contrasting anything, it's piling one more true fact onto the ones before it.\n\nLos fines de semana, en cambio, duermo hasta las nueve y no tengo tarea. (On weekends, in contrast, I sleep until nine and have no homework.) En cambio signals something genuinely different from what you just described — it's the connector you reach for when weekday-you and weekend-you actually don't match.\n\nThat contrast is really about [[el ocio]] — leisure, free time spent on what you actually want to do rather than what you have to do. Entre semana casi no tengo tiempo para el ocio; por eso, los sábados intento [[aprovechar]] cada hora libre que tengo. (During the week I have almost no time for leisure; that's why, on Saturdays, I try to make the most of every free hour I have.) Por eso connects a cause directly to its effect — the lack of weekday ocio is the reason the weekend gets treated differently.\n\nEl domingo suelo [[descansar]] de verdad — nada de tarea, nada de horario fijo, solo tiempo para mí. (On Sundays I usually really rest — no homework, no fixed schedule, just time for myself.)"
+      },
+      {
+        "type": "text",
+        "ref": "practice-guidance",
+        "text": "As you build your own weekday-vs-weekend comparison, notice that these three connectors aren't interchangeable — swapping en cambio for además in the wrong spot changes what your sentence actually claims. Before you use one, ask yourself: am I adding a similar fact (además), pointing out a real contrast (en cambio), or explaining why something happened (por eso)? Getting that choice right is what makes a comparison read as reasoned instead of just listed."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow you stop comparing in isolated sentences and build all of this — the present-tense map, soler, and these three connectors — into one connected paragraph about your own actual week."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Entre semana trabajo hasta las seis; ___, los sábados no trabajo nada.",
+              "options": ["además", "en cambio", "por eso"],
+              "answer": 1,
+              "explanation": "En cambio signals a real contrast — working weekdays and not working Saturdays are opposite facts."
+            },
+            {
+              "q": "No dormí bien anoche; ___, hoy estoy muy cansado.",
+              "options": ["además", "en cambio", "por eso"],
+              "answer": 2,
+              "explanation": "Por eso connects a cause (not sleeping well) directly to its effect (being tired today)."
+            },
+            {
+              "q": "Entre semana tengo clases; ___, tengo que hacer tarea todas las noches.",
+              "options": ["además", "en cambio", "por eso"],
+              "answer": 0,
+              "explanation": "Además adds one more true, similar fact onto the first one — it isn't a contrast or strictly a cause-and-effect link."
+            },
+            {
+              "q": "Based on today's reading, why does the narrator try to aprovechar cada hora libre on Saturdays?",
+              "options": [
+                "Because school requires it",
+                "Because entre semana leaves almost no time for el ocio",
+                "Because weekends have more homework",
+                "Because madrugar is required on Saturdays"
+              ],
+              "answer": 1,
+              "explanation": "The reading uses por eso to connect the weekday lack of ocio directly to the Saturday habit of aprovechar-ing every free hour."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-3-3",
+    "lessonId": "lesson-spanish-9-3-3",
+    "objectives": [
+      "Use además, en cambio, and por eso accurately to connect ideas about weekday and weekend routines",
+      "Distinguish between an additive connector (además), a contrastive connector (en cambio), and a causal connector (por eso) in context",
+      "Use el ocio, aprovechar, and descansar accurately in original sentences"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Read the explanation block together, having the student identify out loud what job each connector is doing in each example sentence (adding, contrasting, or explaining cause).\n2. Discuss the practice-guidance block's three questions (adding a similar fact? a real contrast? explaining why?) as a decision test the student can reuse.\n3. Complete the multiple-choice activity.\n4. Complete the worksheet.\n5. Preview tomorrow's paragraph-writing task.",
+    "differentiationTips": [
+      "Struggling: master en cambio and por eso first, since they're the two connectors most often confused with each other, before adding además",
+      "Ready for more: have them rewrite one of today's example sentence pairs using a different connector and explain how the meaning changes",
+      "If a sentence sounds acceptable with more than one connector, that's often true — ask the student to defend which one is most precise for the exact relationship intended, not just which one is grammatically possible"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "1. además. 2. en cambio. 3. por eso. 4. En cambio marks a genuine contrast between two different facts; por eso connects a cause to its effect — they aren't interchangeable.",
+    "standardsRationale": "Serves WA-WL-2015.1.3 by giving the student the connector vocabulary (además, en cambio, por eso) that turns isolated present-tense sentences into an actual comparison, per the scope-and-sequence's Day 3 target ('compare weekday vs. weekend life with connector words'). These are the same three connectors Friday's listening partner is asked to listen for."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-3-3",
+    "lessonId": "lesson-spanish-9-3-3",
+    "title": "Weekday vs. Weekend: Comparing Your Cotidiano Life with Connectors",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Complete each sentence with además, en cambio, or por eso, then answer the last question in your own words.",
+      "rows": [
+        { "problem": "Entre semana tengo clases; ___, tengo que hacer tarea todas las noches." },
+        { "problem": "Entre semana me despierto a las seis; los fines de semana, ___, duermo hasta las nueve." },
+        { "problem": "No dormí bien anoche; ___, estoy muy cansado hoy." },
+        { "problem": "In your own words, what's the difference between using en cambio and using por eso?" }
+      ]
+    }
+  }
+}

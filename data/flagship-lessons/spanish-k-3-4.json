@@ -1,0 +1,90 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-3",
+    "courseId": "course-spanish-k",
+    "order": 3,
+    "title": "Numbers 1-5",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-3-4",
+    "unitId": "unit-spanish-k-3",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "El Salto de Números: A Number Hop Game",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol set up five dots on the floor today, numbered uno through cinco. Get your jumping feet ready!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-hop-intro",
+        "text": "Look down at the floor dots. When Sol calls a number, jump to that dot! If Sol says '¡Dos!', jump to the dot for dos."
+      },
+      {
+        "type": "text",
+        "ref": "practice-hop-mixed",
+        "text": "Sol will call the numbers in a mixed-up order now — listen carefully before you jump! Try uno, cinco, tres, cuatro, and dos in any order."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You listened for each number and jumped to the right dot every time — fantastic listening! Tomorrow is our counting show for Sol."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "one", "answer": "uno" },
+            { "prompt": "two", "answer": "dos" },
+            { "prompt": "three", "answer": "tres" },
+            { "prompt": "four", "answer": "cuatro" },
+            { "prompt": "five", "answer": "cinco" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-3-4",
+    "lessonId": "lesson-spanish-k-3-4",
+    "objectives": [
+      "Jump to the correct floor spot (1-5) after hearing a spoken Spanish number",
+      "Recognize all five numbers uno-cinco out of the counting-song order"
+    ],
+    "materialsNeeded": ["Five pieces of paper or tape marks on the floor, numbered/dotted 1 through 5", "Sol the puppet", "Open floor space to jump safely"],
+    "facilitationScript": "1. Lay out five spots on the floor in a row or scattered, one for each number 1-5 (draw dots, write numerals, or just use paper squares).\n2. Stand near Sol and call out a number in Spanish, e.g. '¡Tres!' — model jumping to that spot yourself first.\n3. Have your child listen and jump to the matching spot each time you or Sol calls a number.\n4. Call the numbers in mixed-up order (not always 1-2-3-4-5) so your child is truly listening, not just following a pattern.\n5. Swap roles: let your child call a number for you (or Sol) to jump to.\n6. Complete the on-screen speed-drill activity together, cheering each correct match.\n7. Close by asking: 'Which number was the trickiest to listen for today?'",
+    "differentiationTips": [
+      "Struggling: call the numbers in order (uno, dos, tres...) for the first few rounds before mixing them up",
+      "Ready for more: call two numbers in a row and have your child jump to both spots in sequence",
+      "A near-miss jump to the neighboring dot is a great sign your child is listening closely — celebrate the attempt"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken listening-and-jumping activity — success looks like your child jumping toward the correct spot after hearing a number, not a written answer. In the speed-drill game, each English number word matches its Spanish counterpart: one → uno, two → dos, three → tres, four → cuatro, five → cinco.",
+    "standardsRationale": "Deepens week 3's WA-WL-2015.1.2 target by requiring the child to recognize each number out of the predictable 1-2-3-4-5 song order — true listening comprehension rather than memorized sequence — and the on-screen speed drill gives the same recognition skill a fast-paced digital rep."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-3-4",
+    "lessonId": "lesson-spanish-k-3-4",
+    "title": "El Salto de Números: A Number Hop Game",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together.",
+      "rows": [
+        { "problem": "Make five floor spots numbered 1 through 5, using paper or tape." },
+        { "problem": "Call out a number in Spanish and jump to that spot together, e.g. '¡Tres!'" },
+        { "problem": "Call the numbers in mixed-up order 4-5 more times, listening carefully before jumping." }
+      ]
+    }
+  }
+}

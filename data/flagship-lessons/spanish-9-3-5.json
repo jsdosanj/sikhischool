@@ -1,0 +1,87 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-3",
+    "courseId": "course-spanish-9",
+    "order": 3,
+    "title": "Daily Life in the Present Tense",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-3-5",
+    "unitId": "unit-spanish-9-3",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Speed-Talks: 90 Seconds on Your Daily Life",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week closes the way real fluency actually gets built: out loud, under a small amount of time pressure, using language you've practiced but didn't memorize word-for-word. Ninety seconds is short enough to demand real command of the present-tense system, and long enough to actually say something true."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "The rules are simple: talk about your daily life — entre semana and on weekends — for 90 seconds, using yesterday's paragraph as your foundation, not your script. You may glance at it before you start, but you may not read it aloud line by line; the goal is speaking from what you actually know, the way you'll eventually need to in any real conversation. While you talk, your listener's only job is to notice — and write down — every connector you use (además, en cambio, por eso), plus any soler + infinitive sentence you build in real time.\n\nThis is also a moment to notice how far the week actually took you. Monday you had four separate grammar topics; today you're describing your actual cotidiano life using all four at once, without stopping to think about which category a verb belongs to. That's what a system is for: it disappears into fluency once you actually know it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Whatever your 90 seconds actually covered — a full week or just two contrasting days — the point wasn't a perfect performance, it was proving the system holds together under real, spontaneous use. Next week: describing the world around you — places, cities, neighborhoods — with ser, estar, and haber."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "translate-v1",
+        "config": {
+          "items": [
+            { "prompt": "Translate to Spanish: everyday, daily", "acceptedAnswers": ["cotidiano"] },
+            { "prompt": "Translate to Spanish: to usually do", "acceptedAnswers": ["soler"] },
+            { "prompt": "Translate to Spanish: to wake up very early", "acceptedAnswers": ["madrugar"] },
+            { "prompt": "Translate to Spanish: to make the most of", "acceptedAnswers": ["aprovechar"] },
+            { "prompt": "Translate to Spanish: to rest", "acceptedAnswers": ["descansar"] },
+            { "prompt": "Translate to Spanish: leisure", "acceptedAnswers": ["el ocio", "ocio"] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-3-5",
+    "lessonId": "lesson-spanish-9-3-5",
+    "objectives": [
+      "Deliver a 90-second spoken description of weekday and weekend routines without reading a script line by line",
+      "Identify and record the connectors (además, en cambio, por eso) used in a peer's or family member's spoken description"
+    ],
+    "materialsNeeded": ["Yesterday's paragraph draft", "Printed worksheet", "Pencil", "A timer"],
+    "facilitationScript": "1. Complete the vocabulary-recap activity as a warm-up.\n2. Explain the ground rules: 90 seconds, glancing at yesterday's paragraph is fine, reading it aloud line by line is not.\n3. If working one-on-one, both people deliver a short speed-talk and the listener notes connectors used; in a small group, rotate speakers with a visible timer.\n4. Complete the worksheet's before/during/after structure.\n5. Preview next week's topic: describing your world with ser, estar, and haber.",
+    "differentiationTips": [
+      "Struggling: allow a written list of 3-4 key phrases (not full sentences) as a memory aid, rather than requiring fully unscripted speech",
+      "Ready for more: challenge them to work in one sentence using a category from Monday's map they haven't used yet this week (e.g., an e→i stem-changing verb like pedir or seguir)",
+      "If no second person is available, have the student record their own 90 seconds, then replay it and complete the worksheet's listening questions about their own talk"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "There is no single correct 90-second talk — evaluate for spontaneous (not read-aloud) use of the present-tense system, at least one soler + infinitive sentence, and correct identification of the connectors a partner used.",
+    "standardsRationale": "Closes the week's WA-WL-2015.1.3 (Presentational Speaking) arc with a timed, substantially spontaneous spoken task — per the scope-and-sequence's Day 5 target ('speed-talks — 90 seconds on your daily life; peers note the connectors you used'). Requiring the student to speak from, not read, yesterday's paragraph is what makes this presentational rather than simple recitation."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-3-5",
+    "lessonId": "lesson-spanish-9-3-5",
+    "title": "Speed-Talks: 90 Seconds on Your Daily Life",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use this sheet before, during, and after today's speed-talk.",
+      "rows": [
+        { "problem": "Before your speed-talk: reread yesterday's paragraph once, then set it aside. Circle any verb form you want to double-check before you speak." },
+        { "problem": "Write one soler + infinitive sentence you plan to say during your 90 seconds that ISN'T already in yesterday's paragraph." },
+        { "problem": "As you listen to someone else's speed-talk, write down every connector (además, en cambio, por eso) you hear them use." },
+        { "problem": "Looking back at this whole week, which category (regular, stem-changing, reflexive, or irregular yo-form) do you still want more practice with, and why?" }
+      ]
+    }
+  }
+}

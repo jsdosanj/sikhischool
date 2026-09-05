@@ -1,0 +1,90 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-3",
+    "courseId": "course-spanish-6",
+    "order": 3,
+    "title": "The Spanish-Speaking World",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-3-3",
+    "unitId": "unit-spanish-6-3",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Spanish in the US: A Washington State Spotlight",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.3.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've mapped the hispanohablante world across four continents — but you don't have to leave home to find Spanish speakers. The United States isn't one of the twenty countries where Spanish is oficial, and yet it's home to one of the largest Spanish-speaking populations anywhere on Earth, including right here in Washington."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Spanish has no oficial status anywhere in the United States — the U.S. doesn't have a national oficial language at all — but that hasn't stopped it from becoming the second most commonly spoken idioma in the country after English. Tens of millions of people in the U.S. speak Spanish, whether it's their first language, a language they grew up with at home, or one they've studied like you have. Some counts even place the United States among the countries with more Spanish speakers than most of the twenty countries you mapped on Monday — even without Spanish ever being declared oficial anywhere in the country."
+      },
+      {
+        "type": "text",
+        "ref": "washington-spotlight",
+        "text": "Washington state is part of that story. According to U.S. Census Bureau estimates, roughly one in eight Washington residents identifies as Hispanic or Latino — and Washington is home to a significant and growing hispanohablante population, especially in agricultural regions like the Yakima Valley in central Washington, where generations of Spanish-speaking farmworking families have put down roots. You'll hear Spanish spoken in Washington grocery stores, on the radio, in schools, and at community events — not because it's oficial, but because real communities of hispanohablantes have built their lives here.\n\nExact numbers shift year to year and depend on exactly what's being counted — people who speak Spanish at home? People who identify as Hispanic or Latino? People who are bilingual? — so instead of memorizing one precise figure, focus on the real pattern: the hispanohablante population in Washington is significant, it's spread across the state, and it's been growing for decades."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "The Spanish-speaking world isn't only the twenty countries from Monday's map — it's also woven into communities right here in Washington. Tomorrow you'll build trading cards for the countries you've studied all week, using capital, region, and población."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "build-the-sentence-v1",
+        "config": {
+          "items": [
+            { "words": ["Muchos", "hispanohablantes", "viven", "en", "Washington."], "correctOrder": [0, 1, 2, 3, 4] },
+            { "words": ["El", "español", "es", "popular", "en", "Washington."], "correctOrder": [0, 1, 2, 3, 4, 5] },
+            { "words": ["La", "población", "hispana", "crece", "en", "Washington."], "correctOrder": [0, 1, 2, 3, 4, 5] },
+            { "words": ["Muchas", "familias", "trabajan", "en", "la", "agricultura."], "correctOrder": [0, 1, 2, 3, 4, 5] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-3-3",
+    "lessonId": "lesson-spanish-6-3-3",
+    "objectives": [
+      "Explain that the U.S. has no official language, yet is home to a large and significant Spanish-speaking population",
+      "Describe, in general and appropriately hedged terms, the presence and growth of the hispanohablante community in Washington state"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask if the child has ever heard Spanish spoken locally — a grocery store, the radio, neighbors.\n2. Read the explanation and Washington spotlight sections together.\n3. Discuss why exact numbers are hard to pin down (different definitions of 'Spanish speaker').\n4. Complete the build-the-sentence activity.\n5. Complete the worksheet.\n6. Preview tomorrow's trading cards.",
+    "differentiationTips": [
+      "Struggling: focus on just one takeaway sentence — 'Muchos hispanohablantes viven en Washington' — before tackling the rest",
+      "Ready for more: research, with an adult, one specific Washington community event connected to Spanish-speaking culture, such as a local Latino heritage festival",
+      "If the child has personal or family experience with Spanish-speaking communities in Washington, invite them to share it — real local knowledge is a stronger anchor than any statistic"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The U.S. has no official language; Spanish is nonetheless the second most commonly spoken language in the country. Roughly one in eight Washington residents identifies as Hispanic or Latino, with especially significant hispanohablante communities in agricultural regions like the Yakima Valley. Exact speaker counts vary by source and definition, so the lesson emphasizes the general, well-supported pattern rather than one precise number.",
+    "standardsRationale": "Fulfills Day 3's scope-and-sequence design (a Spanish-in-the-US spotlight specifically including Washington state data) as a Making Connections task tying the week's global geography to the students' own home state, while deliberately avoiding invented precision on a statistic — U.S. Census figures on Hispanic/Latino identity and home-language use are the most defensible public numbers available, but even those shift by year and by exactly what's being measured, so the lesson teaches the real, appropriately-hedged pattern instead of a fabricated exact figure."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-3-3",
+    "lessonId": "lesson-spanish-6-3-3",
+    "title": "Spanish in the US: A Washington State Spotlight",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's reading about Spanish in the US and Washington.",
+      "rows": [
+        { "problem": "Does the United States have an official national language? Explain." },
+        { "problem": "About what fraction of Washington's population identifies as Hispanic or Latino?" },
+        { "problem": "Name one Washington region mentioned in today's lesson with a significant hispanohablante community." },
+        { "problem": "Why is it hard to give one exact number for 'how many Spanish speakers live in Washington'?" }
+      ]
+    }
+  }
+}

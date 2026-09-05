@@ -1,0 +1,82 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-3",
+    "courseId": "course-spanish-3",
+    "order": 3,
+    "title": "The Alphabet & Spanish Sounds: El Alfabeto to La Eñe",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-3-5",
+    "unitId": "unit-spanish-3-3",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Spelling Bee Lite: Spelling Familiar Words Out Loud",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.4.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned the Spanish alphabet, five reliable vowel sounds, four special sounds English doesn't have, and how to ask and answer ¿cómo se escribe? Today you'll put it all together in a spelling bee."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[la palabra]] means 'word.' In a spelling bee, you say a palabra out loud, then spell it one letter at a time using the Spanish letter names you practiced this week, then say the whole word again. For example: gato — ge, a, te, o — gato."
+      },
+      {
+        "type": "text",
+        "ref": "word-list",
+        "text": "Here are five familiar palabras to spell in today's spelling bee. Practice each one with a parent or teacher before the bee begins:\n\ngato (cat) — ge, a, te, o\ncasa (house) — ce, a, ese, a\namigo (friend) — a, eme, i, ge, o\nrojo (red) — erre, o, jota, o\nniño (child) — ene, i, eñe, o\n\nNotice niño uses la eñe — the special letter you met on Wednesday!"
+      },
+      {
+        "type": "text",
+        "ref": "bee-rules",
+        "text": "How to run your spelling bee: one person says a word from the list (or any other familiar Spanish word), the speller says the word, spells it letter by letter in Spanish, then says the word again. If you get stuck on a letter name, that's okay — check the list, say it once more, and keep going. This is a lite version: everyone gets to keep playing all the way through the list, no one is out."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just spelled real Spanish words out loud, one letter at a time, using everything you learned this week: the alphabet, the vowels, the special sounds, and how to ask and answer ¿cómo se escribe? Next week you'll start counting — Spanish numbers zero through thirty!"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-3-5",
+    "lessonId": "lesson-spanish-3-3-5",
+    "objectives": [
+      "Say la palabra and spell five familiar Spanish words aloud using Spanish letter names",
+      "Apply this week's letter names, vowel sounds, and special sounds (including la eñe) in one combined task",
+      "Recover from a stuck letter name by checking a list rather than stopping"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A family member or two to run the spelling bee with", "The week's letter-name notes if handy for reference"],
+    "facilitationScript": "1. Explain today's activity: a lite spelling bee where everyone keeps playing, no one is eliminated.\n2. Introduce la palabra and model spelling gato aloud, letter name by letter name, saying the word before and after.\n3. Practice all five words on the list with the child before starting, pointing out that niño uses la eñe from Wednesday.\n4. Run the spelling bee: take turns being the caller and the speller, working through the full list (and any other familiar Spanish word the child wants to add).\n5. Complete the worksheet, writing out each word's Spanish spelling.\n6. Celebrate finishing the week — review everything learned: el alfabeto, la letra, la vocal, la eñe, ¿cómo se escribe?, se escribe, la palabra.\n7. Preview next week's topic: Spanish numbers zero through thirty.",
+    "differentiationTips": [
+      "Struggling: let the child read the letter names straight off the printed list while spelling, rather than from memory — the goal this week is recognizing and producing the sounds and names, not flawless recall under pressure",
+      "Ready for more: add two or three additional familiar Spanish words from earlier weeks (like señor or gracias) to the spelling list for extra practice",
+      "If a family member isn't available to run the bee, the child can be both caller and speller — reading a word off the list, covering it, then spelling and rechecking it themselves"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "gato = ge-a-te-o, casa = ce-a-ese-a, amigo = a-eme-i-ge-o, rojo = erre-o-jota-o, niño = ene-i-eñe-o. La palabra means 'word.'",
+    "standardsRationale": "Closes the week's WA-WL-2015.4.1 Language Comparisons arc with an authentic, repeated real-world task (spelling five different words) rather than a single scripted exchange, mirroring week 2's Day 5 pattern of a live, unscored performance task instead of a digital game — matching the Novice Mid target of producing memorized-plus-slightly-adapted language."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-3-5",
+    "lessonId": "lesson-spanish-3-3-5",
+    "title": "Spelling Bee Lite: Spelling Familiar Words Out Loud",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Write out how you would spell each word in Spanish letter names.",
+      "rows": [
+        { "problem": "Write out how you would spell gato using Spanish letter names." },
+        { "problem": "Write out how you would spell niño using Spanish letter names. Which special letter does it use?" },
+        { "problem": "Pick one more familiar Spanish word and write out how you'd spell it." },
+        { "problem": "What does la palabra mean in English?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-3",
+    "courseId": "course-spanish-3",
+    "order": 3,
+    "title": "The Alphabet & Spanish Sounds: El Alfabeto to La Eñe",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-3-4",
+    "unitId": "unit-spanish-3-3",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "¿Cómo Se Escribe? Spelling Exchanges",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.4.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know the Spanish alphabet's letter names and its trickiest sounds. Today you'll put both to work in a real conversation: spelling your name out loud for someone else."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[¿cómo se escribe?]] means 'how do you spell it?' — or literally, 'how is it written?' To answer, you say [[se escribe]], which means 'it is spelled,' followed by each letter's Spanish name, one at a time. For example, if your name is Ana, you'd say: se escribe a, ene, a."
+      },
+      {
+        "type": "text",
+        "ref": "dialogue",
+        "text": "Read this exchange out loud, then try it yourself:\n\nLUIS: ¿Cómo te llamas?\nANA: Me llamo Ana.\nLUIS: ¿Cómo se escribe 'Ana'?\nANA: Se escribe a, ene, a.\n\nHere's a useful trick real Spanish speakers use: because b and v sound exactly the same when spoken, spelling out loud can get confusing. So people often add a little clue — be grande (big B, like burro, donkey) for b, or ve chica (little v, like vaca, cow) for v. If your name has a b or a v in it, try using this trick when you spell it."
+      },
+      {
+        "type": "text",
+        "ref": "practice",
+        "text": "Now practice for real. Ask a family member ¿Cómo te llamas?, then ask ¿Cómo se escribe? and write down each letter name they say, in order, using the Spanish letter names you've learned this week. Then let them ask you the same two questions back."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just had a whole conversation about names and spelling, entirely in Spanish. Tomorrow is spelling bee day — you'll spell familiar Spanish words out loud using everything you've learned this week."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "build-the-sentence-v1",
+        "config": {
+          "items": [
+            { "words": ["Se", "escribe", "a", "ene", "a"], "correctOrder": [0, 1, 2, 3, 4] },
+            { "words": ["Se", "escribe", "ele", "u", "i", "ese"], "correctOrder": [0, 1, 2, 3, 4, 5] },
+            { "words": ["Se", "escribe", "te", "i", "te", "o"], "correctOrder": [0, 1, 2, 3, 4, 5] },
+            { "words": ["Se", "escribe", "eme", "i", "eme", "i"], "correctOrder": [0, 1, 2, 3, 4, 5] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-3-4",
+    "lessonId": "lesson-spanish-3-3-4",
+    "objectives": [
+      "Ask ¿Cómo se escribe? and answer with se escribe followed by Spanish letter names",
+      "Spell a name out loud using the Spanish letter names learned this week",
+      "Use the be grande / ve chica trick to clarify b and v when spelling aloud"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A family member (or a few, if possible) to interview and spell names with"],
+    "facilitationScript": "1. Ask the child how they'd spell their name out loud for someone over the phone, in English, letter by letter.\n2. Introduce ¿cómo se escribe? and se escribe, and model spelling 'Ana' aloud: se escribe a, ene, a.\n3. Read the Luis/Ana dialogue together, then introduce the be grande / ve chica trick for telling b and v apart out loud.\n4. Have the child ask a family member ¿Cómo te llamas? and ¿Cómo se escribe?, writing down the letters they hear.\n5. Complete the build-the-word activity, assembling spelled-out names from word tiles.\n6. Complete the worksheet.\n7. Preview tomorrow's spelling bee.",
+    "differentiationTips": [
+      "Struggling: let the child read their own name's spelling off a card you write for them first, focusing on saying the letter names smoothly, before asking them to listen and transcribe someone else's spelling cold",
+      "Ready for more: have them spell a longer family word (a pet's name, a sibling's name) that includes a letter name they only partially remember, and treat looking it up as a normal part of learning to spell, not a failure",
+      "If a name includes a letter without an obvious Spanish name yet covered this week, it's fine to use the English letter sound as a placeholder for now — the goal this week is the pattern (se escribe + letters in order), not 100% letter-name mastery on day one of practicing it"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "¿Cómo se escribe? means 'how do you spell it?' Se escribe means 'it is spelled,' followed by letter names in order (e.g., se escribe a, ene, a for Ana). B and v sound alike in spoken Spanish, so be grande/ve chica helps tell them apart when spelling aloud.",
+    "standardsRationale": "Delivers the week's Day 4 target (spelling exchanges with classmates' names) under WA-WL-2015.4.1 Language Comparisons by putting Monday's letter names to immediate interpersonal use — spelling aloud is itself a comparison point, since English speakers rarely need a be grande/ve chica-style trick the way Spanish spelling does."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-3-4",
+    "lessonId": "lesson-spanish-3-3-4",
+    "title": "¿Cómo Se Escribe? Spelling Exchanges",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about ¿cómo se escribe? and se escribe.",
+      "rows": [
+        { "problem": "What does ¿cómo se escribe? mean in English?" },
+        { "problem": "Spell your own first name in Spanish letter names, the way se escribe would: Se escribe ___." },
+        { "problem": "Why do Spanish speakers sometimes say be grande or ve chica when spelling a word out loud?" },
+        { "problem": "Interview one family member: write their name and how they spelled it (se escribe ___)." }
+      ]
+    }
+  }
+}

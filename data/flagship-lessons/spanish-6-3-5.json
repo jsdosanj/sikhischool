@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-3",
+    "courseId": "course-spanish-6",
+    "order": 3,
+    "title": "The Spanish-Speaking World",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-3-5",
+    "unitId": "unit-spanish-6-3",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Card-Swap Quiz Game: Test the Class Deck",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.3.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "All week you've been building toward this: today the whole class's trading cards go into one big deck, and it's game day."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Combine every card your class (or your family, if you're learning at home) built yesterday into one shared deck — un mazo de la clase. The game is simple: shuffle the deck, deal a few cards to each player, and take turns quizzing each other using only the facts on the cards. Ask questions like ¿Cuál es la capital de...? (What is the capital of...?), ¿En qué región está...? (What region is ... in?), or ¿Cuál es la población de...? (What is the population of...?). Whoever holds the matching card answers — and if they get it right, they keep the card. Whoever collects the most cards by the end wins the round."
+      },
+      {
+        "type": "text",
+        "ref": "variations",
+        "text": "If you're playing alone or with just one or two family members, here are two ways to adapt the game:\n\n- Solo review: shuffle your own cards, flip one at a time, and quiz yourself on capital, región, and población before flipping the next.\n- Family quiz: read a fact off a card without naming the country (e.g., 'Su capital es Bogotá') and have a family member guess which país it describes.\n\nHowever you play, the goal is the same: turn a week of facts into fast, confident recall."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You started this week with a blank map and ended it building and quizzing your own deck of real country facts — capital, región, población, and the idioma that connects them all. Next week, you'll zoom back in from the whole hispanohablante world to the building blocks of every Spanish sentence: subject pronouns and the verb ser."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-3-5",
+    "lessonId": "lesson-spanish-6-3-5",
+    "objectives": [
+      "Ask and answer questions about a country's capital, región, and población using only card-based clues",
+      "Recall this week's geography and demographic facts fluently in a game format"
+    ],
+    "materialsNeeded": ["The trading cards built on Day 4 (combine with siblings or classmates for a bigger deck, if possible)", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Combine all available trading cards into one shared deck.\n2. Model one round of the card-swap game together.\n3. Play several rounds, rotating who asks and who answers.\n4. If only one child is available, use the solo review or family quiz variation instead.\n5. Complete the worksheet, reflecting on the game.\n6. Preview next week's topic: subject pronouns and the verb ser.",
+    "differentiationTips": [
+      "Struggling: allow open-book play for the first round (glancing at other cards for reference) before switching to closed-book recall",
+      "Ready for more: add a rule that a correct answer must be given in a full Spanish sentence (e.g., 'La capital de Perú es Lima') rather than just the answer word",
+      "Only child or no group available: the solo review and family quiz variations above deliver the same recall practice without needing a full class"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Answers vary by which cards are drawn — check that each answer matches the reference table facts from Day 4 (capital, región, población).",
+    "standardsRationale": "Closes the week's WA-WL-2015.3.1 arc with the exact Day 5 design the scope-and-sequence calls for (a card-swap quiz game using the class deck), turning a full week of geography and demographic Connections content into fluent, game-based recall rather than a final worksheet alone."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-3-5",
+    "lessonId": "lesson-spanish-6-3-5",
+    "title": "Card-Swap Quiz Game: Test the Class Deck",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Reflect on today's card-swap quiz game.",
+      "rows": [
+        { "problem": "Write one question you asked a classmate or family member using a trading card." },
+        { "problem": "Write one fact you learned about a country you didn't build a card for yourself." },
+        { "problem": "How many cards did you correctly answer questions about?" },
+        { "problem": "What was the most surprising fact you learned this week about the Spanish-speaking world?" }
+      ]
+    }
+  }
+}

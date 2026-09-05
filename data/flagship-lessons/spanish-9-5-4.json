@@ -1,0 +1,88 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-5",
+    "courseId": "course-spanish-9",
+    "order": 5,
+    "title": "Family, Values, and la Sobremesa",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-5-4",
+    "unitId": "unit-spanish-9-5",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Círculos de Conversación: Which Practices Live in Your Home?",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have a story now — something specific about how you were raised. Today you put it next to other people's. In a discussion circle, the goal is not to decide whose family is \"right.\" It is to notice how much variety there is in something everyone assumed was just \"normal,\" and to think honestly about which practices you would carry forward."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A discussion circle is small — three to five people — and everyone talks. Bring your interview story and be ready to say three things: one practice or rule from your crianza, the value you think was underneath it, and whether you would keep it if you were raising someone. Nothing new grammatically today — this is about using the week's words (el hogar, el valor, la crianza, el respeto, la sobremesa, la reunión familiar) in real speech, and about doing the practice-to-perspective move out loud with other people's examples, not just your own."
+      },
+      {
+        "type": "text",
+        "ref": "discussion-frames",
+        "text": "Spanish frames for a real discussion, not a debate:\n— En mi casa, siempre... / En mi casa, nunca... (In my house, we always... / we never...)\n— El valor detrás de esa regla era... (The value behind that rule was...)\n— Eso también pasa en mi familia. / Eso es muy diferente en mi familia. (That happens in my family too. / That is very different in my family.)\n— Yo lo haría igual porque... / Yo lo haría diferente porque... (I would do it the same because... / I would do it differently because...)\n— ¿Por qué crees que tu familia hacía eso? (Why do you think your family did that?)\nA real contribution responds to what the last person actually said — agreeing, contrasting, or asking them to go further — not just waiting for your turn to talk."
+      },
+      {
+        "type": "text",
+        "ref": "practica-a-perspectiva",
+        "text": "As you listen, do the week's move out loud. Someone describes a practice — \"we ate dinner together every night, phones in another room\" — and the circle names the perspective: \"time together was protected; the meal was for the family, not for anything else.\" Then the harder question: which of these practices would you adopt, and what does your choice say about what you value? There is no grade on the answer. But the standard this week is exactly this — reading a practice for the perspective underneath it, including your own."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow you write it down: a reflective paragraph that begins \"En mi hogar, el valor más importante es...\" and backs it with the specific examples you have been collecting all week."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-5-4",
+    "lessonId": "lesson-spanish-9-5-4",
+    "objectives": [
+      "Discuss family practices in a small circle using the modeled Spanish frames, responding to others rather than reciting",
+      "Name the perspective (value) underneath a practice another person describes, and articulate which practices the student would carry forward and why",
+      "Use the week's six vocabulary words accurately in spontaneous speech"
+    ],
+    "materialsNeeded": [
+      "The interview story from yesterday (Day 3)",
+      "Printed worksheet",
+      "Pencil",
+      "A small group of 3-5 (classmates, family, or a co-op) — or one conversation partner"
+    ],
+    "facilitationScript": "1. Warm up: the student states, in one or two sentences, the practice and story they brought from yesterday's interview.\n2. Read the discussion frames aloud; practice one exchange with the student (you describe a practice, they name the value; then swap).\n3. Run the circle: each person shares one practice, the value behind it, and whether they would keep it. Others respond using the frames.\n4. Halfway through, pause and do the practice-to-perspective move explicitly on one example: practice named, perspective named.\n5. Close the circle with the adoption question: which practice from someone else would you carry forward, and why?\n6. Complete the worksheet reflection.\n7. Preview tomorrow's reflective paragraph.",
+    "differentiationTips": [
+      "Struggling: let the student prepare their one practice + value + keep-or-change answer in writing before the circle, and use the frames as a printed reference card during it",
+      "Ready for more: ask the student to run the practice-to-perspective move for someone else's example, out loud, without prompting — and to push one genuine follow-up question ('¿por qué crees...?')",
+      "If no group is available, this works as a single conversation with one partner (family member, co-op parent) using the same frames; the reflection questions do not change"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct set of contributions — evaluate whether the student (1) shared a specific practice and the value behind it, (2) responded to at least one other person using the frames rather than only presenting their own, (3) named the perspective under at least one practice someone else described, and (4) gave a reasoned keep-or-change answer to the adoption question. All six of the week's words should appear in the student's speech.",
+    "standardsRationale": "Serves WA-WL-2015.2.1 by making students relate practices to perspectives in real time, on real examples from their own and classmates' families, and then apply that lens to their own choices. Per the scope-and-sequence's week 5 Day 4 design ('discussion circles — which practices exist in your home? Which would you adopt?'). No activity game today: the interpersonal discussion is the task."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-5-4",
+    "lessonId": "lesson-spanish-9-5-4",
+    "title": "Círculos de Conversación: Which Practices Live in Your Home?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use this sheet before and after today's discussion circle.",
+      "rows": [
+        { "problem": "Before the circle: write the one practice or rule from your crianza you will share, and the valor you think was behind it." },
+        { "problem": "Write one Spanish frame you will use to respond to someone else (agree, contrast, or ask them to say more)." },
+        { "problem": "During the circle: write down one practice someone else described, and name the perspective (value) underneath it." },
+        { "problem": "The adoption question: which practice — yours or someone else's — would you carry forward if you were raising a child? Why?" },
+        { "problem": "What does your answer to the last question suggest about what YOU value? (2-3 sentences.)" }
+      ]
+    }
+  }
+}

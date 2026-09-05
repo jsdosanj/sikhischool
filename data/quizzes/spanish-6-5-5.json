@@ -1,0 +1,46 @@
+{
+  "lessonId": "lesson-spanish-6-5-5",
+  "quiz": {
+    "id": "quiz-spanish-6-5-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "¿Qué significa 'trabajador'?",
+        "options": ["lazy", "hardworking", "messy", "daring"],
+        "answer": 1,
+        "explanation": "Trabajador means 'hardworking.'"
+      },
+      {
+        "q": "¿Qué significa 'según'?",
+        "options": ["without", "according to", "against", "before"],
+        "answer": 1,
+        "explanation": "Según is a preposition meaning 'according to': Según mi mamá, soy ordenado."
+      },
+      {
+        "q": "Ana is one girl. Which sentence is correct?",
+        "options": ["Ana es serio.", "Ana es seria.", "Ana es serios.", "Ana es serias."],
+        "answer": 1,
+        "explanation": "Serio ends in -o, so it becomes -a for a feminine subject, and it stays singular for one person: Ana es seria."
+      },
+      {
+        "q": "Choose the correct form: 'Mi hermana es muy ___.' (hardworking)",
+        "options": ["trabajador", "trabajadora", "trabajadores", "trabajadoras"],
+        "answer": 1,
+        "explanation": "Trabajador ends in -or but still adds -a for the feminine: trabajadora. One sister, so it stays singular."
+      },
+      {
+        "q": "Choose the correct form: 'Mateo y Ana son ___.' (funny)",
+        "options": ["gracioso", "graciosa", "graciosos", "graciosas"],
+        "answer": 2,
+        "explanation": "A group that includes a male uses the masculine plural: graciosos."
+      },
+      {
+        "q": "The adjective 'inteligente' ends in -e. How does it change to describe two girls?",
+        "options": ["inteligenta", "inteligentes", "inteligentas", "It does not change at all"],
+        "answer": 1,
+        "explanation": "Adjectives ending in -e do not change for gender, but they still add -s for the plural: inteligentes."
+      }
+    ]
+  }
+}

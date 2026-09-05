@@ -1,0 +1,113 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-5",
+    "courseId": "course-spanish-3",
+    "order": 5,
+    "title": "Numbers 31-100: De Treinta a Cien",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-5-1",
+    "unitId": "unit-spanish-3-5",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Treinta to Cien: Counting by Tens",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you counted all the way from cero to treinta and cracked the code behind the tricky teens. This week you'll go all the way to cien — one hundred. The good news: you only need seven new words to get there, because Spanish counts the big numbers by tens."
+      },
+      {
+        "type": "text",
+        "ref": "new-words",
+        "text": "Here are the seven new words for this week — the tens from forty up to one hundred:\n\n[[cuarenta]] (40) — forty\n[[cincuenta]] (50) — fifty\n[[sesenta]] (60) — sixty\n[[setenta]] (70) — seventy\n[[ochenta]] (80) — eighty\n[[noventa]] (90) — ninety\n[[cien]] (100) — one hundred\n\nYou already know diez (10), veinte (20), and treinta (30) from last week. Add these seven and you can count by tens all the way to the top: diez, veinte, treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien."
+      },
+      {
+        "type": "text",
+        "ref": "tens-pattern",
+        "text": "Say that chant out loud with a parent or teacher three times, like a drumbeat: diez, veinte, treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien.\n\nTwo tricks make the seven new words easy. First, listen to the ending: cuarenta, cincuenta, sesenta, setenta, ochenta, noventa — every one ends in the same -enta sound. Second, listen for the digit hiding at the front:\n\nsesenta hides seis (6) → 60\nsetenta hides siete (7) → 70\nochenta hides ocho (8) → 80\nnoventa hides nueve (9) → 90\n\ncuarenta leans on cuatro (4), and cincuenta leans on cinco (5). Only cien breaks the pattern — a short, clean new word with no -enta ending at all."
+      },
+      {
+        "type": "text",
+        "ref": "tens-and-ones",
+        "text": "To say a number in between, like 42 or 78, snap a tens word and a ones word together with y (and):\n\ncuarenta y dos = 42 (forty and two)\nsetenta y ocho = 78 (seventy and eight)\nnoventa y cinco = 95 (ninety and five)\n\nHere is the part that is different from last week. Remember how 22 fused into one word, veintidós? From treinta on up, Spanish stops fusing. It writes the pieces as three separate words with y in the middle: cuarenta y dos, never 'cuarentaydos.' Say each one with a tiny pause where the y is.\n\nAnd because the words are separate again, the little accent marks disappear. It was veintidós with an accent, but it's cuarenta y dos with none — dos is standing on its own again, just like when you first counted uno, dos, tres."
+      },
+      {
+        "type": "text",
+        "ref": "cien-and-ciento",
+        "text": "One last note. Plain cien means exactly 100. The moment you go past it, cien changes into ciento: 101 is ciento uno, 150 is ciento cincuenta. You won't practice the hundreds this week — just know that if you ever hear ciento, the number is somewhere between 101 and 199."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just learned every tens word from cuarenta to cien and the y trick for everything in between. Tomorrow you'll put your ears to the test with a number listening grid — and find out why cuarenta y siete and setenta y cuatro are so easy to mix up."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match each tens numeral on the left to its Spanish word on the right.",
+          "pairs": [
+            { "left": "40", "right": "cuarenta" },
+            { "left": "50", "right": "cincuenta" },
+            { "left": "60", "right": "sesenta" },
+            { "left": "70", "right": "setenta" },
+            { "left": "80", "right": "ochenta" },
+            { "left": "90", "right": "noventa" },
+            { "left": "100", "right": "cien" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-5-1",
+    "lessonId": "lesson-spanish-3-5-1",
+    "objectives": [
+      "Recite the count-by-tens chant from diez to cien, adding the seven new tens words",
+      "Build a two-digit number by joining a tens word and a ones word with y (e.g., cuarenta y dos)",
+      "Explain that numbers 31-99 are written as three separate words joined by y, unlike the fused 16-29 forms from last week"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "Index cards or paper scraps for tens + ones number-building",
+      "A parent or teacher to model the tens chant aloud"
+    ],
+    "facilitationScript": "1. Warm up by having the child count by tens in English (10, 20, 30... 100), then explain that this week they'll do the same in Spanish and only need seven new words.\n2. Introduce the seven tens words (cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien), pointing out the shared -enta ending and the hidden digit in sesenta, setenta, ochenta, and noventa.\n3. Model the full chant aloud (diez, veinte, treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien) and have the child echo it three times until it flows.\n4. Make a small set of cards: tens words on some, a 'y' card, and the ones words uno-nueve on others. Build a few numbers together (cuarenta y dos, setenta y ocho), saying each aloud.\n5. Draw the contrast: write veintidós (one fused word) next to cuarenta y dos (three words). Point out that fusing stops at treinta and the accent marks disappear.\n6. Mention briefly that cien becomes ciento past 100 (ciento uno = 101).\n7. Play the matching activity together.\n8. Complete the worksheet.\n9. Preview tomorrow: the number listening grid and the 47-vs-74 trap.",
+    "differentiationTips": [
+      "Struggling: master just the count-by-tens chant (diez through cien) today, and treat building in-between numbers like cuarenta y dos as tomorrow's work",
+      "Ready for more: have them build and say every number from cuarenta to cuarenta y nueve using only the tens + y + ones pattern, then do the same for the seventies",
+      "This lesson depends on a parent or teacher modeling the chant and number words aloud rather than an audio recording, since the course doesn't have audio content yet (open decision, expansion-plan-2026-09.md §12.9) — the written chant plus a live voice cover the same ground a recording would"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "The count-by-tens chant: diez (10), veinte (20), treinta (30), cuarenta (40), cincuenta (50), sesenta (60), setenta (70), ochenta (80), noventa (90), cien (100). In-between numbers join a tens word + y + a ones word as three separate words: cuarenta y dos (42), setenta y ocho (78), noventa y cinco (95). Unlike the fused teens and twenties (veintidós), 31-99 are never fused and carry no accent marks. Past 100, cien becomes ciento (ciento uno = 101).",
+    "standardsRationale": "Sets up the week's Interpretive Listening target (WA-WL-2015.1.2) by front-loading the structure a listener needs: the seven tens words as sound-shapes (shared -enta ending, embedded digit) and the three-word y pattern that makes a spoken number like cuarenta y dos parseable in real time. The scope-and-sequence names a tens chant and tens + ones card-building as the Day 1 activities; this delivers both while making the 16-29 vs 31-99 contrast explicit so the later listening days aren't fighting a wrong assumption."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-5-1",
+    "lessonId": "lesson-spanish-3-5-1",
+    "title": "Treinta to Cien: Counting by Tens",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write each tens word two times. Say it out loud as you write it.",
+      "prompts": [
+        { "prompt": "Write cuarenta (40) two times.", "lines": 2 },
+        { "prompt": "Write cincuenta (50) two times.", "lines": 2 },
+        { "prompt": "Write sesenta (60) two times.", "lines": 2 },
+        { "prompt": "Write setenta (70) two times.", "lines": 2 },
+        { "prompt": "Write ochenta (80) two times.", "lines": 2 },
+        { "prompt": "Write noventa (90) two times.", "lines": 2 },
+        { "prompt": "Write cien (100) two times.", "lines": 2 }
+      ]
+    }
+  }
+}

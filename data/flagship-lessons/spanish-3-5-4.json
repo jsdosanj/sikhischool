@@ -1,0 +1,102 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-5",
+    "courseId": "course-spanish-3",
+    "order": 5,
+    "title": "Numbers 31-100: De Treinta a Cien",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-5-4",
+    "unitId": "unit-spanish-3-5",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "¿Cuánto Cuesta? Prices and Play Money to Cien",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've counted, listened, and played a guessing game with numbers to cien. Today your numbers go shopping: you'll ask how much something costs, and count out play money all the way to one hundred."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "To ask a price in Spanish, say ¿Cuánto cuesta? — 'How much does it cost?' The answer starts with cuesta ('it costs') and then the number: Cuesta cuarenta dólares. Cuesta noventa y cinco centavos. The number word works exactly the way you learned it this week — tens word, then y, then the ones."
+      },
+      {
+        "type": "text",
+        "ref": "counting-money",
+        "text": "Counting money is really just the tens chant with a job to do. Line up play bills of ten and count them out loud:\n\ndiez, veinte, treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien\n\nNow mix in a five or some ones to land on an in-between price. Four tens and a five is cuarenta y cinco. Seven tens and three ones is setenta y tres. Practice counting a small pile of play money out loud, naming the new total in Spanish each time you add a bill."
+      },
+      {
+        "type": "text",
+        "ref": "how-many",
+        "text": "Prices aren't the only place big numbers show up at a store. Quantities do too:\n\n¿Cuántos hay? (How many are there?)\nHay cincuenta manzanas. (There are fifty apples.)\n\nCount something real in big groups — a box of crayons, a bag of beans, the pages in a short book — and say the total in Spanish."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used this week's numbers for two real jobs: asking a price and counting money to cien. Tomorrow you'll pull the whole week together in one fast game — a hundred-chart challenge covering every number to cien."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "translate-v1",
+        "config": {
+          "items": [
+            { "prompt": "Escribe el número: '¿Cuánto cuesta? Cuesta cuarenta.'", "acceptedAnswers": ["40"] },
+            { "prompt": "Escribe el número: 'Cuesta sesenta y cinco.'", "acceptedAnswers": ["65"] },
+            { "prompt": "Escribe el número: 'Cuesta ochenta y dos.'", "acceptedAnswers": ["82"] },
+            { "prompt": "Escribe el número: 'Cuesta cien.'", "acceptedAnswers": ["100"] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-5-4",
+    "lessonId": "lesson-spanish-3-5-4",
+    "objectives": [
+      "Ask a price with ¿Cuánto cuesta? and understand an answer of the form Cuesta + number",
+      "Count play money to cien by tens, then adjust to an in-between total with fives and ones",
+      "Ask and answer ¿Cuántos hay? with a number in the 40-100 range"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "Play money (paper bills of 10, plus a few 5s and 1s), or slips of paper labeled with amounts",
+      "A family member to shop and count with"
+    ],
+    "facilitationScript": "1. Ask the child how they'd ask a price in English, then introduce ¿Cuánto cuesta? and the answer frame Cuesta + number.\n2. Count a stack of ten play bills together out loud: diez, veinte, treinta... cien.\n3. Add a five and some ones to make in-between prices (cuarenta y cinco, setenta y tres); have the child name each new total in Spanish.\n4. Introduce ¿Cuántos hay? and answer with Hay + number, counting a real group of objects.\n5. Set up a tiny store: price three or four objects with paper tags, then take turns asking ¿Cuánto cuesta? and paying with play money.\n6. Complete the translate activity.\n7. Complete the worksheet.\n8. Preview tomorrow's hundred-chart challenge.",
+    "differentiationTips": [
+      "Struggling: keep every price on a tens number (cuarenta, cincuenta, sesenta...) so counting the play money is a straight tens chant with no adjusting",
+      "Ready for more: give exact change — if something costs setenta y cinco and they pay with a hundred, have them count the change back up in Spanish (ochenta, noventa, cien)",
+      "This lesson's shopping and counting work as live spoken exchanges with a family member, so they don't depend on the audio-recording gap noted elsewhere this week (open decision, expansion-plan-2026-09.md §12.9)"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "¿Cuánto cuesta? = 'how much does it cost?'; the answer is Cuesta + a number (Cuesta cuarenta dólares). Counting ten-bills is the tens chant: diez, veinte, treinta... cien. In-between totals use tens + y + ones: four tens and a five = cuarenta y cinco (45); seven tens and three ones = setenta y tres (73). ¿Cuántos hay? = 'how many are there?', answered with Hay + a number (Hay cincuenta manzanas).",
+    "standardsRationale": "Puts the week's numbers to an authentic interpretive-listening use (WA-WL-2015.1.2): understanding a spoken price or quantity is exactly the real-world listening the standard targets, and it is the Day 4 activity the scope-and-sequence names (prices and quantities with play money to 100). Counting money by tens also reinforces the Day 1 chant with a concrete manipulative, the kind of recycling the course's band notes build in."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-5-4",
+    "lessonId": "lesson-spanish-3-5-4",
+    "title": "¿Cuánto Cuesta? Prices and Play Money to Cien",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about prices and counting to cien.",
+      "rows": [
+        { "problem": "Write ¿Cuánto cuesta? in English." },
+        { "problem": "Something costs 70 dollars. Write the answer in Spanish words: 'Cuesta ___.'" },
+        { "problem": "You count play bills of ten: diez, veinte, treinta... Write the next four words in the chant." },
+        { "problem": "You have seven ten-bills and four ones. Write the total in Spanish words." },
+        { "problem": "Count a real group of objects in your home. Write how many in Spanish: 'Hay ___.'" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-5",
+    "courseId": "course-spanish-6",
+    "order": 5,
+    "title": "Personality & Descriptions: Adjective Agreement",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-5-1",
+    "unitId": "unit-spanish-6-5",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Personality Words and Making Adjectives Agree: -o / -a and Singular / Plural",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you met ser and its five forms — soy, eres, es, somos, son — and the four jobs it does: identity, origin, profession, and description. This week you push that fourth job as far as it goes: describing what a person is like on the inside, their personality. English lets you describe a boy and a girl with the very same word — 'a funny boy,' 'a funny girl.' Spanish makes the describing word change to match the person. That matching is called agreement, and by Friday it will feel automatic."
+      },
+      {
+        "type": "text",
+        "ref": "personality-words",
+        "text": "Here are seven words for personality. Each is shown in its base form — masculine and singular — which is how you would find it in a dictionary:\n\n- [[trabajador]] — hardworking. Las abejas son muy trabajadoras.\n- [[perezoso]] — lazy. A memory trick: the slow-moving animal English calls a 'sloth' is el perezoso in Spanish, named after this exact word.\n- [[atrevido]] — daring, bold. An atrevido person is first in line for the tallest roller coaster and first to taste a food they have never tried.\n- [[serio]] — serious. Not sad — just not joking around.\n- [[gracioso]] — funny. A gracioso person makes the whole room laugh.\n- [[ordenado]] — organized, neat. An ordenado person's backpack has a place for everything.\n- [[desordenado]] — messy, disorganized. The exact opposite of ordenado."
+      },
+      {
+        "type": "text",
+        "ref": "agreement-gender-number",
+        "text": "A Spanish adjective changes to agree with — match — the person it describes, in two ways.\n\nGender. An adjective whose base form ends in -o switches to -a for a female:\n- Mateo es serio. -> Ana es seria.\n- Mi hermano es ordenado. -> Mi hermana es ordenada.\n- perezoso -> perezosa, gracioso -> graciosa, atrevido -> atrevida, desordenado -> desordenada.\n\ntrabajador is the exception to watch. It ends in -or, not -o. As a rule, adjectives ending in a consonant look the same for males and females — but a small group ending in -or, including the personality word trabajador, do add -a: trabajador -> trabajadora. So Diego es trabajador, but Lucía es trabajadora. (The -or words that do not add -a are the ones meaning 'more' or 'less' of something, like mayor and menor — you will meet those later.)\n\nNumber. For more than one person, add -s after a vowel or -es after a consonant:\n- serio -> serios / seria -> serias\n- ordenada -> ordenadas\n- trabajador -> trabajadores / trabajadora -> trabajadoras\n\nAn all-female group takes the -as form: Ana y Lucía son serias. An all-male or mixed group takes the -os form: Ana y Mateo son serios. That is the same 'a mixed group goes masculine' rule you saw with ellos last week."
+      },
+      {
+        "type": "text",
+        "ref": "adjectives-that-dont-change-for-gender",
+        "text": "Not every adjective ends in -o. Some end in -e (like inteligente, 'intelligent') and some end in a consonant (like gris, 'gray,' or popular). These do not change for gender at all — un amigo inteligente, una amiga inteligente, exactly the same word. But they still change for number:\n- inteligente -> inteligentes\n- gris -> grises (una tarde gris, unos días grises)\n- popular -> populares\n\nSo with gris, the gender of what you are describing makes no difference — only how many."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have seven personality words and the two moves every Spanish adjective can make: gender (-o / -a, plus trabajador's special -a) and number (-s / -es). Tomorrow you will load them into a sentence frame built for comparison: 'Yo soy... pero mi amigo es...'."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match each Spanish personality word to its English meaning.",
+          "pairs": [
+            { "left": "trabajador", "right": "hardworking" },
+            { "left": "perezoso", "right": "lazy" },
+            { "left": "atrevido", "right": "daring, bold" },
+            { "left": "serio", "right": "serious" },
+            { "left": "gracioso", "right": "funny" },
+            { "left": "ordenado", "right": "organized, neat" },
+            { "left": "desordenado", "right": "messy" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-5-1",
+    "lessonId": "lesson-spanish-6-5-1",
+    "objectives": [
+      "Give the meaning of the seven personality adjectives introduced this week (trabajador, perezoso, atrevido, serio, gracioso, ordenado, desordenado)",
+      "Change an -o adjective to agree in gender (serio -> seria) and number (serio -> serios), and apply the -or -> -ora pattern to trabajador",
+      "Explain that adjectives ending in -e or a consonant (inteligente, gris) change for number but not for gender"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Device for the matching activity (optional — can be done as a card-sort on paper)"],
+    "facilitationScript": "1. Recall last week's close: ser's fourth job is description — this week is all about personality.\n2. Read the seven personality words aloud together, one example sentence each. Linger on el perezoso (the animal) as a memory hook.\n3. Teach the gender rule with the Mateo/Ana pairs, then the number rule.\n4. Slow down on trabajador — write 'trabajador -> trabajadora' on the board and contrast it with a plain consonant adjective. This is the week's trickiest form.\n5. Teach the -e / consonant adjectives (inteligente, gris) as the 'gender does not matter, number still does' group.\n6. Play the matching activity (adjective <-> meaning).\n7. Complete the worksheet.\n8. Preview tomorrow's 'Yo soy... pero mi amigo es...' frame.",
+    "differentiationTips": [
+      "Struggling: work with just four -o adjectives (serio, gracioso, ordenado, perezoso) and only the gender rule today; add number and trabajador tomorrow",
+      "Ready for more: have them write the full grid for one adjective — masculine singular, feminine singular, masculine plural, feminine plural — then do the same for trabajador",
+      "If a child writes 'trabajadora' for a boy or 'serio' for a girl, point back to the person, not the word: 'Who are we describing? Is that a boy or a girl?'"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Meanings: trabajador = hardworking, perezoso = lazy, atrevido = daring, serio = serious, gracioso = funny, ordenado = organized/neat, desordenado = messy. Gender: serio -> seria, ordenado -> ordenada, trabajador -> trabajadora. Number: gracioso -> graciosos, seria -> serias, trabajadora -> trabajadoras. inteligente and gris do not change for gender (inteligentes, grises for plural).",
+    "standardsRationale": "Opens week 5's WA-WL-2015.1.3 Presentational Communication target by front-loading the two things every later day depends on: the personality vocabulary itself and the adjective-agreement system (gender -o/-a, number -s/-es, and the trabajador -> trabajadora sub-pattern the scope-and-sequence names explicitly). Builds directly on week 4's ser, since every description this week is ser + an agreeing adjective."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-5-1",
+    "lessonId": "lesson-spanish-6-5-1",
+    "title": "Personality Words and Making Adjectives Agree: -o / -a and Singular / Plural",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use today's personality words and the agreement rules (-o/-a for gender, -s/-es for number) to answer each question.",
+      "rows": [
+        { "problem": "Write the feminine singular form of each adjective: serio -> ___, ordenado -> ___, trabajador -> ___." },
+        { "problem": "Fill in the blank: Mi hermana es muy ___ (hardworking). Mi hermano es muy ___ (hardworking)." },
+        { "problem": "Make it plural: 'Ana y Lucía son ___ (gracioso).' 'Mateo y Ana son ___ (serio).'" },
+        { "problem": "The adjective 'inteligente' ends in -e. Does it change for a girl vs. a boy? Does it change for one person vs. two? Explain." }
+      ]
+    }
+  }
+}

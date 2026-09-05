@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-5",
+    "courseId": "course-spanish-k",
+    "order": 5,
+    "title": "Colors I",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-5-3",
+    "unitId": "unit-spanish-k-5",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "El Cuento de Colores: A Story Full of Colors",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol has a picture story to read today, and it is full of color! Every time a color shows up in a picture, your job is to call out its name in Spanish."
+      },
+      {
+        "type": "text",
+        "ref": "practice-name-big-colors",
+        "text": "As you look at each page, point to the biggest color you see and name it in Spanish. Is the apple rojo? Is the sky azul? Is the leaf verde? Say the color out loud before Sol turns the page."
+      },
+      {
+        "type": "text",
+        "ref": "practice-find-quiet-colors",
+        "text": "Some pages hide the quieter colors — a yellow sun is amarillo, a white cloud is blanco, a black cat is negro. Look carefully and call out every color you can find, even the small ones."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You found and named every color in Sol's story — rojo, azul, amarillo, verde, blanco, and negro! Tomorrow, we'll sort a big pile of crayons by color."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-5-3",
+    "lessonId": "lesson-spanish-k-5-3",
+    "objectives": [
+      "Name the Spanish color word for the main colors in each picture of a story",
+      "Listen through a short read-aloud story, responding with color words at each page"
+    ],
+    "materialsNeeded": ["Any picture book with clear, colorful illustrations (a library book or a favorite from home)", "Sol the puppet"],
+    "facilitationScript": "1. Choose any picture book with big, colorful illustrations and settle in with Sol to 'read' it together.\n2. On each page, pause and ask your child to point to the largest patch of color and name it in Spanish — rojo, azul, verde, and so on.\n3. Supply the color word for your child to echo whenever they get stuck, then move on without making it a test.\n4. On later pages, hunt for the quieter colors too — amarillo, blanco, negro — including small details.\n5. At the end, flip back through and let your child call out a favorite color on each page.\n6. Close by asking: 'Which color showed up the most in our story?'",
+    "differentiationTips": [
+      "Struggling: focus on just one color per page, and only the three brightest — rojo, azul, amarillo",
+      "Ready for more: have your child say a short English phrase with the Spanish color in it, like 'the rojo apple'",
+      "Any picture book works — the story does not need to be about colors, it just needs colorful pictures"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken listening-and-naming activity — success looks like your child naming or echoing the color words for the pictures as you read, not a written answer.",
+    "standardsRationale": "Continues week 5's WA-WL-2015.1.2 Interpretive Listening target by embedding the six colors in a connected read-aloud story rather than isolated drills — the child follows a narrative and pulls the target words out of a meaningful context, exactly the comprehensible-input listening this band is built around."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-5-3",
+    "lessonId": "lesson-spanish-k-5-3",
+    "title": "El Cuento de Colores: A Story Full of Colors",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and look at the pictures together — there's nothing for your child to write today.",
+      "rows": [
+        { "problem": "Pick any picture book with big, colorful illustrations." },
+        { "problem": "On each page, have your child point to the biggest color and name it in Spanish." },
+        { "problem": "Look for the quieter colors too — amarillo, blanco, negro — and name every color you find." }
+      ]
+    }
+  }
+}

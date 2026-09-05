@@ -1,0 +1,68 @@
+[
+  {
+    "id": "dict-spanish-rojo",
+    "language": "spanish",
+    "word": "rojo",
+    "translation": "red",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El tomate es rojo. (The tomato is red.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-azul",
+    "language": "spanish",
+    "word": "azul",
+    "translation": "blue",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El cielo es azul. (The sky is blue.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-amarillo",
+    "language": "spanish",
+    "word": "amarillo",
+    "translation": "yellow",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El sol es amarillo. (The sun is yellow.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-verde",
+    "language": "spanish",
+    "word": "verde",
+    "translation": "green",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El árbol es verde. (The tree is green.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-blanco",
+    "language": "spanish",
+    "word": "blanco",
+    "translation": "white",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El papel es blanco. (The paper is white.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-negro",
+    "language": "spanish",
+    "word": "negro",
+    "translation": "black",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El gato es negro. (The cat is black.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  }
+]

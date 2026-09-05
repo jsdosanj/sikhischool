@@ -1,0 +1,92 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-5",
+    "courseId": "course-spanish-k",
+    "order": 5,
+    "title": "Colors I",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-5-2",
+    "unitId": "unit-spanish-k-5",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Busca el Color: A Classroom Color Hunt",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol wants to play a hunting game today — but instead of hidden cards, we're hunting for colors that are already all around the room!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-touch-colors",
+        "text": "When Sol calls a color, touch something that color as fast as you can! Sol says '¡rojo!' — run and touch something red. '¡azul!' — touch something blue. '¡verde!' — touch something green."
+      },
+      {
+        "type": "text",
+        "ref": "practice-mixed-colors",
+        "text": "Now Sol calls the trickier colors: '¡amarillo!' — touch something yellow. '¡blanco!' — touch something white. '¡negro!' — touch something black. Listen closely, because Sol mixes them all up!"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You hunted down every color Sol called — rojo, azul, amarillo, verde, blanco, negro — all around the room! Tomorrow, Sol has a colorful story to share."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match the Spanish color word to its color.",
+          "pairs": [
+            { "left": "rojo", "right": "🔴 red" },
+            { "left": "azul", "right": "🔵 blue" },
+            { "left": "amarillo", "right": "🟡 yellow" },
+            { "left": "verde", "right": "🟢 green" },
+            { "left": "blanco", "right": "⚪ white" },
+            { "left": "negro", "right": "⚫ black" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-5-2",
+    "lessonId": "lesson-spanish-k-5-2",
+    "objectives": [
+      "Touch an object of the correct color when they hear a Spanish color word",
+      "Recognize all six color words — rojo, azul, amarillo, verde, blanco, negro — spoken out of song order"
+    ],
+    "materialsNeeded": ["A room or space with objects in many colors (toys, books, clothing, furniture)", "Sol the puppet"],
+    "facilitationScript": "1. Stand with Sol in the middle of the room and explain that today's hunt is for colors that are already all around you.\n2. Have Sol call a color in Spanish — start with rojo, azul, verde — and model running to touch something that color yourself.\n3. Have your child listen for each color and touch a matching object; celebrate every correct find.\n4. Add the trickier colors — amarillo, blanco, negro — and call all six in a mixed-up order so your child is truly listening.\n5. Swap roles: let your child call a color for you or Sol to find.\n6. Complete the on-screen matching activity together, reading each color word aloud since your child may not read yet.\n7. Close by asking: 'Which color was the hardest to find in this room?'",
+    "differentiationTips": [
+      "Struggling: call only rojo, azul, and amarillo, and point toward the right area of the room if your child is stuck",
+      "Ready for more: call two colors in a row for your child to touch in order, or ask for a second object of the same color",
+      "A near-miss — touching blue when you said green — is a normal listening slip; name the color again and move on"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken listening-and-hunting activity — success looks like your child touching an object of the right color after hearing each word, not a written answer. In the matching game: rojo → red, azul → blue, amarillo → yellow, verde → green, blanco → white, negro → black.",
+    "standardsRationale": "Deepens week 5's WA-WL-2015.1.2 target by moving from the predictable song order into a mixed-order listening game where the child has to identify each color word cold and respond physically — real comprehension rather than memorized sequence — and the on-screen matching activity gives the same six-color recognition a quiet digital rep."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-5-2",
+    "lessonId": "lesson-spanish-k-5-2",
+    "title": "Busca el Color: A Classroom Color Hunt",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together.",
+      "rows": [
+        { "problem": "Stand together in a room with lots of different-colored objects." },
+        { "problem": "Call a color in Spanish — rojo, azul, verde — and touch something that color together." },
+        { "problem": "Add amarillo, blanco, and negro, calling all six colors in a mixed-up order to hunt for." }
+      ]
+    }
+  }
+}

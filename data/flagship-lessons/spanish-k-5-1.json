@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-5",
+    "courseId": "course-spanish-k",
+    "order": 5,
+    "title": "Colors I",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-5-1",
+    "unitId": "unit-spanish-k-5",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Rojo, Azul, Amarillo: A Color Song with Scarves",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week Sol counted all the way to diez — but today Sol brought a basket of colorful scarves! Pick up a scarf and get ready to wave it high every time you hear its color."
+      },
+      {
+        "type": "text",
+        "ref": "practice-rojo-azul-amarillo",
+        "text": "Wave a red scarf and say [[rojo]] — that means 'red'! Wave a blue one and say [[azul]] — 'blue'! Hold up something sunny and say [[amarillo]] — 'yellow,' just like Sol! Echo Sol slowly: rojo... azul... amarillo..."
+      },
+      {
+        "type": "text",
+        "ref": "practice-verde-blanco-negro",
+        "text": "Wave a green scarf and say [[verde]] — 'green'! A white scarf is [[blanco]] — 'white'! And a black scarf is [[negro]] — 'black'! Now sing the whole color song, waving each scarf as its color comes: ¡rojo, azul, amarillo, verde, blanco, negro!"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You waved a scarf for every color — rojo, azul, amarillo, verde, blanco, negro! Tomorrow, we'll go on a color hunt all around the room."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-5-1",
+    "lessonId": "lesson-spanish-k-5-1",
+    "objectives": [
+      "Wave the matching scarf or colored object when they hear a Spanish color word — rojo, azul, amarillo, verde, blanco, negro",
+      "Echo all six color words aloud in the scarf song at a slow and then a faster tempo"
+    ],
+    "materialsNeeded": ["Six scarves, cloths, or paper squares in red, blue, yellow, green, white, and black (any colored objects work)", "Sol the puppet (or stuffed animal/toy from previous weeks)", "Open space to wave big"],
+    "facilitationScript": "1. Gather with Sol and a basket of scarves or colored cloths in the six colors; remind your child that last week was numbers and this week is colors.\n2. Hold up the red scarf, say rojo, and wave it high — have your child find a red scarf (or anything red) and echo rojo; do the same with azul (blue) and amarillo (yellow).\n3. Repeat for verde (green), blanco (white), and negro (black), pausing after each for your child's echo and wave.\n4. Sing the whole color song slowly, holding up each scarf as its color comes: 'rojo, azul, amarillo, verde, blanco, negro.'\n5. Sing it again a little faster, then let your child lead the waving while you sing.\n6. Close by asking: 'Can you wave the scarf for rojo? For verde? For negro?'",
+    "differentiationTips": [
+      "Struggling: use just rojo, azul, and amarillo for the first few rounds, adding verde, blanco, and negro once those three feel steady",
+      "Ready for more: after the song, hold up a scarf silently and let your child name the color first",
+      "This is a listening-and-moving activity — your child never needs to see these color words written down to learn them"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken listening-and-waving activity — success looks like your child waving the matching color and attempting each color word aloud, not a written right/wrong answer.",
+    "standardsRationale": "Opens week 5's ACTFL Interpretive Listening target (WA-WL-2015.1.2) — identifying colors by name — the way this K-2 band's oral/aural-first design calls for: a sung, physical, echo-based introduction to all six color words, with the scarf wave giving the child a clear way to show a color word was understood before it can be produced, and zero reading required."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-5-1",
+    "lessonId": "lesson-spanish-k-5-1",
+    "title": "Rojo, Azul, Amarillo: A Color Song with Scarves",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together — there's nothing for your child to write today.",
+      "rows": [
+        { "problem": "Gather scarves or colored objects in red, blue, yellow, green, white, and black." },
+        { "problem": "Hold up each color, say its Spanish name, and wave it: rojo, azul, amarillo, verde, blanco, negro." },
+        { "problem": "Sing the whole color song, waving each color as it comes — slowly first, then a little faster." }
+      ]
+    }
+  }
+}

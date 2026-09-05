@@ -1,0 +1,99 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-5",
+    "courseId": "course-spanish-9",
+    "order": 5,
+    "title": "Family, Values, and la Sobremesa",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-5-5",
+    "unitId": "unit-spanish-9-5",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Párrafo Reflexivo: 'En Mi Hogar, el Valor Más Importante Es...'",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This is where the week lands: not on what other families do, but on what you actually think. Today you write one reflective paragraph that begins \"En mi hogar, el valor más importante es...\" and then earns that claim with the specific examples you have been collecting since Monday."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A reflective paragraph makes a claim about yourself and then backs it — the same thing Day 2's dichos did in one line, except you are expanding one out into a paragraph with evidence. \"En mi hogar, el valor más importante es el respeto\" is a start, not a paragraph — it does not show anything yet. Add the specific: \"...porque mis padres nunca me interrumpían cuando yo hablaba, ni siquiera cuando estaban en desacuerdo, y esperaban lo mismo de mí\" (...because my parents never interrupted me when I was talking, even when they disagreed, and they expected the same from me). Now the value is attached to something real a reader can picture — a practice that reveals the perspective, which is this whole week's skill turned inward."
+      },
+      {
+        "type": "text",
+        "ref": "template",
+        "text": "Build your paragraph in this order — write in Spanish where you can, mixing in English only where you genuinely need to; a true rough paragraph beats a vague polished one:\nEn mi hogar, el valor más importante es... — name one value (el respeto, la familia, la honestidad, el trabajo, la generosidad, la fe...).\nLo veo en... / Un ejemplo es... — one specific practice, rule, or moment that shows it (from your interview, from the discussion circle, from your own memory).\nOtro ejemplo es... — a second specific example, ideally a different kind: a sobremesa, a reunión familiar, a repeated phrase, a correction.\nAprendí este valor de... — who or what passed it to you; this is your crianza.\nSi algún día crío a alguien, yo... — one sentence on whether you would pass this value on the same way, or change how.\nAim for 6-10 connected sentences — a paragraph, not five separate answers stapled together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "That is the week: from someone else's table on Monday to your own paragraph on Friday. File this in the year-long portfolio next to week 1's goal statement and week 2's identity paragraph. Next week: the food itself — the gastronomy of Latin America, and dishes as history you can taste."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "translate-v1",
+        "config": {
+          "items": [
+            { "prompt": "Translate to Spanish: home", "acceptedAnswers": ["el hogar", "hogar"] },
+            { "prompt": "Translate to Spanish: value (a principle held as important)", "acceptedAnswers": ["el valor", "valor"] },
+            { "prompt": "Translate to Spanish: upbringing", "acceptedAnswers": ["la crianza", "crianza"] },
+            { "prompt": "Translate to Spanish: respect", "acceptedAnswers": ["el respeto", "respeto"] },
+            { "prompt": "Translate to Spanish: the time spent talking at the table after a meal", "acceptedAnswers": ["la sobremesa", "sobremesa"] },
+            { "prompt": "Translate to Spanish: family gathering", "acceptedAnswers": ["la reunión familiar", "reunión familiar", "la reunion familiar", "reunion familiar"] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-5-5",
+    "lessonId": "lesson-spanish-9-5-5",
+    "objectives": [
+      "Write a 6-10 sentence reflective paragraph beginning 'En mi hogar, el valor más importante es...' that names one value and supports it with at least two specific examples",
+      "Connect at least one family practice to the value it reveals, in writing (the week's practice-to-perspective skill turned inward)",
+      "Use all six of the week's vocabulary words accurately"
+    ],
+    "materialsNeeded": [
+      "The interview story (Day 3) and discussion notes (Day 4)",
+      "Printed worksheet",
+      "Pencil"
+    ],
+    "facilitationScript": "1. Warm up with the vocabulary translate activity to confirm all six words are solid.\n2. Read the explanation block's example pair — the bare claim vs. the claim plus the specific practice — and discuss why the second one is a paragraph and the first is not.\n3. Walk through the template's five parts on the worksheet, one at a time, drawing on the student's interview and discussion notes for the specific examples.\n4. Combine the parts into one connected paragraph with connector words (porque, además, por eso), not five separate sentences.\n5. Read the finished paragraph aloud once.\n6. File it in the year-long portfolio alongside week 1's goal statement and week 2's identity paragraph.\n7. Preview next week's topic: the gastronomy of Latin America.",
+    "differentiationTips": [
+      "Struggling: it is fine to lean the whole paragraph on one strong example rather than two thin ones, as long as the value is clearly named and clearly attached to something specific",
+      "Ready for more: challenge the student to write the paragraph entirely in Spanish and to end with the 'si algún día crío a alguien' sentence in the conditional, previewing a tense they will meet formally in week 17",
+      "Keep this genuinely personal and low-pressure, like week 1's goal statement and week 2's identity paragraph — an honest, specific paragraph beats an impressive vague one"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct paragraph — evaluate for: (1) opens with 'En mi hogar, el valor más importante es...' and names one specific value; (2) at least two specific examples (a practice, rule, moment, sobremesa, or reunión familiar), not general statements; (3) at least one place where the paragraph names the value a practice reveals; (4) 6-10 connected sentences; (5) accurate use of all six week-5 words. The 'si algún día crío a alguien' sentence may be simple — the idea matters more than the conditional mood, which is not formally taught yet.",
+    "standardsRationale": "Closes the week's WA-WL-2015.2.1 arc by turning the practice-to-perspective skill inward: the student names a value in their own home and supports it with specific practices, explicitly connecting practice to perspective in writing. Per the scope-and-sequence's week 5 Day 5 design ('reflective paragraph — En mi hogar, el valor más importante es... with examples'). Joins week 1's goal statement and week 2's identity paragraph in the year-long portfolio. The vocabulary recap confirms all six words before the final task, the same closing pattern as weeks 2 and 4."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-5-5",
+    "lessonId": "lesson-spanish-9-5-5",
+    "title": "Párrafo Reflexivo: 'En Mi Hogar, el Valor Más Importante Es...'",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Draft your reflective paragraph using the sentence starters from today's lesson. Write in Spanish where you can, drawing on your interview and discussion notes.",
+      "prompts": [
+        { "prompt": "En mi hogar, el valor más importante es... (Name one value.)", "lines": 1 },
+        { "prompt": "Lo veo en... / Un ejemplo es... (One specific practice, rule, or moment that shows it.)", "lines": 3 },
+        { "prompt": "Otro ejemplo es... (A second specific example — a sobremesa, a reunión familiar, a repeated phrase, a correction.)", "lines": 3 },
+        { "prompt": "Aprendí este valor de... (Who or what passed it to you — your crianza.)", "lines": 2 },
+        { "prompt": "Si algún día crío a alguien, yo... (Would you pass this value on the same way, or change how?)", "lines": 2 },
+        { "prompt": "Now combine your answers above into one connected paragraph (6-10 sentences), in Spanish where you can.", "lines": 7 }
+      ]
+    }
+  }
+}

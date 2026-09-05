@@ -1,0 +1,148 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-5",
+    "courseId": "course-spanish-9",
+    "order": 5,
+    "title": "Family, Values, and la Sobremesa",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-5-1",
+    "unitId": "unit-spanish-9-5",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "La Sobremesa: The Hour That Begins When the Meal Ends",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "In a lot of U.S. homes, a meal ends when the food is gone: plates get cleared, people scatter, someone starts the dishes. In much of the Spanish-speaking world there is a whole named stretch of time that begins exactly there — after the eating, when nobody gets up. It is called la sobremesa, and this week opens with it because of what it quietly says about what a family treats as important. This week's standard is about Cultures — specifically, reading a practice for the perspective underneath it — so the goal is not just to learn what la sobremesa is, but to practice asking what it reveals."
+      },
+      {
+        "type": "text",
+        "ref": "que-es",
+        "text": "[[la sobremesa]] takes apart into sobre (\"over\" or \"upon\") and mesa (\"table\") — the time spent still at the table, \"upon the table,\" once the meal itself is finished. The Real Academia Española, which publishes the standard dictionary of the language, defines it almost that plainly: \"Tiempo que se está a la mesa después de haber comido\" (time spent at the table after having eaten). During the sobremesa people stay in their chairs and talk — about the day, about family news, about politics, about nothing in particular — sometimes over coffee or fruit, sometimes over nothing at all. The food is done; the gathering is not. It is often described as hard to translate into English in one word, and that is really the point: English speakers do sometimes linger at the table, but the language never gave the habit its own name."
+      },
+      {
+        "type": "text",
+        "ref": "varies",
+        "text": "How long a sobremesa runs, and how often it happens, depends heavily on the [[el hogar]] — the home, the household — and on the day. In many families a weekday lunch might carry ten or fifteen minutes of sobremesa before people head back to work or school; a Sunday meal, a holiday, or any real [[la reunión familiar]] — a family gathering for a birthday, a baptism, a graduation — can have a sobremesa that outlasts the meal by hours. Some households treat it as automatic, every single day. In busier homes, or among younger people with packed schedules, it happens mostly on weekends. It varies by country, by region, by generation, and by family. Describing it as one fixed national ritual that every Spanish speaker performs the same way would flatten something that is actually pretty personal."
+      },
+      {
+        "type": "text",
+        "ref": "practica-a-perspectiva",
+        "text": "Here is the move this week's standard actually asks for — not \"what do people do?\" but \"what does the practice reveal about what people value?\" Think about what staying at the table implies. Time is not being treated as something to \"save\" by ending the meal the moment the plates are empty. The meal is not defined by the food — it is defined by the people around the table, so it is not over until the conversation is. Unhurried talk with family is given real space in the day instead of being squeezed into the gaps. None of that makes la sobremesa \"better\" than clearing the table quickly — a household that values moving on and getting things done is not doing anything wrong. But the contrast is the point: a practice as ordinary as whether you get up from the table shows you something real about the priorities underneath it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow you will look at how the same values — home, respect, the way a family raises its children — get compressed into dichos, the short proverbs a whole culture seems to know without ever being formally taught them."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "La sobremesa is best described as:",
+              "options": [
+                "the time people stay at the table talking after the meal is over",
+                "a sweet course served at the end of lunch",
+                "a large meal eaten only on holidays",
+                "a short speech given after dinner"
+              ],
+              "answer": 0,
+              "explanation": "La sobremesa names the stretch of time at the table after the eating is done — the conversation, not the food or a course."
+            },
+            {
+              "q": "The word sobremesa is built from:",
+              "options": [
+                "sobre (\"upon\") + mesa (\"table\")",
+                "sobra (\"leftover\") + mesa (\"table\")",
+                "sobre (\"envelope\") + mesa (\"table\")",
+                "solo (\"only\") + mesa (\"table\")"
+              ],
+              "answer": 0,
+              "explanation": "Sobre here means \"over\" or \"upon\" — the time spent still \"upon the table\" after eating."
+            },
+            {
+              "q": "Which statement about la sobremesa is accurate?",
+              "options": [
+                "Its length and how often it happens vary by household, region, and generation",
+                "Every Spanish-speaking family has a long one every single day",
+                "It only ever happens on national holidays",
+                "It always lasts exactly one hour"
+              ],
+              "answer": 0,
+              "explanation": "A weekday lunch might carry a short one; a Sunday meal or a reunión familiar a long one. It varies by country, region, generation, and family."
+            },
+            {
+              "q": "Standard 2.1 asks you to link a practice to a perspective. Choosing to stay at the table after eating most directly suggests that a household:",
+              "options": [
+                "treats unhurried time together as something worth making room for",
+                "does not enjoy the food it cooks",
+                "has no schedule to keep during the week",
+                "considers the meal itself unimportant"
+              ],
+              "answer": 0,
+              "explanation": "The practice points to a perspective about time and family: the gathering is given space instead of being cut short when the food runs out."
+            },
+            {
+              "q": "Una reunión familiar is:",
+              "options": [
+                "an occasion when the family comes together, such as a birthday or a holiday",
+                "a quick weekday meal eaten alone",
+                "a business meeting",
+                "a conversation between two friends"
+              ],
+              "answer": 0,
+              "explanation": "Una reunión familiar is a family gathering — often the setting for the longest sobremesas."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-5-1",
+    "lessonId": "lesson-spanish-9-5-1",
+    "objectives": [
+      "Define la sobremesa (sobre + mesa; the time spent talking at the table after a meal ends) and use el hogar and la reunión familiar accurately in context",
+      "Explain that la sobremesa varies by household, region, and generation rather than being one fixed national ritual",
+      "Connect the practice of the sobremesa to a cultural perspective about how time and family are valued, per standard WA-WL-2015.2.1"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Read the hook and the 'what it is' block together; have the student say the sobre + mesa breakdown aloud and give the plain-English meaning of la sobremesa in their own words.\n2. Read the block on how the sobremesa varies; ask the student to name three things it depends on (household, region, generation, the day, the occasion).\n3. Work through the practice-to-perspective block slowly — this is the week's core skill. Ask: what does staying at the table suggest a family treats as important? Push past 'they like talking' to the idea about time and priorities.\n4. Emphasize that neither the sobremesa nor clearing the table quickly is 'better' — the point is that an ordinary practice reveals a value.\n5. Complete the multiple-choice activity.\n6. Complete the worksheet.\n7. Preview tomorrow's lesson on dichos about home and respeto.",
+    "differentiationTips": [
+      "Struggling: lock in the definition and the sobre + mesa breakdown first; the practice-to-perspective reasoning can come once the word itself is solid",
+      "Ready for more: ask the student to describe one practice from their own home (how meals end, how guests are greeted, how chores are assigned) and name the value it might reveal — the same move they will make all week",
+      "Watch for over-generalizing: if the student starts a sentence with 'All Spanish people...' or 'In Spanish culture everyone...', redirect to 'in many households' or 'for some families' — the lesson's own language models this"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "La sobremesa = the time people stay at the table talking after a meal is finished (sobre 'upon' + mesa 'table'). It varies by household, region, generation, and occasion — a weekday lunch might carry a short one, a Sunday meal or a reunión familiar a long one. Practice-to-perspective: choosing to stay at the table suggests a household treats unhurried time with family as worth protecting, and sees the gathering (not just the food) as the point of the meal. Neither staying nor clearing quickly is 'better' — the practice simply reveals a priority.",
+    "standardsRationale": "Opens the week's Cultures standard (WA-WL-2015.2.1, Relating Cultural Practices to Perspectives) with a single, well-documented practice — la sobremesa — and models the exact analytic move the standard names: from what people do (stay at the table) to what it implies about what they value (unhurried time with family). Per the scope-and-sequence's week 5 Day 1 design ('la sobremesa — the untranslatable hour after the meal; what it says about time and family'). Deliberately careful about variation, so students learn to read a practice for perspective without collapsing a diverse region into one stereotype."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-5-1",
+    "lessonId": "lesson-spanish-9-5-1",
+    "title": "La Sobremesa: The Hour That Begins When the Meal Ends",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's lesson on la sobremesa.",
+      "rows": [
+        { "problem": "In your own words, what is la sobremesa? Include what the two parts of the word (sobre + mesa) literally mean." },
+        { "problem": "Name three things that the length or frequency of a sobremesa can depend on." },
+        { "problem": "Practice-to-perspective: what does the habit of staying at the table after a meal suggest a household values? Answer in 2-3 sentences." },
+        { "problem": "Why is it more accurate to say 'in many households' than 'all Spanish speakers' when describing la sobremesa?" },
+        { "problem": "Describe one way meals end in your own home. What might that practice suggest about what your household values?" }
+      ]
+    }
+  }
+}

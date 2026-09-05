@@ -1,0 +1,1835 @@
+{
+  "language": "spanish",
+  "dialect": "Latin American Spanish",
+  "gradeBand": "K-2",
+  "exitProficiencyTarget": "Novice Low/Mid, oral-aural; literacy optional",
+  "standardsBasis": "Program-design target per expansion-plan-2026-09 §3 B1 (no WA K-8 world-language benchmark exists; ACTFL-anchored). Standard tags use WA's 2015 World Languages standard numbers (5 Cs). Sub-standard numbering verified 2026-09-05 against the primary source (OSPI v1.3 PDF, p.6, \"II. World Languages Learning Standards\"): 1.1 Interpersonal/1.2 Interpretive/1.3 Presentational Communication; 2.1 Relating Cultural Practices/2.2 Relating Cultural Products to Perspectives; 3.1 Making Connections/3.2 Acquiring Information and Diverse Perspectives; 4.1 Language/4.2 Cultural Comparisons; 5.1 School and Global Communities/5.2 Lifelong Learning.",
+  "bandNotes": "Oral/aural-first: every lesson is listening, song, TPR, story, and play — written Spanish appears only as environmental print, never as a literacy requirement. Lessons are short (10-15 min). 3.2 and 4.2 are intentionally not targeted at this band (too abstract for ages 5-7); all 5 Cs are still covered via 2.x, 3.1, 4.1, and 5.x weeks. Vocabulary recycles constantly in warm-ups even though each week's coreVocabulary lists only new entries.",
+  "weeks": [
+    {
+      "week": 1,
+      "topic": "Greetings & goodbyes",
+      "actflFocus": "Interpersonal Communication — exchanging basic greetings and courtesies",
+      "standardTag": "WA-WL-2015.1.1",
+      "coreVocabulary": [
+        {
+          "word": "hola",
+          "translation": "hello",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "word": "adiós",
+          "translation": "goodbye",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "word": "buenos días",
+          "translation": "good morning",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "buenas noches",
+          "translation": "good night",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "gracias",
+          "translation": "thank you",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "word": "por favor",
+          "translation": "please",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "sí",
+          "translation": "yes",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "word": "no",
+          "translation": "no",
+          "partOfSpeech": "adverb"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Hello song ('¡Hola, hola!') with puppet; children wave and echo hola/adiós.",
+        "Day 2: Morning vs. night picture sort; act out waking up (buenos días) and sleeping (buenas noches).",
+        "Day 3: Courtesy theater — puppet forgets gracias/por favor; children coach it with the magic words.",
+        "Day 4: Sí/no listening game with thumbs up/down; silly questions ('¿Es un perro?' at pictures).",
+        "Day 5: Greeting circle review — each child greets the class and the puppet, earns a wave goodbye."
+      ]
+    },
+    {
+      "week": 2,
+      "topic": "My name & meeting friends",
+      "actflFocus": "Interpersonal Communication — introducing oneself by name",
+      "standardTag": "WA-WL-2015.1.1",
+      "coreVocabulary": [
+        {
+          "word": "me llamo",
+          "translation": "my name is",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "¿cómo te llamas?",
+          "translation": "what is your name?",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "yo",
+          "translation": "I",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "word": "tú",
+          "translation": "you (familiar)",
+          "partOfSpeech": "pronoun"
+        },
+        {
+          "word": "el niño",
+          "translation": "boy",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la niña",
+          "translation": "girl",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el amigo",
+          "translation": "friend (male)",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la amiga",
+          "translation": "friend (female)",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Name song with ball toss — 'Me llamo...' as each child catches; teacher models first.",
+        "Day 2: Puppet interview game — '¿Cómo te llamas?' asked around the circle, echo response.",
+        "Day 3: Niño/niña picture sort with class photos and storybook characters.",
+        "Day 4: Amigo/amiga pair-up — children introduce a partner ('Mi amigo se llama...') with gesture support.",
+        "Day 5: Review fiesta — greet + introduce yourself to the puppet, combining week 1 and 2 phrases."
+      ]
+    },
+    {
+      "week": 3,
+      "topic": "Numbers 1-5",
+      "actflFocus": "Interpretive Listening — recognizing spoken numbers 1-5",
+      "standardTag": "WA-WL-2015.1.2",
+      "coreVocabulary": [
+        {
+          "word": "uno",
+          "translation": "one",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "dos",
+          "translation": "two",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "tres",
+          "translation": "three",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "cuatro",
+          "translation": "four",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "cinco",
+          "translation": "five",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "contar",
+          "translation": "to count",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "¿cuántos?",
+          "translation": "how many?",
+          "partOfSpeech": "phrase"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Counting song 'Uno, dos, tres' with finger counting; slow echo then fast echo.",
+        "Day 2: Listen-and-clap — teacher says a number, children clap that many times.",
+        "Day 3: Counting objects around the room (blocks, crayons) answering '¿cuántos?'.",
+        "Day 4: Number hop — floor dots 1-5, children jump to the number they hear.",
+        "Day 5: Counting show — each child counts a small set aloud for the puppet."
+      ]
+    },
+    {
+      "week": 4,
+      "topic": "Numbers 6-10",
+      "actflFocus": "Presentational Speaking — counting aloud to ten",
+      "standardTag": "WA-WL-2015.1.3",
+      "coreVocabulary": [
+        {
+          "word": "seis",
+          "translation": "six",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "siete",
+          "translation": "seven",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "ocho",
+          "translation": "eight",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "nueve",
+          "translation": "nine",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "diez",
+          "translation": "ten",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "el número",
+          "translation": "number",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Extend the counting song to ten with big body movements per number.",
+        "Day 2: Ten-frame beanbag toss — count throws aloud as a group.",
+        "Day 3: Hide-and-count — find hidden number cards 1-10, say each one found.",
+        "Day 4: Count-up chain — around the circle, each child says the next number.",
+        "Day 5: Solo count-to-ten performance for the puppet; class cheers in Spanish."
+      ]
+    },
+    {
+      "week": 5,
+      "topic": "Colors I",
+      "actflFocus": "Interpretive Listening — identifying colors by name",
+      "standardTag": "WA-WL-2015.1.2",
+      "coreVocabulary": [
+        {
+          "word": "rojo",
+          "translation": "red",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "azul",
+          "translation": "blue",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "amarillo",
+          "translation": "yellow",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "verde",
+          "translation": "green",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "blanco",
+          "translation": "white",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "negro",
+          "translation": "black",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Color song with scarves; wave the color you hear.",
+        "Day 2: Color hunt — touch something rojo/azul/verde in the room on command.",
+        "Day 3: Story with color pictures; children call out each color as it appears.",
+        "Day 4: Color-sort game — crayons into named buckets, counting each bucket (recycles numbers).",
+        "Day 5: 'Veo veo' (I spy) with the four strongest colors plus blanco/negro."
+      ]
+    },
+    {
+      "week": 6,
+      "topic": "Colors II & favorites",
+      "actflFocus": "Interpersonal Communication — asking and telling favorite colors",
+      "standardTag": "WA-WL-2015.1.1",
+      "coreVocabulary": [
+        {
+          "word": "anaranjado",
+          "translation": "orange",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "morado",
+          "translation": "purple",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "rosado",
+          "translation": "pink",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "café",
+          "translation": "brown",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "gris",
+          "translation": "gray",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "favorito",
+          "translation": "favorite",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "¿de qué color?",
+          "translation": "what color?",
+          "partOfSpeech": "phrase"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Add new colors to the scarf song; rainbow line-up.",
+        "Day 2: '¿De qué color es?' picture game with animals and toys.",
+        "Day 3: Favorite-color survey — each child says 'Mi color favorito es...' with a color card.",
+        "Day 4: Class color graph — count votes per color aloud (recycles numbers 1-10).",
+        "Day 5: Color parade — children dress a paper doll in their favorite colors and present it."
+      ]
+    },
+    {
+      "week": 7,
+      "topic": "My family",
+      "actflFocus": "Cultures: Practices to Perspectives — family names and warm family greetings in Latin America",
+      "standardTag": "WA-WL-2015.2.1",
+      "coreVocabulary": [
+        {
+          "word": "la familia",
+          "translation": "family",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la mamá",
+          "translation": "mom",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el papá",
+          "translation": "dad",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el hermano",
+          "translation": "brother",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la hermana",
+          "translation": "sister",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la abuela",
+          "translation": "grandma",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el abuelo",
+          "translation": "grandpa",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el bebé",
+          "translation": "baby",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Family finger-play song ('La familia dedo'); name each finger family member.",
+        "Day 2: Family photo share — children point and name mamá, papá, hermanos.",
+        "Day 3: Story about a Latin American family gathering; notice hugs and greetings for abuela/abuelo.",
+        "Day 4: Draw-your-family activity; teacher labels orally as children name members.",
+        "Day 5: Family show-and-tell — present your drawing: 'Mi mamá, mi papá...'."
+      ]
+    },
+    {
+      "week": 8,
+      "topic": "Pets",
+      "actflFocus": "Interpersonal Communication — talking about pets you have or want",
+      "standardTag": "WA-WL-2015.1.1",
+      "coreVocabulary": [
+        {
+          "word": "la mascota",
+          "translation": "pet",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el perro",
+          "translation": "dog",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el gato",
+          "translation": "cat",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el pez",
+          "translation": "fish",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el pájaro",
+          "translation": "bird",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el conejo",
+          "translation": "rabbit",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la tortuga",
+          "translation": "turtle",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Pet-sound guessing game — hear the animal, say its Spanish name.",
+        "Day 2: Act-like-the-animal TPR — hop like un conejo, swim like un pez.",
+        "Day 3: Story about a lost perro; children help find it by naming animals along the way.",
+        "Day 4: Pet survey — '¿Tienes una mascota?' with sí/no and animal cards; count results.",
+        "Day 5: Show-and-tell with stuffed animals — name and describe with a color word."
+      ]
+    },
+    {
+      "week": 9,
+      "topic": "Farm animals",
+      "actflFocus": "Interpretive Listening — following a farm story with animal names",
+      "standardTag": "WA-WL-2015.1.2",
+      "coreVocabulary": [
+        {
+          "word": "la granja",
+          "translation": "farm",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la vaca",
+          "translation": "cow",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el caballo",
+          "translation": "horse",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el cerdo",
+          "translation": "pig",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la gallina",
+          "translation": "hen",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el pato",
+          "translation": "duck",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la oveja",
+          "translation": "sheep",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: 'En la granja' song (Spanish Old MacDonald pattern) with animal sounds.",
+        "Day 2: Animal-sound match — Spanish animal sounds differ (¡quiquiriquí!); match sound to picture.",
+        "Day 3: Farm story listen-along; children hold up the animal they hear.",
+        "Day 4: Farm pretend-play — teacher calls animals to the 'barn' by name.",
+        "Day 5: Review romp — farm animal freeze dance; name the animal when the music stops."
+      ]
+    },
+    {
+      "week": 10,
+      "topic": "Zoo & wild animals",
+      "actflFocus": "Interpretive Listening — identifying wild animals in a zoo adventure story",
+      "standardTag": "WA-WL-2015.1.2",
+      "coreVocabulary": [
+        {
+          "word": "el zoológico",
+          "translation": "zoo",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el león",
+          "translation": "lion",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el elefante",
+          "translation": "elephant",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el mono",
+          "translation": "monkey",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la jirafa",
+          "translation": "giraffe",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el tigre",
+          "translation": "tiger",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el oso",
+          "translation": "bear",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Zoo safari song; stomp like elefantes, stretch like jirafas.",
+        "Day 2: Guess-the-animal riddles from sounds and motions.",
+        "Day 3: Zoo adventure story listen-along with picture cards.",
+        "Day 4: Build-a-zoo — place animal figures in habitats as the teacher names them.",
+        "Day 5: Animal parade — each child moves as an animal, class names it in Spanish."
+      ]
+    },
+    {
+      "week": 11,
+      "topic": "My body",
+      "actflFocus": "Interpretive Listening — pointing to body parts on command (TPR)",
+      "standardTag": "WA-WL-2015.1.2",
+      "coreVocabulary": [
+        {
+          "word": "la cabeza",
+          "translation": "head",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "los ojos",
+          "translation": "eyes",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la nariz",
+          "translation": "nose",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la boca",
+          "translation": "mouth",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "las orejas",
+          "translation": "ears",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "las manos",
+          "translation": "hands",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "los pies",
+          "translation": "feet",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: 'Cabeza, hombros, rodillas y pies' song, slow then fast.",
+        "Day 2: Simon-says style 'Simón dice' — touch la nariz, las orejas.",
+        "Day 3: Monster-drawing listen-and-draw — 'tres ojos, una boca grande' (recycles numbers/colors).",
+        "Day 4: Body-part freeze dance; teacher names a part to wiggle.",
+        "Day 5: Puppet checkup — children play doctor, naming each body part they check."
+      ]
+    },
+    {
+      "week": 12,
+      "topic": "Actions & movement",
+      "actflFocus": "Presentational Speaking — leading the class in action commands",
+      "standardTag": "WA-WL-2015.1.3",
+      "coreVocabulary": [
+        {
+          "word": "salta",
+          "translation": "jump",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "corre",
+          "translation": "run",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "camina",
+          "translation": "walk",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "baila",
+          "translation": "dance",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "canta",
+          "translation": "sing",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "aplaude",
+          "translation": "clap",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "párate",
+          "translation": "stand up",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "siéntate",
+          "translation": "sit down",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Action song — everyone salta, corre, baila on cue.",
+        "Day 2: 'Simón dice' with action commands.",
+        "Day 3: Obstacle course narrated in Spanish — camina, salta, párate.",
+        "Day 4: Child leaders — each child gives one command for the class to follow.",
+        "Day 5: Action freeze-dance review mixing all eight commands."
+      ]
+    },
+    {
+      "week": 13,
+      "topic": "Feelings",
+      "actflFocus": "Interpersonal Communication — asking and answering how you feel",
+      "standardTag": "WA-WL-2015.1.1",
+      "coreVocabulary": [
+        {
+          "word": "¿cómo estás?",
+          "translation": "how are you?",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "bien",
+          "translation": "fine, well",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "word": "feliz",
+          "translation": "happy",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "triste",
+          "translation": "sad",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "enojado",
+          "translation": "angry",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "cansado",
+          "translation": "tired",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "asustado",
+          "translation": "scared",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "emocionado",
+          "translation": "excited",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Feelings faces song; make each face as it's named.",
+        "Day 2: Morning check-in circle — '¿Cómo estás?' 'Estoy feliz' with emoji cards.",
+        "Day 3: Story about a triste puppet who becomes feliz; children name feelings at each turn.",
+        "Day 4: Feelings charades — act one out, class guesses in Spanish.",
+        "Day 5: Feelings check-in becomes a daily routine; children ask each other in pairs."
+      ]
+    },
+    {
+      "week": 14,
+      "topic": "Fruits of Latin America",
+      "actflFocus": "Cultures: Products to Perspectives — tropical fruits of Latin America",
+      "standardTag": "WA-WL-2015.2.2",
+      "coreVocabulary": [
+        {
+          "word": "la fruta",
+          "translation": "fruit",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la manzana",
+          "translation": "apple",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el plátano",
+          "translation": "banana",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la naranja",
+          "translation": "orange (fruit)",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "las uvas",
+          "translation": "grapes",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la fresa",
+          "translation": "strawberry",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el mango",
+          "translation": "mango",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la piña",
+          "translation": "pineapple",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Fruit song with picture cards; match fruit to its color word.",
+        "Day 2: Mystery fruit bag — feel and guess, reveal and name.",
+        "Day 3: Learn about fruit stands and mercados in Latin America; taste-test day if possible (mango, piña).",
+        "Day 4: Fruit-salad craft — glue paper fruits into a bowl, naming each.",
+        "Day 5: Fruit-stand pretend play — 'Una manzana, por favor' (recycles courtesy words)."
+      ]
+    },
+    {
+      "week": 15,
+      "topic": "Everyday foods & mealtime",
+      "actflFocus": "Cultures: Practices to Perspectives — everyday foods and family mealtime in Latin America",
+      "standardTag": "WA-WL-2015.2.1",
+      "coreVocabulary": [
+        {
+          "word": "el pan",
+          "translation": "bread",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la leche",
+          "translation": "milk",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el agua",
+          "translation": "water",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el queso",
+          "translation": "cheese",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la tortilla",
+          "translation": "tortilla",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el arroz",
+          "translation": "rice",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "los frijoles",
+          "translation": "beans",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "tengo hambre",
+          "translation": "I'm hungry",
+          "partOfSpeech": "phrase"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Food song; sort breakfast/lunch/dinner pictures.",
+        "Day 2: Learn how tortillas are made; pat-the-tortilla hand rhyme.",
+        "Day 3: Story about a family meal with arroz y frijoles; notice everyone eats together.",
+        "Day 4: Play kitchen — 'serve' foods to the puppet who says tengo hambre.",
+        "Day 5: Plate craft — assemble a paper meal and name every food on it."
+      ]
+    },
+    {
+      "week": 16,
+      "topic": "I like it! Likes & dislikes",
+      "actflFocus": "Interpersonal Communication — expressing likes and dislikes about food",
+      "standardTag": "WA-WL-2015.1.1",
+      "coreVocabulary": [
+        {
+          "word": "me gusta",
+          "translation": "I like",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "no me gusta",
+          "translation": "I don't like",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "¿te gusta?",
+          "translation": "do you like...?",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "quiero",
+          "translation": "I want",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "delicioso",
+          "translation": "delicious",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "más",
+          "translation": "more",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "word": "un poco",
+          "translation": "a little",
+          "partOfSpeech": "phrase"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Thumbs-up/thumbs-down game — me gusta / no me gusta with food cards.",
+        "Day 2: '¿Te gusta?' partner survey using last week's foods.",
+        "Day 3: Silly-foods story (ice cream with frijoles?) — children react with the phrases.",
+        "Day 4: Class favorite-foods graph; count votes aloud.",
+        "Day 5: Restaurant pretend play — order with quiero + por favor, react with ¡delicioso!"
+      ]
+    },
+    {
+      "week": 17,
+      "topic": "Clothing",
+      "actflFocus": "Interpretive Listening — dressing a character from spoken clothing names",
+      "standardTag": "WA-WL-2015.1.2",
+      "coreVocabulary": [
+        {
+          "word": "la ropa",
+          "translation": "clothes",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la camisa",
+          "translation": "shirt",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "los pantalones",
+          "translation": "pants",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "los zapatos",
+          "translation": "shoes",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el vestido",
+          "translation": "dress",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el sombrero",
+          "translation": "hat",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la chaqueta",
+          "translation": "jacket",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "los calcetines",
+          "translation": "socks",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Getting-dressed song with motions for each clothing item.",
+        "Day 2: Dress the paper doll — children add the item they hear.",
+        "Day 3: 'What's missing?' game — clothes disappear from the board, name the missing one.",
+        "Day 4: Color + clothing combo — 'la camisa roja' matching game (recycles colors).",
+        "Day 5: Silly fashion show — describe the puppet's mixed-up outfit."
+      ]
+    },
+    {
+      "week": 18,
+      "topic": "Weather",
+      "actflFocus": "Connections: Making Connections — daily weather observation (science link)",
+      "standardTag": "WA-WL-2015.3.1",
+      "coreVocabulary": [
+        {
+          "word": "hace sol",
+          "translation": "it's sunny",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "hace calor",
+          "translation": "it's hot",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "hace frío",
+          "translation": "it's cold",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "llueve",
+          "translation": "it's raining",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "nieva",
+          "translation": "it's snowing",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "la nube",
+          "translation": "cloud",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el paraguas",
+          "translation": "umbrella",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Weather song with motions (sun arms, rain fingers); look out the window and report.",
+        "Day 2: Weather-wheel craft; set today's weather in Spanish.",
+        "Day 3: Dress-for-the-weather game — pick clothing for hace frío vs. hace calor (recycles clothing).",
+        "Day 4: Weather sounds listening game — rain, wind, storm; name what you hear.",
+        "Day 5: Daily weather reporter routine begins — one child reports each day from now on."
+      ]
+    },
+    {
+      "week": 19,
+      "topic": "Mid-year review fiesta",
+      "actflFocus": "Communities: School & Global Communities — sharing our Spanish with the school community",
+      "standardTag": "WA-WL-2015.5.1",
+      "coreVocabulary": [
+        {
+          "word": "otra vez",
+          "translation": "again",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "¡muy bien!",
+          "translation": "very good!",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "escucha",
+          "translation": "listen",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "mira",
+          "translation": "look",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "repite",
+          "translation": "repeat",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "juntos",
+          "translation": "together",
+          "partOfSpeech": "adverb"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Greatest-hits song medley from weeks 1-18.",
+        "Day 2: Review stations — colors, numbers, animals, food games.",
+        "Day 3: Rehearse a mini-performance (songs + greetings) to share with family or another class.",
+        "Day 4: Perform for an audience — buddy class, family video, or school assembly.",
+        "Day 5: Celebration circle — each child shows a favorite word or song; ¡muy bien! all around."
+      ]
+    },
+    {
+      "week": 20,
+      "topic": "Days of the week",
+      "actflFocus": "Comparisons: Language Comparisons — day names in Spanish vs. English",
+      "standardTag": "WA-WL-2015.4.1",
+      "coreVocabulary": [
+        {
+          "word": "lunes",
+          "translation": "Monday",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "martes",
+          "translation": "Tuesday",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "miércoles",
+          "translation": "Wednesday",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "jueves",
+          "translation": "Thursday",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "viernes",
+          "translation": "Friday",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "sábado",
+          "translation": "Saturday",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "domingo",
+          "translation": "Sunday",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la semana",
+          "translation": "week",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Days-of-the-week chant with a clap pattern.",
+        "Day 2: Order-the-days card line-up; sing to check.",
+        "Day 3: Compare: English day names vs. Spanish (sábado starts with s like Saturday? lunes like 'lunar' moon day) — word detectives.",
+        "Day 4: 'What day is it?' calendar routine begins; mark today.",
+        "Day 5: Days relay — class chants the week while passing a ball, no drops!"
+      ]
+    },
+    {
+      "week": 21,
+      "topic": "Seasons",
+      "actflFocus": "Connections: Making Connections — the four seasons and nature's changes (science link)",
+      "standardTag": "WA-WL-2015.3.1",
+      "coreVocabulary": [
+        {
+          "word": "la primavera",
+          "translation": "spring",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el verano",
+          "translation": "summer",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el otoño",
+          "translation": "fall, autumn",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el invierno",
+          "translation": "winter",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la estación",
+          "translation": "season",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el año",
+          "translation": "year",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Four-seasons song with a motion per season.",
+        "Day 2: Season sort — pictures of snow, flowers, leaves, beach into season groups.",
+        "Day 3: Match weather phrases to seasons (recycles week 18).",
+        "Day 4: Four-seasons tree craft — one branch per season, name each.",
+        "Day 5: Season charades — act out a season activity, class guesses la estación."
+      ]
+    },
+    {
+      "week": 22,
+      "topic": "Numbers 11-20 & how old are you",
+      "actflFocus": "Interpretive Listening — recognizing teen numbers and ages",
+      "standardTag": "WA-WL-2015.1.2",
+      "coreVocabulary": [
+        {
+          "word": "once",
+          "translation": "eleven",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "doce",
+          "translation": "twelve",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "trece",
+          "translation": "thirteen",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "catorce",
+          "translation": "fourteen",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "quince",
+          "translation": "fifteen",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "veinte",
+          "translation": "twenty",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "¿cuántos años tienes?",
+          "translation": "how old are you?",
+          "partOfSpeech": "phrase"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Count past ten with the counting song extended; jump on each new number.",
+        "Day 2: Number-line hop 11-20; land where the teacher says.",
+        "Day 3: Age circle — '¿Cuántos años tienes?' 'Tengo seis años' with candles craft.",
+        "Day 4: Count classroom collections past ten (recycles ¿cuántos?).",
+        "Day 5: Number bingo 1-20."
+      ]
+    },
+    {
+      "week": 23,
+      "topic": "Shapes & sizes",
+      "actflFocus": "Presentational Speaking — describing shapes by name and size",
+      "standardTag": "WA-WL-2015.1.3",
+      "coreVocabulary": [
+        {
+          "word": "el círculo",
+          "translation": "circle",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el cuadrado",
+          "translation": "square",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el triángulo",
+          "translation": "triangle",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la estrella",
+          "translation": "star",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el corazón",
+          "translation": "heart",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "grande",
+          "translation": "big",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "pequeño",
+          "translation": "small",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Shape song; draw each shape in the air.",
+        "Day 2: Shape hunt around the room — find un círculo, un cuadrado.",
+        "Day 3: Big/small sort — grande vs. pequeño with real objects.",
+        "Day 4: Shape-picture craft — build an animal from paper shapes.",
+        "Day 5: Present your shape picture: 'Un círculo grande, dos triángulos pequeños...'."
+      ]
+    },
+    {
+      "week": 24,
+      "topic": "My house",
+      "actflFocus": "Interpretive Listening — locating things and rooms in a house",
+      "standardTag": "WA-WL-2015.1.2",
+      "coreVocabulary": [
+        {
+          "word": "la casa",
+          "translation": "house",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la puerta",
+          "translation": "door",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la ventana",
+          "translation": "window",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la mesa",
+          "translation": "table",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la silla",
+          "translation": "chair",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la cama",
+          "translation": "bed",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la cocina",
+          "translation": "kitchen",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: House song; touch classroom puerta/ventana/mesa/silla on cue.",
+        "Day 2: Dollhouse game — put the family member where the teacher says.",
+        "Day 3: Story set inside a house; children point to each room on a picture map.",
+        "Day 4: Draw-your-house activity; name the parts aloud.",
+        "Day 5: Hide-and-seek with a toy — '¿Está en la cocina?' sí/no guessing."
+      ]
+    },
+    {
+      "week": 25,
+      "topic": "School & classroom",
+      "actflFocus": "Interpersonal Communication — asking for classroom items politely",
+      "standardTag": "WA-WL-2015.1.1",
+      "coreVocabulary": [
+        {
+          "word": "la escuela",
+          "translation": "school",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el libro",
+          "translation": "book",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el lápiz",
+          "translation": "pencil",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el papel",
+          "translation": "paper",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "las tijeras",
+          "translation": "scissors",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la mochila",
+          "translation": "backpack",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la maestra",
+          "translation": "teacher (female)",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el maestro",
+          "translation": "teacher (male)",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Classroom-objects song; hold up each real item as it's named.",
+        "Day 2: Pack-the-mochila game — put in only what the teacher names.",
+        "Day 3: Polite requests — 'El lápiz, por favor' 'Gracias' passing game.",
+        "Day 4: I-spy classroom edition with school objects.",
+        "Day 5: Play school — children take turns being la maestra giving commands (recycles week 12)."
+      ]
+    },
+    {
+      "week": 26,
+      "topic": "Community helpers",
+      "actflFocus": "Communities: School & Global Communities — people who help us in every community",
+      "standardTag": "WA-WL-2015.5.1",
+      "coreVocabulary": [
+        {
+          "word": "el doctor",
+          "translation": "doctor (male)",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la doctora",
+          "translation": "doctor (female)",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el bombero",
+          "translation": "firefighter",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la policía",
+          "translation": "police officer",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el dentista",
+          "translation": "dentist",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la veterinaria",
+          "translation": "veterinarian",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "ayudar",
+          "translation": "to help",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Helpers song; hat/prop for each helper as it's named.",
+        "Day 2: Who-helps-whom matching — la veterinaria with la mascota (recycles animals).",
+        "Day 3: Story about helpers in a Spanish-speaking neighborhood.",
+        "Day 4: Dress-up dramatic play — act out each helper's job.",
+        "Day 5: 'When I grow up' share — 'Quiero ser doctora' with a drawing."
+      ]
+    },
+    {
+      "week": 27,
+      "topic": "Transportation",
+      "actflFocus": "Presentational Speaking — presenting how you travel",
+      "standardTag": "WA-WL-2015.1.3",
+      "coreVocabulary": [
+        {
+          "word": "el carro",
+          "translation": "car",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el autobús",
+          "translation": "bus",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la bicicleta",
+          "translation": "bicycle",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el tren",
+          "translation": "train",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el avión",
+          "translation": "airplane",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el barco",
+          "translation": "boat",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el camión",
+          "translation": "truck",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Transportation song with vehicle motions and sounds.",
+        "Day 2: Sound guessing — engine, horn, whistle; name the vehicle.",
+        "Day 3: Land/water/air sort with vehicle cards.",
+        "Day 4: Build a vehicle craft from shapes (recycles week 23).",
+        "Day 5: Present your vehicle: 'Mi carro es rojo y grande' (recycles colors/sizes)."
+      ]
+    },
+    {
+      "week": 28,
+      "topic": "Nature & the garden",
+      "actflFocus": "Connections: Making Connections — plants, insects, and how gardens grow (science link)",
+      "standardTag": "WA-WL-2015.3.1",
+      "coreVocabulary": [
+        {
+          "word": "el árbol",
+          "translation": "tree",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la flor",
+          "translation": "flower",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la planta",
+          "translation": "plant",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la hoja",
+          "translation": "leaf",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la mariposa",
+          "translation": "butterfly",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el insecto",
+          "translation": "insect",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el jardín",
+          "translation": "garden",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Garden song — grow from seed to flor with your whole body.",
+        "Day 2: Nature walk or window watch — spot and name árboles, hojas, insectos.",
+        "Day 3: Life-of-a-mariposa mini-story with motions.",
+        "Day 4: Plant a real seed; start saying 'agua para la planta' each day.",
+        "Day 5: Garden collage craft; present it naming each item."
+      ]
+    },
+    {
+      "week": 29,
+      "topic": "Opposites",
+      "actflFocus": "Comparisons: Language Comparisons — playing with opposite words in two languages",
+      "standardTag": "WA-WL-2015.4.1",
+      "coreVocabulary": [
+        {
+          "word": "alto",
+          "translation": "tall",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "bajo",
+          "translation": "short (height)",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "rápido",
+          "translation": "fast",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "lento",
+          "translation": "slow",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "arriba",
+          "translation": "up",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "word": "abajo",
+          "translation": "down",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "word": "abierto",
+          "translation": "open",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "cerrado",
+          "translation": "closed",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Opposites song — stretch alto, crouch bajo, hands arriba/abajo.",
+        "Day 2: Fast/slow movement game — move rápido or lento on command.",
+        "Day 3: Opposite pairs matching cards; say both words in the pair.",
+        "Day 4: Word detectives — do any Spanish opposites sound like English ones? (rápido/rapid!).",
+        "Day 5: Opposites obstacle course narrated by the class."
+      ]
+    },
+    {
+      "week": 30,
+      "topic": "Birthdays & fiestas",
+      "actflFocus": "Cultures: Practices to Perspectives — birthday traditions: piñatas and Las Mañanitas",
+      "standardTag": "WA-WL-2015.2.1",
+      "coreVocabulary": [
+        {
+          "word": "la fiesta",
+          "translation": "party",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el cumpleaños",
+          "translation": "birthday",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el pastel",
+          "translation": "cake",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el regalo",
+          "translation": "present, gift",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la piñata",
+          "translation": "piñata",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el globo",
+          "translation": "balloon",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "¡feliz cumpleaños!",
+          "translation": "happy birthday!",
+          "partOfSpeech": "phrase"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Learn 'Las Mañanitas' chorus — the birthday song across Latin America.",
+        "Day 2: Party vocabulary game — decorate the pretend fiesta as items are named.",
+        "Day 3: All about piñatas — where they come from, how the game works.",
+        "Day 4: Make a mini paper piñata or party hat craft.",
+        "Day 5: Class fiesta simulation — sing, count candles, say ¡feliz cumpleaños!"
+      ]
+    },
+    {
+      "week": 31,
+      "topic": "Music of Latin America",
+      "actflFocus": "Cultures: Products to Perspectives — instruments and rhythms of Latin America",
+      "standardTag": "WA-WL-2015.2.2",
+      "coreVocabulary": [
+        {
+          "word": "la música",
+          "translation": "music",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la canción",
+          "translation": "song",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la maraca",
+          "translation": "maraca",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el tambor",
+          "translation": "drum",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la guitarra",
+          "translation": "guitar",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el ritmo",
+          "translation": "rhythm",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la trompeta",
+          "translation": "trumpet",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Listen to mariachi, cumbia, and salsa clips; move to each ritmo.",
+        "Day 2: Instrument sounds game — hear it, name it (la trompeta, el tambor...).",
+        "Day 3: Make shaker maracas from cups and beans.",
+        "Day 4: Class rhythm band — follow spoken directions for loud/soft, rápido/lento (recycles opposites).",
+        "Day 5: Mini concert — perform a favorite class song with homemade instruments."
+      ]
+    },
+    {
+      "week": 32,
+      "topic": "Calendar & counting on",
+      "actflFocus": "Presentational Speaking — announcing the day and date in the calendar routine",
+      "standardTag": "WA-WL-2015.1.3",
+      "coreVocabulary": [
+        {
+          "word": "el día",
+          "translation": "day",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "hoy",
+          "translation": "today",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "word": "mañana",
+          "translation": "tomorrow",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "word": "ayer",
+          "translation": "yesterday",
+          "partOfSpeech": "adverb"
+        },
+        {
+          "word": "el mes",
+          "translation": "month",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "veintiuno",
+          "translation": "twenty-one",
+          "partOfSpeech": "number"
+        },
+        {
+          "word": "treinta",
+          "translation": "thirty",
+          "partOfSpeech": "number"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Calendar routine upgrade — hoy es + day; count the date aloud together.",
+        "Day 2: Hoy/mañana/ayer hop — three floor spots, jump to the one you hear.",
+        "Day 3: Count calendar days toward a class event; practice numbers 21-30.",
+        "Day 4: Month birthday graph — whose cumpleaños is this mes? (recycles week 30).",
+        "Day 5: Child-led calendar — a student announces day and date to the class."
+      ]
+    },
+    {
+      "week": 33,
+      "topic": "Story time",
+      "actflFocus": "Interpretive Listening — following a fairy tale told in Spanish",
+      "standardTag": "WA-WL-2015.1.2",
+      "coreVocabulary": [
+        {
+          "word": "el cuento",
+          "translation": "story",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "érase una vez",
+          "translation": "once upon a time",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "la princesa",
+          "translation": "princess",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el dragón",
+          "translation": "dragon",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el castillo",
+          "translation": "castle",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el bosque",
+          "translation": "forest",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el final",
+          "translation": "the end",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Hear the fairy tale with big pictures; learn érase una vez and el final as bookends.",
+        "Day 2: Retell with picture cards in order; children place each scene.",
+        "Day 3: Act it out — princesa, dragón, castillo roles with simple lines.",
+        "Day 4: Change the story — new animal hero? New color dragon? Class chooses.",
+        "Day 5: Story theater performance of the class version."
+      ]
+    },
+    {
+      "week": 34,
+      "topic": "My town & the mercado",
+      "actflFocus": "Cultures: Products to Perspectives — town squares and open-air markets in Latin America",
+      "standardTag": "WA-WL-2015.2.2",
+      "coreVocabulary": [
+        {
+          "word": "el pueblo",
+          "translation": "town",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la ciudad",
+          "translation": "city",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el parque",
+          "translation": "park",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la tienda",
+          "translation": "store",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la biblioteca",
+          "translation": "library",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la calle",
+          "translation": "street",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "el mercado",
+          "translation": "market",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Town song; build a floor map with block buildings as each place is named.",
+        "Day 2: Photo tour of a Latin American plaza and mercado — what do you see?",
+        "Day 3: Toy-car trip around the floor map — 'al parque, a la tienda' directions.",
+        "Day 4: Set up a class mercado with fruit cards (recycles weeks 14-16).",
+        "Day 5: Mercado role-play day — buy and sell with courtesy phrases."
+      ]
+    },
+    {
+      "week": 35,
+      "topic": "Friendship & kindness",
+      "actflFocus": "Interpersonal Communication — kind words with friends",
+      "standardTag": "WA-WL-2015.1.1",
+      "coreVocabulary": [
+        {
+          "word": "amable",
+          "translation": "kind",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "word": "compartir",
+          "translation": "to share",
+          "partOfSpeech": "verb"
+        },
+        {
+          "word": "perdón",
+          "translation": "sorry, excuse me",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "word": "te quiero",
+          "translation": "I love you",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "el abrazo",
+          "translation": "hug",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "la sonrisa",
+          "translation": "smile",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Kindness song; practice perdón and gracias scenarios with the puppet.",
+        "Day 2: Sharing game — pass and share materials saying compartir phrases.",
+        "Day 3: Story about friends who solve a problem kindly; spot the kind words.",
+        "Day 4: Make a friendship card for a classmate or family member (te quiero, mi amigo).",
+        "Day 5: Deliver the cards; compliment circle — 'Eres amable' with a sonrisa."
+      ]
+    },
+    {
+      "week": 36,
+      "topic": "Fin de año celebration",
+      "actflFocus": "Communities: Lifelong Learning — celebrating what we can do and using Spanish beyond class",
+      "standardTag": "WA-WL-2015.5.2",
+      "coreVocabulary": [
+        {
+          "word": "¡felicidades!",
+          "translation": "congratulations!",
+          "partOfSpeech": "interjection"
+        },
+        {
+          "word": "las vacaciones",
+          "translation": "vacation",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "hasta luego",
+          "translation": "see you later",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "nos vemos",
+          "translation": "see you",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "el próximo año",
+          "translation": "next year",
+          "partOfSpeech": "phrase"
+        },
+        {
+          "word": "¡yo puedo!",
+          "translation": "I can do it!",
+          "partOfSpeech": "phrase"
+        }
+      ],
+      "lessonBreakdown": [
+        "Day 1: Year-in-review song medley; children pick the class favorites.",
+        "Day 2: 'I can' stations — show off counting, colors, greetings, animals (¡yo puedo!).",
+        "Day 3: Rehearse the end-of-year showcase for families.",
+        "Day 4: Showcase day — perform songs and mini-dialogues; families join the fiesta.",
+        "Day 5: Goodbye circle — certificates, ¡felicidades!, plans to keep singing in Spanish over las vacaciones."
+      ]
+    }
+  ]
+}

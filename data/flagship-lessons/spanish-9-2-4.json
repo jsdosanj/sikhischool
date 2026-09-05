@@ -1,0 +1,77 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-2",
+    "courseId": "course-spanish-9",
+    "order": 2,
+    "title": "Identity & Heritage",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-2-4",
+    "unitId": "unit-spanish-9-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Drafting Your Identity Paragraph: Raíces, Languages, and Belonging",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you studied how two other people turned real, specific memories into a paragraph about identity. Today you write your own — not a copy of their structure, but your own raíces, your own languages, and your own sense of pertenecer, told through specific detail instead of general statement."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A strong identity paragraph does exactly what Mariana's and Diego's essays did: it earns its ideas with one or two specific, real details instead of resting on a general claim. 'Estoy orgulloso de mi cultura' (I'm proud of my culture) is a fine sentence, but it's not yet a paragraph — it doesn't show anything. 'Mi abuelo me enseñó a hacer tortillas a mano cuando tenía ocho años, y todavía cuento en español sin darme cuenta cuando las hago' (My grandfather taught me to make tortillas by hand when I was eight, and I still count in Spanish without noticing when I make them) does the same emotional work, but it's built out of something real and specific a reader can actually picture."
+      },
+      {
+        "type": "text",
+        "ref": "template",
+        "text": "Use these sentence starters to build your paragraph — write in Spanish where you can, mixing in English where you genuinely need to; a rough true paragraph beats a polished vague one:\n\nMis raíces vienen de... (My roots come from...) — be specific: a country, a region, a city, a language, a family story.\nEn mi casa (se habla/hablamos)... (In my house we speak...) — describe the actual language(s) of your home, even if it's just one.\nUna parte específica de mi identidad es... porque... (One specific part of my identity is... because...) — anchor this in one real memory or detail, the way Mariana's translating and Diego's arepas did.\nYo pertenezco a... (I belong to...) — this doesn't have to name one single place; 'pertenezco a dos mundos' is a completely legitimate answer.\n\nAim for 6-10 sentences total, not just four separate answers stapled together — connect your ideas the way both essays did."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Save this draft — tomorrow's round-table is built entirely around sharing it and asking each other genuine follow-up questions, the same kind you practiced building on Tuesday."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-2-4",
+    "lessonId": "lesson-spanish-9-2-4",
+    "objectives": [
+      "Write a 6-10 sentence identity paragraph using at least one specific, concrete detail rather than only general statements",
+      "Use at least two of this week's vocabulary words (la herencia, el apellido, el origen, bilingüe, pertenecer, la raíz, la generación) accurately in original sentences"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Yesterday's annotated essays, for reference"],
+    "facilitationScript": "1. Briefly revisit yesterday's annotations — which specific details did the student mark in Mariana's and Diego's essays?\n2. Read the explanation block's example pair (the vague 'proud of my culture' sentence vs. the specific tortillas sentence) and discuss the difference.\n3. Have the student draft answers to each of the four template starters on the worksheet, one at a time.\n4. Combine the four answers into one connected paragraph, adding connector words (y, pero, porque) rather than leaving four separate sentences.\n5. Optional: read the finished paragraph aloud once as a rehearsal for tomorrow's round-table.\n6. File the draft somewhere it will be found again tomorrow.",
+    "differentiationTips": [
+      "Struggling: it's fine if the paragraph leans heavily on one template starter (often 'Una parte específica de mi identidad es...') as long as it includes one genuinely specific detail — depth on one idea beats a thin sentence for all four",
+      "Ready for more: challenge them to include a direct comparison to something from either Mariana's or Diego's essay ('A diferencia de Diego, en mi casa...') as a connecting device",
+      "Keep this low-pressure and genuinely personal, same as week 1's goal-statement lesson — an honest, specific paragraph beats an impressive-sounding vague one"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct paragraph — evaluate for at least one specific, concrete detail (not only general statements), accurate use of at least two of this week's vocabulary words, and 6-10 connected sentences (not four disconnected answers).",
+    "standardsRationale": "Serves WA-WL-2015.1.1 (Interpersonal Communication) by turning this week's reading models and vocabulary into original, personal presentational writing that becomes the actual content of Friday's interpersonal round-table — per the scope-and-sequence's Day 4 target ('draft your identity paragraph — raíces, languages, belonging')."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-2-4",
+    "lessonId": "lesson-spanish-9-2-4",
+    "title": "Drafting Your Identity Paragraph: Raíces, Languages, and Belonging",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Draft your identity paragraph using the sentence starters from today's lesson. Write in Spanish where you can.",
+      "prompts": [
+        { "prompt": "Mis raíces vienen de... (Be specific — name a place, a story, a language.)", "lines": 3 },
+        { "prompt": "En mi casa... (Describe the language(s) actually spoken at home.)", "lines": 2 },
+        { "prompt": "Una parte específica de mi identidad es... porque... (Anchor this in one real detail or memory.)", "lines": 3 },
+        { "prompt": "Yo pertenezco a... (This can name more than one place or group.)", "lines": 2 },
+        { "prompt": "Now combine your answers above into one connected identity paragraph (6-10 sentences), in Spanish.", "lines": 6 }
+      ]
+    }
+  }
+}

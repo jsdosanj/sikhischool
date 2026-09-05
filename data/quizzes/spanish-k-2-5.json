@@ -1,0 +1,30 @@
+{
+  "lessonId": "lesson-spanish-k-2-5",
+  "quiz": {
+    "id": "quiz-spanish-k-2-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Grown-up, read aloud: How do you say 'my name is' in Spanish?",
+        "options": ["me llamo", "¿cómo te llamas?", "hola", "gracias"],
+        "answer": 0
+      },
+      {
+        "q": "Grown-up, read aloud: How do you ask 'what is your name?' in Spanish?",
+        "options": ["me llamo", "adiós", "¿cómo te llamas?", "por favor"],
+        "answer": 2
+      },
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'boy'?",
+        "options": ["la niña", "el niño", "la amiga", "sí"],
+        "answer": 1
+      },
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'a friend who is a girl'?",
+        "options": ["el amigo", "el niño", "la amiga", "no"],
+        "answer": 2
+      }
+    ]
+  }
+}

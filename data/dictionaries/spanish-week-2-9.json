@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-herencia",
+    "language": "spanish",
+    "word": "la herencia",
+    "translation": "heritage",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi apellido es una parte directa de mi herencia, porque viene de dos líneas familiares distintas. (My last name is a direct part of my heritage, because it comes from two distinct family lines.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-apellido",
+    "language": "spanish",
+    "word": "el apellido",
+    "translation": "last name, surname",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "En muchos países de habla hispana, una persona lleva dos apellidos: uno del padre y otro de la madre. (In many Spanish-speaking countries, a person carries two surnames: one from the father and one from the mother.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-origen",
+    "language": "spanish",
+    "word": "el origen",
+    "translation": "origin",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Le pregunté a mi abuela sobre el origen de nuestra familia, y su respuesta duró casi una hora. (I asked my grandmother about our family's origin, and her answer lasted almost an hour.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-bilingue",
+    "language": "spanish",
+    "word": "bilingüe",
+    "translation": "bilingual",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Ser bilingüe no significa hablar los dos idiomas con la misma facilidad todo el tiempo. (Being bilingual doesn't mean speaking both languages with the same ease all the time.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-pertenecer",
+    "language": "spanish",
+    "word": "pertenecer",
+    "translation": "to belong",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Después de mudarnos tres veces, aprendí que se puede pertenecer a más de un lugar a la vez. (After moving three times, I learned that you can belong to more than one place at once.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-raiz",
+    "language": "spanish",
+    "word": "la raíz",
+    "translation": "root",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Buscar la raíz de tu propio apellido a veces revela historias familiares sorprendentes. (Searching for the root of your own last name sometimes reveals surprising family stories.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-generacion",
+    "language": "spanish",
+    "word": "la generación",
+    "translation": "generation",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi hermano mayor y yo somos de la misma generación, pero crecimos hablando español de manera muy diferente. (My older brother and I are of the same generation, but we grew up speaking Spanish very differently.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-me-llamo",
+    "language": "spanish",
+    "word": "me llamo",
+    "translation": "my name is",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Hola, me llamo Sol. (Hello, my name is Sol.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-como-te-llamas",
+    "language": "spanish",
+    "word": "¿cómo te llamas?",
+    "translation": "what is your name?",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "¡Hola! ¿Cómo te llamas? (Hello! What is your name?)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-yo",
+    "language": "spanish",
+    "word": "yo",
+    "translation": "I",
+    "partOfSpeech": "pronoun",
+    "synonyms": [],
+    "exampleSentence": "Yo me llamo Maya. (I am named Maya.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-el-nino",
+    "language": "spanish",
+    "word": "el niño",
+    "translation": "boy",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "El niño juega con la pelota. (The boy plays with the ball.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-la-nina",
+    "language": "spanish",
+    "word": "la niña",
+    "translation": "girl",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "La niña canta una canción. (The girl sings a song.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-el-amigo",
+    "language": "spanish",
+    "word": "el amigo",
+    "translation": "friend (male)",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi amigo se llama Diego. (My friend's name is Diego.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-la-amiga",
+    "language": "spanish",
+    "word": "la amiga",
+    "translation": "friend (female)",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi amiga se llama Sofía. (My friend's name is Sofia.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  }
+]

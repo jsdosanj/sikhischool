@@ -1,0 +1,95 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-2",
+    "courseId": "course-spanish-6",
+    "order": 2,
+    "title": "Identity & Nationality",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-2-3",
+    "unitId": "unit-spanish-6-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Interview Circuit: ¿De dónde eres? ¿Dónde naciste?",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you asked about famous strangers using ¿de dónde es? Today the question turns toward people you actually know — and toward you. Time to interview your own family, and maybe your own classmates, about where they're really from."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "So far you've asked about someone else in the third person, with ¿de dónde es? When you're speaking directly to a person — using the tú you learned back in week 1 — the question changes to ¿De dónde eres? ('Where are you from?'). A closely related question asks specifically about birth: ¿Dónde naciste? ('Where were you born?'). You can answer either question with [[nací en]], meaning 'I was born in,' followed by a city or a country: Nací en Lima. Nací en Bogotá. Nací en Chicago. Notice that nací itself doesn't change for gender — unlike colombiano/colombiana, the verb form is exactly the same whether a boy or a girl is answering; only the place name changes."
+      },
+      {
+        "type": "text",
+        "ref": "interview",
+        "text": "Interview at least three real people — family members, or classmates if you're learning in a co-op or classroom setting. Ask each person these two questions, in this order, and write down their answers:\n\n1. ¿De dónde eres?\n2. ¿Dónde naciste?\n\nIf your interviewee doesn't speak Spanish, help them build a one-line answer using nací en or soy de plus a real place: 'Soy de Seattle,' 'Nací en Manila.' Then find each answer's location on a world map and mark it with a pin, a sticker, or a drawn dot. By the end, your map should have at least three marks telling the real story of where the people in your life come from."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've now asked and answered questions about origin with tú, the same register you learned back in week 1 — and used it on real people instead of famous strangers. Tomorrow you'll read how four real teens describe their own identity in writing."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "build-the-sentence-v1",
+        "config": {
+          "items": [
+            { "words": ["¿De", "dónde", "eres?"], "correctOrder": [0, 1, 2] },
+            { "words": ["¿Dónde", "naciste?"], "correctOrder": [0, 1] },
+            { "words": ["Nací", "en", "Bogotá,", "Colombia."], "correctOrder": [0, 1, 2, 3] },
+            { "words": ["Soy", "de", "los", "Estados", "Unidos."], "correctOrder": [0, 1, 2, 3, 4] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-2-3",
+    "lessonId": "lesson-spanish-6-2-3",
+    "objectives": [
+      "Ask and answer ¿De dónde eres? and ¿Dónde naciste? in the tú register",
+      "Use nací en + place to state where you were born"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "A world map or printable map (physical or digital) and something to mark it with (stickers, pins, or drawn dots)",
+      "At least 3 people to interview (family members, or classmates in a co-op/class setting)"
+    ],
+    "facilitationScript": "1. Review ¿de dónde es? from yesterday, then introduce its tú-form twin: ¿De dónde eres?, plus the birth-specific question ¿Dónde naciste?\n2. Introduce nací en as the answer pattern, and soy de as the alternative.\n3. Model both questions and both answer types with the child once before they interview anyone else.\n4. Complete the build-the-sentence activity to practice assembling the question and answer sentences.\n5. Interview at least 3 real people using both questions, recording name, origin, and birthplace.\n6. Mark each answer's location on a world map.\n7. Complete the worksheet.\n8. Preview tomorrow's reading of four teens' identity bios.",
+    "differentiationTips": [
+      "Struggling: let them ask just one question (¿De dónde eres?) across all interviews before adding the second (¿Dónde naciste?) — mastering one clean exchange beats juggling two half-formed ones",
+      "Ready for more: have them ask a follow-up question in English (why did your family move? etc.) after the Spanish exchange, to connect the language practice to a real story",
+      "If nobody available speaks Spanish, the child can 'interview' family photos or ask in English and translate the answer into Spanish themselves — the map-pinning and sentence-building still work the same way"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. ¿De dónde eres? 2. ¿Dónde naciste? 3. Nací en Bogotá, Colombia. 4. Soy de los Estados Unidos. Interview answers will vary by family — check that each recorded answer starts with Nací en or Soy de and names a real place.",
+    "standardsRationale": "Delivers Day 3's scope-and-sequence design (an interview circuit with world map pins) as genuine Interpersonal Communication — asking real people real questions about themselves — while deliberately reusing the tú register the course established in week 1, so the two weeks' grammar reinforce each other instead of sitting side by side unconnected."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-2-3",
+    "lessonId": "lesson-spanish-6-2-3",
+    "title": "Interview Circuit: ¿De dónde eres? ¿Dónde naciste?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Record each interview below, writing the person's name and their answers to both questions.",
+      "prompts": [
+        { "prompt": "Person 1's name and answer to ¿De dónde eres?", "lines": 2 },
+        { "prompt": "Person 1's answer to ¿Dónde naciste?", "lines": 2 },
+        { "prompt": "Person 2's name and both answers", "lines": 2 },
+        { "prompt": "Person 3's name and both answers", "lines": 2 }
+      ]
+    }
+  }
+}

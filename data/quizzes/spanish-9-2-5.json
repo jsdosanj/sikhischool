@@ -1,0 +1,46 @@
+{
+  "lessonId": "lesson-spanish-9-2-5",
+  "quiz": {
+    "id": "quiz-spanish-9-2-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Javier Morales Ruiz (father) and Elena Castillo Vega (mother) name their daughter Javiera. Under the traditional two-apellido convention, what is her full name?",
+        "options": ["Javiera Ruiz Vega", "Javiera Morales Castillo", "Javiera Castillo Morales", "Javiera Morales Vega"],
+        "answer": 1,
+        "explanation": "Her name takes her father's first apellido (Morales) followed by her mother's first apellido (Castillo)."
+      },
+      {
+        "q": "Is the father-then-mother apellido order identical in every Spanish-speaking country?",
+        "options": ["Yes, it never varies", "No, most countries use only the mother's apellido", "No — Spain allows parents to choose the order, and some countries have historically used only the father's apellido", "Yes, but only in official documents"],
+        "answer": 2,
+        "explanation": "Practice varies: Spain's 1999 reform allows either order, and some countries (like Argentina, historically) passed down only the father's single apellido for generations."
+      },
+      {
+        "q": "What does bilingüe mean, and what does it NOT require?",
+        "options": ["Being born in two countries", "Speaking two languages; it doesn't require equal comfort in both", "Translating professionally", "Speaking exactly two languages and no more"],
+        "answer": 1,
+        "explanation": "Bilingüe means functioning in two languages — it doesn't require equal fluency in both, and many people are comfortably multilingual, not just bilingual."
+      },
+      {
+        "q": "In this week's readings, what did both Mariana's and Diego's essays share about the idea of pertenecer (to belong)?",
+        "options": ["Both writers said they had to choose only one culture", "Neither writer felt they belonged anywhere", "Both writers described belonging to more than one place or culture at once, without having to choose only one", "Belonging wasn't a topic in either essay"],
+        "answer": 2,
+        "explanation": "Both essays treated belonging as something that can include more than one place or language at once, not an either/or choice."
+      },
+      {
+        "q": "What does la raíz mean, and how was it used this week?",
+        "options": ["A synonym for apellido", "A type of Spanish verb tense", "Root — as in a family's roots or origins", "A formal greeting"],
+        "answer": 2,
+        "explanation": "La raíz means root, used this week to describe where a family's history and identity actually grow from."
+      },
+      {
+        "q": "What does la generación describe, based on how Diego used it in his essay ('la primera nacida aquí')?",
+        "options": ["A type of surname", "A specific link in a family's history, like being the first generation born in a country", "A language spoken at home", "A round-table discussion format"],
+        "answer": 1,
+        "explanation": "La generación (generation) describes a specific link in a family's chain — Diego identifies himself as the first generation of his family born in the U.S."
+      }
+    ]
+  }
+}

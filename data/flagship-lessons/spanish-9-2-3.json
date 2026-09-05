@@ -1,0 +1,81 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-2",
+    "courseId": "course-spanish-9",
+    "order": 2,
+    "title": "Identity & Heritage",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-2-3",
+    "unitId": "unit-spanish-9-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Reading Real Voices: Two Bilingual Teens on Identity",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Today you read two short, real-feeling essays written by bilingual teens answering a question a lot like the ones you practiced asking yesterday: What does your own identity, and your own apellido, actually mean to you? Read both essays twice — once for the overall idea, once hunting for specific, concrete details."
+      },
+      {
+        "type": "text",
+        "ref": "pre-reading-vocab",
+        "text": "Before you read, three quick terms worth having ready. [[la raíz]] means root — literally a plant's root, and just as often a family's root, the specific place and people a person's history actually grows out of. Buscar la raíz de tu propio apellido, for instance, can lead to surprisingly specific family history. [[la generación]] means generation — a specific link in that chain, like 'ella es de la tercera generación de su familia en los Estados Unidos' (she's the third generation of her family in the United States). And the idea of [[pertenecer]] — to belong — comes up directly in both essays below: the question of belonging to a single place, or to more than one place at once, without having to fully choose."
+      },
+      {
+        "type": "text",
+        "ref": "essays",
+        "text": "ENSAYO 1 — Mariana Ibarra Cortés, 15 años\n\nMe llamo Mariana Ibarra Cortés. El primer apellido es de mi papá, que nació en Guadalajara. El segundo es de mi mamá, que nació aquí, en Yakima, pero su familia es de Michoacán desde hace tres generaciones. En mi casa hablamos los dos idiomas al mismo tiempo — a veces una oración empieza en español y termina en inglés, y a nadie le parece raro. Mi abuela, que vive con nosotros, casi no habla inglés, así que yo traduzco para ella en las citas médicas desde los diez años. Al principio me daba vergüenza hablar español en la escuela, porque unos compañeros se burlaban de mi acento en inglés. Ahora pienso diferente: traducir para mi abuela no es una carga, es una responsabilidad que me hace sentir útil, y mi acento es simplemente prueba de que pertenezco a dos lugares, no a ninguno a medias.\n\nENSAYO 2 — Diego Fonseca Restrepo, 14 años\n\nMe llamo Diego Fonseca Restrepo. Mi papá es de Medellín, Colombia, y mi mamá es de Ponce, Puerto Rico — se conocieron aquí, en Seattle, hace veinte años. Los domingos amasamos arepas con mi papá, pero mi mamá siempre le agrega un queso distinto, más parecido al que usaba su propia abuela en Ponce. No es una receta de un solo país; es nuestra receta. En la escuela, un compañero me dijo una vez que el español de mi mamá 'sonaba mal' porque no se parecía al español del libro de texto. Me molestó, pero también aprendí algo: hay tantas maneras correctas de hablar español como países que lo hablan, y ninguna acentuación es un error solo porque sea diferente. Todavía me preguntan de dónde soy 'en realidad,' como si tuviera que elegir un solo país. La verdad es que no elijo — pertenezco a los dos al mismo tiempo, y esa es exactamente mi generación: la primera nacida aquí, con raíces en dos lugares distintos."
+      },
+      {
+        "type": "text",
+        "ref": "annotate",
+        "text": "As you read (or reread) both essays, mark at least three specific details — not general statements — that each writer uses to show what identity means to them, rather than just tell you. For example, Mariana doesn't just say 'I'm proud of being bilingual'; she describes translating for her grandmother at medical appointments since age ten. That's a specific detail, not a general claim. Find at least three like it across both essays before tomorrow's writing lesson, where you'll be asked to do the exact same thing in your own paragraph."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Notice something both essays share, even though the families, countries, and specific stories are completely different: neither writer treats belonging as an either/or choice. Tomorrow, you write your own version of exactly that idea — not somebody else's identity, yours."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-2-3",
+    "lessonId": "lesson-spanish-9-2-3",
+    "objectives": [
+      "Identify specific, concrete details (not general statements) that two bilingual teens use to describe identity and belonging",
+      "Define la raíz, la generación, and pertenecer, and locate each concept in an authentic-feeling text"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Highlighter or pen for annotating"],
+    "facilitationScript": "1. Read the pre-reading vocabulary block together before touching the essays.\n2. Read Ensayo 1 aloud (or have the student read it) once for overall meaning, without stopping to annotate yet.\n3. Reread Ensayo 1, this time pausing to mark specific details versus general statements, using the modeled example (translating for her grandmother) as the bar.\n4. Repeat both passes for Ensayo 2.\n5. Discuss the closing block's observation — how do both essays treat belonging as 'both,' not 'either/or'?\n6. Complete the worksheet.\n7. Preview tomorrow's paragraph-drafting task.",
+    "differentiationTips": [
+      "Struggling: focus annotation on just Ensayo 1 first, and only ask for one specific detail rather than three, before attempting Ensayo 2",
+      "Ready for more: have them note one difference between how Mariana's and Diego's families arrived at their bilingual/bicultural household (marriage across regions vs. multi-generational settlement) and discuss why that distinction matters",
+      "These two essays are invented for this lesson but written to be authentic-feeling and specific, not generic 'diverse representation' — if the student has a real family story like either one, that's a genuine invitation to bring it into tomorrow's writing, not a coincidence to point out as strange"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "Sample specific details: Mariana — translating for her grandmother at medical appointments since age ten; sentences that start in Spanish and end in English without anyone noticing. Diego — Sunday arepas made with his father's recipe but his mother's Puerto Rican cheese; a classmate calling his mother's Spanish accent 'wrong.' Both essays describe pertenecer (belonging) to more than one place at once, without treating it as a choice between the two. Student's own connection will vary — evaluate for genuine, specific connection rather than a restated general claim.",
+    "standardsRationale": "Serves WA-WL-2015.1.1 (Interpersonal Communication) by giving the student authentic-feeling first-person models of exactly the kind of family-origin, home-language, and belonging content this week's interview frames and Friday's round-table ask students to produce themselves — per the scope-and-sequence's Day 3 target ('read two short identity essays by bilingual teens; annotate key phrases'). Both essays were deliberately written with specific, concrete family detail (a two-apellido naming detail, a blended family recipe, a real classroom moment) rather than generic statements, since generic 'representation' content teaches the opposite lesson from the one this reading is meant to model."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-2-3",
+    "lessonId": "lesson-spanish-9-2-3",
+    "title": "Reading Real Voices: Two Bilingual Teens on Identity",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's two identity essays.",
+      "rows": [
+        { "problem": "Find one specific, concrete detail (not a general statement) from Mariana's essay that shows what identity means to her. Quote or describe it." },
+        { "problem": "Find one specific, concrete detail from Diego's essay that shows what identity means to him. Quote or describe it." },
+        { "problem": "Both essays deal with the idea of pertenecer (to belong) to more than one place at once. In your own words, how does each writer describe that feeling?" },
+        { "problem": "What is one detail from either essay that connects to your own family's raíces or generación, even if your family's story is very different?" }
+      ]
+    }
+  }
+}

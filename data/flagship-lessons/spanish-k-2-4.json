@@ -1,0 +1,109 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-2",
+    "courseId": "course-spanish-k",
+    "order": 2,
+    "title": "My Name & Meeting Friends",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-2-4",
+    "unitId": "unit-spanish-k-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Mi Amigo, Mi Amiga: Introduce a Friend",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol wants to meet your friends today! Grab a partner — a sibling, a stuffed animal, or a family member — for a pair-up game."
+      },
+      {
+        "type": "text",
+        "ref": "practice-amigo",
+        "text": "A friend who is a boy is [[el amigo]]. Point to your partner (if he's a boy) and say 'Mi amigo se llama... (his name)!'"
+      },
+      {
+        "type": "text",
+        "ref": "practice-amiga",
+        "text": "A friend who is a girl is [[la amiga]]. Point to your partner (if she's a girl) and say 'Mi amiga se llama... (her name)!'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You introduced el amigo or la amiga to Sol using gestures and names — wonderful! Tomorrow is our biggest fiesta yet, mixing every word from two whole weeks!"
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Grown-up, read aloud: 👦 Is this picture el niño or la niña?",
+              "options": ["el niño", "la niña"],
+              "answer": 0,
+              "explanation": "¡Sí! El niño means 'the boy'."
+            },
+            {
+              "q": "Grown-up, read aloud: 👧 Is this picture el niño or la niña?",
+              "options": ["el niño", "la niña"],
+              "answer": 1,
+              "explanation": "¡Sí! La niña means 'the girl'."
+            },
+            {
+              "q": "Grown-up, read aloud: Sol made a new friend who is a boy. Do we say el amigo or la amiga?",
+              "options": ["el amigo", "la amiga"],
+              "answer": 0,
+              "explanation": "¡Sí! El amigo is a friend who is a boy."
+            },
+            {
+              "q": "Grown-up, read aloud: Sol made a new friend who is a girl. Do we say el amigo or la amiga?",
+              "options": ["el amigo", "la amiga"],
+              "answer": 1,
+              "explanation": "¡Sí! La amiga is a friend who is a girl."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-2-4",
+    "lessonId": "lesson-spanish-k-2-4",
+    "objectives": [
+      "Say el amigo (friend, male) or la amiga (friend, female) to describe a partner",
+      "Introduce a partner by name using 'Mi amigo/amiga se llama...' with gesture support"
+    ],
+    "materialsNeeded": ["Sol the puppet", "A partner for your child — a sibling, family member, or stuffed animal works fine"],
+    "facilitationScript": "1. Help your child choose a partner (a family member or a stuffed animal) for today's pair-up game.\n2. Model it first with Sol: point to Sol and say 'Mi amigo se llama Sol!' (or 'mi amiga' if Sol is cast as a girl in your house — either works).\n3. Have your child point to their partner and say 'Mi amigo se llama... (name)!' or 'Mi amiga se llama... (name)!' depending on the partner.\n4. Swap partners 2-3 times so your child practices both el amigo and la amiga if possible.\n5. Complete the on-screen multiple-choice activity together, reading each question aloud since your child may not read yet.\n6. Close by asking: 'What do we call a friend who is a boy? A friend who is a girl?'",
+    "differentiationTips": [
+      "Struggling: only one partner available today? That's perfectly fine — practice just el amigo or la amiga with that one partner, and add the other word another day",
+      "Ready for more: have your child introduce two or three different partners in a row, switching between el amigo and la amiga each time",
+      "Gesture support matters more than perfect grammar this week — a point plus 'amigo' or 'amiga' plus a name is a complete, successful introduction at this age"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken introduction activity — success looks like your child pointing to a partner and attempting 'mi amigo/amiga se llama... (name)', not a written answer. In the multiple-choice game: boy picture → el niño, girl picture → la niña, boy friend → el amigo, girl friend → la amiga.",
+    "standardsRationale": "Builds toward week 2's WA-WL-2015.1.1 Interpersonal Communication target by having the child introduce a third person (not just themselves), the natural next step after Day 1's self-introduction and Day 2's question-and-answer exchange, and recycles el niño/la niña from Day 3 in the multiple-choice review."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-2-4",
+    "lessonId": "lesson-spanish-k-2-4",
+    "title": "Mi Amigo, Mi Amiga: Introduce a Friend",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and act it out together.",
+      "rows": [
+        { "problem": "Point to Sol and say together: 'Mi amigo se llama Sol!'" },
+        { "problem": "Choose a partner (family member or stuffed animal). Point to them and say 'Mi amigo se llama...' or 'Mi amiga se llama...' with their name." },
+        { "problem": "Switch partners and introduce one more friend the same way." }
+      ]
+    }
+  }
+}

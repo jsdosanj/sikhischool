@@ -1,0 +1,115 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-2",
+    "courseId": "course-spanish-9",
+    "order": 2,
+    "title": "Identity & Heritage",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-2-1",
+    "unitId": "unit-spanish-9-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Two Surnames, Two Lines: How Much of the Spanish-Speaking World Names a Person",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Say your own full name out loud. However many words it has, in most of the English-speaking world it's built from one surname line — one last name, inherited from one parent. Across much of the Spanish-speaking world, that's not the default. Today you'll learn a real, working naming convention that puts both parents' family lines directly into a person's name — not folded together, not chosen at random, but both spelled out."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[la herencia]] means heritage — the parts of who you are that were handed down to you, not chosen by you. A name is one of the most literal forms of la herencia there is, and the Spanish-speaking world treats that literally: in Spain and in most of Latin America (Mexico, Colombia, Peru, and many others), a person traditionally carries two apellidos — two real, permanent last names — not one. The first [[el apellido]] comes from the father's own first surname; the second comes from the mother's own first surname. Both are inherited; neither is a 'middle name,' and neither is optional on an official document.\n\nHere's the formula in one line: [given name] + [apellido paterno] + [apellido materno]. If Javier Morales Ruiz and Elena Castillo Vega have a daughter and name her Javiera, her full legal name is Javiera Morales Castillo — Morales from her father's paternal line, Castillo from her mother's paternal line. Notice what got left out: Ruiz (Javier's own mother's surname) and Vega (Elena's own father's surname) don't pass down to Javiera at all — only each parent's own first apellido continues to the next generation.\n\nThis isn't one fixed rule stamped across twenty countries, though, and it's worth being precise about that rather than assuming otherwise. Spain's 1999 legal reform lets parents choose either order for their children, so apellido materno first is now legally possible there. Argentina and several other countries historically passed down only the father's single apellido for generations, and while legal reforms in many of those countries now allow both parents' surnames, the older single-surname pattern is still common in practice. What holds across the variation isn't one formula — it's the underlying idea that a family's herencia runs through both parents, and is worth naming, not quietly absorbed into one line."
+      },
+      {
+        "type": "text",
+        "ref": "why-it-matters",
+        "text": "This isn't just trivia. US schools, clinics, and government forms are built around the single-surname assumption, and that mismatch causes real errors: a student named Sofía García López gets filed under 'L' instead of 'G,' or a form with only one 'Last Name' field forces a family to drop half of a real legal name. Recognizing the two-apellido system means recognizing an actual person's actual name — correctly, whether or not it's your own family's practice."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Today's convention explains something you may have wondered about without ever having the vocabulary for it — why a classmate's 'two last names' were never a hyphen or a typo. Tomorrow, you'll use exactly this kind of family-history territory to build real interview questions about origins, home languages, and family stories."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Javier Morales Ruiz (father) and Elena Castillo Vega (mother) name their daughter Javiera. Under the traditional two-apellido convention, what is her full name?",
+              "options": ["Javiera Castillo Morales", "Javiera Ruiz Vega", "Javiera Morales Castillo", "Javiera Morales Vega"],
+              "answer": 2,
+              "explanation": "Her name takes her father's first apellido (Morales) followed by her mother's first apellido (Castillo) — Ruiz and Vega, the grandparents' second apellidos, don't pass down."
+            },
+            {
+              "q": "In the two-apellido system, where does the apellido materno actually come from?",
+              "options": ["The mother's full married name", "The mother's own first surname", "The father's mother's surname", "Whichever surname is more common"],
+              "answer": 1,
+              "explanation": "The apellido materno is the mother's own first (paternal-line) surname — not her mother's surname, and not a name acquired through marriage."
+            },
+            {
+              "q": "Why can filing a two-apellido name by only its last word (e.g., alphabetizing 'García López' under L) cause a real error?",
+              "options": [
+                "Because there's no correct way to file a two-apellido name",
+                "Because the second apellido is actually a middle name",
+                "Because both apellidos are permanent legal surnames, and the first one is usually the one meant for indexing",
+                "Because Spanish names are always written in reverse order"
+              ],
+              "answer": 2,
+              "explanation": "Both words are real surnames; treating the second one as if it were the 'true' last name (the English-language default) files a real person under the wrong name."
+            },
+            {
+              "q": "Is the father-then-mother apellido order identical in every Spanish-speaking country?",
+              "options": ["Yes, it's fixed everywhere", "Yes, but only for legal documents", "No, most countries use the mother's apellido first", "No — Spain allows parents to choose the order, and some countries have historically used only the father's apellido"],
+              "answer": 3,
+              "explanation": "Practice varies: Spain's 1999 reform allows either order, and some countries (like Argentina, historically) passed down only the father's single apellido for generations."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-2-1",
+    "lessonId": "lesson-spanish-9-2-1",
+    "objectives": [
+      "Explain the two-apellido naming convention (apellido paterno + apellido materno) and correctly construct an example name from two parents' surnames",
+      "Recognize that the convention varies by country and over time, rather than treating it as one fixed rule everywhere"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask the student to say their own full name and identify where each part of it came from — most will realize they've never thought about it.\n2. Read the explanation block together, pausing to work through the Javiera example on paper (write out the four grandparents' surnames and circle which two actually pass down).\n3. Discuss the 'why it matters' block — has the student, a family member, or a classmate ever had a name misfiled on a US form?\n4. Complete the multiple-choice activity.\n5. Complete the worksheet.\n6. Preview tomorrow's interview-frame lesson.",
+    "differentiationTips": [
+      "Struggling: work through just one example family (like Javiera's) slowly on paper before attempting the worksheet's second family — seeing which surnames get 'dropped' is the key insight, not memorizing a rule",
+      "Ready for more: have them research whether their own family (or a family they know) uses one surname, two surnames, or a hyphenated combination, and how that came to be",
+      "Be precise, not sweeping: this convention is common but not universal across the Spanish-speaking world — avoid letting the student walk away thinking every Spanish surname works identically"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Sofía Ramírez Navarro (father Andrés Ramírez Soto's first apellido, then mother Beatriz Navarro Cruz's first apellido). 2. Soto (father's mother's surname) and Cruz (mother's father's surname) do not pass down. 3. Because both words are real, permanent surnames — treating only the second one as the 'true' last name misfiles the person under the wrong name. 4. False — Spain's 1999 reform allows either order by parental choice, and some countries (like Argentina) historically used only the father's single apellido for generations.",
+    "standardsRationale": "Opens the week's Interpersonal Communication standard (WA-WL-2015.1.1) with a concrete, accurate naming convention before Tuesday's interview-frame practice — per the scope-and-sequence's week 2 Day 1 design ('the two-surname system — why many Spanish speakers carry both parents' apellidos'). Deliberately hedges on universality (Spain's 1999 reform, Argentina's historical single-apellido pattern) rather than presenting one rule as covering every Spanish-speaking country, since that overgeneralization is the most common real-world error this content needs to correct."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-2-1",
+    "lessonId": "lesson-spanish-9-2-1",
+    "title": "Two Surnames, Two Lines: How Much of the Spanish-Speaking World Names a Person",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's lesson on the two-apellido naming convention.",
+      "rows": [
+        { "problem": "Using the formula [given name] + [apellido paterno] + [apellido materno], write the full name of a child named Sofía, whose father is Andrés Ramírez Soto and whose mother is Beatriz Navarro Cruz." },
+        { "problem": "In your answer above, which two grandparent surnames did NOT pass down to Sofía? Name both, and explain whose surnames they were." },
+        { "problem": "Why can filing a two-apellido name by its last word (instead of its first) create a real error on an American form?" },
+        { "problem": "True or false, and explain: 'Every Spanish-speaking country uses the exact same two-apellido order.'" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-2",
+    "courseId": "course-spanish-k",
+    "order": 2,
+    "title": "My Name & Meeting Friends",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-2-2",
+    "unitId": "unit-spanish-k-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "¿Cómo Te Llamas? Sol's Interview Game",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol is a curious puppet today — Sol wants to know everyone's name! Sol will go around the circle asking a big question."
+      },
+      {
+        "type": "text",
+        "ref": "practice-como-te-llamas",
+        "text": "Listen for Sol's question: [[¿cómo te llamas?]] — that means 'what is your name?' When Sol asks you, answer 'Me llamo... (your name)!'"
+      },
+      {
+        "type": "text",
+        "ref": "practice-tu",
+        "text": "Sol uses the word [[tú]] to mean 'you' when talking to a friend — just like yo means 'I' when talking about yourself. Ask a friend or family member: '¿Cómo te llamas tú?'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You asked and answered ¿cómo te llamas? using tú and yo — a real conversation! Tomorrow, you'll help Sol sort niños and niñas."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match the Spanish word to its meaning.",
+          "pairs": [
+            { "left": "me llamo", "right": "🙋 my name is" },
+            { "left": "¿cómo te llamas?", "right": "❓ what is your name?" },
+            { "left": "yo", "right": "😀 I" },
+            { "left": "tú", "right": "👉 you" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-2-2",
+    "lessonId": "lesson-spanish-k-2-2",
+    "objectives": [
+      "Recognize and respond to the question ¿cómo te llamas? (what is your name?) with me llamo... (my name is...)",
+      "Use tú (you) when asking a friend or family member their name"
+    ],
+    "materialsNeeded": ["Sol the puppet", "A few family members or stuffed animals to complete an 'interview' circle (works fine with just you and your child too)"],
+    "facilitationScript": "1. Have Sol turn to your child and ask, in a curious voice, '¿Cómo te llamas?'\n2. Coach your child to answer 'Me llamo... (their name)!' — echo it together a few times until it feels natural.\n3. Explain simply that tú means 'you' when we talk to a friend, the same way yo means 'I' when we talk about ourselves.\n4. Have your child become the interviewer: ask Sol, then a stuffed animal, then a family member, '¿Cómo te llamas tú?' and listen for the answer.\n5. Go around the room 'interviewing' 3-4 more 'guests', switching who asks and who answers.\n6. Complete the on-screen matching activity together, reading each tile aloud since your child may not read yet.\n7. Close by asking: 'What does Sol ask when Sol wants to know your name? What do you say back?'",
+    "differentiationTips": [
+      "Struggling: skip tú for today and focus only on hearing ¿cómo te llamas? and answering me llamo... — tú can be added once the question-and-answer pattern feels automatic",
+      "Ready for more: have your child interview every family member and a pet, keeping track of how many 'names' they collected",
+      "The question is long for a first echo — it's fine if your child only catches 'te llamas' at first and grows into the full question over the week"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken question-and-answer activity — success looks like your child recognizing ¿cómo te llamas? and attempting 'me llamo... (their name)' in response, not a written answer. In the matching game: me llamo → 🙋, ¿cómo te llamas? → ❓, yo → 😀, tú → 👉.",
+    "standardsRationale": "Continues week 2's WA-WL-2015.1.1 target by turning yesterday's one-way name-sharing into a real two-way exchange — asking and answering — which is the heart of ACTFL Interpersonal Communication, and recycles yo alongside its counterpart tú in the matching activity."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-2-2",
+    "lessonId": "lesson-spanish-k-2-2",
+    "title": "Sol's Interview Game",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together.",
+      "rows": [
+        { "problem": "Have Sol ask your child: '¿Cómo te llamas?' Coach your child to answer 'Me llamo... (their name)!'" },
+        { "problem": "Have your child ask a family member or stuffed animal: '¿Cómo te llamas tú?' and listen for the answer." },
+        { "problem": "Take turns 'interviewing' 2-3 more family members or toys the same way." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+# Extends gitleaks' default ruleset (all real detection stays active) and adds
+# one narrow, exact-match allowlist for known-public, non-secret literal
+# strings that trip the generic-api-key rule on entropy alone.
+#
+# Why this exists: src/components/games/registry.ts's step-type keys (e.g.
+# "matching-pairs-v1") are dash-separated lowercase strings that happen to
+# compute high enough entropy to look like a generic API key to a heuristic
+# scanner. They appear, correctly, in every lesson JSON file that authors a
+# game activity — and with ~140 more weeks of Spanish content planned (plan
+# §8's Phase 1 checkpoint), re-triggering on whichever exact key string hits
+# unluckily was going to keep happening. .gitleaksignore (still in this repo,
+# still valid for one-off cases) needed a new fingerprint line practically
+# every content-authoring PR; this fixes the recurring cause instead.
+#
+# Verified before adding (2026-09-05): tested against a real-looking fake AWS
+# access key in the same file as "matching-pairs-v1" — the allowlist
+# suppresses the component-key string only; the fake AWS key is still
+# flagged. This allowlist is intentionally exact-match (anchored ^...$), not
+# a broad pattern, so it cannot accidentally swallow an unrelated real secret
+# that merely contains one of these substrings.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Known public games-engine component keys (registry.ts) — not secrets"
+regexes = [
+  '''^multiple-choice-v1$''',
+  '''^matching-pairs-v1$''',
+  '''^speed-drill-v1$''',
+  '''^translate-v1$''',
+  '''^cloze-v1$''',
+  '''^listening-comprehension-v1$''',
+  '''^build-the-sentence-v1$''',
+  '''^speaking-prompt-v1$''',
+]

@@ -1,0 +1,89 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-6",
+    "courseId": "course-spanish-9",
+    "order": 6,
+    "title": "Gastronomy of Latin America",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-6-4",
+    "unitId": "unit-spanish-9-6",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Your Recipe Card: A Family Dish, Steps in Order",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Monday through Wednesday you read other people's dishes and other people's history. Today it comes home. You will write a recipe card, in Spanish, for a dish your family actually makes — with the steps in the right order, so someone else could follow them. If your family does not cook much, pick a dish someone you know makes, or one you would want to learn."
+      },
+      {
+        "type": "text",
+        "ref": "la-tarjeta",
+        "text": "Use the same three-part shape you read yesterday, plus two lines of context:\n— Título: the name of the dish, in Spanish if it has a Spanish name, otherwise as your family says it.\n— De dónde viene / quién lo hace: one line — where the dish is from, or who in your family makes it.\n— Ingredientes: a list, each line with a cantidad — 2 tazas de arroz, media cebolla, un poco de sal. Aim for 5–10 ingredientes.\n— Preparación: 6–10 numbered steps, in order.\n— Una línea final: what the sabor is (dulce, salado, picante, ácido) and when the dish gets eaten (a diario, en una reunión familiar, en un día festivo)."
+      },
+      {
+        "type": "text",
+        "ref": "poner-los-pasos-en-orden",
+        "text": "Two things make the steps readable. First, sequence words: primero, luego, después, entonces, mientras (while), por último / al final. One per step is plenty. Second, a consistent verb form. Spanish recipes are written two ways, and either is correct — pick one and stay with it:\n— infinitives: \"Cortar la cebolla. Sofreír a fuego medio. Añadir el arroz.\" (Very common in printed cookbooks.)\n— tú or usted commands: \"Corta la cebolla. Sofríe a fuego medio.\" / \"Corte la cebolla. Sofría a fuego medio.\"\nWrite in Spanish where you can and leave a word in English only where you genuinely need to — a real rough recipe beats a vague polished one. Use a dictionary for ingredient names."
+      },
+      {
+        "type": "text",
+        "ref": "practica-a-perspectiva",
+        "text": "This week's standard is about products revealing perspectives, and your family dish is a product too. The context line is where that shows. \"Este plato viene de Jalisco, de donde es mi abuela\" tells a reader something about where your family is from. \"Lo comemos solo en Navidad\" tells them the dish marks an occasion. \"Lo hacemos cuando alguien está enfermo\" tells them it is care. You are doing the same move you did with mole and ceviche — product to perspective — except the product is yours, and you already know the perspective. Say it in one honest sentence."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow you teach it. In a cooking-show presentation, you will walk the class through your dish in Spanish — ingredients, steps in order, and the one-sentence story of where it comes from."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-6-4",
+    "lessonId": "lesson-spanish-9-6-4",
+    "objectives": [
+      "Write a recipe card in Spanish for a family dish: título, a context line, 5–10 ingredientes with cantidades, and 6–10 numbered steps in correct order",
+      "Sequence the steps with connector words (primero, luego, después, por último) and a single consistent verb form (infinitives or commands)",
+      "Write one honest sentence connecting the dish to a perspective — where the family is from, an occasion, an act of care — per standard WA-WL-2015.2.2"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "A Spanish dictionary or glossary for ingredient names",
+      "A family dish in mind (asked about at home the night before, if possible)"
+    ],
+    "facilitationScript": "1. Read the hook and the la-tarjeta block; have the student name their dish and say who makes it before writing anything.\n2. Build the ingredient list first, on the worksheet — each line needs a cantidad. Help with ingredient vocabulary; a dictionary is expected here.\n3. Have the student list the actions in the dish, then number them into order. Check the order by asking 'could someone follow this without already knowing the dish?'\n4. Read the poner-los-pasos-en-orden block. Have the student choose one verb form (infinitives or commands) and one or two sequence words, and apply them consistently.\n5. Read the practice-to-perspective block. Help the student write the single context sentence — where it is from, or when it is eaten, or why.\n6. Assemble the full card on the worksheet.\n7. Preview tomorrow's cooking-show presentation; the student will present this card.",
+    "differentiationTips": [
+      "Struggling: a 5-step recipe for something simple (scrambled eggs the way your family makes them, a specific sandwich) fully counts — order and a clear context line matter more than length",
+      "Ready for more: challenge the student to write the whole card in Spanish including the steps, using one consistent command register, and to add a second context sentence",
+      "If a student has no family dish they want to share, the 'someone you know' or 'a dish you'd want to learn' option is a full substitute — offer it without making them ask"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct card. Evaluate for: (1) título and a one-line context (where it is from / who makes it); (2) 5–10 ingredientes, each with a cantidad; (3) 6–10 steps in an order a stranger could follow; (4) sequence words used and ONE verb form (infinitives or commands) held consistently; (5) a final line naming the sabor and when the dish is eaten; (6) one honest sentence linking the dish to a perspective. Spanish throughout where the student can manage it, English only where genuinely needed.",
+    "standardsRationale": "Serves WA-WL-2015.2.2 by turning the week's product-to-perspective skill inward: the student produces a cultural product (a family recipe) and names the perspective it carries. Per the scope-and-sequence's week 6 Day 4 design ('Write a recipe card for a family dish in Spanish, with steps in order'). Reuses the recipe structure and the imperative recognition from Day 2, and mirrors week 5's Day 5 move of applying a Cultures analysis to the student's own household. No activity game today: the writing is the task."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-6-4",
+    "lessonId": "lesson-spanish-9-6-4",
+    "title": "Your Recipe Card: A Family Dish, Steps in Order",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Build your recipe card one section at a time, then assemble it. Write in Spanish where you can; use a dictionary for ingredient names.",
+      "prompts": [
+        { "prompt": "Título del plato (and, if it has one, its name in Spanish):", "lines": 1 },
+        { "prompt": "De dónde viene / quién lo hace en tu familia — one line:", "lines": 2 },
+        { "prompt": "Ingredientes — 5 to 10 lines, each with a cantidad (2 tazas de..., media..., un poco de...):", "lines": 10 },
+        { "prompt": "Preparación — 6 to 10 numbered steps, in order. Pick ONE verb form (infinitives or commands) and one or two sequence words (primero, luego, por último).", "lines": 12 },
+        { "prompt": "Última línea: el sabor del plato (dulce, salado, picante, ácido) y cuándo se come (a diario, en una reunión familiar, en un día festivo):", "lines": 2 },
+        { "prompt": "Practice-to-perspective: one honest sentence connecting the dish to a perspective — where your family is from, an occasion it marks, or an act of care:", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-el-cuaderno",
+    "language": "spanish",
+    "word": "el cuaderno",
+    "translation": "notebook",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Escribo la fecha en mi cuaderno todos los días. (I write the date in my notebook every day.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-el-boligrafo",
+    "language": "spanish",
+    "word": "el bolígrafo",
+    "translation": "pen",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Necesito un bolígrafo azul para la clase de español. (I need a blue pen for Spanish class.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-la-regla",
+    "language": "spanish",
+    "word": "la regla",
+    "translation": "ruler",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Uso la regla para dibujar una línea recta. (I use the ruler to draw a straight line.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-el-escritorio",
+    "language": "spanish",
+    "word": "el escritorio",
+    "translation": "desk",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "La maestra tiene muchos libros en su escritorio. (The teacher has many books on her desk.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-la-pizarra",
+    "language": "spanish",
+    "word": "la pizarra",
+    "translation": "whiteboard, chalkboard",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "El maestro escribe la tarea en la pizarra. (The teacher writes the homework on the board.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-el-borrador",
+    "language": "spanish",
+    "word": "el borrador",
+    "translation": "eraser",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Necesito el borrador para limpiar la pizarra. (I need the eraser to clean the board.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-la-computadora",
+    "language": "spanish",
+    "word": "la computadora",
+    "translation": "computer",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "En la clase hay diez computadoras para los estudiantes. (In the class there are ten computers for the students.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  }
+]

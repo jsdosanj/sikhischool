@@ -1,0 +1,106 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-6",
+    "courseId": "course-spanish-3",
+    "order": 6,
+    "title": "In the Classroom: En el Salón de Clases",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-6-3",
+    "unitId": "unit-spanish-3-6",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "¿Qué Hay en Mi Escritorio? A Supply Memory Game",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You know the seven words and you can follow the commands. Now test your memory: a handful of supplies on a desk, ten seconds to look, then everything gets covered — and you name what you saw, in Spanish."
+      },
+      {
+        "type": "text",
+        "ref": "hay",
+        "text": "To say what is on the desk, start with hay, which means 'there is' or 'there are.' You already used it for counting last week: 'Hay veinte estudiantes en mi clase.' It works the same way for objects:\n\nEn el escritorio hay un cuaderno. — On the desk there is a notebook.\nHay una regla y un bolígrafo. — There is a ruler and a pen."
+      },
+      {
+        "type": "text",
+        "ref": "un-and-una",
+        "text": "The word for 'a' matches the noun's group, the same el/la match you learned on Monday: un for the el words (un cuaderno, un bolígrafo, un borrador), una for the la words (una regla, una pizarra, una computadora). And when there is more than one, add -s just like in English: un cuaderno, dos cuadernos; una regla, tres reglas."
+      },
+      {
+        "type": "text",
+        "ref": "how-to-play",
+        "text": "Here is the memory game:\n\n1. One player puts four or five real supplies on a desk or tray — maybe a cuaderno, a regla, two bolígrafos, and a borrador.\n2. Everyone looks for ten seconds. Then the player covers the tray with a cloth or a jacket.\n3. Take turns naming one thing that was there: 'Hay un cuaderno.' 'Hay dos bolígrafos.' Use last week's numbers whenever there is more than one.\n4. Uncover and check. Add one more object each round to make it harder."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just held a whole desktop of Spanish words in your head and named them from memory, counting the ones that came in pairs. Tomorrow you switch from listening to reading: a written instruction card with four steps to follow — draw, write, and cut."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "notebook", "answer": "el cuaderno" },
+            { "prompt": "pen", "answer": "el bolígrafo" },
+            { "prompt": "ruler", "answer": "la regla" },
+            { "prompt": "desk", "answer": "el escritorio" },
+            { "prompt": "whiteboard / chalkboard", "answer": "la pizarra" },
+            { "prompt": "eraser", "answer": "el borrador" },
+            { "prompt": "computer", "answer": "la computadora" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-6-3",
+    "lessonId": "lesson-spanish-3-6-3",
+    "objectives": [
+      "Recall the seven supply names from memory after a brief look",
+      "Say what is on a desk using the frame hay + un/una + noun",
+      "Use last week's numbers with plural supplies (dos bolígrafos, tres reglas)"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "Four to six real classroom supplies and a cloth or jacket to cover them",
+      "A family member or classmate to play with"
+    ],
+    "facilitationScript": "1. Review the seven words from Monday quickly, articles included.\n2. Introduce hay ('there is / there are'), connecting it to last week's 'Hay veinte estudiantes.'\n3. Show the un/una match: un for el words, una for la words. Practice a few: un cuaderno, una regla, un borrador, una computadora.\n4. Point out the -s plural and pair it with numbers: dos cuadernos, tres reglas.\n5. Play the memory game: set out 4-5 supplies, look for ten seconds, cover, take turns saying 'Hay un/una...' or 'Hay dos/tres...'. Add an object each round.\n6. Play the speed-drill activity.\n7. Complete the worksheet.\n8. Preview tomorrow's written instruction card.",
+    "differentiationTips": [
+      "Struggling: keep every round to single objects so the child only has to produce 'Hay un cuaderno' without adding numbers",
+      "Ready for more: use six or seven objects with several repeats, so the child must say 'Hay cuatro bolígrafos' and get both the number and the -s ending right",
+      "For the teaching adult: un/una is the indefinite article ('a / an'); the child does not need that label, just the el-word / la-word match. Plural agreement beyond adding -s is not a week 6 target",
+      "This game is a live spoken exchange, so it does not depend on the audio-recording gap noted elsewhere (open decision, expansion-plan-2026-09.md §12.9)"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Frame: hay = 'there is / there are.' Use un with el words (un cuaderno, un bolígrafo, un escritorio, un borrador) and una with la words (una regla, una pizarra, una computadora). Plurals add -s and pair with numbers: dos cuadernos, tres reglas, cuatro bolígrafos. Speed-drill answers are the seven words with articles: el cuaderno, el bolígrafo, la regla, el escritorio, la pizarra, el borrador, la computadora.",
+    "standardsRationale": "The scope-and-sequence names a 'What's on my desk?' memory game as the Day 3 activity. Recalling and naming supplies under a memory load exercises the productive edge of the week's WA-WL-2015.1.2 work, while the hay + un/una frame gives the child a reusable sentence shape rather than isolated words. Folding last week's numbers into the plural counts is the deliberate spiraling the course's band notes call for, keeping numbers 0-100 active while the new vocabulary lands."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-6-3",
+    "lessonId": "lesson-spanish-3-6-3",
+    "title": "¿Qué Hay en Mi Escritorio? A Supply Memory Game",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the classroom memory game.",
+      "rows": [
+        { "problem": "Which Spanish word means 'there is' or 'there are'?" },
+        { "problem": "Fill in the blank: 'En el escritorio hay ___ cuaderno.' (Use un or una.)" },
+        { "problem": "Write 'there is a ruler' in Spanish." },
+        { "problem": "The tray has 3 pens. Write it in Spanish: 'Hay ___ bolígrafos.'" },
+        { "problem": "List three classroom supplies in Spanish, each with el or la." }
+      ]
+    }
+  }
+}

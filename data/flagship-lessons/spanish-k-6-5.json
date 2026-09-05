@@ -1,0 +1,109 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-6",
+    "courseId": "course-spanish-k",
+    "order": 6,
+    "title": "Colors II & Favorites",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-6-5",
+    "unitId": "unit-spanish-k-6",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "El Desfile de Colores: Dress the Paper Doll",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "It's the last day of colors, and Sol is throwing a desfile — a parade! Everyone dresses a paper doll in their favorite colors and marches it in the parade."
+      },
+      {
+        "type": "text",
+        "ref": "practice-dress-doll",
+        "text": "Color your paper doll however you like. Say each color in Spanish as you use it: 'anaranjado for the hat, morado for the shirt, gris for the shoes.' Use your favorite colors and any of the new ones — anaranjado, morado, rosado, café, gris."
+      },
+      {
+        "type": "text",
+        "ref": "practice-parade",
+        "text": "Now march your doll in Sol's parade! When it's your doll's turn, show it off and say, 'Mi color favorito es el ___,' pointing to that color on your doll."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Your doll marched in the color parade, and you named every color in Spanish — from rojo all the way to gris! Next week, Sol introduces someone special: la familia, your family."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Grown-up, read aloud: 🟠 Sol spies something this color. Is it anaranjado or morado?",
+              "options": ["anaranjado", "morado"],
+              "answer": 0,
+              "explanation": "¡Sí! Anaranjado means 'orange'."
+            },
+            {
+              "q": "Grown-up, read aloud: 🟣 What color is this — gris or morado?",
+              "options": ["gris", "morado"],
+              "answer": 1,
+              "explanation": "¡Sí! Morado means 'purple'."
+            },
+            {
+              "q": "Grown-up, read aloud: 🟤 A bear is this color. Is it café or rosado?",
+              "options": ["café", "rosado"],
+              "answer": 0,
+              "explanation": "¡Sí! Café means 'brown' — it's also the Spanish word for coffee."
+            },
+            {
+              "q": "Grown-up, read aloud: 🌸 What color is this flower — rosado or gris?",
+              "options": ["rosado", "gris"],
+              "answer": 0,
+              "explanation": "¡Sí! Rosado means 'pink'."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-6-5",
+    "lessonId": "lesson-spanish-k-6-5",
+    "objectives": [
+      "Name colors in Spanish while coloring, using the five new colors and week 5's colors",
+      "Present their paper doll with the sentence 'Mi color favorito es el ___' in a cumulative end-of-unit review"
+    ],
+    "materialsNeeded": ["A paper doll outline (draw or print one), plus crayons or markers", "Sol the puppet", "A little space for a doll 'parade'"],
+    "facilitationScript": "1. Explain that a desfile is a parade, and today's parade is all about color.\n2. Give your child a paper doll outline to color however they like.\n3. As your child colors each part, have them name the color in Spanish — 'morado,' 'café,' 'gris' — helping with any word.\n4. When the doll is done, line up for the parade: march the doll along and have your child present it, saying 'Mi color favorito es el ___' and pointing to that color.\n5. Take turns — you or Sol can march a doll too and present its colors.\n6. Play the on-screen multiple-choice review together, reading each question aloud since your child may not read yet.\n7. Close by asking your child to name every color they can remember in Spanish, old and new.\n8. Tell your child that next week Sol introduces family words — la familia.",
+    "differentiationTips": [
+      "Struggling: name the color together as your child colors, and let them present the doll by just pointing and saying one color word",
+      "Ready for more: your child describes the doll in a phrase with correct endings — 'la camisa morada, los zapatos grises'",
+      "This is a celebration lesson — the goal is confident, playful color-naming your child already practiced this week, not teaching anything new"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a cumulative make-and-present activity — success looks like your child naming colors in Spanish while coloring and presenting the doll with 'Mi color favorito es el ___,' with help as needed. In the multiple-choice game: orange → anaranjado, purple → morado, brown → café, pink → rosado.",
+    "standardsRationale": "Closes week 6's WA-WL-2015.1.1 Interpersonal Communication arc: the child makes something personal and then presents it with the week's sentence frame, 'Mi color favorito es el ___.' Matches the scope-and-sequence's Day 5 design (a color parade dressing a paper doll) and folds every color from weeks 5-6 into one connected activity rather than an isolated word list."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-6-5",
+    "lessonId": "lesson-spanish-k-6-5",
+    "title": "El Desfile de Colores: Dress the Paper Doll",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud and make the paper doll together as your child's end-of-unit color review.",
+      "rows": [
+        { "problem": "Color a paper doll however your child likes, naming each color in Spanish as you go." },
+        { "problem": "March the doll in a pretend parade and present it: 'Mi color favorito es el ___.'" },
+        { "problem": "Name every color from the last two weeks together — rojo, azul, amarillo, verde, blanco, negro, anaranjado, morado, rosado, café, gris." }
+      ]
+    }
+  }
+}

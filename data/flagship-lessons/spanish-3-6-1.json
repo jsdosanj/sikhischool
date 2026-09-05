@@ -1,0 +1,115 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-6",
+    "courseId": "course-spanish-3",
+    "order": 6,
+    "title": "In the Classroom: En el Salón de Clases",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-6-1",
+    "unitId": "unit-spanish-3-6",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Búsqueda del Tesoro: A Classroom Scavenger Hunt",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Since your very first week of Spanish, you have been writing in your Spanish notebook. Today you finally learn what to call it — plus six more things that sit within arm's reach in almost any classroom. Last week you counted to one hundred; this week you start naming the world around you, beginning right at your desk."
+      },
+      {
+        "type": "text",
+        "ref": "new-words",
+        "text": "Here are the seven words for this week. Each one names something in the classroom, and each one comes with its little word for 'the' — el or la:\n\n[[el cuaderno]] — notebook\n[[el bolígrafo]] — pen\n[[la regla]] — ruler\n[[el escritorio]] — desk\n[[la pizarra]] — whiteboard or chalkboard\n[[el borrador]] — eraser (the kind that wipes the board)\n[[la computadora]] — computer"
+      },
+      {
+        "type": "text",
+        "ref": "el-and-la",
+        "text": "Four of this week's words use el — el cuaderno, el bolígrafo, el escritorio, el borrador. Three use la — la regla, la pizarra, la computadora. Spanish sorts every single noun into one of those two groups. You already met this back in week 2 with el señor and la señora, and in week 3 with la letra and el alfabeto. There is no trick that tells you which group a brand-new word belongs to, so from now on, learn the el or the la as part of the word — say 'el cuaderno,' never just 'cuaderno.'"
+      },
+      {
+        "type": "text",
+        "ref": "regional-words",
+        "text": "Two of this week's words change from place to place. In Mexico and much of Central America, many people say la pluma instead of el bolígrafo, and el pizarrón instead of la pizarra. Every one of those is correct Spanish. This course teaches el bolígrafo and la pizarra because they are understood everywhere — but if someone in your family says la pluma, they are not wrong, they are just from somewhere else."
+      },
+      {
+        "type": "text",
+        "ref": "scavenger-hunt",
+        "text": "Now go hunting. Take seven sticky notes or paper scraps. On each one, write a Spanish word from the list — with its el or la — then stick it on the real object. Say the word out loud as you place it: 'el cuaderno' on your notebook, 'la pizarra' on the board. Can you find and label all seven? If there is no real pizarra or computadora near you, draw a quick picture and label that instead."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just named seven things you see every single day, and you noticed how Spanish splits its nouns into an el group and a la group. Tomorrow those objects start moving: you will learn the commands a teacher calls out loud — saquen el cuaderno, escuchen, levanten la mano."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match each Spanish classroom word on the left to its English meaning on the right.",
+          "pairs": [
+            { "left": "el cuaderno", "right": "notebook" },
+            { "left": "el bolígrafo", "right": "pen" },
+            { "left": "la regla", "right": "ruler" },
+            { "left": "el escritorio", "right": "desk" },
+            { "left": "la pizarra", "right": "whiteboard / chalkboard" },
+            { "left": "el borrador", "right": "eraser" },
+            { "left": "la computadora", "right": "computer" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-6-1",
+    "lessonId": "lesson-spanish-3-6-1",
+    "objectives": [
+      "Name all seven classroom supplies in Spanish with the correct article (el or la)",
+      "Sort the seven words into the el group and the la group",
+      "Label real classroom objects (or drawings) with the matching Spanish word card"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "Seven sticky notes or paper scraps for labeling",
+      "Real classroom objects (notebook, pen, ruler, desk, board, eraser, computer) or quick drawings of any that aren't on hand",
+      "A parent or teacher to model each word aloud"
+    ],
+    "facilitationScript": "1. Point out that the child has written in a Spanish notebook every week — today it gets its name, el cuaderno, along with six more classroom words.\n2. Introduce the seven words one at a time, always with the article: el cuaderno, el bolígrafo, la regla, el escritorio, la pizarra, el borrador, la computadora. Have the child echo each one.\n3. Draw two columns, EL and LA, and sort the seven words together. Connect back to el señor / la señora from week 2.\n4. Mention the regional words: la pluma for el bolígrafo, el pizarrón for la pizarra — both correct, both used by real families.\n5. Hand over seven sticky notes. The child writes each word (with its article) and sticks it on the real object, saying it aloud. Use drawings for anything missing.\n6. Play the matching activity together.\n7. Complete the worksheet, saying each word aloud while writing it.\n8. Preview tomorrow: spoken classroom commands and a Total Physical Response game.",
+    "differentiationTips": [
+      "Struggling: master just three words today (el cuaderno, la regla, la pizarra) and add the rest across the week",
+      "Ready for more: have the child label five more real objects they can name or look up (la puerta, la ventana, la silla, la mochila, el libro) and sort those into el/la too",
+      "Regional note for the teaching adult: a student's own small desk is often called el pupitre (you saw it in week 4's number sentences) while el escritorio leans toward the teacher's desk or a writing desk — either label is fine for this hunt; and la pluma / el pizarrón are the common Mexican and Central American words for el bolígrafo / la pizarra",
+      "This lesson leans on a parent or teacher saying each word aloud rather than an audio recording, since the course has no audio content yet (open decision, expansion-plan-2026-09.md §12.9) — a live voice plus the written word covers the same ground"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "The seven words with articles: el cuaderno (notebook), el bolígrafo (pen), la regla (ruler), el escritorio (desk), la pizarra (whiteboard/chalkboard), el borrador (eraser), la computadora (computer). EL group: cuaderno, bolígrafo, escritorio, borrador. LA group: regla, pizarra, computadora. Regional variants: la pluma (el bolígrafo), el pizarrón (la pizarra) — both correct, common in Mexico and Central America.",
+    "standardsRationale": "Opens the week's WA-WL-2015.1.2 Interpretive Communication arc by building the vocabulary a listener needs before any command or instruction can be understood: the seven supply words as sound-and-print shapes, each tied to its article so the el/la grouping is learned with the word rather than bolted on later. The scope-and-sequence names a classroom scavenger hunt with word cards as the Day 1 activity; this delivers exactly that while making the el/la split explicit, since it recurs in every later noun the course teaches."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-6-1",
+    "lessonId": "lesson-spanish-3-6-1",
+    "title": "Búsqueda del Tesoro: A Classroom Scavenger Hunt",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write each classroom word two times. Say it out loud — with el or la — as you write it.",
+      "prompts": [
+        { "prompt": "Write el cuaderno (notebook) two times.", "lines": 2 },
+        { "prompt": "Write el bolígrafo (pen) two times.", "lines": 2 },
+        { "prompt": "Write la regla (ruler) two times.", "lines": 2 },
+        { "prompt": "Write el escritorio (desk) two times.", "lines": 2 },
+        { "prompt": "Write la pizarra (whiteboard/chalkboard) two times.", "lines": 2 },
+        { "prompt": "Write el borrador (eraser) two times.", "lines": 2 },
+        { "prompt": "Write la computadora (computer) two times.", "lines": 2 }
+      ]
+    }
+  }
+}

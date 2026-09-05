@@ -1,0 +1,93 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-6",
+    "courseId": "course-spanish-k",
+    "order": 6,
+    "title": "Colors II & Favorites",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-6-4",
+    "unitId": "unit-spanish-k-6",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "La Gráfica de Colores: Counting the Votes",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol drew a big empty graph. Let's fill it in with yesterday's answers and find out which color won the most votes in your house!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-build-graph",
+        "text": "For each person who picked a color, draw one box or put one sticker in that color's row. Say the color out loud in Spanish as you add it: 'Mamá — azul. Hermano — rojo. Tú — morado.' Keep going until every answer is on the graph."
+      },
+      {
+        "type": "text",
+        "ref": "practice-count",
+        "text": "Now count each color's row out loud in Spanish. Ask '¿Cuántos votos hay para el rosado?' and count that row — uno, dos, tres. Do it for every color, using the numbers you already know all the way up to diez."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You built a color graph and counted every row — and now you know your family's favorite color! Tomorrow, Sol throws a color parade with paper dolls."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "orange", "answer": "anaranjado" },
+            { "prompt": "purple", "answer": "morado" },
+            { "prompt": "pink", "answer": "rosado" },
+            { "prompt": "brown", "answer": "café" },
+            { "prompt": "gray", "answer": "gris" },
+            { "prompt": "red", "answer": "rojo" },
+            { "prompt": "blue", "answer": "azul" },
+            { "prompt": "green", "answer": "verde" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-6-4",
+    "lessonId": "lesson-spanish-k-6-4",
+    "objectives": [
+      "Sort the family's favorite-color answers into rows on a simple graph, naming each color in Spanish",
+      "Count each color's row aloud in Spanish, reusing numbers uno through diez from weeks 3-4"
+    ],
+    "materialsNeeded": ["Yesterday's list of each family member's favorite color", "Paper for a simple bar graph, plus crayons or stickers", "Sol the puppet"],
+    "facilitationScript": "1. Draw a simple graph with Sol: one row per color your family named, each row labeled with a color swatch.\n2. Go through yesterday's list. For each person, add one box or sticker to that color's row, saying the color in Spanish as you go.\n3. When the graph is full, count each row out loud together in Spanish — uno, dos, tres — bringing back numbers up to diez from weeks 3 and 4.\n4. Ask '¿Cuántos votos hay para el rosado?' (and for each other color) and let your child answer with the number.\n5. Compare the rows: which color row is longest? Which is shortest?\n6. Play the on-screen speed-drill activity together, cheering each correct match.\n7. Close by asking: 'Which color is our family's favorite? How many votes did it get?'",
+    "differentiationTips": [
+      "Struggling: graph just three colors and count each row only as high as cinco",
+      "Ready for more: after counting, put the color rows in order from most votes to fewest, naming each color and its number",
+      "The graph does not need to be neat — naming the colors and counting the rows in Spanish is the goal"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a spoken sorting-and-counting activity — success looks like your child naming each color while building the graph and counting each row aloud in Spanish with weeks 3-4's numbers. In the speed-drill game, each English color word matches its Spanish counterpart: orange → anaranjado, purple → morado, pink → rosado, brown → café, gray → gris, red → rojo, blue → azul, green → verde.",
+    "standardsRationale": "Extends week 6's WA-WL-2015.1.1 target by turning the Day 3 survey answers into a shared result the child reads back and talks about, and deliberately recycles weeks 3-4's numbers uno-diez plus week 3's ¿cuántos? in the counting step — the scope-and-sequence's own Day 4 design (a class color graph, counting votes per color, recycling numbers 1-10) — so earlier vocabulary stays live instead of being taught once and dropped."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-6-4",
+    "lessonId": "lesson-spanish-k-6-4",
+    "title": "La Gráfica de Colores: Counting the Votes",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and build the graph together.",
+      "rows": [
+        { "problem": "Draw a simple graph with one row for each color your family named yesterday." },
+        { "problem": "Add one box or sticker per person to the right color's row, saying the color in Spanish." },
+        { "problem": "Count each row out loud in Spanish — uno, dos, tres — and see which color got the most votes." }
+      ]
+    }
+  }
+}

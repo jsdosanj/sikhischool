@@ -1,0 +1,128 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-6",
+    "courseId": "course-spanish-6",
+    "order": 6,
+    "title": "School Life & Schedules: Ordinals, Subjects, and Time",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-6-2",
+    "unitId": "unit-spanish-6-6",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Reading Two Real-Style School Schedules from Latin America",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you named subjects and put them in order. Today you read the real thing: two class schedules — dos horarios — like the ones students carry in Mexico and Colombia. You do not need to understand every word. You need to find information: which materia meets when, how long the descanso is, what time the day starts."
+      },
+      {
+        "type": "text",
+        "ref": "how-to-read-a-schedule",
+        "text": "A schedule is a table, so read it like one. Scan the time column down the left, then read across to the subject. Words that help you navigate:\n\n- el horario — the schedule\n- la hora — the time / the class hour\n- de lunes a viernes — Monday to Friday\n- el descanso / el recreo — the break\n\nAnd notice the clock. In much of Latin America the school day starts early — often between 6:30 and 7:15 in the morning — and a shorter day can end around 1:00 in the afternoon."
+      },
+      {
+        "type": "text",
+        "ref": "horario-a",
+        "text": "HORARIO A — Escuela Secundaria \"Benito Juárez\", México. Primer semestre, de lunes a viernes.\n\n- 7:00 – 7:50 — Español\n- 7:50 – 8:40 — Matemáticas\n- 8:40 – 9:30 — Ciencias Naturales\n- 9:30 – 9:50 — Descanso\n- 9:50 – 10:40 — Inglés\n- 10:40 – 11:30 — Geografía\n- 11:30 – 12:20 — Educación Física\n- 12:20 – 1:10 — Artes\n\nThe first class is Español at 7:00. The descanso is 20 minutes, right after the third class."
+      },
+      {
+        "type": "text",
+        "ref": "horario-b",
+        "text": "HORARIO B — Colegio San Martín, Colombia. Grado sexto, de lunes a viernes.\n\n- 6:30 – 7:20 — Matemáticas\n- 7:20 – 8:10 — Lengua Castellana\n- 8:10 – 9:00 — Ciencias Naturales\n- 9:00 – 9:30 — Descanso\n- 9:30 – 10:20 — Ciencias Sociales\n- 10:20 – 11:10 — Inglés\n- 11:10 – 12:00 — Educación Física\n- 12:00 – 12:50 — Educación Artística\n\nTwo names to decode: Lengua Castellana is the Spanish class (language and reading), and Ciencias Sociales combines history and geography in one subject. This day starts at 6:30 — earlier than Horario A — and the descanso is 30 minutes."
+      },
+      {
+        "type": "text",
+        "ref": "comprehension",
+        "text": "Read for answers, in Spanish where you can:\n\n- ¿A qué hora empieza el Horario B? (6:30)\n- ¿Cuál es la segunda materia en el Horario A? (Matemáticas)\n- En el Horario A, ¿qué clase tienes justo después del descanso? (Inglés)\n- ¿Qué descanso es más largo, el del Horario A o el del Horario B? (el del Horario B, 30 minutos)\n- En el Horario B, 'Lengua Castellana' es la clase de... (español)\n\nThe activity and worksheet have more. The skill today is finding facts in an authentic text, not translating it."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You pulled real information out of two schedules written for native speakers — start times, subject order, break length. Tomorrow you move from facts to opinions: which materia is interesante, which one is aburrida, and why."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "According to Horario A, what is the first class of the day?",
+              "options": ["Matemáticas", "Español", "Inglés", "Ciencias Naturales"],
+              "answer": 1,
+              "explanation": "Horario A starts with Español at 7:00. Matemáticas is the second class, from 7:50 to 8:40."
+            },
+            {
+              "q": "En el Horario B, ¿a qué hora empieza la primera clase?",
+              "options": ["a las 6:30", "a las 7:00", "a las 7:20", "a las 8:10"],
+              "answer": 0,
+              "explanation": "Horario B (Colombia) begins at 6:30 with Matemáticas — earlier than Horario A."
+            },
+            {
+              "q": "In Horario A, which class comes right after the descanso?",
+              "options": ["Geografía", "Ciencias Naturales", "Inglés", "Artes"],
+              "answer": 2,
+              "explanation": "The descanso is 9:30–9:50, and Inglés follows from 9:50 to 10:40."
+            },
+            {
+              "q": "¿Qué descanso es más largo?",
+              "options": ["el del Horario A (20 minutos)", "el del Horario B (30 minutos)", "los dos duran igual", "el Horario B no tiene descanso"],
+              "answer": 1,
+              "explanation": "Horario A's break is 9:30–9:50 (20 minutes); Horario B's is 9:00–9:30 (30 minutes)."
+            },
+            {
+              "q": "In Horario B, 'Lengua Castellana' is the class for which subject?",
+              "options": ["history", "Spanish (language and reading)", "a foreign language", "art"],
+              "answer": 1,
+              "explanation": "In Colombia the Spanish class is often called Lengua Castellana. 'Ciencias Sociales' is the one that combines history and geography."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-6-2",
+    "lessonId": "lesson-spanish-6-6-2",
+    "objectives": [
+      "Locate specific information in an authentic-style Spanish class schedule: start time, the order of subjects, and the length and placement of the descanso",
+      "Interpret culture-specific subject names (Lengua Castellana = Spanish class; Ciencias Sociales = history and geography) from context",
+      "Notice real differences between a Latin American school day and their own, especially the early start time"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Printed or projected copies of Horario A and Horario B", "Device for the multiple-choice activity (optional)"],
+    "facilitationScript": "1. Review the ordinals and school words from Day 1 with one quick oral round.\n2. Teach the navigation words (el horario, la hora, de lunes a viernes, el descanso) and the 'read it like a table' strategy.\n3. Read Horario A together. Ask the built-in questions; students point to the row that answers each one.\n4. Read Horario B. Decode Lengua Castellana and Ciencias Sociales from context before giving the answer. Compare the two start times.\n5. Discuss: what surprised you about these schedules? (start time, single long break, subjects combined)\n6. Complete the multiple-choice activity.\n7. Complete the worksheet.\n8. Preview tomorrow's opinion exchange.",
+    "differentiationTips": [
+      "Struggling: give them only Horario A and three questions; highlight the time column first so the table structure is visible",
+      "Ready for more: have them write three new Spanish comprehension questions about Horario B for a partner to answer",
+      "If a student stalls trying to translate every subject name, redirect: 'You do not need every word — which row has the time the question asks about?'"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Horario A: first class Español (7:00); second class Matemáticas; class after the descanso is Inglés; break is 20 minutes. Horario B: starts 6:30; Lengua Castellana = the Spanish class; Ciencias Sociales = history + geography; break is 30 minutes (longer than A's). Multiple choice: 1. Español, 2. a las 6:30, 3. Inglés, 4. Horario B (30 minutos), 5. Spanish (language and reading).",
+    "standardsRationale": "This is the core WA-WL-2015.1.2 Interpretive Reading task for the week: students extract meaning from an authentic-format document written for native speakers, using layout and cognates rather than full translation, exactly as the scope-and-sequence Day 2 design specifies ('read two authentic-style school schedules from Latin America; answer comprehension questions'). The culture-specific subject names and early start also seed weeks 11 and 34's comparison work."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-6-2",
+    "lessonId": "lesson-spanish-6-6-2",
+    "title": "Reading Two Real-Style School Schedules from Latin America",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use Horario A (México) and Horario B (Colombia) to answer. You do not need to translate every word — find the row that answers the question.",
+      "rows": [
+        { "problem": "What time does each schedule start, and which one starts earlier: Horario A or Horario B?" },
+        { "problem": "List the subjects in Horario A in order, first to last." },
+        { "problem": "How long is the descanso in each schedule? Which is longer?" },
+        { "problem": "In Horario B, what everyday subjects do 'Lengua Castellana' and 'Ciencias Sociales' stand for?" },
+        { "problem": "Name one way a Latin American school day in these schedules is different from yours." }
+      ]
+    }
+  }
+}

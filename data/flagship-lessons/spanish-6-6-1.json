@@ -1,0 +1,105 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-6",
+    "courseId": "course-spanish-6",
+    "order": 6,
+    "title": "School Life & Schedules: Ordinals, Subjects, and Time",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-6-1",
+    "unitId": "unit-spanish-6-6",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Ordinal Numbers and Class Periods: Talking Through Your Real Schedule",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned to make every adjective agree with the person it describes. This week you point that same skill at your school day: the subjects you take, the order your classes come in, and the times they meet. Spanish reads a school schedule a little differently than English does, and by Friday you will build your own — and defend it out loud."
+      },
+      {
+        "type": "text",
+        "ref": "school-words",
+        "text": "Start with four words you will use every day this week:\n\n- [[la materia]] — a school subject, like math or science. (Some countries say la asignatura.)\n- [[el semestre]] — a semester, half of the school year.\n- [[el descanso]] — a break between classes. In much of Latin America this is also called el recreo.\n- [[la tarea]] — homework. La tarea stays singular even when it is a big pile: Tengo mucha tarea.\n\nKeep one pair straight: la materia is the subject itself (las matemáticas), and la clase is the meeting for it (Tengo clase de matemáticas a las ocho)."
+      },
+      {
+        "type": "text",
+        "ref": "ordinals-intro",
+        "text": "To say which class comes first, second, or third, Spanish uses ordinal numbers:\n\n- [[primero]] — first\n- [[segundo]] — second\n- tercero — third\n- cuarto — fourth\n- quinto — fifth\n- sexto — sixth\n\nOrdinals behave exactly like the -o adjectives from last week: they agree with their noun in gender and number. la primera materia, el segundo semestre, las primeras semanas, los primeros días. Feminine takes -a, plural takes -s — the same moves you made with serio and ordenado."
+      },
+      {
+        "type": "text",
+        "ref": "primer-tercer-rule",
+        "text": "primero and tercero have one extra move. Right before a masculine singular noun, they drop the final -o:\n\n- el primer día (not 'el primero día')\n- el primer semestre\n- el tercer periodo\n\nThat shortening happens only in that exact spot — masculine, singular, with the noun coming right after. Everywhere else the full form stays:\n\n- la primera clase — feminine, so just -a, no dropping\n- los primeros días — plural, full form\n- Mi horario tiene seis periodos; español es el primero. — nothing after it, full form\n\nsegundo, cuarto, quinto, and sexto never shorten: el segundo día, el cuarto periodo."
+      },
+      {
+        "type": "text",
+        "ref": "describe-your-schedule",
+        "text": "Now walk through your real schedule — tu horario. Useful subjects: las matemáticas, las ciencias, la historia, el inglés, el español, el arte, la música, la educación física.\n\n- Mi primera clase es historia.\n- Mi segunda clase es inglés.\n- Tengo educación física en el tercer periodo.\n- Después del cuarto periodo hay un descanso.\n\nUse Tengo — the same Tengo from Tengo doce años — to say which subject sits in which period. (When you name the subject on its own after es, Spanish usually drops the article: Mi tercera clase es arte.)"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You have the subjects, the ordinals, and the one rule that trims primero to primer. Tomorrow you read two real-style school schedules from Mexico and Colombia and answer questions about them — starting with a surprise about when the school day begins."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match each Spanish word to its English meaning.",
+          "pairs": [
+            { "left": "la materia", "right": "school subject" },
+            { "left": "el semestre", "right": "semester" },
+            { "left": "el descanso", "right": "break between classes" },
+            { "left": "la tarea", "right": "homework" },
+            { "left": "el horario", "right": "schedule" },
+            { "left": "primero", "right": "first" },
+            { "left": "segundo", "right": "second" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-6-1",
+    "lessonId": "lesson-spanish-6-6-1",
+    "objectives": [
+      "Give the meaning of la materia, el semestre, el descanso, and la tarea, and distinguish la materia (the subject) from la clase (the meeting for it)",
+      "Form the ordinal numbers primero through sexto and make them agree in gender and number (la primera clase, el segundo periodo, los primeros días)",
+      "Apply the shortening rule: primero becomes primer and tercero becomes tercer only before a masculine singular noun (el primer día), staying full everywhere else"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "The student's own class schedule, if available", "Device for the matching activity (optional — can be done as a card sort on paper)"],
+    "facilitationScript": "1. Recall last week's close: adjectives agree with the person. This week the same agreement applies to ordinal numbers and to school life.\n2. Teach the four school words with their examples. Contrast la materia (the subject) with la clase (the meeting) explicitly.\n3. Teach the ordinals primero–sexto. Show that they agree just like serio: la primera, el segundo, los primeros, las primeras.\n4. Slow down on the shortening rule. Write 'el primer día' and 'la primera clase' side by side and name why the first one drops the -o and the second does not. Add 'el tercer periodo'.\n5. Model describing a schedule with Tengo + subject + en el primer/segundo periodo.\n6. Play the matching activity (word ↔ meaning).\n7. Complete the worksheet.\n8. Preview tomorrow: reading two real-style Latin American schedules.",
+    "differentiationTips": [
+      "Struggling: work with only primero and segundo today, and only the gender rule (primera/segunda); add tercero and the shortening rule tomorrow",
+      "Ready for more: have them write the four forms of one ordinal — el primer periodo, la primera clase, los primeros días, las primeras semanas — then do the same for tercero",
+      "If a child writes 'el primero día,' point to the noun: 'It is masculine and singular, and it comes right after — so primero loses its -o.'"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Meanings: la materia = school subject, el semestre = semester, el descanso = break, la tarea = homework, el horario = schedule, primero = first, segundo = second. Shortening: el primer día, el primer semestre, el tercer periodo (drop -o); la primera clase, los primeros días, español es el primero (full form). segundo/cuarto/quinto/sexto never shorten. Schedule sentences vary; check that ordinals agree with their noun and that primero/tercero shorten only before a masculine singular noun.",
+    "standardsRationale": "Opens week 6's WA-WL-2015.1.2 Interpretive Reading target by front-loading the two things every schedule-reading day depends on: the school vocabulary (materia, semestre, descanso, tarea, horario) and the ordinal-number system used to name class periods, including the primero -> primer / tercero -> tercer apócope the scope-and-sequence Day 1 design calls for. Reuses last week's -o/-a and -s/-es agreement, now on ordinals."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-6-1",
+    "lessonId": "lesson-spanish-6-6-1",
+    "title": "Ordinal Numbers and Class Periods: Talking Through Your Real Schedule",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use this week's school words and the ordinal rules (agreement, plus primero -> primer / tercero -> tercer before a masculine singular noun) to answer each question.",
+      "rows": [
+        { "problem": "Match to English: la materia, el semestre, el descanso, la tarea." },
+        { "problem": "Fill in the correct form of primero: 'el ___ día de clases', 'la ___ clase del día', 'los ___ días del semestre'." },
+        { "problem": "Choose and explain: 'el ___ periodo' (tercero) — does tercero shorten here? Why or why not?" },
+        { "problem": "Write three sentences about your own schedule using Tengo + a subject + en el primer / segundo / tercer periodo." }
+      ]
+    }
+  }
+}

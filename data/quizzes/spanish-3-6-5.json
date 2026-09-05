@@ -1,0 +1,61 @@
+{
+  "lessonId": "lesson-spanish-3-6-5",
+  "quiz": {
+    "id": "quiz-spanish-3-6-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "What is the Spanish word for 'pen' that this course teaches?",
+        "options": ["el cuaderno", "el bolígrafo", "el borrador", "la regla"],
+        "answer": 1,
+        "explanation": "El bolígrafo is 'pen.' In Mexico and much of Central America many people say la pluma instead — both are correct."
+      },
+      {
+        "q": "Which list has the correct little word for 'the' on all three?",
+        "options": [
+          "la cuaderno, la bolígrafo, la borrador",
+          "el regla, el pizarra, el computadora",
+          "la regla, la pizarra, la computadora",
+          "el regla, la cuaderno, el pizarra"
+        ],
+        "answer": 2,
+        "explanation": "La regla, la pizarra, and la computadora take la. El cuaderno, el bolígrafo, el escritorio, and el borrador take el. Learn the el or la as part of the word."
+      },
+      {
+        "q": "Your teacher tells the whole class, 'Escuchen.' What should you do?",
+        "options": ["Raise your hand", "Take out your notebook", "Listen", "Look at the board"],
+        "answer": 2,
+        "explanation": "Escuchen means 'listen.' Levanten la mano means 'raise your hand,' and saquen el cuaderno means 'take out your notebook.'"
+      },
+      {
+        "q": "How should you treat command phrases like 'saquen el cuaderno' and 'levanten la mano' this week?",
+        "options": [
+          "As whole phrases to recognize and follow",
+          "As words to translate one at a time",
+          "As phrases you must be able to change for one person",
+          "As words that only appear in writing, never out loud"
+        ],
+        "answer": 0,
+        "explanation": "Learn them as fixed classroom phrases, like knowing 'line up' as one idea. Building and changing commands yourself comes later in the year."
+      },
+      {
+        "q": "A written instruction card says, 'Recorta el dibujo.' What does recorta tell you to do?",
+        "options": ["Draw the picture", "Write the picture's name", "Color the picture", "Cut out the picture"],
+        "answer": 3,
+        "explanation": "Recorta means 'cut out.' Dibuja means 'draw' and escribe means 'write.'"
+      },
+      {
+        "q": "Which sentence correctly says 'On the desk there is a notebook'?",
+        "options": [
+          "En el escritorio hay un cuaderno.",
+          "En el cuaderno hay un escritorio.",
+          "En el escritorio hay una cuaderno.",
+          "En la computadora hay un cuaderno."
+        ],
+        "answer": 0,
+        "explanation": "Hay means 'there is.' Cuaderno is an el word, so it takes un, not una: hay un cuaderno."
+      }
+    ]
+  }
+}

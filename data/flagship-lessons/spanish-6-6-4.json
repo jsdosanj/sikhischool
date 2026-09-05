@@ -1,0 +1,97 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-6",
+    "courseId": "course-spanish-6",
+    "order": 6,
+    "title": "School Life & Schedules: Ordinals, Subjects, and Time",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-6-4",
+    "unitId": "unit-spanish-6-6",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Telling Time With Classes: Tengo Ciencias a las Diez",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can name your classes, put them in order, and say what you think of them. The last piece is the clock. Today you learn to say exactly when a class meets: Tengo ciencias a las diez. It uses Tengo — the same word from Tengo doce años — plus one small phrase for the time."
+      },
+      {
+        "type": "text",
+        "ref": "a-la-a-las",
+        "text": "To say 'at' a clock hour, Spanish uses a la or a las:\n\n- a la una — at one o'clock (only 1:00 uses la, because una is one)\n- a las dos, a las tres, a las cuatro ... a las doce — every other hour uses las\n\nThe hours: la una, las dos, las tres, las cuatro, las cinco, las seis, las siete, las ocho, las nueve, las diez, las once, las doce. You already know doce from Tengo doce años; the rest are the counting numbers one through twelve, and your teacher guide has them written out to practice."
+      },
+      {
+        "type": "text",
+        "ref": "minutes-and-day-part",
+        "text": "For the half and quarter hours, add to the hour:\n\n- a las ocho y media — at 8:30 (y media = 'and a half')\n- a las nueve y cuarto — at 9:15 (y cuarto = 'and a quarter')\n\nAnd to say morning or afternoon:\n\n- a las siete de la mañana — at 7:00 a.m.\n- a la una de la tarde — at 1:00 p.m.\n\nSo a full time phrase can be a las siete y media de la mañana."
+      },
+      {
+        "type": "text",
+        "ref": "tengo-frame",
+        "text": "Put the class and the time together with Tengo:\n\n- Tengo ciencias a las diez.\n- Tengo español a la una.\n- Tengo educación física a las ocho y media de la mañana.\n\nTo ask, use ¿A qué hora...?:\n\n- ¿A qué hora tienes matemáticas? — Tengo matemáticas a las siete.\n- ¿A qué hora es el descanso? — El descanso es a las nueve y media.\n\nYou can also lead with the ordinal: Mi primera clase es a las siete; mi segunda clase es a las ocho."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now say when every class in your day meets, ask a classmate the same, and read the times straight off a schedule. Tomorrow you use all of it at once: design your dream schedule and defend one choice to the class."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "build-the-sentence-v1",
+        "config": {
+          "items": [
+            { "words": ["Tengo", "ciencias", "a", "las", "diez."], "correctOrder": [0, 1, 2, 3, 4] },
+            { "words": ["Mi", "primera", "clase", "es", "a", "la", "una."], "correctOrder": [0, 1, 2, 3, 4, 5, 6] },
+            { "words": ["Tengo", "español", "a", "las", "ocho", "y", "media."], "correctOrder": [0, 1, 2, 3, 4, 5, 6] },
+            { "words": ["El", "descanso", "es", "a", "las", "nueve", "y", "cuarto."], "correctOrder": [0, 1, 2, 3, 4, 5, 6, 7] },
+            { "words": ["Tengo", "arte", "a", "las", "tres", "de", "la", "tarde."], "correctOrder": [0, 1, 2, 3, 4, 5, 6, 7] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-6-4",
+    "lessonId": "lesson-spanish-6-6-4",
+    "objectives": [
+      "Say a clock hour with a la una (only 1:00) versus a las + every other hour, and add y media (:30) and y cuarto (:15)",
+      "Build and ask time-of-class sentences: Tengo + subject + a la(s) + hour, and ¿A qué hora tienes...?",
+      "Add de la mañana / de la tarde to place a time in the morning or afternoon"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A clock or clock cards (optional)", "Device for the build-the-sentence activity (optional — can be done on paper)"],
+    "facilitationScript": "1. Recall Tengo doce años from week 2 — Tengo means 'I have.' Today: Tengo + a class + a time.\n2. Teach a la una vs. a las dos...doce. Stress that only 1:00 uses la (una = one). Practice saying each hour aloud.\n3. Add y media and y cuarto, then de la mañana / de la tarde. Build one long phrase together: a las siete y media de la mañana.\n4. Model the Tengo frame and the ¿A qué hora...? question. Students ask and answer around the room about their real classes.\n5. Read times off Horario A and Horario B from yesterday: '¿A qué hora es Inglés en el Horario A?'\n6. Complete the build-the-sentence activity.\n7. Complete the worksheet.\n8. Preview tomorrow's dream-schedule project.",
+    "differentiationTips": [
+      "Struggling: practice only on-the-hour times first (a las ocho, a las nueve) before adding y media / y cuarto",
+      "Ready for more: have them write their full real schedule as sentences — every class with its subject and start time, using ordinals to introduce each one",
+      "If a child writes 'a las una,' point to the number: 'una is one — one is singular — so it is a la una.'"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "a la una (1:00 only); a las dos / tres / ... / doce for all other hours. y media = :30, y cuarto = :15. de la mañana / de la tarde for a.m. / p.m. Frame: Tengo + subject + a la(s) + hour (Tengo ciencias a las diez). Question: ¿A qué hora tienes...? Build-the-sentence: 1. Tengo ciencias a las diez. 2. Mi primera clase es a la una. 3. Tengo español a las ocho y media. 4. El descanso es a las nueve y cuarto. 5. Tengo arte a la una de la tarde.",
+    "standardsRationale": "Fulfills the scope-and-sequence Day 4 design — 'time + subject integration: Tengo ciencias a las diez' — and closes the loop on the week's WA-WL-2015.1.2 reading work by letting students state the times they have been extracting from schedules. It reuses Tengo (introduced in week 2's Tengo ... años) and the ordinals from Day 1, and the a la / a las contrast previews the a / al / a la contraction system studied in week 16."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-6-4",
+    "lessonId": "lesson-spanish-6-6-4",
+    "title": "Telling Time With Classes: Tengo Ciencias a las Diez",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Say when each class meets. Use a la una only for 1:00 and a las for every other hour.",
+      "rows": [
+        { "problem": "Write 'at' + the hour: at 1:00 -> ___, at 3:00 -> ___, at 10:00 -> ___, at 8:30 -> ___." },
+        { "problem": "Translate: 'I have science at 10:00.' and 'I have Spanish at 1:00 in the afternoon.'" },
+        { "problem": "Answer in Spanish: '¿A qué hora tienes tu primera clase?' (use your real schedule)" },
+        { "problem": "Write four sentences, one per class, giving the subject and the time it meets. Introduce each with an ordinal (Mi primera clase..., Mi segunda clase...)." }
+      ]
+    }
+  }
+}

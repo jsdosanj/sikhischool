@@ -1,0 +1,130 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-6",
+    "courseId": "course-spanish-3",
+    "order": 6,
+    "title": "In the Classroom: En el Salón de Clases",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-6-2",
+    "unitId": "unit-spanish-3-6",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Saquen el Cuaderno: Classroom Commands You Act Out",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned the names of seven classroom objects. Today you learn what happens when a teacher tells the whole class to do something — the short command phrases you hear over and over in a Spanish classroom, and how to show you understand them without saying a word."
+      },
+      {
+        "type": "text",
+        "ref": "commands-as-chunks",
+        "text": "A command is a phrase that tells someone to do something right now: 'Line up.' 'Sit down.' A Spanish teacher talking to the whole class uses phrases like these:\n\nsaquen el cuaderno — take out your notebook\nescuchen — listen\nlevanten la mano — raise your hand\n\nLearn these as whole phrases, the way you already know that 'line up' means one thing even though it is two words. You are not learning yet how to build a command yourself or change it for one person versus a group — that comes later in the year. For now your only job is to hear one of these and know what to do."
+      },
+      {
+        "type": "text",
+        "ref": "more-commands",
+        "text": "Here are more class commands built from this week's words. The first word is the action; the rest is one of yesterday's objects:\n\nsaquen el bolígrafo — take out your pen\nguarden la regla — put away your ruler\nmiren la pizarra — look at the board\nabran el cuaderno — open your notebook\ncierren el cuaderno — close your notebook\n\nYou do not have to memorize every action word perfectly yet. Listen for the object you already know — cuaderno, bolígrafo, regla, pizarra — and watch what your classmates do."
+      },
+      {
+        "type": "text",
+        "ref": "tpr-game",
+        "text": "This is a Total Physical Response game: you prove you understand by moving, not by talking. Ask a parent or teacher to call these out in a mixed-up order while you act each one:\n\nescuchen — cup a hand behind your ear\nlevanten la mano — raise your hand\nsaquen el cuaderno — mime pulling out a notebook\nmiren la pizarra — turn and look at the wall or board\nguarden el bolígrafo — mime putting a pen away\n\nSpeed up little by little. If you do the wrong action, the caller just repeats the phrase slowly and you try again — no points lost."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now follow the everyday commands of a Spanish classroom — listen, raise your hand, take out your notebook, look at the board. Tomorrow you play a memory game: a tray of supplies, a ten-second look, then it is covered and you name everything that was there."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "The teacher wants the class silent for a story. She calls out: '___.'",
+              "blankToken": "___",
+              "options": ["saquen", "escuchen", "levanten"],
+              "answer": "escuchen"
+            },
+            {
+              "sentence": "You know the answer and want to be called on. You '___ la mano.'",
+              "blankToken": "___",
+              "options": ["escuchen", "levanten", "guarden"],
+              "answer": "levanten"
+            },
+            {
+              "sentence": "It is time to write. The teacher says: '___ el cuaderno.'",
+              "blankToken": "___",
+              "options": ["saquen", "miren", "escuchen"],
+              "answer": "saquen"
+            },
+            {
+              "sentence": "The teacher points to new words on the board: '___ la pizarra.'",
+              "blankToken": "___",
+              "options": ["miren", "guarden", "levanten"],
+              "answer": "miren"
+            },
+            {
+              "sentence": "Spanish class is over. The teacher says: '___ el bolígrafo y el cuaderno.'",
+              "blankToken": "___",
+              "options": ["guarden", "escuchen", "levanten"],
+              "answer": "guarden"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-6-2",
+    "lessonId": "lesson-spanish-3-6-2",
+    "objectives": [
+      "Respond with the correct physical action to the three core command phrases (saquen el cuaderno, escuchen, levanten la mano)",
+      "Pick out a known object word inside a longer spoken command",
+      "Treat the plural -en command phrases as fixed classroom chunks, not forms to build or change"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "A notebook, pen, and ruler to mime with",
+      "A parent or teacher to call the commands aloud in random order"
+    ],
+    "facilitationScript": "1. Remind the child that a command tells you to do something now, like 'line up' at school.\n2. Teach the three core phrases with a matching motion each: escuchen (hand to ear), levanten la mano (raise hand), saquen el cuaderno (mime taking out a notebook). Say each phrase, do the motion, have the child copy.\n3. Add the extra commands (miren la pizarra, guarden el bolígrafo, abran/cierren el cuaderno), pointing out that the object word is one the child already knows.\n4. Play the TPR game: call the phrases in a mixed order, speeding up, repeating slowly on any miss.\n5. Stress that the child is only recognizing these phrases this week — how commands are actually built is a later lesson.\n6. Do the cloze activity together.\n7. Complete the worksheet.\n8. Preview tomorrow's 'What's on my desk?' memory game.",
+    "differentiationTips": [
+      "Struggling: use only the three core commands today, each locked to one motion, before adding any others",
+      "Ready for more: the child becomes the caller, giving you the commands to act out — a preview of Friday's student-teacher role",
+      "For the teaching adult: saquen, escuchen, and levanten are plural 'you all' commands (ustedes). The course teaches them as memorized phrases on purpose; the full command system, including the one-person forms, is scheduled for a later week, so there is no need to explain the -en ending now",
+      "This is a live listen-and-move activity, so it does not depend on the audio-recording gap noted elsewhere (open decision, expansion-plan-2026-09.md §12.9) — any adult can be the caller"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Core commands: escuchen = listen; levanten la mano = raise your hand; saquen el cuaderno = take out your notebook. Extra commands: miren la pizarra = look at the board; guarden (el bolígrafo) = put away (your pen); abran / cierren el cuaderno = open / close your notebook. Cloze answers: 1. escuchen, 2. levanten, 3. saquen, 4. miren, 5. guarden. The action word comes first; the object word is one from Monday's list.",
+    "standardsRationale": "This is the week's Interpretive Listening core (WA-WL-2015.1.2) and the exact Day 2 activity the scope-and-sequence names — classroom commands taught through Total Physical Response. Acting out a heard command is interpretive listening in its most observable form for a Novice learner, and anchoring each phrase to Monday's supply words lets the child parse a command by catching the object even before the action word is secure. Teaching the phrases as chunks keeps the cognitive load on comprehension, not on grammar the course sequences for later."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-6-2",
+    "lessonId": "lesson-spanish-3-6-2",
+    "title": "Saquen el Cuaderno: Classroom Commands You Act Out",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "For each classroom command, write what you should do.",
+      "rows": [
+        { "problem": "A teacher says 'saquen el cuaderno.' What do you do?" },
+        { "problem": "A teacher says 'escuchen.' What do you do?" },
+        { "problem": "A teacher says 'levanten la mano.' What do you do?" },
+        { "problem": "A teacher says 'miren la pizarra.' What do you do?" },
+        { "problem": "In the command 'guarden la regla,' which word is the object you already know, and what does it mean?" },
+        { "problem": "Write one command a Spanish teacher might call out to the whole class, and what it means in English." }
+      ]
+    }
+  }
+}

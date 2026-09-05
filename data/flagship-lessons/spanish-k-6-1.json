@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-6",
+    "courseId": "course-spanish-k",
+    "order": 6,
+    "title": "Colors II & Favorites",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-6-1",
+    "unitId": "unit-spanish-k-6",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Más Colores: New Scarves for the Rainbow",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week Sol waved six scarves for six colors — rojo, azul, amarillo, verde, blanco, and negro. Today Sol brought five brand-new scarves! Pick one up and get ready to wave it high when you hear its color."
+      },
+      {
+        "type": "text",
+        "ref": "practice-new-colors",
+        "text": "Sol's new scarves are anaranjado, morado, rosado, café, and gris. Wave the orange scarf and say [[anaranjado]] — 'orange'! Wave the purple one and say [[morado]] — 'purple'! Wave the pink one and say [[rosado]] — 'pink'! A brown scarf is [[café]] — 'brown,' the same word Spanish uses for coffee! And a gray scarf is [[gris]] — 'gray'! Sing them in a row, waving each scarf: ¡anaranjado, morado, rosado, café, gris!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-rainbow",
+        "text": "Now line every scarf up in a rainbow: rojo, anaranjado, amarillo, verde, azul, morado. Put rosado, café, gris, blanco, and negro at the end of the line. Walk down your rainbow and name each color out loud — the colors you already know and the new ones together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You waved a scarf for five new colors — anaranjado, morado, rosado, café, gris — and lined up a whole rainbow! Tomorrow, Sol plays a color-guessing game with pictures of animals and toys."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-6-1",
+    "lessonId": "lesson-spanish-k-6-1",
+    "objectives": [
+      "Wave the matching scarf or colored object when they hear one of five new Spanish color words — anaranjado, morado, rosado, café, gris",
+      "Name colors in order along a rainbow line-up, combining the new colors with week 5's six colors"
+    ],
+    "materialsNeeded": ["Scarves, cloths, or paper squares in orange, purple, pink, brown, and gray — plus last week's red, blue, yellow, green, white, and black if you have them", "Sol the puppet", "Open space to lay out a rainbow line and wave big"],
+    "facilitationScript": "1. Gather with Sol and the five new scarves; remind your child that last week's song had six colors and this week adds five more.\n2. Hold up the orange scarf, say anaranjado, and wave it high — have your child find an orange scarf (or anything orange) and echo anaranjado.\n3. Do the same with morado (purple), rosado (pink), café (brown), and gris (gray), pausing after each for your child's echo and wave.\n4. Mention that café is also the everyday word for 'coffee' — one word, two meanings.\n5. Sing the new-colors song, holding up each scarf as its color comes: 'anaranjado, morado, rosado, café, gris.'\n6. Lay all the scarves out and build a rainbow line together — rojo, anaranjado, amarillo, verde, azul, morado — then add rosado, café, gris, blanco, and negro at the end.\n7. Walk down the rainbow line naming each color; let your child lead the second walk.\n8. Close by asking: 'Can you wave the scarf for morado? For gris? For anaranjado?'",
+    "differentiationTips": [
+      "Struggling: teach just anaranjado, morado, and rosado today, and add café and gris once those three feel steady",
+      "Ready for more: after the rainbow line-up, point to a scarf silently and let your child name the color first",
+      "If you say 'naranja' for orange out in the world, that is the everyday word many families use — 'anaranjado' is the full color word this course teaches, and both are correct"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a spoken listening-and-waving activity — success looks like your child waving the matching color and attempting each new color word aloud, not a written right/wrong answer.",
+    "standardsRationale": "Opens week 6's ACTFL Interpersonal Communication target (WA-WL-2015.1.1) — asking and telling favorite colors — by first stocking the child with the vocabulary that exchange needs: five new color words added to week 5's six. Matches the scope-and-sequence's Day 1 design — new colors in the scarf song, then a rainbow line-up — taught the way this K-2 band's oral/aural-first design calls for, with a sung, physical, echo-based introduction and zero reading required, and it front-loads the color words the rest of the week's favorite-color conversations (Days 3-5) will actually use."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-6-1",
+    "lessonId": "lesson-spanish-k-6-1",
+    "title": "Más Colores: New Scarves for the Rainbow",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together — there's nothing for your child to write today.",
+      "rows": [
+        { "problem": "Gather scarves or colored objects in orange, purple, pink, brown, and gray." },
+        { "problem": "Hold up each color, say its Spanish name, and wave it: anaranjado, morado, rosado, café, gris." },
+        { "problem": "Line up a rainbow with all your colors and walk down it, naming each one out loud." }
+      ]
+    }
+  }
+}

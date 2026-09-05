@@ -79,7 +79,7 @@ export default function SpeedDrillStep({ config, onFinish }: GameStepProps) {
         </span>
         <span className="font-semibold" style={{ color: "var(--shell-accent, #f4b21a)" }}>
           Streak {streak}
-          {bestStreak > 0 && <span className="ml-2 font-normal opacity-70">best {bestStreak}</span>}
+          {bestStreak > 0 && <span className="ms-2 font-normal opacity-70">best {bestStreak}</span>}
         </span>
       </div>
 
@@ -104,9 +104,9 @@ export default function SpeedDrillStep({ config, onFinish }: GameStepProps) {
                 border: "1px solid color-mix(in srgb, var(--shell-ink, #000) 20%, transparent)",
                 background:
                   answered !== null && isAnswer
-                    ? "color-mix(in srgb, var(--shell-accent-2, #4fb8a8) 25%, transparent)"
+                    ? "color-mix(in srgb, var(--color-success) 25%, transparent)"
                     : isPicked
-                      ? "color-mix(in srgb, var(--shell-sunrise-3, #ff5c7a) 25%, transparent)"
+                      ? "color-mix(in srgb, var(--color-error) 25%, transparent)"
                       : "transparent",
               }}
             >

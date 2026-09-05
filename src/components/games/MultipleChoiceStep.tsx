@@ -47,7 +47,7 @@ export default function MultipleChoiceStep({ config, onFinish }: GameStepProps) 
                   borderRadius: "var(--shell-radius, 0.5rem)",
                   background:
                     checked && (isAnswer || isPicked)
-                      ? `color-mix(in srgb, ${isAnswer ? "var(--shell-accent-2)" : "var(--shell-sunrise-3, #ff5c7a)"} 20%, transparent)`
+                      ? `color-mix(in srgb, ${isAnswer ? "var(--color-success)" : "var(--color-error)"} 20%, transparent)`
                       : "transparent",
                 }}
               >
@@ -76,7 +76,7 @@ export default function MultipleChoiceStep({ config, onFinish }: GameStepProps) 
             borderRadius: "var(--shell-radius, 0.5rem)",
             minHeight: "var(--shell-touch, 2.75rem)",
             background: "var(--shell-accent, #f4b21a)",
-            color: "#2a1c06",
+            color: "var(--shell-on-accent, #2a1c06)",
           }}
         >
           Check my answers
@@ -94,7 +94,7 @@ export default function MultipleChoiceStep({ config, onFinish }: GameStepProps) 
               borderRadius: "var(--shell-radius, 0.5rem)",
               minHeight: "var(--shell-touch, 2.75rem)",
               background: "var(--shell-accent, #f4b21a)",
-              color: "#2a1c06",
+              color: "var(--shell-on-accent, #2a1c06)",
             }}
           >
             Save my score

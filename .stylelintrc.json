@@ -1,0 +1,29 @@
+{
+  "rules": {
+    "property-disallowed-list": [
+      [
+        "left",
+        "right",
+        "margin-left",
+        "margin-right",
+        "padding-left",
+        "padding-right",
+        "border-left",
+        "border-left-color",
+        "border-left-width",
+        "border-left-style",
+        "border-right",
+        "border-right-color",
+        "border-right-width",
+        "border-right-style",
+        "border-top-left-radius",
+        "border-top-right-radius",
+        "border-bottom-left-radius",
+        "border-bottom-right-radius"
+      ],
+      {
+        "message": "Physical-direction CSS property — use the logical equivalent instead (inset-inline-start/end, margin-inline-start/end, padding-inline-start/end, border-inline-start/end, border-start-start-radius, etc.). Plan A5: the design system is RTL-ready from day one so Arabic (B8) doesn't need a retrofit."
+      }
+    ]
+  }
+}

@@ -97,7 +97,7 @@ export default function WorksheetDownloadButton({
         borderRadius: "var(--shell-radius, 0.5rem)",
         minHeight: "var(--shell-touch, 2.75rem)",
         background: "var(--shell-accent, var(--color-saffron))",
-        color: "#2a1c06",
+        color: "var(--shell-on-accent, #2a1c06)",
       }}
     >
       {pending ? "Generating…" : "Download worksheet (PDF)"}

@@ -96,7 +96,7 @@ export default function GameActivity({
         borderRadius: "var(--shell-radius, 0.5rem)",
         minHeight: "var(--shell-touch, 2.75rem)",
         background: "var(--shell-accent, #f4b21a)",
-        color: "#2a1c06",
+        color: "var(--shell-on-accent, #2a1c06)",
       }}
     >
       Play again
@@ -145,7 +145,7 @@ export default function GameActivity({
               borderRadius: "var(--shell-radius, 0.5rem)",
               minHeight: "var(--shell-touch, 2.75rem)",
               background: "var(--shell-accent, #f4b21a)",
-              color: "#2a1c06",
+              color: "var(--shell-on-accent, #2a1c06)",
             }}
           >
             Start

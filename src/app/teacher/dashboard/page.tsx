@@ -65,7 +65,7 @@ export default async function TeacherDashboardPage() {
                             </span>
                           </div>
                           {studentQuizzes.length > 0 && (
-                            <ul className="mt-1 flex flex-col gap-1 pl-3 text-xs text-[var(--foreground)]/70">
+                            <ul className="mt-1 flex flex-col gap-1 ps-3 text-xs text-[var(--foreground)]/70">
                               {studentQuizzes.map((q) => (
                                 <li key={q.nodeId} className="flex flex-wrap items-center justify-between gap-2">
                                   <span>

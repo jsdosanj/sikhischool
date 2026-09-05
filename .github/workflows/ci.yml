@@ -26,6 +26,16 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Lint CSS (RTL-safety, plan §2 A5)
+        run: npm run lint:css
+
+      - name: RTL-safety check (Tailwind utilities, plan §2 A5)
+        # stylelint (previous step) only sees raw CSS — the actual physical-
+        # direction violations live in Tailwind utility classes inside JSX,
+        # which this script greps for. Both are needed; neither alone covers
+        # the real surface area.
+        run: npm run lint:rtl
+
       - name: Build
         run: npm run build
 

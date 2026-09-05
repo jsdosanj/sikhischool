@@ -32,7 +32,7 @@ function gradeBandForLevel(gradeLevel: string): string {
 // font: its vocabulary is Gurmukhi. A subject that isn't listed has no
 // dictionary to query yet, so its blocks render the markup as plain text
 // (LessonContentBlock's graceful-degradation path) instead of guessing wrong.
-const DICTIONARY_LANGUAGE_BY_SUBJECT: Record<string, string> = {
+const DICTIONARY_LANGUAGE_BY_SUBJECT: Partial<Record<string, string>> = {
   ela: "english",
   punjabi: "punjabi",
   sikhi: "punjabi",

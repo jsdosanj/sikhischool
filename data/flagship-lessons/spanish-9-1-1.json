@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-1",
+    "courseId": "course-spanish-9",
+    "order": 1,
+    "title": "Launch: Proficiency Goals & the Seal of Biliteracy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-1-1",
+    "unitId": "unit-spanish-9-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Novice vs. Intermediate: What the Proficiency Ladder Actually Sounds Like",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.5.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This course is aimed at something real: the Seal of Biliteracy on your diploma and up to four credits toward graduation, not just a grade in a gradebook. Before you can hit that target, you need to understand the actual scale it's measured on. Today you'll read two transcripts of real Spanish responses to the exact same question — one from a Novice-level speaker, one from an Intermediate-level speaker — and figure out for yourself what actually changes between the two."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Language programs measure ability on a proficiency scale with four major levels — Novice, Intermediate, Advanced, and Superior — each split into Low, Mid, and High. [[el hablante]] is simply Spanish for 'the speaker,' and it's useful shorthand for comparing what a person can do at each level without constantly saying 'a person speaking Spanish.' A Novice-level hablante communicates mainly in memorized words and short, disconnected phrases — names, numbers, a handful of nouns — and can survive a scripted exchange but not improvise past it. An Intermediate-level hablante has crossed a real threshold: instead of only recycling memorized chunks, they generate their own original sentences and string them into a connected paragraph on familiar topics, even ones they haven't specifically rehearsed. That shift — from reciting to actually generating language — is most of what [[la fluidez]] means at this stage. It doesn't mean speaking with zero mistakes; it means being able to keep going, connect one idea to the next, and communicate without stalling out completely."
+      },
+      {
+        "type": "text",
+        "ref": "transcripts",
+        "text": "Both speakers below answered the same question: 'Cuéntame sobre tu fin de semana.' ('Tell me about your weekend.') Read both responses carefully before comparing them.\n\nSPEAKER A (recorded transcript):\n\"Sábado. Yo, fútbol. Domingo... casa. Familia. Comida buena. Bueno.\"\n\nSPEAKER B (recorded transcript):\n\"El fin de semana pasado fue bastante bueno. El sábado jugué fútbol con mis amigos por la mañana, y por la tarde descansé porque estaba cansado. El domingo fue más tranquilo — me quedé en casa con mi familia, cociné algo con mi mamá, y por la noche vimos una película juntos. No hice nada muy especial, pero fue un fin de semana relajante.\"\n\nNotice what's actually different: Speaker A strings together isolated words and short fragments with no connecting words at all — there's no y, pero, or porque anywhere, and every sentence is a fresh, disconnected start. Speaker B builds real sentences, links them with connectors (y, pero, porque), moves through the weekend in order, and even adds a reason (estaba cansado) and an opinion (fue relajante) that nobody specifically asked for. One of these is Novice-level output. The other is Intermediate."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Speaker A and Speaker B know a lot of the same vocabulary — the real difference is what each of them can build with it. That gap is exactly what this course spends four years closing. Tomorrow: why Washington State actually writes that gap into law, and what it's worth on your transcript."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-1-1",
+    "lessonId": "lesson-spanish-9-1-1",
+    "objectives": [
+      "Distinguish Novice-level from Intermediate-level Spanish output using structural evidence (sentence length, connectors, tense range) rather than vocabulary alone",
+      "Define el hablante and la fluidez in the context of the ACTFL proficiency scale"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask the student what they already know about the Seal of Biliteracy or 'credit for language' — most 9th graders have heard something secondhand; correct/clarify as needed.\n2. Introduce the Novice → Intermediate → Advanced → Superior scale at a high level, then narrow to today's Novice/Intermediate focus.\n3. Read both transcripts aloud (or have the student read them) before revealing any analysis.\n4. Have the student identify, unprompted, at least two concrete differences between Speaker A and Speaker B before discussing the explanation block's terms.\n5. Complete the worksheet.\n6. Preview tomorrow's topic: the Seal of Biliteracy and WA's credit law.",
+    "differentiationTips": [
+      "Struggling: have them highlight every connector word (y, pero, porque) in Speaker B's transcript first, then count how many appear in Speaker A's (zero) — a concrete, countable difference before the more abstract discussion",
+      "Ready for more: ask them to try producing a third, 'Advanced'-level version of the same answer (more elaboration, more precise vocabulary, maybe a hypothetical) even without formal training — most will intuit the direction correctly",
+      "If the student has real exposure to Spanish speakers, ask them where they'd place that person on this scale, and why — real reference points make the abstract scale concrete"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Speaker A uses isolated, disconnected phrases with essentially no verb tense variety; Speaker B uses connected sentences, past-tense narration, and voluntary elaboration (reasons, opinions). 2. Any Speaker B sentence containing y, pero, or porque, e.g. 'por la tarde descansé porque estaba cansado.' 3. Without connectors, ideas stay as an unconnected list instead of a coherent account — a listener has to do all the work of guessing how the pieces relate. 4. La fluidez at the Intermediate level means being able to keep generating and connecting language without stalling, not speaking with zero errors.",
+    "standardsRationale": "Opens the course's Communities: Lifelong Learning standard (WA-WL-2015.5.2) by making the ACTFL proficiency scale concrete before asking the student to set a goal against it later in the week — per the scope-and-sequence's week 1 design. Uses side-by-side transcripts rather than audio because no TTS/audio-generation infrastructure exists yet in the platform (open decision, expansion-plan-2026-09.md §12.9); reading both samples side by side arguably serves the actual learning goal better than listening once would, since the student can study the structural differences at their own pace."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-1-1",
+    "lessonId": "lesson-spanish-9-1-1",
+    "title": "Novice vs. Intermediate: What the Proficiency Ladder Actually Sounds Like",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using the two transcripts from today's lesson.",
+      "rows": [
+        { "problem": "In your own words, what is the main difference between Speaker A's response and Speaker B's response?" },
+        { "problem": "Find one sentence in Speaker B's transcript that uses a connector word (y, pero, or porque). Write it here." },
+        { "problem": "Speaker A's transcript has zero connector words and stays in choppy, isolated phrases. Why does that matter for real communication?" },
+        { "problem": "In one sentence, describe what la fluidez means at the Intermediate level, based on today's lesson." }
+      ]
+    }
+  }
+}

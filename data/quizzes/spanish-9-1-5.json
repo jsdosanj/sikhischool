@@ -1,0 +1,61 @@
+{
+  "lessonId": "lesson-spanish-9-1-5",
+  "quiz": {
+    "id": "quiz-spanish-9-1-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "What is the key difference between a Novice-level speaker and an Intermediate-level speaker of a language?",
+        "options": [
+          "Novice speakers use more vocabulary words",
+          "Intermediate speakers can create original sentences and connect them into a paragraph, not just recycle memorized phrases",
+          "Novice speakers speak faster",
+          "There is no real difference, only test scores differ"
+        ],
+        "answer": 1,
+        "explanation": "The shift from Novice to Intermediate is about generating original, connected language, not just knowing more words."
+      },
+      {
+        "q": "According to Washington law (RCW 28A.300.575), what proficiency level does the Seal of Biliteracy require in a world language?",
+        "options": ["Novice High", "Intermediate Low", "Intermediate Mid", "Advanced Low"],
+        "answer": 2,
+        "explanation": "The Seal of Biliteracy law sets the world-language bar at Intermediate Mid."
+      },
+      {
+        "q": "Under WA's competency-based credit crosswalk (RCW 28A.230.090), how many credits does Intermediate Mid or higher proficiency earn?",
+        "options": ["1 credit", "2 credits", "3 credits", "4 credits"],
+        "answer": 3,
+        "explanation": "Intermediate Mid or higher earns 4 credits, the same level the Seal requires."
+      },
+      {
+        "q": "What is WA's minimum graduation requirement in this same credit system, and which level does it represent?",
+        "options": [
+          "4 credits, Intermediate Mid",
+          "2 credits, Novice High",
+          "3 credits, Intermediate Low",
+          "1 credit, Novice Mid"
+        ],
+        "answer": 1,
+        "explanation": "Graduation only requires Novice High (2 credits) — two levels below the Seal's Intermediate Mid threshold."
+      },
+      {
+        "q": "What is a 'can-do statement,' the tool you used this week for your baseline self-assessment?",
+        "options": [
+          "A grammar rule you must memorize",
+          "A description of what a speaker can actually do at a given proficiency level",
+          "A list of vocabulary words for a unit",
+          "A grade on a Spanish test"
+        ],
+        "answer": 1,
+        "explanation": "Can-do statements describe real-world tasks a speaker can perform at each proficiency level, not knowledge or grades."
+      },
+      {
+        "q": "What does la meta a largo plazo, the phrase behind today's goal-statement writing task, mean?",
+        "options": ["a short-term assignment", "a long-term goal", "a vocabulary list", "a grammar exercise"],
+        "answer": 1,
+        "explanation": "La meta a largo plazo means 'the long-term goal' — the specific, dated proficiency target the student wrote today."
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dict-spanish-hola",
+    "language": "spanish",
+    "word": "hola",
+    "translation": "hello",
+    "partOfSpeech": "interjection",
+    "synonyms": [],
+    "exampleSentence": "¡Hola, mamá! (Hello, mom!)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-adios",
+    "language": "spanish",
+    "word": "adiós",
+    "translation": "goodbye",
+    "partOfSpeech": "interjection",
+    "synonyms": [],
+    "exampleSentence": "¡Adiós, amigos! (Goodbye, friends!)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-buenos-dias",
+    "language": "spanish",
+    "word": "buenos días",
+    "translation": "good morning",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Buenos días, mami. (Good morning, mommy.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-buenas-noches",
+    "language": "spanish",
+    "word": "buenas noches",
+    "translation": "good night",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Buenas noches, papi. (Good night, daddy.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-gracias",
+    "language": "spanish",
+    "word": "gracias",
+    "translation": "thank you",
+    "partOfSpeech": "interjection",
+    "synonyms": [],
+    "exampleSentence": "Gracias, mami. (Thank you, mommy.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-por-favor",
+    "language": "spanish",
+    "word": "por favor",
+    "translation": "please",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Agua, por favor. (Water, please.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-si",
+    "language": "spanish",
+    "word": "sí",
+    "translation": "yes",
+    "partOfSpeech": "adverb",
+    "synonyms": [],
+    "exampleSentence": "¿Quieres jugar? ¡Sí! (Do you want to play? Yes!)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-no",
+    "language": "spanish",
+    "word": "no",
+    "translation": "no",
+    "partOfSpeech": "adverb",
+    "synonyms": [],
+    "exampleSentence": "¿Es un gato? ¡No, es un perro! (Is it a cat? No, it's a dog!)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  }
+]

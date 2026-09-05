@@ -1,0 +1,46 @@
+{
+  "lessonId": "lesson-spanish-3-1-5",
+  "quiz": {
+    "id": "quiz-spanish-3-1-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "You wake up in the morning. Which greeting do you say?",
+        "options": ["Buenos días", "Buenas noches", "Adiós", "Mal"],
+        "answer": 0,
+        "explanation": "Buenos días means 'good morning' and is used from waking up until about midday."
+      },
+      {
+        "q": "It's 2:00 in the afternoon. Which greeting fits?",
+        "options": ["Buenos días", "Buenas tardes", "Buenas noches", "Mucho gusto"],
+        "answer": 1,
+        "explanation": "Buenas tardes means 'good afternoon,' used from midday until it gets dark."
+      },
+      {
+        "q": "The moon is out and it's time for bed. Which greeting fits?",
+        "options": ["Buenas tardes", "Buenos días", "Buenas noches", "Adiós"],
+        "answer": 2,
+        "explanation": "Buenas noches means 'good evening' or 'good night,' used once it's dark outside."
+      },
+      {
+        "q": "Your friend asks '¿Cómo estás?' and you feel great! What do you say?",
+        "options": ["Mal", "Muy bien", "Mucho gusto", "Adiós"],
+        "answer": 1,
+        "explanation": "Muy bien means 'very well' — the right answer when you feel great."
+      },
+      {
+        "q": "You meet a brand-new classmate for the very first time. What do you say?",
+        "options": ["Buenos días", "Mucho gusto", "Buenas noches", "Mal"],
+        "answer": 1,
+        "explanation": "Mucho gusto means 'nice to meet you' and is only said the first time you meet someone."
+      },
+      {
+        "q": "You are leaving your friend's house. What do you say?",
+        "options": ["Mucho gusto", "¿Cómo estás?", "Adiós", "Muy bien"],
+        "answer": 2,
+        "explanation": "Adiós means 'goodbye' and works no matter the time of day."
+      }
+    ]
+  }
+}

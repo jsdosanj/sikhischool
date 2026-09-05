@@ -1,0 +1,90 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-1",
+    "courseId": "course-spanish-k",
+    "order": 1,
+    "title": "Welcome: Greetings & Goodbyes",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-1-2",
+    "unitId": "unit-spanish-k-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Buenos Días, Buenas Noches: Sunrise and Moonrise",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol wakes up with the sun every morning, and goes to sleep with the moon every night. Let's stretch awake and curl up asleep with Sol!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-morning",
+        "text": "Stretch your arms up high like the sun is rising. Say [[buenos días]] — that means 'good morning'!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-night",
+        "text": "Now curl up small and close your eyes like the moon is rising. Say [[buenas noches]] — that means 'good night'!"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You said buenos días for morning and buenas noches for night! Tomorrow, Sol needs your help remembering the magic words."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match the Spanish greeting to its picture.",
+          "pairs": [
+            { "left": "buenos días", "right": "☀️ good morning" },
+            { "left": "buenas noches", "right": "🌙 good night" },
+            { "left": "hola", "right": "👋 hello" },
+            { "left": "adiós", "right": "🚶 goodbye" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-1-2",
+    "lessonId": "lesson-spanish-k-1-2",
+    "objectives": [
+      "Say buenos días while acting out waking up, and buenas noches while acting out going to sleep",
+      "Match this week's greeting words to the right picture or action with support"
+    ],
+    "materialsNeeded": ["A sun picture and a moon picture (drawn or printed)", "Open space to stretch and curl up"],
+    "facilitationScript": "1. Hold up (or draw) a sun and say 'buenos días' — good morning. Stretch up tall together.\n2. Hold up (or draw) a moon and say 'buenas noches' — good night. Curl up small together.\n3. Play a quick sort: show the sun, child says buenos días and stretches; show the moon, child says buenas noches and curls up. Mix up the order to keep it playful.\n4. Act it out as a mini-story: 'wake up' (buenos días, stretch), then later 'go to sleep' (buenas noches, curl up).\n5. Complete the on-screen matching activity together, reading each tile aloud since your child may not read yet.\n6. Close by asking: 'What do we say to the sun? What do we say to the moon?'",
+    "differentiationTips": [
+      "Struggling: use real light in the house (a sunny window, a night-light) instead of pictures, so the sun/moon connection feels concrete",
+      "Ready for more: ask your child to add their own morning action (a big yawn) or night action (a pretend snore) to go with each phrase",
+      "Both phrases are long for a first echo — it's fine if your child only manages 'días' or 'noches' at first and grows into the full phrase over the week"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken and acted activity — success looks like the correct phrase paired with the correct action (stretch for buenos días, curl up for buenas noches), not a written answer. In the matching game: buenos días → ☀️, buenas noches → 🌙, hola → 👋, adiós → 🚶.",
+    "standardsRationale": "Continues the week's WA-WL-2015.1.1 target by pairing two new greeting phrases with physical actions (TPR — Total Physical Response), the recommended method for this band's oral/aural-first design, and recycles hola/adiós from Day 1 in the matching activity."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-1-2",
+    "lessonId": "lesson-spanish-k-1-2",
+    "title": "Sunrise and Moonrise",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together.",
+      "rows": [
+        { "problem": "Show a sun picture. Stretch tall together and say '¡Buenos días!'" },
+        { "problem": "Show a moon picture. Curl up small together and say '¡Buenas noches!'" },
+        { "problem": "Mix up the sun and moon pictures — can your child say the right greeting each time?" }
+      ]
+    }
+  }
+}

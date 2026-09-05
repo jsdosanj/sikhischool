@@ -1,0 +1,116 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-1",
+    "courseId": "course-spanish-3",
+    "order": 1,
+    "title": "Greetings & Courtesy: Buenos Días to Adiós",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-1-4",
+    "unitId": "unit-spanish-3-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "A Day of Greetings: Reading Marisol's Comic Strip",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned five greetings this week. Today you'll read a comic strip about a girl named Marisol's whole day, and figure out which greeting belongs in each picture."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "One more word before you read: [[adiós]] means 'goodbye.' Unlike buenos días, buenas tardes, and buenas noches, adiós doesn't change with the time of day — you can say adiós any time you're leaving, morning, afternoon, or night. Think of this week's greetings like the covers of a book: buenos días (or buenas tardes or buenas noches, depending on when you arrive) opens a conversation, and adiós closes it, no matter what time it happened to be."
+      },
+      {
+        "type": "text",
+        "ref": "comic",
+        "text": "MARISOL'S DAY — read each picture and speech bubble in order.\n\nPANEL 1: The sun is rising outside Marisol's window. She is still in bed but her eyes are open. Speech bubble: '¡___, mamá!'\n\nPANEL 2: Marisol is at school for recess. The sun is high in the sky. She waves to her teacher. Speech bubble: '¡___, maestra!'\n\nPANEL 3: A new student walks up to Marisol at recess. They shake hands. Marisol's speech bubble: '¡Hola! Me llamo Marisol.' The new student's speech bubble: '___, Marisol. Me llamo Camila.'\n\nPANEL 4: Marisol's family is eating dinner. The moon is visible through the window. Speech bubble: '¡___, familia!'\n\nPANEL 5: Marisol's older brother is leaving the house for his night job. Marisol waves from the door. Speech bubble: '¡___, hermano!'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just read a whole comic strip in Spanish and figured out which greeting belongs in every panel, using only the picture and the time of day as your clues. Tomorrow you'll perform a complete greeting conversation of your own, from hello all the way to goodbye."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "Marisol wakes up as the sun rises. She says, '¡___, mamá!'",
+              "blankToken": "___",
+              "options": ["Buenos días", "Buenas tardes", "Buenas noches", "Adiós"],
+              "answer": "Buenos días"
+            },
+            {
+              "sentence": "At recess, the sun is high in the sky. Marisol waves to her teacher and says, '¡___, maestra!'",
+              "blankToken": "___",
+              "options": ["Buenos días", "Buenas tardes", "Buenas noches", "Mal"],
+              "answer": "Buenas tardes"
+            },
+            {
+              "sentence": "A new student, Camila, shakes Marisol's hand and says, '___, Marisol.'",
+              "blankToken": "___",
+              "options": ["Mucho gusto", "Buenos días", "Adiós", "Mal"],
+              "answer": "Mucho gusto"
+            },
+            {
+              "sentence": "At dinner, the moon is out. Marisol says, '¡___, familia!'",
+              "blankToken": "___",
+              "options": ["Buenas tardes", "Buenos días", "Buenas noches", "Mucho gusto"],
+              "answer": "Buenas noches"
+            },
+            {
+              "sentence": "Marisol's brother leaves for his night job. She waves and says, '¡___, hermano!'",
+              "blankToken": "___",
+              "options": ["Mucho gusto", "Buenos días", "Adiós", "Muy bien"],
+              "answer": "Adiós"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-1-4",
+    "lessonId": "lesson-spanish-3-1-4",
+    "objectives": [
+      "Say adiós correctly as a goodbye that works at any time of day",
+      "Choose the correct greeting for a picture, using the time of day and situation shown as clues"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Introduce adiós as 'goodbye' and point out that, unlike the other three greetings, it doesn't change with the time of day.\n2. Read all five panels of Marisol's comic strip aloud together, pausing at each blank to guess the missing greeting from the picture's clues before revealing the answer.\n3. Complete the cloze activity, choosing the correct greeting word for each panel.\n4. Complete the worksheet.\n5. Preview tomorrow's skit performance.",
+    "differentiationTips": [
+      "Struggling: cover everything except the time-of-day clue in each panel (the sun, the moon, the dinner table) — that alone answers most of the blanks",
+      "Ready for more: ask them to describe what a Panel 6 might show if Marisol said goodbye to her teacher at the end of the school day — what greeting would fit best, and why adiós still works no matter the time",
+      "This lesson uses a comic strip instead of a real audio recording because the course doesn't have audio content yet — the picture clues (sun, moon, handshake) do the same job a voice recording would, pointing to which greeting fits"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Panel 1 (sunrise, waking up): Buenos días. Panel 2 (recess, sun high): Buenas tardes. Panel 3 (meeting Camila): Mucho gusto. Panel 4 (dinner, moon out): Buenas noches. Panel 5 (brother leaving): Adiós.",
+    "standardsRationale": "Covers the week's Day 4 target (reading comprehension across all five greetings) through Interpretive Reading rather than Interpretive Listening, since no audio-generation infrastructure exists yet in the platform (open decision, expansion-plan-2026-09.md §12.9) — visual and situational clues stand in for the audio cues a listening version would use."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-1-4",
+    "lessonId": "lesson-spanish-3-1-4",
+    "title": "A Day of Greetings: Reading Marisol's Comic Strip",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using Marisol's comic strip from today's lesson.",
+      "rows": [
+        { "problem": "What does Marisol say when she wakes up in Panel 1?" },
+        { "problem": "What does Camila say when she meets Marisol for the first time in Panel 3?" },
+        { "problem": "What does Marisol say to her brother as he leaves for work at night in Panel 5? Why does this greeting work no matter the time of day?" },
+        { "problem": "Draw your own Panel 6: where is Marisol, and what greeting does she say?" }
+      ]
+    }
+  }
+}

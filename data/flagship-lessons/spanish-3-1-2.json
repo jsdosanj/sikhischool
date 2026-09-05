@@ -1,0 +1,110 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-1",
+    "courseId": "course-spanish-3",
+    "order": 1,
+    "title": "Greetings & Courtesy: Buenos Días to Adiós",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-1-2",
+    "unitId": "unit-spanish-3-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "¿Cómo Estás? Asking and Answering How You Feel",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned three ways to say hello. But a real conversation doesn't stop at hello — in English, after you say 'Hi,' you usually ask 'How are you?' Spanish does the exact same thing."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[¿cómo estás?]] means 'how are you?' It's the question you ask right after greeting a friend or a family member. There are two simple ways to answer: [[muy bien]] means 'very well,' and [[mal]] means 'badly' or 'not well.' Notice that ¿cómo estás? starts and ends with question marks in Spanish — one upside-down (¿) at the start, and one right-side-up (?) at the end. That upside-down question mark is a signal to the reader: get ready, a question is coming, even before you've read the whole sentence — English never does this, so it's one of the first things that looks different about written Spanish."
+      },
+      {
+        "type": "text",
+        "ref": "dialogue",
+        "text": "Look at each face below and decide how that person feels: muy bien or mal?\n\nFACE 1: A big smile, eyes closed happily. → ___\nFACE 2: A frown, eyebrows pulled down. → ___\nFACE 3: A huge grin with two thumbs up. → ___\nFACE 4: A sad, drooping mouth. → ___\n\n(Answers: 1. muy bien  2. mal  3. muy bien  4. mal)\n\nNow read this dialogue chain out loud with two family members, taking turns to keep the question moving from person to person:\n\nANA: ¡Buenos días, Luis! ¿Cómo estás?\nLUIS: Muy bien, gracias. ¿Cómo estás tú, Sofía?\nSOFÍA: Mal, gracias.\n\nJust like the question passes around your own breakfast table, it passes from Ana, to Luis, to Sofía here."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now greet someone, ask how they're doing, and answer with muy bien or mal. Tomorrow you'll learn what to say the very first time you meet someone new."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "This face has a big smile with closed, happy eyes. How does this person feel?",
+              "options": ["Muy bien", "Mal", "Adiós", "Mucho gusto"],
+              "answer": 0,
+              "explanation": "A big happy smile means muy bien — 'very well.'"
+            },
+            {
+              "q": "This face has a frown with the eyebrows pulled down. How does this person feel?",
+              "options": ["Muy bien", "Mal", "Buenos días", "Mucho gusto"],
+              "answer": 1,
+              "explanation": "A frown means mal — 'badly, not well.'"
+            },
+            {
+              "q": "Your friend asks you '¿Cómo estás?' Which question did they ask?",
+              "options": ["What is your name?", "How are you?", "Goodbye", "Nice to meet you"],
+              "answer": 1,
+              "explanation": "¿Cómo estás? means 'how are you?'"
+            },
+            {
+              "q": "You feel great today! Which word do you use to answer ¿Cómo estás?",
+              "options": ["Mal", "Adiós", "Muy bien", "Buenas noches"],
+              "answer": 2,
+              "explanation": "Muy bien means 'very well' — the right answer when you feel great."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-1-2",
+    "lessonId": "lesson-spanish-3-1-2",
+    "objectives": [
+      "Ask ¿Cómo estás? and answer with muy bien or mal",
+      "Match a facial expression to the correct feeling word (muy bien or mal)"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Two family members to help read the dialogue chain aloud"],
+    "facilitationScript": "1. Ask the child what they say in English right after 'Hi' (usually 'How are you?') — a greeting is often followed by a check-in.\n2. Introduce ¿Cómo estás?, pointing out the upside-down question mark at the start.\n3. Introduce muy bien and mal as the two simple answers.\n4. Look at the four feeling faces together and decide muy bien or mal for each.\n5. Read the three-person dialogue chain aloud, assigning Ana, Luis, and Sofía's lines to the child and family members, then swap parts and read it again.\n6. Complete the multiple-choice activity.\n7. Complete the worksheet.\n8. Preview tomorrow: meeting someone new with mucho gusto.",
+    "differentiationTips": [
+      "Struggling: practice just the question-and-one-answer pair (¿Cómo estás? → Muy bien, gracias.) before adding mal or the three-person chain",
+      "Ready for more: have them add a real reason using English mixed in for now, like 'Muy bien — it's my birthday!' to preview that longer answers are possible later",
+      "If the upside-down question mark confuses them, point out it's like a warning sign at the start of a road — it tells the reader 'a question is starting here'"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Face 1 (big smile): muy bien. Face 2 (frown): mal. Face 3 (grin, thumbs up): muy bien. Face 4 (sad mouth): mal. ¿Cómo estás? means 'how are you?'",
+    "standardsRationale": "Extends the week's WA-WL-2015.1.1 Interpersonal Communication target from a one-word greeting to a two-line exchange (question + answer) — the scope-and-sequence names this as Day 2's specific skill, and pairing it with visual feeling faces keeps the new vocabulary concrete for a band that is still building reading stamina."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-1-2",
+    "lessonId": "lesson-spanish-3-1-2",
+    "title": "¿Cómo Estás? Asking and Answering How You Feel",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about ¿Cómo estás?, muy bien, and mal.",
+      "rows": [
+        { "problem": "What does ¿Cómo estás? mean in English?" },
+        { "problem": "Draw a happy face and write the Spanish word that matches it." },
+        { "problem": "Draw a sad face and write the Spanish word that matches it." },
+        { "problem": "Write how you would answer if a friend asked you ¿Cómo estás? today." }
+      ]
+    }
+  }
+}

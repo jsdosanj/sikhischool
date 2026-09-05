@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dict-spanish-buenos-dias",
+    "language": "spanish",
+    "word": "buenos días",
+    "translation": "good morning",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "¡Buenos días, mamá! Voy a la escuela. (Good morning, Mom! I'm going to school.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-buenas-tardes",
+    "language": "spanish",
+    "word": "buenas tardes",
+    "translation": "good afternoon",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "¡Buenas tardes, abuela! Llegué de la escuela. (Good afternoon, Grandma! I got home from school.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-buenas-noches",
+    "language": "spanish",
+    "word": "buenas noches",
+    "translation": "good evening, good night",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "¡Buenas noches, papá! Hasta mañana. (Good night, Dad! See you tomorrow.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-como-estas",
+    "language": "spanish",
+    "word": "¿cómo estás?",
+    "translation": "how are you?",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "¡Hola, Sofía! ¿Cómo estás? (Hi, Sofia! How are you?)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-muy-bien",
+    "language": "spanish",
+    "word": "muy bien",
+    "translation": "very well",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Muy bien, gracias. ¿Y tú? (Very well, thank you. And you?)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-mal",
+    "language": "spanish",
+    "word": "mal",
+    "translation": "badly, not well",
+    "partOfSpeech": "adverb",
+    "synonyms": [],
+    "exampleSentence": "Mal, gracias. Estoy un poco cansado. (Not well, thank you. I'm a little tired.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-mucho-gusto",
+    "language": "spanish",
+    "word": "mucho gusto",
+    "translation": "nice to meet you",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Mucho gusto. Me llamo Diego. (Nice to meet you. My name is Diego.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-adios",
+    "language": "spanish",
+    "word": "adiós",
+    "translation": "goodbye",
+    "partOfSpeech": "interjection",
+    "synonyms": [],
+    "exampleSentence": "¡Adiós, amigos! Nos vemos mañana. (Goodbye, friends! See you tomorrow.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  }
+]

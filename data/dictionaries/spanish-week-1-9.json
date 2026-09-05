@@ -1,0 +1,68 @@
+[
+  {
+    "id": "dict-spanish-fluidez",
+    "language": "spanish",
+    "word": "la fluidez",
+    "translation": "fluency",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi meta es alcanzar la fluidez necesaria para mantener una conversación completa en español. (My goal is to reach the fluency needed to hold a complete conversation in Spanish.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-dominio",
+    "language": "spanish",
+    "word": "el dominio",
+    "translation": "mastery, command",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Para recibir el Sello de Alfabetización Bilingüe, necesito demostrar un dominio de nivel intermedio-alto en español. (To receive the Seal of Biliteracy, I need to demonstrate intermediate-mid level mastery in Spanish.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-autoevaluacion",
+    "language": "spanish",
+    "word": "la autoevaluación",
+    "translation": "self-assessment",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Hice una autoevaluación honesta para saber en qué nivel de español estoy empezando este año. (I did an honest self-assessment to know what level of Spanish I'm starting this year at.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-meta-a-largo-plazo",
+    "language": "spanish",
+    "word": "la meta a largo plazo",
+    "translation": "long-term goal",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Mi meta a largo plazo es alcanzar el nivel intermedio-alto antes de graduarme de la escuela secundaria. (My long-term goal is to reach the intermediate-mid level before graduating from high school.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-hablante",
+    "language": "spanish",
+    "word": "el hablante",
+    "translation": "speaker",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Un hablante de nivel intermedio puede crear oraciones originales, no solo repetir frases memorizadas. (An intermediate-level speaker can create original sentences, not just repeat memorized phrases.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-comunicarse",
+    "language": "spanish",
+    "word": "comunicarse",
+    "translation": "to communicate",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Mi objetivo este año es poder comunicarme con hablantes nativos sin depender de frases memorizadas. (My goal this year is to be able to communicate with native speakers without relying on memorized phrases.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  }
+]

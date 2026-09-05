@@ -1,0 +1,30 @@
+{
+  "lessonId": "lesson-spanish-k-1-5",
+  "quiz": {
+    "id": "quiz-spanish-k-1-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Grown-up, read aloud: How do you say 'hello' in Spanish?",
+        "options": ["hola", "adiós", "gracias", "no"],
+        "answer": 0
+      },
+      {
+        "q": "Grown-up, read aloud: How do you say 'good night' in Spanish?",
+        "options": ["buenos días", "buenas noches", "hola", "adiós"],
+        "answer": 1
+      },
+      {
+        "q": "Grown-up, read aloud: What do you say before you get something, to ask nicely?",
+        "options": ["gracias", "por favor", "sí", "no"],
+        "answer": 1
+      },
+      {
+        "q": "Grown-up, read aloud: What do you say after you get something, to say thank you?",
+        "options": ["por favor", "no", "gracias", "adiós"],
+        "answer": 2
+      }
+    ]
+  }
+}

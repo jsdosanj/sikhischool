@@ -1,0 +1,164 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-6",
+    "courseId": "course-spanish-9",
+    "order": 6,
+    "title": "Gastronomy of Latin America",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-6-2",
+    "unitId": "unit-spanish-9-6",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Reading a Real Recipe: The Command Forms in the Instructions",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you mapped four dishes. Today you read one of them written down. A recipe is one of the most standardized kinds of writing in any language — a title, a list, a set of steps — which makes it a good authentic text to read early: you already know the shape before you know all the words. Today's recipe is for arepas, and the grammar to notice is the command form that runs through almost every recipe's instructions."
+      },
+      {
+        "type": "text",
+        "ref": "estructura",
+        "text": "A Spanish [[la receta]] has three parts, always in this order. The título names the dish. The ingredientes section lists what you need, each line with a cantidad (an amount) — 2 tazas, 1 cucharadita, un poco de. Each item on that list is an [[el ingrediente]]. The preparación (also called instrucciones or pasos) is the numbered sequence of actions. Read the ingredient list first and the steps second — the same way you would in English."
+      },
+      {
+        "type": "text",
+        "ref": "la-receta",
+        "text": "Here is the recipe. Read the Spanish first, then check yourself against the English.\n\nAREPAS (para 6–8 arepas)\n\nIngredientes:\n— 2 tazas de harina de maíz precocida (blanca o amarilla)\n— 2 ½ tazas de agua tibia\n— 1 cucharadita de sal\n— 1 cucharada de aceite (opcional)\n\nPreparación:\n1. En un tazón grande, disuelva la sal en el agua tibia.\n2. Agregue la harina de maíz poco a poco, mezclando con la mano.\n3. Amase de tres a cinco minutos, hasta obtener una masa suave que no se pegue a los dedos. Si queda seca, añada un poco más de agua.\n4. Deje reposar la masa cinco minutos y tápela.\n5. Divida la masa en seis u ocho bolas iguales.\n6. Aplaste cada bola hasta formar un disco de un centímetro de grosor.\n7. Caliente una plancha o un sartén a fuego medio con un poco de aceite.\n8. Cocine cada arepa unos cinco minutos por cada lado, hasta que se dore y suene hueca al golpearla.\n9. Sirva caliente. Ábrala con un cuchillo y rellénela al gusto.\n\n(English: 2 cups pre-cooked corn flour, 2½ cups warm water, 1 tsp salt, 1 tbsp oil optional. 1. Dissolve the salt in the warm water. 2. Add the corn flour little by little, mixing by hand. 3. Knead 3–5 minutes until you get a smooth dough that does not stick to your fingers; if it is dry, add a little more water. 4. Let the dough rest 5 minutes and cover it. 5. Divide the dough into 6–8 equal balls. 6. Flatten each ball into a disc about one centimeter thick. 7. Heat a griddle or pan over medium heat with a little oil. 8. Cook each arepa about 5 minutes per side, until it browns and sounds hollow when tapped. 9. Serve hot. Open it with a knife and fill it to taste.)"
+      },
+      {
+        "type": "text",
+        "ref": "los-mandatos",
+        "text": "Look at how every step begins: disuelva, agregue, amase, deje, divida, aplaste, caliente, cocine, sirva. These are verbs in the imperative — the command form — and this is the normal way a recipe gives instructions, in Spanish as in English (\"Add the flour. Knead the dough.\"). This particular recipe addresses the cook as usted, the formal \"you.\" Another cookbook might address the cook as tú, and the endings would flip:\n— añadir → añada (usted) / añade (tú)\n— dividir → divida (usted) / divide (tú)\n— servir → sirva (usted) / sirve (tú)\n— cocinar → cocine (usted) / cocina (tú)\n— amasar → amase (usted) / amasa (tú)\nA quick way to read the pattern: for -ar verbs, the usted command ends in -e (cocine, amase, agregue) and the tú command ends in -a (cocina, amasa, agrega); for -er and -ir verbs it is the mirror image — usted ends in -a (añada, divida), tú ends in -e (añade, divide). Both registers are correct."
+      },
+      {
+        "type": "text",
+        "ref": "practice-guidance",
+        "text": "Your job this week is to recognize these forms and follow them — to see \"Corte la cebolla en trozos pequeños\" and know it means \"cut the onion into small pieces,\" and to trace \"corte\" back to the infinitive cortar. Producing the full imperative yourself, for every verb, comes in a later unit. For now, when you meet a recipe verb you do not know, do two things: strip it back to its infinitive (agregue → agregar), and use the position — a word at the very start of a numbered step is almost always a command telling you to do something."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow steps back from the plate to the past: how the Indigenous, European, and African foodways that stand behind almost every dish this week actually came together."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Step 2 says 'Agregue la harina de maíz poco a poco, mezclando con la mano.' This tells the cook to:",
+              "options": [
+                "add the corn flour a little at a time, mixing by hand",
+                "add all the corn flour at once and stop mixing",
+                "take the corn flour back out of the bowl",
+                "measure the corn flour before doing anything else"
+              ],
+              "answer": 0,
+              "explanation": "Agregue is a command from agregar (to add); 'poco a poco' means little by little."
+            },
+            {
+              "q": "In a recipe, verbs like 'mezcle', 'caliente', and 'cocine' are:",
+              "options": [
+                "command forms (the imperative) — the normal way a recipe gives instructions",
+                "past-tense verbs describing what the cook already did",
+                "future-tense verbs describing what will happen on its own",
+                "adjectives describing how the food tastes"
+              ],
+              "answer": 0,
+              "explanation": "Recipes run on the imperative. Each numbered step opens with one."
+            },
+            {
+              "q": "The command 'corte' (as in 'Corte la cebolla') comes from which infinitive?",
+              "options": [
+                "cortar (to cut)",
+                "correr (to run)",
+                "cortejar (to court someone)",
+                "cocer (to boil)"
+              ],
+              "answer": 0,
+              "explanation": "Strip a recipe command back to its infinitive to look it up: corte → cortar."
+            },
+            {
+              "q": "One recipe writes 'añada, divida, sirva'. Another writes 'añade, divide, sirve'. The difference is:",
+              "options": [
+                "the first addresses the cook as 'usted', the second as 'tú' — both are correct command forms",
+                "the first is correct and the second contains spelling errors",
+                "the first is the ingredient list and the second is the steps",
+                "the first is Spanish from Spain and the second is only used in Latin America"
+              ],
+              "answer": 0,
+              "explanation": "Recipes are written in either register. The endings flip between usted and tú, but both give commands."
+            },
+            {
+              "q": "In the ingredient list, 'harina de maíz precocida' means:",
+              "options": [
+                "corn flour that has already been cooked before being ground",
+                "corn flour blended with wheat flour",
+                "corn flour that must then be cooked for one hour",
+                "whole raw corn still on the cob"
+              ],
+              "answer": 0,
+              "explanation": "Precocida = pre-cooked. It is the standard flour for arepas — you just add water and salt."
+            },
+            {
+              "q": "Step 4 says 'Deje reposar la masa cinco minutos.' The cook should:",
+              "options": [
+                "let the dough sit for five minutes without working it",
+                "knead the dough hard for five minutes",
+                "put the dough in the refrigerator for five minutes",
+                "divide the dough into five pieces"
+              ],
+              "answer": 0,
+              "explanation": "Deje (from dejar) + reposar = let it rest."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-6-2",
+    "lessonId": "lesson-spanish-9-6-2",
+    "objectives": [
+      "Identify the three parts of a Spanish recipe (título, ingredientes with cantidades, preparación) and read the arepa recipe for meaning",
+      "Define la receta and el ingrediente, and use both accurately",
+      "Recognize the usted and tú imperative in recipe instructions, trace a command back to its infinitive (añada → añadir), and follow the step — without being expected to produce the full imperative yet"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "The printed arepa recipe from the lesson"],
+    "facilitationScript": "1. Read the hook and the estructura block; have the student name the three parts of a recipe and point them out on the printed arepa recipe.\n2. Read the Spanish recipe aloud together, step by step, before looking at the English. Have the student predict what each step means from the verb and the nouns, then check against the English.\n3. Read the los-mandatos block. Point at the opening verb of each step and name it as a command. Practice the flip out loud: añada / añade, cocine / cocina, sirva / sirve.\n4. Do the quick-read rule together: -ar verbs take -e for usted and -a for tú; -er/-ir verbs are the mirror image.\n5. Read the practice-guidance block — recognize and follow, do not produce. Practice stripping three commands back to infinitives (agregue → agregar, caliente → calentar, divida → dividir).\n6. Complete the multiple-choice activity.\n7. Complete the worksheet.\n8. Preview tomorrow's food-history lesson.",
+    "differentiationTips": [
+      "Struggling: work with just the -ar pattern (cocine/cocina, amase/amasa) and just the recognize-and-follow half of the objective; the -er/-ir mirror image can wait",
+      "Ready for more: have the student rewrite two or three steps of the recipe in the tú register instead of usted, and check the endings — a light preview of imperative production, clearly labeled as a stretch",
+      "Watch for the student trying to fully conjugate every command from scratch — redirect to the week's actual task: recognize the form, find the infinitive, follow the instruction"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "A Spanish recipe has título, then ingredientes (each with a cantidad), then preparación/pasos. La receta = recipe; el ingrediente = an item on the ingredient list. The opening verb of each step (disuelva, agregue, amase, caliente, cocine, sirva) is an imperative — a command. This recipe uses the usted register; the tú register flips the endings (añada/añade, cocine/cocina, sirva/sirve). To read an unknown command: trace it to its infinitive (agregue → agregar) and use its position — a verb at the start of a numbered step is telling you to do something. Students should recognize and follow, not produce, the full imperative this week.",
+    "standardsRationale": "Serves WA-WL-2015.2.2 by using an authentic cultural product — a real recipe — as the text, and it advances the year's grammar sequence by introducing imperative recognition (not production) in the one place learners meet the mood constantly: instructions. Per the scope-and-sequence's week 6 Day 2 design ('Read a real recipe in Spanish; command forms in instructions'). The arepa recipe connects straight back to Day 1's dish map. Full imperative production is deferred to a later unit, consistent with the plan's spiral sequencing; formal usted commands return in week 14 (at the clinic)."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-6-2",
+    "lessonId": "lesson-spanish-9-6-2",
+    "title": "Reading a Real Recipe: The Command Forms in the Instructions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use the arepa recipe from today's lesson to answer each question.",
+      "rows": [
+        { "problem": "Name the three parts of a Spanish recipe, in order. Which part contains the cantidades (amounts)?" },
+        { "problem": "Write the English meaning of steps 3 and 8 of the arepa recipe." },
+        { "problem": "For each command, write its infinitive: agregue, amase, caliente, divida, sirva." },
+        { "problem": "The recipe uses 'divida' and 'sirva' (usted). Write the tú-register version of each. Which vowel changes?" },
+        { "problem": "You read the instruction 'Corte el tomate y añada la sal.' In your own words, what does this step tell the cook to do? Which two words are commands?" }
+      ]
+    }
+  }
+}

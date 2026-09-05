@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dict-spanish-sabor",
+    "language": "spanish",
+    "word": "el sabor",
+    "translation": "flavor, taste",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Lo primero que noté del mole no fue el picante, sino la cantidad de sabores distintos que aparecían uno tras otro: dulce, tostado, un poco amargo. (The first thing I noticed about the mole wasn't the heat, but how many different flavors turned up one after another: sweet, toasted, a little bitter.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-picante",
+    "language": "spanish",
+    "word": "picante",
+    "translation": "spicy, hot",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "En mi casa la comida no es muy picante; mi abuela sirve el chile aparte para que cada quien decida cuánto ponerse. (In my house the food isn't very spicy; my grandmother serves the chili on the side so everyone decides how much to add.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-receta",
+    "language": "spanish",
+    "word": "la receta",
+    "translation": "recipe",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "La receta de las hallacas la tenía mi tía en la cabeza, no en papel, y cada diciembre la dictaba en voz alta mientras cocinábamos. (My aunt kept the hallaca recipe in her head, not on paper, and every December she would dictate it out loud while we cooked.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-ingrediente",
+    "language": "spanish",
+    "word": "el ingrediente",
+    "translation": "ingredient",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "El ingrediente que no puede faltar en un buen guacamole es el aguacate maduro; todo lo demás se ajusta al gusto. (The one ingredient a good guacamole can't do without is ripe avocado; everything else is adjusted to taste.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-mole",
+    "language": "spanish",
+    "word": "el mole",
+    "translation": "mole (a thick Mexican sauce)",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "El mole poblano de mi vecina lleva más de veinte ingredientes y tarda dos días en estar listo; el olor llena todo el edificio. (My neighbor's mole poblano has more than twenty ingredients and takes two days to be ready; the smell fills the whole building.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-ceviche",
+    "language": "spanish",
+    "word": "el ceviche",
+    "translation": "ceviche (raw fish cured in citrus)",
+    "partOfSpeech": "noun",
+    "synonyms": ["el cebiche", "el seviche"],
+    "exampleSentence": "En la costa del Perú, el ceviche se come al mediodía y bien fresco, nunca de noche, porque el pescado tiene que ser del día. (On the coast of Peru, ceviche is eaten at midday and very fresh, never at night, because the fish has to be that day's catch.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-empanada",
+    "language": "spanish",
+    "word": "la empanada",
+    "translation": "empanada (a filled, folded pastry)",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Cada país tiene su empanada: la argentina es pequeña y al horno, la colombiana es de maíz y frita, y las dos se defienden con orgullo. (Every country has its own empanada: the Argentine one is small and baked, the Colombian one is corn and fried, and both are defended with pride.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-gastronomia",
+    "language": "spanish",
+    "word": "la gastronomía",
+    "translation": "gastronomy, cuisine",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "La gastronomía peruana mezcla raíces indígenas, españolas, africanas, chinas y japonesas, y por eso es tan difícil resumirla en un solo plato. (Peruvian cuisine blends Indigenous, Spanish, African, Chinese, and Japanese roots, which is why it's so hard to sum up in a single dish.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  }
+]

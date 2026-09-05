@@ -1,0 +1,76 @@
+{
+  "lessonId": "lesson-spanish-9-6-5",
+  "quiz": {
+    "id": "quiz-spanish-9-6-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Mole is a dish from which country, and which regions especially?",
+        "options": [
+          "Spain — Galicia",
+          "Mexico — Oaxaca and Puebla above all",
+          "Peru — the Amazon region",
+          "Chile — Patagonia"
+        ],
+        "answer": 1,
+        "explanation": "Oaxaca is called 'the land of the seven moles.' Mole poblano, from Puebla, is the best-known version outside Mexico."
+      },
+      {
+        "q": "Ceviche is traditionally made by:",
+        "options": [
+          "coating fish in breadcrumbs and frying it in oil",
+          "smoking fish and then drying it in the sun",
+          "curing raw, very fresh fish in citrus juice with onion, chili, and salt",
+          "slow-roasting fish over a wood fire for several hours"
+        ],
+        "answer": 2,
+        "explanation": "The lime's acid firms and whitens the fish without heat. It is a dish of the Peruvian and Ecuadorian Pacific coast."
+      },
+      {
+        "q": "Arepas differ from most empanada dough in one basic way:",
+        "options": [
+          "arepas are always a sweet dessert",
+          "arepas contain no grain of any kind",
+          "arepas are eaten only in Spain",
+          "arepas are made from corn; empanada dough is often (not always) wheat"
+        ],
+        "answer": 3,
+        "explanation": "Arepas are corn cakes from Venezuela and Colombia, made in the region long before European contact."
+      },
+      {
+        "q": "Empanadas vary sharply by country. Which pairing is correct?",
+        "options": [
+          "Chilean empanada de pino — ground beef, onion, hard-boiled egg, an olive, a raisin, baked",
+          "Chilean empanada — raw fish cured in lime juice",
+          "Argentine empanada — corn dough, always served as dessert",
+          "Colombian empanada — a thin wheat pancake folded with honey"
+        ],
+        "answer": 0,
+        "explanation": "Argentine empanadas are typically small, baked or fried, beef with cumin; Colombian ones use a fried corn dough eaten with ají."
+      },
+      {
+        "q": "In this week's vocabulary, 'el sabor' means ___ and 'picante' means ___:",
+        "options": [
+          "kitchen / bitter",
+          "flavor / spicy",
+          "smell / salty",
+          "recipe / sweet"
+        ],
+        "answer": 1,
+        "explanation": "And 'all Latin American food is picante' is a stereotype — much of Argentine, Chilean, and everyday home cooking is mild."
+      },
+      {
+        "q": "Mole poblano is often called a fusion dish because it combines:",
+        "options": [
+          "only ingredients native to the Americas",
+          "only ingredients brought from Europe",
+          "ingredients from one village that never traded with anyone else",
+          "pre-Hispanic ingredients (many chiles, turkey, cacao, pumpkin seeds) with post-contact ones (cinnamon, sesame, almonds, black pepper)"
+        ],
+        "answer": 3,
+        "explanation": "The dish is a record of the Columbian Exchange. The convent-origin story is treated by food historians as legend — chile sauces called mulli predate it."
+      }
+    ]
+  }
+}

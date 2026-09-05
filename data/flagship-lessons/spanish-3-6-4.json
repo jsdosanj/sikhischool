@@ -1,0 +1,104 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-6",
+    "courseId": "course-spanish-3",
+    "order": 6,
+    "title": "In the Classroom: En el Salón de Clases",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-6-4",
+    "unitId": "unit-spanish-3-6",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Lee y Haz: Follow the Instruction Card",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "All week the commands have come from a teacher's voice. Today they come from a card. Someone hands you four steps written in Spanish and your job is to follow them exactly — no one reads it out loud for you."
+      },
+      {
+        "type": "text",
+        "ref": "instruction-words",
+        "text": "The card gives you orders, just like Tuesday's spoken commands, but written for one person — you. Three action words to know:\n\ndibuja — draw\nescribe — write\nrecorta — cut out\n\nYou have seen escribe already, back in week 3 ('se escribe con la letra eñe'). For now these are reading words: spot one at the start of a line and do what it says."
+      },
+      {
+        "type": "text",
+        "ref": "the-card",
+        "text": "Here is the instruction card. Read each step and finish it before you move to the next one:\n\n1. Saca el cuaderno y el bolígrafo.\n2. Dibuja una regla y una computadora en el cuaderno.\n3. Debajo del dibujo, escribe las palabras 'la regla' y 'la computadora'.\n4. Con cuidado, recorta el dibujo de la computadora.\n\n(1. Take out your notebook and pen. 2. Draw a ruler and a computer in your notebook. 3. Under the drawing, write the words 'la regla' and 'la computadora'. 4. Carefully, cut out the drawing of the computer.)"
+      },
+      {
+        "type": "text",
+        "ref": "check-your-work",
+        "text": "Now check your work against the card, one step at a time. Did you draw in the cuaderno and not on a loose sheet? Did you label both drawings with the el or la word? Did you cut out only the computadora, and carefully? Following written directions closely is the whole skill here — and it works the same in any language."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You followed four written steps in Spanish with nobody translating for you. Tomorrow you switch sides one more time: you become the teacher and give the supply commands to everyone else."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "build-the-sentence-v1",
+        "config": {
+          "items": [
+            { "words": ["Saca", "el", "cuaderno"], "correctOrder": [0, 1, 2] },
+            { "words": ["Dibuja", "una", "regla"], "correctOrder": [0, 1, 2] },
+            { "words": ["Escribe", "la", "palabra", "computadora"], "correctOrder": [0, 1, 2, 3] },
+            { "words": ["Recorta", "el", "dibujo"], "correctOrder": [0, 1, 2] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-6-4",
+    "lessonId": "lesson-spanish-3-6-4",
+    "objectives": [
+      "Read and follow a four-step written instruction card in Spanish without it being read aloud",
+      "Recognize dibuja, escribe, and recorta as written command words",
+      "Check finished work against each written step"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "The Spanish notebook (el cuaderno)",
+      "Child-safe scissors",
+      "Crayons or colored pencils"
+    ],
+    "facilitationScript": "1. Explain that today's directions are written, not spoken — the child reads and does each step alone, and you only help if they get stuck.\n2. Teach the three reading words: dibuja (draw), escribe (write), recorta (cut out). Note that escribe appeared in week 3.\n3. Hand over the printed instruction card. Have the child read step 1 aloud, do it, then move on — one step at a time.\n4. When all four steps are done, read the card together and check each step against the work.\n5. Play the build-the-sentence activity (put each instruction's words in order).\n6. Complete the worksheet.\n7. Preview tomorrow: the child runs the class as the student-teacher.",
+    "differentiationTips": [
+      "Struggling: cover steps 2-4 with a card and reveal one line at a time, confirming each is done before the next appears",
+      "Ready for more: the child writes their own four-step card for a sibling or parent to follow, using dibuja, escribe, and recorta at least once each",
+      "For the teaching adult: the card uses one-person (tú) command forms — dibuja, escribe, recorta — which look different from Tuesday's whole-class saquen / escuchen. Point this out only if the child asks; the course teaches how commands change for later, and today it is enough to read them as 'do this' words",
+      "This is a reading task, so it does not depend on the audio-recording gap noted elsewhere (open decision, expansion-plan-2026-09.md §12.9) — the written card is the point"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Reading words: dibuja = draw, escribe = write, recorta = cut out. Following the card: step 1, the child takes out a notebook and pen; step 2, draws a ruler and a computer inside the notebook; step 3, writes 'la regla' and 'la computadora' under the drawings; step 4, carefully cuts out the computer drawing. Build-the-sentence order for each item is the natural sentence order: Saca el cuaderno / Dibuja una regla / Escribe la palabra computadora / Recorta el dibujo.",
+    "standardsRationale": "Day 4 in the scope-and-sequence is 'read and follow a 4-step written instruction card (draw, write, cut).' This shifts the week's WA-WL-2015.1.2 work from interpretive listening to interpretive reading — the same standard, the other half of the interpretive mode — and asks the child to demonstrate comprehension through action, the clearest evidence at Novice level. The card reuses Monday's supply words and Tuesday's command idea in a new channel, and adds three high-frequency school verbs the child will meet again in worksheets all year."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-6-4",
+    "lessonId": "lesson-spanish-3-6-4",
+    "title": "Lee y Haz: Follow the Instruction Card",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read the instruction card from today's lesson, then answer each question.",
+      "rows": [
+        { "problem": "Step 1 says 'Saca el cuaderno y el bolígrafo.' What two things do you take out?" },
+        { "problem": "Step 2 begins with 'Dibuja.' What does dibuja tell you to do?" },
+        { "problem": "In step 3, what two words do you write under your drawing?" },
+        { "problem": "Step 4 says 'recorta el dibujo.' What does recorta tell you to do?" },
+        { "problem": "Write your own one-step instruction in Spanish, using dibuja, escribe, or recorta." }
+      ]
+    }
+  }
+}

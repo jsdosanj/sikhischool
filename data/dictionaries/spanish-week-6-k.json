@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-anaranjado",
+    "language": "spanish",
+    "word": "anaranjado",
+    "translation": "orange",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El pez es anaranjado. (The fish is orange.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-morado",
+    "language": "spanish",
+    "word": "morado",
+    "translation": "purple",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "La uva es morada. (The grape is purple.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-rosado",
+    "language": "spanish",
+    "word": "rosado",
+    "translation": "pink",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El cerdo es rosado. (The pig is pink.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-cafe",
+    "language": "spanish",
+    "word": "café",
+    "translation": "brown",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El oso es café. (The bear is brown.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-gris",
+    "language": "spanish",
+    "word": "gris",
+    "translation": "gray",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El elefante es gris. (The elephant is gray.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-favorito",
+    "language": "spanish",
+    "word": "favorito",
+    "translation": "favorite",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Mi color favorito es el azul. (My favorite color is blue.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-de-que-color",
+    "language": "spanish",
+    "word": "¿de qué color?",
+    "translation": "what color?",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "¿De qué color es el gato? (What color is the cat?)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  }
+]

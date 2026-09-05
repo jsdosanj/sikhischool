@@ -1,0 +1,83 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-6",
+    "courseId": "course-spanish-6",
+    "order": 6,
+    "title": "School Life & Schedules: Ordinals, Subjects, and Time",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-6-5",
+    "unitId": "unit-spanish-6-6",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Design Your Dream Schedule and Defend One Choice",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned school words, the ordinal numbers, the interesante / aburrido split, and how to say when a class meets. Today you use all of it to build your own horario ideal — a dream schedule — and then stand up and defend one choice in Spanish."
+      },
+      {
+        "type": "text",
+        "ref": "build-the-schedule",
+        "text": "Make a schedule with six periods and one descanso. For each period write the ordinal, the time, and the materia:\n\n- Primer periodo: a las nueve — arte\n- Segundo periodo: a las diez — música\n- Tercer periodo: a las once — educación física\n- Descanso: a las doce\n- Cuarto periodo: a la una — ciencias\n- Quinto periodo: a las dos — español\n- Sexto periodo: a las tres — historia\n\nNotice the ordinals doing their jobs: primer periodo and tercer periodo drop the -o (masculine singular noun right after), but segundo and cuarto stay whole.\n\nYou choose the start time, the order, and how much tarea your dream classes give."
+      },
+      {
+        "type": "text",
+        "ref": "defend-one-choice",
+        "text": "Pick one choice from your schedule and defend it out loud, in three or four sentences. Use this shape:\n\n1. What and when: Tengo arte en el primer periodo, a las nueve.\n2. Why, with interesante or aburrido: Es mi materia favorita porque es muy interesante y dibujamos todos los días.\n3. A contrast with pero: Las matemáticas son un poco aburridas para mí, pero el arte nunca es aburrido.\n4. One more reason: Además, no hay mucha tarea en la clase de arte.\n\nCheck every adjective: interesante does not change; aburrido matches its subject."
+      },
+      {
+        "type": "text",
+        "ref": "usage-notes",
+        "text": "Two words worth a note:\n\n- el descanso and el recreo both mean the school break. el recreo is the more common word in many Latin American schools, especially for younger grades; el descanso is understood everywhere and also just means 'a rest.'\n- el horario means a schedule of any kind — a class schedule, a bus schedule, a store's hours. La tienda tiene un horario de nueve a seis.\n\nAnd remember the false split from Day 3: es aburrido describes the class; estoy aburrido describes how a person feels."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You designed a schedule and argued for part of it in Spanish, using this week's whole toolkit. Take the mini-quiz to close the week. Next week: -ar verbs — one ending pattern that unlocks hundreds of verbs like hablar, estudiar, and trabajar."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-6-5",
+    "lessonId": "lesson-spanish-6-6-5",
+    "objectives": [
+      "Design a six-period dream schedule in Spanish, labeling each period with an agreeing ordinal (primer/segundo/tercer periodo...) and a start time (a la(s) + hour)",
+      "Defend one scheduling choice aloud in three or four sentences using interesante / aburrido with correct agreement, a pero contrast, and a porque reason",
+      "Demonstrate week-6 vocabulary, the primero -> primer rule, and interesante/aburrido agreement on the mini-quiz"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Blank schedule grid or paper", "This week's mini-quiz (quiz-spanish-6-6-5)"],
+    "facilitationScript": "1. Recap the week: school words, ordinals + the primer/tercer shortening, interesante vs. aburrido, a la(s) + hour.\n2. Model a dream schedule on the board — six periods, one descanso, an ordinal and a time on each line. Think aloud about the primer/tercer shortening as you write.\n3. Students build their own horario ideal on the worksheet grid.\n4. Model the four-sentence defense with your own example, then have students draft theirs.\n5. Students present their one defended choice to the class or in small groups; listeners ask one follow-up question (¿A qué hora...? / ¿Por qué...?).\n6. Administer the mini-quiz (quiz-spanish-6-6-5).\n7. Complete the worksheet reflection.\n8. Preview next week: -ar verbs.",
+    "differentiationTips": [
+      "Struggling: provide the schedule grid pre-labeled with ordinals and times so the student only fills in subjects, and give the four defense sentences as fill-in-the-blank frames",
+      "Ready for more: have them write the full defense as a short paragraph and add a second defended choice with a different reason",
+      "If the mini-quiz shows a gap — usually the primero -> primer rule or interesante taking a false '-a' ending — revisit Day 1's or Day 3's grammar block before starting week 7"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Schedules vary. A complete schedule has six periods plus a descanso, each period labeled with an ordinal that agrees (primer/tercer periodo shortened; segundo/cuarto/quinto/sexto whole) and a time with a la(s). A complete defense has: what + when, a why using interesante or aburrido (agreeing correctly), a pero contrast, and one more reason. Usage notes: el descanso / el recreo both = the break; el horario = any schedule; es aburrido (the class) vs. estoy aburrido (the person). Mini-quiz answers are in quiz-spanish-6-6-5.",
+    "standardsRationale": "Closes week 6's WA-WL-2015.1.2 arc with the scope-and-sequence Day 5 design — design a dream schedule and defend one choice to the class — turning the week's reading and vocabulary into a presentational performance. The defense frame recycles pero and the description structure from week 5 and sets up the sustained sentence-level output the -ar verb weeks build on. The mini-quiz is the week's mastery check on vocabulary, the ordinal apócope, and interesante/aburrido agreement."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-6-5",
+    "lessonId": "lesson-spanish-6-6-5",
+    "title": "Design Your Dream Schedule and Defend One Choice",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Design your horario ideal, then defend one choice in Spanish.",
+      "rows": [
+        { "problem": "Build a six-period dream schedule. For each period write the ordinal (primer periodo, segundo periodo...), the time (a la(s) + hour), and the materia. Add one descanso." },
+        { "problem": "Circle the ordinals in your schedule. Which ones dropped the -o, and why?" },
+        { "problem": "Pick one class. Write one sentence saying what it is and when, and one sentence saying why, using interesante or aburrido with the correct ending." },
+        { "problem": "Write your full 3-4 sentence defense: what + when, why (interesante/aburrido + porque), a pero contrast, and one more reason." },
+        { "problem": "Reflection: what was the most useful thing you learned this week about reading a Spanish schedule?" }
+      ]
+    }
+  }
+}

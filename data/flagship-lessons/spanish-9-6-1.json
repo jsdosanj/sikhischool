@@ -1,0 +1,164 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-6",
+    "courseId": "course-spanish-9",
+    "order": 6,
+    "title": "Gastronomy of Latin America",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-6-1",
+    "unitId": "unit-spanish-9-6",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The Dish Map: Whose Plate Is Whose?",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week ended at your own table — a paragraph about the value your home runs on. This week the food itself is the subject. Every dish has a place it comes from and a history it carries, and this week's standard is the products half of Cultures: reading a cultural product — here, a dish — for the perspective underneath it. Today is the map. Four dishes turn up again and again when people talk about Latin American food: mole, ceviche, empanadas, and arepas. By the end of today you should be able to say whose plate each one is, and why that even matters."
+      },
+      {
+        "type": "text",
+        "ref": "gastronomia",
+        "text": "[[la gastronomía]] is a bigger word than \"food.\" It means a place's whole way of eating — its ingredients, its techniques, its dishes, what it eats and when. Every country, and often every region inside a country, has its own. That is the first thing to get straight this week: \"Latin American food\" is not one cuisine. It is dozens of distinct gastronomías, and treating them as interchangeable — assuming a dish from Mexico and a dish from Argentina are basically the same thing — is exactly the flattening this week is meant to train you out of."
+      },
+      {
+        "type": "text",
+        "ref": "cuatro-platos",
+        "text": "[[el mole]] is Mexican — from central and southern Mexico, above all the states of Oaxaca and Puebla. Oaxaca is sometimes called \"la tierra de los siete moles,\" the land of the seven moles, because there is not one recipe but many. A mole is a thick, worked sauce served over meat, usually turkey or chicken. The best-known version outside Mexico is mole poblano, from Puebla, which can carry more than twenty ingredients — several kinds of dried chile, spices, ground nuts or seeds, and in some versions a small amount of chocolate. It is not a chocolate sauce: chocolate is one ingredient among many, and it is absent from plenty of moles.\n\n[[el ceviche]] (also spelled cebiche or seviche) is a dish of the Pacific coast, above all Peru and Ecuador. It is raw, very fresh fish cut into pieces and cured in citrus juice — usually lime — with onion, salt, chili (ají), and cilantro. The acid firms the fish and turns it opaque, so it looks cooked, though it never touches heat. Peru names ceviche \"Patrimonio Cultural de la Nación\" and marks a national ceviche day; on the Peruvian coast it is often served with camote (sweet potato) and choclo (large Andean corn).\n\n[[la empanada]] is the pan–Latin-American one. It is dough folded around a filling and sealed, then baked or fried. The word comes from empanar, to wrap in bread or dough, and the idea arrived from Spain, especially Galicia. Today there are empanadas in nearly every Latin American country, and they vary enormously: Argentine empanadas are small, often filled with hand-cut beef and cumin, and each province has its own version (the ones from Salta include potato); the Chilean empanada de pino is large and baked, with ground beef, onion, a hard-boiled egg, an olive, and a raisin; Colombian empanadas use a corn-flour dough, are fried, and are eaten with ají.\n\nArepas (round corn cakes — not wheat) are claimed by both Venezuela and Colombia, and people in that region were making them long before Europeans arrived. Corn flour is worked into a dough, shaped into a disc, and cooked on a griddle, in an oven, or in a pan. In Venezuela an arepa is usually split and stuffed (for example with chicken and avocado); in Colombia it is more often eaten plain or with cheese, alongside a meal."
+      },
+      {
+        "type": "text",
+        "ref": "sabor-picante",
+        "text": "Two words for describing what you taste. [[el sabor]] is the taste or flavor of a food — it can be dulce (sweet), salado (salty), ácido (sour), amargo (bitter), or [[picante]]. Picante describes the burn that chiles give. Chiles are central to Mexican cooking and to some others, but be careful with the stereotype that \"all Latin American food is picante\": a great deal of Argentine and Chilean cooking, and a great deal of everyday home cooking everywhere, is mild. A good mole is more deep and complex than fiery; many ceviches carry only a light touch of ají. \"Flavorful\" and \"spicy\" are not the same claim."
+      },
+      {
+        "type": "text",
+        "ref": "practica-a-perspectiva",
+        "text": "Here is the move the week's standard actually asks for — not \"what is this dish?\" but \"what does it reveal about the people and place that make it?\" A dish does not fall from the sky. Ceviche exists because there is a coastline with fish fresh enough to eat raw and citrus to cure it — it says something about a relationship with the sea. Mole exists because someone decided it was worth grinding twenty ingredients over the better part of a day for a celebration meal — it says something about what earns that kind of effort. The corn arepa, made much the same way for centuries, says something about continuity. All week you will read dishes like this: as products that carry a perspective."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow you will read a real recipe in Spanish — an ingredient list and a set of numbered steps — and learn to recognize the command forms nearly every recipe uses in its instructions: añada, corte, mezcle."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Mole is a dish from:",
+              "options": [
+                "Mexico — especially the regions of Oaxaca and Puebla",
+                "coastal Peru and Ecuador",
+                "Argentina and Chile",
+                "Venezuela and Colombia"
+              ],
+              "answer": 0,
+              "explanation": "Oaxaca is sometimes called 'the land of the seven moles.' Mole poblano, from Puebla, is the best-known version outside Mexico."
+            },
+            {
+              "q": "Ceviche is most associated with:",
+              "options": [
+                "the Pacific coast of Peru and Ecuador",
+                "the mountains of Bolivia",
+                "the Caribbean coast of Mexico",
+                "inland Paraguay"
+              ],
+              "answer": 0,
+              "explanation": "It is a coastal dish built on very fresh fish. Peru names it Cultural Heritage of the Nation and marks a national ceviche day."
+            },
+            {
+              "q": "What does the citrus juice do in ceviche?",
+              "options": [
+                "its acid firms and whitens the raw fish, so it looks cooked without any heat",
+                "it makes the fish taste spicy",
+                "it slowly boils the fish from the inside",
+                "it is only for flavor and changes nothing about the fish"
+              ],
+              "answer": 0,
+              "explanation": "The acid changes the fish's texture and color. It is not the same as cooking with heat, which is why the fish has to be extremely fresh."
+            },
+            {
+              "q": "Arepas are made from ___ and are claimed by ___:",
+              "options": [
+                "corn / Venezuela and Colombia",
+                "wheat / Argentina and Uruguay",
+                "potato / Peru and Bolivia",
+                "rice / Cuba and Puerto Rico"
+              ],
+              "answer": 0,
+              "explanation": "Arepas are corn cakes, not wheat, and people in the region were making them long before Europeans arrived."
+            },
+            {
+              "q": "Why is it hard to talk about 'the empanada' as one single thing?",
+              "options": [
+                "it varies enormously by country — Argentine, Chilean, and Colombian empanadas differ in dough, filling, and cooking",
+                "it is eaten in only one country",
+                "the recipe has not changed in 500 years",
+                "it is always exactly the same size and filling everywhere"
+              ],
+              "answer": 0,
+              "explanation": "The idea (dough folded around a filling) came from Spain and became local in dozens of ways: Argentine beef with cumin, Chilean pino with egg and olive, Colombian fried corn dough with ají."
+            },
+            {
+              "q": "Standard 2.2 asks you to relate a product to a perspective. That ceviche is built on raw fish from the coast most directly suggests:",
+              "options": [
+                "a cuisine shaped by its place — a coastline with access to extremely fresh fish",
+                "that the cooks there dislike cooking with fire",
+                "that the country has no farms",
+                "that the dish was invented for tourists"
+              ],
+              "answer": 0,
+              "explanation": "The dish reflects its geography. Reading a product for what it reveals about the people and place is the week's core move."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-6-1",
+    "lessonId": "lesson-spanish-9-6-1",
+    "objectives": [
+      "Match mole, ceviche, empanadas, and arepas to the countries and regions they come from, and describe each dish in one or two accurate sentences",
+      "Define la gastronomía, el sabor, and picante, and explain why 'Latin American food' is many cuisines rather than one",
+      "Connect at least one dish to a cultural perspective it reveals (geography, effort, continuity), per standard WA-WL-2015.2.2"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A map of the Americas (optional but helpful)"],
+    "facilitationScript": "1. Read the hook and the gastronomía block together; have the student say in their own words why 'Latin American food' is not one cuisine.\n2. Read the four-dish block one dish at a time. After each, have the student point to the region on a map (or name it) and give the dish back in one sentence. Stress the accurate points: mole is a worked sauce with many ingredients (not a chocolate sauce); ceviche is raw fish cured by citrus acid, not heat; empanadas vary by country; arepas are corn, not wheat.\n3. Read the sabor / picante block. Ask the student to name a food they think is 'flavorful' but not 'spicy' — the two are different claims.\n4. Work through the practice-to-perspective block slowly. For each dish, ask: what does this reveal about the place or the people? Push past 'they like it' to geography, effort, and continuity.\n5. Complete the multiple-choice activity.\n6. Complete the worksheet.\n7. Preview tomorrow's recipe reading and command forms.",
+    "differentiationTips": [
+      "Struggling: lock in the four dish-to-place matches first (mole–Mexico, ceviche–Peru/Ecuador coast, empanada–pan–Latin-American, arepa–Venezuela/Colombia); the perspective reasoning can follow once the map is solid",
+      "Ready for more: ask the student to pick one dish and research one regional variation the lesson does not name (a specific Argentine province's empanada, a particular Oaxacan mole), and report the difference accurately",
+      "Watch for over-generalizing: if the student says 'Mexican food is spicy' or 'Latin American food is all the same,' redirect to the lesson's own careful language — 'in this region,' 'this particular dish,' 'chiles are central to Mexican cooking specifically'"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "Mole = Mexico, especially Oaxaca and Puebla; a thick worked sauce (many chiles, spices, ground nuts/seeds, sometimes a little chocolate) over turkey or chicken. Ceviche = Pacific coast of Peru and Ecuador; raw fresh fish cured in citrus with onion, salt, ají, cilantro — firmed by acid, not heat. Empanada = pan–Latin-American, dough folded around a filling, baked or fried; the idea came from Spain and varies sharply by country (Argentina, Chile, Colombia all distinct). Arepas = Venezuela and Colombia; corn (not wheat) cakes cooked on a griddle, predating European contact. La gastronomía = a place's whole way of eating. El sabor = flavor; picante = spicy (the chile burn) — not a synonym for flavorful. Practice-to-perspective: a dish reveals its place — ceviche a fresh-fish coastline, mole what earns a day of effort, the arepa centuries of continuity.",
+    "standardsRationale": "Opens the week's Cultures: Products-to-Perspectives standard (WA-WL-2015.2.2) with four well-documented dishes and models the analytic move the standard names — from a cultural product (a dish) to what it implies about the people and place that make it. Per the scope-and-sequence's week 6 Day 1 design ('Dish map — mole, ceviche, empanadas, arepas: whose plate is whose?'). Deliberately careful about regional variation and about the 'all spicy' stereotype, so students learn to read a product for perspective without collapsing a diverse region into one cuisine — the same discipline week 5 built for practices."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-6-1",
+    "lessonId": "lesson-spanish-9-6-1",
+    "title": "The Dish Map: Whose Plate Is Whose?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's lesson on the four dishes.",
+      "rows": [
+        { "problem": "Fill in the map: for each dish, name the country or region it comes from — mole, ceviche, empanada, arepa." },
+        { "problem": "In one sentence each, describe mole and ceviche accurately. For ceviche, explain what the citrus juice does." },
+        { "problem": "Give two ways empanadas differ from one country to another. Name the countries." },
+        { "problem": "What is the difference between saying a food is 'flavorful' (sabroso) and saying it is 'picante'? Why does that difference matter this week?" },
+        { "problem": "Practice-to-perspective: choose one of the four dishes and explain, in 2-3 sentences, what it reveals about the place or people who make it." }
+      ]
+    }
+  }
+}

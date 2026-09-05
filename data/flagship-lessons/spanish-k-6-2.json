@@ -1,0 +1,93 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-6",
+    "courseId": "course-spanish-k",
+    "order": 6,
+    "title": "Colors II & Favorites",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-6-2",
+    "unitId": "unit-spanish-k-6",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "¿De Qué Color Es? A Picture-Guessing Game",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol has a stack of picture cards today — animals, toys, and more. Sol will hold one up and ask a brand-new question, and your job is to answer with a color!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-question",
+        "text": "Sol holds up a picture and asks [[¿de qué color?]] — that means 'what color is it?' Point to the picture and answer with a color word. Is the sun amarillo? Is the elephant gris? Say the color out loud before Sol turns the card."
+      },
+      {
+        "type": "text",
+        "ref": "practice-mixed",
+        "text": "Keep playing with more pictures. Is the bear café? Is the mouse gris? Is the grape morado? Is the goldfish anaranjado? Is the pig rosado? Sol asks ¿de qué color? every time — and you answer every time, mixing the new colors with last week's."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You answered ¿de qué color? for every picture Sol showed — anaranjado, morado, rosado, café, gris, and more! Tomorrow, Sol wants to know your very favorite color."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match the Spanish color word to its color.",
+          "pairs": [
+            { "left": "anaranjado", "right": "🟠 orange" },
+            { "left": "morado", "right": "🟣 purple" },
+            { "left": "rosado", "right": "🌸 pink" },
+            { "left": "café", "right": "🟤 brown" },
+            { "left": "gris", "right": "🐘 gray" },
+            { "left": "rojo", "right": "🔴 red" },
+            { "left": "azul", "right": "🔵 blue" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-6-2",
+    "lessonId": "lesson-spanish-k-6-2",
+    "objectives": [
+      "Recognize and respond to the spoken question ¿de qué color? (what color is it?) by naming a color in Spanish",
+      "Name the color of pictured animals and objects, using both the new colors and week 5's colors"
+    ],
+    "materialsNeeded": ["Picture cards, book pictures, or toys in a range of colors", "Sol the puppet"],
+    "facilitationScript": "1. Sit with Sol and a stack of picture cards or small toys in many colors.\n2. Teach the question: Sol holds up a picture and asks '¿De qué color es?' — coach your child to echo ¿de qué color?\n3. Answer together with a color word — 'anaranjado,' 'gris' — then turn the card and try the next one.\n4. Mix the new colors and last week's colors so your child has to listen and choose each time.\n5. Swap roles: let your child hold up a picture and ask you or Sol '¿De qué color?'\n6. Play the on-screen matching game together, reading each color word aloud since your child may not read yet.\n7. Close by asking: 'What does Sol ask when Sol wants to know a color?'",
+    "differentiationTips": [
+      "Struggling: offer two choices out loud — '¿Es café o gris?' — and let your child pick the right one",
+      "Ready for more: your child answers in a short phrase — 'el oso es café' — instead of just the color word",
+      "A near-miss like saying morado for a blue picture is a normal slip; name the color again and keep the game moving"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a spoken question-and-answer game — success looks like your child recognizing ¿de qué color? and naming a color for each picture, not a written answer. In the matching game: anaranjado → orange, morado → purple, rosado → pink, café → brown, gris → gray, rojo → red, azul → blue.",
+    "standardsRationale": "Builds week 6's WA-WL-2015.1.1 Interpersonal Communication target by teaching the exact question that drives the week — ¿de qué color? — as a real back-and-forth: Sol asks, the child answers, then they trade roles. Matches the scope-and-sequence's Day 2 design (a '¿de qué color es?' picture game with animals and toys), and the on-screen matching activity gives the five new colors a quiet digital rep."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-6-2",
+    "lessonId": "lesson-spanish-k-6-2",
+    "title": "¿De Qué Color Es? A Picture-Guessing Game",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and play the guessing game together.",
+      "rows": [
+        { "problem": "Gather picture cards, book pictures, or toys in lots of different colors." },
+        { "problem": "Hold up each one and ask '¿De qué color es?' Answer together with a Spanish color word." },
+        { "problem": "Take turns — let your child hold up a picture and ask you '¿De qué color?'" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-6",
+    "courseId": "course-spanish-3",
+    "order": 6,
+    "title": "In the Classroom: En el Salón de Clases",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-6-5",
+    "unitId": "unit-spanish-3-6",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Estudiante-Maestro: You Give the Commands",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "All week the commands came from a teacher or a card. Today they come from you. Each student takes a turn as el estudiante-maestro — the student-teacher — and gives the class a supply command in Spanish."
+      },
+      {
+        "type": "text",
+        "ref": "your-commands",
+        "text": "As the student-teacher you get to give the orders. Use the phrases from Tuesday, exactly as you learned them:\n\nSaquen el cuaderno.\nSaquen el bolígrafo.\nGuarden la regla.\nMiren la pizarra.\nLevanten la mano.\nEscuchen.\n\nSay it clearly, wait for everyone to do it, then call the next one. If the class does the wrong thing, that is useful information — say the phrase again, slower."
+      },
+      {
+        "type": "text",
+        "ref": "mix-it-up",
+        "text": "Make it a game. Give the commands faster and faster, or try to trick the class: say 'levanten la mano' twice in a row, or point at the pizarra while you say 'saquen el cuaderno' to see who is really listening to the words. Whoever follows every command correctly for a whole round becomes the next student-teacher."
+      },
+      {
+        "type": "text",
+        "ref": "week-recap",
+        "text": "Look back at the week. You learned seven classroom words — el cuaderno, el bolígrafo, la regla, el escritorio, la pizarra, el borrador, la computadora — and split them into the el group and the la group. You followed spoken commands, read a written instruction card, and now you give the commands yourself. You also learned that some words change by region: la pluma and el pizarrón are just as correct as el bolígrafo and la pizarra."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You went from labeling objects on Monday to running the classroom in Spanish on Friday. Next week you add color: how to describe every one of these things as claro, oscuro, or brillante — light, dark, and bright."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Which word means 'notebook'?",
+              "options": ["el escritorio", "el cuaderno", "la regla", "el borrador"],
+              "answer": 1,
+              "explanation": "El cuaderno is the notebook — the one you have written in every week of Spanish class. El escritorio is the desk it sits on."
+            },
+            {
+              "q": "Three of this week's words use la. Which one is written correctly?",
+              "options": ["la cuaderno", "la bolígrafo", "la computadora", "la borrador"],
+              "answer": 2,
+              "explanation": "La computadora, la regla, and la pizarra use la. Cuaderno, bolígrafo, and borrador use el — learn the article as part of the word."
+            },
+            {
+              "q": "Your teacher says 'levanten la mano.' What should you do?",
+              "options": ["Take out your notebook", "Raise your hand", "Listen quietly", "Look at the board"],
+              "answer": 1,
+              "explanation": "Levanten la mano means 'raise your hand.' Escuchen means 'listen,' and saquen el cuaderno means 'take out your notebook.'"
+            },
+            {
+              "q": "In Mexico and much of Central America, many people say 'el pizarrón.' What does this course call the same object?",
+              "options": ["la computadora", "el escritorio", "la pizarra", "el borrador"],
+              "answer": 2,
+              "explanation": "La pizarra and el pizarrón both mean whiteboard or chalkboard. Different regions, both correct."
+            },
+            {
+              "q": "A written instruction card says 'Dibuja una regla.' What do you do?",
+              "options": ["Write the word 'ruler'", "Cut out a ruler", "Draw a ruler", "Put the ruler away"],
+              "answer": 2,
+              "explanation": "Dibuja means 'draw.' Escribe means 'write' and recorta means 'cut out.'"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-6-5",
+    "lessonId": "lesson-spanish-3-6-5",
+    "objectives": [
+      "Give classroom supply commands aloud in Spanish as the student-teacher",
+      "Recall all seven supply words with the correct article",
+      "Match each of the three core command phrases to its meaning"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "Classroom supplies for the class to act on",
+      "A small group or family to take the class role",
+      "Optional: a printed cue card of the six commands"
+    ],
+    "facilitationScript": "1. Explain the student-teacher role: the child gives a command, waits for everyone to do it, then gives the next one.\n2. Review the six command phrases and the seven supply words together first.\n3. Let the child run a round of 6-8 commands. Class members act each one out; the child slows down and repeats on any confusion.\n4. Add the trick moves (repeat a command, point one way while saying another) so the class has to listen to the words, not the gestures.\n5. Rotate the student-teacher role if more than one child is playing.\n6. Play the multiple-choice review activity.\n7. Complete the worksheet, which recaps the whole week.\n8. Preview next week: colors and description words.",
+    "differentiationTips": [
+      "Struggling: let the child read the commands off a printed cue card instead of recalling them, and keep to the three core phrases",
+      "Ready for more: the child gives two-part commands ('saquen el cuaderno y el bolígrafo') or invents a new one from a known action word plus a known object",
+      "Regional recap for the teaching adult: if a child in the group uses la pluma or el pizarrón, affirm it — those are the everyday words in many Mexican and Central American homes",
+      "This is a live speaking activity, so it does not depend on the audio-recording gap noted elsewhere (open decision, expansion-plan-2026-09.md §12.9)"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The seven words: el cuaderno, el bolígrafo, la regla, el escritorio, la pizarra, el borrador, la computadora. EL group: cuaderno, bolígrafo, escritorio, borrador. LA group: regla, pizarra, computadora. Command meanings: saquen el cuaderno = take out your notebook; escuchen = listen; levanten la mano = raise your hand; guarden = put away; miren la pizarra = look at the board. 'Saquen el cuaderno' in English: 'Take out your notebook (all of you).'",
+    "standardsRationale": "The scope-and-sequence's Day 5 activity is 'student teachers give the class supply commands.' Producing a command aloud and watching the class respond closes the week's WA-WL-2015.1.2 interpretive loop with a presentational-speaking turn, and it is strong evidence a child truly understands a phrase rather than just recognizing it. The review game makes the el/la split, the command meanings, and the regional variants explicit one last time before the course moves from naming objects to describing them next week."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-6-5",
+    "lessonId": "lesson-spanish-3-6-5",
+    "title": "Estudiante-Maestro: You Give the Commands",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Review the whole week of classroom Spanish.",
+      "rows": [
+        { "problem": "Write all seven classroom words in Spanish, each with el or la." },
+        { "problem": "Sort these into the EL group and the LA group: cuaderno, regla, pizarra, escritorio." },
+        { "problem": "You are the student-teacher. Write two commands you would give the class in Spanish." },
+        { "problem": "What does 'saquen el cuaderno' mean in English?" },
+        { "problem": "Some words change by region. Write the Mexican and Central American word many people use instead of 'el bolígrafo.'" },
+        { "problem": "Next week is about colors. Write one classroom object you would like to describe with a color." }
+      ]
+    }
+  }
+}

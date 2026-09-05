@@ -1,0 +1,132 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-6",
+    "courseId": "course-spanish-6",
+    "order": 6,
+    "title": "School Life & Schedules: Ordinals, Subjects, and Time",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-6-3",
+    "unitId": "unit-spanish-6-6",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Opinions About Classes: Interesante and Aburrido, With Reasons",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can read a schedule and say which class comes first. Today you say what you think of them. Two words carry most opinions about school: interesante and aburrido. One of them agrees the way last week's adjectives did; the other one does not. Learning which is which is today's grammar."
+      },
+      {
+        "type": "text",
+        "ref": "interesante-invariant",
+        "text": "[[interesante]] — interesting — ends in -e. Remember inteligente from last week? interesante works the same way: it does not change for gender at all.\n\n- un proyecto interesante\n- una clase interesante\n\nExact same word for both. It changes only for number, adding -s:\n\n- las clases interesantes\n- unos libros interesantes\n\nSo there is no 'interesanta' and no 'interesanto' — those are not Spanish words."
+      },
+      {
+        "type": "text",
+        "ref": "aburrido-agrees",
+        "text": "[[aburrido]] — boring — ends in -o, so it agrees exactly like serio and ordenado from last week:\n\n- el libro es aburrido\n- la película es aburrida\n- los videos son aburridos\n- las clases son aburridas\n\nWatch the subjects that are already plural: las matemáticas and las ciencias are feminine plural, so they take son and the -as ending — las matemáticas son aburridas, not 'es aburrida.'"
+      },
+      {
+        "type": "text",
+        "ref": "aburrido-ser-estar-note",
+        "text": "aburrido has two meanings, and the verb in front of it decides which one:\n\n- La clase es aburrida. — The class is boring. (a trait of the class)\n- Estoy aburrido. / Estoy aburrida. — I am bored. (how I feel right now)\n\nes aburrido describes the thing; estoy aburrido describes your feeling in the moment. You will study that es / estoy split fully in a later week. For now, this week you only produce the es aburrido / es aburrida form — describing the class. Just recognize estoy aburrido when you hear it: it means someone is bored, not that they are boring."
+      },
+      {
+        "type": "text",
+        "ref": "opinions-with-reasons",
+        "text": "An opinion is stronger with a reason. Use these frames:\n\n- Para mí, la clase de arte es interesante porque dibujamos mucho.\n- Creo que la historia es un poco aburrida porque hay demasiada tarea.\n- En mi opinión, las ciencias son interesantes porque hacemos experimentos.\n\nReason starters: porque aprendo mucho, porque el profesor explica bien, porque es fácil, porque es difícil, porque hay mucha tarea, porque no me gusta leer."
+      },
+      {
+        "type": "text",
+        "ref": "the-exchange",
+        "text": "Now trade opinions with a partner. Keep it going:\n\n- A: ¿Qué materia es interesante para ti?\n- B: Para mí, las ciencias son interesantes porque hacemos experimentos. ¿Y para ti?\n- A: Creo que la historia es un poco aburrida, pero el arte es muy interesante.\n\nEvery turn is an agreement check: interesante stays the same, aburrido matches its subject."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can give an opinion about any class and back it with a reason, keeping interesante invariable and aburrido agreeing. Tomorrow you add the clock: Tengo ciencias a las diez — saying exactly when each class meets."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "La clase de arte es muy ___.",
+              "blankToken": "___",
+              "options": ["interesante", "interesantes", "interesanta", "interesado"],
+              "answer": "interesante"
+            },
+            {
+              "sentence": "Para mí, las matemáticas son ___.",
+              "blankToken": "___",
+              "options": ["aburrido", "aburrida", "aburridos", "aburridas"],
+              "answer": "aburridas"
+            },
+            {
+              "sentence": "El libro de historia es un poco ___.",
+              "blankToken": "___",
+              "options": ["aburrido", "aburrida", "aburridos", "aburridas"],
+              "answer": "aburrido"
+            },
+            {
+              "sentence": "Mis clases de ciencias son ___.",
+              "blankToken": "___",
+              "options": ["interesante", "interesantes", "interesantos", "interesantas"],
+              "answer": "interesantes"
+            },
+            {
+              "sentence": "La película de la clase de inglés es ___.",
+              "blankToken": "___",
+              "options": ["aburrido", "aburrida", "aburridos", "aburridas"],
+              "answer": "aburrida"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-6-3",
+    "lessonId": "lesson-spanish-6-6-3",
+    "objectives": [
+      "Use interesante without changing it for gender (una clase interesante, un proyecto interesante) and add -s only for the plural (clases interesantes)",
+      "Make aburrido agree in gender and number with its subject, including with the plural subjects las matemáticas and las ciencias (son aburridas)",
+      "Exchange opinions about school subjects with a reason, using Para mí / Creo que / En mi opinión + porque"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Device for the cloze activity (optional — can be done orally)"],
+    "facilitationScript": "1. Recall inteligente and gris from last week — the adjectives that do not change for gender. interesante joins that group.\n2. Teach interesante: same for un/una, -s for plural. Write the two non-words 'interesanta' and 'interesanto' on the board and cross them out.\n3. Teach aburrido as an -o adjective, agreeing like serio. Drill the four forms, then the tricky plural subjects: las matemáticas son aburridas.\n4. Teach the meaning note: La clase es aburrida (boring) vs. Estoy aburrido (bored). This week they only produce the 'es aburrido/a' form; recognition only for 'estoy aburrido.'\n5. Model the opinion frames with reasons. Each student says one true opinion about a class.\n6. Run the partner exchange; coach the endings live.\n7. Complete the cloze activity, then the worksheet.\n8. Preview tomorrow: telling time with class subjects.",
+    "differentiationTips": [
+      "Struggling: give the subject already chosen ('La clase de música es ___') so only the ending is left to decide; start with singular subjects before las matemáticas / las ciencias",
+      "Ready for more: have them write a four-line opinion exchange where one speaker uses interesante twice and the other uses aburrido with two different subjects, all agreeing",
+      "If a child says 'las matemáticas es aburrida,' point to the subject: 'How many? What gender? Then the verb is son and the ending is -as.'"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "interesante: same for masculine and feminine (un/una ... interesante); plural adds -s (interesantes); 'interesanta'/'interesanto' do not exist. aburrido: el libro es aburrido, la película es aburrida, los videos son aburridos, las clases / las matemáticas / las ciencias son aburridas. Meaning: es aburrido/a = boring (the thing); estoy aburrido/a = bored (the feeling) — recognition only this week. Cloze: 1. interesante, 2. aburridas, 3. aburrido, 4. interesantes, 5. aburrida.",
+    "standardsRationale": "Delivers the scope-and-sequence Day 3 design — an opinion exchange, '¿Qué materia es interesante? ¿Aburrida?' with reasons — as an interpersonal task inside the week's WA-WL-2015.1.2 arc. It also does the week's central grammar contrast: interesante (invariable -e adjective, extending last week's inteligente/gris) against aburrido (agreeing -o adjective), and flags the ser/estar meaning shift in aburrido as recognition-only ahead of week 13's ser vs. estar."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-6-3",
+    "lessonId": "lesson-spanish-6-6-3",
+    "title": "Opinions About Classes: Interesante and Aburrido, With Reasons",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Give opinions about school subjects. Keep interesante the same for gender; make aburrido agree with its subject.",
+      "rows": [
+        { "problem": "Write the correct form: 'una clase ___ (interesting)', 'un proyecto ___ (interesting)', 'dos clases ___ (interesting)'." },
+        { "problem": "Write the correct form of aburrido: 'el video es ___', 'la clase es ___', 'las matemáticas son ___'." },
+        { "problem": "What is the difference in meaning between 'La clase es aburrida' and 'Estoy aburrido'?" },
+        { "problem": "Write two opinion sentences about your own classes: one with interesante and one with aburrido, each with a 'porque' reason." }
+      ]
+    }
+  }
+}

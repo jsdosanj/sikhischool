@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-6",
+    "courseId": "course-spanish-k",
+    "order": 6,
+    "title": "Colors II & Favorites",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-6-3",
+    "unitId": "unit-spanish-k-6",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Mi Color Favorito: A Favorite-Color Survey",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol has a favorite color. Can you guess it? Sol is a sun, so Sol's favorite color is amarillo! Today Sol wants to find out YOUR favorite color."
+      },
+      {
+        "type": "text",
+        "ref": "practice-favorito",
+        "text": "Your [[favorito]] color is the one you love best. Pick up your favorite color — is it rosado? morado? azul? Hold that color card and say: 'Mi color favorito es el ___.' Sol says, 'Mi color favorito es el amarillo.'"
+      },
+      {
+        "type": "text",
+        "ref": "practice-survey",
+        "text": "Now be a color reporter! Ask everyone in your house, '¿Cuál es tu color favorito?' Each person picks a color and answers, 'Mi color favorito es el ___.' Try to remember every answer for tomorrow."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You told Sol your favorite color and asked your whole family theirs — 'Mi color favorito es el ___!' Tomorrow, we count up all the answers on a big color graph."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-6-3",
+    "lessonId": "lesson-spanish-k-6-3",
+    "objectives": [
+      "Say the sentence 'Mi color favorito es el ___' with their own favorite color in Spanish",
+      "Ask another person '¿Cuál es tu color favorito?' and listen for the color in the answer"
+    ],
+    "materialsNeeded": ["Color cards, crayons, or objects your child can choose from — including the new colors", "Sol the puppet", "Paper to jot down each family member's answer for tomorrow's graph"],
+    "facilitationScript": "1. With Sol, share that Sol the sun's favorite color is amarillo — 'Mi color favorito es el amarillo.'\n2. Teach the word favorito ('favorite') and the sentence frame 'Mi color favorito es el ___.'\n3. Have your child choose a favorite color card and say the whole sentence, filling in the blank — help with the color word as needed.\n4. Practice the question '¿Cuál es tu color favorito?' ('What is your favorite color?') a few times together.\n5. Send your child around the house as a 'color reporter,' asking each family member the question; write down every answer for tomorrow.\n6. Come back to Sol and have your child report one or two answers: 'Papá — azul. Abuela — rosado.'\n7. Close by asking: 'What is Sol's favorite color? What is yours?'",
+    "differentiationTips": [
+      "Struggling: your child can say just the color word instead of the full sentence, and point to the card while saying it",
+      "Ready for more: your child adds a reason in English — 'Mi color favorito es el verde, like the grass'",
+      "Keep the written list simple — one name and one color word per person is all tomorrow's graph needs"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a spoken speaking-and-surveying activity — success looks like your child saying 'Mi color favorito es el ___' with a real color and asking at least one other person the question. Save the family's answers for the Day 4 graph.",
+    "standardsRationale": "Hits week 6's WA-WL-2015.1.1 Interpersonal Communication target head-on: the child both tells their own favorite color and asks someone else theirs, a genuine two-way exchange. Matches the scope-and-sequence's Day 3 design (a favorite-color survey with 'Mi color favorito es...'), and the tally the child collects feeds directly into Day 4's counting graph."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-6-3",
+    "lessonId": "lesson-spanish-k-6-3",
+    "title": "Mi Color Favorito: A Favorite-Color Survey",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and be color reporters together.",
+      "rows": [
+        { "problem": "Have your child pick a favorite color and say: 'Mi color favorito es el ___.'" },
+        { "problem": "Learn the question together: '¿Cuál es tu color favorito?'" },
+        { "problem": "Ask every person in the house and write down each name and color for tomorrow's graph." }
+      ]
+    }
+  }
+}

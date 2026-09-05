@@ -1,0 +1,30 @@
+{
+  "lessonId": "lesson-spanish-k-6-5",
+  "quiz": {
+    "id": "quiz-spanish-k-6-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'orange'?",
+        "options": ["anaranjado", "morado", "rosado", "gris"],
+        "answer": 0
+      },
+      {
+        "q": "Grown-up, read aloud: What does 'morado' mean in English?",
+        "options": ["brown", "gray", "purple", "pink"],
+        "answer": 2
+      },
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'gray'?",
+        "options": ["café", "gris", "rosado", "verde"],
+        "answer": 1
+      },
+      {
+        "q": "Grown-up, read aloud: Sol points to a picture and asks '¿De qué color es?' What is Sol asking?",
+        "options": ["What color is it?", "How many are there?", "What is your name?", "Do you like it?"],
+        "answer": 0
+      }
+    ]
+  }
+}

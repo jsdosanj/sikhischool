@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dict-spanish-tarea",
+    "language": "spanish",
+    "word": "la tarea",
+    "translation": "homework",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Tengo mucha tarea de matemáticas para mañana. (I have a lot of math homework for tomorrow.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-semestre",
+    "language": "spanish",
+    "word": "el semestre",
+    "translation": "semester",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Este semestre tengo seis materias diferentes. (This semester I have six different subjects.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-materia",
+    "language": "spanish",
+    "word": "la materia",
+    "translation": "school subject",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi materia favorita es la historia porque me gusta leer sobre el pasado. (My favorite subject is history because I like reading about the past.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-descanso",
+    "language": "spanish",
+    "word": "el descanso",
+    "translation": "break",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Después de la tercera clase tenemos un descanso de veinte minutos. (After the third class we have a twenty-minute break.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-primero",
+    "language": "spanish",
+    "word": "primero",
+    "translation": "first",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El primer día de clases siempre es interesante. (The first day of school is always interesting.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-segundo",
+    "language": "spanish",
+    "word": "segundo",
+    "translation": "second",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Mi segunda clase del día es inglés. (My second class of the day is English.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-interesante",
+    "language": "spanish",
+    "word": "interesante",
+    "translation": "interesting",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "La clase de ciencias es muy interesante porque hacemos experimentos. (Science class is very interesting because we do experiments.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-aburrido",
+    "language": "spanish",
+    "word": "aburrido",
+    "translation": "boring",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "La película es un poco aburrida, pero el libro es interesante. (The movie is a little boring, but the book is interesting.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  }
+]

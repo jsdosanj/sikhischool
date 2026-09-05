@@ -1,0 +1,93 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-6",
+    "courseId": "course-spanish-9",
+    "order": 6,
+    "title": "Gastronomy of Latin America",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-6-3",
+    "unitId": "unit-spanish-9-6",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "History on a Plate: How Three Foodways Merged",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "The last two days looked at dishes from the outside — where they are from, how they are made. Today looks backward. Almost every dish this week is the result of three cooking traditions that met over the last five centuries: the Indigenous foodways of the Americas, the European, and the African. Some of that meeting was trade. A large part of it was not chosen — it happened through colonization and the transatlantic slave trade. Mole, the dish you mapped on Monday, is a record of that meeting you can take apart ingredient by ingredient."
+      },
+      {
+        "type": "text",
+        "ref": "el-intercambio",
+        "text": "Before 1492, the Americas and the rest of the world had entirely separate pantries. Native to the Americas and found nowhere else: maize (corn), the potato, the tomato, cacao (chocolate), chili peppers, the common bean, squash, the avocado, vanilla, and the peanut. Arriving from Europe, Africa, and Asia after contact: wheat, rice, sugarcane, onions, garlic, citrus, and the farm animals — cattle, pigs, chickens, and with them milk, cheese, and lard. Historians call this movement of plants, animals, and people the Columbian Exchange. It reshaped what the whole planet eats: there were no tomatoes in Italy and no chili in India before 1492."
+      },
+      {
+        "type": "text",
+        "ref": "la-base-indigena",
+        "text": "The Indigenous base did not disappear — it still sits under most of the food. In Mesoamerica, nixtamalization (cooking maize with lime or ash before grinding it) is an Indigenous invention that makes corn far more nutritious and is the reason the tortilla and the tamal exist. In the Andes, there are thousands of potato varieties and techniques centuries old, such as chuño — potato freeze-dried by the cold mountain air. Cacao was drunk, usually bitter and spiced, not eaten sweet. The many chiles in a mole are Indigenous. The turkey in mole poblano is an animal domesticated in Mesoamerica. These are not garnishes on someone else's cuisine; they are the foundation."
+      },
+      {
+        "type": "text",
+        "ref": "la-tradicion-africana",
+        "text": "The third tradition arrived with the transatlantic trade in enslaved people — mostly from West and Central Africa — to the coasts and plantation zones: the Caribbean, northern Brazil, the coasts of Colombia, Peru, and Ecuador, and Veracruz in Mexico. African crops crossed with them — okra (quimbombó), pigeon peas (guandú), certain yams, and the plantain, which reached the Americas by way of the Atlantic — along with techniques: deep-frying, one-pot stews, the coconut-milk cooking of the coasts. Enslaved and free Black cooks turned the ingredients and the cuts of meat they were given into dishes that are now national symbols. Some commonly cited examples — and food historians still argue over the details of each — are, in Peru, tacu tacu (rice and beans mashed and crisped in the pan) and anticuchos (skewers of marinated beef heart), both tied to the Afro-Peruvian cooking of the coast; on Colombia's Pacific and Caribbean coasts, arroz con coco (coconut rice) and fish cooked in coconut milk; and in the Caribbean, Puerto Rican mofongo — fried, mashed plantain — which uses a mashing technique with roots in West Africa. The exact origin of any one dish is usually debated. The pattern is not."
+      },
+      {
+        "type": "text",
+        "ref": "el-mole-por-capas",
+        "text": "Go back to mole poblano and separate it into layers. Indigenous, from this side of the ocean: several dried chiles (mulato, ancho, pasilla), tomato, cacao, pumpkin seeds, turkey. From across the ocean: cinnamon, cloves, black pepper, sesame seeds, almonds, and the technique of frying in lard. A well-known legend says nuns in a Puebla convent invented it in colonial times; food historians treat that as a legend, not a documented fact — chile sauces called mulli in Nahuatl existed before the convent story. What matters for this week is that the dish is layered, and each layer has a date and a place."
+      },
+      {
+        "type": "text",
+        "ref": "practica-a-perspectiva",
+        "text": "Here is the standard's move on today's material. A dish is a product, and a product like mole — or a plate of Peruvian ceviche with sweet potato and Andean corn, or Colombian coconut rice next to a fried empanada — reveals a perspective. Two of them, really. The first: many Latin American cuisines treat blending as their foundation, not as a betrayal of something pure — the national dish is often, on purpose, of several origins, and people take pride in that mixture. The second is harder: part of the mixing was not voluntary. The plate holds both at once — the invention and creativity of the cooks, and the history of colonization and slavery that brought those ingredients into the same kitchen. Reading a product honestly means holding both."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow it comes home to your own table: you will write the recipe card for a dish your family makes, with the steps in order, in Spanish."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-6-3",
+    "lessonId": "lesson-spanish-9-6-3",
+    "objectives": [
+      "Explain the Columbian Exchange and sort common ingredients into 'native to the Americas' (maize, potato, tomato, cacao, chiles, beans) and 'arrived after 1492' (wheat, rice, sugarcane, onions, citrus, cattle)",
+      "Name at least one contribution of each of the three foodways — Indigenous (e.g. nixtamalization, Andean potatoes), European (e.g. wheat, pork, frying in lard), African (e.g. okra, plantain, deep-frying, specific coastal dishes) — with appropriate hedging on contested details",
+      "Separate mole poblano into its Indigenous and post-contact layers and articulate the two perspectives the dish reveals, per standard WA-WL-2015.2.2"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Read the hook and the Columbian Exchange block. Do a quick sort out loud: call out ingredients (tomato, wheat, potato, beef, cacao, rice, chili, onion) and have the student place each as 'from the Americas' or 'arrived after 1492.'\n2. Read the Indigenous-base block. Emphasize that these are the foundation, not decoration — nixtamalization, Andean potatoes and chuño, cacao as a drink, Mesoamerican turkey.\n3. Read the African-tradition block carefully. Name the historical context (the transatlantic slave trade, the coasts and plantation zones), the crops and techniques, and the named dishes. Each time, note the lesson's own hedge: historians debate the details of specific dish origins; the overall pattern is not in question.\n4. Work through the mole-by-layers block together — list which ingredients are Indigenous and which arrived later. Flag that the convent-origin story is a legend, not documented fact.\n5. Do the practice-to-perspective block slowly. Draw out both perspectives: blending as a proud foundation, and the fact that part of the mixing was forced. Practice holding both.\n6. Complete the worksheet.\n7. Preview tomorrow's recipe-card writing.",
+    "differentiationTips": [
+      "Struggling: focus on the Columbian Exchange sort and the mole layers; the two-perspectives discussion can be shortened to one clear sentence each",
+      "Ready for more: have the student trace one more dish (a Peruvian ceviche plate, a Caribbean rice-and-beans dish) into its Indigenous, European, and African components, keeping the lesson's hedges",
+      "Watch for two errors: (1) flattening 'African foodways' or 'Indigenous foodways' into one thing when each covers many peoples and regions, and (2) stating a contested dish origin as settled fact — model 'this is commonly attributed to...' and 'historians disagree about...'"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "Columbian Exchange = the post-1492 movement of plants, animals, and people between the Americas and Afro-Eurasia. Native to the Americas: maize, potato, tomato, cacao, chiles, common beans, squash, avocado, vanilla, peanut. Arrived after contact: wheat, rice, sugarcane, onions, garlic, citrus, cattle, pigs, chickens, dairy. Indigenous contributions: nixtamalization (tortilla, tamal), Andean potato varieties and chuño, cacao as a spiced drink, domesticated turkey, the chiles. African contributions: okra, pigeon peas, plantain (via the Atlantic), deep-frying, one-pot and coconut-milk cooking, and specific coastal dishes (Afro-Peruvian tacu tacu and anticuchos; Afro-Colombian coconut rice; Puerto Rican mofongo) — with the caveat that specific dish origins are debated. Mole poblano layers: Indigenous (chiles, tomato, cacao, pumpkin seeds, turkey) + post-contact (cinnamon, cloves, black pepper, sesame, almonds, frying in lard); the convent-origin story is legend. Two perspectives: (1) blending treated as a proud foundation; (2) part of the mixing was forced through colonization and slavery — the plate holds both.",
+    "standardsRationale": "Serves WA-WL-2015.2.2 by using dishes as evidence of cultural and historical perspectives — students move from the product (mole, a ceviche plate, coconut rice) to what it reveals about how these cultures understand their own origins. Per the scope-and-sequence's week 6 Day 3 design ('Food history — how Indigenous, European, and African foodways merged'). This is real culinary history taught specifically and with hedges on contested points, consistent with the platform's accuracy-as-release-gate standard. No activity game today: the reading and the two-perspectives discussion are the task, matching week 5's Day 3 pattern."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-6-3",
+    "lessonId": "lesson-spanish-9-6-3",
+    "title": "History on a Plate: How Three Foodways Merged",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's lesson on food history. Where the lesson hedges (says 'commonly cited' or 'historians debate'), keep that hedge in your answer.",
+      "rows": [
+        { "problem": "Sort these into 'native to the Americas' and 'arrived after 1492': maize, wheat, tomato, beef, cacao, rice, chili peppers, onions, potato, sugarcane." },
+        { "problem": "Name one contribution of each of the three foodways: Indigenous, European, African. For the African one, name a specific dish and note that its exact origin is debated." },
+        { "problem": "Separate mole poblano into two lists: ingredients that are Indigenous to the Americas, and ingredients or techniques that arrived after 1492." },
+        { "problem": "The lesson says the convent-origin story of mole is 'a legend, not a documented fact.' Why does it matter to say it that way?" },
+        { "problem": "Practice-to-perspective: the lesson names two perspectives a dish like mole reveals. Write both in your own words (2-3 sentences total)." }
+      ]
+    }
+  }
+}

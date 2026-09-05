@@ -1,0 +1,46 @@
+{
+  "lessonId": "lesson-spanish-6-6-5",
+  "quiz": {
+    "id": "quiz-spanish-6-6-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "At school, what does 'la materia' mean?",
+        "options": ["a break between classes", "a school subject", "homework", "a semester"],
+        "answer": 1,
+        "explanation": "La materia is a school subject, like matemáticas or ciencias. The break is el descanso, homework is la tarea, and a semester is el semestre."
+      },
+      {
+        "q": "Choose the correct form: 'El ___ día de clases es muy importante.'",
+        "options": ["primero", "primer", "primera", "primeros"],
+        "answer": 1,
+        "explanation": "Before a masculine singular noun, primero drops its -o: el primer día. (tercero does the same: el tercer periodo.)"
+      },
+      {
+        "q": "Choose the correct form: 'La ___ clase del día es matemáticas.'",
+        "options": ["primer", "primero", "primera", "primeras"],
+        "answer": 2,
+        "explanation": "clase is feminine, so primero just takes -a: la primera clase. The -o is dropped only before a masculine singular noun."
+      },
+      {
+        "q": "'interesante' ends in -e. How does it change to describe two classes (las clases)?",
+        "options": ["interesantas", "interesantes", "interesanta", "It does not change at all"],
+        "answer": 1,
+        "explanation": "Adjectives ending in -e do not change for gender, but they still add -s for the plural: las clases interesantes. There is no 'interesanta.'"
+      },
+      {
+        "q": "Choose the correct form: 'Las ciencias sociales son ___.' (boring)",
+        "options": ["aburrido", "aburrida", "aburridos", "aburridas"],
+        "answer": 3,
+        "explanation": "aburrido ends in -o, so it agrees like serio: las ciencias sociales is feminine plural, so aburridas."
+      },
+      {
+        "q": "Your classmate says 'Estoy aburrido.' What does that mean?",
+        "options": ["He is boring", "He is bored right now", "The class is boring", "He is hardworking"],
+        "answer": 1,
+        "explanation": "With estar, aburrido means 'bored' (a feeling right now). With ser it means 'boring': La clase es aburrida = the class is boring."
+      }
+    ]
+  }
+}

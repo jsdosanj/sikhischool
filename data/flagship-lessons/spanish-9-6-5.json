@@ -1,0 +1,103 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-6",
+    "courseId": "course-spanish-9",
+    "order": 6,
+    "title": "Gastronomy of Latin America",
+    "weekOfYear": 6
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-6-5",
+    "unitId": "unit-spanish-9-6",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "The Cooking Show: Teach Your Dish to the Class",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This is where the week lands. You have a recipe card for a dish your family makes. Today you teach it — the way a chef on a cooking show teaches a dish: talk through the ingredients, walk the steps in order, and give the one thing a recipe card cannot, which is where the dish comes from and why it matters. Two to three minutes, in Spanish, from your card."
+      },
+      {
+        "type": "text",
+        "ref": "el-formato",
+        "text": "A cooking-show segment has a shape. Use these Spanish frames:\n— Open: \"Hoy les voy a enseñar a preparar...\" (Today I'm going to teach you to make...) \"Este plato es de... / En mi familia lo hace...\" (This dish is from... / In my family it's made by...)\n— Ingredients: \"Necesitan estos ingredientes:...\" (You need these ingredients:...) — hold up or point to each.\n— Steps: \"Primero... Luego... Después... Por último...\" — one action per sentence, in order, present tense or commands.\n— Taste: \"El sabor es...\" (dulce, salado, ácido, picante).\n— Close: \"En mi familia lo comemos cuando...\" (In my family we eat it when...) \"¡Buen provecho!\"\nYou may hold cards, but look up between steps — this is a demonstration, not a reading."
+      },
+      {
+        "type": "text",
+        "ref": "practica-a-perspectiva",
+        "text": "A weak cooking-show segment is just a list read aloud. A strong one does the week's move: it presents the dish (the product) and, in one or two sentences, what the dish reveals (the perspective). \"Este plato viene de la costa, donde el pescado es del día\" — geography. \"Solo lo hacemos para el Año Nuevo\" — occasion. \"Mi bisabuela lo cocinaba igual\" — continuity. You have been reading mole and ceviche and coconut rice this way all week; now do it out loud with your own dish, for an audience. That sentence is what turns a recipe into a piece of a culture."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "That is the week: from four dishes on a map Monday, to a real recipe Tuesday, to five centuries of food history Wednesday, to your own kitchen today. File your recipe card in the year-long portfolio. Next week the tense changes: narrating a trip in the past — el pretérito — telling a completed story from start to finish."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "translate-v1",
+        "config": {
+          "items": [
+            { "prompt": "Translate to Spanish: flavor", "acceptedAnswers": ["el sabor", "sabor"] },
+            { "prompt": "Translate to Spanish: spicy (adjective)", "acceptedAnswers": ["picante"] },
+            { "prompt": "Translate to Spanish: recipe", "acceptedAnswers": ["la receta", "receta"] },
+            { "prompt": "Translate to Spanish: ingredient", "acceptedAnswers": ["el ingrediente", "ingrediente"] },
+            { "prompt": "Translate to Spanish: mole (the Mexican sauce)", "acceptedAnswers": ["el mole", "mole"] },
+            { "prompt": "Translate to Spanish: ceviche", "acceptedAnswers": ["el ceviche", "ceviche", "el cebiche", "cebiche"] },
+            { "prompt": "Translate to Spanish: empanada", "acceptedAnswers": ["la empanada", "empanada"] },
+            { "prompt": "Translate to Spanish: gastronomy / cuisine", "acceptedAnswers": ["la gastronomía", "gastronomía", "la gastronomia", "gastronomia"] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-6-5",
+    "lessonId": "lesson-spanish-9-6-5",
+    "objectives": [
+      "Deliver a 2–3 minute cooking-show presentation in Spanish from the Day 4 recipe card: opening, ingredients, steps in order, taste, close",
+      "Use all eight of the week's vocabulary words accurately (el sabor, picante, la receta, el ingrediente, el mole, el ceviche, la empanada, la gastronomía)",
+      "Include one or two spoken sentences connecting the dish to a perspective it reveals, per standard WA-WL-2015.2.2"
+    ],
+    "materialsNeeded": [
+      "The completed recipe card from Day 4",
+      "Printed worksheet",
+      "Pencil",
+      "Optional: the real ingredients or photos of them as props",
+      "An audience — a class, a co-op group, or one listener"
+    ],
+    "facilitationScript": "1. Warm up with the vocabulary translate activity to confirm all eight words are solid.\n2. Read the el-formato block; have the student mark their recipe card with the frames (where the opening goes, where 'Primero' starts, where the taste line goes).\n3. Do one quiet run-through with the student reading straight from the card, just for timing.\n4. Read the practice-to-perspective block. Have the student write their one perspective sentence on a sticky note and place it in the segment (usually near the open or the close).\n5. Second run-through: card in hand but eyes up between steps. Coach for one action per sentence and clear sequence words.\n6. Deliver the presentation to the audience.\n7. Give the graded quiz (quiz-spanish-9-6-5) after the presentations.\n8. File the recipe card in the year-long portfolio; preview next week's preterite / trip-narration unit.",
+    "differentiationTips": [
+      "Struggling: a 90-second version with just open, three steps, and the perspective sentence is a full pass; let the student keep the card visible throughout",
+      "Ready for more: present with no card, add follow-up questions from the audience answered in Spanish, and use the tú or usted command register for the steps rather than the present tense",
+      "If there is no group, the presentation works delivered to one listener (a family member, a co-op parent) or recorded; the rubric does not change"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct presentation. Evaluate for: (1) the five-part shape — open, ingredients, ordered steps, taste, close; (2) steps genuinely in order, one action per sentence; (3) accurate use of all eight week-6 words; (4) at least one spoken sentence linking the dish to a perspective (geography, occasion, care, continuity); (5) delivered as a demonstration — eyes up between steps — not read start to finish. The graded quiz then checks dish-origin facts and the week's vocabulary.",
+    "standardsRationale": "Closes the week's WA-WL-2015.2.2 arc in the presentational mode: the student presents a cultural product (their dish) and states the perspective it reveals, for an audience. Per the scope-and-sequence's week 6 Day 5 design ('Cooking-show presentations — teach your dish to the class in Spanish'). The vocabulary translate recap confirms all eight words before the final task and before the graded quiz — the same closing pattern weeks 2, 4, and 5 use. The recipe card joins the year-long portfolio."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-6-5",
+    "lessonId": "lesson-spanish-9-6-5",
+    "title": "The Cooking Show: Teach Your Dish to the Class",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Turn your Day 4 recipe card into a short spoken presentation. Write your lines under each frame, then practice out loud.",
+      "prompts": [
+        { "prompt": "Opening — 'Hoy les voy a enseñar a preparar...' and 'Este plato es de... / En mi familia lo hace...':", "lines": 2 },
+        { "prompt": "Ingredients — 'Necesitan estos ingredientes:...' (list them as you would say them aloud):", "lines": 4 },
+        { "prompt": "Steps — 'Primero... Luego... Después... Por último...' (one action per line, in order):", "lines": 6 },
+        { "prompt": "Taste — 'El sabor es...':", "lines": 1 },
+        { "prompt": "Practice-to-perspective — one or two sentences: what does this dish reveal? (geography, an occasion, care, continuity)", "lines": 2 },
+        { "prompt": "Close — 'En mi familia lo comemos cuando...' and '¡Buen provecho!':", "lines": 2 }
+      ]
+    }
+  }
+}

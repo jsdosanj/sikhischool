@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-3",
+    "courseId": "course-spanish-k",
+    "order": 3,
+    "title": "Numbers 1-5",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-3-3",
+    "unitId": "unit-spanish-k-3",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "¿Cuántos Hay? Counting Objects Around the Room",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol found a pile of blocks (or crayons) today and has a big question. Let's help Sol find the answer!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-cuantos",
+        "text": "Sol points to a small pile and asks [[¿cuántos?]] — that means 'how many?' Count the objects out loud and answer with a number, like '¡Cinco!'"
+      },
+      {
+        "type": "text",
+        "ref": "practice-count-objects",
+        "text": "Now find your own small groups of things — blocks, crayons, spoons — and contar them together. Ask each other ¿cuántos? and answer with uno, dos, tres, cuatro, or cinco."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You counted real objects and answered ¿cuántos? all around the room — great counting! Tomorrow, get ready to jump to the numbers you hear."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-3-3",
+    "lessonId": "lesson-spanish-k-3-3",
+    "objectives": [
+      "Recognize and respond to the question ¿cuántos? (how many?) with a number 1-5",
+      "Count small groups of real objects aloud"
+    ],
+    "materialsNeeded": ["A few small household objects to count — blocks, crayons, spoons, or toys", "Sol the puppet"],
+    "facilitationScript": "1. Gather 5 or fewer small objects (blocks, crayons, spoons) into a little pile.\n2. Have Sol point to the pile and ask '¿Cuántos hay?' ('How many are there?') — coach your child to echo ¿cuántos?\n3. Count the objects together out loud, touching each one: uno, dos, tres... and answer Sol with the final number, e.g. '¡Cinco!'\n4. Move around the room finding 3-4 more small groups of objects (never more than five), repeating the ¿cuántos? question and counting each time.\n5. Let your child ask ¿cuántos? about a pile and have you (or Sol) count and answer.\n6. Close by asking: 'What does Sol ask when Sol wants to know how many there are?'",
+    "differentiationTips": [
+      "Struggling: keep every pile to 2-3 objects at first, and count together rather than solo",
+      "Ready for more: have your child count a pile silently first, then say only the final answer to ¿cuántos? without counting each one aloud",
+      "This is a listening-and-counting activity — your child never needs to read ¿cuántos? or the numbers to learn them"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken counting-and-answering activity — success looks like your child recognizing ¿cuántos? and attempting to count a small pile and say the total out loud, not a written answer.",
+    "standardsRationale": "Extends week 3's WA-WL-2015.1.2 target with the question that gives counting a real purpose — asking and understanding ¿cuántos? — taught through hands-on object counting rather than direct instruction, matching this band's oral/aural-first design."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-3-3",
+    "lessonId": "lesson-spanish-k-3-3",
+    "title": "¿Cuántos Hay? Counting Objects Around the Room",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and count objects together — there's nothing for your child to write today.",
+      "rows": [
+        { "problem": "Gather a small pile of 5 or fewer objects — blocks, crayons, or spoons." },
+        { "problem": "Ask together: '¿Cuántos hay?' Count the objects out loud and say the total number." },
+        { "problem": "Find 2-3 more small piles around the room and repeat the question and count each time." }
+      ]
+    }
+  }
+}

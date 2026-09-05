@@ -1,0 +1,92 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-3",
+    "courseId": "course-spanish-3",
+    "order": 3,
+    "title": "The Alphabet & Spanish Sounds: El Alfabeto to La Eñe",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-3-1",
+    "unitId": "unit-spanish-3-3",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "El Alfabeto: Letters That Sound Surprising",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.4.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "For two weeks you've been writing Spanish words in your notebook — buenos días, me llamo, soy de. But have you ever wondered what the alphabet itself sounds like in Spanish? This week you'll learn the building blocks behind every word you've written so far: the Spanish alphabet and its sounds."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[el alfabeto]] means 'the alphabet' — the complete set of [[la letra]]s (letters) used to write a language. The Spanish alphabet uses almost the same 26 letters as English, plus one extra: la eñe, a letter you'll meet on Wednesday. But here's the surprise — even though most Spanish letters LOOK exactly like English letters, several of them have completely different names when you say them out loud."
+      },
+      {
+        "type": "text",
+        "ref": "alphabet-names",
+        "text": "Ask a parent or teacher to say each of these Spanish letter names out loud for you a few times, so you can hear and repeat them. Notice how different they sound from the English names for the exact same letters:\n\nH — in English you say 'aitch.' In Spanish it's hache (say: AH-cheh).\nJ — in English you say 'jay.' In Spanish it's jota (say: HO-tah).\nV — in English you say 'vee.' In Spanish it's uve, or ve corta (say: OO-veh, or veh).\nY — in English you say 'why.' In Spanish it's i griega (say: ee gree-EH-gah) — it literally means 'Greek i'!\nW — in English you say 'double-u.' In Spanish it's doble ve, or doble u (say: DOH-bleh veh).\n\nPractice each one until it feels natural in your mouth, not just your ears."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just met five letters that look like old friends but sound brand new in Spanish. Tomorrow you'll learn the five vowel sounds — and discover that Spanish vowels are far more consistent than English ones."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match each letter on the left to its Spanish letter name on the right.",
+          "pairs": [
+            { "left": "H", "right": "hache" },
+            { "left": "J", "right": "jota" },
+            { "left": "V", "right": "uve" },
+            { "left": "Y", "right": "i griega" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-3-1",
+    "lessonId": "lesson-spanish-3-3-1",
+    "objectives": [
+      "Say el alfabeto and la letra correctly",
+      "Recognize that Spanish letter names differ from English even when the letters look identical",
+      "Pronounce the Spanish names for H, J, V, Y, and W"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A parent or teacher to model each Spanish letter name aloud"],
+    "facilitationScript": "1. Ask the child to say a few English letter names the normal way (aitch, jay, vee), then explain that Spanish, even with almost the same letters, gives many of them totally different names.\n2. Introduce el alfabeto and la letra.\n3. Model each of the five example letter names aloud yourself first (H = hache, AH-cheh; J = jota, HO-tah; V = uve, OO-veh; Y = i griega, ee gree-EH-gah; W = doble ve, DOH-bleh veh), then have the child repeat each one two or three times.\n4. Play the matching activity together, matching each letter to its Spanish name.\n5. Complete the worksheet.\n6. Preview tomorrow: the five vowel sounds.",
+    "differentiationTips": [
+      "Struggling: focus on just two letters (H and J) until their Spanish names feel automatic, then add V, Y, and W later in the week",
+      "Ready for more: challenge them to spell their own first name using ONLY the Spanish letter names they've learned so far, filling in familiar English names for any letter not yet covered",
+      "This lesson relies on a parent or teacher modeling each sound aloud rather than an audio recording, since the course doesn't have audio content yet (open decision, expansion-plan-2026-09.md §12.9) — reading the phonetic spelling ('AH-cheh') aloud slowly gets a child most of the way there even without a recording"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "H = hache, J = jota, V = uve (or ve corta), Y = i griega, W = doble ve (or doble u). El alfabeto means 'the alphabet'; la letra means 'letter.'",
+    "standardsRationale": "Opens the week's Language Comparisons target (WA-WL-2015.4.1) with the exact Day 1 activity the scope-and-sequence names — comparing Spanish and English letter names is the most concrete, lowest-barrier comparison point on the week's topic, and it sets up the letter names Day 4's spelling exchanges depend on."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-3-1",
+    "lessonId": "lesson-spanish-3-3-1",
+    "title": "El Alfabeto: Letters That Sound Surprising",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write each Spanish letter name two times. Say it out loud as you write it.",
+      "prompts": [
+        { "prompt": "Write hache (the Spanish name for H) two times.", "lines": 2 },
+        { "prompt": "Write jota (the Spanish name for J) two times.", "lines": 2 },
+        { "prompt": "Write uve (the Spanish name for V) two times.", "lines": 2 },
+        { "prompt": "Write i griega (the Spanish name for Y) two times.", "lines": 2 }
+      ]
+    }
+  }
+}

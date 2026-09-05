@@ -1,0 +1,46 @@
+{
+  "lessonId": "lesson-spanish-6-3-5",
+  "quiz": {
+    "id": "quiz-spanish-6-3-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "¿Qué significa 'el idioma'?",
+        "options": ["population", "language", "continent", "official"],
+        "answer": 1,
+        "explanation": "El idioma means language."
+      },
+      {
+        "q": "¿Qué significa 'hispanohablante'?",
+        "options": ["South American", "official", "Spanish-speaking", "populated"],
+        "answer": 2,
+        "explanation": "Hispanohablante literally means 'Spanish-speaking' and doesn't change for gender."
+      },
+      {
+        "q": "How many sovereign countries have Spanish as their official idioma?",
+        "options": ["18", "19", "20", "22"],
+        "answer": 2,
+        "explanation": "Spanish is official in 20 sovereign countries, across Europe, Africa, North America, and South America."
+      },
+      {
+        "q": "Which of these is a U.S. territory (not a sovereign country) where Spanish is also co-official, often called the unofficial '21st' member of the Spanish-speaking world?",
+        "options": ["Puerto Rico", "Cuba", "Guinea Ecuatorial", "República Dominicana"],
+        "answer": 0,
+        "explanation": "Puerto Rico speaks Spanish and is often included on maps of the Spanish-speaking world, but it's a U.S. territory, not its own country."
+      },
+      {
+        "q": "Which Spanish-speaking country has the largest población?",
+        "options": ["España", "Argentina", "México", "Colombia"],
+        "answer": 2,
+        "explanation": "México's población (about 130 million) is far larger than any other Spanish-speaking country's."
+      },
+      {
+        "q": "About what fraction of Washington state's population identifies as Hispanic or Latino?",
+        "options": ["about 1 in 20", "about 1 in 8", "about 1 in 2", "about 9 in 10"],
+        "answer": 1,
+        "explanation": "U.S. Census Bureau estimates put it at roughly one in eight Washington residents."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-3",
+    "courseId": "course-spanish-k",
+    "order": 3,
+    "title": "Numbers 1-5",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-3-1",
+    "unitId": "unit-spanish-k-3",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Uno, Dos, Tres: A Counting Song with Fingers",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol brought a brand-new song today — a counting song! Hold up your hands, because we're going to count with our fingers all the way to five."
+      },
+      {
+        "type": "text",
+        "ref": "practice-uno-dos-tres",
+        "text": "Let's start slow. Hold up one finger and say [[uno]] — that means 'one'! Hold up a second finger and say [[dos]] — 'two'! Hold up a third finger and say [[tres]] — 'three'! Echo Sol slowly: uno... dos... tres..."
+      },
+      {
+        "type": "text",
+        "ref": "practice-cuatro-cinco",
+        "text": "Now let's go faster! Hold up a fourth finger and say [[cuatro]] — 'four'! Hold up your whole hand — all five fingers! — and say [[cinco]] — 'five'! Sing it fast now: ¡Uno, dos, tres, cuatro, cinco!"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You counted all the way to cinco with your fingers — uno, dos, tres, cuatro, cinco! Tomorrow, get your hands ready to clap along with Sol."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-3-1",
+    "lessonId": "lesson-spanish-k-3-1",
+    "objectives": [
+      "Count aloud from uno to cinco (one to five) while raising a finger for each number",
+      "Echo the counting song at both a slow and a fast tempo"
+    ],
+    "materialsNeeded": ["Sol the puppet (or stuffed animal/toy from weeks 1-2)", "Just your two hands — no other materials needed"],
+    "facilitationScript": "1. Gather with Sol and hold up both hands, palms facing your child.\n2. Slowly raise one finger at a time, saying uno, dos, tres together with your child, pausing after each number for the echo.\n3. Raise a fourth and fifth finger, saying cuatro and cinco, until your whole hand is up.\n4. Sing the counting song fast now, all five fingers going up quickly: '¡Uno, dos, tres, cuatro, cinco!'\n5. Repeat the slow-then-fast pattern 2-3 more times, letting your child lead the fingers themselves.\n6. Close by asking: 'Can you count to five with me one more time, just with your fingers?'",
+    "differentiationTips": [
+      "Struggling: stop at tres (three) for the first few rounds and add cuatro/cinco once uno-dos-tres feels automatic",
+      "Ready for more: after counting up, try counting back down from cinco to uno, lowering one finger at a time",
+      "This is a listening-and-singing activity — your child never needs to see these numbers written down to learn them"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken counting-and-finger activity — success looks like your child raising fingers and attempting uno through cinco out loud, not a written right/wrong answer.",
+    "standardsRationale": "Opens week 3's ACTFL Interpretive Listening target (WA-WL-2015.1.2) — recognizing spoken numbers 1-5 — by pairing each number word with a concrete finger count, giving the child a physical anchor for a word they're only hearing, exactly the oral/aural-first approach this K-2 band calls for."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-3-1",
+    "lessonId": "lesson-spanish-k-3-1",
+    "title": "Uno, Dos, Tres: A Counting Song with Fingers",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together — there's nothing for your child to write today.",
+      "rows": [
+        { "problem": "Hold up one finger and say 'uno' together. Hold up a second and say 'dos'. Hold up a third and say 'tres'." },
+        { "problem": "Hold up a fourth finger and say 'cuatro'. Hold up your whole hand and say 'cinco'." },
+        { "problem": "Sing the whole song fast, holding up fingers one by one: '¡Uno, dos, tres, cuatro, cinco!'" }
+      ]
+    }
+  }
+}

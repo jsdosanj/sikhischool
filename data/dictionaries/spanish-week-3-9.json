@@ -1,0 +1,68 @@
+[
+  {
+    "id": "dict-spanish-cotidiano",
+    "language": "spanish",
+    "word": "cotidiano",
+    "translation": "everyday, daily",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Reflexionar sobre lo cotidiano —los hábitos que repito cada día sin pensar— me ayuda a entender quién soy realmente. (Reflecting on the everyday — the habits I repeat every day without thinking — helps me understand who I really am.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-soler",
+    "language": "spanish",
+    "word": "soler",
+    "translation": "to usually do",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Suelo estudiar mejor por la mañana, antes de que empiece el ruido del día. (I usually study better in the morning, before the day's noise begins.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-madrugar",
+    "language": "spanish",
+    "word": "madrugar",
+    "translation": "to wake up very early",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Madrugar los lunes es difícil, pero me da tiempo para pensar antes de que empiece la semana. (Waking up very early on Mondays is hard, but it gives me time to think before the week starts.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-aprovechar",
+    "language": "spanish",
+    "word": "aprovechar",
+    "translation": "to make the most of",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Cada fin de semana intento aprovechar el tiempo libre en vez de dejarlo pasar sin sentido. (Every weekend I try to make the most of my free time instead of letting it pass by meaninglessly.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-descansar",
+    "language": "spanish",
+    "word": "descansar",
+    "translation": "to rest",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Aprendí que descansar de verdad no significa no hacer nada, sino elegir con cuidado en qué ocupo mi mente. (I learned that truly resting doesn't mean doing nothing, but carefully choosing what occupies my mind.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-ocio",
+    "language": "spanish",
+    "word": "el ocio",
+    "translation": "leisure",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "En una vida tan ocupada, el ocio bien aprovechado —leer, caminar, no hacer nada con calma— se ha vuelto casi un lujo. (In such a busy life, well-used leisure — reading, walking, calmly doing nothing — has become almost a luxury.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  }
+]

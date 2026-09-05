@@ -1,0 +1,115 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-3",
+    "courseId": "course-spanish-6",
+    "order": 3,
+    "title": "The Spanish-Speaking World",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-3-2",
+    "unitId": "unit-spanish-6-3",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Population Data Dive: Ranking the Five Biggest Spanish-Speaking Countries",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.3.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "México, España, Argentina, Colombia, Perú — five of the twenty countries you mapped yesterday. But which one actually has the most people? Today you're the data analyst, and the ranking might not go the way you'd guess."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[la población]] means population — the number of people living somewhere. Countries don't just differ in size on a map; they differ hugely in población too. A country's population is never a fixed, permanent number — people are born, people move, populations grow and shrink every single year — so any población figure you see, including the ones below, is really a rounded estimate from around the time it was measured, not a fact carved in stone."
+      },
+      {
+        "type": "text",
+        "ref": "population-data",
+        "text": "Here are rounded, recent population estimates (to the nearest million) for five of the biggest hispanohablante countries in the world:\n\n- México: about 130 million\n- Colombia: about 52 million\n- España: about 48 million\n- Argentina: about 46 million\n- Perú: about 34 million\n\nColombia, España, and Argentina are close enough in población that their exact order can shift from year to year depending on whose count you check — but México is in a league of its own, and Perú is clearly behind the top four."
+      },
+      {
+        "type": "text",
+        "ref": "math-link",
+        "text": "Use the five numbers above to answer:\n\n1. Put the five countries in order from largest to smallest población.\n2. About how many more million people live in México than in Perú? (130 − 34 = ?)\n3. If you added Argentina's and Perú's populations together, would the total be more or less than Colombia's alone? (46 + 34 = ? Compare to 52.)\n4. Round Colombia's población to the nearest 10 million."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just ranked real countries using real (rounded) numbers, and used subtraction and estimation to compare them — the same skills a data analyst uses with any population chart. Tomorrow the story turns closer to home: Spanish speakers right here in the United States, and in Washington state."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Which Spanish-speaking country has the largest población?",
+              "options": ["México", "España", "Argentina", "Colombia"],
+              "answer": 0,
+              "explanation": "México's población (about 130 million) is far larger than any other Spanish-speaking country's."
+            },
+            {
+              "q": "Which of these five countries has the smallest población?",
+              "options": ["Colombia", "Perú", "España", "Argentina"],
+              "answer": 1,
+              "explanation": "Perú's población (about 34 million) is the smallest of the five — Colombia, España, and Argentina are all in the 46-52 million range."
+            },
+            {
+              "q": "About how many million more people live in México than in Perú?",
+              "options": ["about 20 million", "about 50 million", "about 100 million", "about 200 million"],
+              "answer": 2,
+              "explanation": "130 million minus 34 million is about 96 million — closest to 'about 100 million.'"
+            },
+            {
+              "q": "Which three countries are close enough in población that their ranking can shift from year to year?",
+              "options": ["México, España, Perú", "Colombia, España, Argentina", "Perú, Colombia, México", "España, Perú, México"],
+              "answer": 1,
+              "explanation": "Colombia (52M), España (48M), and Argentina (46M) are close enough together that different counts can reorder them."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-3-2",
+    "lessonId": "lesson-spanish-6-3-2",
+    "objectives": [
+      "Read población figures for five Spanish-speaking countries and rank them from largest to smallest",
+      "Use subtraction, addition, and rounding to compare population figures between countries (math connection)"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Calculator (optional)"],
+    "facilitationScript": "1. Introduce la población and the idea that population numbers are rounded estimates, not fixed facts.\n2. Present the five countries' rounded populations.\n3. Work through the four math-link questions together.\n4. Complete the multiple-choice activity.\n5. Complete the worksheet.\n6. Preview tomorrow's Spanish-in-the-US spotlight.",
+    "differentiationTips": [
+      "Struggling: focus on just ordering the five numbers largest-to-smallest before attempting the subtraction/addition questions",
+      "Ready for more: have them calculate what percentage of the five countries' combined population México alone represents",
+      "If a calculator isn't available, round each number to the nearest ten million first to make the mental math manageable — comparison matters more than exact precision here"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. México (130M), Colombia (52M), España (48M), Argentina (46M), Perú (34M). 2. About 96 million, roughly 100 million rounded. 3. Argentina + Perú (46+34=80 million) is more than Colombia alone (52 million). 4. Colombia rounds to about 50 million to the nearest 10 million.",
+    "standardsRationale": "Delivers Day 2's scope-and-sequence design exactly — a population data dive with a genuine math link — while being explicit that the population figures are rounded estimates rather than exact counts, teaching real quantitative reasoning about real countries without overstating the precision of any single number."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-3-2",
+    "lessonId": "lesson-spanish-6-3-2",
+    "title": "Population Data Dive: Ranking the Five Biggest Spanish-Speaking Countries",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use today's rounded población figures to answer each question.",
+      "rows": [
+        { "problem": "List the five countries in order from largest to smallest población." },
+        { "problem": "México's población is about 130 million. Perú's is about 34 million. About how many more million people live in México?" },
+        { "problem": "Argentina's población (about 46 million) plus Perú's (about 34 million) — is that more or less than Colombia's población alone (about 52 million)?" },
+        { "problem": "Why might two different sources give slightly different población numbers for the same country?" }
+      ]
+    }
+  }
+}

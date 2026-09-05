@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-3",
+    "courseId": "course-spanish-6",
+    "order": 3,
+    "title": "The Spanish-Speaking World",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-3-1",
+    "unitId": "unit-spanish-6-3",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Mapping the Spanish-Speaking World: Twenty Countries, Four Continents",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.3.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every person you met last week — Mateo, Valentina, Ethan, Camila — spoke the same idioma, but came from four different countries. That's not a coincidence. Spanish is one of the most widely shared languages on Earth, chosen as the official idioma by governments on four different continents. Today you're going to map every single one of those countries — and at least one of them might surprise you."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A country's [[el idioma]] oficial is the language its government has formally chosen for laws, schools, and official documents — not just a language people happen to speak there. Spanish is [[oficial]] in twenty different countries around the world, which makes any person, place, or country where Spanish is spoken and taught [[hispanohablante]] — literally 'Spanish-speaking.' Notice hispanohablante doesn't change for gender, the same way estadounidense didn't last week: un país hispanohablante, una comunidad hispanohablante — same ending either way.\n\nHere's the surprise: those twenty countries aren't all clustered in one place. Spanish crossed oceans starting five hundred years ago, and it put down roots on four different continents — including two that most people don't expect."
+      },
+      {
+        "type": "text",
+        "ref": "el-mapa",
+        "text": "Europa: España — the country the Spanish idioma is named for, and the only country on this [[el continente]] where Spanish is oficial.\n\nÁfrica: Guinea Ecuatorial — a small country on Africa's west coast, and the only country in Africa where Spanish is oficial. Most people never guess this one.\n\nAmérica del Norte: México — home to more Spanish speakers than any other single country on Earth (more on that tomorrow).\n\nAmérica Central: six countries share this narrow strip of land between México and Colombia — Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, and Panamá.\n\n[[el Caribe]]: Cuba and la República Dominicana are both sovereign countries where Spanish is oficial. Puerto Rico speaks Spanish too and shares an island culture with both — but Puerto Rico is a United States territory, not its own country, so it isn't counted among the twenty. Many maps of the Spanish-speaking world include it anyway, which is why you'll sometimes hear the number twenty-one instead of twenty — both numbers are 'correct,' depending on whether Puerto Rico counts as a country of its own.\n\n[[América del Sur]]: the largest region by far — Colombia, Venezuela, Ecuador, Perú, Bolivia, Chile, Argentina, Paraguay, and Uruguay, nine countries stretching from the Caribbean coast all the way toward the tip of the continent."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Twenty sovereign countries, oficial on four continents, plus one U.S. territory that speaks Spanish too — that's the real size of the hispanohablante world you're learning to join. Tomorrow you'll rank the five biggest of these countries by población, and do some real math while you're at it."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-3-1",
+    "lessonId": "lesson-spanish-6-3-1",
+    "objectives": [
+      "State that Spanish is the official language of 20 sovereign countries across 4 continents (Europe, Africa, North America, South America), plus Puerto Rico as a U.S. territory where it's co-official",
+      "Sort the 20 Spanish-speaking countries into their correct region: España (Europe), Guinea Ecuatorial (Africa), México (North America), 6 Central American countries, 2 Caribbean countries plus Puerto Rico, and 9 South American countries"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A world map or globe (physical or digital)"],
+    "facilitationScript": "1. Briefly review week 2 (identity and nationality) as a bridge into this week's bigger-picture topic.\n2. Introduce el idioma, oficial, and hispanohablante, drawing the distinction between a language merely spoken somewhere and one that's officially recognized.\n3. Reveal that Spanish is official on four continents; let the Guinea Ecuatorial fact land as a genuine surprise.\n4. Go region by region using the map, having the child locate and point to each country as it's introduced.\n5. Discuss Puerto Rico's special status and why some sources say 20 countries and others say 21.\n6. Complete the worksheet.\n7. Preview tomorrow's population ranking activity.",
+    "differentiationTips": [
+      "Struggling: focus on just the 4 continents and one example country per continent before tackling the full 20-country list",
+      "Ready for more: have them label all 20 countries plus Puerto Rico on a blank world map from memory",
+      "If a physical map isn't available, use a free digital map or globe app, or sketch a simple outline map together — the geographic spread is the point, not a professional map"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "4 continents: Europe (España), Africa (Guinea Ecuatorial), North America (México, 6 Central American countries, Cuba, República Dominicana), South America (9 countries). 20 sovereign countries total; Puerto Rico is a 21st Spanish-speaking place but is a U.S. territory, not a sovereign country.",
+    "standardsRationale": "Opens week 3's WA-WL-2015.3.1 Making Connections target by anchoring the week in real, verifiable geography — the specific Day 1 job the scope-and-sequence assigns (mapping the countries where Spanish is oficial) — while being precise about the 20-vs-21 count instead of picking one number and hiding the nuance, modeling the same intellectual honesty the course expects of the students' own work."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-3-1",
+    "lessonId": "lesson-spanish-6-3-1",
+    "title": "Mapping the Spanish-Speaking World: Twenty Countries, Four Continents",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's map of the Spanish-speaking world.",
+      "rows": [
+        { "problem": "Name the one Spanish-speaking country in Europe." },
+        { "problem": "Name the one Spanish-speaking country in Africa." },
+        { "problem": "List the six countries of América Central." },
+        { "problem": "Why do some people say there are 20 Spanish-speaking countries and others say 21? Explain using the word Puerto Rico." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-3",
+    "courseId": "course-spanish-k",
+    "order": 3,
+    "title": "Numbers 1-5",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-3-5",
+    "unitId": "unit-spanish-k-3",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "El Espectáculo de Contar: A Counting Show for Sol",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Today is Sol's favorite kind of day — a counting show! You get to count for an audience of one very excited puppet."
+      },
+      {
+        "type": "text",
+        "ref": "practice-show-count",
+        "text": "Gather a small group of toys or blocks (five or fewer). Ask yourself ¿cuántos? and contar them out loud for Sol, from uno all the way up to the total."
+      },
+      {
+        "type": "text",
+        "ref": "practice-show-perform",
+        "text": "Now put on the real show: hold up your counted group and say the whole count proudly — '¡Uno, dos, tres, cuatro, cinco!' Take a bow when Sol cheers!"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You used contar and ¿cuántos? to put on a real counting show for Sol — uno, dos, tres, cuatro, cinco! Next week, get ready to count even higher, all the way to diez!"
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Grown-up, read aloud: 🔵 Is this uno or dos?",
+              "options": ["uno", "dos"],
+              "answer": 0,
+              "explanation": "¡Sí! Uno means 'one'."
+            },
+            {
+              "q": "Grown-up, read aloud: 🔵🔵🔵 Is this dos or tres?",
+              "options": ["dos", "tres"],
+              "answer": 1,
+              "explanation": "¡Sí! Tres means 'three'."
+            },
+            {
+              "q": "Grown-up, read aloud: 🔵🔵🔵🔵🔵 Is this cuatro or cinco?",
+              "options": ["cuatro", "cinco"],
+              "answer": 1,
+              "explanation": "¡Sí! Cinco means 'five'."
+            },
+            {
+              "q": "Grown-up, read aloud: Sol wants to know 'how many?' — does Sol say ¿cuántos? or hola?",
+              "options": ["¿cuántos?", "hola"],
+              "answer": 0,
+              "explanation": "¡Sí! ¿Cuántos? means 'how many?'"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-3-5",
+    "lessonId": "lesson-spanish-k-3-5",
+    "objectives": [
+      "Count a small group of objects aloud from uno to the total, unprompted",
+      "Recall and use contar and ¿cuántos? in a cumulative review"
+    ],
+    "materialsNeeded": ["A small group of toys, blocks, or crayons (five or fewer)", "Sol the puppet as the 'audience'"],
+    "facilitationScript": "1. Gather a small group of five or fewer objects for your child's 'show.'\n2. Have your child ask themselves (or Sol) '¿Cuántos hay?' before starting to count.\n3. Coach your child to contar the group out loud, one number at a time, from uno up to the total.\n4. Have Sol cheer wildly after each correct count — make it feel like a real performance.\n5. Repeat with 2-3 different small groups of different sizes (1-5), so your child practices counting to different totals, not always five.\n6. Complete the on-screen multiple-choice review together, reading each question aloud since your child may not read yet.\n7. Close the show: take a bow together and wave to Sol.",
+    "differentiationTips": [
+      "Struggling: count alongside your child rather than having them count solo, and keep every group to three objects or fewer",
+      "Ready for more: mix up the objects between rounds so your child recounts a changing pile rather than the same fixed group",
+      "This is a celebration lesson — the goal is confident, joyful counting your child already practiced this week, not teaching anything brand new"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a cumulative spoken counting performance — success looks like your child counting a small group aloud with some independence and recalling contar and ¿cuántos? somewhere in the show, with prompting as needed. In the multiple-choice game: 1 dot → uno, 3 dots → tres, 5 dots → cinco, and ¿cuántos? means 'how many?'.",
+    "standardsRationale": "Closes week 3's WA-WL-2015.1.2 Interpretive Listening arc by having the child put every piece from the week — uno through cinco, contar, and ¿cuántos? — to use in one small independent counting performance, the scope-and-sequence's own design for this Day 5, treating the week as one connected counting skill rather than a list of isolated words."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-3-5",
+    "lessonId": "lesson-spanish-k-3-5",
+    "title": "El Espectáculo de Contar: A Counting Show for Sol",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud and do it together as your child's counting show.",
+      "rows": [
+        { "problem": "Gather a small group of 5 or fewer toys or blocks for your child's counting show." },
+        { "problem": "Ask '¿Cuántos hay?' together, then have your child contar the group out loud from uno to the total." },
+        { "problem": "Cheer for the performance, then repeat with 2 more small groups of different sizes." }
+      ]
+    }
+  }
+}

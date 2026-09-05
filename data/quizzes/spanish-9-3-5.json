@@ -1,0 +1,56 @@
+{
+  "lessonId": "lesson-spanish-9-3-5",
+  "quiz": {
+    "id": "quiz-spanish-9-3-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Which form of hablar goes with nosotros?",
+        "options": ["hablo", "hablas", "habla", "hablamos"],
+        "answer": 3,
+        "explanation": "Regular -ar verbs add -amos for nosotros: hablamos."
+      },
+      {
+        "q": "querer is an e→ie stem-changing verb. Which form does NOT change its stem?",
+        "options": ["quiero", "quieres", "queremos", "quiere"],
+        "answer": 2,
+        "explanation": "Nosotros (queremos) never changes its stem in an e→ie verb, because the stress doesn't fall on the stem vowel in that form."
+      },
+      {
+        "q": "What is the correct yo-form of despertarse (reflexive + e→ie)?",
+        "options": ["me despierto", "me despierta", "me desperto", "despierto"],
+        "answer": 0,
+        "explanation": "The reflexive pronoun me agrees with yo, and the e→ie stem change applies: me despierto."
+      },
+      {
+        "q": "hacer, salir, and poner share what kind of irregularity?",
+        "options": [
+          "They're irregular in every form",
+          "They're irregular only in the yo-form",
+          "They're stem-changing verbs",
+          "They're reflexive verbs"
+        ],
+        "answer": 1,
+        "explanation": "hago, salgo, and pongo are irregular only in the yo-form; every other form follows the regular pattern."
+      },
+      {
+        "q": "Which sentence correctly uses soler + infinitive to describe a habitual weekday routine?",
+        "options": [
+          "Suelo que madrugo los lunes.",
+          "Suelo madrugar los lunes.",
+          "Soler madrugo los lunes.",
+          "Suelo madrugado los lunes."
+        ],
+        "answer": 1,
+        "explanation": "Soler must be conjugated to match the subject and followed directly by an infinitive — never by que, and never by another conjugated or past-participle form."
+      },
+      {
+        "q": "Complete accurately: 'Entre semana tengo mucha tarea; ___, casi no tengo tiempo para el ocio.'",
+        "options": ["en cambio", "por eso", "además", "pero"],
+        "answer": 1,
+        "explanation": "Por eso connects the cause (a lot of homework) directly to its effect (almost no time for leisure)."
+      }
+    ]
+  }
+}

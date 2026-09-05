@@ -1,0 +1,30 @@
+{
+  "lessonId": "lesson-spanish-k-3-5",
+  "quiz": {
+    "id": "quiz-spanish-k-3-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'one'?",
+        "options": ["uno", "dos", "tres", "cuatro"],
+        "answer": 0
+      },
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'five'?",
+        "options": ["dos", "tres", "cuatro", "cinco"],
+        "answer": 3
+      },
+      {
+        "q": "Grown-up, read aloud: How do you ask 'how many?' in Spanish?",
+        "options": ["¿cómo te llamas?", "¿cuántos?", "hola", "adiós"],
+        "answer": 1
+      },
+      {
+        "q": "Grown-up, read aloud: What does contar mean?",
+        "options": ["to count", "to sing", "to jump", "to sleep"],
+        "answer": 0
+      }
+    ]
+  }
+}

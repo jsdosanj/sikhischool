@@ -1,0 +1,82 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-3",
+    "courseId": "course-spanish-9",
+    "order": 3,
+    "title": "Daily Life in the Present Tense",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-3-1",
+    "unitId": "unit-spanish-9-3",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The Present Tense, Mapped: Regular, Stem-Changing, Reflexive, and Irregular Yo-Forms",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've been using the present tense all year without ever seeing its whole shape at once. Today you get the map: every regular pattern, every stem change, every reflexive pronoun, and every irregular yo-form you already half-know, laid out as one connected system instead of four separate topics learned on different days."
+      },
+      {
+        "type": "text",
+        "ref": "regular-and-stem-changing",
+        "text": "Start with what's actually [[cotidiano]] — regular, ordinary, exactly what you'd expect. Spanish has exactly three regular patterns, one per infinitive ending, and once you know the ending you know the whole verb: hablar (to speak) → hablo, hablas, habla, hablamos, hablan. comer (to eat) → como, comes, come, comemos, comen. vivir (to live) → vivo, vives, vive, vivimos, viven. Every regular -ar, -er, or -ir verb in the language — trabajar, escribir, aprender, hundreds of them — follows one of these three patterns exactly, with no exceptions.\n\nStem-changing verbs break that pattern in one specific, predictable way: the last vowel of the stem changes in every form except nosotros, because nosotros is the one form where the stress doesn't land on that vowel. There are three stem-change families: e→ie (querer → quiero, quieres, quiere, queremos, quieren), o→ue (poder → puedo, puedes, puede, podemos, pueden), and e→i (pedir → pido, pides, pide, pedimos, piden). Notice the shape: every form changes except nosotros, every time, in every stem-changing verb — that consistency is what makes the pattern learnable as a system instead of memorized verb-by-verb."
+      },
+      {
+        "type": "text",
+        "ref": "reflexive-and-irregular-yo",
+        "text": "Reflexive verbs describe an action the subject does to itself, and they add one more moving piece: a reflexive pronoun (me, te, se, nos, se) that agrees with the subject and sits right before the conjugated verb. levantarse (to get (oneself) up) → me levanto, te levantas, se levanta, nos levantamos, se levantan. The verb underneath still conjugates by its own pattern — and several common daily-routine reflexives are also stem-changing, which is exactly where students usually lose points: despertarse (to wake (oneself) up) is reflexive AND e→ie, so 'I wake up' is me despierto, not me esperto.\n\nA fourth category has nothing to do with endings or stems: verbs irregular in the yo-form only, and completely regular everywhere else. hacer (to do/make) → hago, haces, hace, hacemos, hacen. poner (to put) → pongo, pones, pone, ponemos, ponen. salir (to leave/go out) → salgo, sales, sale, salimos, salen. Once you have the irregular yo, every other form is fully regular. Some verbs stack two categories at once: tener (to have) has both an irregular yo (tengo) and an e→ie stem change in the rest of the boot: tengo, tienes, tiene, tenemos, tienen."
+      },
+      {
+        "type": "text",
+        "ref": "why-it-matters",
+        "text": "Four categories, one system: regular endings are the default; stem-changing verbs shift one vowel everywhere except nosotros; reflexives add a pronoun in front of whatever pattern the verb already follows; irregular yo-forms break only the yo and stay fully predictable everywhere else — and some verbs, like tener, belong to two categories at once. Knowing which category a verb belongs to — not just memorizing its forms one at a time — is what lets you conjugate a verb you've never seen conjugated before, which is the actual point of learning a system instead of a list."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "This map is the toolkit for the entire week — tomorrow you'll use it to build one specific, high-frequency way of talking about habits, the exact pattern native speakers reach for automatically."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-3-1",
+    "lessonId": "lesson-spanish-9-3-1",
+    "objectives": [
+      "Conjugate regular -ar/-er/-ir verbs and correctly identify which of the three stem-change patterns (e→ie, o→ue, e→i) a given verb follows",
+      "Conjugate at least one reflexive verb correctly, including a reflexive verb that also stem-changes",
+      "Identify hacer, salir, poner, and tener as irregular in the yo-form only, and produce their correct yo-forms"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Read the hook and explanation blocks together, conjugating hablar/comer/vivir aloud as a warm-up recall.\n2. Work through the stem-changing block, having the student notice out loud which form (nosotros) never changes and why.\n3. Read the reflexive-and-irregular-yo block, conjugating despertarse and tener together on paper to see both categories stack.\n4. Discuss the why-it-matters block — why knowing the category matters more than memorizing individual forms.\n5. Complete the worksheet.\n6. Preview tomorrow's soler + infinitive lesson.",
+    "differentiationTips": [
+      "Struggling: focus on just one verb per category (hablar, querer, levantarse, hacer) before attempting the worksheet's harder combination verbs (despertarse, tener)",
+      "Ready for more: have them sort five or six verbs they already know from earlier units into these four categories from memory, without a reference list",
+      "This is a review-and-organize day, not new material — if a verb form still doesn't come automatically, that's exactly what today is for; don't rush past a shaky category to keep pace"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "1. hablo, hablas, habla, hablamos, hablan. 2. quiero, quieres, quiere, queremos (no stem change — nosotros is unstressed on the stem vowel), quieren. 3. me despierto, nos despertamos. 4. The yo-form: hago, salgo, pongo — irregular only in yo, fully regular in every other form.",
+    "standardsRationale": "Opens the week's Presentational Speaking standard (WA-WL-2015.1.3) by consolidating the grammar system every later day depends on — per the scope-and-sequence's week 3 Day 1 design ('present-tense system consolidation — regular, stem-changing, reflexive, irregular yo-forms in one map'). A student can't speak accurately and spontaneously about daily life (this week's actual goal) without first knowing which category a given verb belongs to, which is why this day is deliberately analysis-heavy rather than activity-heavy."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-3-1",
+    "lessonId": "lesson-spanish-9-3-1",
+    "title": "The Present Tense, Mapped: Regular, Stem-Changing, Reflexive, and Irregular Yo-Forms",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's present-tense map.",
+      "rows": [
+        { "problem": "Conjugate hablar in all five forms (yo, tú, él/ella/usted, nosotros, ellos/ellas/ustedes)." },
+        { "problem": "Conjugate querer (e→ie) in all five forms. Which form does NOT change its stem, and why?" },
+        { "problem": "Conjugate despertarse (reflexive + e→ie) in the yo and nosotros forms." },
+        { "problem": "hacer, salir, and poner are all irregular in one specific form. Which form, and what are the three irregular yo-forms?" }
+      ]
+    }
+  }
+}

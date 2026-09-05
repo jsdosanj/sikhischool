@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-idioma",
+    "language": "spanish",
+    "word": "el idioma",
+    "translation": "language",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "El español es el idioma oficial de México. (Spanish is the official language of Mexico.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-hispanohablante",
+    "language": "spanish",
+    "word": "hispanohablante",
+    "translation": "Spanish-speaking",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Hay muchos países hispanohablantes en el mundo. (There are many Spanish-speaking countries in the world.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-poblacion",
+    "language": "spanish",
+    "word": "la población",
+    "translation": "population",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "México tiene la población hispanohablante más grande del mundo. (Mexico has the largest Spanish-speaking population in the world.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-oficial",
+    "language": "spanish",
+    "word": "oficial",
+    "translation": "official",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El español es oficial en veinte países. (Spanish is official in twenty countries.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-continente",
+    "language": "spanish",
+    "word": "el continente",
+    "translation": "continent",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "España está en el continente de Europa, pero Guinea Ecuatorial está en África. (Spain is on the continent of Europe, but Equatorial Guinea is in Africa.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-america-del-sur",
+    "language": "spanish",
+    "word": "América del Sur",
+    "translation": "South America",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Perú y Colombia están en América del Sur. (Peru and Colombia are in South America.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-caribe",
+    "language": "spanish",
+    "word": "el Caribe",
+    "translation": "the Caribbean",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Cuba y la República Dominicana están en el Caribe. (Cuba and the Dominican Republic are in the Caribbean.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  }
+]

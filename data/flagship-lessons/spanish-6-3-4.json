@@ -1,0 +1,98 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-3",
+    "courseId": "course-spanish-6",
+    "order": 3,
+    "title": "The Spanish-Speaking World",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-3-4",
+    "unitId": "unit-spanish-6-3",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Country Trading Cards: Capital, Region, and Población",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.3.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've mapped the countries, ranked them by población, and connected the story to Washington. Now it's time to turn everything you've learned into something you can hold, trade, and quiz your family with: your own set of country trading cards."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Every good trading card needs the same core facts, no matter what country it's about: the country's name, its capital city, which región it belongs to (Europa, África, América del Norte, América Central, el Caribe, or América del Sur), and its población, rounded to the nearest million. Today you'll research and build cards for at least four countries — choose ones that interest you, or use the reference table below to get started fast. These población numbers are the same kind of rounded estimate you worked with on Day 2."
+      },
+      {
+        "type": "text",
+        "ref": "reference-table",
+        "text": "País — Capital — Región — Población (aprox.)\n\nMéxico — Ciudad de México — América del Norte — 130 millones\nGuatemala — Ciudad de Guatemala — América Central — 18 millones\nHonduras — Tegucigalpa — América Central — 10 millones\nEl Salvador — San Salvador — América Central — 6 millones\nNicaragua — Managua — América Central — 7 millones\nCosta Rica — San José — América Central — 5 millones\nPanamá — Ciudad de Panamá — América Central — 4 millones\nCuba — La Habana — el Caribe — 11 millones\nRepública Dominicana — Santo Domingo — el Caribe — 11 millones\nPuerto Rico (territorio de EE. UU.) — San Juan — el Caribe — 3 millones\nColombia — Bogotá — América del Sur — 52 millones\nVenezuela — Caracas — América del Sur — 28 millones\nEcuador — Quito — América del Sur — 18 millones\nPerú — Lima — América del Sur — 34 millones\nBolivia — La Paz (sede de gobierno) / Sucre (capital constitucional) — América del Sur — 12 millones\nChile — Santiago — América del Sur — 20 millones\nArgentina — Buenos Aires — América del Sur — 46 millones\nParaguay — Asunción — América del Sur — 7 millones\nUruguay — Montevideo — América del Sur — 3.5 millones\nEspaña — Madrid — Europa — 48 millones\nGuinea Ecuatorial — Malabo — África — menos de 2 millones"
+      },
+      {
+        "type": "text",
+        "ref": "build-your-cards",
+        "text": "For each country you choose, your card needs four lines:\n\nLínea 1: el país (the country's name)\nLínea 2: la capital\nLínea 3: la región (Europa, África, América del Norte, América Central, el Caribe, or América del Sur)\nLínea 4: la población (aproximada, redondeada al millón más cercano)\n\nDraw a small flag or symbol for the country if you'd like, and decorate your card however you want — the four facts are what matter most. Build at least four cards before tomorrow's card-swap game."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've turned a week of geography and data into a real deck of cards — un mazo — built entirely from facts you found yourself. Tomorrow, you'll put that deck to work in a class-wide quiz game."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match each country to its capital city.",
+          "pairs": [
+            { "left": "México", "right": "Ciudad de México" },
+            { "left": "España", "right": "Madrid" },
+            { "left": "Argentina", "right": "Buenos Aires" },
+            { "left": "Perú", "right": "Lima" },
+            { "left": "Colombia", "right": "Bogotá" },
+            { "left": "Cuba", "right": "La Habana" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-3-4",
+    "lessonId": "lesson-spanish-6-3-4",
+    "objectives": [
+      "Research and record a country's capital, región, and población on an original trading card",
+      "Match at least six Spanish-speaking countries to their correct capital cities"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Index cards or cardstock for building trading cards", "Crayons or markers (optional, for decorating cards)"],
+    "facilitationScript": "1. Briefly review the week's map and población data.\n2. Introduce the four-line card format.\n3. Use the reference table to help the child pick and build at least four cards.\n4. Complete the matching activity, pairing countries to capitals.\n5. Complete the worksheet.\n6. Preview tomorrow's card-swap quiz game.",
+    "differentiationTips": [
+      "Struggling: build cards for just the four countries already ranked on Day 2 (México, Colombia, España, Argentina, Perú) instead of choosing new ones",
+      "Ready for more: research one additional fact per card not listed in the reference table (a famous food, landmark, or tradition) using an adult-supervised search",
+      "Bolivia is a fun bonus fact for an advanced student: it actually has two capitals — La Paz (seat of government) and Sucre (constitutional capital) — worth a card note of its own"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "Cards should include country, capital, región, and rounded población matching the reference table. Matching activity: México→Ciudad de México, España→Madrid, Argentina→Buenos Aires, Perú→Lima, Colombia→Bogotá, Cuba→La Habana.",
+    "standardsRationale": "Builds Day 4's scope-and-sequence design (trading cards with capital, region, población) as a hands-on synthesis of the whole week's Making Connections work — geography, demographics, and vocabulary all landing in one artifact the student produces themselves, setting up tomorrow's game-based review."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-3-4",
+    "lessonId": "lesson-spanish-6-3-4",
+    "title": "Country Trading Cards: Capital, Region, and Población",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Draft the four facts for each trading card before copying them onto your cards.",
+      "prompts": [
+        { "prompt": "Card 1: país, capital, región, población", "lines": 2 },
+        { "prompt": "Card 2: país, capital, región, población", "lines": 2 },
+        { "prompt": "Card 3: país, capital, región, población", "lines": 2 },
+        { "prompt": "Card 4: país, capital, región, población", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-uno",
+    "language": "spanish",
+    "word": "uno",
+    "translation": "one",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Tengo uno. (I have one.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-dos",
+    "language": "spanish",
+    "word": "dos",
+    "translation": "two",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Tengo dos manos. (I have two hands.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-tres",
+    "language": "spanish",
+    "word": "tres",
+    "translation": "three",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Cuento tres bloques. (I count three blocks.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-cuatro",
+    "language": "spanish",
+    "word": "cuatro",
+    "translation": "four",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "El gato tiene cuatro patas. (The cat has four paws.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-cinco",
+    "language": "spanish",
+    "word": "cinco",
+    "translation": "five",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Tengo cinco dedos. (I have five fingers.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-contar",
+    "language": "spanish",
+    "word": "contar",
+    "translation": "to count",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Me gusta contar mis juguetes. (I like to count my toys.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-cuantos",
+    "language": "spanish",
+    "word": "¿cuántos?",
+    "translation": "how many?",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "¿Cuántos globos hay? (How many balloons are there?)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  }
+]

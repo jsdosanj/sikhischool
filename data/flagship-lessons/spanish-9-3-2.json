@@ -1,0 +1,117 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-3",
+    "courseId": "course-spanish-9",
+    "order": 3,
+    "title": "Daily Life in the Present Tense",
+    "weekOfYear": 3
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-3-2",
+    "unitId": "unit-spanish-9-3",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Soler + Infinitive: How to Talk About Habits Like a Native Speaker",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every language has its own natural way of saying 'I usually...' — English relies on an adverb, but Spanish builds the idea into a specific verb, one you're about to make automatic. Today you learn the exact construction native speakers reach for without thinking, the one 'siempre' and 'normalmente' can't fully replace."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[soler]] means 'to usually do' or 'to tend to do,' and it almost always shows up in one exact shape: a conjugated form of soler followed directly by an infinitive — never followed by que, never followed by a conjugated verb. Soler is itself an o→ue stem-changing verb, so it follows exactly the pattern you mapped yesterday: suelo, sueles, suele, solemos, suelen.\n\n[[madrugar]] means to wake up very early — earlier than an ordinary early, the kind that takes real effort — and it's the textbook example of soler in action: Suelo madrugar los lunes para estudiar antes de clase (I usually wake up very early on Mondays to study before class). Notice what soler is actually doing there: it isn't describing one specific Monday, it's describing a pattern across many Mondays — that's the entire job of this construction, and no single tense on its own handles that job as cleanly.\n\nOne limit worth knowing: soler lives almost entirely in the present tense (for current habits) and the imperfect (for past ones — solía madrugar todos los días, 'I used to wake up early every day'). You'll rarely meet it in the future, conditional, or preterite, because 'usually' describes an ongoing pattern rather than one finished or upcoming action — and a single action is exactly what those other tenses are built to express."
+      },
+      {
+        "type": "text",
+        "ref": "practice-guidance",
+        "text": "Build your own soler sentences the same way: pick a subject, conjugate soler to match it, then attach any infinitive — estudiar, trabajar, salir, hacer ejercicio, whatever fits. Mis padres suelen trabajar hasta tarde. ¿Tú sueles hacer ejercicio por la mañana? Nosotros solemos salir los viernes. The infinitive never changes no matter who the subject is — only soler conjugates."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have one verb that does the work of a whole sentence full of 'usually's and 'normally's. Tomorrow you'll use soler and everything else in this week's map to build a real comparison: what your cotidiano life looks like entre semana versus on the weekend."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "Yo ___ madrugar los lunes para estudiar.",
+              "blankToken": "___",
+              "options": ["suelo", "sueles", "suele"],
+              "answer": "suelo"
+            },
+            {
+              "sentence": "Mi hermano ___ trabajar hasta tarde los viernes.",
+              "blankToken": "___",
+              "options": ["suelo", "suele", "solemos"],
+              "answer": "suele"
+            },
+            {
+              "sentence": "¿Tú ___ hacer ejercicio antes de desayunar?",
+              "blankToken": "___",
+              "options": ["suelo", "sueles", "suele"],
+              "answer": "sueles"
+            },
+            {
+              "sentence": "Mis amigos y yo ___ salir los sábados por la noche.",
+              "blankToken": "___",
+              "options": ["solemos", "suelen", "sueles"],
+              "answer": "solemos"
+            },
+            {
+              "sentence": "Mis padres ___ madrugar los domingos para ir a caminar.",
+              "blankToken": "___",
+              "options": ["suele", "solemos", "suelen"],
+              "answer": "suelen"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-3-2",
+    "lessonId": "lesson-spanish-9-3-2",
+    "objectives": [
+      "Conjugate soler correctly in all five forms as an o→ue stem-changing verb",
+      "Build accurate soler + infinitive sentences to describe habitual actions, and explain why a conjugated verb (not que) never follows soler",
+      "Use madrugar accurately in an original sentence"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Read the hook and explanation blocks together; conjugate soler aloud, noting it's the same o→ue pattern as poder from yesterday.\n2. Discuss why soler is almost always followed directly by an infinitive, and why it mostly lives in the present and imperfect tenses.\n3. Read the practice-guidance block and build two or three original soler sentences together orally before writing anything down.\n4. Complete the cloze activity.\n5. Complete the worksheet.\n6. Preview tomorrow's weekday-vs-weekend comparison.",
+    "differentiationTips": [
+      "Struggling: practice just the yo and tú forms of soler (suelo, sueles) with one infinitive (madrugar) until automatic, before adding other subjects",
+      "Ready for more: have them write one soler sentence in the imperfect (solía + infinitive) describing a childhood habit, previewing a construction they'll meet formally later this year",
+      "Watch for the most common error: attaching que after soler ('suelo que...') — correct it immediately by modeling the infinitive-only pattern"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. suelo, sueles, suele, solemos, suelen. 2. Suelo madrugar los lunes. 3. Mis padres suelen trabajar hasta tarde. 4. Soler is always followed directly by an infinitive, never by que + a conjugated verb — que introduces a different kind of construction entirely, one this course doesn't reach until later in the year.",
+    "standardsRationale": "Serves WA-WL-2015.1.3 by building the single most useful habitual-action construction in conversational Spanish, per the scope-and-sequence's Day 2 target ('soler + infinitive — talk about habits like a native'). Practiced through conjugation drilling today so the construction is automatic before Thursday's paragraph and Friday's spontaneous speed-talk."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-3-2",
+    "lessonId": "lesson-spanish-9-3-2",
+    "title": "Soler + Infinitive: How to Talk About Habits Like a Native Speaker",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's soler + infinitive lesson.",
+      "rows": [
+        { "problem": "Conjugate soler in all five forms." },
+        { "problem": "Translate to Spanish using soler + infinitive: 'I usually wake up very early on Mondays.'" },
+        { "problem": "Translate to Spanish: 'My parents usually work late.'" },
+        { "problem": "Why can't you say 'suelo que estudio' in Spanish? What comes right after a conjugated form of soler?" }
+      ]
+    }
+  }
+}

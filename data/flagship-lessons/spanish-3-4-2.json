@@ -1,0 +1,118 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-4",
+    "courseId": "course-spanish-3",
+    "order": 4,
+    "title": "Numbers 0-30: De Cero a Treinta",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-4-2",
+    "unitId": "unit-spanish-3-4",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Escucha y Escribe: Number Dictation",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.3.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned the landmark chant and the tricky teens. Today you'll test your ears: someone says a Spanish number out loud, and you write down the numeral you hear — no peeking at the word first."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Dictation means someone says a word or number out loud, and you write down what you hear — no looking at it spelled out first. The trick for Spanish number dictation is the same landmark chant from yesterday: if you hear a number and aren't sure of the exact word, place it next to its nearest landmark. Hear dieciséis? You know it's right after quince. Hear veintitrés? You know it's just after veinte."
+      },
+      {
+        "type": "text",
+        "ref": "dictation-list",
+        "text": "Ask a parent or teacher to read these ten numbers aloud, one at a time and out of order, while you write down just the numeral for each one. Cover this list before they start — no peeking!\n\ncero, cinco, diez, quince, veinte, veinticinco, treinta, dieciséis, veintidós, once\n\nAfter you've written all ten numerals, uncover the list and check your work together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just practiced listening for Spanish numbers and turning what you heard into numerals — a real skill you'll use for phone numbers and prices later this year. Tomorrow you'll use these same numbers for something new: math facts, out loud, in Spanish."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "Escucho la palabra 'quince.' Escribo el número ___.",
+              "blankToken": "___",
+              "options": ["5", "10", "15", "20"],
+              "answer": "15"
+            },
+            {
+              "sentence": "Escucho la palabra 'dieciséis.' Escribo el número ___.",
+              "blankToken": "___",
+              "options": ["6", "16", "26", "60"],
+              "answer": "16"
+            },
+            {
+              "sentence": "Escucho la palabra 'veinticinco.' Escribo el número ___.",
+              "blankToken": "___",
+              "options": ["5", "15", "20", "25"],
+              "answer": "25"
+            },
+            {
+              "sentence": "Escucho la palabra 'treinta.' Escribo el número ___.",
+              "blankToken": "___",
+              "options": ["3", "13", "20", "30"],
+              "answer": "30"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-4-2",
+    "lessonId": "lesson-spanish-3-4-2",
+    "objectives": [
+      "Convert a spoken Spanish number word into its numeral for cero through treinta",
+      "Use yesterday's landmark chant to place an unfamiliar-sounding number near its nearest landmark",
+      "Recover from a missed number by asking for a repeat rather than guessing"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "Paper to write numerals on",
+      "A parent or teacher to read the dictation list aloud"
+    ],
+    "facilitationScript": "1. Explain today's game: dictation — you say a number, the child writes only the numeral, without seeing the word first.\n2. Quickly review yesterday's landmark chant together as a warm-up (cero, cinco, diez, quince, veinte, veinticinco, treinta).\n3. Cover the printed word list and read each of the ten dictation words aloud, one at a time, in a different order than they're listed, pausing for the child to write each numeral.\n4. Uncover the list together and check answers, using the landmark chant to explain any that were confusing (e.g., 'veintidós is just past veinte').\n5. Complete the cloze activity together.\n6. Complete the worksheet.\n7. Preview tomorrow: math-fact races using these numbers.",
+    "differentiationTips": [
+      "Struggling: read only the seven landmark numbers for dictation today, adding the teens/twenties gluing-pattern numbers back in on a later review day",
+      "Ready for more: after the listed ten, keep going with numbers of your own choosing from cero to treinta, said in a random order",
+      "This lesson's actual dictation depends entirely on a parent or teacher reading numbers aloud, since the course doesn't have audio content yet (open decision, expansion-plan-2026-09.md §12.9) — for a lesson specifically about listening, a live reader is the only way to deliver it honestly until that infrastructure lands"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "cero=0, cinco=5, diez=10, quince=15, veinte=20, veinticinco=25, treinta=30, dieciséis=16, veintidós=22, once=11.",
+    "standardsRationale": "Delivers the week's Day 2 target (number dictation) under WA-WL-2015.3.1 Connections by requiring the child to apply yesterday's landmark structure productively — converting a heard word to a numeral is the receptive half of the same pattern Day 1 taught, not a new topic."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-4-2",
+    "lessonId": "lesson-spanish-3-4-2",
+    "title": "Escucha y Escribe: Number Dictation",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "A parent or teacher will read each word aloud. Write only the numeral you hear.",
+      "rows": [
+        { "problem": "A parent reads 'cero.' Write the numeral." },
+        { "problem": "A parent reads 'once.' Write the numeral." },
+        { "problem": "A parent reads 'dieciséis.' Write the numeral." },
+        { "problem": "A parent reads 'veintidós.' Write the numeral." },
+        { "problem": "A parent reads 'veinticinco.' Write the numeral." },
+        { "problem": "A parent reads 'treinta.' Write the numeral." }
+      ]
+    }
+  }
+}

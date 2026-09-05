@@ -1,0 +1,97 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-4",
+    "courseId": "course-spanish-3",
+    "order": 4,
+    "title": "Numbers 0-30: De Cero a Treinta",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-4-1",
+    "unitId": "unit-spanish-3-4",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Cero to Treinta: The Pattern Behind the Numbers",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.3.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "For three weeks you've greeted people, introduced yourself, and learned the Spanish alphabet. This week you'll learn something you'll use everywhere in Spanish: los números — the numbers. By Friday you'll be able to count all the way from zero to thirty."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[el número]] means 'number.' Every number word you learn this week — from zero all the way up to thirty — is un número. And the very first número you need is [[cero]], which means 'zero,' the number every count starts from."
+      },
+      {
+        "type": "text",
+        "ref": "landmark-chant",
+        "text": "Here's a trick for learning thirty numbers without memorizing thirty brand-new words: count by fives first, and use those landmark numbers to find your place everywhere else. Ask a parent or teacher to say each one aloud with you a few times:\n\ncero (0) — zero, your starting point\n[[cinco]] (5) — five\n[[diez]] (10) — ten\n[[quince]] (15) — fifteen\n[[veinte]] (20) — twenty\n[[veinticinco]] (25) — twenty-five\n[[treinta]] (30) — thirty\n\nSay the whole chant together, out loud, three times: cero, cinco, diez, quince, veinte, veinticinco, treinta. That's your rhythm for the week — every other number between zero and thirty sits right next to one of these seven landmarks."
+      },
+      {
+        "type": "text",
+        "ref": "tricky-teens",
+        "text": "Now let's fill in the gaps between your landmarks. From once (11) up to catorce (14), each number just has its own name, the same way uno through nueve do. But right after quince, something changes: instead of a whole new name, Spanish glues two small pieces together — diez (ten) + y (and) + a digit:\n\n16 = diez + y + seis → dieciséis\n17 = diez + y + siete → diecisiete\n18 = diez + y + ocho → dieciocho\n19 = diez + y + nueve → diecinueve\n\nSay diez y seis slowly, then say dieciséis — you're hearing the exact same sounds glued into one word. These four are the 'tricky teens' you'll practice writing today. (Notice dieciséis wears a little accent mark, é, to keep its stress in the right place — the only one of the four that needs it.)\n\nThe exact same gluing trick happens again right after veinte: veintiuno, veintidós, veintitrés, veinticuatro, veinticinco (a landmark you already know!), veintiséis, veintisiete, veintiocho, veintinueve. Once you know veinte and your digits uno through nueve, you already know all nine of these.\n\nAnd then comes treinta — no gluing at all. Just like diez and veinte before it, treinta stands completely on its own as a fresh new word."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just cracked the code behind every number from cero to treinta: seven landmark numbers by fives, individual names through catorce, glued-together teens and twenties, and one more clean new word at the top. Tomorrow you'll test your ears — number dictation, hearing a number and writing the numeral."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match each tricky teen numeral on the left to its Spanish word on the right.",
+          "pairs": [
+            { "left": "16", "right": "dieciséis" },
+            { "left": "17", "right": "diecisiete" },
+            { "left": "18", "right": "dieciocho" },
+            { "left": "19", "right": "diecinueve" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-4-1",
+    "lessonId": "lesson-spanish-3-4-1",
+    "objectives": [
+      "Say el número and cero, and recite the cero-cinco-diez-quince-veinte-veinticinco-treinta landmark chant",
+      "Explain that dieciséis, diecisiete, dieciocho, and diecinueve are diez + y + a digit fused into one word",
+      "Explain that veintiuno through veintinueve follow the same gluing pattern with veinte, and that treinta is a fresh new word"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A parent or teacher to model the counting rhythm aloud"],
+    "facilitationScript": "1. Ask the child to count 0-10 in English quickly, then explain that this week they'll learn to count all the way to thirty in Spanish using a shortcut: landmarks by fives.\n2. Introduce el número and cero.\n3. Model the landmark chant aloud yourself first (cero, cinco, diez, quince, veinte, veinticinco, treinta), then have the child repeat it two or three times until it flows.\n4. Explain the teen pattern: model diez y seis slowly, then dieciséis, diecisiete, dieciocho, diecinueve, having the child repeat each.\n5. Explain that the same gluing trick happens after veinte (veintiuno through veintinueve), and that treinta is a brand-new word with no gluing.\n6. Play the matching activity together, matching each tricky teen numeral to its Spanish word.\n7. Complete the worksheet.\n8. Preview tomorrow: number dictation.",
+    "differentiationTips": [
+      "Struggling: master the seven-landmark chant (cero, cinco, diez, quince, veinte, veinticinco, treinta) alone today, and treat the teens/twenties gluing pattern as a preview to return to tomorrow rather than something to master in one sitting",
+      "Ready for more: challenge them to build veintiséis, veintisiete, veintiocho, and veintinueve on their own before you say them, using only the veinte + y + digit pattern they just learned",
+      "This lesson depends on a parent or teacher modeling the chant and number words aloud rather than an audio recording, since the course doesn't have audio content yet (open decision, expansion-plan-2026-09.md §12.9) — the written numbers plus a live voice cover the same ground a recording would"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "The landmark chant: cero (0), cinco (5), diez (10), quince (15), veinte (20), veinticinco (25), treinta (30). Tricky teens: 16 = dieciséis, 17 = diecisiete, 18 = dieciocho, 19 = diecinueve — each is diez + y + a digit fused into one word (dieciséis alone needs a written accent). The same pattern repeats after veinte for 21-29, and treinta is a fresh new word with no gluing.",
+    "standardsRationale": "Opens the week's Connections target (WA-WL-2015.3.1) with the exact Day 1 activity the scope-and-sequence names — a rhythm-pattern count from zero to thirty — while surfacing the real linguistic structure (diez y seis fusing into dieciséis) as a math-adjacent pattern a grade-3 child can reason about, not a list to memorize by brute force."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-4-1",
+    "lessonId": "lesson-spanish-3-4-1",
+    "title": "Cero to Treinta: The Pattern Behind the Numbers",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write each tricky teen two times. Say it out loud as you write it.",
+      "prompts": [
+        { "prompt": "Write dieciséis (16) two times.", "lines": 2 },
+        { "prompt": "Write diecisiete (17) two times.", "lines": 2 },
+        { "prompt": "Write dieciocho (18) two times.", "lines": 2 },
+        { "prompt": "Write diecinueve (19) two times.", "lines": 2 }
+      ]
+    }
+  }
+}

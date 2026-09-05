@@ -1,0 +1,97 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-4",
+    "courseId": "course-spanish-6",
+    "order": 4,
+    "title": "Subject Pronouns & Ser: Ustedes vs. Vosotros",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-4-3",
+    "unitId": "unit-spanish-6-4",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Dialect Discovery: Ustedes, Vosotros, and Vos Across the Spanish-Speaking World",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.4.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Since week 1, this course has taught you tú, usted, and ustedes for saying 'you' — and never vosotros. That wasn't an accident. Spanish isn't spoken exactly the same way everywhere, the same way English in Seattle isn't identical to English in London or Sydney. Today you'll meet two real, correct forms from other parts of the Spanish-speaking world — vosotros and vos — and understand exactly why this course doesn't use them, without ever pretending they're wrong."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "There are actually two separate places where Spanish dialects split. Keeping them apart is the key to today's lesson.\n\nSplit #1 — 'you all' (talking to more than one person): almost all of Latin America uses ustedes for 'you all,' no matter how formal or informal the moment is — talking to your friends or to your principal, it's ustedes either way. That's why this course only teaches ustedes. España (Spain) does something different: it keeps ustedes for formal 'you all,' but uses a completely separate word, [[vosotros]], for informal 'you all' — talking to a group of friends. Vosotros even gets its own verb form: 'vosotros sois,' not 'ustedes son.'\n\nSplit #2 — 'you' (talking to just one person, informally): most of the Spanish-speaking world, including this course, uses tú. But in Argentina, Uruguay, and parts of Central America, informal singular 'you' is [[vos]] instead of tú — and vos comes with its own conjugation too. With ser, that means 'vos sos' instead of 'tú eres.' This whole pattern — using vos instead of tú — has a name: [[el voseo]]."
+      },
+      {
+        "type": "text",
+        "ref": "three-dialects",
+        "text": "Here are three real, correct ways to say the exact same idea with ser — read all three side by side:\n\nLatin American Spanish (this course's standard):\n- Ustedes son estudiantes. (You all are students.)\n- ¿De dónde son ustedes? (Where are you all from?)\n- Ustedes son mis amigos. (You all are my friends.)\n\nSpain (vosotros, informal 'you all' — recognize it, but this course doesn't ask you to produce it):\n- Vosotros sois estudiantes. (You all are students.)\n- ¿De dónde sois vosotros? (Where are you all from?)\n- Vosotros sois mis amigos. (You all are my friends.)\n\nArgentina / Uruguay (vos, singular 'you' — also recognition only):\n- Vos sos estudiante. (You are a student.)\n- ¿De dónde sos vos? (Where are you from?)\n- Vos sos mi amigo. (You are my friend.)\n\nNotice vos isn't a 'you all' word like ustedes and vosotros are — it replaces tú for one person. All three sentences above are completely correct Spanish; they're just spoken in different places."
+      },
+      {
+        "type": "text",
+        "ref": "hearing-it",
+        "text": "Reading these forms gets you the facts, but hearing them is its own kind of fun — the crisp 's' sounds of vosotros in Spain, or the sing-song rise of vos in Argentina, aren't quite the same on the page as out loud. If you're curious, ask a parent or teacher to help you find a short native-speaker video clip online as a bonus listen — that's enrichment, not something you'll be tested on."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know why this course says ustedes every single time, and you can recognize vosotros and vos when you run into them — in a song, a show, or a trip abroad. Tomorrow you'll go back to building real sentences with ser, using the forms this course actually practices."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match each description to the correct word or region.",
+          "pairs": [
+            { "left": "Latinoamérica en general (el estándar de este curso)", "right": "ustedes" },
+            { "left": "España, informal ('you all' entre amigos)", "right": "vosotros" },
+            { "left": "Argentina y Uruguay, en vez de tú", "right": "vos" },
+            { "left": "'Vos sos' en vez de 'tú eres' — este patrón se llama...", "right": "el voseo" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-4-3",
+    "lessonId": "lesson-spanish-6-4-3",
+    "objectives": [
+      "Explain that Latin American Spanish (this course's standard) uses ustedes for all 'you all' situations, while Spain uses vosotros for informal 'you all'",
+      "Explain that vos is a regional replacement for tú (singular, informal 'you') used in Argentina, Uruguay, and parts of Central America, with its own conjugation (e.g., vos sos)",
+      "Recognize vosotros and vos as correct Spanish when encountered, without being asked to produce or conjugate them"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Optional: adult-assisted internet access for the bonus native-speaker listening clip"],
+    "facilitationScript": "1. Ask why the child thinks this course has never used the word vosotros — let them guess before revealing the answer.\n2. Walk through Split #1 (ustedes vs. vosotros, a 'you all' difference) and Split #2 (tú vs. vos, a singular 'you' difference) as two separate ideas — this is the part most likely to get muddled, so slow down here.\n3. Read the three-dialects block aloud together, sentence by sentence.\n4. Emphasize clearly: this course teaches and tests ustedes only — vosotros and vos are for recognizing, not producing.\n5. If time and interest allow, look up one short native-speaker clip together for the bonus listening experience.\n6. Complete the matching activity.\n7. Complete the worksheet.\n8. Preview tomorrow's sentence-building day.",
+    "differentiationTips": [
+      "Struggling: focus only on the ustedes-vs-vosotros split today; save the vos/voseo split for a quick five-minute review before the worksheet",
+      "Ready for more: research, with an adult, one more country that uses voseo (there are several across Central America) and share what they find",
+      "If a child tries to 'practice' saying vosotros or vos sentences aloud for fun, that's great — just don't require it or grade it; recognition is the actual goal"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Ustedes = this course's standard for 'you all' everywhere (formal and informal). Vosotros = Spain's informal 'you all,' with its own conjugation (sois). Vos = replaces tú in Argentina, Uruguay, and parts of Central America, with its own conjugation (e.g., vos sos). El voseo = the name for the vos pattern.",
+    "standardsRationale": "Fulfills Day 3's scope-and-sequence design — a dialect-discovery comparison of ustedes, vosotros, and vos — as this week's WA-WL-2015.4.1 Language Comparisons target, while keeping the two real linguistic splits (plural 'you all' vs. singular 'you') distinct instead of flattening them into one false three-way parallel, and explicitly scoping vosotros/voseo to recognition only so the practice stays consistent with the ustedes standard every other lesson in this course uses."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-4-3",
+    "lessonId": "lesson-spanish-6-4-3",
+    "title": "Dialect Discovery: Ustedes, Vosotros, and Vos Across the Spanish-Speaking World",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's dialect discovery reading.",
+      "rows": [
+        { "problem": "Which word does THIS course use for 'you all,' in every situation?" },
+        { "problem": "Which country uses vosotros, and is it for formal or informal 'you all'?" },
+        { "problem": "Is vos a 'you all' word or a 'you' (one person) word? Which countries use it?" },
+        { "problem": "What is the name for the pattern of using vos instead of tú?" }
+      ]
+    }
+  }
+}

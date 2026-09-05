@@ -1,0 +1,96 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-4",
+    "courseId": "course-spanish-3",
+    "order": 4,
+    "title": "Numbers 0-30: De Cero a Treinta",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-4-4",
+    "unitId": "unit-spanish-3-4",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Números de Verdad: Phone Numbers and Lunch Count",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.3.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've counted, listened, and done math in Spanish. Today your numbers leave the classroom: you'll practice saying a phone number and counting how many classmates are buying lunch — two things Spanish speakers do with numbers every single day."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "In Spanish, a phone number isn't said as one long number — it's usually said two digits at a time, the same way you might say 'five-five-five, twelve, thirty' for 555-1230 in English. That's exactly why you spent this week learning diez, veinte, and treinta: two-digit numbers are the building blocks of a spoken phone number."
+      },
+      {
+        "type": "text",
+        "ref": "phone-numbers",
+        "text": "Try saying this made-up phone number two digits at a time: 5-15-20-30 becomes cinco, quince, veinte, treinta. Now try your own: pick any four numbers between cero and treinta and say them in a row, like a phone number."
+      },
+      {
+        "type": "text",
+        "ref": "lunch-count",
+        "text": "Cafeterias and classrooms count things constantly — how many kids are buying lunch, how many are bringing lunch from home. Practice this real classroom question and answer:\n\n¿Cuántos van a comprar el almuerzo hoy? (How many are buying lunch today?)\nQuince van a comprar el almuerzo. (Fifteen are buying lunch.)\n\nCount how many people are in your house right now, and answer using son: Somos cinco. (There are five of us. / We are five.)"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used this week's numbers for two real jobs: sharing a phone number and counting a real group of people. Tomorrow you'll put everything together in one game: number bingo, cero to treinta."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "translate-v1",
+        "config": {
+          "items": [
+            { "prompt": "Escribe el número: 'quince'", "acceptedAnswers": ["15"] },
+            { "prompt": "Escribe el número: 'veinte'", "acceptedAnswers": ["20"] },
+            { "prompt": "Escribe el número: 'treinta'", "acceptedAnswers": ["30"] },
+            { "prompt": "Escribe el número: 'cinco'", "acceptedAnswers": ["5", "05"] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-4-4",
+    "lessonId": "lesson-spanish-3-4-4",
+    "objectives": [
+      "Say a string of Spanish numbers the way a phone number is spoken, two digits at a time",
+      "Ask and answer ¿Cuántos van a comprar el almuerzo? using a number and son/somos",
+      "Apply this week's numbers to two genuine real-world uses instead of a classroom drill"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A family member to interview and count with"],
+    "facilitationScript": "1. Ask the child how they'd say a phone number out loud in English, digit group by digit group.\n2. Introduce the idea that Spanish phone numbers are usually said two digits at a time, which is exactly why diez, veinte, and treinta matter.\n3. Practice saying a few made-up number strings aloud together, like a phone number.\n4. Introduce ¿Cuántos van a comprar el almuerzo? and model an answer with son (e.g., Quince van a comprar el almuerzo).\n5. Count how many people are actually in the room or house right now and answer together using Somos ___.\n6. Complete the translate activity.\n7. Complete the worksheet.\n8. Preview tomorrow's number bingo.",
+    "differentiationTips": [
+      "Struggling: keep the phone-number and lunch-count numbers to landmarks only (cero, cinco, diez, quince, veinte, veinticinco, treinta) rather than mixing in tricky teens or twenties",
+      "Ready for more: have them ask ¿Cuántos van a comprar el almuerzo? to real family members today and tally the real answers in Spanish",
+      "This lesson's phone-number and interview practice work as live spoken exchanges between the child and a family member — they don't depend on the audio-recording gap noted elsewhere this week (open decision, expansion-plan-2026-09.md §12.9)"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Phone numbers in Spanish are usually said two digits at a time (e.g., 5-15-20-30 = cinco, quince, veinte, treinta). ¿Cuántos van a comprar el almuerzo? means 'how many are buying lunch?' — answer with a number + van a comprar el almuerzo, or Somos + a number for 'there are ___ of us.'",
+    "standardsRationale": "Delivers the week's Day 4 target (real-world numbers via phone-number and lunch-count practice) under WA-WL-2015.3.1 Connections by putting the week's numbers to two uses a child already does in English — sharing a phone number and counting a group — which is the exact 'making connections' the standard names, not a new grammar point."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-4-4",
+    "lessonId": "lesson-spanish-3-4-4",
+    "title": "Números de Verdad: Phone Numbers and Lunch Count",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about real-world Spanish numbers.",
+      "rows": [
+        { "problem": "Write a made-up phone number using four Spanish numbers between cero and treinta, and say it out loud." },
+        { "problem": "How many people live in your house? Write the answer as 'Somos ___.'" },
+        { "problem": "What does ¿Cuántos van a comprar el almuerzo? mean in English?" },
+        { "problem": "Write an answer to that question using a number: '___ van a comprar el almuerzo.'" }
+      ]
+    }
+  }
+}

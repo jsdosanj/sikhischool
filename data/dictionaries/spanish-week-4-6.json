@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dict-spanish-pronombre",
+    "language": "spanish",
+    "word": "el pronombre",
+    "translation": "pronoun",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Un pronombre reemplaza el nombre de una persona en una oración. (A pronoun replaces a person's name in a sentence.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-el-pronoun",
+    "language": "spanish",
+    "word": "él",
+    "translation": "he",
+    "partOfSpeech": "pronoun",
+    "synonyms": [],
+    "exampleSentence": "Él es mi hermano mayor. (He is my older brother.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-ella",
+    "language": "spanish",
+    "word": "ella",
+    "translation": "she",
+    "partOfSpeech": "pronoun",
+    "synonyms": [],
+    "exampleSentence": "Ella es de Colombia. (She is from Colombia.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-nosotros",
+    "language": "spanish",
+    "word": "nosotros",
+    "translation": "we",
+    "partOfSpeech": "pronoun",
+    "synonyms": [],
+    "exampleSentence": "Nosotros somos estudiantes de español. (We are Spanish students.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-ellos",
+    "language": "spanish",
+    "word": "ellos",
+    "translation": "they",
+    "partOfSpeech": "pronoun",
+    "synonyms": [],
+    "exampleSentence": "Ellos son mis primos. (They are my cousins.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-vos",
+    "language": "spanish",
+    "word": "vos",
+    "translation": "you (voseo regions)",
+    "partOfSpeech": "pronoun",
+    "synonyms": [],
+    "exampleSentence": "En Argentina, muchas personas dicen 'vos sos' en vez de 'tú eres'. (In Argentina, many people say 'vos sos' instead of 'tú eres.')",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-voseo",
+    "language": "spanish",
+    "word": "el voseo",
+    "translation": "use of vos",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "El voseo es común en Argentina, Uruguay y partes de Centroamérica. (The use of vos is common in Argentina, Uruguay, and parts of Central America.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-vosotros",
+    "language": "spanish",
+    "word": "vosotros",
+    "translation": "you all (Spain)",
+    "partOfSpeech": "pronoun",
+    "synonyms": [],
+    "exampleSentence": "En España, 'vosotros sois' es la forma informal de decir 'ustedes son'. (In Spain, 'vosotros sois' is the informal way to say 'you all are.')",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  }
+]

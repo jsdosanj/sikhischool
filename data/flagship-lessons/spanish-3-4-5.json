@@ -1,0 +1,117 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-4",
+    "courseId": "course-spanish-3",
+    "order": 4,
+    "title": "Numbers 0-30: De Cero a Treinta",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-4-5",
+    "unitId": "unit-spanish-3-4",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Bingo de Números: Cero to Treinta",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.3.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned to count, listen, do math, and use real numbers — landmarks, tricky teens, twenties, and treinta. Today you'll put it all to the test in number bingo, cero to treinta."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "In today's bingo, a caller says un número between cero and treinta, and everyone checks their board for a match. Make your board with numerals, not words — that keeps it a real listening challenge, not a reading one."
+      },
+      {
+        "type": "text",
+        "ref": "bingo-rules",
+        "text": "How to play: make a bingo board and fill it with numerals of your choice from 0-30. Take turns being the caller: the caller picks a number, says it out loud in Spanish (using this week's landmark chant to double check any tricky ones), and everyone covers that numeral if it's on their board. First to cover a full row says ¡Bingo!"
+      },
+      {
+        "type": "text",
+        "ref": "student-callers",
+        "text": "Being the caller is extra practice too — you have to convert a numeral you see into the Spanish word out loud, the reverse direction of Tuesday's dictation. If you get stuck on a number, use Monday's landmark chant to find your place: is it just past quince? Just before veinte?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just spent a full week living inside Spanish numbers — from a seven-number landmark chant on Monday to a full bingo game today. Next week you'll keep counting, all the way up to cien — one hundred!"
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Which numeral is dieciocho?",
+              "options": ["8", "18", "80", "28"],
+              "answer": 1,
+              "explanation": "Dieciocho is diez + y + ocho — 18."
+            },
+            {
+              "q": "Which numeral is veintitrés?",
+              "options": ["3", "13", "23", "33"],
+              "answer": 2,
+              "explanation": "Veintitrés is veinte + y + tres — 23."
+            },
+            {
+              "q": "Which numeral is treinta?",
+              "options": ["3", "13", "23", "30"],
+              "answer": 3,
+              "explanation": "Treinta is a fresh new word for 30 — no gluing."
+            },
+            {
+              "q": "Which numeral is veinticinco?",
+              "options": ["5", "15", "20", "25"],
+              "answer": 3,
+              "explanation": "Veinticinco is one of your landmark numbers — 25."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-4-5",
+    "lessonId": "lesson-spanish-3-4-5",
+    "objectives": [
+      "Convert a numeral on a bingo board into its spoken Spanish word, cero through treinta",
+      "Use the landmark chant to place an unfamiliar number during live play",
+      "Play both caller and listener roles in a full week-ending review game"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Paper to draw bingo boards", "Family members or classmates to play with"],
+    "facilitationScript": "1. Explain today's game: number bingo, cero to treinta, with the whole family able to play.\n2. Have each player draw a grid and fill it with numerals of their choice from 0-30.\n3. Take turns being the caller: pick a numeral, say it aloud in Spanish, and let players cover a match.\n4. When stuck on a number, pause and use Monday's landmark chant together to place it.\n5. Play until someone completes a row and calls ¡Bingo!\n6. Complete the review activity together.\n7. Complete the worksheet, recapping the whole week.\n8. Preview next week: numbers 31-100.",
+    "differentiationTips": [
+      "Struggling: build a bingo board using only landmark numbers (cero, cinco, diez, quince, veinte, veinticinco, treinta) plus a few teens, rather than the full 0-30 range",
+      "Ready for more: let them be the caller for the whole game, converting every numeral on the board into its spoken Spanish word without checking the chant first",
+      "This lesson relies on a parent, teacher, or classmate calling numbers aloud rather than an audio recording, since the course doesn't have audio content yet (open decision, expansion-plan-2026-09.md §12.9) — the printed numeral-to-word answer key covers the same ground a recording would for checking calls"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Bingo numerals are read aloud using this week's rules: individual names through catorce, diez+y+digit for 16-19, veinte+y+digit for 21-29, and the landmarks cero, cinco, diez, quince, veinte, veinticinco, treinta. Dieciocho=18, veintitrés=23, veinticinco=25 (a landmark), treinta=30.",
+    "standardsRationale": "Closes the week's WA-WL-2015.3.1 Connections arc with an authentic, repeated real-world-style task (calling and covering numbers under time pressure) rather than a single scripted exchange, mirroring week 3's Day 5 pattern of a live, unscored performance task that recombines everything taught that week."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-4-5",
+    "lessonId": "lesson-spanish-3-4-5",
+    "title": "Bingo de Números: Cero to Treinta",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review the whole week of Spanish numbers.",
+      "rows": [
+        { "problem": "Write the landmark chant in order: cero, ___, ___, ___, ___, ___, ___." },
+        { "problem": "Write the numeral for dieciocho." },
+        { "problem": "Write the numeral for veintisiete." },
+        { "problem": "What is treinta in English, and why doesn't it need any gluing?" },
+        { "problem": "Write one Spanish number bingo call you would make, and its numeral." }
+      ]
+    }
+  }
+}

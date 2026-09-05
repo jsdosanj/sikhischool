@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-cero",
+    "language": "spanish",
+    "word": "cero",
+    "translation": "zero",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Hoy hace cero grados afuera. (Today it's zero degrees outside.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-diez",
+    "language": "spanish",
+    "word": "diez",
+    "translation": "ten",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Tengo diez dedos en las manos. (I have ten fingers on my hands.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-quince",
+    "language": "spanish",
+    "word": "quince",
+    "translation": "fifteen",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Mi hermano tiene quince años. (My brother is fifteen years old.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-veinte",
+    "language": "spanish",
+    "word": "veinte",
+    "translation": "twenty",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Hay veinte estudiantes en mi clase de español. (There are twenty students in my Spanish class.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-veinticinco",
+    "language": "spanish",
+    "word": "veinticinco",
+    "translation": "twenty-five",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Mi cumpleaños es el veinticinco de mayo. (My birthday is May twenty-fifth.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-treinta",
+    "language": "spanish",
+    "word": "treinta",
+    "translation": "thirty",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "En mi salón de clases hay treinta pupitres. (In my classroom there are thirty desks.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-el-numero",
+    "language": "spanish",
+    "word": "el número",
+    "translation": "number",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "¿Cuál es tu número de teléfono? (What is your phone number?)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-4",
+    "courseId": "course-spanish-6",
+    "order": 4,
+    "title": "Subject Pronouns & Ser: Ustedes vs. Vosotros",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-4-2",
+    "unitId": "unit-spanish-6-4",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Pronoun Swap Drills: Trading Names for Él, Ella, and Ellos",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.4.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned the pronoun chart. Today you put it to work the way real speakers actually use it: swapping a name for a pronombre so you're not repeating it in every sentence."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "The rule for choosing él, ella, or ellos is about who you're replacing:\n\n- One boy or man → él\n- One girl or woman → ella\n- Any group of two or more (all-male or mixed) → ellos\n\nWatch it in action: 'Mateo es de México.' becomes 'Él es de México.' 'Valentina es de Perú.' becomes 'Ella es de Perú.' And 'Mateo y Valentina son de México y Perú.' becomes 'Ellos son de México y Perú.'\n\nOne more swap worth knowing: if a sentence includes yo along with other people — 'Ana y yo somos amigos' — the whole group becomes nosotros, because yo is always part of the group being replaced: 'Nosotros somos amigos.'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Swapping names for pronombres is a habit good Spanish speakers do constantly, almost without noticing. Tomorrow the pronoun story gets more interesting: you'll discover how 'you all' and even 'you' change shape depending on which Spanish-speaking country you're in."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "Carlos vive en Bogotá. ___ es colombiano.",
+              "blankToken": "___",
+              "options": ["Él", "Ella", "Ellos", "Nosotros"],
+              "answer": "Él"
+            },
+            {
+              "sentence": "Diego y Luis estudian español. ___ son buenos amigos.",
+              "blankToken": "___",
+              "options": ["Él", "Ella", "Ellos", "Nosotros"],
+              "answer": "Ellos"
+            },
+            {
+              "sentence": "Mi amigo y yo vamos a la escuela juntos. ___ llegamos temprano.",
+              "blankToken": "___",
+              "options": ["Él", "Ella", "Ellos", "Nosotros"],
+              "answer": "Nosotros"
+            },
+            {
+              "sentence": "Valentina toca la guitarra. ___ es muy talentosa.",
+              "blankToken": "___",
+              "options": ["Él", "Ella", "Ellos", "Nosotros"],
+              "answer": "Ella"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-4-2",
+    "lessonId": "lesson-spanish-6-4-2",
+    "objectives": [
+      "State the rule for choosing él, ella, ellos, or nosotros to replace a name or names in a sentence",
+      "Correctly swap a name (or names) for the matching pronombre in four practice sentences"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Device for the cloze activity (optional — can be done orally)"],
+    "facilitationScript": "1. Review yesterday's pronoun chart briefly.\n2. Walk through the él/ella/ellos rule with the Mateo/Valentina examples.\n3. Point out the special nosotros case (yo + others = nosotros).\n4. Complete the pronoun-swap cloze activity together or independently.\n5. Complete the worksheet.\n6. Preview tomorrow's dialect discovery day.",
+    "differentiationTips": [
+      "Struggling: cover él and ella only first (one person each), adding ellos and nosotros once those feel solid",
+      "Ready for more: have them swap pronouns in three sentences about their own family or friends",
+      "If the child mixes up él/ella, a quick physical cue works well — point to a photo of a boy vs. a girl while saying each word"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Él (Carlos, one boy). 2. Ellos (Diego y Luis, two boys). 3. Nosotros (mi amigo y yo, includes yo). 4. Ella (Valentina, one girl).",
+    "standardsRationale": "Delivers Day 2's exact scope-and-sequence design — pronoun-swap drills replacing names with él/ella/ellos — as fast, low-stakes practice building automaticity before Wednesday's more conceptual dialect-comparison work."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-4-2",
+    "lessonId": "lesson-spanish-6-4-2",
+    "title": "Pronoun Swap Drills: Trading Names for Él, Ella, and Ellos",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Replace the underlined name(s) with the correct pronombre: él, ella, ellos, or nosotros.",
+      "rows": [
+        { "problem": "Sofía es de Chile. → ___ es de Chile." },
+        { "problem": "Pedro y Ana son estudiantes. → ___ son estudiantes." },
+        { "problem": "Mi hermana y yo somos altos. → ___ somos altos." },
+        { "problem": "Explain in your own words: how do you decide between él, ella, and ellos?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-4",
+    "courseId": "course-spanish-k",
+    "order": 4,
+    "title": "Numbers 6-10",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-4-3",
+    "unitId": "unit-spanish-k-4",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Busca y Cuenta: A Hide-and-Count Number Hunt",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol hid ten number cards around the room — one all the way through diez! Time to go searching."
+      },
+      {
+        "type": "text",
+        "ref": "practice-search",
+        "text": "Look under chairs, behind pillows, or on shelves — Sol hid all ten cards! When you find one, count the dots on it and say the number out loud, from uno to diez."
+      },
+      {
+        "type": "text",
+        "ref": "practice-count-found",
+        "text": "Once you've found every card, line them up in order — uno, dos, tres, all the way to diez. Did you find every número Sol hid?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You searched high and low and counted every card you found, all the way to diez! Tomorrow, we'll pass the counting around the circle."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-4-3",
+    "lessonId": "lesson-spanish-k-4-3",
+    "objectives": [
+      "Recall and say the Spanish numbers seis through diez when found on a hidden card",
+      "Count a set of ten found cards aloud in order from uno to diez"
+    ],
+    "materialsNeeded": ["Ten index cards or paper slips, numbered/dotted 1 through 10", "A few hiding spots around the room", "Sol the puppet"],
+    "facilitationScript": "1. Before the lesson, hide ten number cards (1 through 10) around the room — under a chair, behind a pillow, on a shelf.\n2. Tell your child Sol hid ten cards and it's time to go searching, one número at a time.\n3. As your child finds each card, help them count the dots or read the numeral and say the number out loud in Spanish.\n4. Once all ten cards are found, line them up in order and count them together from uno to diez.\n5. Mix the cards up and hide them again for a second round if your child wants to play again.\n6. Close by asking: 'Which number was trickiest to remember today?'",
+    "differentiationTips": [
+      "Struggling: hide only six or seven cards at first, then add the rest once those feel confident",
+      "Ready for more: have your child hide the cards for you (or Sol) to find and name",
+      "Getting the exact Spanish word right matters less than confidently attempting it — celebrate a close guess as a win"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken search-and-count activity — success looks like your child finding cards and attempting to say each number aloud, then lining them up from uno to diez at the end, not a written answer.",
+    "standardsRationale": "Extends week 4's WA-WL-2015.1.3 target by having the child produce each number aloud the moment it's found — real, spontaneous speaking rather than a rehearsed echo — and the final lineup-and-count gives one more full run through uno to diez in sequence."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-4-3",
+    "lessonId": "lesson-spanish-k-4-3",
+    "title": "Busca y Cuenta: A Hide-and-Count Number Hunt",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and count objects together — there's nothing for your child to write today.",
+      "rows": [
+        { "problem": "Hide ten number cards (1 through 10) around the room before the lesson." },
+        { "problem": "Go searching together — when your child finds a card, say its number out loud in Spanish." },
+        { "problem": "Once all ten are found, line them up and count them together from uno to diez." }
+      ]
+    }
+  }
+}

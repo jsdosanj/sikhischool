@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-4",
+    "courseId": "course-spanish-k",
+    "order": 4,
+    "title": "Numbers 6-10",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-4-1",
+    "unitId": "unit-spanish-k-4",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Seis, Siete, Ocho, Nueve, Diez: A Counting Song with Big Moves",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol remembers counting all the way to cinco — but today the count keeps going, all the way to ten! Get ready for big body movements with every number."
+      },
+      {
+        "type": "text",
+        "ref": "practice-seis-siete-ocho",
+        "text": "Stomp your foot and say [[seis]] — that means 'six'! Reach both arms way up high and say [[siete]] — 'seven'! Spin around once and say [[ocho]] — 'eight'! Echo Sol slowly: seis... siete... ocho..."
+      },
+      {
+        "type": "text",
+        "ref": "practice-nueve-diez",
+        "text": "Touch your toes and say [[nueve]] — 'nine'! Now jump up with your arms in the air and shout [[diez]] — 'ten'! Sing it fast now: ¡seis, siete, ocho, nueve, diez!"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You counted all the way to diez with big movements — seis, siete, ocho, nueve, diez! Tomorrow, get ready to toss beanbags and count every throw."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-4-1",
+    "lessonId": "lesson-spanish-k-4-1",
+    "objectives": [
+      "Count aloud from seis to diez (six to ten), producing each new number word with its own body movement",
+      "Perform the extended count-to-ten song alongside a caregiver at both a slow and a fast tempo"
+    ],
+    "materialsNeeded": ["Sol the puppet (or stuffed animal/toy from previous weeks)", "Open floor space for big body movements — no other materials needed"],
+    "facilitationScript": "1. Gather with Sol and review counting uno through cinco with fingers, then tell your child today's song keeps going all the way to diez with big body moves.\n2. Stomp a foot and say seis together; reach both arms up high and say siete; spin around once and say ocho — pause after each for the echo.\n3. Touch your toes and say nueve; jump up with arms overhead and shout diez, until your child has performed all five new movements.\n4. Sing the whole extended song fast, adding a big move for every number: '¡Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez!'\n5. Repeat the slow-then-fast pattern 2-3 more times, letting your child choose their own movement for each number.\n6. Close by asking: 'Can you count all the way to diez with me, using your favorite big move?'",
+    "differentiationTips": [
+      "Struggling: keep the movements to seis, siete, and ocho for the first few rounds, adding nueve and diez once those feel automatic",
+      "Ready for more: after counting up to diez, try counting back down to seis, reversing each movement",
+      "This is a speaking-and-movement activity — your child never needs to see these numbers written down to learn them"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken counting-and-movement activity — success looks like your child attempting the new movement for each number seis through diez out loud, not a written right/wrong answer.",
+    "standardsRationale": "Opens week 4's ACTFL Presentational Speaking target (WA-WL-2015.1.3) — counting aloud to ten — by extending week 3's finger-counting song with a full-body movement for each new number, shifting the child from recognizing numbers by ear toward confidently producing them aloud for an audience, exactly the oral/aural-first approach this K-2 band calls for."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-4-1",
+    "lessonId": "lesson-spanish-k-4-1",
+    "title": "Seis, Siete, Ocho, Nueve, Diez: A Counting Song with Big Moves",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together — there's nothing for your child to write today.",
+      "rows": [
+        { "problem": "Review counting uno through cinco with fingers, then tell your child the song keeps going to diez today." },
+        { "problem": "Stomp and say 'seis', reach up and say 'siete', spin and say 'ocho', touch toes and say 'nueve', jump and say '¡diez!'" },
+        { "problem": "Sing the whole extended song fast, adding a big move for every number from uno to diez." }
+      ]
+    }
+  }
+}

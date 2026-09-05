@@ -1,0 +1,90 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-4",
+    "courseId": "course-spanish-k",
+    "order": 4,
+    "title": "Numbers 6-10",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-4-4",
+    "unitId": "unit-spanish-k-4",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "La Cadena de Números: A Count-Up Chain Game",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol wants to play a chain game today — everyone sits in a circle, and the counting passes from person to person!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-chain",
+        "text": "The first player says uno, the next says dos, and the count keeps going around the circle — tres, cuatro, cinco — all the way past cinco to seis, siete, ocho, nueve, diez!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-restart",
+        "text": "If the count reaches diez, start the chain over again at uno! Listen carefully so you know which número comes next when it's your turn."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You passed the counting chain all the way around, remembering which number comes next every time! Tomorrow is your very own counting show for Sol."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "six", "answer": "seis" },
+            { "prompt": "seven", "answer": "siete" },
+            { "prompt": "eight", "answer": "ocho" },
+            { "prompt": "nine", "answer": "nueve" },
+            { "prompt": "ten", "answer": "diez" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-4-4",
+    "lessonId": "lesson-spanish-k-4-4",
+    "objectives": [
+      "Say the next number in sequence when it's your turn in a counting chain",
+      "Recall numbers uno through diez in order without a song or movement cue"
+    ],
+    "materialsNeeded": ["A few family members or stuffed animals to sit in a circle (or take turns solo)", "Sol the puppet"],
+    "facilitationScript": "1. Sit in a circle with your child, Sol, and any other family members or stuffed animal 'players'.\n2. Explain that the counting will pass around the circle — the first player says uno, the next says dos, and so on.\n3. Go around the circle once, helping your child know when it's their turn and what number comes next.\n4. If the count reaches diez, start the chain over again at uno and keep going for another round or two.\n5. Complete the on-screen speed-drill activity together, cheering each correct match.\n6. Close by asking: 'What number comes right after siete?'",
+    "differentiationTips": [
+      "Struggling: sit right next to your child and whisper the next number just before their turn",
+      "Ready for more: reverse the chain, counting backward from diez to uno around the circle",
+      "A pause before answering is normal — give a few seconds before offering a hint"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken turn-taking counting activity — success looks like your child producing the correct (or close) next number when it's their turn, not a written answer. In the speed-drill game, each English number word matches its Spanish counterpart: six → seis, seven → siete, eight → ocho, nine → nueve, ten → diez.",
+    "standardsRationale": "Deepens week 4's WA-WL-2015.1.3 target by requiring the child to produce a single number on demand, out of the full song sequence and under the light social pressure of a turn-taking game — a strong step toward true Presentational Speaking — and the on-screen speed drill gives the same seis-diez recognition skill a fast-paced digital rep, mirroring week 3's number-hop reinforcement."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-4-4",
+    "lessonId": "lesson-spanish-k-4-4",
+    "title": "La Cadena de Números: A Count-Up Chain Game",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together.",
+      "rows": [
+        { "problem": "Sit in a circle with your child and any other family members or stuffed animal 'players'." },
+        { "problem": "Pass the count around the circle: first player says uno, next says dos, and so on up to diez." },
+        { "problem": "If you reach diez, start the chain over at uno and play 1-2 more rounds." }
+      ]
+    }
+  }
+}

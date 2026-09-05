@@ -1,0 +1,46 @@
+{
+  "lessonId": "lesson-spanish-6-1-5",
+  "quiz": {
+    "id": "quiz-spanish-6-1-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "You want to greet your best friend. Which question fits?",
+        "options": ["¿Cómo estás?", "¿Cómo está usted?", "¿Cómo están ustedes?", "Despedirse"],
+        "answer": 0,
+        "explanation": "A friend your own age is a tú relationship, so the tú-form estás is correct."
+      },
+      {
+        "q": "You're greeting your school principal for the first time. Which question fits?",
+        "options": ["¿Cómo estás?", "¿Cómo está usted?", "¿Qué tal, amigo?", "¡Hola, tú!"],
+        "answer": 1,
+        "explanation": "An adult in a position of authority you've just met calls for the formal usted."
+      },
+      {
+        "q": "In Latin American Spanish, which word means 'you all' for any group — close friends or strangers alike?",
+        "options": ["vosotros", "ustedes", "tú", "usted"],
+        "answer": 1,
+        "explanation": "Latin American Spanish uses ustedes for every group; vosotros is used in Spain, not this course's dialect."
+      },
+      {
+        "q": "Which pair of words names the two levels of politeness Spanish speakers choose between when addressing someone?",
+        "options": ["saludar / despedirse", "formal / informal", "tú / yo", "hola / chao"],
+        "answer": 1,
+        "explanation": "Formal and informal are the two registers; tú/usted are the pronouns that express them."
+      },
+      {
+        "q": "The verb saludar means...",
+        "options": ["to say goodbye", "to greet", "to ask a question", "to introduce yourself"],
+        "answer": 1,
+        "explanation": "Saludar means 'to greet' — despedirse is its opposite, 'to say goodbye.'"
+      },
+      {
+        "q": "The verb despedirse means...",
+        "options": ["to greet", "to say goodbye", "to shake hands", "to sit down"],
+        "answer": 1,
+        "explanation": "Despedirse means 'to say goodbye,' completing the conversation that saludar starts."
+      }
+    ]
+  }
+}

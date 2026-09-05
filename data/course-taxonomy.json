@@ -99,6 +99,8 @@
     { "subject": "digital-literacy", "gradeLevel": "K-2", "title": "Digital Literacy: Getting Started Safely", "description": "Using a device safely, mouse and keyboard basics, and an introduction to digital citizenship." },
     { "subject": "digital-literacy", "gradeLevel": "3-5", "title": "Digital Literacy: Coding & Research", "description": "Block-based coding projects and evaluating sources online." },
     { "subject": "digital-literacy", "gradeLevel": "6-8", "title": "Digital Literacy: Media & Programming", "description": "Media literacy, spotting misinformation, and an introduction to text-based coding." },
-    { "subject": "digital-literacy", "gradeLevel": "9-12", "title": "Digital Literacy: AI & Media Production", "description": "AI literacy and digital ethics, plus practical media production skills." }
+    { "subject": "digital-literacy", "gradeLevel": "9-12", "title": "Digital Literacy: AI & Media Production", "description": "AI literacy and digital ethics, plus practical media production skills." },
+
+    { "subject": "spanish", "gradeLevel": "6", "title": "Grade 6 Spanish", "description": "Greetings and register (tú/usted), building toward Novice High by grade 8 (docs/plans/spanish-scope-and-sequence/6-8.json)." }
   ]
 }

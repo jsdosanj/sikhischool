@@ -1,0 +1,116 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-1",
+    "courseId": "course-spanish-6",
+    "order": 1,
+    "title": "Welcome: Greetings & Register (tú vs. usted)",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-1-2",
+    "unitId": "unit-spanish-6-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Register Sort: Who Gets tú, Who Gets usted?",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned tú and usted. Today's job is trickier: for every real person in your life, you actually have to decide — is this a tú person, or a usted person?"
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "In language, 'register' just means how casual or how polite your words are — the same idea as choosing between texting 'yo' and writing 'Dear Sir or Madam' in English. Speaking to someone as tú is called [[informal]] register. Speaking to someone as usted is called [[formal]] register. As a rule of thumb: someone close to your own age, or someone in your close family, is usually tú. An adult outside your family, a stranger, or anyone in a position of authority is usually usted. One more piece: when you're talking to more than one person at once — a group of friends, a whole class, a family — Latin American Spanish uses [[ustedes]] for 'you all,' no matter how formal or informal the people in that group are. (Spain has a separate informal-group word, vosotros, but this course teaches Latin American Spanish, so ustedes is the only 'you all' you need.)"
+      },
+      {
+        "type": "text",
+        "ref": "practice",
+        "text": "Sort each person below into tú or usted, and be ready to say why: your best friend; your Spanish teacher; the cashier at a grocery store you've never met; your baby cousin; your grandmother; a new classmate your own age; a police officer asking you directions; your soccer teammates as a group (remember: use ustedes for any group in Latin American Spanish, whether they're close friends or strangers)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just practiced telling formal situations apart from informal ones — the exact skill behind choosing tú, usted, or ustedes. Tomorrow you'll put it into action with role-play: greeting the principal one way, and a teammate a completely different way."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Your best friend just walked up at school. Which greeting fits?",
+              "options": ["¿Cómo estás?", "¿Cómo está usted?", "¿Cómo están ustedes?", "Despedirse"],
+              "answer": 0,
+              "explanation": "A friend your own age is a tú relationship, so you use the tú form estás."
+            },
+            {
+              "q": "You meet your friend's grandmother for the very first time. What do you say?",
+              "options": ["¿Cómo estás?", "¿Qué tal, amiga?", "¿Cómo está usted?", "¡Hola, tú!"],
+              "answer": 2,
+              "explanation": "An adult you've just met calls for the respectful usted form."
+            },
+            {
+              "q": "You're greeting your whole soccer team at once. In Latin American Spanish, which word for 'you all' do you use?",
+              "options": ["vosotros", "ustedes", "tú", "usted"],
+              "answer": 1,
+              "explanation": "Latin American Spanish uses ustedes for any group — formal or informal."
+            },
+            {
+              "q": "Which of these sentences is an example of informal register?",
+              "options": ["Buenas tardes, señor. ¿Cómo está usted?", "¡Hola! ¿Cómo estás?", "Mucho gusto, señora.", "¿Cómo está usted hoy?"],
+              "answer": 1,
+              "explanation": "¡Hola! ¿Cómo estás? uses the tú-form estás, which is informal."
+            },
+            {
+              "q": "Before class starts, you want to greet your teacher politely. Which is correct?",
+              "options": ["¿Cómo estás?", "¿Cómo está usted?", "¿Cómo están ustedes?", "Hola, tú"],
+              "answer": 1,
+              "explanation": "A teacher is an adult in a position of authority, so use usted."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-1-2",
+    "lessonId": "lesson-spanish-6-1-2",
+    "objectives": [
+      "Sort real and hypothetical people into tú, usted, or ustedes based on age, familiarity, and authority",
+      "Explain in one sentence why a given person is a tú, usted, or ustedes relationship"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's tú/usted distinction briefly.\n2. Introduce the words formal and informal as names for the two registers, and ustedes as the group form used for everyone in Latin American Spanish.\n3. Work through the practice list together, having the child explain their reasoning out loud for each person.\n4. Complete the multiple-choice activity together or independently.\n5. Complete the worksheet.\n6. Preview tomorrow's role-play stations.",
+    "differentiationTips": [
+      "Struggling: sort just three clear-cut examples first (best friend, stranger adult, baby sibling) before tackling the ambiguous ones like 'a new classmate your own age'",
+      "Ready for more: ask them to think of a real adult they know who they'd actually call tú despite being older — a young aunt, a family friend — and explain why familiarity can override age",
+      "If the child gets ustedes and usted confused by spelling, point out that ustedes is just usted with -es added, the same way amigo becomes amigos"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Best friend: tú (same age, close). Spanish teacher: usted (authority figure). Store cashier: usted (stranger). Baby cousin: tú (family, younger). Grandmother: tú, once you know her well (family) — note some families use usted with grandparents as a sign of extra respect, and either answer is defensible with reasoning. New classmate your age: tú (peer). Police officer: usted (authority, stranger). Soccer teammates as a group: ustedes.",
+    "standardsRationale": "Builds directly on Day 1's tú/usted introduction toward WA-WL-2015.1.1's Interpersonal Communication target — this is the first time the student applies the rule to genuinely ambiguous real-life cases rather than clear-cut examples, which the scope-and-sequence names as this week's specific skill (register sort)."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-1-2",
+    "lessonId": "lesson-spanish-6-1-2",
+    "title": "Register Sort: Who Gets tú, Who Gets usted?",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "For each person, write whether you'd greet them with tú or usted, and explain why in one sentence.",
+      "prompts": [
+        { "prompt": "Your neighbor who is your age", "lines": 2 },
+        { "prompt": "Your doctor", "lines": 2 },
+        { "prompt": "Your little brother or sister", "lines": 2 },
+        { "prompt": "A new teacher you just met today", "lines": 2 }
+      ]
+    }
+  }
+}

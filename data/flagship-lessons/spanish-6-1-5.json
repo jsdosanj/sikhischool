@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-1",
+    "courseId": "course-spanish-6",
+    "order": 1,
+    "title": "Welcome: Greetings & Register (tú vs. usted)",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-1-5",
+    "unitId": "unit-spanish-6-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Skit Day: Performing Formal and Informal Greetings",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "All week you've been building toward this: today you perform a complete greeting-and-goodbye conversation, once informally and once formally, as a two-person skit."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[despedirse]] means 'to say goodbye' — just as important as saludar for a complete conversation, since every greeting eventually needs a matching exit. Goodbyes change with the register exactly the way hellos do: an informal goodbye is short and casual (Chao, ¡Nos vemos!), while a formal goodbye is a little more polished (Hasta luego, Que tenga un buen día). Before you perform, think back through the whole week: tú for people you're close to, usted for people you're showing respect to, ustedes for any group, and now saludar and despedirse as the two halves — hello and goodbye — that frame every conversation you'll have in Spanish this year."
+      },
+      {
+        "type": "text",
+        "ref": "script",
+        "text": "Perform both skits out loud with a family member playing the second role — or play both parts yourself, changing your voice for each character.\n\nSKIT 1 — INFORMAL (dos amigos):\nMARTA: ¡Hola, Diego! ¿Cómo estás?\nDIEGO: Muy bien, gracias. ¿Y tú?\nMARTA: Bien también. Oye, ¡nos vemos mañana!\nDIEGO: ¡Sí, hasta mañana! Chao.\n\nSKIT 2 — FORMAL (un estudiante y la directora):\nESTUDIANTE: Buenos días, señora Vargas. ¿Cómo está usted?\nSRA. VARGAS: Muy bien, gracias. ¿Y usted?\nESTUDIANTE: Bien, gracias.\nSRA. VARGAS: Que tenga un buen día.\nESTUDIANTE: Igualmente. Hasta luego.\n\nNotice how the goodbye lines change with the register too, exactly like the greetings did: Chao is casual and quick; Hasta luego and Que tenga un buen día sound more polished and complete."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've now greeted someone, asked how they're doing, and said goodbye — twice, in two different registers, entirely in Spanish. That's a real conversation. Next week, you'll use these same greeting skills to start talking about identity and where people are from."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-1-5",
+    "lessonId": "lesson-spanish-6-1-5",
+    "objectives": [
+      "Perform a complete greeting-to-goodbye exchange from a script in both the informal and formal registers",
+      "Identify how goodbye phrases (Chao vs. Hasta luego / Que tenga un buen día) shift with register, the same way greetings do"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A family member to play the second role in each skit"],
+    "facilitationScript": "1. Review the week: tú/usted/ustedes and saludar, introduce despedirse as saludar's counterpart.\n2. Read Skit 1 (informal) together, then perform it with roles assigned.\n3. Read Skit 2 (formal) together, then perform it with roles assigned.\n4. Swap roles and perform both skits again.\n5. Complete the worksheet.\n6. Preview next week's topic: identity and nationality.",
+    "differentiationTips": [
+      "Struggling: perform each skit reading straight off the page first; only attempt it from memory on a second pass once the lines feel familiar",
+      "Ready for more: have them write and perform a third short goodbye-only exchange (no greeting, just parting) in either register, using despedirse's vocabulary as inspiration",
+      "Recording the performance (phone video) gives a low-stakes way to review pronunciation together afterward, without the pressure of a live audience"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Diego asks Marta ¿Cómo estás?, using the informal tú-form. 2. Usted (in ¿Cómo está usted?) tells you Sra. Vargas is being addressed formally. 3. Any short, casual goodbye is acceptable — e.g. Chao, or ¡Nos vemos! 4. Any polished, formal goodbye is acceptable — e.g. Hasta luego, or Que tenga un buen día.",
+    "standardsRationale": "Closes the week's WA-WL-2015.1.1 Interpersonal Communication arc with Presentational-style output — a full memorized exchange performed start to finish — which is exactly the 'memorized frames' starting point the Spanish 6-8 band notes call for before the course moves toward original sentence construction in later weeks."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-1-5",
+    "lessonId": "lesson-spanish-6-1-5",
+    "title": "Skit Day: Performing Formal and Informal Greetings",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using Skit 1 and Skit 2 from today's lesson.",
+      "rows": [
+        { "problem": "In Skit 1 (informal), which word does Diego use to ask Marta how she's doing?" },
+        { "problem": "In Skit 2 (formal), which word tells you Sra. Vargas is being addressed formally?" },
+        { "problem": "Write your own one-line informal goodbye, like the ones in Skit 1." },
+        { "problem": "Write your own one-line formal goodbye to a teacher, like the ones in Skit 2." }
+      ]
+    }
+  }
+}

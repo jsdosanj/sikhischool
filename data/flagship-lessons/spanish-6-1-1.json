@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-1",
+    "courseId": "course-spanish-6",
+    "order": 1,
+    "title": "Welcome: Greetings & Register (tú vs. usted)",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-1-1",
+    "unitId": "unit-spanish-6-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Greeting Rounds: tú vs. usted",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "In English, you probably say 'hey' to a friend but 'good morning, how are you?' to your principal — same idea, different tone, but the words for 'you' don't actually change. Spanish builds that difference right into its grammar: there are two separate words for 'you,' and choosing the right one is one of the very first things a Spanish speaker will notice about how you talk."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[tú]] is the word for 'you' that you use with someone your own age, a friend, a family member, or anyone you're close to. [[usted]] is the word for 'you' that you use with an adult you don't know well, someone in a position of authority (a teacher, a doctor, a principal), or anyone you want to show extra respect to. This isn't just etiquette for its own sake — using usted with an adult you've just met signals respect the same way a firm handshake and eye contact do in English, and using tú with your best friend's grandmother the first time you meet her would sound stiff and oddly distant. Mixing them up the other way — usted with your best friend — sounds cold, like you're keeping your distance on purpose. The verb [[saludar]] means 'to greet,' and it's exactly what you're about to practice: greeting someone the right way for who they are to you."
+      },
+      {
+        "type": "text",
+        "ref": "practice",
+        "text": "Practice these two short exchanges out loud, twice each, switching who plays which part the second time. Say them like you mean it — a flat, mumbled 'hola' doesn't count as saludar.\n\nINFORMAL (a friend your age):\n— ¡Hola! ¿Cómo estás?\n— Bien, gracias. ¿Y tú?\n— Muy bien.\n\nFORMAL (an adult you're meeting or showing respect to):\n— Buenos días. ¿Cómo está usted?\n— Muy bien, gracias. ¿Y usted?\n— Bien, gracias.\n\nNotice the pattern: the informal line asks estás and tú; the formal line asks está and usted. Same question, two different 'you' words."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Today you learned that Spanish has two different words for 'you': tú for people you're close to, usted for people you're showing respect to. Tomorrow you'll practice sorting real people in your own life into one category or the other — and meet the word Spanish uses for 'you all.'"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-1-1",
+    "lessonId": "lesson-spanish-6-1-1",
+    "objectives": [
+      "State the general rule for choosing tú (informal) vs. usted (formal) when addressing someone",
+      "Perform a short greeting-and-response exchange aloud correctly in both registers"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A partner (parent, sibling, or even a stuffed animal) to practice the dialogues with"],
+    "facilitationScript": "1. Ask the child how they'd greet a friend vs. a teacher in English, and whether the WORDS change (they don't — only tone does).\n2. Introduce tú and usted as the two Spanish words for 'you,' and explain the rule: tú for people you're close to, usted for adults you don't know well or people in authority.\n3. Read the informal dialogue aloud together, then the formal one, pointing out estás/tú vs. está/usted.\n4. Have the child perform both dialogues out loud with you or another family member, switching roles the second time through.\n5. Complete the worksheet.\n6. Preview tomorrow: sorting real people from their own life into tú or usted.",
+    "differentiationTips": [
+      "Struggling: focus only on the verb ending first — estás (tú) vs. está (usted) — before worrying about tú/usted as separate words; the sound difference is the easiest hook",
+      "Ready for more: ask them to name three real people in their life and guess, before being told, whether each is a tú or usted person and why",
+      "If the child has any real exposure to Spanish speakers (relatives, neighbors, media), ask them to recall who they've heard say tú vs. usted — real examples stick better than invented ones"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. A friend your own age is a tú relationship because you're close in age and familiarity. 2. A school principal you don't know well is a usted relationship because they're an adult in a position of authority. 3. ¿Cómo estás? 4. ¿Cómo está usted?",
+    "standardsRationale": "Opens the course's very first ACTFL Interpersonal Communication target (WA-WL-2015.1.1) with the register distinction that shapes every future Spanish conversation the student will have — per the scope-and-sequence's week 1 design and the band's Novice Low starting point (memorized frames before original sentences)."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-1-1",
+    "lessonId": "lesson-spanish-6-1-1",
+    "title": "Greeting Rounds: tú vs. usted",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about tú and usted.",
+      "rows": [
+        { "problem": "Would you use tú or usted with your best friend? Why?" },
+        { "problem": "Would you use tú or usted with your school principal, whom you've never spoken to? Why?" },
+        { "problem": "Fill in the blank with the informal word: ¡Hola! ¿Cómo ___ tú?" },
+        { "problem": "Fill in the blank with the formal word: Buenos días. ¿Cómo está ___?" }
+      ]
+    }
+  }
+}

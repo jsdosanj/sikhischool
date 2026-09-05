@@ -1,0 +1,110 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-1",
+    "courseId": "course-spanish-6",
+    "order": 1,
+    "title": "Welcome: Greetings & Register (tú vs. usted)",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-1-4",
+    "unitId": "unit-spanish-6-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Reading for Register: Formal or Informal?",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Even without hearing someone's voice, you can often tell whether a conversation is formal or informal just from the words on the page — the greeting they choose, the 'you' word they use, even how they say goodbye all give it away. Today you're a Spanish detective: read each conversation below and figure out which register it is."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Here's what to look for in written Spanish: the 'you' word itself (tú vs. usted), the matching verb ending (estás vs. está), the greeting style (¡Hola! and ¿Qué tal? tend to be informal; Buenos días and Buenas tardes work in both, but pair with usted when they're formal), and the closing (a plain Bien or Chao is casual; Gracias por preguntar or a title like señor/señora signals formality). None of these clues works completely alone — it's the combination that tells you the register."
+      },
+      {
+        "type": "text",
+        "ref": "transcripts",
+        "text": "Read each conversation and decide: is it formal or informal, and which word proves it?\n\nTRANSCRIPT A (two classmates at recess):\n— ¡Hola, Sofía! ¿Qué tal?\n— Bien, ¿y tú? ¿Cómo va todo?\n— Todo bien, gracias.\n\nTRANSCRIPT B (a student and a neighbor, meeting on the street):\n— Buenas tardes, señor Ramírez. ¿Cómo está usted?\n— Muy bien, gracias. ¿Y usted, cómo está?\n— Bien, gracias por preguntar.\n\nTRANSCRIPT C (a customer and a store clerk who don't know each other):\n— Buenos días. ¿En qué puedo ayudarle?\n— Buenos días. Busco una camisa, por favor.\n— ¿Qué talla necesita usted?\n\nTRANSCRIPT D (two friends planning to play):\n— Oye, ¿vamos a jugar fútbol después de clase?\n— ¡Claro! ¿A qué hora?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just identified formal and informal Spanish from text alone — the same skill you'll use for real conversations, letters, and messages all year. Tomorrow you'll write and perform your own formal and informal exchanges as short skits."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "Buenas tardes, señor Ramírez. ¿Cómo ___ usted?",
+              "blankToken": "___",
+              "options": ["estás", "está", "estáis", "soy"],
+              "answer": "está"
+            },
+            {
+              "sentence": "¡Hola, Sofía! ¿Cómo ___ tú?",
+              "blankToken": "___",
+              "options": ["está", "estás", "están", "es"],
+              "answer": "estás"
+            },
+            {
+              "sentence": "¿Qué talla necesita ___?",
+              "blankToken": "___",
+              "options": ["tú", "usted", "yo", "él"],
+              "answer": "usted"
+            },
+            {
+              "sentence": "Todo bien, gracias. ¿Y ___?",
+              "blankToken": "___",
+              "options": ["usted", "tú", "ustedes", "yo"],
+              "answer": "tú"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-1-4",
+    "lessonId": "lesson-spanish-6-1-4",
+    "objectives": [
+      "Identify a written Spanish exchange as formal or informal from textual clues (pronoun, verb ending, greeting/closing style)",
+      "Select the correct tú- or usted-form verb ending to complete a sentence based on its register context"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask the child what clues (in English) tell them a text message from a friend apart from a formal email — this transfers directly to Spanish.\n2. Read the 'what to look for' list together.\n3. Read all four transcripts aloud together, pausing after each to identify formal or informal and name the proof word.\n4. Complete the cloze activity, choosing the verb form that matches each sentence's register.\n5. Complete the worksheet.\n6. Preview tomorrow's skit performance.",
+    "differentiationTips": [
+      "Struggling: cover everything except the 'you' word (tú/usted) in each transcript first — that alone answers formal-or-informal for three of the four texts",
+      "Ready for more: ask why Transcript C uses usted between a customer and a clerk who are probably close in age — because they're strangers, and usted is the default with strangers regardless of age",
+      "This lesson uses reading instead of listening because the course doesn't have audio content yet — treat the transcripts exactly as if a recording had been played, since the register clues live in the words either way"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Transcript A: informal — proof word: estás (or ¿y tú?). Transcript B: formal — proof word: usted (or está). Transcript C: formal — proof word: usted (strangers use usted regardless of age). Transcript D: informal — proof word: vamos/oye (casual tone, no usted anywhere).",
+    "standardsRationale": "Covers this week's Day 4 target (formal-vs-informal identification) through Interpretive Reading rather than Interpretive Listening, since no audio-generation infrastructure exists yet in the platform (open decision, expansion-plan-2026-09.md §12.9) — the same WA-WL-2015.1.1 register-recognition skill, delivered through the modality the platform can actually support today."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-1-4",
+    "lessonId": "lesson-spanish-6-1-4",
+    "title": "Reading for Register: Formal or Informal?",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using the four transcripts from today's lesson.",
+      "rows": [
+        { "problem": "Is Transcript A formal or informal? Give one word from the text that proves it." },
+        { "problem": "Is Transcript B formal or informal? Give one word from the text that proves it." },
+        { "problem": "Why would a customer use usted with a store clerk they've never met, even if the clerk is close to their own age?" },
+        { "problem": "Rewrite this line in the FORMAL register: '¡Hola! ¿Cómo estás?'" }
+      ]
+    }
+  }
+}

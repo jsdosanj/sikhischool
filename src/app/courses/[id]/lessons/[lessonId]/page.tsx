@@ -36,6 +36,7 @@ const DICTIONARY_LANGUAGE_BY_SUBJECT: Partial<Record<string, string>> = {
   ela: "english",
   punjabi: "punjabi",
   sikhi: "punjabi",
+  spanish: "spanish",
 };
 
 export default async function LessonDetailPage({

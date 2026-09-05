@@ -160,7 +160,7 @@ export default async function LessonDetailPage({
             <div className="mt-4 flex flex-col gap-4 text-sm">
               <div>
                 <p className="font-semibold">Objectives</p>
-                <ul className="mt-1 list-disc pl-5">
+                <ul className="mt-1 list-disc ps-5">
                   {(guide.objectives as string[]).map((o) => (
                     <li key={o}>{o}</li>
                   ))}
@@ -168,7 +168,7 @@ export default async function LessonDetailPage({
               </div>
               <div>
                 <p className="font-semibold">Materials needed</p>
-                <ul className="mt-1 list-disc pl-5">
+                <ul className="mt-1 list-disc ps-5">
                   {(guide.materialsNeeded as string[]).map((m) => (
                     <li key={m}>{m}</li>
                   ))}
@@ -180,7 +180,7 @@ export default async function LessonDetailPage({
               </div>
               <div>
                 <p className="font-semibold">Differentiation</p>
-                <ul className="mt-1 list-disc pl-5">
+                <ul className="mt-1 list-disc ps-5">
                   {(guide.differentiationTips as string[]).map((t) => (
                     <li key={t}>{t}</li>
                   ))}

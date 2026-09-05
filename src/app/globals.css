@@ -1,13 +1,35 @@
 @import "tailwindcss";
 
-/* Brand-family anchor — shared across sikhiuni, sikhi.io, and every shell
-   below. Saffron (Nishan Sahib) and navy are the constant thread; each shell
-   varies warmth/saturation around them rather than replacing them. */
+/* Brand-family anchor — shared across sikhiuni, sikhi.io, and the site chrome
+   outside the three lesson shells below (dashboard, login, Santhya Path,
+   teacher dashboard). Saffron (Nishan Sahib) and navy remain that chrome's
+   identity, untouched here — see DESIGN.md for why: this product's lesson
+   shells now run their own dedicated design system (families/classrooms
+   audience, not sikhiuni's adult self-directed learners), so the shells below
+   read their own tokens instead of deriving from saffron/navy. Applying
+   DESIGN.md to the chrome these 16-ish files own is a separate, deliberately
+   deferred follow-on (see TODOS.md), not silently bundled into this pass. */
 :root {
   --background: #ffffff;
   --foreground: #171717;
   --color-saffron: #f4b21a;
   --color-navy: #16335c;
+
+  /* DESIGN.md's accent (amber-600, #C7691A) is dark/saturated enough that
+     white text sits correctly on it as a button/chip background — shared
+     across all three shells since DESIGN.md treats color as one of the
+     tokens common to all three. sikhi-school-studio overrides this locally
+     (see below) because its accent is the *lighter* dark-mode amber value,
+     which needs dark text instead. */
+  --shell-on-accent: #ffffff;
+
+  /* Semantic feedback colors (DESIGN.md "Color → Semantic"), light values.
+     Used by the games engine for correct/incorrect feedback instead of
+     overloading --shell-accent-2/--shell-sunrise-3 for that purpose. */
+  --color-success: #5b7a5b; /* sage */
+  --color-warning: #b8860b; /* gold */
+  --color-error: #b34a3a; /* brick */
+  --color-info: #5b7a9a; /* dusk */
 }
 
 @theme inline {
@@ -32,58 +54,78 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ── Age-banded shells (plan §5) ──────────────────────────────────────────
+/* ── Age-banded shells (DESIGN.md "Three shells, one system") ─────────────
    Applied via a [data-shell] attribute on a page's outermost wrapper (see
    src/components/shells/Shell.tsx). Each shell sets --shell-bg/-ink/-accent/
    -accent-2/-display-font/-body-font/-radius; components read these instead
    of hardcoding colors, so a page written once looks right in whichever
-   shell wraps it. */
+   shell wraps it.
+
+   Values below are DESIGN.md's real tokens (superseding the original Wave 1b
+   saffron/navy palette this system shipped with) — see DESIGN.md for the
+   full rationale, hex values, and Decisions Log. Two amendments made while
+   applying it, both logged in DESIGN.md's Decisions Log rather than left
+   silent:
+
+   1. little-sparks keeps its original Baloo 2 / Atkinson Hyperlegible type
+      (not DESIGN.md's Fraunces/Source Sans 3) — DESIGN.md's "differentiate
+      from cartoon-mascot competitors" rationale is explicitly about the
+      3-12 bands; Atkinson Hyperlegible in particular was a deliberate
+      legibility choice for pre-/early readers (built by the Braille
+      Institute for exactly this), not incidental branding to override.
+   2. There's no dark-mode *toggle* in this app yet, so rather than build one,
+      sikhi-school-studio — already the one shell with a fixed dark identity —
+      adopts DESIGN.md's actual dark-theme token values directly (not an
+      approximation). little-sparks/rising-school get the light-theme values.
+      A real prefers-color-scheme-aware toggle across all three shells stays
+      a follow-on (TODOS.md), not bundled in here. */
 
 [data-shell="little-sparks"] {
   /* K-2: warm, rounded, high-contrast for early readers. Sunrise gradient
      ties to Chardi Kala — "rising spirits" — without depicting anyone. */
-  --shell-bg: #fff8ec;
+  --shell-bg: #fbf8f4; /* DESIGN.md cream-50 (light) */
   --shell-surface: #ffffff;
-  --shell-ink: #3a2e1f;
-  --shell-ink-soft: #6b5c46;
-  --shell-accent: var(--color-saffron);
-  --shell-accent-2: #4fb8a8; /* friendly teal, secondary actions */
+  --shell-ink: #211d1a; /* DESIGN.md ink (light) */
+  --shell-ink-soft: #766c62; /* DESIGN.md ink-500 (light) */
+  --shell-accent: #c7691a; /* DESIGN.md amber-600 (light) */
+  --shell-accent-2: #4fb8a8; /* friendly teal, secondary actions — kept; DESIGN.md doesn't define a second accent */
   --shell-sunrise-1: #ffd24c;
   --shell-sunrise-2: #ff8a3d;
   --shell-sunrise-3: #ff5c7a;
-  --shell-display-font: var(--font-little-sparks-display);
-  --shell-body-font: var(--font-little-sparks-body);
-  --shell-radius: 1.5rem;
+  --shell-display-font: var(--font-little-sparks-display); /* Baloo 2 — kept, see note above */
+  --shell-body-font: var(--font-little-sparks-body); /* Atkinson Hyperlegible — kept, see note above */
+  --shell-radius: 1.75rem; /* DESIGN.md's little-sparks-only 28px radius */
   --shell-touch: 4rem; /* 64px minimum touch target */
 }
 
 [data-shell="rising-school"] {
-  /* 3-8: a confident, colorful dashboard — Khan-Academy-style course map,
-     the literal seed->sprout->bloom->sunrise growth arc for badges. */
-  --shell-bg: #fbfaf7;
+  /* 3-8: content-first, editorial — DESIGN.md's "Quiet Confidence" register,
+     restrained color, real UI (no mascots). */
+  --shell-bg: #fbf8f4; /* DESIGN.md cream-50 (light) */
   --shell-surface: #ffffff;
-  --shell-ink: #23201a;
-  --shell-ink-soft: #5c5548;
-  --shell-accent: var(--color-saffron);
+  --shell-ink: #211d1a; /* DESIGN.md ink (light) */
+  --shell-ink-soft: #766c62; /* DESIGN.md ink-500 (light) */
+  --shell-accent: #c7691a; /* DESIGN.md amber-600 (light) */
   --shell-accent-2: #2e8b7d; /* deeper, more grounded teal than Little Sparks */
-  --shell-display-font: var(--font-rising-school-display);
-  --shell-body-font: var(--font-body-sans);
-  --shell-radius: 0.75rem;
+  --shell-display-font: var(--font-display-serif); /* Fraunces */
+  --shell-body-font: var(--font-body-sans); /* Source Sans 3 */
+  --shell-radius: 0.75rem; /* DESIGN.md md=12px */
   --shell-touch: 2.75rem; /* 44px */
 }
 
 [data-shell="sikhi-school-studio"] {
-  /* 9-12: dark navy-forward, echoing sikhiuni's own "sanctum" mood —
-     foreshadows the transition into Sikhi University, not a generic
-     dark-mode default. Serif display carries the collegiate register. */
-  --shell-bg: #0f1f35;
-  --shell-surface: #16294a;
-  --shell-ink: #f0ede4;
-  --shell-ink-soft: #b9c3d6;
-  --shell-accent: var(--color-saffron);
+  /* 9-12: minimal-intentional, "most adult-SaaS-adjacent of the three" per
+     DESIGN.md — this shell's pre-existing fixed-dark identity is now
+     DESIGN.md's actual dark theme (see note above), not an approximation. */
+  --shell-bg: #1a1614; /* DESIGN.md cream-50 (dark) */
+  --shell-surface: #241f1c; /* DESIGN.md card/surface (dark) */
+  --shell-ink: #f3ede6; /* DESIGN.md ink (dark) */
+  --shell-ink-soft: #a69a8d; /* DESIGN.md ink-500 (dark) */
+  --shell-accent: #e0923d; /* DESIGN.md amber-600 (dark) — lighter, for contrast on a dark surface */
+  --shell-on-accent: #211d1a; /* dark ink text — this shell's accent is light, unlike the other two */
   --shell-accent-2: #6f8fb8;
-  --shell-display-font: var(--font-studio-display);
-  --shell-body-font: var(--font-body-sans);
+  --shell-display-font: var(--font-display-serif); /* Fraunces */
+  --shell-body-font: var(--font-body-sans); /* Source Sans 3 */
   --shell-radius: 0.5rem;
   --shell-touch: 2.75rem;
 }

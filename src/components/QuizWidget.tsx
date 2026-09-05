@@ -121,7 +121,7 @@ export default function QuizWidget({
           router.refresh();
         }}
         className="self-start rounded px-4 py-1.5 text-sm font-semibold disabled:opacity-60"
-        style={{ background: "var(--shell-accent, #f4b21a)", color: "#2a1c06" }}
+        style={{ background: "var(--shell-accent, #f4b21a)", color: "var(--shell-on-accent, #2a1c06)" }}
       >
         {pending ? "Grading…" : "Submit quiz"}
       </button>

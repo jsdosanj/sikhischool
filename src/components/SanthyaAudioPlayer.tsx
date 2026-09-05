@@ -59,7 +59,7 @@ export default function SanthyaAudioPlayer({ tracks }: { tracks: Track[] }) {
                 <button
                   type="button"
                   onClick={() => setSelected(index)}
-                  className={`block w-full rounded px-2 py-1.5 text-left text-sm transition ${
+                  className={`block w-full rounded px-2 py-1.5 text-start text-sm transition ${
                     index === selected
                       ? "bg-[var(--color-saffron)]/15 font-medium"
                       : "hover:bg-[var(--foreground)]/5"

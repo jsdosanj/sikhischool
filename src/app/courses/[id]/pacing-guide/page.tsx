@@ -60,7 +60,7 @@ export default async function PacingGuidePage({ params }: { params: Promise<{ id
                 <span className="font-medium">Week {entry.week}</span>
                 <Link
                   href={`/courses/${course.id}`}
-                  className="text-right hover:underline"
+                  className="text-end hover:underline"
                   style={{ color: "var(--shell-accent)" }}
                 >
                   {entry.summary}

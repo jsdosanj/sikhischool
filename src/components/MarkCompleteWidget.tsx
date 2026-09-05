@@ -68,7 +68,7 @@ export default function MarkCompleteWidget({
             router.refresh();
           }}
           className="rounded px-4 py-1.5 text-sm font-semibold disabled:opacity-60"
-          style={{ background: "var(--shell-accent, #f4b21a)", color: "#2a1c06" }}
+          style={{ background: "var(--shell-accent, #f4b21a)", color: "var(--shell-on-accent, #2a1c06)" }}
         >
           {alreadyDone ? "Done ✓" : pending ? "Saving…" : "Mark complete"}
         </button>

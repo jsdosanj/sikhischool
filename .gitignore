@@ -53,3 +53,4 @@ __pycache__/
 # committed; a stray agent worktree here (with its own worker-configuration.d.ts)
 # was polluting `npm run lint` results (2026-09-04, false-positive 586 errors).
 .claude/
+.gstack/

@@ -79,7 +79,7 @@ export default function MatchingPairsStep({ config, onFinish }: GameStepProps) {
                     selectedLeft === i
                       ? "color-mix(in srgb, var(--shell-accent, #f4b21a) 30%, transparent)"
                       : isMatched
-                        ? "color-mix(in srgb, var(--shell-accent-2, #4fb8a8) 20%, transparent)"
+                        ? "color-mix(in srgb, var(--color-success) 20%, transparent)"
                         : "transparent",
                 }}
               >
@@ -102,7 +102,7 @@ export default function MatchingPairsStep({ config, onFinish }: GameStepProps) {
                 style={{
                   ...tileStyle,
                   background: isMatched
-                    ? "color-mix(in srgb, var(--shell-accent-2, #4fb8a8) 20%, transparent)"
+                    ? "color-mix(in srgb, var(--color-success) 20%, transparent)"
                     : "transparent",
                 }}
               >

@@ -24,9 +24,21 @@ Tracked here per gstack CEO-review convention: nothing deferred is silently forg
   closing the "first real test of deployability is production" gap the eng review
   outside-voice pass flagged. Real workstream, not a one-line fix.
 
-- **Existing six-subjects lesson-surface redesign** — Workstream A's premium design system
-  (docs/plans/expansion-plan-2026-09.md §2 A1) is scoped to Phase 0/1's new surfaces (Spanish
-  slice, games, dictionary) only. Applying that same design system to the six existing
-  subjects' already-shipped lesson/worksheet/teacher-guide pages is a mechanical follow-on
-  once A1 ships — not a Phase 1 blocker, but real work worth its own approved pass so the
-  whole product reads as one coherent premium system, not two eras of design bolted together.
+- **Site chrome outside the lesson shells still runs the old saffron/navy brand tokens**
+  (2026-09-05, A2-A5 implementation). DESIGN.md's real values now live in the `[data-shell]`
+  system (`src/app/globals.css`), which covers `/courses/*` (course/lesson/pacing-guide pages)
+  and the games engine — since the existing six subjects render through this same shared
+  shell system, they picked up the new look "for free," which is a good outcome, not scope
+  creep past what A2 intended (the shells were always meant to be one shared system). What's
+  genuinely still on the old identity: `/dashboard`, `/login`, `/santhya-path/*`, and
+  `/teacher/dashboard` — 16 files reading `--color-saffron`/`--color-navy` directly rather
+  than the shell tokens. Bringing those onto DESIGN.md is real, separate work (these pages
+  don't go through `Shell.tsx` at all today) worth its own approved pass, not a mechanical
+  find-replace.
+
+- **Dark-mode toggle across all three shells** (2026-09-05, A2-A5 implementation). No
+  `prefers-color-scheme`-aware toggle exists yet. `sikhi-school-studio` adopted DESIGN.md's
+  actual dark-theme token values as its fixed identity (it already had a fixed dark look
+  pre-DESIGN.md); `little-sparks`/`rising-school` ship the light tokens as theirs. A real
+  toggle that lets any of the three shells flip light/dark on the visitor's preference is a
+  genuine follow-on — see DESIGN.md's Decisions Log (2026-09-05 entries) for the reasoning.

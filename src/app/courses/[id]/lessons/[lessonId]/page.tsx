@@ -26,6 +26,18 @@ function gradeBandForLevel(gradeLevel: string): string {
   return GRADE_BAND_ORDER[3];
 }
 
+// The dictionary's `language` column holds a language slug, not a subject slug,
+// so `[[word]]` lookups in an ELA passage are English-dictionary lookups. Sikhi
+// maps to punjabi for the same reason this page already gives it the Gurmukhi
+// font: its vocabulary is Gurmukhi. A subject that isn't listed has no
+// dictionary to query yet, so its blocks render the markup as plain text
+// (LessonContentBlock's graceful-degradation path) instead of guessing wrong.
+const DICTIONARY_LANGUAGE_BY_SUBJECT: Record<string, string> = {
+  ela: "english",
+  punjabi: "punjabi",
+  sikhi: "punjabi",
+};
+
 export default async function LessonDetailPage({
   params,
 }: {
@@ -91,7 +103,7 @@ export default async function LessonDetailPage({
           style={hasGurmukhi ? { fontFamily: "var(--font-gurmukhi), var(--shell-body-font)" } : undefined}
         >
           {contentBlocks.map((block, i) => (
-            <LessonContentBlock key={i} block={block} />
+            <LessonContentBlock key={i} block={block} language={DICTIONARY_LANGUAGE_BY_SUBJECT[lesson.subject]} />
           ))}
         </section>
 

@@ -99,6 +99,37 @@ valid partial submission.
 }
 ```
 
+## Marking a word for dictionary lookup — `[[word]]`
+
+Inside any **text** content block, wrap a word in double square brackets to make it
+tappable. The reader sees a dotted underline; clicking or tapping it opens the word's
+dictionary entry — a small popover under the word on desktop, a bottom sheet on phones.
+Reading never leaves the page.
+
+```json
+{
+  "type": "text",
+  "ref": "explanation",
+  "text": "A [[glacier]] is a river of ice that moves very slowly downhill."
+}
+```
+
+Rules worth knowing before you author against it:
+
+- **The word must exist in the `dictionary` table for that lesson's language**, matched
+  exactly (case doesn't matter, but spelling and any diacritics do). If it isn't there
+  yet, the word still underlines and still opens — it just says *"No definition yet."*
+  That's a deliberate non-error: passages get authored before dictionary rows land.
+- **Language comes from the lesson's `subject`, not from the markup.** Today `ela` looks
+  up the `english` dictionary, and `punjabi` and `sikhi` both look up `punjabi`. In any
+  other subject the brackets are simply stripped and the word renders as ordinary text —
+  so marking a word in a science lesson is harmless, just inert until that subject gets a
+  dictionary mapping.
+- **Mark the word, not the phrase.** One entry per lookup; `[[glacier]]`, not
+  `[[a river of ice]]`. Nested or unclosed brackets aren't parsed as markup.
+- Use it where a word is genuinely likely to stop a reader at that grade level. A passage
+  with a lookup on every third word reads as noise and stops meaning anything.
+
 ## New content types (this doc grows as each workstream ships)
 
 `docs/plans/expansion-plan-2026-09.md` adds dictionary entries (§5), game

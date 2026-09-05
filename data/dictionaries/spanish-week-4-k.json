@@ -1,0 +1,68 @@
+[
+  {
+    "id": "dict-spanish-seis",
+    "language": "spanish",
+    "word": "seis",
+    "translation": "six",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Tengo seis bloques. (I have six blocks.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-siete",
+    "language": "spanish",
+    "word": "siete",
+    "translation": "seven",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Cuento siete estrellas. (I count seven stars.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-ocho",
+    "language": "spanish",
+    "word": "ocho",
+    "translation": "eight",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "La araña tiene ocho patas. (The spider has eight legs.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-nueve",
+    "language": "spanish",
+    "word": "nueve",
+    "translation": "nine",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Tengo nueve crayones. (I have nine crayons.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-diez",
+    "language": "spanish",
+    "word": "diez",
+    "translation": "ten",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Tengo diez dedos. (I have ten fingers.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-el-numero",
+    "language": "spanish",
+    "word": "el número",
+    "translation": "number",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "¿Cuál es tu número favorito? (What is your favorite number?)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-4",
+    "courseId": "course-spanish-6",
+    "order": 4,
+    "title": "Subject Pronouns & Ser: Ustedes vs. Vosotros",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-4-5",
+    "unitId": "unit-spanish-6-4",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Mini-Quiz and Reflection: Choosing the Right Pronombre for the Moment",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.4.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built the full pronoun chart, drilled the swaps, toured three dialects, and built real sentences with ser. Today you bring it all together — with a quiz, and with a question that doesn't have just one right answer: which pronombre would you actually use, with whom, and where?"
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Choosing the right pronombre is really about answering two questions at once: how many people are you talking about, and how well do you know them (or how formal is the moment)? Put together with week 1's register lesson, here's the fuller picture this course uses:\n\n- One person, someone you know well (a friend, a classmate) → tú\n- One person, someone you should address respectfully (a teacher, a store clerk, an elder) → usted\n- More than one person, any level of formality → ustedes\n- Talking about a boy or man → él; a girl or woman → ella; a group → ellos\n- Talking about yourself and others together → nosotros"
+      },
+      {
+        "type": "text",
+        "ref": "beyond-this-course",
+        "text": "And now you also know this course's chart isn't the only correct one. If you traveled to España, you'd hear vosotros used for a group of friends instead of ustedes. If you traveled to Argentina, you might hear 'vos sos' where this course says 'tú eres.' None of that makes either version wrong — it just means Spanish, like English, sounds a little different depending on where you are. This course sticks with ustedes and tú/usted because that's the pattern spoken across most of the Spanish-speaking world you mapped two weeks ago."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now carry a full, working pronoun-and-ser system — plus the awareness to recognize two real dialect variations when you meet them. Take the mini-quiz, then reflect on the worksheet: which pronombre would you use with whom, and where? Next week, you'll use ser to describe personality — trabajador, gracioso, ordenado, and more."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-4-5",
+    "lessonId": "lesson-spanish-6-4-5",
+    "objectives": [
+      "Choose the correct pronombre (tú, usted, ustedes, él, ella, nosotros, ellos) for a given person, group, or level of formality",
+      "Reflect on and explain how choice of pronombre and dialect awareness (ustedes vs. vosotros vs. vos) depends on audience and region"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "This week's mini-quiz (quiz-spanish-6-4-5)"],
+    "facilitationScript": "1. Review the week's four days briefly: pronoun chart, swap drills, dialect discovery, ser sentence-building.\n2. Walk through the who/how-many decision guide together.\n3. Revisit the vosotros/vos awareness point — recognition, not production, for this course.\n4. Administer the mini-quiz.\n5. Complete the worksheet's reflection questions.\n6. Preview next week's topic: personality and descriptions.",
+    "differentiationTips": [
+      "Struggling: walk through the decision guide with real people in the child's life (their teacher, a sibling, a friend) rather than abstract examples",
+      "Ready for more: have them write a short paragraph introducing themselves and two family members, using at least four different pronombres correctly",
+      "If the quiz reveals a specific weak spot (e.g., usted vs. ustedes, or the vosotros/vos distinction), revisit that day's lesson before moving on to week 5"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Decision guide: tú (one person, familiar), usted (one person, formal), ustedes (more than one person, any formality — this course's standard), él/ella/ellos (talking about others), nosotros (yourself + others). Vosotros and vos are recognized as correct in Spain and voseo regions respectively, but this course does not require producing them.",
+    "standardsRationale": "Closes the week's WA-WL-2015.4.1 Language Comparisons arc with the exact Day 5 design the scope-and-sequence calls for — a mini-quiz plus a reflection on pronoun choice by context — tying together register (week 1), the pronoun/ser system (days 1-2 and 4), and dialect awareness (day 3) into one integrated close."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-4-5",
+    "lessonId": "lesson-spanish-6-4-5",
+    "title": "Mini-Quiz and Reflection: Choosing the Right Pronombre for the Moment",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Reflect on this week's pronouns, ser, and dialect discovery.",
+      "rows": [
+        { "problem": "Which pronombre would you use to talk TO your Spanish teacher? Which would you use to talk to a close friend?" },
+        { "problem": "Which pronombre would you use to talk ABOUT a group of your friends?" },
+        { "problem": "If you met someone from España who said 'vosotros sois' instead of 'ustedes son,' would they be speaking correct Spanish? Explain." },
+        { "problem": "What was the most surprising thing you learned this week about how Spanish changes across different countries?" }
+      ]
+    }
+  }
+}

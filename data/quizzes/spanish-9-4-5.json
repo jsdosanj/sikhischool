@@ -1,0 +1,40 @@
+{
+  "lessonId": "lesson-spanish-9-4-5",
+  "quiz": {
+    "id": "quiz-spanish-9-4-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Mi barrio ___ muy tranquilo, en general.",
+        "options": ["es", "está", "hay"],
+        "answer": 0
+      },
+      {
+        "q": "___ un parque grande cerca de mi casa.",
+        "options": ["Es", "Está", "Hay"],
+        "answer": 2
+      },
+      {
+        "q": "El parque ___ a dos cuadras de mi casa.",
+        "options": ["es", "está", "hay"],
+        "answer": 1
+      },
+      {
+        "q": "Cartagena ___ una ciudad colombiana en la costa caribeña.",
+        "options": ["es", "está", "hay"],
+        "answer": 0
+      },
+      {
+        "q": "El museo ___ ubicado en el centro histórico.",
+        "options": ["es", "está", "hay"],
+        "answer": 1
+      },
+      {
+        "q": "___ muchos edificios modernos en Bocagrande.",
+        "options": ["Son", "Están", "Hay"],
+        "answer": 2
+      }
+    ]
+  }
+}

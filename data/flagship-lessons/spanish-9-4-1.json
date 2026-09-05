@@ -1,0 +1,128 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-4",
+    "courseId": "course-spanish-9",
+    "order": 4,
+    "title": "Describing Your World: Ser, Estar, and Haber",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-4-1",
+    "unitId": "unit-spanish-9-4",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Ser, Estar, and Hay: The Grammar of Describing a Place",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You already use ser and estar constantly — this year you've said things like 'Soy estudiante' and 'Estoy cansado' without a second thought. But describing a place — a city, a neighborhood, a room — asks you to make a genuinely tricky decision three different words can each claim: ser, estar, and a completely separate word, hay. Get this map right and you'll describe any place accurately for the rest of your life. Get it wrong and you'll sound like you're guessing, because in Spanish, unlike English, these three ideas are never interchangeable."
+      },
+      {
+        "type": "text",
+        "ref": "ser-identity",
+        "text": "Start with [[el barrio]] — neighborhood — as your test case. Ser answers the question 'what fundamentally is this place, by nature or classification?' — its identity, its origin, its permanent character, the kind of thing it is regardless of the day or the weather. Cartagena es una ciudad colombiana. (Cartagena is a Colombian city.) Mi barrio es residencial y tranquilo. (My neighborhood is residential and quiet.) That second sentence uses ser because tranquilo describes what kind of neighborhood this is, as a general truth — the sort of place someone would still call quiet on a loud day, because quiet is simply its character. Hold onto one rule for the rest of this week: ser never tells you where a physical place or object is located. That job belongs entirely to estar."
+      },
+      {
+        "type": "text",
+        "ref": "estar-location-and-state",
+        "text": "Estar does two jobs, and place description needs both. First, location of something specific — something you or your listener already knows which one it is: El parque está a dos cuadras de mi casa. (The park is two blocks from my house.) El museo está [[ubicado]] en el centro histórico. (The museum is located in the historic center.) Notice ubicado — literally 'located' — almost always pairs with estar; estar ubicado is simply a slightly more formal way of saying 'is located,' and travel writing uses it constantly. Second, estar describes a state or condition — including a place's mood or atmosphere on a given day, which might be different tomorrow: [[El ambiente]] en la plaza está muy animado esta noche. (The atmosphere in the plaza is very lively tonight.) Compare that to 'Mi barrio es tranquilo' from a moment ago — same kind of grammar, genuinely different claim: ambiente-está describes tonight specifically, while barrio-es describes what's true about the place in general."
+      },
+      {
+        "type": "text",
+        "ref": "hay-existence",
+        "text": "[[Hay]] does neither of those jobs — it does a third one entirely: announcing that something exists, usually for the first time in a conversation, without identifying which specific one you mean. Hay un parque muy bonito en [[las afueras]] del barrio. (There's a very pretty park on the outskirts of the neighborhood.) Hay tres museos en el centro. (There are three museums downtown.) Two things make hay different from anything you've learned before. First, it's invariable — it never changes for plural; tres museos still takes hay, never a form like 'han.' Second, hay almost always pairs with an indefinite article (un, una), a number, or a quantity word (muchos, algún, ningún) — never with el, la, los, or las. The moment you'd reach for 'the,' you've left hay's territory and entered estar's: 'Hay un parque cerca de mi casa' introduces the park as new information; 'El parque está cerca de mi casa' describes the specific, already-known park's location. Same park, two different moments in the conversation, two completely different words."
+      },
+      {
+        "type": "text",
+        "ref": "error-hunt",
+        "text": "Put all three side by side and the differences get sharp fast. Fix what's wrong in each of these — a native speaker would notice immediately: 'Mi barrio hay tranquilo' (wrong — a characteristic needs ser: Mi barrio es tranquilo). 'En el centro hay el museo de arte' (wrong — a definite, already-identified museum needs estar, not hay: En el centro está el museo de arte). 'Cartagena está una ciudad caribeña' (wrong — identity needs ser, not estar: Cartagena es una ciudad caribeña). 'El ambiente hay animado' (wrong — a current state needs estar, not hay: El ambiente está animado). Notice the pattern in all four fixes: hay only survives when nothing else could do its job — introducing something unspecified for the very first time."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have the full three-way map: ser for identity and origin, estar for locating something specific (or naming a state), hay for the existence of something unspecified. Tomorrow you'll watch real travel writing about Cartagena and Valparaíso put this exact map to work, sentence after sentence, and you'll start noticing the pattern instead of having to look it up."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "En mi barrio ___ un parque enorme.",
+              "options": ["es", "está", "hay"],
+              "answer": 2,
+              "explanation": "Hay introduces something unspecified for the first time — we don't yet know which park, just that one exists."
+            },
+            {
+              "q": "El parque ___ cerca de mi casa.",
+              "options": ["es", "está", "hay"],
+              "answer": 1,
+              "explanation": "Once the park is a specific, already-known thing, estar gives its location."
+            },
+            {
+              "q": "Cartagena ___ una ciudad histórica.",
+              "options": ["es", "está", "hay"],
+              "answer": 0,
+              "explanation": "Ser names what the city fundamentally is — its identity and classification."
+            },
+            {
+              "q": "Mi casa ___ en las afueras de la ciudad.",
+              "options": ["es", "está", "hay"],
+              "answer": 1,
+              "explanation": "A specific, known place (mi casa) uses estar for location, not ser or hay."
+            },
+            {
+              "q": "___ muchas tiendas pequeñas en mi barrio.",
+              "options": ["Son", "Están", "Hay"],
+              "answer": 2,
+              "explanation": "Hay stays invariable even with a plural, unspecified quantity — never 'son' or 'están' here."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-4-1",
+    "lessonId": "lesson-spanish-9-4-1",
+    "objectives": [
+      "Correctly choose ser, estar, or hay when describing a place, based on identity/origin (ser), specific location or state (estar), or unspecified existence (hay)",
+      "Identify and correct common ser/estar/hay errors in place-description sentences (error-hunt)",
+      "Use ubicado, el ambiente, el barrio, las afueras, and hay accurately in original sentences"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Read the hook and ser block together; have the student generate one more ser sentence about their own town or city.\n2. Read the estar block, having the student notice the difference between estar-for-location (a specific, known thing) and estar-for-state (mood or condition).\n3. Read the hay block; drill the invariable rule aloud — hay un museo, hay tres museos, never 'han'.\n4. Work through the error-hunt examples together, having the student explain out loud why each original sentence was wrong.\n5. Complete the multiple-choice activity.\n6. Complete the worksheet.\n7. Preview tomorrow's reading on Cartagena and Valparaíso.",
+    "differentiationTips": [
+      "Struggling: practice the hay-vs-estar minimal pair (Hay un parque.../El parque está...) with just one example object until it's automatic, before mixing in ser",
+      "Ready for more: have them write one sentence using all three words correctly about the same place (e.g., their school), and defend each choice",
+      "Watch for the single most common error at this level: using hay with a definite article ('hay el parque') — correct it immediately by asking 'do we already know which one, or are we meeting it for the first time?'"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "1. Mi barrio es tranquilo (ser — inherent character). 2. El museo está en el centro / está ubicado en el centro (estar — specific, known location). 3. Cartagena es una ciudad caribeña (ser — identity/origin). 4. Hay tres museos en el centro (hay — unspecified quantity, no definite article).",
+    "standardsRationale": "Opens the week's Interpretive Reading standard (WA-WL-2015.1.2) by building the precise ser/estar/hay grammar map every later day depends on for reading and producing accurate place description, per the scope-and-sequence's week 4 Day 1 design ('ser/estar/haber division of labor in place description; error-hunt exercises'). Deliberately analysis- and error-correction-heavy, since this is one of the genuinely hard distinctions in Spanish and the week's later reading, writing, and speaking tasks all assume it's solid."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-4-1",
+    "lessonId": "lesson-spanish-9-4-1",
+    "title": "Ser, Estar, and Hay: The Grammar of Describing a Place",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Choose the correct word and answer each question using today's ser/estar/hay map.",
+      "rows": [
+        { "problem": "Choose ser or estar: Mi barrio ___ muy tranquilo, en general." },
+        { "problem": "Choose hay or está: ___ un parque grande cerca de mi casa. Then: El parque ___ a dos cuadras." },
+        { "problem": "Fix the error: 'Cartagena está una ciudad colombiana.'" },
+        { "problem": "Fix the error: 'En mi barrio hay el mercado central.'" },
+        { "problem": "Write one original sentence using hay to introduce something in your neighborhood, then a second sentence using estar to say exactly where that thing is." }
+      ]
+    }
+  }
+}

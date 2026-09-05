@@ -1,0 +1,90 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-4",
+    "courseId": "course-spanish-6",
+    "order": 4,
+    "title": "Subject Pronouns & Ser: Ustedes vs. Vosotros",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-4-4",
+    "unitId": "unit-spanish-6-4",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Building Sentences with Ser: Identity, Origin, Profession, and Description",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.4.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've built the pronoun chart, drilled the swaps, and toured the dialects. Today you put ser to work for real, building full sentences in four everyday jobs it does: saying who someone is, where they're from, what they do for work, and what they're like."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Ser handles four big jobs, and you already have every piece you need:\n\n1. Identity — Yo soy Ana. (I am Ana.)\n2. Origin — Ella es de Perú. (She is from Perú.)\n3. Profession — Nosotros somos maestros. (We are teachers.)\n4. Description — Ustedes son mis amigos. (You all are my friends.)\n\nRemember: this course builds every one of these with the Latin American forms only — soy, eres, es, somos, son — using ustedes for 'you all,' never vosotros. The pattern is always pronombre + ser form + the rest of the sentence."
+      },
+      {
+        "type": "text",
+        "ref": "practice-set",
+        "text": "Practice building your own before the activity below:\n\n- (yo / identity) Yo soy... \n- (tú / description) Tú eres... \n- (él or ella / origin) Él es de... / Ella es de... \n- (nosotros / profession) Nosotros somos... \n- (ustedes or ellos / description) Ustedes son... / Ellos son...\n\nTry saying one full sentence out loud for each line before you move on."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just built real ser sentences across all four of its major jobs — identity, origin, profession, and description — using only the forms this course teaches. Tomorrow: a mini-quiz on the whole week, plus a reflection on choosing the right pronombre for the moment."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "build-the-sentence-v1",
+        "config": {
+          "items": [
+            { "words": ["Yo", "soy", "estudiante."], "correctOrder": [0, 1, 2] },
+            { "words": ["Ella", "es", "de", "Perú."], "correctOrder": [0, 1, 2, 3] },
+            { "words": ["Nosotros", "somos", "maestros."], "correctOrder": [0, 1, 2] },
+            { "words": ["Ustedes", "son", "mis", "amigos."], "correctOrder": [0, 1, 2, 3] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-4-4",
+    "lessonId": "lesson-spanish-6-4-4",
+    "objectives": [
+      "Build correct ser sentences across all four core uses: identity, origin, profession, and description",
+      "Use the correct Latin American ser form (soy, eres, es, somos, son) for a given pronombre"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Device for the build-the-sentence activity (optional — can be done on paper)"],
+    "facilitationScript": "1. Review the four jobs of ser with the child, one example each.\n2. Practice the fill-in-the-blank practice set out loud together.\n3. Complete the build-the-sentence activity.\n4. Complete the worksheet.\n5. Preview tomorrow's mini-quiz and reflection.",
+    "differentiationTips": [
+      "Struggling: focus on just identity and origin (soy/es) before adding profession and description",
+      "Ready for more: have them write one original sentence per ser job about a real person they know",
+      "If word order feels shaky, point out the consistent pattern — pronombre, then the ser form, then the rest — across every example"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Yo soy estudiante. Ella es de Perú. Nosotros somos maestros. Ustedes son mis amigos. (Other correct completions of the practice-set sentences are acceptable as long as the ser form matches its pronombre.)",
+    "standardsRationale": "Delivers Day 4's scope-and-sequence design — sentence-building with ser across identity, origin, profession, and description — as productive practice with the exact Latin American forms this course teaches and tests, directly setting up Friday's mini-quiz."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-4-4",
+    "lessonId": "lesson-spanish-6-4-4",
+    "title": "Building Sentences with Ser: Identity, Origin, Profession, and Description",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Complete each sentence with the correct form of ser, then write what job (identity, origin, profession, or description) it does.",
+      "rows": [
+        { "problem": "Yo ___ (soy/eres/es) de Washington. — ¿Qué trabajo hace ser aquí?" },
+        { "problem": "Tú ___ (soy/eres/es) muy inteligente. — ¿Qué trabajo hace ser aquí?" },
+        { "problem": "Nosotros ___ (somos/son/es) estudiantes de español. — ¿Qué trabajo hace ser aquí?" },
+        { "problem": "Write one original sentence using ustedes + son." }
+      ]
+    }
+  }
+}

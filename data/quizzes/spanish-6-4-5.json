@@ -1,0 +1,46 @@
+{
+  "lessonId": "lesson-spanish-6-4-5",
+  "quiz": {
+    "id": "quiz-spanish-6-4-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "¿Qué significa 'el pronombre'?",
+        "options": ["a verb", "a pronoun", "a noun ending", "an adjective"],
+        "answer": 1,
+        "explanation": "El pronombre means 'pronoun' — a word that stands in for a name."
+      },
+      {
+        "q": "Which subject pronombre means 'we'?",
+        "options": ["ellos", "nosotros", "ustedes", "ella"],
+        "answer": 1,
+        "explanation": "Nosotros means 'we.'"
+      },
+      {
+        "q": "How do you conjugate ser for 'ellos' (they)?",
+        "options": ["es", "son", "somos", "eres"],
+        "answer": 1,
+        "explanation": "Ellos, ellas, and ustedes all take son: Ellos son altos."
+      },
+      {
+        "q": "Which region uses vosotros for the informal 'you all'?",
+        "options": ["México", "Argentina", "España", "Colombia"],
+        "answer": 2,
+        "explanation": "Vosotros is used in Spain for informal 'you all' — this course uses ustedes instead."
+      },
+      {
+        "q": "In Argentina and Uruguay, which word often replaces 'tú' for informal 'you' (one person)?",
+        "options": ["vosotros", "usted", "vos", "ustedes"],
+        "answer": 2,
+        "explanation": "Vos replaces tú in voseo regions, with its own conjugation — like 'vos sos' instead of 'tú eres.'"
+      },
+      {
+        "q": "Which form does THIS course use for 'you all,' in every lesson, regardless of formality?",
+        "options": ["vosotros", "ustedes", "vos", "nosotros"],
+        "answer": 1,
+        "explanation": "This course teaches Latin American Spanish, which uses ustedes for 'you all' in both formal and informal situations."
+      }
+    ]
+  }
+}

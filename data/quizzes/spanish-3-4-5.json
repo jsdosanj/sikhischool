@@ -1,0 +1,46 @@
+{
+  "lessonId": "lesson-spanish-3-4-5",
+  "quiz": {
+    "id": "quiz-spanish-3-4-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "What is the Spanish word for zero?",
+        "options": ["cero", "cinco", "diez", "cien"],
+        "answer": 0,
+        "explanation": "Cero means zero, the starting point for every count."
+      },
+      {
+        "q": "16, 17, 18, and 19 are built by gluing which two pieces together?",
+        "options": ["veinte + y + a digit", "diez + y + a digit", "cero + y + a digit", "treinta + y + a digit"],
+        "answer": 1,
+        "explanation": "Dieciséis, diecisiete, dieciocho, and diecinueve are all diez + y + a digit fused into one word."
+      },
+      {
+        "q": "Which number is a completely fresh new word, with no gluing at all?",
+        "options": ["dieciséis", "veintiuno", "treinta", "veintidós"],
+        "answer": 2,
+        "explanation": "Treinta (30) stands on its own, just like diez and veinte did."
+      },
+      {
+        "q": "What does más mean in a Spanish math fact like 'dos más tres son cinco'?",
+        "options": ["minus", "plus", "equals", "divided by"],
+        "answer": 1,
+        "explanation": "Más means 'plus.'"
+      },
+      {
+        "q": "Which numeral is veinticinco?",
+        "options": ["5", "15", "20", "25"],
+        "answer": 3,
+        "explanation": "Veinticinco is one of the week's landmark numbers — 25."
+      },
+      {
+        "q": "You want to ask how many classmates are buying lunch. What do you say?",
+        "options": ["¿Cómo se escribe?", "¿Cuántos van a comprar el almuerzo?", "¿De dónde eres?", "¿Qué tiempo hace?"],
+        "answer": 1,
+        "explanation": "¿Cuántos van a comprar el almuerzo? asks how many are buying lunch."
+      }
+    ]
+  }
+}

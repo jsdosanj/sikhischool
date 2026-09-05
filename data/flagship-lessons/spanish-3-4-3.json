@@ -1,0 +1,95 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-4",
+    "courseId": "course-spanish-3",
+    "order": 4,
+    "title": "Numbers 0-30: De Cero a Treinta",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-4-3",
+    "unitId": "unit-spanish-3-4",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Dos Más Tres Son Cinco: Math-Fact Races",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.3.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can count to treinta and turn a heard word into a numeral. Today you'll use your numbers for something new: math facts, spoken entirely in Spanish."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Spanish math facts use just two small words: más means 'plus,' and son means 'are' (used the way English says 'equals' in a math fact). Put a math fact together like this: dos más tres son cinco — 'two plus three are five.'"
+      },
+      {
+        "type": "text",
+        "ref": "math-facts",
+        "text": "Try saying these math facts aloud, one at a time, checking your answer against the landmark chant when you need to:\n\nuno más cuatro son cinco (1 + 4 = 5)\ndos más tres son cinco (2 + 3 = 5)\ncinco más cinco son diez (5 + 5 = 10)\ndiez más cinco son quince (10 + 5 = 15)\ndiez más diez son veinte (10 + 10 = 20)\nquince más diez son veinticinco (15 + 10 = 25)\nveinte más diez son treinta (20 + 10 = 30)\n\nNotice every single answer lands right on one of your landmark numbers from Monday."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just did real addition — entirely in Spanish, out loud. Tomorrow you'll use your numbers for something you'll actually do outside of Spanish class: sharing a phone number and counting how many kids are buying lunch."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "uno más cuatro son...", "answer": "cinco" },
+            { "prompt": "dos más tres son...", "answer": "cinco" },
+            { "prompt": "cinco más cinco son...", "answer": "diez" },
+            { "prompt": "diez más cinco son...", "answer": "quince" },
+            { "prompt": "diez más diez son...", "answer": "veinte" },
+            { "prompt": "quince más diez son...", "answer": "veinticinco" },
+            { "prompt": "veinte más diez son...", "answer": "treinta" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-4-3",
+    "lessonId": "lesson-spanish-3-4-3",
+    "objectives": [
+      "Say más ('plus') and son ('are/equals') to build a spoken Spanish math fact",
+      "Solve addition facts aloud that land on each landmark number from Monday's chant",
+      "Use the landmark chant to check whether a spoken answer sounds right"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A parent or teacher to race math facts aloud"],
+    "facilitationScript": "1. Ask the child to solve 2+3 in English first, then explain that today they'll do the same math, but say it out loud in Spanish.\n2. Introduce más and son, and model dos más tres son cinco slowly.\n3. Race through the seven math facts together, saying each one aloud (child can answer, or you can alternate caller/solver roles), checking each answer against Monday's landmark chant.\n4. Play the speed-drill activity together.\n5. Complete the worksheet.\n6. Preview tomorrow: real-world numbers — phone numbers and lunch count.",
+    "differentiationTips": [
+      "Struggling: solve the math in English first (2+3=5), then just practice saying the already-known answer aloud in Spanish, rather than solving and translating at the same time",
+      "Ready for more: invent one new math fact of their own that also lands on a landmark number (e.g., veinte más cinco son veinticinco) and race a family member with it",
+      "This lesson's races are naturally two-person spoken exchanges, so — unlike Tuesday's dictation — they don't depend on the audio-recording gap noted elsewhere this week (open decision, expansion-plan-2026-09.md §12.9); any adult or older sibling can call out a fact instead of a recording"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "uno más cuatro son cinco; dos más tres son cinco; cinco más cinco son diez; diez más cinco son quince; diez más diez son veinte; quince más diez son veinticinco; veinte más diez son treinta. Más means 'plus'; son means 'are' (used like 'equals').",
+    "standardsRationale": "Delivers the week's Day 3 target (math-fact races in Spanish) under WA-WL-2015.3.1 Connections — Making Connections, the standard's clearest fit all year, since this is literal cross-curricular math content delivered in the target language rather than a language-arts task borrowing a math theme."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-4-3",
+    "lessonId": "lesson-spanish-3-4-3",
+    "title": "Dos Más Tres Son Cinco: Math-Fact Races",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Fill in the missing number to complete each Spanish math fact.",
+      "rows": [
+        { "problem": "Dos más tres son ___." },
+        { "problem": "Cinco más cinco son ___." },
+        { "problem": "Diez más diez son ___." },
+        { "problem": "Quince más diez son ___." },
+        { "problem": "Write one more Spanish math fact of your own that equals veinte or treinta." }
+      ]
+    }
+  }
+}

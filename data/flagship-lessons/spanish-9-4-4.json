@@ -1,0 +1,80 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-4",
+    "courseId": "course-spanish-9",
+    "order": 4,
+    "title": "Describing Your World: Ser, Estar, and Haber",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-4-4",
+    "unitId": "unit-spanish-9-4",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Photo-Prompt Speaking: Describing a City Your Partner Can't See",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Today's task removes your safety net: no draft to read from, no chance to fix a sentence before anyone hears it. A partner is going to sketch a place based only on what you say out loud — which means every ser, estar, and hay choice has to land correctly the first time, or the sketch will show it."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Find or receive a photo of an unfamiliar street, plaza, or neighborhood — one your partner has never seen. Your job is to describe it out loud, in Spanish, well enough that your partner can sketch a reasonable version of it without looking. Their job is to draw exactly what they hear, not what they guess. That's the real test: if your partner's sketch has a park where you meant a plaza, the description — not the drawing — is where the mismatch happened."
+      },
+      {
+        "type": "text",
+        "ref": "structure-guidance",
+        "text": "A description that actually transfers information follows roughly this order, which should feel familiar by now: start with identity (Es una plaza pequeña... / Es una calle residencial...) so your partner knows what kind of scene to picture at all. Then introduce what's in it with hay, one feature at a time, giving your partner time to sketch each one before you move on (Hay un edificio alto a la izquierda... Hay árboles alrededor de la plaza...). Finally, place things relative to each other with está (El edificio está detrás de los árboles... La fuente está en el centro de la plaza...). Describing everything at once in a rush is exactly how a partner's sketch ends up wrong — pause after each new feature."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Switch roles and try a second photo if time allows. Tomorrow, this same describing-a-place skill goes into writing — you'll publish your neighborhood guía for classmates to actually read and comment on."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-4-4",
+    "lessonId": "lesson-spanish-9-4-4",
+    "objectives": [
+      "Describe an unfamiliar photo aloud in Spanish using ser (identity), hay (introducing features), and estar (relative location) in the correct order and roles",
+      "Sketch a partner's spoken description accurately enough to demonstrate real comprehension, not guesswork"
+    ],
+    "materialsNeeded": [
+      "5-6 photos of unfamiliar streets, plazas, or neighborhoods (printed, or from a magazine/website) that the two partners have not shown each other",
+      "Paper and pencil for sketching",
+      "Printed worksheet"
+    ],
+    "facilitationScript": "1. Read the hook and explanation blocks together; clarify the two roles (describer, sketcher) and that the sketcher never sees the photo until after sketching.\n2. Read the structure-guidance block; model one short example description aloud (identity, then hay, then está) using a photo the student hasn't seen.\n3. Run the activity: the describer picks a photo and describes it aloud without showing it; the sketcher draws from listening only; compare the sketch to the photo afterward.\n4. Switch roles with a second photo if time allows.\n5. Complete the worksheet's reflection questions.\n6. Preview tomorrow's publishing and peer-comment task.",
+    "differentiationTips": [
+      "Struggling: allow the describer to glance at 3-4 key words (barrio, parque, edificio, calle) written down beforehand, without full sentences to read from",
+      "Ready for more: challenge the describer to include one el ambiente or el paisaje sentence and see if the sketcher can capture mood, not just objects",
+      "If no partner is available, have the student describe a photo into a recording, then sketch from their own recording after a short break — a genuine test of whether the description alone, not memory of the photo, carries the information"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "There is no single correct description or sketch — evaluate the spoken description for correct use of ser (identity), hay (unspecified features, introduced one at a time), and estar (relative location of already-introduced features), and evaluate comprehension by how closely an honestly-drawn sketch matches the actual photo.",
+    "standardsRationale": "Serves WA-WL-2015.1.2's broader interpretive/interpersonal loop by testing whether the week's ser/estar/hay map actually transfers real information under a genuine communicative task, per the scope-and-sequence's Day 4 target ('photo-prompt speaking — describe unseen-city photos to a partner who sketches them'). A mismatched sketch is immediate, honest feedback no worksheet can give."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-4-4",
+    "lessonId": "lesson-spanish-9-4-4",
+    "title": "Photo-Prompt Speaking: Describing a City Your Partner Can't See",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use this sheet before and after today's photo-description activity.",
+      "rows": [
+        { "problem": "Before you describe your photo, write one ser sentence naming its general identity (Es una plaza pequeña... / Es una calle residencial...)." },
+        { "problem": "Write two hay sentences introducing specific features you plan to mention, in the order you'll say them." },
+        { "problem": "Write one estar sentence placing one of those features relative to another." },
+        { "problem": "After sketching for your partner: what's one thing your partner's sketch got right, and one thing that shows where your description could have been clearer?" }
+      ]
+    }
+  }
+}

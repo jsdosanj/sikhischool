@@ -1,0 +1,30 @@
+{
+  "lessonId": "lesson-spanish-k-4-5",
+  "quiz": {
+    "id": "quiz-spanish-k-4-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'six'?",
+        "options": ["seis", "siete", "ocho", "nueve"],
+        "answer": 0
+      },
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'ten'?",
+        "options": ["ocho", "nueve", "diez", "seis"],
+        "answer": 2
+      },
+      {
+        "q": "Grown-up, read aloud: When counting in order, what number comes right after 'ocho'?",
+        "options": ["diez", "nueve", "seis", "siete"],
+        "answer": 1
+      },
+      {
+        "q": "Grown-up, read aloud: What does 'el número' mean?",
+        "options": ["number", "friend", "hello", "counting"],
+        "answer": 0
+      }
+    ]
+  }
+}

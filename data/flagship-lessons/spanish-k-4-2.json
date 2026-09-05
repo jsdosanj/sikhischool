@@ -1,0 +1,92 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-4",
+    "courseId": "course-spanish-k",
+    "order": 4,
+    "title": "Numbers 6-10",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-4-2",
+    "unitId": "unit-spanish-k-4",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Cuenta y Lanza: A Ten-Frame Beanbag Toss",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol found a ten-frame today — ten little boxes in two rows! Grab some beanbags (or rolled-up socks), because we're going to toss and count all the way to ten."
+      },
+      {
+        "type": "text",
+        "ref": "practice-numero",
+        "text": "Sol holds up a card with a number on it and says [[el número]] — that means 'number'! Every number you toss and count today — seis, siete, ocho, nueve, diez — is a número Sol wants to hear."
+      },
+      {
+        "type": "text",
+        "ref": "practice-count-toss",
+        "text": "Now it's your turn: toss a beanbag into a box of the ten-frame, counting out loud from uno all the way up. Keep tossing until every box has one and you've said diez!"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You counted every beanbag toss out loud, from uno all the way to diez, saying every número along the way! Tomorrow, we'll go hunting for hidden number cards."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match the Spanish number to how many it means.",
+          "pairs": [
+            { "left": "seis", "right": "6️⃣" },
+            { "left": "siete", "right": "7️⃣" },
+            { "left": "ocho", "right": "8️⃣" },
+            { "left": "nueve", "right": "9️⃣" },
+            { "left": "diez", "right": "🔟" },
+            { "left": "el número", "right": "🔢 number" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-4-2",
+    "lessonId": "lesson-spanish-k-4-2",
+    "objectives": [
+      "Understand that número means 'number'",
+      "Count aloud from uno to diez while tossing beanbags into a ten-frame, one toss per box"
+    ],
+    "materialsNeeded": ["A simple ten-frame drawn on paper or chalk (two rows of five boxes)", "A few soft beanbags, rolled-up socks, or scrunched paper balls", "Sol the puppet"],
+    "facilitationScript": "1. Draw or set up a ten-frame — two rows of five boxes — on the floor or a table.\n2. Have Sol hold up a card with a number on it and explain that número means 'number' in Spanish.\n3. Take turns tossing a beanbag toward the ten-frame, counting the running total out loud together each time: uno, dos, tres...\n4. Keep tossing until you reach diez, filling every box in the ten-frame.\n5. Ask your child which número was hardest to say, then try a second round tossing in a different order.\n6. Complete the on-screen matching activity together, reading each number aloud since your child may not read yet.\n7. Close by asking: 'What word means number in Spanish?'",
+    "differentiationTips": [
+      "Struggling: stop counting at ocho for the first round and add nueve, diez once the sequence feels steady",
+      "Ready for more: have your child count silently while tossing, then announce only the final número once the ten-frame is full",
+      "A beanbag that misses the ten-frame still gets counted — the goal is confident counting, not accuracy of the toss"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken counting-and-tossing activity — success looks like your child counting tosses aloud from uno toward diez, not a written answer. In the matching game: seis → 6️⃣, siete → 7️⃣, ocho → 8️⃣, nueve → 9️⃣, diez → 🔟, el número → 🔢 number.",
+    "standardsRationale": "Continues week 4's WA-WL-2015.1.3 target by having the child produce the running count out loud during a physical toss rather than just echo it, and introduces número as the word for the very thing being counted — giving this week's numbers a name of their own, the way contar named week 3's counting action."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-4-2",
+    "lessonId": "lesson-spanish-k-4-2",
+    "title": "Cuenta y Lanza: A Ten-Frame Beanbag Toss",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together.",
+      "rows": [
+        { "problem": "Set up a simple ten-frame (two rows of five boxes) on the floor or table." },
+        { "problem": "Explain that 'número' means 'number', then take turns tossing a beanbag, counting the total out loud each time." },
+        { "problem": "Keep tossing until you reach diez and every box is full, counting the whole way there." }
+      ]
+    }
+  }
+}

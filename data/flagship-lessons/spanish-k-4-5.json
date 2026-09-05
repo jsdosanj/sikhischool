@@ -1,0 +1,109 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-4",
+    "courseId": "course-spanish-k",
+    "order": 4,
+    "title": "Numbers 6-10",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-4-5",
+    "unitId": "unit-spanish-k-4",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "El Espectáculo de Diez: A Count-to-Ten Performance for Sol",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Today is your solo show — you get to count all the way to diez for Sol, all by yourself, while everyone watches and listens!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-solo-count",
+        "text": "Take a deep breath and count out loud from uno all the way to diez, nice and clear, using a big movement for each número if you like."
+      },
+      {
+        "type": "text",
+        "ref": "practice-cheer",
+        "text": "When you reach diez, take a bow — Sol and the whole class cheer for you! Then try it again, maybe even faster."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You counted all the way to diez by yourself — uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez! Next week, get ready to learn colors in Spanish."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Grown-up, read aloud: 🔵🔵🔵🔵🔵🔵 Is this seis or siete?",
+              "options": ["seis", "siete"],
+              "answer": 0,
+              "explanation": "¡Sí! Seis means 'six'."
+            },
+            {
+              "q": "Grown-up, read aloud: 🔵🔵🔵🔵🔵🔵🔵🔵 Is this siete or ocho?",
+              "options": ["siete", "ocho"],
+              "answer": 1,
+              "explanation": "¡Sí! Ocho means 'eight'."
+            },
+            {
+              "q": "Grown-up, read aloud: 🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵 Is this nueve or diez?",
+              "options": ["nueve", "diez"],
+              "answer": 1,
+              "explanation": "¡Sí! Diez means 'ten'."
+            },
+            {
+              "q": "Grown-up, read aloud: Sol holds up a card with a number on it. What word means 'number' — el número or el amigo?",
+              "options": ["el número", "el amigo"],
+              "answer": 0,
+              "explanation": "¡Sí! El número means 'number'."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-4-5",
+    "lessonId": "lesson-spanish-k-4-5",
+    "objectives": [
+      "Count aloud from uno to diez independently, with minimal prompting, as a short performance",
+      "Recall and use número in a cumulative review of week 4's numbers"
+    ],
+    "materialsNeeded": ["Sol the puppet as the 'audience'", "An imaginary or real stage — a rug or a chair works fine"],
+    "facilitationScript": "1. Set up a little 'stage' — a rug or a favorite spot — for your child's counting performance.\n2. Have your child take a deep breath and count out loud from uno all the way to diez for Sol and the audience.\n3. Encourage a big movement on each number if your child wants to bring back a favorite from earlier in the week.\n4. Cheer loudly and clap when your child reaches diez, then invite a bow.\n5. Repeat once or twice more, letting your child try counting faster or with different movements each time.\n6. Complete the on-screen multiple-choice review together, reading each question aloud since your child may not read yet.\n7. Close the show: take a bow together and wave to Sol.",
+    "differentiationTips": [
+      "Struggling: count alongside your child quietly rather than having them perform fully solo",
+      "Ready for more: challenge your child to count to diez and then immediately back down to uno",
+      "This is a celebration lesson — the goal is confident, joyful counting your child already practiced this week, not teaching anything brand new"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a cumulative spoken counting performance — success looks like your child counting from uno to diez aloud with some independence, with prompting as needed. In the multiple-choice game: 6 dots → seis, 8 dots → ocho, 10 dots → diez, and el número means 'number'.",
+    "standardsRationale": "Closes week 4's WA-WL-2015.1.3 Presentational Speaking arc with the clearest possible assessment of the target — an unprompted, audience-facing solo count from uno to diez — bringing together every number from this week and last into one connected performance, exactly the scope-and-sequence's own design for this Day 5."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-4-5",
+    "lessonId": "lesson-spanish-k-4-5",
+    "title": "El Espectáculo de Diez: A Count-to-Ten Performance for Sol",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud and do it together as your child's counting show.",
+      "rows": [
+        { "problem": "Set up a little 'stage' for your child's counting performance, with Sol as the audience." },
+        { "problem": "Have your child count out loud from uno to diez for Sol, using a favorite big movement if they like." },
+        { "problem": "Cheer and take a bow, then repeat 1-2 more times, maybe faster or with new movements." }
+      ]
+    }
+  }
+}

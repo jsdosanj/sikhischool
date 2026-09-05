@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-hay",
+    "language": "spanish",
+    "word": "hay",
+    "translation": "there is, there are",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Hay un mercado tradicional a pocas cuadras de la plaza principal. (There's a traditional market a few blocks from the main square.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-ubicado",
+    "language": "spanish",
+    "word": "ubicado",
+    "translation": "located",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El hotel está ubicado justo frente a la playa. (The hotel is located right across from the beach.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-ambiente",
+    "language": "spanish",
+    "word": "el ambiente",
+    "translation": "atmosphere, environment",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "El ambiente en el mercado los sábados por la mañana es una mezcla de colores, olores y música. (The atmosphere in the market on Saturday mornings is a mix of colors, smells, and music.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-barrio",
+    "language": "spanish",
+    "word": "el barrio",
+    "translation": "neighborhood",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Crecí en un barrio donde todos los vecinos se conocían por nombre. (I grew up in a neighborhood where all the neighbors knew each other by name.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-afueras",
+    "language": "spanish",
+    "word": "las afueras",
+    "translation": "outskirts, suburbs",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mis abuelos viven en las afueras, donde las casas tienen jardines más grandes. (My grandparents live on the outskirts, where the houses have bigger yards.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-rascacielos",
+    "language": "spanish",
+    "word": "el rascacielos",
+    "translation": "skyscraper",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Desde la ventana del rascacielos se puede ver toda la ciudad. (From the skyscraper's window you can see the whole city.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-paisaje",
+    "language": "spanish",
+    "word": "el paisaje",
+    "translation": "landscape",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "El paisaje cambia por completo cuando el tren sale de la ciudad y entra en las montañas. (The landscape changes completely when the train leaves the city and enters the mountains.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  }
+]

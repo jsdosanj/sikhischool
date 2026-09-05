@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-4",
+    "courseId": "course-spanish-6",
+    "order": 4,
+    "title": "Subject Pronouns & Ser: Ustedes vs. Vosotros",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-4-1",
+    "unitId": "unit-spanish-6-4",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Pronoun Chart and the Ser Song: Soy, Eres, Es, Somos, Son",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.4.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you zoomed all the way out — twenty countries, four continents, one shared idioma. This week you zoom back in, down to the smallest building block almost every Spanish sentence needs: a tiny word that tells you who's doing something, before you even say what they're doing. Today you meet the full set of those words, plus a verb that pairs with them so often you'll start using it without thinking: ser, 'to be.'"
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A [[el pronombre]] is a word that stands in for a person's name, so you don't have to keep repeating it. In English, 'Mateo is my friend. He is from México' uses the pronombre 'he' instead of saying 'Mateo' twice. Spanish works the same way, and this course uses the Latin American set of pronombres — the one spoken across nearly every Spanish-speaking country you mapped last week.\n\nHere's the full chart:\n\nyo — I\ntú — you (familiar, one person — from week 1)\nusted — you (formal, one person — from week 1)\n[[él]] — he\n[[ella]] — she\n[[nosotros]] — we\nustedes — you all (any number of people, formal or familiar — from week 1)\n[[ellos]] — they\n\nA quick note on ellos: it covers 'they' for a group of men, a group of things, or any mixed group of men and women — even ninety-nine women and one man still counts as ellos in standard Spanish. When every single person in the group is female, Spanish switches to ellas instead, but ellos is the form you'll practice and use most in this course."
+      },
+      {
+        "type": "text",
+        "ref": "ser-conjugation",
+        "text": "Now pair every pronombre with ser, the verb for 'to be' when you're talking about who or what someone IS — their identity, origin, profession, or description. In Latin American Spanish, ser has exactly five different forms:\n\nyo soy — I am\ntú eres — you are (familiar)\nusted es / él es / ella es — you (formal) are / he is / she is\nnosotros somos — we are\nustedes son / ellos son — you all are / they are\n\nNotice usted shares its form with él and ella (es), and ustedes shares its form with ellos (son) — that's not a coincidence you need to memorize twice, it's one pattern doing double duty.\n\nTry chanting the five forms like a tiny song, clapping once per word: 'Soy, eres, es — somos, son! Soy, eres, es — somos, son!' Say it a few times until it feels automatic — you'll lean on this rhythm all week."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just met every subject pronombre this course uses, and the full ser conjugation that goes with them. Tomorrow you'll practice swapping real names for él, ella, and the rest of the chart — fast."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-4-1",
+    "lessonId": "lesson-spanish-6-4-1",
+    "objectives": [
+      "Name the eight subject pronouns this course uses (yo, tú, usted, él, ella, nosotros, ustedes, ellos) and what each one means",
+      "Recite the five-form ser conjugation (soy, eres, es, somos, son) and match each form to the correct pronoun(s)"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Briefly review week 3's closing preview: this week moves from geography to pronouns and ser.\n2. Introduce el pronombre with the English analogy (Mateo → he).\n3. Walk through the full pronoun chart, pointing out that tú/usted/ustedes are already familiar from week 1.\n4. Explain the ellos/ellas note briefly — ellos is what the course practices, ellas is a fact worth knowing.\n5. Introduce the ser paradigm and point out the shared forms (usted/él/ella → es; ustedes/ellos → son).\n6. Practice the ser song chant together several times.\n7. Complete the worksheet.\n8. Preview tomorrow's pronoun-swap drills.",
+    "differentiationTips": [
+      "Struggling: focus on just three pronouns first (yo, tú, él) and their ser forms (soy, eres, es) before tackling the full chart",
+      "Ready for more: have them write one original sentence for each of the five ser forms",
+      "If the chant feels silly, clapping or tapping a rhythm on the table while saying it still works — the goal is muscle memory, not performance"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Pronoun chart: yo (I), tú (you, familiar), usted (you, formal), él (he), ella (she), nosotros (we), ustedes (you all), ellos (they). Ser: yo soy, tú eres, usted/él/ella es, nosotros somos, ustedes/ellos son.",
+    "standardsRationale": "Opens week 4's WA-WL-2015.4.1 Language Comparisons target with the specific Day 1 job the scope-and-sequence assigns — a pronoun chart build plus the ser conjugation song — while establishing up front that this course's chart is the Latin American set (no vosotros), the fact every later day in the week depends on."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-4-1",
+    "lessonId": "lesson-spanish-6-4-1",
+    "title": "Pronoun Chart and the Ser Song: Soy, Eres, Es, Somos, Son",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use today's pronoun chart and ser conjugation to answer each question.",
+      "rows": [
+        { "problem": "Write the Spanish pronombre for 'she' and for 'we'." },
+        { "problem": "Fill in the blank: Yo ___ estudiante. (soy/eres/es)" },
+        { "problem": "Fill in the blank: Nosotros ___ amigos. (soy/somos/son)" },
+        { "problem": "Which pronombre and ser form would you use to talk about a group of your friends (all boys, or a mix of boys and girls)?" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-4",
+    "courseId": "course-spanish-9",
+    "order": 4,
+    "title": "Describing Your World: Ser, Estar, and Haber",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-4-2",
+    "unitId": "unit-spanish-9-4",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Cartagena and Valparaíso: Reading Real Place Descriptions",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you mapped the grammar. Today you watch it work in real descriptive writing — two Latin American cities, each with dramatically different geography and character, described the way an actual travel writer would describe them. Read for the story first; then go back and notice exactly where ser, estar, and hay are each doing their job."
+      },
+      {
+        "type": "text",
+        "ref": "reading-cartagena",
+        "text": "Cartagena de Indias es una ciudad colombiana en la costa caribeña, y muchos viajeros la consideran una de las más bellas de toda Latinoamérica. (Cartagena de Indias is a Colombian city on the Caribbean coast, and many travelers consider it one of the most beautiful in all of Latin America.) El centro histórico —la Ciudad Amurallada— es una zona colonial rodeada de gruesas murallas de piedra que los españoles construyeron siglos atrás para proteger el puerto. (The historic center — the Walled City — is a colonial area surrounded by thick stone walls that the Spanish built centuries ago to protect the port.) Dentro de las murallas, las calles son estrechas y están llenas de casas coloridas con balcones de madera y flores de buganvilla. (Inside the walls, the streets are narrow and are full of colorful houses with wooden balconies and bougainvillea flowers.) Por las noches, el ambiente en la Plaza Santo Domingo está animado: hay músicos callejeros, vendedores de fruta y turistas que pasean sin prisa bajo el calor caribeño. (At night, the atmosphere in Santo Domingo Square is lively: there are street musicians, fruit vendors, and tourists strolling unhurried in the Caribbean heat.)\n\nMás allá de las murallas, en las afueras del centro histórico, la ciudad se vuelve mucho más moderna. (Beyond the walls, on the outskirts of the historic center, the city becomes much more modern.) En el barrio de Bocagrande, frente al mar, hay varios edificios modernos y hoteles altos —un contraste notable con las calles coloniales del centro. (In the Bocagrande neighborhood, facing the sea, there are several modern buildings and tall hotels — a striking contrast with the colonial streets downtown.) [[El rascacielos]] más alto de Bocagrande domina la vista desde la playa. (Bocagrande's tallest skyscraper dominates the view from the beach — notice rascacielos doesn't change in the plural either: el rascacielos, los rascacielos, one of a small set of Spanish nouns, like el lunes/los lunes, that stay identical in both forms.) Cerca de allí se levanta el Cerro de la Popa; desde arriba, [[el paisaje]] muestra el mar Caribe, los tejados coloniales del centro y, más lejos, los rascacielos de Bocagrande, todo en una sola vista. (Nearby rises La Popa hill; from the top, the landscape shows the Caribbean Sea, the colonial rooftops downtown, and, farther off, the skyscrapers of Bocagrande, all in a single view.)"
+      },
+      {
+        "type": "text",
+        "ref": "analysis-cartagena",
+        "text": "Notice the pattern doing real work in that passage: es names what Cartagena fundamentally is (una ciudad colombiana) and what the streets are like as a general truth (estrechas); está and hay describe the specific, lively scene in the plaza at a specific time (el ambiente... está animado) and introduce what's found there without naming a specific one (hay músicos, hay vendedores). El rascacielos más alto — singular and definite — names one specific, already-distinguished building, while el paisaje pulls the whole view together as one described scene. None of that is random: a writer choosing ser instead of estar for 'las calles son estrechas' is claiming that narrow streets are simply what these streets are, not a mood that might change tomorrow."
+      },
+      {
+        "type": "text",
+        "ref": "reading-valparaiso",
+        "text": "Valparaíso es un puerto chileno construido literalmente sobre el paisaje: la bahía está rodeada de más de cuarenta cerros empinados, y la ciudad sube por todos ellos. (Valparaíso is a Chilean port built literally on top of the landscape: the bay is surrounded by more than forty steep hills, and the city climbs up all of them.) En el plan —la parte baja y plana, junto al mar— están el puerto, el comercio y las oficinas del gobierno regional. (In the plan — the low, flat part, next to the sea — are the port, the businesses, and the regional government offices.) Pero la verdadera identidad de la ciudad está en los cerros: casas de colores brillantes, construidas una encima de otra sin ningún plan aparente, cubren las laderas como un mosaico gigante. (But the city's real identity is in the hills: brightly colored houses, built one on top of another with no apparent plan, cover the hillsides like a giant mosaic.)\n\nPara subir, los porteños —así se llama a la gente de Valparaíso— no siempre suben a pie: la ciudad tiene varios ascensores, funiculares antiguos, algunos de más de un siglo de antigüedad, que conectan el plan con los cerros más altos. (To go up, the porteños — that's what the people of Valparaíso are called — don't always climb on foot: the city has several funiculars, old cable lifts, some more than a century old, that connect the plan with the highest hills.) En el Cerro Alegre y el Cerro Concepción, parte del barrio declarado Patrimonio de la Humanidad por la UNESCO, las calles estrechas están decoradas con murales de arte callejero que han hecho famosa a la ciudad en todo el mundo. (In Cerro Alegre and Cerro Concepción, part of the neighborhood declared a World Heritage Site by UNESCO, the narrow streets are decorated with street-art murals that have made the city famous around the world.) Valparaíso también fue el hogar del poeta Pablo Neruda, cuya casa —La Sebastiana— está ubicada en uno de los cerros, con vista al mar y al puerto. (Valparaíso was also home to the poet Pablo Neruda, whose house — La Sebastiana — is located on one of the hills, with a view of the sea and the port.) No es casualidad que a Valparaíso se le llame 'la Joya del Pacífico.' (It's no coincidence that Valparaíso is called 'the Jewel of the Pacific.')"
+      },
+      {
+        "type": "text",
+        "ref": "analysis-valparaiso",
+        "text": "Same three words, different city, same logic. Es opens the description with identity (un puerto chileno), exactly like Cartagena did. Están locates the port and offices in a specific, known part of the city (el plan); está describes where the real identity of the city is found. Notice también that 'la ciudad tiene varios ascensores' uses tener (to have), not hay — a reminder that hay isn't the only way to introduce something, just the most common one when the thing is genuinely new information; here the writer is naming an established feature the city possesses, not casually mentioning an unspecified one. And está ubicada gives La Sebastiana's precise, specific location — the exact estar + ubicado pattern from yesterday."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow you write your own — a real description of your actual neighborhood using this exact toolkit: identity, existence, and location, deployed on purpose instead of by guesswork."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-4-2",
+    "lessonId": "lesson-spanish-9-4-2",
+    "objectives": [
+      "Identify examples of ser, estar, and hay in an authentic-style reading passage and explain why each word was chosen",
+      "Extract descriptive patterns (identity, then existence, then specific location) from real travel-writing-style text",
+      "Demonstrate comprehension of key facts about Cartagena and Valparaíso"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Read the Cartagena passage aloud together (or have the student read it silently first for gist), then read the English glosses to confirm comprehension.\n2. Discuss the analysis-cartagena block, having the student point to one more example of ser, estar, and hay in the passage beyond the ones named.\n3. Repeat with the Valparaíso passage and its analysis block.\n4. Discuss the tener-vs-hay aside — why 'la ciudad tiene varios ascensores' works even though the student hasn't formally studied tener this way yet.\n5. Complete the worksheet.\n6. Preview tomorrow's neighborhood-tour writing task.",
+    "differentiationTips": [
+      "Struggling: read each passage once for gist only before returning to hunt for ser/estar/hay — don't ask them to analyze grammar and comprehend content in the same first pass",
+      "Ready for more: have them find and explain one sentence in either passage that would change meaning if you swapped its verb (e.g., what 'el barrio está tranquilo' would imply instead of 'es tranquilo')",
+      "If Cartagena or Valparaíso is unfamiliar, a quick look at photos of the walled city or the colorful cerros before reading gives the vocabulary somewhere to land"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "Sample answers will vary by which examples the student selects; verify each identified ser example names identity or character, each estar example names a specific location or state, and each hay example introduces something unspecified. Comprehension: Cartagena is on Colombia's Caribbean coast and has a colonial walled center plus the modern Bocagrande district; Valparaíso is a Chilean port built across dozens of hills, connected by historic funiculars, known for colorful houses and street art.",
+    "standardsRationale": "Directly serves WA-WL-2015.1.2 (Interpretive Reading) with authentic-style descriptive text built specifically to showcase this week's grammar in action, per the scope-and-sequence's Day 2 target ('read travel-guide descriptions of Cartagena and Valparaíso; extract descriptive patterns'). The analysis blocks turn passive reading into active pattern-recognition, which Wednesday's writing task and Friday's publishing task both draw on."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-4-2",
+    "lessonId": "lesson-spanish-9-4-2",
+    "title": "Cartagena and Valparaíso: Reading Real Place Descriptions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's two reading passages.",
+      "rows": [
+        { "problem": "Find one sentence in the Cartagena passage that uses ser. What does it tell you — the city's identity, or its location?" },
+        { "problem": "Find one sentence in either passage that uses hay. What is it introducing for the first time?" },
+        { "problem": "Find one sentence that uses estar + ubicado/ubicada. What specific thing is it locating?" },
+        { "problem": "In 2-3 sentences (English or Spanish), summarize one real difference between Cartagena and Valparaíso based on the reading." }
+      ]
+    }
+  }
+}

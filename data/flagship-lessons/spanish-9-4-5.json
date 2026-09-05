@@ -1,0 +1,98 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-4",
+    "courseId": "course-spanish-9",
+    "order": 4,
+    "title": "Describing Your World: Ser, Estar, and Haber",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-4-5",
+    "unitId": "unit-spanish-9-4",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Publishing Guía de mi Ciudad: Peer Comments in Spanish",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week closes the way real writing actually gets used: read by someone else, who responds to it. Today you turn Wednesday's draft into a finished Guía de mi barrio, then read three classmates' guías and leave real comments in Spanish — not a grade, an actual reaction."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Revise Wednesday's draft with this week's whole toolkit in mind one more time: does it open with identity (ser)? Does it introduce at least two specific features with hay, using un/una rather than el/la? Does it then locate those exact features with estar or estar ubicado, now that they're known? Does it include one sentence about the ambiente or the paisaje? A finished guía should read like an actual short piece someone unfamiliar with your neighborhood could follow and picture."
+      },
+      {
+        "type": "text",
+        "ref": "peer-comment-guidance",
+        "text": "When you read a classmate's guía, respond in Spanish using sentence starters like these: Me gusta cómo describiste... (I like how you described...) ¿Dónde está exactamente...? (Where exactly is...?) Suena como un barrio... (It sounds like a ... neighborhood.) Yo también tengo/no tengo... cerca de mi casa. (I also have/don't have... near my house.) A genuine comment responds to something specific in the writing — a real question or a real reaction — not a generic 'good job.'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "That's the week: from mapping three words on Monday to publishing and reading real responses on Friday. Next week: the people in your life — family, values, and the untranslatable hour Spanish speakers call la sobremesa."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "translate-v1",
+        "config": {
+          "items": [
+            { "prompt": "Translate to Spanish: there is, there are", "acceptedAnswers": ["hay"] },
+            { "prompt": "Translate to Spanish: located", "acceptedAnswers": ["ubicado", "ubicada"] },
+            { "prompt": "Translate to Spanish: atmosphere, environment", "acceptedAnswers": ["el ambiente", "ambiente"] },
+            { "prompt": "Translate to Spanish: neighborhood", "acceptedAnswers": ["el barrio", "barrio"] },
+            { "prompt": "Translate to Spanish: outskirts, suburbs", "acceptedAnswers": ["las afueras", "afueras"] },
+            { "prompt": "Translate to Spanish: skyscraper", "acceptedAnswers": ["el rascacielos", "rascacielos"] },
+            { "prompt": "Translate to Spanish: landscape", "acceptedAnswers": ["el paisaje", "paisaje"] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-4-5",
+    "lessonId": "lesson-spanish-9-4-5",
+    "objectives": [
+      "Revise a neighborhood-description draft into a finished, publishable guía using ser, estar, and hay accurately throughout",
+      "Write at least three genuine peer comments in Spanish that respond to specific content in a classmate's guía"
+    ],
+    "materialsNeeded": [
+      "Wednesday's draft",
+      "Printed worksheet",
+      "Pencil",
+      "A way to share writing with at least two other students (printed copies, a shared doc, or reading aloud in a small group)"
+    ],
+    "facilitationScript": "1. Complete the vocabulary-recap activity as a warm-up.\n2. Revise Wednesday's draft using the explanation block's checklist (identity, hay features, estar locations, ambiente/paisaje).\n3. Read the peer-comment-guidance block; practice one comment together on a sample sentence before reading real guías.\n4. Share guías with at least two other students (or family members) and exchange comments in Spanish.\n5. Complete the worksheet.\n6. Preview next week's topic: family, values, and la sobremesa.",
+    "differentiationTips": [
+      "Struggling: provide the peer-comment sentence starters as a physical reference card during the exchange, rather than expecting them from memory",
+      "Ready for more: challenge them to leave one comment that asks a genuine follow-up question requiring more than a yes/no answer",
+      "If no peer is available, have the student comment on one of this week's reading passages (Cartagena or Valparaíso) as a stand-in, using the same sentence starters"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct guía or set of comments — evaluate the revised draft against this week's full ser/estar/hay checklist, and evaluate comments for genuine, specific engagement (a real reaction or question) rather than generic praise.",
+    "standardsRationale": "Closes the week's WA-WL-2015.1.2 arc by moving from interpretive reading (Tuesday) through presentational writing (Wednesday) and speaking (Thursday) to genuine interpersonal exchange in writing, per the scope-and-sequence's Day 5 target ('publish Guía de mi ciudad entries; peer-read three and leave Spanish comments'). The vocabulary recap confirms the week's 7 words are solid before the final application task."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-4-5",
+    "lessonId": "lesson-spanish-9-4-5",
+    "title": "Publishing Guía de mi Ciudad: Peer Comments in Spanish",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use this sheet to revise your guía and plan your peer comments.",
+      "rows": [
+        { "problem": "List the four checklist items your revised guía needs to include (identity, hay features, estar locations, ambiente/paisaje) and check off each one in your draft." },
+        { "problem": "Write one peer comment you plan to leave using 'Me gusta cómo describiste...'" },
+        { "problem": "Write one peer comment using a genuine question: '¿Dónde está...?' or '¿Cómo es...?'" },
+        { "problem": "After reading three classmates' guías, which neighborhood sounded most different from yours, and why?" }
+      ]
+    }
+  }
+}

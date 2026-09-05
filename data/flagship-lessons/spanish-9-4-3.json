@@ -1,0 +1,77 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-4",
+    "courseId": "course-spanish-9",
+    "order": 4,
+    "title": "Describing Your World: Ser, Estar, and Haber",
+    "weekOfYear": 4
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-4-3",
+    "unitId": "unit-spanish-9-4",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Writing Your Neighborhood Tour: Hay, Está, and Es in Variety",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've read professional place-description; now you write your own. Today's task has one real constraint: your neighborhood tour needs genuine hay/está/es variety, not just one word repeated because it's the one you're most comfortable with."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A tour that leans on one word reads as flat, even in English: 'My neighborhood is quiet. My neighborhood is near downtown. My neighborhood is nice.' — three ser sentences that could each be doing a completely different job. Compare: Mi barrio es tranquilo y familiar. (identity/character) Hay un parque y dos tiendas pequeñas cerca de mi casa. (introducing what exists, unspecified) El parque está a cinco minutos a pie, y la tienda más grande está ubicada en la esquina. (locating the specific things you just introduced) El ambiente los fines de semana está muy animado, con vecinos que salen a caminar. (a current, describable state) Same neighborhood, four sentences, four different jobs — and now it reads like an actual description instead of a list of facts about one topic."
+      },
+      {
+        "type": "text",
+        "ref": "template",
+        "text": "Build your own Guía de mi barrio draft in this order:\nEmpieza con la identidad — one or two ser sentences: what kind of neighborhood is it, in general (tranquilo, ruidoso, residencial, histórico...)?\nPresenta lo que hay — two or three hay sentences introducing specific features (a park, a store, a school) with un/una/dos/muchos, not yet with el/la.\nUbica esas cosas — now that you've introduced them, one or two estar sentences (or estar ubicado/a) saying exactly where each one is, using el/la this time.\nDescribe el ambiente o el paisaje — one sentence about the current mood, feel, or view of the neighborhood, choosing ser or estar depending on whether you mean its general character or how it feels right now.\nAim for 6-10 connected sentences — a tour someone could actually follow, not four separate answers stapled together."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Save this draft. Tomorrow you describe a photo out loud to a partner who's never seen it — and Friday, this exact draft becomes the guía you publish and share for peer comments."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-4-3",
+    "lessonId": "lesson-spanish-9-4-3",
+    "objectives": [
+      "Write a 6-10 sentence neighborhood description using at least one ser sentence (identity), two hay sentences (introducing unspecified features), and one estar sentence (locating a specific feature)",
+      "Correctly move a feature from an indefinite hay introduction to a definite estar location within the same short passage"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Yesterday's reading passages, for reference"],
+    "facilitationScript": "1. Revisit the explanation block's four-sentence example aloud, having the student name which job each sentence is doing (identity, existence, location, state).\n2. Walk through the template's four sections one at a time on the worksheet.\n3. Combine the four sections into one connected paragraph, checking that at least one hay-introduced feature gets picked back up later with estar + el/la.\n4. Read the finished draft aloud once.\n5. File the draft for tomorrow's speaking task and Friday's publishing task.\n6. Preview tomorrow's photo-prompt speaking activity.",
+    "differentiationTips": [
+      "Struggling: it's fine to describe just two features (one hay, one estar) thoroughly rather than three or four thinly — one correct hay-to-estar handoff beats four rushed sentences",
+      "Ready for more: challenge them to include one ambiente or paisaje sentence where the ser/estar choice actually changes the meaning, and explain the difference in a margin note",
+      "The most common error here is the same one from Monday — hay with el/la. Catch it in the moment: 'is this the first time we're meeting this thing, or do we already know which one?'"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct paragraph — evaluate for at least one ser sentence (general identity/character), at least two hay sentences using indefinite articles or quantities (never el/la), at least one estar sentence correctly locating something already introduced, and 6-10 connected sentences rather than four disconnected answers.",
+    "standardsRationale": "Serves WA-WL-2015.1.2 by requiring the student to apply this week's ser/estar/hay map in original presentational writing, not just recognize it in someone else's text, per the scope-and-sequence's Day 3 target ('neighborhood tour writing — describe your barrio with hay/está/es variety'). This draft is the direct foundation for Thursday's spoken description and Friday's published guía."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-4-3",
+    "lessonId": "lesson-spanish-9-4-3",
+    "title": "Writing Your Neighborhood Tour: Hay, Está, and Es in Variety",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Draft your Guía de mi barrio using the sentence starters from today's lesson. Write in Spanish where you can.",
+      "prompts": [
+        { "prompt": "Empieza con la identidad: one or two ser sentences about what kind of neighborhood yours is, in general.", "lines": 2 },
+        { "prompt": "Presenta lo que hay: two or three sentences introducing specific features with hay (use un/una/dos/muchos, not el/la).", "lines": 3 },
+        { "prompt": "Ubica esas cosas: one or two sentences using estar (or estar ubicado/a) to say exactly where those features are, now using el/la.", "lines": 2 },
+        { "prompt": "Describe el ambiente o el paisaje: one sentence about the neighborhood's current mood or view.", "lines": 2 },
+        { "prompt": "Now combine your answers above into one connected paragraph (6-10 sentences), in Spanish.", "lines": 6 }
+      ]
+    }
+  }
+}

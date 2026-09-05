@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-1",
+    "courseId": "course-spanish-k",
+    "order": 1,
+    "title": "Welcome: Greetings & Goodbyes",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-1-1",
+    "unitId": "unit-spanish-k-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Hello, Hola! Meet Sol the Sun Puppet",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Meet Sol, our sunshine puppet! Sol loves to say hello. Wave your hand with Sol — big and bright, like a sunrise!"
+      },
+      {
+        "type": "text",
+        "ref": "song",
+        "text": "Sing Sol's hello song with your grown-up:\n☀️ ¡Hola, hola, hola! ☀️\nWave your hand and say it too — [[hola]]!"
+      },
+      {
+        "type": "text",
+        "ref": "practice",
+        "text": "Now Sol has to go. Wave goodbye and say [[adiós]]! Wave big, just like you did for hola."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You said hola to say hello and adiós to say goodbye — just like Sol! Tomorrow, Sol will show you how to say good morning and good night."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-1-1",
+    "lessonId": "lesson-spanish-k-1-1",
+    "objectives": [
+      "Say hola (hello) and wave in response to a greeting cue",
+      "Say adiós (goodbye) and wave when a puppet or person leaves"
+    ],
+    "materialsNeeded": ["A puppet, stuffed animal, or drawn paper sun to be 'Sol'", "A little open space to wave big"],
+    "facilitationScript": "1. Introduce Sol (any puppet, stuffed toy, or a paper sun you draw together) as today's guide.\n2. Make Sol wave and say '¡Hola!' in a cheerful voice; encourage your child to wave back and echo hola.\n3. Sing the simple hello song together 2-3 times, waving big each time you say hola.\n4. Have Sol 'leave' (hide behind your back or walk away) and say '¡Adiós!' — encourage your child to wave and echo adiós.\n5. Repeat the hola/adiós echo 3-4 times with Sol popping in and out until it feels playful and automatic.\n6. Close by asking your child: 'What do we say when Sol comes? What do we say when Sol goes?'",
+    "differentiationTips": [
+      "Struggling: focus on just hola today and treat adiós as 'the other wave word' without expecting a clean echo yet — one new sound at a time is plenty",
+      "Ready for more: have your child make their own puppet wave hola to a family pet, sibling, or stuffed animal to practice with someone new",
+      "This is a listening-and-echoing lesson, not a reading lesson — your child never needs to see these words written down to learn them"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken echo activity — success looks like your child waving and attempting hola/adiós out loud, not a written right/wrong answer.",
+    "standardsRationale": "Opens the course's very first ACTFL Interpersonal Communication target (WA-WL-2015.1.1) the way the K-2 band's oral/aural-first design calls for: a sung, physical, echo-based introduction to the two most basic greeting words, with zero reading required."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-1-1",
+    "lessonId": "lesson-spanish-k-1-1",
+    "title": "Hello and Goodbye with Sol",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together — there's nothing for your child to write today.",
+      "rows": [
+        { "problem": "Make Sol wave and say '¡Hola!' Have your child wave back and echo hola." },
+        { "problem": "Make Sol hide and say '¡Adiós!' Have your child wave and echo adiós." },
+        { "problem": "Ask your child: 'What do we say when someone arrives?' (hola) 'What do we say when someone leaves?' (adiós)" }
+      ]
+    }
+  }
+}

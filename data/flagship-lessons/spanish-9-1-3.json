@@ -1,0 +1,116 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-1",
+    "courseId": "course-spanish-9",
+    "order": 1,
+    "title": "Launch: Proficiency Goals & the Seal of Biliteracy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-1-3",
+    "unitId": "unit-spanish-9-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Where You're Starting: Can-Do Statements & a Greetings Refresher",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.5.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every long-term goal needs an honest starting point. Today you'll do a real self-assessment using the same 'can-do statement' method language programs use nationally, plus a quick refresher on greetings — the one skill almost every beginning Spanish student has touched in some form before."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[la autoevaluación]] — self-assessment — is exactly what ACTFL's can-do statements are built for: instead of asking 'what do you know,' they ask 'what can you actually do,' at each proficiency level. A Novice-level can-do statement looks like: 'I can greet people and say goodbye using memorized words and phrases,' or 'I can introduce myself using simple, rehearsed language.' An Intermediate-level can-do statement looks noticeably different: 'I can ask and answer simple questions on familiar topics,' or 'I can handle a short, everyday social situation — like ordering food or making plans — without a script.' Read each one carefully: the Novice statements describe surviving a fixed exchange; the Intermediate ones describe handling something slightly unpredictable.\n\nBefore you self-assess, here's a quick refresher on greetings and introductions — skip ahead confidently if this is already familiar, or treat it as new if it isn't; either way is a normal place to start in week one: Hola (hello), ¿Cómo estás? (how are you, informal), Me llamo... (my name is...), Mucho gusto (nice to meet you), ¿De dónde eres? (where are you from), Soy de... (I'm from...), Adiós / Hasta luego (goodbye / see you later)."
+      },
+      {
+        "type": "text",
+        "ref": "self-assessment",
+        "text": "Answer honestly — there's no wrong starting point in week one. For each can-do statement below, mark whether you can already do it, partly do it, or not yet:\n1. I can say hello and goodbye in Spanish.\n2. I can introduce myself and give my name.\n3. I can ask someone their name and understand a simple answer.\n4. I can ask and answer a simple question on a familiar topic without reading from a script.\n5. I can handle a short, unscripted social exchange, like ordering food.\n\nStatements 1-3 are Novice-level. Statements 4-5 are Intermediate-level. Wherever your honest answers land today, write it down — you'll compare this exact list again at the end of the year."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have real data on where you're starting, not a guess. Tomorrow: a fast-paced check across four more categories — numbers, questions, courtesy, and survival phrases."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "'I can say hello, introduce myself with memorized phrases, and say goodbye' describes which proficiency level?",
+              "options": ["Novice", "Intermediate", "Advanced", "Superior"],
+              "answer": 0,
+              "explanation": "Relying on memorized, rehearsed language for a fixed exchange is the Novice-level pattern."
+            },
+            {
+              "q": "'I can ask and answer simple questions and handle a short, everyday conversation on a familiar topic without a script' describes which level?",
+              "options": ["Novice", "Intermediate", "Advanced", "Superior"],
+              "answer": 1,
+              "explanation": "Handling something slightly unscripted on a familiar topic is the Intermediate-level threshold."
+            },
+            {
+              "q": "Which phrase means 'Nice to meet you'?",
+              "options": ["Mucho gusto", "Hasta luego", "¿De dónde eres?", "Me llamo Ana"],
+              "answer": 0,
+              "explanation": "Mucho gusto is the standard phrase for 'Nice to meet you.'"
+            },
+            {
+              "q": "Which question asks 'Where are you from?'",
+              "options": ["¿Cómo estás?", "¿De dónde eres?", "¿Cómo te llamas?", "¿Qué tal?"],
+              "answer": 1,
+              "explanation": "¿De dónde eres? literally asks 'from where are you.'"
+            },
+            {
+              "q": "What does 'Me llamo...' mean?",
+              "options": ["I am from...", "My name is...", "I like...", "I feel..."],
+              "answer": 1,
+              "explanation": "Me llamo... literally means 'I call myself...,' used to give your name."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-1-3",
+    "lessonId": "lesson-spanish-9-1-3",
+    "objectives": [
+      "Distinguish Novice-level from Intermediate-level can-do statements",
+      "Recall and correctly use basic Spanish greeting and introduction phrases"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Explain that can-do statements are the actual method language programs use for self-placement, not a made-up classroom exercise.\n2. Read the Novice and Intermediate can-do examples together and discuss what's structurally different about them.\n3. Walk through the greeting refresher list, having the student read each phrase aloud.\n4. Have the student honestly self-assess against the five can-do statements — reassure them there's no wrong starting point in week one.\n5. Complete the multiple-choice activity.\n6. Complete the worksheet.\n7. Preview tomorrow's speed self-check.",
+    "differentiationTips": [
+      "Struggling: if none of the greeting phrases are familiar yet, that's a completely normal week-one starting point — treat the self-assessment as a real baseline, not a quiz to pass",
+      "Ready for more: if the student already handles all five can-do statements comfortably, ask them to attempt one Advanced-level task off the top of their head (e.g., 'explain why you'd recommend a restaurant') and see how far intuition carries them",
+      "Keep the self-assessment low-stakes and literally save the written answers — the plan is to compare this same list again during the year-end portfolio review"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Statements 1-3 are Novice-level (memorized greetings/intro). Statements 4-5 are Intermediate-level (unscripted, familiar-topic exchanges). Mucho gusto = nice to meet you. ¿De dónde eres? = where are you from?",
+    "standardsRationale": "Serves WA-WL-2015.5.2's Lifelong Learning focus by giving the student real, ACTFL-aligned self-assessment tools rather than a vague self-rating — the scope-and-sequence names 'baseline self-assessment with can-do statements' as this exact day's target, paired with a light greetings refresher that doesn't assume prior course exposure, since this is genuinely the course's first week."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-1-3",
+    "lessonId": "lesson-spanish-9-1-3",
+    "title": "Where You're Starting: Can-Do Statements & a Greetings Refresher",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's can-do statements and greetings refresher.",
+      "rows": [
+        { "problem": "Write one Novice-level can-do statement and one Intermediate-level can-do statement, in your own words." },
+        { "problem": "Right now, which can-do statements can you already do in Spanish, if any? Be honest — this is your baseline, not a test." },
+        { "problem": "Write the Spanish phrase for 'Nice to meet you.'" },
+        { "problem": "Write the Spanish question for 'Where are you from?'" }
+      ]
+    }
+  }
+}

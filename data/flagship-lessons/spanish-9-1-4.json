@@ -1,0 +1,111 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-1",
+    "courseId": "course-spanish-9",
+    "order": 1,
+    "title": "Launch: Proficiency Goals & the Seal of Biliteracy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-1-4",
+    "unitId": "unit-spanish-9-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Speed Self-Check: Numbers, Questions, Courtesy & Survival Phrases",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.5.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Set a timer if you want the full effect. Today is a fast-paced self-check across four practical categories — numbers, question words, courtesy phrases, and survival phrases. None of this assumes you've taken Spanish before; treat it as your second data point for this week's baseline, right alongside yesterday's can-do statements."
+      },
+      {
+        "type": "text",
+        "ref": "review-packet",
+        "text": "Four categories, one purpose — see what's already familiar and what isn't, honestly and quickly:\n\nNUMBERS: cero, uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez... up through veinte (twenty) for now.\nQUESTION WORDS: qué (what), quién (who), cómo (how), dónde (where), cuándo (when), por qué (why), cuánto (how much/many).\nCOURTESY PHRASES: por favor (please), gracias (thank you), de nada (you're welcome), perdón / disculpe (excuse me / pardon).\nSURVIVAL PHRASES: No entiendo (I don't understand), ¿Puede repetir, por favor? (Can you repeat, please?), ¿Dónde está...? (Where is...?), Necesito ayuda (I need help).\n\nThis is exactly the kind of practical, everyday language this course builds toward all year — you're not expected to have it locked in yet, in week one. Move through the self-check below quickly, trust your first instinct, and don't stop to worry over the ones you miss."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Numbers, questions, courtesy, and survival phrases: four practical categories down, and a second honest data point for your baseline. Tomorrow you put everything from this week together into one written commitment: your own proficiency goal statement."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "¿___ te llamas?",
+              "blankToken": "___",
+              "options": ["Cómo", "Dónde", "Cuándo", "Por qué"],
+              "answer": "Cómo"
+            },
+            {
+              "sentence": "Muchas gracias. — ___.",
+              "blankToken": "___",
+              "options": ["De nada", "Lo siento", "Buenas noches", "Hasta luego"],
+              "answer": "De nada"
+            },
+            {
+              "sentence": "No entiendo. ¿Puede ___, por favor?",
+              "blankToken": "___",
+              "options": ["repetir", "escuchar", "hablar", "escribir"],
+              "answer": "repetir"
+            },
+            {
+              "sentence": "Tengo quince ___.",
+              "blankToken": "___",
+              "options": ["años", "meses", "días", "semanas"],
+              "answer": "años"
+            },
+            {
+              "sentence": "___, ¿dónde está el baño?",
+              "blankToken": "___",
+              "options": ["Disculpe", "Chao", "Bien", "Nada"],
+              "answer": "Disculpe"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-1-4",
+    "lessonId": "lesson-spanish-9-1-4",
+    "objectives": [
+      "Recall basic Spanish numbers, question words, courtesy phrases, and survival phrases at a rapid pace",
+      "Use the self-check results as a second data point for this week's proficiency baseline"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Optional: a timer, for the intended fast pace"],
+    "facilitationScript": "1. Set the fast-paced framing explicitly — this is a speed self-check, not a test to study for.\n2. Read through all four categories together once at a normal pace.\n3. Time the student (optional) doing a quick self-quiz out loud on a few items from each category before the digital activity.\n4. Complete the cloze self-check activity.\n5. Complete the worksheet.\n6. Preview tomorrow's goal-statement writing task.",
+    "differentiationTips": [
+      "Struggling: if most categories feel brand-new, that's an entirely normal week-one result — note it honestly as the baseline and move on without dwelling",
+      "Ready for more: have them add three more items to any one category from memory or a quick search, and quiz a family member with their additions",
+      "This lesson uses a written self-check instead of audio (the scope-and-sequence's original 'speed-review carousel' framing) because no TTS/audio-generation infrastructure exists yet in the platform (open decision, expansion-plan-2026-09.md §12.9) — the written self-check tests the same recall speed the audio version would."
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "¿Cómo te llamas? / De nada / repetir / años / Disculpe.",
+    "standardsRationale": "Covers this week's Day 4 target (the scope-and-sequence's 'speed-review carousel' across numbers/questions/courtesy/survival phrases) through a fast written self-check rather than audio, since no audio-generation infrastructure exists yet (expansion-plan-2026-09.md §12.9) — content is explicitly framed as a diagnostic baseline, not a test of material the student is assumed to have already been taught this week, consistent with this being the course's actual first week."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-1-4",
+    "lessonId": "lesson-spanish-9-1-4",
+    "title": "Speed Self-Check: Numbers, Questions, Courtesy & Survival Phrases",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's four review categories.",
+      "rows": [
+        { "problem": "Write the Spanish word for 'thank you' and for 'you're welcome.'" },
+        { "problem": "Write one Spanish survival phrase you'd use if you didn't understand something." },
+        { "problem": "Write the Spanish question word for 'how' and for 'where.'" },
+        { "problem": "Which of today's four categories (numbers, questions, courtesy, survival phrases) felt most familiar to you? Which felt newest?" }
+      ]
+    }
+  }
+}

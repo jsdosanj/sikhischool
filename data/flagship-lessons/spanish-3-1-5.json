@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-1",
+    "courseId": "course-spanish-3",
+    "order": 1,
+    "title": "Greetings & Courtesy: Buenos Días to Adiós",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-1-5",
+    "unitId": "unit-spanish-3-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Skit Day: Performing a Complete Greeting",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "All week you've learned pieces of a conversation — a hello, a question, an answer, a goodbye. Today you'll put them all together into one complete performance with a partner."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A complete Spanish greeting has a shape, just like a complete conversation in English does: first you say hello (buenos días, buenas tardes, or buenas noches, depending on the time of day), then you ask how the other person is doing (¿cómo estás?), then they answer (muy bien or mal) and usually ask you back, and finally you both say goodbye (adiós). If it's the first time you're meeting someone, you'd add mucho gusto and a handshake right after the hellos. Today's skit uses the hello-question-answer-goodbye shape you already know."
+      },
+      {
+        "type": "text",
+        "ref": "script",
+        "text": "Perform this 4-line skit with a partner (a family member works great). Pick the time-of-day greeting that matches when you're actually doing this lesson, and pick muy bien or mal based on how you really feel!\n\nLine 1 (you): ¡Buenos días! (or ¡Buenas tardes! / ¡Buenas noches!, depending on the time) ¿Cómo estás?\nLine 2 (your partner): Muy bien, gracias. (or Mal, gracias.) ¿Y tú?\nLine 3 (you): Muy bien también. (or Mal también.) ¡Adiós!\nLine 4 (your partner): ¡Adiós!\n\nPerform it once, then swap: whoever answered gets to ask first the second time through. Listen closely to each other and see how many of this week's five courtesy phrases you can spot across both performances: buenos días/tardes/noches, ¿cómo estás?, muy bien, mal, and adiós."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've now greeted someone, asked how they're doing, answered, and said goodbye — a real, complete conversation, entirely in Spanish. Next week, you'll use these same greeting skills to start introducing yourself: sharing your name and where you're from."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-1-5",
+    "lessonId": "lesson-spanish-3-1-5",
+    "objectives": [
+      "Perform a complete 4-line greeting-to-goodbye conversation from memory or from the script",
+      "Identify each of the week's five courtesy phrases when heard in a live performance"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A family member to perform the skit with"],
+    "facilitationScript": "1. Review the week's five greetings/courtesy phrases out loud: buenos días/tardes/noches, ¿cómo estás?, muy bien, mal, mucho gusto, adiós.\n2. Explain the shape of a complete conversation: hello, question, answer, goodbye.\n3. Read the 4-line skit together, having the child choose the correct time-of-day greeting for right now and a true muy bien/mal answer.\n4. Perform the skit once, then swap who asks first and perform it again.\n5. Complete the worksheet, including the listening-checklist question.\n6. Preview next week's topic: introducing yourself.",
+    "differentiationTips": [
+      "Struggling: perform the skit reading straight off the page first; only attempt it from memory on the second run-through, once the shape feels familiar",
+      "Ready for more: have them write and perform a THIRD line pair that adds mucho gusto, as if their partner were a brand-new person they're meeting for the first time instead of a friend",
+      "Recording the performance (phone video) gives a low-stakes way to review pronunciation together afterward, without the pressure of a live audience"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. The time-of-day greeting used depends on when the skit is performed (buenos días/tardes/noches — any is correct if it matches the real time). 2. Muy bien or mal, depending on the child's honest answer, is acceptable. 3. Adiós is the goodbye word used to close the conversation. 4. Any of the week's five courtesy phrases correctly spotted during the performance is acceptable.",
+    "standardsRationale": "Closes the week's WA-WL-2015.1.1 Interpersonal Communication arc with Presentational-style output — a full memorized conversation shape performed start to finish — which is exactly the 'memorized frames' starting point the Spanish 3-5 band notes call for at this stage of the course."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-1-5",
+    "lessonId": "lesson-spanish-3-1-5",
+    "title": "Skit Day: Performing a Complete Greeting",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using the skit you performed today.",
+      "rows": [
+        { "problem": "Which time-of-day greeting did you use to start your skit — buenos días, buenas tardes, or buenas noches?" },
+        { "problem": "Did you answer muy bien or mal? What does that word mean?" },
+        { "problem": "Which word did you and your partner both say to end the conversation?" },
+        { "problem": "Circle every courtesy phrase you heard during your partner's performance: buenos días / buenas tardes / buenas noches / ¿cómo estás? / muy bien / mal / mucho gusto / adiós" }
+      ]
+    }
+  }
+}

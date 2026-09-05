@@ -83,6 +83,19 @@ export default function SubjectIcon({
           <path d="M36 52 l10 10 l18 -22" stroke="#ffffff" strokeWidth="7" fill="none" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       );
+    case "spanish":
+      // A speech bubble (this repo's existing shorthand for "a language",
+      // see Punjabi above) carrying an inverted exclamation mark — Spanish's
+      // one distinctive punctuation mark, and dialect/country-neutral (no
+      // flag colors), matching Latin American Spanish being taught broadly
+      // rather than one specific country (plan §3 B1's dialect note).
+      return (
+        <svg {...common}>
+          <path d="M20 26 h60 a6 6 0 0 1 6 6 v28 a6 6 0 0 1 -6 6 H40 l-14 12 v-12 H20 a6 6 0 0 1 -6 -6 V32 a6 6 0 0 1 6 -6 Z" fill="#3aa0a0" />
+          <circle cx="50" cy="42" r="4" fill="#ffffff" />
+          <rect x="46" y="50" width="8" height="16" rx="3" fill="#ffffff" />
+        </svg>
+      );
     case "digital-literacy":
       return (
         <svg {...common}>

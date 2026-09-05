@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-1",
+    "courseId": "course-spanish-k",
+    "order": 1,
+    "title": "Welcome: Greetings & Goodbyes",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-1-3",
+    "unitId": "unit-spanish-k-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Sol Forgets the Magic Words: Por Favor & Gracias",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Uh oh — Sol wants a hug, but forgot to say the magic word! Can you help Sol remember?"
+      },
+      {
+        "type": "text",
+        "ref": "practice-request",
+        "text": "When you want something, say [[por favor]] — that means 'please'! Ask Sol: '¿Un abrazo, por favor?' (A hug, please?)"
+      },
+      {
+        "type": "text",
+        "ref": "practice-thanks",
+        "text": "When you get something, say [[gracias]] — that means 'thank you'! When Sol gives you a hug, say '¡Gracias!'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You coached Sol to use por favor and gracias — the magic words! Tomorrow, you'll play a sí and no game with Sol."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-1-3",
+    "lessonId": "lesson-spanish-k-1-3",
+    "objectives": [
+      "Use por favor (please) when requesting something",
+      "Use gracias (thank you) when receiving something"
+    ],
+    "materialsNeeded": ["Sol the puppet (or stuffed animal/toy from Day 1)", "A small object to 'give and receive' (toy, snack, or just a hug)"],
+    "facilitationScript": "1. Have Sol try to take something (a toy, a hug, a snack) without asking politely — pause and look confused, like Sol forgot something.\n2. Ask your child: 'What did Sol forget?' Coach them to prompt Sol with por favor.\n3. Have Sol ask properly: '¿Un abrazo, por favor?' and give your child a hug or the object.\n4. Coach your child to respond with '¡Gracias!' when they receive it.\n5. Swap roles — let your child be 'Sol' and forget the magic words, while you coach them.\n6. Repeat 3-4 times with different small requests (a toy, a snack, a high-five) until por favor and gracias feel automatic.\n7. Close by asking: 'What do we say when we want something? What do we say when we get it?'",
+    "differentiationTips": [
+      "Struggling: focus on gracias alone first, since it comes up more often day-to-day; add por favor once gracias feels natural",
+      "Ready for more: have your child coach a family member or sibling who 'forgets' the magic words at snack time or during a game",
+      "Real-life repetition matters more than a perfect lesson — keep prompting por favor and gracias naturally all week during actual mealtimes and requests"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a role-play coaching activity — success looks like your child prompting 'por favor' before receiving something and saying 'gracias' after, not a written answer.",
+    "standardsRationale": "Extends the week's WA-WL-2015.1.1 Interpersonal Communication target into courtesy formulas, which ACTFL treats as core to interpersonal exchange — introduced here through role-play and coaching rather than direct instruction, since coaching a puppet gives the child ownership of the 'magic words' instead of being lectured about them."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-1-3",
+    "lessonId": "lesson-spanish-k-1-3",
+    "title": "Sol Forgets the Magic Words",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and act it out together.",
+      "rows": [
+        { "problem": "Have Sol try to take a toy without asking. Ask your child: 'What did Sol forget?' Coach them to say '¡Por favor!'" },
+        { "problem": "Give your child the toy after they say por favor. Coach them to say '¡Gracias!'" },
+        { "problem": "Swap roles: let your child be Sol and 'forget' the magic words while you coach them." }
+      ]
+    }
+  }
+}

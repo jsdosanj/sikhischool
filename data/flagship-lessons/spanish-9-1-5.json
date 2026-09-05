@@ -1,0 +1,80 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-1",
+    "courseId": "course-spanish-9",
+    "order": 1,
+    "title": "Launch: Proficiency Goals & the Seal of Biliteracy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-1-5",
+    "unitId": "unit-spanish-9-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Writing Your Proficiency Goal Statement",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.5.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Everything this week has been building to one thing: a written commitment, in Spanish, to a specific proficiency target — not a vague hope, a real goal you're sealing today and reopening at the end of the year to measure against."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[la meta a largo plazo]] — a long-term goal — only works if it's specific. 'I want to be good at Spanish' isn't a meta a largo plazo; it's a wish. A real one names three things: the exact ACTFL level you're aiming for, a realistic timeline, and the concrete actions you'll actually take to get there. This course's own trajectory gives you a built-in timeline to anchor to: Intermediate Low by around 11th grade, and Intermediate Mid — the actual Seal of Biliteracy threshold from Tuesday's lesson — by senior year. You don't have to commit to exactly that pace today, but it's a realistic, research-backed target to measure your own goal against."
+      },
+      {
+        "type": "text",
+        "ref": "template",
+        "text": "Use these sentence starters to build your goal statement — mixing English and Spanish is completely fine this week; you'll get more comfortable staying in Spanish as the year goes on:\n\nMi meta a nivel de dominio es... (My proficiency goal is...)\nQuiero lograr esto para... (I want to achieve this by [timeframe]...)\nPara lograrlo, voy a... (To achieve this, I'm going to...) — name 2-3 real actions: practicing outside class, watching a show in Spanish, keeping a vocabulary journal, talking with a Spanish-speaking family member or neighbor, etc.\nEsto es importante para mí porque... (This matters to me because...)"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Save what you write today — literally. At the end of this year, you'll read it again next to a new recording of your own Spanish, the same way today's lesson compared two different speakers. That comparison is the whole point of a baseline. Next week: identity and heritage, the first real conversation topic of the year."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-1-5",
+    "lessonId": "lesson-spanish-9-1-5",
+    "objectives": [
+      "Write a specific proficiency goal statement in Spanish naming a target ACTFL level, timeline, and concrete actions",
+      "Connect this week's proficiency-scale and Seal-of-Biliteracy content into a personal, motivating commitment"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "Optional: a phone or recording device, if the family wants to keep a personal audio keepsake of today's goal statement for comparison at year's end (not required, and not stored on the platform)"
+    ],
+    "facilitationScript": "1. Review the week briefly: Novice vs. Intermediate (Day 1), the Seal of Biliteracy and credit crosswalk (Day 2), the self-assessment baseline (Days 3-4).\n2. Read the sentence-starter template together.\n3. Have the student draft answers to each starter on the worksheet before combining them into one paragraph.\n4. Encourage the student to name a specific, personally realistic timeline rather than copying the course's default pace exactly.\n5. Optional: record the finished goal statement being read aloud, purely as a family keepsake — this isn't uploaded or stored anywhere by the platform.\n6. File the finished statement somewhere it will actually be found again at year's end.\n7. Preview next week's topic: identity and heritage.",
+    "differentiationTips": [
+      "Struggling: if naming a specific ACTFL level feels too abstract, let them anchor to a plain-language version instead — 'able to have a real conversation about my day' — and translate that into Intermediate-level language together afterward",
+      "Ready for more: have them research one concrete way Spanish proficiency could matter for a career or college path they're actually interested in, and fold that into the 'porque' (why) section",
+      "Keep this low-pressure and genuinely personal — an honest, modest goal the student will actually work toward beats an impressive-sounding one they'll abandon by week three"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct goal statement — evaluate for specificity (a named ACTFL level or clear plain-language equivalent), a realistic timeline, at least two concrete actions, and a genuine personal reason, per today's template.",
+    "standardsRationale": "Closes the week's WA-WL-2015.5.2 (Communities: Lifelong Learning) arc by turning the week's factual content — the proficiency scale (Day 1), the Seal of Biliteracy and credit law (Day 2), and the self-assessed baseline (Days 3-4) — into a personally authored commitment, exactly the 'own the path to it' framing the scope-and-sequence names for this standard tag."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-1-5",
+    "lessonId": "lesson-spanish-9-1-5",
+    "title": "Writing Your Proficiency Goal Statement",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Draft your proficiency goal statement using the sentence starters from today's lesson. Write your answers in Spanish where you can.",
+      "prompts": [
+        { "prompt": "Mi meta a nivel de dominio es... (What ACTFL level are you aiming for, and by when?)", "lines": 3 },
+        { "prompt": "Para lograrlo, voy a... (List 2-3 concrete actions you'll actually do this year.)", "lines": 3 },
+        { "prompt": "Esto es importante para mí porque... (Why does this goal matter to you personally?)", "lines": 3 },
+        { "prompt": "Now combine your answers above into one complete goal statement paragraph, in Spanish.", "lines": 5 }
+      ]
+    }
+  }
+}

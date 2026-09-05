@@ -1,0 +1,15 @@
+# False positives only — never use this file to suppress a real secret.
+# Each entry is a specific gitleaks fingerprint (file:rule:line), not a
+# blanket rule exemption, so it can't accidentally hide an unrelated finding
+# in the same file later.
+#
+# "matching-pairs-v1" (a public games-engine component key, see
+# src/components/games/registry.ts) trips the generic-api-key heuristic on
+# entropy alone — it's not a secret, just a dash-separated lowercase string
+# that happens to compute high enough entropy. Content authoring will likely
+# keep re-triggering this for whichever exact componentKey string happens to
+# hash unluckily; if it recurs often, a proper allowlist regex in a
+# .gitleaks.toml would be the durable fix over adding fingerprints one at a
+# time here.
+data/flagship-lessons/spanish-3-1-1.json:generic-api-key:48
+data/flagship-lessons/spanish-k-1-2.json:generic-api-key:43

@@ -1,0 +1,93 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-1",
+    "courseId": "course-spanish-3",
+    "order": 1,
+    "title": "Greetings & Courtesy: Buenos Días to Adiós",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-1-3",
+    "unitId": "unit-spanish-3-1",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Mucho Gusto: Meeting Someone for the First Time",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "So far this week you've greeted people you already know — your family, your friends. But what do you say the very first time you meet someone brand new?"
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[mucho gusto]] means 'nice to meet you.' You only say it the first time you meet a person — you wouldn't say mucho gusto to your best friend every single morning, because you already know each other! In many Spanish-speaking countries, people shake hands (or, between close family and friends, sometimes give a light hug or a kiss on the cheek) when they meet someone new, the same way people in the United States often shake hands when they're introduced. A handshake plus mucho gusto is a warm, respectful way to meet someone for the first time, no matter which Spanish-speaking country you're in."
+      },
+      {
+        "type": "text",
+        "ref": "meet-and-greet",
+        "text": "Here is the short exchange you'll use when meeting someone new:\n\nANA: ¡Hola! Me llamo Ana.\nDIEGO: Mucho gusto, Ana. Me llamo Diego.\nANA: Mucho gusto, Diego.\n\nNow it's time for speed rounds! Say this exact exchange with three different family members, one after another, as fast as you can while still saying every word clearly. Shake hands with each person right after you say mucho gusto — just like a real first introduction."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You've now learned how to meet someone new in Spanish and greet them properly with a handshake. Tomorrow you'll read a comic strip and figure out which greeting fits each picture."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "good morning", "answer": "buenos días" },
+            { "prompt": "good afternoon", "answer": "buenas tardes" },
+            { "prompt": "good evening / good night", "answer": "buenas noches" },
+            { "prompt": "how are you?", "answer": "¿cómo estás?" },
+            { "prompt": "very well", "answer": "muy bien" },
+            { "prompt": "badly, not well", "answer": "mal" },
+            { "prompt": "nice to meet you", "answer": "mucho gusto" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-1-3",
+    "lessonId": "lesson-spanish-3-1-3",
+    "objectives": [
+      "Say mucho gusto correctly when meeting someone for the first time, paired with a handshake",
+      "Recall this week's greeting vocabulary quickly under light time pressure"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Three family members (or the same person three times, pretending to be new each time) for the speed rounds"],
+    "facilitationScript": "1. Ask the child what they say in English the very first time they meet someone new ('Nice to meet you').\n2. Introduce mucho gusto and the handshake custom that often goes with it.\n3. Read the Ana/Diego meet-and-greet script together, then have the child perform it once slowly.\n4. Run the speed rounds: the child performs the same short exchange with three different people back-to-back, shaking hands each time.\n5. Complete the speed-drill activity, recalling this week's greetings quickly.\n6. Complete the worksheet.\n7. Preview tomorrow's comic strip.",
+    "differentiationTips": [
+      "Struggling: slow the speed rounds down to a comfortable pace first — the goal is saying every word, not racing; speed can increase on a second pass",
+      "Ready for more: have them introduce two family members to EACH OTHER in Spanish, saying each person's name and mucho gusto on their behalf",
+      "If handshaking feels awkward for a child, a simple wave paired with mucho gusto works just as well — the phrase matters more than the exact gesture"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Mucho gusto means 'nice to meet you' and is only said the first time you meet someone. It is often paired with a handshake.",
+    "standardsRationale": "Adds the week's third distinct greeting function (meeting someone new, as opposed to greeting someone you already know) to the WA-WL-2015.1.1 Interpersonal Communication target — the scope-and-sequence specifically calls for speed rounds here to build quick, natural recall rather than slow, deliberate recitation."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-1-3",
+    "lessonId": "lesson-spanish-3-1-3",
+    "title": "Mucho Gusto: Meeting Someone for the First Time",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about meeting someone new in Spanish.",
+      "rows": [
+        { "problem": "What does mucho gusto mean in English?" },
+        { "problem": "When do you say mucho gusto — every day, or only the first time you meet someone?" },
+        { "problem": "Write what you would say if you met a new student named Carlos for the first time." },
+        { "problem": "What do many people do with their hands right after saying mucho gusto?" }
+      ]
+    }
+  }
+}

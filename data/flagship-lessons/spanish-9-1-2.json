@@ -1,0 +1,110 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-1",
+    "courseId": "course-spanish-9",
+    "order": 1,
+    "title": "Launch: Proficiency Goals & the Seal of Biliteracy",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-1-2",
+    "unitId": "unit-spanish-9-1",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "The Seal of Biliteracy & Washington's Credit Crosswalk",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.5.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you saw the difference between Novice and Intermediate Spanish. Today: why Washington State cares enough to write that difference into actual law, and what it's worth on your high school transcript."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Washington's Seal of Biliteracy is a real, legal credential (RCW 28A.300.575) — a special designation on your diploma showing you've reached genuine proficiency in English and at least one other language. For world languages, the law sets the bar at Intermediate Mid, and it doesn't hedge about what that means: the statute itself describes Intermediate Mid as the equivalent of four years of high school World Language courses. That's [[el dominio]] — real command of the language, not just exposure to it — and it's the actual target this four-year course is built around, not a stretch goal.\n\nWashington also runs a separate, competency-based credit system for world languages (RCW 28A.230.090) that grants credit for what you can demonstrably do, not just for seat time: Novice Mid earns 1 credit, Novice High earns 2 credits, Intermediate Low earns 3 credits, and Intermediate Mid or higher earns 4 credits — the same Intermediate Mid bar the Seal itself requires. Here's the part worth being honest about: Washington's actual graduation minimum in this system stops at Novice High — 2 credits. A student can graduate having never gone further than memorized phrases and short, scripted exchanges. This course isn't built for that minimum. It's built to get you two levels past it, to where you can genuinely [[comunicarse]] — communicate — with real speakers on real topics, because that's the level the Seal, and eventually a resume or a college application, actually rewards."
+      },
+      {
+        "type": "text",
+        "ref": "credit-crosswalk",
+        "text": "The full crosswalk, in one place:\n— Novice Mid → 1 credit\n— Novice High → 2 credits (Washington's graduation minimum)\n— Intermediate Low → 3 credits\n— Intermediate Mid or higher → 4 credits (the Seal of Biliteracy threshold, and this course's real target)"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know exactly what this course is worth on paper: not a grade, but a legally defined credential and up to four real credits. Tomorrow, you'll take an honest first measurement of where you're actually starting."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "According to Washington's Seal of Biliteracy law (RCW 28A.300.575), what proficiency level does a world language require?",
+              "options": ["Novice High", "Intermediate Low", "Intermediate Mid", "Advanced Low"],
+              "answer": 2,
+              "explanation": "The law itself sets the world-language bar at Intermediate Mid, described as equivalent to four years of high school World Language courses."
+            },
+            {
+              "q": "Under WA's competency-based credit crosswalk (RCW 28A.230.090), how many credits does Intermediate Mid or higher proficiency earn?",
+              "options": ["1 credit", "2 credits", "3 credits", "4 credits"],
+              "answer": 3,
+              "explanation": "Intermediate Mid or higher earns 4 credits — the same level the Seal of Biliteracy requires."
+            },
+            {
+              "q": "What is Washington's actual graduation minimum in this same credit system?",
+              "options": ["Novice Mid (1 credit)", "Novice High (2 credits)", "Intermediate Low (3 credits)", "Intermediate Mid (4 credits)"],
+              "answer": 1,
+              "explanation": "Graduation only requires Novice High (2 credits) — two full levels below the Seal's Intermediate Mid threshold."
+            },
+            {
+              "q": "The law describes Intermediate Mid as equivalent to how many years of high school World Language courses?",
+              "options": ["Two years", "Three years", "Four years", "Five years"],
+              "answer": 2,
+              "explanation": "RCW 28A.300.575 describes Intermediate Mid as equivalent to four years of high school World Language study."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-1-2",
+    "lessonId": "lesson-spanish-9-1-2",
+    "objectives": [
+      "State the proficiency level Washington's Seal of Biliteracy requires for a world language, citing RCW 28A.300.575",
+      "Explain WA's competency-based credit crosswalk (RCW 28A.230.090) and identify the gap between the graduation minimum and the Seal threshold"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask the student what they think a 'Seal of Biliteracy' is, before telling them — most have heard the phrase without knowing the actual requirement.\n2. Read the explanation block together, pausing on the two RCW citations.\n3. Walk through the credit crosswalk list, having the student note which level they'd need for 1/2/3/4 credits.\n4. Complete the multiple-choice activity.\n5. Complete the worksheet.\n6. Preview tomorrow's baseline self-assessment.",
+    "differentiationTips": [
+      "Struggling: focus first on just two numbers — 2 credits (graduation) vs. 4 credits (Seal) — before introducing the full four-level crosswalk",
+      "Ready for more: have them look up whether their specific high school lists the Seal of Biliteracy on transcripts or diplomas (school websites vary) and bring back what they find",
+      "Keep this concrete, not abstract: frame the 4-credit target as literally 'two levels past the minimum most students stop at,' which is the honest, motivating framing this course is built on"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "1. Intermediate Mid. 2. 4 credits. 3. Novice High, 2 credits. 4. Four years.",
+    "standardsRationale": "Directly serves WA-WL-2015.5.2 (Communities: Lifelong Learning) by grounding the course's proficiency target in the actual cited law rather than an invented number — RCW 28A.300.575 and RCW 28A.230.090, both verified against primary sources per expansion-plan-2026-09.md §3 B1 — so the student's goal-setting later this week rests on real, checkable facts."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-1-2",
+    "lessonId": "lesson-spanish-9-1-2",
+    "title": "The Seal of Biliteracy & Washington's Credit Crosswalk",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's lesson on the Seal of Biliteracy and the credit crosswalk.",
+      "rows": [
+        { "problem": "What does Washington's Seal of Biliteracy (RCW 28A.300.575) require for a world language, according to the law itself?" },
+        { "problem": "How many credits does Intermediate Mid or higher proficiency earn under WA's credit crosswalk (RCW 28A.230.090)?" },
+        { "problem": "What is the state's graduation minimum in this same system, and which ACTFL level does it correspond to?" },
+        { "problem": "In your own words, why are 'graduating' and 'earning the Seal' two different goals in this course?" }
+      ]
+    }
+  }
+}

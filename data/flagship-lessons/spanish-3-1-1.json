@@ -1,0 +1,97 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-1",
+    "courseId": "course-spanish-3",
+    "order": 1,
+    "title": "Greetings & Courtesy: Buenos Días to Adiós",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-1-1",
+    "unitId": "unit-spanish-3-1",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Good Morning, Good Afternoon, Good Night: Time-of-Day Greetings",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "In English, you say 'Good morning' when you wake up, but you would never say 'Good morning' right before bed — you would say 'Good night' instead. The greeting word changes depending on what time of day it is. Spanish greetings work exactly the same way, and this week you are going to learn all of them."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Spanish has three different greetings for three different times of day. [[buenos días]] means 'good morning' — use it from the time you wake up until about midday. [[buenas tardes]] means 'good afternoon' — use it from midday until it starts getting dark. [[buenas noches]] means 'good evening' or 'good night' — use it once it is dark outside, whether you are greeting someone in the evening or saying good night before bed. Notice the pattern: all three greetings start with a word that means 'good,' just like 'good morning' and 'good night' do in English — only the second word changes to match the time of day."
+      },
+      {
+        "type": "text",
+        "ref": "practice",
+        "text": "Look at each clock picture below and say the greeting that matches it, out loud.\n\n1. It's 7:00 in the morning. The sun is just coming up, and you're eating breakfast before school.\n2. It's 2:00 in the afternoon. The sun is high in the sky, and you just got home from school.\n3. It's 8:00 at night. The moon and stars are out, and you're getting ready for bed.\n\n(Answers: 1. buenos días  2. buenas tardes  3. buenas noches)"
+      },
+      {
+        "type": "text",
+        "ref": "notebook",
+        "text": "Today is your very first day writing in your Spanish notebook! Copy each greeting below two times, saying it out loud as you write it:\n\nbuenos días\nbuenas tardes\nbuenas noches\n\nWriting a new word helps your hand and your brain remember it together — you'll start many Spanish lessons this year the same way."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know three ways to say hello in Spanish, depending on the time of day. Tomorrow you'll learn how to ask a friend how they're doing — and how to answer."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Pick a clock scene on the left, then find the greeting that matches it on the right.",
+          "pairs": [
+            { "left": "The sun is coming up. You just woke up and are getting ready for school.", "right": "buenos días" },
+            { "left": "You're eating breakfast before school starts.", "right": "buenos días" },
+            { "left": "You just got home from school. The sun is still up but it's the middle of the afternoon.", "right": "buenas tardes" },
+            { "left": "It's 2:00 and the sun is high in the sky.", "right": "buenas tardes" },
+            { "left": "The moon and stars are out. It's time to put on pajamas and go to sleep.", "right": "buenas noches" },
+            { "left": "It's dark outside and your family is eating dinner.", "right": "buenas noches" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-1-1",
+    "lessonId": "lesson-spanish-3-1-1",
+    "objectives": [
+      "Say buenos días, buenas tardes, and buenas noches, and match each one to the correct time of day",
+      "Copy all three greeting phrases correctly into a notebook"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A notebook or a few sheets of blank paper for the child's 'Spanish notebook'"],
+    "facilitationScript": "1. Ask the child what they say in English when they wake up vs. right before bed — notice the WORD changes ('good morning' vs. 'good night'), not just the tone.\n2. Introduce buenos días, buenas tardes, and buenas noches together, pointing out the shared 'buenos/buenas' opening.\n3. Walk through the three clock scenarios out loud, having the child say the matching greeting for each.\n4. Have the child copy each greeting two times into their new Spanish notebook, saying it aloud while writing.\n5. Complete the matching activity together or independently.\n6. Complete the worksheet.\n7. Preview tomorrow: asking a friend how they're doing.",
+    "differentiationTips": [
+      "Struggling: start with just buenos días and buenas noches (morning vs. night are the easiest to picture) before adding buenas tardes as the 'in-between' one",
+      "Ready for more: ask them what time buenas tardes would stop and buenas noches would start in their own house at dinnertime, and why that might be a little different in summer vs. winter",
+      "If a child mixes up which word means 'morning' and which means 'afternoon,' point out that días (days) sounds like the word 'day,' which starts a new day — a small memory hook"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "1. Waking up in the morning: buenos días. 2. Home from school in the afternoon: buenas tardes. 3. Getting ready for bed at night: buenas noches.",
+    "standardsRationale": "Opens the course's first ACTFL Interpersonal Communication target (WA-WL-2015.1.1) with the very first vocabulary the scope-and-sequence names for week 1 — matches the band's literacy-just-beginning note by pairing new vocabulary with the child's first notebook copying, before any spoken dialogue is asked of them."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-1-1",
+    "lessonId": "lesson-spanish-3-1-1",
+    "title": "Good Morning, Good Afternoon, Good Night: Time-of-Day Greetings",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write each greeting two times. Say it out loud as you write it.",
+      "prompts": [
+        { "prompt": "Write buenos días (good morning) two times.", "lines": 2 },
+        { "prompt": "Write buenas tardes (good afternoon) two times.", "lines": 2 },
+        { "prompt": "Write buenas noches (good evening/good night) two times.", "lines": 2 }
+      ]
+    }
+  }
+}

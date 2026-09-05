@@ -1,0 +1,109 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-1",
+    "courseId": "course-spanish-k",
+    "order": 1,
+    "title": "Welcome: Greetings & Goodbyes",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-1-4",
+    "unitId": "unit-spanish-k-1",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Sí or No? A Silly Question Game with Sol",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol has a silly game today! Sol asks a question, and you give a thumbs up for [[sí]] (yes) or a thumbs down for [[no]] (no)."
+      },
+      {
+        "type": "text",
+        "ref": "practice-1",
+        "text": "Listen for the question: ¿Es un perro? 🐶 (Is that a dog?) Thumbs up and say sí, or thumbs down and say no!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-2",
+        "text": "Try another one: ¿Es un pez? 🐟 (Is that a fish?) Thumbs up and say sí, or thumbs down and say no!"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You answered with sí and no — just like a real conversation! Tomorrow is our biggest day yet: a greeting circle with Sol and all your favorite words."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Grown-up, read aloud: 🐶 ¿Es un perro? (Is this a dog?)",
+              "options": ["sí", "no"],
+              "answer": 0,
+              "explanation": "¡Sí! That is a dog."
+            },
+            {
+              "q": "Grown-up, read aloud: 🐟 ¿Es un perro? (Is this a dog?)",
+              "options": ["sí", "no"],
+              "answer": 1,
+              "explanation": "¡No! That is a fish, not a dog."
+            },
+            {
+              "q": "Grown-up, read aloud: 🌞 ¿Es de noche? (Is it night?)",
+              "options": ["sí", "no"],
+              "answer": 1,
+              "explanation": "¡No! The sun means it's daytime — buenos días!"
+            },
+            {
+              "q": "Grown-up, read aloud: 🌙 ¿Es de noche? (Is it night?)",
+              "options": ["sí", "no"],
+              "answer": 0,
+              "explanation": "¡Sí! The moon means it's nighttime — buenas noches!"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-1-4",
+    "lessonId": "lesson-spanish-k-1-4",
+    "objectives": [
+      "Answer a simple either/or question with sí (yes) or no (no), paired with a thumbs up/down gesture",
+      "Distinguish sí from no by sound and gesture in a playful question game"
+    ],
+    "materialsNeeded": ["Sol the puppet", "A few animal pictures or toys already at home (a dog, a fish, a cat — whatever you have)"],
+    "facilitationScript": "1. Explain the game: Sol will ask silly yes-or-no questions about pictures, and your child answers with a thumbs up (sí) or thumbs down (no) — say the words together too.\n2. Ask 2-3 silly questions aloud yourself first, e.g. 'Is a fish a dog? ¿Es un perro?' while pointing at a picture of a fish, letting your child answer sí or no with thumbs and words.\n3. Take turns — let your child make up a silly question for you to answer!\n4. Move to the on-screen sí/no activity: since your child likely can't read yet, read each question aloud to them, and let them choose sí or no on the screen while also giving a thumbs signal.\n5. Complete the worksheet the same way — read each line aloud.\n6. Close by asking: 'What do we say when the answer is yes? When it's no?'",
+    "differentiationTips": [
+      "Struggling: use only real objects in the room for the questions ('Is this a table? ¿Es una mesa?') so the answer is obvious and confidence-building",
+      "Ready for more: let your child ask Sol the silly questions instead of just answering them",
+      "The sillier the question, the better — asking something wrong on purpose ('¿Es un perro?' while pointing at a fish) makes the no answer fun instead of stressful"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "Read each question aloud with your child: 1. 'Is this a dog?' pointing at a dog picture — sí. 2. 'Is this a dog?' pointing at a fish picture — no. Any silly variation you invent follows the same pattern: sí if it matches the picture, no if it doesn't.",
+    "standardsRationale": "Targets sí/no as essential building blocks of Interpersonal Communication (WA-WL-2015.1.1) through a listening-and-gesture game adapted for read-aloud delivery, since the platform has no audio/TTS infrastructure yet for a true listening activity (open decision, expansion-plan-2026-09.md §12.9) — the parent's voice stands in for the recording, the same accommodation used in the grade-6 checkpoint's Day 4."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-1-4",
+    "lessonId": "lesson-spanish-k-1-4",
+    "title": "Sí or No? A Silly Question Game",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and have them answer with a thumbs up (sí) or thumbs down (no).",
+      "rows": [
+        { "problem": "Read aloud: '¿Es un perro?' while pointing at a picture of a dog. Have your child give a thumbs up and say sí." },
+        { "problem": "Read aloud: '¿Es un perro?' while pointing at a picture of a fish. Have your child give a thumbs down and say no." },
+        { "problem": "Make up one more silly sí/no question together and answer it." }
+      ]
+    }
+  }
+}

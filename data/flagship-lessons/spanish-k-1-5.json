@@ -1,0 +1,94 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-1",
+    "courseId": "course-spanish-k",
+    "order": 1,
+    "title": "Welcome: Greetings & Goodbyes",
+    "weekOfYear": 1
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-1-5",
+    "unitId": "unit-spanish-k-1",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Our Greeting Circle: A Week of Words with Sol",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Today is our biggest day yet — a greeting circle with Sol! Let's use every word you learned this week."
+      },
+      {
+        "type": "text",
+        "ref": "practice-greet",
+        "text": "Stand in your circle. Wave to Sol and say hola! Then say gracias when Sol hands you something, and por favor when you want more."
+      },
+      {
+        "type": "text",
+        "ref": "practice-review",
+        "text": "Sol asks you silly yes-or-no questions — answer sí or no! Then it's morning time: say buenos días and stretch. Now it's night time: say buenas noches and curl up."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You said hola, adiós, buenos días, buenas noches, gracias, por favor, sí, and no — all eight words! Wave goodbye to Sol and say adiós — see you next week to meet new friends!"
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "hello", "answer": "hola" },
+            { "prompt": "goodbye", "answer": "adiós" },
+            { "prompt": "good morning", "answer": "buenos días" },
+            { "prompt": "good night", "answer": "buenas noches" },
+            { "prompt": "thank you", "answer": "gracias" },
+            { "prompt": "please", "answer": "por favor" },
+            { "prompt": "yes", "answer": "sí" },
+            { "prompt": "no", "answer": "no" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-1-5",
+    "lessonId": "lesson-spanish-k-1-5",
+    "objectives": [
+      "Recall and use all eight of this week's greeting and courtesy words in one continuous greeting-circle routine",
+      "Initiate a greeting exchange with hola and close it with adiós"
+    ],
+    "materialsNeeded": ["Sol the puppet", "Family members or stuffed animals to complete a 'circle' (works fine with just you and your child too)"],
+    "facilitationScript": "1. Gather everyone available (family members, stuffed animals, or just the two of you) into a circle with Sol.\n2. Go around the circle: each person waves and says '¡Hola!' as their turn comes, echoing back if needed.\n3. Practice courtesy: Sol 'hands out' a small treat or toy, and each person says '¡Por favor!' to ask and '¡Gracias!' to thank.\n4. Ask 2-3 silly sí/no questions like Day 4's game, mixing in this week's other words.\n5. Do one buenos días stretch and one buenas noches curl-up together as a group.\n6. Close the circle: everyone waves and says '¡Adiós!' to Sol and to each other.\n7. Complete the speed-review activity together, celebrating every correct match with a cheer.",
+    "differentiationTips": [
+      "Struggling: skip the full circle format and just review the 8 words one-on-one with Sol at your own pace — the goal is confident recall, not a big production",
+      "Ready for more: let your child be 'Sol' for the whole circle, leading each greeting themselves",
+      "This is a celebration lesson — the goal is joyful, confident use of words your child already practiced, not teaching anything brand new"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a cumulative spoken review — success looks like your child using most or all of hola, adiós, buenos días, buenas noches, gracias, por favor, sí, and no somewhere in the circle, with prompting as needed.",
+    "standardsRationale": "Closes the week's WA-WL-2015.1.1 Interpersonal Communication arc by having the child initiate and close a real (if simple) social exchange using every word taught this week — the scope-and-sequence's own Day 5 design for this band, giving the child one continuous, celebratory use of the material rather than an isolated drill."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-1-5",
+    "lessonId": "lesson-spanish-k-1-5",
+    "title": "Our Greeting Circle",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud and do it together as your family's greeting circle.",
+      "rows": [
+        { "problem": "Go around your circle: wave and say '¡Hola!' to each person." },
+        { "problem": "Practice por favor and gracias with a small treat or toy." },
+        { "problem": "Do one buenos días stretch and one buenas noches curl-up together." },
+        { "problem": "Close the circle: wave and say '¡Adiós!' to everyone." }
+      ]
+    }
+  }
+}

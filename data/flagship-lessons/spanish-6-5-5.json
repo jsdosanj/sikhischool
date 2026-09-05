@@ -1,0 +1,77 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-5",
+    "courseId": "course-spanish-6",
+    "order": 5,
+    "title": "Personality & Descriptions: Adjective Agreement",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-5-5",
+    "unitId": "unit-spanish-6-5",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Reading Descriptions Aloud and Matching Them to Photos",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you built a personality vocabulary, learned to make every adjective agree, reported class results with según, and wrote a description of someone real. Today you read that description aloud while the class listens closely enough to match it to the right photo — then a short quiz closes the week."
+      },
+      {
+        "type": "text",
+        "ref": "read-aloud-and-match",
+        "text": "Bring your Day 4 description and the photo or drawing of your person, with no name on it. The class posts every photo on the wall. One at a time, each student reads their description aloud — slowly and clearly. Listeners write down which photo they think it is, using the clues:\n\n- Es muy ordenada -> look for the tidy desk in a picture.\n- Es atrevido -> maybe the person climbing or on a bike.\n- Es trabajadora -> and notice: that -a ending tells you the person is female before you even look.\n\nAfter each reading, the reader reveals the match. Listening for -o versus -a is a real comprehension skill, not just a spelling rule."
+      },
+      {
+        "type": "text",
+        "ref": "usage-notes",
+        "text": "Two of this week's words come with a note:\n\n- atrevido usually means 'daring' in a good way — brave enough to try something. Said in a sharp tone, it can also mean 'cheeky' or 'disrespectful.' Tone and context decide which one a speaker means.\n- gracioso means 'funny' in the sense of making people laugh. The word for 'fun to do' — a fun party, a fun trip — is divertido, which you will meet later. Keep gracioso for people and jokes that make you laugh."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now carry a working personality vocabulary and the agreement system that makes it sound right — gender, number, and trabajador's special -a. Take the mini-quiz to close the week. Next week: school life and schedules — la tarea, las materias, and saying which class you have first."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-5-5",
+    "lessonId": "lesson-spanish-6-5-5",
+    "objectives": [
+      "Read a personal description aloud clearly enough for listeners to match it to the correct photo",
+      "Use adjective endings (-o vs. -a, singular vs. plural) as listening clues to a described person's gender and number",
+      "Demonstrate week-5 vocabulary and adjective agreement on the mini-quiz"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Each student's Day 4 description and photo/drawing (no names shown)", "Wall or board space to post the photos", "This week's mini-quiz (quiz-spanish-6-5-5)"],
+    "facilitationScript": "1. Post all the photos/drawings with no names.\n2. Model first: read one description (yours or the Daniel example) and have the class point to the photo it matches, explaining which words gave it away.\n3. Students take turns reading their descriptions aloud; listeners record a photo guess for each.\n4. After each reading, reveal the match and note which clue was most useful — often an -o/-a ending.\n5. Teach the two usage notes (atrevido tone, gracioso vs. divertido).\n6. Administer the mini-quiz (quiz-spanish-6-5-5).\n7. Complete the worksheet reflection.\n8. Preview next week: school life and schedules.",
+    "differentiationTips": [
+      "Struggling: let the child read only two or three sentences of their description, or read alongside a partner",
+      "Ready for more: have them give a one-sentence spoken summary of two classmates' descriptions afterward ('Según la descripción, esta persona es...')",
+      "If the quiz shows a specific gap — usually the trabajador -> trabajadora form or masculine-plural for mixed groups — revisit Day 1's agreement block before moving to week 6"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Read-aloud: listeners should match most descriptions correctly using named traits and -o/-a endings; a description with 'es trabajadora / ordenada / graciosa' describes a female, 'es trabajador / ordenado / gracioso' a male. Usage notes: atrevido = daring (positive) or cheeky (negative) depending on tone; gracioso = funny (makes you laugh), divertido = fun to do. Mini-quiz answers are in quiz-spanish-6-5-5.",
+    "standardsRationale": "Closes week 5's WA-WL-2015.1.3 arc with the exact Day 5 design the scope-and-sequence calls for — descriptions read aloud and matched to images — turning the week's writing into a presentational-plus-interpretive performance, and adding the mini-quiz as the week's mastery check on vocabulary and agreement."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-5-5",
+    "lessonId": "lesson-spanish-6-5-5",
+    "title": "Reading Descriptions Aloud and Matching Them to Photos",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Reflect on this week's personality words and adjective agreement.",
+      "rows": [
+        { "problem": "A classmate reads: 'Es muy trabajadora y un poco desordenada.' Is the person a boy or a girl? How do you know?" },
+        { "problem": "Correct the agreement: 'Mis amigos son graciosa y atrevido.' -> ___" },
+        { "problem": "Which word means 'funny (makes you laugh)': gracioso or divertido?" },
+        { "problem": "What is the most surprising or useful thing you learned this week about how Spanish adjectives change?" }
+      ]
+    }
+  }
+}

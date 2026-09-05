@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dict-spanish-trabajador",
+    "language": "spanish",
+    "word": "trabajador",
+    "translation": "hardworking",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Mi hermana es muy trabajadora y estudia todos los días. (My sister is very hardworking and studies every day.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-perezoso",
+    "language": "spanish",
+    "word": "perezoso",
+    "translation": "lazy",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Mi gato es perezoso y duerme casi todo el día. (My cat is lazy and sleeps almost all day.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-atrevido",
+    "language": "spanish",
+    "word": "atrevido",
+    "translation": "daring, bold",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Carlos es muy atrevido: siempre prueba comidas nuevas. (Carlos is very daring: he always tries new foods.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-serio",
+    "language": "spanish",
+    "word": "serio",
+    "translation": "serious",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Mi profesor es serio en clase, pero gracioso en el recreo. (My teacher is serious in class, but funny at recess.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-gracioso",
+    "language": "spanish",
+    "word": "gracioso",
+    "translation": "funny",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Mi amigo es muy gracioso y siempre nos hace reír. (My friend is very funny and always makes us laugh.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-ordenado",
+    "language": "spanish",
+    "word": "ordenado",
+    "translation": "organized, neat",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Diego es muy ordenado; su mochila siempre tiene todo en su lugar. (Diego is very neat; his backpack always has everything in its place.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-desordenado",
+    "language": "spanish",
+    "word": "desordenado",
+    "translation": "messy, disorganized",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Mi primo es desordenado y nunca encuentra sus cosas. (My cousin is messy and never finds his things.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-segun",
+    "language": "spanish",
+    "word": "según",
+    "translation": "according to",
+    "partOfSpeech": "preposition",
+    "synonyms": [],
+    "exampleSentence": "Según mi mamá, soy muy trabajador. (According to my mom, I am very hardworking.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  }
+]

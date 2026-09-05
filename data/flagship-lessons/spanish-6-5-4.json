@@ -1,0 +1,90 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-5",
+    "courseId": "course-spanish-6",
+    "order": 5,
+    "title": "Personality & Descriptions: Adjective Agreement",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-5-4",
+    "unitId": "unit-spanish-6-5",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Writing a Description: Four to Five Sentences About Someone You Know",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have described yourself, a friend, and the whole class out loud. Today you write — a short, careful description of one person you actually know: a friend, a parent, a grandparent, a cousin. Four or five sentences, every adjective agreeing with that one person."
+      },
+      {
+        "type": "text",
+        "ref": "how-to-build-a-description",
+        "text": "A strong description does more than list adjectives. Follow this order:\n\n1. Who it is and how you know them: Mi abuela se llama Rosa. / Este es mi amigo Carlos.\n2. Two or three personality adjectives, with a reason or example for at least one: Ella es muy trabajadora; cocina para toda la familia los domingos.\n3. A contrast with pero: Es seria en el trabajo, pero muy graciosa en casa.\n4. One thing you appreciate, or one thing you do together: Según toda la familia, es la persona más ordenada de la casa.\n\nThen check every adjective: right ending for this person's gender, and singular, because it is one person."
+      },
+      {
+        "type": "text",
+        "ref": "worked-example",
+        "text": "Here is a finished five-sentence description:\n\nMi primo Daniel tiene doce años. Es muy atrevido: siempre prueba deportes nuevos como el skate y la escalada. También es gracioso y cuenta muchos chistes. Es un poco desordenado — su cuarto es un desastre. Pero según mi tía, Daniel es muy trabajador en la escuela.\n\nEvery adjective — atrevido, gracioso, desordenado, trabajador — is masculine singular, because Daniel is one boy. Swap in a female subject and all four would end in -a: atrevida, graciosa, desordenada, trabajadora."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You have drafted a real description with agreeing adjectives, a pero contrast, and según. Tomorrow you read it aloud while the class listens for the clues — including the -o and -a endings — and matches it to the right photo."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "build-the-sentence-v1",
+        "config": {
+          "items": [
+            { "words": ["Mi", "hermana", "es", "muy", "trabajadora."], "correctOrder": [0, 1, 2, 3, 4] },
+            { "words": ["Diego", "es", "serio", "pero", "gracioso."], "correctOrder": [0, 1, 2, 3, 4] },
+            { "words": ["Mis", "primos", "son", "atrevidos", "y", "graciosos."], "correctOrder": [0, 1, 2, 3, 4, 5] },
+            { "words": ["Mi", "amiga", "es", "ordenada", "y", "trabajadora."], "correctOrder": [0, 1, 2, 3, 4, 5] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-5-4",
+    "lessonId": "lesson-spanish-6-5-4",
+    "objectives": [
+      "Write a 4-5 sentence description of a known person that names the relationship, two or three personality traits with an example, and a pero contrast",
+      "Keep every adjective in the description agreeing with the subject in gender and number"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A photo or drawing of the person being described (for tomorrow)", "Device for the build-the-sentence activity (optional — can be done on paper)"],
+    "facilitationScript": "1. Recap the week's endings once more, including trabajador -> trabajadora.\n2. Walk through the four-step description recipe.\n3. Read the Daniel example aloud; have students find and check all four adjectives, then say the female version.\n4. Students choose their person and draft on the worksheet — circulate and check agreement.\n5. Complete the build-the-sentence activity as a warm-up or a break from drafting.\n6. Students finish the 4-5 sentence draft and pick or make a photo/drawing for tomorrow.\n7. Preview tomorrow's read-aloud and photo match.",
+    "differentiationTips": [
+      "Struggling: provide the four sentence starters (Mi ___ se llama..., Es..., pero..., Según...) and have them fill each one in",
+      "Ready for more: have them write two descriptions — one of a male and one of a female — so the -o/-a contrast is visible across the pair",
+      "If spelling the endings slows the writing down, let them draft freely first, then do one 'agreement pass' circling every adjective at the end"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Descriptions vary. A complete response names the person and relationship, gives 2-3 personality adjectives (at least one with a reason/example), includes one pero contrast, and closes with an appreciation or shared activity. Every adjective must agree with the subject — masculine or feminine to match the person, singular because it is one person. Build-the-sentence: 1. Mi hermana es muy trabajadora. 2. Diego es serio pero gracioso. 3. Mis primos son atrevidos y graciosos. 4. Mi amiga es ordenada y trabajadora.",
+    "standardsRationale": "Delivers Day 4's scope-and-sequence design — a written 4-5 sentence description of a friend or family member — as the week's core WA-WL-2015.1.3 presentational-writing product, requiring sustained adjective agreement across a short connected paragraph rather than in isolated sentences, and reusing ser, pero, and según from earlier in the week."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-5-4",
+    "lessonId": "lesson-spanish-6-5-4",
+    "title": "Writing a Description: Four to Five Sentences About Someone You Know",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Plan and draft a 4-5 sentence description of one person you know.",
+      "rows": [
+        { "problem": "Who will you describe, and what is your relationship? Write the first sentence (name + relationship)." },
+        { "problem": "List three personality adjectives for this person, spelled with the correct -o / -a / -s ending for them." },
+        { "problem": "Write one 'pero' contrast sentence about this person." },
+        { "problem": "Write your full 4-5 sentence description. Then circle every adjective and check its ending." }
+      ]
+    }
+  }
+}

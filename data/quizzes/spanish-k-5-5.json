@@ -1,0 +1,30 @@
+{
+  "lessonId": "lesson-spanish-k-5-5",
+  "quiz": {
+    "id": "quiz-spanish-k-5-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'red'?",
+        "options": ["rojo", "azul", "verde", "negro"],
+        "answer": 0
+      },
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'blue'?",
+        "options": ["amarillo", "azul", "blanco", "rojo"],
+        "answer": 1
+      },
+      {
+        "q": "Grown-up, read aloud: What color is 'verde' in English?",
+        "options": ["yellow", "white", "green", "black"],
+        "answer": 2
+      },
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'black'?",
+        "options": ["blanco", "negro", "amarillo", "verde"],
+        "answer": 1
+      }
+    ]
+  }
+}

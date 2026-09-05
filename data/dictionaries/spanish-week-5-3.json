@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-cuarenta",
+    "language": "spanish",
+    "word": "cuarenta",
+    "translation": "forty",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Mi abuela tiene cuarenta plantas en el jardín. (My grandmother has forty plants in the garden.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-cincuenta",
+    "language": "spanish",
+    "word": "cincuenta",
+    "translation": "fifty",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "La bandera de Estados Unidos tiene cincuenta estrellas. (The United States flag has fifty stars.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-sesenta",
+    "language": "spanish",
+    "word": "sesenta",
+    "translation": "sixty",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Un minuto tiene sesenta segundos. (One minute has sixty seconds.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-setenta",
+    "language": "spanish",
+    "word": "setenta",
+    "translation": "seventy",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Mi bisabuelo tiene setenta años. (My great-grandfather is seventy years old.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-ochenta",
+    "language": "spanish",
+    "word": "ochenta",
+    "translation": "eighty",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Este libro tiene ochenta páginas. (This book has eighty pages.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-noventa",
+    "language": "spanish",
+    "word": "noventa",
+    "translation": "ninety",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "La tienda cierra en noventa minutos. (The store closes in ninety minutes.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-cien",
+    "language": "spanish",
+    "word": "cien",
+    "translation": "one hundred",
+    "partOfSpeech": "number",
+    "synonyms": [],
+    "exampleSentence": "Hay cien centavos en un dólar. (There are one hundred cents in a dollar.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  }
+]

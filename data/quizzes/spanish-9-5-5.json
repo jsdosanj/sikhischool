@@ -1,0 +1,76 @@
+{
+  "lessonId": "lesson-spanish-9-5-5",
+  "quiz": {
+    "id": "quiz-spanish-9-5-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "La sobremesa refers to:",
+        "options": [
+          "the time people spend at the table talking after a meal has ended",
+          "a dessert course served after lunch",
+          "a large feast held only on holidays",
+          "a formal toast given before a meal"
+        ],
+        "answer": 0,
+        "explanation": "Sobre + mesa — the stretch of time spent still 'upon the table' once the eating is finished, given over to conversation."
+      },
+      {
+        "q": "Which statement about la sobremesa is the most accurate?",
+        "options": [
+          "How long it lasts and how often it happens vary by household, region, and generation",
+          "Every Spanish-speaking family has a long one every day",
+          "It always lasts at least two hours",
+          "It is only practiced in Spain, not in Latin America"
+        ],
+        "answer": 0,
+        "explanation": "A weekday lunch might carry a short sobremesa; a Sunday meal or a family gathering a long one. It is a real, widespread practice, but not a single fixed ritual."
+      },
+      {
+        "q": "Standard 2.1 asks you to relate a practice to a perspective. The habit of staying at the table after eating most directly suggests that a household values:",
+        "options": [
+          "unhurried time together over ending the meal quickly",
+          "eating as large a quantity of food as possible",
+          "keeping a strict minute-by-minute schedule",
+          "formal table manners above everything else"
+        ],
+        "answer": 0,
+        "explanation": "The practice points to a perspective about time and family: the gathering, not just the food, is treated as the point of the meal."
+      },
+      {
+        "q": "In this week's lessons, el valor means:",
+        "options": [
+          "a principle a person or family holds as important",
+          "the price of an object",
+          "physical courage in danger",
+          "a written contract"
+        ],
+        "answer": 0,
+        "explanation": "Valor can also mean courage or price, but this week it means a held principle — respect, honesty, generosity, and so on."
+      },
+      {
+        "q": "'El respeto al derecho ajeno es la paz' is:",
+        "options": [
+          "a line by Benito Juárez, a 19th-century president of Mexico",
+          "an anonymous traditional refrán with no known author",
+          "a modern advertising slogan",
+          "a line from a well-known folk song"
+        ],
+        "answer": 0,
+        "explanation": "Juárez wrote it in an 1867 address; the fuller sentence is 'Entre los individuos, como entre las naciones, el respeto al derecho ajeno es la paz.' The week's other dichos ('Cada casa es un mundo,' 'De tal palo, tal astilla') are anonymous."
+      },
+      {
+        "q": "'La crianza' comes from the verb criar (to raise). It most nearly means:",
+        "options": [
+          "upbringing — how a family raises its children",
+          "a family gathering",
+          "the home itself, as a building",
+          "a mealtime conversation"
+        ],
+        "answer": 0,
+        "explanation": "La crianza is the whole process of raising a child: the rules, the corrections, the values a family tries to pass on."
+      }
+    ]
+  }
+}

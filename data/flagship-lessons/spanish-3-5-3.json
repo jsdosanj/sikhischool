@@ -1,0 +1,104 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-5",
+    "courseId": "course-spanish-3",
+    "order": 5,
+    "title": "Numbers 31-100: De Treinta a Cien",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-5-3",
+    "unitId": "unit-spanish-3-5",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Más o Menos: The Guess-My-Number Game",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can count to cien and pick a number out of a listening grid. Today you'll play a game with those numbers: one person thinks of a secret number, the other guesses, and two little words — más and menos — say whether to guess higher or lower."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "You already met más last week, where it meant 'plus' in a math fact. It has a second job: it also means 'more.' In the guessing game, más means 'my number is higher — guess up.' Its opposite is menos, meaning 'less' — 'my number is lower, guess down.'"
+      },
+      {
+        "type": "text",
+        "ref": "sample-round",
+        "text": "Here's one round. The secret number is 58.\n\n— Pienso en un número entre uno y cien. (I'm thinking of a number between one and one hundred.)\n— ¿Cincuenta? (Fifty?) — Más. (Higher.)\n— ¿Ochenta? (Eighty?) — Menos. (Lower.)\n— ¿Sesenta? (Sixty?) — Menos. (Lower.)\n— ¿Cincuenta y cinco? (Fifty-five?) — Más. (Higher.)\n— ¿Cincuenta y ocho? (Fifty-eight?) — ¡Sí! (Yes!)\n\nEach clue tells the guesser which way to move next."
+      },
+      {
+        "type": "text",
+        "ref": "smart-guessing",
+        "text": "A smart guesser starts in the middle and cuts the leftover range in half each time. Start at cincuenta (50). If you hear más, the number is 51-100, so guess in the middle of that — maybe setenta y cinco (75). If you hear menos, it's 1-49, so guess around veinticinco (25). Each clue chops your job roughly in half, and you can corner any number between uno and cien in about seven guesses."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just used más and menos to zero in on a hidden number — real back-and-forth conversation in Spanish, not a worksheet. Tomorrow your numbers go shopping: prices and quantities with play money all the way to cien."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "Secreto: sesenta (60). Adivinas treinta. ¿Más o menos?", "answer": "más" },
+            { "prompt": "Secreto: sesenta (60). Adivinas noventa. ¿Más o menos?", "answer": "menos" },
+            { "prompt": "Secreto: sesenta (60). Adivinas cuarenta. ¿Más o menos?", "answer": "más" },
+            { "prompt": "Secreto: sesenta (60). Adivinas ochenta. ¿Más o menos?", "answer": "menos" },
+            { "prompt": "Secreto: sesenta (60). Adivinas cincuenta. ¿Más o menos?", "answer": "más" },
+            { "prompt": "Secreto: sesenta (60). Adivinas setenta. ¿Más o menos?", "answer": "menos" },
+            { "prompt": "Secreto: sesenta (60). Adivinas cien. ¿Más o menos?", "answer": "menos" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-5-3",
+    "lessonId": "lesson-spanish-3-5-3",
+    "objectives": [
+      "Use más ('higher') and menos ('lower') as clues in a guess-my-number game",
+      "Give the correct clue by comparing a secret number to a guess, both in the 1-100 range",
+      "Explain the halving strategy: start at cincuenta and cut the range in half with each clue"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "A partner or family member to play the guessing game with"
+    ],
+    "facilitationScript": "1. Remind the child that más meant 'plus' last week; today it also means 'more / higher,' and menos is its opposite, 'less / lower.'\n2. Play one slow round yourself: you think of a secret number 1-100, the child guesses, and you answer only más or menos until they get it.\n3. Swap roles — the child picks the secret and gives the clues while you guess, so they practice producing más/menos, not just hearing them.\n4. Teach the halving strategy: start at cincuenta, then aim for the middle of whatever range is left.\n5. Play the speed-drill activity together (the secret is always sesenta).\n6. Complete the worksheet.\n7. Preview tomorrow: prices and play money to cien.",
+    "differentiationTips": [
+      "Struggling: keep guesses and secrets to the tens only (cuarenta, cincuenta, sesenta, setenta, ochenta, noventa) so the comparison is just 'which tens word is bigger'",
+      "Ready for more: challenge them to catch any secret number 1-100 in seven guesses or fewer by halving the range every time, saying each guess as a full Spanish number",
+      "This lesson's guessing game is a live two-person spoken exchange, so — unlike Tuesday's listening grid — it doesn't depend on the audio-recording gap noted elsewhere this week (open decision, expansion-plan-2026-09.md §12.9); any partner can give the clues"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "más means 'higher, guess up'; menos means 'lower, guess down.' For a secret of sesenta (60): guesses of treinta, cuarenta, and cincuenta all get más; guesses of setenta, ochenta, noventa, and cien all get menos. Strategy: start at cincuenta and aim for the middle of the range left after each clue — any number 1-100 falls in about seven guesses.",
+    "standardsRationale": "Delivers the scope-and-sequence's Day 3 activity (guess-my-number with más/menos) under WA-WL-2015.1.2. The receptive side — hearing más or menos and adjusting the next guess — is interpretive listening under game pressure, while the halving strategy quietly connects to the number sense the whole week builds. It also recycles más from week 4 in a new meaning, the kind of spiraling the scope-and-sequence's band notes call for."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-5-3",
+    "lessonId": "lesson-spanish-3-5-3",
+    "title": "Más o Menos: The Guess-My-Number Game",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about the guess-my-number game. The secret number is sesenta (60).",
+      "rows": [
+        { "problem": "You guess cuarenta. Does the other player say más or menos?" },
+        { "problem": "You guess noventa. Does the other player say más or menos?" },
+        { "problem": "You guess cincuenta y cinco. Does the other player say más or menos?" },
+        { "problem": "What does menos tell you to do on your next guess?" },
+        { "problem": "Write a good first guess for any 1-100 game, and why you would start there." }
+      ]
+    }
+  }
+}

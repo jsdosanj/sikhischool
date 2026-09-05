@@ -1,0 +1,109 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-5",
+    "courseId": "course-spanish-k",
+    "order": 5,
+    "title": "Colors I",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-5-5",
+    "unitId": "unit-spanish-k-5",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Veo, Veo: An I-Spy Color Game",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Today we play 'Veo veo' — that means 'I see, I see.' It is the Spanish way to play I-spy, and today everything Sol spies is about color!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-sol-spies",
+        "text": "Sol starts: 'Veo, veo... algo rojo!' — 'I see something red!' Look around and point to something rojo. Then it is your turn: spy something azul, amarillo, or verde and see if Sol can find it."
+      },
+      {
+        "type": "text",
+        "ref": "practice-quiet-colors",
+        "text": "Keep the game going with the quieter colors — spy something blanco, then something negro. Say 'Veo, veo... algo blanco!' and let Sol search."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You played a whole game of Veo veo in Spanish, spying every color — rojo, azul, amarillo, verde, blanco, negro! Next week, Sol teaches even more colors and your favorite one."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Grown-up, read aloud: 🔴 Sol spies something this color. Is it rojo or azul?",
+              "options": ["rojo", "azul"],
+              "answer": 0,
+              "explanation": "¡Sí! Rojo means 'red'."
+            },
+            {
+              "q": "Grown-up, read aloud: 🟡 What color is this — amarillo or verde?",
+              "options": ["amarillo", "verde"],
+              "answer": 0,
+              "explanation": "¡Sí! Amarillo means 'yellow'."
+            },
+            {
+              "q": "Grown-up, read aloud: 🟢 Sol spies a leaf this color. Is it verde or negro?",
+              "options": ["verde", "negro"],
+              "answer": 0,
+              "explanation": "¡Sí! Verde means 'green'."
+            },
+            {
+              "q": "Grown-up, read aloud: ⚫ What color is this — blanco or negro?",
+              "options": ["blanco", "negro"],
+              "answer": 1,
+              "explanation": "¡Sí! Negro means 'black'."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-5-5",
+    "lessonId": "lesson-spanish-k-5-5",
+    "objectives": [
+      "Play the Spanish game 'Veo veo,' spying and naming objects by color in Spanish",
+      "Recall and produce all six color words in a cumulative end-of-week review"
+    ],
+    "materialsNeeded": ["Any room or outdoor space with lots of colors to spy", "Sol the puppet"],
+    "facilitationScript": "1. Teach the phrase 'Veo, veo' ('I see, I see') and explain it is how you play I-spy in Spanish.\n2. Model a turn: 'Veo, veo... algo rojo!' and let your child find something red and name it.\n3. Trade turns — your child spies something azul, amarillo, or verde and you (or Sol) search for it.\n4. Bring in the quieter colors, blanco and negro, for the last few rounds.\n5. Play several rounds until every color has been spied at least once.\n6. Complete the on-screen multiple-choice review together, reading each question aloud since your child may not read yet.\n7. Close by asking your child to name a favorite color in Spanish — a peek at next week.",
+    "differentiationTips": [
+      "Struggling: you do all the spying and let your child just find and point, echoing the color word after you",
+      "Ready for more: your child gives two color clues in a row — 'algo rojo' then 'algo azul' — for you to find both",
+      "This is a celebration lesson — the goal is confident, playful color-naming your child already practiced this week, not teaching anything new"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a cumulative spoken game — success looks like your child spying objects and naming their colors in Spanish with growing independence, with prompting as needed. In the multiple-choice game: red → rojo, yellow → amarillo, green → verde, black → negro.",
+    "standardsRationale": "Closes week 5's WA-WL-2015.1.2 Interpretive Listening arc with the traditional Spanish-speaking children's game 'Veo veo,' which turns the week's six colors into a real back-and-forth listening-and-speaking game — the scope-and-sequence's own design for this Day 5 — and bundles every color from the week into one connected activity rather than a list of isolated words."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-5-5",
+    "lessonId": "lesson-spanish-k-5-5",
+    "title": "Veo, Veo: An I-Spy Color Game",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud and play the game together as your child's end-of-week color review.",
+      "rows": [
+        { "problem": "Learn the phrase 'Veo, veo' — it means 'I see, I see,' the Spanish way to play I-spy." },
+        { "problem": "Take turns spying something by color: 'Veo, veo... algo rojo!' and finding it together." },
+        { "problem": "Play through all six colors — rojo, azul, amarillo, verde, blanco, negro — then name a favorite." }
+      ]
+    }
+  }
+}

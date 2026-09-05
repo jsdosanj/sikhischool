@@ -1,0 +1,51 @@
+{
+  "lessonId": "lesson-spanish-3-5-5",
+  "quiz": {
+    "id": "quiz-spanish-3-5-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "What is the Spanish word for 60?",
+        "options": ["sesenta", "setenta", "seis", "dieciséis"],
+        "answer": 0,
+        "explanation": "Sesenta is 60 — it hides seis (6). Setenta (70) hides siete (7)."
+      },
+      {
+        "q": "Every tens word from 40 to 90 shares the same ending. What is it?",
+        "options": ["-ientos", "-enta", "-ce", "-inta"],
+        "answer": 1,
+        "explanation": "cuarenta, cincuenta, sesenta, setenta, ochenta, noventa — all end in -enta."
+      },
+      {
+        "q": "How do you write 47 in Spanish?",
+        "options": ["cuarentaisiete", "cuarenta y siete", "siete y cuarenta", "cuatro y setenta"],
+        "answer": 1,
+        "explanation": "Tens word first (cuarenta), then y, then the ones (siete): three separate words."
+      },
+      {
+        "q": "Numbers 16-29 fuse into one word (dieciséis, veintidós). What about numbers from 31 to 99?",
+        "options": [
+          "They fuse into one word too",
+          "They are written as three separate words joined by y",
+          "They are written with a hyphen",
+          "They always begin with cien"
+        ],
+        "answer": 1,
+        "explanation": "The fusing stops at treinta. From 31 up it is always three words: treinta y uno, noventa y nueve — and no accent marks."
+      },
+      {
+        "q": "In the guess-my-number game, your partner says 'menos.' What should you do?",
+        "options": ["Guess a higher number", "Guess a lower number", "Stop playing", "Guess the same number"],
+        "answer": 1,
+        "explanation": "Menos means 'less' — the secret number is lower, so guess down. Más would mean guess up."
+      },
+      {
+        "q": "Which word means exactly 100, all by itself?",
+        "options": ["ciento", "cien", "noventa", "mil"],
+        "answer": 1,
+        "explanation": "Cien is exactly 100. Ciento is used only for 101-199 (ciento uno = 101)."
+      }
+    ]
+  }
+}

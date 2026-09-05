@@ -1,0 +1,91 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-5",
+    "courseId": "course-spanish-k",
+    "order": 5,
+    "title": "Colors I",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-5-4",
+    "unitId": "unit-spanish-k-5",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Separa los Colores: A Crayon Color-Sort",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol dumped out a whole box of crayons! Let's sort them into color piles — and then count how many crayons landed in each one."
+      },
+      {
+        "type": "text",
+        "ref": "practice-sort",
+        "text": "Say each color out loud as you make its pile: put every red crayon with rojo, every blue one with azul, every yellow one with amarillo. Keep going with verde, blanco, and negro."
+      },
+      {
+        "type": "text",
+        "ref": "practice-count-piles",
+        "text": "Now count each pile out loud — uno, dos, tres... How many crayons are rojo? How many are azul? Use the numbers you already know, all the way up to diez."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You sorted every crayon by color and counted each pile — rojo, azul, amarillo, verde, blanco, negro! Tomorrow we play 'Veo veo,' the Spanish way to play I-spy."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "red", "answer": "rojo" },
+            { "prompt": "blue", "answer": "azul" },
+            { "prompt": "yellow", "answer": "amarillo" },
+            { "prompt": "green", "answer": "verde" },
+            { "prompt": "white", "answer": "blanco" },
+            { "prompt": "black", "answer": "negro" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-5-4",
+    "lessonId": "lesson-spanish-k-5-4",
+    "objectives": [
+      "Sort objects into six color groups, naming each color in Spanish as the group is made",
+      "Count each color group aloud in Spanish, reusing numbers uno through diez from the last two weeks"
+    ],
+    "materialsNeeded": ["A box of crayons, or any mixed pile of small objects in several colors (blocks, beads, pom-poms)", "Six spots, cups, or sheets of paper to sort onto", "Sol the puppet"],
+    "facilitationScript": "1. Pour out a box of crayons (or mixed small objects) and set up six sorting spots with Sol.\n2. Pick up a crayon, name its color in Spanish, and start its pile — rojo here, azul there — coaching your child to echo each color and add to the right pile.\n3. Work through all six colors: rojo, azul, amarillo, verde, blanco, negro.\n4. Once everything is sorted, count each pile out loud together in Spanish — uno, dos, tres — bringing back last week's numbers up to diez.\n5. Ask '¿Cuántos crayones rojos?' and let your child answer with the number.\n6. Complete the on-screen speed-drill activity together, cheering each correct match.\n7. Close by asking: 'Which color pile had the most crayons?'",
+    "differentiationTips": [
+      "Struggling: sort into just three color piles — rojo, azul, amarillo — and count only up to cinco",
+      "Ready for more: after sorting, line the piles up from smallest to largest and name each color and its count",
+      "The crayons do not need to be perfectly sorted — naming the color and counting the pile is the goal, not tidy piles"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a spoken sorting-and-counting activity — success looks like your child naming each color in Spanish while sorting and counting each pile aloud with last week's numbers. In the speed-drill game, each English color word matches its Spanish counterpart: red → rojo, blue → azul, yellow → amarillo, green → verde, white → blanco, black → negro.",
+    "standardsRationale": "Extends week 5's WA-WL-2015.1.2 target by having the child produce each color word spontaneously while sorting, and deliberately recycles weeks 3-4's numbers uno-diez in the counting step — the scope-and-sequence's own design for this Day 4 — so earlier vocabulary stays live instead of being taught once and dropped."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-5-4",
+    "lessonId": "lesson-spanish-k-5-4",
+    "title": "Separa los Colores: A Crayon Color-Sort",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together.",
+      "rows": [
+        { "problem": "Pour out a box of crayons or a pile of mixed-color objects, with six spots to sort onto." },
+        { "problem": "Name each color in Spanish as you build its pile: rojo, azul, amarillo, verde, blanco, negro." },
+        { "problem": "Count each color pile out loud in Spanish, using numbers uno through diez from the last two weeks." }
+      ]
+    }
+  }
+}

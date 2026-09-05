@@ -1,0 +1,68 @@
+[
+  {
+    "id": "dict-spanish-hogar",
+    "language": "spanish",
+    "word": "el hogar",
+    "translation": "home",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Con los años entendí que un hogar no es un edificio, sino la gente que te espera dentro de él. (Over the years I understood that a home isn't a building, but the people waiting for you inside it.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-valor",
+    "language": "spanish",
+    "word": "el valor",
+    "translation": "value",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Cuando alguien me pregunta cuál es el valor más importante de mi familia, tardo en responder, porque nunca lo dijimos en voz alta: simplemente lo vivíamos. (When someone asks me what my family's most important value is, I take a while to answer, because we never said it out loud — we just lived it.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-crianza",
+    "language": "spanish",
+    "word": "la crianza",
+    "translation": "upbringing",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi crianza estuvo llena de reglas que en su momento no entendía, y que solo con el tiempo reconocí como una forma de cuidado. (My upbringing was full of rules I didn't understand at the time, and that only later I recognized as a form of care.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-respeto",
+    "language": "spanish",
+    "word": "el respeto",
+    "translation": "respect",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "En mi casa, el respeto se notaba en algo pequeño: nadie se levantaba de la mesa hasta que todos habían terminado de hablar. (In my house, respect showed in something small: no one got up from the table until everyone had finished talking.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-sobremesa",
+    "language": "spanish",
+    "word": "la sobremesa",
+    "translation": "after-meal table conversation",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "La sobremesa de los domingos podía durar más que la comida misma; era el momento en que de verdad nos poníamos al día. (The Sunday sobremesa could last longer than the meal itself; it was when we really caught up with each other.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-reunion-familiar",
+    "language": "spanish",
+    "word": "la reunión familiar",
+    "translation": "family gathering",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "En cada reunión familiar se cuentan las mismas historias, y con los años esas repeticiones se han vuelto una forma de recordar quiénes somos. (At every family gathering the same stories get told, and over the years those repetitions have become a way of remembering who we are.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  }
+]

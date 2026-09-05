@@ -1,0 +1,116 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-5",
+    "courseId": "course-spanish-6",
+    "order": 5,
+    "title": "Personality & Descriptions: Adjective Agreement",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-5-3",
+    "unitId": "unit-spanish-6-5",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "A Personality Quiz in Spanish: Reading Results with Según",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can describe yourself and one friend. Today the whole class gets described — with a personality quiz written entirely in Spanish, a tally on the board, and one new word for reporting what the numbers say: según, 'according to.'"
+      },
+      {
+        "type": "text",
+        "ref": "segun",
+        "text": "[[según]] is a preposition. It means 'according to,' and it points at whoever — or whatever — is the source of an opinion or a piece of information:\n\n- Según mi mamá, soy muy trabajador. (According to my mom, I am very hardworking.)\n- Según el quiz, eres una persona atrevida.\n- Según la clase, la persona más graciosa es Sofía.\n\nSegún never changes form, and nothing like a or de comes after it — just según, then the source."
+      },
+      {
+        "type": "text",
+        "ref": "quiz-and-tally",
+        "text": "Your teacher guide has a short ¿Cómo eres? quiz — five questions in Spanish, each with two choices, like:\n\n- Para la tarea: (a) Siempre la hago inmediatamente. (b) La hago a última hora.\n- Mi cuarto: (a) Casi siempre está ordenado. (b) Casi siempre está desordenado.\n\nCount your own answers, then build a class tally on the board and read the results out loud with full agreement:\n\n- Según el quiz, muchos estudiantes son ordenados y pocos son desordenados.\n- Según la clase, la mayoría es trabajadora.\n- Según los resultados, las chicas de la clase son muy atrevidas. (an all-female group -> atrevidas)\n\nEvery result sentence is a chance to get gender and number right in front of an audience."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You have now described one person, a pair, and a whole class — and you can report an opinion with según. Tomorrow you slow down and write: a careful four-to-five-sentence description of one real person you know."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Lucía siempre hace su tarea y estudia mucho. ¿Cómo es Lucía?",
+              "options": ["perezosa", "trabajadora", "desordenada", "atrevida"],
+              "answer": 1,
+              "explanation": "Trabajadora — she works hard. Lucía is female, and trabajador adds -a for the feminine: trabajadora."
+            },
+            {
+              "q": "Mateo nunca limpia su cuarto y no encuentra nada. ¿Cómo es Mateo?",
+              "options": ["ordenado", "desordenado", "serio", "gracioso"],
+              "answer": 1,
+              "explanation": "Desordenado — messy. Mateo is one boy, so the adjective stays masculine singular: -o."
+            },
+            {
+              "q": "A Sofía le gusta contar chistes y hacer reír a toda la clase. ¿Cómo es Sofía?",
+              "options": ["seria", "perezosa", "graciosa", "trabajadora"],
+              "answer": 2,
+              "explanation": "Graciosa — funny. Gracioso becomes graciosa for a girl."
+            },
+            {
+              "q": "Los hermanos Díaz siempre prueban deportes nuevos y difíciles. ¿Cómo son ellos?",
+              "options": ["atrevido", "atrevidos", "perezosos", "serios"],
+              "answer": 1,
+              "explanation": "Atrevidos — daring. A group of two or more takes the plural, so atrevido becomes atrevidos."
+            },
+            {
+              "q": "Según el quiz, María y Ana estudian mucho y siempre terminan su trabajo. ¿Cómo son María y Ana?",
+              "options": ["trabajador", "trabajadores", "trabajadoras", "perezosas"],
+              "answer": 2,
+              "explanation": "Trabajadoras — an all-female group. Trabajador adds -a for the feminine and -s for the plural: trabajadora -> trabajadoras."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-5-3",
+    "lessonId": "lesson-spanish-6-5-3",
+    "objectives": [
+      "Use según + a source to report an opinion or result (Según el quiz..., Según la clase...)",
+      "Read and answer a short personality quiz in Spanish, then state class-tally results with adjectives agreeing in gender and number"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Board or chart paper for the class tally", "Device for the multiple-choice activity (optional)"],
+    "facilitationScript": "1. Review the contrast frame from yesterday with one quick oral round.\n2. Teach según with the three examples — stress that it never changes and takes no a or de.\n3. Administer the ¿Cómo eres? quiz from the answer key: read each question in Spanish, students record a or b.\n4. Build the class tally on the board, category by category (trabajador/perezoso, ordenado/desordenado, serio/gracioso, atrevido).\n5. Have students say result sentences aloud starting with Según — coach the adjective endings live.\n6. Complete the multiple-choice activity.\n7. Complete the worksheet.\n8. Preview tomorrow's writing task.",
+    "differentiationTips": [
+      "Struggling: let them report results with a sentence frame already on the board — 'Según el quiz, ___ estudiantes son ___.' — filling only the number and the adjective",
+      "Ready for more: have them write three different según sentences, each with a different source (el quiz, la clase, mi familia)",
+      "If saying results aloud is stressful, let the child write two result sentences and read them, rather than generating them on the spot"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "¿Cómo eres? quiz (sample): 1) La tarea: a = trabajador/a, b = perezoso/a. 2) El cuarto: a = ordenado/a, b = desordenado/a. 3) Actividades nuevas: a = atrevido/a, b = no atrevido/a. 4) En clase: a = serio/a, b = gracioso/a. 5) Los fines de semana: a = trabajador/a, b = perezoso/a. Tally each category and total. Multiple choice: 1. trabajadora, 2. desordenado, 3. graciosa, 4. atrevidos, 5. trabajadoras. Según takes no a or de: 'Según mi papá, soy ordenado.'",
+    "standardsRationale": "Fulfills Day 3's scope-and-sequence design — a Spanish-language personality quiz with a class tally — as an interpretive-plus-presentational task under WA-WL-2015.1.3, and introduces según exactly where it does real work: attributing the tallied results to a source while students practice agreement aloud."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-5-3",
+    "lessonId": "lesson-spanish-6-5-3",
+    "title": "A Personality Quiz in Spanish: Reading Results with Según",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Practice según and reporting personality-quiz results with full adjective agreement.",
+      "rows": [
+        { "problem": "Translate: 'According to my mom, I am very organized.'" },
+        { "problem": "Write your own quiz result as a sentence: 'Según el quiz, yo soy ___.' (use an ending that matches you)" },
+        { "problem": "Report a class tally: 'Según la clase, ___ estudiantes son trabajadores y ___ estudiantes son perezosos.' (fill in numbers from your class)" },
+        { "problem": "Does 'según' need a word like 'a' or 'de' after it? Write one example sentence to show your answer." }
+      ]
+    }
+  }
+}

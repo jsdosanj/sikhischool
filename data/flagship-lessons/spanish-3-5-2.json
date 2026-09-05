@@ -1,0 +1,129 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-5",
+    "courseId": "course-spanish-3",
+    "order": 5,
+    "title": "Numbers 31-100: De Treinta a Cien",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-5-2",
+    "unitId": "unit-spanish-3-5",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Escucha y Marca: The Number Listening Grid",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned the seven tens words and the y trick for everything in between. Today you'll test your ears with a listening grid: someone reads a number aloud in Spanish, and you find and mark the matching numeral — no peeking at the words."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A listening grid is a box of numbers written as numerals. A reader says one number in Spanish, and your job is to find the matching numeral and circle it. The hardest part is telling apart two numbers that use the same small words in a different order. Listen: cuarenta y siete is 47. Setenta y cuatro is 74. Same little words — cuatro and siete — but the tens word comes first, so the tens word is the one to catch. Hear cuarenta first? The number is in the forties. Hear setenta first? It's in the seventies."
+      },
+      {
+        "type": "text",
+        "ref": "listening-traps",
+        "text": "Three pairs mix people up the most. Say each pair aloud slowly with a parent or teacher and listen for what changes:\n\ncuarenta y siete (47) vs. setenta y cuatro (74) — which tens word comes first?\nsesenta (60) vs. setenta (70) — one tiny sound: ses- vs. set-\ncincuenta (50) vs. quince (15) vs. cinco (5) — all cousins of cinco, but only one is a tens word\n\nThe fix is always the same: catch the first word first, then attach the ones digit."
+      },
+      {
+        "type": "text",
+        "ref": "listening-grid",
+        "text": "Ask a parent or teacher to read these ten numbers aloud, one at a time and out of order, while you write down each numeral (or circle it on a grid if you make one). Cover the list first — no peeking!\n\ncuarenta, cincuenta y cinco, sesenta, setenta y cuatro, ochenta, noventa y nueve, cuarenta y siete, setenta, sesenta y dos, cien\n\nWhen you've written all ten, uncover the list and check together. Look hard at setenta y cuatro (74) and cuarenta y siete (47) — did you catch which tens word came first each time?"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just practiced the single most important listening skill for big Spanish numbers: catch the tens word first, then the ones. Tomorrow you'll use that skill in a game — guessing a secret number with más and menos clues."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "Escucho 'cuarenta y siete.' Escribo el número ___.",
+              "blankToken": "___",
+              "options": ["17", "47", "74", "470"],
+              "answer": "47"
+            },
+            {
+              "sentence": "Escucho 'setenta y cuatro.' Escribo el número ___.",
+              "blankToken": "___",
+              "options": ["47", "74", "704", "714"],
+              "answer": "74"
+            },
+            {
+              "sentence": "Escucho 'sesenta.' Escribo el número ___.",
+              "blankToken": "___",
+              "options": ["6", "16", "60", "70"],
+              "answer": "60"
+            },
+            {
+              "sentence": "Escucho 'setenta.' Escribo el número ___.",
+              "blankToken": "___",
+              "options": ["7", "17", "60", "70"],
+              "answer": "70"
+            },
+            {
+              "sentence": "Escucho 'noventa y nueve.' Escribo el número ___.",
+              "blankToken": "___",
+              "options": ["19", "69", "99", "909"],
+              "answer": "99"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-5-2",
+    "lessonId": "lesson-spanish-3-5-2",
+    "objectives": [
+      "Convert a spoken tens + y + ones number into its numeral for the 40-100 range",
+      "Identify the tens word first when listening, then attach the ones digit",
+      "Tell apart the common traps: 47 vs 74, sesenta vs setenta, and cincuenta vs quince vs cinco"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "Paper to write numerals on, or a hand-drawn number grid",
+      "A parent or teacher to read the number list aloud"
+    ],
+    "facilitationScript": "1. Explain today's game: a listening grid — you read a number in Spanish, the child finds and writes (or circles) the numeral, without seeing the word first.\n2. Warm up with yesterday's count-by-tens chant (diez through cien).\n3. Say the three trap pairs aloud slowly: cuarenta y siete / setenta y cuatro, sesenta / setenta, cincuenta / quince / cinco. Have the child tell you what changed each time.\n4. Cover the printed list and read the ten numbers aloud, one at a time, in a different order than listed, pausing for the child to write each numeral.\n5. Uncover and check together, using 'catch the first word first' to explain any misses.\n6. Complete the cloze activity together.\n7. Complete the worksheet.\n8. Preview tomorrow: the más/menos guessing game.",
+    "differentiationTips": [
+      "Struggling: read only the plain tens words (cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien) for the grid today, adding the tens + y + ones numbers back on a later review day",
+      "Ready for more: after the listed ten, keep going with numbers of your own choosing from 31 to 100, said in random order, mixing in a few from the thirties to keep treinta in play",
+      "This lesson's listening grid depends entirely on a parent or teacher reading numbers aloud, since the course doesn't have audio content yet (open decision, expansion-plan-2026-09.md §12.9) — for a lesson built around listening, a live reader is the only honest way to deliver it until that infrastructure lands"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "cuarenta=40, cincuenta y cinco=55, sesenta=60, setenta y cuatro=74, ochenta=80, noventa y nueve=99, cuarenta y siete=47, setenta=70, sesenta y dos=62, cien=100. The listening rule: catch the tens word first (it names the decade), then attach the ones digit. Common traps: 47 (cuarenta y siete) vs 74 (setenta y cuatro); sesenta (60) vs setenta (70); cincuenta (50) vs quince (15) vs cinco (5).",
+    "standardsRationale": "This is the week's Interpretive Listening core (WA-WL-2015.1.2) and the exact Day 2 activity the scope-and-sequence names — a number listening grid with 47-vs-74 traps. Converting a heard tens + y + ones string into a numeral in real time is interpretive listening in its most measurable form, and the trap pairs target the specific sound and word-order contrasts (ses-/set-, tens-word-first) a Novice listener must resolve to understand prices, ages, and quantities later in the year."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-5-2",
+    "lessonId": "lesson-spanish-3-5-2",
+    "title": "Escucha y Marca: The Number Listening Grid",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "A parent or teacher will read each number aloud. Write only the numeral you hear.",
+      "rows": [
+        { "problem": "A parent reads 'cuarenta.' Write the numeral." },
+        { "problem": "A parent reads 'sesenta.' Write the numeral." },
+        { "problem": "A parent reads 'setenta.' Write the numeral." },
+        { "problem": "A parent reads 'cuarenta y siete.' Write the numeral." },
+        { "problem": "A parent reads 'setenta y cuatro.' Write the numeral." },
+        { "problem": "A parent reads 'cien.' Write the numeral." }
+      ]
+    }
+  }
+}

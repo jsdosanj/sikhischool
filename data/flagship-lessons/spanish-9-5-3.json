@@ -1,0 +1,84 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-5",
+    "courseId": "course-spanish-9",
+    "order": 5,
+    "title": "Family, Values, and la Sobremesa",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-5-3",
+    "unitId": "unit-spanish-9-5",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "La Entrevista: Asking a Family Member About Your Crianza",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "The last two days were about other people's tables and other people's proverbs. Today it comes home. This week has a take-home piece: interview someone in your family — a parent, a grandparent, an aunt or uncle, an older sibling, whoever you can reach — about your crianza, the way you were raised, and come back tomorrow with one real story."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[la crianza]] means upbringing — the whole process of raising a child: the rules, the corrections, the things repeated so often they stuck, the values a family tried to pass on. It comes from the verb criar, to raise. Asking about your own crianza well takes a few connected questions, not one:\n— ¿Qué valores intentaron enseñarme cuando era pequeño/a? (What values did you try to teach me when I was little?)\n— ¿Qué reglas eran las más importantes en casa? (Which rules were the most important at home?)\n— ¿Cómo te criaron a ti? ¿Hiciste algo diferente conmigo? (How were you raised? Did you do anything differently with me?)\n— ¿Hay algún dicho o alguna frase que repetías mucho? (Is there a saying or a phrase you repeated a lot?)\n— Cuéntame una historia de cuando yo era pequeño/a. (Tell me a story from when I was little.)"
+      },
+      {
+        "type": "text",
+        "ref": "practice-guidance",
+        "text": "Notice that none of those five can be answered with sí or no — each one asks the person to actually tell you something. If they answer in a language other than Spanish, that is completely fine; your job is to bring the story back and then be able to retell a piece of it. As you listen, hold out for one specific moment — a particular day, a particular rule, a particular phrase — rather than a general summary. The specific thing is what you will use in tomorrow's discussion circle and in Friday's paragraph. If no family member is reachable this week, interview an adult you trust about how they were raised, and treat that as your story."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Bring back one story — even just a few sentences of it. Tomorrow's discussion circles run entirely on these stories: you will compare what different families repeated, required, and hoped for, and start naming the values underneath."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-5-3",
+    "lessonId": "lesson-spanish-9-5-3",
+    "objectives": [
+      "Define la crianza (upbringing; from criar, to raise) and use it accurately",
+      "Conduct a short interview with a family member (or trusted adult) using the five open-ended Spanish question frames, and bring back one specific story",
+      "Identify one specific detail from the interview (a rule, a phrase, a moment) to carry into Thursday's discussion and Friday's paragraph"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "A family member or trusted adult to interview (in person, by phone, or by video, any time this week)"
+    ],
+    "facilitationScript": "1. Read the hook and explanation block; have the student define la crianza in their own words and connect it to the verb criar.\n2. Read the five interview frames aloud together, translating each. Have the student pick which family member they will actually ask, and when.\n3. Discuss the practice-guidance block: why open-ended questions, why it is fine if the answer comes in another language, and what 'hold out for one specific moment' means.\n4. Have the student write their five questions on the worksheet, adapting the wording to the person they will interview.\n5. Set the expectation clearly: come back with one story, even a short one, by tomorrow.\n6. If no family member is reachable, help the student choose a trusted adult to interview instead.\n7. Preview tomorrow's discussion circles.",
+    "differentiationTips": [
+      "Struggling: it is fine to ask just two or three of the frames; one good story matters more than five rushed answers",
+      "Ready for more: challenge the student to conduct the interview mostly in Spanish and take notes in Spanish, then summarize the story in Spanish for Friday",
+      "If family interviews are sensitive for a student (family loss, separation, foster care), the trusted-adult option is a full substitute, not a lesser one — offer it without making the student ask"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "La crianza = upbringing, the whole process of raising a child (from criar, to raise). Interview questions should be open-ended (not answerable with sí/no), e.g. '¿Qué valores intentaron enseñarme?' / '¿Qué reglas eran las más importantes?' The deliverable is one specific story or detail — a rule, a repeated phrase, a particular day — not a general summary. Answers in another language are acceptable; the student retells a piece of the story afterward.",
+    "standardsRationale": "Serves WA-WL-2015.2.1 by having students gather primary evidence of family practices and the values behind them from their own households, then (Thursday and Friday) relate those practices to perspectives. Per the scope-and-sequence's week 5 Day 3 design ('interview task — ask a family member about their crianza; bring back one story'). Built on the same open-ended-interview-frame method as week 2 Day 2, now turned toward cultural practice rather than identity. No activity game today: the real task is the take-home interview."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-5-3",
+    "lessonId": "lesson-spanish-9-5-3",
+    "title": "La Entrevista: Asking a Family Member About Your Crianza",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write out your five interview questions, adapting them to the person you will actually ask. Then conduct the interview and bring back one story.",
+      "prompts": [
+        { "prompt": "Who will you interview, and when this week?", "lines": 1 },
+        { "prompt": "Question 1 — about the values they tried to teach you ('¿Qué valores intentaron enseñarme...?').", "lines": 2 },
+        { "prompt": "Question 2 — about the most important rules at home.", "lines": 2 },
+        { "prompt": "Question 3 — about how THEY were raised, and what they did the same or differently with you.", "lines": 2 },
+        { "prompt": "Question 4 — about a saying or phrase they repeated a lot.", "lines": 2 },
+        { "prompt": "Question 5 — a request for one story from when you were little.", "lines": 2 },
+        { "prompt": "After the interview: write down the one specific story or detail you are bringing back (a rule, a phrase, a moment).", "lines": 4 }
+      ]
+    }
+  }
+}

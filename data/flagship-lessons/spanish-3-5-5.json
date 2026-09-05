@@ -1,0 +1,135 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-5",
+    "courseId": "course-spanish-3",
+    "order": 5,
+    "title": "Numbers 31-100: De Treinta a Cien",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-5-5",
+    "unitId": "unit-spanish-3-5",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "El Cuadro de Cien: The Hundred-Chart Challenge",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.2"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned the tens words, cracked the y trick, sharpened your ears on the listening grid, and played a guessing game. Today you'll put all of it into one fast game: the hundred-chart challenge."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A hundred chart is a grid with every number from 1 to 100 — ten rows of ten. In today's challenge, a caller says a number in Spanish and everyone races to find it and cover it. Use a printed or hand-drawn chart with numerals, not words, so it stays a listening challenge."
+      },
+      {
+        "type": "text",
+        "ref": "how-to-play",
+        "text": "How to play: each player needs a hundred chart and a pile of small markers (coins, beans, paper squares). Take turns being the caller. The caller picks a number, says it out loud in Spanish — tens word first, then y, then the ones — and everyone covers that square. First to cover a full row or column calls ¡Cien! Being the caller is practice too: you have to turn a numeral you see into a spoken Spanish number, the reverse of Tuesday's listening grid."
+      },
+      {
+        "type": "text",
+        "ref": "caller-tips",
+        "text": "Callers, if a number trips you up: find the tens first. Is it in the fifties? Say cincuenta. Is there a ones digit left over? Add y and the digit: cincuenta y siete. A plain tens number is just the one word — sesenta, all by itself. And 100 is just cien."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just spent a week going from treinta to cien — a count-by-tens chant on Monday, a full hundred-chart game today. You can now understand and say every number to one hundred in Spanish. Next week you'll start naming the world around you, beginning with everything in the classroom."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Which numeral is cuarenta?",
+              "options": ["4", "14", "40", "44"],
+              "answer": 2,
+              "explanation": "Cuarenta is the tens word for 40 — it leans on cuatro (4)."
+            },
+            {
+              "q": "Which numeral is setenta y tres?",
+              "options": ["37", "73", "703", "733"],
+              "answer": 1,
+              "explanation": "Setenta (70) comes first, then y tres (3): 73. Don't flip it to 37, which is treinta y siete."
+            },
+            {
+              "q": "How do you write 55 in Spanish?",
+              "options": ["cincuentaycinco", "cincuenta y cinco", "cinco y cincuenta", "cincuenta-cinco"],
+              "answer": 1,
+              "explanation": "From 31 up, the pieces stay as three separate words: cincuenta y cinco."
+            },
+            {
+              "q": "16-29 fuse into one word (dieciséis, veintitrés). What happens with numbers from 31 to 99?",
+              "options": [
+                "They fuse into one word too",
+                "They are three separate words joined by y",
+                "They drop the y completely",
+                "They always start with ciento"
+              ],
+              "answer": 1,
+              "explanation": "The fusing stops at treinta. 31-99 are always three words: treinta y uno, noventa y nueve — and no accent marks."
+            },
+            {
+              "q": "What is the clean one-word number for 100?",
+              "options": ["ciento", "cien", "cientos", "diez decenas"],
+              "answer": 1,
+              "explanation": "Cien is exactly 100. Ciento is only for 101-199 (ciento uno = 101)."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-5-5",
+    "lessonId": "lesson-spanish-3-5-5",
+    "objectives": [
+      "Turn a numeral on a hundred chart into its spoken Spanish number, tens word first",
+      "Cover the correct square when a number 1-100 is called aloud in Spanish",
+      "Play both caller and listener roles in a week-ending review game"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "A printed or hand-drawn 1-100 hundred chart per player",
+      "Small markers (coins, beans, or paper squares)",
+      "Family members or classmates to play with"
+    ],
+    "facilitationScript": "1. Explain the game: a hundred-chart challenge, every number to cien, the whole family can play.\n2. Give each player a 1-100 chart and a pile of markers.\n3. Take turns as caller: pick a number, say it aloud in Spanish (tens word, then y, then ones), and let players cover the square.\n4. When a caller gets stuck, pause and build the number together — tens first, then y and the digit.\n5. Play until someone covers a full row or column and calls ¡Cien!\n6. Complete the review activity together.\n7. Complete the worksheet, recapping the whole week.\n8. Preview next week: naming everything in the classroom in Spanish.",
+    "differentiationTips": [
+      "Struggling: play on a tens-only strip (10, 20, 30... 100) instead of the full hundred chart, so every call is a single tens word",
+      "Ready for more: let them be the caller for the whole game, converting every numeral into a spoken Spanish number without pausing to build it",
+      "This lesson relies on a parent, teacher, or classmate calling numbers aloud rather than an audio recording, since the course doesn't have audio content yet (open decision, expansion-plan-2026-09.md §12.9) — the printed numeral-to-word answer key covers the same ground a recording would for checking calls"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Numbers are called by building them aloud: tens word first (cuarenta, cincuenta, sesenta, setenta, ochenta, noventa), then y and the ones digit for in-between numbers (setenta y tres = 73), with plain tens words standing alone (sesenta = 60) and cien = 100. Watch the flip: setenta y tres is 73, treinta y siete is 37. From 31 up, numbers are always three separate words joined by y — never fused, never accented.",
+    "standardsRationale": "Closes the week's WA-WL-2015.1.2 Interpretive Listening arc with the scope-and-sequence's Day 5 activity — a called-number hundred-chart race — that forces repeated, time-pressured comprehension of spoken numbers across the full 1-100 range. Alternating caller and listener also exercises the productive side, and the multiple-choice review makes the 16-29 vs 31-99 contrast explicit one more time as the week's key structural takeaway."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-5-5",
+    "lessonId": "lesson-spanish-3-5-5",
+    "title": "El Cuadro de Cien: The Hundred-Chart Challenge",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question to review the whole week of Spanish numbers to one hundred.",
+      "rows": [
+        { "problem": "Write the count-by-tens chant from ten to one hundred: diez, veinte, treinta, ___, ___, ___, ___, ___, ___, ___." },
+        { "problem": "Write the numeral for setenta y tres." },
+        { "problem": "Write the numeral for cuarenta y ocho." },
+        { "problem": "Write 91 in Spanish words." },
+        { "problem": "16 fuses into one word (dieciséis). Write 46 in Spanish and explain how it is different." },
+        { "problem": "Write one number call you would make in the hundred-chart game, and its numeral." }
+      ]
+    }
+  }
+}

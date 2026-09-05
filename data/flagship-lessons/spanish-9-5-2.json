@@ -1,0 +1,148 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-5",
+    "courseId": "course-spanish-9",
+    "order": 5,
+    "title": "Family, Values, and la Sobremesa",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-5-2",
+    "unitId": "unit-spanish-9-5",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Dichos: What Proverbs About el Hogar and el Respeto Carry",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Every culture keeps some of its values in short, fixed sayings — lines everyone seems to know without being able to say where they learned them. In Spanish these are called dichos or refranes, and there are hundreds about family, the home, and respect. Read a few closely and you get a surprisingly direct look at what is being treated as important — which is exactly this week's skill: moving from something a culture makes or says to the perspective underneath it."
+      },
+      {
+        "type": "text",
+        "ref": "valor-respeto",
+        "text": "Two words to hold first. [[el valor]] means a value — in the sense of a principle a person or family treats as important, like honesty or generosity. (Valor can also mean courage, or the price of something; that is not the meaning here.) And [[el respeto]] means respect. A dicho is one of the few places a culture more or less says its valores out loud, in a form short enough to repeat at the table."
+      },
+      {
+        "type": "text",
+        "ref": "los-dichos",
+        "text": "'Cada casa es un mundo.' — Literally \"each house is a world.\" The idea: every home — every hogar — runs on its own rules, its own schedule, its own sense of normal, and you cannot assume another family does things the way yours does. It is the same point yesterday's lesson made about la sobremesa varying — the language itself has a proverb for it. It is a traditional saying with no single author.\n\n'En la mesa y en el juego se conoce al caballero.' — \"At the table and in games, you know the gentleman.\" The value: how a person behaves at the table — patience, manners, sharing, not making everything about themselves — and how they act while playing or competing shows their real character. It connects straight back to la sobremesa: the table is treated as a place where who you are becomes visible. Also a traditional refrán, no named author.\n\n'De tal palo, tal astilla.' — \"From such a stick, such a splinter.\" The closest English is \"a chip off the old block.\" The value: children carry the marks of the family that raised them; how you were brought up shows. Tomorrow's word, la crianza, is exactly this idea. Traditional saying.\n\n'El respeto al derecho ajeno es la paz.' — \"Respect for the rights of others is peace.\" Unlike the other three, this one has a known author: Benito Juárez, a president of Mexico in the 1860s, in an address from 1867. It is usually quoted in this short form; Juárez's fuller sentence was \"Entre los individuos, como entre las naciones, el respeto al derecho ajeno es la paz\" (\"Among individuals, as among nations, respect for the rights of others is peace\"). It frames el respeto not as mere politeness but as the actual condition for peace — between people at a table, and between countries."
+      },
+      {
+        "type": "text",
+        "ref": "practica-a-perspectiva",
+        "text": "A dicho works the way la sobremesa did yesterday: it is a cultural product — a thing people actually say — that reveals a perspective. 'Cada casa es un mundo' points to a culture that expects household variety and does not treat one family's way as the default. 'En la mesa y en el juego se conoce al caballero' points to one that treats the table as a test of character, not just a place to eat. Two cautions before you lean on any of them. First, dichos often contradict each other — there is a proverb for almost every position. Second, knowing a dicho does not mean living by it. They are a window on values, not a rulebook."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow these values get personal: you will interview someone in your family about your own crianza — your own upbringing — and bring back one real story."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "In this lesson, el valor means:",
+              "options": [
+                "a principle a person or family holds as important",
+                "the price or worth of an object",
+                "an act of bravery",
+                "a personal favor"
+              ],
+              "answer": 0,
+              "explanation": "Valor can also mean courage or price, but here it means a held principle — like honesty, respect, or generosity."
+            },
+            {
+              "q": "'Cada casa es un mundo' most nearly means:",
+              "options": [
+                "every household has its own rules and way of doing things",
+                "a house is the center of the world",
+                "family matters more than money",
+                "everyone should leave home to see the world"
+              ],
+              "answer": 0,
+              "explanation": "It points to a culture that expects variety between families and does not treat one household's way as the default."
+            },
+            {
+              "q": "'En la mesa y en el juego se conoce al caballero' suggests that a culture treats the table as:",
+              "options": [
+                "a place where a person's character becomes visible",
+                "somewhere reserved for special occasions",
+                "less important than the kitchen",
+                "the responsibility of one family member"
+              ],
+              "answer": 0,
+              "explanation": "How you act at the table — patience, manners, sharing — is read as a sign of who you are."
+            },
+            {
+              "q": "Which of today's four dichos has a known individual author rather than being an anonymous traditional saying?",
+              "options": [
+                "'El respeto al derecho ajeno es la paz'",
+                "'Cada casa es un mundo'",
+                "'De tal palo, tal astilla'",
+                "'En la mesa y en el juego se conoce al caballero'"
+              ],
+              "answer": 0,
+              "explanation": "It is a line by Benito Juárez, president of Mexico, from an 1867 address; the fuller sentence is 'Entre los individuos, como entre las naciones, el respeto al derecho ajeno es la paz.' The other three are traditional refranes with no single author."
+            },
+            {
+              "q": "'De tal palo, tal astilla' points most directly to the idea that:",
+              "options": [
+                "how a person is raised shows in who they become",
+                "respect keeps peace between nations",
+                "every home is different",
+                "manners matter most at meals"
+              ],
+              "answer": 0,
+              "explanation": "It is about family shaping a person — the same idea as tomorrow's word, la crianza."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-5-2",
+    "lessonId": "lesson-spanish-9-5-2",
+    "objectives": [
+      "Explain what a dicho is and read four real Spanish dichos for the value or perspective each one encodes",
+      "Define el valor (a held principle, not price or bravery in this context) and el respeto, and use both accurately",
+      "Attribute 'El respeto al derecho ajeno es la paz' to Benito Juárez and distinguish it from the anonymous traditional refranes"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Read the hook and the el valor / el respeto block; make sure the student hears that el valor here means a held principle, not price or bravery.\n2. Read the four dichos one at a time. For each, have the student give the literal translation first, then say in their own words what value it points to.\n3. Stop on 'El respeto al derecho ajeno es la paz' — note that this one has a named author (Benito Juárez, president of Mexico, 1867) while the other three are anonymous traditional sayings. Read Juárez's fuller sentence aloud.\n4. Work through the practice-to-perspective block: a dicho is a cultural product (something people say) that reveals a perspective (what they value). Practice this out loud with one dicho.\n5. Note the two cautions: dichos can contradict each other, and knowing one does not mean living by it.\n6. Complete the multiple-choice activity.\n7. Complete the worksheet.\n8. Preview tomorrow's family interview about la crianza.",
+    "differentiationTips": [
+      "Struggling: work with just two dichos ('Cada casa es un mundo' and 'El respeto al derecho ajeno es la paz') thoroughly rather than all four quickly",
+      "Ready for more: ask the student to recall a proverb in another language they know (English, Punjabi, or another home language) about family or respect, and compare the value it encodes to one of today's dichos — a Comparisons move built on top of this week's Cultures standard",
+      "If the student wants to use a dicho they have heard elsewhere, that is welcome — but check it is a real saying and, if it is a quotation, that the attribution is right, the same standard the lesson holds itself to"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "A dicho (or refrán) is a short fixed saying a culture widely knows. El valor = a principle held as important (not price, not bravery, in this context); el respeto = respect. 'Cada casa es un mundo' = each household has its own ways (anonymous). 'En la mesa y en el juego se conoce al caballero' = character shows at the table and in play (anonymous). 'De tal palo, tal astilla' = children show how they were raised (anonymous). 'El respeto al derecho ajeno es la paz' = respect for others' rights is peace — Benito Juárez, 1867; fuller form 'Entre los individuos, como entre las naciones, el respeto al derecho ajeno es la paz.' Practice-to-perspective: the sayings a culture keeps reveal what it treats as obviously true about home, character, and respect.",
+    "standardsRationale": "Serves WA-WL-2015.2.1 by using cultural products (proverbs) as evidence of cultural perspectives — students move from the saying itself to the value it encodes, the analytic move the standard names. Per the scope-and-sequence's week 5 Day 2 design ('family-values vocabulary through proverbs (dichos) about home and respeto'). All four dichos are real: three are anonymous traditional refranes, and 'El respeto al derecho ajeno es la paz' is correctly attributed to Benito Juárez (1867), modeling the accuracy standard the platform holds for quotations."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-5-2",
+    "lessonId": "lesson-spanish-9-5-2",
+    "title": "Dichos: What Proverbs About el Hogar and el Respeto Carry",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's four dichos.",
+      "rows": [
+        { "problem": "In this lesson, what does el valor mean? Give one meaning it does NOT have here." },
+        { "problem": "Write the literal English translation of 'Cada casa es un mundo,' then explain in one sentence what value it points to." },
+        { "problem": "Which of today's four dichos has a known author, and who is it? What was the fuller original sentence?" },
+        { "problem": "'De tal palo, tal astilla' points to the same idea as tomorrow's vocabulary word. What is that idea about?" },
+        { "problem": "Choose the dicho that speaks to you most. Write it out, then explain in 2-3 sentences what it suggests a family or culture treats as important." }
+      ]
+    }
+  }
+}

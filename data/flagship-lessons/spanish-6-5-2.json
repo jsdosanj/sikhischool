@@ -1,0 +1,116 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-5",
+    "courseId": "course-spanish-6",
+    "order": 5,
+    "title": "Personality & Descriptions: Adjective Agreement",
+    "weekOfYear": 5
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-5-2",
+    "unitId": "unit-spanish-6-5",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Yo soy... pero mi amigo es...: Contrast Sentences",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday: seven personality words and the endings that make them agree. Today you use them the way people actually do — to compare two people. You keep your desk spotless; your best friend cannot find their homework in the mess. Spanish marks that turn with one small word: pero, 'but.'"
+      },
+      {
+        "type": "text",
+        "ref": "contrast-frame",
+        "text": "The frame uses only pieces you already have:\n\nYo soy + [adjective] + pero + mi amigo / mi amiga es + [adjective].\n\n- Yo soy ordenado, pero mi amigo es desordenado.\n- Yo soy seria, pero mi hermana es graciosa.\n- Yo soy trabajadora, pero mi primo es perezoso.\n\nTwo checks, every time:\n1. Match the adjective to the person. Describing yourself, choose the ending that fits you — -o or -a. Describing mi amiga, the adjective ends in -a; describing mi amigo, it ends in -o.\n2. Match the verb to the subject. That is ser from last week: yo soy, but mi amigo / mi amiga es."
+      },
+      {
+        "type": "text",
+        "ref": "stretching-the-frame",
+        "text": "Stretch the same frame to groups, and yesterday's agreement rules still apply:\n\n- Nosotras somos atrevidas, pero mis primas son serias. (all female -> -as)\n- Mis amigos son graciosos, pero yo soy más serio. (group with males -> -os)\n\nThat word más means 'more'; menos means 'less.' 'Yo soy más serio' = 'I am more serious.' You will build full comparisons later — for now, más and menos are just handy for softening a contrast."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now compare two people — or two groups — in one sentence, with every adjective agreeing. Tomorrow the whole class gets described: a personality quiz in Spanish, a class tally, and the word según for reporting what the results say."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "Mi hermano es ordenado, pero mi hermana es ___.",
+              "blankToken": "___",
+              "options": ["desordenado", "desordenada", "desordenados", "desordenadas"],
+              "answer": "desordenada"
+            },
+            {
+              "sentence": "Yo soy trabajador, pero mis amigos son ___.",
+              "blankToken": "___",
+              "options": ["perezoso", "perezosa", "perezosos", "perezosas"],
+              "answer": "perezosos"
+            },
+            {
+              "sentence": "Ana es seria, pero sus hermanas son ___.",
+              "blankToken": "___",
+              "options": ["gracioso", "graciosa", "graciosos", "graciosas"],
+              "answer": "graciosas"
+            },
+            {
+              "sentence": "Mis primas son graciosas, pero mi tío es ___.",
+              "blankToken": "___",
+              "options": ["serio", "seria", "serios", "serias"],
+              "answer": "serio"
+            },
+            {
+              "sentence": "Diego es desordenado, pero sus amigos son ___.",
+              "blankToken": "___",
+              "options": ["ordenado", "ordenada", "ordenados", "ordenadas"],
+              "answer": "ordenados"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-5-2",
+    "lessonId": "lesson-spanish-6-5-2",
+    "objectives": [
+      "Produce 'Yo soy... pero...' contrast sentences that pair two personality adjectives with the correct ser form",
+      "Make each adjective agree in gender and number with its subject, including in groups (mis amigos son graciosos, mis primas son serias)"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Device for the cloze activity (optional — can be done orally)"],
+    "facilitationScript": "1. Review yesterday's endings quickly: -o/-a for gender, -s/-es for number, trabajador -> trabajadora.\n2. Introduce pero and the 'Yo soy... pero mi amigo es...' frame with the three model sentences.\n3. Practice orally: each person says one true contrast sentence about themselves and a friend.\n4. Show the plural stretch (nosotras somos atrevidas, pero mis primas son serias) and the más / menos softener.\n5. Complete the cloze activity — every item is a contrast with an agreement choice.\n6. Complete the worksheet.\n7. Preview tomorrow's Spanish personality quiz and the word según.",
+    "differentiationTips": [
+      "Struggling: give the frame with the first adjective filled in ('Yo soy trabajador, pero mi amigo es ___') so only one agreement choice is left to make",
+      "Ready for more: have them write a three-part sentence — themselves, one friend, and a group — keeping all agreement correct",
+      "If the child gets the meaning right but the ending wrong, that is success on content and a quick fix on form — praise the sentence, then fix the vowel together"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Cloze: 1. desordenada (mi hermana, fem. sing.). 2. perezosos (mis amigos, masc. pl.). 3. graciosas (sus hermanas, fem. pl.). 4. serio (mi tío, masc. sing.). 5. ordenados (sus amigos, masc. pl.). Worksheet contrast sentences vary; check that each adjective matches its subject in gender and number and that yo takes soy while a friend takes es.",
+    "standardsRationale": "Delivers Day 2's scope-and-sequence design — 'Yo soy... pero mi amigo es...' contrast sentences — as the week's first productive-speaking task toward WA-WL-2015.1.3, forcing an agreement decision on every adjective while recycling week 4's ser conjugation in a real communicative frame."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-5-2",
+    "lessonId": "lesson-spanish-6-5-2",
+    "title": "Yo soy... pero mi amigo es...: Contrast Sentences",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Build 'Yo soy... pero...' contrast sentences, making every adjective agree.",
+      "rows": [
+        { "problem": "Complete about yourself: 'Yo soy ___, pero mi mejor amigo/amiga es ___.'" },
+        { "problem": "Fix the agreement: 'Mi amiga es ordenado.' -> ___" },
+        { "problem": "Fill in ser: 'Yo ___ trabajador, pero mis primos ___ perezosos.'" },
+        { "problem": "Write one contrast sentence about two people in your family, using pero and making both adjectives agree." }
+      ]
+    }
+  }
+}

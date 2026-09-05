@@ -1,0 +1,90 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-2",
+    "courseId": "course-spanish-3",
+    "order": 2,
+    "title": "Introducing Yourself: Me Llamo to ¿De Dónde Eres?",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-2-4",
+    "unitId": "unit-spanish-3-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "El Señor, La Señora: Greeting Grown-Ups With Respect",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned to greet your friends all week. But grown-ups you don't know very well — a new teacher, a neighbor, a store clerk — usually get a slightly different, more polite greeting."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[el señor]] means 'Mr.' or simply 'a gentleman,' and [[la señora]] means 'Mrs.' or 'a lady.' You use el señor before a man's last name (el señor Ramírez) and la señora before a woman's last name (la señora García), the same way you'd say 'Mr. Ramírez' or 'Mrs. García' in English. You can also use señor or señora by itself, without a name, as a polite way to greet a grown-up you don't know well — like saying 'Buenos días, señor' to a shopkeeper. Save mucho gusto and a first-name hello for a friend your own age, and reach for señor or señora when you're speaking respectfully to a grown-up."
+      },
+      {
+        "type": "text",
+        "ref": "courtesy-practice",
+        "text": "Decide whether each greeting fits a FRIEND your age or a GROWN-UP you don't know well:\n\n1. '¡Hola! ¿Cómo te llamas?' — said to a new kid at recess.\n2. 'Buenas tardes, señora Torres.' — said to your friend's mom at pickup.\n3. 'Mucho gusto, señor.' — said to a new neighbor moving in next door.\n4. '¡Hola! Me llamo Sofía.' — said to a classmate on the first day of school.\n\n(Answers: 1. friend  2. grown-up  3. grown-up  4. friend)\n\nNow practice out loud with a family member: greet them once the way you'd greet a friend, and once the way you'd greet a grown-up stranger, using señor or señora."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know how to greet a grown-up respectfully with señor or señora. Tomorrow is Passport Day — you'll use everything you learned this week to interview three people and fill out your own paper passport."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "build-the-sentence-v1",
+        "config": {
+          "items": [
+            { "words": ["Buenos", "días", "señor", "Ramírez"], "correctOrder": [0, 1, 2, 3] },
+            { "words": ["Buenas", "tardes", "señora", "García"], "correctOrder": [0, 1, 2, 3] },
+            { "words": ["Me", "llamo", "Diego"], "correctOrder": [0, 1, 2] },
+            { "words": ["Mucho", "gusto", "señor"], "correctOrder": [0, 1, 2] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-2-4",
+    "lessonId": "lesson-spanish-3-2-4",
+    "objectives": [
+      "Use el señor and la señora before a grown-up's last name",
+      "Choose a more formal greeting (señor/señora) for an unfamiliar adult versus a casual greeting for a friend"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A family member to practice both greeting styles with"],
+    "facilitationScript": "1. Ask the child if they talk to a new teacher or a new neighbor the exact same way they talk to a friend at recess (most will say no, even if they can't explain why).\n2. Introduce el señor and la señora, comparing them to 'Mr.' and 'Mrs.' in English, both with a last name and standing alone.\n3. Walk through the four courtesy-practice scenarios together, deciding friend vs. grown-up for each.\n4. Have the child practice both greeting styles out loud with a family member.\n5. Complete the build-the-sentence activity.\n6. Complete the worksheet.\n7. Preview tomorrow's Passport Day interviews.",
+    "differentiationTips": [
+      "Struggling: focus on just recognizing señor/señora as 'the polite one' first — producing full sentences with a last name can come after the concept is solid",
+      "Ready for more: ask them to name a real grown-up in their own life (a teacher, neighbor, or coach) and practice greeting that specific person with the correct title and last name",
+      "If a child asks why friends don't get señor/señora too, explain that in Spanish, just like in English, more formal titles are a way of showing extra respect to someone older or less familiar — not a rule about how much you like someone"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "El señor means 'Mr., gentleman' and la señora means 'Mrs., lady' — both are used before a grown-up's last name or alone as a respectful greeting. Courtesy-practice answers: 1. friend, 2. grown-up, 3. grown-up, 4. friend.",
+    "standardsRationale": "Delivers the week's Day 4 target (courtesy titles for adults vs. friends) under WA-WL-2015.1.1 Interpersonal Communication, and reinforces last week's greeting vocabulary (buenos días, buenas tardes, mucho gusto) by recombining it with this week's new courtesy titles, which is exactly the kind of spiraled recycling the band notes call for."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-2-4",
+    "lessonId": "lesson-spanish-3-2-4",
+    "title": "El Señor, La Señora: Greeting Grown-Ups With Respect",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about el señor and la señora.",
+      "rows": [
+        { "problem": "What does el señor mean in English? What does la señora mean?" },
+        { "problem": "Write how you would greet a new male teacher named Sr. Vega for the first time." },
+        { "problem": "Write how you would greet a new female neighbor named Sra. Ruiz for the first time." },
+        { "problem": "Name one grown-up in your own life you could practice greeting with señor or señora." }
+      ]
+    }
+  }
+}

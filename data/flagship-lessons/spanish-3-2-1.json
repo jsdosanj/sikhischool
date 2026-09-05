@@ -1,0 +1,96 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-2",
+    "courseId": "course-spanish-3",
+    "order": 2,
+    "title": "Introducing Yourself: Me Llamo to ¿De Dónde Eres?",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-2-1",
+    "unitId": "unit-spanish-3-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Me Llamo...: Exchanging Names",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you learned how to greet someone and ask how they're doing. But once you say hello, what's the very next thing people usually want to know about each other? Your name! This week you'll learn how to tell someone your name and ask for theirs."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[me llamo]] means 'my name is' — it literally means something closer to 'I call myself,' but in English we just say 'my name is.' To ask someone else's name, you say [[¿cómo te llamas?]], which means 'what is your name?' Notice that, just like ¿cómo estás? from last week, this question starts with an upside-down question mark and the word cómo. For now, think of me llamo and ¿cómo te llamas? as two matching puzzle pieces: one for telling your own name, one for asking someone else's."
+      },
+      {
+        "type": "text",
+        "ref": "dialogue",
+        "text": "Read this exchange out loud, then read it again, swapping roles:\n\nANA: ¡Hola! ¿Cómo te llamas?\nLUIS: Me llamo Luis. ¿Y tú? ¿Cómo te llamas?\nANA: Me llamo Ana.\n\nNow try it for real. Ask a family member ¿Cómo te llamas? even though you already know their name — it's just practice! Then answer when they ask you back."
+      },
+      {
+        "type": "text",
+        "ref": "name-tent",
+        "text": "Time to make your own name tent! Fold a piece of paper in half like a tent so it can stand up on a table. On one side, write in big letters: Me llamo [your name]. Draw something you like next to it — your favorite animal, a color you love, anything that feels like you. You'll use this name tent all week to introduce yourself."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now tell someone your name and ask for theirs. Tomorrow you'll learn how to introduce someone else — like when you tell a family member about a friend's name."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Pick a situation on the left, then find the Spanish phrase that matches it on the right.",
+          "pairs": [
+            { "left": "A new classmate wants to know your name.", "right": "¿Cómo te llamas?" },
+            { "left": "You want to know a new classmate's name.", "right": "¿Cómo te llamas?" },
+            { "left": "Luis is about to tell you his own name.", "right": "Me llamo Luis." },
+            { "left": "Ana is about to tell you her own name.", "right": "Me llamo Ana." }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-2-1",
+    "lessonId": "lesson-spanish-3-2-1",
+    "objectives": [
+      "Say me llamo to share your own name",
+      "Ask ¿Cómo te llamas? to find out someone else's name",
+      "Make a name tent that introduces yourself in writing"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A sheet of paper to fold into a name tent", "Crayons or markers", "A family member to practice the exchange with"],
+    "facilitationScript": "1. Ask the child what's usually the first thing people want to know about each other after saying hello (their name).\n2. Introduce me llamo and ¿cómo te llamas? together as a matched pair — one for telling, one for asking.\n3. Read the Ana/Luis dialogue together, then have the child perform it once with you, swapping roles.\n4. Have the child ask a family member ¿Cómo te llamas? for real practice, then answer when asked back.\n5. Fold a sheet of paper into a name tent and help the child write and decorate 'Me llamo [name]'.\n6. Complete the matching activity together or independently.\n7. Complete the worksheet.\n8. Preview tomorrow: introducing someone else with se llama.",
+    "differentiationTips": [
+      "Struggling: start with just me llamo (telling your own name) before adding the question ¿cómo te llamas? — one phrase at a time keeps the load light",
+      "Ready for more: have them add y tú? ('and you?') to the end of their answer, the way Luis does in the dialogue, to keep a conversation going both directions",
+      "If the two phrases get mixed up, point out that llamas (with an s, in a question) is asking about someone else, while llamo (ending in o) is about yourself — a small sound-based hook, not a formal grammar rule"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Me llamo means 'my name is.' ¿Cómo te llamas? means 'what is your name?' Ana's name tent should read 'Me llamo Ana' plus a drawing; the child's own name tent should follow the same pattern with their own name.",
+    "standardsRationale": "Opens the week's ACTFL Interpersonal Communication target (WA-WL-2015.1.1) with the exact vocabulary the scope-and-sequence names for Day 1 — pairs the new phrases with a hands-on name tent, continuing the band's pattern of tying new vocabulary to a physical writing artifact rather than pure recitation."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-2-1",
+    "lessonId": "lesson-spanish-3-2-1",
+    "title": "Me Llamo...: Exchanging Names",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write each phrase two times. Say it out loud as you write it.",
+      "prompts": [
+        { "prompt": "Write me llamo (my name is) two times.", "lines": 2 },
+        { "prompt": "Write ¿Cómo te llamas? (what is your name?) two times.", "lines": 2 },
+        { "prompt": "Write your own name tent line: Me llamo, then fill in your name.", "lines": 2 }
+      ]
+    }
+  }
+}

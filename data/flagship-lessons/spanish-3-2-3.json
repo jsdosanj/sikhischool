@@ -1,0 +1,111 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-2",
+    "courseId": "course-spanish-3",
+    "order": 2,
+    "title": "Introducing Yourself: Me Llamo to ¿De Dónde Eres?",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-2-3",
+    "unitId": "unit-spanish-3-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "¿De Dónde Eres? Mapping Where We're From",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can already share your name and ask for someone else's. Today you'll learn how to talk about somewhere just as important: where you're from."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[¿de dónde eres?]] means 'where are you from?' To answer, you say [[soy de]], which means 'I am from,' followed by the name of a place — soy de México, soy de Seattle, soy de Perú. Soy and eres are both little pieces of the same idea, 'to be' — you'll notice throughout this year that small words like these shift depending on who's talking, the same way me llamo and se llama did yesterday. For now, just remember: eres asks about someone else, soy answers about yourself."
+      },
+      {
+        "type": "text",
+        "ref": "world-map",
+        "text": "Get a world map (or look one up with a family member) and find the country your family is from — or a country a grandparent, aunt, or family friend is from. If your family has been in the United States for many generations, that's your answer too: soy de Estados Unidos!\n\nPractice the exchange with a family member:\n\nTÚ: ¿De dónde eres?\nFAMILIAR: Soy de Colombia. ¿Y tú? ¿De dónde eres?\nTÚ: Soy de Estados Unidos.\n\nMark the place your family is from with a small sticker or a pencil dot on the map."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now ask and answer where someone is from, using places your own family knows and loves. Tomorrow you'll learn two special words for greeting grown-ups politely: señor and señora."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "Sofía wants to know where her new classmate is from. She asks, '___?'",
+              "blankToken": "___",
+              "options": ["¿De dónde eres?", "¿Cómo te llamas?", "¿Cómo estás?", "Buenas tardes"],
+              "answer": "¿De dónde eres?"
+            },
+            {
+              "sentence": "Diego's family is from Perú. He says, '___ Perú.'",
+              "blankToken": "___",
+              "options": ["Soy de", "Me llamo", "Se llama", "Buenos días"],
+              "answer": "Soy de"
+            },
+            {
+              "sentence": "You want to ask a new friend where their family is from. You say, '___?'",
+              "blankToken": "___",
+              "options": ["¿De dónde eres?", "¿Cómo te llamas?", "Mucho gusto", "Adiós"],
+              "answer": "¿De dónde eres?"
+            },
+            {
+              "sentence": "Camila's family has lived in the United States for many years. She says, '___ Estados Unidos.'",
+              "blankToken": "___",
+              "options": ["Soy de", "Se llama", "Me llamo", "Buenas noches"],
+              "answer": "Soy de"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-2-3",
+    "lessonId": "lesson-spanish-3-2-3",
+    "objectives": [
+      "Ask ¿De dónde eres? to find out where someone is from",
+      "Answer with soy de followed by a real place name",
+      "Locate a family place of origin on a world map"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A world map (paper or online)", "A small sticker or extra pencil for marking the map", "A family member to ask about their own place of origin"],
+    "facilitationScript": "1. Ask the child what else, besides a name, people often want to know about someone new (where they're from).\n2. Introduce ¿de dónde eres? and soy de together, pointing out that both come from the same 'to be' idea, just shifted for who's talking.\n3. Find the family's place (or places) of origin on a world map together.\n4. Practice the exchange with a family member, then mark the location on the map.\n5. Complete the cloze activity.\n6. Complete the worksheet.\n7. Preview tomorrow: greeting grown-ups respectfully with señor and señora.",
+    "differentiationTips": [
+      "Struggling: if a family's place of origin is complicated (multiple countries, multiple generations), let the child pick just ONE place to practice with first — accuracy of the phrase matters more than a complete family history",
+      "Ready for more: have them ask ¿de dónde eres? to two or three different family members and compare answers, noticing that a family can have more than one place they're 'from'",
+      "If a family has been in the United States for many generations with no single country of origin readily known, 'soy de Estados Unidos' (or a state/city, like 'soy de Seattle') is a completely correct and complete answer — there's no wrong place to be from"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "¿De dónde eres? means 'where are you from?' Soy de means 'I am from,' followed by a place name. The map should show at least one place marked as a family place of origin.",
+    "standardsRationale": "Covers the week's Day 3 target from the scope-and-sequence (asking and answering where someone is from with a world map) under WA-WL-2015.1.1 Interpersonal Communication — continues the light grammar-noticing thread started on Day 2 by pointing out that soy/eres shift the same way me llamo/se llama did, without yet naming the verb ser."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-2-3",
+    "lessonId": "lesson-spanish-3-2-3",
+    "title": "¿De Dónde Eres? Mapping Where We're From",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about ¿de dónde eres? and soy de.",
+      "rows": [
+        { "problem": "What does ¿de dónde eres? mean in English?" },
+        { "problem": "Write your own answer: Soy de ___." },
+        { "problem": "Name one place your family is from, and write it in a full sentence starting with Soy de." },
+        { "problem": "Which word asks about someone else — eres or soy?" }
+      ]
+    }
+  }
+}

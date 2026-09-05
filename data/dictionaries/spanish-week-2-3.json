@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-me-llamo",
+    "language": "spanish",
+    "word": "me llamo",
+    "translation": "my name is",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Me llamo Sofía y soy de Texas. (My name is Sofia and I'm from Texas.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-como-te-llamas",
+    "language": "spanish",
+    "word": "¿cómo te llamas?",
+    "translation": "what is your name?",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "¡Hola! ¿Cómo te llamas? (Hi! What's your name?)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-se-llama",
+    "language": "spanish",
+    "word": "se llama",
+    "translation": "his/her name is",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Mi mejor amigo se llama Diego. (My best friend's name is Diego.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-de-donde-eres",
+    "language": "spanish",
+    "word": "¿de dónde eres?",
+    "translation": "where are you from?",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Eres nueva en la escuela. ¿De dónde eres? (You're new at school. Where are you from?)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-soy-de",
+    "language": "spanish",
+    "word": "soy de",
+    "translation": "I am from",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Soy de México, pero ahora vivo en Seattle. (I'm from Mexico, but now I live in Seattle.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-el-senor",
+    "language": "spanish",
+    "word": "el señor",
+    "translation": "Mr., gentleman",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "El señor López es mi maestro de música. (Mr. López is my music teacher.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-la-senora",
+    "language": "spanish",
+    "word": "la señora",
+    "translation": "Mrs., lady",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "La señora Díaz vive al lado de mi casa. (Mrs. Díaz lives next door to my house.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  }
+]

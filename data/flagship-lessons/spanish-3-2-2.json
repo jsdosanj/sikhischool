@@ -1,0 +1,110 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-2",
+    "courseId": "course-spanish-3",
+    "order": 2,
+    "title": "Introducing Yourself: Me Llamo to ¿De Dónde Eres?",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-2-2",
+    "unitId": "unit-spanish-3-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Se Llama: Introducing a Friend",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you learned to talk about yourself. But what if you want to tell someone about a friend instead — introduce your friend to your grandma, for example? Spanish has a special word for that too."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[se llama]] means 'his name is' or 'her name is.' Watch closely: me llamo (my name is) becomes se llama (his/her name is) — the middle part changes from llamo to llama. This is your first peek at something every Spanish verb does: the ending changes depending on who's doing the action. In English, you already do something similar without noticing — you say 'I run' but 'she runs,' adding an -s for someone else. Spanish just changes the ending in its own way: llamo for 'I,' llama for 'he/she.' You don't need to memorize a whole chart yet — for now, just remember that me llamo is for you, and se llama is for someone else."
+      },
+      {
+        "type": "text",
+        "ref": "dialogue",
+        "text": "Look at this introduction:\n\nDIEGO: Mamá, ella es mi amiga. Se llama Sofía.\nMAMÁ: Mucho gusto, Sofía.\n\nDiego didn't say 'me llamo Sofía' — that would mean HIS name was Sofía! He used se llama because he's talking about Sofía, not about himself.\n\nNow try it yourself: pick a stuffed animal, a family photo, or a family member in another room, and introduce them to a family member using se llama. For example: 'Se llama Max' (if Max is your dog) or 'Se llama papá' (pointing to a photo)."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now know two different ways to talk about names: me llamo for yourself, se llama for someone else. Tomorrow you'll learn how to ask — and answer — where someone is from."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "You are telling your grandma your OWN name. Which phrase do you use?",
+              "options": ["Me llamo", "Se llama", "¿Cómo te llamas?", "Adiós"],
+              "answer": 0,
+              "explanation": "Me llamo is used to talk about your own name."
+            },
+            {
+              "q": "You are introducing your friend Camila to your teacher. Which phrase do you use?",
+              "options": ["Me llamo", "Se llama", "¿Cómo te llamas?", "Buenas tardes"],
+              "answer": 1,
+              "explanation": "Se llama is used to talk about someone else's name, like a friend's."
+            },
+            {
+              "q": "Diego says, 'Se llama Sofía.' Whose name is Sofía?",
+              "options": ["Diego's own name", "Diego's friend's name", "Nobody's — it's a question", "His mom's name"],
+              "answer": 1,
+              "explanation": "Se llama means 'her name is' — Diego is talking about his friend, not himself."
+            },
+            {
+              "q": "In me llamo and se llama, what changes?",
+              "options": ["The ending of the word", "Nothing at all", "Only the question mark", "Only the accent mark"],
+              "answer": 0,
+              "explanation": "The ending changes from -llamo to -llama depending on who you're talking about — yourself or someone else."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-2-2",
+    "lessonId": "lesson-spanish-3-2-2",
+    "objectives": [
+      "Use se llama to introduce someone other than yourself",
+      "Notice that the verb ending changes between me llamo and se llama depending on who is being talked about"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A stuffed animal, family photo, or another family member to 'introduce'"],
+    "facilitationScript": "1. Ask the child how they'd tell someone their friend's name, now that they already know how to share their own name.\n2. Introduce se llama, comparing it side by side with me llamo, and point out that only the ending changes.\n3. Make the English 'run/runs' comparison to show that a verb changing its ending based on who's doing the action isn't a new idea — English does its own version of it too.\n4. Read the Diego/Mamá dialogue together, then have the child practice introducing a stuffed animal, photo, or family member using se llama.\n5. Complete the multiple-choice activity.\n6. Complete the worksheet.\n7. Preview tomorrow: asking and telling where someone is from.",
+    "differentiationTips": [
+      "Struggling: keep practicing with just one 'someone else' (like one stuffed animal or one photo) until se llama feels automatic before switching targets",
+      "Ready for more: have them introduce two different friends or toys back-to-back, using se llama for each, to show the pattern holds no matter who 'someone else' is",
+      "If a child says 'me llamo' when introducing a friend, gently ask 'wait, is that YOUR name?' — letting them catch and self-correct the mix-up builds the distinction better than simply telling them the rule"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Me llamo is used for your own name. Se llama is used for someone else's name (his or her name). The verb ending changes from -llamo to -llama depending on who is being talked about.",
+    "standardsRationale": "Extends the week's WA-WL-2015.1.1 Interpersonal Communication target from self-introduction to introducing a third party, exactly as Day 2 calls for in the scope-and-sequence — the band notes call for grammar taught as memorized frames, not conjugation tables, so this lesson names the pattern (verbs change by who's doing the action) without introducing formal conjugation terminology or a verb chart."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-2-2",
+    "lessonId": "lesson-spanish-3-2-2",
+    "title": "Se Llama: Introducing a Friend",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about me llamo and se llama.",
+      "rows": [
+        { "problem": "What does se llama mean in English?" },
+        { "problem": "Write a sentence using se llama to introduce your best friend by name." },
+        { "problem": "Write a sentence using me llamo to introduce yourself." },
+        { "problem": "What part of the word changes between me llamo and se llama?" }
+      ]
+    }
+  }
+}

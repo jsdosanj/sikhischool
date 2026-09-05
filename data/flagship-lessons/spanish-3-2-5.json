@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-2",
+    "courseId": "course-spanish-3",
+    "order": 2,
+    "title": "Introducing Yourself: Me Llamo to ¿De Dónde Eres?",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-2-5",
+    "unitId": "unit-spanish-3-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Passport Day: Interviewing Three Classmates",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned to share your name, introduce someone else, say where you're from, and greet a grown-up politely. Today you'll use every single one of those skills for a special mission: Passport Day."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A passport is a small booklet that shows who you are and, sometimes, where you've traveled. Today you'll make your own paper passport with two pieces of information: me llamo (your name) and soy de (where you're from). Then you'll become a passport officer and interview three other people, filling out a page of your passport booklet for each person you meet, using the exact same two questions you practiced this week: ¿Cómo te llamas? and ¿De dónde eres?"
+      },
+      {
+        "type": "text",
+        "ref": "interview",
+        "text": "First, fill out your own passport page:\n\nMe llamo: ______________________\nSoy de: ______________________\n\nNow interview three classmates or family members. For each person, ask both questions out loud, listen carefully, and write down what they say:\n\nTÚ: ¡Hola! ¿Cómo te llamas?\nELLOS: Me llamo ______.\nTÚ: Mucho gusto, ______. ¿De dónde eres?\nELLOS: Soy de ______.\nTÚ: ¡Gracias!\n\nIf the person you're interviewing is a grown-up you don't know well, remember to use señor or señora when you greet them."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You interviewed three whole people entirely in Spanish this week! You can greet someone, introduce yourself, introduce someone else, share where you're from, and greet a grown-up with respect. Next week you'll learn the Spanish alphabet and the special sounds that make it sound different from English."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-2-5",
+    "lessonId": "lesson-spanish-3-2-5",
+    "objectives": [
+      "Complete a personal passport page using me llamo and soy de",
+      "Interview three people using ¿Cómo te llamas? and ¿De dónde eres?, recording their answers accurately"
+    ],
+    "materialsNeeded": ["Printed worksheet (doubles as the passport booklet)", "Pencil", "Three people to interview (classmates, siblings, or family members)"],
+    "facilitationScript": "1. Explain what a passport is and that today's activity turns the child into a passport officer for the day.\n2. Help the child fill out their own passport page first (me llamo / soy de).\n3. Review the full interview script together, including the señor/señora reminder for unfamiliar adults.\n4. Send the child to interview three different people, filling out one passport page per person.\n5. Complete the worksheet, recording all three interviews.\n6. Celebrate finishing the week — review all five phrases learned: me llamo, ¿cómo te llamas?, se llama, ¿de dónde eres?, soy de, el señor, la señora.\n7. Preview next week's topic: the Spanish alphabet and special sounds.",
+    "differentiationTips": [
+      "Struggling: if three people aren't available, the same person can be 'interviewed' twice pretending to be a different visitor each time — the goal is repeating the full question-and-answer pattern, not meeting three unique people",
+      "Ready for more: have them add one extra question of their own choosing at the end of each interview, using any phrase learned so far (like ¿Cómo estás? from last week)",
+      "If handwriting the answers is slow, let the child interview out loud first and jot down just the key words (a name, a place) rather than full sentences — the spoken exchange is the real target skill"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "The child's own passport page should read 'Me llamo [their name]' and 'Soy de [their place].' Each of the three interview pages should record a real name and a real place given by the person interviewed.",
+    "standardsRationale": "Closes the week's WA-WL-2015.1.1 Interpersonal Communication arc with an authentic, repeated real-world interaction (three separate interviews) rather than a single scripted exchange — matching the Novice Mid target of producing memorized-plus-slightly-adapted language across multiple real partners, and mirroring week 1's Day 5 pattern of a live, unscored performance task instead of a digital game."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-2-5",
+    "lessonId": "lesson-spanish-3-2-5",
+    "title": "Passport Day: Interviewing Three Classmates",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Fill out your own passport page, then record what each person you interview tells you.",
+      "rows": [
+        { "problem": "Your own passport page: Me llamo ___. Soy de ___." },
+        { "problem": "Person 1's passport page: Me llamo ___. Soy de ___." },
+        { "problem": "Person 2's passport page: Me llamo ___. Soy de ___." },
+        { "problem": "Person 3's passport page: Me llamo ___. Soy de ___." }
+      ]
+    }
+  }
+}

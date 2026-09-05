@@ -1,0 +1,46 @@
+{
+  "lessonId": "lesson-spanish-3-2-5",
+  "quiz": {
+    "id": "quiz-spanish-3-2-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "You want to tell a new friend your name. What do you say?",
+        "options": ["Me llamo Ana.", "¿Cómo te llamas?", "Se llama Ana.", "¿De dónde eres?"],
+        "answer": 0,
+        "explanation": "Me llamo means 'my name is' — used to share your own name."
+      },
+      {
+        "q": "You want to know a classmate's name. What do you ask?",
+        "options": ["Soy de aquí.", "Se llama.", "¿Cómo te llamas?", "Mucho gusto, señor."],
+        "answer": 2,
+        "explanation": "¿Cómo te llamas? means 'what is your name?'"
+      },
+      {
+        "q": "Diego is introducing his friend Marisol to his teacher. What does he say?",
+        "options": ["Me llamo Marisol.", "Se llama Marisol.", "¿Cómo te llamas, Marisol?", "Soy de Marisol."],
+        "answer": 1,
+        "explanation": "Se llama means 'her name is' — used to talk about someone else's name."
+      },
+      {
+        "q": "You want to ask a new friend where their family is from. What do you ask?",
+        "options": ["¿Cómo estás?", "¿De dónde eres?", "Se llama.", "Mucho gusto."],
+        "answer": 1,
+        "explanation": "¿De dónde eres? means 'where are you from?'"
+      },
+      {
+        "q": "Your family has lived in Colombia for generations. How do you answer '¿De dónde eres?'",
+        "options": ["Me llamo Colombia.", "Se llama Colombia.", "Soy de Colombia.", "Es Colombia."],
+        "answer": 2,
+        "explanation": "Soy de means 'I am from,' followed by the name of a place."
+      },
+      {
+        "q": "You are greeting your friend's mom, whose last name is Torres, for the first time. What is the most polite way to say hello?",
+        "options": ["¡Hola, Torres!", "Buenas tardes, señora Torres.", "Mucho gusto, se llama Torres.", "¿Cómo te llamas, Torres?"],
+        "answer": 1,
+        "explanation": "La señora is used before a woman's last name as a respectful, adult title — like 'Mrs.' in English."
+      }
+    ]
+  }
+}

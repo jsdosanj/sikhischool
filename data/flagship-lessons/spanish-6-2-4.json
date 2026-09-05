@@ -1,0 +1,91 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-2",
+    "courseId": "course-spanish-6",
+    "order": 2,
+    "title": "Identity & Nationality",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-2-4",
+    "unitId": "unit-spanish-6-2",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Reading Real Identities: Four Teens, Four Countries",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You've learned to ask about nationality — now it's time to see what real answers actually sound like. Today you'll read short identity bios from four teens around the Spanish-speaking world, and prove you understood them without translating word for word."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "As you read, look for the clues you already know: nationality words ending in -o/-a or -ense, the phrase nací en, and place names. You won't understand every single word in these bios, and that's completely normal — focus on pulling out who, where, and what nationality, the exact same skill you used to solve yesterday's guess-who clues."
+      },
+      {
+        "type": "text",
+        "ref": "bios",
+        "text": "MATEO: Me llamo Mateo. Tengo doce años y soy colombiano. Nací en Medellín, pero ahora vivo en Bogotá con mi familia. Me gusta el fútbol y la música.\n\nVALENTINA: Me llamo Valentina. Soy peruana. Nací en Cusco, una ciudad muy antigua en las montañas de Perú. Mi identidad incluye mi familia, mi comida favorita — el ceviche — y mi amor por la historia de mi país.\n\nETHAN: Me llamo Ethan. Soy estadounidense. Nací en Chicago, pero mi abuela es de México, así que hablo un poco de español en casa con ella. Mi nacionalidad es estadounidense, pero mi familia también tiene raíces mexicanas.\n\nCAMILA: Me llamo Camila. Soy colombiana, pero nací en Lima, Perú. Mi papá trabajó en Perú por dos años, y yo nací allí. Ahora vivo en Bogotá, Colombia, con mi familia. A veces la gente se sorprende: mi nacionalidad es colombiana, pero nací en otro país."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just read four real-sounding identities and pulled out the who, where, and nationality of each one — proof that understanding meaning from context works, even with words you haven't studied yet. Tomorrow, it's your turn to write your own identity bio in four lines."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match each teen's name to the fact that describes them.",
+          "pairs": [
+            { "left": "Mateo", "right": "Es colombiano y nació en Medellín." },
+            { "left": "Valentina", "right": "Es peruana y nació en Cusco." },
+            { "left": "Ethan", "right": "Es estadounidense y nació en Chicago." },
+            { "left": "Camila", "right": "Es colombiana, pero nació en Lima, Perú." }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-2-4",
+    "lessonId": "lesson-spanish-6-2-4",
+    "objectives": [
+      "Extract who, where, and nationality details from short authentic-style Spanish reading passages without translating word-for-word",
+      "Match each of four teens to their correct nationality and birthplace based on textual evidence"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Remind the child that reading doesn't mean understanding every word — model 'guessing from context' with one English example first (a hard word in a book they already know).\n2. Read all four bios aloud together, pausing after each to identify the teen's name, nationality, and birthplace.\n3. Pay special attention to Camila's bio — draw out that her nationality (colombiana) and her birthplace (Lima, Peru) are different, and that this is a normal, real kind of identity.\n4. Complete the matching activity, pairing each teen's name with their correct facts.\n5. Complete the worksheet.\n6. Preview tomorrow's writing task: the child's own identity bio.",
+    "differentiationTips": [
+      "Struggling: cover three of the four bios and focus on just Mateo's first — his nationality and birthplace match, which is the simpler case before Camila's mismatch",
+      "Ready for more: ask why Camila's situation (born in one country, nationality from another) can happen — discuss family, work, and citizenship in plain terms",
+      "This lesson uses reading instead of listening because the course doesn't have audio content yet — treat it exactly as a class would treat a listening passage, since the same who/where/nationality clues apply either way"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Mateo: colombiano, nació en Medellín, vive en Bogotá. Valentina: peruana, nació en Cusco. Ethan: estadounidense, nació en Chicago, familia con raíces mexicanas. Camila: colombiana, pero nació en Lima, Perú — her nationality and her birthplace are different countries.",
+    "standardsRationale": "Delivers Day 4's scope-and-sequence target (reading four teens' identity bios) as Interpretive Reading — the same modality choice week 1 made on its own Day 4 (reading transcripts in place of listening, since the platform has no audio-generation infrastructure yet per expansion-plan-2026-09.md §12.9) — while Camila's bio specifically extends the standard's 'exchanging origin and nationality' focus to the realistic case where the two aren't the same thing."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-2-4",
+    "lessonId": "lesson-spanish-6-2-4",
+    "title": "Reading Real Identities: Four Teens, Four Countries",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using the four bios from today's lesson.",
+      "rows": [
+        { "problem": "What is Mateo's nationality, and where was he born?" },
+        { "problem": "What is Valentina's nationality, and where was she born?" },
+        { "problem": "What makes Camila's identity different from the other three teens? Explain in one sentence." },
+        { "problem": "Ethan says his nationality is estadounidense but his grandmother is from Mexico. Can someone have one nationality and also have family roots from a different country? Explain." }
+      ]
+    }
+  }
+}

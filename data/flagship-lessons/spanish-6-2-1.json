@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-2",
+    "courseId": "course-spanish-6",
+    "order": 2,
+    "title": "Identity & Nationality",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-2-1",
+    "unitId": "unit-spanish-6-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Nationality Adjectives: Spotting the -o/-a and -ense Pattern",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You already know how to greet someone the right way in Spanish — now it's time to say something about yourself: where you're from. In English, 'American' or 'Peruvian' doesn't change no matter who's talking. In Spanish, a word for nationality actually changes its ending depending on whether it's describing a man or a woman — and once you learn the pattern, you can guess dozens of nationality words you've never even studied."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "Your [[la identidad]] is everything that makes you, you — your name, your family, the things you love, and your [[la nacionalidad]], the country you belong to. Spanish has a simple, powerful pattern for talking about nacionalidad: most nationality words end in -o when they describe a man and -a when they describe a woman, exactly like other descriptive words you'll meet later this year. A man from Colombia is [[colombiano]]; a woman from Colombia is colombiana — same word, different ending. A man from Peru is [[peruano]]; a woman from Peru is peruana. Notice the pattern repeats no matter which country you start with — that's what makes it a pattern instead of a fact to memorize one country at a time.\n\nNot every nationality word follows the -o/-a rule, though. Some end in -ense, and those words never change no matter who they describe — a man and a woman from the United States are both [[estadounidense]]. You'll meet other -ense nationalities later on (canadiense, costarricense), and the rule is the same every time: one form fits everyone."
+      },
+      {
+        "type": "text",
+        "ref": "pattern-practice",
+        "text": "Look at each nationality word below and predict the missing form before checking with your teacher or parent:\n\n- colombiano → colombiana (you already know this pair)\n- peruano → ______ (predict the feminine form)\n- mexicano → ______ (a brand-new country — does the same -o/-a pattern still work?)\n- estadounidense → ______ (predict: does it change for a man vs. a woman?)\n- canadiense → ______ (another -ense word — same rule?)\n\nIf you predicted peruana, mexicana, and estadounidense/canadiense unchanged, you've cracked the pattern."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Today you learned that most Spanish nationality words change their ending for gender (-o/-a), while a smaller group ending in -ense stays exactly the same either way. Tomorrow you'll use these words as clues in a guess-who game about famous Spanish-speaking celebrities."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-2-1",
+    "lessonId": "lesson-spanish-6-2-1",
+    "objectives": [
+      "State the general nationality-adjective pattern: -o for masculine, -a for feminine, and -ense as an invariant ending",
+      "Produce the correct gendered form of a nationality adjective (colombiano/colombiana, peruano/peruana) given the other form"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Ask the child if any English descriptive words change based on the gender of the person they describe (they don't — 'American' stays 'American' no matter who it describes). This sets up why Spanish is different.\n2. Introduce identidad and nacionalidad as the week's big-picture words.\n3. Walk through the -o/-a pattern with colombiano/colombiana and peruano/peruana, then the invariant -ense pattern with estadounidense.\n4. Work through the pattern-spotting practice list together, having the child predict each missing form before you confirm it.\n5. Complete the worksheet.\n6. Preview tomorrow's guess-who game with famous Spanish speakers.",
+    "differentiationTips": [
+      "Struggling: start with just one pair (colombiano/colombiana) and confirm the -o/-a swap works before introducing a second country — mastering one full pair beats memorizing four half-understood ones",
+      "Ready for more: ask them to guess the feminine form of mexicano or the pattern for canadiense before being told, using only today's rule",
+      "If the child asks why estadounidense doesn't have two forms, compare it to English words like 'happy' — some words just don't change, and -ense nationality words are that category in Spanish"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. peruano → peruana. 2. mexicano → mexicana (the pattern holds even for a country not explicitly taught). 3. estadounidense → estadounidense (no change). 4. canadiense → canadiense (no change, same -ense pattern).",
+    "standardsRationale": "Opens week 2's WA-WL-2015.1.1 Interpersonal Communication target with the grammatical pattern the scope-and-sequence names as Day 1's specific job (pattern-spotting nationality endings) — teaching it as a rule the student can apply to new words, not a vocabulary list to memorize one country at a time, per the band's emphasis on patterns that unlock many words at once."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-2-1",
+    "lessonId": "lesson-spanish-6-2-1",
+    "title": "Nationality Adjectives: Spotting the -o/-a and -ense Pattern",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about nationality-word patterns.",
+      "rows": [
+        { "problem": "Write the feminine form of peruano." },
+        { "problem": "Write the feminine form of mexicano. (Hint: the pattern is the same as colombiano/colombiana.)" },
+        { "problem": "Does estadounidense change for a man or a woman? Write yes or no and explain why." },
+        { "problem": "Fill in the blank: Mi amigo es de Colombia. Él es ______." }
+      ]
+    }
+  }
+}

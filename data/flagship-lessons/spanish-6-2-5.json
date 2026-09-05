@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-2",
+    "courseId": "course-spanish-6",
+    "order": 2,
+    "title": "Identity & Nationality",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-2-5",
+    "unitId": "unit-spanish-6-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Write and Share: My Own Identity Bio",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "All week you've read about and asked other people about their identity and nationality. Today the last blank left to fill in is about you."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "You now have everything you need to write your own identity bio, just like Mateo, Valentina, Ethan, and Camila did yesterday. A complete four-line bio answers: your name and age, your nationality, where you were born (and where you live now, if that's different), and one more thing that's part of who you are. Use nací en for where you were born, and soy plus your nationality word for who you are — remember to match the ending to your own gender: if you're a girl, reach for the -a ending (colombiana, peruana); if the word is one of the -ense ones, the ending doesn't change no matter what."
+      },
+      {
+        "type": "text",
+        "ref": "template",
+        "text": "Follow this four-line pattern, filling in your own real details:\n\nLínea 1: Me llamo _______. Tengo _______ años.\nLínea 2: Soy _______. (your nationality — remember the -o/-a or -ense ending)\nLínea 3: Nací en _______, pero ahora vivo en _______. (skip the second half if you still live where you were born)\nLínea 4: Mi identidad también incluye _______. (a hobby, a language, a food, a tradition — anything that's part of who you are)\n\nOnce you've written your four lines, read them out loud to a family member. If you're learning with a class or a co-op group, share your bio out loud and count how many different nationalities and birthplaces end up in the room."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just wrote and shared your own identity bio in Spanish — your name, nationality, birthplace, and something that makes you, you. Next week, you'll zoom out from your own identity to the whole Spanish-speaking world: 21 countries, three continents, one shared language."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-2-5",
+    "lessonId": "lesson-spanish-6-2-5",
+    "objectives": [
+      "Write a 4-line original identity bio in Spanish including name, age, nationality, and birthplace",
+      "Correctly match a self-chosen nationality adjective's ending to one's own gender"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "A family member to listen to the finished bio (or a class/co-op group to share with)"],
+    "facilitationScript": "1. Review the week: the -o/-a and -ense nationality pattern, ¿de dónde es?/¿de dónde eres?, and nací en.\n2. Walk through the 4-line template together, modeling with your own (or a made-up) example first.\n3. Have the child write their own four lines, checking that their nationality word's ending matches their gender.\n4. Read the finished bio out loud to a family member or share it with a class/co-op group.\n5. Complete the worksheet.\n6. Preview next week's topic: the wider Spanish-speaking world.",
+    "differentiationTips": [
+      "Struggling: let them copy Mateo's or Valentina's bio structure line-by-line, swapping in only their own name, age, nationality, and city",
+      "Ready for more: add a fifth line comparing their own identity bio to one of yesterday's four teens — 'A diferencia de Camila, yo...' ('Unlike Camila, I...')",
+      "If the child was born in a different place than where their family is from, celebrate that as their own Camila moment — the lesson explicitly modeled that this is a normal identity, not an exception to explain away"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Bios will vary by student. Check for: a nationality word with the ending matching the student's own gender (or an unchanged -ense form if applicable), a nací en + real place, and four complete lines matching the template's four parts.",
+    "standardsRationale": "Closes the week's WA-WL-2015.1.1 arc with Presentational writing — the student's own original 4-line bio — completing the same memorized-frames-to-original-sentences arc the band notes describe, and giving the student the first piece of writing this course asks them to produce that is genuinely about themselves rather than an assigned character."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-2-5",
+    "lessonId": "lesson-spanish-6-2-5",
+    "title": "Write and Share: My Own Identity Bio",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write your own four-line identity bio, following the template from today's lesson.",
+      "prompts": [
+        { "prompt": "Línea 1: Me llamo ___. Tengo ___ años.", "lines": 2 },
+        { "prompt": "Línea 2: Soy ___. (your nationality)", "lines": 2 },
+        { "prompt": "Línea 3: Nací en ___, pero ahora vivo en ___.", "lines": 2 },
+        { "prompt": "Línea 4: Mi identidad también incluye ___.", "lines": 2 }
+      ]
+    }
+  }
+}

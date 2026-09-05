@@ -1,0 +1,76 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-2",
+    "courseId": "course-spanish-k",
+    "order": 2,
+    "title": "My Name & Meeting Friends",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-2-3",
+    "unitId": "unit-spanish-k-2",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Niño or Niña? A Picture Sorting Game",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol brought a big pile of pictures today — some show boys, some show girls. Let's sort them into two groups with Sol!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-nino",
+        "text": "A boy is [[el niño]] in Spanish. Find a picture of a boy — a class photo or a storybook character — and say '¡Es el niño!'"
+      },
+      {
+        "type": "text",
+        "ref": "practice-nina",
+        "text": "A girl is [[la niña]] in Spanish. Find a picture of a girl and say '¡Es la niña!'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You sorted pictures into el niño and la niña piles — great listening! Tomorrow, you'll introduce a friend to Sol."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-2-3",
+    "lessonId": "lesson-spanish-k-2-3",
+    "objectives": [
+      "Say el niño (boy) when shown a picture of a boy",
+      "Say la niña (girl) when shown a picture of a girl"
+    ],
+    "materialsNeeded": ["A pile of pictures with people in them — class photos, family photos, or storybook illustrations work well", "Two spots on the floor or table to sort pictures into"],
+    "facilitationScript": "1. Lay out a small pile of pictures showing children — mix boys and girls, from photos or storybooks.\n2. Hold up a picture of a boy and say '¡Es el niño!' — coach your child to echo el niño and place it in the 'niño' pile.\n3. Hold up a picture of a girl and say '¡Es la niña!' — coach your child to echo la niña and place it in the 'niña' pile.\n4. Mix up the pictures and let your child sort 4-5 more on their own, saying el niño or la niña for each before placing it.\n5. Point to yourself or a family member and ask: '¿Eres el niño o la niña?' (Are you the boy or the girl?) and answer together.\n6. Close by asking your child: 'What do we call a boy in Spanish? What do we call a girl?'",
+    "differentiationTips": [
+      "Struggling: sort just 3-4 very clear pictures at first, and say the word for your child to echo before they try it alone",
+      "Ready for more: add stuffed animals or toy figures dressed as characters and sort those too, describing why each one is el niño or la niña",
+      "This is a listening-and-sorting activity — your child never needs to read the words el niño or la niña to learn them"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken sorting activity — success looks like your child saying el niño for pictures of boys and la niña for pictures of girls as they sort, not a written answer.",
+    "standardsRationale": "Extends week 2's WA-WL-2015.1.1 target with the vocabulary needed to talk about the other people in a name-and-friends conversation, taught through a hands-on picture sort rather than direct instruction, matching this band's oral/aural-first design."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-2-3",
+    "lessonId": "lesson-spanish-k-2-3",
+    "title": "Niño or Niña? A Picture Sorting Game",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and sort pictures together — there's nothing for your child to write today.",
+      "rows": [
+        { "problem": "Gather 4-6 pictures showing children, from photos or storybooks." },
+        { "problem": "Hold up a picture of a boy. Say '¡Es el niño!' together and set it in one pile." },
+        { "problem": "Hold up a picture of a girl. Say '¡Es la niña!' together and set it in a second pile." },
+        { "problem": "Mix up the rest and let your child sort them, saying el niño or la niña each time." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-2",
+    "courseId": "course-spanish-9",
+    "order": 2,
+    "title": "Identity & Heritage",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-2-5",
+    "unitId": "unit-spanish-9-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Identity Round-Table: Sharing Your Paragraph, Asking Real Questions",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week closes the way it should: out loud, with real people, not just on paper. Today you share the identity paragraph you drafted yesterday and — just as importantly — practice asking a genuine follow-up question after someone else shares theirs."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "A round-table only works if listening counts as much as talking. After each person reads their paragraph aloud, the group's job isn't to move immediately to the next reader — it's to ask at least one real question first, the kind you built with interview frames on Tuesday: ¿Y tú entiendes ese idioma, o solo lo escuchas? ¿Cómo se originó esa costumbre en tu familia? ¿De qué generación eres tú — la primera, la segunda? A good follow-up question proves you were actually listening, not just waiting your turn.\n\nThis week traced one long idea: la herencia and el apellido on Monday, el origen and bilingüe on Tuesday, la raíz and la generación in Wednesday's readings, and pertenecer running through Thursday's writing. Today, all seven words are tools you actually have, not just terms you memorized — use them in your own responses and in the questions you ask others."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Whatever your own raíces turned out to be this week — one country or several, one language or three, one apellido or two — the point was never to arrive at one tidy answer. It was to practice describing where you actually come from, out loud, with real detail. Next week: daily life in the full present tense, describing not where you're from, but how you actually live now."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "translate-v1",
+        "config": {
+          "items": [
+            { "prompt": "Translate to Spanish: heritage", "acceptedAnswers": ["la herencia", "herencia"] },
+            { "prompt": "Translate to Spanish: last name, surname", "acceptedAnswers": ["el apellido", "apellido"] },
+            { "prompt": "Translate to Spanish: origin", "acceptedAnswers": ["el origen", "origen"] },
+            { "prompt": "Translate to English: bilingüe", "acceptedAnswers": ["bilingual"] },
+            { "prompt": "Translate to Spanish: to belong", "acceptedAnswers": ["pertenecer"] },
+            { "prompt": "Translate to Spanish: root", "acceptedAnswers": ["la raíz", "raíz"] },
+            { "prompt": "Translate to Spanish: generation", "acceptedAnswers": ["la generación", "generación"] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-2-5",
+    "lessonId": "lesson-spanish-9-2-5",
+    "objectives": [
+      "Share an original identity paragraph aloud and respond to at least one genuine follow-up question",
+      "Ask at least one specific follow-up question (not a yes/no question) in response to a peer's or family member's shared paragraph"
+    ],
+    "materialsNeeded": ["Yesterday's identity paragraph draft", "Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Complete the vocabulary-recap activity as a warm-up before the round-table itself.\n2. If working one-on-one (parent/student), both people share a short identity paragraph aloud — the adult's participation makes this a genuine exchange, not a one-sided assignment. If in a small group, rotate readers.\n3. After each reader, the listener(s) ask at least one specific follow-up question before moving on — model this once yourself if needed.\n4. Complete the worksheet's before/during/after reflection.\n5. Preview next week's topic: daily life in the full present tense.",
+    "differentiationTips": [
+      "Struggling: it's fine to read the paragraph rather than speak from memory — the goal this week is sharing real content, not a memorized-speech skill",
+      "Ready for more: challenge them to ask a follow-up question entirely in Spanish, and to answer one asked of them without switching to English mid-sentence",
+      "If no second person is available for a live round-table, have the student record their paragraph and their planned follow-up question, then imagine and write a plausible answer to it — the worksheet's structure still works either way"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Sample genuine follow-up questions: '¿Y tú entiendes ese idioma, o solo lo escuchas?' '¿Cómo empezó esa costumbre en tu familia?' '¿De qué generación eres tú?' A yes/no question ('¿Te gusta tu apellido?') is not a genuine follow-up on its own unless it's followed by '¿por qué?'",
+    "standardsRationale": "Closes the week's WA-WL-2015.1.1 (Interpersonal Communication) arc by turning the week's vocabulary (la herencia, el apellido on Day 1; el origen, bilingüe on Day 2; la raíz, la generación on Day 3; pertenecer on Day 4) and the drafted paragraph (Day 4) into a live, two-way spoken exchange — per the scope-and-sequence's Day 5 target ('identity round-table — share paragraphs, ask genuine follow-up questions'), which is the actual definition of Interpersonal (as opposed to Presentational) communication."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-2-5",
+    "lessonId": "lesson-spanish-9-2-5",
+    "title": "Identity Round-Table: Sharing Your Paragraph, Asking Real Questions",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use this sheet before, during, and after today's round-table.",
+      "rows": [
+        { "problem": "Before the round-table: read your paragraph from yesterday once out loud to yourself. Circle one sentence you might want to explain further if someone asks about it." },
+        { "problem": "Write one genuine follow-up question you could ask a classmate or family member after they share (not a yes/no question)." },
+        { "problem": "After the round-table: write down one specific detail from someone else's paragraph that you found genuinely interesting." },
+        { "problem": "Looking back at all seven of this week's vocabulary words, which one connects most to your own identity paragraph, and why?" }
+      ]
+    }
+  }
+}

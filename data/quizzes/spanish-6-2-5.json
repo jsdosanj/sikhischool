@@ -1,0 +1,46 @@
+{
+  "lessonId": "lesson-spanish-6-2-5",
+  "quiz": {
+    "id": "quiz-spanish-6-2-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Tu amiga es de Perú. ¿Cómo se dice su nacionalidad?",
+        "options": ["peruano", "peruana", "colombiana", "estadounidense"],
+        "answer": 1,
+        "explanation": "Peruana is the feminine form — nationality words ending in -o/-a change for a woman."
+      },
+      {
+        "q": "Which nationality word stays exactly the same whether it describes a man or a woman?",
+        "options": ["colombiano/colombiana", "peruano/peruana", "estadounidense", "mexicano/mexicana"],
+        "answer": 2,
+        "explanation": "Estadounidense ends in -ense, and -ense nationality words never change for gender."
+      },
+      {
+        "q": "You want to ask a famous singer where she is from, but you're talking ABOUT her, not TO her. Which question fits?",
+        "options": ["¿De dónde eres?", "¿De dónde es?", "¿Dónde naciste?", "Nací en Colombia."],
+        "answer": 1,
+        "explanation": "¿De dónde es? is the third-person form, used to ask about someone else rather than speak directly to them."
+      },
+      {
+        "q": "You want to ask a new classmate directly where they are from. Which question fits?",
+        "options": ["¿De dónde es?", "¿De dónde eres?", "¿Cómo se llama?", "Es de Perú."],
+        "answer": 1,
+        "explanation": "¿De dónde eres? uses the tú-form eres, for speaking directly to someone your own age."
+      },
+      {
+        "q": "Which phrase means 'I was born in'?",
+        "options": ["Soy de", "Nací en", "¿De dónde es?", "Vivo en"],
+        "answer": 1,
+        "explanation": "Nací en means 'I was born in,' followed by a city or a country."
+      },
+      {
+        "q": "La nacionalidad means...",
+        "options": ["identity", "language", "nationality", "population"],
+        "answer": 2,
+        "explanation": "Nacionalidad is the country a person belongs to — their nationality."
+      }
+    ]
+  }
+}

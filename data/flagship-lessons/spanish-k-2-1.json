@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-2",
+    "courseId": "course-spanish-k",
+    "order": 2,
+    "title": "My Name & Meeting Friends",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-2-1",
+    "unitId": "unit-spanish-k-2",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Me Llamo Sol: A Name Song and Ball Toss",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol has a new game today — a ball toss! Every time you catch the ball, you get to share your very own name with the circle. Ready to play?"
+      },
+      {
+        "type": "text",
+        "ref": "practice-yo",
+        "text": "When you talk about yourself, you say [[yo]] — that means 'I'! Point to your own chest and say yo, yo, yo!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-me-llamo",
+        "text": "Now catch the ball and sing Sol's name song: 🎵 ¡Yo me llamo Sol! 🎵 [[me llamo]] means 'my name is' — toss the ball and sing your own name, like 'Yo me llamo Maya!'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You said yo and me llamo to share your very own name — just like Sol! Tomorrow, Sol has a big question for you — get ready to answer!"
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-2-1",
+    "lessonId": "lesson-spanish-k-2-1",
+    "objectives": [
+      "Say yo (I) while pointing to oneself",
+      "Say me llamo (my name is) followed by one's own name"
+    ],
+    "materialsNeeded": ["Sol the puppet (or stuffed animal/toy from week 1)", "A soft ball or beanbag safe to toss indoors"],
+    "facilitationScript": "1. Gather everyone into a circle with Sol holding (or 'holding', if a puppet) the ball.\n2. Point to yourself and say 'yo' a few times, encouraging your child to point to themselves and echo yo.\n3. Have Sol go first: toss the ball gently to your child while singing '¡Yo me llamo Sol!'\n4. Coach your child to catch the ball and sing '¡Yo me llamo... (their name)!' back, then toss it back to Sol or another family member.\n5. Keep the ball moving around the circle 4-5 times, singing each person's name in turn.\n6. Close by asking your child: 'What do we say before our name? What does me llamo mean?'",
+    "differentiationTips": [
+      "Struggling: skip yo for now and focus only on 'me llamo... (name)' — yo is an easy add-on once me llamo feels natural",
+      "Ready for more: have your child toss the ball to a stuffed animal or pet and sing a name for it too — 'Se llama... (pet's name)!'",
+      "This is a listening-and-singing activity, not a reading lesson — your child never needs to see these words written down to learn them"
+    ],
+    "estimatedMinutes": 10,
+    "answerKey": "This is a spoken singing-and-catching activity — success looks like your child saying yo and attempting 'me llamo... (their name)' out loud when they catch the ball, not a written right/wrong answer.",
+    "standardsRationale": "Opens week 2's ACTFL Interpersonal Communication target (WA-WL-2015.1.1) — introducing oneself by name — with a sung, physical, turn-taking game, exactly the oral/aural-first approach this K-2 band calls for, and hands the child the two words (yo, me llamo) they'll need every day this week."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-2-1",
+    "lessonId": "lesson-spanish-k-2-1",
+    "title": "Me Llamo Sol: Name Song and Ball Toss",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together — there's nothing for your child to write today.",
+      "rows": [
+        { "problem": "Point to yourself and say 'yo' together three times." },
+        { "problem": "Toss a ball gently to your child while singing '¡Yo me llamo... (your name)!'" },
+        { "problem": "Have your child catch the ball and sing back '¡Yo me llamo... (their name)!'" }
+      ]
+    }
+  }
+}

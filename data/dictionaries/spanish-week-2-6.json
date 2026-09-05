@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-identidad",
+    "language": "spanish",
+    "word": "la identidad",
+    "translation": "identity",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi identidad incluye mi familia, mi país y mis tradiciones. (My identity includes my family, my country, and my traditions.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-nacionalidad",
+    "language": "spanish",
+    "word": "la nacionalidad",
+    "translation": "nationality",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "¿Cuál es tu nacionalidad? (What is your nationality?)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-estadounidense",
+    "language": "spanish",
+    "word": "estadounidense",
+    "translation": "American (US)",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Mi maestra es estadounidense, pero habla español muy bien. (My teacher is American, but she speaks Spanish very well.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-colombiano",
+    "language": "spanish",
+    "word": "colombiano",
+    "translation": "Colombian",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Mi amigo es colombiano; nació en Bogotá. (My friend is Colombian; he was born in Bogotá.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-peruano",
+    "language": "spanish",
+    "word": "peruano",
+    "translation": "Peruvian",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El chef es peruano y cocina platos deliciosos. (The chef is Peruvian and cooks delicious dishes.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-de-donde-es",
+    "language": "spanish",
+    "word": "¿de dónde es?",
+    "translation": "where is he/she from?",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Ella es una cantante famosa. ¿De dónde es? (She's a famous singer. Where is she from?)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-naci-en",
+    "language": "spanish",
+    "word": "nací en",
+    "translation": "I was born in",
+    "partOfSpeech": "phrase",
+    "synonyms": [],
+    "exampleSentence": "Nací en Lima, pero ahora vivo en Seattle. (I was born in Lima, but now I live in Seattle.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  }
+]

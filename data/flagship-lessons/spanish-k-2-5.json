@@ -1,0 +1,102 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-2",
+    "courseId": "course-spanish-k",
+    "order": 2,
+    "title": "My Name & Meeting Friends",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-2-5",
+    "unitId": "unit-spanish-k-2",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Fiesta of Friends: A Week 1 and Week 2 Review",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Today is a fiesta! We're mixing every word from week 1 and week 2 — greetings AND names. Let's celebrate with Sol!"
+      },
+      {
+        "type": "text",
+        "ref": "practice-greet",
+        "text": "Start like a real conversation: wave and say '¡Hola!' Then ask Sol '¿Cómo te llamas?' and listen for the answer — '¡Me llamo Sol!'"
+      },
+      {
+        "type": "text",
+        "ref": "practice-introduce",
+        "text": "Now it's your turn: tell Sol your name — 'Yo me llamo... (your name)!' Then introduce a friend: 'Mi amigo se llama...' or 'Mi amiga se llama...'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You used words from both weeks together — hola, gracias, me llamo, ¿cómo te llamas?, niño, niña, amigo, and amiga — all in one big fiesta! Wave goodbye and say ¡adiós! — see you next week for counting fun!"
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "hello", "answer": "hola" },
+            { "prompt": "goodbye", "answer": "adiós" },
+            { "prompt": "good morning", "answer": "buenos días" },
+            { "prompt": "good night", "answer": "buenas noches" },
+            { "prompt": "thank you", "answer": "gracias" },
+            { "prompt": "please", "answer": "por favor" },
+            { "prompt": "yes", "answer": "sí" },
+            { "prompt": "no", "answer": "no" },
+            { "prompt": "my name is", "answer": "me llamo" },
+            { "prompt": "what is your name?", "answer": "¿cómo te llamas?" },
+            { "prompt": "I", "answer": "yo" },
+            { "prompt": "you", "answer": "tú" },
+            { "prompt": "boy", "answer": "el niño" },
+            { "prompt": "girl", "answer": "la niña" },
+            { "prompt": "friend (male)", "answer": "el amigo" },
+            { "prompt": "friend (female)", "answer": "la amiga" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-2-5",
+    "lessonId": "lesson-spanish-k-2-5",
+    "objectives": [
+      "Combine week 1 greeting words and week 2 name-and-friend words in one continuous fiesta routine",
+      "Initiate a greeting-and-introduction exchange with hola and ¿cómo te llamas?, and close it with adiós"
+    ],
+    "materialsNeeded": ["Sol the puppet", "Family members or stuffed animals to complete a 'fiesta' (works fine with just you and your child too)"],
+    "facilitationScript": "1. Gather everyone available (family members, stuffed animals, or just the two of you) into a fiesta circle with Sol.\n2. Go around the circle: each person waves and says '¡Hola!', then asks the next person '¿Cómo te llamas?' and listens for 'Me llamo...'.\n3. Have each person introduce a partner too: 'Mi amigo se llama...' or 'Mi amiga se llama...'.\n4. Mix in a few week-1 favorites: a por favor/gracias exchange, one buenos días stretch, and a silly sí/no question.\n5. Sort a leftover niño/niña picture or two if you have them handy, just for fun.\n6. Close the fiesta: everyone waves and says '¡Adiós!' to Sol and to each other.\n7. Complete the speed-review activity together, celebrating every correct match with a cheer.",
+    "differentiationTips": [
+      "Struggling: skip the full fiesta format and just review a handful of favorite words one-on-one with Sol at your own pace — the goal is joyful recall, not a big production",
+      "Ready for more: let your child run the whole fiesta — greeting, asking names, and introducing partners without prompting",
+      "This is a celebration lesson — the goal is confident, joyful use of two weeks of words your child already practiced, not teaching anything brand new"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "This is a cumulative spoken review — success looks like your child using a mix of week 1 and week 2 words (hola, gracias, me llamo, ¿cómo te llamas?, niño, niña, amigo, amiga, and more) somewhere in the fiesta, with prompting as needed.",
+    "standardsRationale": "Closes weeks 1 and 2's shared WA-WL-2015.1.1 Interpersonal Communication arc by having the child combine greeting AND self-introduction into one real (if simple) social exchange — the scope-and-sequence's own design for this Day 5, treating the two weeks as one connected conversation skill rather than two separate word lists."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-2-5",
+    "lessonId": "lesson-spanish-k-2-5",
+    "title": "Fiesta of Friends",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud and do it together as your family's fiesta.",
+      "rows": [
+        { "problem": "Go around your circle: wave and say '¡Hola!' then ask '¿Cómo te llamas?' to each person." },
+        { "problem": "Have each person answer 'Me llamo... (their name)!'" },
+        { "problem": "Introduce a partner: 'Mi amigo se llama...' or 'Mi amiga se llama...'" },
+        { "problem": "Close the fiesta: wave and say '¡Adiós!' to everyone." }
+      ]
+    }
+  }
+}

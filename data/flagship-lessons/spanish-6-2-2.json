@@ -1,0 +1,110 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-2",
+    "courseId": "course-spanish-6",
+    "order": 2,
+    "title": "Identity & Nationality",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-2-2",
+    "unitId": "unit-spanish-6-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Guess Who? Famous Spanish Speakers and Their Nationalities",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Time to play detective — and celebrity guesser. Every clue below is about a real, famous Spanish speaker, and you'll need yesterday's nationality words to solve every single one."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "So far you've talked about nationality in general. Today you need a new question: when you want to ask about somebody else's origin — not your own — Spanish uses [[¿de dónde es?]], literally 'from where is he/she?' You'll hear the answer as a nationality word (colombiana, peruano, estadounidense) or as 'Es de + country' ('Es de Colombia,' 'Es de Perú') — either answer works, because a country name and its nationality word are just two ways of saying the same thing. Your job in today's guess-who game is to take a clue that names a country and turn it into the matching nationality word, with the right gender ending."
+      },
+      {
+        "type": "text",
+        "ref": "guess-who",
+        "text": "Read each clue and answer ¿De dónde es? with a complete nationality word before checking the activity below.\n\n1. Shakira es cantante. Su canción 'Waka Waka' es muy famosa en todo el mundo. Es de Colombia. ¿De dónde es?\n2. Gastón Acurio es chef. Tiene restaurantes muy famosos de comida peruana. Es de Perú. ¿De dónde es?\n3. Selena Quintanilla es cantante de música tejana. Es de los Estados Unidos. ¿De dónde es?\n4. James Rodríguez es futbolista. Juega para la selección de Colombia. Es de Colombia. ¿De dónde es?\n\nNotice Shakira and James are both de Colombia, but their nationality words don't look identical — one more chance to check your -o/-a pattern from yesterday."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You just turned four country names into four correctly-gendered nationality words — exactly the skill behind every 'Es de + country' answer you'll hear all year. Tomorrow, you'll ask these same kinds of questions to real people in your own life."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Shakira es cantante y es de Colombia. ¿Cómo completas: 'Shakira es ___'?",
+              "options": ["colombiano", "colombiana", "peruana", "estadounidense"],
+              "answer": 1,
+              "explanation": "Shakira is a woman from Colombia, so the feminine form colombiana is correct."
+            },
+            {
+              "q": "Gastón Acurio es chef y es de Perú. ¿Cómo completas: 'Gastón es ___'?",
+              "options": ["peruana", "peruano", "colombiano", "estadounidense"],
+              "answer": 1,
+              "explanation": "Gastón is a man from Peru, so the masculine form peruano is correct."
+            },
+            {
+              "q": "Selena Quintanilla es de los Estados Unidos. ¿Cómo completas: 'Selena es ___'?",
+              "options": ["estadounidense", "estadounidensa", "colombiana", "peruana"],
+              "answer": 0,
+              "explanation": "Estadounidense doesn't change for gender — it's the same word for a man or a woman."
+            },
+            {
+              "q": "James Rodríguez es futbolista y es de Colombia. ¿Cómo completas: 'James es ___'?",
+              "options": ["colombiana", "peruano", "colombiano", "estadounidense"],
+              "answer": 2,
+              "explanation": "James is a man from Colombia, so the masculine form colombiano is correct — compare it to Shakira's colombiana."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-2-2",
+    "lessonId": "lesson-spanish-6-2-2",
+    "objectives": [
+      "Use ¿de dónde es? to ask about a third person's origin",
+      "Convert a country name into the correct nationality word, matching the person's gender"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Review yesterday's three nationality words (colombiano/a, peruano/a, estadounidense) briefly.\n2. Introduce ¿de dónde es? as the question form for asking about someone else, contrasting it with the tú-form the child will meet on Day 3.\n3. Read each guess-who clue aloud together, having the child convert the country name into the correct nationality word before revealing the answer.\n4. Complete the multiple-choice activity, choosing the correctly gendered nationality word for each celebrity.\n5. Complete the worksheet.\n6. Preview tomorrow's interview circuit.",
+    "differentiationTips": [
+      "Struggling: circle the country name in each clue first, then just apply yesterday's -o/-a or -ense rule to it — the geography is a hint, not a prerequisite",
+      "Ready for more: ask them to write one more guess-who clue of their own, about anyone they choose, and quiz a family member with it",
+      "If the child recognizes any of these celebrities already, let them add what else they know before answering — real-world knowledge reinforces the language skill"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "1. Shakira: colombiana (feminine, she's a woman from Colombia). 2. Gastón Acurio: peruano (masculine, he's a man from Peru). 3. Selena Quintanilla: estadounidense (unchanged, from the United States). 4. James Rodríguez: colombiano (masculine, he's a man from Colombia — compare to Shakira's colombiana).",
+    "standardsRationale": "Advances Day 2's scope-and-sequence target (a famous-Spanish-speakers guess-who game) while keeping the question ¿de dónde es? anchored to real Interpersonal Communication use — asking about someone's origin is a genuine, high-frequency exchange, not a grammar drill dressed up as trivia."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-2-2",
+    "lessonId": "lesson-spanish-6-2-2",
+    "title": "Guess Who? Famous Spanish Speakers and Their Nationalities",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's guess-who clues.",
+      "rows": [
+        { "problem": "Shakira es cantante y es de Colombia. ¿De dónde es? Write the complete nationality word." },
+        { "problem": "Gastón Acurio es chef y es de Perú. ¿De dónde es? Write the complete nationality word." },
+        { "problem": "Selena Quintanilla es de los Estados Unidos. ¿De dónde es? Write the complete nationality word." },
+        { "problem": "Write one sentence asking a famous person you admire where they're from, using ¿de dónde es?" }
+      ]
+    }
+  }
+}

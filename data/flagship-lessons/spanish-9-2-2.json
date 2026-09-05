@@ -1,0 +1,102 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-2",
+    "courseId": "course-spanish-9",
+    "order": 2,
+    "title": "Identity & Heritage",
+    "weekOfYear": 2
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-2-2",
+    "unitId": "unit-spanish-9-2",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Interview Frames: Asking About Origins, Family, and the Languages of Home",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday was about names. Today is about the stories behind them. You're going to build and practice real interview questions — the kind you could actually ask a classmate, a grandparent, or a new neighbor — about where their family comes from, what languages get spoken at their kitchen table, and how they'd tell their own family's story."
+      },
+      {
+        "type": "text",
+        "ref": "explanation",
+        "text": "[[el origen]] means origin — where someone or something comes from, in the deepest sense, not just a birthplace on a form. Asking about someone's origen well takes more than one blunt question; it takes a small set of connected frames you can actually build a real conversation from:\n— ¿De dónde es tu familia? (Where is your family from?)\n— ¿Cuál es el origen de tu apellido? (What's the origin of your last name?)\n— ¿Qué idiomas se hablan en tu casa? (What languages are spoken in your home?)\n— ¿Eres bilingüe, o hablas más de dos idiomas? (Are you bilingual, or do you speak more than two languages?)\n— Cuéntame una historia de tu familia. (Tell me a story from your family.)\n\nThat fourth question uses [[bilingüe]] — bilingual, someone who functions in two languages, not necessarily with equal ease in both. A person can be bilingüe and still be far more comfortable in one language than the other; that's normal, not a lesser form of bilingüe. Plenty of people carry three or four languages at home at once — Spanish and an Indigenous language, or Spanish and Punjabi, or Spanish, English, and a grandparent's mother tongue — and 'bilingual' is really shorthand for 'more than one,' not a hard limit at two."
+      },
+      {
+        "type": "text",
+        "ref": "practice-guidance",
+        "text": "Good interview questions leave room for a real answer, not a one-word one. Notice that none of the five frames above can be answered with sí or no — each one asks the other person to actually tell you something. As you practice today, resist the urge to rush to the next question the second you get an answer; a genuine follow-up — '¿Y tú entiendes ese idioma, o solo lo escuchas?' ('And do you understand that language, or do you only hear it?') — is what turns a checklist into an actual interview."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You now have five real frames for asking about someone's origin, home languages, and family story — not just for today's practice, but for the round-table at the end of this week, and for real conversations well beyond this classroom. Tomorrow, you'll read what two bilingual teens actually wrote when they answered questions like these about their own lives."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "build-the-sentence-v1",
+        "config": {
+          "items": [
+            {
+              "words": ["¿De", "dónde", "es", "tu", "familia?"],
+              "correctOrder": [0, 1, 2, 3, 4]
+            },
+            {
+              "words": ["¿Cuál", "es", "el", "origen", "de", "tu", "apellido?"],
+              "correctOrder": [0, 1, 2, 3, 4, 5, 6]
+            },
+            {
+              "words": ["¿Qué", "idiomas", "se", "hablan", "en", "tu", "casa?"],
+              "correctOrder": [0, 1, 2, 3, 4, 5, 6]
+            },
+            {
+              "words": ["¿Eres", "bilingüe,", "o", "hablas", "más", "de", "dos", "idiomas?"],
+              "correctOrder": [0, 1, 2, 3, 4, 5, 6, 7]
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-2-2",
+    "lessonId": "lesson-spanish-9-2-2",
+    "objectives": [
+      "Ask and respond to open-ended interview questions about family origin, home languages, and family stories using the five modeled frames",
+      "Define el origen and bilingüe and use both accurately in context"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Read the five interview frames aloud together, translating each one before moving to the next.\n2. Discuss the practice-guidance block: why does none of the five frames allow a sí/no answer? Have the student try to imagine a one-word answer to each and notice it doesn't really work.\n3. Model one genuine follow-up question live, then have the student ask you one of the five frames and you answer honestly, in English or Spanish.\n4. Complete the build-the-sentence activity.\n5. Complete the worksheet.\n6. Preview tomorrow's reading of two bilingual teens' identity essays.",
+    "differentiationTips": [
+      "Struggling: practice just two of the five frames aloud first (¿De dónde es tu familia? and ¿Qué idiomas se hablan en tu casa?) until they're comfortable, before adding the rest",
+      "Ready for more: have them write one additional interview frame of their own, following the same open-ended pattern",
+      "If the student has a family member available this week, encourage them to actually ask one of these five questions at home before Wednesday's reading — real answers make Wednesday's essays land differently"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "¿Qué idiomas se hablan en tu casa? = What languages are spoken in your home? A genuine follow-up avoids sí/no phrasing, e.g. '¿Y tú entiendes los dos idiomas igual de bien?' Bilingüe means functioning in two languages, without requiring equal comfort in both — a person can be bilingüe and still favor one language.",
+    "standardsRationale": "Directly serves WA-WL-2015.1.1 (Interpersonal Communication) by building the actual open-ended question frames the scope-and-sequence names for this day ('interview frames — origins, languages at home, family story exchange') — practiced through sentence construction today so the student owns the exact wording before using it live in tomorrow's reading and Friday's round-table."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-2-2",
+    "lessonId": "lesson-spanish-9-2-2",
+    "title": "Interview Frames: Asking About Origins, Family, and the Languages of Home",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's interview frames.",
+      "rows": [
+        { "problem": "Write the Spanish question for 'What languages are spoken in your home?'" },
+        { "problem": "Write one genuine follow-up question you could ask after someone answers 'Hablamos español e inglés en mi casa.'" },
+        { "problem": "In your own words, what does it mean to be bilingüe? Does it require speaking both languages equally well?" },
+        { "problem": "Pick one of today's five interview frames and write out how you personally would answer it." }
+      ]
+    }
+  }
+}

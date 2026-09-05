@@ -17,4 +17,9 @@ export const STEP_TYPES: Record<string, ComponentType<GameStepProps>> = {
   "multiple-choice-v1": dynamic(() => import("./MultipleChoiceStep")),
   "matching-pairs-v1": dynamic(() => import("./MatchingPairsStep")),
   "speed-drill-v1": dynamic(() => import("./SpeedDrillStep")),
+  "translate-v1": dynamic(() => import("./TranslateStep")),
+  "cloze-v1": dynamic(() => import("./ClozeStep")),
+  "listening-comprehension-v1": dynamic(() => import("./ListeningComprehensionStep")),
+  "build-the-sentence-v1": dynamic(() => import("./BuildTheSentenceStep")),
+  "speaking-prompt-v1": dynamic(() => import("./SpeakingPromptStep")),
 };

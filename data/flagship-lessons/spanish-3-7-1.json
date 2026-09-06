@@ -1,0 +1,115 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-7",
+    "courseId": "course-spanish-3",
+    "order": 7,
+    "title": "Colors and Describing Words: Los Colores",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-7-1",
+    "unitId": "unit-spanish-3-7",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "Todos los Colores: A Rapid Review, Plus Claro and Oscuro",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "On Friday you ran the classroom in Spanish — saquen el cuaderno, miren la pizarra. This week you get to describe all of it. Is your cuaderno azul or verde? Light blue or dark blue? By Friday you will draw a rainbow and present it to the class in Spanish. Today you gather your paints: all eleven color words, fast, plus two words that turn any color lighter or darker."
+      },
+      {
+        "type": "text",
+        "ref": "the-word-color",
+        "text": "First, the word for 'color' itself: [[el color]]. It is an el word — el color — and more than one is los colores. You have already heard it inside a question from earlier grades: '¿De qué color es tu mochila?' means 'What color is your backpack?'"
+      },
+      {
+        "type": "text",
+        "ref": "the-eleven",
+        "text": "Here are all eleven colors. Some may already look familiar — this course also welcomes families brand new to Spanish, so here is the whole set together:\n\n[[rojo]] — red\n[[anaranjado]] — orange\n[[amarillo]] — yellow\n[[verde]] — green\n[[azul]] — blue\n[[morado]] — purple\n[[rosado]] — pink\n[[café]] — brown\n[[gris]] — gray\n[[negro]] — black\n[[blanco]] — white"
+      },
+      {
+        "type": "text",
+        "ref": "endings",
+        "text": "Seven of these eleven change their last letter to match a 'la' word, swapping -o for -a: la silla roja, la mochila blanca, la regla amarilla. That happens with rojo, anaranjado, amarillo, morado, rosado, negro, and blanco. Four colors never change their ending for a boy word or a girl word: verde, azul, gris, and café. You will practice this tomorrow — today just notice it."
+      },
+      {
+        "type": "text",
+        "ref": "claro-oscuro",
+        "text": "Now the two words that change a shade. Put [[claro]] right after a color to make it light, and [[oscuro]] right after a color to make it dark:\n\nazul claro — light blue\nazul oscuro — dark blue\nverde claro — light green\nverde oscuro — dark green\n\nThe color always comes first, then claro or oscuro. And this pair never takes an -a: it is una camisa azul claro, never 'azul clara.'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Eleven colors, plus claro and oscuro. Tomorrow you sort paint chips into light and dark piles and learn exactly where a color word goes in a Spanish sentence."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "red", "answer": "rojo" },
+            { "prompt": "orange", "answer": "anaranjado" },
+            { "prompt": "yellow", "answer": "amarillo" },
+            { "prompt": "green", "answer": "verde" },
+            { "prompt": "blue", "answer": "azul" },
+            { "prompt": "purple", "answer": "morado" },
+            { "prompt": "pink", "answer": "rosado" },
+            { "prompt": "brown", "answer": "café" },
+            { "prompt": "gray", "answer": "gris" },
+            { "prompt": "black", "answer": "negro" },
+            { "prompt": "white", "answer": "blanco" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-7-1",
+    "lessonId": "lesson-spanish-3-7-1",
+    "objectives": [
+      "Say all eleven Spanish color words from an English prompt",
+      "Add claro or oscuro after a color to name a light or dark shade (azul claro, verde oscuro)",
+      "Recognize that seven colors take an -a ending with a 'la' word and four never change"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "Crayons, colored pencils, or paint chips in the eleven colors",
+      "A parent or teacher to say each color aloud"
+    ],
+    "facilitationScript": "1. Remind the child that last week was naming classroom objects; this week is describing them, starting with color.\n2. Teach el color / los colores, then run through all eleven color words once, English then Spanish, having the child echo each.\n3. Point at real objects around the room and ask '¿De qué color es?' — the child answers with one color word.\n4. Show the -o / -a pattern with two objects: el cuaderno rojo, la regla roja. Name the four that never change: verde, azul, gris, café.\n5. Teach claro and oscuro as words that go right after a color: azul claro, azul oscuro. Stress the order (color first) and that the pair never takes an -a.\n6. Play the speed-drill activity — English prompt, pick the Spanish color, build a streak.\n7. Complete the worksheet, saying each color aloud while writing it.\n8. Preview tomorrow: paint-chip sorting and Spanish word order.",
+    "differentiationTips": [
+      "Struggling: drill just six colors today (rojo, azul, amarillo, verde, negro, blanco) and add the other five tomorrow",
+      "Ready for more: name a light and a dark version of every color that has one — azul claro/oscuro, verde claro/oscuro, gris claro/oscuro, rojo claro/oscuro",
+      "For the teaching adult: the -o / -a change is grammatical gender agreement; the child does not need the term, just the pattern (la ___ -a, el ___ -o). The four invariable colors — verde, azul, gris, café — do not end in -o, which is why there is nothing to change",
+      "This lesson leans on a parent or teacher saying each color aloud rather than an audio recording, since the course has no audio content yet (open decision, expansion-plan-2026-09.md §12.9) — a live voice plus the written word covers the same ground"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "The eleven colors: rojo (red), anaranjado (orange), amarillo (yellow), verde (green), azul (blue), morado (purple), rosado (pink), café (brown), gris (gray), negro (black), blanco (white). Shades: claro = light, oscuro = dark, placed after the color (azul claro, verde oscuro) and never taking an -a. Colors that change for a 'la' word: rojo/roja, anaranjado/anaranjada, amarillo/amarilla, morado/morada, rosado/rosada, negro/negra, blanco/blanca. Colors that never change: verde, azul, gris, café. El color, plural los colores.",
+    "standardsRationale": "Opens the week's WA-WL-2015.1.3 Presentational Speaking arc by stocking the descriptive word bank every later day spends: Wednesday's riddles, Thursday's three written sentences, and Friday's gallery presentation all require a secure set of color words plus claro/oscuro before a child can describe anything aloud. The scope-and-sequence names 'rapid color review (all 11 color words), then add claro/oscuro shades' as the Day 1 activity; this delivers exactly that and re-enters the K-band color vocabulary inside the richer 3-5 frames (shades, agreement) the course's band notes call for."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-7-1",
+    "lessonId": "lesson-spanish-3-7-1",
+    "title": "Todos los Colores: A Rapid Review, Plus Claro and Oscuro",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write each color word once. Say it out loud as you write. Then finish the last two lines.",
+      "prompts": [
+        { "prompt": "Write rojo, anaranjado, amarillo, and verde.", "lines": 2 },
+        { "prompt": "Write azul, morado, rosado, and café.", "lines": 2 },
+        { "prompt": "Write gris, negro, and blanco.", "lines": 2 },
+        { "prompt": "Write two colors as light shades, like azul claro.", "lines": 2 },
+        { "prompt": "Write two colors as dark shades, like verde oscuro.", "lines": 2 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-7",
+    "courseId": "course-spanish-3",
+    "order": 7,
+    "title": "Colors and Describing Words: Los Colores",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-7-3",
+    "unitId": "unit-spanish-3-7",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Es Rojo y Brillante: Describe the Mystery Object",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can describe an object now. So can a friend — without telling you what it is. That is a riddle. 'Es rojo y brillante. ¿Qué es?' Today you guess, and you try to stump each other."
+      },
+      {
+        "type": "text",
+        "ref": "es-y",
+        "text": "To describe one thing, start with es — it means 'it is.' Es rojo. Es grande. Join two describing words with y ('and'):\n\nEs rojo y brillante.\nEs azul y bonito.\nEs pequeño y gris."
+      },
+      {
+        "type": "text",
+        "ref": "brillante",
+        "text": "One new word made for riddles: [[brillante]] — bright or shiny. A new coin is brillante. A clean window is brillante. El sol es brillante. It ends in -e, so it never changes: el anillo es brillante, la estrella es brillante."
+      },
+      {
+        "type": "text",
+        "ref": "how-to-play",
+        "text": "One player picks something in the room and describes it without naming it — a color plus one more word (brillante, grande, pequeño):\n\n'Es blanca y grande. La maestra escribe aquí. ¿Qué es?' — La pizarra.\n'Es pequeño y delgado. Tiene tinta azul. ¿Qué es?' — El bolígrafo.\n\nEveryone guesses in Spanish: '¿Es la pizarra?' The first correct guess picks the next object."
+      },
+      {
+        "type": "text",
+        "ref": "practice-riddles",
+        "text": "Try these three. Say your answer out loud in Spanish before you read the next line.\n\n1. Es amarillo y brillante. Da luz durante el día. ¿Qué es? (El sol.)\n2. Es verde y pequeña. Sirve para dibujar líneas rectas. ¿Qué es? (La regla.)\n3. Es gris o negra. Tiene una pantalla brillante. ¿Qué es? (La computadora.)"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You described objects well enough to stump a friend — and you solved theirs. Tomorrow you write three describing sentences about your own favorite things."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Es amarillo y brillante. Da luz y calor durante el día. ¿Qué es?",
+              "options": ["la luna", "el sol", "la pizarra", "el cuaderno"],
+              "answer": 1,
+              "explanation": "El sol — yellow, bright, and it gives light and warmth by day. La luna (the moon) shines at night."
+            },
+            {
+              "q": "Es blanca, grande y plana. La maestra escribe en ella. ¿Qué es?",
+              "options": ["la computadora", "la regla", "la pizarra", "el borrador"],
+              "answer": 2,
+              "explanation": "La pizarra — white, big, and flat, and the teacher writes on it. Blanca and plana end in -a to match la pizarra."
+            },
+            {
+              "q": "Which sentence correctly joins two describing words?",
+              "options": ["Es rojo brillante y", "Es rojo y brillante", "Y es rojo brillante", "Es y rojo brillante"],
+              "answer": 1,
+              "explanation": "Start with es, then the first word, then y ('and'), then the second word: Es rojo y brillante."
+            },
+            {
+              "q": "Mi mochila es morada y bonita. ¿De qué color es la mochila?",
+              "options": ["roja", "gris", "morada", "verde"],
+              "answer": 2,
+              "explanation": "Morada — purple. It ends in -a because mochila is a 'la' word: la mochila morada."
+            },
+            {
+              "q": "Which is the correct Spanish word order?",
+              "options": ["un brillante bolígrafo", "un bolígrafo brillante", "brillante un bolígrafo", "bolígrafo brillante un"],
+              "answer": 1,
+              "explanation": "The describing word follows the noun: un bolígrafo brillante, just like un cuaderno rojo."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-7-3",
+    "lessonId": "lesson-spanish-3-7-3",
+    "objectives": [
+      "Describe an object with the frame es + color + y + a second word (Es rojo y brillante)",
+      "Use brillante correctly and know it never changes its ending",
+      "Solve and pose spoken riddles about classroom objects in Spanish"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "A handful of classroom objects to describe (notebook, pen, ruler, board, computer, eraser)",
+      "A partner or family member to trade riddles with"
+    ],
+    "facilitationScript": "1. Review yesterday's word order and agreement with two quick phrases: un cuaderno rojo, una regla verde.\n2. Teach the frame es + word + y + word. Model three: Es grande y gris. Es pequeño y brillante. Es rojo y bonito.\n3. Teach brillante (bright, shiny) with real examples — a coin, a window, a screen. Note it never changes.\n4. Model a riddle: pick the ruler, say 'Es verde y pequeña. Sirve para dibujar líneas. ¿Qué es?' and have the child guess in Spanish.\n5. Trade riddles back and forth about 5-6 objects. The child both guesses and poses.\n6. Play the multiple-choice activity together.\n7. Complete the worksheet.\n8. Preview tomorrow: writing three describing sentences.",
+    "differentiationTips": [
+      "Struggling: give the child three picture cards and let them pick which one matches each riddle you read, before asking them to pose their own",
+      "Ready for more: require three clues per riddle — a color, a size, and one of brillante/bonito/feo — and forbid pointing",
+      "For the teaching adult: 'es' here is the third-person singular of ser, taught as a fixed frame ('it is') per the course's band notes, not as a conjugation to drill. When an object's identity is still hidden, the masculine form is the default guess: 'Es rojo y brillante,' switching to -a once the answer (la manzana, la regla) is known",
+      "The riddle trade is a live spoken exchange, so it does not depend on the audio-recording gap noted elsewhere (open decision, expansion-plan-2026-09.md §12.9)"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Frame: es + color + y + second word — Es rojo y brillante. Brillante = bright/shiny, never changes. Practice riddles: 1. el sol, 2. la regla, 3. la computadora. Multiple-choice answers: 1. el sol, 2. la pizarra, 3. 'Es rojo y brillante', 4. morada, 5. un bolígrafo brillante. A well-formed riddle for el bolígrafo: 'Es pequeño y delgado. Escribes con él. ¿Qué es?'",
+    "standardsRationale": "Day 3 in the scope-and-sequence is 'describe mystery objects — Es rojo y brillante. ¿Qué es?' Posing a riddle is presentational speaking (WA-WL-2015.1.3): the child produces a short, self-generated description for an audience and gets immediate feedback on whether it communicated. Solving the partner's riddle keeps interpretive listening active in the same activity. The es + color + y frame introduced here is the exact structure Thursday's written sentences and Friday's gallery presentation extend."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-7-3",
+    "lessonId": "lesson-spanish-3-7-3",
+    "title": "Es Rojo y Brillante: Describe the Mystery Object",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about describing objects and solving riddles.",
+      "rows": [
+        { "problem": "What does brillante mean in English?" },
+        { "problem": "Finish the riddle about the sun: 'Es amarillo y ___. ¿Qué es? El sol.'" },
+        { "problem": "Join these into one sentence with y: 'Es verde.' + 'Es grande.'" },
+        { "problem": "Write your own riddle for el bolígrafo, using a color and one more word." },
+        { "problem": "A friend says: 'Es blanca y grande. La maestra escribe aquí. ¿Qué es?' Write your guess in Spanish." }
+      ]
+    }
+  }
+}

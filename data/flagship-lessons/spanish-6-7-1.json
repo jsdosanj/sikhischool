@@ -1,0 +1,127 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-7",
+    "courseId": "course-spanish-6",
+    "order": 7,
+    "title": "Present-Tense -ar Verbs: One Pattern, Hundreds of Verbs",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-7-1",
+    "unitId": "unit-spanish-6-7",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The -ar Verb Pattern: Drop -ar, Add -o, -as, -a, -amos, -an",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week you said dibujamos mucho — 'we draw a lot' — without stopping to ask why it ends in -amos. And back in week 4 you chanted ser: soy, eres, es, somos, son — five forms of one verb, each tied to a different person. This week you learn the machine behind all of that. One ending pattern turns a single verb into five, and the very same pattern works on hundreds of Spanish verbs. Learn it once this week and you can talk about what people do every day for the rest of the year."
+      },
+      {
+        "type": "text",
+        "ref": "infinitive-and-groups",
+        "text": "The name of a verb — its 'to ___' form — is the infinitive. In Spanish every infinitive ends in one of three ways: -ar, -er, or -ir. The -ar group is by far the biggest, so that is where you start. Here are this week's eight -ar verbs, all of them regular (they all follow the pattern with no surprises):\n\n- [[hablar]] — to speak, to talk\n- [[estudiar]] — to study\n- [[enseñar]] — to teach\n- [[necesitar]] — to need\n- [[usar]] — to use\n- [[trabajar]] — to work\n- [[mirar]] — to watch, to look at\n- [[llegar]] — to arrive\n\nRight now each of these is just a label. By Friday you will conjugate every one of them — bend it to fit yo, tú, nosotros, and the rest — without looking."
+      },
+      {
+        "type": "text",
+        "ref": "the-pattern",
+        "text": "Conjugating a regular -ar verb is two moves:\n\n1. Take off the -ar. What is left is the stem. hablar -> habl-\n2. Add the ending that matches the person:\n\n- yo habl + o -> hablo — I speak\n- tú habl + as -> hablas — you speak (familiar)\n- usted / él / ella habl + a -> habla — you (formal) speak / he speaks / she speaks\n- nosotros habl + amos -> hablamos — we speak\n- ustedes / ellos habl + an -> hablan — you all speak / they speak\n\nFive endings: -o, -as, -a, -amos, -an. Say them in a row a few times — o, as, a, amos, an — the same way you drilled soy, eres, es, somos, son. Notice the shared forms again: usted, él, and ella all take habla, and ustedes and ellos both take hablan. This course uses the Latin American set, so there is no vosotros form to learn."
+      },
+      {
+        "type": "text",
+        "ref": "same-pattern-every-verb",
+        "text": "The endings never change. Only the stem changes from verb to verb:\n\nestudiar -> estudi- : estudio, estudias, estudia, estudiamos, estudian\ntrabajar -> trabaj- : trabajo, trabajas, trabaja, trabajamos, trabajan\nmirar -> mir- : miro, miras, mira, miramos, miran\n\nStack them up and the -o, -as, -a, -amos, -an is identical every time. That is the whole point: learn one pattern, unlock the entire group. Necesitar, usar, enseñar, and llegar all work exactly the same way."
+      },
+      {
+        "type": "text",
+        "ref": "pronouns-optional",
+        "text": "Because the ending already tells you who is doing the action, Spanish usually drops the subject pronoun:\n\n- Hablo español. — I speak Spanish. (the -o can only mean yo)\n- Estudiamos juntos. — We study together. (the -amos can only mean nosotros)\n\nYou add yo, tú, él, and so on only for emphasis or to make a contrast clear: Yo hablo español, pero él habla portugués. This is the same optional-pronoun idea from week 4 — now you see why it works."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "One note before you practice: none of the five -ar present-tense forms takes a written accent mark — hablo, hablas, habla, hablamos, hablan, all plain. You have the pattern and the eight verbs. Tomorrow you drill it in conjugation relay races, where a slow correct answer beats a fast wrong one."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "Yo ___ español con mi abuela todos los días.",
+              "blankToken": "___",
+              "options": ["hablo", "hablas", "habla", "hablan"],
+              "answer": "hablo"
+            },
+            {
+              "sentence": "Nosotros ___ para el examen de ciencias esta noche.",
+              "blankToken": "___",
+              "options": ["estudio", "estudias", "estudiamos", "estudian"],
+              "answer": "estudiamos"
+            },
+            {
+              "sentence": "La profesora ___ matemáticas en mi escuela.",
+              "blankToken": "___",
+              "options": ["enseño", "enseñas", "enseña", "enseñan"],
+              "answer": "enseña"
+            },
+            {
+              "sentence": "Mis padres ___ en una oficina en el centro.",
+              "blankToken": "___",
+              "options": ["trabaja", "trabajas", "trabajamos", "trabajan"],
+              "answer": "trabajan"
+            },
+            {
+              "sentence": "¿Tú ___ el autobús para llegar a la escuela?",
+              "blankToken": "___",
+              "options": ["uso", "usas", "usa", "usan"],
+              "answer": "usas"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-7-1",
+    "lessonId": "lesson-spanish-6-7-1",
+    "objectives": [
+      "Identify -ar infinitives and produce the stem by removing -ar (hablar -> habl-)",
+      "Conjugate a regular -ar verb across all five course forms (-o, -as, -a, -amos, -an) and match each form to its pronoun(s): yo, tú, usted/él/ella, nosotros, ustedes/ellos",
+      "Explain why the subject pronoun is usually optional in Spanish (the ending already carries the person)"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Device for the cloze activity (optional — can be done orally)"],
+    "facilitationScript": "1. Recall week 6's dibujamos mucho and week 4's ser song (soy, eres, es, somos, son). Frame this week: the pattern that makes those forms.\n2. Teach 'infinitive' and the three groups (-ar, -er, -ir). Read this week's eight -ar verbs aloud; students repeat. Do not conjugate yet — just meaning and sound.\n3. Teach the two moves: drop -ar to get the stem, add the ending. Write the full hablar table on the board, one line per form, saying each ending as you add it.\n4. Point out the shared forms (usted/él/ella -> habla; ustedes/ellos -> hablan) and that there is no vosotros in this course.\n5. Build the estudiar and trabajar tables together so students see the endings stay identical and only the stem changes.\n6. Teach optional pronouns: Hablo español needs no yo. Add the pronoun only for contrast (Yo hablo español, pero él habla portugués).\n7. Note: no written accents on any of the five -ar present forms.\n8. Play the cloze activity, then complete the worksheet.\n9. Preview tomorrow: conjugation relay races, accuracy before speed.",
+    "differentiationTips": [
+      "Struggling: drill only three forms today (yo -o, tú -as, él/ella -a) with two verbs (hablar, trabajar); add -amos and -an tomorrow",
+      "Ready for more: have them conjugate all eight verbs in full and write one original sentence for each of the five forms",
+      "If a child writes 'yo hablas' or 'ella hablo,' point to the ending: '-as is only tú; -o is only yo. Who is the sentence about?'"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Stems: hablar -> habl-, estudiar -> estudi-, enseñar -> enseñ-, necesitar -> necesit-, usar -> us-, trabajar -> trabaj-, mirar -> mir-, llegar -> lleg-. Full conjugations (yo / tú / usted-él-ella / nosotros / ustedes-ellos): hablar: hablo, hablas, habla, hablamos, hablan. estudiar: estudio, estudias, estudia, estudiamos, estudian. enseñar: enseño, enseñas, enseña, enseñamos, enseñan. necesitar: necesito, necesitas, necesita, necesitamos, necesitan. usar: uso, usas, usa, usamos, usan. trabajar: trabajo, trabajas, trabaja, trabajamos, trabajan. mirar: miro, miras, mira, miramos, miran. llegar: llego, llegas, llega, llegamos, llegan. No written accents on any of these forms. Pronoun is optional because the ending marks the person; add it only for emphasis or contrast. Cloze: 1. hablo, 2. estudiamos, 3. enseña, 4. trabajan, 5. usas.",
+    "standardsRationale": "Opens week 7's WA-WL-2015.1.1 Interpersonal Communication target with the scope-and-sequence Day 1 design — 'the -ar conjugation pattern; one pattern unlocks hundreds of verbs.' This is the course's first full conjugation system: weeks 1-6 used verb forms as fixed chunks (Tengo doce años, dibujamos mucho) and week 4 delivered ser as a five-form paradigm without a productive rule. Here students get the rule itself — stem + -o/-as/-a/-amos/-an — on eight regular -ar verbs, in the Latin American five-form set (no vosotros) established in week 4. It sets up every remaining verb week: -er/-ir (week 8), gustar-type (week 9), stem-changers (week 17), and the preterite (week 28)."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-7-1",
+    "lessonId": "lesson-spanish-6-7-1",
+    "title": "The -ar Verb Pattern: Drop -ar, Add -o, -as, -a, -amos, -an",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use the -ar pattern: drop -ar to get the stem, then add -o (yo), -as (tú), -a (él/ella), -amos (nosotros), or -an (ellos).",
+      "rows": [
+        { "problem": "Write the stem (the verb without -ar): hablar -> ___, trabajar -> ___, mirar -> ___, llegar -> ___." },
+        { "problem": "Conjugate estudiar in all five forms: yo ___, tú ___, él/ella ___, nosotros ___, ellos ___." },
+        { "problem": "Fill in the correct form: 'Nosotros ___ (usar) el diccionario en clase.' and 'Mi tía ___ (enseñar) música.'" },
+        { "problem": "Write two sentences of your own, each with a different -ar verb from this week. Underline the ending and name the pronoun it matches." }
+      ]
+    }
+  }
+}

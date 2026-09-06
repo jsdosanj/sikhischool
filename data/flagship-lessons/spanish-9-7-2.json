@@ -1,0 +1,164 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-7",
+    "courseId": "course-spanish-9",
+    "order": 7,
+    "title": "Narrating a Trip in the Past Tense",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-7-2",
+    "unitId": "unit-spanish-9-7",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "A Trip Story's Skeleton: Arrival, Highlight, Mishap, Return",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you locked in the regular preterite. Today you see what it can do. Below is a true-to-life narrative of a one-week trip to Oaxaca, in southern Mexico, told from a student's point of view — and told almost entirely with the regular preterite verbs you already know. Read it once for the story, then again for its shape."
+      },
+      {
+        "type": "text",
+        "ref": "el-esqueleto",
+        "text": "Almost every trip story, told out loud or written down, moves through four beats:\n1. La llegada — the arrival. You get there; you say where you stayed.\n2. Lo mejor — the highlight. The one day or moment the whole trip is remembered for.\n3. El percance — the mishap. Something goes wrong: a missed bus, rain, a lost bag. A story with no mishap is just a list.\n4. La vuelta — the return. You go home, and you say what the trip left you with.\nOne more piece sits before beat 1: [[el destino]] — the destination, the place the whole story is about. Keep the four beats in mind as you read; you build your own story on them tomorrow."
+      },
+      {
+        "type": "text",
+        "ref": "la-narrativa",
+        "text": "UNA SEMANA EN OAXACA\n\nEl verano pasado, mi familia y yo viajamos a Oaxaca, en el sur de México. Salimos de Los Ángeles muy temprano y llegamos a la ciudad por la tarde. Nos alojamos en una casa pequeña cerca del centro, de paredes amarillas y con un patio lleno de plantas. Esa primera noche caminamos hasta el zócalo, la plaza principal, y cenamos tlayudas en un puesto de la calle. Yo casi no hablé español el primer día porque sentí mucha vergüenza, pero la señora del puesto me habló despacio y al final pedí la cena yo solo.\n\nAl día siguiente recorrimos el centro histórico a pie. Visitamos el mercado 20 de Noviembre, donde probé el mole negro por primera vez: dulce, un poco amargo y muy complejo. Mi hermana compró un mantel bordado para mi abuela, y yo compré un pequeño alebrije de madera, un gato azul con puntos de color naranja, que todavía guardo como recuerdo del viaje.\n\nEl mejor día empezó a las seis de la mañana. Salimos de excursión a Hierve el Agua, unas cascadas de piedra a dos horas de la ciudad. Caminamos por un sendero estrecho, nadamos en las pozas de agua verde y almorzamos con vista a las montañas. Ese paisaje inolvidable todavía aparece cuando cierro los ojos.\n\nNo todo salió perfecto. En el camino de regreso, el autobús se quedó sin gasolina y esperamos casi tres horas al lado de la carretera. Empezó a llover. Nadie llevó paraguas. Llegamos al centro mojados y cansados, y esa noche nadie cenó fuera: compramos pan y fruta y nos acostamos temprano.\n\nEl último día caminamos otra vez por el zócalo, sacamos fotos y compré café para llevar a casa. Volvimos a Los Ángeles el domingo. Abrí la maleta, encontré el alebrije entre la ropa y lo dejé en mi escritorio, donde sigue hoy. Ese viaje me enseñó más español en una semana que un semestre entero de clase.\n\n(English: Last summer, my family and I traveled to Oaxaca, in southern Mexico. We left Los Angeles very early and arrived in the city in the afternoon. We stayed in a small house near downtown, with yellow walls and a patio full of plants. That first night we walked to the zócalo, the main square, and had tlayudas for dinner at a street stall. I barely spoke Spanish the first day because I felt very shy, but the woman at the stall spoke to me slowly and in the end I ordered dinner myself. The next day we walked around the historic center on foot. We visited the 20 de Noviembre market, where I tried mole negro for the first time: sweet, a little bitter, and very complex. My sister bought an embroidered tablecloth for my grandmother, and I bought a small wooden alebrije, a blue cat with orange spots, that I still keep as a souvenir of the trip. The best day started at six in the morning. We set out on a day trip to Hierve el Agua, rock 'waterfalls' two hours from the city. We walked along a narrow trail, swam in the green mineral pools, and had lunch with a view of the mountains. That unforgettable landscape still comes back whenever I close my eyes. Not everything went perfectly. On the way back, the bus ran out of gas and we waited almost three hours beside the highway. It started to rain. Nobody had brought an umbrella. We got back to the center wet and tired, and that night nobody ate out: we bought bread and fruit and went to bed early. On the last day we walked through the zócalo again, took photos, and I bought coffee to bring home. We returned to Los Angeles on Sunday. I opened my suitcase, found the alebrije among the clothes, and set it on my desk, where it still sits today. That trip taught me more Spanish in one week than a whole semester of class.)"
+      },
+      {
+        "type": "text",
+        "ref": "lee-los-verbos",
+        "text": "Go back through the story and underline every verb that moves it forward: viajamos, salimos, llegamos, nos alojamos, caminamos, cenamos, hablé, pedí, recorrimos, visitamos, probé, compró, compré, empezó, nadamos, almorzamos, esperamos, compramos, sacamos, volvimos, abrí, encontré. Every one is a regular preterite — not a single irregular verb in the whole trip. That is the point of today: you can already narrate an entire week away from home. Next week's irregulars (fuimos, hicimos, tuvimos) will make it smoother, but they are not what makes it possible."
+      },
+      {
+        "type": "text",
+        "ref": "el-percance-hace-la-historia",
+        "text": "The beat students most often cut is the mishap, and it is the one that turns a report into a story. 'Fuimos a las cascadas, fueron bonitas, volvimos a casa' is information. The three hours beside the highway in the rain with no umbrella is what a listener actually remembers — and it makes the highlight shine brighter by contrast. Notice also how the story is sequenced: el verano pasado, esa primera noche, al día siguiente, el mejor día, en el camino de regreso, el último día. The reader never has to guess what order things happened in. When you build your outline tomorrow, give your mishap real, specific detail — it does not have to be dramatic."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow you pick your own destino — a real trip you took or one you invent — and lay it out on the same four beats, in a Spanish outline you will turn into a full narrative on Thursday."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "A trip narrative usually moves through four beats. Which order matches the model story?",
+              "options": [
+                "arrival → highlight → mishap → return",
+                "mishap → arrival → return → highlight",
+                "return → highlight → arrival → mishap",
+                "highlight → mishap → arrival → return"
+              ],
+              "answer": 0,
+              "explanation": "La llegada (arrival), lo mejor (highlight), el percance (mishap), la vuelta (return). The destino is named before beat 1."
+            },
+            {
+              "q": "What was the highlight (lo mejor) of the trip?",
+              "options": [
+                "the day trip to Hierve el Agua — the rock waterfalls and the green pools",
+                "the flight from Los Angeles",
+                "unpacking the suitcase at home",
+                "waiting beside the highway in the rain"
+              ],
+              "answer": 0,
+              "explanation": "'El mejor día empezó a las seis de la mañana. Salimos de excursión a Hierve el Agua...' — the excursión is the highlight beat."
+            },
+            {
+              "q": "What goes wrong in the mishap (el percance) beat?",
+              "options": [
+                "the bus runs out of gas and the family waits about three hours in the rain with no umbrella",
+                "the narrator loses their passport at the market",
+                "the house near downtown is fully booked",
+                "the mole negro makes everyone sick"
+              ],
+              "answer": 0,
+              "explanation": "'El autobús se quedó sin gasolina y esperamos casi tres horas al lado de la carretera. Empezó a llover. Nadie llevó paraguas.'"
+            },
+            {
+              "q": "What souvenir (recuerdo) did the narrator keep?",
+              "options": [
+                "a small wooden alebrije — a blue cat with orange spots",
+                "an embroidered tablecloth",
+                "a bag of mole negro",
+                "a photo of the zócalo"
+              ],
+              "answer": 0,
+              "explanation": "The tablecloth was the sister's purchase for the grandmother; the narrator bought the alebrije and 'todavía guardo como recuerdo del viaje.'"
+            },
+            {
+              "q": "Every verb that moves the story forward — viajamos, llegamos, recorrimos, probé, compré, volvimos — is in the:",
+              "options": [
+                "regular preterite (a completed past action)",
+                "present tense",
+                "imperfect (the 'used to' past)",
+                "future tense"
+              ],
+              "answer": 0,
+              "explanation": "The whole narrative runs on regular preterite verbs — no irregulars at all. The regular endings alone can carry a full trip story."
+            },
+            {
+              "q": "'Nos alojamos en una casa pequeña cerca del centro.' This sentence tells you:",
+              "options": [
+                "where the narrator's family stayed on the trip",
+                "how the family traveled to Oaxaca",
+                "what the family ate the first night",
+                "why the narrator felt shy"
+              ],
+              "answer": 0,
+              "explanation": "Alojarse is the reflexive verb for where you stay/lodge. 'Nos alojamos' = 'we stayed.' It belongs to the arrival beat."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-7-2",
+    "lessonId": "lesson-spanish-9-7-2",
+    "objectives": [
+      "Identify the four beats of a trip narrative (arrival, highlight, mishap, return) in the model text and quote a sentence for each",
+      "Recognize that the model narrative is told entirely in regular preterite verbs, and trace at least eight of those verbs back to their infinitives",
+      "Explain why the mishap beat and the sequence markers (el verano pasado, al día siguiente, el último día) are what make a narrative rather than a list, per standard WA-WL-2015.1.3"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "The printed model narrative from the lesson", "Highlighter or colored pencils"],
+    "facilitationScript": "1. Read the hook and the el-esqueleto block. Have the student say the four beats back, plus the destino that comes before them.\n2. Read the Spanish narrative aloud once, start to finish, without stopping — story first.\n3. Reread it beat by beat. As each beat ends, have the student mark where it is on the printed narrative and label it (llegada / lo mejor / percance / vuelta). Check against the English only after they have tried the Spanish.\n4. Work through lee-los-verbos: have the student underline the forward-moving verbs and pick eight to trace back to infinitives (recorrimos → recorrer, probé → probar, and so on). Confirm out loud that none are irregular.\n5. Read el-percance-hace-la-historia. Discuss: which single moment in this story would a listener remember a week later, and why? Point to the sequence markers and note the reader never has to guess the order.\n6. Complete the multiple-choice activity.\n7. Complete the worksheet. Preview tomorrow's outline-building.",
+    "differentiationTips": [
+      "Struggling: work with just the first two beats (llegada, lo mejor) and trace only four verbs to infinitives; the full-story verb hunt can be shortened",
+      "Ready for more: have the student rewrite the mishap paragraph from the point of view of the narrator's younger sibling, keeping every verb in the regular preterite",
+      "Watch for the student treating the English gloss as the text — push them back to the Spanish for the beat-labeling and the verb hunt; the English is only a check"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "Beats: (1) arrival — 'Salimos de Los Ángeles muy temprano y llegamos a la ciudad por la tarde. Nos alojamos en una casa pequeña...'; (2) highlight — 'El mejor día empezó a las seis de la mañana. Salimos de excursión a Hierve el Agua...'; (3) mishap — 'el autobús se quedó sin gasolina y esperamos casi tres horas... Empezó a llover. Nadie llevó paraguas.'; (4) return — 'Volvimos a Los Ángeles el domingo. Abrí la maleta, encontré el alebrije... Ese viaje me enseñó más español...'. Sample infinitives: viajamos→viajar, llegamos→llegar, nos alojamos→alojarse, recorrimos→recorrer, probé→probar, compré→comprar, nadamos→nadar, volvimos→volver, encontré→encontrar. All regular preterite; no irregular verbs in the narrative. The mishap matters because without it the trip is a list of nice things; the sequence markers keep the timeline unambiguous.",
+    "standardsRationale": "Serves WA-WL-2015.1.3 by using an authentic-style narrative as the model for the week's presentational task, per the scope-and-sequence's week 7 Day 2 design ('model narrative study — a trip story's skeleton: arrival, highlight, mishap, return'). The model is told entirely in the regular preterite verbs the student met Monday — no irregulars — which keeps it readable now and makes the point that the regular preterite alone is enough to narrate a full trip. Reading a narrative for its structure is the interpretive groundwork for Thursday's own draft and Friday's spoken telling. The Oaxaca setting (Hierve el Agua, the 20 de Noviembre market, mole negro) is real and specific, and deliberately echoes week 6's gastronomy unit."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-7-2",
+    "lessonId": "lesson-spanish-9-7-2",
+    "title": "A Trip Story's Skeleton: Arrival, Highlight, Mishap, Return",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Use the model narrative 'Una semana en Oaxaca' to answer each question. Work from the Spanish, not the English gloss.",
+      "rows": [
+        { "problem": "For each of the four beats — arrival, highlight, mishap, return — copy one sentence from the narrative that belongs to that beat." },
+        { "problem": "List eight regular preterite verbs from the story and write the infinitive of each (example: recorrimos → recorrer)." },
+        { "problem": "Find the Spanish in the story for: 'we traveled,' 'we arrived,' 'we stayed (lodged),' 'I tried,' 'we returned.' Write each one." },
+        { "problem": "The narrator says the trip 'me enseñó más español en una semana que un semestre entero de clase.' Name one specific moment in the story that supports this." },
+        { "problem": "The lesson says a trip story with no mishap 'is just a list.' In one or two sentences, explain why the three hours beside the highway make the story stronger, not weaker." }
+      ]
+    }
+  }
+}

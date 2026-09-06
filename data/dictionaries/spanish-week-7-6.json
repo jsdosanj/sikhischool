@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dict-spanish-hablar",
+    "language": "spanish",
+    "word": "hablar",
+    "translation": "to speak, to talk",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Mi abuela habla español, inglés y un poco de portugués. (My grandmother speaks Spanish, English, and a little Portuguese.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-estudiar",
+    "language": "spanish",
+    "word": "estudiar",
+    "translation": "to study",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Todas las noches estudio para el examen de ciencias. (Every night I study for the science test.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-ensenar",
+    "language": "spanish",
+    "word": "enseñar",
+    "translation": "to teach",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "La señora Torres enseña matemáticas en mi escuela. (Mrs. Torres teaches math at my school.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-necesitar",
+    "language": "spanish",
+    "word": "necesitar",
+    "translation": "to need",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Nosotros necesitamos más tiempo para terminar la tarea. (We need more time to finish the homework.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-usar",
+    "language": "spanish",
+    "word": "usar",
+    "translation": "to use",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Mis hermanos usan la computadora para hacer la tarea. (My siblings use the computer to do their homework.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-trabajar",
+    "language": "spanish",
+    "word": "trabajar",
+    "translation": "to work",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Mi papá trabaja en un restaurante y llega a casa muy tarde. (My dad works at a restaurant and gets home very late.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-mirar",
+    "language": "spanish",
+    "word": "mirar",
+    "translation": "to watch, to look at",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Los domingos, mi familia y yo miramos un partido de fútbol juntos. (On Sundays, my family and I watch a soccer game together.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  },
+  {
+    "id": "dict-spanish-llegar",
+    "language": "spanish",
+    "word": "llegar",
+    "translation": "to arrive",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Yo llego a la escuela a las siete y media de la mañana. (I arrive at school at seven thirty in the morning.)",
+    "audioRef": null,
+    "gradeBandHint": "6-8"
+  }
+]

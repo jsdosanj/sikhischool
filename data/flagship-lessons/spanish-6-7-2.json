@@ -1,0 +1,102 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-7",
+    "courseId": "course-spanish-6",
+    "order": 7,
+    "title": "Present-Tense -ar Verbs: One Pattern, Hundreds of Verbs",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-7-2",
+    "unitId": "unit-spanish-6-7",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Conjugation Relay Races: Accuracy Before Speed",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday you met the pattern: stem plus -o, -as, -a, -amos, -an. Today you make it automatic. You will run conjugation relay races — teams racing to fill in verb forms on the board — but with one rule you have used before: a correct answer written slowly beats a fast wrong one. Accuracy over speed, round two. A wrong ending costs your team the point no matter how quickly it goes up."
+      },
+      {
+        "type": "text",
+        "ref": "the-five-endings",
+        "text": "Recall the five endings, in order, tied to their people:\n\n- -o -> yo\n- -as -> tú\n- -a -> usted / él / ella\n- -amos -> nosotros\n- -an -> ustedes / ellos\n\nPick any -ar verb, drop the -ar, and run the list. necesitar -> necesit- -> necesito, necesitas, necesita, necesitamos, necesitan. usar -> us- -> uso, usas, usa, usamos, usan. Do it out loud until the rhythm is in your mouth, not just your eyes."
+      },
+      {
+        "type": "text",
+        "ref": "the-mix-up-to-watch",
+        "text": "One mistake causes more lost points than all the others combined: -a versus -an. -a is for exactly one other person; -an is for more than one.\n\n- Mi hermana llega tarde. — one person -> llega\n- Mis hermanas llegan tarde. — more than one -> llegan\n- Ella trabaja / Ellos trabajan\n\nAnd -as is only ever tú — one person you are talking to. If the sentence is about someone else, it is never -as. Check the subject first, then choose the ending."
+      },
+      {
+        "type": "text",
+        "ref": "spelling-counts",
+        "text": "Because this is a race, spelling is where points slip:\n\n- No written accents. Every one of the five -ar present forms is plain: trabajo, trabajas, trabaja, trabajamos, trabajan. If you find yourself adding a tilde over a vowel, stop — it does not belong here.\n- Keep the stem letters exactly as they are. llegar keeps its g in every present-tense form: llego, llegas, llega, llegamos, llegan. enseñar keeps its ñ: enseño, enseñas, enseña, enseñamos, enseñan.\n- -amos, not -emos or -imos. The nosotros ending for an -ar verb always has the a: hablamos, estudiamos, miramos."
+      },
+      {
+        "type": "text",
+        "ref": "how-the-race-works",
+        "text": "Your teacher will call a verb and a person — 'trabajar, ellos' — and the next runner writes trabajan, then hands off. Miss the ending and the form comes back to your team to fix before you can score it. Some rounds are timed; some are untimed and graded only on correctness. Either way, think: subject first, stem second, ending third."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "After today the five endings should feel like one move, not five separate facts to recall. Tomorrow you take the pattern out of the drill and into real conversation: a class survey where you ask classmates what they actually do."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "build-the-sentence-v1",
+        "config": {
+          "items": [
+            { "words": ["Nosotros", "hablamos", "español", "en", "casa."], "correctOrder": [0, 1, 2, 3, 4] },
+            { "words": ["Mi", "hermana", "estudia", "en", "la", "biblioteca."], "correctOrder": [0, 1, 2, 3, 4, 5] },
+            { "words": ["Yo", "uso", "el", "diccionario", "en", "clase."], "correctOrder": [0, 1, 2, 3, 4, 5] },
+            { "words": ["El", "profesor", "enseña", "historia", "en", "la", "escuela."], "correctOrder": [0, 1, 2, 3, 4, 5, 6] },
+            { "words": ["Mis", "padres", "trabajan", "los", "sábados."], "correctOrder": [0, 1, 2, 3, 4] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-7-2",
+    "lessonId": "lesson-spanish-6-7-2",
+    "objectives": [
+      "Produce all five present-tense forms of a regular -ar verb on demand, given a verb and a person, with correct spelling and no added accent marks",
+      "Choose -a versus -an by first checking whether the subject is one person or more than one",
+      "Assemble correct sentences with conjugated -ar verbs across yo, nosotros, él/ella, and ellos subjects"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Whiteboard or chart paper and markers for the relay", "Two or more team spaces at the board", "Device for the build-the-sentence activity (optional — can be done on paper)"],
+    "facilitationScript": "1. Quick oral warm-up: call a verb, students chant all five forms in unison (hablar -> hablo, hablas, habla, hablamos, hablan).\n2. Reteach the -a vs. -an contrast with the llega / llegan and trabaja / trabajan pairs. Stress: check the subject first.\n3. Teach the spelling checkpoints: no accents; stem letters unchanged (llegar keeps g, enseñar keeps ñ); nosotros is -amos.\n4. Set up the relay: teams line up, teacher calls 'verb + person,' the runner writes the form, a wrong ending returns to the team to fix before scoring. Run one untimed round (accuracy only), then one timed round.\n5. Debrief the errors that came up — almost always -a/-an or a stray accent.\n6. Play the build-the-sentence activity.\n7. Complete the worksheet.\n8. Preview tomorrow's class survey.",
+    "differentiationTips": [
+      "Struggling: give this student only yo, tú, and él/ella prompts in the relay; let them use a printed endings strip (-o, -as, -a, -amos, -an) taped to the desk",
+      "Ready for more: call two-part prompts ('trabajar, nosotros negative' -> no trabajamos) or have them write the whole sentence, not just the verb",
+      "If a team keeps losing points on -a/-an, pause the race and sort ten subjects aloud into 'one person' vs. 'more than one' before resuming"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Relay forms are correct when: the stem is the infinitive minus -ar with its letters unchanged, the ending matches the person (-o yo, -as tú, -a usted/él/ella, -amos nosotros, -an ustedes/ellos), and there is no written accent. Reference: trabajar -> trabajo, trabajas, trabaja, trabajamos, trabajan; llegar -> llego, llegas, llega, llegamos, llegan; enseñar -> enseño, enseñas, enseña, enseñamos, enseñan; mirar -> miro, miras, mira, miramos, miran. -a = one other person, -an = more than one. Build-the-sentence: 1. Nosotros hablamos español en casa. 2. Mi hermana estudia en la biblioteca. 3. Yo uso el diccionario en clase. 4. El profesor enseña historia en la escuela. 5. Mis padres trabajan los sábados.",
+    "standardsRationale": "Delivers the scope-and-sequence Day 2 design — 'conjugation relay races; accuracy over speed round two' — as the fluency-building day for the week's WA-WL-2015.1.1 target. Day 1 established the rule; this day drills it to automaticity so that Days 3-5 (survey, writing, interviews) can spend attention on communication rather than on form retrieval. The explicit 'accuracy over speed' framing and the -a/-an spotlight target the two error patterns most likely to surface on Friday's quiz."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-7-2",
+    "lessonId": "lesson-spanish-6-7-2",
+    "title": "Conjugation Relay Races: Accuracy Before Speed",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Conjugate carefully. Check the subject first (one person or more than one?), then the stem, then the ending. No written accents on any -ar present form.",
+      "rows": [
+        { "problem": "Conjugate trabajar and llegar in all five forms. Check that no form has a written accent mark." },
+        { "problem": "Fix the ending: 'Ella hablan español.' -> ___   'Ellos estudia mucho.' -> ___   'Yo miras deportes.' -> ___" },
+        { "problem": "Choose -a or -an: 'Mi hermano ___ (llegar) tarde.' and 'Mis hermanos ___ (llegar) tarde.'" },
+        { "problem": "Write three sentences: one with a yo form, one with a nosotros form, one with an ellos form. Use a different -ar verb in each." }
+      ]
+    }
+  }
+}

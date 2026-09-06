@@ -1,0 +1,89 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-7",
+    "courseId": "course-spanish-6",
+    "order": 7,
+    "title": "Present-Tense -ar Verbs: One Pattern, Hundreds of Verbs",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-7-5",
+    "unitId": "unit-spanish-6-7",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Partner Interviews and Third-Person Report-Outs",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "This week you learned one pattern and eight verbs. Today you use all of it in one task: interview a partner in the tú form, then stand up and report what they told you to the class in the él/ella form. The whole performance turns on one small move — changing the verb ending from -as to -a — done correctly, sentence after sentence."
+      },
+      {
+        "type": "text",
+        "ref": "the-interview",
+        "text": "Ask your partner these six questions. Every one is in the tú form (-as):\n\n1. ¿Hablas otro idioma en casa?\n2. ¿Estudias con música o en silencio?\n3. ¿A qué hora llegas a la escuela?\n4. ¿Trabajas en casa los fines de semana?\n5. ¿Qué programas o deportes miras en la televisión?\n6. ¿Qué necesitas para estudiar bien?\n\nYour partner answers in the yo form (-o): Hablo vietnamita en casa. Llego a las siete y media. Necesito silencio y un café."
+      },
+      {
+        "type": "text",
+        "ref": "the-transformation",
+        "text": "Now turn each answer into a report sentence. Keep the whole sentence the same and change only the verb ending, -as or -o becoming -a:\n\n- 'Hablo vietnamita en casa.' -> Camila habla vietnamita en casa.\n- 'Estudio con música.' -> Camila estudia con música.\n- 'Llego a las siete y media.' -> Camila llega a las siete y media.\n- 'Necesito silencio.' -> Camila necesita silencio.\n\nThe time, the place, the extra words — all stay. Only the ending moves to -a."
+      },
+      {
+        "type": "text",
+        "ref": "report-out-frames",
+        "text": "Deliver four or five sentences to the class. Name your partner once, use ella or él once, and then let the endings carry it:\n\nMi compañera se llama Camila. Ella habla vietnamita en casa. Estudia con música y llega a la escuela a las siete y media. Los fines de semana, trabaja en casa. Para estudiar bien, necesita silencio.\n\nAfter 'Ella habla...' every following verb still ends in -a, so you do not need to repeat ella — the ending already says who."
+      },
+      {
+        "type": "text",
+        "ref": "usage-notes",
+        "text": "Three small things worth knowing about this week's verbs:\n\n- mirar and ver both cover 'watch.' This course uses mirar — mirar la televisión, mirar deportes, and also 'look at' (Mira el mapa). You will often hear ver instead (ver la tele); treat it as the same idea.\n- llegar takes a before a place: llego a la escuela, llegamos a casa. Remember a + el = al: llega al parque.\n- trabajar en names the place, trabajar de names the job: Mi mamá trabaja en un hospital. Trabaja de enfermera."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You interviewed, transformed every answer to the third person, and reported it aloud — the full interpersonal-to-presentational loop. Take the quiz to close the week. Next week: -er and -ir verbs, the other two ending groups, set right next to this one so you can see what stays the same and what changes."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-7-5",
+    "lessonId": "lesson-spanish-6-7-5",
+    "objectives": [
+      "Conduct a six-question partner interview entirely in the tú form and answer in the yo form",
+      "Convert each first-person answer to a third-person report sentence by changing only the verb ending to -a, keeping all other words",
+      "Deliver a four-to-five-sentence spoken report about the partner, naming them and using él/ella once and letting the -a endings carry the rest",
+      "Demonstrate accurate -ar conjugation across yo, tú, él/ella, and ellos on the week's quiz (quiz-spanish-6-7-5)"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "The six interview questions (projected or on a half-sheet)", "This week's quiz (quiz-spanish-6-7-5)"],
+    "facilitationScript": "1. Warm-up: call an infinitive; students give the tú question and the él/ella report form (estudiar -> ¿Estudias? / estudia).\n2. Model the interview with a volunteer: ask all six questions, jot the answers.\n3. Teach the transformation: take each answer, change only the ending to -a, keep everything else. Do three on the board.\n4. Model the report-out: name the partner, use ella/él once, then keep going with bare -a verbs.\n5. Teach the three usage notes (mirar/ver; llegar a / al; trabajar en / de).\n6. Pairs interview each other and write their partner's answers.\n7. Each student delivers their report to the class or a small group; listeners ask one follow-up (¿A qué hora...? ¿Por qué...?).\n8. Administer the quiz (quiz-spanish-6-7-5).\n9. Complete the worksheet reflection. Preview next week: -er/-ir verbs.",
+    "differentiationTips": [
+      "Struggling: give a report-out frame with blanks ('Mi compañero se llama ___. Él ___ en casa. Llega a ___...') and let the student fill the verb ending and the detail",
+      "Ready for more: require all six answers reported, a follow-up question asked and reported (Le pregunto qué idioma habla; habla...), and a written paragraph version",
+      "If the quiz shows a gap, it is almost always -a vs. -an (subject not checked) or a stray accent — revisit Day 2's spelling checkpoints before starting week 8"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Interview questions stay in the tú form: ¿Hablas...? ¿Estudias...? ¿Llegas...? ¿Trabajas...? ¿Miras...? ¿Necesitas...? Answers in the yo form: hablo, estudio, llego, trabajo, miro, necesito. Transformation: change only the ending to -a and keep every other word — 'Llego a las siete y media' -> '[Name] llega a las siete y media.' Report-out: name once, ella/él once, then bare -a verbs (Ella habla... Estudia... Llega... Necesita...). Usage notes: mirar = ver for 'watch,' course uses mirar; llegar a + place (a + el = al); trabajar en + place, trabajar de + job. Quiz answers: 1. hablo, 2. estudiamos, 3. trabaja, 4. miran, 5. Usas, 6. 'La profesora enseña matemáticas.'",
+    "standardsRationale": "Closes week 7's WA-WL-2015.1.1 arc with the scope-and-sequence Day 5 design — partner interviews and third-person report-outs — combining an interpersonal task (the interview) with a presentational one (the report). The tú-to-él/ella transformation isolates the single most testable feature of the present tense: the ending must track the subject. The usage notes (mirar/ver, llegar a, trabajar en/de) are accuracy safeguards for the verbs students will keep using all year. The quiz is the week's mastery check on conjugation across all four course persons that -ar verbs distinguish."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-7-5",
+    "lessonId": "lesson-spanish-6-7-5",
+    "title": "Partner Interviews and Third-Person Report-Outs",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Interview in the tú form. Report in the él/ella form. To turn an answer into a report, change only the verb ending to -a and keep every other word.",
+      "rows": [
+        { "problem": "Write 6 interview questions for a partner, all in the tú form, each using a different -ar verb from this week." },
+        { "problem": "Your partner answers 'Llego a la escuela a las ocho.' Rewrite it as a report about them: ___." },
+        { "problem": "Change only the verb ending to report each answer: 'Estudio en silencio.' -> 'Ella ___ en silencio.'   'Trabajo los sábados.' -> 'Ella ___ los sábados.'   'Necesito un diccionario.' -> 'Ella ___ un diccionario.'" },
+        { "problem": "Write your full report-out: 4-5 sentences about your partner. Use 'se llama' once, 'ella' or 'él' once, and let the verb endings carry the rest." },
+        { "problem": "Reflection: which -ar verb form is easiest for you to get right, and which one still makes you stop and think?" }
+      ]
+    }
+  }
+}

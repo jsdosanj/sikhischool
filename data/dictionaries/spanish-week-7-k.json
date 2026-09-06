@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dict-spanish-la-familia",
+    "language": "spanish",
+    "word": "la familia",
+    "translation": "family",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi familia es grande y me quiere mucho. (My family is big and loves me a lot.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-la-mama",
+    "language": "spanish",
+    "word": "la mamá",
+    "translation": "mom",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi mamá me da un abrazo. (My mom gives me a hug.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-el-papa",
+    "language": "spanish",
+    "word": "el papá",
+    "translation": "dad",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi papá cocina la cena. (My dad cooks dinner.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-el-hermano",
+    "language": "spanish",
+    "word": "el hermano",
+    "translation": "brother",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi hermano juega conmigo. (My brother plays with me.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-la-hermana",
+    "language": "spanish",
+    "word": "la hermana",
+    "translation": "sister",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi hermana canta una canción. (My sister sings a song.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-la-abuela",
+    "language": "spanish",
+    "word": "la abuela",
+    "translation": "grandma",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi abuela me cuenta un cuento. (My grandma tells me a story.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-el-abuelo",
+    "language": "spanish",
+    "word": "el abuelo",
+    "translation": "grandpa",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi abuelo tiene un jardín. (My grandpa has a garden.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  },
+  {
+    "id": "dict-spanish-el-bebe",
+    "language": "spanish",
+    "word": "el bebé",
+    "translation": "baby",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "El bebé duerme en la cuna. (The baby sleeps in the crib.)",
+    "audioRef": null,
+    "gradeBandHint": "K-2"
+  }
+]

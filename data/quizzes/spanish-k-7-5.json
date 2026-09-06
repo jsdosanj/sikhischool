@@ -1,0 +1,30 @@
+{
+  "lessonId": "lesson-spanish-k-7-5",
+  "quiz": {
+    "id": "quiz-spanish-k-7-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'mom'?",
+        "options": ["el papá", "la mamá", "la abuela", "el bebé"],
+        "answer": 1
+      },
+      {
+        "q": "Grown-up, read aloud: What does 'el hermano' mean in English?",
+        "options": ["grandpa", "sister", "brother", "dad"],
+        "answer": 2
+      },
+      {
+        "q": "Grown-up, read aloud: What is the Spanish word for 'grandma'?",
+        "options": ["la abuela", "la hermana", "la mamá", "la familia"],
+        "answer": 0
+      },
+      {
+        "q": "Grown-up, read aloud: In Sol's story, how did Lucía say hello to her abuela?",
+        "options": ["with a quick high five", "with a hug and a kiss on the cheek", "with a wave from across the room", "she did not say hello"],
+        "answer": 1
+      }
+    ]
+  }
+}

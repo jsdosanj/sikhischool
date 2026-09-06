@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-7",
+    "courseId": "course-spanish-k",
+    "order": 7,
+    "title": "My Family",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-7-3",
+    "unitId": "unit-spanish-k-7",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "El Día de la Familia: A Story of Hugs for Abuela",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol has a story today about a girl named Lucía and a big family day at her abuela's house. Get cozy and listen for all the family words you know."
+      },
+      {
+        "type": "text",
+        "ref": "practice-story",
+        "text": "On Sunday, Lucía's whole familia comes to Abuela's house. The door opens and everyone hugs. Lucía gives her abuela a big hug and a kiss on the cheek. 'Hola, abuela,' she says. Then she hugs her abuelo in his chair. 'Hola, abuelo.' Her mamá and her papá hug them too. Her hermano runs off to play with the cousins. Even el bebé gets a kiss from everyone. Then the whole familia sits down at one long table to eat together."
+      },
+      {
+        "type": "text",
+        "ref": "practice-notice",
+        "text": "Did you notice? In Lucía's family, everyone says hello with a hug and a kiss on the cheek — even the children. Lucía calls her grandma 'abuelita,' a soft, loving way to say abuela. Show your grown-up how you say hello to someone you love. A hug? A wave? A high five? Every family has its own way."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Lucía's family filled the house with hugs. Some families are big like Lucía's, some are small. Some children live with their abuelos, some with one grown-up, some with many people who love them. Tomorrow, you draw your own familia."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-7-3",
+    "lessonId": "lesson-spanish-k-7-3",
+    "objectives": [
+      "Follow a short spoken story and hold up or point when they hear a family word",
+      "Notice one cultural practice — greeting family with a hug and a kiss on the cheek — and compare it to how their own family says hello"
+    ],
+    "materialsNeeded": ["Sol the puppet", "Optional: family photos or simple drawings to point to as the story names each person"],
+    "facilitationScript": "1. Settle in with Sol and tell your child this is a listening story about a family gathering.\n2. Read the story slowly, with feeling. Pause on each family word — la abuela, el abuelo, la mamá, el papá, el hermano, el bebé, la familia — and let your child echo it or point to that person in a photo.\n3. Act out the greeting: give a gentle hug and a pretend kiss on the cheek when Lucía greets her abuela.\n4. After the story, ask what your child noticed about how Lucía's family says hello.\n5. Explain 'abuelita' — the -ita ending makes it sound small and loving, like 'grandma' becoming 'grandmama.'\n6. Ask your child how YOUR family says hello — a hug, a wave, a kiss, a special handshake — and try it together.\n7. Close by naming that families come in many sizes and shapes, and each one greets in its own way.",
+    "differentiationTips": [
+      "Struggling: tell the story in just three or four sentences and point to a photo for each person",
+      "Ready for more: your child retells the story in their own words, using as many Spanish family words as they can",
+      "If your child's family greetings look nothing like Lucía's, that is the lesson — the point is that different families do this differently, not that one way is correct"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a listening-and-noticing activity — success looks like your child recognizing the family words in the story and telling you one thing about how Lucía's family (or their own) says hello.",
+    "standardsRationale": "This is the heart of week 7's WA-WL-2015.2.1 Cultures: Practices to Perspectives target — the child observes a real Latin American family practice (greeting relatives, including elders, with a hug and a kiss on the cheek; the affectionate 'abuelita') and connects it to the perspective that family closeness is shown, not just felt. Matches the scope-and-sequence's Day 3 design (a story about a Latin American family gathering; notice hugs and greetings for abuela/abuelo) and recycles every family word from Days 1-2 in a connected narrative rather than a word list."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-7-3",
+    "lessonId": "lesson-spanish-k-7-3",
+    "title": "El Día de la Familia: A Story of Hugs for Abuela",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and talk about it together.",
+      "rows": [
+        { "problem": "Tell the story of Lucía's family day, pausing on each family word: la abuela, el abuelo, la mamá, el papá, el hermano, el bebé." },
+        { "problem": "Act out Lucía's greeting — a hug and a kiss on the cheek for her abuela and abuelo." },
+        { "problem": "Talk about it: how does your family say hello to someone you love? Try it together." }
+      ]
+    }
+  }
+}

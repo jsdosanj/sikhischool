@@ -1,0 +1,61 @@
+{
+  "lessonId": "lesson-spanish-3-7-5",
+  "quiz": {
+    "id": "quiz-spanish-3-7-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "In Spanish, where does a color word go?",
+        "options": [
+          "Before the noun, the same as English",
+          "After the noun it describes",
+          "It does not matter where it goes",
+          "Only at the very end of the sentence"
+        ],
+        "answer": 1,
+        "explanation": "The describing word follows the noun: un cuaderno rojo, una casa roja. 'Una roja casa' is not how Spanish works."
+      },
+      {
+        "q": "Which phrase means 'light green'?",
+        "options": ["claro verde", "verde claro", "verde clara", "verde oscuro"],
+        "answer": 1,
+        "explanation": "Claro (light) and oscuro (dark) come after the color and never change their ending: verde claro, azul claro."
+      },
+      {
+        "q": "'La casa es ___.' The house is red. Which word is correct?",
+        "options": ["rojo", "roja", "rojas", "rrojo"],
+        "answer": 1,
+        "explanation": "Casa is a 'la' word, so rojo changes to roja: la casa roja. With an 'el' word it stays rojo: el cuaderno rojo."
+      },
+      {
+        "q": "What is unusual about the word arcoíris (rainbow)?",
+        "options": [
+          "It has no plural form",
+          "It ends in -s but it is an 'el' word",
+          "It is always used in the plural",
+          "It can never be described with a color"
+        ],
+        "answer": 1,
+        "explanation": "It is el arcoíris, not 'la arcoíris' — and the plural is still los arcoíris, with no extra -s."
+      },
+      {
+        "q": "'El sol es ___.' The sun is bright and shiny. Which word fits?",
+        "options": ["feo", "oscuro", "brillante", "claro"],
+        "answer": 2,
+        "explanation": "Brillante means bright or shiny. It ends in -e, so it never changes its ending."
+      },
+      {
+        "q": "Which sentence correctly describes a favorite object?",
+        "options": [
+          "Mi mochila es bonita y morada.",
+          "Mi mochila es bonito y morado.",
+          "Mi bonita mochila morada es.",
+          "Mochila mi es morada bonita."
+        ],
+        "answer": 0,
+        "explanation": "Mochila is a 'la' word, so both bonita and morada take -a, and they come after the noun: Mi mochila es bonita y morada."
+      }
+    ]
+  }
+}

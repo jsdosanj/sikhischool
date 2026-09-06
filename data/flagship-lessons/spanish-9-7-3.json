@@ -1,0 +1,89 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-7",
+    "courseId": "course-spanish-9",
+    "order": 7,
+    "title": "Narrating a Trip in the Past Tense",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-7-3",
+    "unitId": "unit-spanish-9-7",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Build Your Story Outline: Your Trip on the Skeleton",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have the four beats and a model. Now the trip is yours. Today you choose a destino — real or invented — and build an outline: the plan of the story, beat by beat, in Spanish, in the preterite. Tomorrow the outline becomes a full narrative. Today it just has to be complete and in order."
+      },
+      {
+        "type": "text",
+        "ref": "destino-real-o-inventado",
+        "text": "Two ways to do this, both fine:\n- A real trip you took — even a small one. A weekend at a relative's, a school field trip, a drive to another city. It does not need a passport or a plane.\n- An invented trip — somewhere you want to go. If you invent it, still keep it concrete: a real place, real distances, things that could actually happen. 'Viajé a Marte y hablé con un extraterrestre' is not the assignment.\nEither way you will narrate it in the preterite, as though it already happened. If you invent, commit to the invention — write 'llegué,' not 'llegaría.'"
+      },
+      {
+        "type": "text",
+        "ref": "el-itinerario",
+        "text": "An [[el itinerario]] is the plan of a trip laid out in time — day by day, or stop by stop: what you did the first day, the second, the third. A travel narrative is basically an itinerario with feeling added: the mishap, the highlight, the one honest line about what it meant. Start by listing your itinerario plainly, in order — 'Día 1: llegada. Día 2: el mercado. Día 3: la excursión...' — then mark which day holds your highlight and where the mishap goes. You cannot sequence a story you have not first laid flat."
+      },
+      {
+        "type": "text",
+        "ref": "el-esqueleto-en-espanol",
+        "text": "Fill each beat with two or three sentences in the preterite. Frames to start from — replace the blanks with your trip:\n\nLA LLEGADA:\n'El _____ pasado, viajé (o viajamos) a _____.'\n'Salí (o salimos) de _____ y llegué (o llegamos) por la _____.'\n'Me alojé (o nos alojamos) en _____.'\n\nLO MEJOR:\n'El mejor día empezó _____.'\n'Recorrimos / Visitamos / Salimos de excursión a _____.'\n'Ese _____ inolvidable _____.'\n\nEL PERCANCE:\n'No todo salió perfecto.'\n'Un día, _____ (se descompuso el plan / empezó a llover / perdí _____ / esperé _____).'\n'Al final, _____.'\n\nLA VUELTA:\n'El último día, _____.'\n'Volví (o volvimos) a casa el _____.'\n'Ese viaje me enseñó (o me dejó) _____.'\n\nYou are not writing full paragraphs yet — just the sentences of the outline, in order, each one a real preterite verb with the right ending and the right accent."
+      },
+      {
+        "type": "text",
+        "ref": "revisa-antes-de-guardar",
+        "text": "Before you save the outline, check three things. First: is every beat there — llegada, lo mejor, percance, vuelta? Second: is every verb in the preterite, with the yo forms ending in -é or -í and the él/ella forms ending in -ó or -ió? Third: does at least one of this week's words appear — la excursión, alojarse, recorrer, el recuerdo, inolvidable, el destino, or el itinerario? If a beat is thin, that is fine for today; tomorrow is for expanding. What must be solid now is the order and the verbs."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Keep this outline where you will find it. Tomorrow you expand it into a narrative of at least ten sentences, connect the beats with sequence words, and trade drafts with a partner to catch the endings and the accents."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-7-3",
+    "lessonId": "lesson-spanish-9-7-3",
+    "objectives": [
+      "Choose a destino (real or invented but concrete) and list an itinerario in time order",
+      "Draft a four-beat outline (llegada, lo mejor, percance, vuelta) with two to three preterite sentences per beat, using the provided frames",
+      "Include at least one of the week's seven vocabulary words and self-check every verb for correct preterite endings and accents, per standard WA-WL-2015.1.3"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "The Day 1 preterite notes", "A dictionary or glossary for place and activity vocabulary"],
+    "facilitationScript": "1. Read the hook and destino-real-o-inventado. Have the student decide, out loud, on a destino and say one sentence about why they chose it — before writing anything.\n2. Read el-itinerario. Build the plain day-by-day list together first: 'Día 1... Día 2...' No feeling yet, just what happened in what order.\n3. Have the student mark on that list where the highlight day is and where the mishap goes.\n4. Read el-esqueleto-en-espanol. Work through the frames one beat at a time on the worksheet, filling the blanks. Keep sentences short — the student should be able to say each one.\n5. Read revisa-antes-de-guardar and run the three checks together: all four beats present, every verb in the preterite with correct accents, at least one week-7 word used.\n6. File the outline where it will be found tomorrow. Preview Thursday's drafting and peer edit.",
+    "differentiationTips": [
+      "Struggling: a real, small trip with a five-line itinerario and one sentence per beat is a full pass — the frames can be filled almost word for word from the Day 2 model",
+      "Ready for more: have the student write four to five sentences per beat, vary the subject (some yo, some nosotros, one él/ella for a travel companion), and use three of the week's seven words",
+      "If a student has no trip they want to write about, real or invented, offer them the Day 2 model's structure with a different destino (a city they have read about) — inventing concretely is a valid path, not a lesser one"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct outline. Evaluate for: (1) a named destino and a one-line reason; (2) an itinerario in time order; (3) all four beats present, each with two to three sentences; (4) every verb in the preterite — yo forms in -é/-í, él/ella forms in -ó/-ió, correct -car/-gar/-zar yo spellings if used; (5) at least one of la excursión, alojarse, recorrer, el recuerdo, inolvidable, el destino, el itinerario. Thin beats are acceptable today; wrong tense or scrambled order is not.",
+    "standardsRationale": "Serves WA-WL-2015.1.3 by beginning the presentational-writing task at the outline stage, per the scope-and-sequence's week 7 Day 3 design ('build your story outline (real or imagined trip) on that skeleton'). The student commits to a destino and an itinerario and lays the four beats out in preterite sentence frames, so Thursday's drafting is expansion and connection rather than blank-page invention. Real-or-invented is offered explicitly so a student without a travel history is not disadvantaged — the same accommodation the scope-and-sequence names."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-7-3",
+    "lessonId": "lesson-spanish-9-7-3",
+    "title": "Build Your Story Outline: Your Trip on the Skeleton",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Build your outline one section at a time. Write in Spanish, in the preterite. Keep sentences short enough to say aloud.",
+      "prompts": [
+        { "prompt": "Tu destino: where does the trip go? Real or invented. Name the place and one line on why you chose it.", "lines": 2 },
+        { "prompt": "Tu itinerario: what happened, day by day, in order. Plain list, no detail yet (Día 1..., Día 2..., Día 3...).", "lines": 6 },
+        { "prompt": "LA LLEGADA — 2-3 preterite sentences: how you got there and where you stayed (use alojarse).", "lines": 3 },
+        { "prompt": "LO MEJOR — 2-3 preterite sentences: the highlight day. Use recorrer, la excursión, or inolvidable.", "lines": 3 },
+        { "prompt": "EL PERCANCE — 2-3 preterite sentences: what went wrong, with one specific detail.", "lines": 3 },
+        { "prompt": "LA VUELTA — 2-3 preterite sentences: going home, and one honest line about what the trip left you.", "lines": 3 }
+      ]
+    }
+  }
+}

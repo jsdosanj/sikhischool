@@ -1,0 +1,102 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-7",
+    "courseId": "course-spanish-9",
+    "order": 7,
+    "title": "Narrating a Trip in the Past Tense",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-7-5",
+    "unitId": "unit-spanish-9-7",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Story Slams: Tell It Without Reading",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "The narrative is written and edited. Today you tell it — standing up, from memory, no paper in your hands. Two minutes, in Spanish, start to finish. At the end the class votes: whose trip was the most inolvidable?"
+      },
+      {
+        "type": "text",
+        "ref": "contar-no-es-recitar",
+        "text": "Telling is not reciting. You are not trying to say your draft word for word — you are trying to walk someone through the trip. That is easier, not harder, if you prepare right:\n- Make a keyword card: five or six words per beat, not sentences. 'Llegada: verano, Oaxaca, casa amarilla, zócalo, tlayudas, vergüenza.' The words pull the sentences back.\n- Know your first line cold and your last line cold. The middle can breathe; the opening and the close should not wobble.\n- Keep it in the preterite. If a verb escapes you mid-story, swap in one you know — 'recorrimos' when 'exploramos' will not come — and keep moving. Fluency is not stopping.\n- Time one run at home. Two minutes is about 12 to 18 spoken sentences."
+      },
+      {
+        "type": "text",
+        "ref": "frases-para-empezar-y-cerrar",
+        "text": "Spanish frames for the parts that must not wobble:\nOpen: 'El verano pasado (o el año pasado, o en abril) viajé a...' / 'Quiero contarles sobre un viaje a...'\nMove between beats: 'Al día siguiente...', 'El mejor día...', 'Pero no todo salió bien...', 'El último día...'\nClose: 'Ese viaje me enseñó...', 'Nunca olvidé...', 'Todavía guardo ese recuerdo...'\nEvery verb in these frames is a regular preterite — the irregular ones (fue, hice) wait until next week. The close is where the word inolvidable earns its place: use it once, at the end, about the thing that actually deserves it."
+      },
+      {
+        "type": "text",
+        "ref": "el-voto",
+        "text": "After each teller, the audience holds one question in mind: did this story earn the word inolvidable? Not 'was the trip expensive' or 'was it far' — a weekend at an aunt's house can be more inolvidable than a flight to another continent. What makes a told story stick: a highlight you can picture, a mishap told without flinching, and one honest line at the end about what the trip left behind. Vote for the story you will still remember tomorrow."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "That is the week: from the regular preterite endings on Monday to your own trip told out loud today. File your narrative in the year-long portfolio. Next week the past tense gets harder and more useful — the irregular preterites, the verbs that break the pattern, and the sudden events they are built to narrate."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "translate-v1",
+        "config": {
+          "items": [
+            { "prompt": "Translate to Spanish: itinerary", "acceptedAnswers": ["el itinerario", "itinerario"] },
+            { "prompt": "Translate to Spanish: destination", "acceptedAnswers": ["el destino", "destino"] },
+            { "prompt": "Translate to Spanish: excursion / day trip", "acceptedAnswers": ["la excursión", "excursión", "la excursion", "excursion"] },
+            { "prompt": "Translate to Spanish: to stay / to lodge (reflexive infinitive)", "acceptedAnswers": ["alojarse"] },
+            { "prompt": "Translate to Spanish: memory / souvenir", "acceptedAnswers": ["el recuerdo", "recuerdo"] },
+            { "prompt": "Translate to Spanish: unforgettable", "acceptedAnswers": ["inolvidable"] },
+            { "prompt": "Translate to Spanish: to travel around / to tour (a place)", "acceptedAnswers": ["recorrer"] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-7-5",
+    "lessonId": "lesson-spanish-9-7-5",
+    "objectives": [
+      "Deliver a two-minute trip narrative in Spanish from memory — not read — with a fixed opening and close and all four beats in order",
+      "Keep the narrative in the regular preterite, using circumlocution (swap in a known verb, keep going) rather than stopping when a word is missing",
+      "Use all seven of the week's vocabulary words accurately, and judge peers' stories against whether they earn the word inolvidable, per standard WA-WL-2015.1.3"
+    ],
+    "materialsNeeded": ["The revised narrative from Day 4", "Printed worksheet", "Pencil", "Index card or half-sheet for the keyword card", "An audience — a class, a co-op group, or one listener"],
+    "facilitationScript": "1. Warm up with the vocabulary translate activity to confirm all seven words are solid before anyone speaks.\n2. Read contar-no-es-recitar. Have the student build the keyword card from their Day 4 narrative — five or six words per beat, no full sentences.\n3. Read frases-para-empezar-y-cerrar. Have the student write and memorize their exact first line and last line.\n4. One quiet run-through with the card only, timed, just to hear the length. Coach: if a verb does not come, substitute and keep moving.\n5. Second run-through, card face down for as long as possible.\n6. Deliver the story to the audience. After each teller, the audience notes one picture they will remember and whether the story earned 'inolvidable.'\n7. Hold the vote for the most inolvidable trip.\n8. Give the graded quiz (quiz-spanish-9-7-5) after the tellings.\n9. File the narrative in the year-long portfolio. Preview next week's irregular preterites.",
+    "differentiationTips": [
+      "Struggling: a 60-90 second version with a memorized open, three beats, and a memorized close is a full pass; let the student keep the keyword card visible throughout",
+      "Ready for more: tell it with no card, take one follow-up question from the audience answered in Spanish, and add a sentence about a travel companion in the él/ella preterite",
+      "If there is no group, the telling works delivered to one listener or recorded on a phone; the two-minute target and the memory-not-reading rule do not change"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct telling. Evaluate for: (1) delivered from memory with only a keyword card — not read; (2) a fixed, fluent opening and closing line; (3) all four beats, in order, in about two minutes; (4) verbs kept in the regular preterite, with substitution rather than long stops when a word is missing; (5) accurate use of all seven week-7 words across the week's work. The graded quiz then checks regular preterite conjugation and the seven words directly. Peer votes should reward a picturable highlight, an honest mishap, and a real closing reflection — not trip cost or distance.",
+    "standardsRationale": "Closes the week in the presentational-speaking mode the standard names (WA-WL-2015.1.3), per the scope-and-sequence's week 7 Day 5 design ('story slams — tell your trip without reading; audience votes most inolvidable'). It is a sustained, memorized-not-read, past-tense narrative for an audience. The keyword-card preparation and the circumlocution habit ('swap in a verb you know and keep moving') are the same strategies the year's AAPPL/STAMP rehearsal in week 34 will formalize. The vocabulary recap and the graded quiz confirm the week's seven words and the regular preterite before the unit closes — the same closing pattern weeks 2, 4, 5, and 6 use."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-7-5",
+    "lessonId": "lesson-spanish-9-7-5",
+    "title": "Story Slams: Tell It Without Reading",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Turn your Day 4 narrative into something you can tell from memory. Fill each section, then practice out loud.",
+      "prompts": [
+        { "prompt": "Keyword card — 5 to 6 words per beat, NOT sentences.  LA LLEGADA:", "lines": 2 },
+        { "prompt": "Keyword card — LO MEJOR:", "lines": 2 },
+        { "prompt": "Keyword card — EL PERCANCE:", "lines": 2 },
+        { "prompt": "Keyword card — LA VUELTA:", "lines": 2 },
+        { "prompt": "Your first line, memorized word for word:", "lines": 1 },
+        { "prompt": "Your last line, memorized word for word (the honest line about what the trip left you — use 'inolvidable' here):", "lines": 2 },
+        { "prompt": "Self-check before you tell it: is every story verb in the preterite? do you have a highlight the listener can picture and a mishap you tell without flinching? can you do it in two minutes?", "lines": 3 }
+      ]
+    }
+  }
+}

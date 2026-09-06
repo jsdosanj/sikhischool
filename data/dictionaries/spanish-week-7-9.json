@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-itinerario",
+    "language": "spanish",
+    "word": "el itinerario",
+    "translation": "itinerary, travel plan",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Antes del viaje, mi papá pegó el itinerario en la puerta del refrigerador: siete días, cuatro ciudades y una sola maleta por persona. (Before the trip, my dad taped the itinerary to the refrigerator door: seven days, four cities, and one suitcase each.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-destino",
+    "language": "spanish",
+    "word": "el destino",
+    "translation": "destination (also: fate)",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Cuando por fin elegimos el destino, no fue una playa famosa sino el pueblo de montaña donde nació mi abuelo. (When we finally chose the destination, it wasn't a famous beach but the mountain town where my grandfather was born.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-excursion",
+    "language": "spanish",
+    "word": "la excursión",
+    "translation": "excursion, day trip",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "La excursión a las salinas empezó a las cinco de la mañana y terminó con los zapatos blancos de sal, pero valió la pena. (The day trip to the salt flats started at five in the morning and ended with our shoes white with salt, but it was worth it.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-alojarse",
+    "language": "spanish",
+    "word": "alojarse",
+    "translation": "to stay, to lodge (reflexive)",
+    "partOfSpeech": "verb",
+    "synonyms": ["hospedarse"],
+    "exampleSentence": "Nos alojamos tres noches en casa de una familia del pueblo; dormí en un catre junto a la cocina y comí lo mismo que ellos. (We stayed three nights with a family from the village; I slept on a cot next to the kitchen and ate the same food they did.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-recuerdo",
+    "language": "spanish",
+    "word": "el recuerdo",
+    "translation": "memory; souvenir",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Mi único recuerdo de ese viaje es una entrada de museo que guardé en la cartera; el papel ya está gastado, pero todavía la llevo conmigo. (My only souvenir from that trip is a museum ticket I kept in my wallet; the paper is worn now, but I still carry it with me.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-inolvidable",
+    "language": "spanish",
+    "word": "inolvidable",
+    "translation": "unforgettable",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "No hicimos nada extraordinario, pero la última noche cantamos en la playa hasta tarde y esa hora se volvió inolvidable. (We didn't do anything extraordinary, but on the last night we sang on the beach until late, and that hour became unforgettable.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  },
+  {
+    "id": "dict-spanish-recorrer",
+    "language": "spanish",
+    "word": "recorrer",
+    "translation": "to travel around, to tour, to cover (a distance)",
+    "partOfSpeech": "verb",
+    "synonyms": [],
+    "exampleSentence": "Recorrimos el casco antiguo sin mapa y a propósito, doblando en cada calle que nos llamaba la atención, hasta que se hizo de noche. (We wandered the old quarter with no map and on purpose, turning down every street that caught our eye, until night fell.)",
+    "audioRef": null,
+    "gradeBandHint": "9-12"
+  }
+]

@@ -1,0 +1,147 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-7",
+    "courseId": "course-spanish-3",
+    "order": 7,
+    "title": "Colors and Describing Words: Los Colores",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-7-5",
+    "unitId": "unit-spanish-3-7",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "La Galería de Arte: Mi Arcoíris Es Bonito",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "All week you described other people's objects and your own. Today you make something to describe: a rainbow. Then you walk a class art gallery and talk about everyone's work — in Spanish."
+      },
+      {
+        "type": "text",
+        "ref": "arcoiris",
+        "text": "The word for rainbow is [[el arcoíris]]. Here is the surprise: it ends in -s, but it is an 'el' word, not a 'la' word. El arcoíris, never 'la arcoíris.' And more than one is still los arcoíris — it does not add another -s."
+      },
+      {
+        "type": "text",
+        "ref": "rainbow-colors",
+        "text": "A rainbow's colors, from the outside band in: rojo, anaranjado, amarillo, verde, azul, morado. Draw your own arcoíris with these six colors in that order. Make a band or two claro or oscuro if you like — azul oscuro on the inside, rojo claro on the outside."
+      },
+      {
+        "type": "text",
+        "ref": "present-it",
+        "text": "Stand next to your drawing like an artist at a gallery opening and say three sentences:\n\n'Este es mi arcoíris.'\n'Mi arcoíris es bonito.'\n'Tiene seis colores: rojo, anaranjado, amarillo, verde, azul y morado.'"
+      },
+      {
+        "type": "text",
+        "ref": "gallery-walk",
+        "text": "Now walk past everyone else's arcoíris. At each one, say one sentence out loud:\n\n'Tu arcoíris es bonito.'\n'El arcoíris de Sofía es brillante.'\n'Me gusta el azul oscuro.'"
+      },
+      {
+        "type": "text",
+        "ref": "week-recap",
+        "text": "Look back at the week. You reviewed all eleven colors and the word el color. You learned to make a color light or dark with claro and oscuro — placed after the color, never taking an -a. You learned brillante (shiny), bonito (pretty), and feo (ugly). You learned the big rule: in Spanish the describing word comes after the noun — un cuaderno rojo, not 'un rojo cuaderno' — and it matches the noun (la casa roja, el cuaderno rojo). And you learned that el arcoíris is an 'el' word even though it ends in -s."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You went from a box of eleven colors on Monday to presenting your own artwork in Spanish on Friday. Next week you open a calendar: the days of the week and all twelve months in Spanish."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Which phrase is correct Spanish?",
+              "options": ["una amarilla flor", "una flor amarilla", "amarilla una flor", "flor amarilla una"],
+              "answer": 1,
+              "explanation": "The color follows the noun: una flor amarilla (a yellow flower), the same pattern as un cuaderno rojo."
+            },
+            {
+              "q": "How do you say 'dark blue'?",
+              "options": ["oscuro azul", "azul oscura", "azul oscuro", "azula oscura"],
+              "answer": 2,
+              "explanation": "The color comes first, then oscuro, and oscuro never takes an -a: azul oscuro."
+            },
+            {
+              "q": "'Mi regla es ___ y bonita.' The ruler is red. Which word fits?",
+              "options": ["rojo", "roja", "rojas", "brillantes"],
+              "answer": 1,
+              "explanation": "Regla is a 'la' word, so rojo changes to roja, matching bonita: Mi regla es roja y bonita."
+            },
+            {
+              "q": "Which sentence uses el or la correctly?",
+              "options": ["La arcoíris es bonita.", "El arcoíris es bonito.", "El arcoíris es bonita.", "Las arcoíris son bonitos."],
+              "answer": 1,
+              "explanation": "El arcoíris is an 'el' word even though it ends in -s, and bonito matches it: El arcoíris es bonito."
+            },
+            {
+              "q": "'El bolígrafo nuevo es brillante.' What does this tell you about the pen?",
+              "options": ["It is broken", "It is shiny", "It is ugly", "It is dark"],
+              "answer": 1,
+              "explanation": "Brillante means bright or shiny."
+            },
+            {
+              "q": "How do you say 'the colors' (more than one)?",
+              "options": ["el colores", "las colores", "los colores", "los color"],
+              "answer": 2,
+              "explanation": "Color is an 'el' word, so the plural is los colores."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-7-5",
+    "lessonId": "lesson-spanish-3-7-5",
+    "objectives": [
+      "Present a drawn rainbow in three Spanish sentences (Este es mi arcoíris. Mi arcoíris es bonito. Tiene seis colores...)",
+      "Use el arcoíris with the correct article despite its -s ending",
+      "Comment on a classmate's work with one describing sentence (Tu arcoíris es brillante)"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "Paper and crayons, markers, or colored pencils in at least six colors",
+      "Wall or table space to display everyone's drawings for the gallery walk",
+      "A small group or family to be the gallery audience"
+    ],
+    "facilitationScript": "1. Teach el arcoíris. Say it, write it, and point out the -s ending with the 'el' article — the week's one true exception.\n2. Name the six rainbow colors in order together: rojo, anaranjado, amarillo, verde, azul, morado.\n3. The child draws a rainbow with the six colors in order, optionally making a band claro or oscuro.\n4. Rehearse the three presentation sentences twice, then have the child present to the group standing beside the drawing.\n5. Set up the drawings as a gallery. Walk past each one; the child says one describing sentence per drawing.\n6. Play the multiple-choice review activity — it recaps the whole week.\n7. Complete the worksheet.\n8. Preview next week: the calendar — days of the week and the twelve months.",
+    "differentiationTips": [
+      "Struggling: the child presents just the first two sentences (Este es mi arcoíris. Mi arcoíris es bonito.) and points to colors instead of listing them aloud",
+      "Ready for more: the child adds a fourth sentence naming a shade in their drawing ('El azul es oscuro y el rojo es claro') and, on the gallery walk, gives a different sentence at every drawing",
+      "For the teaching adult: arcoíris is masculine by convention, not by a rule the child can derive — the -s is part of the root, not a plural marker, which is why the plural looks identical (los arcoíris). The traditional rainbow is sometimes listed with seven colors (adding añil or índigo); six is the simplified set this course uses and is fine for the drawing",
+      "The presentation and gallery walk are live speaking, so they do not depend on the audio-recording gap noted elsewhere (open decision, expansion-plan-2026-09.md §12.9)"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "El arcoíris — masculine, plural los arcoíris. Six rainbow colors in order: rojo, anaranjado, amarillo, verde, azul, morado. Presentation: Este es mi arcoíris. Mi arcoíris es bonito. Tiene seis colores: rojo, anaranjado, amarillo, verde, azul y morado. Gallery sentences: Tu arcoíris es bonito / El arcoíris de (name) es brillante / Me gusta el (color). Multiple-choice answers: 1. una flor amarilla, 2. azul oscuro, 3. roja, 4. El arcoíris es bonito, 5. It is shiny, 6. los colores.",
+    "standardsRationale": "The scope-and-sequence's Day 5 activity is 'art-gallery walk — present a colored drawing: Mi arcoíris es bonito.' Presenting a self-made artifact in prepared sentences is the clearest presentational-speaking evidence at Novice level (WA-WL-2015.1.3), and the gallery walk adds a spontaneous one-sentence response at each stop. The review game consolidates the week's word order, agreement, shade words, and the arcoíris exception before the course moves from describing things to the calendar next week."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-7-5",
+    "lessonId": "lesson-spanish-3-7-5",
+    "title": "La Galería de Arte: Mi Arcoíris Es Bonito",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Review the whole week of colors and describing words.",
+      "rows": [
+        { "problem": "Name six colors in Spanish." },
+        { "problem": "Write 'a green notebook' in Spanish — mind the word order. (notebook = el cuaderno)" },
+        { "problem": "How do you say 'light blue' and 'dark blue' in Spanish?" },
+        { "problem": "Why do we say 'el arcoíris' and not 'la arcoíris'? Write what is surprising about this word." },
+        { "problem": "Write the three sentences you would say to present your own arcoíris." },
+        { "problem": "Next week is the calendar. Write the name of a month in Spanish, or take your best guess." }
+      ]
+    }
+  }
+}

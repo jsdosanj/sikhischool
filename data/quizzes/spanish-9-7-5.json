@@ -1,0 +1,71 @@
+{
+  "lessonId": "lesson-spanish-9-7-5",
+  "quiz": {
+    "id": "quiz-spanish-9-7-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "'El verano pasado, yo ___ a México con mi familia.' The regular preterite of viajar in the yo form is:",
+        "options": ["viajé", "viajó", "viajo", "viajaba"],
+        "answer": 0,
+        "explanation": "-Ar verbs take -é in the yo preterite, with a written accent: viajé. 'Viajo' without the accent is the present 'I travel.'"
+      },
+      {
+        "q": "Which set of endings is correct for regular -er and -ir verbs in the preterite?",
+        "options": [
+          "-í, -iste, -ió, -imos, -ieron — the same set for both",
+          "-é, -aste, -ó, -amos, -aron",
+          "-er verbs use -í, -iste, -ió; -ir verbs use -é, -aste, -ó",
+          "-ía, -ías, -ía, -íamos, -ían"
+        ],
+        "answer": 0,
+        "explanation": "-Er and -ir verbs share one set of preterite endings, so comer and salir end the same way: comió / salió, comimos / salimos, comieron / salieron."
+      },
+      {
+        "q": "'Viajo' and 'viajó' are different words. 'Mi hermano viajó a Oaxaca' means:",
+        "options": [
+          "my brother traveled to Oaxaca (one finished past trip)",
+          "my brother travels to Oaxaca (every year)",
+          "my brother is traveling to Oaxaca right now",
+          "my brother will travel to Oaxaca"
+        ],
+        "answer": 0,
+        "explanation": "The accent on -ó marks the third-person preterite. Without it, 'viaja' would be the present. In the preterite the accent carries the tense."
+      },
+      {
+        "q": "'alojarse' (to stay / to lodge) is reflexive. 'We stayed in a small house near downtown' is:",
+        "options": [
+          "Nos alojamos en una casa pequeña cerca del centro",
+          "Me alojé en una casa pequeña cerca del centro",
+          "Se alojaron en una casa pequeña cerca del centro",
+          "Nos alojan en una casa pequeña cerca del centro"
+        ],
+        "answer": 0,
+        "explanation": "Nosotros takes the pronoun 'nos' and the regular -ar preterite ending -amos: nos alojamos. (It also happens to match the present-tense nosotros — context tells you it is past here.)"
+      },
+      {
+        "q": "'Recorrimos el centro histórico a pie' means:",
+        "options": [
+          "We traveled around / toured the historic center on foot",
+          "We visited one museum in the historic center",
+          "We looked for the historic center on a map",
+          "We lived in the historic center"
+        ],
+        "answer": 0,
+        "explanation": "Recorrer is to move through or around a place, covering ground — not just visiting a single spot."
+      },
+      {
+        "q": "In a trip narrative, 'el recuerdo' can mean a memory or ___, and 'el itinerario' is ___:",
+        "options": [
+          "a souvenir  /  the day-by-day plan of the trip",
+          "a photograph  /  the return flight",
+          "a postcard  /  the hotel bill",
+          "a guidebook  /  the passport"
+        ],
+        "answer": 0,
+        "explanation": "Spanish uses 'recuerdo' for both the memory and the object that holds it. An itinerario is the trip laid out in time, stop by stop."
+      }
+    ]
+  }
+}

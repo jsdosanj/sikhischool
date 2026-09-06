@@ -1,0 +1,88 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-7",
+    "courseId": "course-spanish-9",
+    "order": 7,
+    "title": "Narrating a Trip in the Past Tense",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-7-4",
+    "unitId": "unit-spanish-9-7",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Draft and Peer-Edit: Ten Sentences, In Order",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Your outline has four beats and the sentences under each. Today you turn it into a narrative someone would want to listen to: at least ten sentences, in order, connected — not a list of preterite verbs but a story that flows from the first day to the last. Then you trade with a partner and edit each other's Spanish."
+      },
+      {
+        "type": "text",
+        "ref": "de-esquema-a-narrativa",
+        "text": "Three things move an outline up to a narrative:\n1. Length and detail. Ten sentences minimum. Add the specific thing — not 'comí comida buena' but 'probé el mole negro por primera vez.' Detail is what the reader remembers.\n2. Sequence words, about one per step, never every sentence: primero, luego, después, más tarde, esa noche, al día siguiente, el último día, por último, al final. They tell the reader where they are in time.\n3. All four beats present and in proportion. The highlight and the mishap get the most room; the arrival and the return can be brief."
+      },
+      {
+        "type": "text",
+        "ref": "conectar-sin-y",
+        "text": "Watch the reflex to join everything with y. 'Llegamos y comimos y caminamos y dormimos' is four facts in a trench coat. Replace most of those joins with a sequence word or a fresh sentence: 'Llegamos por la tarde. Esa noche caminamos por el centro y cenamos en un puesto. Al día siguiente...' Same events, but now the reader feels the time passing. Keep y for pairs that truly belong together ('pan y fruta'), not as the engine of the whole paragraph."
+      },
+      {
+        "type": "text",
+        "ref": "la-edicion-en-pareja",
+        "text": "Trade drafts with a partner. Read your partner's out loud — reading aloud catches what the eye skips. Then check, in this order:\n1. Endings. Is every -ar verb using -é / -aste / -ó / -amos / -aron, and every -er/-ir verb using -í / -iste / -ió / -imos / -ieron? Circle any that are not.\n2. Accents. Every yo form ends in a stressed -é or -í; every él/ella form ends in -ó or -ió. A missing accent is a wrong verb — mark it.\n3. The four beats. Can you point to the arrival, the highlight, the mishap, and the return? If a beat is missing, say so.\n4. Sequence. Could you draw a timeline from the draft without guessing? If two events feel out of order, flag it.\n5. One thing that works. Tell your partner the single best detail in their story.\nGive the draft back with marks, not rewrites — the writer fixes their own verbs."
+      },
+      {
+        "type": "text",
+        "ref": "revisa-esta-noche",
+        "text": "Tonight, revise from your partner's marks. Fix every circled ending and every missing accent yourself — do not just copy a correction, say why it was wrong ('viajo was present; I needed viajó'). Add a sentence to any beat your partner said was thin. Tomorrow you tell this story out loud, from memory, so the version you revise tonight is the one you will be speaking."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow you tell the story with no paper in your hands — two minutes, in Spanish, start to finish — and the class votes on whose trip was the most inolvidable."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-7-4",
+    "lessonId": "lesson-spanish-9-7-4",
+    "objectives": [
+      "Expand the Day 3 outline into a connected narrative of at least ten sentences, all four beats present, sequenced with connector words rather than a chain of 'y'",
+      "Peer-edit a partner's draft against a fixed checklist — preterite endings, meaning-carrying accents, the four beats, timeline order — marking errors without rewriting them",
+      "Revise from a partner's marks and explain why each flagged verb was wrong, per standard WA-WL-2015.1.3"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "The Day 3 outline", "A partner, or one other reader (a family member, a co-op parent)"],
+    "facilitationScript": "1. Read the hook and de-esquema-a-narrativa. Have the student name the three things that turn an outline into a narrative.\n2. Draft on the worksheet: expand each beat from the outline into full sentences, aiming for ten-plus total. Coach for one specific detail per beat.\n3. Read conectar-sin-y. Have the student find every 'y' in their draft and decide which to keep and which to replace with a sequence word or a new sentence.\n4. Read la-edicion-en-pareja. The student and partner swap drafts and read each other's aloud, then work the five-step checklist. If there is no partner, the teacher or parent takes that role.\n5. The writer takes the marked draft back. Do NOT let the editor rewrite sentences — only circle and comment.\n6. Read revisa-esta-noche. Set the expectation that tonight's revision is tomorrow's spoken script.\n7. Complete the worksheet. Preview Friday's story slam and the graded quiz.",
+    "differentiationTips": [
+      "Struggling: ten sentences with one connector used correctly and all four beats present is a full pass — a short, clear story beats a long, tangled one",
+      "Ready for more: have the student write fifteen-plus sentences, use at least four different sequence words, and include one sentence about a travel companion in the él/ella preterite",
+      "Watch for the editor 'fixing' the draft by rewriting whole sentences — stop it early; the checklist is circle-and-comment, and the learning is in the writer making their own corrections"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "There is no single correct narrative. Evaluate the draft for: (1) ten or more sentences; (2) all four beats present and roughly in proportion (highlight and mishap fullest); (3) sequence words carrying the timeline, not a run of 'y'; (4) every verb in the preterite with correct endings and accents; (5) at least one of the week's seven words. Evaluate the peer edit for: errors circled and named (not rewritten), the four beats checked, the timeline checked, and one genuine piece of positive feedback. Evaluate the revision for corrected verbs the student can explain.",
+    "standardsRationale": "This is the core WA-WL-2015.1.3 presentational-writing task for the week, per the scope-and-sequence's week 7 Day 4 design ('draft and peer-edit the narrative — 10+ sentences, sequenced'). It requires connected past-tense discourse, not a list. The peer-edit protocol puts the accuracy check — regular preterite endings and the accents that carry tense — in the students' hands, and the give-marks-not-rewrites rule keeps the writing the writer's own. The revised draft becomes Friday's spoken script, so the writing and speaking tasks are one continuous performance."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-7-4",
+    "lessonId": "lesson-spanish-9-7-4",
+    "title": "Draft and Peer-Edit: Ten Sentences, In Order",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Draft, edit a partner's draft, then revise your own. Write in Spanish, in the preterite.",
+      "prompts": [
+        { "prompt": "Your full narrative: expand the Day 3 outline into at least 10 connected sentences, all four beats, in order. Use sequence words (primero, luego, después, al día siguiente, por último) instead of a chain of 'y'.", "lines": 14 },
+        { "prompt": "Peer edit — your partner's name, and the one best detail in their story:", "lines": 2 },
+        { "prompt": "Peer edit — list every preterite ending or missing accent you circled on your partner's draft, and what it should be:", "lines": 4 },
+        { "prompt": "Peer edit — are all four beats there? Is the timeline clear without guessing? Note anything missing or out of order:", "lines": 3 },
+        { "prompt": "Your revision: rewrite three sentences your partner flagged, corrected, and next to each write why the original was wrong (example: 'viajo was present; I needed viajó').", "lines": 5 }
+      ]
+    }
+  }
+}

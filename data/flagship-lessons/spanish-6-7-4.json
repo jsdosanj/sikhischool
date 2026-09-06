@@ -1,0 +1,127 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-7",
+    "courseId": "course-spanish-6",
+    "order": 7,
+    "title": "Present-Tense -ar Verbs: One Pattern, Hundreds of Verbs",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-7-4",
+    "unitId": "unit-spanish-6-7",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Six Sentences: What My Family Does Every Day",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You have drilled the pattern and used it out loud. Today you put it on paper: six sentences about what the people in your family do every day. This is the first time this year you write several original sentences in a row that are all your own — not a frame with one blank, but full sentences you build from the pattern."
+      },
+      {
+        "type": "text",
+        "ref": "one-or-more-than-one",
+        "text": "Almost every sentence today is about someone other than you, so you mostly need two forms:\n\n- One family member -> the él/ella form (-a): Mi mamá trabaja en una tienda. Mi hermano estudia mucho.\n- Two or more -> the ellos form (-an): Mis hermanos miran mucha televisión. Mis abuelos hablan español.\n\nAnd for one sentence about you together with them, use nosotros (-amos): Mi familia y yo hablamos español en casa. Watch the collective words: mi familia is one word for the whole group, so it takes the él/ella form — Toda mi familia necesita un descanso."
+      },
+      {
+        "type": "text",
+        "ref": "family-words",
+        "text": "Family words you already know, to be the subjects of your sentences:\n\nmi madre / mi mamá, mi padre / mi papá, mi hermano, mi hermana, mis hermanos, mis padres, mi abuelo, mi abuela, mis abuelos, mi tío, mi tía.\n\nYou can also use a name: Mi primo Daniel usa la computadora toda la tarde."
+      },
+      {
+        "type": "text",
+        "ref": "model",
+        "text": "Here is a finished set of six. Read how each verb matches its subject:\n\n1. Mi papá trabaja en un restaurante.\n2. Mi mamá enseña inglés en una escuela.\n3. Mi hermana estudia en la universidad.\n4. Mis abuelos hablan español y un poco de inglés.\n5. Mi hermano y yo miramos fútbol los domingos.\n6. Toda mi familia necesita un día de descanso.\n\nSentence 4 has two people -> hablan. Sentence 5 is 'my brother and I' -> miramos. Sentence 6 has the collective mi familia -> necesita."
+      },
+      {
+        "type": "text",
+        "ref": "connectors",
+        "text": "Make a few sentences longer with connectors you already use:\n\n- y — and: Mi hermana estudia mucho y trabaja los sábados.\n- también — also: Mi tío enseña matemáticas. Mi tía también enseña.\n- pero — but: Mis padres hablan español, pero mi hermano habla más inglés.\n- por eso — so, that's why: Mi mamá trabaja mucho, por eso necesita un descanso.\n\nWhen a second verb has the same subject, you do not repeat the subject: Mi hermana estudia y trabaja."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Six sentences, each with a -ar verb that agrees with its subject — that is real writing in Spanish. Tomorrow you interview a partner out loud and report what they told you to the class, then take the week's quiz."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "Mi madre ___ en un hospital.",
+              "blankToken": "___",
+              "options": ["trabajo", "trabajas", "trabaja", "trabajan"],
+              "answer": "trabaja"
+            },
+            {
+              "sentence": "Mis primos ___ mucha televisión los fines de semana.",
+              "blankToken": "___",
+              "options": ["mira", "miras", "miran", "miramos"],
+              "answer": "miran"
+            },
+            {
+              "sentence": "Mi familia y yo ___ español en casa.",
+              "blankToken": "___",
+              "options": ["hablo", "hablas", "habla", "hablamos"],
+              "answer": "hablamos"
+            },
+            {
+              "sentence": "Mi hermano ___ una computadora para hacer la tarea.",
+              "blankToken": "___",
+              "options": ["uso", "usas", "usa", "usan"],
+              "answer": "usa"
+            },
+            {
+              "sentence": "Mis padres ___ más tiempo para descansar.",
+              "blankToken": "___",
+              "options": ["necesito", "necesitas", "necesita", "necesitan"],
+              "answer": "necesitan"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-7-4",
+    "lessonId": "lesson-spanish-6-7-4",
+    "objectives": [
+      "Write six original sentences about family members' daily activities, each with a regular -ar verb that agrees with its subject",
+      "Choose the él/ella form for one person, the ellos form for two or more, and the nosotros form for 'my family and I,' including with collective subjects like mi familia (él/ella form)",
+      "Join sentences with y, también, pero, and por eso, dropping the repeated subject when a second verb shares it"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Device for the cloze activity (optional — can be done orally)"],
+    "facilitationScript": "1. Warm-up: sort ten subjects aloud into 'one person' (él/ella, -a) and 'more than one' (ellos, -an): mi tía, mis tíos, mi abuelo, mis padres, mi hermana...\n2. Teach the collective-subject point: mi familia and toda mi familia are singular -> necesita, trabaja.\n3. Review the family words. Students may use names.\n4. Read the model six sentences together; for each, name the subject and why the ending fits.\n5. Teach the four connectors and the drop-the-repeated-subject rule (estudia y trabaja).\n6. Students draft their six sentences. Circulate and check subject-verb agreement, not content.\n7. Play the cloze activity, then complete the worksheet.\n8. Preview tomorrow: partner interviews, report-outs, and the quiz.",
+    "differentiationTips": [
+      "Struggling: provide six sentence stems (Mi ___ ___ ...) with the subject given and a word bank of the eight verbs; the student supplies the ending and finishes the thought",
+      "Ready for more: require eight sentences, at least two with a connector, and at least one nosotros sentence, then have them translate three into English",
+      "If a child writes 'Mis padres trabaja,' point to the subject: 'How many? More than one -> the ending is -an: trabajan.'"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "Sentences vary. A correct sentence has a -ar verb whose ending matches its subject: one person -> -a (Mi mamá trabaja...), two or more -> -an (Mis abuelos hablan...), 'my family and I' -> -amos (Mi familia y yo hablamos...), a collective subject like mi familia -> -a (Toda mi familia necesita...). Connectors: y, también, pero, por eso; a shared second verb drops the repeated subject (Mi hermana estudia y trabaja). Model set: 1. Mi papá trabaja en un restaurante. 2. Mi mamá enseña inglés en una escuela. 3. Mi hermana estudia en la universidad. 4. Mis abuelos hablan español y un poco de inglés. 5. Mi hermano y yo miramos fútbol los domingos. 6. Toda mi familia necesita un día de descanso. Cloze: 1. trabaja, 2. miran, 3. hablamos, 4. usa, 5. necesitan.",
+    "standardsRationale": "Fulfills the scope-and-sequence Day 4 design — 'write 6 sentences about what your family members do daily' — as the presentational-writing checkpoint inside the week's WA-WL-2015.1.1 arc. It is the year's first sustained original production: weeks 1-6 asked for single frames or short exchanges, and this task requires six independent sentences whose verbs each agree with a chosen subject. The él/ella vs. ellos choice and the collective-noun case (mi familia -> necesita) are the exact agreement decisions Friday's quiz assesses, and the connector work feeds the paragraph-length output the -er/-ir week and the preterite weeks build toward."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-7-4",
+    "lessonId": "lesson-spanish-6-7-4",
+    "title": "Six Sentences: What My Family Does Every Day",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "One person -> -a. Two or more -> -an. My family and I -> -amos. A collective word like mi familia counts as one -> -a.",
+      "rows": [
+        { "problem": "Write the correct form: 'Mi madre ___ (trabajar) en una oficina.'   'Mis padres ___ (llegar) a casa a las seis.'   'Mi familia y yo ___ (mirar) películas los viernes.'" },
+        { "problem": "One family member or more than one? Choose the ending: 'Mi hermana ___ (estudiar) por la noche.' and 'Mis hermanas ___ (estudiar) por la noche.'" },
+        { "problem": "Write 6 sentences about what your family members do every day. Use at least four different -ar verbs from this week." },
+        { "problem": "Circle every verb in your 6 sentences. Next to each, write the pronoun it matches (él/ella, ellos, or nosotros)." }
+      ]
+    }
+  }
+}

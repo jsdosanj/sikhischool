@@ -1,0 +1,111 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-7",
+    "courseId": "course-spanish-3",
+    "order": 7,
+    "title": "Colors and Describing Words: Los Colores",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-7-2",
+    "unitId": "unit-spanish-3-7",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Azul Claro o Azul Oscuro: Paint-Chip Sorting and Word Order",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Yesterday: eleven colors, plus claro and oscuro. Today has two jobs. First, sort paint chips into a light pile and a dark pile. Second, learn the one rule that trips up every English speaker — where the color word goes."
+      },
+      {
+        "type": "text",
+        "ref": "word-order",
+        "text": "In English, the color comes before the thing: a red notebook, a green ruler. Spanish flips it. The thing comes first, then the color:\n\nun cuaderno rojo — a red notebook\nuna regla verde — a green ruler\nel bolígrafo negro — the black pen\nla computadora gris — the gray computer\n\n'Una roja casa' is not how Spanish works. It is una casa roja — a red house. The describing word follows the noun."
+      },
+      {
+        "type": "text",
+        "ref": "agreement",
+        "text": "The color still has to match the noun. With a 'la' word, the seven changing colors end in -a: la casa roja, la silla amarilla, la mochila blanca. With an 'el' word they end in -o: el cuaderno rojo, el escritorio negro. The four colors that never change look the same either way: la regla verde and el bolígrafo verde; la pizarra gris and el escritorio gris."
+      },
+      {
+        "type": "text",
+        "ref": "shades-order",
+        "text": "Claro and oscuro follow the same rule, and then some. They come after the color, which comes after the noun: un cuaderno azul oscuro, una pared verde claro. And claro and oscuro never take an -a, even with a 'la' word: la pared azul claro, not 'azul clara.'"
+      },
+      {
+        "type": "text",
+        "ref": "how-to-sort",
+        "text": "Now the paint chips. Gather chips, crayons, or scraps of colored paper in a light and a dark version of four colors — azul, verde, rojo, gris. Sort them into two piles: claro and oscuro. As you place each one, say the whole phrase out loud: 'azul claro,' 'gris oscuro,' 'verde claro,' 'rojo oscuro.'"
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You can now put a color in the right place in a Spanish sentence and keep it matching. Tomorrow you use that to solve riddles: 'Es rojo y brillante. ¿Qué es?'"
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "build-the-sentence-v1",
+        "config": {
+          "items": [
+            { "words": ["el", "cuaderno", "rojo"], "correctOrder": [0, 1, 2] },
+            { "words": ["una", "casa", "roja"], "correctOrder": [0, 1, 2] },
+            { "words": ["la", "computadora", "gris"], "correctOrder": [0, 1, 2] },
+            { "words": ["un", "bolígrafo", "azul", "oscuro"], "correctOrder": [0, 1, 2, 3] },
+            { "words": ["la", "pizarra", "verde", "claro"], "correctOrder": [0, 1, 2, 3] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-7-2",
+    "lessonId": "lesson-spanish-3-7-2",
+    "objectives": [
+      "Place a color word after the noun it describes (un cuaderno rojo, not 'un rojo cuaderno')",
+      "Match a changing color to a 'la' word with an -a ending and to an 'el' word with an -o ending",
+      "Name a light and a dark shade of a color, keeping claro and oscuro after the color and unchanged"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "Paint chips, crayons, or colored-paper scraps in a light and a dark version of azul, verde, rojo, and gris",
+      "Two trays, bowls, or sheets of paper labeled CLARO and OSCURO",
+      "A parent or teacher to check the spoken phrases"
+    ],
+    "facilitationScript": "1. Recall yesterday's eleven colors and the words claro and oscuro.\n2. Write 'a red notebook' and 'un cuaderno rojo' side by side. Circle 'red' and 'rojo' and draw an arrow showing how they trade places. Repeat with 'a green ruler' / 'una regla verde.'\n3. Do three more together, pointing at real objects: el bolígrafo negro, la mochila roja, la computadora gris.\n4. Show the -a / -o match with one object of each gender: la casa roja, el cuaderno rojo. Remind the child that verde, azul, gris, café do not change.\n5. Set out the CLARO and OSCURO trays. Hand the child the mixed chips; for each one, they say the phrase ('azul oscuro') and drop it in the right tray.\n6. Play the build-the-sentence activity — drag the words into Spanish order.\n7. Complete the worksheet.\n8. Preview tomorrow's mystery-object riddles.",
+    "differentiationTips": [
+      "Struggling: sort chips for just two colors (azul, verde) and build only the three-word sentences in the activity, skipping the shade sentences",
+      "Ready for more: add a matching noun to every chip as it is sorted — 'una silla azul claro,' 'un cuaderno gris oscuro' — choosing the article to fit the noun",
+      "For the teaching adult: adjective-after-noun is the default in Spanish; a few adjectives can move before the noun for style or meaning, but no color or shade word does, so 'color always follows the noun' is a safe rule for this grade. Claro/oscuro used as a color modifier stay invariable ('camisas azul claro') — that is why they never take -a here",
+      "This is mostly a hands-on sorting and writing task, so it does not depend on the audio-recording gap noted elsewhere (open decision, expansion-plan-2026-09.md §12.9) — the adult only needs to confirm the spoken phrase for each chip"
+    ],
+    "estimatedMinutes": 15,
+    "answerKey": "Word order: the color follows the noun — un cuaderno rojo, una casa roja, la computadora gris. Fixing 'una verde regla' gives 'una regla verde.' Agreement: la casa roja / el cuaderno rojo; verde, azul, gris, café never change. Shades follow the color and stay unchanged: un bolígrafo azul oscuro, la pizarra verde claro. Build-the-sentence order is the natural order for each item: el cuaderno rojo / una casa roja / la computadora gris / un bolígrafo azul oscuro / la pizarra verde claro. Sorting: azul claro and gris claro go in CLARO; verde oscuro and rojo oscuro go in OSCURO. True/false: false — in Spanish the color comes AFTER the noun, the opposite of English.",
+    "standardsRationale": "The scope-and-sequence names 'paint-chip sorting — azul claro vs. azul oscuro; noun + adjective word order' as the Day 2 activity, and this is the grammatical core the rest of the week's WA-WL-2015.1.3 presentational work rests on: a child cannot describe an object aloud on Friday without the noun-then-color-then-shade order and basic agreement. Teaching it through a physical sort keeps the load on the pattern, not on memorizing a rule, the way this band's design intends."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-7-2",
+    "lessonId": "lesson-spanish-3-7-2",
+    "title": "Azul Claro o Azul Oscuro: Paint-Chip Sorting and Word Order",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question about Spanish color word order and shades.",
+      "rows": [
+        { "problem": "Put these words in order to make a Spanish phrase: rojo / el / cuaderno." },
+        { "problem": "Fix this phrase and write it correctly: 'una verde regla.'" },
+        { "problem": "Write 'a black pen' in Spanish. (pen = el bolígrafo)" },
+        { "problem": "Write 'a dark gray computer' in Spanish. (computer = la computadora)" },
+        { "problem": "Sort these into a CLARO list and an OSCURO list: azul claro, verde oscuro, gris claro, rojo oscuro." },
+        { "problem": "True or false: in Spanish, the color word comes before the noun, just like English. Explain your answer." }
+      ]
+    }
+  }
+}

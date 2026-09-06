@@ -1,0 +1,79 @@
+[
+  {
+    "id": "dict-spanish-el-color",
+    "language": "spanish",
+    "word": "el color",
+    "translation": "color",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "¿De qué color es tu mochila? Mi color favorito es el verde. (What color is your backpack? My favorite color is green.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-claro",
+    "language": "spanish",
+    "word": "claro",
+    "translation": "light (in color)",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El cielo de la mañana es azul claro. (The morning sky is light blue.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-oscuro",
+    "language": "spanish",
+    "word": "oscuro",
+    "translation": "dark (in color)",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Mi mochila es azul oscuro, no azul claro. (My backpack is dark blue, not light blue.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-brillante",
+    "language": "spanish",
+    "word": "brillante",
+    "translation": "bright, shiny",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "La moneda nueva es brillante. (The new coin is shiny.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-bonito",
+    "language": "spanish",
+    "word": "bonito",
+    "translation": "pretty, nice-looking",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "Tu dibujo del arcoíris es muy bonito. (Your drawing of the rainbow is very pretty.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-feo",
+    "language": "spanish",
+    "word": "feo",
+    "translation": "ugly",
+    "partOfSpeech": "adjective",
+    "synonyms": [],
+    "exampleSentence": "El monstruo del cuento es grande y feo. (The monster in the story is big and ugly.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  },
+  {
+    "id": "dict-spanish-el-arcoiris",
+    "language": "spanish",
+    "word": "el arcoíris",
+    "translation": "rainbow",
+    "partOfSpeech": "noun",
+    "synonyms": [],
+    "exampleSentence": "Después de la lluvia vimos un arcoíris con muchos colores. (After the rain we saw a rainbow with many colors.)",
+    "audioRef": null,
+    "gradeBandHint": "3-5"
+  }
+]

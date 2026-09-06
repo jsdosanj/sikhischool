@@ -1,0 +1,46 @@
+{
+  "lessonId": "lesson-spanish-6-7-5",
+  "quiz": {
+    "id": "quiz-spanish-6-7-5",
+    "level": "lesson",
+    "masteryWeight": 1,
+    "questions": [
+      {
+        "q": "Choose the correct form: 'Yo ___ español y un poco de francés.'",
+        "options": ["hablo", "hablas", "habla", "hablan"],
+        "answer": 0,
+        "explanation": "For yo, drop -ar and add -o: habl- + -o = hablo. The -o ending can only mean yo, which is why the pronoun is optional."
+      },
+      {
+        "q": "Choose the correct form: 'Nosotros ___ para el examen esta noche.'",
+        "options": ["estudio", "estudias", "estudiamos", "estudian"],
+        "answer": 2,
+        "explanation": "The nosotros ending for an -ar verb is -amos: estudi- + -amos = estudiamos. It always has the a — not -emos or -imos."
+      },
+      {
+        "q": "Choose the correct form: 'Mi hermana ___ en una tienda los sábados.'",
+        "options": ["trabajo", "trabajas", "trabaja", "trabajan"],
+        "answer": 2,
+        "explanation": "Mi hermana is one other person (ella), so the ending is -a: trabaja. trabajan would need two or more people."
+      },
+      {
+        "q": "Choose the correct form: 'Mis amigos ___ deportes después de clase.'",
+        "options": ["mira", "miras", "miramos", "miran"],
+        "answer": 3,
+        "explanation": "Mis amigos is more than one person (ellos), so the ending is -an: miran. Compare 'Mi amigo mira' (one) with 'Mis amigos miran' (more than one)."
+      },
+      {
+        "q": "You are asking ONE classmate a question. Choose the correct form: '¿___ el autobús para venir a la escuela?'",
+        "options": ["Uso", "Usas", "Usa", "Usan"],
+        "answer": 1,
+        "explanation": "To ask one person directly, use the tú form: usas. ¿Usa...? would be asking about someone else."
+      },
+      {
+        "q": "Which sentence is written correctly?",
+        "options": ["La profesora enseñan matemáticas.", "La profesora enseña matemáticas.", "La profesora enseñas matemáticas.", "La profesora enseño matemáticas."],
+        "answer": 1,
+        "explanation": "La profesora is one person (ella): enseñ- + -a = enseña. -an is for more than one, -as is only tú, and -o is only yo."
+      }
+    ]
+  }
+}

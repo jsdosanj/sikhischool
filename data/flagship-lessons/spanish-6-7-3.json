@@ -1,0 +1,127 @@
+{
+  "unit": {
+    "id": "unit-spanish-6-7",
+    "courseId": "course-spanish-6",
+    "order": 7,
+    "title": "Present-Tense -ar Verbs: One Pattern, Hundreds of Verbs",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-6-7-3",
+    "unitId": "unit-spanish-6-7",
+    "order": 3,
+    "dayOfWeek": 3,
+    "title": "Find Someone Who...: A Class Survey With -ar Verbs",
+    "gradeLevel": "6",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "You can conjugate on the board. Today you point the pattern at real people. In a 'Find someone who...' survey you move around the room asking classmates what they do, and write down who says yes. Every question you ask and every answer you record uses a -ar verb — you just have to pick the right form for each job."
+      },
+      {
+        "type": "text",
+        "ref": "three-forms-three-jobs",
+        "text": "The survey uses three of the five forms, each for a different job:\n\n- The list on your sheet asks about one unnamed person: ¿Quién habla otro idioma? — uses the él/ella form (-a).\n- To ask one classmate directly, switch to the tú form (-as): ¿Hablas otro idioma?\n- To record the answer about that classmate, go back to the él/ella form (-a): Sofía habla coreano en casa.\n\nSo the ending travels: -a on the list, -as when you ask a person, -a again when you write what they said. The only thing that changes is that one ending."
+      },
+      {
+        "type": "text",
+        "ref": "answering",
+        "text": "When someone asks you, answer with the yo form (-o):\n\n- ¿Estudias mucho? — Sí, estudio mucho. / No, no estudio mucho.\n- ¿Trabajas en casa? — Sí, trabajo en casa los sábados.\n\nTo say no, put no right before the verb: No trabajo. To find two people at once, you can report a pair with the ellos form (-an): Ana y Luis miran deportes."
+      },
+      {
+        "type": "text",
+        "ref": "the-survey",
+        "text": "¿QUIÉN EN LA CLASE...? Find a classmate who can say sí to each line and write their name. Ask in the tú form.\n\n1. ¿Quién habla otro idioma en casa?\n2. ¿Quién estudia más de una hora cada noche?\n3. ¿Quién mira deportes en la televisión?\n4. ¿Quién usa el autobús para llegar a la escuela?\n5. ¿Quién llega a la escuela antes de las ocho?\n6. ¿Quién necesita lentes para leer?\n7. ¿Quién enseña algo a un hermano menor?\n8. ¿Quién trabaja en casa todos los días para ayudar a la familia?\n\nEvery line uses one of this week's eight verbs. Turn each one into a tú question before you ask it: ¿Hablas...? ¿Estudias...? ¿Miras...? ¿Usas...? ¿Llegas...? ¿Necesitas...? ¿Enseñas...? ¿Trabajas...?"
+      },
+      {
+        "type": "text",
+        "ref": "report-back",
+        "text": "At the end, report a few results to the class using the él/ella or ellos form:\n\n- Miguel habla tagalo en casa.\n- Dos personas usan el autobús: Carla y Jomar.\n- Nadie enseña a un hermano menor. (nadie = nobody, and it takes the él/ella form: nadie enseña)\n\nCheck each verb: one person -> -a, more than one -> -an."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You asked and answered real questions with -ar verbs and reported what you found in the third person. Tomorrow you write it down: six sentences about what the people in your own family do every day."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "You want to ask ONE classmate if they watch sports. Which is correct?",
+              "options": ["¿Miras deportes?", "¿Mira deportes?", "¿Miran deportes?", "¿Miramos deportes?"],
+              "answer": 0,
+              "explanation": "To ask one person directly, use the tú form: miras. ¿Mira deportes? would be asking about a third person."
+            },
+            {
+              "q": "Diego tells you he works at home. You write it on your survey sheet. Which is correct?",
+              "options": ["Diego trabajas en casa.", "Diego trabaja en casa.", "Diego trabajan en casa.", "Diego trabajo en casa."],
+              "answer": 1,
+              "explanation": "You are writing about one other person (él), so use the él/ella form: trabaja. trabajas is only for tú."
+            },
+            {
+              "q": "You found two classmates who study a lot. How do you report it?",
+              "options": ["Ellos estudia mucho.", "Ellos estudias mucho.", "Ellos estudian mucho.", "Ellos estudiamos mucho."],
+              "answer": 2,
+              "explanation": "More than one person (ellos) takes the -an ending: estudian."
+            },
+            {
+              "q": "¿Cómo preguntas a un compañero si habla otro idioma?",
+              "options": ["¿Hablo otro idioma?", "¿Hablas otro idioma?", "¿Habla otro idioma?", "¿Hablan otro idioma?"],
+              "answer": 1,
+              "explanation": "Asking one classmate directly = tú form: ¿Hablas otro idioma?"
+            },
+            {
+              "q": "'Ana necesita lentes para leer.' Which form of necesitar is necesita?",
+              "options": ["the yo form", "the tú form", "the usted/él/ella form", "the nosotros form"],
+              "answer": 2,
+              "explanation": "necesita is the stem necesit- plus -a, the ending shared by usted, él, and ella."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-6-7-3",
+    "lessonId": "lesson-spanish-6-7-3",
+    "objectives": [
+      "Turn a prompt into a tú-form yes/no question (¿Hablas otro idioma?) and answer one with the yo form (Sí, hablo...)",
+      "Record a classmate's answer in the él/ella form (Sofía habla coreano) and report a pair in the ellos form (Ana y Luis miran deportes)",
+      "Move fluidly among the -o, -as, -a, and -an forms of the week's eight verbs during a live interpersonal survey"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil", "Printed survey grid (the eight ¿Quién...? lines with a name space each)", "Room to circulate", "Device for the multiple-choice activity (optional)"],
+    "facilitationScript": "1. Warm-up: call an infinitive, students give the tú question form (hablar -> ¿Hablas?).\n2. Teach the three jobs: -a on the ¿Quién...? list, -as to ask a person, -a again to record the answer, -o to answer about yourself.\n3. Model one full exchange with a volunteer: read line 1, ask '¿Hablas otro idioma en casa?', get the answer, write 'Ana habla español en casa' on the board and name the ending change.\n4. Practice negation (No trabajo en casa) and reporting a pair (Ana y Luis miran deportes).\n5. Release students to circulate and complete the survey grid — one name per line, real answers only.\n6. Reconvene. Several students report a result each in the él/ella or ellos form; class checks the ending.\n7. Play the multiple-choice activity, then complete the worksheet.\n8. Preview tomorrow: writing six sentences about family.",
+    "differentiationTips": [
+      "Struggling: give this student a half-sheet of four lines with the tú question already written under each, so they only ask and record",
+      "Ready for more: require a follow-up question on every line (¿Qué idioma hablas? ¿A qué hora llegas?) and a written report of five results",
+      "If a student writes 'Ana hablas español,' cover the name and ask 'Is Ana the person you are talking to, or a person you are talking about?' — about -> habla"
+    ],
+    "estimatedMinutes": 25,
+    "answerKey": "tú question forms: ¿Hablas...? ¿Estudias...? ¿Miras...? ¿Usas...? ¿Llegas...? ¿Necesitas...? ¿Enseñas...? ¿Trabajas...? Answering about yourself: Sí, hablo / estudio / miro / uso / llego / necesito / enseño / trabajo... ; negative: No + verb (No trabajo en casa). Recording one classmate (él/ella): [Name] habla / estudia / mira / usa / llega / necesita / enseña / trabaja... Reporting a pair (ellos): [Name] y [Name] hablan / estudian / miran / usan / llegan / necesitan / enseñan / trabajan... nadie takes the él/ella form: Nadie enseña... Multiple choice: 1. ¿Miras deportes?, 2. Diego trabaja en casa., 3. Ellos estudian mucho., 4. ¿Hablas otro idioma?, 5. the usted/él/ella form.",
+    "standardsRationale": "This is the week's central WA-WL-2015.1.1 Interpersonal Communication task and follows the scope-and-sequence Day 3 design exactly — a 'Find someone who...' survey built on estudia mucho, trabaja en casa, mira deportes. The activity forces repeated real-time switching among the yo, tú, and él/ella forms, which is where present-tense control actually lives. The ¿Quién...? framing keeps every prompt in the indicative (a genuine question about a third person), avoiding the subjunctive that 'someone who + verb' would formally require and that the course does not introduce until well beyond this band."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-6-7-3",
+    "lessonId": "lesson-spanish-6-7-3",
+    "title": "Find Someone Who...: A Class Survey With -ar Verbs",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Ask in the tú form (-as). Answer about yourself in the yo form (-o). Record what a classmate said in the él/ella form (-a), or a pair in the ellos form (-an).",
+      "rows": [
+        { "problem": "Turn each into a question for ONE classmate (tú form): 'estudiar mucho' -> ¿___?   'mirar deportes' -> ¿___?   'trabajar en casa' -> ¿___?" },
+        { "problem": "A classmate says 'Sí, hablo coreano en casa.' Write what you record about them (él/ella form): ___." },
+        { "problem": "You found two classmates who use the bus. Report it: 'Ellos ___ el autobús.'" },
+        { "problem": "Complete the survey with at least four classmates. Write one full sentence about each person using the él/ella or ellos form." }
+      ]
+    }
+  }
+}

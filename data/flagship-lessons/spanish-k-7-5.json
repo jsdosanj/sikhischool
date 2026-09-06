@@ -1,0 +1,109 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-7",
+    "courseId": "course-spanish-k",
+    "order": 7,
+    "title": "My Family",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-7-5",
+    "unitId": "unit-spanish-k-7",
+    "order": 5,
+    "dayOfWeek": 5,
+    "title": "Mi Mamá, Mi Papá: A Family Show-and-Tell",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "It's show-and-tell day! Get the family drawing you made yesterday. Sol can't wait to meet everyone in your familia."
+      },
+      {
+        "type": "text",
+        "ref": "practice-present",
+        "text": "Hold up your drawing. Point to each person and say who they are, loud and proud: 'Mi mamá. Mi papá. Mi hermano. Mi abuela.' If someone in your family is not one of this week's words — an aunt, an uncle, a cousin — point to them and say their name too. This is YOUR familia."
+      },
+      {
+        "type": "text",
+        "ref": "practice-sol-asks",
+        "text": "Now Sol asks about your drawing. '¿Dónde está la mamá?' — where is the mom? Point to her! '¿Dónde está el bebé?' Point! Then Sol points to a person and asks '¿Quién es?' — who is this? — and you say the Spanish word. Answer for every person Sol points to."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You introduced your whole familia in Spanish — mi mamá, mi papá, and everyone else you love! Next week, Sol meets the animals that live with us: las mascotas, our pets."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "multiple-choice-v1",
+        "config": {
+          "questions": [
+            {
+              "q": "Grown-up, read aloud: Sol points to the mom in the drawing. Which word means 'mom'?",
+              "options": ["el papá", "la mamá"],
+              "answer": 1,
+              "explanation": "¡Sí! La mamá means 'mom'. El papá means 'dad'."
+            },
+            {
+              "q": "Grown-up, read aloud: What does 'el abuelo' mean?",
+              "options": ["grandpa", "brother"],
+              "answer": 0,
+              "explanation": "¡Sí! El abuelo means 'grandpa'. El hermano means 'brother'."
+            },
+            {
+              "q": "Grown-up, read aloud: Which word means 'sister'?",
+              "options": ["la abuela", "la hermana"],
+              "answer": 1,
+              "explanation": "¡Sí! La hermana means 'sister'. La abuela means 'grandma'."
+            },
+            {
+              "q": "Grown-up, read aloud: Sol says 'la familia'. What does that mean?",
+              "options": ["the family, everyone together", "the baby"],
+              "answer": 0,
+              "explanation": "¡Sí! La familia means 'the family' — everyone together. El bebé is 'the baby'."
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-7-5",
+    "lessonId": "lesson-spanish-k-7-5",
+    "objectives": [
+      "Present their family drawing, naming each person with 'Mi ___' in Spanish",
+      "Answer Sol's spoken questions — '¿Dónde está...?' and '¿Quién es?' — by pointing and naming, in a cumulative review of the week's family words"
+    ],
+    "materialsNeeded": ["Yesterday's family drawing", "Sol the puppet"],
+    "facilitationScript": "1. Have your child hold up the drawing they made on Day 4.\n2. Model first with Sol: point to a figure and say 'Mi mamá,' 'Mi abuelo,' one person at a time.\n3. Let your child present their whole drawing the same way — 'Mi papá, mi hermana, mi bebé' — helping with any word.\n4. Welcome anyone the week's words do not cover: an aunt, an uncle, a cousin, a guardian — your child points and names them in English or a home word, and that counts.\n5. Switch to questions: Sol asks '¿Dónde está la mamá?' and your child points; Sol points and asks '¿Quién es?' and your child says the Spanish word.\n6. Play the on-screen multiple-choice review together, reading each question aloud since your child may not read yet.\n7. Close by having your child name every family word they can remember, and tell them next week is about pets — las mascotas.",
+    "differentiationTips": [
+      "Struggling: your child presents by pointing and saying one word per person, no 'Mi' needed",
+      "Ready for more: your child says a full sentence for each person — 'Esta es mi hermana, se llama Ana' — mixing in week 2's 'se llama'",
+      "This is a celebration lesson — the goal is a confident, proud presentation of family words already practiced this week, not anything new"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a cumulative present-and-answer activity — success looks like your child introducing each person on their drawing in Spanish and answering Sol's pointing questions. In the multiple-choice game: la mamá → mom, el abuelo → grandpa, la hermana → sister, la familia → the whole family together.",
+    "standardsRationale": "Closes week 7's WA-WL-2015.2.1 Cultures arc: the child presents their own family — the personal product of the week — using the Spanish words, and fields simple questions about it. Matches the scope-and-sequence's Day 5 design (family show-and-tell — present your drawing: 'Mi mamá, mi papá...') and folds every family word from Days 1-4 into one connected review rather than an isolated quiz drill. The linked mastery quiz (quiz-spanish-k-7-5) checks the same words plus one question on the Day 3 greeting practice."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-7-5",
+    "lessonId": "lesson-spanish-k-7-5",
+    "title": "Mi Mamá, Mi Papá: A Family Show-and-Tell",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud and do the show-and-tell together as your child's end-of-week family review.",
+      "rows": [
+        { "problem": "Your child holds up their family drawing and presents each person: 'Mi mamá, mi papá, mi hermano, mi abuela...'" },
+        { "problem": "Ask '¿Dónde está la mamá?' and '¿Dónde está el bebé?' — your child points to that person." },
+        { "problem": "Point to a person and ask '¿Quién es?' — your child says the Spanish word. Do it for everyone on the page." }
+      ]
+    }
+  }
+}

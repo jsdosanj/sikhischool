@@ -1,0 +1,93 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-7",
+    "courseId": "course-spanish-k",
+    "order": 7,
+    "title": "My Family",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-7-4",
+    "unitId": "unit-spanish-k-7",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Dibuja Tu Familia: Draw Your Family",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol has paper and crayons ready. Today you draw your familia — the people in your family — and your grown-up writes the Spanish word under each one."
+      },
+      {
+        "type": "text",
+        "ref": "practice-draw",
+        "text": "Draw the people who live with you and love you. Draw your mamá, or your papá, or both, or two mamás, or your abuela — whoever is in your home. Draw your hermanos and hermanas if you have them. Draw a bebé if there is one. Draw your pet too, if your pet feels like family! Take your time and color everyone in."
+      },
+      {
+        "type": "text",
+        "ref": "practice-label",
+        "text": "Now point to each person you drew and tell your grown-up who it is in Spanish: 'la mamá,' 'el abuelo,' 'la hermana.' Your grown-up says the word with you and writes it under that person. Every family is the right size. Every family is a familia."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Your family is on paper now, with a Spanish word under every face! Tomorrow, you show your drawing to Sol and tell everyone who is in your familia."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "speed-drill-v1",
+        "config": {
+          "deck": [
+            { "prompt": "family", "answer": "la familia" },
+            { "prompt": "mom", "answer": "la mamá" },
+            { "prompt": "dad", "answer": "el papá" },
+            { "prompt": "brother", "answer": "el hermano" },
+            { "prompt": "sister", "answer": "la hermana" },
+            { "prompt": "grandma", "answer": "la abuela" },
+            { "prompt": "grandpa", "answer": "el abuelo" },
+            { "prompt": "baby", "answer": "el bebé" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-7-4",
+    "lessonId": "lesson-spanish-k-7-4",
+    "objectives": [
+      "Draw the members of their own family, whatever its shape",
+      "Name each person in Spanish while an adult labels the drawing orally and in writing"
+    ],
+    "materialsNeeded": ["Paper and crayons or markers", "A pencil or pen for the adult to write labels", "Sol the puppet"],
+    "facilitationScript": "1. Give your child paper and crayons and explain that today's picture is their own familia.\n2. Let your child decide who to draw — do not correct the family they choose. If they ask, tell them to draw the people who live with them and love them.\n3. While they draw, chat in Spanish: 'Is that la mamá? Is that el bebé?' — but let your child lead.\n4. When the drawing is done, point to each figure and ask '¿Quién es?' ('Who is this?'). Your child answers with the Spanish word.\n5. Say the word together, then write it neatly under that person — this is environmental print, not a spelling task for your child.\n6. Read all the labels back together, pointing to each face.\n7. Play the on-screen speed-drill together, cheering each match.\n8. Close by asking your child to point to and name two people on their drawing without help.",
+    "differentiationTips": [
+      "Struggling: draw stick figures together and label just two or three people",
+      "Ready for more: your child copies the first letter of each label, or says 'Este es mi papá' for each person",
+      "A child who draws one person, or six, or a grandparent and a dog, has done the task right — resist nudging the drawing toward a 'standard' family"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a draw-and-name activity — success looks like your child drawing their real family and naming each person in Spanish as you label the picture. In the speed-drill game, each English word matches its Spanish family word: family → la familia, mom → la mamá, dad → el papá, brother → el hermano, sister → la hermana, grandma → la abuela, grandpa → el abuelo, baby → el bebé.",
+    "standardsRationale": "Advances week 7's WA-WL-2015.2.1 Cultures target by having each child apply the family words to their own household and see those words written down. Matches the scope-and-sequence's Day 4 design (draw-your-family; teacher labels orally as children name members), keeps the K-2 band's rule that written Spanish is environmental print and never a literacy requirement, and deliberately welcomes any family shape so the activity fits every child in the room."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-7-4",
+    "lessonId": "lesson-spanish-k-7-4",
+    "title": "Dibuja Tu Familia: Draw Your Family",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and draw together.",
+      "rows": [
+        { "problem": "Your child draws the people in their family — whoever lives with them and loves them. A pet can be family too." },
+        { "problem": "Point to each person. Your child names them in Spanish (la mamá, el abuelo, la hermana...) and you write the word underneath." },
+        { "problem": "Read all the labels back together, pointing to each face." }
+      ]
+    }
+  }
+}

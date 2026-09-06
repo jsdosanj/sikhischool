@@ -1,0 +1,94 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-7",
+    "courseId": "course-spanish-k",
+    "order": 7,
+    "title": "My Family",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-7-2",
+    "unitId": "unit-spanish-k-7",
+    "order": 2,
+    "dayOfWeek": 2,
+    "title": "Esta Es Mi Familia: A Family Photo Share",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Sol taped up a picture of Sol's family — a mamá sun, a papá sun, and a tiny bebé sun! Today you get to look at a photo of your own family and point to each person."
+      },
+      {
+        "type": "text",
+        "ref": "practice-grandparents",
+        "text": "Look closely at your family photo. Point to [[la abuela]] — that means grandma. Point to [[el abuelo]] — that means grandpa. Some children see their abuela and abuelo every day. Some live far away. Some children live with their abuelos. Say it out loud: 'la abuela,' 'el abuelo.'"
+      },
+      {
+        "type": "text",
+        "ref": "practice-point-name",
+        "text": "Now point to every person in your photo and name them in Spanish: la mamá, el papá, el hermano, la hermana, el bebé, la abuela, el abuelo. Maybe your photo has one of each. Maybe it has two mamás, or one papá, or three hermanos, or a dog you love! Every family is different, and every one is a familia."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You pointed to your whole familia and named each person in Spanish — even la abuela and el abuelo! Tomorrow, Sol tells a story about a big family day full of hugs."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "matching-pairs-v1",
+        "config": {
+          "instructions": "Match the Spanish family word to the person.",
+          "pairs": [
+            { "left": "la mamá", "right": "👩 mom" },
+            { "left": "el papá", "right": "👨 dad" },
+            { "left": "el hermano", "right": "👦 brother" },
+            { "left": "la hermana", "right": "👧 sister" },
+            { "left": "la abuela", "right": "👵 grandma" },
+            { "left": "el abuelo", "right": "👴 grandpa" },
+            { "left": "el bebé", "right": "👶 baby" },
+            { "left": "la familia", "right": "👪 the whole family" }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-7-2",
+    "lessonId": "lesson-spanish-k-7-2",
+    "objectives": [
+      "Add la abuela (grandma) and el abuelo (grandpa) to the family words from Day 1",
+      "Point to and name each member of their own family in Spanish while looking at a photo"
+    ],
+    "materialsNeeded": ["A family photo, or a few photos, that your child can point to", "Sol the puppet"],
+    "facilitationScript": "1. Sit with Sol and your child's family photo.\n2. Teach the two new words: point to a grandparent in the photo (or hold up a picture) and say la abuela for grandma, el abuelo for grandpa — have your child echo each.\n3. Say warmly that families are different: some children live with their abuelos, some see them on video calls, some far away — all of it is normal.\n4. Now walk the photo together. Point to each person and have your child name them in Spanish — la mamá, el papá, el hermano, la hermana, el bebé, la abuela, el abuelo — helping with any word.\n5. If your child's family does not match the word list one-to-one (two mamás, one parent, a guardian, many siblings, a beloved pet), name who IS there and skip who is not — the point is naming your own real family.\n6. Play the on-screen matching game together, reading each word aloud since your child may not read yet.\n7. Close by asking: 'What is la abuela in English? Point to el bebé in the photo.'",
+    "differentiationTips": [
+      "Struggling: name each person for your child first and have them just repeat and point",
+      "Ready for more: your child says a short sentence for each person — 'Esta es mi mamá,' 'Este es mi abuelo'",
+      "There is no 'right' family in the photo — a child naming a tío, a madrina, or a foster hermano is doing exactly the task"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a spoken pointing-and-naming activity — success looks like your child adding la abuela and el abuelo and naming the real people in their own photo. In the matching game: la mamá → mom, el papá → dad, el hermano → brother, la hermana → sister, la abuela → grandma, el abuelo → grandpa, el bebé → baby, la familia → the whole family.",
+    "standardsRationale": "Builds week 7's WA-WL-2015.2.1 Cultures target by tying the Spanish family words to the child's own family and naming out loud that families take many shapes. Matches the scope-and-sequence's Day 2 design (a family photo share — children point and name mamá, papá, hermanos), extends it with the grandparent words the Day 3 story needs, and gives the full set a quiet on-screen rep through the matching activity."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-7-2",
+    "lessonId": "lesson-spanish-k-7-2",
+    "title": "Esta Es Mi Familia: A Family Photo Share",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and look at a family photo together.",
+      "rows": [
+        { "problem": "Point to a grandparent and say the new words: la abuela (grandma), el abuelo (grandpa)." },
+        { "problem": "Point to every person in the photo and name them in Spanish: la mamá, el papá, el hermano, la hermana, el bebé, la abuela, el abuelo." },
+        { "problem": "Talk about it: whose family in the photo is big? Whose is small? Every one is a familia." }
+      ]
+    }
+  }
+}

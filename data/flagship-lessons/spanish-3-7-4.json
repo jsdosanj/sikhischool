@@ -1,0 +1,103 @@
+{
+  "unit": {
+    "id": "unit-spanish-3-7",
+    "courseId": "course-spanish-3",
+    "order": 7,
+    "title": "Colors and Describing Words: Los Colores",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-3-7-4",
+    "unitId": "unit-spanish-3-7",
+    "order": 4,
+    "dayOfWeek": 4,
+    "title": "Mis Cosas Favoritas: Write Three Describing Sentences",
+    "gradeLevel": "3",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Guessing games are done. Now you are the describer, on paper. Pick three things you like and write one Spanish sentence about each — the color, and what you think of it."
+      },
+      {
+        "type": "text",
+        "ref": "bonito-feo",
+        "text": "Two words for what you think of how something looks: [[bonito]] — pretty, nice-looking — and [[feo]] — ugly, not nice-looking. Both change to match the noun: bonito/bonita, feo/fea.\n\nMi dibujo es bonito.\nMi mochila es bonita.\nEl monstruo del cuento es feo.\nLa casa vieja es fea."
+      },
+      {
+        "type": "text",
+        "ref": "the-frame",
+        "text": "Here is your sentence frame. Use it three times:\n\nMi + (thing) + es + (color) + y + (bonito/bonita, feo/fea, or brillante)\n\nMi cuaderno es azul y bonito.\nMi regla es verde claro y bonita.\nMi bicicleta es roja y brillante.\n\nWatch the endings. Cuaderno is an 'el' word, so bonito. Regla is a 'la' word, so bonita. Brillante and any claro or oscuro shade never change."
+      },
+      {
+        "type": "text",
+        "ref": "write-your-three",
+        "text": "Choose three things you own or like — una mochila, un lápiz, una bicicleta, una camiseta, un cuarto. Write one sentence about each with the frame. Make at least one of them use a light or dark shade (claro or oscuro). Then read all three aloud to a parent or partner."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Three sentences, each with a color and an opinion, all the endings matching. Tomorrow you draw an arcoíris — a rainbow — and present it at a class art gallery."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "translate-v1",
+        "config": {
+          "items": [
+            { "prompt": "Write in Spanish: 'My notebook is blue.' (notebook = el cuaderno)", "acceptedAnswers": ["mi cuaderno es azul", "mi cuaderno es azul."] },
+            { "prompt": "Write in Spanish: 'My backpack is purple and pretty.' (backpack = la mochila)", "acceptedAnswers": ["mi mochila es morada y bonita", "mi mochila es morada y bonita."] },
+            { "prompt": "Write in Spanish: 'My ruler is light green.' (ruler = la regla)", "acceptedAnswers": ["mi regla es verde claro", "mi regla es verde claro."] },
+            { "prompt": "Write in Spanish: 'My bike is red and shiny.' (bike = la bicicleta)", "acceptedAnswers": ["mi bicicleta es roja y brillante", "mi bicicleta es roja y brillante."] }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-3-7-4",
+    "lessonId": "lesson-spanish-3-7-4",
+    "objectives": [
+      "Write three sentences with the frame Mi ___ es (color) y (bonito/bonita, feo/fea, or brillante)",
+      "Match bonito/feo to the noun (bonito with an 'el' word, bonita with a 'la' word)",
+      "Keep the color after the noun and keep brillante and claro/oscuro unchanged"
+    ],
+    "materialsNeeded": [
+      "Printed worksheet",
+      "Pencil",
+      "The Spanish notebook (el cuaderno)",
+      "Three favorite objects, or the child's memory of them",
+      "A parent or partner to read the finished sentences aloud to"
+    ],
+    "facilitationScript": "1. Review es + color + y + word from yesterday with one spoken example: Es azul y brillante.\n2. Teach bonito and feo, showing both endings: Mi dibujo es bonito / Mi mochila es bonita.\n3. Write the frame on paper: Mi ___ es (color) y (bonito/bonita, feo/fea, brillante). Fill it in together for one object the child owns.\n4. The child picks three things and writes one sentence each. Coach the endings: check the article of the noun, then match bonito/feo; leave brillante and claro/oscuro alone.\n5. The child reads all three aloud, slowly.\n6. Play the translate activity — type each English sentence in Spanish.\n7. Complete the worksheet (the child's own three sentences, neatly).\n8. Preview tomorrow: draw and present a rainbow.",
+    "differentiationTips": [
+      "Struggling: pre-write two of the three frames with the noun and article filled in, so the child only chooses the color and the opinion word",
+      "Ready for more: add a fourth sentence that describes something the child thinks is feo, and a fifth that contrasts two things ('Mi lápiz es amarillo, pero mi mochila es azul oscuro')",
+      "For the teaching adult: the most common error will be a mismatched ending ('mi mochila es bonito'). Point back to the article — la mochila, so bonita. Brillante ends in -e and claro/oscuro are invariable as shade words, so none of those three ever changes",
+      "This is a writing task, so it does not depend on the audio-recording gap noted elsewhere (open decision, expansion-plan-2026-09.md §12.9) — the read-aloud only needs a listener"
+    ],
+    "estimatedMinutes": 20,
+    "answerKey": "Frame: Mi ___ es (color) y (bonito/bonita, feo/fea, brillante). Model sentences: Mi cuaderno es azul y bonito. Mi regla es verde claro y bonita. Mi bicicleta es roja y brillante. Translate activity: 1. Mi cuaderno es azul. 2. Mi mochila es morada y bonita. 3. Mi regla es verde claro. 4. Mi bicicleta es roja y brillante. A correct child sentence has the color after the noun, the changing color and bonito/feo matching the noun's gender, and brillante / claro / oscuro left unchanged.",
+    "standardsRationale": "Day 4 in the scope-and-sequence is 'write three sentences describing favorite objects, using es + color + adjective.' This is presentational writing under WA-WL-2015.1.3: the child produces original, memorized-plus-adapted sentences — exactly the Novice Mid target the 3-5 band notes describe — and the write-then-read-aloud step rehearses Friday's spoken presentation. Requiring the endings to agree turns Tuesday's word-order rule into something the child applies unprompted rather than just recognizes."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-3-7-4",
+    "lessonId": "lesson-spanish-3-7-4",
+    "title": "Mis Cosas Favoritas: Write Three Describing Sentences",
+    "generationTemplateKey": "writing-lines-v1",
+    "generationData": {
+      "instructions": "Write three sentences about things you like. Use: Mi ___ es (color) y (bonito/bonita, feo/fea, or brillante). Read each one aloud.",
+      "prompts": [
+        { "prompt": "Sentence 1: describe something that is your favorite color.", "lines": 2 },
+        { "prompt": "Sentence 2: describe something using a light or dark shade (claro or oscuro).", "lines": 2 },
+        { "prompt": "Sentence 3: describe something you think is brillante or feo.", "lines": 2 },
+        { "prompt": "Copy your best sentence one more time, very neatly.", "lines": 2 }
+      ]
+    }
+  }
+}

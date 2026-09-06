@@ -1,0 +1,145 @@
+{
+  "unit": {
+    "id": "unit-spanish-9-7",
+    "courseId": "course-spanish-9",
+    "order": 7,
+    "title": "Narrating a Trip in the Past Tense",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-9-7-1",
+    "unitId": "unit-spanish-9-7",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "The Regular Preterite, Locked In: Endings for a Finished Story",
+    "gradeLevel": "9",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.1.3"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week ended in your own kitchen, teaching a family dish. This week the tense changes. You are going to narrate a trip — one that already happened, from the first day to the last — and for that Spanish reaches for one tense above all others: the preterite (el pretérito). Today you lock in its regular forms. The rest of the week you use them to tell a real story."
+      },
+      {
+        "type": "text",
+        "ref": "que-hace-el-preterito",
+        "text": "The preterite is the tense of the finished action. It names something that happened and ended: a trip you took, a place you visited, a meal you ate. 'Viajé a México' — I traveled to Mexico, one completed trip, over and done. Spanish has a second past tense, the imperfect, for the background and the 'used to' — that one comes in a few weeks (weeks 9-10). This week is only the preterite, and only its regular forms; the irregular verbs (fui, hice, tuve) are next week's job. That is enough to narrate an entire trip, as you will see tomorrow."
+      },
+      {
+        "type": "text",
+        "ref": "las-terminaciones",
+        "text": "Regular verbs take one of two ending sets, chosen by the infinitive ending.\n\n-AR verbs — viajar (to travel):\nviajé / viajaste / viajó / viajamos / viajaron\n(I traveled / you traveled / he-she-you traveled / we traveled / they-you all traveled)\n\n-ER and -IR verbs — comer (to eat), salir (to leave):\ncomí / comiste / comió / comimos / comieron\nsalí / saliste / salió / salimos / salieron\n\nThe single most useful fact here: -er and -ir verbs share the exact same preterite endings — -í, -iste, -ió, -imos, -ieron. You learn one set, not two. So 'I ate' is comí and 'I left' is salí; 'she ate' is comió and 'she left' salió."
+      },
+      {
+        "type": "text",
+        "ref": "los-acentos",
+        "text": "The written accent is not decoration in the preterite — it carries the meaning. The yo form ends in a stressed -é (-ar verbs) or -í (-er/-ir verbs). The él/ella/usted form ends in a stressed -ó (-ar) or -ió (-er/-ir). Drop the accent and you have changed the tense: viajo means 'I travel' (present, this year, every year); viajó means 'he traveled' (preterite, one finished trip). hablo / habló, compro / compró — same story. When you write a trip narrative this week, a missing accent is a wrong verb, not a typo."
+      },
+      {
+        "type": "text",
+        "ref": "nosotros-igual",
+        "text": "One overlap to know about. For -ar and -ir verbs, the nosotros preterite looks identical to the nosotros present: viajamos is both 'we travel' and 'we traveled'; vivimos is both 'we live' and 'we lived'. Only context tells you which. (For -er verbs they differ: comemos 'we eat' now, comimos 'we ate' then.) In a story set in the past the reader assumes the past reading — which is exactly why the time markers matter: el verano pasado, ese día, al final, el domingo."
+      },
+      {
+        "type": "text",
+        "ref": "una-nota-de-ortografia",
+        "text": "One spelling adjustment, only in the yo form, only for verbs whose infinitive ends in -car, -gar, or -zar. The consonant shifts to keep the sound:\nllegar → llegué (not 'llegé')\nsacar → saqué\nempezar → empecé\nEvery other form of these verbs is completely regular: llegaste, llegó, llegamos, llegaron. You will want llegué the moment you start a trip story — 'Llegué a la ciudad por la noche' — so it is worth knowing now. This is the only exception to the plain endings that this week teaches."
+      },
+      {
+        "type": "text",
+        "ref": "vocabulario-del-viaje",
+        "text": "Seven words for telling a travel story. Five of them today:\n[[la excursión]] — a short trip out from your base, usually a single day: una excursión a las montañas.\n[[alojarse]] — to stay, to lodge (where you sleep on a trip). It is reflexive, so it carries a pronoun: me alojé en un hotel, nos alojamos con mi tía, la familia se alojó cerca de la playa.\n[[recorrer]] — to travel around or through a place, to cover ground: recorrí la ciudad a pie, recorrimos toda la costa en tren. Not the same as visiting one spot — recorrer is the moving-through.\n[[el recuerdo]] — a memory, and also a souvenir, the object that holds the memory. Spanish uses one word for both: 'mi mejor recuerdo del viaje' and 'compré un recuerdo para mi hermano.'\n[[inolvidable]] — unforgettable. The ending works like English -able: inolvidable is 'un- + forget + -able.' Save it for the thing that genuinely earns it.\nThe last two — el destino and el itinerario — arrive in the next two days, when you plan a trip of your own."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "Tomorrow you read a finished trip narrative — a week in Oaxaca, told entirely in the regular preterite you just met — and take apart the four-part shape underneath almost every travel story: arrival, highlight, mishap, return."
+      }
+    ],
+    "activityRefs": [
+      {
+        "type": "game",
+        "componentKey": "cloze-v1",
+        "config": {
+          "items": [
+            {
+              "sentence": "El verano pasado, yo ___ a México con mi familia.",
+              "blankToken": "___",
+              "options": ["viajé", "viajó", "viajo", "viajaron"],
+              "answer": "viajé"
+            },
+            {
+              "sentence": "Nosotros ___ en una casa pequeña cerca del centro.",
+              "blankToken": "___",
+              "options": ["nos alojamos", "me alojé", "se alojó", "nos alojan"],
+              "answer": "nos alojamos"
+            },
+            {
+              "sentence": "Mi hermana ___ un regalo para mi abuela en el mercado.",
+              "blankToken": "___",
+              "options": ["compró", "compré", "compraron", "compra"],
+              "answer": "compró"
+            },
+            {
+              "sentence": "¿Tú ___ el centro histórico a pie?",
+              "blankToken": "___",
+              "options": ["recorriste", "recorrió", "recorrí", "recorremos"],
+              "answer": "recorriste"
+            },
+            {
+              "sentence": "Mis padres ___ muchas fotos del paisaje.",
+              "blankToken": "___",
+              "options": ["sacaron", "sacó", "sacamos", "sacan"],
+              "answer": "sacaron"
+            },
+            {
+              "sentence": "Después de la excursión, nosotros ___ en un restaurante típico.",
+              "blankToken": "___",
+              "options": ["comimos", "comemos", "comió", "comí"],
+              "answer": "comimos"
+            }
+          ]
+        }
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-9-7-1",
+    "lessonId": "lesson-spanish-9-7-1",
+    "objectives": [
+      "Conjugate regular -ar, -er, and -ir verbs in all five preterite forms, and state that -er and -ir verbs share one set of endings (-í, -iste, -ió, -imos, -ieron)",
+      "Explain that the written accent on the yo (-é/-í) and él/ella (-ó/-ió) forms carries the tense — viajo vs. viajó — and produce the -car/-gar/-zar yo spelling change (llegué, saqué, empecé)",
+      "Define and use la excursión, alojarse (reflexive), recorrer, el recuerdo, and inolvidable"
+    ],
+    "materialsNeeded": ["Printed worksheet", "Pencil"],
+    "facilitationScript": "1. Read the hook and the que-hace-el-preterito block. Have the student say, in their own words, the difference between 'viajo a México' and 'viajé a México.'\n2. Work through the las-terminaciones block on paper: write out viajar, comer, and salir in all five preterite forms. Have the student circle that comer and salir take identical endings.\n3. Read the los-acentos block. Say the pairs aloud: hablo / habló, compro / compró. Stress that a dropped accent changes the verb.\n4. Read nosotros-igual: viajamos and vivimos are the same in present and preterite; comer differs (comemos / comimos). Practice reading two sentences where only the time marker (hoy / el verano pasado) tells you the tense.\n5. Read una-nota-de-ortografia. Drill just the three yo forms: llegué, saqué, empecé. Note every other form is regular.\n6. Read the vocabulario-del-viaje block. For alojarse, conjugate all five reflexive preterite forms together (me alojé, te alojaste, se alojó, nos alojamos, se alojaron).\n7. Complete the cloze activity.\n8. Complete the worksheet. Preview tomorrow's model narrative.",
+    "differentiationTips": [
+      "Struggling: lock in just the -ar set (viajé, viajaste, viajó, viajamos, viajaron) and the fact that -er/-ir share one set, before attempting the -car/-gar/-zar spelling note — that exception can wait a day",
+      "Ready for more: have the student write six original preterite sentences about a real past weekend, using one -ar, one -er, one -ir, one reflexive (alojarse or acostarse), and one -car/-gar/-zar yo form",
+      "Watch for the student writing yo and él/ella forms without the accent — treat it as a wrong verb, not a spelling slip, and have them read the pair aloud (viajo / viajó) to hear the stress move"
+    ],
+    "estimatedMinutes": 30,
+    "answerKey": "viajar: viajé, viajaste, viajó, viajamos, viajaron. comer: comí, comiste, comió, comimos, comieron. vivir: viví, viviste, vivió, vivimos, vivieron (vivimos is identical to the present nosotros). alojarse: me alojé, te alojaste, se alojó, nos alojamos, se alojaron. -car/-gar/-zar yo forms: llegué, saqué, empecé. Accents carry the tense: viajo = 'I travel' (present), viajó = 'he/she traveled' (preterite). Vocabulary: la excursión = a day trip out from your base; alojarse = to stay/lodge (reflexive); recorrer = to travel around/through a place; el recuerdo = a memory or a souvenir; inolvidable = unforgettable.",
+    "standardsRationale": "Opens the week's Presentational standard (WA-WL-2015.1.3) by installing the one grammar system the rest of the week depends on — the regular preterite — per the scope-and-sequence's week 7 Day 1 design ('preterite regular forms locked in; travel-story vocabulary'). Deliberately bounded: regular forms only, with the -car/-gar/-zar yo spelling adjustment as the single taught exception; irregular preterites are week 8, and the preterite/imperfect contrast is weeks 9-10. A student cannot narrate a completed trip (this week's actual performance task) without the endings and their meaning-carrying accents, which is why Day 1 is analysis-and-drill rather than production."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-9-7-1",
+    "lessonId": "lesson-spanish-9-7-1",
+    "title": "The Regular Preterite, Locked In: Endings for a Finished Story",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Answer each question using today's preterite map. Watch your accents — a missing accent is a wrong verb.",
+      "rows": [
+        { "problem": "Conjugate viajar (to travel) in all five preterite forms: yo, tú, él/ella/usted, nosotros, ellos/ellas/ustedes." },
+        { "problem": "Conjugate comer (to eat) in all five preterite forms. Then conjugate salir (to leave). What do you notice about their endings?" },
+        { "problem": "Conjugate vivir (to live) in all five preterite forms. Which form is spelled exactly like the present-tense nosotros?" },
+        { "problem": "alojarse is reflexive. Write all five preterite forms (start: me alojé, te alojaste, ...)." },
+        { "problem": "These verbs change spelling in the yo preterite only. Write the yo form of each: llegar, sacar, empezar." },
+        { "problem": "Match each word to its meaning: la excursión / alojarse / recorrer / el recuerdo / inolvidable  —  (unforgettable / to travel around a place / a day trip from your base / to stay or lodge / a memory or souvenir)." }
+      ]
+    }
+  }
+}

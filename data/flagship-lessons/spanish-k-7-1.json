@@ -1,0 +1,75 @@
+{
+  "unit": {
+    "id": "unit-spanish-k-7",
+    "courseId": "course-spanish-k",
+    "order": 7,
+    "title": "My Family",
+    "weekOfYear": 7
+  },
+  "lesson": {
+    "id": "lesson-spanish-k-7-1",
+    "unitId": "unit-spanish-k-7",
+    "order": 1,
+    "dayOfWeek": 1,
+    "title": "La Familia Dedo: A Finger-Family Song",
+    "gradeLevel": "K",
+    "subject": "spanish",
+    "standardTags": ["WA-WL-2015.2.1"],
+    "contentBlocks": [
+      {
+        "type": "text",
+        "ref": "hook",
+        "text": "Last week Sol marched a paper doll in a color parade. Today Sol brings someone special — [[la familia]], the family! Hold up one hand and wiggle your five fingers. Sol is going to turn every finger into a person in a family."
+      },
+      {
+        "type": "text",
+        "ref": "practice-finger-song",
+        "text": "Point to your thumb — that is [[el papá]], the dad. Your pointer finger is [[la mamá]], the mom. Your middle finger is [[el hermano]], the brother. Your ring finger is [[la hermana]], the sister. And your tiny pinky is [[el bebé]], the baby! Now say Sol's finger rhyme, touching each finger as it comes: 'Este dedo es el papá, este dedo es la mamá, este es el hermano, esta es la hermana, y el chiquito es el bebé.'"
+      },
+      {
+        "type": "text",
+        "ref": "practice-repeat",
+        "text": "Wiggle your whole hand and say '¡Todos juntos son la familia!' — 'All together they are the family!' Say the rhyme again, once fast and once slow, touching each finger. Then close your hand into a fist for a big family hug."
+      },
+      {
+        "type": "text",
+        "ref": "closing",
+        "text": "You turned one hand into a whole familia — el papá, la mamá, el hermano, la hermana, and el bebé! Tomorrow, look at a photo of your own family and point to the people you love."
+      }
+    ],
+    "aiGenerated": true,
+    "aiReviewStatus": "pending"
+  },
+  "teacherGuide": {
+    "id": "guide-spanish-k-7-1",
+    "lessonId": "lesson-spanish-k-7-1",
+    "objectives": [
+      "Name five family members in Spanish — el papá, la mamá, el hermano, la hermana, el bebé — by touching the matching finger",
+      "Say the finger rhyme and call the whole hand la familia"
+    ],
+    "materialsNeeded": ["Just your hands", "Sol the puppet", "Optional: a family photo to look at while you sing"],
+    "facilitationScript": "1. Gather with Sol and hold up one open hand where your child can see it.\n2. Touch each finger and give it a name, having your child echo: thumb — el papá, pointer — la mamá, middle — el hermano, ring — la hermana, pinky — el bebé.\n3. Say the rhyme slowly, touching each finger on its word: 'Este dedo es el papá, este dedo es la mamá, este es el hermano, esta es la hermana, y el chiquito es el bebé.'\n4. Say it again together, letting your child do the finger touches this time.\n5. Wiggle the whole hand and say '¡Todos juntos son la familia!' — explain it means 'all together they are the family.'\n6. Play with the speed — one whisper-slow round, one fast round — then make a fist for a 'family hug.'\n7. Point to a finger at random and let your child name that family member without the rhyme.\n8. Close by asking: 'Which finger is el bebé? Which finger is la mamá?'",
+    "differentiationTips": [
+      "Struggling: teach just el papá, la mamá, and el bebé today, and add el hermano and la hermana once those three feel steady",
+      "Ready for more: your child says the rhyme solo while you only do the finger touches",
+      "If your family says 'mami' and 'papi' at home, tell your child those are the same people — 'la mamá' and 'el papá' are the full words this song uses, and both are right"
+    ],
+    "estimatedMinutes": 12,
+    "answerKey": "This is a spoken song-and-gesture activity — success looks like your child touching the right finger for each family word and trying the rhyme aloud, not a written answer.",
+    "standardsRationale": "Opens week 7's Cultures: Practices to Perspectives target (WA-WL-2015.2.1) by giving the child the family words that this week's photo-sharing, story, and show-and-tell all depend on. Matches the scope-and-sequence's Day 1 design — a family finger-play song, 'La familia dedo,' naming each finger family member — taught the way this K-2 band's oral/aural-first design calls for: a sung, physical, echo-based introduction with zero reading required."
+  },
+  "worksheet": {
+    "id": "worksheet-spanish-k-7-1",
+    "lessonId": "lesson-spanish-k-7-1",
+    "title": "La Familia Dedo: A Finger-Family Song",
+    "generationTemplateKey": "practice-problems-v1",
+    "generationData": {
+      "instructions": "Read each line aloud to your child and do the action together — there is nothing for your child to write today.",
+      "rows": [
+        { "problem": "Hold up one hand and name each finger: thumb — el papá, pointer — la mamá, middle — el hermano, ring — la hermana, pinky — el bebé." },
+        { "problem": "Say the rhyme together, touching each finger: 'Este dedo es el papá, este dedo es la mamá, este es el hermano, esta es la hermana, y el chiquito es el bebé.'" },
+        { "problem": "Wiggle the whole hand and say '¡Todos juntos son la familia!'" }
+      ]
+    }
+  }
+}

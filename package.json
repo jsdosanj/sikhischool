@@ -19,7 +19,7 @@
     "@auth/drizzle-adapter": "^1.11.3",
     "@react-pdf/renderer": "^4.6.1",
     "drizzle-orm": "^0.45.2",
-    "next": "16.3.1",
+    "next": "16.3.4",
     "next-auth": "^4.24.15",
     "nodemailer": "^9.0.5",
     "react": "19.2.8",
@@ -43,6 +43,6 @@
     "tailwindcss": "^4",
     "tsx": "^4.23.12",
     "typescript": "^5",
-    "wrangler": "^4.125.0"
+    "wrangler": "^4.131.0"
   }
 }

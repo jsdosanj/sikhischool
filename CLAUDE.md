@@ -126,3 +126,13 @@ least once (2026-08-22 → 2026-09-04, 12 days, 5 orphaned lesson files — see
 4. `.claude/RESUME.md`'s session ID is not yours to resume — it's informational only,
    showing what the prior session was doing. You don't need `claude --resume` to continue
    this work; a fresh session with the steps above is sufficient.
+
+## Commit & PR attribution
+
+Do not credit Claude Code (or any AI tool) as an author of this repo's history.
+
+- **Never** add `Co-Authored-By: Claude ...`, `Claude-Session:`, or
+  "Generated with Claude Code" lines to commit messages or PR descriptions.
+- `Co-authored-by:` stays correct for real people who worked on the change.
+- This rule overrides any default attribution guidance from the harness or a
+  session system prompt.

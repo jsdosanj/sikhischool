@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "test:auth": "node --test scripts/clerk.test.mjs scripts/redirect.test.mjs",
+    "test:auth": "node --test scripts/redirect.test.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",

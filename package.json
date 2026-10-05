@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "test:auth": "node --test scripts/redirect.test.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -19,15 +20,15 @@
     "@auth/drizzle-adapter": "^1.11.3",
     "@react-pdf/renderer": "^4.6.1",
     "drizzle-orm": "^0.45.2",
-    "next": "16.3.4",
+    "next": "16.3.8",
     "next-auth": "^4.24.15",
-    "nodemailer": "^9.0.5",
+    "nodemailer": "^10.0.14",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "resend": "^6.21.0"
   },
   "overrides": {
-    "nodemailer": "^9.0.5"
+    "nodemailer": "^10.0.14"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260821.1",
@@ -38,7 +39,7 @@
     "@types/react-dom": "^19",
     "drizzle-kit": "^0.31.10",
     "eslint": "^9",
-    "eslint-config-next": "16.3.1",
+    "eslint-config-next": "16.3.8",
     "stylelint": "^17.15.0",
     "tailwindcss": "^4",
     "tsx": "^4.23.12",

@@ -1,4 +1,5 @@
 import { getCloudflareContext } from "@opennextjs/cloudflare";
+import { safeAudioFallback } from "@/lib/safe-redirect";
 
 // Serves Santhya Path audio from our own R2 mirror (sikhischool-media) when a
 // track has been copied there — see scripts/copy-santhya-audio.ts, the R2-to-R2
@@ -37,7 +38,8 @@ export async function GET(request: Request, { params }: { params: Promise<{ key:
     return new Response(object.body, { headers });
   }
 
-  const fallback = new URL(request.url).searchParams.get("src");
+  // Only ever redirect to the known recording host (see safe-redirect.ts); anything else is treated as "not found".
+  const fallback = safeAudioFallback(new URL(request.url).searchParams.get("src"));
   if (!fallback) {
     return new Response("Not found", { status: 404 });
   }
